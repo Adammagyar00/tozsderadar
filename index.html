@@ -103,6 +103,9 @@ aside { display: grid; gap: 18px; align-content: start; }
 .tag-e { font-family: var(--font-data); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #2f4f8f; background: #e3eafa; padding: 1px 5px; border-radius: 4px; }
 :root[data-theme="dark"] .tag-e { color: #9fb8f0; background: #1c2742; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag-e { color: #9fb8f0; background: #1c2742; } }
+.tag-s { font-family: var(--font-data); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #6b3f8a; background: #f1e6f8; padding: 1px 5px; border-radius: 4px; }
+:root[data-theme="dark"] .tag-s { color: #d4a8f0; background: #33213f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag-s { color: #d4a8f0; background: #33213f; } }
 .wl-name .nm { font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .wl-px { font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
 .wl-px .up { color: var(--up); } .wl-px .down { color: var(--down); } .wl-px .flat, .wl-px .na { color: var(--muted); }
@@ -269,6 +272,7 @@ aside { display: grid; gap: 18px; align-content: start; }
       const name = el("div", "wl-name");
       if (String(w.type || "").toLowerCase().startsWith("kripto")) name.append(el("span", "tag-c", "Crypto"));
       else if (/^etf/i.test(String(w.type || ""))) name.append(el("span", "tag-e", "ETF"));
+      else name.append(el("span", "tag-s", "Stock"));
       name.append(el("span", "sym", w.symbol), el("span", "nm", w.name));
       name.title = w.name + (w.type ? " · " + w.type : "");
       const px = el("div", "wl-px");
