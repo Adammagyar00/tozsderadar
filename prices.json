@@ -1,0 +1,102 @@
+{
+ "source": "Finnhub",
+ "updatedAt": "2026-10-27T18:55:05Z",
+ "quotes": {
+  "LLY": {
+   "price": 1277.82,
+   "change": -0.1032,
+   "prevClose": 1279.14,
+   "t": 1793127241
+  },
+  "MU": {
+   "price": 931.89,
+   "change": 3.1194,
+   "prevClose": 903.7,
+   "t": 1793127261
+  },
+  "MRVL": {
+   "price": 242.37,
+   "change": 3.6744,
+   "prevClose": 233.78,
+   "t": 1793127259
+  },
+  "SPCX": {
+   "price": 149.8,
+   "change": 1.9741,
+   "prevClose": 146.9,
+   "t": 1793127283
+  },
+  "BE": {
+   "price": 219.66,
+   "change": 7.7187,
+   "prevClose": 203.92,
+   "t": 1793127277
+  },
+  "JPM": {
+   "price": 336.2,
+   "change": 0.6466,
+   "prevClose": 334.04,
+   "t": 1793127268
+  },
+  "ITA": {
+   "price": 206.42,
+   "change": -0.3572,
+   "prevClose": 207.16,
+   "t": 1793127283
+  },
+  "VOO": {
+   "price": 707.14,
+   "change": 0.5303,
+   "prevClose": 703.41,
+   "t": 1793127280
+  },
+  "QQQ": {
+   "price": 720.78,
+   "change": 1.2047,
+   "prevClose": 712.2,
+   "t": 1793127283
+  },
+  "NVDA": {
+   "price": 217.6,
+   "change": 0.7407,
+   "prevClose": 216,
+   "t": 1793127283
+  },
+  "TSLA": {
+   "price": 406.99,
+   "change": 3.9247,
+   "prevClose": 391.62,
+   "t": 1793127284
+  },
+  "AAPL": {
+   "price": 345.74,
+   "change": 0.5321,
+   "prevClose": 343.91,
+   "t": 1793127284
+  },
+  "AMZN": {
+   "price": 254.44,
+   "change": 2.1478,
+   "prevClose": 249.09,
+   "t": 1793127283
+  },
+  "META": {
+   "price": 622.52,
+   "change": -1.2751,
+   "prevClose": 630.56,
+   "t": 1793127284
+  },
+  "AVGO": {
+   "price": 342.28,
+   "change": 3.9827,
+   "prevClose": 329.17,
+   "t": 1793127284
+  },
+  "NFLX": {
+   "price": 62.63,
+   "change": -1.9875,
+   "prevClose": 63.9,
+   "t": 1793127283
+  }
+ }
+}
