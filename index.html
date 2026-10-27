@@ -350,6 +350,9 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   }
 
   const LIVE_CG = {};
+  // Részvény- és ETF-árak a GitHub Actions által 15 percenként frissített prices.json-ból
+  const LIVE_STK = {};
+  let stockAt = null;
   let tapeSig = "";
   function renderTape(d) {
     const m = d.markets || [];
@@ -363,15 +366,17 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       let grp = null;
       for (const x of m) {
         // Ellenőrzött érték vagy élő ár nélkül nem mutatjuk az elemet
-        if (!x.value && !(x.cg && LIVE_CG[x.cg])) continue;
+        const stk = x.group === "Részvény" ? LIVE_STK[String(x.name).toUpperCase()] : null;
+        if (!x.value && !(x.cg && LIVE_CG[x.cg]) && !stk) continue;
         const s = el("div", "tick");
         if ((x.group || "") !== grp) { grp = x.group || ""; if (grp) s.append(el("span", "tick-grp", grp)); }
         s.append(el("b", null, x.name));
-        const live = x.cg && LIVE_CG[x.cg];
+        const live = (x.cg && LIVE_CG[x.cg]) || stk;
         const val = el("span", "val", live ? live.price : (x.value || ""));
         const chgText = live ? live.change : (x.change || "");
         const chg = el("span", "chg " + dirOf(chgText), chgText);
         if (x.cg) { val.dataset.cg = x.cg; chg.dataset.cgChg = x.cg; }
+        else if (x.group === "Részvény") { val.dataset.sym = String(x.name).toUpperCase(); chg.dataset.symChg = val.dataset.sym; }
         if (val.textContent) s.append(val);
         if (chgText || x.cg) s.append(chg);
         if (x.note) s.title = x.note;
@@ -414,7 +419,12 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const d = current();
     const quotes = new Map(((d && d.watchlist) || []).map((q) => [String(q.symbol).toUpperCase(), q]));
     const asOf = $("wlAsOf"); asOf.replaceChildren();
-    if (liveAt) { asOf.append(el("span", "live-dot"), "kripto élő · " + liveAt.toLocaleTimeString("hu-HU") + " (CoinGecko)"); }
+    if (liveAt || stockAt) {
+      const parts = [];
+      if (stockAt) parts.push("részvény " + stockAt.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" }));
+      if (liveAt) parts.push("kripto " + liveAt.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" }));
+      asOf.append(el("span", "live-dot"), "élő · " + parts.join(" · "));
+    }
     else if (d && d.watchlist && d.watchlist.length) asOf.textContent = "árak: " + (d.watchlistAsOf || d.date);
     const isCrypto = (w) => String(w.type || "").toLowerCase().startsWith("kripto");
     const sorted = [...watchlist].sort((a, b) => (isCrypto(b) - isCrypto(a)) || ((a.order || 0) - (b.order || 0)));
@@ -759,6 +769,25 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   if (window.__GN_REMOTE__) {
     $("exportBtn").hidden = true;
     let first = true;
+    const loadPrices = async () => {
+      try {
+        const r = await fetch("prices.json?t=" + Date.now(), { cache: "no-store" });
+        if (!r.ok) return;
+        const p = await r.json();
+        const fmtPct = (v) => typeof v === "number" ? (v >= 0 ? "+" : "") + v.toFixed(2).replace(".", ",") + "%" : "";
+        for (const [sym, q] of Object.entries(p.quotes || {})) {
+          if (typeof q.price !== "number") continue;
+          const when = q.t ? new Date(q.t * 1000).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
+          const entry = { symbol: sym, price: fmtUsd(q.price) + " $", change: fmtPct(q.change), note: "Utolsó ár " + when + ", napi változás", source: p.source || "Finnhub" };
+          LIVE[sym.toUpperCase()] = entry;
+          LIVE_STK[sym.toUpperCase()] = entry;
+          for (const n of document.querySelectorAll('[data-sym="' + sym.toUpperCase() + '"]')) n.textContent = entry.price;
+          for (const n of document.querySelectorAll('[data-sym-chg="' + sym.toUpperCase() + '"]')) { n.textContent = entry.change; n.className = "chg " + dirOf(entry.change); }
+        }
+        if (p.updatedAt) stockAt = new Date(p.updatedAt);
+        renderWatchlist();
+      } catch (e) { /* ha nincs prices.json, maradnak a napi záróárak */ }
+    };
     const loadRemote = async () => {
       try {
         const r = await fetch(window.__GN_REMOTE__ + "?t=" + Date.now(), { cache: "no-store" });
@@ -769,6 +798,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         calEvents = j.calendar || [];
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
+        loadPrices();
         if (first) { first = false; pollLive(); setInterval(pollLive, 60000); }
       } catch (e) {
         if (first) { watchlist = []; renderEmpty("Az összefoglaló most nem tölthető be", "Nem sikerült betölteni az adatokat. Töltsd újra az oldalt."); renderWatchlist(); }
