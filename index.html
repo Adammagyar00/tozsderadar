@@ -1,0 +1,462 @@
+<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*,*::before,*::after{box-sizing:border-box}body{margin:0;font-size:14px;font-family:system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
+<title>Tőzsdei Radar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style id="gn-style">
+/* Layout: napi kiadás — tőzsdei szalag felül, vezércikk és hírek balra, naptár + figyelőlista + archívum jobbra */
+:root {
+  --bg: #f3f5f4;
+  --surface: #ffffff;
+  --fg: #16201d;
+  --muted: #5b6a65;
+  --line: #d8dfdc;
+  --accent: #0f6b55;
+  --accent-soft: #e0efe9;
+  --up: #157a3e;
+  --down: #b3322b;
+  --flat: #6b6f75;
+  --tape: #12211c;
+  --tape-fg: #e7efe9;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-data: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1513; --surface: #152019; --fg: #e4ece8; --muted: #93a49d; --line: #26352f;
+    --accent: #4cc39d; --accent-soft: #183229; --up: #5bd08a; --down: #f0776e; --flat: #9aa0a6;
+    --tape: #08100d; --tape-fg: #d6e4dd; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1513; --surface: #152019; --fg: #e4ece8; --muted: #93a49d; --line: #26352f;
+  --accent: #4cc39d; --accent-soft: #183229; --up: #5bd08a; --down: #f0776e; --flat: #9aa0a6;
+  --tape: #08100d; --tape-fg: #d6e4dd; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
+.wrap { max-width: 1600px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+header.mast { border-bottom: 1px solid var(--line); }
+header.mast .wrap { padding-block: 22px 16px; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+.brand { font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 4vw, 36px); letter-spacing: -0.02em; margin: 0; }
+.brand span { color: var(--accent); }
+.hdr-right { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.btn-ghost { font: inherit; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; }
+.btn-ghost:hover { background: var(--accent-soft); }
+.btn-ghost:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hint { font-size: 12px; color: var(--muted); }
+.live-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--up); margin-right: 5px; vertical-align: 1px; }
+.edition { font-family: var(--font-data); font-size: 13px; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
+
+.tape { background: var(--tape); color: var(--tape-fg); }
+.tape .wrap { padding-block: 10px; }
+.tape-row { display: flex; gap: 10px 28px; overflow-x: auto; scrollbar-width: thin; font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; }
+.tick { display: flex; gap: 8px; white-space: nowrap; align-items: baseline; }
+.tick b { font-weight: 600; opacity: 0.75; }
+.tick .chg.up { color: #6fe0a0; } .tick .chg.down { color: #ff8f86; } .tick .chg.flat { color: #b8c0bc; }
+
+main .wrap { display: grid; grid-template-columns: minmax(0, 1fr) clamp(360px, 30vw, 460px); gap: clamp(32px, 4vw, 64px); padding-block: 28px 56px; align-items: start; }
+@media (max-width: 920px) { main .wrap { grid-template-columns: minmax(0, 1fr); gap: 28px; } }
+
+.lead-eyebrow, .sec-label { font-family: var(--font-data); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.lead h2 { font-family: var(--font-display); font-weight: 700; font-size: clamp(24px, 3.4vw, 34px); line-height: 1.15; letter-spacing: -0.015em; margin: 6px 0 12px; text-wrap: balance; }
+.lead p { margin: 0; max-width: 80ch; font-size: 17px; }
+.stamp { margin-top: 10px; font-size: 13px; color: var(--muted); }
+
+.section { margin-top: 34px; display: grid; gap: 12px; }
+.section-head { display: flex; align-items: baseline; gap: 12px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.section-head h3 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin: 0; }
+.section-head .count { font-family: var(--font-data); font-size: 12px; color: var(--muted); }
+
+.item { display: grid; grid-template-columns: 6px minmax(0, 1fr); gap: 14px; padding: 12px 0; border-bottom: 1px dashed var(--line); }
+.item:last-child { border-bottom: 0; }
+.bar { border-radius: 3px; background: var(--flat); }
+.bar.pozitiv { background: var(--up); } .bar.negativ { background: var(--down); }
+.item h4 { margin: 0 0 4px; font-size: 17px; font-weight: 600; line-height: 1.3; text-wrap: balance; }
+.item p { margin: 0; max-width: 90ch; color: var(--fg); }
+.meta { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); align-items: center; }
+.pill { font-family: var(--font-data); font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; text-transform: uppercase; letter-spacing: 0.05em; }
+.pill.pozitiv { color: var(--up); } .pill.negativ { color: var(--down); } .pill.semleges { color: var(--flat); }
+.sym { font-family: var(--font-data); font-size: 12px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 1px 6px; border-radius: 4px; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+aside { display: grid; gap: 18px; align-content: start; }
+@media (min-width: 921px) { aside { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); max-height: calc(100vh - 32px); overflow-y: auto; scrollbar-width: thin; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 10px; }
+.panel-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.panel-head .hint { font-size: 12px; color: var(--muted); }
+
+.cal { display: grid; }
+.cal-row { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 10px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 15px; line-height: 1.35; }
+.cal-row:last-child { border-bottom: 0; }
+.cal-row time { font-family: var(--font-data); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
+
+.wl { display: grid; }
+.wl-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; padding: 8px 0; border-bottom: 1px dashed var(--line); align-items: baseline; }
+.wl-row:last-child { border-bottom: 0; }
+.wl-name { display: flex; gap: 8px; align-items: baseline; min-width: 0; }
+.tag-c { font-family: var(--font-data); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #8a5a00; background: #fbefd5; padding: 1px 5px; border-radius: 4px; }
+:root[data-theme="dark"] .tag-c { color: #f2c46d; background: #3a2c10; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag-c { color: #f2c46d; background: #3a2c10; } }
+.tag-e { font-family: var(--font-data); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #2f4f8f; background: #e3eafa; padding: 1px 5px; border-radius: 4px; }
+:root[data-theme="dark"] .tag-e { color: #9fb8f0; background: #1c2742; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag-e { color: #9fb8f0; background: #1c2742; } }
+.wl-name .nm { font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.wl-px { font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.wl-px .up { color: var(--up); } .wl-px .down { color: var(--down); } .wl-px .flat, .wl-px .na { color: var(--muted); }
+.wl-note { grid-column: 1 / -1; font-size: 13px; color: var(--muted); line-height: 1.35; }
+.wl-note a { font-size: 12px; }
+.wl-del { background: none; border: 0; color: var(--muted); cursor: pointer; font: inherit; font-size: 15px; padding: 0 2px; line-height: 1; }
+.wl-del:hover { color: var(--down); }
+.wl-add { display: grid; grid-template-columns: 80px minmax(0, 1fr) auto; gap: 6px; }
+.wl-add input { font: inherit; font-size: 14px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; }
+.btn { font: inherit; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 6px; border: 0; background: var(--accent); color: var(--surface); cursor: pointer; }
+
+.archive ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; max-height: 260px; overflow-y: auto; }
+.archive button { width: 100%; text-align: left; background: none; border: 0; padding: 7px 10px; border-radius: 6px; font: inherit; color: var(--fg); cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
+.archive button:hover { background: var(--accent-soft); }
+.archive button[aria-current="true"] { background: var(--accent); color: var(--surface); }
+.archive .d { font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; }
+.archive .n { font-size: 12px; opacity: 0.75; }
+.about { font-size: 13px; color: var(--muted); line-height: 1.45; }
+.about p { margin: 6px 0 0; }
+
+.empty { padding: 40px 0; max-width: 60ch; }
+.empty h2 { font-family: var(--font-display); margin: 0 0 8px; }
+.empty p { color: var(--muted); margin: 0; }
+.muted { color: var(--muted); font-size: 14px; }
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <h1 class="brand">Tőzsdei <span>Radar</span></h1>
+    <div class="hdr-right">
+      <div class="edition" id="edition">Napi gazdasági összefoglaló</div>
+      <button class="btn-ghost" type="button" id="exportBtn">Exportálás HTML-be</button>
+      <span class="hint" id="exportStatus" role="status"></span>
+    </div>
+  </div>
+</header>
+<div class="tape" id="tapeBand" hidden>
+  <div class="wrap"><div class="tape-row" id="tape" aria-label="Piaci mutatók"></div></div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div id="content">
+      <div class="empty">
+        <h2>A mai kiadás betöltése…</h2>
+        <p>Itt jelenik meg a nap legfontosabb gazdasági híreinek összefoglalója: piacok, jegybankok, a forint, nyersanyagok és a hazai gazdaság. Minden reggel automatikusan frissül.</p>
+      </div>
+    </div>
+    <aside>
+      <section class="panel" aria-labelledby="calLabel">
+        <div class="panel-head"><div class="sec-label" id="calLabel">Mire figyeljünk</div><span class="hint">közelgő események</span></div>
+        <div class="cal" id="cal"><p class="muted">A naptár a kiadással együtt töltődik be.</p></div>
+      </section>
+      <section class="panel" aria-labelledby="wlLabel">
+        <div class="panel-head"><div class="sec-label" id="wlLabel">Figyelőlista</div><span class="hint" id="wlAsOf"></span></div>
+        <div class="wl" id="wl"><p class="muted">A figyelőlista betöltése…</p></div>
+        <form class="wl-add" id="wlAdd" hidden>
+          <input id="wlSym" placeholder="Jelölés" aria-label="Jelölés, például NVDA" maxlength="12" required>
+          <input id="wlName" placeholder="Név" aria-label="Név" maxlength="80" required>
+          <button class="btn" type="submit">Hozzáad</button>
+        </form>
+      </section>
+      <nav class="panel archive" aria-label="Korábbi kiadások">
+        <div class="sec-label">Archívum</div>
+        <ul id="archive"><li class="about">Még nincs korábbi kiadás.</li></ul>
+      </nav>
+      <div class="about">
+        <div class="sec-label">Hogyan készül</div>
+        <p>Claude minden reggel átnézi a friss gazdasági híreket, és ide írja a nap összefoglalóját. Csak megbízható forrással alátámasztott, ellenőrzött hír kerül be, minden hírnél linkkel a forrásra; ami nincs megerősítve, az kimarad. A színes csík jelzi, hogy egy hír inkább kedvező (zöld), kedvezőtlen (piros) vagy semleges.</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<script>window.__GN_REMOTE__ = "data.json";</script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  // Az exporthoz: a saját forrás és a kiinduló jelölés, mielőtt bármi kirajzolódik
+  const SELF_SRC = document.currentScript ? document.currentScript.textContent : "";
+  const INITIAL = ["header.mast", "#tapeBand", "main"].map((s) => document.querySelector(s)?.outerHTML || "").join("\n");
+  const STYLE_SRC = document.getElementById("gn-style")?.textContent || "";
+  const LIVE = {};
+  let liveAt = null;
+  const HU_MONTHS = ["január","február","március","április","május","június","július","augusztus","szeptember","október","november","december"];
+  const HU_DAYS = ["vasárnap","hétfő","kedd","szerda","csütörtök","péntek","szombat"];
+  const fmtDate = (iso) => {
+    const [y, m, d] = iso.split("-").map(Number);
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    return `${y}. ${HU_MONTHS[m - 1]} ${d}., ${HU_DAYS[dt.getUTCDay()]}`;
+  };
+  const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+  const tone = (v) => ({ "pozitív": "pozitiv", "negatív": "negativ" }[v] || "semleges");
+  const dirOf = (ch) => { ch = String(ch || ""); return ch.startsWith("+") ? "up" : (ch.startsWith("-") || ch.startsWith("−")) ? "down" : "flat"; };
+  const safeUrl = (u) => (typeof u === "string" && /^https?:\/\//i.test(u)) ? u : null;
+  const link = (u, text) => { const a = el("a", null, text); a.href = u; a.target = "_blank"; a.rel = "noopener"; return a; };
+
+  let digests = [];
+  let selected = null;
+  let watchlist = null;
+  let canEdit = false;
+  let db = null;
+
+  const current = () => digests.find((x) => x.date === selected) || digests[0] || null;
+
+  function renderEmpty(msg, detail) {
+    const c = $("content"); c.replaceChildren();
+    const box = el("div", "empty"); box.append(el("h2", null, msg), el("p", null, detail)); c.append(box);
+  }
+
+  function renderArchive() {
+    const ul = $("archive"); ul.replaceChildren();
+    if (!digests.length) { ul.append(el("li", "about", "Még nincs korábbi kiadás.")); return; }
+    for (const d of digests) {
+      const li = el("li"); const b = el("button");
+      b.type = "button";
+      b.setAttribute("aria-current", String(d.date === selected));
+      b.append(el("span", "d", d.date.replaceAll("-", ".")), el("span", "n", `${(d.items || []).length} hír`));
+      b.addEventListener("click", () => { selected = d.date; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+      li.append(b); ul.append(li);
+    }
+  }
+
+  function renderTape(d) {
+    const t = $("tape"); t.replaceChildren();
+    const m = d.markets || [];
+    $("tapeBand").hidden = !m.length;
+    for (const x of m) {
+      const s = el("div", "tick");
+      s.append(el("b", null, x.name));
+      if (x.value) s.append(el("span", null, x.value));
+      if (x.change) s.append(el("span", "chg " + dirOf(x.change), x.change));
+      if (x.note) s.title = x.note;
+      t.append(s);
+    }
+  }
+
+  function renderCalendar(d) {
+    const cal = $("cal"); cal.replaceChildren();
+    const rows = (d && d.calendar) || [];
+    if (!rows.length) { cal.append(el("p", "muted", "Nincs megerősített közelgő esemény.")); return; }
+    for (const e of rows) {
+      const r = el("div", "cal-row");
+      r.append(el("time", null, e.date || ""), el("div", null, e.event || ""));
+      cal.append(r);
+    }
+  }
+
+  function renderWatchlist() {
+    const box = $("wl"); box.replaceChildren();
+    $("wlAdd").hidden = !canEdit;
+    if (watchlist === null) { box.append(el("p", "muted", "A figyelőlista betöltése…")); return; }
+    if (!watchlist.length) { box.append(el("p", "muted", "A figyelőlista üres. Adj hozzá egy részvényt vagy ETF-et a jelölésével.")); return; }
+    const d = current();
+    const quotes = new Map(((d && d.watchlist) || []).map((q) => [String(q.symbol).toUpperCase(), q]));
+    const asOf = $("wlAsOf"); asOf.replaceChildren();
+    if (liveAt) { asOf.append(el("span", "live-dot"), "kripto élő · " + liveAt.toLocaleTimeString("hu-HU") + " (CoinGecko)"); }
+    else if (d && d.watchlist && d.watchlist.length) asOf.textContent = "árak: " + (d.watchlistAsOf || d.date);
+    const isCrypto = (w) => String(w.type || "").toLowerCase().startsWith("kripto");
+    const sorted = [...watchlist].sort((a, b) => (isCrypto(b) - isCrypto(a)) || ((a.order || 0) - (b.order || 0)));
+    for (const w of sorted) {
+      const q = LIVE[String(w.symbol).toUpperCase()] || quotes.get(String(w.symbol).toUpperCase());
+      const row = el("div", "wl-row");
+      const name = el("div", "wl-name");
+      if (String(w.type || "").toLowerCase().startsWith("kripto")) name.append(el("span", "tag-c", "Crypto"));
+      else if (/^etf/i.test(String(w.type || ""))) name.append(el("span", "tag-e", "ETF"));
+      name.append(el("span", "sym", w.symbol), el("span", "nm", w.name));
+      name.title = w.name + (w.type ? " · " + w.type : "");
+      const px = el("div", "wl-px");
+      if (q && q.price) {
+        px.append(el("span", null, q.price + " "));
+        if (q.change) px.append(el("span", dirOf(q.change), q.change));
+      } else {
+        px.append(el("span", "na", "nincs adat"));
+      }
+      if (canEdit) {
+        const del = el("button", "wl-del", "×");
+        del.type = "button";
+        del.setAttribute("aria-label", "Törlés: " + w.name);
+        del.addEventListener("click", async () => {
+          try { await db.collection("watchlist").doc(w.id).delete(); } catch (e) { del.textContent = "!"; del.title = "Nem sikerült törölni. Próbáld újra."; }
+        });
+        px.append(" ", del);
+      }
+      row.append(name, px);
+      if (q && (q.note || q.source)) row.title = [q.note, q.source && "Forrás: " + q.source].filter(Boolean).join(" · ");
+      box.append(row);
+    }
+  }
+
+  function renderDigest(d) {
+    const c = $("content"); c.replaceChildren();
+    const lead = el("section", "lead");
+    lead.append(el("div", "lead-eyebrow", "A nap röviden"), el("h2", null, d.headline || "Napi összefoglaló"));
+    if (d.summary) lead.append(el("p", null, d.summary));
+    if (d.generatedAt) {
+      const g = new Date(d.generatedAt);
+      if (!isNaN(g)) lead.append(el("div", "stamp", "Összeállítva: " + g.toLocaleString("hu-HU", { dateStyle: "medium", timeStyle: "short" })));
+    }
+    c.append(lead);
+
+    const groups = new Map();
+    for (const it of d.items || []) {
+      const k = it.category || "Egyéb";
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(it);
+    }
+    for (const [cat, items] of groups) {
+      const sec = el("section", "section");
+      const head = el("div", "section-head");
+      head.append(el("h3", null, cat), el("span", "count", `${items.length} hír`));
+      sec.append(head);
+      for (const it of items) {
+        const row = el("article", "item");
+        row.append(el("div", "bar " + tone(it.impact)));
+        const body = el("div");
+        body.style.minWidth = "0";
+        body.append(el("h4", null, it.title), el("p", null, it.summary));
+        const meta = el("div", "meta");
+        meta.append(el("span", "pill " + tone(it.impact), it.impact || "semleges"));
+        for (const s of it.symbols || []) meta.append(el("span", "sym", s));
+        const u = safeUrl(it.url);
+        if (u) meta.append(link(u, it.source || "Forrás"));
+        else if (it.source) meta.append(el("span", null, it.source));
+        body.append(meta); row.append(body); sec.append(row);
+      }
+      c.append(sec);
+    }
+  }
+
+  function render() {
+    renderArchive();
+    const d = current();
+    renderCalendar(d);
+    renderWatchlist();
+    if (!d) { $("tapeBand").hidden = true; renderEmpty("Még nincs kiadás", "Az első összefoglaló a következő reggeli frissítéskor jelenik meg."); return; }
+    $("edition").textContent = fmtDate(d.date);
+    renderTape(d); renderDigest(d);
+  }
+
+  $("wlAdd").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const sym = $("wlSym").value.trim().toUpperCase().replace(/[^A-Z0-9.\-]/g, "");
+    const name = $("wlName").value.trim();
+    if (!sym || !name || !db) return;
+    const order = watchlist && watchlist.length ? Math.max(...watchlist.map((w) => w.order || 0)) + 1 : 1;
+    try {
+      await db.collection("watchlist").doc(sym.replace(/\./g, "-")).set({ symbol: sym, name, type: "", order });
+      $("wlSym").value = ""; $("wlName").value = "";
+    } catch (e) {
+      $("wlName").setCustomValidity("Nem sikerült menteni. Próbáld újra."); $("wlName").reportValidity();
+      setTimeout(() => $("wlName").setCustomValidity(""), 3000);
+    }
+  });
+
+  // Élő kriptoárak: csak az exportált fájlban fut, mert a claude.ai-os nézet nem enged külső lekérést
+  const fmtUsd = (v) => v.toLocaleString("hu-HU", { maximumFractionDigits: v >= 1000 ? 0 : v >= 1 ? 2 : 4, minimumFractionDigits: v >= 1000 ? 0 : v >= 1 ? 2 : 4 });
+  async function pollLive() {
+    const ids = (watchlist || []).filter((w) => w.cg).map((w) => w.cg);
+    if (!ids.length) return;
+    try {
+      const r = await fetch("https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&include_24hr_change=true&ids=" + encodeURIComponent(ids.join(",")));
+      if (!r.ok) return;
+      const j = await r.json();
+      for (const w of watchlist) {
+        const x = w.cg && j[w.cg];
+        if (!x || typeof x.usd !== "number") continue;
+        const ch = x.usd_24h_change;
+        LIVE[String(w.symbol).toUpperCase()] = {
+          symbol: w.symbol,
+          price: fmtUsd(x.usd) + " $",
+          change: typeof ch === "number" ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "",
+          note: "Élő ár, 24 órás változás", source: "CoinGecko",
+        };
+      }
+      liveAt = new Date();
+      renderWatchlist();
+    } catch (e) { /* hálózat nélkül marad a napi pillanatkép */ }
+  }
+
+  function buildExport() {
+    const data = JSON.stringify({ digests, watchlist }).replace(/</g, "\\u003c");
+    const font = document.querySelector('link[href*="fonts.googleapis"]');
+    return "<!doctype html>\n<html lang=\"hu\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Tőzsdei Radar</title>"
+      + (font ? '<link rel="stylesheet" href="' + font.href + '">' : "")
+      + "<style>*,*::before,*::after{box-sizing:border-box}body{margin:0}img{max-width:100%}[hidden]{display:none!important}\n" + STYLE_SRC + "</style></head><body>\n"
+      + INITIAL + "\n<script>window.__GN_DATA__ = " + data + ";<\/script>\n<script>" + SELF_SRC + "<\/script>\n</body></html>\n";
+  }
+
+  // GitHub Pages-változat: a data.json-t olvassa, és 5 percenként újra megnézi
+  if (window.__GN_REMOTE__) {
+    $("exportBtn").hidden = true;
+    let first = true;
+    const loadRemote = async () => {
+      try {
+        const r = await fetch(window.__GN_REMOTE__ + "?t=" + Date.now(), { cache: "no-store" });
+        if (!r.ok) throw new Error(String(r.status));
+        const j = await r.json();
+        digests = (j.digests || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+        watchlist = j.watchlist || [];
+        if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
+        render();
+        if (first) { first = false; pollLive(); setInterval(pollLive, 60000); }
+      } catch (e) {
+        if (first) { watchlist = []; renderEmpty("Az összefoglaló most nem tölthető be", "Nem sikerült betölteni az adatokat. Töltsd újra az oldalt."); renderWatchlist(); }
+      }
+    };
+    loadRemote();
+    setInterval(loadRemote, 300000);
+    return;
+  }
+
+  const EMBED = window.__GN_DATA__;
+  if (EMBED) {
+    $("exportBtn").hidden = true;
+    digests = (EMBED.digests || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+    watchlist = EMBED.watchlist || [];
+    selected = digests[0]?.date || null;
+    render();
+    pollLive();
+    setInterval(pollLive, 60000);
+    return;
+  }
+
+  $("exportBtn").addEventListener("click", async () => {
+    const st = $("exportStatus");
+    if (!digests.length) { st.textContent = "Várd meg, amíg betölt a kiadás."; return; }
+    const dl = window.claude ? await window.claude.use("downloads") : null;
+    if (!dl) { st.textContent = "Az exportálás ebben a nézetben nem érhető el."; return; }
+    try {
+      await dl.save({ filename: "tozsdei-radar-" + digests[0].date + ".html", data: new Blob([buildExport()], { type: "text/html" }) });
+      st.textContent = "Elmentve.";
+    } catch (e) {
+      st.textContent = e && e.code === "declined" ? "" : "Nem sikerült menteni. Próbáld újra.";
+    }
+  });
+
+  (async () => {
+    db = window.claude ? await window.claude.use("db") : null;
+    if (!db) { watchlist = []; renderEmpty("Az összefoglaló most nem tölthető be", "Jelentkezz be a claude.ai-ra, majd töltsd újra az oldalt."); renderWatchlist(); return; }
+    db.collection("digests").orderBy("date", "desc").limit(60).onSnapshot((snap) => {
+      digests = snap.docs.map((s) => ({ ...s.data(), date: s.data().date || s.id }));
+      if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
+      render();
+    }, () => renderEmpty("Az összefoglaló most nem tölthető be", "Hiba történt az adatok olvasásakor. Töltsd újra az oldalt."));
+    db.collection("watchlist").orderBy("order", "asc").onSnapshot((snap) => {
+      watchlist = snap.docs.map((s) => ({ id: s.id, ...s.data() }));
+      renderWatchlist();
+    }, () => { watchlist = []; renderWatchlist(); });
+    const user = await window.claude.use("user");
+    canEdit = user ? !!user.canEdit() : false;
+    renderWatchlist();
+  })();
+})();
+</script>
+
+</body></html>

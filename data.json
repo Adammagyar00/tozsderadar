@@ -1,0 +1,343 @@
+{
+ "digests": [
+  {
+   "calendar": [
+    {
+     "date": "okt. 28.",
+     "event": "Fed kamatdöntés 19:00 (magyar idő)"
+    },
+    {
+     "date": "okt. 29.",
+     "event": "EKB kamatdöntés 14:15, sajtótájékoztató 14:45"
+    },
+    {
+     "date": "nov. 3.",
+     "event": "Amerikai félidős választások"
+    }
+   ],
+   "date": "2026-10-27",
+   "generatedAt": "2026-10-27T16:10:00Z",
+   "headline": "115 dollár fölött az olaj az iráni fenyegetések miatt, gyengül a forint, szerdán a Fed, csütörtökön az EKB dönt",
+   "items": [
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "CNBC",
+     "summary": "A Brent hétfőn 115,81 dolláron zárt, 91 centtel lejjebb, de napközben 117 dollár fölé is felment. A WTI 101,76 dolláron zárt. Az árakat az emeli, hogy Irán a Perzsa-öböl olajlétesítményeinek megtámadásával fenyegetett egy újabb amerikai–izraeli támadás esetére.",
+     "title": "115 dollár fölött az olaj az iráni fenyegetések miatt",
+     "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html"
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "Business Standard",
+     "summary": "Az indiai részvénypiac stagnált, a Nifty 22 750 pont körül zárt. A magas olajár és a Fed döntése előtti óvatosság fogta vissza a vásárlókat.",
+     "title": "Indiai tőzsde: oldalazás a Fed előtt",
+     "url": "https://business-standard.com/amp/markets/news/stock-market-live-october-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-listing-price-126102700086_1.html"
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "source": "Forbes",
+     "summary": "A Fed kétnapos ülése október 28-án, magyar idő szerint 19:00-kor zárul kamatdöntéssel. A célsáv 3,75–4,00%, szeptemberben 25 bázisponttal emelték. A piaci árazás szerint nagy valószínűséggel nem változik a kamat, a figyelem a decemberi ülésre terelődik.",
+     "title": "Fed: szerdán kamatdöntés, a piac kamattartást vár",
+     "url": "https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/"
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "source": "euribor-rates.info (EKB-adatok alapján)",
+     "summary": "Az EKB szeptember 10-én 25 bázisponttal emelte a kamatait, a betéti ráta így 2,50%. A következő döntés október 29-én 14:15-kor lesz, a sajtótájékoztató 14:45-kor. Az október eleji piaci árazás döntően a kamat változatlanul hagyását valószínűsítette.",
+     "title": "EKB: csütörtökön döntés, 2,50%-os betéti ráta",
+     "url": "https://euribor-rates.info/en/ecb-interest-rates/"
+    },
+    {
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Economx",
+     "summary": "Az MNB hivatalos árfolyama szerint az euró 367,14, a dollár 329,51, a svájci frank 397,67 forint. Az Economx szerint a forint október eleje óta a dollárral szemben kb. 1,5%-ot, a frankkal szemben kb. 2,5%-ot gyengült. Az év eleje óta viszont az euróval szemben még mindig kb. 4,5%-kal erősebb.",
+     "title": "Gyengült a forint októberben",
+     "url": "https://www.economx.hu/gazdasag/2026/10/27/arfolyamok-devizapiac-forint-euro-gyengules/"
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "MNB",
+     "summary": "Az október 20-i ülésen nem változott az alapkamat, ahogy az elemzők várták. A szeptemberi infláció 1,6% volt. A Portfolio szerint a drága energia és a külföldi kamatemelések miatt a jegybank kivár.",
+     "title": "Az MNB 5,50%-on tartotta az alapkamatot",
+     "url": "https://www.mnb.hu/monetaris-politika/a-monetaris-tanacs/kozlemenyek/2026/kozlemeny-a-monetaris-tanacs-2026-oktober-20-i-uleserol"
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "name": "EUR/HUF",
+     "note": "MNB hivatalos középárfolyam, okt. 27.",
+     "value": "367,14"
+    },
+    {
+     "change": "",
+     "name": "USD/HUF",
+     "note": "MNB hivatalos középárfolyam, okt. 27.",
+     "value": "329,51"
+    },
+    {
+     "change": "",
+     "name": "CHF/HUF",
+     "note": "MNB hivatalos középárfolyam, okt. 27.",
+     "value": "397,67"
+    },
+    {
+     "change": "-0,8%",
+     "name": "Brent",
+     "note": "Okt. 26-i zárás (CNBC), napközben 117 $ fölött",
+     "value": "115,81 $"
+    },
+    {
+     "change": "-1,5%",
+     "name": "WTI",
+     "note": "Okt. 26-i zárás (CNBC)",
+     "value": "101,76 $"
+    },
+    {
+     "change": "",
+     "name": "Fed célsáv",
+     "note": "Szeptemberben +25 bp",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "name": "EKB betéti ráta",
+     "note": "Szeptember 10-én +25 bp",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A Brent hétfőn 115,81 dolláron zárt, napközben 117 dollár fölé is felment. Irán a Perzsa-öböl olajlétesítményeinek megtámadásával fenyegetett egy újabb amerikai–izraeli támadás esetére. A forint októberben gyengült, az MNB hivatalos euróárfolyama 367,14 forint. A Fed szerdán, az EKB csütörtökön dönt a kamatokról, és a piac mindkettőnél inkább a kamat változatlanul hagyására számít.",
+   "watchlist": [
+    {
+     "change": "+0,36%",
+     "note": "Okt. 26-i zárás",
+     "price": "1279,14 $",
+     "source": "Google Finance",
+     "symbol": "LLY",
+     "url": "https://www.google.com/finance/quote/LLY:NYSE"
+    },
+    {
+     "change": "+2,0%",
+     "note": "Okt. 27. délelőtt (New York-i idő).",
+     "price": "149,83 $",
+     "source": "Investing.com",
+     "symbol": "SPCX",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-rallying-today-93CH-4976194"
+    },
+    {
+     "change": "+4,50%",
+     "note": "Okt. 27. 9:32 (New York-i idő).",
+     "price": "213,10 $",
+     "source": "Motley Fool",
+     "symbol": "BE",
+     "url": "https://www.fool.com/investing/2026/10/27/bloom-energy-stock-has-plunged-despite-explosive-growth-is-it-time-to-buy/"
+    },
+    {
+     "change": "+2,44%",
+     "note": "Okt. 26-i zárás.",
+     "price": "207,16 $",
+     "source": "StockAnalysis",
+     "symbol": "ITA",
+     "url": "https://stockanalysis.com/etf/ita/"
+    },
+    {
+     "change": "+1,11%",
+     "note": "Okt. 26-i zárás.",
+     "price": "712,20 $",
+     "source": "TradingView",
+     "symbol": "QQQ",
+     "url": "https://www.tradingview.com/symbols/NASDAQ-QQQ/"
+    },
+    {
+     "change": "-0,64%",
+     "note": "24 órás változás (-511,25 $), okt. 27. 14:00 magyar idő.",
+     "price": "79 756 $",
+     "source": "Fortune",
+     "symbol": "BTC",
+     "url": "https://fortune.com/article/price-of-bitcoin-10-27-2026/"
+    },
+    {
+     "change": "-0,65%",
+     "note": "24 órás változás, okt. 27. 6:25 magyar idő.",
+     "price": "2310,16 $",
+     "source": "CoinDesk",
+     "symbol": "ETH",
+     "url": "https://www.coindesk.com/price/ethereum"
+    },
+    {
+     "change": "+2,88%",
+     "note": "24 órás változás, okt. 27. (OKX). Az ár több forrással egyezik (Bybit 77,35 $, CoinGecko 77,56 $).",
+     "price": "77,51 $",
+     "source": "OKX",
+     "symbol": "HYPE",
+     "url": "https://www.okx.com/en-us/price/hyperliquid-hype"
+    },
+    {
+     "change": "+2,98%",
+     "note": "Okt. 26-i zárás",
+     "price": "903,70 $",
+     "source": "Yahoo Finance",
+     "symbol": "MU",
+     "url": "https://finance.yahoo.com/quote/MU/"
+    },
+    {
+     "change": "+2,31%",
+     "note": "Okt. 26-i zárás",
+     "price": "233,78 $",
+     "source": "Yahoo Finance",
+     "symbol": "MRVL",
+     "url": "https://uk.finance.yahoo.com/quote/MRVL/"
+    },
+    {
+     "change": "+0,74%",
+     "note": "Okt. 26-i zárás",
+     "price": "334,04 $",
+     "source": "CNBC",
+     "symbol": "JPM",
+     "url": "https://www.cnbc.com/quotes/JPM"
+    },
+    {
+     "change": "+0,69%",
+     "note": "Okt. 26-i zárás",
+     "price": "703,41 $",
+     "source": "Yahoo Finance",
+     "symbol": "VOO",
+     "url": "https://finance.yahoo.com/quote/VOO/"
+    },
+    {
+     "change": "",
+     "note": "Több forrás egyező árszintje (Coinbase 0,403 $, CoinGecko 0,4075 $, CoinMarketCap 0,4126 $); mai dátum és 24 órás változás nem megerősíthető",
+     "price": "0,40–0,41 $",
+     "source": "Coinbase, CoinGecko, CoinMarketCap",
+     "symbol": "ONDO",
+     "url": "https://www.coingecko.com/en/coins/ondo"
+    },
+    {
+     "change": "-0,27%",
+     "note": "Okt. 26-i zárás, londoni tőzsde (késleltetett adat)",
+     "price": "83,56 $",
+     "source": "MarketScreener",
+     "symbol": "XDW0",
+     "url": "https://www.marketscreener.com/quote/etf/XTRACKERS-MSCI-WORLD-ENER-26726184/"
+    }
+   ],
+   "watchlistAsOf": "részvények: főleg okt. 26-i zárás · kripto: okt. 27."
+  }
+ ],
+ "watchlist": [
+  {
+   "cg": "bitcoin",
+   "name": "Bitcoin",
+   "order": 1,
+   "symbol": "BTC",
+   "type": "Kripto",
+   "id": "BTC"
+  },
+  {
+   "cg": "ethereum",
+   "name": "Ethereum",
+   "order": 2,
+   "symbol": "ETH",
+   "type": "Kripto",
+   "id": "ETH"
+  },
+  {
+   "cg": "hyperliquid",
+   "name": "Hyperliquid",
+   "order": 3,
+   "symbol": "HYPE",
+   "type": "Kripto",
+   "id": "HYPE"
+  },
+  {
+   "cg": "ondo-finance",
+   "name": "Ondo Finance",
+   "order": 4,
+   "symbol": "ONDO",
+   "type": "Kripto",
+   "id": "ONDO"
+  },
+  {
+   "name": "Eli Lilly and Company",
+   "order": 5,
+   "symbol": "LLY",
+   "type": "Részvény (NYSE)",
+   "id": "LLY"
+  },
+  {
+   "name": "Micron Technology",
+   "order": 6,
+   "symbol": "MU",
+   "type": "Részvény (Nasdaq)",
+   "id": "MU"
+  },
+  {
+   "name": "Marvell Technology",
+   "order": 7,
+   "symbol": "MRVL",
+   "type": "Részvény (Nasdaq)",
+   "id": "MRVL"
+  },
+  {
+   "name": "Space Exploration Technologies (SpaceX)",
+   "order": 8,
+   "symbol": "SPCX",
+   "type": "Részvény (Nasdaq)",
+   "id": "SPCX"
+  },
+  {
+   "name": "Bloom Energy",
+   "order": 9,
+   "symbol": "BE",
+   "type": "Részvény (NYSE)",
+   "id": "BE"
+  },
+  {
+   "name": "JPMorgan Chase & Co.",
+   "order": 10,
+   "symbol": "JPM",
+   "type": "Részvény (NYSE)",
+   "id": "JPM"
+  },
+  {
+   "name": "iShares U.S. Aerospace & Defense ETF",
+   "order": 11,
+   "symbol": "ITA",
+   "type": "ETF",
+   "id": "ITA"
+  },
+  {
+   "name": "Vanguard S&P 500 ETF",
+   "order": 12,
+   "symbol": "VOO",
+   "type": "ETF",
+   "id": "VOO"
+  },
+  {
+   "name": "Invesco QQQ (Nasdaq-100)",
+   "order": 13,
+   "symbol": "QQQ",
+   "type": "ETF",
+   "id": "QQQ"
+  },
+  {
+   "name": "Xtrackers MSCI World Energy UCITS ETF 1C",
+   "order": 14,
+   "symbol": "XDW0",
+   "type": "ETF (LSE, USD; Xetra: EUR)",
+   "id": "XDW0"
+  }
+ ]
+}
