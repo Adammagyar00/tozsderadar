@@ -39,7 +39,16 @@ body { background: var(--bg); color: var(--fg); font-family: var(--font-body); f
 .wrap { max-width: 1600px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 
 header.mast { border-bottom: 1px solid var(--line); }
-header.mast .wrap { padding-block: 22px 16px; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+/* Fejléc: bal oldalt menü + aktuális oldal, középen a logó, jobbra a dátum */
+header.mast .wrap { padding-block: 18px 14px; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 10px 24px; }
+header.mast .brand { justify-self: center; text-align: center; }
+header.mast .hdr-right { justify-self: end; justify-content: flex-end; }
+@media (max-width: 760px) {
+  header.mast .wrap { grid-template-columns: minmax(0, 1fr) auto; }
+  header.mast .brand { grid-column: 1 / -1; grid-row: 1; }
+  header.mast .mast-left { flex-wrap: nowrap; gap: 10px; }
+  header.mast .edition { font-size: 11px; text-align: right; }
+}
 .brand { font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 4vw, 36px); letter-spacing: -0.02em; margin: 0; }
 .brand span { color: var(--accent); }
 .hdr-right { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
@@ -225,9 +234,9 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   <div class="wrap">
     <div class="mast-left">
       <button class="menu-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="menu"><span class="burger" aria-hidden="true"><i></i><i></i><i></i></span>Menü</button>
-      <h1 class="brand">Tőzsdei <span>Radar</span></h1>
       <span class="page-name" id="pageName">Főoldal</span>
     </div>
+    <h1 class="brand">Tőzsdei <span>Radar</span></h1>
     <div class="hdr-right">
       <div class="edition" id="edition">Napi gazdasági összefoglaló</div>
       <button class="btn-ghost" type="button" id="exportBtn">Exportálás HTML-be</button>
