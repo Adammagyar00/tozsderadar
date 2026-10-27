@@ -232,6 +232,48 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .empty h2 { font-family: var(--font-display); margin: 0 0 8px; }
 .empty p { color: var(--muted); margin: 0; }
 .muted { color: var(--muted); font-size: 14px; }
+
+.pf-form { display: grid; grid-template-columns: 120px minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) auto; gap: 10px; align-items: end; margin-top: 18px; padding: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.pf-form label { display: grid; gap: 4px; min-width: 0; }
+.pf-form label span { font-family: var(--font-data); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.pf-form input, .pf-form select { font: inherit; font-size: 15px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+.pf-form input:focus-visible, .pf-form select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.pf-form .acts { display: flex; gap: 6px; }
+.pf-form .btn { padding: 8px 14px; }
+@media (max-width: 760px) { .pf-form { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .pf-form .acts { grid-column: 1 / -1; } .pf-form .acts .btn { flex: 1; } }
+.pf-bar { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 10px; }
+.pf-bar .hint { flex: 1; min-width: 200px; margin: 0; }
+@media (max-width: 760px) { .pf-bar .hint { flex-basis: 100%; } }
+.pf-sum { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 22px; }
+@media (max-width: 760px) { .pf-sum { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.pf-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; min-width: 0; }
+.pf-card .k { font-family: var(--font-data); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.pf-card .v { font-family: var(--font-display); font-weight: 700; font-size: clamp(20px, 2.4vw, 26px); line-height: 1.2; margin-top: 4px; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.pf-card .s { font-family: var(--font-data); font-size: 12px; color: var(--muted); margin-top: 2px; font-variant-numeric: tabular-nums; }
+.pf-card .up { color: var(--up); } .pf-card .down { color: var(--down); }
+.pf-alloc { display: flex; height: 8px; border-radius: 999px; overflow: hidden; background: var(--line); margin-top: 18px; gap: 2px; }
+.pf-alloc i { display: block; min-width: 2px; }
+.pf-alloc .crypto { background: #d99a1e; } .pf-alloc .stock { background: #9a63c4; } .pf-alloc .etf { background: #4f74c9; }
+.pf-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 6px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pf-legend span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; background: currentColor; vertical-align: -1px; }
+.pf-legend .crypto::before { background: #d99a1e; } .pf-legend .stock::before { background: #9a63c4; } .pf-legend .etf::before { background: #4f74c9; }
+.pf-scroll { overflow-x: auto; margin-top: 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.pf-table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 700px; }
+.pf-table th { font-family: var(--font-data); font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); text-align: right; padding: 10px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.pf-table th:first-child, .pf-table td:first-child { text-align: left; padding-left: 14px; }
+.pf-table td:last-child { padding-right: 10px; }
+.pf-table .sub { display: block; font-size: 11px; }
+.pf-table td { padding: 10px 8px; border-bottom: 1px dashed var(--line); text-align: right; font-family: var(--font-data); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pf-table tr:last-child td { border-bottom: 0; }
+.pf-table .asset { display: flex; gap: 8px; align-items: baseline; font-family: var(--font-body); }
+.pf-table .asset b { font-family: var(--font-data); }
+.pf-table .asset .nm { color: var(--muted); font-size: 13px; max-width: 14ch; overflow: hidden; text-overflow: ellipsis; }
+.pf-table .up { color: var(--up); } .pf-table .down { color: var(--down); } .pf-table .na { color: var(--muted); }
+.pf-table .ctl { display: flex; gap: 4px; justify-content: flex-end; }
+.pf-ic { background: none; border: 1px solid transparent; border-radius: 6px; color: var(--muted); cursor: pointer; font: inherit; font-size: 14px; line-height: 1; padding: 5px 7px; min-width: 28px; }
+.pf-ic:hover { color: var(--accent); border-color: var(--line); }
+.pf-ic.del:hover, .pf-ic.armed { color: var(--down); border-color: var(--down); }
+.pf-note { margin-top: 12px; font-size: 13px; color: var(--muted); max-width: 90ch; }
 </style>
 
 <header class="mast">
@@ -257,6 +299,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     <a class="menu-item" href="#" data-view="home"><b>Főoldal</b><span class="d">A nap legfontosabb gazdasági hírei, piacok, jegybankok.</span></a>
     <a class="menu-item" href="#watchlist-news" data-view="wl"><b>Watchlist News<span class="cnt" id="wlNewsCnt" hidden></span></b><span class="d">Csak a figyelőlistád részvényeiről, ETF-jeiről és kriptóiról.</span></a>
     <a class="menu-item" href="#naptar" data-view="cal"><b>Gazdasági naptár<span class="cnt" id="calCnt" hidden></span></b><span class="d">Előre látható események: adatok, kamatdöntések, gyorsjelentések.</span></a>
+    <a class="menu-item" href="#portfolio" data-view="pf"><b>Portfolio</b><span class="d">A saját kriptóid, részvényeid és ETF-jeid értéke és hozama, élő árakkal.</span></a>
   </div>
 </nav>
 
@@ -515,7 +558,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 
   // Watchlist News: minden kiadásból azok a hírek, amelyek a figyelőlista valamelyik tételéről szólnak
   let wlFilter = null;
-  const view = () => location.hash === "#watchlist-news" ? "wl" : location.hash === "#naptar" ? "cal" : "home";
+  const view = () => ({ "#watchlist-news": "wl", "#naptar": "cal", "#portfolio": "pf" })[location.hash] || "home";
   const wlSymSet = () => new Set((watchlist || []).map((w) => String(w.symbol).toUpperCase()));
   const wlSymsOf = (it, syms = wlSymSet()) => (it.symbols || []).map((x) => String(x).toUpperCase()).filter((x) => syms.has(x));
   const isWlItem = (it) => it.category === "Figyelőlista" || wlSymsOf(it).length > 0;
@@ -675,7 +718,324 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     c.append(tl);
   }
 
-  const PAGE_NAMES = { home: "Főoldal", wl: "Watchlist News", cal: "Gazdasági naptár" };
+  // Portfolio: a látogató saját tételei. Csak az ő böngészőjében tárolódnak (localStorage),
+  // ezért más gépre fájlba mentve lehet átvinni.
+  const PF_KEY = "tozsderadar-portfolio-v1";
+  const PF_TYPES = { crypto: ["Crypto", "tag-c"], stock: ["Stock", "tag-s"], etf: ["ETF", "tag-e"] };
+  // "1 234,5", "1,234.5" és "1234.5" is működjön
+  const parseNum = (s) => {
+    let t = String(s == null ? "" : s).replace(/[\s $%+]/g, "").replace("−", "-");
+    if (t.includes(",") && t.includes(".")) t = t.replace(/,/g, ""); else t = t.replace(",", ".");
+    const v = t === "" ? NaN : Number(t);
+    return isFinite(v) ? v : null;
+  };
+  const cleanPf = (a) => (Array.isArray(a) ? a : []).filter((h) => h && typeof h.symbol === "string" && PF_TYPES[h.type] && h.qty > 0)
+    .map((h) => ({ type: h.type, symbol: h.symbol.toUpperCase().slice(0, 12), qty: Number(h.qty), buy: h.buy > 0 ? Number(h.buy) : null, cg: typeof h.cg === "string" ? h.cg : undefined, name: typeof h.name === "string" ? h.name.slice(0, 80) : undefined }));
+  let portfolio = (() => { try { return cleanPf(JSON.parse(localStorage.getItem(PF_KEY) || "[]")); } catch (e) { return []; } })();
+  const savePf = () => { try { localStorage.setItem(PF_KEY, JSON.stringify(portfolio)); return true; } catch (e) { return false; } };
+  const pfId = (h) => h.type + ":" + h.symbol;
+  let pfEditing = null;
+  let onPfChange = () => {};
+  // Melyik részvény ára jön a 15 percenkénti prices.json-ból; a többit a Worker árlekérője adja
+  const FILE_SYMS = new Set();
+  let quoteUrl = null;
+
+  const fmtMoney = (v, signed) => (v < 0 ? "−" : signed && v > 0 ? "+" : "") + Math.abs(v).toLocaleString("hu-HU", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " $";
+  const fmtPctN = (v) => (v < 0 ? "−" : v > 0 ? "+" : "") + Math.abs(v).toFixed(2).replace(".", ",") + "%";
+  const signCls = (v) => v > 0 ? "up" : v < 0 ? "down" : "";
+
+  const pfQuote = (h) => {
+    const q = LIVE[h.symbol];
+    if (q && typeof q.p === "number") return { p: q.p, ch: typeof q.ch === "number" ? q.ch : null, src: q.source };
+    const d = current();
+    const dq = ((d && d.watchlist) || []).find((x) => String(x.symbol).toUpperCase() === h.symbol);
+    const p = dq && parseNum(dq.price);
+    return p ? { p, ch: parseNum(dq.change), src: "napi kiadás" } : null;
+  };
+
+  const findCoin = async (sym) => {
+    const w = (watchlist || []).find((x) => x.cg && String(x.symbol).toUpperCase() === sym);
+    if (w) return { id: w.cg, name: w.name };
+    try {
+      const r = await fetch("https://api.coingecko.com/api/v3/search?query=" + encodeURIComponent(sym));
+      if (!r.ok) return null;
+      const j = await r.json();
+      // A találatok piaci érték szerint rendezve jönnek; az első egyező jelölés a legnagyobb
+      const c = (j.coins || []).find((x) => String(x.symbol).toUpperCase() === sym);
+      return c ? { id: c.id, name: c.name } : null;
+    } catch (e) { return null; }
+  };
+
+  function renderPortfolioPage() {
+    const c = $("content");
+    // Percenkénti újrarajzoláskor ne töröljük ki a félig kitöltött űrlapot
+    if (c.querySelector("#pfForm")) { updatePortfolio(); return; }
+    c.replaceChildren();
+    const lead = el("section", "lead");
+    lead.append(el("div", "lead-eyebrow", "Saját befektetések"), el("h2", null, "Portfolio"));
+    lead.append(el("p", null, "Add meg, milyen kriptókat, részvényeket és ETF-eket tartasz és mennyit, és ha szeretnéd, az átlagos vételárat is. Az oldal élő árakkal kiszámolja a portfolio értékét, a mai változást és a hozamot, dollárban."));
+    c.append(lead);
+    const form = el("form", "pf-form");
+    form.id = "pfForm"; form.noValidate = true;
+    form.innerHTML = '<label><span>Típus</span><select id="pfType"><option value="crypto">Crypto</option><option value="stock">Stock</option><option value="etf">ETF</option></select></label>'
+      + '<label><span>Jelölés</span><input id="pfSym" placeholder="pl. SOL, NVDA, VOO" maxlength="12" autocomplete="off" autocapitalize="characters" spellcheck="false"></label>'
+      + '<label><span>Mennyiség</span><input id="pfQty" inputmode="decimal" placeholder="pl. 2,5" autocomplete="off"></label>'
+      + '<label><span>Átlagos vételár ($)</span><input id="pfBuy" inputmode="decimal" placeholder="nem kötelező" autocomplete="off"></label>'
+      + '<div class="acts"><button class="btn" type="submit" id="pfSubmit">Hozzáadás</button><button class="btn-ghost" type="button" id="pfCancel" hidden>Mégse</button></div>';
+    c.append(form);
+    const bar = el("div", "pf-bar");
+    const msg = el("p", "hint"); msg.id = "pfMsg"; msg.setAttribute("role", "status");
+    msg.textContent = "A tételek csak ebben a böngészőben tárolódnak. Más gépre a „Mentés fájlba” és a „Betöltés fájlból” gombbal viheted át őket.";
+    const exp = el("button", "btn-ghost", "Mentés fájlba"); exp.type = "button";
+    const imp = el("button", "btn-ghost", "Betöltés fájlból"); imp.type = "button";
+    const file = el("input"); file.type = "file"; file.accept = ".json,application/json"; file.hidden = true;
+    bar.append(msg, exp, imp, file);
+    c.append(bar);
+    const body = el("div"); body.id = "pfBody"; c.append(body);
+
+    const resetForm = () => {
+      pfEditing = null;
+      $("pfSym").value = ""; $("pfQty").value = ""; $("pfBuy").value = "";
+      $("pfSubmit").textContent = "Hozzáadás"; $("pfCancel").hidden = true;
+    };
+    $("pfCancel").addEventListener("click", () => { resetForm(); msg.textContent = ""; });
+    form.addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const type = $("pfType").value;
+      const symbol = $("pfSym").value.trim().toUpperCase().replace(/[^A-Z0-9.\-]/g, "");
+      const qty = parseNum($("pfQty").value);
+      const buyRaw = $("pfBuy").value.trim();
+      const buy = buyRaw ? parseNum(buyRaw) : null;
+      if (!symbol) { msg.textContent = "Add meg a jelölést (például SOL, NVDA vagy VOO)."; $("pfSym").focus(); return; }
+      if (!(qty > 0)) { msg.textContent = "A mennyiség legyen nullánál nagyobb szám."; $("pfQty").focus(); return; }
+      if (buyRaw && !(buy > 0)) { msg.textContent = "A vételár legyen nullánál nagyobb szám, vagy hagyd üresen."; $("pfBuy").focus(); return; }
+      const h = { type, symbol, qty, buy };
+      let warn = "";
+      if (type === "crypto") {
+        const prev = portfolio.find((x) => pfId(x) === pfId(h) && x.cg);
+        const found = prev ? { id: prev.cg, name: prev.name } : (msg.textContent = "Kriptó keresése…", await findCoin(symbol));
+        if (found) { h.cg = found.id; h.name = found.name; }
+        else warn = " Ezt a jelölést nem találtam a CoinGeckón; ár csak akkor lesz hozzá, ha valamelyik élő forrás adja.";
+      } else {
+        const w = (watchlist || []).find((x) => String(x.symbol).toUpperCase() === symbol);
+        if (w) h.name = w.name;
+      }
+      // Ha a tétel már szerepel (vagy épp azt szerkesztjük), a helyére kerül
+      const at = portfolio.findIndex((x) => pfId(x) === (pfEditing || pfId(h)));
+      portfolio = portfolio.filter((x) => pfId(x) !== pfId(h) && pfId(x) !== pfEditing);
+      portfolio.splice(at < 0 ? portfolio.length : Math.min(at, portfolio.length), 0, h);
+      const ok = savePf();
+      msg.textContent = (ok ? (at < 0 ? "Hozzáadva: " : "Frissítve: ") + symbol + "." : "Ez a böngésző nem engedi a mentést, ezért a tételek az oldal bezárásakor elvesznek.") + warn;
+      resetForm();
+      updatePortfolio();
+      onPfChange();
+    });
+    exp.addEventListener("click", () => {
+      if (!portfolio.length) { msg.textContent = "Még nincs mit menteni."; return; }
+      const a = el("a");
+      a.href = URL.createObjectURL(new Blob([JSON.stringify({ app: "TőzsdeRadar", portfolio }, null, 1)], { type: "application/json" }));
+      a.download = "tozsderadar-portfolio.json";
+      document.body.append(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+      msg.textContent = "Elmentve a letöltések közé.";
+    });
+    imp.addEventListener("click", () => file.click());
+    file.addEventListener("change", async () => {
+      const f = file.files && file.files[0];
+      file.value = "";
+      if (!f) return;
+      try {
+        const j = JSON.parse(await f.text());
+        const list = cleanPf(Array.isArray(j) ? j : j.portfolio);
+        if (!list.length) { msg.textContent = "A fájlban nem találtam portfolio-tételt."; return; }
+        portfolio = list;
+        msg.textContent = savePf() ? `Betöltve: ${list.length} tétel.` : "Betöltve, de ez a böngésző nem engedi a mentést.";
+        updatePortfolio();
+        onPfChange();
+      } catch (e) { msg.textContent = "Ezt a fájlt nem sikerült beolvasni."; }
+    });
+    body.addEventListener("click", (ev) => {
+      const b = ev.target.closest("button[data-act]");
+      if (!b) return;
+      const h = portfolio.find((x) => pfId(x) === b.dataset.id);
+      if (!h) return;
+      if (b.dataset.act === "edit") {
+        pfEditing = pfId(h);
+        $("pfType").value = h.type; $("pfSym").value = h.symbol;
+        $("pfQty").value = String(h.qty).replace(".", ","); $("pfBuy").value = h.buy ? String(h.buy).replace(".", ",") : "";
+        $("pfSubmit").textContent = "Mentés"; $("pfCancel").hidden = false;
+        msg.textContent = "Szerkesztés: " + h.symbol;
+        form.scrollIntoView({ behavior: "smooth", block: "center" });
+        $("pfQty").focus({ preventScroll: true });
+      } else if (b.dataset.act === "del") {
+        // Kétlépcsős törlés, hogy egy véletlen kattintás ne vigye el a tételt
+        if (!b.classList.contains("armed")) {
+          b.classList.add("armed"); b.textContent = "Biztos?";
+          setTimeout(() => { b.classList.remove("armed"); b.textContent = "✕"; }, 3000);
+          return;
+        }
+        portfolio = portfolio.filter((x) => x !== h);
+        savePf();
+        if (pfEditing === pfId(h)) resetForm();
+        msg.textContent = "Törölve: " + h.symbol + ".";
+        updatePortfolio();
+      }
+    });
+    updatePortfolio();
+  }
+
+  // A táblázat szerkezetét csak akkor építjük újra, ha a tételek változtak;
+  // az árakat helyben írjuk át, hogy a gombok kattintás közben ne cserélődjenek
+  let pfSig = "";
+  const pfRefs = {};
+  function updatePortfolio() {
+    const body = $("pfBody");
+    if (!body) return;
+    const sig = JSON.stringify(portfolio);
+    if (sig !== pfSig || !body.firstChild) {
+      pfSig = sig;
+      body.replaceChildren();
+      for (const k of Object.keys(pfRefs)) delete pfRefs[k];
+      if (!portfolio.length) {
+        const box = el("div", "empty");
+        box.append(el("h2", null, "Még üres a portfolio"), el("p", null, "Fent add meg az első tételt: válaszd ki a típusát, írd be a jelölését (például BTC, NVDA vagy VOO) és a mennyiséget."));
+        body.append(box);
+        return;
+      }
+      const sum = el("div", "pf-sum");
+      for (const [k, label] of [["total", "Összérték"], ["day", "Mai változás"], ["pl", "Nyereség / veszteség"], ["cnt", "Tételek"]]) {
+        const card = el("div", "pf-card");
+        const v = el("div", "v", "–"), s = el("div", "s", "");
+        card.append(el("div", "k", label), v, s);
+        pfRefs["sum-" + k] = { v, s };
+        sum.append(card);
+      }
+      body.append(sum);
+      const alloc = el("div", "pf-alloc"); alloc.setAttribute("role", "img");
+      const legend = el("div", "pf-legend");
+      pfRefs.alloc = alloc; pfRefs.legend = legend;
+      body.append(alloc, legend);
+      const scroll = el("div", "pf-scroll");
+      const table = el("table", "pf-table");
+      const thead = el("thead"); const hr = el("tr");
+      for (const t of ["Eszköz", "Mennyiség", "Ár", "Változás", "Érték", "Arány", "Vételár", "Hozam", ""]) hr.append(el("th", null, t));
+      thead.append(hr);
+      const tbody = el("tbody");
+      for (const h of portfolio) {
+        const tr = el("tr");
+        const asset = el("td"); const a = el("div", "asset");
+        a.append(el("span", PF_TYPES[h.type][1], PF_TYPES[h.type][0]), el("b", null, h.symbol));
+        if (h.name) a.append(el("span", "nm", h.name));
+        asset.append(a);
+        const cells = {};
+        tr.append(asset, el("td", null, h.qty.toLocaleString("hu-HU", { maximumFractionDigits: 8 })));
+        for (const k of ["price", "chg", "value", "share"]) { cells[k] = el("td"); tr.append(cells[k]); }
+        tr.append(el("td", h.buy ? null : "na", h.buy ? fmtUsd(h.buy) + " $" : "–"));
+        cells.pl = el("td"); tr.append(cells.pl);
+        const ctl = el("td"); const cw = el("div", "ctl");
+        for (const [act, t, ic] of [["edit", "Szerkesztés", "✎"], ["del", "Törlés", "✕"]]) {
+          const b = el("button", "pf-ic " + act, ic); b.type = "button"; b.dataset.act = act; b.dataset.id = pfId(h);
+          b.title = t; b.setAttribute("aria-label", t + ": " + h.symbol);
+          cw.append(b);
+        }
+        ctl.append(cw); tr.append(ctl);
+        pfRefs["row-" + pfId(h)] = cells;
+        tbody.append(tr);
+      }
+      table.append(thead, tbody);
+      scroll.append(table);
+      body.append(scroll);
+      body.append(el("p", "pf-note", "Minden érték dollárban. Kriptónál a változás 24 órás, részvénynél és ETF-nél az előző záráshoz képest. Az árak élőben frissülnek; ha egy tételnek nincs ára, az nem számít bele az összegekbe. (Ez nem pénzügyi tanácsadás.)"));
+    }
+
+    const rows = portfolio.map((h) => {
+      const q = pfQuote(h);
+      const value = q ? q.p * h.qty : null;
+      const day = value != null && q.ch != null ? value - value / (1 + q.ch / 100) : null;
+      const cost = h.buy ? h.buy * h.qty : null;
+      const pl = value != null && cost != null ? value - cost : null;
+      return { h, q, value, day, cost, pl };
+    });
+    const priced = rows.filter((r) => r.value != null);
+    const total = priced.reduce((a, r) => a + r.value, 0);
+    const withDay = rows.filter((r) => r.day != null);
+    const dayAbs = withDay.reduce((a, r) => a + r.day, 0);
+    const dayBase = withDay.reduce((a, r) => a + r.value - r.day, 0);
+    const withPl = rows.filter((r) => r.pl != null);
+    const plAbs = withPl.reduce((a, r) => a + r.pl, 0);
+    const plCost = withPl.reduce((a, r) => a + r.cost, 0);
+
+    const put = (ref, v, s, cls) => { ref.v.textContent = v; ref.v.className = "v " + (cls || ""); ref.s.textContent = s; };
+    put(pfRefs["sum-total"], priced.length ? fmtMoney(total) : "–", priced.length < rows.length ? `${rows.length - priced.length} tételnek nincs ára` : "minden tétel árazva");
+    put(pfRefs["sum-day"], withDay.length ? fmtMoney(dayAbs, true) : "–", withDay.length && dayBase ? fmtPctN(dayAbs / dayBase * 100) : "", signCls(dayAbs));
+    put(pfRefs["sum-pl"], withPl.length ? fmtMoney(plAbs, true) : "–", withPl.length ? fmtPctN(plAbs / plCost * 100) + (withPl.length < rows.length ? ` · ${withPl.length} tételből` : "") : "add meg a vételárat", signCls(plAbs));
+    put(pfRefs["sum-cnt"], String(rows.length), ["crypto", "stock", "etf"].map((t) => [t, rows.filter((r) => r.h.type === t).length]).filter(([, n]) => n).map(([t, n]) => n + " " + PF_TYPES[t][0]).join(" · "));
+
+    const byType = ["crypto", "stock", "etf"].map((t) => [t, priced.filter((r) => r.h.type === t).reduce((a, r) => a + r.value, 0)]).filter(([, v]) => v > 0);
+    pfRefs.alloc.replaceChildren(); pfRefs.legend.replaceChildren();
+    for (const [t, v] of byType) {
+      const i = el("i", t); i.style.flex = String(v / total);
+      pfRefs.alloc.append(i);
+      pfRefs.legend.append(el("span", t, PF_TYPES[t][0] + " " + (v / total * 100).toFixed(1).replace(".", ",") + "%"));
+    }
+    pfRefs.alloc.setAttribute("aria-label", "Megoszlás: " + byType.map(([t, v]) => PF_TYPES[t][0] + " " + Math.round(v / total * 100) + "%").join(", "));
+
+    for (const r of rows) {
+      const c = pfRefs["row-" + pfId(r.h)];
+      if (!c) continue;
+      const set = (n, t, cls) => { n.textContent = t; n.className = cls || ""; };
+      set(c.price, r.q ? fmtUsd(r.q.p) + " $" : "nincs ár", r.q ? "" : "na");
+      c.price.title = r.q && r.q.src ? "Forrás: " + r.q.src : "";
+      set(c.chg, r.q && r.q.ch != null ? fmtPctN(r.q.ch) : "–", r.q && r.q.ch != null ? signCls(r.q.ch) : "na");
+      set(c.value, r.value != null ? fmtMoney(r.value) : "–", r.value != null ? "" : "na");
+      set(c.share, r.value != null && total ? (r.value / total * 100).toFixed(1).replace(".", ",") + "%" : "–", r.value != null ? "" : "na");
+      set(c.pl, r.pl != null ? fmtMoney(r.pl, true) : "–", r.pl != null ? signCls(r.pl) : "na");
+      if (r.pl != null) c.pl.append(el("span", "sub", fmtPctN(r.pl / r.cost * 100)));
+    }
+  }
+
+  // A portfolio saját árlekérése: kriptó a CoinGeckótól, részvény/ETF a Worker árlekérőjétől
+  async function pollPortfolio() {
+    if (!portfolio.length) return;
+    const ids = [...new Set(portfolio.filter((h) => h.type === "crypto" && h.cg && !wsFresh(h.cg)).map((h) => h.cg))];
+    const stk = [...new Set(portfolio.filter((h) => h.type !== "crypto" && !FILE_SYMS.has(h.symbol)).map((h) => h.symbol))];
+    const jobs = [];
+    if (ids.length) jobs.push((async () => {
+      const r = await fetch("https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&include_24hr_change=true&ids=" + encodeURIComponent(ids.join(",")));
+      if (!r.ok) return;
+      const j = await r.json();
+      for (const h of portfolio) {
+        const x = h.type === "crypto" && h.cg && j[h.cg];
+        if (!x || typeof x.usd !== "number" || wsFresh(h.cg)) continue;
+        const ch = typeof x.usd_24h_change === "number" ? x.usd_24h_change : null;
+        LIVE[h.symbol] = { symbol: h.symbol, price: fmtUsd(x.usd) + " $", change: ch != null ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "", p: x.usd, ch, note: "Élő ár, 24 órás változás", source: "CoinGecko" };
+      }
+    })());
+    if (quoteUrl && stk.length) jobs.push((async () => {
+      const r = await fetch(quoteUrl + "?symbols=" + encodeURIComponent(stk.join(",")));
+      if (!r.ok) return;
+      const j = await r.json();
+      for (const [sym, q] of Object.entries(j.quotes || {})) applyStockQuote(sym, q, j.source);
+    })());
+    await Promise.all(jobs.map((p) => p.catch(() => {})));
+    updatePortfolio();
+  }
+
+  // Egy részvény/ETF ára a Finnhub quote formátumában (prices.json vagy a Worker árlekérője)
+  function applyStockQuote(sym, q, source) {
+    if (!q || typeof q.price !== "number") return;
+    sym = sym.toUpperCase();
+    const when = q.t ? new Date(q.t * 1000).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
+    const ch = typeof q.change === "number" ? q.change : null;
+    const entry = { symbol: sym, price: fmtUsd(q.price) + " $", change: ch != null ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "", p: q.price, ch, note: "Utolsó ár " + when + ", napi változás", source: source || "Finnhub" };
+    LIVE[sym] = entry;
+    LIVE_STK[sym] = entry;
+    if (typeof q.prevClose === "number") PREV[sym] = q.prevClose;
+    for (const n of document.querySelectorAll('[data-sym="' + sym + '"]')) n.textContent = entry.price;
+    for (const n of document.querySelectorAll('[data-sym-chg="' + sym + '"]')) { n.textContent = entry.change; n.className = "chg " + dirOf(entry.change); }
+  }
+
+  const PAGE_NAMES = { home: "Főoldal", wl: "Watchlist News", cal: "Gazdasági naptár", pf: "Portfolio" };
   function renderMenu() {
     const v = view();
     $("pageName").textContent = PAGE_NAMES[v];
@@ -695,6 +1055,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const v = view();
     if (d) { $("edition").textContent = fmtDate(d.date); renderTape(d); } else $("tapeBand").hidden = true;
     if (v === "cal") { renderCalendarPage(); return; }
+    if (v === "pf") { renderPortfolioPage(); return; }
     if (!d) { renderEmpty("Még nincs kiadás", "Az első összefoglaló a következő reggeli frissítéskor jelenik meg."); return; }
     if (v === "wl") renderWatchlistNews(); else renderDigest(d);
   }
@@ -743,6 +1104,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
           symbol: w.symbol,
           price: fmtUsd(x.usd) + " $",
           change: typeof ch === "number" ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "",
+          p: x.usd, ch: typeof ch === "number" ? ch : null,
           note: "Élő ár, 24 órás változás", source: "CoinGecko",
         };
       }
@@ -759,6 +1121,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (tapeIds.some((id) => LIVE_CG[id] && !document.querySelector('[data-cg="' + id + '"]')) && current()) { tapeSig = ""; renderTape(current()); }
       liveAt = new Date();
       renderWatchlist();
+      updatePortfolio();
     } catch (e) { /* hálózat nélkül marad a napi pillanatkép */ }
   }
 
@@ -780,19 +1143,13 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const r = await fetch("prices.json?t=" + Date.now(), { cache: "no-store" });
         if (!r.ok) return;
         const p = await r.json();
-        const fmtPct = (v) => typeof v === "number" ? (v >= 0 ? "+" : "") + v.toFixed(2).replace(".", ",") + "%" : "";
         for (const [sym, q] of Object.entries(p.quotes || {})) {
-          if (typeof q.price !== "number") continue;
-          const when = q.t ? new Date(q.t * 1000).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
-          const entry = { symbol: sym, price: fmtUsd(q.price) + " $", change: fmtPct(q.change), note: "Utolsó ár " + when + ", napi változás", source: p.source || "Finnhub" };
-          LIVE[sym.toUpperCase()] = entry;
-          LIVE_STK[sym.toUpperCase()] = entry;
-          if (typeof q.prevClose === "number") PREV[sym.toUpperCase()] = q.prevClose;
-          for (const n of document.querySelectorAll('[data-sym="' + sym.toUpperCase() + '"]')) n.textContent = entry.price;
-          for (const n of document.querySelectorAll('[data-sym-chg="' + sym.toUpperCase() + '"]')) { n.textContent = entry.change; n.className = "chg " + dirOf(entry.change); }
+          FILE_SYMS.add(sym.toUpperCase());
+          applyStockQuote(sym, q, p.source);
         }
         if (p.updatedAt) stockAt = new Date(p.updatedAt);
         renderWatchlist();
+        updatePortfolio();
       } catch (e) { /* ha nincs prices.json, maradnak a napi záróárak */ }
     };
     // Másodperces árak. Kriptó: a Bybit nyilvános adatfolyama (kulcs nélkül).
@@ -802,6 +1159,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const m = {};
       for (const w of watchlist || []) if (w.cg) m[String(w.symbol).toUpperCase()] = w.cg;
       for (const x of (current() || {}).markets || []) if (x.cg) m[String(x.name).toUpperCase()] = x.cg;
+      for (const h of portfolio) if (h.type === "crypto" && !m[h.symbol]) m[h.symbol] = h.cg || "sym:" + h.symbol;
       return m;
     };
     const stockSyms = () => {
@@ -811,6 +1169,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!t.startsWith("kripto") && !t.includes("lse") && !t.includes("xetra")) out.add(String(w.symbol).toUpperCase());
       }
       for (const x of (current() || {}).markets || []) if (x.group === "Részvény") out.add(String(x.name).toUpperCase());
+      for (const h of portfolio) if (h.type !== "crypto") out.add(h.symbol);
       for (const s of ["OTP", "MOL", "RICHTER"]) out.delete(s);
       return [...out];
     };
@@ -828,8 +1187,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         name: "Bybit",
         url: () => "wss://stream.bybit.com/v5/public/spot",
         open: (ws, syms) => {
-          const args = syms.map((s) => "tickers." + s + "USDT");
-          for (let i = 0; i < args.length; i += 10) ws.send(JSON.stringify({ op: "subscribe", args: args.slice(i, i + 10) }));
+          // Szimbólumonként külön feliratkozás, hogy egy ismeretlen token ne rontsa el a többit
+          for (const s of syms) ws.send(JSON.stringify({ op: "subscribe", args: ["tickers." + s + "USDT"] }));
           return setInterval(() => { try { ws.send('{"op":"ping"}'); } catch (e) {} }, 20000);
         },
         parse: (m) => { const d = m && m.data; return d && d.symbol && d.lastPrice ? [d.symbol.replace(/USDT$/, ""), parseFloat(d.lastPrice), parseFloat(d.price24hPcnt) * 100] : null; },
@@ -842,13 +1201,22 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       },
     ];
     let srcIdx = 0;
+    let cryptoWs = null, cryptoSyms = [], stockWs = null;
+    const subscribed = new Set();
+    // Új portfolio-tételnél: a részvényekre feliratkozunk, a kriptó-adatfolyamot újranyitjuk az új listával
+    onPfChange = () => {
+      if (stockWs && stockWs.readyState === 1) for (const s of stockSyms()) if (!subscribed.has(s)) { subscribed.add(s); stockWs.send(JSON.stringify({ type: "subscribe", symbol: s })); }
+      if (cryptoWs && Object.keys(cgOf()).some((s) => !cryptoSyms.includes(s))) { try { cryptoWs.close(); } catch (e) {} }
+      pollPortfolio();
+    };
     const connectBybit = () => {
       const syms = Object.keys(cgOf());
+      cryptoSyms = syms;
       if (!syms.length) return;
       const src = CRYPTO_SOURCES[srcIdx % CRYPTO_SOURCES.length];
       let ws, ping, got = false;
       setStatus("c", "kriptó: kapcsolódás (" + src.name + ")…");
-      try { ws = new WebSocket(src.url(syms)); } catch (e) { srcIdx++; setTimeout(connectBybit, 2000); return; }
+      try { ws = cryptoWs = new WebSocket(src.url(syms)); } catch (e) { srcIdx++; setTimeout(connectBybit, 2000); return; }
       const guard = setTimeout(() => { if (!got) { try { ws.close(); } catch (e) {} } }, 8000);
       ws.onopen = () => { ping = src.open(ws, syms); };
       ws.onmessage = (e) => {
@@ -869,12 +1237,15 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       let cfg;
       try { const r = await fetch("live.json?t=" + Date.now(), { cache: "no-store" }); if (!r.ok) return; cfg = await r.json(); } catch (e) { return; }
       if (!cfg || !cfg.wsUrl) return;
+      quoteUrl = cfg.wsUrl.replace(/^wss:/, "https:").replace(/\/ws$/, "/quote");
+      if (portfolio.length) pollPortfolio();
       let ws;
-      try { ws = new WebSocket(cfg.wsUrl); } catch (e) { return; }
+      try { ws = stockWs = new WebSocket(cfg.wsUrl); } catch (e) { return; }
       let gotTrade = false;
       setStatus("s", "részvény: kapcsolódás…");
       ws.onopen = () => {
-        for (const s of stockSyms()) ws.send(JSON.stringify({ type: "subscribe", symbol: s }));
+        subscribed.clear();
+        for (const s of stockSyms()) { subscribed.add(s); ws.send(JSON.stringify({ type: "subscribe", symbol: s })); }
         setStatus("s", "részvény: kapcsolódva, kötésre vár (tőzsdeidőben élő)");
       };
       ws.onmessage = (e) => {
@@ -896,7 +1267,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const now = new Date();
       for (const [sym, u] of pend) {
         const change = typeof u.change === "number" ? (u.change >= 0 ? "+" : "") + u.change.toFixed(2).replace(".", ",") + "%" : ((LIVE[sym] || {}).change || "");
-        const entry = { symbol: sym, price: fmtUsd(u.price) + " $", change, note: u.kind === "c" ? "Élő ár (" + u.src + ", USDT), 24 órás változás" : "Élő ár, változás az előző záráshoz", source: u.kind === "c" ? u.src : "Finnhub" };
+        const chNum = typeof u.change === "number" ? u.change : ((LIVE[sym] || {}).ch ?? null);
+        const entry = { symbol: sym, price: fmtUsd(u.price) + " $", change, p: u.price, ch: chNum, note: u.kind === "c" ? "Élő ár (" + u.src + ", USDT), 24 órás változás" : "Élő ár, változás az előző záráshoz", source: u.kind === "c" ? u.src : "Finnhub" };
         LIVE[sym] = entry;
         const attr = u.kind === "c" ? "cg" : "sym";
         const key = u.kind === "c" ? cgm[sym] : sym;
@@ -907,6 +1279,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       }
       pend.clear();
       renderWatchlist();
+      updatePortfolio();
     }, 1000);
     const loadRemote = async () => {
       try {
@@ -919,7 +1292,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
         loadPrices();
-        if (first) { first = false; pollLive(); setInterval(pollLive, 60000); connectBybit(); connectStocks(); }
+        if (first) { first = false; pollLive(); setInterval(pollLive, 60000); setInterval(pollPortfolio, 60000); connectBybit(); connectStocks(); }
       } catch (e) {
         if (first) { watchlist = []; renderEmpty("Az összefoglaló most nem tölthető be", "Nem sikerült betölteni az adatokat. Töltsd újra az oldalt."); renderWatchlist(); }
       }
@@ -938,7 +1311,10 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     selected = digests[0]?.date || null;
     render();
     pollLive();
+    pollPortfolio();
     setInterval(pollLive, 60000);
+    setInterval(pollPortfolio, 60000);
+    onPfChange = pollPortfolio;
     return;
   }
 

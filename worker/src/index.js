@@ -14,9 +14,45 @@ const ALLOWED_ORIGINS = [
 const SYMBOL_RE = /^[A-Z][A-Z.]{0,6}$/;
 const MAX_SYMBOLS = 50; // a Finnhub ingyenes kerete
 
+// A Portfolio oldal árlekérései: szimbólumonként 60 mp-ig tároljuk az árat,
+// hogy sok néző se lépje túl a Finnhub ingyenes keretét (60 kérés/perc)
+const QUOTE_TTL = 60000;
+const MAX_QUOTES = 20;
+const quoteCache = new Map();
+
+async function quote(symbol, env) {
+  const hit = quoteCache.get(symbol);
+  if (hit && Date.now() - hit.at < (hit.q ? QUOTE_TTL : 10 * QUOTE_TTL)) return hit.q;
+  const res = await fetch("https://finnhub.io/api/v1/quote?symbol=" + encodeURIComponent(symbol) + "&token=" + encodeURIComponent(env.FINNHUB_API_KEY));
+  if (!res.ok) return hit ? hit.q : null;
+  const j = await res.json();
+  // Ismeretlen szimbólumra a Finnhub csupa nullát ad vissza
+  const q = j && j.c ? { price: j.c, change: j.dp, prevClose: j.pc, t: j.t } : null;
+  quoteCache.set(symbol, { q, at: Date.now() });
+  return q;
+}
+
+async function quotes(url, env, origin) {
+  const syms = [...new Set((url.searchParams.get("symbols") || "").toUpperCase().split(","))].filter((s) => SYMBOL_RE.test(s)).slice(0, MAX_QUOTES);
+  const out = {};
+  await Promise.all(syms.map(async (s) => {
+    try { const q = await quote(s, env); if (q) out[s] = q; } catch { /* a többi szimbólum attól még menjen */ }
+  }));
+  return new Response(JSON.stringify({ source: "Finnhub", quotes: out }), {
+    headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": origin, vary: "Origin" },
+  });
+}
+
+const allowed = (origin) => ALLOWED_ORIGINS.includes(origin) || origin.startsWith("http://localhost");
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === "/quote") {
+      const origin = request.headers.get("Origin") || "";
+      if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
+      return quotes(url, env, origin);
+    }
     if (url.pathname !== "/ws") {
       return new Response("TőzsdeRadar élő árfolyam-közvetítő", { headers: { "content-type": "text/plain; charset=utf-8" } });
     }
@@ -24,7 +60,7 @@ export default {
       return new Response("WebSocket-kapcsolat kell", { status: 426 });
     }
     const origin = request.headers.get("Origin") || "";
-    if (!ALLOWED_ORIGINS.includes(origin) && !origin.startsWith("http://localhost")) {
+    if (!allowed(origin)) {
       return new Response("Nem engedélyezett oldal", { status: 403 });
     }
     const hub = env.HUB.get(env.HUB.idFromName("hub"));
