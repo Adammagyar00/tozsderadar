@@ -78,6 +78,7 @@ main .wrap { display: grid; grid-template-columns: minmax(0, 1fr) clamp(360px, 3
 .meta { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); align-items: center; }
 .pill { font-family: var(--font-data); font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; text-transform: uppercase; letter-spacing: 0.05em; }
 .pill.pozitiv { color: var(--up); } .pill.negativ { color: var(--down); } .pill.semleges { color: var(--flat); }
+.new-badge { font-family: var(--font-data); font-size: 11px; font-weight: 600; letter-spacing: 0.05em; color: var(--surface); background: var(--accent); padding: 2px 8px; border-radius: 999px; }
 .sym { font-family: var(--font-data); font-size: 12px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 1px 6px; border-radius: 4px; }
 a { color: var(--accent); text-underline-offset: 2px; }
 a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -302,14 +303,16 @@ aside { display: grid; gap: 18px; align-content: start; }
     const lead = el("section", "lead");
     lead.append(el("div", "lead-eyebrow", "A nap röviden"), el("h2", null, d.headline || "Napi összefoglaló"));
     if (d.summary) lead.append(el("p", null, d.summary));
-    if (d.generatedAt) {
-      const g = new Date(d.generatedAt);
-      if (!isNaN(g)) lead.append(el("div", "stamp", "Összeállítva: " + g.toLocaleString("hu-HU", { dateStyle: "medium", timeStyle: "short" })));
-    }
+    const fmtTs = (s) => { const g = new Date(s); return isNaN(g) ? null : g.toLocaleString("hu-HU", { dateStyle: "medium", timeStyle: "short" }); };
+    const stamps = [];
+    if (d.generatedAt && fmtTs(d.generatedAt)) stamps.push("Összeállítva: " + fmtTs(d.generatedAt));
+    if (d.updatedAt && fmtTs(d.updatedAt) && d.updatedAt !== d.generatedAt) stamps.push("utoljára frissítve: " + fmtTs(d.updatedAt));
+    if (stamps.length) lead.append(el("div", "stamp", stamps.join(" · ")));
     c.append(lead);
 
     const groups = new Map();
-    for (const it of d.items || []) {
+    const byNewest = [...(d.items || [])].sort((a, b) => String(b.addedAt || "").localeCompare(String(a.addedAt || "")));
+    for (const it of byNewest) {
       const k = it.category || "Egyéb";
       if (!groups.has(k)) groups.set(k, []);
       groups.get(k).push(it);
@@ -326,6 +329,10 @@ aside { display: grid; gap: 18px; align-content: start; }
         body.style.minWidth = "0";
         body.append(el("h4", null, it.title), el("p", null, it.summary));
         const meta = el("div", "meta");
+        if (it.addedAt) {
+          const t = new Date(it.addedAt);
+          if (!isNaN(t)) meta.append(el("span", "new-badge", "Új · " + t.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" })));
+        }
         meta.append(el("span", "pill " + tone(it.impact), it.impact || "semleges"));
         for (const s of it.symbols || []) meta.append(el("span", "sym", s));
         const u = safeUrl(it.url);
