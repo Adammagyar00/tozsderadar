@@ -29,7 +29,8 @@
      "source": "CNBC",
      "summary": "A Brent hétfőn 115,81 dolláron zárt, 91 centtel lejjebb, de napközben 117 dollár fölé is felment. A WTI 101,76 dolláron zárt. Az árakat az emeli, hogy Irán a Perzsa-öböl olajlétesítményeinek megtámadásával fenyegetett egy újabb amerikai–izraeli támadás esetére.",
      "title": "115 dollár fölött az olaj az iráni fenyegetések miatt",
-     "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html"
+     "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+     "verified": true
     },
     {
      "category": "Globális piacok",
@@ -37,7 +38,8 @@
      "source": "Business Standard",
      "summary": "Az indiai részvénypiac stagnált, a Nifty 22 750 pont körül zárt. A magas olajár és a Fed döntése előtti óvatosság fogta vissza a vásárlókat.",
      "title": "Indiai tőzsde: oldalazás a Fed előtt",
-     "url": "https://business-standard.com/amp/markets/news/stock-market-live-october-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-listing-price-126102700086_1.html"
+     "url": "https://business-standard.com/amp/markets/news/stock-market-live-october-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-listing-price-126102700086_1.html",
+     "verified": true
     },
     {
      "category": "Jegybankok",
@@ -45,7 +47,8 @@
      "source": "Forbes",
      "summary": "A Fed kétnapos ülése október 28-án, magyar idő szerint 19:00-kor zárul kamatdöntéssel. A célsáv 3,75–4,00%, szeptemberben 25 bázisponttal emelték. A piaci árazás szerint nagy valószínűséggel nem változik a kamat, a figyelem a decemberi ülésre terelődik.",
      "title": "Fed: szerdán kamatdöntés, a piac kamattartást vár",
-     "url": "https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/"
+     "url": "https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/",
+     "verified": true
     },
     {
      "category": "Jegybankok",
@@ -53,7 +56,8 @@
      "source": "euribor-rates.info (EKB-adatok alapján)",
      "summary": "Az EKB szeptember 10-én 25 bázisponttal emelte a kamatait, a betéti ráta így 2,50%. A következő döntés október 29-én 14:15-kor lesz, a sajtótájékoztató 14:45-kor. Az október eleji piaci árazás döntően a kamat változatlanul hagyását valószínűsítette.",
      "title": "EKB: csütörtökön döntés, 2,50%-os betéti ráta",
-     "url": "https://euribor-rates.info/en/ecb-interest-rates/"
+     "url": "https://euribor-rates.info/en/ecb-interest-rates/",
+     "verified": true
     },
     {
      "category": "Magyarország",
@@ -61,7 +65,8 @@
      "source": "Economx",
      "summary": "Az MNB hivatalos árfolyama szerint az euró 367,14, a dollár 329,51, a svájci frank 397,67 forint. Az Economx szerint a forint október eleje óta a dollárral szemben kb. 1,5%-ot, a frankkal szemben kb. 2,5%-ot gyengült. Az év eleje óta viszont az euróval szemben még mindig kb. 4,5%-kal erősebb.",
      "title": "Gyengült a forint októberben",
-     "url": "https://www.economx.hu/gazdasag/2026/10/27/arfolyamok-devizapiac-forint-euro-gyengules/"
+     "url": "https://www.economx.hu/gazdasag/2026/10/27/arfolyamok-devizapiac-forint-euro-gyengules/",
+     "verified": true
     },
     {
      "category": "Magyarország",
@@ -69,7 +74,8 @@
      "source": "MNB",
      "summary": "Az október 20-i ülésen nem változott az alapkamat, ahogy az elemzők várták. A szeptemberi infláció 1,6% volt. A Portfolio szerint a drága energia és a külföldi kamatemelések miatt a jegybank kivár.",
      "title": "Az MNB 5,50%-on tartotta az alapkamatot",
-     "url": "https://www.mnb.hu/monetaris-politika/a-monetaris-tanacs/kozlemenyek/2026/kozlemeny-a-monetaris-tanacs-2026-oktober-20-i-uleserol"
+     "url": "https://www.mnb.hu/monetaris-politika/a-monetaris-tanacs/kozlemenyek/2026/kozlemeny-a-monetaris-tanacs-2026-oktober-20-i-uleserol",
+     "verified": true
     },
     {
      "addedAt": "2026-10-27T16:49:31Z",
@@ -81,7 +87,8 @@
       "SPCX"
      ],
      "title": "SpaceX: akár 120,5 milliárd dolláros számítási kapacitás-megállapodás az Anthropickal",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-rallying-today-93CH-4976194"
+     "url": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-rallying-today-93CH-4976194",
+     "verified": true
     },
     {
      "addedAt": "2026-10-27T16:49:31Z",
@@ -94,7 +101,21 @@
       "ETH"
      ],
      "title": "A bitcoin 80 ezer dollár alatt a Fed-döntés előtt",
-     "url": "https://fortune.com/article/price-of-bitcoin-10-27-2026/"
+     "url": "https://fortune.com/article/price-of-bitcoin-10-27-2026/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-27T17:30:03Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Investing.com, StockTwits",
+     "summary": "Az Investing.com és a StockTwits közösségi oldal szerint a Bloom Energy részvénye kedd délelőtt mintegy 8,7%-kal emelkedett, a múlt heti gyorsjelentés utáni esés után. Független, megbízható második forrás ezt még nem erősítette meg, a mozgás oka sem ismert.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Bloom Energy: 8,7%-os emelkedés kedd délelőtt",
+     "url": "https://www.investing.com/equities/bloom-energy-corp",
+     "verified": false
     }
    ],
    "markets": [
@@ -358,7 +379,7 @@
     }
    ],
    "summary": "A Brent hétfőn 115,81 dolláron zárt, napközben 117 dollár fölé is felment. Irán a Perzsa-öböl olajlétesítményeinek megtámadásával fenyegetett egy újabb amerikai–izraeli támadás esetére. A forint októberben gyengült, az MNB hivatalos euróárfolyama 367,14 forint. A Fed szerdán, az EKB csütörtökön dönt a kamatokról, és a piac mindkettőnél inkább a kamat változatlanul hagyására számít.",
-   "updatedAt": "2026-10-27T16:49:31Z",
+   "updatedAt": "2026-10-27T17:30:03Z",
    "watchlist": [
     {
      "change": "+0,36%",

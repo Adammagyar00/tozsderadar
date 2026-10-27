@@ -106,6 +106,9 @@ main .wrap { display: grid; grid-template-columns: minmax(0, 1fr) clamp(360px, 3
 .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
 .chip .n { opacity: 0.7; margin-left: 4px; }
 .day-head { font-family: var(--font-data); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 26px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.vbadge { font-family: var(--font-data); font-size: 11px; font-weight: 600; letter-spacing: 0.04em; padding: 2px 8px; border-radius: 4px; white-space: nowrap; }
+.vbadge.ok { color: var(--up); background: color-mix(in srgb, var(--up) 12%, transparent); }
+.vbadge.no { color: var(--warn); background: color-mix(in srgb, var(--warn) 14%, transparent); border: 1px dashed var(--warn); }
 .new-badge { font-family: var(--font-data); font-size: 11px; font-weight: 600; letter-spacing: 0.05em; color: var(--surface); background: var(--accent); padding: 2px 8px; border-radius: 999px; }
 .sym { font-family: var(--font-data); font-size: 12px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 1px 6px; border-radius: 4px; }
 a { color: var(--accent); text-underline-offset: 2px; }
@@ -284,7 +287,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       </nav>
       <div class="about">
         <div class="sec-label">Hogyan készül</div>
-        <p>Claude minden reggel átnézi a friss gazdasági híreket, és ide írja a nap összefoglalóját. Csak megbízható forrással alátámasztott, ellenőrzött hír kerül be, minden hírnél linkkel a forrásra; ami nincs megerősítve, az kimarad. A színes csík jelzi, hogy egy hír inkább kedvező (zöld), kedvezőtlen (piros) vagy semleges. (Ez nem pénzügyi tanácsadás.)</p>
+        <p>Claude minden reggel átnézi a friss gazdasági híreket, és ide írja a nap összefoglalóját. Minden hírnél ott a forrás linkje. A <b>✓ Megerősített</b> címkéjű hírt legalább két független, megbízható forrás közli; a <b>Nem megerősített</b> értesülés egyetlen forrásból vagy közösségi oldalról származik, ezt fenntartással kezeld. Az árfolyamok és a naptár adatai mindig megerősítettek. A színes csík jelzi, hogy egy hír inkább kedvező (zöld), kedvezőtlen (piros) vagy semleges. (Ez nem pénzügyi tanácsadás.)</p>
       </div>
     </aside>
   </div>
@@ -311,6 +314,13 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const tone = (v) => ({ "pozitív": "pozitiv", "negatív": "negativ" }[v] || "semleges");
   const dirOf = (ch) => { ch = String(ch || ""); return ch.startsWith("+") ? "up" : (ch.startsWith("-") || ch.startsWith("−")) ? "down" : "flat"; };
   const safeUrl = (u) => (typeof u === "string" && /^https?:\/\//i.test(u)) ? u : null;
+  // Megerősített: két független, megbízható forrás. A régi, mező nélküli hírek mind ilyenek voltak.
+  const vBadge = (it) => {
+    const ok = it.verified !== false;
+    const b = el("span", "vbadge " + (ok ? "ok" : "no"), ok ? "✓ Megerősített" : "Nem megerősített");
+    b.title = ok ? "Legalább két független, megbízható forrás közli." : "Egyetlen forrás vagy közösségi oldal értesülése; fenntartással kezeld.";
+    return b;
+  };
   const link = (u, text) => { const a = el("a", null, text); a.href = u; a.target = "_blank"; a.rel = "noopener"; return a; };
 
   let digests = [];
@@ -480,6 +490,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const u = safeUrl(it.url);
         if (u) meta.append(link(u, it.source || "Forrás"));
         else if (it.source) meta.append(el("span", null, it.source));
+        meta.append(vBadge(it));
         body.append(meta); row.append(body); sec.append(row);
       }
       c.append(sec);
@@ -522,6 +533,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const u = safeUrl(it.url);
     if (u) meta.append(link(u, it.source || "Forrás"));
     else if (it.source) meta.append(el("span", null, it.source));
+    meta.append(vBadge(it));
     body.append(meta); row.append(body);
     return row;
   }
