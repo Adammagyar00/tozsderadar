@@ -100,51 +100,148 @@
    "markets": [
     {
      "change": "",
+     "group": "Deviza",
      "name": "EUR/HUF",
      "note": "MNB hivatalos középárfolyam, okt. 27.",
      "value": "367,14"
     },
     {
      "change": "",
+     "group": "Deviza",
      "name": "USD/HUF",
      "note": "MNB hivatalos középárfolyam, okt. 27.",
      "value": "329,51"
     },
     {
      "change": "",
+     "group": "Deviza",
      "name": "CHF/HUF",
      "note": "MNB hivatalos középárfolyam, okt. 27.",
      "value": "397,67"
     },
     {
      "change": "-0,8%",
+     "group": "Nyersanyag",
      "name": "Brent",
      "note": "Okt. 26-i zárás (CNBC), napközben 117 $ fölött",
      "value": "115,81 $"
     },
     {
      "change": "-1,5%",
+     "group": "Nyersanyag",
      "name": "WTI",
      "note": "Okt. 26-i zárás (CNBC)",
      "value": "101,76 $"
     },
     {
      "change": "",
+     "group": "Kamat",
      "name": "Fed célsáv",
      "note": "Szeptemberben +25 bp",
      "value": "3,75–4,00%"
     },
     {
      "change": "",
+     "group": "Kamat",
      "name": "EKB betéti ráta",
      "note": "Szeptember 10-én +25 bp",
      "value": "2,50%"
     },
     {
      "change": "",
+     "group": "Kamat",
      "name": "MNB alapkamat",
      "note": "Október 20-án változatlan",
      "value": "5,50%"
+    },
+    {
+     "change": "+0,70%",
+     "group": "Index",
+     "name": "S&P 500",
+     "note": "Okt. 26-i zárás (CNBC, Motley Fool)",
+     "value": "7676,77"
+    },
+    {
+     "change": "+0,82%",
+     "group": "Index",
+     "name": "Nasdaq",
+     "note": "Okt. 26-i zárás (CNBC, Motley Fool)",
+     "value": "26 169,38"
+    },
+    {
+     "change": "+2,39%",
+     "group": "Részvény",
+     "name": "NVDA",
+     "note": "Nvidia, okt. 26-i zárás (Yahoo Finance)",
+     "value": "216,00 $"
+    },
+    {
+     "change": "+5,21%",
+     "group": "Részvény",
+     "name": "TSLA",
+     "note": "Tesla, okt. 26-i zárás (Yahoo Finance)",
+     "value": "391,62 $"
+    },
+    {
+     "change": "-1,1%",
+     "group": "Részvény",
+     "name": "AAPL",
+     "note": "Apple, okt. 26-i zárás (Motley Fool)",
+     "value": "343,91 $"
+    },
+    {
+     "change": "+0,4%",
+     "group": "Részvény",
+     "name": "AMZN",
+     "note": "Amazon, okt. 26-i zárás (Motley Fool)",
+     "value": "249,09 $"
+    },
+    {
+     "change": "-1,88%",
+     "group": "Részvény",
+     "name": "META",
+     "note": "Meta, okt. 26-i zárás",
+     "value": "630,56 $"
+    },
+    {
+     "cg": "bitcoin",
+     "change": "-0,64%",
+     "group": "Kripto",
+     "name": "BTC",
+     "note": "24 óra, okt. 27. (Fortune)",
+     "value": "79 756 $"
+    },
+    {
+     "cg": "ethereum",
+     "change": "-0,65%",
+     "group": "Kripto",
+     "name": "ETH",
+     "note": "24 óra, okt. 27. (CoinDesk)",
+     "value": "2310,16 $"
+    },
+    {
+     "cg": "solana",
+     "change": "-0,45%",
+     "group": "Kripto",
+     "name": "SOL",
+     "note": "24 óra (CoinGecko-adat)",
+     "value": "100,89 $"
+    },
+    {
+     "cg": "ripple",
+     "change": "-0,66%",
+     "group": "Kripto",
+     "name": "XRP",
+     "note": "24 óra, okt. 27. (Coingape)",
+     "value": "1,30 $"
+    },
+    {
+     "cg": "binancecoin",
+     "change": "-0,23%",
+     "group": "Kripto",
+     "name": "BNB",
+     "note": "24 óra, okt. 27. (Coingape)",
+     "value": "743,85 $"
     }
    ],
    "summary": "A Brent hétfőn 115,81 dolláron zárt, napközben 117 dollár fölé is felment. Irán a Perzsa-öböl olajlétesítményeinek megtámadásával fenyegetett egy újabb amerikai–izraeli támadás esetére. A forint októberben gyengült, az MNB hivatalos euróárfolyama 367,14 forint. A Fed szerdán, az EKB csütörtökön dönt a kamatokról, és a piac mindkettőnél inkább a kamat változatlanul hagyására számít.",

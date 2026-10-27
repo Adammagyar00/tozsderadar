@@ -51,9 +51,15 @@ header.mast .wrap { padding-block: 22px 16px; display: flex; flex-wrap: wrap; al
 .edition { font-family: var(--font-data); font-size: 13px; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
 
 .tape { background: var(--tape); color: var(--tape-fg); }
-.tape .wrap { padding-block: 10px; }
-.tape-row { display: flex; gap: 10px 28px; overflow-x: auto; scrollbar-width: thin; font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; }
-.tick { display: flex; gap: 8px; white-space: nowrap; align-items: baseline; }
+/* Futószalag: a tartalom kétszer szerepel, és a sáv a felével csúszik el, így folytonos */
+.tape { overflow: hidden; }
+.tape .wrap { padding-block: 10px; max-width: none; padding-left: 0; padding-right: 0; }
+.tape-row { display: flex; width: max-content; font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; animation: tape-scroll var(--tape-dur, 80s) linear infinite; }
+.tape:hover .tape-row, .tape:focus-within .tape-row { animation-play-state: paused; }
+@keyframes tape-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .tape-row { animation: none; } .tape { overflow-x: auto; } }
+.tick { display: flex; gap: 8px; white-space: nowrap; align-items: baseline; padding-right: 28px; }
+.tick-grp { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tape); background: var(--tape-fg); padding: 1px 6px; border-radius: 3px; align-self: center; margin-right: 12px; white-space: nowrap; }
 .tick b { font-weight: 600; opacity: 0.75; }
 .tick .chg.up { color: #6fe0a0; } .tick .chg.down { color: #ff8f86; } .tick .chg.flat { color: #b8c0bc; }
 
@@ -139,6 +145,39 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .imp.l2 i:nth-child(-n+2) { background: var(--warn); }
 .imp.l3 i:nth-child(-n+3) { background: var(--down); }
 .panel-head a.hint { color: var(--accent); }
+.cal-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 18px; font-size: 12px; color: var(--muted); }
+.cal-legend .lg { display: inline-flex; align-items: center; gap: 6px; }
+.cal-legend .lg i { width: 10px; height: 10px; border-radius: 2px; background: var(--muted); }
+.cal-legend .l2 i { background: var(--warn); } .cal-legend .l3 i { background: var(--down); }
+.cal-tl { margin-top: 10px; }
+.cal-day { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 20px; padding-block: 20px; border-top: 1px solid var(--line); }
+.cal-day.past { opacity: 0.6; }
+.cal-date { align-self: start; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); }
+.cal-date .dn { font-family: var(--font-display); font-weight: 700; font-size: 40px; line-height: 1; letter-spacing: -0.03em; }
+.cal-date .dm, .cal-date .dw { font-family: var(--font-data); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+.cal-day.today .dn { color: var(--accent); }
+.cal-day.today .dw { color: var(--accent); font-weight: 600; }
+.cal-evs { display: grid; gap: 10px; min-width: 0; }
+.cal-ev { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; gap: 14px; align-items: start; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--muted); border-radius: 10px; }
+.cal-ev.l2 { border-left-color: var(--warn); } .cal-ev.l3 { border-left-color: var(--down); }
+.cal-time { display: grid; gap: 6px; justify-items: start; }
+.cal-time .hh { font-family: var(--font-data); font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.cal-mid { min-width: 0; }
+.cal-mid h4 { margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.3; text-wrap: balance; }
+.cal-mid .sub { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; color: var(--muted); align-items: center; }
+.cal-note { margin-top: 4px; font-size: 12px; color: var(--muted); font-style: italic; }
+.cal-stats { display: grid; grid-template-columns: repeat(3, minmax(64px, auto)); gap: 4px; margin: 0; }
+.cal-stats .st { background: var(--bg); border-radius: 6px; padding: 5px 8px; text-align: right; }
+.cal-stats dt { font-family: var(--font-data); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.cal-stats dd { margin: 0; font-family: var(--font-data); font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cal-stats .st.has { background: var(--accent-soft); } .cal-stats .st.has dd { color: var(--accent); }
+@media (max-width: 640px) {
+  .cal-day { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .cal-date { position: static; display: flex; align-items: baseline; gap: 10px; }
+  .cal-date .dn { font-size: 28px; }
+  .cal-ev { grid-template-columns: 56px minmax(0, 1fr); }
+  .cal-stats { grid-column: 1 / -1; }
+}
 .cal-row { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 10px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 15px; line-height: 1.35; }
 .cal-row:last-child { border-bottom: 0; }
 .cal-row time { font-family: var(--font-data); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
@@ -291,18 +330,36 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     }
   }
 
+  const LIVE_CG = {};
+  let tapeSig = "";
   function renderTape(d) {
-    const t = $("tape"); t.replaceChildren();
     const m = d.markets || [];
     $("tapeBand").hidden = !m.length;
-    for (const x of m) {
-      const s = el("div", "tick");
-      s.append(el("b", null, x.name));
-      if (x.value) s.append(el("span", null, x.value));
-      if (x.change) s.append(el("span", "chg " + dirOf(x.change), x.change));
-      if (x.note) s.title = x.note;
-      t.append(s);
-    }
+    const sig = JSON.stringify(m);
+    if (sig === tapeSig) return; // ne indítsa újra a futószalagot, ha nem változott
+    tapeSig = sig;
+    const t = $("tape"); t.replaceChildren();
+    const one = () => {
+      const frag = document.createDocumentFragment();
+      let grp = null;
+      for (const x of m) {
+        const s = el("div", "tick");
+        if ((x.group || "") !== grp) { grp = x.group || ""; if (grp) s.append(el("span", "tick-grp", grp)); }
+        s.append(el("b", null, x.name));
+        const live = x.cg && LIVE_CG[x.cg];
+        const val = el("span", "val", live ? live.price : (x.value || ""));
+        const chgText = live ? live.change : (x.change || "");
+        const chg = el("span", "chg " + dirOf(chgText), chgText);
+        if (x.cg) { val.dataset.cg = x.cg; chg.dataset.cgChg = x.cg; }
+        if (val.textContent) s.append(val);
+        if (chgText || x.cg) s.append(chg);
+        if (x.note) s.title = x.note;
+        frag.append(s);
+      }
+      return frag;
+    };
+    t.append(one(), one());
+    requestAnimationFrame(() => { t.style.setProperty("--tape-dur", Math.max(30, Math.round(t.scrollWidth / 2 / 55)) + "s"); });
   }
 
   // Gazdasági naptár: a "calendar" gyűjtemény eseményei, magyar idő szerint
@@ -533,36 +590,50 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       c.append(box);
       return;
     }
-    const wrap = el("div", "tbl-wrap");
-    const t = el("table", "ec");
-    const head = el("tr");
-    for (const [h, num] of [["Idő"], ["Ország"], ["Esemény"], ["Fontosság"], ["Tény", 1], ["Várható", 1], ["Előző", 1]]) { const th = el("th", num ? "num" : null, h); th.scope = "col"; head.append(th); }
-    const thead = el("thead"); thead.append(head);
-    const tbody = el("tbody");
-    let last = null;
-    for (const e of rows) {
-      if (e.date !== last) {
-        last = e.date;
-        const tr = el("tr", "day"); const td = el("td", null, fmtDate(e.date) + (e.date === today ? " · ma" : "")); td.colSpan = 7; tr.append(td); tbody.append(tr);
+    // Napokra bontott idővonal: bal oldalon a nap, jobbra az esemény-kártyák
+    const legend = el("div", "cal-legend");
+    for (const [lvl, t] of [[3, "Magas"], [2, "Közepes"], [1, "Alacsony"]]) { const s = el("span", "lg l" + lvl); s.append(el("i"), t + " fontosság"); legend.append(s); }
+    c.append(legend);
+    const byDay = new Map();
+    for (const e of rows) { if (!byDay.has(e.date)) byDay.set(e.date, []); byDay.get(e.date).push(e); }
+    const tl = el("div", "cal-tl");
+    for (const [date, evs] of byDay) {
+      const [y, mo, da] = date.split("-").map(Number);
+      const wd = HU_DAYS[new Date(Date.UTC(y, mo - 1, da)).getUTCDay()];
+      const day = el("section", "cal-day" + (date === today ? " today" : "") + (date < today ? " past" : ""));
+      const dh = el("div", "cal-date");
+      dh.append(el("div", "dn", String(da)), el("div", "dm", HU_MON_SHORT[mo - 1] + " " + y), el("div", "dw", date === today ? "ma · " + wd : wd));
+      const list = el("div", "cal-evs");
+      for (const e of evs) {
+        const lvl = Math.min(3, Math.max(1, e.importance || 1));
+        const card = el("article", "cal-ev l" + lvl);
+        const tm = el("div", "cal-time");
+        tm.append(el("span", "hh", e.time || "egész"), el("span", "ctry", e.country || "–"));
+        tm.lastChild.title = COUNTRY[e.country] || "";
+        const mid = el("div", "cal-mid");
+        mid.append(el("h4", null, e.event || ""));
+        const sub = el("div", "sub");
+        const imp = el("span", "imp l" + lvl); imp.append(el("i"), el("i"), el("i")); imp.title = ["", "Alacsony", "Közepes", "Magas"][lvl] + " fontosság";
+        sub.append(imp);
+        if (e.type) sub.append(el("span", null, e.type));
+        for (const s of e.symbols || []) sub.append(el("span", "sym", s));
+        const u = safeUrl(e.url);
+        if (u) sub.append(link(u, e.source || "Forrás")); else if (e.source) sub.append(el("span", null, e.source));
+        mid.append(sub);
+        if (e.note) mid.append(el("div", "cal-note", e.note));
+        const stats = el("dl", "cal-stats");
+        for (const [k, lab] of [["actual", "Tény"], ["forecast", "Várható"], ["previous", "Előző"]]) {
+          const box = el("div", "st" + (k === "actual" && e[k] ? " has" : ""));
+          box.append(el("dt", null, lab), el("dd", null, e[k] || "–"));
+          stats.append(box);
+        }
+        card.append(tm, mid, stats);
+        list.append(card);
       }
-      const tr = el("tr", e.date < today ? "past" : null);
-      tr.append(el("td", "t", e.time || "egész nap"));
-      const ctd = el("td"); const cs = el("span", "ctry", e.country || "–"); cs.title = COUNTRY[e.country] || ""; ctd.append(cs); tr.append(ctd);
-      const etd = el("td");
-      etd.append(el("div", "ev" + ((e.importance || 1) >= 3 ? " hi" : ""), e.event || ""));
-      const sub = el("div", "sub");
-      if (e.type) sub.append(el("span", null, e.type));
-      for (const s of e.symbols || []) sub.append(el("span", "sym", s));
-      const u = safeUrl(e.url);
-      if (u) sub.append(link(u, e.source || "Forrás")); else if (e.source) sub.append(el("span", null, e.source));
-      if (e.note) sub.append(el("span", null, e.note));
-      etd.append(sub); tr.append(etd);
-      const lvl = Math.min(3, Math.max(1, e.importance || 1));
-      const itd = el("td"); const imp = el("span", "imp l" + lvl); imp.append(el("i"), el("i"), el("i")); imp.title = ["", "Alacsony", "Közepes", "Magas"][lvl] + " fontosság"; itd.append(imp); tr.append(itd);
-      for (const k of ["actual", "forecast", "previous"]) tr.append(el("td", "num", e[k] || "–"));
-      tbody.append(tr);
+      day.append(dh, list);
+      tl.append(day);
     }
-    t.append(thead, tbody); wrap.append(t); c.append(wrap);
+    c.append(tl);
   }
 
   const PAGE_NAMES = { home: "Főoldal", wl: "Watchlist News", cal: "Gazdasági naptár" };
@@ -618,7 +689,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   // Élő kriptoárak: csak az exportált fájlban fut, mert a claude.ai-os nézet nem enged külső lekérést
   const fmtUsd = (v) => v.toLocaleString("hu-HU", { maximumFractionDigits: v >= 1000 ? 0 : v >= 1 ? 2 : 4, minimumFractionDigits: v >= 1000 ? 0 : v >= 1 ? 2 : 4 });
   async function pollLive() {
-    const ids = (watchlist || []).filter((w) => w.cg).map((w) => w.cg);
+    const tapeIds = ((current() || {}).markets || []).filter((x) => x.cg).map((x) => x.cg);
+    const ids = [...new Set([...(watchlist || []).filter((w) => w.cg).map((w) => w.cg), ...tapeIds])];
     if (!ids.length) return;
     try {
       const r = await fetch("https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&include_24hr_change=true&ids=" + encodeURIComponent(ids.join(",")));
@@ -634,6 +706,15 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
           change: typeof ch === "number" ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "",
           note: "Élő ár, 24 órás változás", source: "CoinGecko",
         };
+      }
+      for (const id of tapeIds) {
+        const x = j[id];
+        if (!x || typeof x.usd !== "number") continue;
+        const ch = x.usd_24h_change;
+        LIVE_CG[id] = { price: fmtUsd(x.usd) + " $", change: typeof ch === "number" ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "" };
+        // A futószalagon helyben írjuk át az értéket, hogy ne ugorjon vissza az elejére
+        for (const n of document.querySelectorAll('[data-cg="' + id + '"]')) n.textContent = LIVE_CG[id].price;
+        for (const n of document.querySelectorAll('[data-cg-chg="' + id + '"]')) { n.textContent = LIVE_CG[id].change; n.className = "chg " + dirOf(LIVE_CG[id].change); }
       }
       liveAt = new Date();
       renderWatchlist();
