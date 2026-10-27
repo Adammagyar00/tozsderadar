@@ -1,0 +1,116 @@
+// TőzsdeRadar élő árfolyam-közvetítő (Cloudflare Worker).
+//
+// A Finnhub ingyenes élő adatfolyamához API-kulcs kell, ami a nyilvános oldalon
+// látszana. Ez a Worker titokban tartja a kulcsot: egyetlen Durable Object
+// tart egy közös kapcsolatot a Finnhubbal, és szétosztja a kötéseket az összes
+// megnyitott oldalnak. Ha senki nem nézi az oldalt, a kapcsolatot bezárja.
+
+// Csak innen engedünk csatlakozni, hogy más ne használja a kulcsunkat
+const ALLOWED_ORIGINS = [
+  "https://adammagyar00.github.io",
+  "https://www.tozsderadar.hu",
+  "https://tozsderadar.hu",
+];
+const SYMBOL_RE = /^[A-Z][A-Z.]{0,6}$/;
+const MAX_SYMBOLS = 50; // a Finnhub ingyenes kerete
+
+export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    if (url.pathname !== "/ws") {
+      return new Response("TőzsdeRadar élő árfolyam-közvetítő", { headers: { "content-type": "text/plain; charset=utf-8" } });
+    }
+    if (request.headers.get("Upgrade") !== "websocket") {
+      return new Response("WebSocket-kapcsolat kell", { status: 426 });
+    }
+    const origin = request.headers.get("Origin") || "";
+    if (!ALLOWED_ORIGINS.includes(origin) && !origin.startsWith("http://localhost")) {
+      return new Response("Nem engedélyezett oldal", { status: 403 });
+    }
+    const hub = env.HUB.get(env.HUB.idFromName("hub"));
+    return hub.fetch(request);
+  },
+};
+
+export class Hub {
+  constructor(state, env) {
+    this.env = env;
+    this.clients = new Set();
+    this.symbols = new Set();
+    this.upstream = null;
+    this.connecting = null;
+  }
+
+  async fetch() {
+    const [client, server] = Object.values(new WebSocketPair());
+    server.accept();
+    this.clients.add(server);
+
+    server.addEventListener("message", (event) => {
+      let msg;
+      try { msg = JSON.parse(event.data); } catch { return; }
+      if (msg && msg.type === "subscribe" && typeof msg.symbol === "string") this.subscribe(msg.symbol.toUpperCase());
+    });
+    const drop = () => {
+      this.clients.delete(server);
+      if (this.clients.size === 0) this.closeUpstream();
+    };
+    server.addEventListener("close", drop);
+    server.addEventListener("error", drop);
+
+    this.ensureUpstream();
+    return new Response(null, { status: 101, webSocket: client });
+  }
+
+  subscribe(symbol) {
+    if (!SYMBOL_RE.test(symbol) || this.symbols.has(symbol) || this.symbols.size >= MAX_SYMBOLS) return;
+    this.symbols.add(symbol);
+    this.sendUpstream({ type: "subscribe", symbol });
+  }
+
+  sendUpstream(msg) {
+    if (!this.upstream) return;
+    try { this.upstream.send(JSON.stringify(msg)); } catch { /* újracsatlakozáskor újra feliratkozunk */ }
+  }
+
+  async ensureUpstream() {
+    if (this.upstream || this.connecting) return this.connecting;
+    this.connecting = (async () => {
+      try {
+        const res = await fetch("https://ws.finnhub.io?token=" + encodeURIComponent(this.env.FINNHUB_API_KEY), {
+          headers: { Upgrade: "websocket" },
+        });
+        const ws = res.webSocket;
+        if (!ws) throw new Error("A Finnhub nem nyitott WebSocket-kapcsolatot (" + res.status + ")");
+        ws.accept();
+        this.upstream = ws;
+        for (const symbol of this.symbols) this.sendUpstream({ type: "subscribe", symbol });
+        ws.addEventListener("message", (event) => {
+          // Csak a kötéseket továbbítjuk, a Finnhub ping üzeneteit nem
+          if (typeof event.data !== "string" || !event.data.includes('"trade"')) return;
+          for (const c of this.clients) {
+            try { c.send(event.data); } catch { this.clients.delete(c); }
+          }
+        });
+        const reconnect = () => {
+          this.upstream = null;
+          if (this.clients.size) setTimeout(() => this.ensureUpstream(), 5000);
+        };
+        ws.addEventListener("close", reconnect);
+        ws.addEventListener("error", reconnect);
+      } catch (err) {
+        console.log(String(err));
+        if (this.clients.size) setTimeout(() => this.ensureUpstream(), 15000);
+      } finally {
+        this.connecting = null;
+      }
+    })();
+    return this.connecting;
+  }
+
+  closeUpstream() {
+    try { if (this.upstream) this.upstream.close(1000, "nincs néző"); } catch { /* már zárva */ }
+    this.upstream = null;
+    this.symbols.clear();
+  }
+}

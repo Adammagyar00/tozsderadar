@@ -350,6 +350,10 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   }
 
   const LIVE_CG = {};
+  // Másodperces adatfolyam: melyik kriptó kapott nemrég élő árat, és a részvények előző záróára a %-hoz
+  const wsSeen = {};
+  const wsFresh = (cg) => wsSeen[cg] && Date.now() - wsSeen[cg] < 60000;
+  const PREV = {};
   // Részvény- és ETF-árak a GitHub Actions által 15 percenként frissített prices.json-ból
   const LIVE_STK = {};
   let stockAt = null;
@@ -421,8 +425,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const asOf = $("wlAsOf"); asOf.replaceChildren();
     if (liveAt || stockAt) {
       const parts = [];
-      if (stockAt) parts.push("részvény " + stockAt.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" }));
-      if (liveAt) parts.push("kripto " + liveAt.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" }));
+      if (stockAt) parts.push("részvény " + stockAt.toLocaleTimeString("hu-HU"));
+      if (liveAt) parts.push("kripto " + liveAt.toLocaleTimeString("hu-HU"));
       asOf.append(el("span", "live-dot"), "élő · " + parts.join(" · "));
     }
     else if (d && d.watchlist && d.watchlist.length) asOf.textContent = "árak: " + (d.watchlistAsOf || d.date);
@@ -730,7 +734,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (!r.ok) return;
       const j = await r.json();
       for (const w of watchlist) {
-        const x = w.cg && j[w.cg];
+        const x = w.cg && !wsFresh(w.cg) && j[w.cg];
         if (!x || typeof x.usd !== "number") continue;
         const ch = x.usd_24h_change;
         LIVE[String(w.symbol).toUpperCase()] = {
@@ -741,7 +745,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         };
       }
       for (const id of tapeIds) {
-        const x = j[id];
+        const x = !wsFresh(id) && j[id];
         if (!x || typeof x.usd !== "number") continue;
         const ch = x.usd_24h_change;
         LIVE_CG[id] = { price: fmtUsd(x.usd) + " $", change: typeof ch === "number" ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "" };
@@ -781,6 +785,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
           const entry = { symbol: sym, price: fmtUsd(q.price) + " $", change: fmtPct(q.change), note: "Utolsó ár " + when + ", napi változás", source: p.source || "Finnhub" };
           LIVE[sym.toUpperCase()] = entry;
           LIVE_STK[sym.toUpperCase()] = entry;
+          if (typeof q.prevClose === "number") PREV[sym.toUpperCase()] = q.prevClose;
           for (const n of document.querySelectorAll('[data-sym="' + sym.toUpperCase() + '"]')) n.textContent = entry.price;
           for (const n of document.querySelectorAll('[data-sym-chg="' + sym.toUpperCase() + '"]')) { n.textContent = entry.change; n.className = "chg " + dirOf(entry.change); }
         }
@@ -788,6 +793,81 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         renderWatchlist();
       } catch (e) { /* ha nincs prices.json, maradnak a napi záróárak */ }
     };
+    // Másodperces árak. Kriptó: a Bybit nyilvános adatfolyama (kulcs nélkül).
+    // Részvény: a saját Cloudflare Workerünk, amely a Finnhub adatfolyamát közvetíti (live.json adja a címét).
+    const pend = new Map();
+    const cgOf = () => {
+      const m = {};
+      for (const w of watchlist || []) if (w.cg) m[String(w.symbol).toUpperCase()] = w.cg;
+      for (const x of (current() || {}).markets || []) if (x.cg) m[String(x.name).toUpperCase()] = x.cg;
+      return m;
+    };
+    const stockSyms = () => {
+      const out = new Set();
+      for (const w of watchlist || []) {
+        const t = String(w.type || "").toLowerCase();
+        if (!t.startsWith("kripto") && !t.includes("lse") && !t.includes("xetra")) out.add(String(w.symbol).toUpperCase());
+      }
+      for (const x of (current() || {}).markets || []) if (x.group === "Részvény") out.add(String(x.name).toUpperCase());
+      for (const s of ["OTP", "MOL", "RICHTER"]) out.delete(s);
+      return [...out];
+    };
+    const connectBybit = () => {
+      const syms = Object.keys(cgOf());
+      if (!syms.length) return;
+      let ws, ping;
+      try { ws = new WebSocket("wss://stream.bybit.com/v5/public/spot"); } catch (e) { return; }
+      ws.onopen = () => {
+        const args = syms.map((s) => "tickers." + s + "USDT");
+        for (let i = 0; i < args.length; i += 10) ws.send(JSON.stringify({ op: "subscribe", args: args.slice(i, i + 10) }));
+        ping = setInterval(() => { try { ws.send('{"op":"ping"}'); } catch (e) {} }, 20000);
+      };
+      ws.onmessage = (e) => {
+        let m; try { m = JSON.parse(e.data); } catch (err) { return; }
+        const d = m && m.data;
+        if (!d || !d.symbol || !d.lastPrice) return;
+        const pct = parseFloat(d.price24hPcnt);
+        pend.set(d.symbol.replace(/USDT$/, ""), { kind: "c", price: parseFloat(d.lastPrice), change: isFinite(pct) ? pct * 100 : null });
+      };
+      ws.onclose = () => { clearInterval(ping); setTimeout(connectBybit, 5000); };
+    };
+    const connectStocks = async () => {
+      let cfg;
+      try { const r = await fetch("live.json?t=" + Date.now(), { cache: "no-store" }); if (!r.ok) return; cfg = await r.json(); } catch (e) { return; }
+      if (!cfg || !cfg.wsUrl) return;
+      let ws;
+      try { ws = new WebSocket(cfg.wsUrl); } catch (e) { return; }
+      ws.onopen = () => { for (const s of stockSyms()) ws.send(JSON.stringify({ type: "subscribe", symbol: s })); };
+      ws.onmessage = (e) => {
+        let m; try { m = JSON.parse(e.data); } catch (err) { return; }
+        if (!m || m.type !== "trade" || !Array.isArray(m.data)) return;
+        for (const t of m.data) {
+          if (!t.s || typeof t.p !== "number") continue;
+          const pc = PREV[t.s];
+          pend.set(t.s, { kind: "s", price: t.p, change: pc ? (t.p / pc - 1) * 100 : null });
+        }
+      };
+      ws.onclose = () => { setTimeout(connectStocks, 10000); };
+    };
+    // Másodpercenként egyszer írjuk ki az összegyűlt változásokat, hogy ne villogjon az oldal
+    setInterval(() => {
+      if (!pend.size) return;
+      const cgm = cgOf();
+      const now = new Date();
+      for (const [sym, u] of pend) {
+        const change = typeof u.change === "number" ? (u.change >= 0 ? "+" : "") + u.change.toFixed(2).replace(".", ",") + "%" : ((LIVE[sym] || {}).change || "");
+        const entry = { symbol: sym, price: fmtUsd(u.price) + " $", change, note: u.kind === "c" ? "Élő ár (Bybit, USDT), 24 órás változás" : "Élő ár, változás az előző záráshoz", source: u.kind === "c" ? "Bybit" : "Finnhub" };
+        LIVE[sym] = entry;
+        const attr = u.kind === "c" ? "cg" : "sym";
+        const key = u.kind === "c" ? cgm[sym] : sym;
+        if (u.kind === "c") { if (!key) continue; LIVE_CG[key] = entry; wsSeen[key] = Date.now(); liveAt = now; }
+        else { LIVE_STK[sym] = entry; stockAt = now; }
+        for (const n of document.querySelectorAll("[data-" + attr + '="' + key + '"]')) n.textContent = entry.price;
+        for (const n of document.querySelectorAll("[data-" + attr + '-chg="' + key + '"]')) { n.textContent = entry.change; n.className = "chg " + dirOf(entry.change); }
+      }
+      pend.clear();
+      renderWatchlist();
+    }, 1000);
     const loadRemote = async () => {
       try {
         const r = await fetch(window.__GN_REMOTE__ + "?t=" + Date.now(), { cache: "no-store" });
@@ -799,7 +879,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
         loadPrices();
-        if (first) { first = false; pollLive(); setInterval(pollLive, 60000); }
+        if (first) { first = false; pollLive(); setInterval(pollLive, 60000); connectBybit(); connectStocks(); }
       } catch (e) {
         if (first) { watchlist = []; renderEmpty("Az összefoglaló most nem tölthető be", "Nem sikerült betölteni az adatokat. Töltsd újra az oldalt."); renderWatchlist(); }
       }
