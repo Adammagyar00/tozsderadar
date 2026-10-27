@@ -214,6 +214,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .wl-note a { font-size: 12px; }
 .wl-del { background: none; border: 0; color: var(--muted); cursor: pointer; font: inherit; font-size: 15px; padding: 0 2px; line-height: 1; }
 .wl-del:hover { color: var(--down); }
+.live-status { margin: 0; line-height: 1.4; }
 .wl-add { display: grid; grid-template-columns: 80px minmax(0, 1fr) auto; gap: 6px; }
 .wl-add input { font: inherit; font-size: 14px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; }
 .btn { font: inherit; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 6px; border: 0; background: var(--accent); color: var(--surface); cursor: pointer; }
@@ -275,6 +276,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       <section class="panel" aria-labelledby="wlLabel">
         <div class="panel-head"><div class="sec-label" id="wlLabel">Figyelőlista</div><span class="hint" id="wlAsOf"></span></div>
         <div class="wl" id="wl"><p class="muted">A figyelőlista betöltése…</p></div>
+        <p class="hint live-status" id="liveStatus" hidden></p>
         <form class="wl-add" id="wlAdd" hidden>
           <input id="wlSym" placeholder="Jelölés" aria-label="Jelölés, például NVDA" maxlength="12" required>
           <input id="wlName" placeholder="Név" aria-label="Név" maxlength="80" required>
@@ -812,24 +814,56 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       for (const s of ["OTP", "MOL", "RICHTER"]) out.delete(s);
       return [...out];
     };
+    // Állapotjelző a figyelőlista alatt: honnan jön az élő ár, vagy miért nem
+    const LIVE_STATUS = { c: "", s: "" };
+    const setStatus = (k, t) => {
+      LIVE_STATUS[k] = t;
+      const n = $("liveStatus");
+      n.textContent = [LIVE_STATUS.c, LIVE_STATUS.s].filter(Boolean).join(" · ");
+      n.hidden = !n.textContent;
+    };
+    // Kriptó: előbb a Bybit, ha 8 mp alatt nem jön ár, a Binance (mindkettő kulcs nélküli, nyilvános)
+    const CRYPTO_SOURCES = [
+      {
+        name: "Bybit",
+        url: () => "wss://stream.bybit.com/v5/public/spot",
+        open: (ws, syms) => {
+          const args = syms.map((s) => "tickers." + s + "USDT");
+          for (let i = 0; i < args.length; i += 10) ws.send(JSON.stringify({ op: "subscribe", args: args.slice(i, i + 10) }));
+          return setInterval(() => { try { ws.send('{"op":"ping"}'); } catch (e) {} }, 20000);
+        },
+        parse: (m) => { const d = m && m.data; return d && d.symbol && d.lastPrice ? [d.symbol.replace(/USDT$/, ""), parseFloat(d.lastPrice), parseFloat(d.price24hPcnt) * 100] : null; },
+      },
+      {
+        name: "Binance",
+        url: (syms) => "wss://stream.binance.com:9443/stream?streams=" + syms.map((s) => s.toLowerCase() + "usdt@ticker").join("/"),
+        open: () => null,
+        parse: (m) => { const d = m && m.data; return d && d.s && d.c ? [d.s.replace(/USDT$/, ""), parseFloat(d.c), parseFloat(d.P)] : null; },
+      },
+    ];
+    let srcIdx = 0;
     const connectBybit = () => {
       const syms = Object.keys(cgOf());
       if (!syms.length) return;
-      let ws, ping;
-      try { ws = new WebSocket("wss://stream.bybit.com/v5/public/spot"); } catch (e) { return; }
-      ws.onopen = () => {
-        const args = syms.map((s) => "tickers." + s + "USDT");
-        for (let i = 0; i < args.length; i += 10) ws.send(JSON.stringify({ op: "subscribe", args: args.slice(i, i + 10) }));
-        ping = setInterval(() => { try { ws.send('{"op":"ping"}'); } catch (e) {} }, 20000);
-      };
+      const src = CRYPTO_SOURCES[srcIdx % CRYPTO_SOURCES.length];
+      let ws, ping, got = false;
+      setStatus("c", "kriptó: kapcsolódás (" + src.name + ")…");
+      try { ws = new WebSocket(src.url(syms)); } catch (e) { srcIdx++; setTimeout(connectBybit, 2000); return; }
+      const guard = setTimeout(() => { if (!got) { try { ws.close(); } catch (e) {} } }, 8000);
+      ws.onopen = () => { ping = src.open(ws, syms); };
       ws.onmessage = (e) => {
         let m; try { m = JSON.parse(e.data); } catch (err) { return; }
-        const d = m && m.data;
-        if (!d || !d.symbol || !d.lastPrice) return;
-        const pct = parseFloat(d.price24hPcnt);
-        pend.set(d.symbol.replace(/USDT$/, ""), { kind: "c", price: parseFloat(d.lastPrice), change: isFinite(pct) ? pct * 100 : null });
+        const r = src.parse(m);
+        if (!r || !isFinite(r[1])) return;
+        if (!got) { got = true; setStatus("c", "kriptó: élő (" + src.name + ")"); }
+        pend.set(r[0], { kind: "c", price: r[1], change: isFinite(r[2]) ? r[2] : null, src: src.name });
       };
-      ws.onclose = () => { clearInterval(ping); setTimeout(connectBybit, 5000); };
+      ws.onclose = () => {
+        clearTimeout(guard); clearInterval(ping);
+        if (!got) { srcIdx++; setStatus("c", "kriptó: " + src.name + " nem elérhető, másik forrás…"); }
+        else setStatus("c", "kriptó: újracsatlakozás…");
+        setTimeout(connectBybit, got ? 3000 : 1500);
+      };
     };
     const connectStocks = async () => {
       let cfg;
@@ -837,17 +871,23 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (!cfg || !cfg.wsUrl) return;
       let ws;
       try { ws = new WebSocket(cfg.wsUrl); } catch (e) { return; }
-      ws.onopen = () => { for (const s of stockSyms()) ws.send(JSON.stringify({ type: "subscribe", symbol: s })); };
+      let gotTrade = false;
+      setStatus("s", "részvény: kapcsolódás…");
+      ws.onopen = () => {
+        for (const s of stockSyms()) ws.send(JSON.stringify({ type: "subscribe", symbol: s }));
+        setStatus("s", "részvény: kapcsolódva, kötésre vár (tőzsdeidőben élő)");
+      };
       ws.onmessage = (e) => {
         let m; try { m = JSON.parse(e.data); } catch (err) { return; }
         if (!m || m.type !== "trade" || !Array.isArray(m.data)) return;
+        if (!gotTrade) { gotTrade = true; setStatus("s", "részvény: élő (Finnhub)"); }
         for (const t of m.data) {
           if (!t.s || typeof t.p !== "number") continue;
           const pc = PREV[t.s];
           pend.set(t.s, { kind: "s", price: t.p, change: pc ? (t.p / pc - 1) * 100 : null });
         }
       };
-      ws.onclose = () => { setTimeout(connectStocks, 10000); };
+      ws.onclose = () => { setStatus("s", "részvény: újracsatlakozás…"); setTimeout(connectStocks, 10000); };
     };
     // Másodpercenként egyszer írjuk ki az összegyűlt változásokat, hogy ne villogjon az oldal
     setInterval(() => {
@@ -856,7 +896,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const now = new Date();
       for (const [sym, u] of pend) {
         const change = typeof u.change === "number" ? (u.change >= 0 ? "+" : "") + u.change.toFixed(2).replace(".", ",") + "%" : ((LIVE[sym] || {}).change || "");
-        const entry = { symbol: sym, price: fmtUsd(u.price) + " $", change, note: u.kind === "c" ? "Élő ár (Bybit, USDT), 24 órás változás" : "Élő ár, változás az előző záráshoz", source: u.kind === "c" ? "Bybit" : "Finnhub" };
+        const entry = { symbol: sym, price: fmtUsd(u.price) + " $", change, note: u.kind === "c" ? "Élő ár (" + u.src + ", USDT), 24 órás változás" : "Élő ár, változás az előző záráshoz", source: u.kind === "c" ? u.src : "Finnhub" };
         LIVE[sym] = entry;
         const attr = u.kind === "c" ? "cg" : "sym";
         const key = u.kind === "c" ? cgm[sym] : sym;
@@ -900,6 +940,14 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     pollLive();
     setInterval(pollLive, 60000);
     return;
+  }
+
+  // A claude.ai-os nézet nem enged külső kapcsolatot, ezért itt jelezzük, hol vannak az élő árak
+  {
+    const n = $("liveStatus");
+    n.append("Az élő, másodperces árak a GitHubos oldalon látszanak: ");
+    n.append(link("https://adammagyar00.github.io/tozsderadar/", "adammagyar00.github.io/tozsderadar"));
+    n.hidden = false;
   }
 
   $("exportBtn").addEventListener("click", async () => {
