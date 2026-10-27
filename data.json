@@ -134,6 +134,27 @@
      "value": "101,76 $"
     },
     {
+     "change": "+1,09%",
+     "group": "Nyersanyag",
+     "name": "Arany",
+     "note": "Okt. 27. (Trading Economics; SunSirs ~4017 $)",
+     "value": "4060,65 $/uncia"
+    },
+    {
+     "change": "+0,88%",
+     "group": "Nyersanyag",
+     "name": "Ezüst",
+     "note": "Okt. 27. (Trading Economics; SunSirs ~53,97 $)",
+     "value": "54,44 $/uncia"
+    },
+    {
+     "change": "+1,56%",
+     "group": "Nyersanyag",
+     "name": "Réz",
+     "note": "Okt. 27. (Trading Economics)",
+     "value": "6,61 $/font"
+    },
+    {
      "change": "",
      "group": "Kamat",
      "name": "Fed célsáv",
@@ -169,6 +190,27 @@
      "value": "26 169,38"
     },
     {
+     "change": "+0,91%",
+     "group": "Index",
+     "name": "DAX",
+     "note": "Okt. 26-i zárás",
+     "value": "25 410,84"
+    },
+    {
+     "change": "-0,80%",
+     "group": "Index",
+     "name": "Nikkei 225",
+     "note": "Okt. 26-i zárás",
+     "value": "62 189,65"
+    },
+    {
+     "change": "+0,51%",
+     "group": "Index",
+     "name": "Hang Seng",
+     "note": "Okt. 26-i zárás",
+     "value": "23 211,81"
+    },
+    {
      "change": "+2,39%",
      "group": "Részvény",
      "name": "NVDA",
@@ -202,6 +244,20 @@
      "name": "META",
      "note": "Meta, okt. 26-i zárás",
      "value": "630,56 $"
+    },
+    {
+     "change": "+2,33%",
+     "group": "Részvény",
+     "name": "AVGO",
+     "note": "Broadcom, okt. 26-i zárás (Yahoo Finance, Macrotrends)",
+     "value": "329,17 $"
+    },
+    {
+     "change": "-2,96%",
+     "group": "Részvény",
+     "name": "NFLX",
+     "note": "Netflix, okt. 26-i zárás (Yahoo Finance)",
+     "value": "63,90 $"
     },
     {
      "cg": "bitcoin",
@@ -242,6 +298,63 @@
      "name": "BNB",
      "note": "24 óra, okt. 27. (Coingape)",
      "value": "743,85 $"
+    },
+    {
+     "cg": "hyperliquid",
+     "change": "+2,88%",
+     "group": "Kripto",
+     "name": "HYPE",
+     "note": "24 óra, okt. 27. (OKX)",
+     "value": "77,51 $"
+    },
+    {
+     "cg": "dogecoin",
+     "change": "",
+     "group": "Kripto",
+     "name": "DOGE",
+     "value": ""
+    },
+    {
+     "cg": "cardano",
+     "change": "",
+     "group": "Kripto",
+     "name": "ADA",
+     "value": ""
+    },
+    {
+     "cg": "tron",
+     "change": "",
+     "group": "Kripto",
+     "name": "TRX",
+     "value": ""
+    },
+    {
+     "cg": "avalanche-2",
+     "change": "",
+     "group": "Kripto",
+     "name": "AVAX",
+     "value": ""
+    },
+    {
+     "cg": "chainlink",
+     "change": "",
+     "group": "Kripto",
+     "name": "LINK",
+     "value": ""
+    },
+    {
+     "cg": "the-open-network",
+     "change": "",
+     "group": "Kripto",
+     "name": "TON",
+     "value": ""
+    },
+    {
+     "cg": "litecoin",
+     "change": "",
+     "group": "Kripto",
+     "name": "LTC",
+     "value": ""
     }
    ],
    "summary": "A Brent hétfőn 115,81 dolláron zárt, napközben 117 dollár fölé is felment. Irán a Perzsa-öböl olajlétesítményeinek megtámadásával fenyegetett egy újabb amerikai–izraeli támadás esetére. A forint októberben gyengült, az MNB hivatalos euróárfolyama 367,14 forint. A Fed szerdán, az EKB csütörtökön dönt a kamatokról, és a piac mindkettőnél inkább a kamat változatlanul hagyására számít.",
@@ -358,6 +471,14 @@
      "source": "MarketScreener",
      "symbol": "XDW0",
      "url": "https://www.marketscreener.com/quote/etf/XTRACKERS-MSCI-WORLD-ENER-26726184/"
+    },
+    {
+     "change": "-0,66%",
+     "note": "24 óra, okt. 27.",
+     "price": "1,30 $",
+     "source": "Coingape",
+     "symbol": "XRP",
+     "url": "https://coingape.com/markets/why-btc-eth-bnb-and-xrp-prices-dropping-today/"
     }
    ],
    "watchlistAsOf": "részvények: főleg okt. 26-i zárás · kripto: okt. 27."
@@ -395,6 +516,14 @@
    "symbol": "ONDO",
    "type": "Kripto",
    "id": "ONDO"
+  },
+  {
+   "cg": "ripple",
+   "name": "XRP",
+   "order": 4.5,
+   "symbol": "XRP",
+   "type": "Kripto",
+   "id": "XRP"
   },
   {
    "name": "Eli Lilly and Company",
@@ -572,6 +701,20 @@
   },
   {
    "actual": "",
+   "country": "GB",
+   "date": "2026-11-05",
+   "event": "Bank of England kamatdöntés + Monetary Policy Report",
+   "forecast": "",
+   "importance": 3,
+   "previous": "",
+   "source": "Bank of England",
+   "time": "13:00",
+   "type": "Jegybank",
+   "url": "https://www.bankofengland.co.uk/events/upcoming-events",
+   "id": "2026-11-05-gb-boe"
+  },
+  {
+   "actual": "",
    "country": "US",
    "date": "2026-11-06",
    "event": "Munkaerőpiaci jelentés, október (nem mezőgazdasági foglalkoztatás)",
@@ -611,6 +754,78 @@
    "type": "Makroadat",
    "url": "https://www.ksh.gov.hu/",
    "id": "2026-11-10-hu-cpi"
+  },
+  {
+   "actual": "",
+   "country": "US",
+   "date": "2026-11-18",
+   "event": "Fed: az októberi FOMC-ülés jegyzőkönyve",
+   "forecast": "",
+   "importance": 2,
+   "previous": "",
+   "source": "Federal Reserve",
+   "time": "20:00",
+   "type": "Jegybank",
+   "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "id": "2026-11-18-us-fomc-minutes"
+  },
+  {
+   "actual": "",
+   "country": "US",
+   "date": "2026-12-04",
+   "event": "Munkaerőpiaci jelentés, november (nem mezőgazdasági foglalkoztatás)",
+   "forecast": "",
+   "importance": 3,
+   "previous": "",
+   "source": "BLS",
+   "time": "14:30",
+   "type": "Makroadat",
+   "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
+   "id": "2026-12-04-us-nfp"
+  },
+  {
+   "actual": "",
+   "country": "US",
+   "date": "2026-12-09",
+   "event": "Fed kamatdöntés (FOMC) + gazdasági előrejelzések",
+   "forecast": "",
+   "importance": 3,
+   "note": "Kétnapos ülés: dec. 8–9.",
+   "previous": "",
+   "source": "Federal Reserve",
+   "time": "20:00",
+   "type": "Jegybank",
+   "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "id": "2026-12-09-us-fomc"
+  },
+  {
+   "actual": "",
+   "country": "US",
+   "date": "2026-12-10",
+   "event": "Fogyasztói árindex (CPI), november",
+   "forecast": "",
+   "importance": 3,
+   "previous": "",
+   "source": "BLS",
+   "time": "14:30",
+   "type": "Makroadat",
+   "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
+   "id": "2026-12-10-us-cpi"
+  },
+  {
+   "actual": "",
+   "country": "EU",
+   "date": "2026-12-17",
+   "event": "EKB kamatdöntés (betéti ráta)",
+   "forecast": "",
+   "importance": 3,
+   "note": "Kétnapos ülés: dec. 16–17.",
+   "previous": "",
+   "source": "centralbank.watch",
+   "time": "14:15",
+   "type": "Jegybank",
+   "url": "https://centralbank.watch/tools/calendar/",
+   "id": "2026-12-17-eu-ecb"
   }
  ]
 }

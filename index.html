@@ -343,6 +343,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const frag = document.createDocumentFragment();
       let grp = null;
       for (const x of m) {
+        // Ellenőrzött érték vagy élő ár nélkül nem mutatjuk az elemet
+        if (!x.value && !(x.cg && LIVE_CG[x.cg])) continue;
         const s = el("div", "tick");
         if ((x.group || "") !== grp) { grp = x.group || ""; if (grp) s.append(el("span", "tick-grp", grp)); }
         s.append(el("b", null, x.name));
@@ -716,6 +718,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         for (const n of document.querySelectorAll('[data-cg="' + id + '"]')) n.textContent = LIVE_CG[id].price;
         for (const n of document.querySelectorAll('[data-cg-chg="' + id + '"]')) { n.textContent = LIVE_CG[id].change; n.className = "chg " + dirOf(LIVE_CG[id].change); }
       }
+      // Ha olyan kriptó kapott élő árat, ami eddig nem volt a szalagon, építsük újra egyszer
+      if (tapeIds.some((id) => LIVE_CG[id] && !document.querySelector('[data-cg="' + id + '"]')) && current()) { tapeSig = ""; renderTape(current()); }
       liveAt = new Date();
       renderWatchlist();
     } catch (e) { /* hálózat nélkül marad a napi pillanatkép */ }
@@ -730,7 +734,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       + INITIAL + "\n<script>window.__GN_DATA__ = " + data + ";<\/script>\n<script>" + SELF_SRC + "<\/script>\n</body></html>\n";
   }
 
-  // GitHub Pages-változat: a data.json-t olvassa, és 5 percenként újra megnézi
+  // GitHub Pages-változat: a data.json-t olvassa, és percenként újra megnézi
   if (window.__GN_REMOTE__) {
     $("exportBtn").hidden = true;
     let first = true;
@@ -750,7 +754,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       }
     };
     loadRemote();
-    setInterval(loadRemote, 300000);
+    setInterval(loadRemote, 60000);
     return;
   }
 
