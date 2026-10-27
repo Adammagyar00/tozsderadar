@@ -1,6 +1,6 @@
 {
  "source": "Finnhub",
- "updatedAt": "2026-10-27T21:51:57Z",
+ "updatedAt": "2026-10-27T22:30:12Z",
  "quotes": {
   "VUAA": {
    "price": 149.52,
@@ -33,9 +33,9 @@
    "source": "Yahoo Finance (EQQQ.L)"
   },
   "XDW0": {
-   "price": 82.0504,
+   "price": 82.0725,
    "change": -1.39,
-   "prevClose": 83.2079,
+   "prevClose": 83.2303,
    "t": 1793118958,
    "listing": "XDW0.DE",
    "currency": "EUR",
