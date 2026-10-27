@@ -1,4 +1,4 @@
-# Tőzsdei Radar
+# TőzsdeRadar
 
 Napi gazdasági és tőzsdei összefoglaló: piacok, jegybankok, forint, nyersanyagok és egy figyelőlista.
 

@@ -1,5 +1,5 @@
 <!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*,*::before,*::after{box-sizing:border-box}body{margin:0;font-size:14px;font-family:system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
-<title>Tőzsdei Radar</title>
+<title>TőzsdeRadar</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
@@ -236,7 +236,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       <button class="menu-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="menu"><span class="burger" aria-hidden="true"><i></i><i></i><i></i></span>Menü</button>
       <span class="page-name" id="pageName">Főoldal</span>
     </div>
-    <h1 class="brand">Tőzsdei <span>Radar</span></h1>
+    <h1 class="brand">Tőzsde<span>Radar</span></h1>
     <div class="hdr-right">
       <div class="edition" id="edition">Napi gazdasági összefoglaló</div>
       <button class="btn-ghost" type="button" id="exportBtn">Exportálás HTML-be</button>
@@ -737,7 +737,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   function buildExport() {
     const data = JSON.stringify({ digests, watchlist, calendar: calEvents }).replace(/</g, "\\u003c");
     const font = document.querySelector('link[href*="fonts.googleapis"]');
-    return "<!doctype html>\n<html lang=\"hu\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Tőzsdei Radar</title>"
+    return "<!doctype html>\n<html lang=\"hu\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>TőzsdeRadar</title>"
       + (font ? '<link rel="stylesheet" href="' + font.href + '">' : "")
       + "<style>*,*::before,*::after{box-sizing:border-box}body{margin:0}img{max-width:100%}[hidden]{display:none!important}\n" + STYLE_SRC + "</style></head><body>\n"
       + INITIAL + "\n<script>window.__GN_DATA__ = " + data + ";<\/script>\n<script>" + SELF_SRC + "<\/script>\n</body></html>\n";
@@ -786,7 +786,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const dl = window.claude ? await window.claude.use("downloads") : null;
     if (!dl) { st.textContent = "Az exportálás ebben a nézetben nem érhető el."; return; }
     try {
-      await dl.save({ filename: "tozsdei-radar-" + digests[0].date + ".html", data: new Blob([buildExport()], { type: "text/html" }) });
+      await dl.save({ filename: "tozsderadar-" + digests[0].date + ".html", data: new Blob([buildExport()], { type: "text/html" }) });
       st.textContent = "Elmentve.";
     } catch (e) {
       st.textContent = e && e.code === "declined" ? "" : "Nem sikerült menteni. Próbáld újra.";
