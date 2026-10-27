@@ -11,6 +11,10 @@
      "event": "EKB kamatdöntés 14:15, sajtótájékoztató 14:45"
     },
     {
+     "date": "okt. 29.",
+     "event": "Eli Lilly (LLY) 3. negyedéves gyorsjelentés"
+    },
+    {
      "date": "nov. 3.",
      "event": "Amerikai félidős választások"
     }
@@ -66,6 +70,31 @@
      "summary": "Az október 20-i ülésen nem változott az alapkamat, ahogy az elemzők várták. A szeptemberi infláció 1,6% volt. A Portfolio szerint a drága energia és a külföldi kamatemelések miatt a jegybank kivár.",
      "title": "Az MNB 5,50%-on tartotta az alapkamatot",
      "url": "https://www.mnb.hu/monetaris-politika/a-monetaris-tanacs/kozlemenyek/2026/kozlemeny-a-monetaris-tanacs-2026-oktober-20-i-uleserol"
+    },
+    {
+     "addedAt": "2026-10-27T16:49:31Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Investing.com",
+     "summary": "Az Anthropic tőzsdei tájékoztatója szerint 2029-ig akár 120,5 milliárd dollárt költhet a SpaceX számítási kapacitására; a teljes kapacitás átadása után, 2026 decemberétől havonta nagyjából 3,1 milliárd dollárt fizet. A SpaceX részvénye kedd délelőtt 2,0%-kal 149,83 dollárra emelkedett. Korábban a Reuters még 84,5 milliárd dolláros összegről írt.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "SpaceX: akár 120,5 milliárd dolláros számítási kapacitás-megállapodás az Anthropickal",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-rallying-today-93CH-4976194"
+    },
+    {
+     "addedAt": "2026-10-27T16:49:31Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Fortune",
+     "summary": "A bitcoin kedd reggel 79 756 dolláron állt, 511 dollárral kevesebben, mint egy nappal korábban. A befektetők a Fed szerdai kamatdöntésére várnak, az ether is enyhén gyengült.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A bitcoin 80 ezer dollár alatt a Fed-döntés előtt",
+     "url": "https://fortune.com/article/price-of-bitcoin-10-27-2026/"
     }
    ],
    "markets": [
@@ -119,6 +148,7 @@
     }
    ],
    "summary": "A Brent hétfőn 115,81 dolláron zárt, napközben 117 dollár fölé is felment. Irán a Perzsa-öböl olajlétesítményeinek megtámadásával fenyegetett egy újabb amerikai–izraeli támadás esetére. A forint októberben gyengült, az MNB hivatalos euróárfolyama 367,14 forint. A Fed szerdán, az EKB csütörtökön dönt a kamatokról, és a piac mindkettőnél inkább a kamat változatlanul hagyására számít.",
+   "updatedAt": "2026-10-27T16:49:31Z",
    "watchlist": [
     {
      "change": "+0,36%",

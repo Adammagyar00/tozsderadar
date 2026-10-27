@@ -78,6 +78,18 @@ main .wrap { display: grid; grid-template-columns: minmax(0, 1fr) clamp(360px, 3
 .meta { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); align-items: center; }
 .pill { font-family: var(--font-data); font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; text-transform: uppercase; letter-spacing: 0.05em; }
 .pill.pozitiv { color: var(--up); } .pill.negativ { color: var(--down); } .pill.semleges { color: var(--flat); }
+.tabs { border-bottom: 1px solid var(--line); }
+.tabs .wrap { display: flex; gap: 4px; padding-block: 0; overflow-x: auto; }
+.tab { font-family: var(--font-display); font-size: 16px; font-weight: 600; color: var(--muted); text-decoration: none; padding: 12px 14px 10px; border-bottom: 3px solid transparent; white-space: nowrap; }
+.tab:hover { color: var(--fg); }
+.tab[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+.tab .cnt { font-family: var(--font-data); font-size: 11px; font-weight: 600; margin-left: 6px; padding: 1px 6px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.chip { font-family: var(--font-data); font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.chip .n { opacity: 0.7; margin-left: 4px; }
+.day-head { font-family: var(--font-data); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 26px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
 .new-badge { font-family: var(--font-data); font-size: 11px; font-weight: 600; letter-spacing: 0.05em; color: var(--surface); background: var(--accent); padding: 2px 8px; border-radius: 999px; }
 .sym { font-family: var(--font-data); font-size: 12px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 1px 6px; border-radius: 4px; }
 a { color: var(--accent); text-underline-offset: 2px; }
@@ -147,6 +159,13 @@ aside { display: grid; gap: 18px; align-content: start; }
   <div class="wrap"><div class="tape-row" id="tape" aria-label="Piaci mutatók"></div></div>
 </div>
 
+<nav class="tabs" aria-label="Nézetek">
+  <div class="wrap">
+    <a class="tab" href="#" id="tabDaily" aria-current="page">Napi összefoglaló</a>
+    <a class="tab" href="#watchlist-news" id="tabWl">Watchlist News<span class="cnt" id="wlNewsCnt" hidden></span></a>
+  </div>
+</nav>
+
 <main>
   <div class="wrap">
     <div id="content">
@@ -187,7 +206,7 @@ aside { display: grid; gap: 18px; align-content: start; }
   const $ = (id) => document.getElementById(id);
   // Az exporthoz: a saját forrás és a kiinduló jelölés, mielőtt bármi kirajzolódik
   const SELF_SRC = document.currentScript ? document.currentScript.textContent : "";
-  const INITIAL = ["header.mast", "#tapeBand", "main"].map((s) => document.querySelector(s)?.outerHTML || "").join("\n");
+  const INITIAL = ["header.mast", "#tapeBand", "nav.tabs", "main"].map((s) => document.querySelector(s)?.outerHTML || "").join("\n");
   const STYLE_SRC = document.getElementById("gn-style")?.textContent || "";
   const LIVE = {};
   let liveAt = null;
@@ -344,15 +363,106 @@ aside { display: grid; gap: 18px; align-content: start; }
     }
   }
 
+  // Watchlist News: minden kiadásból azok a hírek, amelyek a figyelőlista valamelyik tételéről szólnak
+  let wlFilter = null;
+  const viewIsWl = () => location.hash === "#watchlist-news";
+  function watchlistNews() {
+    const syms = new Set((watchlist || []).map((w) => String(w.symbol).toUpperCase()));
+    const out = [];
+    for (const d of digests) {
+      for (const it of d.items || []) {
+        const s = (it.symbols || []).map((x) => String(x).toUpperCase()).filter((x) => syms.has(x));
+        if (s.length || (it.category === "Figyelőlista" && !(it.symbols || []).length)) {
+          out.push({ ...it, _date: d.date, _syms: s, _ts: it.addedAt || d.generatedAt || d.date + "T06:00:00Z" });
+        }
+      }
+    }
+    return out.sort((a, b) => String(b._ts).localeCompare(String(a._ts)));
+  }
+
+  function newsItem(it) {
+    const row = el("article", "item");
+    row.append(el("div", "bar " + tone(it.impact)));
+    const body = el("div");
+    body.style.minWidth = "0";
+    body.append(el("h4", null, it.title), el("p", null, it.summary));
+    const meta = el("div", "meta");
+    if (it.addedAt) {
+      const t = new Date(it.addedAt);
+      if (!isNaN(t)) meta.append(el("span", "new-badge", "Új · " + t.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" })));
+    }
+    meta.append(el("span", "pill " + tone(it.impact), it.impact || "semleges"));
+    for (const s of it.symbols || []) meta.append(el("span", "sym", s));
+    const u = safeUrl(it.url);
+    if (u) meta.append(link(u, it.source || "Forrás"));
+    else if (it.source) meta.append(el("span", null, it.source));
+    body.append(meta); row.append(body);
+    return row;
+  }
+
+  function renderWatchlistNews() {
+    const c = $("content"); c.replaceChildren();
+    const all = watchlistNews();
+    const lead = el("section", "lead");
+    lead.append(el("div", "lead-eyebrow", "Csak a figyelőlistád"), el("h2", null, "Watchlist News"));
+    lead.append(el("p", null, "Azok a megerősített hírek, amelyek a figyelőlistád részvényeiről, ETF-jeiről és kriptóiról szólnak, a legfrissebb elöl."));
+    const counts = new Map();
+    for (const it of all) for (const s of it._syms) counts.set(s, (counts.get(s) || 0) + 1);
+    const chips = el("div", "chips");
+    const mk = (label, val, n) => {
+      const b = el("button", "chip", label);
+      b.type = "button";
+      if (n != null) b.append(el("span", "n", String(n)));
+      b.setAttribute("aria-pressed", String(wlFilter === val));
+      b.addEventListener("click", () => { wlFilter = val; renderWatchlistNews(); });
+      return b;
+    };
+    chips.append(mk("Mind", null, all.length));
+    for (const w of (watchlist || [])) {
+      const s = String(w.symbol).toUpperCase();
+      if (counts.get(s)) chips.append(mk(s, s, counts.get(s)));
+    }
+    lead.append(chips);
+    c.append(lead);
+    const list = wlFilter ? all.filter((it) => it._syms.includes(wlFilter)) : all;
+    if (!list.length) {
+      const box = el("div", "empty");
+      box.append(el("h2", null, "Még nincs hír a figyelőlistádról"), el("p", null, "Amint a reggeli vagy az óránkénti frissítés megerősített hírt talál valamelyik tételedről, itt jelenik meg."));
+      c.append(box);
+      return;
+    }
+    let lastDay = null;
+    const sec = el("section", "section");
+    for (const it of list) {
+      if (it._date !== lastDay) { lastDay = it._date; sec.append(el("div", "day-head", fmtDate(it._date))); }
+      sec.append(newsItem(it));
+    }
+    c.append(sec);
+  }
+
+  function renderTabs() {
+    const wl = viewIsWl();
+    $("tabDaily").setAttribute("aria-current", wl ? "false" : "page");
+    $("tabWl").setAttribute("aria-current", wl ? "page" : "false");
+    const n = digests.length ? watchlistNews().length : 0;
+    $("wlNewsCnt").hidden = !n;
+    $("wlNewsCnt").textContent = String(n);
+  }
+
   function render() {
     renderArchive();
     const d = current();
     renderCalendar(d);
     renderWatchlist();
+    renderTabs();
     if (!d) { $("tapeBand").hidden = true; renderEmpty("Még nincs kiadás", "Az első összefoglaló a következő reggeli frissítéskor jelenik meg."); return; }
     $("edition").textContent = fmtDate(d.date);
-    renderTape(d); renderDigest(d);
+    renderTape(d);
+    if (viewIsWl()) renderWatchlistNews(); else renderDigest(d);
   }
+
+  window.addEventListener("hashchange", () => render());
+  $("tabDaily").addEventListener("click", (e) => { e.preventDefault(); if (location.hash) { location.hash = ""; } render(); });
 
   $("wlAdd").addEventListener("submit", async (ev) => {
     ev.preventDefault();
