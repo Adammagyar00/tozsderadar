@@ -1,7 +1,7 @@
 """Az ArtifactData exportjából (out_dir) elkészíti a data.json-t.
 
 Használat: python3 tools/build_data.py <export-mappa>
-Az export-mappában a digests/ és watchlist/ almappák JSON-fájljai vannak.
+Az export-mappában a digests/, watchlist/ és calendar/ almappák JSON-fájljai vannak.
 """
 import glob
 import json
@@ -25,10 +25,16 @@ for p in glob.glob(os.path.join(exp, "watchlist", "*.json")):
     w["id"] = os.path.splitext(os.path.basename(p))[0]
     watchlist.append(w)
 watchlist.sort(key=lambda w: w.get("order", 0))
+calendar = []
+for p in glob.glob(os.path.join(exp, "calendar", "*.json")):
+    e = load(p)
+    e["id"] = os.path.splitext(os.path.basename(p))[0]
+    calendar.append(e)
+calendar.sort(key=lambda e: (e.get("date", ""), e.get("time") or "99:99"))
 
 if not digests or not watchlist:
     sys.exit("Hiányzó adat: a digests vagy a watchlist üres, a data.json nem módosult.")
 
 with open(os.path.join(root, "data.json"), "w", encoding="utf-8") as f:
-    json.dump({"digests": digests, "watchlist": watchlist}, f, ensure_ascii=False, indent=1)
-print(f"data.json kész: {len(digests)} kiadás, {len(watchlist)} tétel")
+    json.dump({"digests": digests, "watchlist": watchlist, "calendar": calendar}, f, ensure_ascii=False, indent=1)
+print(f"data.json kész: {len(digests)} kiadás, {len(watchlist)} tétel, {len(calendar)} naptáresemény")

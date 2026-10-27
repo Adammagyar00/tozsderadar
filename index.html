@@ -18,6 +18,7 @@
   --flat: #6b6f75;
   --tape: #12211c;
   --tape-fg: #e7efe9;
+  --warn: #b7791f;
   --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
   --font-data: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -26,13 +27,13 @@
   :root:not([data-theme="light"]) {
     --bg: #0e1513; --surface: #152019; --fg: #e4ece8; --muted: #93a49d; --line: #26352f;
     --accent: #4cc39d; --accent-soft: #183229; --up: #5bd08a; --down: #f0776e; --flat: #9aa0a6;
-    --tape: #08100d; --tape-fg: #d6e4dd; color-scheme: dark;
+    --tape: #08100d; --tape-fg: #d6e4dd; --warn: #e0a84a; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0e1513; --surface: #152019; --fg: #e4ece8; --muted: #93a49d; --line: #26352f;
   --accent: #4cc39d; --accent-soft: #183229; --up: #5bd08a; --down: #f0776e; --flat: #9aa0a6;
-  --tape: #08100d; --tape-fg: #d6e4dd; color-scheme: dark;
+  --tape: #08100d; --tape-fg: #d6e4dd; --warn: #e0a84a; color-scheme: dark;
 }
 body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
 .wrap { max-width: 1600px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
@@ -102,7 +103,43 @@ aside { display: grid; gap: 18px; align-content: start; }
 .panel-head .hint { font-size: 12px; color: var(--muted); }
 
 .cal { display: grid; }
-.cal-row { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 10px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 15px; line-height: 1.35; }
+.mast-left { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.menu-btn { display: inline-flex; align-items: center; gap: 8px; font: inherit; font-size: 14px; font-weight: 600; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.menu-btn:hover, .menu-btn[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); }
+.burger { display: inline-grid; gap: 3px; }
+.burger i { display: block; width: 16px; height: 2px; background: currentColor; border-radius: 1px; }
+.page-name { font-family: var(--font-data); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.menu { border-bottom: 1px solid var(--line); background: var(--surface); }
+.menu .wrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; padding-block: 14px; }
+.menu-item { display: grid; gap: 3px; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--line); text-decoration: none; color: var(--fg); background: var(--bg); }
+.menu-item:hover { border-color: var(--accent); }
+.menu-item[aria-current="page"] { border-color: var(--accent); background: var(--accent-soft); }
+.menu-item b { font-family: var(--font-display); font-size: 17px; display: flex; align-items: center; gap: 8px; }
+.menu-item .d { font-size: 13px; color: var(--muted); }
+.menu-item .cnt { font-family: var(--font-data); font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 999px; background: var(--accent); color: var(--surface); }
+.cal-tools { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 14px; align-items: center; }
+.cal-tools .grp { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cal-tools .lbl { font-size: 12px; color: var(--muted); margin-right: 2px; }
+.tbl-wrap { overflow-x: auto; margin-top: 18px; }
+table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 680px; }
+.ec th { text-align: left; font-family: var(--font-data); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 600; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.ec th.num { text-align: right; }
+.ec td { padding: 10px; border-bottom: 1px dashed var(--line); vertical-align: top; }
+.ec tr.day td { font-family: var(--font-data); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); border-bottom: 0; padding: 7px 10px; }
+.ec tr.past { opacity: 0.55; }
+.ec .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--muted); }
+.ec .num { font-family: var(--font-data); font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+.ec .ev { font-weight: 600; }
+.ec .ev.hi { color: var(--fg); }
+.ec .sub { margin-top: 3px; display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; color: var(--muted); align-items: center; }
+.ctry { font-family: var(--font-data); font-size: 11px; font-weight: 600; padding: 2px 6px; border-radius: 4px; border: 1px solid var(--line); white-space: nowrap; }
+.imp { display: inline-flex; gap: 2px; vertical-align: middle; }
+.imp i { width: 6px; height: 13px; border-radius: 1px; background: var(--line); }
+.imp.l1 i:nth-child(-n+1) { background: var(--muted); }
+.imp.l2 i:nth-child(-n+2) { background: var(--warn); }
+.imp.l3 i:nth-child(-n+3) { background: var(--down); }
+.panel-head a.hint { color: var(--accent); }
+.cal-row { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 10px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 15px; line-height: 1.35; }
 .cal-row:last-child { border-bottom: 0; }
 .cal-row time { font-family: var(--font-data); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
 
@@ -147,7 +184,11 @@ aside { display: grid; gap: 18px; align-content: start; }
 
 <header class="mast">
   <div class="wrap">
-    <h1 class="brand">Tőzsdei <span>Radar</span></h1>
+    <div class="mast-left">
+      <button class="menu-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="menu"><span class="burger" aria-hidden="true"><i></i><i></i><i></i></span>Menü</button>
+      <h1 class="brand">Tőzsdei <span>Radar</span></h1>
+      <span class="page-name" id="pageName">Főoldal</span>
+    </div>
     <div class="hdr-right">
       <div class="edition" id="edition">Napi gazdasági összefoglaló</div>
       <button class="btn-ghost" type="button" id="exportBtn">Exportálás HTML-be</button>
@@ -159,10 +200,11 @@ aside { display: grid; gap: 18px; align-content: start; }
   <div class="wrap"><div class="tape-row" id="tape" aria-label="Piaci mutatók"></div></div>
 </div>
 
-<nav class="tabs" aria-label="Nézetek">
+<nav class="menu" id="menu" aria-label="Menü" hidden>
   <div class="wrap">
-    <a class="tab" href="#" id="tabDaily" aria-current="page">Napi összefoglaló</a>
-    <a class="tab" href="#watchlist-news" id="tabWl">Watchlist News<span class="cnt" id="wlNewsCnt" hidden></span></a>
+    <a class="menu-item" href="#" data-view="home"><b>Főoldal</b><span class="d">A nap legfontosabb gazdasági hírei, piacok, jegybankok.</span></a>
+    <a class="menu-item" href="#watchlist-news" data-view="wl"><b>Watchlist News<span class="cnt" id="wlNewsCnt" hidden></span></b><span class="d">Csak a figyelőlistád részvényeiről, ETF-jeiről és kriptóiról.</span></a>
+    <a class="menu-item" href="#naptar" data-view="cal"><b>Gazdasági naptár<span class="cnt" id="calCnt" hidden></span></b><span class="d">Előre látható események: adatok, kamatdöntések, gyorsjelentések.</span></a>
   </div>
 </nav>
 
@@ -176,7 +218,7 @@ aside { display: grid; gap: 18px; align-content: start; }
     </div>
     <aside>
       <section class="panel" aria-labelledby="calLabel">
-        <div class="panel-head"><div class="sec-label" id="calLabel">Mire figyeljünk</div><span class="hint">közelgő események</span></div>
+        <div class="panel-head"><div class="sec-label" id="calLabel">Mire figyeljünk</div><a class="hint" href="#naptar">Teljes naptár →</a></div>
         <div class="cal" id="cal"><p class="muted">A naptár a kiadással együtt töltődik be.</p></div>
       </section>
       <section class="panel" aria-labelledby="wlLabel">
@@ -206,7 +248,7 @@ aside { display: grid; gap: 18px; align-content: start; }
   const $ = (id) => document.getElementById(id);
   // Az exporthoz: a saját forrás és a kiinduló jelölés, mielőtt bármi kirajzolódik
   const SELF_SRC = document.currentScript ? document.currentScript.textContent : "";
-  const INITIAL = ["header.mast", "#tapeBand", "nav.tabs", "main"].map((s) => document.querySelector(s)?.outerHTML || "").join("\n");
+  const INITIAL = ["header.mast", "#tapeBand", "#menu", "main"].map((s) => document.querySelector(s)?.outerHTML || "").join("\n");
   const STYLE_SRC = document.getElementById("gn-style")?.textContent || "";
   const LIVE = {};
   let liveAt = null;
@@ -244,7 +286,7 @@ aside { display: grid; gap: 18px; align-content: start; }
       b.type = "button";
       b.setAttribute("aria-current", String(d.date === selected));
       b.append(el("span", "d", d.date.replaceAll("-", ".")), el("span", "n", `${(d.items || []).length} hír`));
-      b.addEventListener("click", () => { selected = d.date; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+      b.addEventListener("click", () => { selected = d.date; if (view() !== "home") location.hash = ""; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
       li.append(b); ul.append(li);
     }
   }
@@ -263,9 +305,21 @@ aside { display: grid; gap: 18px; align-content: start; }
     }
   }
 
+  // Gazdasági naptár: a "calendar" gyűjtemény eseményei, magyar idő szerint
+  let calEvents = [];
+  let calImp = 1, calCountry = null, calWlOnly = false, calShowPast = false;
+  const COUNTRY = { US: "USA", EU: "Eurózóna", HU: "Magyarország", GB: "Egyesült Királyság", DE: "Németország", CN: "Kína", JP: "Japán", CA: "Kanada", CH: "Svájc", GLOBAL: "Globális" };
+  const HU_MON_SHORT = ["jan.", "febr.", "márc.", "ápr.", "máj.", "jún.", "júl.", "aug.", "szept.", "okt.", "nov.", "dec."];
+  const todayIso = () => { const n = new Date(); return new Date(n.getTime() - n.getTimezoneOffset() * 60000).toISOString().slice(0, 10); };
+  const shortDate = (iso) => { const [, m, d] = iso.split("-").map(Number); return `${HU_MON_SHORT[m - 1]} ${d}.`; };
+  const evKey = (e) => e.date + " " + (e.time || "99:99");
+  const upcoming = () => calEvents.filter((e) => e.date >= todayIso()).sort((a, b) => evKey(a).localeCompare(evKey(b)));
+
   function renderCalendar(d) {
     const cal = $("cal"); cal.replaceChildren();
-    const rows = (d && d.calendar) || [];
+    const rows = calEvents.length
+      ? upcoming().filter((e) => (e.importance || 1) >= 2).slice(0, 6).map((e) => ({ date: shortDate(e.date) + (e.time ? " " + e.time : ""), event: e.event }))
+      : ((d && d.calendar) || []);
     if (!rows.length) { cal.append(el("p", "muted", "Nincs megerősített közelgő esemény.")); return; }
     for (const e of rows) {
       const r = el("div", "cal-row");
@@ -330,7 +384,8 @@ aside { display: grid; gap: 18px; align-content: start; }
     c.append(lead);
 
     const groups = new Map();
-    const byNewest = [...(d.items || [])].sort((a, b) => String(b.addedAt || "").localeCompare(String(a.addedAt || "")));
+    // A figyelőlistás hírek a Watchlist News oldalon vannak, a főoldalon nem
+    const byNewest = [...(d.items || [])].filter((it) => !isWlItem(it)).sort((a, b) => String(b.addedAt || "").localeCompare(String(a.addedAt || "")));
     for (const it of byNewest) {
       const k = it.category || "Egyéb";
       if (!groups.has(k)) groups.set(k, []);
@@ -365,14 +420,17 @@ aside { display: grid; gap: 18px; align-content: start; }
 
   // Watchlist News: minden kiadásból azok a hírek, amelyek a figyelőlista valamelyik tételéről szólnak
   let wlFilter = null;
-  const viewIsWl = () => location.hash === "#watchlist-news";
+  const view = () => location.hash === "#watchlist-news" ? "wl" : location.hash === "#naptar" ? "cal" : "home";
+  const wlSymSet = () => new Set((watchlist || []).map((w) => String(w.symbol).toUpperCase()));
+  const wlSymsOf = (it, syms = wlSymSet()) => (it.symbols || []).map((x) => String(x).toUpperCase()).filter((x) => syms.has(x));
+  const isWlItem = (it) => it.category === "Figyelőlista" || wlSymsOf(it).length > 0;
   function watchlistNews() {
-    const syms = new Set((watchlist || []).map((w) => String(w.symbol).toUpperCase()));
+    const syms = wlSymSet();
     const out = [];
     for (const d of digests) {
       for (const it of d.items || []) {
-        const s = (it.symbols || []).map((x) => String(x).toUpperCase()).filter((x) => syms.has(x));
-        if (s.length || (it.category === "Figyelőlista" && !(it.symbols || []).length)) {
+        const s = wlSymsOf(it, syms);
+        if (s.length || it.category === "Figyelőlista") {
           out.push({ ...it, _date: d.date, _syms: s, _ts: it.addedAt || d.generatedAt || d.date + "T06:00:00Z" });
         }
       }
@@ -440,13 +498,82 @@ aside { display: grid; gap: 18px; align-content: start; }
     c.append(sec);
   }
 
-  function renderTabs() {
-    const wl = viewIsWl();
-    $("tabDaily").setAttribute("aria-current", wl ? "false" : "page");
-    $("tabWl").setAttribute("aria-current", wl ? "page" : "false");
+  function renderCalendarPage() {
+    const c = $("content"); c.replaceChildren();
+    const lead = el("section", "lead");
+    lead.append(el("div", "lead-eyebrow", "Előre látható események"), el("h2", null, "Gazdasági naptár"));
+    lead.append(el("p", null, "Makroadatok, jegybanki döntések, gyorsjelentések és más piacmozgató események, magyar idő szerint. Csak hivatalosan bejelentett időpont kerül be; a tényadat a megjelenés után töltődik ki."));
+    const tools = el("div", "cal-tools");
+    const grp = (label) => { const g = el("div", "grp"); g.append(el("span", "lbl", label)); return g; };
+    const chip = (text, pressed, on, title) => { const b = el("button", "chip", text); b.type = "button"; b.setAttribute("aria-pressed", String(pressed)); if (title) b.title = title; b.addEventListener("click", on); return b; };
+    const g1 = grp("Fontosság");
+    for (const [v, t] of [[1, "Mind"], [2, "Közepes és magas"], [3, "Csak magas"]]) g1.append(chip(t, calImp === v, () => { calImp = v; renderCalendarPage(); }));
+    const g2 = grp("Ország");
+    g2.append(chip("Mind", calCountry === null, () => { calCountry = null; renderCalendarPage(); }));
+    for (const cc of [...new Set(calEvents.map((e) => e.country).filter(Boolean))].sort()) g2.append(chip(cc, calCountry === cc, () => { calCountry = cc; renderCalendarPage(); }, COUNTRY[cc] || cc));
+    const g3 = grp("Szűrés");
+    g3.append(chip("Csak figyelőlista", calWlOnly, () => { calWlOnly = !calWlOnly; renderCalendarPage(); }));
+    g3.append(chip("Korábbiak is", calShowPast, () => { calShowPast = !calShowPast; renderCalendarPage(); }));
+    tools.append(g1, g2, g3);
+    lead.append(tools);
+    c.append(lead);
+
+    const today = todayIso();
+    const syms = wlSymSet();
+    const rows = calEvents
+      .filter((e) => (e.importance || 1) >= calImp)
+      .filter((e) => !calCountry || e.country === calCountry)
+      .filter((e) => !calWlOnly || (e.symbols || []).some((s) => syms.has(String(s).toUpperCase())))
+      .filter((e) => calShowPast || e.date >= today)
+      .sort((a, b) => evKey(a).localeCompare(evKey(b)));
+    if (!rows.length) {
+      const box = el("div", "empty");
+      box.append(el("h2", null, calEvents.length ? "Nincs a szűrésnek megfelelő esemény" : "Még nincs esemény a naptárban"),
+        el("p", null, calEvents.length ? "Próbálj lazább szűrést, vagy kapcsold be a korábbi eseményeket." : "A reggeli frissítés tölti fel a következő két hét hivatalosan bejelentett eseményeivel."));
+      c.append(box);
+      return;
+    }
+    const wrap = el("div", "tbl-wrap");
+    const t = el("table", "ec");
+    const head = el("tr");
+    for (const [h, num] of [["Idő"], ["Ország"], ["Esemény"], ["Fontosság"], ["Tény", 1], ["Várható", 1], ["Előző", 1]]) { const th = el("th", num ? "num" : null, h); th.scope = "col"; head.append(th); }
+    const thead = el("thead"); thead.append(head);
+    const tbody = el("tbody");
+    let last = null;
+    for (const e of rows) {
+      if (e.date !== last) {
+        last = e.date;
+        const tr = el("tr", "day"); const td = el("td", null, fmtDate(e.date) + (e.date === today ? " · ma" : "")); td.colSpan = 7; tr.append(td); tbody.append(tr);
+      }
+      const tr = el("tr", e.date < today ? "past" : null);
+      tr.append(el("td", "t", e.time || "egész nap"));
+      const ctd = el("td"); const cs = el("span", "ctry", e.country || "–"); cs.title = COUNTRY[e.country] || ""; ctd.append(cs); tr.append(ctd);
+      const etd = el("td");
+      etd.append(el("div", "ev" + ((e.importance || 1) >= 3 ? " hi" : ""), e.event || ""));
+      const sub = el("div", "sub");
+      if (e.type) sub.append(el("span", null, e.type));
+      for (const s of e.symbols || []) sub.append(el("span", "sym", s));
+      const u = safeUrl(e.url);
+      if (u) sub.append(link(u, e.source || "Forrás")); else if (e.source) sub.append(el("span", null, e.source));
+      if (e.note) sub.append(el("span", null, e.note));
+      etd.append(sub); tr.append(etd);
+      const lvl = Math.min(3, Math.max(1, e.importance || 1));
+      const itd = el("td"); const imp = el("span", "imp l" + lvl); imp.append(el("i"), el("i"), el("i")); imp.title = ["", "Alacsony", "Közepes", "Magas"][lvl] + " fontosság"; itd.append(imp); tr.append(itd);
+      for (const k of ["actual", "forecast", "previous"]) tr.append(el("td", "num", e[k] || "–"));
+      tbody.append(tr);
+    }
+    t.append(thead, tbody); wrap.append(t); c.append(wrap);
+  }
+
+  const PAGE_NAMES = { home: "Főoldal", wl: "Watchlist News", cal: "Gazdasági naptár" };
+  function renderMenu() {
+    const v = view();
+    $("pageName").textContent = PAGE_NAMES[v];
+    for (const a of document.querySelectorAll(".menu-item")) a.setAttribute("aria-current", a.dataset.view === v ? "page" : "false");
     const n = digests.length ? watchlistNews().length : 0;
-    $("wlNewsCnt").hidden = !n;
-    $("wlNewsCnt").textContent = String(n);
+    $("wlNewsCnt").hidden = !n; $("wlNewsCnt").textContent = String(n);
+    const m = upcoming().length;
+    $("calCnt").hidden = !m; $("calCnt").textContent = String(m);
   }
 
   function render() {
@@ -454,15 +581,24 @@ aside { display: grid; gap: 18px; align-content: start; }
     const d = current();
     renderCalendar(d);
     renderWatchlist();
-    renderTabs();
-    if (!d) { $("tapeBand").hidden = true; renderEmpty("Még nincs kiadás", "Az első összefoglaló a következő reggeli frissítéskor jelenik meg."); return; }
-    $("edition").textContent = fmtDate(d.date);
-    renderTape(d);
-    if (viewIsWl()) renderWatchlistNews(); else renderDigest(d);
+    renderMenu();
+    const v = view();
+    if (d) { $("edition").textContent = fmtDate(d.date); renderTape(d); } else $("tapeBand").hidden = true;
+    if (v === "cal") { renderCalendarPage(); return; }
+    if (!d) { renderEmpty("Még nincs kiadás", "Az első összefoglaló a következő reggeli frissítéskor jelenik meg."); return; }
+    if (v === "wl") renderWatchlistNews(); else renderDigest(d);
   }
 
-  window.addEventListener("hashchange", () => render());
-  $("tabDaily").addEventListener("click", (e) => { e.preventDefault(); if (location.hash) { location.hash = ""; } render(); });
+  const setMenu = (open) => { $("menu").hidden = !open; $("menuBtn").setAttribute("aria-expanded", String(open)); };
+  $("menuBtn").addEventListener("click", () => setMenu($("menu").hidden));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("menu").hidden) { setMenu(false); $("menuBtn").focus(); } });
+  for (const a of document.querySelectorAll(".menu-item")) {
+    a.addEventListener("click", (e) => {
+      if (a.dataset.view === "home") { e.preventDefault(); if (location.hash) location.hash = ""; }
+      setMenu(false); render(); window.scrollTo({ top: 0 });
+    });
+  }
+  window.addEventListener("hashchange", () => { setMenu(false); render(); });
 
   $("wlAdd").addEventListener("submit", async (ev) => {
     ev.preventDefault();
@@ -505,7 +641,7 @@ aside { display: grid; gap: 18px; align-content: start; }
   }
 
   function buildExport() {
-    const data = JSON.stringify({ digests, watchlist }).replace(/</g, "\\u003c");
+    const data = JSON.stringify({ digests, watchlist, calendar: calEvents }).replace(/</g, "\\u003c");
     const font = document.querySelector('link[href*="fonts.googleapis"]');
     return "<!doctype html>\n<html lang=\"hu\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Tőzsdei Radar</title>"
       + (font ? '<link rel="stylesheet" href="' + font.href + '">' : "")
@@ -524,6 +660,7 @@ aside { display: grid; gap: 18px; align-content: start; }
         const j = await r.json();
         digests = (j.digests || []).slice().sort((a, b) => b.date.localeCompare(a.date));
         watchlist = j.watchlist || [];
+        calEvents = j.calendar || [];
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
         if (first) { first = false; pollLive(); setInterval(pollLive, 60000); }
@@ -541,6 +678,7 @@ aside { display: grid; gap: 18px; align-content: start; }
     $("exportBtn").hidden = true;
     digests = (EMBED.digests || []).slice().sort((a, b) => b.date.localeCompare(a.date));
     watchlist = EMBED.watchlist || [];
+    calEvents = EMBED.calendar || [];
     selected = digests[0]?.date || null;
     render();
     pollLive();
@@ -573,6 +711,10 @@ aside { display: grid; gap: 18px; align-content: start; }
       watchlist = snap.docs.map((s) => ({ id: s.id, ...s.data() }));
       renderWatchlist();
     }, () => { watchlist = []; renderWatchlist(); });
+    db.collection("calendar").orderBy("date", "asc").onSnapshot((snap) => {
+      calEvents = snap.docs.map((s) => ({ id: s.id, ...s.data() }));
+      render();
+    }, () => { calEvents = []; render(); });
     const user = await window.claude.use("user");
     canEdit = user ? !!user.canEdit() : false;
     renderWatchlist();
