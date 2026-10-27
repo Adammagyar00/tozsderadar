@@ -734,10 +734,34 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   let portfolio = (() => { try { return cleanPf(JSON.parse(localStorage.getItem(PF_KEY) || "[]")); } catch (e) { return []; } })();
   const savePf = () => { try { localStorage.setItem(PF_KEY, JSON.stringify(portfolio)); return true; } catch (e) { return false; } };
   const pfId = (h) => h.type + ":" + h.symbol;
-  let pfEditing = null;
+  // Tételek átadása linkben (#portfolio=...): a meglévőkhöz adjuk, az azonos tételt felülírjuk.
+  // A # utáni rész nem megy el a szerverre, csak ebben a böngészőben dolgozzuk fel.
   let onPfChange = () => {};
+  let pfImported = "";
+  const importFromHash = () => {
+    if (!location.hash.startsWith("#portfolio=")) return;
+    try {
+      const b64 = location.hash.slice(11).replace(/-/g, "+").replace(/_/g, "/");
+      const list = cleanPf(JSON.parse(decodeURIComponent(escape(atob(b64)))));
+      for (const h of list) {
+        const i = portfolio.findIndex((x) => pfId(x) === pfId(h));
+        if (i >= 0) portfolio[i] = { ...portfolio[i], ...h }; else portfolio.push(h);
+      }
+      try { localStorage.setItem(PF_KEY, JSON.stringify(portfolio)); } catch (e) {}
+      pfImported = list.length ? "Hozzáadva a linkből: " + list.map((h) => h.symbol).join(", ") + "." : "";
+    } catch (e) { pfImported = "A linkben lévő tételeket nem sikerült beolvasni."; }
+    history.replaceState(null, "", location.pathname + location.search + "#portfolio");
+    // Ha az oldal már nyitva volt a Portfolión, rajzolja újra a friss tételekkel
+    const f = document.getElementById("pfForm");
+    if (f) f.remove();
+    onPfChange();
+  };
+  importFromHash();
+  let pfEditing = null;
   // Melyik részvény ára jön a 15 percenkénti prices.json-ból; a többit a Worker árlekérője adja
   const FILE_SYMS = new Set();
+  // Európai tőzsdén jegyzett ETF-ek: az amerikai adatfolyam egy azonos jelölésű, más papír árát adná
+  const NO_STREAM = new Set();
   let quoteUrl = null;
 
   const fmtMoney = (v, signed) => (v < 0 ? "−" : signed && v > 0 ? "+" : "") + Math.abs(v).toLocaleString("hu-HU", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " $";
@@ -785,7 +809,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     c.append(form);
     const bar = el("div", "pf-bar");
     const msg = el("p", "hint"); msg.id = "pfMsg"; msg.setAttribute("role", "status");
-    msg.textContent = "A tételek csak ebben a böngészőben tárolódnak. Más gépre a „Mentés fájlba” és a „Betöltés fájlból” gombbal viheted át őket.";
+    msg.textContent = pfImported || "A tételek csak ebben a böngészőben tárolódnak. Más gépre a „Mentés fájlba” és a „Betöltés fájlból” gombbal viheted át őket.";
+    pfImported = "";
     const exp = el("button", "btn-ghost", "Mentés fájlba"); exp.type = "button";
     const imp = el("button", "btn-ghost", "Betöltés fájlból"); imp.type = "button";
     const file = el("input"); file.type = "file"; file.accept = ".json,application/json"; file.hidden = true;
@@ -1027,7 +1052,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     sym = sym.toUpperCase();
     const when = q.t ? new Date(q.t * 1000).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
     const ch = typeof q.change === "number" ? q.change : null;
-    const entry = { symbol: sym, price: fmtUsd(q.price) + " $", change: ch != null ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "", p: q.price, ch, note: "Utolsó ár " + when + ", napi változás", source: source || "Finnhub" };
+    if (q.listing) NO_STREAM.add(sym);
+    const entry = { symbol: sym, price: fmtUsd(q.price) + " $", change: ch != null ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "", p: q.price, ch, note: "Utolsó ár " + when + ", napi változás", source: q.source || source || "Finnhub" };
     LIVE[sym] = entry;
     LIVE_STK[sym] = entry;
     if (typeof q.prevClose === "number") PREV[sym] = q.prevClose;
@@ -1069,7 +1095,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       setMenu(false); render(); window.scrollTo({ top: 0 });
     });
   }
-  window.addEventListener("hashchange", () => { setMenu(false); render(); });
+  window.addEventListener("hashchange", () => { importFromHash(); setMenu(false); render(); });
 
   $("wlAdd").addEventListener("submit", async (ev) => {
     ev.preventDefault();
@@ -1170,7 +1196,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       }
       for (const x of (current() || {}).markets || []) if (x.group === "Részvény") out.add(String(x.name).toUpperCase());
       for (const h of portfolio) if (h.type !== "crypto") out.add(h.symbol);
-      for (const s of ["OTP", "MOL", "RICHTER"]) out.delete(s);
+      for (const s of ["OTP", "MOL", "RICHTER", ...NO_STREAM]) out.delete(s);
       return [...out];
     };
     // Állapotjelző a figyelőlista alatt: honnan jön az élő ár, vagy miért nem
@@ -1253,7 +1279,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!m || m.type !== "trade" || !Array.isArray(m.data)) return;
         if (!gotTrade) { gotTrade = true; setStatus("s", "részvény: élő (Finnhub)"); }
         for (const t of m.data) {
-          if (!t.s || typeof t.p !== "number") continue;
+          if (!t.s || typeof t.p !== "number" || NO_STREAM.has(t.s)) continue;
           const pc = PREV[t.s];
           pend.set(t.s, { kind: "s", price: t.p, change: pc ? (t.p / pc - 1) * 100 : null });
         }

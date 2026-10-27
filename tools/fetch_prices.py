@@ -6,7 +6,9 @@ ha nincs megadva, nem csinál semmit.
 
 A szimbólumokat a data.json-ból veszi: a figyelőlista részvényei és ETF-jei,
 valamint a futószalag "Részvény" csoportja. A kriptókat a böngésző kéri le a
-CoinGeckótól, az európai tőzsdék papírjait pedig az ingyenes Finnhub nem adja.
+CoinGeckótól. Az európai tőzsdék UCITS ETF-jeit az ingyenes Finnhub nem adja,
+ezeket a tools/ucits.json listája alapján a Yahoo Finance nyilvános árfolyam-
+adataiból vesszük, dollárba váltva.
 """
 import datetime
 import json
@@ -52,17 +54,58 @@ def quote(sym):
     return {"price": q["c"], "change": q.get("dp"), "prevClose": q.get("pc"), "t": q.get("t")}
 
 
+def yahoo(ticker):
+    url = "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(ticker) + "?range=1d&interval=1d"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (TozsdeRadar price fetcher)"})
+    with urllib.request.urlopen(req, timeout=15) as r:
+        meta = json.load(r)["chart"]["result"][0]["meta"]
+    return meta.get("regularMarketPrice"), meta.get("chartPreviousClose"), meta.get("currency"), meta.get("regularMarketTime")
+
+
+def ucits_quotes():
+    try:
+        mapping = json.load(open(os.path.join(ROOT, "tools", "ucits.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    # Árfolyam dollárban: a londoni papírok gyakran pennyben (GBp) jegyzettek
+    fx = {"USD": 1.0}
+    for cur, pair in (("GBP", "GBPUSD=X"), ("EUR", "EURUSD=X")):
+        try:
+            fx[cur] = yahoo(pair)[0]
+        except Exception as e:
+            print(f"{pair}: {e}", file=sys.stderr)
+    out = {}
+    for sym, ticker in mapping.items():
+        if sym.startswith("_"):
+            continue
+        try:
+            price, prev, cur, t = yahoo(ticker)
+        except Exception as e:
+            print(f"{ticker}: {e}", file=sys.stderr)
+            continue
+        scale = 0.01 if cur in ("GBp", "GBX") else 1.0
+        rate = fx.get("GBP" if cur in ("GBp", "GBX") else cur)
+        if not price or not rate:
+            continue
+        usd = round(price * scale * rate, 4)
+        q = {"price": usd, "change": round((price / prev - 1) * 100, 2) if prev else None,
+             "prevClose": round(prev * scale * rate, 4) if prev else None, "t": t,
+             "listing": ticker, "currency": cur, "local": price, "source": "Yahoo Finance (" + ticker + ")"}
+        out[sym.upper()] = q
+        time.sleep(0.5)
+    return out
+
+
 def main():
-    if not KEY:
-        print("Nincs FINNHUB_API_KEY, a lekérés kimarad.")
-        return
     path = os.path.join(ROOT, "prices.json")
     try:
         old = json.load(open(path, encoding="utf-8"))
     except (OSError, ValueError):
         old = {}
-    quotes = {}
-    for s in symbols():
+    quotes = ucits_quotes()
+    for s in (symbols() if KEY else []):
+        if s in quotes:
+            continue
         try:
             q = quote(s)
         except Exception as e:  # egy hibás szimbólum ne állítsa le a többit
@@ -71,6 +114,8 @@ def main():
         if q:
             quotes[s] = q
         time.sleep(1.1)  # ingyenes keret: 60 kérés/perc
+    if not KEY:
+        print("Nincs FINNHUB_API_KEY, csak az UCITS ETF-ek ára frissül.")
     if not quotes:
         sys.exit("Egyetlen árat sem sikerült lekérni.")
     if quotes == old.get("quotes"):
