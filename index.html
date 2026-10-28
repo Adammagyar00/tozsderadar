@@ -347,6 +347,19 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .lwc-menu button:hover { background: var(--accent-soft); }
 .tv-box:fullscreen { width: 100%; height: 100%; border-radius: 0; border: 0; }
 .tv-box:-webkit-full-screen { width: 100%; height: 100%; border-radius: 0; border: 0; }
+.lwc-props { position: absolute; z-index: 6; width: 300px; max-width: calc(100% - 8px); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 28px rgba(0,0,0,0.22); padding: 10px 12px 12px; display: grid; gap: 8px; font-size: 13px; }
+.lp-title { font-family: var(--font-display); font-weight: 700; font-size: 15px; }
+.lp-row { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 8px; align-items: center; }
+.lp-lbl { color: var(--muted); font-size: 12px; }
+.lp-ctl { display: flex; flex-wrap: wrap; gap: 4px; }
+.lp-opt { font: inherit; font-size: 12px; padding: 3px 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); cursor: pointer; font-family: var(--font-data); }
+.lp-opt.on { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.lp-sw { width: 20px; height: 20px; border-radius: 50%; border: 1px solid var(--line); cursor: pointer; padding: 0; }
+.lp-sw.on { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lp-act { font: inherit; font-size: 13px; text-align: left; padding: 7px 8px; border-radius: 6px; border: 0; background: var(--bg); color: var(--fg); cursor: pointer; }
+.lp-act:hover { background: var(--accent-soft); }
+.lp-del { color: var(--down); }
+.lp-info { font-family: var(--font-data); font-size: 11px; color: var(--muted); }
 .lwc-src { font-family: var(--font-data); font-size: 11px; color: var(--up); align-self: center; margin-left: auto; }
 .lwc-legend { position: absolute; top: 6px; left: 10px; z-index: 2; font-family: var(--font-data); font-size: 12px; color: var(--muted); pointer-events: none; font-variant-numeric: tabular-nums; }
 .lwc-drawing .lwc-main { cursor: crosshair; }
@@ -1807,7 +1820,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         sc.onerror = () => { inner.replaceChildren(el("div", "msg", "A TradingView grafikonja itt nem tölthető be. Válts a Saját grafikonra.")); };
         wrap.append(sc);
       } else {
-        note.textContent = "Saját grafikon élő adatokból (a forrást jobbra fent látod), a TradingView nyílt forrású grafikonmotorjával. Rajz: válaszd ki az eszközt, és kattints a grafikonra (trendvonal, Fibonacci, téglalap: két pont; csatorna: két pont az alapvonalra, a harmadik a szélessége). Jobb gombbal (telefonon hosszan nyomva) riasztást vagy vonalat tehetsz az adott árra. A rajzok ebben a böngészőben megmaradnak.";
+        note.textContent = "Saját grafikon élő adatokból (a forrást jobbra fent látod), a TradingView nyílt forrású grafikonmotorjával. Rajz: válaszd ki az eszközt, és kattints a grafikonra (trendvonal, Fibonacci, téglalap: két pont; csatorna: két pont az alapvonalra, a harmadik a szélessége). Egy rajzra kattintva kijelölöd, húzással mozgatod, jobb gombbal (telefonon hosszan nyomva) beállítod vagy törlöd; üres helyen jobb gombbal riasztást tehetsz az árra. A rajzok ebben a böngészőben megmaradnak.";
         cleanup = ownChart(body, t, dark);
       }
     };
@@ -1834,7 +1847,23 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const lwcPrefs = (() => { try { const o = JSON.parse(localStorage.getItem(LWC_KEY) || "{}"); return { tf: o.tf || "1 nap", ind: Array.isArray(o.ind) ? o.ind : ["vol"] }; } catch (e) { return { tf: "1 nap", ind: ["vol"] }; } })();
   const saveLwcPrefs = () => { try { localStorage.setItem(LWC_KEY, JSON.stringify(lwcPrefs)); } catch (e) { /* privát mód */ } };
   const drawKey = (t) => "tozsderadar-draw-" + t;
-  const loadDraw = (t) => { try { const o = JSON.parse(localStorage.getItem(drawKey(t)) || "{}"); return { h: o.h || [], tl: o.tl || [], fib: o.fib || [], rect: o.rect || [], ch: o.ch || [], txt: o.txt || [], order: o.order || [] }; } catch (e) { return { h: [], tl: [], fib: [], rect: [], ch: [], txt: [], order: [] }; } };
+  // Rajzok eszközönként: { items: [{ id, kind: h|tl|fib|rect|ch|txt, pts: [[idő, ár], ...], dp?, text?, style? }] }
+  const loadDraw = (t) => {
+    let o = {};
+    try { o = JSON.parse(localStorage.getItem(drawKey(t)) || "{}") || {}; } catch (e) { o = {}; }
+    if (Array.isArray(o.items)) return { items: o.items.filter((x) => x && x.kind && Array.isArray(x.pts)) };
+    // a korábbi, típusonkénti tárolás átalakítása
+    let n = 0;
+    const id = () => "d" + Date.now().toString(36) + (n++);
+    const items = [];
+    for (const p of o.h || []) items.push({ id: id(), kind: "h", pts: [[0, p]] });
+    for (const [t1, p1, t2, p2] of o.tl || []) items.push({ id: id(), kind: "tl", pts: [[t1, p1], [t2, p2]] });
+    for (const [t1, p1, t2, p2] of o.fib || []) items.push({ id: id(), kind: "fib", pts: [[t1, p1], [t2, p2]] });
+    for (const [t1, p1, t2, p2] of o.rect || []) items.push({ id: id(), kind: "rect", pts: [[t1, p1], [t2, p2]] });
+    for (const [t1, p1, t2, p2, dp] of o.ch || []) items.push({ id: id(), kind: "ch", pts: [[t1, p1], [t2, p2]], dp });
+    for (const [t1, p1, text] of o.txt || []) items.push({ id: id(), kind: "txt", pts: [[t1, p1]], text });
+    return { items };
+  };
   const saveDraw = (t, d) => { try { localStorage.setItem(drawKey(t), JSON.stringify(d)); } catch (e) { /* privát mód */ } };
   // Indikátorok
   const smaArr = (v, n) => v.map((_, i) => i < n - 1 ? null : v.slice(i - n + 1, i + 1).reduce((a, b) => a + b, 0) / n);
@@ -1874,8 +1903,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     modeBtns.r = chip(drg, "▭ Téglalap", false, () => setMode("r"));
     modeBtns.x = chip(drg, "T Szöveg", false, () => setMode("x"));
     modeBtns.a = chip(drg, "🔔 Riasztás", false, () => setMode("a"));
-    chip(drg, "↶ Utolsó visszavonása", false, () => { const last = draw.order && draw.order.pop(); if (last && draw[last] && draw[last].length) draw[last].pop(); saveDraw(t, draw); build(); });
-    chip(drg, "Rajzok törlése", false, () => { draw.h = []; draw.tl = []; draw.fib = []; draw.rect = []; draw.ch = []; draw.txt = []; draw.order = []; saveDraw(t, draw); build(); });
+    chip(drg, "↶ Utolsó visszavonása", false, () => { draw.items.pop(); saveDraw(t, draw); drawOverlay(); });
+    chip(drg, "Rajzok törlése", false, () => { if (draw.items.length && !confirm("Az összes rajzot törlöd erről az eszközről?")) return; draw.items = []; saveDraw(t, draw); drawOverlay(); });
     const onEsc = (e) => { if (e.key === "Escape" && mode) { e.stopPropagation(); setMode(mode); } };
     document.addEventListener("keydown", onEsc, true);
     const destroy = () => { for (const c of charts) { try { c.remove(); } catch (e) { /* már törölve */ } } charts = []; };
@@ -1963,22 +1992,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const link2 = (a, b) => a.timeScale().subscribeVisibleLogicalRangeChange((r) => { if (syncing || !r) return; syncing = true; b.timeScale().setVisibleLogicalRange(r); syncing = false; });
         link2(ch, ch2); link2(ch2, ch);
       }
-      // Rajzok
-      for (const p of draw.h) candles.createPriceLine({ price: p, color: col.acc, lineWidth: 1, lineStyle: 2, axisLabelVisible: true });
-      for (const [t1, p1, t2, p2] of draw.tl) { const s3 = ch.addLineSeries({ color: col.acc, lineWidth: 2, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false }); s3.setData([{ time: t1, value: p1 }, { time: t2, value: p2 }]); }
-      // Fibonacci-visszatérés: az első pont (kiindulás) és a második (végpont) közötti szintek, a kiindulástól a grafikon végéig
-      const FIB = [[0, "#9aa0a6"], [0.236, "#d9534f"], [0.382, "#e0a84a"], [0.5, "#4cc39d"], [0.618, "#4f74c9"], [0.786, "#9a63c4"], [1, "#9aa0a6"]];
-      const lastT = bars[bars.length - 1].time;
-      for (const [t1, p1, t2, p2] of draw.fib) {
-        const from = Math.min(t1, t2), to = Math.max(lastT, t1, t2);
-        if (from >= to) continue;
-        for (const [lv, c] of FIB) {
-          const price = p2 + (p1 - p2) * lv;
-          const s4 = ch.addLineSeries({ color: c, lineWidth: 1, lineStyle: lv === 0 || lv === 1 ? 0 : 2, priceLineVisible: false, lastValueVisible: true, crosshairMarkerVisible: false, title: (lv * 100).toFixed(1).replace(".0", "") + "%" });
-          s4.setData([{ time: from, value: price }, { time: to, value: price }]);
-        }
-      }
-      // Riasztások ezen az eszközön: szaggatott narancs vonal 🔔 felirattal
+      // Riasztások ezen az eszközön: pontozott narancs vonal 🔔 felirattal
       const assetAlerts = () => alerts.filter((a) => a.key === "Y:" + t && a.type !== "move");
       for (const a of assetAlerts()) candles.createPriceLine({ price: a.value, color: a.off ? col.muted : C("--warn"), lineWidth: 1, lineStyle: 1, axisLabelVisible: true, title: a.off ? "🔕" : "🔔" });
       const addAlert = (price) => {
@@ -1988,52 +2002,119 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if ($("alList")) { alSig = ""; updateAlerts(); }
         toast("Riasztás beállítva", pairLabel(t) + ": szól, amikor az ár átlépi a " + fmtNum(price, Math.abs(price) >= 1 ? 2 : 4) + " szintet (bármelyik irányba).");
       };
-      // Kattintás a rajzeszközökhöz (saját figyelés: a grafikon beépítettje a gyors második kattintást elnyeli)
       const pointAt = (ev) => {
         const r = main.getBoundingClientRect();
         const x = ev.clientX - r.left, y = ev.clientY - r.top;
         return { x, y, time: ch.timeScale().coordinateToTime(x), price: candles.coordinateToPrice(y) };
       };
-      // SVG-réteg: téglalap, párhuzamos csatorna, szöveg (a grafikon mozgatásakor újrarajzolódik)
+      // ---------- Rajzok: SVG-réteg a grafikon fölött (kijelölhető, állítható, mozgatható) ----------
       const NS = "http://www.w3.org/2000/svg";
       const svg = document.createElementNS(NS, "svg"); svg.setAttribute("class", "lwc-svg");
       main.append(svg);
-      const mk = (tag, attrs) => { const e = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); svg.append(e); return e; };
+      const mk = (tag, attrs) => { const e = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) if (v !== undefined && v !== null && v !== "") e.setAttribute(k, v); svg.append(e); return e; };
+      const FIB = [[0, "#9aa0a6"], [0.236, "#d9534f"], [0.382, "#e0a84a"], [0.5, "#4cc39d"], [0.618, "#4f74c9"], [0.786, "#9a63c4"], [1, "#9aa0a6"]];
+      const DEF = {
+        h: { color: col.acc, width: 1.5, dash: "dash", labels: true },
+        tl: { color: col.acc, width: 2, dash: "solid", extend: false, labels: false },
+        fib: { width: 1, dash: "dash", labels: true },
+        rect: { color: col.acc, width: 1.5, dash: "solid", fill: 0.12, mid: false, labels: false },
+        ch: { color: "#4f74c9", width: 1.5, dash: "solid", fill: 0.08, mid: true },
+        txt: { color: col.fg, size: 13 },
+      };
+      const KIND_NAME = { h: "Vízszintes vonal", tl: "Trendvonal", fib: "Fibonacci", rect: "Téglalap", ch: "Csatorna", txt: "Szöveg" };
+      const DASH = { solid: "", dash: "6 4", dot: "2 3" };
+      const sty = (it) => ({ ...DEF[it.kind], ...(it.style || {}) });
+      const fp = (v) => fmtNum(v, Math.abs(v) >= 1 ? 2 : 4);
+      const lbl = (x, y, text, color, anchor) => { const e = mk("text", { x, y, fill: color || col.acc, "font-size": 11, "font-family": "JetBrains Mono, monospace", "paint-order": "stroke", stroke: col.bg, "stroke-width": 3, "text-anchor": anchor || "start" }); e.textContent = text; return e; };
+      let sel = null; // a kijelölt rajz azonosítója
+      // Idő ↔ sorszám (a mozgatáshoz): a gyertyák közötti lépésközzel a grafikon szélein túl is
+      const stepT = bars.length > 1 ? bars[bars.length - 1].time - bars[bars.length - 2].time : 86400;
+      const idxOf = (tm) => { let lo = 0, hi = bars.length - 1; if (tm >= bars[hi].time) return hi + Math.round((tm - bars[hi].time) / stepT); if (tm <= bars[0].time) return Math.round((tm - bars[0].time) / stepT); while (lo < hi) { const m = (lo + hi) >> 1; if (bars[m].time < tm) lo = m + 1; else hi = m; } return lo; };
+      const timeOf = (ix) => ix < 0 ? bars[0].time + ix * stepT : ix >= bars.length ? bars[bars.length - 1].time + (ix - bars.length + 1) * stepT : bars[ix].time;
+      // Egy rajz képernyő-geometriája (rajzoláshoz és a kattintás eltalálásához)
+      function geo(it, X, Y, W) {
+        const P = it.pts.map(([tm, pr]) => [it.kind === "h" ? 0 : X(tm), Y(pr)]);
+        if (P.some(([a, b]) => a == null || b == null)) return null;
+        const g = { segs: [], areas: [] };
+        if (it.kind === "h") { g.segs.push([0, P[0][1], W, P[0][1]]); }
+        else if (it.kind === "tl") { const [[x1, y1], [x2, y2]] = P; if (sty(it).extend && x2 !== x1) g.segs.push([x1, y1, W, y1 + (y2 - y1) / (x2 - x1) * (W - x1)]); else g.segs.push([x1, y1, x2, y2]); }
+        else if (it.kind === "rect") { const [[x1, y1], [x2, y2]] = P; const L = Math.min(x1, x2), R = Math.max(x1, x2), T = Math.min(y1, y2), B = Math.max(y1, y2); g.box = [L, T, R, B]; g.segs.push([L, T, R, T], [R, T, R, B], [R, B, L, B], [L, B, L, T]); g.areas.push([L, T, R, B]); }
+        else if (it.kind === "fib") { const [[x1], [x2]] = P; const L = Math.min(x1, x2); g.levels = FIB.map(([lv, c]) => { const pr = it.pts[1][1] + (it.pts[0][1] - it.pts[1][1]) * lv; const yy = Y(pr); return [lv, c, pr, yy]; }).filter((l) => l[3] != null); for (const l of g.levels) g.segs.push([L, l[3], W, l[3]]); g.diag = [P[0][0], P[0][1], P[1][0], P[1][1]]; }
+        else if (it.kind === "ch") {
+          const [[x1, y1], [x2, y2]] = P; if (x1 === x2) return null;
+          const k = (y2 - y1) / (x2 - x1); const yo = Y(it.pts[0][1] + (it.dp || 0)); if (yo == null) return null; const off = yo - y1;
+          const line = (d) => [x1, y1 + d, W, y1 + d + k * (W - x1)];
+          g.a = line(0); g.b = line(off); g.m = line(off / 2); g.segs.push(g.a, g.b);
+        }
+        else if (it.kind === "txt") { const [[x, y]] = P; const fs = sty(it).size; const w = String(it.text || "").length * fs * 0.55 + 8; g.box = [x, y - fs - 4, x + w, y + 4]; g.areas.push(g.box); g.anchor = [x, y]; }
+        g.P = P;
+        return g;
+      }
+      const distSeg = (px, py, [x1, y1, x2, y2]) => { const dx = x2 - x1, dy = y2 - y1, L = dx * dx + dy * dy; const u = L ? Math.max(0, Math.min(1, ((px - x1) * dx + (py - y1) * dy) / L)) : 0; return Math.hypot(px - (x1 + u * dx), py - (y1 + u * dy)); };
+      const inPoly = (px, py, pts4) => { let c = false; for (let a = 0, b = pts4.length - 1; a < pts4.length; b = a++) { const [xa, ya] = pts4[a], [xb, yb] = pts4[b]; if ((ya > py) !== (yb > py) && px < (xb - xa) * (py - ya) / (yb - ya) + xa) c = !c; } return c; };
+      // Melyik rajz van az adott pontban (a legfelső)
+      function hitTest(x, y) {
+        const ts = ch.timeScale(), W = main.clientWidth, X = (tm) => ts.timeToCoordinate(tm), Y = (p) => candles.priceToCoordinate(p);
+        for (let k = draw.items.length - 1; k >= 0; k--) {
+          const it = draw.items[k], g = geo(it, X, Y, W);
+          if (!g) continue;
+          if (g.segs.some((sg) => distSeg(x, y, sg) < 6)) return it;
+          if (g.areas.some(([L, T, R, B]) => x >= L && x <= R && y >= T && y <= B)) return it;
+          if (it.kind === "ch" && inPoly(x, y, [[g.a[0], g.a[1]], [g.a[2], g.a[3]], [g.b[2], g.b[3]], [g.b[0], g.b[1]]])) return it;
+        }
+        return null;
+      }
       drawOverlay = () => {
         if (!candles) return;
         svg.replaceChildren();
         const ts = ch.timeScale(), W = main.clientWidth;
         const X = (tm) => ts.timeToCoordinate(tm), Y = (p) => candles.priceToCoordinate(p);
-        for (const [t1, p1, t2, p2] of draw.rect) {
-          const x1 = X(t1), x2 = X(t2), y1 = Y(p1), y2 = Y(p2);
-          if (x1 == null || x2 == null || y1 == null || y2 == null) continue;
-          mk("rect", { x: Math.min(x1, x2), y: Math.min(y1, y2), width: Math.abs(x2 - x1), height: Math.abs(y2 - y1), fill: col.acc, "fill-opacity": 0.12, stroke: col.acc, "stroke-width": 1.5 });
-        }
-        for (const [t1, p1, t2, p2, dp] of draw.ch) {
-          const x1 = X(t1), x2 = X(t2);
-          if (x1 == null || x2 == null || x1 === x2) continue;
-          const ext = (pp1, pp2) => { const y1 = Y(pp1), y2 = Y(pp2); if (y1 == null || y2 == null) return null; const k = (y2 - y1) / (x2 - x1); return [x1, y1, W, y1 + k * (W - x1)]; };
-          const a = ext(p1, p2), b = ext(p1 + dp, p2 + dp);
-          if (!a || !b) continue;
-          mk("polygon", { points: [a[0], a[1], a[2], a[3], b[2], b[3], b[0], b[1]].join(" "), fill: "#4f74c9", "fill-opacity": 0.08 });
-          for (const L of [a, b]) mk("line", { x1: L[0], y1: L[1], x2: L[2], y2: L[3], stroke: "#4f74c9", "stroke-width": 1.5 });
-          const m1 = Y(p1 + dp / 2), m2 = Y(p2 + dp / 2);
-          if (m1 != null && m2 != null) { const k = (m2 - m1) / (x2 - x1); mk("line", { x1, y1: m1, x2: W, y2: m1 + k * (W - x1), stroke: "#4f74c9", "stroke-width": 1, "stroke-dasharray": "4 4" }); }
-        }
-        for (const [t1, p1, text] of draw.txt) {
-          const x = X(t1), y = Y(p1);
-          if (x == null || y == null) continue;
-          const tx = mk("text", { x: x + 4, y: y - 4, fill: col.fg, "font-size": 12, "font-family": "Source Sans 3, system-ui, sans-serif", "paint-order": "stroke", stroke: col.bg, "stroke-width": 3 });
-          tx.textContent = text;
-          mk("circle", { cx: x, cy: y, r: 3, fill: col.acc });
+        for (const it of draw.items) {
+          const g = geo(it, X, Y, W), s2 = sty(it);
+          if (!g) continue;
+          const isSel = it.id === sel;
+          const stroke = { stroke: s2.color, "stroke-width": s2.width + (isSel ? 0.5 : 0), "stroke-dasharray": DASH[s2.dash] };
+          if (it.kind === "h") {
+            mk("line", { x1: 0, y1: g.P[0][1], x2: W, y2: g.P[0][1], ...stroke });
+            if (s2.labels) lbl(8, g.P[0][1] - 5, fp(it.pts[0][1]), s2.color);
+          } else if (it.kind === "tl") {
+            const [x1, y1, x2, y2] = g.segs[0];
+            mk("line", { x1, y1, x2, y2, ...stroke, "stroke-linecap": "round" });
+            if (s2.labels) { lbl(g.P[0][0] + 4, g.P[0][1] - 6, fp(it.pts[0][1]), s2.color); lbl(g.P[1][0] + 4, g.P[1][1] - 6, fp(it.pts[1][1]) + "  " + fmtPctN((it.pts[1][1] / it.pts[0][1] - 1) * 100), s2.color); }
+          } else if (it.kind === "rect") {
+            const [L, T, R, B] = g.box;
+            mk("rect", { x: L, y: T, width: R - L, height: B - T, fill: s2.color, "fill-opacity": s2.fill, ...stroke });
+            if (s2.mid) mk("line", { x1: L, y1: (T + B) / 2, x2: R, y2: (T + B) / 2, stroke: s2.color, "stroke-width": 1, "stroke-dasharray": "5 4" });
+            if (s2.labels) {
+              const hi = Math.max(it.pts[0][1], it.pts[1][1]), lo = Math.min(it.pts[0][1], it.pts[1][1]);
+              lbl(R + 4, T + 4, fp(hi), s2.color); lbl(R + 4, B + 4, fp(lo), s2.color);
+              if (s2.mid) lbl(R + 4, (T + B) / 2 + 4, fp((hi + lo) / 2), s2.color);
+              lbl((L + R) / 2, T - 5, fmtPctN((hi / lo - 1) * 100), s2.color, "middle");
+            }
+          } else if (it.kind === "fib") {
+            for (const [lv, c, pr, yy] of g.levels) {
+              mk("line", { x1: Math.min(g.P[0][0], g.P[1][0]), y1: yy, x2: W, y2: yy, stroke: c, "stroke-width": s2.width + (isSel ? 0.5 : 0), "stroke-dasharray": lv === 0 || lv === 1 ? "" : DASH[s2.dash] });
+              if (s2.labels) lbl(Math.min(g.P[0][0], g.P[1][0]) + 4, yy - 3, (lv * 100).toFixed(1).replace(".0", "") + "%  " + fp(pr), c);
+            }
+            mk("line", { x1: g.diag[0], y1: g.diag[1], x2: g.diag[2], y2: g.diag[3], stroke: col.muted, "stroke-width": 1, "stroke-dasharray": "2 3" });
+          } else if (it.kind === "ch") {
+            const { a, b, m } = g;
+            mk("polygon", { points: [a[0], a[1], a[2], a[3], b[2], b[3], b[0], b[1]].join(" "), fill: s2.color, "fill-opacity": s2.fill });
+            for (const l of [a, b]) mk("line", { x1: l[0], y1: l[1], x2: l[2], y2: l[3], ...stroke });
+            if (s2.mid) mk("line", { x1: m[0], y1: m[1], x2: m[2], y2: m[3], stroke: s2.color, "stroke-width": 1, "stroke-dasharray": "4 4" });
+          } else if (it.kind === "txt") {
+            const [x, y] = g.anchor;
+            const tx = mk("text", { x: x + 4, y: y - 4, fill: s2.color, "font-size": s2.size, "font-family": "Source Sans 3, system-ui, sans-serif", "font-weight": 600, "paint-order": "stroke", stroke: col.bg, "stroke-width": 3 });
+            tx.textContent = it.text;
+            mk("circle", { cx: x, cy: y, r: 3, fill: s2.color });
+          }
+          // kijelölés: fogantyúk a pontokon
+          if (isSel) for (const [a2, b2] of g.P) mk("circle", { cx: it.kind === "h" ? W / 2 : a2, cy: b2, r: 5, fill: col.bg, stroke: s2.color || col.acc, "stroke-width": 2 });
         }
         // Rajzolás közben: az alakzat élőben követi az egeret (az első kattintás után), mint a TradingView-n
         if (!mode || !cur) return;
-        const H = main.clientHeight;
         const P = pts.map(([tm, pr]) => [X(tm), Y(pr)]).filter(([a, b]) => a != null && b != null);
         const pv = { stroke: col.acc, "stroke-width": 1.5, "stroke-dasharray": "5 4" };
-        const lbl = (x, y, text, color) => { const e = mk("text", { x, y, fill: color || col.acc, "font-size": 11, "font-family": "JetBrains Mono, monospace", "paint-order": "stroke", stroke: col.bg, "stroke-width": 3 }); e.textContent = text; };
-        const fp = (v) => fmtNum(v, Math.abs(v) >= 1 ? 2 : 4);
         for (const [a, b] of P) mk("circle", { cx: a, cy: b, r: 4, fill: col.acc, stroke: col.bg, "stroke-width": 2 });
         if (mode === "h" || mode === "a") {
           const c = mode === "a" ? C("--warn") : col.acc;
@@ -2048,7 +2129,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (mode === "f") {
           const p0 = pts[0][1], p1 = cur.price;
           if (p1 == null) return;
-          for (const [lv, c] of [[0, "#9aa0a6"], [0.236, "#d9534f"], [0.382, "#e0a84a"], [0.5, "#4cc39d"], [0.618, "#4f74c9"], [0.786, "#9a63c4"], [1, "#9aa0a6"]]) {
+          for (const [lv, c] of FIB) {
             const yy = Y(p1 + (p0 - p1) * lv);
             if (yy == null) continue;
             mk("line", { x1: Math.min(x0, cur.x), y1: yy, x2: W, y2: yy, stroke: c, "stroke-width": 1, "stroke-dasharray": lv === 0 || lv === 1 ? "" : "4 3" });
@@ -2069,24 +2150,56 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
           for (const l of [a, b]) mk("line", { x1: l[0], y1: l[1], x2: l[2], y2: l[3], stroke: "#4f74c9", "stroke-width": 1.5, "stroke-dasharray": "5 4" });
         }
       };
-      main.onpointermove = (ev) => { if (!mode || !candles) return; cur = pointAt(ev); drawOverlay(); };
-      main.onpointerleave = () => { if (!cur) return; cur = null; drawOverlay(); };
       ch.timeScale().subscribeVisibleLogicalRangeChange(() => drawOverlay());
       const ro = new ResizeObserver(() => drawOverlay()); ro.observe(main);
       charts.push({ remove: () => ro.disconnect() });
-      const remember = (kind) => { draw.order = draw.order || []; draw.order.push(kind); };
-      const done = (kind) => { remember(kind); saveDraw(t, draw); setMode(mode); build(); };
       const r8 = (v) => +v.toPrecision(8);
-      main.onclick = (ev) => {
-        if (!mode || !candles) return;
+      const newId = () => "d" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
+      const addItem = (it) => { it.id = newId(); draw.items.push(it); saveDraw(t, draw); sel = it.id; setMode(mode); drawOverlay(); };
+      // ---------- Mozgatás húzással (egérrel): a kijelölt vagy eltalált rajzot viszi, a grafikon közben nem görget ----------
+      let drag = null;
+      const onDown = (ev) => {
+        if (mode || ev.button !== 0 || !candles) return;
         const q = pointAt(ev);
+        const it = hitTest(q.x, q.y);
+        if (!it) return;
+        ev.stopPropagation(); ev.preventDefault();
+        sel = it.id; drawOverlay();
+        drag = { it, x0: q.x, y0: q.y, p0: q.price, pts0: it.pts.map((pp) => pp.slice()), i0: ch.timeScale().coordinateToLogical(q.x), moved: false };
+      };
+      const onMove = (ev) => {
+        if (!drag) return;
+        const q = pointAt(ev);
+        if (Math.abs(q.x - drag.x0) + Math.abs(q.y - drag.y0) > 3) drag.moved = true;
+        if (!drag.moved || q.price == null || drag.p0 == null) return;
+        const dPrice = q.price - drag.p0;
+        const li = ch.timeScale().coordinateToLogical(q.x);
+        const dIdx = li != null && drag.i0 != null ? Math.round(li - drag.i0) : 0;
+        drag.it.pts = drag.pts0.map(([tm, pr]) => [drag.it.kind === "h" ? tm : timeOf(idxOf(tm) + dIdx), r8(pr + dPrice)]);
+        drawOverlay();
+      };
+      const onUp = () => { if (!drag) return; if (drag.moved) saveDraw(t, draw); drag = null; };
+      main.addEventListener("mousedown", onDown, true);
+      window.addEventListener("mousemove", onMove);
+      window.addEventListener("mouseup", onUp);
+      charts.push({ remove: () => { main.removeEventListener("mousedown", onDown, true); window.removeEventListener("mousemove", onMove); window.removeEventListener("mouseup", onUp); } });
+      main.onpointermove = (ev) => {
+        if (mode && candles) { cur = pointAt(ev); drawOverlay(); return; }
+        if (!drag && candles) { const q = pointAt(ev); main.style.cursor = hitTest(q.x, q.y) ? "move" : ""; }
+      };
+      main.onpointerleave = () => { if (!cur) return; cur = null; drawOverlay(); };
+      // ---------- Kattintás: rajz létrehozása, vagy kijelölés ----------
+      main.onclick = (ev) => {
+        if (!candles) return;
+        const q = pointAt(ev);
+        if (!mode) { const it = hitTest(q.x, q.y); sel = it ? it.id : null; drawOverlay(); return; }
         if (q.price == null) return;
-        if (mode === "h") { draw.h.push(r8(q.price)); done("h"); return; }
+        if (mode === "h") { addItem({ kind: "h", pts: [[0, r8(q.price)]] }); return; }
         if (mode === "a") { addAlert(q.price); setMode("a"); build(); return; }
         if (q.time == null) return;
         if (mode === "x") {
           const text = (prompt("Megjegyzés a grafikonra:") || "").trim().slice(0, 80);
-          if (text) { draw.txt.push([q.time, r8(q.price), text]); done("txt"); }
+          if (text) addItem({ kind: "txt", pts: [[q.time, r8(q.price)]], text });
           return;
         }
         pts.push([q.time, q.price]);
@@ -2095,37 +2208,89 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const [a, b, c3] = pts; pts = [];
         if (a[0] === b[0]) return;
         const [x, y] = a[0] < b[0] ? [a, b] : [b, a];
-        if (mode === "f") { draw.fib.push([a[0], r8(a[1]), b[0], r8(b[1])]); done("fib"); return; }
-        if (mode === "r") { draw.rect.push([a[0], r8(a[1]), b[0], r8(b[1])]); done("rect"); return; }
+        if (mode === "f") { addItem({ kind: "fib", pts: [[a[0], r8(a[1])], [b[0], r8(b[1])]] }); return; }
+        if (mode === "r") { addItem({ kind: "rect", pts: [[a[0], r8(a[1])], [b[0], r8(b[1])]] }); return; }
         if (mode === "c") {
           // a harmadik pont a csatorna szélessége: az alapvonaltól mért árkülönbség abban az időpontban
           const xa = ch.timeScale().timeToCoordinate(x[0]), xb = ch.timeScale().timeToCoordinate(y[0]), xc = ch.timeScale().timeToCoordinate(c3[0]);
           const base = xa != null && xb != null && xc != null && xb !== xa ? x[1] + (y[1] - x[1]) * (xc - xa) / (xb - xa) : x[1];
-          draw.ch.push([x[0], r8(x[1]), y[0], r8(y[1]), r8(c3[1] - base)]); done("ch"); return;
+          addItem({ kind: "ch", pts: [[x[0], r8(x[1])], [y[0], r8(y[1])]], dp: r8(c3[1] - base) });
+          return;
         }
-        draw.tl.push([x[0], r8(x[1]), y[0], r8(y[1])]); done("tl");
+        addItem({ kind: "tl", pts: [[x[0], r8(x[1])], [y[0], r8(y[1])]] });
       };
-      // Jobb gomb (telefonon hosszú érintés): riasztás vagy vízszintes vonal az adott árnál
+      // ---------- Jobb gomb: a rajz beállításai (mint a TradingView-n), üres helyen riasztás / vonal ----------
+      const SWATCH = ["#0f6b55", "#4cc39d", "#4f74c9", "#9a63c4", "#d9534f", "#e0a84a", "#d99a1e", "#16201d", "#9aa0a6", "#ffffff"];
+      const closeMenus = () => { for (const m2 of body.querySelectorAll(".lwc-menu, .lwc-props")) m2.remove(); };
+      const placeMenu = (menu, ev) => {
+        const sr = body.getBoundingClientRect();
+        body.append(menu);
+        const w = menu.offsetWidth || 260, h = menu.offsetHeight || 200;
+        menu.style.left = Math.max(4, Math.min(ev.clientX - sr.left, sr.width - w - 4)) + "px";
+        menu.style.top = Math.max(4, Math.min(ev.clientY - sr.top, sr.height - h - 4)) + "px";
+        setTimeout(() => document.addEventListener("mousedown", function off(e2) { if (!menu.contains(e2.target)) { menu.remove(); document.removeEventListener("mousedown", off); } }), 0);
+      };
+      function propsMenu(it, ev) {
+        closeMenus();
+        sel = it.id; drawOverlay();
+        const s2 = sty(it);
+        const set = (k, v) => { it.style = { ...(it.style || {}), [k]: v }; saveDraw(t, draw); drawOverlay(); };
+        const menu = el("div", "lwc-props");
+        menu.append(el("div", "lp-title", KIND_NAME[it.kind]));
+        const row = (label) => { const r = el("div", "lp-row"); r.append(el("span", "lp-lbl", label)); const c2 = el("div", "lp-ctl"); r.append(c2); menu.append(r); return c2; };
+        const opt = (box, label, active, fn) => { const b = el("button", "lp-opt" + (active ? " on" : ""), label); b.type = "button"; b.addEventListener("click", () => { for (const x2 of box.children) x2.classList.remove("on"); b.classList.add("on"); fn(); }); box.append(b); return b; };
+        const toggle = (label, key) => { const c2 = row(label); const b = el("button", "lp-opt" + (s2[key] ? " on" : ""), s2[key] ? "Be" : "Ki"); b.type = "button"; b.addEventListener("click", () => { const v = !sty(it)[key]; set(key, v); b.textContent = v ? "Be" : "Ki"; b.classList.toggle("on", v); }); c2.append(b); };
+        if (it.kind !== "fib") {
+          const c2 = row("Szín");
+          for (const sw of SWATCH) { const b = el("button", "lp-sw" + (s2.color === sw ? " on" : "")); b.type = "button"; b.style.background = sw; b.title = sw; b.addEventListener("click", () => { for (const x2 of c2.children) x2.classList.remove("on"); b.classList.add("on"); set("color", sw); }); c2.append(b); }
+        }
+        if (it.kind !== "txt") {
+          const w2 = row("Vastagság"); for (const w of [1, 1.5, 2, 3]) opt(w2, String(w).replace(".", ","), s2.width === w, () => set("width", w));
+          const d2 = row("Vonal"); for (const [k2, lab] of [["solid", "━ folytonos"], ["dash", "╍ szaggatott"], ["dot", "┈ pontozott"]]) opt(d2, lab, s2.dash === k2, () => set("dash", k2));
+        }
+        if (it.kind === "rect" || it.kind === "ch") { const f2 = row("Kitöltés"); for (const f of [0, 0.08, 0.15, 0.3]) opt(f2, Math.round(f * 100) + "%", Math.abs(s2.fill - f) < 0.01, () => set("fill", f)); }
+        if (it.kind === "rect") { toggle("Középvonal", "mid"); toggle("Árcímkék", "labels"); }
+        if (it.kind === "ch") toggle("Középvonal", "mid");
+        if (it.kind === "tl") { toggle("Meghosszabbítás jobbra", "extend"); toggle("Árcímkék", "labels"); }
+        if (it.kind === "h" || it.kind === "fib") toggle("Árcímkék", "labels");
+        if (it.kind === "txt") {
+          const z = row("Méret"); for (const fs of [11, 13, 16, 20]) opt(z, fs + " px", s2.size === fs, () => set("size", fs));
+          const e2 = el("button", "lp-act", "✎ Szöveg szerkesztése"); e2.type = "button";
+          e2.addEventListener("click", () => { const tx = (prompt("Megjegyzés a grafikonra:", it.text || "") || "").trim().slice(0, 80); if (tx) { it.text = tx; saveDraw(t, draw); drawOverlay(); } });
+          menu.append(e2);
+        }
+        if (it.kind === "h") { const a2 = el("button", "lp-act", "🔔 Riasztás erre a szintre: " + fp(it.pts[0][1])); a2.type = "button"; a2.addEventListener("click", () => { closeMenus(); addAlert(it.pts[0][1]); build(); }); menu.append(a2); }
+        if (it.kind === "rect") {
+          const hi = Math.max(it.pts[0][1], it.pts[1][1]), lo = Math.min(it.pts[0][1], it.pts[1][1]);
+          menu.append(el("div", "lp-info", "Felső " + fp(hi) + " · alsó " + fp(lo) + " · közép " + fp((hi + lo) / 2) + " · magasság " + fmtPctN((hi / lo - 1) * 100)));
+        }
+        const cp = el("button", "lp-act", "⧉ Másolat"); cp.type = "button";
+        cp.addEventListener("click", () => { closeMenus(); const c3 = JSON.parse(JSON.stringify(it)); const off = (Math.max(...it.pts.map((x) => x[1])) - Math.min(...it.pts.map((x) => x[1]))) * 0.1 || it.pts[0][1] * 0.01; c3.pts = c3.pts.map(([tm, pr]) => [tm, r8(pr - off)]); addItem(c3); });
+        const del = el("button", "lp-act lp-del", "🗑 Törlés"); del.type = "button";
+        del.addEventListener("click", () => { closeMenus(); draw.items = draw.items.filter((x) => x !== it); sel = null; saveDraw(t, draw); drawOverlay(); });
+        menu.append(cp, del);
+        placeMenu(menu, ev);
+      }
       main.oncontextmenu = (ev) => {
         if (!candles) return;
         ev.preventDefault();
         const q = pointAt(ev);
+        const it = hitTest(q.x, q.y);
+        if (it) { propsMenu(it, ev); return; }
         if (q.price == null) return;
-        // ha egy meglévő vízszintes vonal közelében van, arra az árra kérjük
-        let price = q.price;
-        for (const hp of draw.h) { const yy = candles.priceToCoordinate(hp); if (yy != null && Math.abs(yy - q.y) < 7) price = hp; }
-        const old = body.querySelector(".lwc-menu"); if (old) old.remove();
+        closeMenus();
         const menu = el("div", "lwc-menu");
-        const sr = body.getBoundingClientRect();
-        menu.style.left = Math.min(ev.clientX - sr.left, sr.width - 250) + "px"; menu.style.top = (ev.clientY - sr.top) + "px";
         const item = (label, fn) => { const b = el("button", null, label); b.type = "button"; b.addEventListener("click", () => { menu.remove(); fn(); }); menu.append(b); };
-        const pf = fmtNum(price, Math.abs(price) >= 1 ? 2 : 4);
-        item("🔔 Riasztás ennél az árnál: " + pf, () => { addAlert(price); build(); });
-        item("― Vízszintes vonal: " + pf, () => { draw.h.push(r8(price)); remember("h"); saveDraw(t, draw); build(); });
+        const pf = fp(q.price);
+        item("🔔 Riasztás ennél az árnál: " + pf, () => { addAlert(q.price); build(); });
+        item("― Vízszintes vonal: " + pf, () => { addItem({ kind: "h", pts: [[0, r8(q.price)]] }); });
         item("Mégse", () => {});
-        body.append(menu);
-        setTimeout(() => document.addEventListener("click", function off(e2) { if (!menu.contains(e2.target)) { menu.remove(); document.removeEventListener("click", off); } }), 0);
+        placeMenu(menu, ev);
       };
+      // Billentyűk: Delete törli a kijelölt rajzot
+      const onDel = (e) => { if ((e.key === "Delete" || e.key === "Backspace") && sel && !/INPUT|TEXTAREA/.test((document.activeElement || {}).tagName || "")) { e.preventDefault(); draw.items = draw.items.filter((x) => x.id !== sel); sel = null; saveDraw(t, draw); drawOverlay(); closeMenus(); } };
+      document.addEventListener("keydown", onDel);
+      charts.push({ remove: () => document.removeEventListener("keydown", onDel) });
       // Jelmagyarázat: a kurzor alatti gyertya adatai
       const fmtP = (v) => fmtNum(v, Math.abs(v) >= 1 ? 2 : 4);
       const showBar = (b) => { legend.textContent = b ? "Ny " + fmtP(b.open) + "  M " + fmtP(b.high) + "  A " + fmtP(b.low) + "  Z " + fmtP(b.close) + "  " + fmtPctN((b.close / b.open - 1) * 100) : ""; };
