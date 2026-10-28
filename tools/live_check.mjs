@@ -13,4 +13,10 @@ const check = (path, symbols) => new Promise((resolve) => {
 // Az eredmény ::notice::-ként a futás összefoglalójában is látszik
 console.log("::notice::" + await check("/yws", ["EURUSD=X", "EURHUF=X", "BTC-USD", "VUAA.L", "^GDAXI", "NVDA"]));
 console.log("::notice::" + await check("/ws", ["AAPL", "NVDA", "MSFT"]));
+const base = cfg.wsUrl.replace(/^wss:/, "https:").replace(/\/ws$/, "");
+try {
+  const r = await fetch(base + "/history?range=5d&y=VUAA.L,NVDA,%5EGDAXI", { headers: { Origin: "https://adammagyar00.github.io" } });
+  const j = await r.json();
+  console.log("::notice::/history: " + r.status + " " + Object.entries(j.series || {}).map(([k, v]) => k + "=" + v.c.length + " pont").join(", "));
+} catch (e) { console.log("::notice::/history hiba: " + e.message); }
 process.exit(0);
