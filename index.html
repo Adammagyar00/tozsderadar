@@ -111,6 +111,11 @@ main .wrap { display: grid; grid-template-columns: minmax(0, 1fr) clamp(360px, 3
 .vbadge { font-family: var(--font-data); font-size: 11px; font-weight: 600; letter-spacing: 0.04em; padding: 2px 8px; border-radius: 4px; white-space: nowrap; }
 .vbadge.ok { color: var(--up); background: color-mix(in srgb, var(--up) 12%, transparent); }
 .vbadge.no { color: var(--warn); background: color-mix(in srgb, var(--warn) 14%, transparent); border: 1px dashed var(--warn); }
+.time-badge { font-family: var(--font-data); font-size: 11px; color: var(--muted); }
+.nf-bar { padding-top: 12px; border-top: 1px solid var(--line); margin-top: 16px; }
+.nf-search { font: inherit; font-size: 14px; padding: 5px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--fg); min-width: 0; width: 200px; max-width: 100%; }
+.nf-search:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.nf-clear { background: none; border: 0; padding: 4px 2px; font: inherit; font-size: 13px; color: var(--accent); cursor: pointer; text-decoration: underline; }
 .new-badge { font-family: var(--font-data); font-size: 11px; font-weight: 600; letter-spacing: 0.05em; color: var(--surface); background: var(--accent); padding: 2px 8px; border-radius: 999px; }
 .sym { font-family: var(--font-data); font-size: 12px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 1px 6px; border-radius: 4px; }
 a { color: var(--accent); text-underline-offset: 2px; }
@@ -591,8 +596,93 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     }
   }
 
+  // ---------- Hírszűrő (Főoldal és Watchlist News): megbízhatóság, kategória, hatás, csak új, keresés ----------
+  const NF_KEY = "tozsderadar-newsfilter-v1";
+  const NF = (() => {
+    const def = { ver: "all", cats: [], imp: [], onlyNew: false, q: "" };
+    try {
+      const o = JSON.parse(localStorage.getItem(NF_KEY) || "{}");
+      return { ...def, ver: ["ok", "no"].includes(o.ver) ? o.ver : "all", cats: Array.isArray(o.cats) ? o.cats : [], imp: Array.isArray(o.imp) ? o.imp : [], onlyNew: !!o.onlyNew };
+    } catch (e) { return def; }
+  })();
+  const saveNF = () => { try { localStorage.setItem(NF_KEY, JSON.stringify({ ver: NF.ver, cats: NF.cats, imp: NF.imp, onlyNew: NF.onlyNew })); } catch (e) { /* privát mód */ } };
+  // Mikor járt itt utoljára a látogató: az azóta érkezett hír "Új"
+  const SEEN_KEY = "tozsderadar-lastseen";
+  const PREV_SEEN = (() => { try { return Number(localStorage.getItem(SEEN_KEY)) || 0; } catch (e) { return 0; } })();
+  const markSeen = () => { try { localStorage.setItem(SEEN_KEY, String(Date.now())); } catch (e) { /* privát mód */ } };
+  setTimeout(markSeen, 5000);
+  setInterval(markSeen, 60000);
+  const itemTime = (it, fallback) => Date.parse(it.addedAt || fallback || "") || 0;
+  const isNewItem = (it, fallback) => PREV_SEEN > 0 && itemTime(it, fallback) > PREV_SEEN;
+  const IMPACTS = [["pozitív", "Pozitív"], ["negatív", "Negatív"], ["semleges", "Semleges"]];
+  const nfActive = () => NF.ver !== "all" || NF.cats.length || NF.imp.length || NF.onlyNew || NF.q.trim();
+  const nfMatch = (it, fallback, useCats) => {
+    if (NF.ver === "ok" && it.verified === false) return false;
+    if (NF.ver === "no" && it.verified !== false) return false;
+    if (useCats && NF.cats.length && !NF.cats.includes(it.category || "Egyéb")) return false;
+    if (NF.imp.length && !NF.imp.includes(it.impact || "semleges")) return false;
+    if (NF.onlyNew && !isNewItem(it, fallback)) return false;
+    const q = NF.q.trim().toLowerCase();
+    if (q && ![it.title, it.summary, it.source, ...(it.symbols || [])].join(" ").toLowerCase().includes(q)) return false;
+    return true;
+  };
+  // A szűrősáv: a gombok helyben váltanak, csak a lista rajzolódik újra (a keresőmező így nem veszti el a fókuszt)
+  function newsFilterBar(items, fallbackOf, useCats, redraw) {
+    const bar = el("div", "cal-tools nf-bar"); bar.id = "nfBar";
+    const grp = (label) => { const g = el("div", "grp"); g.append(el("span", "lbl", label)); bar.append(g); return g; };
+    const chip = (text, n, pressed, on) => {
+      const b = el("button", "chip", text); b.type = "button";
+      if (n != null) b.append(el("span", "n", String(n)));
+      b.setAttribute("aria-pressed", String(pressed));
+      b.addEventListener("click", () => { on(b); saveNF(); redraw(); });
+      return b;
+    };
+    const g1 = grp("Megbízhatóság");
+    const verChips = [];
+    for (const [v, t, n] of [["all", "Mind", items.length], ["ok", "✓ Megerősített", items.filter((it) => it.verified !== false).length], ["no", "Nem megerősített", items.filter((it) => it.verified === false).length]]) {
+      const b = chip(t, n, NF.ver === v, () => { NF.ver = v; for (const x of verChips) x.setAttribute("aria-pressed", String(x === b)); });
+      verChips.push(b); g1.append(b);
+    }
+    const multi = (label, list, key) => {
+      const g = grp(label);
+      for (const [v, t] of list) {
+        const n = items.filter((it) => (key === "cats" ? (it.category || "Egyéb") : (it.impact || "semleges")) === v).length;
+        if (!n) continue;
+        g.append(chip(t, n, NF[key].includes(v), (b) => {
+          NF[key] = NF[key].includes(v) ? NF[key].filter((x) => x !== v) : [...NF[key], v];
+          b.setAttribute("aria-pressed", String(NF[key].includes(v)));
+        }));
+      }
+    };
+    if (useCats) multi("Kategória", [...new Set(items.map((it) => it.category || "Egyéb"))].map((c) => [c, c]), "cats");
+    multi("Hatás", IMPACTS, "imp");
+    const g4 = grp("Egyéb");
+    const nNew = items.filter((it) => isNewItem(it, fallbackOf(it))).length;
+    const newChip = chip("Csak új", nNew, NF.onlyNew, (b) => { NF.onlyNew = !NF.onlyNew; b.setAttribute("aria-pressed", String(NF.onlyNew)); });
+    newChip.title = PREV_SEEN ? "Az előző látogatásod (" + new Date(PREV_SEEN).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) + ") óta érkezett hírek" : "Első látogatás: a következő alkalommal itt látod, mi érkezett azóta";
+    g4.append(newChip);
+    const search = el("input", "nf-search"); search.type = "search"; search.placeholder = "Keresés a hírekben…"; search.value = NF.q;
+    search.setAttribute("aria-label", "Keresés a hírekben");
+    search.addEventListener("input", () => { NF.q = search.value; redraw(); });
+    g4.append(search);
+    const clear = el("button", "nf-clear", "Szűrők törlése"); clear.type = "button";
+    clear.addEventListener("click", () => {
+      NF.ver = "all"; NF.cats = []; NF.imp = []; NF.onlyNew = false; NF.q = ""; search.value = ""; saveNF();
+      for (const b of bar.querySelectorAll(".chip")) b.setAttribute("aria-pressed", "false");
+      verChips[0].setAttribute("aria-pressed", "true");
+      redraw();
+    });
+    g4.append(clear);
+    bar._sync = (shown) => { clear.hidden = !nfActive(); bar.dataset.shown = String(shown); };
+    return bar;
+  }
+
   function renderDigest(d) {
-    const c = $("content"); c.replaceChildren();
+    const c = $("content");
+    // Percenkénti frissítéskor csak akkor rajzoljuk újra, ha változott a kiadás (különben a keresőmező elveszítené a fókuszt)
+    const sig = "home|" + d.date + "|" + (d.updatedAt || "") + "|" + (d.items || []).length + "|" + (watchlist || []).length;
+    if (c.dataset.sig === sig && c.querySelector("#nfBar")) return;
+    c.replaceChildren(); c.dataset.sig = sig;
     const lead = el("section", "lead");
     lead.append(el("div", "lead-eyebrow", "A nap röviden"), el("h2", null, d.headline || "Napi összefoglaló"));
     if (d.summary) lead.append(el("p", null, d.summary));
@@ -601,42 +691,34 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     if (d.generatedAt && fmtTs(d.generatedAt)) stamps.push("Összeállítva: " + fmtTs(d.generatedAt));
     if (d.updatedAt && fmtTs(d.updatedAt) && d.updatedAt !== d.generatedAt) stamps.push("utoljára frissítve: " + fmtTs(d.updatedAt));
     if (stamps.length) lead.append(el("div", "stamp", stamps.join(" · ")));
-    c.append(lead);
-
-    const groups = new Map();
     // A figyelőlistás hírek a Watchlist News oldalon vannak, a főoldalon nem
-    const byNewest = [...(d.items || [])].filter((it) => !isWlItem(it)).sort((a, b) => String(b.addedAt || "").localeCompare(String(a.addedAt || "")));
-    for (const it of byNewest) {
-      const k = it.category || "Egyéb";
-      if (!groups.has(k)) groups.set(k, []);
-      groups.get(k).push(it);
-    }
-    for (const [cat, items] of groups) {
-      const sec = el("section", "section");
-      const head = el("div", "section-head");
-      head.append(el("h3", null, cat), el("span", "count", `${items.length} hír`));
-      sec.append(head);
-      for (const it of items) {
-        const row = el("article", "item");
-        row.append(el("div", "bar " + tone(it.impact)));
-        const body = el("div");
-        body.style.minWidth = "0";
-        body.append(el("h4", null, it.title), el("p", null, it.summary));
-        const meta = el("div", "meta");
-        if (it.addedAt) {
-          const t = new Date(it.addedAt);
-          if (!isNaN(t)) meta.append(el("span", "new-badge", "Új · " + t.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" })));
-        }
-        meta.append(el("span", "pill " + tone(it.impact), it.impact || "semleges"));
-        for (const s of it.symbols || []) meta.append(el("span", "sym", s));
-        const u = safeUrl(it.url);
-        if (u) meta.append(link(u, it.source || "Forrás"));
-        else if (it.source) meta.append(el("span", null, it.source));
-        meta.append(vBadge(it));
-        body.append(meta); row.append(body); sec.append(row);
+    const items = [...(d.items || [])].filter((it) => !isWlItem(it)).sort((a, b) => String(b.addedAt || "").localeCompare(String(a.addedAt || "")));
+    const listBox = el("div");
+    const draw = () => {
+      listBox.replaceChildren();
+      const shown = items.filter((it) => nfMatch(it, d.generatedAt, true));
+      bar._sync(shown.length);
+      if (!shown.length) {
+        const box = el("div", "empty");
+        box.append(el("h2", null, items.length ? "Nincs a szűrésnek megfelelő hír" : "Még nincs hír"), el("p", null, items.length ? "Lazíts a szűrőkön, vagy kattints a „Szűrők törlése” gombra." : "A hírek a reggeli frissítéssel érkeznek."));
+        listBox.append(box);
+        return;
       }
-      c.append(sec);
-    }
+      const groups = new Map();
+      for (const it of shown) { const k = it.category || "Egyéb"; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(it); }
+      for (const [cat, list] of groups) {
+        const sec = el("section", "section");
+        const head = el("div", "section-head");
+        head.append(el("h3", null, cat), el("span", "count", `${list.length} hír`));
+        sec.append(head);
+        for (const it of list) sec.append(newsItem(it, d.generatedAt));
+        listBox.append(sec);
+      }
+    };
+    const bar = newsFilterBar(items, () => d.generatedAt, true, draw);
+    lead.append(bar);
+    c.append(lead, listBox);
+    draw();
   }
 
   // Watchlist News: minden kiadásból azok a hírek, amelyek a figyelőlista valamelyik tételéről szólnak
@@ -659,17 +741,19 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     return out.sort((a, b) => String(b._ts).localeCompare(String(a._ts)));
   }
 
-  function newsItem(it) {
+  function newsItem(it, fallback) {
     const row = el("article", "item");
     row.append(el("div", "bar " + tone(it.impact)));
     const body = el("div");
     body.style.minWidth = "0";
     body.append(el("h4", null, it.title), el("p", null, it.summary));
     const meta = el("div", "meta");
-    if (it.addedAt) {
-      const t = new Date(it.addedAt);
-      if (!isNaN(t)) meta.append(el("span", "new-badge", "Új · " + t.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" })));
-    }
+    // "Új": a legutóbbi látogatásod óta érkezett; a napközben bekerült hírek mellett az időpont is látszik
+    const fresh = isNewItem(it, fallback);
+    const t = it.addedAt ? new Date(it.addedAt) : null;
+    const hhmm = t && !isNaN(t) ? t.toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" }) : null;
+    if (fresh) meta.append(el("span", "new-badge", hhmm ? "Új · " + hhmm : "Új"));
+    else if (hhmm) meta.append(el("span", "time-badge", hhmm + "-kor"));
     meta.append(el("span", "pill " + tone(it.impact), it.impact || "semleges"));
     for (const s of it.symbols || []) meta.append(el("span", "sym", s));
     const u = safeUrl(it.url);
@@ -681,20 +765,26 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   }
 
   function renderWatchlistNews() {
-    const c = $("content"); c.replaceChildren();
+    const c = $("content");
     const all = watchlistNews();
+    const sig = "wl|" + all.length + "|" + digests.map((d) => d.updatedAt || d.date).join(",") + "|" + (watchlist || []).length;
+    if (c.dataset.sig === sig && c.querySelector("#nfBar")) return;
+    c.replaceChildren(); c.dataset.sig = sig;
     const lead = el("section", "lead");
     lead.append(el("div", "lead-eyebrow", "Csak a figyelőlistád"), el("h2", null, "Watchlist News"));
-    lead.append(el("p", null, "Azok a megerősített hírek, amelyek a figyelőlistád részvényeiről, ETF-jeiről és kriptóiról szólnak, a legfrissebb elöl."));
+    lead.append(el("p", null, "A figyelőlistád részvényeiről, ETF-jeiről és kriptóiról szóló hírek, a legfrissebb elöl."));
     const counts = new Map();
     for (const it of all) for (const s of it._syms) counts.set(s, (counts.get(s) || 0) + 1);
     const chips = el("div", "chips");
+    const listBox = el("div");
+    const symChips = [];
     const mk = (label, val, n) => {
       const b = el("button", "chip", label);
       b.type = "button";
       if (n != null) b.append(el("span", "n", String(n)));
       b.setAttribute("aria-pressed", String(wlFilter === val));
-      b.addEventListener("click", () => { wlFilter = val; renderWatchlistNews(); });
+      b.addEventListener("click", () => { wlFilter = val; for (const x of symChips) x.setAttribute("aria-pressed", String(x === b)); draw(); });
+      symChips.push(b);
       return b;
     };
     chips.append(mk("Mind", null, all.length));
@@ -702,22 +792,28 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const s = String(w.symbol).toUpperCase();
       if (counts.get(s)) chips.append(mk(s, s, counts.get(s)));
     }
-    lead.append(chips);
-    c.append(lead);
-    const list = wlFilter ? all.filter((it) => it._syms.includes(wlFilter)) : all;
-    if (!list.length) {
-      const box = el("div", "empty");
-      box.append(el("h2", null, "Még nincs hír a figyelőlistádról"), el("p", null, "Amint a reggeli vagy az óránkénti frissítés megerősített hírt talál valamelyik tételedről, itt jelenik meg."));
-      c.append(box);
-      return;
-    }
-    let lastDay = null;
-    const sec = el("section", "section");
-    for (const it of list) {
-      if (it._date !== lastDay) { lastDay = it._date; sec.append(el("div", "day-head", fmtDate(it._date))); }
-      sec.append(newsItem(it));
-    }
-    c.append(sec);
+    const draw = () => {
+      listBox.replaceChildren();
+      const list = all.filter((it) => (!wlFilter || it._syms.includes(wlFilter)) && nfMatch(it, it._ts, false));
+      bar._sync(list.length);
+      if (!list.length) {
+        const box = el("div", "empty");
+        box.append(el("h2", null, all.length ? "Nincs a szűrésnek megfelelő hír" : "Még nincs hír a figyelőlistádról"), el("p", null, all.length ? "Lazíts a szűrőkön, vagy kattints a „Szűrők törlése” gombra." : "Amint a reggeli vagy a napközbeni frissítés hírt talál valamelyik tételedről, itt jelenik meg."));
+        listBox.append(box);
+        return;
+      }
+      let lastDay = null;
+      const sec = el("section", "section");
+      for (const it of list) {
+        if (it._date !== lastDay) { lastDay = it._date; sec.append(el("div", "day-head", fmtDate(it._date))); }
+        sec.append(newsItem(it, it._ts));
+      }
+      listBox.append(sec);
+    };
+    const bar = newsFilterBar(all, (it) => it._ts, false, draw);
+    lead.append(chips, bar);
+    c.append(lead, listBox);
+    draw();
   }
 
   // Gyorsjelentés: a tény a várakozáshoz képest (a frissítés tölti ki a surprise mezőt)
