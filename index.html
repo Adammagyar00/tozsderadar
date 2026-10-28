@@ -1808,7 +1808,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const opts = (h) => ({ autoSize: true, layout: { background: { type: "solid", color: col.bg }, textColor: col.muted, fontFamily: "JetBrains Mono, monospace" }, grid: { vertLines: { color: col.line }, horzLines: { color: col.line } }, rightPriceScale: { borderColor: col.line }, timeScale: { borderColor: col.line, timeVisible: intraday, secondsVisible: false }, crosshair: { mode: 0 }, localization: { locale: "hu-HU" }, height: h });
       const ch = LW.createChart(main, opts());
       charts.push(ch);
-      bars = sr.t.map((x, i) => ({ time: shift(x), open: sr.o[i], high: sr.h[i], low: sr.l[i], close: sr.c[i] }));
+      // A Yahoo néha hibás csúcsot/mélypontot ad egy-egy gyertyánál: a testtől 15%-nál messzebb nyúló kanócot levágjuk
+      bars = sr.t.map((x, i) => {
+        const o = sr.o[i], c = sr.c[i], top = Math.max(o, c), bot = Math.min(o, c);
+        return { time: shift(x), open: o, high: Math.min(sr.h[i], top * 1.15), low: Math.max(sr.l[i], bot * 0.85), close: c };
+      });
       // azonos időbélyegek kiszűrése (a Lightweight Charts szigorúan növekvő időt kér)
       bars = bars.filter((b, i) => !i || b.time > bars[i - 1].time);
       candles = ch.addCandlestickSeries({ upColor: col.up, downColor: col.down, borderUpColor: col.up, borderDownColor: col.down, wickUpColor: col.up, wickDownColor: col.down });
