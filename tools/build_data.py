@@ -20,6 +20,9 @@ def load(path):
 
 digests = sorted((load(p) for p in glob.glob(os.path.join(exp, "digests", "*.json"))),
                  key=lambda d: d["date"], reverse=True)[:60]
+# runLog: a frissítések belső naplója (melyik futás mikor volt, a fogyasztás méréséhez); az oldalra nem kerül ki
+for d in digests:
+    d.pop("runLog", None)
 watchlist = []
 for p in glob.glob(os.path.join(exp, "watchlist", "*.json")):
     w = load(p)
