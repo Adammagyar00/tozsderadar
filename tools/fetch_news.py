@@ -1,4 +1,6 @@
-"""Letölti a Yahoo Finance hírfolyamait, és a yahoo_news.json-ba írja (az elmúlt 48 óra hírei).
+"""Letölti a Yahoo Finance és az Investing.com hírfolyamait (az elmúlt 48 óra hírei):
+yahoo_news.json és investing_news.json. Az Investing.com-hírekből kimarad, ami a Yahoo-hírfolyamban
+már szerepel (ugyanaz a cikk vagy szinte azonos cím), hogy ugyanaz a hír ne kerüljön be kétszer.
 
 A GitHub Actions futtatja 30 percenként (.github/workflows/news.yml). A hírek fordítását,
 kiválogatását és kategorizálását a napi és napközbeni Claude-frissítés végzi ebből a fájlból.
@@ -63,6 +65,18 @@ def clean(s, n=400):
     return s[:n]
 
 
+def parse_time(pub):
+    """RFC 822 (Yahoo) vagy "ÉÉÉÉ-HH-NN ÓÓ:PP:MM" (Investing.com, UTC) formátum."""
+    try:
+        return email.utils.parsedate_to_datetime(pub).astimezone(datetime.timezone.utc)
+    except (TypeError, ValueError):
+        pass
+    try:
+        return datetime.datetime.strptime(pub.strip(), "%Y-%m-%d %H:%M:%S").replace(tzinfo=datetime.timezone.utc)
+    except ValueError:
+        return datetime.datetime.now(datetime.timezone.utc)
+
+
 def parse(xml_bytes, symbols):
     out = []
     root = ET.fromstring(xml_bytes)
@@ -71,12 +85,9 @@ def parse(xml_bytes, symbols):
         if not title or not link:
             continue
         pub = text(it, "pubDate")
-        try:
-            ts = email.utils.parsedate_to_datetime(pub).astimezone(datetime.timezone.utc)
-        except (TypeError, ValueError):
-            ts = datetime.datetime.now(datetime.timezone.utc)
+        ts = parse_time(pub)
         src = it.find("source")
-        publisher = (src.text or "").strip() if src is not None and src.text else ""
+        publisher = (src.text or "").strip() if src is not None and src.text else text(it, "author")
         out.append({
             "title": title,
             "link": link.split("?")[0] if "finance.yahoo.com" in link else link,
@@ -88,17 +99,30 @@ def parse(xml_bytes, symbols):
     return out
 
 
-def main():
-    path = os.path.join(ROOT, "yahoo_news.json")
+INVESTING_FEEDS = [
+    "https://www.investing.com/rss/news.rss",       # minden hír
+    "https://www.investing.com/rss/news_25.rss",    # tőzsde
+    "https://www.investing.com/rss/news_14.rss",    # gazdaság
+    "https://www.investing.com/rss/news_95.rss",    # makroadatok
+    "https://www.investing.com/rss/news_1.rss",     # deviza
+    "https://www.investing.com/rss/news_11.rss",    # nyersanyagok
+    "https://www.investing.com/rss/news_301.rss",   # kripto
+]
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+              "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8"}
+
+
+def collect(path, feed_list, headers, source):
+    """A hírfolyamok összefésülése a meglévő fájllal (link szerint egyedi), 48 órára visszamenőleg."""
     try:
         old = json.load(open(path, encoding="utf-8")).get("items", [])
     except (OSError, ValueError):
         old = []
     items = {x["link"]: x for x in old}
     ok = 0
-    for url, symbols in feeds():
+    for url, symbols in feed_list:
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=20) as r:
                 got = parse(r.read(), symbols)
             ok += 1
         except Exception as e:  # egy hibás hírfolyam ne állítsa le a többit
@@ -110,17 +134,47 @@ def main():
                 prev["symbols"] = sorted(set(prev.get("symbols", [])) | set(x["symbols"]))
             else:
                 items[x["link"]] = x
-    if not ok:
-        sys.exit("Egyetlen Yahoo Finance hírfolyamot sem sikerült letölteni.")
     cutoff = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=KEEP_HOURS)).isoformat().replace("+00:00", "Z")
     keep = sorted((x for x in items.values() if x["published"] >= cutoff), key=lambda x: x["published"], reverse=True)[:MAX_ITEMS]
+    return ok, old, keep
+
+
+def words(title):
+    return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if len(w) > 2}
+
+
+def same_story(a, b):
+    """Szinte azonos cím (a szavak legalább 60%-a közös): ugyanaz a hír, más kiadónál."""
+    wa, wb = words(a), words(b)
+    return bool(wa and wb) and len(wa & wb) / min(len(wa), len(wb)) >= 0.6
+
+
+def write(path, source, old, keep):
     if keep == old:
-        print("Nincs új hír.")
+        print(f"{os.path.basename(path)}: nincs új hír.")
         return
     now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     with open(path, "w", encoding="utf-8") as f:
-        json.dump({"source": "Yahoo Finance RSS", "updatedAt": now, "items": keep}, f, ensure_ascii=False, indent=1)
-    print(f"yahoo_news.json kész: {len(keep)} hír")
+        json.dump({"source": source, "updatedAt": now, "items": keep}, f, ensure_ascii=False, indent=1)
+    print(f"{os.path.basename(path)} kész: {len(keep)} hír")
+
+
+def main():
+    ypath = os.path.join(ROOT, "yahoo_news.json")
+    ok, old, ykeep = collect(ypath, feeds(), UA, "Yahoo Finance RSS")
+    if not ok:
+        sys.exit("Egyetlen Yahoo Finance hírfolyamot sem sikerült letölteni.")
+    write(ypath, "Yahoo Finance RSS", old, ykeep)
+    # Investing.com: ami a Yahoo-hírek között már megvan (ugyanaz a link vagy szinte azonos cím), az kimarad
+    ipath = os.path.join(ROOT, "investing_news.json")
+    iok, iold, ikeep = collect(ipath, ((u, None) for u in INVESTING_FEEDS), BROWSER_UA, "Investing.com RSS")
+    if not iok:
+        print("Az Investing.com hírfolyamai most nem érhetők el.", file=sys.stderr)
+        return
+    ylinks = {x["link"] for x in ykeep}
+    ytitles = [x["title"] for x in ykeep]
+    ikeep = [x for x in ikeep if x["link"] not in ylinks and not any(same_story(x["title"], t) for t in ytitles)]
+    write(ipath, "Investing.com RSS", iold, ikeep)
 
 
 if __name__ == "__main__":

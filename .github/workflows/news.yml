@@ -1,4 +1,4 @@
-name: Yahoo Finance hírek
+name: Yahoo Finance és Investing.com hírek
 
 on:
   schedule:
@@ -25,11 +25,11 @@ jobs:
 
       - name: Feltöltés, ha változott
         run: |
-          git add yahoo_news.json 2>/dev/null || exit 0
+          git add yahoo_news.json investing_news.json 2>/dev/null || git add yahoo_news.json || exit 0
           git diff --cached --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Yahoo Finance hírek"
+          git commit -m "Hírfolyamok (Yahoo Finance, Investing.com)"
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin main && exit 0
             sleep 5
