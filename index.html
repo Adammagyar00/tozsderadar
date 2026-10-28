@@ -3010,7 +3010,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const saveMeta = () => lsPut(SYNC_META_KEY, JSON.stringify(syncMeta));
   const settings = (() => { try { return { summary: true, ...JSON.parse(lsGet(SET_KEY) || "{}") }; } catch (e) { return { summary: true }; } })();
   // Telegram-értesítések kapcsolói (alapból mind be van kapcsolva)
-  const TG_OPTS = [["summary", "Esti összefoglaló (22:00, az utolsó frissítés után)"], ["weekly", "Heti portfolio-összefoglaló (vasárnap 20:00)"], ["recap", "Heti áttekintés: a múlt hét történései (hétfő 7:00)"], ["events", "Reggeli események (7:30): makroadatok, gyorsjelentések"], ["news", "Fontos hírek a tételeidről"], ["stale", "Figyelmeztetés, ha elakad a frissítés"]];
+  const TG_OPTS = [["summary", "Esti összefoglaló (22:00, az utolsó frissítés után)"], ["weekly", "Heti portfolio-összefoglaló (vasárnap 20:00)"], ["recap", "Heti előzetes: a hét várható eseményei (hétfő 7:00)"], ["events", "Reggeli események (7:30): makroadatok, gyorsjelentések"], ["news", "Fontos hírek a tételeidről"], ["stale", "Figyelmeztetés, ha elakad a frissítés"]];
   const saveSettings = () => { lsPut(SET_KEY, JSON.stringify(settings)); syncKick(); };
   const AL_CFG = ["id", "key", "label", "type", "value", "off", "created", "base", "hi", "lo", "line"];
   // A szerveroldali riasztáshoz és összefoglalóhoz: melyik Yahoo-jelölés tartozik egy tételhez
@@ -3215,10 +3215,10 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       tg.append(opts2);
       const row = el("div", "set-row");
       const test = async (what) => { try { const r = await fetch(workerBase + "/tgtest", { method: "POST", body: JSON.stringify({ id: syncId, what }) }); const j = await r.json(); setMsg = j.ok ? "Elküldve a Telegramra." : "Nem sikerült: " + (j.error || "ismeretlen hiba"); } catch (e) { setMsg = "Nem sikerült elküldeni."; } updateSettings(); };
-      row.append(btn("Próbaüzenet", () => test("ping"), true), btn("Esti összefoglaló most", () => test("summary"), true), btn("Heti összefoglaló most", () => test("weekly"), true), btn("Heti áttekintés most", () => test("recap"), true));
+      row.append(btn("Próbaüzenet", () => test("ping"), true), btn("Esti összefoglaló most", () => test("summary"), true), btn("Heti összefoglaló most", () => test("weekly"), true), btn("Heti előzetes most", () => test("recap"), true));
       tg.append(row);
       if (setMsg) tg.append(el("p", "hint", setMsg));
-      tg.append(el("p", null, "A Telegramban: /riasztasok · /osszegzes · /heti · /attekintes · /stop (leválasztás). A fontos hírek a pozitív vagy negatív hatású, a portfoliódat, a kedvenceidet vagy a figyelőlistát érintő hírek; a reggeli lista a magas fontosságú makroeseményeket és a tételeid gyorsjelentéseit tartalmazza."));
+      tg.append(el("p", null, "A Telegramban: /riasztasok · /osszegzes · /heti · /elozetes · /stop (leválasztás). A fontos hírek a pozitív vagy negatív hatású, a portfoliódat, a kedvenceidet vagy a figyelőlistát érintő hírek; a reggeli lista a magas fontosságú makroeseményeket és a tételeid gyorsjelentéseit tartalmazza."));
     }
     // Alkalmazásként
     app.replaceChildren(el("h3", null, "Telepítés alkalmazásként"));

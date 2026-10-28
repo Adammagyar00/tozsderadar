@@ -70,7 +70,7 @@ jobs:
           echo "$R" | grep -q '"ok":true' && echo "::notice::Telegram bot: $(echo "$R" | grep -oE '"username":"[^"]+"')" || { echo "::warning::A Telegram nem fogadta el a tokent (getMe): $(echo "$R" | grep -oE '"description":"[^"]+"')"; exit 0; }
           R=$(curl -s "https://api.telegram.org/bot$TG/setWebhook" -d "url=$URL/tg" -d "secret_token=$SECRET" -d 'allowed_updates=["message"]')
           echo "$R" | grep -q '"ok":true' && echo "::notice::Telegram webhook beállítva: $URL/tg" || echo "::warning::Telegram webhook: $R"
-          curl -s "https://api.telegram.org/bot$TG/setMyCommands" -H 'content-type: application/json' -d '{"commands":[{"command":"riasztasok","description":"Riasztásaim"},{"command":"osszegzes","description":"Összefoglaló most"},{"command":"stop","description":"Értesítések leállítása"}]}' > /dev/null
+          curl -s "https://api.telegram.org/bot$TG/setMyCommands" -H 'content-type: application/json' -d '{"commands":[{"command":"riasztasok","description":"Riasztásaim"},{"command":"osszegzes","description":"Összefoglaló most"},{"command":"heti","description":"Heti portfolio-összefoglaló"},{"command":"elozetes","description":"A hét várható eseményei"},{"command":"stop","description":"Értesítések leállítása"}]}' > /dev/null
 
       - name: Cím mentése a live.json-ba
         if: steps.check.outputs.ready == 'true'
