@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-28T20:23:04Z",
+ "builtAt": "2026-10-28T23:22:39Z",
  "digests": [
   {
    "calendar": [
@@ -263,7 +263,7 @@
      "category": "Figyelőlista",
      "impact": "pozitív",
      "origin": "yahoo",
-     "source": "Yahoo Finance · Bloomberg",
+     "source": "Yahoo Finance",
      "summary": "A Bloomberg beszámolója szerint az Anthropic a JPMorgan Chase-t bízta meg, hogy felügyelje a részvények értékesítését az amerikai magánbefektetőknek a tervezett IPO során.",
      "symbols": [
       "JPM"
@@ -747,6 +747,160 @@
      "title": "A CNBC szerint a Brent 115,32 dolláron zárt, az USA újabb iráni csapásokat készíthet elő",
      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
      "verified": false
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az Alphabet részvénye szerda este a tőzsdezárás utáni kereskedésben több mint 7%-ot esett, mert a várakozásnál alacsonyabb profitot jelentett, és lassult a hirdetési üzlete.",
+     "symbols": [],
+     "title": "Az Alphabet árfolyama több mint 7%-ot esett tőzsdezárás után a gyengébb profit és a lassuló hirdetési üzlet miatt",
+     "url": "https://finance.yahoo.com/technology/ai/articles/shares-google-owner-alphabet-sink-204437200.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Microsoft részvénye szerda késő este emelkedett, miután a cég a várakozásoknál jobb eredményt közölt. A tőkekiadás (capex) a címben foglaltak szerint alacsonyabb volt a vártnál.",
+     "symbols": [],
+     "title": "A Microsoft árfolyama emelkedik a várakozást meghaladó eredmény után; a beruházások alacsonyabbak a vártnál",
+     "url": "https://finance.yahoo.com/m/66ecca51-0164-3b1e-a661-b93dd0de007a/microsoft-stock-jumps-on.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az amerikai tőzsde harmadik napja emelkedett. Zárás után a Microsoft nőtt az erős eredmény miatt, a Google, a ServiceNow és a Fortinet viszont jelentősen esett.",
+     "symbols": [],
+     "title": "Dow-határidős: a Microsoft késői emelkedésben, a Google, a ServiceNow és a Fortinet zuhan a gyorsjelentések után",
+     "url": "https://finance.yahoo.com/m/6c0b166b-19af-3d40-b6ff-7c6d65d3c4da/dow-jones-futures%3A-microsoft.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az amerikai részvényindexek a nap végén emelkedéssel zártak, miután a Fed nem változtatott a kamaton. A hír a napvégi árfolyammozgásokkal frissített összefoglaló.",
+     "symbols": [],
+     "title": "Wall Street: az S&P 500 és a Nasdaq a Fed szünete után harmadik napja emelkedett",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-rise-third-210857584.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "Az Oracle befektetői napján legalább 30 milliárd dolláros szabad cash flow-t jelzett a 2029-es pénzügyi évre, ami enyhítette az AI-kiadásokkal kapcsolatos aggodalmakat.",
+     "symbols": [],
+     "title": "Az Oracle árfolyama ugrott a 2030-as pénzügyi évre kitűzött 225 milliárd dolláros bevételi célra",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-oracle-surges-on-fiscal-2030-revenue-guidance-of-usd225-billion/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A T-Mobile US a harmadik negyedévben több új ügyfélszámlát szerzett az elemzői várakozásnál. A cég ajánlatai és hűségkedvezményei beváltak.",
+     "symbols": [],
+     "title": "A T-Mobile profitja nőtt, és az vártnál több új ügyfélszámlát szerzett",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-boosts-profit-accounts-200152408.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A GPU-infrastruktúra-szolgáltató a tervezett 22,5 MW kapacitás nagy részét üzembe helyezte. A részvény a volatilis AI-infrastruktúra-rally részeként tovább emelkedett.",
+     "symbols": [],
+     "title": "A CoreWeave részvénye ugrott: a dániai AI-kapacitás nagy része üzembe lépett",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-coreweave-surges-on-denmark-ai-capacity-going-live/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Unchained",
+     "summary": "A Deribit bitcoin-volatilitási indexe a délután végére a kiindulási szinten állt, a bitcoin 0,33%-ot nyert a Coinbase-en. Eközben a decemberi emelés esélye nőtt, miután Warsh Fedje 3,75–4%-on tartotta a kamatot.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin a héja Fed-döntés ellenére is alig mozdult: 0,33%-ot erősödött, a volatilitás változatlan",
+     "url": "https://unchainedcrypto.com/bitcoin-shrugs-off-a-hawkish-fed-as-volatility-bets-barely-budge/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A bitcoin az elmúlt évek leggyengébb októbere felé tart, mert az amerikai vevők visszavonultak az adatok szerint.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin októberi emelkedése elfogyott: gyengül a kereslet",
+     "url": "https://www.thestreet.com/crypto/markets/bitcoins-uptober-rally-just-fell-apart-as-demand-weakens?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A DTCC új tokenizációs szolgáltatása a blokklánc-alapú értékpapírokat a Wall Street elszámolási rendszeréhez köti. Az Ondo a korai együttműködők között van.",
+     "symbols": [
+      "ONDO"
+     ],
+     "title": "Az Ondo is csatlakozott a DTCC tokenizáltrészvény-szolgáltatásához",
+     "url": "https://www.thestreet.com/crypto/markets/ondo-joins-dtccs-push-to-bring-tokenized-stocks-into-the-mainstream?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "Brazília legnagyobb magánbankja az új jegybanki szabályok alapján regisztrált az XRP és további 14 kriptoeszköz kereskedésére. A cikk szerint kérdéses, mit jelent ez az XRP-tulajdonosoknak.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Brazília legnagyobb bankja engedélyt kapott az XRP és 14 másik kripto kereskedésére",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/10/28/brazils-largest-bank-registered-to-trade-xrp-and-14-other-cryptos-which-other-big-banks-already-offer-it/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T22:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A Starlink a SpaceX legnagyobb működési profitforrása. A cikk szerint az új ügyfelek száma mellett van még jobb hír is.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX Starlinkje 1,6 millió új ügyfelet szerzett",
+     "url": "https://www.fool.com/investing/2026/10/28/spacex-s-starlink-just-added-1-6-million-customers-but-that-s-not-the-best-news/?.tsrc=rss",
+     "verified": true
     }
    ],
    "markets": [
@@ -935,7 +1089,7 @@
     }
    ],
    "summary": "A Wall Street kedden emelkedéssel zárt: az S&P 500 0,60%-kal 7722,60 pontra, a Nasdaq 1,18%-kal 26 477,81 pontra erősödött, a chipszektort az Anthropic nyilvános tőzsdei tájékoztatója húzta. A Brent 113,88, a WTI 99,90 dolláron zárt, miután az iráni diplomáciai tárgyalások enyhítették a feszültséget. A BUX 1,9%-kal emelkedett, az OTP vezetett; a MOL mintegy 133 milliárd forintot igényel vissza az államtól. A Fed szerdán 10–2 arányban a 3,75–4,00%-os sávban tartotta a kamatot, Cook és Hammack emelést szavazott volna. Az EKB csütörtökön 14:15-kor dönt, a BoJ pénteken.",
-   "updatedAt": "2026-10-28T20:01:00Z",
+   "updatedAt": "2026-10-28T22:58:00Z",
    "watchlist": [
     {
      "change": "",
@@ -1690,30 +1844,34 @@
    "id": "2026-10-28-us-fomc"
   },
   {
-   "actual": "",
+   "actual": "EPS 4,89 $ (nem GAAP) / bevétel 92,3 Mrd $",
    "country": "US",
    "date": "2026-10-28",
    "event": "Microsoft gyorsjelentés (pénzügyi 2027-es 1. negyedév)",
-   "forecast": "",
+   "forecast": "EPS ~4,73 $ / bevétel ~90,6 Mrd $",
    "importance": 2,
-   "note": "Amerikai tőzsdezárás után",
+   "note": "Amerikai tőzsdezárás után; a konszenzus forrása: CNBC; a részvény zárás után kb. 4%-ot emelkedett",
    "previous": "",
-   "source": "Sentisense, CME Group",
+   "source": "CNBC, TradersAgency, Yahoo Finance",
+   "surprise": "beat",
+   "surpriseNote": "EPS +3,4% a vártnál, bevétel +1,9%; az Azure 48%-kal nőtt.",
    "time": "",
    "type": "Gyorsjelentés",
    "url": "https://www.cmelitegroup.com/knowledge-hub/earnings-calendar/",
    "id": "2026-10-28-us-msft-earnings"
   },
   {
-   "actual": "",
+   "actual": "EPS 2,12 $ (GAAP; korrigált 2,67 $) / bevétel 127,6 Mrd $",
    "country": "US",
    "date": "2026-10-28",
    "event": "Alphabet gyorsjelentés, 3. negyedév",
-   "forecast": "",
+   "forecast": "EPS ~3,02 $ / bevétel ~127,9–128,2 Mrd $",
    "importance": 2,
-   "note": "Amerikai tőzsdezárás után",
+   "note": "Amerikai tőzsdezárás után; a konszenzus forrása: CNBC, StockStory (a bevételi várakozás forrásonként eltér); a részvény zárás után kb. 8%-ot esett",
    "previous": "",
-   "source": "Sentisense, CME Group",
+   "source": "CNBC, GuruFocus, Yahoo Finance/StockStory",
+   "surprise": "miss",
+   "surpriseNote": "A korrigált EPS kb. 12%-kal elmaradt a vártól, a bevétel nagyjából a várakozás szintjén (+25% éves).",
    "time": "",
    "type": "Gyorsjelentés",
    "url": "https://www.cmelitegroup.com/knowledge-hub/earnings-calendar/",
