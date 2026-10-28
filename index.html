@@ -1442,9 +1442,9 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 
   // ---------- Riasztások: ár fölé / alá, vagy nagy napi mozgás; csak ebben a böngészőben ----------
   const AL_KEY = "tozsderadar-alerts-v1";
-  let alerts = (() => { try { const a = JSON.parse(localStorage.getItem(AL_KEY) || "[]"); return Array.isArray(a) ? a.filter((x) => x && x.key && ["above", "below", "move"].includes(x.type) && x.value > 0) : []; } catch (e) { return []; } })();
+  let alerts = (() => { try { const a = JSON.parse(localStorage.getItem(AL_KEY) || "[]"); return Array.isArray(a) ? a.filter((x) => x && x.key && ["above", "below", "cross", "move"].includes(x.type) && x.value > 0).map((x) => { delete x.firedAt; return x; }) : []; } catch (e) { return []; } })();
   const saveAlerts = () => { try { localStorage.setItem(AL_KEY, JSON.stringify(alerts)); } catch (e) { /* privát mód */ } };
-  const AL_TYPES = { above: "ár fölé megy", below: "ár alá megy", move: "napi változás eléri (±%)" };
+  const AL_TYPES = { above: "ár fölé megy", below: "ár alá megy", cross: "átlépi (bármelyik irányba)", move: "napi változás eléri (±%)" };
   // Egy jelölés vagy futószalag-tétel aktuális ára és napi %-os változása
   const quoteOf = (key) => {
     if (String(key).startsWith("Y:")) {
@@ -1473,24 +1473,38 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       o.connect(g); g.connect(ctx.destination); o.start(); o.stop(ctx.currentTime + 0.6);
     } catch (e) { /* hang nélkül */ }
   }
+  // A riasztás nem kapcsol ki: minden alkalommal szól, amikor az ár átlépi a szintet (a beállított irányba),
+  // de ugyanaz a riasztás legfeljebb percenként egyszer, hogy a szint körüli ingadozás ne zúdítson ránk értesítéseket
   function checkAlerts() {
-    let fired = false;
+    let changed = false, fired = false;
+    const now = Date.now();
     for (const a of alerts) {
-      if (a.firedAt) continue;
+      if (a.off) continue;
       const q = quoteOf(a.key);
       if (!q) continue;
-      const hit = a.type === "above" ? q.p >= a.value : a.type === "below" ? q.p <= a.value : (typeof q.ch === "number" && Math.abs(q.ch) >= a.value);
-      if (!hit) continue;
-      a.firedAt = new Date().toISOString();
+      const metric = a.type === "move" ? (typeof q.ch === "number" ? Math.abs(q.ch) : null) : q.p;
+      if (metric == null) continue;
+      const side = metric >= a.value ? "hi" : "lo";
+      const prev = a.side;
+      if (prev === side) continue;
+      a.side = side; changed = true;
+      if (!prev) continue; // első mérés: csak megjegyezzük, melyik oldalon áll
+      const hit = a.type === "above" || a.type === "move" ? side === "hi" : a.type === "below" ? side === "lo" : true;
+      if (!hit || (a.lastFired && now - Date.parse(a.lastFired) < 60000)) continue;
+      a.lastFired = new Date(now).toISOString();
       a.firedPrice = q.price;
+      a.count = (a.count || 0) + 1;
       fired = true;
-      const msg = (a.label || a.key) + ": " + alertText(a) + " — most " + q.price + (typeof q.ch === "number" ? " (" + fmtPctN(q.ch) + ")" : "");
+      const dir = a.type === "move" ? "" : side === "hi" ? " ↑ fölé ment" : " ↓ alá ment";
+      const msg = (a.label || a.key) + ": " + alertText(a) + dir + " — most " + q.price + (typeof q.ch === "number" ? " (" + fmtPctN(q.ch) + ")" : "");
       toast("Riasztás · TőzsdeRadar", msg);
       beep();
-      try { if ("Notification" in window && Notification.permission === "granted") new Notification("TőzsdeRadar riasztás", { body: msg, icon: "icon.svg", tag: a.id }); } catch (e) { /* nem támogatott */ }
+      try { if ("Notification" in window && Notification.permission === "granted") new Notification("TőzsdeRadar riasztás", { body: msg, icon: "icon.svg" }); } catch (e) { /* nem támogatott */ }
     }
-    if (fired) { saveAlerts(); renderMenu(); if (view() === "mk") { updateAlerts(); mkRenderDetail(); } }
+    if (changed) saveAlerts();
+    if (fired && view() === "mk") { alSig = ""; updateAlerts(); }
   }
+
   // ---------- Piacok: kereső minden eszközre (Yahoo Finance), élő árral, grafikonnal és riasztással ----------
   const MK_LISTS = {
     "Kripto": [["BTC-USD", "Bitcoin"], ["ETH-USD", "Ethereum"], ["SOL-USD", "Solana"], ["XRP-USD", "XRP"], ["BNB-USD", "BNB"], ["DOGE-USD", "Dogecoin"], ["ADA-USD", "Cardano"], ["TRX-USD", "Tron"], ["AVAX-USD", "Avalanche"], ["LINK-USD", "Chainlink"], ["LTC-USD", "Litecoin"], ["DOT-USD", "Polkadot"]],
@@ -1587,7 +1601,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const a = alerts.find((x) => x.id === b.dataset.id);
       if (!a) return;
       if (b.dataset.act === "del") alerts = alerts.filter((x) => x !== a);
-      else { delete a.firedAt; delete a.firedPrice; }
+      else { a.off = !a.off; delete a.side; }
       saveAlerts(); updateAlerts(); renderMenu(); mkRenderDetail(); checkAlerts();
     });
     c.append(lead, detail, list, alHead, alBar, alList);
@@ -1610,7 +1624,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const name = el("div", "mk-name");
       name.append(el("span", "tag-t", MK_TYPE[it.type] || it.type || ""), el("b", "sym", it.symbol), el("span", "nm", it.name));
       if (it.exch) name.append(el("span", "ex", it.exch));
-      if (alerts.some((a) => a.key === "Y:" + t && !a.firedAt)) name.append(el("span", "bell", "🔔"));
+      if (alerts.some((a) => a.key === "Y:" + t && !a.off)) name.append(el("span", "bell", "🔔"));
       const px = el("div", "mk-px"); px.dataset.yq = t;
       row.append(name, px);
       row.addEventListener("click", () => { mkSel = t; for (const r of box.querySelectorAll(".mk-row")) r.classList.toggle("sel", r === row); mkRenderDetail(); mkSubscribe(); mkLoadQuotes([t]); $("mkDetail").scrollIntoView({ behavior: "smooth", block: "start" }); });
@@ -1653,7 +1667,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     }
     // Riasztás erre az eszközre
     const form = el("form", "pf-form mk-al-form"); form.noValidate = true;
-    form.innerHTML = '<label><span>Riasztás, ha</span><select class="mkType"><option value="above">' + AL_TYPES.above + '</option><option value="below">' + AL_TYPES.below + '</option><option value="move">' + AL_TYPES.move + '</option></select></label>'
+    form.innerHTML = '<label><span>Riasztás, ha</span><select class="mkType"><option value="above">' + AL_TYPES.above + '</option><option value="below">' + AL_TYPES.below + '</option><option value="cross">' + AL_TYPES.cross + '</option><option value="move">' + AL_TYPES.move + '</option></select></label>'
       + '<label><span>Érték</span><input class="mkVal" inputmode="decimal" autocomplete="off" placeholder="pl. ' + (YQ[t] && YQ[t].p ? fmtNum(YQ[t].p * 1.05, YQ[t].p >= 1 ? 2 : 4) : "100") + '"></label>'
       + '<div class="acts"><button class="btn" type="submit">Riasztás beállítása</button></div>';
     const fmsg = el("p", "hint");
@@ -1664,12 +1678,14 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (!(value > 0)) { fmsg.textContent = "Az érték legyen nullánál nagyobb szám."; return; }
       alerts.push({ id: Date.now().toString(36), key: "Y:" + t, label: (info.name && info.name !== t ? info.name + " (" + t + ")" : t), type, value, created: new Date().toISOString() });
       saveAlerts(); renderMenu(); updateAlerts(); mkSubscribe(); checkAlerts();
-      fmsg.textContent = "Beállítva: " + alertText(alerts[alerts.length - 1]) + ". Lent, a Riasztásaim között látod.";
+      const na = alerts[alerts.length - 1];
+      const where = na.side ? (na.type === "move" ? (na.side === "hi" ? " A napi változás most is efölött van; akkor szól, ha visszaesik alá, majd újra eléri." : "") : (na.side === "hi" ? " Az ár most a szint fölött van." : " Az ár most a szint alatt van.")) : "";
+      fmsg.textContent = "Beállítva: " + alertText(na) + "." + where + " Minden alkalommal szól, amikor az ár átlépi a szintet (ugyanaz a riasztás percenként legfeljebb egyszer).";
       form.querySelector(".mkVal").value = "";
       for (const r of document.querySelectorAll('.mk-row[data-y="' + CSS.escape(t) + '"] .mk-name')) if (!r.querySelector(".bell")) r.append(el("span", "bell", "🔔"));
     });
     const mine = alerts.filter((a) => a.key === "Y:" + t);
-    const mineP = el("p", "hint", mine.length ? "Erre az eszközre beállítva: " + mine.map((a) => alertText(a) + (a.firedAt ? " (teljesült)" : "")).join(", ") : "");
+    const mineP = el("p", "hint", mine.length ? "Erre az eszközre beállítva: " + mine.map((a) => alertText(a) + (a.off ? " (kikapcsolva)" : "")).join(", ") : "");
     box.append(head, chips, sum, chart, form, fmsg, mineP);
     mkUpdateLive();
     async function drawMk() {
@@ -1700,14 +1716,15 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       list.replaceChildren();
       if (!alerts.length) { list.append(el("p", "muted", "Még nincs riasztás. Fent állíthatsz be egyet.")); return; }
       for (const a of alerts) {
-        const row = el("div", "al-row" + (a.firedAt ? " fired" : ""));
+        const row = el("div", "al-row" + (a.off ? " fired" : ""));
         const cnd = el("div", "c"); cnd.append(el("span", "sym", a.label || a.key), alertText(a));
         const now = el("span", "now"); now.dataset.key = a.key;
         const ctl = el("div", "ctl");
-        if (a.firedAt) { const r = el("button", "pf-ic", "Újra"); r.type = "button"; r.dataset.act = "rearm"; r.dataset.id = a.id; ctl.append(r); }
+        const tg = el("button", "pf-ic", a.off ? "Bekapcsol" : "Kikapcsol"); tg.type = "button"; tg.dataset.act = "toggle"; tg.dataset.id = a.id; ctl.append(tg);
         const d = el("button", "pf-ic del", "✕"); d.type = "button"; d.dataset.act = "del"; d.dataset.id = a.id; d.setAttribute("aria-label", "Törlés: " + a.key); ctl.append(d);
         row.append(cnd, now, ctl);
-        row.append(el("div", "sub", a.firedAt ? "Teljesült: " + new Date(a.firedAt).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) + (a.firedPrice ? " · akkor: " + a.firedPrice : "") : "Aktív · " + AL_TYPES[a.type]));
+        const last = a.lastFired ? " · utoljára szólt: " + new Date(a.lastFired).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) + (a.firedPrice ? " (" + a.firedPrice + ")" : "") + (a.count > 1 ? " · eddig " + a.count + "×" : "") : "";
+        row.append(el("div", "sub", (a.off ? "Kikapcsolva · " : "Aktív, minden átlépéskor szól · ") + AL_TYPES[a.type] + last));
         list.append(row);
       }
     }
@@ -1726,7 +1743,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     $("wlNewsCnt").hidden = !n; $("wlNewsCnt").textContent = String(n);
     const m = upcoming().length;
     $("calCnt").hidden = !m; $("calCnt").textContent = String(m);
-    const a = alerts.filter((x) => !x.firedAt).length;
+    const a = alerts.filter((x) => !x.off).length;
     $("alCnt").hidden = !a; $("alCnt").textContent = String(a);
   }
 
