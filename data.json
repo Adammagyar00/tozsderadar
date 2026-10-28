@@ -188,12 +188,13 @@
      "addedAt": "2026-10-28T11:45:00Z",
      "category": "Vállalatok és technológia",
      "impact": "pozitív",
-     "source": "Stocktwits",
+     "origin": "yahoo",
+     "source": "Stocktwits · Yahoo Finance",
      "summary": "Egy értesülés szerint az OpenAI fontolóra vette a Google tensor processing unitjainak (TPU) megvásárlását, az Alphabet részvénye előpiacon 1,2%-ot emelkedett. A cégek nem erősítették meg az értesülést, az Alphabet ma zárás után jelent.",
      "symbols": [],
      "title": "Értesülés: az OpenAI vásárolhatná a Google TPU-it, előpiacon nőtt az Alphabet",
      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-mixed-ahead-of-fed-decision-big-tech-earnings-googl-msft-hood-sofi-in-focus/cZU99nwRB6s",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-10-28T11:40:00Z",
@@ -204,6 +205,217 @@
      "symbols": [],
      "title": "Az Enphase gyenge negyedéves kilátása miatt 10–18%-ot zuhant",
      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62646308/why-is-enphase-energy-stock-sinking-wednesday",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az UBS arra számít, hogy az amerikai jegybank 2027 közepéig még kétszer emel kamatot a szeptemberi 25 bázispontos emelés után. Az intézmény ezt Kevin Warsh Fed-elnök szigorúbb hangvételű megszólalásaival indokolja.",
+     "symbols": [],
+     "title": "Az UBS szerint a Fed 2027 közepéig még két kamatemelést hajt végre",
+     "url": "https://finance.yahoo.com/economy/policy/articles/ubs-now-expects-two-additional-132939037.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az UBS feljebb vitte a Brent kőolaj előrejelzését, és az év végére 110 dollár körüli hordónkénti árat vár. Az indoklás szerint a közel-keleti kínálati kockázatok, a csökkenő készletek és a rekordmagas szállítási díjak tartják magasan az árat.",
+     "symbols": [],
+     "title": "Az UBS emelte a Brent-előrejelzését: év végén 110 dollár körül maradhat",
+     "url": "https://finance.yahoo.com/energy/articles/ubs-brent-price-forecasts-middle-122923720.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Energiaipari és kamionos-pihenőhelyi vezetők szerint a korlátozott finomítói és csővezetéki kapacitás miatt az amerikai fuvarozók 2027-ben is magasabb dízelárakkal szembesülhetnek.",
+     "symbols": [],
+     "title": "A dízel ára 2027 tavaszáig is magas maradhat, figyelmeztetnek az üzemanyag-ipar vezetői",
+     "url": "https://finance.yahoo.com/energy/articles/diesel-prices-may-stay-elevated-133000710.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A Tesla árfolyama olyan szint fölé emelkedett, amelyet hónapokig nem tudott tartani; a piac a SpaceX-szel való egyesülés lehetőségében látja az okot. Szerződést azonban nem írtak alá, a Tesla nyeresége pedig tovább csökken.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Tesla visszaszerezte a 400 dollárt a SpaceX-fúzióról szóló remények miatt",
+     "url": "https://247wallst.com/investing/2026/10/28/tesla-just-reclaimed-400-as-spacex-merger-hopes-build/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Bloomberg",
+     "summary": "A Bloomberg beszámolója szerint az Anthropic a JPMorgan Chase-t bízta meg, hogy felügyelje a részvények értékesítését az amerikai magánbefektetőknek a tervezett IPO során.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "Az Anthropic a JPMorgant választotta a tervezett tőzsdei bevezetés amerikai lakossági részvényeladásának vezetésére",
+     "url": "https://investorshub.advfn.com/market-news/article/38755/anthropic-selects-jpmorgan-to-lead-us-retail-share-sales-for-planned-ipo?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Coinspeaker",
+     "summary": "A Fed várhatóan 3,75–4,00%-on tartja az alapkamatot, miközben a tisztviselők a 3,7%-os inflációt és a gyengülő munkaerőpiacot mérlegelik. A piac decemberre jelentős valószínűséggel kamatemelést áraz.",
+     "symbols": [],
+     "title": "A befektetők 95%-ban kamattartást, decemberre 79%-ban emelést áraznak a mai Fed-ülés előtt",
+     "url": "https://www.coinspeaker.com/fed-meeting-rate-odds-crypto/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Stocktwits beszámolója szerint a 2-es típusú cukorbetegeknél a retatrutid 80 hét alatt átlagosan 44–47 fontos fogyást eredményezett, az Ozempic mellett mért kb. 21 fonttal szemben.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "A Lilly retatrutidja a Stocktwits szerint több mint kétszer annyi fogyást hozott az Ozempicnél egy közvetlen összehasonlító vizsgálatban",
+     "url": "https://stocktwits.com/news-articles/markets/equity/lly-nvo-retatrutide-beats-ozempic-in-head-to-head-trial/cZU9h53R9GR?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Coingape",
+     "summary": "A Google többoldalú számítást (MPC) használó új szolgáltatással segítené a bankokat és más pénzintézeteket a digitális eszközök biztonságos tárolásában és mozgatásában, a mesterséges intelligencia és a kvantumtechnológia fenyegetéseire hivatkozva.",
+     "symbols": [],
+     "title": "A Google kriptó-letéti biztonsági rendszert indít a bankok és pénzintézetek számára",
+     "url": "https://coingape.com/google-to-launch-crypto-custody-security-system-as-ai-quantum-threats-grow/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CCN",
+     "summary": "A CCN szerint a BNY mostantól támogatja az XRP és az RLUSD letétkezelését a jogosult intézményi ügyfelei számára.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "A BNY az XRP és az RLUSD letétkezelését is támogatja intézményi ügyfeleknek",
+     "url": "https://www.ccn.com/news/crypto/bny-adds-xrp-custody-bull-calls-price-target-low-ball/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A kriptót tartalékként tartó Nasdaq-cég közlése szerint a bitcoinjainak jelentős részéhez nem tud hozzáférni.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Datavault AI közölte, hogy nem fér hozzá bitcoinkészletének nagy részéhez",
+     "url": "https://www.cryptoprowl.com/releases/datavault-ai-says-it-cant-access-its-bitcoin-holdings-7495?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Dow Jones index szerdán a kamatdöntés és Warsh nyilatkozata előtt lejjebb ment, a Robinhood a gyorsjelentés után esik.",
+     "symbols": [],
+     "title": "A Dow ingadozik a Fed-döntés és Warsh megszólalása előtt, a Robinhood zuhan",
+     "url": "https://finance.yahoo.com/m/8aa305ef-cc61-37d7-bc76-82a4a4324c5b/stock-market-today%3A-dow.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A chipcégek részvényei szerdán tovább emelkedtek: az SK Hynix eredménye újra felpörgette az AI-kereskedést, a Nvidia, az AMD és a Broadcom nyert.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "A Nvidia, az AMD és a Micron vezeti a chipszektort a harmadik emelkedő napon",
+     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-and-micron-stocks-lead-chip-sector-higher-for-third-day-in-a-row-124044569.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC, Bloomberg, Reuters",
+     "summary": "A WSJ szerint a Nelson Peltz vezette Trian részvényenként 7,35 dollárt kínál készpénzben, ami mintegy 20%-os felár a keddi záróárhoz képest. Az ajánlatot hivatalos beadvány is megerősítette; a Trian a Wendy's kb. 16%-át birtokolja.",
+     "symbols": [],
+     "title": "A Trian 1,4 milliárd dolláros felvásárlási ajánlatot tett a Wendy'sre, a részvény 15%-ot ugrott",
+     "url": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "CBC, Seeking Alpha",
+     "summary": "A kanadai jegybank hét tartás után emelt először 2023 óta, hogy a magas energiaárak ne terjedjenek át a többi termék és szolgáltatás áraira. Szerinte 2027-ben az infláció nagy részében három százalék fölött maradhat, és további emelésre lehet szükség.",
+     "symbols": [],
+     "title": "A Kanadai Központi Bank 25 bázisponttal 2,5%-ra emelte az alapkamatot",
+     "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "CNBC, The National",
+     "summary": "A CNBC és a The National szerint a Brent hordónként kb. 115 dollár, a WTI 101 dollár körül jár, miután a hútik megtámadták Szaúd-Arábiát, és Teherán elutasította a nyomás melletti párbeszédet.",
+     "symbols": [],
+     "title": "Emelkedik az olaj: a Brent 114–115 dollár körül jár a hútik támadásai és az iráni feszültség miatt",
+     "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "Wall Street Journal (névtelen források) – másodlagos: Investinglive",
+     "summary": "Névtelen forrásokra hivatkozó értesülések szerint Trump egy nagy támadás felé hajlik az iráni energetikai és nukleáris célpontok ellen; végleges döntés nincs. A Fehér Ház nem erősítette meg a terveket, csak annyit közölt, hogy minden opció az asztalon marad.",
+     "symbols": [],
+     "title": "A WSJ szerint az USA arra készíti fel az öbölbeli szövetségeseket, hogy a félidős választás után rövid, intenzív iráni hadjárat jöhet",
+     "url": "https://investinglive.com/commodities/us-warns-gulf-allies-of-possible-short-intense-iran-campaign-after-midterms-wsj/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-10-28T14:06:21Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio, Privátbankár",
+     "summary": "A Portfolio és a Privátbankár szerint a BUX 11:30 körül 0,81%-kal volt a keddi záró alatt; az OTP 0,9%-ot, a Richter 1,9%-ot esett, a Mol tartotta magát.",
+     "symbols": [],
+     "title": "Délben esett a BUX: 0,8%-kal 145 440 pont körül járt, az OTP és a Richter gyengült",
+     "url": "https://www.portfolio.hu/uzlet/20261028/eses-a-magyar-tozsden-872562",
      "verified": true
     }
    ],
@@ -393,7 +605,7 @@
     }
    ],
    "summary": "A Wall Street kedden emelkedéssel zárt: az S&P 500 0,60%-kal 7722,60 pontra, a Nasdaq 1,18%-kal 26 477,81 pontra erősödött, a chipszektort az Anthropic nyilvános tőzsdei tájékoztatója húzta. A Brent 113,88, a WTI 99,90 dolláron zárt, miután az iráni diplomáciai tárgyalások enyhítették a feszültséget. A BUX 1,9%-kal emelkedett, az OTP vezetett; a MOL mintegy 133 milliárd forintot igényel vissza az államtól. A Fed ma 19:00-kor (magyar idő), az EKB csütörtökön 14:15-kor dönt, a BoJ pénteken.",
-   "updatedAt": "2026-10-28T11:36:12Z",
+   "updatedAt": "2026-10-28T14:06:21Z",
    "watchlist": [
     {
      "change": "",
