@@ -91,7 +91,7 @@ export default {
       if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
       return market(url, origin);
     }
-    if (url.pathname !== "/ws") {
+    if (url.pathname !== "/ws" && url.pathname !== "/yws") {
       return new Response("TőzsdeRadar élő árfolyam-közvetítő", { headers: { "content-type": "text/plain; charset=utf-8" } });
     }
     if (request.headers.get("Upgrade") !== "websocket") {
@@ -101,21 +101,48 @@ export default {
     if (!allowed(origin)) {
       return new Response("Nem engedélyezett oldal", { status: 403 });
     }
-    const hub = env.HUB.get(env.HUB.idFromName("hub"));
+    // /ws: Finnhub (amerikai részvények), /yws: Yahoo Finance (európai ETF-ek, devizák, indexek, budapesti részvények)
+    const hub = env.HUB.get(env.HUB.idFromName(url.pathname === "/yws" ? "yahoo" : "hub"));
     return hub.fetch(request);
+  },
+};
+
+// A két élő forrás eltérései: cím, feliratkozás és mely üzeneteket továbbítunk
+const SOURCES = {
+  finnhub: {
+    re: SYMBOL_RE,
+    max: MAX_SYMBOLS,
+    connect: (env) => fetch("https://ws.finnhub.io?token=" + encodeURIComponent(env.FINNHUB_API_KEY), { headers: { Upgrade: "websocket" } }),
+    subscribe: (hub, symbol) => hub.sendUpstream({ type: "subscribe", symbol }),
+    resubscribe: (hub) => { for (const symbol of hub.symbols) hub.sendUpstream({ type: "subscribe", symbol }); },
+    // Csak a kötéseket továbbítjuk, a Finnhub ping üzeneteit nem
+    forward: (data) => data.includes('"trade"'),
+  },
+  yahoo: {
+    re: Y_RE,
+    max: 120,
+    connect: () => fetch("https://streamer.finance.yahoo.com/?version=2", {
+      headers: { Upgrade: "websocket", Origin: "https://finance.yahoo.com", "User-Agent": "Mozilla/5.0 (TozsdeRadar)" },
+    }),
+    subscribe: (hub) => hub.sendUpstream({ subscribe: [...hub.symbols] }),
+    resubscribe: (hub) => { if (hub.symbols.size) hub.sendUpstream({ subscribe: [...hub.symbols] }); },
+    // Az árüzenetek base64-be csomagolt protobufok; a böngésző bontja ki őket
+    forward: (data) => data.includes("pricing") || !data.startsWith("{"),
   },
 };
 
 export class Hub {
   constructor(state, env) {
     this.env = env;
+    this.mode = null;
     this.clients = new Set();
     this.symbols = new Set();
     this.upstream = null;
     this.connecting = null;
   }
 
-  async fetch() {
+  async fetch(request) {
+    if (!this.mode) this.mode = new URL(request.url).pathname === "/yws" ? "yahoo" : "finnhub";
     const [client, server] = Object.values(new WebSocketPair());
     server.accept();
     this.clients.add(server);
@@ -137,9 +164,10 @@ export class Hub {
   }
 
   subscribe(symbol) {
-    if (!SYMBOL_RE.test(symbol) || this.symbols.has(symbol) || this.symbols.size >= MAX_SYMBOLS) return;
+    const src = SOURCES[this.mode];
+    if (!src.re.test(symbol) || this.symbols.has(symbol) || this.symbols.size >= src.max) return;
     this.symbols.add(symbol);
-    this.sendUpstream({ type: "subscribe", symbol });
+    src.subscribe(this, symbol);
   }
 
   sendUpstream(msg) {
@@ -151,17 +179,15 @@ export class Hub {
     if (this.upstream || this.connecting) return this.connecting;
     this.connecting = (async () => {
       try {
-        const res = await fetch("https://ws.finnhub.io?token=" + encodeURIComponent(this.env.FINNHUB_API_KEY), {
-          headers: { Upgrade: "websocket" },
-        });
+        const src = SOURCES[this.mode];
+        const res = await src.connect(this.env);
         const ws = res.webSocket;
-        if (!ws) throw new Error("A Finnhub nem nyitott WebSocket-kapcsolatot (" + res.status + ")");
+        if (!ws) throw new Error(this.mode + ": nem nyílt WebSocket-kapcsolat (" + res.status + ")");
         ws.accept();
         this.upstream = ws;
-        for (const symbol of this.symbols) this.sendUpstream({ type: "subscribe", symbol });
+        src.resubscribe(this);
         ws.addEventListener("message", (event) => {
-          // Csak a kötéseket továbbítjuk, a Finnhub ping üzeneteit nem
-          if (typeof event.data !== "string" || !event.data.includes('"trade"')) return;
+          if (typeof event.data !== "string" || !src.forward(event.data)) return;
           for (const c of this.clients) {
             try { c.send(event.data); } catch { this.clients.delete(c); }
           }

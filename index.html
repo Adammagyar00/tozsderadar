@@ -812,6 +812,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const FILE_SYMS = new Set();
   // Európai tőzsdén jegyzett ETF-ek: az amerikai adatfolyam egy azonos jelölésű, más papír árát adná
   const NO_STREAM = new Set();
+  // Európai ETF-ek: Yahoo-jelölés → { oldalon használt jelölés, átváltási arány dollárra }
+  const UCITS = {};
   let quoteUrl = null;
 
   const fmtMoney = (v, signed) => (v < 0 ? "−" : signed && v > 0 ? "+" : "") + Math.abs(v).toLocaleString("hu-HU", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " $";
@@ -1103,6 +1105,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const when = q.t ? new Date(q.t * 1000).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
     const ch = typeof q.change === "number" ? q.change : null;
     if (q.listing) NO_STREAM.add(sym);
+    if (q.listing && typeof q.local === "number" && q.local) UCITS[q.listing.toUpperCase()] = { sym, ratio: q.price / q.local };
     const entry = { symbol: sym, price: fmtUsd(q.price) + " $", change: ch != null ? (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%" : "", p: q.price, ch, note: "Utolsó ár " + when + ", napi változás", source: q.source || source || "Finnhub" };
     LIVE[sym] = entry;
     LIVE_STK[sym] = entry;
@@ -1251,11 +1254,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       return [...out];
     };
     // Állapotjelző a figyelőlista alatt: honnan jön az élő ár, vagy miért nem
-    const LIVE_STATUS = { c: "", s: "" };
+    const LIVE_STATUS = { c: "", s: "", y: "" };
     const setStatus = (k, t) => {
       LIVE_STATUS[k] = t;
       const n = $("liveStatus");
-      n.textContent = [LIVE_STATUS.c, LIVE_STATUS.s].filter(Boolean).join(" · ");
+      n.textContent = [LIVE_STATUS.c, LIVE_STATUS.s, LIVE_STATUS.y].filter(Boolean).join(" · ");
       n.hidden = !n.textContent;
     };
     // Kriptó: előbb a Bybit, ha 8 mp alatt nem jön ár, a Binance (mindkettő kulcs nélküli, nyilvános)
@@ -1335,6 +1338,77 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         setTimeout(connectBybit, got ? 3000 : 1500);
       };
     };
+    // Yahoo Finance élő adatfolyam a Workeren át (/yws): európai ETF-ek, devizák, nyersanyagok,
+    // indexek, budapesti részvények, és az amerikai részvények tőzsdenyitás előtt/zárás után is.
+    // Az üzenetek base64-be csomagolt protobufok; ezt bontjuk ki itt.
+    const fhSeen = {};
+    const US_Y = {};
+    const b64bytes = (str) => { const bin = atob(str); const u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; };
+    const decodeYahoo = (u) => {
+      const out = {}; let i = 0;
+      const dv = new DataView(u.buffer, u.byteOffset, u.byteLength);
+      const varint = () => { let r = 0n, sh = 0n, b; do { b = u[i++]; r |= BigInt(b & 0x7f) << sh; sh += 7n; } while ((b & 0x80) && i < u.length); return r; };
+      while (i < u.length) {
+        const key = Number(varint()); const f = key >> 3, wt = key & 7;
+        if (wt === 0) { const v = varint(); if (f === 3) out.time = Number((v >> 1n) ^ -(v & 1n)); else if (f === 7) out.hours = Number(v); }
+        else if (wt === 5) { const v = dv.getFloat32(i, true); i += 4; if (f === 2) out.price = v; else if (f === 8) out.pct = v; else if (f === 12) out.change = v; else if (f === 16) out.prev = v; }
+        else if (wt === 2) { const len = Number(varint()); if (f === 1) out.id = new TextDecoder().decode(u.subarray(i, i + len)); i += len; }
+        else if (wt === 1) i += 8;
+        else break;
+      }
+      return out;
+    };
+    let yWs = null;
+    const ySubs = new Set();
+    const yTickers = () => {
+      const out = new Set();
+      for (const m of MARKET_DEF || []) if (m.y) out.add(m.y.toUpperCase());
+      for (const k of Object.keys(UCITS)) out.add(k);
+      for (const sym of stockSyms()) { const y = sym.replace(/\./g, "-"); US_Y[y] = sym; out.add(y); }
+      return [...out];
+    };
+    const ySync = () => {
+      if (!yWs || yWs.readyState !== 1) return;
+      for (const t of yTickers()) if (!ySubs.has(t)) { ySubs.add(t); yWs.send(JSON.stringify({ type: "subscribe", symbol: t })); }
+    };
+    const handleYahoo = (d) => {
+      const id = d.id.toUpperCase();
+      const t = d.time ? (d.time > 1e12 ? d.time / 1000 : d.time) : Date.now() / 1000;
+      const prev = isFinite(d.prev) && d.prev ? d.prev : (isFinite(d.change) ? d.price - d.change : null);
+      const pct = isFinite(d.pct) ? d.pct : (prev ? (d.price / prev - 1) * 100 : null);
+      const def = (MARKET_DEF || []).find((m) => m.y && m.y.toUpperCase() === id);
+      if (def) applyMarket({ [def.y]: { price: d.price, prevClose: prev, t } }, "Yahoo Finance, élő");
+      const uc = UCITS[id];
+      if (uc) {
+        applyStockQuote(uc.sym, { price: d.price * uc.ratio, change: pct, prevClose: prev ? prev * uc.ratio : null, t, listing: id, source: "Yahoo Finance (" + id + "), élő" });
+        stockAt = new Date();
+      }
+      const us = US_Y[id];
+      // Tőzsdeidőben a Finnhub kötései az elsődlegesek; a Yahoo a nyitás előtti és zárás utáni időszakot fedi le
+      if (us && !(fhSeen[us] && Date.now() - fhSeen[us] < 60000)) {
+        const when = d.hours === 0 ? " (nyitás előtti kereskedés)" : d.hours >= 2 ? " (zárás utáni kereskedés)" : "";
+        applyStockQuote(us, { price: d.price, change: pct, prevClose: prev, t, source: "Yahoo Finance, élő" + when });
+        stockAt = new Date();
+      }
+    };
+    const connectYahoo = (wsUrl) => {
+      let ws, got = false;
+      try { ws = yWs = new WebSocket(wsUrl.replace(/\/ws$/, "/yws")); } catch (e) { return; }
+      setStatus("y", "tőzsdei adatok: kapcsolódás…");
+      ws.onopen = () => { ySubs.clear(); ySync(); setStatus("y", "tőzsdei adatok: kapcsolódva, árváltozásra vár"); };
+      ws.onmessage = (e) => {
+        let str = e.data;
+        if (typeof str !== "string") return;
+        if (str.startsWith("{")) { try { str = JSON.parse(str).message; } catch (err) { return; } }
+        if (!str) return;
+        let d;
+        try { d = decodeYahoo(b64bytes(str)); } catch (err) { return; }
+        if (!d.id || !isFinite(d.price) || !d.price) return;
+        if (!got) { got = true; setStatus("y", "tőzsdei adatok: élő (Yahoo)"); }
+        pend.set("y:" + d.id, { kind: "y", d });
+      };
+      ws.onclose = () => { yWs = null; setStatus("y", "tőzsdei adatok: újracsatlakozás…"); setTimeout(() => connectYahoo(wsUrl), 10000); };
+    };
     const connectStocks = async () => {
       let cfg;
       try { const r = await fetch("live.json?t=" + Date.now(), { cache: "no-store" }); if (!r.ok) return; cfg = await r.json(); } catch (e) { return; }
@@ -1344,6 +1418,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       pollMarket();
       if (portfolio.length) pollPortfolio();
       let ws;
+      if (!yWs) connectYahoo(cfg.wsUrl);
       try { ws = stockWs = new WebSocket(cfg.wsUrl); } catch (e) { return; }
       let gotTrade = false;
       setStatus("s", "részvény: kapcsolódás…");
@@ -1358,6 +1433,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!gotTrade) { gotTrade = true; setStatus("s", "részvény: élő (Finnhub)"); }
         for (const t of m.data) {
           if (!t.s || typeof t.p !== "number" || NO_STREAM.has(t.s)) continue;
+          fhSeen[t.s] = Date.now();
           const pc = PREV[t.s];
           pend.set(t.s, { kind: "s", price: t.p, change: pc ? (t.p / pc - 1) * 100 : null });
         }
@@ -1366,7 +1442,13 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     };
     // Másodpercenként egyszer írjuk ki az összegyűlt változásokat, hogy ne villogjon az oldal
     setInterval(() => {
+      ySync();
       if (!pend.size) return;
+      for (const [key, u] of pend) {
+        if (u.kind !== "y") continue;
+        pend.delete(key);
+        try { handleYahoo(u.d); } catch (e) { /* egy hibás üzenet ne állítsa le a többit */ }
+      }
       const cgm = cgOf();
       const now = new Date();
       for (const [sym, u] of pend) {
