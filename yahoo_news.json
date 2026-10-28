@@ -1,7 +1,286 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-28T21:15:29Z",
+ "updatedAt": "2026-10-28T22:14:33Z",
  "items": [
+  {
+   "title": "Bitcoin Shrugs Off a Hawkish Fed as Volatility Bets Barely Budge",
+   "link": "https://unchainedcrypto.com/bitcoin-shrugs-off-a-hawkish-fed-as-volatility-bets-barely-budge/?.tsrc=rss",
+   "published": "2026-10-28T22:03:47Z",
+   "publisher": "",
+   "summary": "Deribit’s bitcoin implied volatility index ended the afternoon where it started and bitcoin gained 0.33% on Coinbase, even as December hike odds rose after Kevin Warsh’s Fed held rates at 3.75% to 4%.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Bitcoin’s ‘Uptober’ rally just fell apart as demand weakens",
+   "link": "https://www.thestreet.com/crypto/markets/bitcoins-uptober-rally-just-fell-apart-as-demand-weakens?.tsrc=rss",
+   "published": "2026-10-28T22:02:00Z",
+   "publisher": "",
+   "summary": "Bitcoin is heading for its weakest October in years as US buyers step back, data shows.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "3 Reasons STZ is risky and 1 stock to buy instead",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-stz-risky-1-215034177.html",
+   "published": "2026-10-28T21:50:34Z",
+   "publisher": "",
+   "summary": "Over the last six months, Constellation Brands’s shares have sunk to $130.93, producing a disappointing 15.7% loss - a stark contrast to the S&P 500’s 7.5% gain. This may have investors wondering how to approach the situation.",
+   "symbols": []
+  },
+  {
+   "title": "Stock Market Today, Oct. 28: SK Hynix Surges on Record Q3 Results and AI-Memory Demand",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-sk-hynix-surges-on-record-q3-results-and-ai-memory-demand/?.tsrc=rss",
+   "published": "2026-10-28T21:48:59Z",
+   "publisher": "",
+   "summary": "Today, Oct. 28, 2026, the memory chipmaker posted a seven-fold operating profit jump, signaling tight supply in AI-driven markets.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Bitcoin Treasury Datavault AI Says It Can’t Access Its BTC, Stock Tanks",
+   "link": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc?.tsrc=rss",
+   "published": "2026-10-28T21:46:02Z",
+   "publisher": "",
+   "summary": "Datavault AI says it has been unable to withdraw its Bitcoin from Biconomy since June and will restate four financial reports tied to a $150 million Scilex deal.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "AI Spending Is Nearing $1 Trillion Annually. These 2 Stocks Are Most at Risk If It Slows.",
+   "link": "https://www.fool.com/investing/2026/10/28/ai-spending-is-nearing-1-trillion-2-stocks-most-at/?.tsrc=rss",
+   "published": "2026-10-28T21:40:00Z",
+   "publisher": "",
+   "summary": "Nvidia and Micron are riding record AI demand, but both depend on tech giants keeping up their spending. Here's what could go wrong if that cools.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Alphabet CFO walks through the company's Q3 results",
+   "link": "https://finance.yahoo.com/video/alphabet-cfo-walks-through-the-companys-q3-results-213801069.html",
+   "published": "2026-10-28T21:38:01Z",
+   "publisher": "",
+   "summary": "Alphabet (GOOGL, GOOG) CFO Anat Ashkenazi outlined the tech giant's third quarter financial results during its Q3 earnings call, breaking down revenue growth, operating expense growth led by AI talent and Gemini investment, and a jump in operating income.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Stock Market Today, Oct. 28: CoreWeave Surges on Denmark AI Capacity Going Live",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-coreweave-surges-on-denmark-ai-capacity-going-live/?.tsrc=rss",
+   "published": "2026-10-28T21:35:02Z",
+   "publisher": "",
+   "summary": "Today, Oct. 28, 2026, the GPU infrastructure provider brought most of its planned 22.5 MW capacity online, extending gains in a volatile AI infrastructure rally.",
+   "symbols": []
+  },
+  {
+   "title": "3 Reasons to sell WASH and 1 stock to buy instead",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-wash-1-213434277.html",
+   "published": "2026-10-28T21:34:34Z",
+   "publisher": "",
+   "summary": "Washington Trust Bancorp’s 22.3% return over the past six months has outpaced the S&P 500 by 14.8%, and its stock price has climbed to $39.11 per share. This was partly thanks to its solid quarterly results, and the performance may have investors wondering how to approach the situation.",
+   "symbols": []
+  },
+  {
+   "title": "BC-Select Stock Indices",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213014805.html",
+   "published": "2026-10-28T21:30:14Z",
+   "publisher": "",
+   "summary": "NEW YORK (AP) — Prices as of 5:30:00 PM Wednesday, October 28. Change High Low Dow Jones 15 Utilities 1103.",
+   "symbols": []
+  },
+  {
+   "title": "Crypto Market Today, Oct. 28: Bitcoin and Altcoins Gain as Fed Decision Clears the Way for Big Tech Earnings",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/?.tsrc=rss",
+   "published": "2026-10-28T21:30:01Z",
+   "publisher": "",
+   "summary": "Bitcoin extended its recovery above $81,000 as the Fed held interest rates steady, with investors now turning their attention to major Big Tech earnings that could shape the market's next move.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Scorpio Tankers Inc. Q3 2026 Earnings Call Summary",
+   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-scorpio-tankers-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+   "published": "2026-10-28T21:25:31Z",
+   "publisher": "",
+   "summary": "Moby summary of Scorpio Tankers Inc.'s Q3 2026 earnings call",
+   "symbols": []
+  },
+  {
+   "title": "S&T Bancorp, Inc. Increases Quarterly Cash Dividend",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/t-bancorp-inc-increases-quarterly-212000133.html",
+   "published": "2026-10-28T21:20:00Z",
+   "publisher": "",
+   "summary": "The Board of Directors of S&T Bancorp, Inc. (S&T) (NASDAQ: STBA), the holding company for S&T Bank, approved a $0.38 per share cash dividend on October 28, 2026. This is an increase of $0.01, or 2.70 percent, compared to a cash dividend of $0.37 per share declared in the prior quarter and an increase of $0.02, or 5.56 percent, compared to a cash dividend of $0.36 per share declared in the same per",
+   "symbols": []
+  },
+  {
+   "title": "Microsoft Stock Jumps on Earnings Beat. Capex Was Lower Than Expected.",
+   "link": "https://finance.yahoo.com/m/66ecca51-0164-3b1e-a661-b93dd0de007a/microsoft-stock-jumps-on.html",
+   "published": "2026-10-28T21:18:00Z",
+   "publisher": "",
+   "summary": "Microsoft stock was rising late Wednesday after the tech giant reported better-than-expected results",
+   "symbols": []
+  },
+  {
+   "title": "Alamos Gold: Q3 Earnings Snapshot",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/alamos-gold-q3-earnings-snapshot-211717225.html",
+   "published": "2026-10-28T21:17:17Z",
+   "publisher": "",
+   "summary": "TORONTO (AP) — TORONTO (AP) — Alamos Gold Inc. (AGI) on Wednesday reported third-quarter earnings of $165.",
+   "symbols": []
+  },
+  {
+   "title": "Does Karman Stock's Valuation Make Sense?",
+   "link": "https://www.trefis.com/stock/krmn/articles/620997/does-karman-stocks-valuation-make-sense/2026-10-28?.tsrc=rss",
+   "published": "2026-10-28T21:15:23Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Kinross Gold: Q3 Earnings Snapshot",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-q3-earnings-snapshot-211457940.html",
+   "published": "2026-10-28T21:14:57Z",
+   "publisher": "",
+   "summary": "TORONTO (AP) — TORONTO (AP) — Kinross Gold Corp. (KGC) on Wednesday reported third-quarter earnings of $583.",
+   "symbols": []
+  },
+  {
+   "title": "Stock Market Today, Oct. 28: Boston Scientific Slips 6% After Cutting Q4 Sales and Full-Year EPS Guidance on Cyberattack Impact",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-boston-scientific-slips-6-after-cutting-q4-sales-and-full-year-eps-guidance-on-cyberattack-impact/?.tsrc=rss",
+   "published": "2026-10-28T21:10:22Z",
+   "publisher": "",
+   "summary": "Today, Oct. 28, 2026, the medical device maker slashed profit expectations after an August cyberattack continued disrupting operations.",
+   "symbols": []
+  },
+  {
+   "title": "Stock Market Today, Oct. 28: Oracle Surges on Fiscal 2030 Revenue Guidance of $225 Billion",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-oracle-surges-on-fiscal-2030-revenue-guidance-of-usd225-billion/?.tsrc=rss",
+   "published": "2026-10-28T21:10:11Z",
+   "publisher": "",
+   "summary": "On Oct. 28, 2026, Investor Day projections included at least $30 billion in free cash flow by fiscal 2029, easing AI spending concerns.",
+   "symbols": []
+  },
+  {
+   "title": "Update: S&P 500, Nasdaq Rise For Third Day Following Fed Pause",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-rise-third-210857584.html",
+   "published": "2026-10-28T21:08:57Z",
+   "publisher": "",
+   "summary": "(Updates with market moves at the end of the day, and other changes, if any.) The S&P 500 and the",
+   "symbols": []
+  },
+  {
+   "title": "Agnico: Q3 Earnings Snapshot",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/agnico-q3-earnings-snapshot-210843630.html",
+   "published": "2026-10-28T21:08:43Z",
+   "publisher": "",
+   "summary": "TORONTO (AP) — TORONTO (AP) — Agnico Eagle Mines Ltd. (AEM) on Wednesday reported third-quarter profit of $1.",
+   "symbols": []
+  },
+  {
+   "title": "Brazil’s Largest Bank Registered to Trade XRP and 14 Other Cryptos. Which Other Big Banks Already Offer It?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/28/brazils-largest-bank-registered-to-trade-xrp-and-14-other-cryptos-which-other-big-banks-already-offer-it/?.tsrc=rss",
+   "published": "2026-10-28T21:07:57Z",
+   "publisher": "",
+   "summary": "Brazil's largest private bank just registered to trade XRP and 14 other cryptos under sweeping new central bank rules, but whether this milestone actually means anything for XRP holders is a very different question.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "PrairieSky Royalty (TSX:PSK) Q3 Results Fuel Cash Flow Optimism",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/prairiesky-royalty-tsx-psk-q3-210722662.html",
+   "published": "2026-10-28T21:07:22Z",
+   "publisher": "",
+   "summary": "PrairieSky Royalty walked into its Q3 2026 release with its stock at CA$36.81 after a steady climb over the past month and a half. The headline result was clear. Royalty production revenue reached about CA$153.4m with funds from operations at CA$127.9m and a payout ratio near 48%. That is a rich cash generation story. Any sharp move in the share price today would say more about investor mood aroun",
+   "symbols": []
+  },
+  {
+   "title": "Update: US Equity Indexes Rise, Treasury Yields Fall After Fed Stays on Hold",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-treasury-210352134.html",
+   "published": "2026-10-28T21:03:52Z",
+   "publisher": "",
+   "summary": "(Updates with index/price moves and company/economic/geopolitical news from the first paragraph.)",
+   "symbols": []
+  },
+  {
+   "title": "Eldorado Gold Reports Q3 2026 Financial and Operational Results and Updates 2026 Guidance; Skouries and McIlvenna Bay Advancing Toward Commercial Production",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/eldorado-gold-reports-q3-2026-210100019.html",
+   "published": "2026-10-28T21:01:00Z",
+   "publisher": "",
+   "summary": "(All amounts expressed in U.S. dollars unless otherwise noted) VANCOUVER, British Columbia, Oct. 28, 2026 (GLOBE NEWSWIRE) -- Eldorado Gold Corporation (“Eldorado”, \"Eldorado Gold\" or “the Company”) today reports the Company’s financial and operational results for the third quarter of 2026. For further information, please see the Company’s Consolidated Financial Statements and Management’s Discuss",
+   "symbols": []
+  },
+  {
+   "title": "Southern Co. (SO) Stock Sinks As Market Gains: What You Should Know",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/southern-co-stock-sinks-market-210002595.html",
+   "published": "2026-10-28T21:00:02Z",
+   "publisher": "",
+   "summary": "Southern Co. (SO) concluded the recent trading session at $91.52, signifying a -1.22% move from its prior day's close.",
+   "symbols": []
+  },
   {
    "title": "Dow Jones Futures: Microsoft Rises Late, But Google, ServiceNow And Fortinet Dive On Earnings",
    "link": "https://finance.yahoo.com/m/6c0b166b-19af-3d40-b6ff-7c6d65d3c4da/dow-jones-futures%3A-microsoft.html",
@@ -26,12 +305,12 @@
    "publisher": "",
    "summary": "Shares in Google parent Alphabet fell more than seven percent in after-hours trading Wednesday as the company reported lower-than-expected profit and a slowdown in its advertising business.Net profit slid 25 percent from a year earlier to $26.2 billion in the July to September period, or $2.12 per share, well short of expectations by analysts surveyed by FactSet.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -45,11 +324,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -62,11 +341,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -127,11 +406,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -141,12 +420,12 @@
    "publisher": "",
    "summary": "SpaceX's CEO expects the tightening debt markets to choke unprofitable neocloud companies.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -173,12 +452,12 @@
    "publisher": "",
    "summary": "SpaceX’s connectivity business remains its single biggest source of operating profits.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -237,12 +516,12 @@
    "publisher": "",
    "summary": "T-Mobile US Inc. added more total customer accounts in the third quarter than analysts had expected, showing its slate of offers and loyalty incentives are resonating with customers.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -256,11 +535,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -273,11 +552,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -290,11 +569,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2845,368 +3124,6 @@
    "publisher": "",
    "summary": "Energy and truck stop executives said limited refining and pipeline capacity could leave U.S. trucking fleets vulnerable to higher diesel prices in 2027. The post Diesel prices may stay elevated into spring 2027, fuel executives warn appeared first on FreightWaves.",
    "symbols": []
-  },
-  {
-   "title": "GT Metabolic Solutions Announces Series C Growth Investment Led by J.P. Morgan Life Sciences Private Capital",
-   "link": "https://finance.yahoo.com/healthcare/articles/gt-metabolic-solutions-announces-series-133000129.html",
-   "published": "2026-10-28T13:30:00Z",
-   "publisher": "",
-   "summary": "MINNEAPOLIS, October 28, 2026--GT Metabolic™ Solutions, Inc. (\"the Company\" or \"GT Metabolic\"), a pioneer in the medical device field and the first to receive FDA De Novo grant and 510(k) clearance for use of magnetic technology to create compression anastomoses (connections between two tubular structures in the body, such as intestines), today announced a Series C growth investment from J.P. Morg",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "UBS now expects two additional Fed rate hikes by the middle of 2027",
-   "link": "https://finance.yahoo.com/economy/policy/articles/ubs-now-expects-two-additional-132939037.html",
-   "published": "2026-10-28T13:29:39Z",
-   "publisher": "",
-   "summary": "Investing.com -- UBS now expects the Federal Reserve to raise interest rates two more times by mid-2027, following September’s 25 basis point hike amid hawkish comments from Fed Chair Kevin Warsh.",
-   "symbols": []
-  },
-  {
-   "title": "GE HealthCare Stock Eyes Breakout On Best Earnings Since Spinoff",
-   "link": "https://finance.yahoo.com/m/4a0eaf6f-415c-377a-bfe6-b7a62baabfd9/ge-healthcare-stock-eyes.html",
-   "published": "2026-10-28T13:27:54Z",
-   "publisher": "",
-   "summary": "GE HealthCare separated from General Electric and began trading under GEHC in 2023.",
-   "symbols": []
-  },
-  {
-   "title": "Lilly shuffles business structure; Novartis writes off part of Avidity deal",
-   "link": "https://www.biopharmadive.com/news/lilly-global-markets-novartis-avidity-astellas-talzenna-prana/872857/?.tsrc=rss",
-   "published": "2026-10-28T13:27:00Z",
-   "publisher": "",
-   "summary": "Lilly intends to merge its U.S. and international divisions when a top executive retires. Elsewhere, Astellas closed in on what it believes to be a “best-in-class” cancer immunotherapy prospect.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SKHY Stock: Analyst Sees 175% Upside Potential For SK Hynix, Company's Q3 Beat Uplifts MU, SNDK, WDC",
-   "link": "https://stocktwits.com/news-articles/markets/equity/skhy-stock-analyst-sees-175-upside-potential-for-sk-hynix-company-s-q3-beat-uplifts-mu-sndk-wdc/cZU9iiSR9G2?.tsrc=rss",
-   "published": "2026-10-28T13:25:09Z",
-   "publisher": "",
-   "summary": "SK Hynix expects memory demand to outpace supply through 2030, citing AI adoption, the difficulty of advanced chipmaking and long lead times for new capacity.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Apple Is Moving Against the Nasdaq for the First Time on Record",
-   "link": "https://247wallst.com/investing/2026/10/28/apple-is-moving-against-the-nasdaq-for-the-first-time-on-record/?.tsrc=rss",
-   "published": "2026-10-28T13:19:33Z",
-   "publisher": "",
-   "summary": "For the first time in four decades, Apple has stopped moving with the index that carries its name, and the reason behind that break reveals a deeper fault line running through the entire AI trade.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Moody’s Assigns Investment-Grade Rating To Ripple’s Stablecoin",
-   "link": "https://www.cryptoprowl.com/releases/moodys-assigns-investment-grade-rating-to-ripples-stablecoin-7496?.tsrc=rss",
-   "published": "2026-10-28T13:19:00Z",
-   "publisher": "",
-   "summary": "Moody’s (NYSE: $MCO) has assigned and investment-grade rating to Ripple's U.S. dollar-denominated stablec...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Wes Moss Says Never Give an AI Agent Access to Your Money. Here’s Why",
-   "link": "https://247wallst.com/investing/2026/10/28/wes-moss-says-never-give-an-ai-agent-access-to-your-money-heres-why/?.tsrc=rss",
-   "published": "2026-10-28T13:17:15Z",
-   "publisher": "",
-   "summary": "Major banks are quietly blocking AI agents from customer accounts, and one well-known financial advisor says even that response may not go far enough to protect your retirement savings.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 Wireless Stocks Likely to Benefit Despite Macroeconomic Challenges",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-wireless-stocks-likely-benefit-131600997.html",
-   "published": "2026-10-28T13:16:00Z",
-   "publisher": "",
-   "summary": "TMUS, AD, and CCOI are likely to ride long-term gains from 5G momentum and rising demand for wireless connectivity despite near-term headwinds.",
-   "symbols": []
-  },
-  {
-   "title": "IBM Stock or Bitcoin? Quantum is Making Shark Tank's Kevin O'Leary Rethink",
-   "link": "https://beincrypto.com/bitcoin-quantum-oleary-ibm-fears/?.tsrc=rss",
-   "published": "2026-10-28T13:12:13Z",
-   "publisher": "",
-   "summary": "Kevin O'Leary is eyeing IBM as quantum computing fears and US regulatory delays weigh on Bitcoin, though he still holds on to his own BTC.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "TSX futures muted ahead of Bank of Canada rate decision",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-muted-ahead-bank-131211082.html",
-   "published": "2026-10-28T13:12:11Z",
-   "publisher": "",
-   "summary": "Investing.com - Futures linked to Canada’s main stock index pointed slightly lower on Wednesday, as investors eyed a fresh climb in oil prices and prepared for a key Bank of Canada interest rate decision.",
-   "symbols": []
-  },
-  {
-   "title": "What's Going To Happen With McDonald's Stock Soon?",
-   "link": "https://www.trefis.com/stock/mcd/articles/621025/whats-going-to-happen-with-mcdonalds-stock-soon/2026-10-28?.tsrc=rss",
-   "published": "2026-10-28T13:11:07Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Datavault AI Says It Can’t Access Its Bitcoin Holdings",
-   "link": "https://www.cryptoprowl.com/releases/datavault-ai-says-it-cant-access-its-bitcoin-holdings-7495?.tsrc=rss",
-   "published": "2026-10-28T13:10:00Z",
-   "publisher": "",
-   "summary": "Crypto treasury firm Datavault AI (NASDAQ: $DVLT) says it is unable to access a large portion of its Bitcoin (CRYPT...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SK Hynix Jumps 7%, Micron Rises 3% on Memory Shortage Call Through 2030 While Seagate Slips Despite Upbeat Guidance",
-   "link": "https://247wallst.com/investing/2026/10/28/sk-hynix-jumps-7-micron-rises-3-on-memory-shortage-call-through-2030-while-seagate-slips-despite-upbeat-guidance/?.tsrc=rss",
-   "published": "2026-10-28T13:07:24Z",
-   "publisher": "",
-   "summary": "SK Hynix just posted a record quarter and warned that the AI memory crunch could outlast the decade, lifting chipmakers across the board. But Seagate beat estimates and raised its dividend and still sold off, and the reason behind that split matters for anyone holding storage stocks.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "3 Defensive Sector ETFs a Retiree Can Buy and Hold for Decades",
-   "link": "https://247wallst.com/investing/etf/2026/10/28/3-defensive-sector-etfs-a-retiree-can-buy-and-hold-for-decades/?.tsrc=rss",
-   "published": "2026-10-28T13:03:58Z",
-   "publisher": "",
-   "summary": "Groceries, prescriptions, and electricity keep getting paid even when retirement accounts are bleeding, but not every fund built around these necessities behaves the same way when markets crack. Three Vanguard ETFs share identical expense ratios yet delivered wildly different results across the worst selloffs of the past two decades.",
-   "symbols": []
-  },
-  {
-   "title": "Oct. 27 Has Historically Marked the Stock Market’s Autumn Bottom",
-   "link": "https://247wallst.com/investing/2026/10/28/oct-27-has-historically-marked-the-stock-markets-autumn-bottom/?.tsrc=rss",
-   "published": "2026-10-28T13:03:16Z",
-   "publisher": "",
-   "summary": "Deutsche Bank's top macro researcher flagged a single date on the calendar as the market's historical autumn floor, and stocks moved exactly as the pattern predicted. Whether the Fed, oil above $113, and a wall of megacap earnings can override that history is the real question.",
-   "symbols": []
-  },
-  {
-   "title": "Dynasty Gold Discovers New Mineralization to 323m at Depth in Pelham and Expands Mineralization to 185m at Depth in South-Pelham at Thundercloud",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/dynasty-gold-discovers-mineralization-323m-130000796.html",
-   "published": "2026-10-28T13:00:00Z",
-   "publisher": "",
-   "summary": "Vancouver, British Columbia--(Newsfile Corp. - October 28, 2026) - Dynasty Gold Corp. (TSXV: DYG) (FSE: D5G1) (OTC Oink: DGDCF) (\"Dynasty\" or the \"Company\") is pleased to report that it has received assay results from core holes drilled in its recently completed diamond drill campaign at its 100%-owned Thundercloud project, located 200 km southeast of the gold mining hub of Red Lake and 47 km sout",
-   "symbols": []
-  },
-  {
-   "title": "Sava Raises $10 Million and Launches Sava Trust Company, an AI-Native, Nevada-Chartered Trust Company",
-   "link": "https://finance.yahoo.com/technology/ai/articles/sava-raises-10-million-launches-130000921.html",
-   "published": "2026-10-28T13:00:00Z",
-   "publisher": "",
-   "summary": "Sava, the next-generation trust company, today emerged from stealth with $10 million in funding led by Gradient Ventures, with participation from Y Combinator, SV Angel, Instacart co-founder Max Mullen, Orange Collective, and SurgePoint Capital. The company provides administrative trustee services through its subsidiary, Sava Trust Company, an independent corporate fiduciary chartered in Nevada.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Will XRP Holders Gain From Ripple’s Moody’s-Rated Stablecoin?",
-   "link": "https://beincrypto.com/ripple-rlusd-moodys-rating-xrp-value/?.tsrc=rss",
-   "published": "2026-10-28T12:59:50Z",
-   "publisher": "",
-   "summary": "Moody’s gave Ripple’s RLUSD an investment-grade rating. Here is why its growth may not boost XRP’s price: all you need to know.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "The AI Trade Is Back On. Why Sandisk Stock Is Rising Before Big Tech Earnings.",
-   "link": "https://finance.yahoo.com/m/3f30793c-e86d-3bce-8ee7-c00fa5ee789c/the-ai-trade-is-back-on.-why.html",
-   "published": "2026-10-28T12:58:00Z",
-   "publisher": "",
-   "summary": "The chip and memory trade is back in style ahead of the most crucial set of earnings of the quarter.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Dow Wavers Ahead Of Rate Decision, Warsh Comments; Robinhood Plunges (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/8aa305ef-cc61-37d7-bc76-82a4a4324c5b/stock-market-today%3A-dow.html",
-   "published": "2026-10-28T12:57:12Z",
-   "publisher": "",
-   "summary": "The Dow Jones index drops Wednesday ahead of the Fed's rate decision and Warsh's comments. Robinhood plunges on earnings.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of US Fed Rate Announcement",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125522610.html",
-   "published": "2026-10-28T12:55:22Z",
-   "publisher": "",
-   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2% and the actively trad",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Google Debuts Crypto Security System As A.I. Threat Intensifies",
-   "link": "https://www.cryptoprowl.com/releases/google-debuts-crypto-security-system-as-ai-threat-intensifies-7494?.tsrc=rss",
-   "published": "2026-10-28T12:54:00Z",
-   "publisher": "",
-   "summary": "Google parent company Alphabet (NASDAQ: $GOOGL) is planning to launch a new cryptocurrency custody security service...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Update: US Equity Futures Slightly Higher Pre-Bell as Traders Await Fed Rate Decision, Big Tech Earnings",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-slightly-higher-125130614.html",
-   "published": "2026-10-28T12:51:30Z",
-   "publisher": "",
-   "summary": "(Updates with economic data, recent oil price movement, world markets' overview and corporate stock",
-   "symbols": []
-  },
-  {
-   "title": "Strive CEO Matt Cole Says Superintelligence Will Make Bitcoin The ‘Most Valuable Scarce Asset’",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/strive-ceo-matt-cole-says-superintelligence-will-make-bitcoin-the-most-valuable-scarce-asset/cZU9hK1R9GT?.tsrc=rss",
-   "published": "2026-10-28T12:49:44Z",
-   "publisher": "",
-   "summary": "Strive CEO said AI abundance \"will create exponential value for scarce assets.\"",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Tesla Just Reclaimed $400 as SpaceX Merger Hopes Build",
-   "link": "https://247wallst.com/investing/2026/10/28/tesla-just-reclaimed-400-as-spacex-merger-hopes-build/?.tsrc=rss",
-   "published": "2026-10-28T12:48:32Z",
-   "publisher": "",
-   "summary": "Tesla crossed a price level it lost for months, and Wall Street is betting a SpaceX merger explains the move, but no deal has been signed and Tesla's own profits keep shrinking.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
