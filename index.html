@@ -1735,7 +1735,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         sc.onerror = () => { inner.replaceChildren(el("div", "msg", "A TradingView grafikonja itt nem tölthető be. Válts a Saját grafikonra.")); };
         wrap.append(sc);
       } else {
-        note.textContent = "Saját grafikon a Yahoo Finance adataiból (a TradingView nyílt forrású grafikonmotorjával). Rajz: válaszd ki az eszközt, majd kattints a grafikonra (trendvonalnál két pontra). A rajzok ebben a böngészőben megmaradnak.";
+        note.textContent = "Saját grafikon a Yahoo Finance adataiból (a TradingView nyílt forrású grafikonmotorjával). Rajz: válaszd ki az eszközt, majd kattints a grafikonra (trendvonalnál és Fibonaccinál két pontra: a mozgás elejére és végére). A rajzok ebben a böngészőben eszközönként megmaradnak.";
         cleanup = ownChart(body, t, dark);
       }
     };
@@ -1762,7 +1762,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const lwcPrefs = (() => { try { const o = JSON.parse(localStorage.getItem(LWC_KEY) || "{}"); return { tf: o.tf || "1 nap", ind: Array.isArray(o.ind) ? o.ind : ["vol"] }; } catch (e) { return { tf: "1 nap", ind: ["vol"] }; } })();
   const saveLwcPrefs = () => { try { localStorage.setItem(LWC_KEY, JSON.stringify(lwcPrefs)); } catch (e) { /* privát mód */ } };
   const drawKey = (t) => "tozsderadar-draw-" + t;
-  const loadDraw = (t) => { try { const o = JSON.parse(localStorage.getItem(drawKey(t)) || "{}"); return { h: o.h || [], tl: o.tl || [] }; } catch (e) { return { h: [], tl: [] }; } };
+  const loadDraw = (t) => { try { const o = JSON.parse(localStorage.getItem(drawKey(t)) || "{}"); return { h: o.h || [], tl: o.tl || [], fib: o.fib || [] }; } catch (e) { return { h: [], tl: [], fib: [] }; } };
   const saveDraw = (t, d) => { try { localStorage.setItem(drawKey(t), JSON.stringify(d)); } catch (e) { /* privát mód */ } };
   // Indikátorok
   const smaArr = (v, n) => v.map((_, i) => i < n - 1 ? null : v.slice(i - n + 1, i + 1).reduce((a, b) => a + b, 0) / n);
@@ -1790,7 +1790,9 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const setMode = (m) => { mode = mode === m ? null : m; pending = null; for (const [k, b] of Object.entries(modeBtns)) b.setAttribute("aria-pressed", String(mode === k)); body.classList.toggle("lwc-drawing", !!mode); };
     modeBtns.h = chip(drg, "― Vízszintes vonal", false, () => setMode("h"));
     modeBtns.t = chip(drg, "╱ Trendvonal", false, () => setMode("t"));
-    chip(drg, "Rajzok törlése", false, () => { draw.h = []; draw.tl = []; saveDraw(t, draw); build(); });
+    modeBtns.f = chip(drg, "≡ Fibonacci", false, () => setMode("f"));
+    chip(drg, "↶ Utolsó visszavonása", false, () => { const last = draw.order && draw.order.pop(); if (last && draw[last] && draw[last].length) draw[last].pop(); saveDraw(t, draw); build(); });
+    chip(drg, "Rajzok törlése", false, () => { draw.h = []; draw.tl = []; draw.fib = []; draw.order = []; saveDraw(t, draw); build(); });
     const destroy = () => { for (const c of charts) { try { c.remove(); } catch (e) { /* már törölve */ } } charts = []; };
     async function build() {
       destroy(); candles = null;
@@ -1866,19 +1868,37 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       // Rajzok
       for (const p of draw.h) candles.createPriceLine({ price: p, color: col.acc, lineWidth: 1, lineStyle: 2, axisLabelVisible: true });
       for (const [t1, p1, t2, p2] of draw.tl) { const s3 = ch.addLineSeries({ color: col.acc, lineWidth: 2, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false }); s3.setData([{ time: t1, value: p1 }, { time: t2, value: p2 }]); }
-      ch.subscribeClick((param) => {
-        if (!mode || !param.point || !candles) return;
+      // Fibonacci-visszatérés: az első pont (kiindulás) és a második (végpont) közötti szintek, a kiindulástól a grafikon végéig
+      const FIB = [[0, "#9aa0a6"], [0.236, "#d9534f"], [0.382, "#e0a84a"], [0.5, "#4cc39d"], [0.618, "#4f74c9"], [0.786, "#9a63c4"], [1, "#9aa0a6"]];
+      const lastT = bars[bars.length - 1].time;
+      for (const [t1, p1, t2, p2] of draw.fib) {
+        const from = Math.min(t1, t2), to = Math.max(lastT, t1, t2);
+        if (from >= to) continue;
+        for (const [lv, c] of FIB) {
+          const price = p2 + (p1 - p2) * lv;
+          const s4 = ch.addLineSeries({ color: c, lineWidth: 1, lineStyle: lv === 0 || lv === 1 ? 0 : 2, priceLineVisible: false, lastValueVisible: true, crosshairMarkerVisible: false, title: (lv * 100).toFixed(1).replace(".0", "") + "%" });
+          s4.setData([{ time: from, value: price }, { time: to, value: price }]);
+        }
+      }
+      // Saját kattintás-figyelés (a grafikon beépítettje a gyors második kattintást dupla kattintásnak veszi és elnyeli)
+      main.onclick = (ev) => {
+        if (!mode || !candles) return;
+        const r = main.getBoundingClientRect();
+        const param = { point: { x: ev.clientX - r.left, y: ev.clientY - r.top } };
+        param.time = ch.timeScale().coordinateToTime(param.point.x);
         const price = candles.coordinateToPrice(param.point.y);
         if (price == null) return;
-        if (mode === "h") { draw.h.push(+price.toPrecision(8)); saveDraw(t, draw); setMode("h"); build(); return; }
+        const remember = (kind) => { draw.order = draw.order || []; draw.order.push(kind); };
+        if (mode === "h") { draw.h.push(+price.toPrecision(8)); remember("h"); saveDraw(t, draw); setMode("h"); build(); return; }
         if (param.time == null) return;
         if (!pending) { pending = [param.time, price]; return; }
         const a = pending, b = [param.time, price];
         pending = null;
         if (a[0] === b[0]) return;
+        if (mode === "f") { draw.fib.push([a[0], +a[1].toPrecision(8), b[0], +b[1].toPrecision(8)]); remember("fib"); saveDraw(t, draw); setMode("f"); build(); return; }
         const [x, y] = a[0] < b[0] ? [a, b] : [b, a];
-        draw.tl.push([x[0], +x[1].toPrecision(8), y[0], +y[1].toPrecision(8)]); saveDraw(t, draw); setMode("t"); build();
-      });
+        draw.tl.push([x[0], +x[1].toPrecision(8), y[0], +y[1].toPrecision(8)]); remember("tl"); saveDraw(t, draw); setMode("t"); build();
+      };
       // Jelmagyarázat: a kurzor alatti gyertya adatai
       const fmtP = (v) => fmtNum(v, Math.abs(v) >= 1 ? 2 : 4);
       const showBar = (b) => { legend.textContent = b ? "Ny " + fmtP(b.open) + "  M " + fmtP(b.high) + "  A " + fmtP(b.low) + "  Z " + fmtP(b.close) + "  " + fmtPctN((b.close / b.open - 1) * 100) : ""; };
