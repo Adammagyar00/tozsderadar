@@ -1851,7 +1851,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const main = el("div", "lwc-main"), sub = el("div", "lwc-sub");
     const stage = el("div", "lwc-stage"); stage.append(main, legend, sub);
     body.append(bar, stage);
-    let charts = [], alive = true, mode = null, pending = null, candles = null, bars = [], volSeries = null, binWs = null, src = "yahoo", curIv = "1d", hovering = false, legendShow = null, pts = [], drawOverlay = () => {};
+    let charts = [], alive = true, mode = null, pending = null, candles = null, bars = [], volSeries = null, binWs = null, src = "yahoo", curIv = "1d", hovering = false, legendShow = null, pts = [], drawOverlay = () => {}, cur = null;
     const cryptoBase = (String(t).match(/^([A-Z0-9]+)-USD$/) || [])[1] || null;
     // Amerikai jelölés (nincs tőzsde-utótag, index vagy határidős jel): ehhez a Finnhub valós idejű kötései is jönnek
     const usSym = !cryptoBase && /^[A-Z]{1,5}(-[A-Z])?$/.test(t) ? t.replace("-", ".") : null;
@@ -1866,7 +1866,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     for (const [label] of LWC_TF) chip(tfg, label, lwcPrefs.tf === label, (b) => { lwcPrefs.tf = label; saveLwcPrefs(); for (const x of tfg.children) x.setAttribute("aria-pressed", String(x === b)); build(); });
     for (const [k, label] of LWC_IND) chip(indg, label, lwcPrefs.ind.includes(k), (b) => { lwcPrefs.ind = lwcPrefs.ind.includes(k) ? lwcPrefs.ind.filter((x) => x !== k) : [...lwcPrefs.ind, k]; saveLwcPrefs(); b.setAttribute("aria-pressed", String(lwcPrefs.ind.includes(k))); build(); });
     const modeBtns = {};
-    const setMode = (m) => { mode = mode === m ? null : m; pending = null; pts = []; for (const [k, b] of Object.entries(modeBtns)) b.setAttribute("aria-pressed", String(mode === k)); body.classList.toggle("lwc-drawing", !!mode); };
+    const setMode = (m) => { mode = mode === m ? null : m; pending = null; pts = []; cur = null; drawOverlay(); for (const [k, b] of Object.entries(modeBtns)) b.setAttribute("aria-pressed", String(mode === k)); body.classList.toggle("lwc-drawing", !!mode); };
     modeBtns.h = chip(drg, "― Vízszintes vonal", false, () => setMode("h"));
     modeBtns.t = chip(drg, "╱ Trendvonal", false, () => setMode("t"));
     modeBtns.f = chip(drg, "≡ Fibonacci", false, () => setMode("f"));
@@ -1876,6 +1876,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     modeBtns.a = chip(drg, "🔔 Riasztás", false, () => setMode("a"));
     chip(drg, "↶ Utolsó visszavonása", false, () => { const last = draw.order && draw.order.pop(); if (last && draw[last] && draw[last].length) draw[last].pop(); saveDraw(t, draw); build(); });
     chip(drg, "Rajzok törlése", false, () => { draw.h = []; draw.tl = []; draw.fib = []; draw.rect = []; draw.ch = []; draw.txt = []; draw.order = []; saveDraw(t, draw); build(); });
+    const onEsc = (e) => { if (e.key === "Escape" && mode) { e.stopPropagation(); setMode(mode); } };
+    document.addEventListener("keydown", onEsc, true);
     const destroy = () => { for (const c of charts) { try { c.remove(); } catch (e) { /* már törölve */ } } charts = []; };
     async function build() {
       destroy(); candles = null; volSeries = null;
@@ -1986,6 +1988,12 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if ($("alList")) { alSig = ""; updateAlerts(); }
         toast("Riasztás beállítva", pairLabel(t) + ": szól, amikor az ár átlépi a " + fmtNum(price, Math.abs(price) >= 1 ? 2 : 4) + " szintet (bármelyik irányba).");
       };
+      // Kattintás a rajzeszközökhöz (saját figyelés: a grafikon beépítettje a gyors második kattintást elnyeli)
+      const pointAt = (ev) => {
+        const r = main.getBoundingClientRect();
+        const x = ev.clientX - r.left, y = ev.clientY - r.top;
+        return { x, y, time: ch.timeScale().coordinateToTime(x), price: candles.coordinateToPrice(y) };
+      };
       // SVG-réteg: téglalap, párhuzamos csatorna, szöveg (a grafikon mozgatásakor újrarajzolódik)
       const NS = "http://www.w3.org/2000/svg";
       const svg = document.createElementNS(NS, "svg"); svg.setAttribute("class", "lwc-svg");
@@ -2019,16 +2027,53 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
           tx.textContent = text;
           mk("circle", { cx: x, cy: y, r: 3, fill: col.acc });
         }
+        // Rajzolás közben: az alakzat élőben követi az egeret (az első kattintás után), mint a TradingView-n
+        if (!mode || !cur) return;
+        const H = main.clientHeight;
+        const P = pts.map(([tm, pr]) => [X(tm), Y(pr)]).filter(([a, b]) => a != null && b != null);
+        const pv = { stroke: col.acc, "stroke-width": 1.5, "stroke-dasharray": "5 4" };
+        const lbl = (x, y, text, color) => { const e = mk("text", { x, y, fill: color || col.acc, "font-size": 11, "font-family": "JetBrains Mono, monospace", "paint-order": "stroke", stroke: col.bg, "stroke-width": 3 }); e.textContent = text; };
+        const fp = (v) => fmtNum(v, Math.abs(v) >= 1 ? 2 : 4);
+        for (const [a, b] of P) mk("circle", { cx: a, cy: b, r: 4, fill: col.acc, stroke: col.bg, "stroke-width": 2 });
+        if (mode === "h" || mode === "a") {
+          const c = mode === "a" ? C("--warn") : col.acc;
+          mk("line", { x1: 0, y1: cur.y, x2: W, y2: cur.y, stroke: c, "stroke-width": 1.5, "stroke-dasharray": "5 4" });
+          if (cur.price != null) lbl(8, cur.y - 6, (mode === "a" ? "🔔 " : "") + fp(cur.price), c);
+          return;
+        }
+        if (!P.length) { mk("circle", { cx: cur.x, cy: cur.y, r: 4, fill: "none", stroke: col.acc, "stroke-width": 1.5 }); return; }
+        const [x0, y0] = P[0];
+        if (mode === "t") { mk("line", { x1: x0, y1: y0, x2: cur.x, y2: cur.y, ...pv }); return; }
+        if (mode === "r") { mk("rect", { x: Math.min(x0, cur.x), y: Math.min(y0, cur.y), width: Math.abs(cur.x - x0), height: Math.abs(cur.y - y0), fill: col.acc, "fill-opacity": 0.1, ...pv }); return; }
+        if (mode === "f") {
+          const p0 = pts[0][1], p1 = cur.price;
+          if (p1 == null) return;
+          for (const [lv, c] of [[0, "#9aa0a6"], [0.236, "#d9534f"], [0.382, "#e0a84a"], [0.5, "#4cc39d"], [0.618, "#4f74c9"], [0.786, "#9a63c4"], [1, "#9aa0a6"]]) {
+            const yy = Y(p1 + (p0 - p1) * lv);
+            if (yy == null) continue;
+            mk("line", { x1: Math.min(x0, cur.x), y1: yy, x2: W, y2: yy, stroke: c, "stroke-width": 1, "stroke-dasharray": lv === 0 || lv === 1 ? "" : "4 3" });
+            lbl(Math.min(x0, cur.x) + 4, yy - 3, (lv * 100).toFixed(1).replace(".0", "") + "%  " + fp(p1 + (p0 - p1) * lv), c);
+          }
+          mk("line", { x1: x0, y1: y0, x2: cur.x, y2: cur.y, stroke: col.muted, "stroke-width": 1, "stroke-dasharray": "2 3" });
+          return;
+        }
+        if (mode === "c") {
+          if (P.length === 1) { mk("line", { x1: x0, y1: y0, x2: cur.x, y2: cur.y, ...pv }); return; }
+          const [x1, y1] = P[1];
+          if (x1 === x0) return;
+          const k = (y1 - y0) / (x1 - x0);
+          const off = cur.y - (y0 + k * (cur.x - x0));
+          const L = (dy) => [x0, y0 + dy, W, y0 + dy + k * (W - x0)];
+          const a = L(0), b = L(off);
+          mk("polygon", { points: [a[0], a[1], a[2], a[3], b[2], b[3], b[0], b[1]].join(" "), fill: "#4f74c9", "fill-opacity": 0.08 });
+          for (const l of [a, b]) mk("line", { x1: l[0], y1: l[1], x2: l[2], y2: l[3], stroke: "#4f74c9", "stroke-width": 1.5, "stroke-dasharray": "5 4" });
+        }
       };
+      main.onpointermove = (ev) => { if (!mode || !candles) return; cur = pointAt(ev); drawOverlay(); };
+      main.onpointerleave = () => { if (!cur) return; cur = null; drawOverlay(); };
       ch.timeScale().subscribeVisibleLogicalRangeChange(() => drawOverlay());
       const ro = new ResizeObserver(() => drawOverlay()); ro.observe(main);
       charts.push({ remove: () => ro.disconnect() });
-      // Kattintás a rajzeszközökhöz (saját figyelés: a grafikon beépítettje a gyors második kattintást elnyeli)
-      const pointAt = (ev) => {
-        const r = main.getBoundingClientRect();
-        const x = ev.clientX - r.left, y = ev.clientY - r.top;
-        return { x, y, time: ch.timeScale().coordinateToTime(x), price: candles.coordinateToPrice(y) };
-      };
       const remember = (kind) => { draw.order = draw.order || []; draw.order.push(kind); };
       const done = (kind) => { remember(kind); saveDraw(t, draw); setMode(mode); build(); };
       const r8 = (v) => +v.toPrecision(8);
@@ -2046,7 +2091,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         }
         pts.push([q.time, q.price]);
         const need = mode === "c" ? 3 : 2;
-        if (pts.length < need) return;
+        if (pts.length < need) { cur = q; drawOverlay(); return; }
         const [a, b, c3] = pts; pts = [];
         if (a[0] === b[0]) return;
         const [x, y] = a[0] < b[0] ? [a, b] : [b, a];
@@ -2130,7 +2175,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     EXTRA_Y.add(t); if (typeof ySyncHook === "function") ySyncHook();
     if (usSym) { CHART_FH.add(usSym); if (typeof fhSubHook === "function") fhSubHook(); }
     build();
-    return () => { alive = false; clearInterval(liveTimer); if (binWs) { try { binWs.close(); } catch (e) { /* már zárva */ } } if (usSym) CHART_FH.delete(usSym); destroy(); };
+    return () => { alive = false; document.removeEventListener("keydown", onEsc, true); clearInterval(liveTimer); if (binWs) { try { binWs.close(); } catch (e) { /* már zárva */ } } if (usSym) CHART_FH.delete(usSym); destroy(); };
   }
 
   async function mkRenderDetail() {
