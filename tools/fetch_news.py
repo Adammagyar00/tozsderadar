@@ -108,6 +108,8 @@ INVESTING_FEEDS = [
     "https://www.investing.com/rss/news_11.rss",    # nyersanyagok
     "https://www.investing.com/rss/news_301.rss",   # kripto
 ]
+# Automatikusan generált, tömeges rövidhírek (átiratok, 52 hetes csúcs/mélypont, elemzői célár-módosítások)
+NOISE = re.compile(r"^earnings call transcript|hits 52-week (high|low)|^stock (market )?today|price target (raised|lowered|cut|maintained)|^(earnings|ex-dividend) (reminder|alert)", re.I)
 BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
               "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8"}
 
@@ -173,7 +175,7 @@ def main():
         return
     ylinks = {x["link"] for x in ykeep}
     ytitles = [x["title"] for x in ykeep]
-    ikeep = [x for x in ikeep if x["link"] not in ylinks and not any(same_story(x["title"], t) for t in ytitles)]
+    ikeep = [x for x in ikeep if x["link"] not in ylinks and not NOISE.search(x["title"]) and not any(same_story(x["title"], t) for t in ytitles)]
     write(ipath, "Investing.com RSS", iold, ikeep)
 
 
