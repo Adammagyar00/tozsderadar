@@ -38,7 +38,9 @@ try {
 } catch (e) { console.log("::notice::/history ohlc hiba: " + e.message); }
 // Új végpontok: hírek, CNN-hangulatindex, szinkron, Telegram-állapot
 const O = { Origin: "https://adammagyar00.github.io" };
-const note = async (label, fn) => { try { console.log("::notice::" + label + ": " + await fn()); } catch (e) { console.log("::notice::" + label + " hiba: " + e.message); } };
+// (lépésenként legfeljebb 10 annotáció látszik, ezért ezek egy sorba kerülnek)
+const extra = [];
+const note = async (label, fn) => { try { extra.push(label + ": " + await fn()); } catch (e) { extra.push(label + " hiba: " + e.message); } };
 await note("/news NVDA", async () => { const r = await fetch(base + "/news?q=NVDA", { headers: O }); const j = await r.json(); return r.status + " " + (j.news || []).length + " hír, első: " + ((j.news || [])[0] || {}).title; });
 await note("/fng", async () => { const r = await fetch(base + "/fng", { headers: O }); return r.status + " " + JSON.stringify((await r.json()).fng); });
 const sid = "livecheck" + Math.random().toString(36).slice(2, 14).padEnd(12, "x");
@@ -52,4 +54,5 @@ await note("/tginfo", async () => { const r = await fetch(base + "/tginfo?id=" +
 for (const u of ["https://api.alternative.me/fng/?limit=2", "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT", "https://api.binance.com/api/v3/ticker/24hr?symbols=" + encodeURIComponent(JSON.stringify(["BTCUSDT", "TONUSDT", "SUIUSDT", "ONDOUSDT", "APTUSDT", "PEPEUSDT"]))]) {
   await note("külső " + new URL(u).host, async () => { const r = await fetch(u, { headers: O }); const t = await r.text(); return r.status + " CORS=" + r.headers.get("access-control-allow-origin") + " " + t.slice(0, 120); });
 }
+console.log("::notice::" + extra.join(" || ").replace(/\n/g, " "));
 process.exit(0);
