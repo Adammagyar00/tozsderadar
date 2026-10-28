@@ -317,6 +317,19 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .mk-al-form { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto; margin-top: 14px; }
 @media (max-width: 760px) { .mk-al-form { grid-template-columns: minmax(0, 1fr); } }
 .mk-al-head { margin-top: 30px; }
+.mk-candle { grid-column: 1 / -1; justify-self: start; display: inline-flex; align-items: center; gap: 8px; }
+.mk-candle::before { content: ""; width: 14px; height: 14px; background: linear-gradient(90deg, transparent 2px, currentColor 2px 5px, transparent 5px 9px, currentColor 9px 12px, transparent 12px); clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%); opacity: 0.9; }
+.tv-overlay { position: fixed; inset: 0; z-index: 60; background: rgba(8, 16, 13, 0.6); display: grid; place-items: center; padding: max(12px, env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) max(12px, env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px)); }
+.tv-box { width: min(1400px, 100%); height: min(860px, 100%); background: var(--surface); border: 1px solid var(--line); border-radius: 12px; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; overflow: hidden; }
+.tv-head { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.tv-head > div { flex: 1; min-width: 0; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+@media (max-width: 600px) { .tv-head > div { flex-basis: 100%; } .tv-head a { flex: 1; } }
+.tv-head b { font-family: var(--font-display); font-size: 18px; }
+.tv-sym { font-family: var(--font-data); font-size: 12px; color: var(--muted); }
+.tv-head a { font-size: 14px; font-weight: 600; color: var(--accent); }
+.tv-chart { position: relative; min-height: 0; height: 100%; }
+.tv-chart .msg { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); padding: 0 16px; text-align: center; }
+.tv-note { margin: 0; padding: 6px 14px 10px; font-size: 12px; }
 .al-list { margin-top: 18px; display: grid; gap: 8px; }
 .al-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px 14px; align-items: center; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; }
 .al-row.fired { border-left-color: var(--warn); }
@@ -1644,6 +1657,64 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   function mkUpdateLive() {
     for (const n of document.querySelectorAll("[data-yq]")) mkPxNodes(n, YQ[n.dataset.yq]);
   }
+  // ---------- Gyertyás grafikon: a TradingView ingyenes, beágyazható grafikonja ----------
+  // A Yahoo-jelölést a TradingView saját jelölésére fordítjuk (tőzsde-előtag : jelölés)
+  const TV_FIXED = {
+    "^GSPC": "SP:SPX", "^IXIC": "NASDAQ:IXIC", "^NDX": "NASDAQ:NDX", "^DJI": "DJ:DJI", "^RUT": "TVC:RUT", "^VIX": "TVC:VIX",
+    "^GDAXI": "XETR:DAX", "^FTSE": "TVC:UKX", "^FCHI": "EURONEXT:PX1", "^STOXX50E": "TVC:SX5E", "^BUX.BD": "BET:BUX",
+    "^N225": "TVC:NI225", "^HSI": "TVC:HSI", "000001.SS": "SSE:000001", "^TNX": "TVC:US10Y",
+    "GC=F": "COMEX:GC1!", "SI=F": "COMEX:SI1!", "HG=F": "COMEX:HG1!", "PL=F": "NYMEX:PL1!", "CL=F": "NYMEX:CL1!", "BZ=F": "ICEEUR:B1!",
+    "NG=F": "NYMEX:NG1!", "ZW=F": "CBOT:ZW1!", "ZC=F": "CBOT:ZC1!", "KC=F": "ICEUS:KC1!", "ES=F": "CME_MINI:ES1!", "NQ=F": "CME_MINI:NQ1!",
+  };
+  const TV_SUFFIX = { L: "LSE", DE: "XETR", F: "FWB", MI: "MIL", AS: "EURONEXT", PA: "EURONEXT", BR: "EURONEXT", LS: "EURONEXT", SW: "SIX", BD: "BET",
+    VI: "VIE", WA: "GPW", PR: "PSE", MC: "BME", ST: "OMXSTO", CO: "OMXCOP", HE: "OMXHEX", OL: "OSL", TO: "TSX", V: "TSXV", HK: "HKEX", T: "TSE", AX: "ASX", SS: "SSE", SZ: "SZSE", KS: "KRX" };
+  function tvSymbol(t) {
+    t = String(t).toUpperCase();
+    if (TV_FIXED[t]) return TV_FIXED[t];
+    let m;
+    if ((m = t.match(/^([A-Z0-9]+)-USD$/))) return "CRYPTO:" + m[1] + "USD";
+    if ((m = t.match(/^([A-Z]{6})=X$/))) return "FX_IDC:" + m[1];
+    if ((m = t.match(/^([A-Z]+)=F$/))) return m[1] + "1!";
+    if ((m = t.match(/^(.+)\.([A-Z]{1,2})$/)) && TV_SUFFIX[m[2]]) return TV_SUFFIX[m[2]] + ":" + (m[2] === "HK" ? String(Number(m[1])) : m[1].replace(/-/g, "."));
+    return t.replace(/-/g, ".");
+  }
+  function openCandles(t, name) {
+    const sym = tvSymbol(t);
+    const dark = document.documentElement.dataset.theme === "dark" || (document.documentElement.dataset.theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+    const ov = el("div", "tv-overlay"); ov.setAttribute("role", "dialog"); ov.setAttribute("aria-label", "Gyertyás grafikon: " + (name || t));
+    const box = el("div", "tv-box");
+    const head = el("div", "tv-head");
+    const ttl = el("div"); ttl.append(el("b", null, name || t), el("span", "tv-sym", sym));
+    const open = link("https://www.tradingview.com/chart/?symbol=" + encodeURIComponent(sym), "Megnyitás a TradingView-n ↗");
+    const close = el("button", "pf-ic", "✕ Bezárás"); close.type = "button";
+    head.append(ttl, open, close);
+    const wrap = el("div", "tradingview-widget-container tv-chart");
+    const inner = el("div", "tradingview-widget-container__widget"); inner.style.height = "100%"; inner.style.width = "100%";
+    wrap.append(inner);
+    const note = el("p", "hint tv-note", "A grafikont és az adatokat a TradingView adja. Ha „Invalid symbol” jelenik meg, a fenti linkkel nyisd meg a TradingView-n, vagy a grafikon bal felső sarkában keresd meg az eszközt.");
+    box.append(head, wrap, note);
+    ov.append(box);
+    const shut = () => { ov.remove(); document.removeEventListener("keydown", onKey); document.body.style.overflow = ""; };
+    const onKey = (e) => { if (e.key === "Escape") shut(); };
+    close.addEventListener("click", shut);
+    ov.addEventListener("click", (e) => { if (e.target === ov) shut(); });
+    document.addEventListener("keydown", onKey);
+    document.body.append(ov);
+    document.body.style.overflow = "hidden";
+    // Gyertyás (style 1) napi grafikon; egyelőre rajzeszközök nélkül, csak az időtáv váltható
+    const sc = document.createElement("script");
+    sc.type = "text/javascript"; sc.async = true;
+    sc.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+    sc.textContent = JSON.stringify({
+      autosize: true, symbol: sym, interval: "D", timezone: "Europe/Budapest", theme: dark ? "dark" : "light", style: "1",
+      locale: "hu_HU", allow_symbol_change: true, hide_side_toolbar: true, hide_volume: false, withdateranges: true,
+      details: false, calendar: false, support_host: "https://www.tradingview.com",
+    });
+    sc.onerror = () => { inner.replaceChildren(el("div", "msg", "A TradingView grafikonja itt nem tölthető be. Nyisd meg a fenti linkkel, vagy a GitHubos oldalon.")); };
+    wrap.append(sc);
+    close.focus();
+  }
+
   async function mkRenderDetail() {
     const box = $("mkDetail");
     if (!box || !mkSel) return;
@@ -1657,6 +1728,9 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const close = el("button", "pf-ic", "✕"); close.type = "button"; close.setAttribute("aria-label", "Bezárás");
     close.addEventListener("click", () => { mkSel = null; box.hidden = true; for (const r of document.querySelectorAll(".mk-row.sel")) r.classList.remove("sel"); mkSubscribe(); });
     head.append(title, px, close);
+    const candleBtn = el("button", "btn mk-candle", "Gyertyás grafikon megnyitása"); candleBtn.type = "button";
+    candleBtn.addEventListener("click", () => openCandles(t, info.name));
+    head.append(candleBtn);
     const chips = el("div", "chips");
     const sum = el("div", "pf-chart-sum");
     const chart = el("div", "pf-chart-box");
