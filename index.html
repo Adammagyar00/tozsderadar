@@ -197,7 +197,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .cal-row time { font-family: var(--font-data); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
 
 .wl { display: grid; }
-.wl-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; padding: 8px 0; border-bottom: 1px dashed var(--line); align-items: baseline; }
+.wl-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 2px 10px; padding: 8px 0; border-bottom: 1px dashed var(--line); align-items: baseline; }
 .wl-row:last-child { border-bottom: 0; }
 .wl-name { display: flex; gap: 8px; align-items: baseline; min-width: 0; }
 .tag-c { font-family: var(--font-data); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #8a5a00; background: #fbefd5; padding: 1px 5px; border-radius: 4px; }
@@ -275,6 +275,37 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .pf-ic { background: none; border: 1px solid transparent; border-radius: 6px; color: var(--muted); cursor: pointer; font: inherit; font-size: 14px; line-height: 1; padding: 5px 7px; min-width: 28px; }
 .pf-ic:hover { color: var(--accent); border-color: var(--line); }
 .pf-ic.del:hover, .pf-ic.armed { color: var(--down); border-color: var(--down); }
+.spark { display: inline-block; width: 56px; height: 18px; align-self: center; }
+.spark svg { display: block; overflow: visible; }
+.spark.up { color: var(--up); } .spark.down { color: var(--down); }
+.pf-chart { margin-top: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+.pf-chart-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+.pf-chart-head .k { font-family: var(--font-data); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.pf-chart-head .chips { margin-top: 0; }
+.pf-chart-sum { font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; margin-top: 6px; min-height: 1.4em; }
+.pf-chart-sum .up { color: var(--up); } .pf-chart-sum .down { color: var(--down); }
+.pf-chart-box { position: relative; margin-top: 8px; height: 190px; }
+.pf-chart-box svg { display: block; width: 100%; height: 100%; }
+.pf-chart-box .ax { position: absolute; right: 0; font-family: var(--font-data); font-size: 11px; color: var(--muted); background: var(--surface); padding: 0 2px; }
+.pf-chart-box .tip { position: absolute; top: 0; transform: translateX(-50%); font-family: var(--font-data); font-size: 12px; background: var(--fg); color: var(--surface); padding: 2px 8px; border-radius: 6px; white-space: nowrap; pointer-events: none; }
+.pf-chart-box .msg { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 14px; text-align: center; padding: 0 12px; }
+.al-list { margin-top: 18px; display: grid; gap: 8px; }
+.al-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px 14px; align-items: center; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; }
+.al-row.fired { border-left-color: var(--warn); }
+.al-row .c { font-weight: 600; }
+.al-row .c .sym { margin-right: 6px; }
+.al-row .sub { grid-column: 1 / -1; font-size: 13px; color: var(--muted); }
+.al-row .now { font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.al-form { grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) minmax(0, 1fr) auto; }
+@media (max-width: 760px) { .al-form { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.toasts { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: max(16px, env(safe-area-inset-bottom, 0px)); display: grid; gap: 8px; z-index: 50; max-width: min(380px, calc(100vw - 32px)); }
+.toast { background: var(--fg); color: var(--surface); padding: 12px 14px; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.25); font-size: 14px; display: grid; gap: 2px; }
+.toast b { font-family: var(--font-display); font-size: 16px; }
+.surprise { font-family: var(--font-data); font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 999px; }
+.surprise.up { color: var(--up); background: var(--accent-soft); } .surprise.down { color: var(--down); background: color-mix(in srgb, var(--down) 12%, transparent); } .surprise.flat { color: var(--muted); background: var(--bg); }
+.gh-banner { background: var(--accent-soft); border-bottom: 1px solid var(--line); font-size: 14px; }
+.gh-banner .wrap { padding-block: 10px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+.gh-banner a { font-weight: 600; color: var(--accent); }
 .pf-note { margin-top: 12px; font-size: 13px; color: var(--muted); max-width: 90ch; }
 </style>
 
@@ -301,6 +332,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     <a class="menu-item" href="#" data-view="home"><b>Főoldal</b><span class="d">A nap legfontosabb gazdasági hírei, piacok, jegybankok.</span></a>
     <a class="menu-item" href="#watchlist-news" data-view="wl"><b>Watchlist News<span class="cnt" id="wlNewsCnt" hidden></span></b><span class="d">Csak a figyelőlistád részvényeiről, ETF-jeiről és kriptóiról.</span></a>
     <a class="menu-item" href="#naptar" data-view="cal"><b>Gazdasági naptár<span class="cnt" id="calCnt" hidden></span></b><span class="d">Előre látható események: adatok, kamatdöntések, gyorsjelentések.</span></a>
+    <a class="menu-item" href="#riasztasok" data-view="al"><b>Riasztások<span class="cnt" id="alCnt" hidden></span></b><span class="d">Szóljon az oldal, ha egy ár átlép egy szintet vagy nagyot mozdul.</span></a>
     <a class="menu-item" href="#portfolio" data-view="pf"><b>Portfolio</b><span class="d">A saját kriptóid, részvényeid és ETF-jeid értéke és hozama, élő árakkal.</span></a>
   </div>
 </nav>
@@ -441,7 +473,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const when = q.t ? new Date(q.t * 1000).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
       // 30 percnél régebbi ár: a piac zárva van, ez az utolsó (záró) ár
       const closed = q.t && Date.now() / 1000 - q.t > 1800;
-      const entry = { price: fmtNum(q.price, dec) + (m.unit || ""), change, t: q.t, note: (closed ? "Utolsó (záró) ár, " : "Élő ár, ") + when + " · " + source + (m.yield ? " · változás bázispontban" : ", változás az előző záráshoz") };
+      const chNum = !m.yield && typeof q.prevClose === "number" && q.prevClose ? (q.price / q.prevClose - 1) * 100 : null;
+      const entry = { price: fmtNum(q.price, dec) + (m.unit || ""), change, p: q.price, ch: chNum, t: q.t, note: (closed ? "Utolsó (záró) ár, " : "Élő ár, ") + when + " · " + source + (m.yield ? " · változás bázispontban" : ", változás az előző záráshoz") };
       MKT[m.name] = entry;
       const key = CSS.escape(m.name);
       const vals = document.querySelectorAll('[data-mk="' + key + '"]');
@@ -552,7 +585,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         });
         px.append(" ", del);
       }
-      row.append(name, px);
+      row.append(name, sparkFor(w, q), px);
       if (q && (q.note || q.source)) row.title = [q.note, q.source && "Forrás: " + q.source].filter(Boolean).join(" · ");
       box.append(row);
     }
@@ -608,7 +641,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 
   // Watchlist News: minden kiadásból azok a hírek, amelyek a figyelőlista valamelyik tételéről szólnak
   let wlFilter = null;
-  const view = () => ({ "#watchlist-news": "wl", "#naptar": "cal", "#portfolio": "pf" })[location.hash] || "home";
+  const view = () => ({ "#watchlist-news": "wl", "#naptar": "cal", "#portfolio": "pf", "#riasztasok": "al" })[location.hash] || "home";
   const wlSymSet = () => new Set((watchlist || []).map((w) => String(w.symbol).toUpperCase()));
   const wlSymsOf = (it, syms = wlSymSet()) => (it.symbols || []).map((x) => String(x).toUpperCase()).filter((x) => syms.has(x));
   const isWlItem = (it) => it.category === "Figyelőlista" || wlSymsOf(it).length > 0;
@@ -687,6 +720,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     c.append(sec);
   }
 
+  // Gyorsjelentés: a tény a várakozáshoz képest (a frissítés tölti ki a surprise mezőt)
+  const SURPRISE = { beat: ["up", "✓ jobb a vártnál"], miss: ["down", "✗ gyengébb a vártnál"], inline: ["flat", "= a vártnak megfelelő"], mixed: ["flat", "± vegyes"] };
   function renderCalendarPage() {
     const c = $("content"); c.replaceChildren();
     const lead = el("section", "lead");
@@ -752,6 +787,12 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const u = safeUrl(e.url);
         if (u) sub.append(link(u, e.source || "Forrás")); else if (e.source) sub.append(el("span", null, e.source));
         mid.append(sub);
+        if (e.surprise && SURPRISE[e.surprise]) {
+          const [cls, txt] = SURPRISE[e.surprise];
+          const b = el("span", "surprise " + cls, txt);
+          if (e.surpriseNote) b.title = e.surpriseNote;
+          sub.append(b);
+        }
         if (e.note) mid.append(el("div", "cal-note", e.note));
         const stats = el("dl", "cal-stats");
         for (const [k, lab] of [["actual", "Tény"], ["forecast", "Várható"], ["previous", "Előző"]]) {
@@ -992,6 +1033,22 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const legend = el("div", "pf-legend");
       pfRefs.alloc = alloc; pfRefs.legend = legend;
       body.append(alloc, legend);
+      const chart = el("section", "pf-chart");
+      const ch = el("div", "pf-chart-head");
+      ch.append(el("div", "k", "Portfolio értéke"));
+      const chips = el("div", "chips");
+      for (const [r, t] of [["5d", "1 hét"], ["1mo", "1 hónap"], ["3mo", "3 hónap"], ["1y", "1 év"]]) {
+        const b = el("button", "chip", t); b.type = "button"; b.setAttribute("aria-pressed", String(pfRange === r));
+        b.addEventListener("click", () => { pfRange = r; for (const x of chips.children) x.setAttribute("aria-pressed", String(x === b)); pfRefs.chartBox.replaceChildren(); drawPfChart(); });
+        chips.append(b);
+      }
+      ch.append(chips);
+      pfRefs.chartSum = el("div", "pf-chart-sum");
+      pfRefs.chartBox = el("div", "pf-chart-box");
+      pfRefs.chartNote = el("p", "pf-note");
+      chart.append(ch, pfRefs.chartSum, pfRefs.chartBox, pfRefs.chartNote);
+      body.append(chart);
+      setTimeout(drawPfChart, 0);
       const scroll = el("div", "pf-scroll");
       const table = el("table", "pf-table");
       const thead = el("thead"); const hr = el("tr");
@@ -1114,7 +1171,267 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     for (const n of document.querySelectorAll('[data-sym-chg="' + sym + '"]')) { n.textContent = entry.change; n.className = "chg " + dirOf(entry.change); }
   }
 
-  const PAGE_NAMES = { home: "Főoldal", wl: "Watchlist News", cal: "Gazdasági naptár", pf: "Portfolio" };
+  // ---------- Árfolyam-előzmények (Worker /history: Yahoo; kriptó: CoinGecko), 15 percig tárolva ----------
+  let historyUrl = null;
+  const HIST = {};
+  const RANGE_SEC = { "5d": 7 * 86400, "1mo": 30 * 86400, "3mo": 90 * 86400, "1y": 365 * 86400 };
+  // Egy tétel előzmény-forrása: kriptó a CoinGeckóról, európai ETF a saját tőzsdéjéről dollárba váltva, a többi a Yahoo-ról
+  const histItem = (key, sym, isCrypto, cg) => {
+    sym = String(sym).toUpperCase();
+    if (isCrypto) return cg ? { key, kind: "cg", id: cg } : null;
+    const uc = Object.entries(UCITS).find(([, v]) => v.sym === sym);
+    if (uc) return { key, kind: "y", id: uc[0], ratio: uc[1].ratio };
+    return { key, kind: "y", id: sym.replace(/\./g, "-"), ratio: 1 };
+  };
+  async function histLoad(range, items) {
+    items = items.filter(Boolean);
+    const now = Date.now();
+    const hk = (it) => range + "|" + it.kind + ":" + it.id;
+    const stale = items.filter((it) => !HIST[hk(it)] || now - HIST[hk(it)].at > 15 * 60000);
+    const jobs = [];
+    const ys = [...new Set(stale.filter((it) => it.kind === "y").map((it) => it.id))];
+    if (ys.length && historyUrl) jobs.push(fetch(historyUrl + "?range=" + range + "&y=" + encodeURIComponent(ys.join(","))).then((r) => r.ok ? r.json() : null).then((j) => {
+      for (const [id, v] of Object.entries((j && j.series) || {})) HIST[range + "|y:" + id] = { t: v.t, c: v.c, at: now };
+    }).catch(() => {}));
+    const days = { "5d": 7, "1mo": 30, "3mo": 90, "1y": 365 }[range];
+    for (const id of [...new Set(stale.filter((it) => it.kind === "cg").map((it) => it.id))]) {
+      jobs.push(fetch("https://api.coingecko.com/api/v3/coins/" + encodeURIComponent(id) + "/market_chart?vs_currency=usd&days=" + days).then((r) => r.ok ? r.json() : null).then((j) => {
+        if (j && Array.isArray(j.prices) && j.prices.length) HIST[range + "|cg:" + id] = { t: j.prices.map((x) => Math.floor(x[0] / 1000)), c: j.prices.map((x) => x[1]), at: now };
+      }).catch(() => {}));
+    }
+    await Promise.all(jobs);
+    const out = {};
+    for (const it of items) {
+      const h = HIST[hk(it)];
+      if (h && h.c.length) out[it.key] = { t: h.t, c: it.ratio && it.ratio !== 1 ? h.c.map((v) => v * it.ratio) : h.c };
+    }
+    return out;
+  }
+
+  // Figyelőlista: egyhetes mini árfolyamgörbe minden tétel mellett
+  let SPARK = {};
+  const wlIsCrypto = (w) => String(w.type || "").toLowerCase().startsWith("kripto");
+  async function loadSparks() {
+    if (!watchlist || !watchlist.length) return;
+    SPARK = await histLoad("5d", watchlist.map((w) => histItem(String(w.symbol).toUpperCase(), w.symbol, wlIsCrypto(w), w.cg)));
+    renderWatchlist();
+  }
+  function sparkFor(w, q) {
+    const s = SPARK[String(w.symbol).toUpperCase()];
+    const span = el("span", "spark");
+    if (!s || s.c.length < 2) return span;
+    const c = s.c.slice();
+    const live = LIVE[String(w.symbol).toUpperCase()];
+    if (live && typeof live.p === "number") c.push(live.p);
+    const n = c.length, W = 56, H = 18;
+    const min = Math.min(...c), max = Math.max(...c);
+    const pts = c.map((v, i) => (i * W / (n - 1)).toFixed(1) + "," + (max === min ? H / 2 : H - (v - min) / (max - min) * H).toFixed(1)).join(" ");
+    const pct = (c[n - 1] / c[0] - 1) * 100;
+    span.className = "spark " + (pct >= 0 ? "up" : "down");
+    span.innerHTML = '<svg viewBox="0 -1 ' + W + ' ' + (H + 2) + '" width="' + W + '" height="' + H + '" aria-hidden="true"><polyline points="' + pts + '" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+    span.title = "Elmúlt 1 hét: " + fmtPctN(pct);
+    return span;
+  }
+
+  // Portfolio-grafikon: a jelenlegi mennyiségekkel visszaszámolt érték az idő függvényében
+  let pfRange = "1mo";
+  async function drawPfChart() {
+    const box = pfRefs.chartBox;
+    if (!box || !portfolio.length) return;
+    const range = pfRange;
+    if (!box.firstChild) box.append(el("div", "msg", "Előzmények betöltése…"));
+    const data = await histLoad(range, portfolio.map((h) => histItem(pfId(h), h.symbol, h.type === "crypto", h.cg)));
+    if (range !== pfRange || box !== pfRefs.chartBox) return;
+    const bucket = range === "5d" ? 3600 : 86400;
+    const from = Date.now() / 1000 - RANGE_SEC[range];
+    const have = portfolio.filter((h) => data[pfId(h)]);
+    const missing = portfolio.filter((h) => !data[pfId(h)]).map((h) => h.symbol);
+    box.replaceChildren();
+    pfRefs.chartSum.replaceChildren();
+    pfRefs.chartNote.textContent = "A grafikon a jelenlegi mennyiségekkel számol visszamenőleg; a vételek és eladások időpontját nem ismeri." + (missing.length ? " Előzmény nélkül kimaradt: " + missing.join(", ") + "." : "");
+    if (!have.length) { box.append(el("div", "msg", historyUrl || portfolio.some((h) => h.type === "crypto") ? "Ehhez az időszakhoz nincs elérhető előzmény." : "Az előzmények a GitHubos oldalon érhetők el.")); return; }
+    const times = [...new Set(have.flatMap((h) => data[pfId(h)].t.filter((t) => t >= from).map((t) => Math.floor(t / bucket) * bucket)))].sort((a, b) => a - b);
+    if (times.length < 2) { box.append(el("div", "msg", "Ehhez az időszakhoz még kevés az adat.")); return; }
+    const vals = times.map(() => 0);
+    for (const h of have) {
+      const s = data[pfId(h)];
+      let j = 0, last = s.c[0];
+      times.forEach((T, i) => {
+        while (j < s.t.length && Math.floor(s.t[j] / bucket) * bucket <= T) { last = s.c[j]; j++; }
+        vals[i] += last * h.qty;
+      });
+    }
+    // Az utolsó pont a mostani, élő érték (csak az előzménnyel rendelkező tételekből)
+    const nowVal = have.reduce((a, h) => { const q = pfQuote(h); return a + (q ? q.p * h.qty : 0); }, 0);
+    if (nowVal > 0) { times.push(Math.floor(Date.now() / 1000)); vals.push(nowVal); }
+    const n = vals.length, W = 600, H = 180, pad = 6;
+    const min = Math.min(...vals), max = Math.max(...vals);
+    const x = (i) => (i * W / (n - 1));
+    const y = (v) => max === min ? H / 2 : pad + (H - 2 * pad) * (1 - (v - min) / (max - min));
+    const line = vals.map((v, i) => x(i).toFixed(1) + "," + y(v).toFixed(1)).join(" ");
+    const up = vals[n - 1] >= vals[0];
+    const col = up ? "var(--up)" : "var(--down)";
+    box.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" aria-hidden="true">'
+      + '<polygon points="0,' + H + ' ' + line + ' ' + W + ',' + H + '" fill="' + col + '" fill-opacity="0.10"/>'
+      + '<polyline points="' + line + '" fill="none" stroke="' + col + '" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>'
+      + '<line class="cur" x1="0" x2="0" y1="0" y2="' + H + '" stroke="var(--muted)" stroke-width="1" vector-effect="non-scaling-stroke" visibility="hidden"/></svg>';
+    const axMax = el("span", "ax", fmtMoney(max)); axMax.style.top = "0";
+    const axMin = el("span", "ax", fmtMoney(min)); axMin.style.bottom = "0";
+    const tip = el("span", "tip"); tip.hidden = true;
+    box.append(axMax, axMin, tip);
+    const fmtT = (t) => new Date(t * 1000).toLocaleString("hu-HU", bucket === 3600 ? { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" } : { year: "numeric", month: "short", day: "numeric" });
+    const diff = vals[n - 1] - vals[0];
+    const sum = pfRefs.chartSum;
+    sum.append(fmtMoney(vals[0]) + " → " + fmtMoney(vals[n - 1]) + "  ");
+    sum.append(el("span", up ? "up" : "down", fmtMoney(diff, true) + " (" + fmtPctN(diff / vals[0] * 100) + ")"));
+    const cur = box.querySelector(".cur");
+    const move = (ev) => {
+      const r = box.getBoundingClientRect();
+      const i = Math.max(0, Math.min(n - 1, Math.round((ev.clientX - r.left) / r.width * (n - 1))));
+      const px = x(i) / W * r.width;
+      cur.setAttribute("x1", x(i)); cur.setAttribute("x2", x(i)); cur.setAttribute("visibility", "visible");
+      tip.hidden = false; tip.textContent = fmtT(times[i]) + " · " + fmtMoney(vals[i]);
+      tip.style.left = Math.max(70, Math.min(r.width - 70, px)) + "px";
+    };
+    box.onpointermove = move; box.onpointerdown = move;
+    box.onpointerleave = () => { tip.hidden = true; cur.setAttribute("visibility", "hidden"); };
+  }
+
+  // ---------- Riasztások: ár fölé / alá, vagy nagy napi mozgás; csak ebben a böngészőben ----------
+  const AL_KEY = "tozsderadar-alerts-v1";
+  let alerts = (() => { try { const a = JSON.parse(localStorage.getItem(AL_KEY) || "[]"); return Array.isArray(a) ? a.filter((x) => x && x.key && ["above", "below", "move"].includes(x.type) && x.value > 0) : []; } catch (e) { return []; } })();
+  const saveAlerts = () => { try { localStorage.setItem(AL_KEY, JSON.stringify(alerts)); } catch (e) { /* privát mód */ } };
+  const AL_TYPES = { above: "ár fölé megy", below: "ár alá megy", move: "napi változás eléri (±%)" };
+  // Egy jelölés vagy futószalag-tétel aktuális ára és napi %-os változása
+  const quoteOf = (key) => {
+    const l = LIVE[String(key).toUpperCase()];
+    if (l && typeof l.p === "number") return { p: l.p, ch: l.ch, price: l.price };
+    const m = MKT[key];
+    if (m && typeof m.p === "number") return { p: m.p, ch: m.ch, price: m.price };
+    return null;
+  };
+  const alertOptions = () => {
+    const out = new Map();
+    for (const w of watchlist || []) out.set(String(w.symbol).toUpperCase(), w.name);
+    for (const h of portfolio) if (!out.has(h.symbol)) out.set(h.symbol, h.name || h.symbol);
+    for (const m of MARKET_DEF || []) if ((m.y || m.fh || m.cg) && !out.has(m.name)) out.set(m.name, m.group);
+    return out;
+  };
+  const alertText = (a) => a.type === "move" ? "napi változás ≥ ±" + fmtNum(a.value, 2) + "%" : (a.type === "above" ? "≥ " : "≤ ") + fmtNum(a.value, a.value >= 100 ? 2 : 4);
+  let toastBox = null;
+  function toast(title, text) {
+    if (!toastBox) { toastBox = el("div", "toasts"); toastBox.setAttribute("role", "status"); document.body.append(toastBox); }
+    const t = el("div", "toast"); t.append(el("b", null, title), el("span", null, text));
+    toastBox.append(t);
+    setTimeout(() => t.remove(), 12000);
+  }
+  function beep() {
+    try {
+      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+      const o = ctx.createOscillator(), g = ctx.createGain();
+      o.frequency.value = 880; g.gain.setValueAtTime(0.15, ctx.currentTime); g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.6);
+      o.connect(g); g.connect(ctx.destination); o.start(); o.stop(ctx.currentTime + 0.6);
+    } catch (e) { /* hang nélkül */ }
+  }
+  function checkAlerts() {
+    let fired = false;
+    for (const a of alerts) {
+      if (a.firedAt) continue;
+      const q = quoteOf(a.key);
+      if (!q) continue;
+      const hit = a.type === "above" ? q.p >= a.value : a.type === "below" ? q.p <= a.value : (typeof q.ch === "number" && Math.abs(q.ch) >= a.value);
+      if (!hit) continue;
+      a.firedAt = new Date().toISOString();
+      a.firedPrice = q.price;
+      fired = true;
+      const msg = a.key + ": " + alertText(a) + " — most " + q.price + (typeof q.ch === "number" ? " (" + fmtPctN(q.ch) + ")" : "");
+      toast("Riasztás · TőzsdeRadar", msg);
+      beep();
+      try { if ("Notification" in window && Notification.permission === "granted") new Notification("TőzsdeRadar riasztás", { body: msg, icon: "icon.svg", tag: a.id }); } catch (e) { /* nem támogatott */ }
+    }
+    if (fired) { saveAlerts(); renderMenu(); if (view() === "al") updateAlerts(); }
+  }
+  function renderAlertsPage() {
+    const c = $("content");
+    if (c.querySelector("#alForm")) { updateAlerts(); return; }
+    c.replaceChildren();
+    const lead = el("section", "lead");
+    lead.append(el("div", "lead-eyebrow", "Árfigyelés"), el("h2", null, "Riasztások"));
+    lead.append(el("p", null, "Állíts be szinteket: az oldal szól (felugró üzenettel, hanggal és ha engeded, böngészőértesítéssel), amikor egy ár átlépi őket vagy nagyot mozdul. A riasztás akkor működik, amikor az oldal nyitva van valamelyik böngészőfülön; a beállítások csak ebben a böngészőben tárolódnak."));
+    c.append(lead);
+    const form = el("form", "pf-form al-form"); form.id = "alForm"; form.noValidate = true;
+    form.innerHTML = '<label><span>Jelölés</span><input id="alKey" list="alOpts" placeholder="pl. BTC, NVDA, EUR/HUF" autocomplete="off" spellcheck="false"></label>'
+      + '<label><span>Feltétel</span><select id="alType"><option value="above">' + AL_TYPES.above + '</option><option value="below">' + AL_TYPES.below + '</option><option value="move">' + AL_TYPES.move + '</option></select></label>'
+      + '<label><span>Érték</span><input id="alVal" inputmode="decimal" placeholder="pl. 75000 vagy 5" autocomplete="off"></label>'
+      + '<div class="acts"><button class="btn" type="submit">Hozzáadás</button></div><datalist id="alOpts"></datalist>';
+    c.append(form);
+    const bar = el("div", "pf-bar");
+    const msg = el("p", "hint"); msg.id = "alMsg"; msg.setAttribute("role", "status");
+    bar.append(msg);
+    if ("Notification" in window && Notification.permission !== "granted") {
+      const nb = el("button", "btn-ghost", "Böngészőértesítés engedélyezése"); nb.type = "button";
+      nb.addEventListener("click", async () => { try { const r = await Notification.requestPermission(); msg.textContent = r === "granted" ? "Az értesítések engedélyezve." : "Az értesítést a böngésző nem engedte; a felugró üzenet és a hang így is működik."; if (r === "granted") nb.remove(); } catch (e) { msg.textContent = "Ez a böngésző nem támogatja az értesítéseket."; } });
+      bar.append(nb);
+    }
+    c.append(bar);
+    const list = el("div", "al-list"); list.id = "alList"; c.append(list);
+    const opts = form.querySelector("#alOpts");
+    for (const [k, v] of alertOptions()) { const o = el("option"); o.value = k; o.label = v || ""; opts.append(o); }
+    const typeSel = form.querySelector("#alType");
+    form.addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const raw = $("alKey").value.trim();
+      const known = [...alertOptions().keys()].find((k) => k.toUpperCase() === raw.toUpperCase());
+      const key = known || raw.toUpperCase();
+      const value = parseNum($("alVal").value);
+      if (!key) { msg.textContent = "Add meg, mit figyeljen (például BTC, NVDA vagy EUR/HUF)."; return; }
+      if (!(value > 0)) { msg.textContent = "Az érték legyen nullánál nagyobb szám."; return; }
+      const q = quoteOf(key);
+      alerts.push({ id: Date.now().toString(36), key, type: typeSel.value, value, created: new Date().toISOString() });
+      saveAlerts();
+      msg.textContent = "Riasztás beállítva: " + key + ", " + alertText(alerts[alerts.length - 1]) + "." + (q ? " Most: " + q.price + "." : " Ehhez most nincs élő ár; amint lesz, figyeli.");
+      $("alVal").value = "";
+      updateAlerts(); renderMenu(); checkAlerts();
+    });
+    list.addEventListener("click", (ev) => {
+      const b = ev.target.closest("button[data-act]");
+      if (!b) return;
+      const a = alerts.find((x) => x.id === b.dataset.id);
+      if (!a) return;
+      if (b.dataset.act === "del") alerts = alerts.filter((x) => x !== a);
+      else { delete a.firedAt; delete a.firedPrice; }
+      saveAlerts(); updateAlerts(); renderMenu(); checkAlerts();
+    });
+    updateAlerts();
+  }
+  let alSig = "";
+  function updateAlerts() {
+    const list = $("alList");
+    if (!list) return;
+    const sig = JSON.stringify(alerts);
+    if (sig !== alSig || !list.firstChild) {
+      alSig = sig;
+      list.replaceChildren();
+      if (!alerts.length) { list.append(el("p", "muted", "Még nincs riasztás. Fent állíthatsz be egyet.")); return; }
+      for (const a of alerts) {
+        const row = el("div", "al-row" + (a.firedAt ? " fired" : ""));
+        const cnd = el("div", "c"); cnd.append(el("span", "sym", a.key), alertText(a));
+        const now = el("span", "now"); now.dataset.key = a.key;
+        const ctl = el("div", "ctl");
+        if (a.firedAt) { const r = el("button", "pf-ic", "Újra"); r.type = "button"; r.dataset.act = "rearm"; r.dataset.id = a.id; ctl.append(r); }
+        const d = el("button", "pf-ic del", "✕"); d.type = "button"; d.dataset.act = "del"; d.dataset.id = a.id; d.setAttribute("aria-label", "Törlés: " + a.key); ctl.append(d);
+        row.append(cnd, now, ctl);
+        row.append(el("div", "sub", a.firedAt ? "Teljesült: " + new Date(a.firedAt).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) + (a.firedPrice ? " · akkor: " + a.firedPrice : "") : "Aktív · " + AL_TYPES[a.type]));
+        list.append(row);
+      }
+    }
+    for (const n of list.querySelectorAll(".now")) {
+      const q = quoteOf(n.dataset.key);
+      n.textContent = q ? "most " + q.price + (typeof q.ch === "number" ? " " + fmtPctN(q.ch) : "") : "nincs élő ár";
+    }
+  }
+
+  const PAGE_NAMES = { home: "Főoldal", wl: "Watchlist News", cal: "Gazdasági naptár", pf: "Portfolio", al: "Riasztások" };
   function renderMenu() {
     const v = view();
     $("pageName").textContent = PAGE_NAMES[v];
@@ -1123,6 +1440,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     $("wlNewsCnt").hidden = !n; $("wlNewsCnt").textContent = String(n);
     const m = upcoming().length;
     $("calCnt").hidden = !m; $("calCnt").textContent = String(m);
+    const a = alerts.filter((x) => !x.firedAt).length;
+    $("alCnt").hidden = !a; $("alCnt").textContent = String(a);
   }
 
   function render() {
@@ -1135,6 +1454,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     if (d) { $("edition").textContent = fmtDate(d.date); renderTape(d); } else $("tapeBand").hidden = true;
     if (v === "cal") { renderCalendarPage(); return; }
     if (v === "pf") { renderPortfolioPage(); return; }
+    if (v === "al") { renderAlertsPage(); return; }
     if (!d) { renderEmpty("Még nincs kiadás", "Az első összefoglaló a következő reggeli frissítéskor jelenik meg."); return; }
     if (v === "wl") renderWatchlistNews(); else renderDigest(d);
   }
@@ -1201,6 +1521,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       liveAt = new Date();
       renderWatchlist();
       updatePortfolio();
+      checkAlerts();
     } catch (e) { /* hálózat nélkül marad a napi pillanatkép */ }
   }
 
@@ -1415,6 +1736,9 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (!cfg || !cfg.wsUrl) return;
       quoteUrl = cfg.wsUrl.replace(/^wss:/, "https:").replace(/\/ws$/, "/quote");
       marketUrl = quoteUrl.replace(/\/quote$/, "/market");
+      historyUrl = quoteUrl.replace(/\/quote$/, "/history");
+      loadSparks();
+      if (view() === "pf") drawPfChart();
       pollMarket();
       if (portfolio.length) pollPortfolio();
       let ws;
@@ -1466,6 +1790,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       pend.clear();
       renderWatchlist();
       updatePortfolio();
+      checkAlerts();
+      if (view() === "al") updateAlerts();
     }, 1000);
     const loadRemote = async () => {
       try {
@@ -1478,7 +1804,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
         loadPrices();
-        if (first) { first = false; await loadMarketDef(); pollLive(); setInterval(pollLive, 60000); setInterval(pollPortfolio, 60000); setInterval(pollMarket, 60000); connectBybit(); connectStocks(); }
+        if (first) {
+          first = false; await loadMarketDef(); pollLive(); connectBybit(); connectStocks();
+          setInterval(pollLive, 60000); setInterval(pollPortfolio, 60000); setInterval(pollMarket, 60000);
+          setInterval(() => { loadSparks(); if (view() === "pf") drawPfChart(); }, 15 * 60000);
+        }
       } catch (e) {
         if (first) { watchlist = []; renderEmpty("Az összefoglaló most nem tölthető be", "Nem sikerült betölteni az adatokat. Töltsd újra az oldalt."); renderWatchlist(); }
       }
@@ -1500,6 +1830,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     pollPortfolio();
     setInterval(pollLive, 60000);
     setInterval(pollPortfolio, 60000);
+    setInterval(checkAlerts, 5000);
+    loadSparks();
     onPfChange = pollPortfolio;
     return;
   }
@@ -1510,6 +1842,13 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     n.append("Az élő, másodperces árak a GitHubos oldalon látszanak: ");
     n.append(link("https://adammagyar00.github.io/tozsderadar/", "adammagyar00.github.io/tozsderadar"));
     n.hidden = false;
+    // Feltűnő sáv a lap tetején: itt nincsenek élő árak, grafikonok és riasztások
+    const ban = el("div", "gh-banner");
+    const w = el("div", "wrap");
+    w.append(el("span", null, "Ez a claude.ai-os előnézet: élő árak, grafikonok és riasztások nélkül."));
+    w.append(link("https://adammagyar00.github.io/tozsderadar/", "A teljes, élő TőzsdeRadar megnyitása →"));
+    ban.append(w);
+    $("tapeBand").after(ban);
   }
 
   $("exportBtn").addEventListener("click", async () => {

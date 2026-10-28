@@ -76,6 +76,41 @@ async function market(url, origin) {
   });
 }
 
+// Árfolyam-előzmények a grafikonokhoz (figyelőlista-görbék, portfolio-grafikon)
+const RANGES = { "5d": "60m", "1mo": "1d", "3mo": "1d", "1y": "1d" };
+const historyCache = new Map();
+
+async function yahooHistory(ticker, range) {
+  const key = ticker + "|" + range;
+  const hit = historyCache.get(key);
+  if (hit && Date.now() - hit.at < 15 * 60000) return hit.h;
+  const res = await fetch("https://query1.finance.yahoo.com/v8/finance/chart/" + encodeURIComponent(ticker) + "?range=" + range + "&interval=" + RANGES[range], {
+    headers: { "User-Agent": "Mozilla/5.0 (TozsdeRadar)" },
+  });
+  if (!res.ok) return hit ? hit.h : null;
+  const j = await res.json();
+  const r = j && j.chart && j.chart.result && j.chart.result[0];
+  const ts = (r && r.timestamp) || [];
+  const cl = (r && r.indicators && r.indicators.quote && r.indicators.quote[0] && r.indicators.quote[0].close) || [];
+  const t = [], c = [];
+  ts.forEach((x, i) => { if (typeof cl[i] === "number") { t.push(x); c.push(+cl[i].toFixed(6)); } });
+  const h = t.length ? { t, c, currency: r.meta && r.meta.currency } : null;
+  historyCache.set(key, { h, at: Date.now() });
+  return h;
+}
+
+async function history(url, origin) {
+  const range = RANGES[url.searchParams.get("range")] ? url.searchParams.get("range") : "5d";
+  const tickers = [...new Set((url.searchParams.get("y") || "").toUpperCase().split(","))].filter((s) => Y_RE.test(s)).slice(0, MAX_MARKET);
+  const out = {};
+  await Promise.all(tickers.map(async (t) => {
+    try { const h = await yahooHistory(t, range); if (h) out[t] = h; } catch { /* a többi jelölés attól még menjen */ }
+  }));
+  return new Response(JSON.stringify({ source: "Yahoo Finance", range, series: out }), {
+    headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": origin, vary: "Origin", "cache-control": "max-age=300" },
+  });
+}
+
 const allowed = (origin) => ALLOWED_ORIGINS.includes(origin) || origin.startsWith("http://localhost");
 
 export default {
@@ -85,6 +120,11 @@ export default {
       const origin = request.headers.get("Origin") || "";
       if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
       return quotes(url, env, origin);
+    }
+    if (url.pathname === "/history") {
+      const origin = request.headers.get("Origin") || "";
+      if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
+      return history(url, origin);
     }
     if (url.pathname === "/market") {
       const origin = request.headers.get("Origin") || "";
