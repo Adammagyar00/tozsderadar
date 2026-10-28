@@ -77,34 +77,49 @@ async function market(url, origin) {
 }
 
 // Árfolyam-előzmények a grafikonokhoz (figyelőlista-görbék, portfolio-grafikon)
-const RANGES = { "1d": "5m", "5d": "60m", "1mo": "1d", "3mo": "1d", "1y": "1d" };
+const RANGES = { "1d": "5m", "5d": "60m", "1mo": "1d", "3mo": "1d", "6mo": "1d", "1y": "1d", "2y": "1d", "5y": "1wk", "10y": "1wk" };
+// Gyertyás grafikonhoz külön idősík is kérhető
+const INTERVALS = new Set(["5m", "15m", "60m", "1d", "1wk"]);
 const historyCache = new Map();
 
-async function yahooHistory(ticker, range) {
-  const key = ticker + "|" + range;
+async function yahooHistory(ticker, range, iv, ohlc) {
+  iv = INTERVALS.has(iv) ? iv : RANGES[range];
+  const key = ticker + "|" + range + "|" + iv + "|" + (ohlc ? 1 : 0);
   const hit = historyCache.get(key);
   if (hit && Date.now() - hit.at < 15 * 60000) return hit.h;
-  const res = await fetch("https://query1.finance.yahoo.com/v8/finance/chart/" + encodeURIComponent(ticker) + "?range=" + range + "&interval=" + RANGES[range], {
+  const res = await fetch("https://query1.finance.yahoo.com/v8/finance/chart/" + encodeURIComponent(ticker) + "?range=" + range + "&interval=" + iv, {
     headers: { "User-Agent": "Mozilla/5.0 (TozsdeRadar)" },
   });
   if (!res.ok) return hit ? hit.h : null;
   const j = await res.json();
   const r = j && j.chart && j.chart.result && j.chart.result[0];
   const ts = (r && r.timestamp) || [];
-  const cl = (r && r.indicators && r.indicators.quote && r.indicators.quote[0] && r.indicators.quote[0].close) || [];
-  const t = [], c = [];
-  ts.forEach((x, i) => { if (typeof cl[i] === "number") { t.push(x); c.push(+cl[i].toFixed(6)); } });
-  const h = t.length ? { t, c, currency: r.meta && r.meta.currency } : null;
+  const qq = (r && r.indicators && r.indicators.quote && r.indicators.quote[0]) || {};
+  const cl = qq.close || [];
+  const t = [], c = [], o = [], hi = [], lo = [], v = [];
+  ts.forEach((x, i) => {
+    if (typeof cl[i] !== "number") return;
+    t.push(x); c.push(+cl[i].toFixed(6));
+    if (ohlc) {
+      o.push(+(qq.open && typeof qq.open[i] === "number" ? qq.open[i] : cl[i]).toFixed(6));
+      hi.push(+(qq.high && typeof qq.high[i] === "number" ? qq.high[i] : cl[i]).toFixed(6));
+      lo.push(+(qq.low && typeof qq.low[i] === "number" ? qq.low[i] : cl[i]).toFixed(6));
+      v.push(qq.volume && typeof qq.volume[i] === "number" ? qq.volume[i] : 0);
+    }
+  });
+  const h = t.length ? (ohlc ? { t, o, h: hi, l: lo, c, v, currency: r.meta && r.meta.currency } : { t, c, currency: r.meta && r.meta.currency }) : null;
   historyCache.set(key, { h, at: Date.now() });
   return h;
 }
 
 async function history(url, origin) {
   const range = RANGES[url.searchParams.get("range")] ? url.searchParams.get("range") : "5d";
+  const iv = url.searchParams.get("iv") || "";
+  const ohlc = url.searchParams.get("ohlc") === "1";
   const tickers = [...new Set((url.searchParams.get("y") || "").toUpperCase().split(","))].filter((s) => Y_RE.test(s)).slice(0, MAX_MARKET);
   const out = {};
   await Promise.all(tickers.map(async (t) => {
-    try { const h = await yahooHistory(t, range); if (h) out[t] = h; } catch { /* a többi jelölés attól még menjen */ }
+    try { const h = await yahooHistory(t, range, iv, ohlc); if (h) out[t] = h; } catch { /* a többi jelölés attól még menjen */ }
   }));
   return new Response(JSON.stringify({ source: "Yahoo Finance", range, series: out }), {
     headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": origin, vary: "Origin", "cache-control": "max-age=300" },

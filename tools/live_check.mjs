@@ -31,4 +31,9 @@ try {
   const j = await r.json();
   console.log("::notice::/history 1d: " + Object.entries(j.series || {}).map(([k, v]) => k + "=" + v.c.length).join(", "));
 } catch (e) { console.log("::notice::/history 1d hiba: " + e.message); }
+try {
+  const r = await fetch(base + "/history?range=2y&iv=1d&ohlc=1&y=DFEN.DE,VUAA.L", { headers: { Origin: "https://adammagyar00.github.io" } });
+  const j = await r.json();
+  console.log("::notice::/history ohlc: " + Object.entries(j.series || {}).map(([k, v]) => k + "=" + v.c.length + " gyertya, utolsó O/H/L/C " + [v.o, v.h, v.l, v.c].map((a) => a && a[a.length - 1]).join("/")).join(" | "));
+} catch (e) { console.log("::notice::/history ohlc hiba: " + e.message); }
 process.exit(0);
