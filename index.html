@@ -388,6 +388,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .gh-banner { background: var(--accent-soft); border-bottom: 1px solid var(--line); font-size: 14px; }
 .gh-banner .wrap { padding-block: 10px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
 .gh-banner a { font-weight: 600; color: var(--accent); }
+.stale-banner { background: color-mix(in srgb, var(--warn) 16%, var(--surface)); color: var(--fg); }
 .pf-note { margin-top: 12px; font-size: 13px; color: var(--muted); max-width: 90ch; }
 .lwc-cmp { margin-top: 0; }
 .cmp-chip { background: var(--surface); }
@@ -1599,14 +1600,15 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 
   // ---------- Riasztások: ár fölé / alá, vagy nagy napi mozgás; csak ebben a böngészőben ----------
   const AL_KEY = "tozsderadar-alerts-v1";
-  let alerts = (() => { try { const a = JSON.parse(localStorage.getItem(AL_KEY) || "[]"); return Array.isArray(a) ? a.filter((x) => x && x.key && ["above", "below", "cross", "move"].includes(x.type) && x.value > 0).map((x) => { delete x.firedAt; return x; }) : []; } catch (e) { return []; } })();
+  let alerts = (() => { try { const a = JSON.parse(localStorage.getItem(AL_KEY) || "[]"); return Array.isArray(a) ? a.filter((x) => x && x.key && ["above", "below", "cross", "move", "pct", "trail", "hl52", "line"].includes(x.type) && x.value > 0).map((x) => { delete x.firedAt; return x; }) : []; } catch (e) { return []; } })();
   const saveAlerts = () => { syncKick(); try { localStorage.setItem(AL_KEY, JSON.stringify(alerts)); } catch (e) { /* privát mód */ } };
-  const AL_TYPES = { above: "ár fölé megy", below: "ár alá megy", cross: "átlépi (bármelyik irányba)", move: "napi változás eléri (±%)" };
+  const AL_TYPES = { above: "ár fölé megy", below: "ár alá megy", cross: "átlépi (bármelyik irányba)", move: "napi változás eléri (±%)", pct: "X%-ot mozdul a mostani árhoz képest", trail: "követő stop: a csúcstól X%-ot esik", hl52: "új 52 hetes csúcs vagy mélypont", line: "trendvonalat átlépi" };
+  const lineAt = (l, ts) => Array.isArray(l) && l[2] !== l[0] ? l[1] + (l[3] - l[1]) * (ts - l[0]) / (l[2] - l[0]) : null;
   // Egy jelölés vagy futószalag-tétel aktuális ára és napi %-os változása
   const quoteOf = (key) => {
     if (String(key).startsWith("Y:")) {
       const t = key.slice(2), y = YQ[t];
-      return y && typeof y.p === "number" ? { p: y.p, ch: yPct(y), price: curFmt(y.p, y.cur) } : null;
+      return y && typeof y.p === "number" ? { p: y.p, ch: yPct(y), price: curFmt(y.p, y.cur), hi52: y.hi52, lo52: y.lo52 } : null;
     }
     const l = LIVE[String(key).toUpperCase()];
     if (l && typeof l.p === "number") return { p: l.p, ch: l.ch, price: l.price };
@@ -1614,7 +1616,14 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     if (m && typeof m.p === "number") return { p: m.p, ch: m.ch, price: m.price };
     return null;
   };
-  const alertText = (a) => a.type === "move" ? "napi változás ≥ ±" + fmtNum(a.value, 2) + "%" : (a.type === "above" ? "≥ " : "≤ ") + fmtNum(a.value, a.value >= 100 ? 2 : 4);
+  const alertText = (a) => {
+    if (a.type === "move") return "napi változás ≥ ±" + fmtNum(a.value, 2) + "%";
+    if (a.type === "pct") return "±" + fmtNum(a.value, 2) + "% elmozdulás" + (a.base ? " (bázis: " + fmtNum(a.rb || a.base, (a.rb || a.base) >= 100 ? 2 : 4) + ")" : "");
+    if (a.type === "trail") return "követő stop " + fmtNum(a.value, 2) + "%" + (a.peak || a.base ? " (csúcs: " + fmtNum(a.peak || a.base, (a.peak || a.base) >= 100 ? 2 : 4) + ")" : "");
+    if (a.type === "hl52") return "új 52 hetes csúcs vagy mélypont";
+    if (a.type === "line") { const l = lineAt(a.line, Date.now() / 1000); return "trendvonal átlépése" + (l ? " (most " + fmtNum(l, l >= 100 ? 2 : 4) + ")" : ""); }
+    return (a.type === "above" ? "≥ " : a.type === "below" ? "≤ " : "átlépi: ") + fmtNum(a.value, a.value >= 100 ? 2 : 4);
+  };
   let toastBox = null;
   function toast(title, text) {
     if (!toastBox) { toastBox = el("div", "toasts"); toastBox.setAttribute("role", "status"); document.body.append(toastBox); }
@@ -1632,6 +1641,46 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   }
   // A riasztás nem kapcsol ki: minden alkalommal szól, amikor az ár átlépi a szintet (a beállított irányba),
   // de ugyanaz a riasztás legfeljebb percenként egyszer, hogy a szint körüli ingadozás ne zúdítson ránk értesítéseket
+  // Egy riasztás kiértékelése (a szerveren ugyanez fut a Telegramhoz). A riasztás maga tárolja az állapotát.
+  // Visszaad: null (nem szól) vagy az üzenethez fűzendő szöveg.
+  function evalAlert(a, q, now) {
+    const p = q.p;
+    if (a.type === "pct") {
+      const base = a.rb || a.base;
+      if (!base) { a.rb = p; return null; }
+      const d = (p / base - 1) * 100;
+      if (Math.abs(d) < a.value) return null;
+      a.rb = p;
+      return (d > 0 ? " ↑ " : " ↓ ") + fmtPctN(d) + " a " + fmtNum(base, base >= 100 ? 2 : 4) + " szinthez képest";
+    }
+    if (a.type === "trail") {
+      a.peak = Math.max(a.peak || a.base || p, p);
+      if (p > a.peak * (1 - a.value / 100)) return null;
+      a.off = true; // egyszeri: a stop teljesült
+      return " ↓ a csúcstól (" + fmtNum(a.peak, a.peak >= 100 ? 2 : 4) + ") " + fmtPctN((p / a.peak - 1) * 100) + "; a riasztás kikapcsolt";
+    }
+    if (a.type === "hl52") {
+      const day = todayIso();
+      a.hiR = Math.max(a.hiR || a.hi || q.hi52 || p, q.hi52 || 0);
+      a.loR = Math.min(a.loR || a.lo || q.lo52 || p, q.lo52 || Infinity);
+      if (p > a.hiR) { a.hiR = p; if (a.hiDay !== day) { a.hiDay = day; return " ⬆ új 52 hetes csúcs"; } }
+      if (p < a.loR) { a.loR = p; if (a.loDay !== day) { a.loDay = day; return " ⬇ új 52 hetes mélypont"; } }
+      return null;
+    }
+    const level = a.type === "line" ? lineAt(a.line, now / 1000) : a.value;
+    const metric = a.type === "move" ? (typeof q.ch === "number" ? Math.abs(q.ch) : null) : p;
+    if (metric == null || level == null) return null;
+    const side = metric >= level ? "hi" : "lo";
+    const prev = a.side;
+    if (prev === side) return null;
+    a.side = side;
+    if (!prev) return null; // első mérés: csak megjegyezzük, melyik oldalon áll
+    const hit = a.type === "above" || a.type === "move" ? side === "hi" : a.type === "below" ? side === "lo" : true;
+    if (!hit || (a.lastFired && now - Date.parse(a.lastFired) < 60000)) return null;
+    return a.type === "move" ? "" : (side === "hi" ? " ↑ fölé ment" : " ↓ alá ment") + (a.type === "line" ? " (a vonal most " + fmtNum(level, level >= 100 ? 2 : 4) + ")" : "");
+  }
+  // A riasztás nem kapcsol ki (a követő stop kivételével): minden alkalommal szól, amikor teljesül,
+  // de ugyanaz a riasztás legfeljebb percenként egyszer, hogy a szint körüli ingadozás ne zúdítson ránk értesítéseket
   function checkAlerts() {
     let changed = false, fired = false;
     const now = Date.now();
@@ -1639,20 +1688,14 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (a.off) continue;
       const q = quoteOf(a.key);
       if (!q) continue;
-      const metric = a.type === "move" ? (typeof q.ch === "number" ? Math.abs(q.ch) : null) : q.p;
-      if (metric == null) continue;
-      const side = metric >= a.value ? "hi" : "lo";
-      const prev = a.side;
-      if (prev === side) continue;
-      a.side = side; changed = true;
-      if (!prev) continue; // első mérés: csak megjegyezzük, melyik oldalon áll
-      const hit = a.type === "above" || a.type === "move" ? side === "hi" : a.type === "below" ? side === "lo" : true;
-      if (!hit || (a.lastFired && now - Date.parse(a.lastFired) < 60000)) continue;
+      const before = JSON.stringify(a);
+      const dir = evalAlert(a, q, now);
+      if (JSON.stringify(a) !== before) changed = true;
+      if (dir == null) continue;
       a.lastFired = new Date(now).toISOString();
       a.firedPrice = q.price;
       a.count = (a.count || 0) + 1;
-      fired = true;
-      const dir = a.type === "move" ? "" : side === "hi" ? " ↑ fölé ment" : " ↓ alá ment";
+      changed = true; fired = true;
       const msg = (a.label || a.key) + ": " + alertText(a) + dir + " — most " + q.price + (typeof q.ch === "number" ? " (" + fmtPctN(q.ch) + ")" : "");
       toast("Riasztás · TőzsdeRadar", msg);
       beep();
@@ -1734,7 +1777,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const r = await fetch(mkMarketUrl + "?y=" + encodeURIComponent(need.slice(i, i + 40).join(",")));
         if (!r.ok) continue;
         const j = await r.json();
-        for (const [t, q] of Object.entries(j.quotes || {})) if (!YQ[t] || (q.t || 0) >= (YQ[t].t || 0)) YQ[t] = { p: q.price, prev: q.prevClose, t: q.t, cur: q.currency };
+        for (const [t, q] of Object.entries(j.quotes || {})) if (!YQ[t] || (q.t || 0) >= (YQ[t].t || 0)) YQ[t] = { ...(YQ[t] || {}), p: q.price, prev: q.prevClose, t: q.t, cur: q.currency, hi52: q.hi52, lo52: q.lo52 };
       } catch (e) { /* marad üresen, amíg az adatfolyam nem hoz árat */ }
     }
     mkUpdateLive();
@@ -1933,7 +1976,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         sc.onerror = () => { inner.replaceChildren(el("div", "msg", "A TradingView grafikonja itt nem tölthető be. Válts a Saját grafikonra.")); };
         wrap.append(sc);
       } else {
-        note.textContent = "Saját grafikon élő adatokból (a forrást jobbra fent látod), a TradingView nyílt forrású grafikonmotorjával. Rajz: válaszd ki az eszközt, és kattints a grafikonra (trendvonal, Fibonacci, téglalap: két pont; csatorna: két pont az alapvonalra, a harmadik a szélessége). Egy rajzra kattintva (koppintva) kijelölöd, húzással mozgatod, a sarkain lévő pöttyökkel átméretezed, jobb gombbal (telefonon hosszan nyomva) beállítod vagy törlöd; üres helyen jobb gombbal riasztást tehetsz az árra. Long/Short pozíció: első kattintás a belépő, a második a cél; a stopot a pöttyével állítod. Mérés: két kattintás. A 🧲 Mágnes a gyertyák szélső értékeihez igazít. A rajzok megmaradnak, és szinkronnal a többi eszközödön is látszanak.";
+        note.textContent = "Saját grafikon élő adatokból (a forrást jobbra fent látod), a TradingView nyílt forrású grafikonmotorjával. Rajz: válaszd ki az eszközt, és kattints a grafikonra (trendvonal, Fibonacci, téglalap: két pont; csatorna: két pont az alapvonalra, a harmadik a szélessége). Egy rajzra kattintva (koppintva) kijelölöd, húzással mozgatod, a sarkain lévő pöttyökkel átméretezed, jobb gombbal (telefonon hosszan nyomva) beállítod vagy törlöd; üres helyen jobb gombbal riasztást tehetsz az árra. Long/Short pozíció: első kattintás a belépő, a második a cél; a stopot a pöttyével állítod. Mérés: két kattintás. A 🧲 Mágnes a gyertyák szélső értékeihez igazít. A ⚙ gombbal az indikátorok periódusait állítod; egy trendvonalra jobb gombbal riasztást tehetsz. A rajzok megmaradnak, és szinkronnal a többi eszközödön is látszanak.";
         cleanup = ownChart(body, t, dark);
       }
     };
@@ -1955,9 +1998,14 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     document.head.append(sc);
   }));
   const LWC_TF = [["5p", "5d", "5m"], ["15p", "1mo", "15m"], ["1 óra", "3mo", "60m"], ["1 nap", "2y", "1d"], ["1 hét", "10y", "1wk"]];
-  const LWC_IND = [["ma20", "MA 20"], ["ma50", "MA 50"], ["ema20", "EMA 20"], ["bb", "Bollinger"], ["vol", "Volumen"], ["rsi", "RSI 14"], ["macd", "MACD"]];
+  const LWC_IND = [["ma20", "MA"], ["ma50", "MA"], ["ema20", "EMA"], ["bb", "Bollinger"], ["vwap", "VWAP"], ["vol", "Volumen"], ["rsi", "RSI"], ["macd", "MACD"], ["stoch", "Stoch"], ["atr", "ATR"]];
+  // Az indikátorok periódusai (a ⚙ gombbal állíthatók)
+  const IND_PER = { ma20: ["ma1", 20, "1. mozgóátlag (MA)"], ma50: ["ma2", 50, "2. mozgóátlag (MA)"], ema20: ["ema", 20, "Exponenciális átlag (EMA)"], bb: ["bb", 20, "Bollinger-szalag"], rsi: ["rsi", 14, "RSI"], stoch: ["stoch", 14, "Stochastic %K"], atr: ["atr", 14, "ATR"] };
   const LWC_KEY = "tozsderadar-chart-v1";
-  const lwcPrefs = (() => { try { const o = JSON.parse(localStorage.getItem(LWC_KEY) || "{}"); return { tf: o.tf || "1 nap", ind: Array.isArray(o.ind) ? o.ind : ["vol"], magnet: !!o.magnet }; } catch (e) { return { tf: "1 nap", ind: ["vol"], magnet: false }; } })();
+  const lwcPrefs = (() => { try { const o = JSON.parse(localStorage.getItem(LWC_KEY) || "{}"); return { tf: o.tf || "1 nap", ind: Array.isArray(o.ind) ? o.ind : ["vol"], magnet: !!o.magnet, per: o.per && typeof o.per === "object" ? o.per : {} }; } catch (e) { return { tf: "1 nap", ind: ["vol"], magnet: false, per: {} }; } })();
+  const perOf = (k) => { const d = IND_PER[k]; if (!d) return null; const v = Number((lwcPrefs.per || {})[d[0]]); return v >= 2 && v <= 400 ? Math.round(v) : d[1]; };
+  const indLabel = (k, label) => IND_PER[k] ? label + " " + perOf(k) : label;
+  const atrArr = (h, l, c, n) => { let a = null; return c.map((_, i) => { const tr = i ? Math.max(h[i] - l[i], Math.abs(h[i] - c[i - 1]), Math.abs(l[i] - c[i - 1])) : h[i] - l[i]; if (i < n - 1) { a = (a || 0) + tr / n; return null; } if (i === n - 1) { a = (a || 0) + tr / n; return a; } a = (a * (n - 1) + tr) / n; return a; }); };
   const saveLwcPrefs = () => { syncKick(); try { localStorage.setItem(LWC_KEY, JSON.stringify(lwcPrefs)); } catch (e) { /* privát mód */ } };
   const drawKey = (t) => "tozsderadar-draw-" + t;
   // Rajzok eszközönként: { items: [{ id, kind: h|tl|fib|rect|ch|txt, pts: [[idő, ár], ...], dp?, text?, style? }] }
@@ -2006,7 +2054,28 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const shift = (ts) => ts - new Date(ts * 1000).getTimezoneOffset() * 60; // a grafikon helyi (budapesti) időt mutasson
     const chip = (g, label, pressed, on) => { const b = el("button", "chip", label); b.type = "button"; b.setAttribute("aria-pressed", String(pressed)); b.addEventListener("click", () => on(b)); g.append(b); return b; };
     for (const [label] of LWC_TF) chip(tfg, label, lwcPrefs.tf === label, (b) => { lwcPrefs.tf = label; saveLwcPrefs(); for (const x of tfg.children) x.setAttribute("aria-pressed", String(x === b)); build(); });
-    for (const [k, label] of LWC_IND) chip(indg, label, lwcPrefs.ind.includes(k), (b) => { lwcPrefs.ind = lwcPrefs.ind.includes(k) ? lwcPrefs.ind.filter((x) => x !== k) : [...lwcPrefs.ind, k]; saveLwcPrefs(); b.setAttribute("aria-pressed", String(lwcPrefs.ind.includes(k))); build(); });
+    const indChips = {};
+    for (const [k, label] of LWC_IND) indChips[k] = chip(indg, indLabel(k, label), lwcPrefs.ind.includes(k), (b) => { lwcPrefs.ind = lwcPrefs.ind.includes(k) ? lwcPrefs.ind.filter((x) => x !== k) : [...lwcPrefs.ind, k]; saveLwcPrefs(); b.setAttribute("aria-pressed", String(lwcPrefs.ind.includes(k))); build(); });
+    // ⚙ Indikátor-beállítások: a periódusok
+    chip(indg, "⚙", false, (b) => {
+      for (const m2 of body.querySelectorAll(".lwc-props")) m2.remove();
+      const menu = el("div", "lwc-props"); menu.append(el("div", "lp-title", "Indikátorok beállításai"));
+      const inputs = {};
+      for (const [k, [key, def, name]] of Object.entries(IND_PER)) {
+        const r = el("label", "lp-row"); r.append(el("span", "lp-lbl", name));
+        const inp = el("input", "set-link"); inp.type = "number"; inp.min = "2"; inp.max = "400"; inp.value = String(perOf(k)); inp.style.maxWidth = "90px";
+        inputs[key] = [inp, def]; r.append(inp); menu.append(r);
+      }
+      const ok = el("button", "lp-act", "Alkalmaz"); ok.type = "button";
+      ok.addEventListener("click", () => { lwcPrefs.per = {}; for (const [key, [inp, def]] of Object.entries(inputs)) { const v = Math.round(Number(inp.value)); if (v >= 2 && v <= 400 && v !== def) lwcPrefs.per[key] = v; } saveLwcPrefs(); for (const [k, label] of LWC_IND) indChips[k].textContent = indLabel(k, label); menu.remove(); build(); });
+      const rs = el("button", "lp-act", "Alapértékek"); rs.type = "button";
+      rs.addEventListener("click", () => { for (const [inp, def] of Object.values(inputs)) inp.value = String(def); });
+      menu.append(ok, rs);
+      const br = b.getBoundingClientRect(), sr = body.getBoundingClientRect();
+      body.append(menu);
+      menu.style.left = Math.max(4, Math.min(br.left - sr.left, sr.width - menu.offsetWidth - 4)) + "px"; menu.style.top = (br.bottom - sr.top + 6) + "px";
+      setTimeout(() => { const off = (e2) => { if (!menu.contains(e2.target) && e2.target !== b) { menu.remove(); document.removeEventListener("mousedown", off); document.removeEventListener("touchstart", off); } }; document.addEventListener("mousedown", off); document.addEventListener("touchstart", off); }, 0);
+    }).title = "Indikátorok periódusai";
     const modeBtns = {};
     const setMode = (m) => { mode = mode === m ? null : m; pending = null; pts = []; cur = null; drawOverlay(); for (const [k, b] of Object.entries(modeBtns)) b.setAttribute("aria-pressed", String(mode === k)); body.classList.toggle("lwc-drawing", !!mode); };
     modeBtns.h = chip(drg, "― Vízszintes vonal", false, () => setMode("h"));
@@ -2064,7 +2133,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       main.replaceChildren();
       const LW = window.LightweightCharts;
       const intraday = iv !== "1d" && iv !== "1wk";
-      const opts = (h) => ({ autoSize: true, layout: { background: { type: "solid", color: col.bg }, textColor: col.muted, fontFamily: "JetBrains Mono, monospace" }, grid: { vertLines: { color: col.line }, horzLines: { color: col.line } }, rightPriceScale: { borderColor: col.line }, timeScale: { borderColor: col.line, timeVisible: intraday, secondsVisible: false }, crosshair: { mode: 0 }, localization: { locale: "hu-HU" }, height: h });
+      const opts = (h) => ({ autoSize: true, layout: { background: { type: "solid", color: col.bg }, textColor: col.muted, fontFamily: "JetBrains Mono, monospace" }, grid: { vertLines: { color: col.line }, horzLines: { color: col.line } }, rightPriceScale: { borderColor: col.line, minimumWidth: 86 }, timeScale: { borderColor: col.line, timeVisible: intraday, secondsVisible: false }, crosshair: { mode: 0 }, localization: { locale: "hu-HU" }, height: h });
       const ch = LW.createChart(main, opts());
       charts.push(ch);
       // A Yahoo néha hibás csúcsot/mélypontot ad egy-egy gyertyánál: a testtől 15%-nál messzebb nyúló kanócot levágjuk
@@ -2074,6 +2143,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       });
       // azonos időbélyegek kiszűrése (a Lightweight Charts szigorúan növekvő időt kér)
       bars = bars.filter((b, i) => !i || b.time > bars[i - 1].time);
+      const volBy = new Map(sr.t.map((x, i) => [shift(x), (sr.v && sr.v[i]) || 0]));
       // Második ellenőrzés (Yahoo): ha egy kanóc sokszorosa a környező gyertyák szokásos ingásának,
       // hibás adatpontnak vesszük, és a környezet tipikus méretére vágjuk
       if (src === "yahoo" && bars.length > 10) {
@@ -2117,54 +2187,75 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         })();
       });
       const closes = bars.map((b) => b.close), times = bars.map((b) => b.time);
-      const lineData = (arr) => arr.map((v, i) => v == null ? null : { time: times[i], value: v }).filter(Boolean);
+      // hiányzó értéknél üres pont (whitespace), hogy az alsó panelek sorszámai egyezzenek a főgrafikonéval
+      const lineData = (arr) => arr.map((v, i) => v == null ? { time: times[i] } : { time: times[i], value: v });
       const addLine = (arr, color, w = 1.5) => { const s2 = ch.addLineSeries({ color, lineWidth: w, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false }); s2.setData(lineData(arr)); };
       const on = (k) => lwcPrefs.ind.includes(k);
-      if (on("ma20")) addLine(smaArr(closes, 20), "#e0a84a");
-      if (on("ma50")) addLine(smaArr(closes, 50), "#4f74c9");
-      if (on("ema20")) addLine(emaArr(closes, 20), "#9a63c4");
+      const vols = bars.map((b) => volBy.get(b.time) || 0);
+      const highs = bars.map((b) => b.high), lows = bars.map((b) => b.low);
+      if (on("ma20")) addLine(smaArr(closes, perOf("ma20")), "#e0a84a");
+      if (on("ma50")) addLine(smaArr(closes, perOf("ma50")), "#4f74c9");
+      if (on("ema20")) addLine(emaArr(closes, perOf("ema20")), "#9a63c4");
       if (on("bb")) {
-        const m = smaArr(closes, 20);
-        const sd = closes.map((_, i) => i < 19 ? null : Math.sqrt(closes.slice(i - 19, i + 1).reduce((a, x) => a + (x - m[i]) ** 2, 0) / 20));
+        const n = perOf("bb"), m = smaArr(closes, n);
+        const sd = closes.map((_, i) => i < n - 1 ? null : Math.sqrt(closes.slice(i - n + 1, i + 1).reduce((a, x) => a + (x - m[i]) ** 2, 0) / n));
         addLine(m, col.muted, 1); addLine(m.map((x, i) => x == null ? null : x + 2 * sd[i]), "#4f74c9", 1); addLine(m.map((x, i) => x == null ? null : x - 2 * sd[i]), "#4f74c9", 1);
+      }
+      // VWAP: napon belüli idősíkon naponta újrainduló, napi/heti grafikonon az első gyertyától számolt (horgonyzott)
+      if (on("vwap") && vols.some((v) => v > 0)) {
+        let pv = 0, vv = 0, day = null;
+        addLine(bars.map((b, i) => { const d = Math.floor(b.time / 86400); if (intraday && d !== day) { pv = 0; vv = 0; day = d; } pv += (b.high + b.low + b.close) / 3 * vols[i]; vv += vols[i]; return vv ? pv / vv : null; }), "#d99a1e", 1.5);
       }
       if (on("vol")) {
         const vs = ch.addHistogramSeries({ priceScaleId: "vol", priceFormat: { type: "volume" }, lastValueVisible: false, priceLineVisible: false });
         ch.priceScale("vol").applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
-        vs.setData(bars.map((b, i) => ({ time: b.time, value: sr.v[i] || 0, color: b.close >= b.open ? col.up + "55" : col.down + "55" })));
+        vs.setData(bars.map((b, i) => ({ time: b.time, value: vols[i], color: b.close >= b.open ? col.up + "55" : col.down + "55" })));
         volSeries = vs;
       }
-      // Alsó panel: RSI és/vagy MACD, az idősíkja a főgrafikonnal együtt mozog
+      // Alsó panelek: RSI, MACD, Stochastic, ATR — mindegyik külön sávban, az idősíkjuk a főgrafikonnal együtt mozog
       sub.replaceChildren();
-      sub.hidden = !(on("rsi") || on("macd"));
-      if (!sub.hidden) {
-        const ch2 = LW.createChart(sub, opts());
-        charts.push(ch2);
-        if (on("rsi")) {
-          const rs = ch2.addLineSeries({ color: "#9a63c4", lineWidth: 1.5, priceLineVisible: false, lastValueVisible: true, title: "RSI" });
-          rs.setData(lineData(rsiArr(closes)));
-          rs.createPriceLine({ price: 70, color: col.down, lineWidth: 1, lineStyle: 2, axisLabelVisible: false });
-          rs.createPriceLine({ price: 30, color: col.up, lineWidth: 1, lineStyle: 2, axisLabelVisible: false });
-        }
-        if (on("macd")) {
+      const subs = ["rsi", "macd", "stoch", "atr"].filter(on);
+      sub.hidden = !subs.length;
+      sub.style.height = subs.length ? (110 * subs.length + 20) + "px" : "";
+      const group = [ch];
+      for (const k of subs) {
+        const pane = el("div"); pane.style.height = "110px"; pane.style.position = "relative"; sub.append(pane);
+        const ch2 = LW.createChart(pane, opts(110));
+        // a dátumsor csak a legalsó panelen látszik
+        if (k !== subs[subs.length - 1]) ch2.applyOptions({ timeScale: { visible: false } });
+        charts.push(ch2); group.push(ch2);
+        const guide = (s2, lv, c) => s2.createPriceLine({ price: lv, color: c, lineWidth: 1, lineStyle: 2, axisLabelVisible: false });
+        if (k === "rsi") {
+          const rs = ch2.addLineSeries({ color: "#9a63c4", lineWidth: 1.5, priceLineVisible: false, lastValueVisible: true, title: "RSI " + perOf("rsi") });
+          rs.setData(lineData(rsiArr(closes, perOf("rsi")))); guide(rs, 70, col.down); guide(rs, 30, col.up);
+        } else if (k === "macd") {
           const e12 = emaArr(closes, 12), e26 = emaArr(closes, 26);
           const macd = closes.map((_, i) => e12[i] == null || e26[i] == null ? null : e12[i] - e26[i]);
           const firstIdx = macd.findIndex((x) => x != null);
           const sig = macd.map(() => null);
-          if (firstIdx >= 0) { const e = emaArr(macd.slice(firstIdx), 9); e.forEach((x, k) => { sig[firstIdx + k] = x; }); }
-          const ps = on("rsi") ? "macd" : "right";
-          const hs = ch2.addHistogramSeries({ priceScaleId: ps, lastValueVisible: false, priceLineVisible: false });
-          hs.setData(macd.map((x, i) => x == null || sig[i] == null ? null : { time: times[i], value: x - sig[i], color: x - sig[i] >= 0 ? col.up + "88" : col.down + "88" }).filter(Boolean));
-          const ml = ch2.addLineSeries({ priceScaleId: ps, color: col.acc, lineWidth: 1.5, priceLineVisible: false, lastValueVisible: false, title: "MACD" }); ml.setData(lineData(macd));
-          const sl = ch2.addLineSeries({ priceScaleId: ps, color: "#e0a84a", lineWidth: 1, priceLineVisible: false, lastValueVisible: false }); sl.setData(lineData(sig));
-          if (ps === "macd") ch2.priceScale("macd").applyOptions({ scaleMargins: { top: 0.55, bottom: 0.02 } });
+          if (firstIdx >= 0) { const e = emaArr(macd.slice(firstIdx), 9); e.forEach((x, j) => { sig[firstIdx + j] = x; }); }
+          const hs = ch2.addHistogramSeries({ lastValueVisible: false, priceLineVisible: false });
+          hs.setData(macd.map((x, i) => x == null || sig[i] == null ? { time: times[i] } : { time: times[i], value: x - sig[i], color: x - sig[i] >= 0 ? col.up + "88" : col.down + "88" }));
+          ch2.addLineSeries({ color: col.acc, lineWidth: 1.5, priceLineVisible: false, lastValueVisible: false, title: "MACD" }).setData(lineData(macd));
+          ch2.addLineSeries({ color: "#e0a84a", lineWidth: 1, priceLineVisible: false, lastValueVisible: false }).setData(lineData(sig));
+        } else if (k === "stoch") {
+          const n = perOf("stoch");
+          const kk = closes.map((c, i) => { if (i < n - 1) return null; const hh = Math.max(...highs.slice(i - n + 1, i + 1)), ll = Math.min(...lows.slice(i - n + 1, i + 1)); return hh === ll ? 50 : (c - ll) / (hh - ll) * 100; });
+          const first = kk.findIndex((x) => x != null), dd = kk.map(() => null);
+          if (first >= 0) smaArr(kk.slice(first), 3).forEach((x, j) => { dd[first + j] = x; });
+          const ks = ch2.addLineSeries({ color: col.acc, lineWidth: 1.5, priceLineVisible: false, lastValueVisible: true, title: "Stoch %K " + n });
+          ks.setData(lineData(kk)); guide(ks, 80, col.down); guide(ks, 20, col.up);
+          ch2.addLineSeries({ color: "#e0a84a", lineWidth: 1, priceLineVisible: false, lastValueVisible: false, title: "%D" }).setData(lineData(dd));
+        } else if (k === "atr") {
+          ch2.addLineSeries({ color: "#d9534f", lineWidth: 1.5, priceLineVisible: false, lastValueVisible: true, title: "ATR " + perOf("atr") }).setData(lineData(atrArr(highs, lows, closes, perOf("atr"))));
         }
+      }
+      if (group.length > 1) {
         let syncing = false;
-        const link2 = (a, b) => a.timeScale().subscribeVisibleLogicalRangeChange((r) => { if (syncing || !r) return; syncing = true; b.timeScale().setVisibleLogicalRange(r); syncing = false; });
-        link2(ch, ch2); link2(ch2, ch);
+        for (const a of group) a.timeScale().subscribeVisibleLogicalRangeChange((r) => { if (syncing || !r) return; syncing = true; for (const b of group) if (b !== a) b.timeScale().setVisibleLogicalRange(r); syncing = false; });
       }
       // Riasztások ezen az eszközön: pontozott narancs vonal 🔔 felirattal
-      const assetAlerts = () => alerts.filter((a) => a.key === "Y:" + t && a.type !== "move");
+      const assetAlerts = () => alerts.filter((a) => a.key === "Y:" + t && ["above", "below", "cross"].includes(a.type));
       for (const a of assetAlerts()) candles.createPriceLine({ price: a.value, color: a.off ? col.muted : C("--warn"), lineWidth: 1, lineStyle: 1, axisLabelVisible: true, title: a.off ? "🔕" : "🔔" });
       const addAlert = (price) => {
         const info = YINFO[t] || {};
@@ -2172,6 +2263,19 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         saveAlerts(); renderMenu(); mkSubscribe(); checkAlerts();
         if ($("alList")) { alSig = ""; updateAlerts(); }
         toast("Riasztás beállítva", pairLabel(t) + ": szól, amikor az ár átlépi a " + fmtNum(price, Math.abs(price) >= 1 ? 2 : 4) + " szintet (bármelyik irányba).");
+      };
+      // Trendvonal-riasztás: a vonal meghosszabbítását figyeli (UTC másodpercekkel tárolva, hogy a szerver is számolhasson vele)
+      const unshift = (ts) => ts + new Date(ts * 1000).getTimezoneOffset() * 60;
+      const addLineAlert = (it) => {
+        const [[t1, p1], [t2, p2]] = it.pts;
+        const line = [unshift(t1), p1, unshift(t2), p2];
+        const lvl = lineAt(line, Date.now() / 1000);
+        if (!(lvl > 0)) { toast("Nem állítható be", "A trendvonal meghosszabbítása most nulla alatti árat adna."); return; }
+        const info = YINFO[t] || {};
+        alerts.push({ id: Date.now().toString(36), key: "Y:" + t, label: (info.name && info.name !== t ? info.name + " (" + t + ")" : t), type: "line", line, value: +lvl.toPrecision(8), created: new Date().toISOString() });
+        saveAlerts(); renderMenu(); mkSubscribe(); checkAlerts();
+        if ($("alList")) { alSig = ""; updateAlerts(); }
+        toast("Trendvonal-riasztás beállítva", pairLabel(t) + ": szól, amikor az ár átlépi a vonalat (most " + fp(lvl) + "). A vonal meghosszabbítását figyeli, akkor is, ha a rajz rövidebb.");
       };
       const pointAt = (ev) => {
         const r = main.getBoundingClientRect();
@@ -2203,6 +2307,25 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const stepT = bars.length > 1 ? bars[bars.length - 1].time - bars[bars.length - 2].time : 86400;
       const idxOf = (tm) => { let lo = 0, hi = bars.length - 1; if (tm >= bars[hi].time) return hi + Math.round((tm - bars[hi].time) / stepT); if (tm <= bars[0].time) return Math.round((tm - bars[0].time) / stepT); while (lo < hi) { const m = (lo + hi) >> 1; if (bars[m].time < tm) lo = m + 1; else hi = m; } return lo; };
       const timeOf = (ix) => ix < 0 ? bars[0].time + ix * stepT : ix >= bars.length ? bars[bars.length - 1].time + (ix - bars.length + 1) * stepT : bars[ix].time;
+      // Idősík-váltás után a rajz időpontja nem mindig esik egy gyertyára (pl. 1 órás rajz a napi grafikonon):
+      // ilyenkor a két szomszédos gyertya közé, arányosan tesszük
+      const fracIdx = (tm) => {
+        const n = bars.length;
+        if (tm >= bars[n - 1].time) return n - 1 + (tm - bars[n - 1].time) / stepT;
+        if (tm <= bars[0].time) return (tm - bars[0].time) / stepT;
+        let lo = 0, hi = n - 1;
+        while (lo < hi) { const m = (lo + hi) >> 1; if (bars[m].time < tm) lo = m + 1; else hi = m; }
+        if (bars[lo].time === tm) return lo;
+        const a = bars[lo - 1].time, b = bars[lo].time;
+        return lo - 1 + (tm - a) / (b - a);
+      };
+      const xOf = (tm) => {
+        const f = fracIdx(tm), ts = ch.timeScale();
+        if (Number.isInteger(f) && f >= 0 && f < bars.length) return ts.timeToCoordinate(bars[f].time);
+        // a grafikonmotor csak egész sorszámot vált át, a köztes helyet a két szomszéd között számoljuk
+        const L = Math.floor(f), x0 = ts.logicalToCoordinate(L), x1 = ts.logicalToCoordinate(L + 1);
+        return x0 == null || x1 == null ? null : x0 + (x1 - x0) * (f - L);
+      };
       // Egy rajz képernyő-geometriája (rajzoláshoz és a kattintás eltalálásához)
       function geo(it, X, Y, W) {
         const P = it.pts.map(([tm, pr]) => [it.kind === "h" ? 0 : X(tm), Y(pr)]);
@@ -2231,7 +2354,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const inPoly = (px, py, pts4) => { let c = false; for (let a = 0, b = pts4.length - 1; a < pts4.length; b = a++) { const [xa, ya] = pts4[a], [xb, yb] = pts4[b]; if ((ya > py) !== (yb > py) && px < (xb - xa) * (py - ya) / (yb - ya) + xa) c = !c; } return c; };
       // Melyik rajz van az adott pontban (a legfelső)
       function hitTest(x, y, tol = 6) {
-        const ts = ch.timeScale(), W = main.clientWidth, X = (tm) => ts.timeToCoordinate(tm), Y = (p) => candles.priceToCoordinate(p);
+        const W = main.clientWidth, X = xOf, Y = (p) => candles.priceToCoordinate(p);
         for (let k = draw.items.length - 1; k >= 0; k--) {
           const it = draw.items[k], g = geo(it, X, Y, W);
           if (!g) continue;
@@ -2251,7 +2374,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const handleAt = (x, y, tol) => {
         const it = sel && draw.items.find((d) => d.id === sel);
         if (!it || !HANDLES[it.kind]) return null;
-        const ts = ch.timeScale(), X = (tm) => ts.timeToCoordinate(tm), Y = (p) => candles.priceToCoordinate(p);
+        const X = xOf, Y = (p) => candles.priceToCoordinate(p);
         for (const h of HANDLES[it.kind]) { const hp = handlePos(it, h, X, Y); if (hp && Math.hypot(hp[0] - x, hp[1] - y) <= tol) return { it, h }; }
         return null;
       };
@@ -2269,7 +2392,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!candles) return;
         svg.replaceChildren();
         const ts = ch.timeScale(), W = main.clientWidth;
-        const X = (tm) => ts.timeToCoordinate(tm), Y = (p) => candles.priceToCoordinate(p);
+        const X = xOf, Y = (p) => candles.priceToCoordinate(p);
         for (const it of draw.items) {
           const g = geo(it, X, Y, W), s2 = sty(it);
           if (!g) continue;
@@ -2550,6 +2673,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
           e2.addEventListener("click", () => { const tx = (prompt("Megjegyzés a grafikonra:", it.text || "") || "").trim().slice(0, 80); if (tx) { it.text = tx; saveDraw(t, draw); drawOverlay(); } });
           menu.append(e2);
         }
+        if (it.kind === "tl") {
+          const a3 = el("button", "lp-act", "🔔 Riasztás erre a trendvonalra"); a3.type = "button";
+          a3.addEventListener("click", () => { closeMenus(); addLineAlert(it); });
+          menu.append(a3);
+        }
         if (it.kind === "h") { const a2 = el("button", "lp-act", "🔔 Riasztás erre a szintre: " + fp(it.pts[0][1])); a2.type = "button"; a2.addEventListener("click", () => { closeMenus(); addAlert(it.pts[0][1]); build(); }); menu.append(a2); }
         if (it.kind === "rect") {
           const hi = Math.max(it.pts[0][1], it.pts[1][1]), lo = Math.min(it.pts[0][1], it.pts[1][1]);
@@ -2667,20 +2795,30 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     }
     // Riasztás erre az eszközre
     const form = el("form", "pf-form mk-al-form"); form.noValidate = true;
-    form.innerHTML = '<label><span>Riasztás, ha</span><select class="mkType"><option value="above">' + AL_TYPES.above + '</option><option value="below">' + AL_TYPES.below + '</option><option value="cross">' + AL_TYPES.cross + '</option><option value="move">' + AL_TYPES.move + '</option></select></label>'
+    form.innerHTML = '<label><span>Riasztás, ha</span><select class="mkType"><option value="above">' + AL_TYPES.above + '</option><option value="below">' + AL_TYPES.below + '</option><option value="cross">' + AL_TYPES.cross + '</option><option value="move">' + AL_TYPES.move + '</option><option value="pct">' + AL_TYPES.pct + '</option><option value="trail">' + AL_TYPES.trail + '</option><option value="hl52">' + AL_TYPES.hl52 + '</option></select></label>'
       + '<label><span>Érték</span><input class="mkVal" inputmode="decimal" autocomplete="off" placeholder="pl. ' + (YQ[t] && YQ[t].p ? fmtNum(YQ[t].p * 1.05, YQ[t].p >= 1 ? 2 : 4) : "100") + '"></label>'
       + '<div class="acts"><button class="btn" type="submit">Riasztás beállítása</button></div>';
     const fmsg = el("p", "hint");
+    form.querySelector(".mkType").addEventListener("change", (e) => {
+      const v = e.target.value, inp = form.querySelector(".mkVal");
+      inp.disabled = v === "hl52";
+      inp.placeholder = v === "hl52" ? "nem kell" : v === "pct" || v === "trail" || v === "move" ? "pl. 5 (%)" : "pl. " + (YQ[t] && YQ[t].p ? fmtNum(YQ[t].p * 1.05, YQ[t].p >= 1 ? 2 : 4) : "100");
+    });
     form.addEventListener("submit", (ev) => {
       ev.preventDefault();
       const type = form.querySelector(".mkType").value;
-      const value = parseNum(form.querySelector(".mkVal").value);
-      if (!(value > 0)) { fmsg.textContent = "Az érték legyen nullánál nagyobb szám."; return; }
-      alerts.push({ id: Date.now().toString(36), key: "Y:" + t, label: (info.name && info.name !== t ? info.name + " (" + t + ")" : t), type, value, created: new Date().toISOString() });
+      const value = type === "hl52" ? 1 : parseNum(form.querySelector(".mkVal").value);
+      if (!(value > 0)) { fmsg.textContent = type === "pct" || type === "trail" ? "Add meg a százalékot (pl. 5)." : "Az érték legyen nullánál nagyobb szám."; return; }
+      const y = YQ[t];
+      if ((type === "pct" || type === "trail" || type === "hl52") && !(y && y.p > 0)) { fmsg.textContent = "Még nincs élő ár ehhez az eszközhöz; várj pár másodpercet, és próbáld újra."; return; }
+      const na0 = { id: Date.now().toString(36), key: "Y:" + t, label: (info.name && info.name !== t ? info.name + " (" + t + ")" : t), type, value, created: new Date().toISOString() };
+      if (type === "pct" || type === "trail") na0.base = y.p;
+      if (type === "hl52") { na0.hi = Math.max(y.hi52 || y.p, y.p); na0.lo = Math.min(y.lo52 || y.p, y.p); }
+      alerts.push(na0);
       saveAlerts(); renderMenu(); updateAlerts(); mkSubscribe(); checkAlerts();
       const na = alerts[alerts.length - 1];
       const where = na.side ? (na.type === "move" ? (na.side === "hi" ? " A napi változás most is efölött van; akkor szól, ha visszaesik alá, majd újra eléri." : "") : (na.side === "hi" ? " Az ár most a szint fölött van." : " Az ár most a szint alatt van.")) : "";
-      fmsg.textContent = "Beállítva: " + alertText(na) + "." + where + " Minden alkalommal szól, amikor az ár átlépi a szintet (ugyanaz a riasztás percenként legfeljebb egyszer).";
+      fmsg.textContent = "Beállítva: " + alertText(na) + "." + ({ pct: " Szól, amikor az ár ennyit mozdul a mostanihoz képest, majd az új árhoz méri a következőt.", trail: " Követi az eddigi csúcsot; ha onnan ennyit esik, szól egyszer, és kikapcsol.", hl52: " Szól, ha az ár új 52 hetes csúcsra vagy mélypontra ér (irányonként naponta legfeljebb egyszer)." }[na.type] || where + " Minden alkalommal szól, amikor az ár átlépi a szintet (ugyanaz a riasztás percenként legfeljebb egyszer).");
       form.querySelector(".mkVal").value = "";
       for (const r of document.querySelectorAll('.mk-row[data-y="' + CSS.escape(t) + '"] .mk-name')) if (!r.querySelector(".bell")) r.append(el("span", "bell", "🔔"));
     });
@@ -2870,8 +3008,10 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const syncMeta = (() => { try { const o = JSON.parse(lsGet(SYNC_META_KEY) || "{}"); return { t: o.t || {}, last: o.last || {} }; } catch (e) { return { t: {}, last: {} }; } })();
   const saveMeta = () => lsPut(SYNC_META_KEY, JSON.stringify(syncMeta));
   const settings = (() => { try { return { summary: true, ...JSON.parse(lsGet(SET_KEY) || "{}") }; } catch (e) { return { summary: true }; } })();
+  // Telegram-értesítések kapcsolói (alapból mind be van kapcsolva)
+  const TG_OPTS = [["summary", "Esti összefoglaló (21:00)"], ["weekly", "Heti összefoglaló (vasárnap 20:00)"], ["events", "Reggeli események (7:30): makroadatok, gyorsjelentések"], ["news", "Fontos hírek a tételeidről"], ["stale", "Figyelmeztetés, ha elakad a frissítés"]];
   const saveSettings = () => { lsPut(SET_KEY, JSON.stringify(settings)); syncKick(); };
-  const AL_CFG = ["id", "key", "label", "type", "value", "off", "created"];
+  const AL_CFG = ["id", "key", "label", "type", "value", "off", "created", "base", "hi", "lo", "line"];
   // A szerveroldali riasztáshoz és összefoglalóhoz: melyik Yahoo-jelölés tartozik egy tételhez
   const ucitsOf = (sym) => (Object.entries(UCITS).find(([, v]) => v.sym === sym) || [])[0] || null;
   const alertY = (a) => {
@@ -2889,7 +3029,12 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const v = {
       portfolio, favs: favs || [], chart: lwcPrefs, pfcur: pfCur, settings,
       alerts: alerts.map((a) => ({ ...Object.fromEntries(AL_CFG.filter((k) => a[k] !== undefined).map((k) => [k, a[k]])), y: alertY(a) })),
-      srv: { pf: portfolio.map((h) => ({ symbol: h.symbol, qty: h.qty, type: h.type, y: pfY(h) })), favs: (favs || []).map((f) => f.symbol), summary: settings.summary !== false },
+      srv: {
+        pf: portfolio.map((h) => ({ symbol: h.symbol, qty: h.qty, type: h.type, y: pfY(h) })), favs: (favs || []).map((f) => f.symbol),
+        // a hírek és a naptár jelölései (BTC, NVDA, VUAA…): portfolio, kedvencek, figyelőlista
+        syms: [...new Set([...portfolio.map((h) => h.symbol), ...(favs || []).map((f) => { const u = f.symbol.toUpperCase(); return (UCITS[u] || {}).sym || u.replace(/-USD$/, "").split(".")[0]; }), ...(watchlist || []).map((w) => String(w.symbol).toUpperCase())])],
+        ...Object.fromEntries(TG_OPTS.map(([k]) => [k, settings[k] !== false])),
+      },
     };
     try {
       for (let i = 0; i < localStorage.length; i++) {
@@ -2965,6 +3110,34 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     return true;
   };
 
+  // ---------- Elakadt frissítés jelzése: a feltöltés (builtAt) és a Claude-frissítés (updatedAt) ütemezéshez mérve ----------
+  const RUNS = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]]; // budapesti idő; feltöltés +25 perc
+  const bud = (d) => { const p = Object.fromEntries(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Budapest", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(d).map((x) => [x.type, x.value])); return { y: +p.year, m: +p.month, d: +p.day, h: +p.hour, mi: +p.minute }; };
+  function staleOf(data, now = Date.now()) {
+    const b = bud(new Date(now));
+    const off = Math.round((Date.UTC(b.y, b.m - 1, b.d, b.h, b.mi) - now) / 900000) * 900000;
+    const slots = [];
+    for (let dd = -2; dd <= 0; dd++) { const x = bud(new Date(now + dd * 86400000)); for (const [h, mi] of RUNS) slots.push(Date.UTC(x.y, x.m - 1, x.d, h, mi) - off); }
+    slots.sort((a, c) => a - c);
+    const due = slots.filter((x) => x + 70 * 60000 <= now);
+    if (due.length < 2) return null;
+    const run = due[due.length - 1], prevRun = due[due.length - 2];
+    const built = Date.parse(data.builtAt || "") || 0;
+    const d0 = (data.digests || [])[0] || {};
+    const upd = Math.max(Date.parse(d0.updatedAt || "") || 0, Date.parse(d0.generatedAt || "") || 0);
+    if (built && built < run + 20 * 60000) return { since: built };
+    if (upd && upd < prevRun - 10 * 60000) return { since: upd };
+    return null;
+  }
+  function showStale(data) {
+    let ban = $("staleBanner");
+    const st = staleOf(data);
+    if (!st) { if (ban) ban.hidden = true; return; }
+    if (!ban) { ban = el("div", "gh-banner stale-banner"); ban.id = "staleBanner"; ban.append(el("div", "wrap")); $("tapeBand").after(ban); }
+    ban.hidden = false;
+    ban.firstChild.textContent = "⚠ A hírek utoljára " + new Date(st.since).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) + "-kor frissültek; az automatikus frissítés most valószínűleg elakadt. Az árfolyamok ettől függetlenül élők.";
+  }
+
   // ---------- Beállítások oldal ----------
   let tgInfo = null, installEvt = null, setMsg = "";
   window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); installEvt = e; if (view() === "set") updateSettings(); });
@@ -3029,14 +3202,20 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       tg.append(row, el("p", null, "Megnyílik a Telegram a @" + tgInfo.bot + " bottal: nyomj a Start gombra, majd itt az Ellenőrzésre."));
     } else {
       tg.append(el("p", "ok", "✓ Összekapcsolva: @" + tgInfo.bot));
+      const opts2 = el("div", "chips"); opts2.style.marginTop = "0";
+      for (const [k, label] of TG_OPTS) {
+        const on2 = settings[k] !== false;
+        const sm = el("button", "chip", (on2 ? "✓ " : "✕ ") + label); sm.type = "button"; sm.setAttribute("aria-pressed", String(on2));
+        sm.addEventListener("click", () => { settings[k] = settings[k] === false; saveSettings(); updateSettings(); });
+        opts2.append(sm);
+      }
+      tg.append(opts2);
       const row = el("div", "set-row");
-      const sm = el("button", "chip", "Esti összefoglaló 21:00-kor: " + (settings.summary !== false ? "Be" : "Ki")); sm.type = "button"; sm.setAttribute("aria-pressed", String(settings.summary !== false));
-      sm.addEventListener("click", () => { settings.summary = settings.summary === false; saveSettings(); updateSettings(); });
       const test = async (what) => { try { const r = await fetch(workerBase + "/tgtest", { method: "POST", body: JSON.stringify({ id: syncId, what }) }); const j = await r.json(); setMsg = j.ok ? "Elküldve a Telegramra." : "Nem sikerült: " + (j.error || "ismeretlen hiba"); } catch (e) { setMsg = "Nem sikerült elküldeni."; } updateSettings(); };
-      row.append(sm, btn("Próbaüzenet", () => test("ping"), true), btn("Összefoglaló most", () => test("summary"), true));
+      row.append(btn("Próbaüzenet", () => test("ping"), true), btn("Esti összefoglaló most", () => test("summary"), true), btn("Heti összefoglaló most", () => test("weekly"), true));
       tg.append(row);
       if (setMsg) tg.append(el("p", "hint", setMsg));
-      tg.append(el("p", null, "A Telegramban: /riasztasok · /osszegzes · /stop (leválasztás)."));
+      tg.append(el("p", null, "A Telegramban: /riasztasok · /osszegzes · /heti · /stop (leválasztás). A fontos hírek a pozitív vagy negatív hatású, a portfoliódat, a kedvenceidet vagy a figyelőlistát érintő hírek; a reggeli lista a magas fontosságú makroeseményeket és a tételeid gyorsjelentéseit tartalmazza."));
     }
     // Alkalmazásként
     app.replaceChildren(el("h3", null, "Telepítés alkalmazásként"));
@@ -3474,6 +3653,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         calEvents = j.calendar || [];
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
+        showStale({ builtAt: j.builtAt, digests });
         const pricesReady = loadPrices();
         if (first) {
           // Előbb az árlista (benne az európai ETF-ek tőzsdéje), hogy az azonos nevű amerikai papírok ára ne keveredjen bele

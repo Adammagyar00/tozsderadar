@@ -59,7 +59,7 @@ async function yahoo(ticker) {
   const j = await res.json();
   const m = j && j.chart && j.chart.result && j.chart.result[0] && j.chart.result[0].meta;
   const q = m && typeof m.regularMarketPrice === "number"
-    ? { price: m.regularMarketPrice, prevClose: m.chartPreviousClose ?? null, t: m.regularMarketTime ?? null, currency: m.currency ?? null }
+    ? { price: m.regularMarketPrice, prevClose: m.chartPreviousClose ?? null, t: m.regularMarketTime ?? null, currency: m.currency ?? null, hi52: m.fiftyTwoWeekHigh ?? null, lo52: m.fiftyTwoWeekLow ?? null }
     : null;
   marketCache.set(ticker, { q, at: Date.now() });
   return q;
@@ -411,11 +411,104 @@ async function freshQuotes(tickers) {
       if (!res.ok) return;
       const j = await res.json();
       const m = j && j.chart && j.chart.result && j.chart.result[0] && j.chart.result[0].meta;
-      if (m && typeof m.regularMarketPrice === "number") out[t] = { price: m.regularMarketPrice, prev: m.chartPreviousClose ?? null, t: m.regularMarketTime ?? null, cur: m.currency || "USD" };
+      if (m && typeof m.regularMarketPrice === "number") out[t] = { price: m.regularMarketPrice, prev: m.chartPreviousClose ?? null, t: m.regularMarketTime ?? null, cur: m.currency || "USD", hi52: m.fiftyTwoWeekHigh ?? null, lo52: m.fiftyTwoWeekLow ?? null };
     } catch { /* kimarad */ }
   }));
   return out;
 }
+
+// Heti változás: az egy héttel korábbi záróár (1 hónapos napi adatsorból)
+async function weekQuotes(tickers) {
+  const out = {};
+  const from = Date.now() / 1000 - 7 * 86400;
+  await Promise.all([...new Set(tickers)].slice(0, 40).map(async (t) => {
+    try {
+      const res = await fetch("https://query1.finance.yahoo.com/v8/finance/chart/" + encodeURIComponent(t) + "?range=1mo&interval=1d", { headers: { "User-Agent": "Mozilla/5.0 (TozsdeRadar)" } });
+      if (!res.ok) return;
+      const r = (await res.json()).chart.result[0];
+      const ts = r.timestamp || [], cl = (r.indicators.quote[0] || {}).close || [];
+      let base = null;
+      for (let i = 0; i < ts.length; i++) if (ts[i] <= from && typeof cl[i] === "number") base = cl[i];
+      if (base && typeof r.meta.regularMarketPrice === "number") out[t] = { price: r.meta.regularMarketPrice, base, cur: r.meta.currency || "USD" };
+    } catch { /* kimarad */ }
+  }));
+  return out;
+}
+
+// A frissítési lánc ütemezése (budapesti idő): a Claude-frissítés :57-kor, a feltöltés utána :22-kor
+const RUNS = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
+function budapestOffsetMs(now) {
+  const b = budapest(new Date(now));
+  const [y, m, d] = b.date.split("-").map(Number);
+  const asUtc = Date.UTC(y, m - 1, d, b.hour, b.minute);
+  return Math.round((asUtc - now) / 900000) * 900000; // az időzóna-eltolás negyedórák többszöröse
+}
+// Elakadt-e a frissítés: a legutóbbi esedékes feltöltés (+45 perc türelem) óta nem jött új data.json,
+// vagy két egymás utáni Claude-frissítés sem írt bele
+function staleOf(data, now = Date.now()) {
+  const off = budapestOffsetMs(now);
+  const slots = [];
+  for (let dd = -2; dd <= 0; dd++) {
+    const b = budapest(new Date(now + dd * 86400000));
+    const [y, m, d] = b.date.split("-").map(Number);
+    for (const [h, mi] of RUNS) slots.push(Date.UTC(y, m - 1, d, h, mi) - off);
+  }
+  slots.sort((a, b) => a - b);
+  const due = slots.filter((x) => x + 25 * 60000 + 45 * 60000 <= now);
+  if (due.length < 2) return { stale: false };
+  const run = due[due.length - 1], prevRun = due[due.length - 2];
+  const built = Date.parse(data.builtAt || "") || 0;
+  const d0 = (data.digests || [])[0] || {};
+  const upd = Math.max(Date.parse(d0.updatedAt || "") || 0, Date.parse(d0.generatedAt || "") || 0);
+  if (built && built < run + 20 * 60000) return { stale: true, kind: "upload", since: built, slot: run };
+  if (upd && upd < prevRun - 10 * 60000) return { stale: true, kind: "content", since: upd, slot: run };
+  return { stale: false, slot: run };
+}
+const hhmm = (ms) => new Date(ms).toLocaleString("hu-HU", { timeZone: "Europe/Budapest", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+const hashStr = (str) => { let h = 2166136261; for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0).toString(36); };
+
+// Egy riasztás kiértékelése (a böngészőben ugyanez a logika fut). st: a riasztás szerveroldali állapota.
+// Visszaad: null (nem szól) vagy a szöveg, ami az árhoz hozzáfűzendő.
+function evalAlert(a, x, st, now) {
+  const ch = x.prev ? (x.price / x.prev - 1) * 100 : null;
+  const p = x.price;
+  if (a.type === "pct") {
+    const base = st.base ?? a.base;
+    if (!base) { st.base = p; return null; }
+    const d = (p / base - 1) * 100;
+    if (Math.abs(d) < a.value) return null;
+    st.base = p;
+    return (d > 0 ? " ↑ " : " ↓ ") + pct(d) + " a " + fpx(base) + " szinthez képest";
+  }
+  if (a.type === "trail") {
+    if (st.done) return null;
+    st.peak = Math.max(st.peak ?? a.base ?? p, p);
+    if (p > st.peak * (1 - a.value / 100)) return null;
+    st.done = true;
+    return " ↓ a csúcstól (" + fpx(st.peak) + ") " + pct((p / st.peak - 1) * 100);
+  }
+  if (a.type === "hl52") {
+    const day = budapest(new Date(now)).date;
+    st.hi = Math.max(st.hi ?? a.hi ?? x.hi52 ?? p, x.hi52 ?? 0);
+    st.lo = Math.min(st.lo ?? a.lo ?? x.lo52 ?? p, x.lo52 ?? Infinity);
+    if (p > st.hi) { st.hi = p; if (st.hiDay !== day) { st.hiDay = day; return " ⬆ új 52 hetes csúcs"; } }
+    if (p < st.lo) { st.lo = p; if (st.loDay !== day) { st.loDay = day; return " ⬇ új 52 hetes mélypont"; } }
+    return null;
+  }
+  const level = a.type === "line" ? lineAt(a.line, now / 1000) : a.value;
+  const metric = a.type === "move" ? (ch == null ? null : Math.abs(ch)) : p;
+  if (metric == null || level == null) return null;
+  const side = metric >= level ? "hi" : "lo";
+  const prev = st.side;
+  if (prev === side) return null;
+  st.side = side;
+  if (!prev) return null;
+  const hit = a.type === "above" || a.type === "move" ? side === "hi" : a.type === "below" ? side === "lo" : true;
+  if (!hit || (st.last && now - st.last < 60000)) return null;
+  st.last = now;
+  return a.type === "move" ? "" : (side === "hi" ? " ↑ fölé ment" : " ↓ alá ment") + (a.type === "line" ? " (a vonal most " + fpx(level) + ")" : "");
+}
+const lineAt = (l, ts) => Array.isArray(l) && l[2] !== l[0] ? l[1] + (l[3] - l[1]) * (ts - l[0]) / (l[2] - l[0]) : null;
 
 export class Store {
   constructor(state, env) {
@@ -453,6 +546,7 @@ export class Store {
         if (Date.now() - last < 30000) return reply({ ok: false, error: "várj fél percet" });
         await this.state.storage.put("tgtest:" + body.id, Date.now());
         if (body.what === "summary") return reply({ ok: await this.summary(body.id, chat, true) });
+        if (body.what === "weekly") return reply({ ok: await this.weekly(body.id, chat) });
         return reply({ ok: await tgSend(this.env, chat, "✅ <b>TőzsdeRadar</b>: a Telegram-értesítések működnek.") });
       }
       return reply({ error: "ismeretlen" }, 404);
@@ -510,7 +604,7 @@ export class Store {
       list.push(arg);
       await this.state.storage.put({ ["chat:" + arg]: chat, ["chatOf:" + chat]: arg, linked: [...new Set(list)] });
       if (old && old !== arg) await this.state.storage.delete("chat:" + old);
-      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este 9-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /stop");
+      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este 9-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /heti · /stop");
       return;
     }
     const id = await this.state.storage.get("chatOf:" + chat);
@@ -522,13 +616,14 @@ export class Store {
       return;
     }
     if (cmd === "/osszegzes" || cmd === "/summary") { await this.summary(id, chat, true); return; }
+    if (cmd === "/heti") { await this.weekly(id, chat); return; }
     if (cmd === "/riasztasok") {
       const k = await this.keys(id);
       const al = ((k.alerts && k.alerts.v) || []).filter((a) => a && a.y);
       await tgSend(this.env, chat, al.length ? "<b>Riasztásaid</b>\n" + al.map((a) => (a.off ? "🔕 " : "🔔 ") + esc(a.label || a.y) + ": " + esc(alertText(a))).join("\n") : "Nincs szinkronizált riasztásod. Az oldalon a Piacok menüben állíthatsz be.");
       return;
     }
-    await tgSend(this.env, chat, "Parancsok: /riasztasok · /osszegzes · /stop");
+    await tgSend(this.env, chat, "Parancsok: /riasztasok · /osszegzes · /heti · /stop");
   }
 
   async cron() {
@@ -551,36 +646,127 @@ export class Store {
       for (const a of u.alerts) {
         const x = q[a.y];
         if (!x) continue;
-        const ch = x.prev ? (x.price / x.prev - 1) * 100 : null;
-        const metric = a.type === "move" ? (ch == null ? null : Math.abs(ch)) : x.price;
-        if (metric == null) continue;
-        const side = metric >= a.value ? "hi" : "lo";
         const s = st[a.id] || {};
-        if (s.side === side) continue;
-        const prev = s.side;
-        st[a.id] = { ...s, side }; changed = true;
-        if (!prev) continue;
-        const hit = a.type === "above" || a.type === "move" ? side === "hi" : a.type === "below" ? side === "lo" : true;
-        if (!hit || (s.last && now - s.last < 60000)) continue;
-        st[a.id].last = now;
-        const dir = a.type === "move" ? "" : side === "hi" ? " ↑ fölé ment" : " ↓ alá ment";
-        await tgSend(this.env, u.chat, "🔔 <b>" + esc(a.label || a.y) + "</b>: " + esc(alertText(a)) + dir + "\nMost: <b>" + fpx(x.price) + " " + esc(x.cur || "") + "</b>" + (ch != null ? " (" + pct(ch) + " ma)" : ""));
+        const before = JSON.stringify(s);
+        const dir = evalAlert(a, x, s, now);
+        st[a.id] = s;
+        if (JSON.stringify(s) !== before) changed = true;
+        if (dir == null) continue;
+        const ch = x.prev ? (x.price / x.prev - 1) * 100 : null;
+        await tgSend(this.env, u.chat, "🔔 <b>" + esc(a.label || a.y) + "</b>: " + esc(alertText(a)) + esc(dir) + "\nMost: <b>" + fpx(x.price) + " " + esc(x.cur || "") + "</b>" + (ch != null ? " (" + pct(ch) + " ma)" : "") + (a.type === "trail" ? "\nA követő stop teljesült; ez a riasztás többet nem szól." : ""));
       }
       // a törölt riasztások állapotát kidobjuk
       for (const k of Object.keys(st)) if (!u.alerts.some((a) => a.id === k)) { delete st[k]; changed = true; }
       if (changed) await this.state.storage.put("st:" + u.id, st);
     }
-    // Esti összefoglaló 21:00-kor (budapesti idő)
     const b = budapest();
-    if (b.hour === 21 && b.minute < 10) {
-      for (const u of users) {
-        if (u.srv.summary === false) continue;
-        const key = "sum:" + u.id;
-        if ((await this.state.storage.get(key)) === b.date) continue;
-        await this.state.storage.put(key, b.date);
-        await this.summary(u.id, u.chat, false);
-      }
+    // Esti összefoglaló 21:00-kor, heti összefoglaló vasárnap 20:00-kor, reggeli eseménylista 7:30-kor (budapesti idő)
+    const once = async (u, key, fn) => { if ((await this.state.storage.get(key + ":" + u.id)) === b.date) return; await this.state.storage.put(key + ":" + u.id, b.date); await fn(); };
+    const dow = new Date(Date.UTC(...b.date.split("-").map((v, i) => i === 1 ? v - 1 : +v))).getUTCDay();
+    for (const u of users) {
+      if (b.hour === 21 && b.minute < 10 && u.srv.summary !== false) await once(u, "sum", () => this.summary(u.id, u.chat, false));
+      if (dow === 0 && b.hour === 20 && b.minute < 10 && u.srv.weekly !== false) await once(u, "week", () => this.weekly(u.id, u.chat));
     }
+    // A napi kiadás (data.json): 5 percenként hírek, reggel események, 10 percenként a frissítés ellenőrzése
+    if (b.minute % 5 !== 0) return;
+    let data = null;
+    try { const r = await fetch(SITE + "data.json?t=" + Date.now()); data = r.ok ? await r.json() : null; } catch { data = null; }
+    if (!data) return;
+    for (const u of users) {
+      if (u.srv.news !== false) await this.newsAlerts(u, data);
+      if (b.hour === 7 && b.minute >= 30 && b.minute < 40 && u.srv.events !== false) await once(u, "ev", () => this.events(u, data));
+    }
+    if (b.minute % 10 === 0) await this.staleCheck(users, data);
+  }
+
+  // A felhasználó eszközeinek jelölései (hírekhez, eseményekhez): portfolio, kedvencek, figyelőlista
+  symsOf(u, data) {
+    const s = new Set((u.srv.syms || []).map((x) => String(x).toUpperCase()));
+    for (const w of data.watchlist || []) s.add(String(w.symbol).toUpperCase());
+    return s;
+  }
+
+  async newsAlerts(u, data) {
+    const syms = this.symsOf(u, data);
+    const key = "news:" + u.id;
+    const sent = (await this.state.storage.get(key)) || null;
+    const items = [];
+    for (const d of (data.digests || []).slice(0, 2)) for (const it of d.items || []) {
+      if (!it.title || (it.impact || "semleges") === "semleges") continue;
+      const hit = (it.symbols || []).map((x) => String(x).toUpperCase()).filter((x) => syms.has(x));
+      if (hit.length) items.push({ it, hit, h: hashStr(it.title) });
+    }
+    // első alkalommal csak megjegyezzük a meglévőket, hogy ne zúdítsunk régi híreket
+    if (!sent) { await this.state.storage.put(key, items.map((x) => x.h)); return; }
+    const fresh = items.filter((x) => !sent.includes(x.h)).slice(0, 5);
+    if (!fresh.length) return;
+    for (const { it, hit } of fresh) {
+      const u2 = typeof it.url === "string" && /^https?:\/\//.test(it.url) ? it.url : null;
+      await tgSend(this.env, u.chat, (it.impact === "pozitív" ? "🟢" : "🔴") + " <b>" + esc(hit.join(", ")) + "</b> · " + esc(it.impact) + "\n<b>" + esc(it.title) + "</b>\n" + esc(String(it.summary || "").slice(0, 300)) + "\n" + (u2 ? "<a href=\"" + esc(u2) + "\">" + esc(it.source || "Forrás") + "</a>" : esc(it.source || "")) + " · " + (it.verified === false ? "nem megerősített" : "✓ megerősített"));
+    }
+    await this.state.storage.put(key, [...sent, ...fresh.map((x) => x.h)].slice(-400));
+  }
+
+  async events(u, data) {
+    const syms = this.symsOf(u, data);
+    const today = budapest().date;
+    const ev = (data.calendar || []).filter((e) => e.date === today && ((e.importance || 1) >= 3 || (e.symbols || []).some((x) => syms.has(String(x).toUpperCase()))))
+      .sort((a, b) => String(a.time || "99").localeCompare(String(b.time || "99")));
+    if (!ev.length) return;
+    await tgSend(this.env, u.chat, "📅 <b>Mai fontos események</b>\n" + ev.slice(0, 10).map((e) => "• " + (e.time || "egész nap") + " " + esc(e.country || "") + " — " + esc(e.event || "") + ((e.symbols || []).length ? " (" + esc(e.symbols.join(", ")) + ")" : "") + (e.forecast ? " · várható: " + esc(e.forecast) : "")).join("\n"));
+  }
+
+  async staleCheck(users, data) {
+    const st = staleOf(data);
+    const sent = await this.state.storage.get("staleSent");
+    const to = users.filter((u) => u.srv.stale !== false);
+    if (st.stale && sent !== st.slot) {
+      await this.state.storage.put("staleSent", st.slot);
+      const msg = "⚠️ <b>Elakadt a TőzsdeRadar frissítése.</b>\n" + (st.kind === "upload" ? "Elmaradt az adatfeltöltés (esedékes volt: " + hhmm(st.slot + 25 * 60000) + "). Legutóbbi feltöltés: " + hhmm(st.since) + "." : "Két egymás utáni frissítés sem hozott új hírt (utolsó: " + hhmm(st.since) + ").") + "\nSzólj Claude-nak a beszélgetésben, hogy nézze meg.";
+      for (const u of to) await tgSend(this.env, u.chat, msg);
+    } else if (!st.stale && sent) {
+      await this.state.storage.delete("staleSent");
+      for (const u of to) await tgSend(this.env, u.chat, "✅ A TőzsdeRadar frissítése újra rendben fut.");
+    }
+  }
+
+  // Heti összefoglaló: a portfolio heti változása, a hét legnagyobb mozgásai, a jövő hét eseményei
+  async weekly(id, chat) {
+    const k = await this.keys(id);
+    const srv = (k.srv && k.srv.v) || {};
+    const pf = (srv.pf || []).filter((h) => h && h.y && h.qty > 0);
+    const favs = (srv.favs || []).filter(Boolean).slice(0, 25);
+    const fx = await freshQuotes(["EURUSD=X", "GBPUSD=X", "USDHUF=X"]);
+    const q = await weekQuotes([...pf.map((h) => h.y), ...favs]);
+    const usd = (v, cur) => cur === "USD" ? v : cur === "GBp" || cur === "GBX" ? (fx["GBPUSD=X"] ? v / 100 * fx["GBPUSD=X"].price : null) : cur === "GBP" ? (fx["GBPUSD=X"] ? v * fx["GBPUSD=X"].price : null) : cur === "EUR" ? (fx["EURUSD=X"] ? v * fx["EURUSD=X"].price : null) : cur === "HUF" ? (fx["USDHUF=X"] ? v / fx["USDHUF=X"].price : null) : null;
+    const lines = ["📊 <b>TőzsdeRadar heti összefoglaló</b> · " + budapest().date.replace(/-/g, ".")];
+    let now = 0, then = 0;
+    const rows = [];
+    for (const h of pf) {
+      const x = q[h.y];
+      if (!x) continue;
+      const a = usd(x.price * h.qty, x.cur), b0 = usd(x.base * h.qty, x.cur);
+      if (a == null || b0 == null) continue;
+      now += a; then += b0; rows.push({ s: h.symbol, ch: (x.price / x.base - 1) * 100 });
+    }
+    if (rows.length) {
+      const d = now - then;
+      lines.push("", "<b>Portfolio</b>: " + huNum(now, 2) + " $" + (fx["USDHUF=X"] ? " (" + huNum(Math.round(now * fx["USDHUF=X"].price), 0) + " Ft)" : ""), "A héten: " + (d >= 0 ? "+" : "−") + huNum(Math.abs(d), 2) + " $ (" + pct(then ? d / then * 100 : 0) + ")");
+      lines.push(rows.sort((a, b) => b.ch - a.ch).map((r) => (r.ch >= 0 ? "🟢 " : "🔴 ") + esc(r.s) + " " + pct(r.ch)).join("\n"));
+    }
+    const fv = favs.map((t) => q[t] ? { t, ch: (q[t].price / q[t].base - 1) * 100 } : null).filter(Boolean).sort((a, b) => b.ch - a.ch);
+    if (fv.length >= 2) lines.push("", "<b>Kedvenceid a héten</b>", "Legjobb: " + fv.slice(0, 3).map((x) => esc(x.t) + " " + pct(x.ch)).join(", "), "Leggyengébb: " + fv.slice(-3).reverse().map((x) => esc(x.t) + " " + pct(x.ch)).join(", "));
+    try {
+      const r = await fetch(SITE + "data.json?t=" + Date.now());
+      const j = r.ok ? await r.json() : {};
+      const from = budapest(new Date(Date.now() + 86400000)).date, to = budapest(new Date(Date.now() + 7 * 86400000)).date;
+      const syms = new Set(pf.map((h) => String(h.symbol).toUpperCase()).concat((srv.syms || []).map((x) => String(x).toUpperCase())));
+      const ev = (j.calendar || []).filter((e) => e.date >= from && e.date <= to && ((e.importance || 1) >= 3 || (e.symbols || []).some((x) => syms.has(String(x).toUpperCase()))))
+        .sort((a, b) => (a.date + (a.time || "99")).localeCompare(b.date + (b.time || "99"))).slice(0, 12);
+      lines.push("", "<b>Jövő hét</b>", ev.length ? ev.map((e) => "• " + e.date.slice(5).replace("-", ".") + ". " + (e.time || "") + " " + esc(e.country || "") + " — " + esc(e.event || "")).join("\n") : "Még nincs kiemelt esemény a naptárban.");
+    } catch { /* naptár nélkül */ }
+    lines.push("", "<a href=\"" + SITE + "\">TőzsdeRadar megnyitása</a>");
+    return tgSend(this.env, chat, lines.join("\n"));
   }
 
   // Esti összefoglaló: portfolio értéke és napi változása, a legnagyobb mozgások, a holnapi fontos események
@@ -642,5 +828,10 @@ export class Store {
 
 const AL_TYPES_TXT = { above: "≥ ", below: "≤ ", cross: "átlépi: " };
 function alertText(a) {
-  return a.type === "move" ? "napi változás ≥ ±" + huNum(a.value, 2) + "%" : (AL_TYPES_TXT[a.type] || "") + fpx(a.value);
+  if (a.type === "move") return "napi változás ≥ ±" + huNum(a.value, 2) + "%";
+  if (a.type === "pct") return "±" + huNum(a.value, 2) + "% elmozdulás";
+  if (a.type === "trail") return "követő stop " + huNum(a.value, 2) + "%";
+  if (a.type === "hl52") return "új 52 hetes csúcs vagy mélypont";
+  if (a.type === "line") return "trendvonal átlépése";
+  return (AL_TYPES_TXT[a.type] || "") + fpx(a.value);
 }

@@ -3,6 +3,7 @@
 Használat: python3 tools/build_data.py <export-mappa>
 Az export-mappában a digests/, watchlist/ és calendar/ almappák JSON-fájljai vannak.
 """
+import datetime
 import glob
 import json
 import os
@@ -36,5 +37,7 @@ if not digests or not watchlist:
     sys.exit("Hiányzó adat: a digests vagy a watchlist üres, a data.json nem módosult.")
 
 with open(os.path.join(root, "data.json"), "w", encoding="utf-8") as f:
-    json.dump({"digests": digests, "watchlist": watchlist, "calendar": calendar}, f, ensure_ascii=False, indent=1)
+    # builtAt: a feltöltés ideje; ebből látja az oldal és a Worker, ha a frissítési lánc elakadt
+    built = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    json.dump({"builtAt": built, "digests": digests, "watchlist": watchlist, "calendar": calendar}, f, ensure_ascii=False, indent=1)
 print(f"data.json kész: {len(digests)} kiadás, {len(watchlist)} tétel, {len(calendar)} naptáresemény")
