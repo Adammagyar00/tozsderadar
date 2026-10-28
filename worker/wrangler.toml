@@ -7,7 +7,20 @@ workers_dev = true
 name = "HUB"
 class_name = "Hub"
 
+# Szinkron (beállítások eszközök között), Telegram-összekapcsolás, szerveroldali riasztások
+[[durable_objects.bindings]]
+name = "STORE"
+class_name = "Store"
+
 # Az ingyenes csomagban SQLite-alapú Durable Object használható
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["Hub"]
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["Store"]
+
+# Percenként: riasztások ellenőrzése (Telegram) és az esti összefoglaló 21:00-kor
+[triggers]
+crons = ["* * * * *"]

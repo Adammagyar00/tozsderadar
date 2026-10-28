@@ -152,11 +152,74 @@ async function search(url, origin) {
   });
 }
 
+
+// Hírek egy eszközről (Piacok oldal): a Yahoo Finance keresőjének hírtalálatai, angolul
+const newsCache = new Map();
+async function news(url, origin) {
+  const q = (url.searchParams.get("q") || "").trim().slice(0, 40);
+  let out = [];
+  if (q) {
+    const hit = newsCache.get(q.toLowerCase());
+    if (hit && Date.now() - hit.at < 15 * 60000) out = hit.out;
+    else {
+      const res = await fetch("https://query2.finance.yahoo.com/v1/finance/search?quotesCount=0&newsCount=10&listsCount=0&q=" + encodeURIComponent(q), {
+        headers: { "User-Agent": "Mozilla/5.0 (TozsdeRadar)" },
+      });
+      if (res.ok) {
+        const j = await res.json();
+        out = (j.news || []).filter((x) => x.title && x.link).map((x) => ({
+          title: x.title, publisher: x.publisher || "", link: x.link, time: x.providerPublishTime || null, tickers: x.relatedTickers || [],
+        }));
+        newsCache.set(q.toLowerCase(), { out, at: Date.now() });
+      }
+    }
+  }
+  return json({ source: "Yahoo Finance", news: out }, origin);
+}
+
+// A CNN „Fear & Greed” részvénypiaci hangulatindexe (a böngésző közvetlenül nem kérheti le)
+let fngCache = null;
+async function fng(origin) {
+  if (!fngCache || Date.now() - fngCache.at > 30 * 60000) {
+    let v = null;
+    try {
+      const res = await fetch("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", {
+        headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", Accept: "application/json", Referer: "https://edition.cnn.com/" },
+      });
+      if (res.ok) {
+        const j = await res.json();
+        const f = j && j.fear_and_greed;
+        if (f && typeof f.score === "number") v = { score: f.score, rating: f.rating, t: f.timestamp, prev: f.previous_close, week: f.previous_1_week, month: f.previous_1_month };
+      }
+    } catch { /* nincs adat */ }
+    fngCache = { v, at: Date.now() - (v ? 0 : 25 * 60000) };
+  }
+  return json({ source: "CNN", fng: fngCache.v }, origin);
+}
+
+const json = (obj, origin, status = 200) => new Response(JSON.stringify(obj), {
+  status, headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": origin || "*", vary: "Origin" },
+});
+
 const allowed = (origin) => ALLOWED_ORIGINS.includes(origin) || origin.startsWith("http://localhost");
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === "/tg" && request.method === "POST") {
+      // Telegram webhook: a titkos fejléc a bot tokenjéből származik, így más nem küldhet ide
+      if (!env.TELEGRAM_BOT_TOKEN || request.headers.get("X-Telegram-Bot-Api-Secret-Token") !== await tgSecret(env.TELEGRAM_BOT_TOKEN)) return new Response("tiltott", { status: 403 });
+      return store(env).fetch("https://store/tg", { method: "POST", body: await request.text() });
+    }
+    if (["/news", "/fng", "/sync", "/tginfo", "/tgtest"].includes(url.pathname)) {
+      const origin = request.headers.get("Origin") || "";
+      if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
+      if (request.method === "OPTIONS") return new Response(null, { headers: { "access-control-allow-origin": origin, "access-control-allow-methods": "GET, POST", "access-control-allow-headers": "content-type", "access-control-max-age": "86400" } });
+      if (url.pathname === "/news") return news(url, origin);
+      if (url.pathname === "/fng") return fng(origin);
+      const res = await store(env).fetch("https://store" + url.pathname + url.search, { method: request.method, body: request.method === "POST" ? await request.text() : undefined });
+      return new Response(res.body, { status: res.status, headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": origin, vary: "Origin" } });
+    }
     if (url.pathname === "/quote") {
       const origin = request.headers.get("Origin") || "";
       if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
@@ -190,6 +253,10 @@ export default {
     // /ws: Finnhub (amerikai részvények), /yws: Yahoo Finance (európai ETF-ek, devizák, indexek, budapesti részvények)
     const hub = env.HUB.get(env.HUB.idFromName(url.pathname === "/yws" ? "yahoo" : "hub"));
     return hub.fetch(request);
+  },
+  // Percenként: a szerveroldali riasztások (Telegram) és az esti összefoglaló
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(store(env).fetch("https://store/cron", { method: "POST" }));
   },
 };
 
@@ -299,4 +366,281 @@ export class Hub {
     this.upstream = null;
     this.symbols.clear();
   }
+}
+
+// ---------- Szinkron, Telegram-riasztás és esti összefoglaló ----------
+// A böngészők egy véletlen szinkronkóddal (id) tárolják itt a beállításaikat (portfolio, kedvencek,
+// riasztások, rajzok). A kód maga a kulcs: aki ismeri, az látja és írja ezeket az adatokat.
+const SYNC_ID_RE = /^[a-z0-9]{20,40}$/;
+const SYNC_KEY_RE = /^[a-zA-Z0-9:._^=\-]{1,60}$/;
+const MAX_KEYS = 400;
+const MAX_VALUE = 200000;
+const SITE = "https://adammagyar00.github.io/tozsderadar/";
+
+const store = (env) => env.STORE.get(env.STORE.idFromName("main"));
+
+async function tgSecret(token) {
+  const d = await crypto.subtle.digest("SHA-256", new TextEncoder().encode("tozsderadar:" + token));
+  return [...new Uint8Array(d)].map((b) => b.toString(16).padStart(2, "0")).join("").slice(0, 48);
+}
+
+async function tgSend(env, chat, text) {
+  if (!env.TELEGRAM_BOT_TOKEN) return false;
+  const res = await fetch("https://api.telegram.org/bot" + env.TELEGRAM_BOT_TOKEN + "/sendMessage", {
+    method: "POST", headers: { "content-type": "application/json" },
+    body: JSON.stringify({ chat_id: chat, text, parse_mode: "HTML", disable_web_page_preview: true }),
+  });
+  return res.ok;
+}
+
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const huNum = (v, dec) => v.toLocaleString("hu-HU", { minimumFractionDigits: dec, maximumFractionDigits: dec });
+const fpx = (v) => huNum(v, Math.abs(v) >= 1 ? 2 : 4);
+const pct = (v) => (v > 0 ? "+" : v < 0 ? "−" : "") + huNum(Math.abs(v), 2) + "%";
+const budapest = (d = new Date()) => {
+  const p = Object.fromEntries(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Budapest", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(d).map((x) => [x.type, x.value]));
+  return { date: p.year + "-" + p.month + "-" + p.day, hour: Number(p.hour), minute: Number(p.minute) };
+};
+
+// Friss Yahoo-árak (a cron nem használ gyorsítótárat)
+async function freshQuotes(tickers) {
+  const out = {};
+  await Promise.all([...new Set(tickers)].slice(0, 40).map(async (t) => {
+    try {
+      const res = await fetch("https://query1.finance.yahoo.com/v8/finance/chart/" + encodeURIComponent(t) + "?range=1d&interval=1d", { headers: { "User-Agent": "Mozilla/5.0 (TozsdeRadar)" } });
+      if (!res.ok) return;
+      const j = await res.json();
+      const m = j && j.chart && j.chart.result && j.chart.result[0] && j.chart.result[0].meta;
+      if (m && typeof m.regularMarketPrice === "number") out[t] = { price: m.regularMarketPrice, prev: m.chartPreviousClose ?? null, t: m.regularMarketTime ?? null, cur: m.currency || "USD" };
+    } catch { /* kimarad */ }
+  }));
+  return out;
+}
+
+export class Store {
+  constructor(state, env) {
+    this.state = state;
+    this.env = env;
+    this.botName = null;
+  }
+
+  async fetch(request) {
+    const url = new URL(request.url);
+    const reply = (obj, status = 200) => new Response(JSON.stringify(obj), { status, headers: { "content-type": "application/json; charset=utf-8" } });
+    try {
+      if (url.pathname === "/cron") { await this.cron(); return reply({ ok: true }); }
+      if (url.pathname === "/tg") { await this.telegram(JSON.parse(await request.text() || "{}")); return reply({ ok: true }); }
+      const id = request.method === "POST" ? null : url.searchParams.get("id");
+      if (url.pathname === "/sync" && request.method === "GET") {
+        if (!SYNC_ID_RE.test(id || "")) return reply({ error: "hibás kód" }, 400);
+        return reply({ keys: await this.keys(id) });
+      }
+      if (url.pathname === "/sync" && request.method === "POST") {
+        const body = JSON.parse(await request.text() || "{}");
+        if (!SYNC_ID_RE.test(body.id || "")) return reply({ error: "hibás kód" }, 400);
+        return reply({ keys: await this.merge(body.id, body.keys || {}) });
+      }
+      if (url.pathname === "/tginfo") {
+        if (!SYNC_ID_RE.test(id || "")) return reply({ error: "hibás kód" }, 400);
+        return reply({ enabled: !!this.env.TELEGRAM_BOT_TOKEN, bot: await this.bot(), linked: !!(await this.state.storage.get("chat:" + id)) });
+      }
+      if (url.pathname === "/tgtest" && request.method === "POST") {
+        const body = JSON.parse(await request.text() || "{}");
+        if (!SYNC_ID_RE.test(body.id || "")) return reply({ error: "hibás kód" }, 400);
+        const chat = await this.state.storage.get("chat:" + body.id);
+        if (!chat) return reply({ ok: false, error: "nincs összekapcsolva" });
+        const last = (await this.state.storage.get("tgtest:" + body.id)) || 0;
+        if (Date.now() - last < 30000) return reply({ ok: false, error: "várj fél percet" });
+        await this.state.storage.put("tgtest:" + body.id, Date.now());
+        if (body.what === "summary") return reply({ ok: await this.summary(body.id, chat, true) });
+        return reply({ ok: await tgSend(this.env, chat, "✅ <b>TőzsdeRadar</b>: a Telegram-értesítések működnek.") });
+      }
+      return reply({ error: "ismeretlen" }, 404);
+    } catch (e) {
+      return reply({ error: String(e && e.message || e) }, 500);
+    }
+  }
+
+  async bot() {
+    if (this.botName || !this.env.TELEGRAM_BOT_TOKEN) return this.botName;
+    try {
+      const r = await fetch("https://api.telegram.org/bot" + this.env.TELEGRAM_BOT_TOKEN + "/getMe");
+      const j = await r.json();
+      this.botName = j && j.result && j.result.username || null;
+    } catch { /* később újra */ }
+    return this.botName;
+  }
+
+  async keys(id) {
+    const m = await this.state.storage.list({ prefix: "k:" + id + ":" });
+    const out = {};
+    for (const [k, v] of m) out[k.slice(id.length + 3)] = v;
+    return out;
+  }
+
+  // Kulcsonként az újabb nyer (t: a módosítás ideje a böngészőben, ms)
+  async merge(id, incoming) {
+    const cur = await this.keys(id);
+    const puts = {};
+    let n = Object.keys(cur).length;
+    for (const [k, e] of Object.entries(incoming)) {
+      if (!SYNC_KEY_RE.test(k) || !e || typeof e.t !== "number") continue;
+      if (cur[k] && cur[k].t >= e.t) continue;
+      if (!cur[k] && ++n > MAX_KEYS) break;
+      const v = e.v === undefined ? null : e.v;
+      if (JSON.stringify(v).length > MAX_VALUE) continue;
+      cur[k] = { t: Math.min(e.t, Date.now() + 60000), v };
+      puts["k:" + id + ":" + k] = cur[k];
+    }
+    const entries = Object.entries(puts);
+    for (let i = 0; i < entries.length; i += 100) await this.state.storage.put(Object.fromEntries(entries.slice(i, i + 100)));
+    return cur;
+  }
+
+  async linked() { return (await this.state.storage.get("linked")) || []; }
+
+  async telegram(upd) {
+    const m = upd && (upd.message || upd.edited_message);
+    if (!m || !m.chat || typeof m.text !== "string") return;
+    const chat = m.chat.id, text = m.text.trim();
+    const [cmd, arg] = text.split(/\s+/);
+    if (cmd === "/start" && arg && SYNC_ID_RE.test(arg)) {
+      const old = await this.state.storage.get("chatOf:" + chat);
+      const list = (await this.linked()).filter((x) => x !== old);
+      list.push(arg);
+      await this.state.storage.put({ ["chat:" + arg]: chat, ["chatOf:" + chat]: arg, linked: [...new Set(list)] });
+      if (old && old !== arg) await this.state.storage.delete("chat:" + old);
+      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este 9-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /stop");
+      return;
+    }
+    const id = await this.state.storage.get("chatOf:" + chat);
+    if (!id) { await tgSend(this.env, chat, "Ez a bot a TőzsdeRadar értesítéseit küldi. Az összekapcsoláshoz nyisd meg az oldalon a <b>Beállítások</b> menüt, és kattints a „Telegram összekapcsolása” gombra.\n" + SITE + "#beallitasok"); return; }
+    if (cmd === "/stop") {
+      await this.state.storage.delete(["chat:" + id, "chatOf:" + chat]);
+      await this.state.storage.put("linked", (await this.linked()).filter((x) => x !== id));
+      await tgSend(this.env, chat, "Leválasztva: több értesítés nem jön. Újra az oldal Beállítások menüjéből kapcsolhatod össze.");
+      return;
+    }
+    if (cmd === "/osszegzes" || cmd === "/summary") { await this.summary(id, chat, true); return; }
+    if (cmd === "/riasztasok") {
+      const k = await this.keys(id);
+      const al = ((k.alerts && k.alerts.v) || []).filter((a) => a && a.y);
+      await tgSend(this.env, chat, al.length ? "<b>Riasztásaid</b>\n" + al.map((a) => (a.off ? "🔕 " : "🔔 ") + esc(a.label || a.y) + ": " + esc(alertText(a))).join("\n") : "Nincs szinkronizált riasztásod. Az oldalon a Piacok menüben állíthatsz be.");
+      return;
+    }
+    await tgSend(this.env, chat, "Parancsok: /riasztasok · /osszegzes · /stop");
+  }
+
+  async cron() {
+    const ids = await this.linked();
+    if (!ids.length) return;
+    const users = [];
+    for (const id of ids) {
+      const chat = await this.state.storage.get("chat:" + id);
+      if (!chat) continue;
+      const k = await this.keys(id);
+      users.push({ id, chat, alerts: ((k.alerts && k.alerts.v) || []).filter((a) => a && a.y && !a.off), srv: (k.srv && k.srv.v) || {} });
+    }
+    // Riasztások: percenként egyszer kérjük le az érintett árakat
+    const q = await freshQuotes(users.flatMap((u) => u.alerts.map((a) => a.y)));
+    const now = Date.now();
+    for (const u of users) {
+      if (!u.alerts.length) continue;
+      const st = (await this.state.storage.get("st:" + u.id)) || {};
+      let changed = false;
+      for (const a of u.alerts) {
+        const x = q[a.y];
+        if (!x) continue;
+        const ch = x.prev ? (x.price / x.prev - 1) * 100 : null;
+        const metric = a.type === "move" ? (ch == null ? null : Math.abs(ch)) : x.price;
+        if (metric == null) continue;
+        const side = metric >= a.value ? "hi" : "lo";
+        const s = st[a.id] || {};
+        if (s.side === side) continue;
+        const prev = s.side;
+        st[a.id] = { ...s, side }; changed = true;
+        if (!prev) continue;
+        const hit = a.type === "above" || a.type === "move" ? side === "hi" : a.type === "below" ? side === "lo" : true;
+        if (!hit || (s.last && now - s.last < 60000)) continue;
+        st[a.id].last = now;
+        const dir = a.type === "move" ? "" : side === "hi" ? " ↑ fölé ment" : " ↓ alá ment";
+        await tgSend(this.env, u.chat, "🔔 <b>" + esc(a.label || a.y) + "</b>: " + esc(alertText(a)) + dir + "\nMost: <b>" + fpx(x.price) + " " + esc(x.cur || "") + "</b>" + (ch != null ? " (" + pct(ch) + " ma)" : ""));
+      }
+      // a törölt riasztások állapotát kidobjuk
+      for (const k of Object.keys(st)) if (!u.alerts.some((a) => a.id === k)) { delete st[k]; changed = true; }
+      if (changed) await this.state.storage.put("st:" + u.id, st);
+    }
+    // Esti összefoglaló 21:00-kor (budapesti idő)
+    const b = budapest();
+    if (b.hour === 21 && b.minute < 10) {
+      for (const u of users) {
+        if (u.srv.summary === false) continue;
+        const key = "sum:" + u.id;
+        if ((await this.state.storage.get(key)) === b.date) continue;
+        await this.state.storage.put(key, b.date);
+        await this.summary(u.id, u.chat, false);
+      }
+    }
+  }
+
+  // Esti összefoglaló: portfolio értéke és napi változása, a legnagyobb mozgások, a holnapi fontos események
+  async summary(id, chat, manual) {
+    const k = await this.keys(id);
+    const srv = (k.srv && k.srv.v) || {};
+    const pf = (srv.pf || []).filter((h) => h && h.y && h.qty > 0);
+    const favs = (srv.favs || []).filter(Boolean).slice(0, 25);
+    const fx = ["EURUSD=X", "GBPUSD=X", "USDHUF=X"];
+    const q = await freshQuotes([...fx, ...pf.map((h) => h.y), ...favs]);
+    const usd = (v, cur) => {
+      if (cur === "USD") return v;
+      if (cur === "GBp" || cur === "GBX") return q["GBPUSD=X"] ? v / 100 * q["GBPUSD=X"].price : null;
+      if (cur === "GBP") return q["GBPUSD=X"] ? v * q["GBPUSD=X"].price : null;
+      if (cur === "EUR") return q["EURUSD=X"] ? v * q["EURUSD=X"].price : null;
+      if (cur === "HUF") return q["USDHUF=X"] ? v / q["USDHUF=X"].price : null;
+      return null;
+    };
+    const lines = ["🌙 <b>TőzsdeRadar esti összefoglaló</b> · " + budapest().date.replace(/-/g, ".")];
+    const rows = [];
+    let total = 0, base = 0;
+    for (const h of pf) {
+      const x = q[h.y];
+      if (!x) continue;
+      const v = usd(x.price * h.qty, x.cur);
+      if (v == null) continue;
+      const ch = x.prev ? (x.price / x.prev - 1) * 100 : null;
+      total += v; base += ch == null ? v : v / (1 + ch / 100);
+      rows.push({ sym: h.symbol, ch, v });
+    }
+    if (rows.length) {
+      const d = total - base;
+      const huf = q["USDHUF=X"] ? " (" + huNum(Math.round(total * q["USDHUF=X"].price), 0) + " Ft)" : "";
+      lines.push("", "<b>Portfolio</b>: " + huNum(total, 2) + " $" + huf, "Mai változás: " + (d >= 0 ? "+" : "−") + huNum(Math.abs(d), 2) + " $ (" + pct(base ? d / base * 100 : 0) + ")");
+      const mv = rows.filter((r) => r.ch != null).sort((a, b) => Math.abs(b.ch) - Math.abs(a.ch)).slice(0, 4);
+      if (mv.length) lines.push(mv.map((r) => (r.ch >= 0 ? "🟢 " : "🔴 ") + esc(r.sym) + " " + pct(r.ch)).join("\n"));
+    }
+    const fv = favs.map((t) => { const x = q[t]; return x && x.prev ? { t, ch: (x.price / x.prev - 1) * 100 } : null; }).filter(Boolean).sort((a, b) => b.ch - a.ch);
+    if (fv.length >= 2) {
+      const top = fv.slice(0, 3), bot = fv.slice(-3).reverse().filter((x) => !top.includes(x));
+      lines.push("", "<b>Kedvenceid</b>", "Legjobb: " + top.map((x) => esc(x.t) + " " + pct(x.ch)).join(", "), bot.length ? "Leggyengébb: " + bot.map((x) => esc(x.t) + " " + pct(x.ch)).join(", ") : "");
+    }
+    // Holnapi események a napi kiadás naptárából
+    try {
+      const r = await fetch(SITE + "data.json?t=" + Date.now());
+      const j = r.ok ? await r.json() : {};
+      const tm = budapest(new Date(Date.now() + 86400000)).date;
+      const syms = new Set(pf.map((h) => String(h.symbol).toUpperCase()));
+      const ev = (j.calendar || []).filter((e) => e.date === tm && ((e.importance || 1) >= 2 || (e.symbols || []).some((s) => syms.has(String(s).toUpperCase()))))
+        .sort((a, b) => String(a.time || "99").localeCompare(String(b.time || "99"))).slice(0, 8);
+      lines.push("", "<b>Holnap</b> (" + tm.slice(5).replace("-", ".") + ".)");
+      lines.push(ev.length ? ev.map((e) => "• " + (e.time || "egész nap") + " " + esc(e.country || "") + " — " + esc(e.event || "")).join("\n") : "Nincs kiemelt esemény a naptárban.");
+    } catch { /* naptár nélkül */ }
+    if (!rows.length && fv.length < 2 && !manual) return false;
+    lines.push("", "<a href=\"" + SITE + "\">TőzsdeRadar megnyitása</a>");
+    return tgSend(this.env, chat, lines.filter((x, i, a) => !(x === "" && a[i - 1] === "")).join("\n"));
+  }
+}
+
+const AL_TYPES_TXT = { above: "≥ ", below: "≤ ", cross: "átlépi: " };
+function alertText(a) {
+  return a.type === "move" ? "napi változás ≥ ±" + huNum(a.value, 2) + "%" : (AL_TYPES_TXT[a.type] || "") + fpx(a.value);
 }
