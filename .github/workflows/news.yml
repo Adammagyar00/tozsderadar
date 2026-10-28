@@ -1,0 +1,37 @@
+name: Yahoo Finance hírek
+
+on:
+  schedule:
+    # 30 percenként; a fordítást és válogatást a Claude-frissítések végzik
+    - cron: "11,41 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Hírek letöltése
+        run: python3 tools/fetch_news.py
+
+      - name: Feltöltés, ha változott
+        run: |
+          git add yahoo_news.json 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Yahoo Finance hírek"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            sleep 5
+          done
+          exit 1
