@@ -2825,10 +2825,16 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     if (f) box.append(card("Részvénypiac: félelem és kapzsiság", String(Math.round(f.score)), FNG_HU[String(f.rating).toLowerCase()] || f.rating, (typeof f.week === "number" ? "Egy hete: " + Math.round(f.week) + " · " : "") + "CNN Fear & Greed Index", f.score));
     else box.append(card("Részvénypiac: félelem és kapzsiság", "–", "Most nem érhető el", "CNN Fear & Greed Index"));
     const vix = box.appendChild(card("VIX volatilitási index", "…", "", "20 alatt nyugodt, 30 fölött feszült a részvénypiac", null)); vix.dataset.vix = "1";
-    const fl = (fr || []).filter((x) => x && x.lastFundingRate != null);
+    let fl = (fr || []).filter((x) => x && x.lastFundingRate != null), fsrc = "Binance Futures";
+    // tartalék: a Bybit perpetual piacai
+    if (!fl.length) {
+      const by = await Promise.all(["BTC", "ETH", "SOL"].map((sy) => fetch("https://api.bybit.com/v5/market/tickers?category=linear&symbol=" + sy + "USDT").then((r) => r.ok ? r.json() : null).catch(() => null)));
+      fl = by.map((j) => j && j.result && (j.result.list || [])[0]).filter((x) => x && x.fundingRate != null).map((x) => ({ symbol: x.symbol, lastFundingRate: x.fundingRate }));
+      fsrc = "Bybit";
+    }
     if (fl.length) {
       const avg = fl.reduce((a, x) => a + +x.lastFundingRate, 0) / fl.length * 100;
-      const fc = card("Funding rate (perpetual, 8 órás)", fl.map((x) => x.symbol.replace("USDT", "") + " " + (x.lastFundingRate >= 0 ? "+" : "−") + Math.abs(x.lastFundingRate * 100).toFixed(4).replace(".", ",") + "%").join("  ·  "), avg > 0.03 ? "Erősen túlsúlyban a long pozíciók" : avg > 0 ? "A long oldal fizet (enyhe vételi túlsúly)" : avg < -0.01 ? "A short oldal fizet (eladói túlsúly)" : "Kiegyensúlyozott", "Pozitív: a long pozíciók fizetnek a shortoknak · Binance Futures");
+      const fc = card("Funding rate (perpetual, 8 órás)", fl.map((x) => x.symbol.replace("USDT", "") + " " + (x.lastFundingRate >= 0 ? "+" : "−") + Math.abs(x.lastFundingRate * 100).toFixed(4).replace(".", ",") + "%").join("  ·  "), avg > 0.03 ? "Erősen túlsúlyban a long pozíciók" : avg > 0 ? "A long oldal fizet (enyhe vételi túlsúly)" : avg < -0.01 ? "A short oldal fizet (eladói túlsúly)" : "Kiegyensúlyozott", "Pozitív: a long pozíciók fizetnek a shortoknak · " + fsrc);
       fc.querySelector(".v").classList.add("sm"); box.append(fc);
     } else box.append(card("Funding rate (perpetual)", "–", "Most nem érhető el", "Binance Futures"));
     hmUpdate();
