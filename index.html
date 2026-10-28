@@ -1284,7 +1284,6 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       body.append(sum);
       const today = el("section", "pf-today"); today.append(el("div", "k", "Mai összefoglaló"));
       pfRefs.today = el("div"); today.append(pfRefs.today); pfRefs.todaySig = "";
-      body.append(today);
       const alloc = el("div", "pf-alloc"); alloc.setAttribute("role", "img");
       const legend = el("div", "pf-legend");
       pfRefs.alloc = alloc; pfRefs.legend = legend;
@@ -1335,6 +1334,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       table.append(thead, tbody);
       scroll.append(table);
       body.append(scroll);
+      // a mai összefoglaló az eszközök táblázata alatt
+      body.append(today);
       body.append(el("p", "pf-note", "Minden érték " + PF_CURS[curNow()][1] + (curNow() !== "USD" ? " (dollárból az élő árfolyammal átváltva; a vételárat dollárban add meg)" : "") + ". Kriptónál a változás 24 órás, részvénynél és ETF-nél az előző záráshoz képest. Az árak élőben frissülnek; ha egy tételnek nincs ára, az nem számít bele az összegekbe. (Ez nem pénzügyi tanácsadás.)"));
     }
 
