@@ -52,7 +52,10 @@ jobs:
           npx --yes wrangler@3.80.0 deploy 2>&1 | tee deploy.log
           printf '%s' "$FINNHUB_API_KEY" | npx --yes wrangler@3.80.0 secret put FINNHUB_API_KEY
           if [ -n "$TELEGRAM_BOT_TOKEN" ]; then
-            printf '%s' "$TELEGRAM_BOT_TOKEN" | npx --yes wrangler@3.80.0 secret put TELEGRAM_BOT_TOKEN
+            # a bemásolt tokenből a szóközöket és sortöréseket kivesszük
+            TG=$(printf '%s' "$TELEGRAM_BOT_TOKEN" | tr -d '[:space:]')
+            if ! printf '%s' "$TG" | grep -qE '^[0-9]{5,}:[A-Za-z0-9_-]{30,}$'; then echo "::warning::A TELEGRAM_BOT_TOKEN nem a szokásos formájú (számok:betűk, pl. 123456789:AAH...). Csak magát a tokent másold be."; fi
+            printf '%s' "$TG" | npx --yes wrangler@3.80.0 secret put TELEGRAM_BOT_TOKEN
           else
             echo "::notice::Nincs TELEGRAM_BOT_TOKEN repó-titok: a Telegram-értesítések kimaradnak."
           fi
@@ -61,10 +64,13 @@ jobs:
         if: steps.check.outputs.ready == 'true' && env.TELEGRAM_BOT_TOKEN != ''
         run: |
           URL=$(grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' worker/deploy.log | head -n1)
-          SECRET=$(printf '%s' "tozsderadar:$TELEGRAM_BOT_TOKEN" | sha256sum | cut -c1-48)
-          R=$(curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setWebhook" -d "url=$URL/tg" -d "secret_token=$SECRET" -d 'allowed_updates=["message"]')
+          TG=$(printf '%s' "$TELEGRAM_BOT_TOKEN" | tr -d '[:space:]')
+          SECRET=$(printf '%s' "tozsderadar:$TG" | sha256sum | cut -c1-48)
+          R=$(curl -s "https://api.telegram.org/bot$TG/getMe")
+          echo "$R" | grep -q '"ok":true' && echo "::notice::Telegram bot: $(echo "$R" | grep -oE '"username":"[^"]+"')" || { echo "::warning::A Telegram nem fogadta el a tokent (getMe): $(echo "$R" | grep -oE '"description":"[^"]+"')"; exit 0; }
+          R=$(curl -s "https://api.telegram.org/bot$TG/setWebhook" -d "url=$URL/tg" -d "secret_token=$SECRET" -d 'allowed_updates=["message"]')
           echo "$R" | grep -q '"ok":true' && echo "::notice::Telegram webhook beállítva: $URL/tg" || echo "::warning::Telegram webhook: $R"
-          curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setMyCommands" -H 'content-type: application/json' -d '{"commands":[{"command":"riasztasok","description":"Riasztásaim"},{"command":"osszegzes","description":"Összefoglaló most"},{"command":"stop","description":"Értesítések leállítása"}]}' > /dev/null
+          curl -s "https://api.telegram.org/bot$TG/setMyCommands" -H 'content-type: application/json' -d '{"commands":[{"command":"riasztasok","description":"Riasztásaim"},{"command":"osszegzes","description":"Összefoglaló most"},{"command":"stop","description":"Értesítések leállítása"}]}' > /dev/null
 
       - name: Cím mentése a live.json-ba
         if: steps.check.outputs.ready == 'true'
