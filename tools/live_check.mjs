@@ -3,11 +3,14 @@ const cfg = JSON.parse(await (await import("node:fs/promises")).readFile(new URL
 const check = (path, symbols) => new Promise((resolve) => {
   const ws = new WebSocket(cfg.wsUrl.replace(/\/ws$/, path), { headers: { Origin: "https://adammagyar00.github.io" } });
   let n = 0;
-  const done = (why) => { try { ws.close(); } catch {} resolve(`${path}: ${n} üzenet (${why})`); };
+  const done = (why) => { try { ws.close(); } catch {} resolve(`${path}: ${n} üzenet (${why}) ${first}`); };
   ws.onopen = () => { for (const s of symbols) ws.send(JSON.stringify({ type: "subscribe", symbol: s })); };
-  ws.onmessage = (e) => { n++; if (n <= 2) console.log(path, String(e.data).slice(0, 160)); };
+  let first = "";
+  ws.onmessage = (e) => { n++; if (n === 1) first = String(e.data).slice(0, 80); };
   ws.onerror = (e) => done("hiba: " + (e.message || e.type));
-  setTimeout(() => done("időkorlát"), 45000);
+  setTimeout(() => done("30 mp"), 30000);
 });
-console.log(await check("/yws", ["EURUSD=X", "EURHUF=X", "BTC-USD", "VUAA.L", "^GDAXI", "NVDA"]));
-console.log(await check("/ws", ["BINANCE:BTCUSDT", "AAPL", "NVDA"]));
+// Az eredmény ::notice::-ként a futás összefoglalójában is látszik
+console.log("::notice::" + await check("/yws", ["EURUSD=X", "EURHUF=X", "BTC-USD", "VUAA.L", "^GDAXI", "NVDA"]));
+console.log("::notice::" + await check("/ws", ["AAPL", "NVDA", "MSFT"]));
+process.exit(0);
