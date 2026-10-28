@@ -403,8 +403,54 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const LIVE_STK = {};
   let stockAt = null;
   let tapeSig = "";
+  // A futószalag teljes tétellistája (market.json): a napi kiadás értékei kerülnek bele,
+  // amit pedig élő forrás ad (Yahoo a Workeren át, Finnhub, kriptó-adatfolyam), az felülírja
+  let MARKET_DEF = null;
+  const MKT = {};
+  const tapeItems = (d) => {
+    const dm = (d && d.markets) || [];
+    if (!MARKET_DEF) return dm;
+    const byName = new Map(dm.map((x) => [x.name, x]));
+    const out = MARKET_DEF.map((m) => ({ ...(byName.get(m.name) || {}), ...m }));
+    const known = new Set(MARKET_DEF.map((m) => m.name));
+    for (const x of dm) {
+      if (known.has(x.name)) continue;
+      let at = -1;
+      out.forEach((o, i) => { if (o.group === x.group) at = i; });
+      if (at < 0) out.push(x); else out.splice(at + 1, 0, x);
+    }
+    return out;
+  };
+  const fmtNum = (v, dec) => v.toLocaleString("hu-HU", { minimumFractionDigits: dec, maximumFractionDigits: dec });
+  function applyMarket(quotes, source) {
+    if (!MARKET_DEF || !quotes) return;
+    let rebuild = false;
+    for (const m of MARKET_DEF) {
+      const q = m.y && quotes[m.y];
+      if (!q || typeof q.price !== "number") continue;
+      const old = MKT[m.name];
+      if (old && old.t && q.t && q.t < old.t) continue; // régebbi adat ne írja felül a frissebbet
+      const dec = m.dec ?? 2;
+      let change = "";
+      if (typeof q.prevClose === "number" && q.prevClose) {
+        if (m.yield) { const bp = Math.round((q.price - q.prevClose) * 100); change = (bp > 0 ? "+" : bp < 0 ? "-" : "") + Math.abs(bp) + " bp"; }
+        else { const ch = (q.price / q.prevClose - 1) * 100; change = (ch >= 0 ? "+" : "") + ch.toFixed(2).replace(".", ",") + "%"; }
+      }
+      const when = q.t ? new Date(q.t * 1000).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
+      // 30 percnél régebbi ár: a piac zárva van, ez az utolsó (záró) ár
+      const closed = q.t && Date.now() / 1000 - q.t > 1800;
+      const entry = { price: fmtNum(q.price, dec) + (m.unit || ""), change, t: q.t, note: (closed ? "Utolsó (záró) ár, " : "Élő ár, ") + when + " · " + source + (m.yield ? " · változás bázispontban" : ", változás az előző záráshoz") };
+      MKT[m.name] = entry;
+      const key = CSS.escape(m.name);
+      const vals = document.querySelectorAll('[data-mk="' + key + '"]');
+      if (!vals.length) { rebuild = true; continue; }
+      for (const n of vals) { n.textContent = entry.price; if (n.parentNode) n.parentNode.title = entry.note; }
+      for (const n of document.querySelectorAll('[data-mk-chg="' + key + '"]')) { n.textContent = entry.change; n.className = "chg " + dirOf(entry.change); }
+    }
+    if (rebuild && current()) { tapeSig = ""; renderTape(current()); }
+  }
   function renderTape(d) {
-    const m = d.markets || [];
+    const m = tapeItems(d);
     $("tapeBand").hidden = !m.length;
     const sig = JSON.stringify(m);
     if (sig === tapeSig) return; // ne indítsa újra a futószalagot, ha nem változott
@@ -415,20 +461,22 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       let grp = null;
       for (const x of m) {
         // Ellenőrzött érték vagy élő ár nélkül nem mutatjuk az elemet
-        const stk = x.group === "Részvény" ? LIVE_STK[String(x.name).toUpperCase()] : null;
-        if (!x.value && !(x.cg && LIVE_CG[x.cg]) && !stk) continue;
+        const mk = x.y ? MKT[x.name] : null;
+        const stk = !x.y && x.group === "Részvény" ? LIVE_STK[String(x.name).toUpperCase()] : null;
+        if (!x.value && !(x.cg && LIVE_CG[x.cg]) && !stk && !mk) continue;
         const s = el("div", "tick");
         if ((x.group || "") !== grp) { grp = x.group || ""; if (grp) s.append(el("span", "tick-grp", grp)); }
         s.append(el("b", null, x.name));
-        const live = (x.cg && LIVE_CG[x.cg]) || stk;
+        const live = (x.cg && LIVE_CG[x.cg]) || stk || mk;
         const val = el("span", "val", live ? live.price : (x.value || ""));
         const chgText = live ? live.change : (x.change || "");
         const chg = el("span", "chg " + dirOf(chgText), chgText);
         if (x.cg) { val.dataset.cg = x.cg; chg.dataset.cgChg = x.cg; }
+        else if (x.y) { val.dataset.mk = x.name; chg.dataset.mkChg = x.name; }
         else if (x.group === "Részvény") { val.dataset.sym = String(x.name).toUpperCase(); chg.dataset.symChg = val.dataset.sym; }
         if (val.textContent) s.append(val);
-        if (chgText || x.cg) s.append(chg);
-        if (x.note) s.title = x.note;
+        if (chgText || x.cg || x.y) s.append(chg);
+        if (mk && mk.note) s.title = mk.note; else if (x.note) s.title = x.note;
         frag.append(s);
       }
       return frag;
@@ -1115,7 +1163,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   // Élő kriptoárak: csak az exportált fájlban fut, mert a claude.ai-os nézet nem enged külső lekérést
   const fmtUsd = (v) => v.toLocaleString("hu-HU", { maximumFractionDigits: v >= 1000 ? 0 : v >= 1 ? 2 : 4, minimumFractionDigits: v >= 1000 ? 0 : v >= 1 ? 2 : 4 });
   async function pollLive() {
-    const tapeIds = ((current() || {}).markets || []).filter((x) => x.cg).map((x) => x.cg);
+    const tapeIds = tapeItems(current()).filter((x) => x.cg).map((x) => x.cg);
     const ids = [...new Set([...(watchlist || []).filter((w) => w.cg).map((w) => w.cg), ...tapeIds])];
     if (!ids.length) return;
     try {
@@ -1174,6 +1222,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
           applyStockQuote(sym, q, p.source);
         }
         if (p.updatedAt) stockAt = new Date(p.updatedAt);
+        applyMarket(p.market, "Yahoo Finance");
         renderWatchlist();
         updatePortfolio();
       } catch (e) { /* ha nincs prices.json, maradnak a napi záróárak */ }
@@ -1184,7 +1233,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const cgOf = () => {
       const m = {};
       for (const w of watchlist || []) if (w.cg) m[String(w.symbol).toUpperCase()] = w.cg;
-      for (const x of (current() || {}).markets || []) if (x.cg) m[String(x.name).toUpperCase()] = x.cg;
+      for (const x of tapeItems(current())) if (x.cg) m[String(x.name).toUpperCase()] = x.cg;
       for (const h of portfolio) if (h.type === "crypto" && !m[h.symbol]) m[h.symbol] = h.cg || "sym:" + h.symbol;
       return m;
     };
@@ -1194,7 +1243,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const t = String(w.type || "").toLowerCase();
         if (!t.startsWith("kripto") && !t.includes("lse") && !t.includes("xetra")) out.add(String(w.symbol).toUpperCase());
       }
-      for (const x of (current() || {}).markets || []) if (x.group === "Részvény") out.add(String(x.name).toUpperCase());
+      for (const x of tapeItems(current())) if (x.group === "Részvény" && !x.y) out.add(String(x.name).toUpperCase());
       for (const h of portfolio) if (h.type !== "crypto") out.add(h.symbol);
       for (const s of ["OTP", "MOL", "RICHTER", ...NO_STREAM]) out.delete(s);
       return [...out];
@@ -1226,6 +1275,31 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         parse: (m) => { const d = m && m.data; return d && d.s && d.c ? [d.s.replace(/USDT$/, ""), parseFloat(d.c), parseFloat(d.P)] : null; },
       },
     ];
+    // A futószalag deviza-, nyersanyag-, index- és hozamtételei percenként a Workeren át
+    let marketUrl = null;
+    const pollMarket = async () => {
+      const ys = (MARKET_DEF || []).filter((m) => m.y).map((m) => m.y);
+      if (!marketUrl || !ys.length) return;
+      try {
+        const r = await fetch(marketUrl + "?y=" + encodeURIComponent(ys.join(",")));
+        if (!r.ok) return;
+        const j = await r.json();
+        applyMarket(j.quotes, j.source || "Yahoo Finance");
+      } catch (e) { /* marad a 15 percenkénti prices.json */ }
+    };
+    const loadMarketDef = async () => {
+      try {
+        const r = await fetch("market.json?t=" + Date.now(), { cache: "no-store" });
+        if (!r.ok) return;
+        const j = await r.json();
+        if (!Array.isArray(j.items)) return;
+        MARKET_DEF = j.items;
+        tapeSig = "";
+        if (current()) renderTape(current());
+        loadPrices();
+        pollMarket();
+      } catch (e) { /* market.json nélkül a napi kiadás tételei maradnak */ }
+    };
     let srcIdx = 0;
     let cryptoWs = null, cryptoSyms = [], stockWs = null;
     const subscribed = new Set();
@@ -1264,6 +1338,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       try { const r = await fetch("live.json?t=" + Date.now(), { cache: "no-store" }); if (!r.ok) return; cfg = await r.json(); } catch (e) { return; }
       if (!cfg || !cfg.wsUrl) return;
       quoteUrl = cfg.wsUrl.replace(/^wss:/, "https:").replace(/\/ws$/, "/quote");
+      marketUrl = quoteUrl.replace(/\/quote$/, "/market");
+      pollMarket();
       if (portfolio.length) pollPortfolio();
       let ws;
       try { ws = stockWs = new WebSocket(cfg.wsUrl); } catch (e) { return; }
@@ -1318,7 +1394,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
         loadPrices();
-        if (first) { first = false; pollLive(); setInterval(pollLive, 60000); setInterval(pollPortfolio, 60000); connectBybit(); connectStocks(); }
+        if (first) { first = false; await loadMarketDef(); pollLive(); setInterval(pollLive, 60000); setInterval(pollPortfolio, 60000); setInterval(pollMarket, 60000); connectBybit(); connectStocks(); }
       } catch (e) {
         if (first) { watchlist = []; renderEmpty("Az összefoglaló most nem tölthető be", "Nem sikerült betölteni az adatokat. Töltsd újra az oldalt."); renderWatchlist(); }
       }

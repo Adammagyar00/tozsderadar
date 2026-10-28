@@ -43,6 +43,39 @@ async function quotes(url, env, origin) {
   });
 }
 
+// A futószalag tőzsdén kívüli tételei (deviza, nyersanyag, index, hozam, budapesti részvény)
+// a Yahoo Finance nyilvános árfolyam-adataiból; a böngésző ezt közvetlenül nem kérheti le
+const Y_RE = /^[A-Z0-9^=.\-]{1,20}$/;
+const MAX_MARKET = 40;
+const marketCache = new Map();
+
+async function yahoo(ticker) {
+  const hit = marketCache.get(ticker);
+  if (hit && Date.now() - hit.at < (hit.q ? QUOTE_TTL : 10 * QUOTE_TTL)) return hit.q;
+  const res = await fetch("https://query1.finance.yahoo.com/v8/finance/chart/" + encodeURIComponent(ticker) + "?range=1d&interval=1d", {
+    headers: { "User-Agent": "Mozilla/5.0 (TozsdeRadar)" },
+  });
+  if (!res.ok) return hit ? hit.q : null;
+  const j = await res.json();
+  const m = j && j.chart && j.chart.result && j.chart.result[0] && j.chart.result[0].meta;
+  const q = m && typeof m.regularMarketPrice === "number"
+    ? { price: m.regularMarketPrice, prevClose: m.chartPreviousClose ?? null, t: m.regularMarketTime ?? null, currency: m.currency ?? null }
+    : null;
+  marketCache.set(ticker, { q, at: Date.now() });
+  return q;
+}
+
+async function market(url, origin) {
+  const tickers = [...new Set((url.searchParams.get("y") || "").toUpperCase().split(","))].filter((s) => Y_RE.test(s)).slice(0, MAX_MARKET);
+  const out = {};
+  await Promise.all(tickers.map(async (t) => {
+    try { const q = await yahoo(t); if (q) out[t] = q; } catch { /* a többi jelölés attól még menjen */ }
+  }));
+  return new Response(JSON.stringify({ source: "Yahoo Finance", quotes: out }), {
+    headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": origin, vary: "Origin" },
+  });
+}
+
 const allowed = (origin) => ALLOWED_ORIGINS.includes(origin) || origin.startsWith("http://localhost");
 
 export default {
@@ -52,6 +85,11 @@ export default {
       const origin = request.headers.get("Origin") || "";
       if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
       return quotes(url, env, origin);
+    }
+    if (url.pathname === "/market") {
+      const origin = request.headers.get("Origin") || "";
+      if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
+      return market(url, origin);
     }
     if (url.pathname !== "/ws") {
       return new Response("TőzsdeRadar élő árfolyam-közvetítő", { headers: { "content-type": "text/plain; charset=utf-8" } });

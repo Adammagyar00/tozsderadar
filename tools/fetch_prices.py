@@ -32,9 +32,7 @@ def symbols():
         if t.startswith("kripto") or "lse" in t or "xetra" in t:
             continue
         out.append(w["symbol"])
-    digests = sorted(data.get("digests", []), key=lambda d: d.get("date", ""), reverse=True)
-    if digests:
-        out += [m["name"] for m in digests[0].get("markets", []) if m.get("group") == "Részvény"]
+    out += [m["name"] for m in market_items() if m.get("fh")]
     seen, result = set(), []
     for s in out:
         s = s.upper()
@@ -42,6 +40,30 @@ def symbols():
             seen.add(s)
             result.append(s)
     return result
+
+
+def market_items():
+    try:
+        return json.load(open(os.path.join(ROOT, "market.json"), encoding="utf-8")).get("items", [])
+    except (OSError, ValueError):
+        return []
+
+
+def market_quotes():
+    """A futószalag Yahoo-jelölésű tételei, saját devizában (a lap formázza őket)."""
+    out = {}
+    for m in market_items():
+        if not m.get("y"):
+            continue
+        try:
+            price, prev, cur, t = yahoo(m["y"])
+        except Exception as e:
+            print(f"{m['y']}: {e}", file=sys.stderr)
+            continue
+        if price:
+            out[m["y"]] = {"price": price, "prevClose": prev, "t": t, "currency": cur}
+        time.sleep(0.3)
+    return out
 
 
 def quote(sym):
@@ -116,15 +138,16 @@ def main():
         time.sleep(1.1)  # ingyenes keret: 60 kérés/perc
     if not KEY:
         print("Nincs FINNHUB_API_KEY, csak az UCITS ETF-ek ára frissül.")
-    if not quotes:
+    market = market_quotes()
+    if not quotes and not market:
         sys.exit("Egyetlen árat sem sikerült lekérni.")
-    if quotes == old.get("quotes"):
+    if quotes == old.get("quotes") and market == old.get("market"):
         print("Nincs változás.")
         return
     now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     with open(path, "w", encoding="utf-8") as f:
-        json.dump({"source": "Finnhub", "updatedAt": now, "quotes": quotes}, f, ensure_ascii=False, indent=1)
-    print(f"prices.json kész: {len(quotes)} ár")
+        json.dump({"source": "Finnhub", "updatedAt": now, "quotes": quotes, "market": market}, f, ensure_ascii=False, indent=1)
+    print(f"prices.json kész: {len(quotes)} ár, {len(market)} futószalag-tétel")
 
 
 if __name__ == "__main__":
