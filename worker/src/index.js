@@ -435,10 +435,10 @@ async function weekQuotes(tickers) {
   return out;
 }
 
-// A frissítési lánc ütemezése (budapesti idő): a Claude-frissítés :57-kor, a feltöltés utána :22-kor.
-// 2026-10-29-től kétóránként (6:22-től 22:22-ig frissül az oldal), előtte háromóránként.
+// A frissítési lánc ütemezése (budapesti idő). Eddig: a Claude-frissítés :57-kor, a feltöltés :22-kor, háromóránként.
+// 2026-10-29-től kétóránként, egész órára kész: frissítés 5:30, 7:30 … 21:30, feltöltés 20 perccel utána.
 const RUNS_OLD = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
-const RUNS_NEW = [[5, 57], [7, 57], [9, 57], [11, 57], [13, 57], [15, 57], [17, 57], [19, 57], [21, 57]];
+const RUNS_NEW = [[5, 30], [7, 30], [9, 30], [11, 30], [13, 30], [15, 30], [17, 30], [19, 30], [21, 30]];
 const runsOn = (date) => date >= "2026-10-29" ? RUNS_NEW : RUNS_OLD;
 function budapestOffsetMs(now) {
   const b = budapest(new Date(now));
@@ -463,7 +463,7 @@ function staleOf(data, now = Date.now()) {
   const built = Date.parse(data.builtAt || "") || 0;
   const d0 = (data.digests || [])[0] || {};
   const upd = Math.max(Date.parse(d0.updatedAt || "") || 0, Date.parse(d0.generatedAt || "") || 0);
-  if (built && built < run + 20 * 60000) return { stale: true, kind: "upload", since: built, slot: run };
+  if (built && built < run + 15 * 60000) return { stale: true, kind: "upload", since: built, slot: run };
   if (upd && upd < prevRun - 10 * 60000) return { stale: true, kind: "content", since: upd, slot: run };
   return { stale: false, slot: run };
 }
@@ -607,7 +607,7 @@ export class Store {
       list.push(arg);
       await this.state.storage.put({ ["chat:" + arg]: chat, ["chatOf:" + chat]: arg, linked: [...new Set(list)] });
       if (old && old !== arg) await this.state.storage.delete("chat:" + old);
-      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este fél 11-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /heti · /stop");
+      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este 10-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /heti · /stop");
       return;
     }
     const id = await this.state.storage.get("chatOf:" + chat);
@@ -663,11 +663,11 @@ export class Store {
       if (changed) await this.state.storage.put("st:" + u.id, st);
     }
     const b = budapest();
-    // Esti összefoglaló 22:30-kor (a 22:22-es utolsó feltöltés után), heti összefoglaló vasárnap 20:00-kor, reggeli eseménylista 7:30-kor (budapesti idő)
+    // Esti összefoglaló 22:00-kor (az utolsó, 21:50-es feltöltés után), heti összefoglaló vasárnap 20:00-kor, reggeli eseménylista 7:30-kor (budapesti idő)
     const once = async (u, key, fn) => { if ((await this.state.storage.get(key + ":" + u.id)) === b.date) return; await this.state.storage.put(key + ":" + u.id, b.date); await fn(); };
     const dow = new Date(Date.UTC(...b.date.split("-").map((v, i) => i === 1 ? v - 1 : +v))).getUTCDay();
     for (const u of users) {
-      if (b.hour === 22 && b.minute >= 30 && b.minute < 40 && u.srv.summary !== false) await once(u, "sum", () => this.summary(u.id, u.chat, false));
+      if (b.hour === 22 && b.minute < 10 && u.srv.summary !== false) await once(u, "sum", () => this.summary(u.id, u.chat, false));
       if (dow === 0 && b.hour === 20 && b.minute < 10 && u.srv.weekly !== false) await once(u, "week", () => this.weekly(u.id, u.chat));
     }
     // A napi kiadás (data.json): 5 percenként hírek, reggel események, 10 percenként a frissítés ellenőrzése
@@ -725,7 +725,7 @@ export class Store {
     const to = users.filter((u) => u.srv.stale !== false);
     if (st.stale && sent !== st.slot) {
       await this.state.storage.put("staleSent", st.slot);
-      const msg = "⚠️ <b>Elakadt a TőzsdeRadar frissítése.</b>\n" + (st.kind === "upload" ? "Elmaradt az adatfeltöltés (esedékes volt: " + hhmm(st.slot + 25 * 60000) + "). Legutóbbi feltöltés: " + hhmm(st.since) + "." : "Két egymás utáni frissítés sem hozott új hírt (utolsó: " + hhmm(st.since) + ").") + "\nSzólj Claude-nak a beszélgetésben, hogy nézze meg.";
+      const msg = "⚠️ <b>Elakadt a TőzsdeRadar frissítése.</b>\n" + (st.kind === "upload" ? "Elmaradt az adatfeltöltés (esedékes volt: " + hhmm(st.slot + 20 * 60000) + "). Legutóbbi feltöltés: " + hhmm(st.since) + "." : "Két egymás utáni frissítés sem hozott új hírt (utolsó: " + hhmm(st.since) + ").") + "\nSzólj Claude-nak a beszélgetésben, hogy nézze meg.";
       for (const u of to) await tgSend(this.env, u.chat, msg);
     } else if (!st.stale && sent) {
       await this.state.storage.delete("staleSent");
