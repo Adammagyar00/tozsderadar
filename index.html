@@ -337,6 +337,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .lwc-stage { position: relative; display: grid; grid-template-rows: minmax(0, 1fr) auto; min-height: 0; }
 .lwc-main { position: relative; min-height: 0; }
 .lwc-sub { height: 140px; border-top: 1px solid var(--line); }
+.lwc-src { font-family: var(--font-data); font-size: 11px; color: var(--up); align-self: center; margin-left: auto; }
 .lwc-legend { position: absolute; top: 6px; left: 10px; z-index: 2; font-family: var(--font-data); font-size: 12px; color: var(--muted); pointer-events: none; font-variant-numeric: tabular-nums; }
 .lwc-drawing .lwc-main { cursor: crosshair; }
 .tv-note { margin: 0; padding: 6px 14px 10px; font-size: 12px; }
@@ -1544,7 +1545,9 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const YQ = {};      // Yahoo-jelölés → { p, prev, t, cur }
   const YINFO = {};   // Yahoo-jelölés → { name, type, exch }
   const EXTRA_Y = new Set();
-  let searchUrl = null, mkMarketUrl = null, ySyncHook = null;
+  let searchUrl = null, mkMarketUrl = null, ySyncHook = null, fhSubHook = null;
+  const fhSeen = {};           // Finnhub: jelölés → utolsó kötés ideje (ms)
+  const CHART_FH = new Set();  // a nyitott grafikon amerikai jelölése, hogy a Finnhub élő kötéseit is megkapjuk
   let mkTab = "Kripto", mkSel = null, mkRange = "1d", mkResults = null, mkQuery = "", mkSeq = 0;
   const CUR_SIGN = { USD: "$", EUR: "€", GBP: "£", GBp: "penny", GBX: "penny", HUF: "Ft", JPY: "¥", CHF: "CHF", CNY: "CNY", HKD: "HKD" };
   const curFmt = (v, cur) => fmtNum(v, Math.abs(v) >= 1 ? 2 : 4) + (cur ? " " + (CUR_SIGN[cur] || cur) : "");
@@ -1744,7 +1747,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       b.addEventListener("click", () => show(m));
       modes.append(b);
     }
-    show(TV_BLOCKED.has(sym.split(":")[0]) ? "own" : "tv");
+    show("own");
     close.focus();
   }
 
@@ -1779,7 +1782,14 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const main = el("div", "lwc-main"), sub = el("div", "lwc-sub");
     const stage = el("div", "lwc-stage"); stage.append(main, legend, sub);
     body.append(bar, stage);
-    let charts = [], alive = true, mode = null, pending = null, candles = null, bars = [];
+    let charts = [], alive = true, mode = null, pending = null, candles = null, bars = [], volSeries = null, binWs = null, src = "yahoo", curIv = "1d", hovering = false, legendShow = null;
+    const cryptoBase = (String(t).match(/^([A-Z0-9]+)-USD$/) || [])[1] || null;
+    // Amerikai jelölés (nincs tőzsde-utótag, index vagy határidős jel): ehhez a Finnhub valós idejű kötései is jönnek
+    const usSym = !cryptoBase && /^[A-Z]{1,5}(-[A-Z])?$/.test(t) ? t.replace("-", ".") : null;
+    const BIN_IV = { "5m": "5m", "15m": "15m", "60m": "1h", "1d": "1d", "1wk": "1w" };
+    const IV_SEC = { "5m": 300, "15m": 900, "60m": 3600, "1d": 86400, "1wk": 604800 };
+    const srcLabel = el("span", "lwc-src");
+    bar.append(srcLabel);
     const draw = loadDraw(t);
     const msg = (text) => { main.replaceChildren(el("div", "msg", text)); };
     const shift = (ts) => ts - new Date(ts * 1000).getTimezoneOffset() * 60; // a grafikon helyi (budapesti) időt mutasson
@@ -1795,15 +1805,27 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     chip(drg, "Rajzok törlése", false, () => { draw.h = []; draw.tl = []; draw.fib = []; draw.order = []; saveDraw(t, draw); build(); });
     const destroy = () => { for (const c of charts) { try { c.remove(); } catch (e) { /* már törölve */ } } charts = []; };
     async function build() {
-      destroy(); candles = null;
+      destroy(); candles = null; volSeries = null;
+      if (binWs) { try { binWs.close(); } catch (e) { /* már zárva */ } binWs = null; }
       msg("Grafikon betöltése…");
       if (!historyUrl) { msg("A saját grafikon a GitHubos oldalon működik."); return; }
       try { await loadLWC(); } catch (e) { msg("A grafikonmotor nem tölthető be. Ellenőrizd az internetkapcsolatot."); return; }
       const [, range, iv] = LWC_TF.find((x) => x[0] === lwcPrefs.tf) || LWC_TF[3];
       let sr = null;
-      try { const r = await fetch(historyUrl + "?range=" + range + "&iv=" + iv + "&ohlc=1&y=" + encodeURIComponent(t)); const j = r.ok ? await r.json() : {}; sr = (j.series || {})[t]; } catch (e) { /* lent kezeljük */ }
+      src = "yahoo";
+      // Kriptó: a Binance saját gyertyái (valós idejű), ha ott van ilyen pár
+      if (cryptoBase) {
+        try {
+          const r = await fetch("https://api.binance.com/api/v3/klines?symbol=" + cryptoBase + "USDT&interval=" + BIN_IV[iv] + "&limit=1000");
+          const k = r.ok ? await r.json() : null;
+          if (Array.isArray(k) && k.length > 1) { sr = { t: k.map((x) => x[0] / 1000), o: k.map((x) => +x[1]), h: k.map((x) => +x[2]), l: k.map((x) => +x[3]), c: k.map((x) => +x[4]), v: k.map((x) => +x[5]) }; src = "binance"; }
+        } catch (e) { /* jön a Yahoo */ }
+      }
+      if (!sr) { try { const r = await fetch(historyUrl + "?range=" + range + "&iv=" + iv + "&ohlc=1&y=" + encodeURIComponent(t)); const j = r.ok ? await r.json() : {}; sr = (j.series || {})[t]; } catch (e) { /* lent kezeljük */ } }
+      curIv = iv;
       if (!alive) return;
       if (!sr || !sr.t || sr.t.length < 2 || !sr.o) { msg("Ehhez az idősíkhoz nincs elérhető adat."); return; }
+      srcLabel.textContent = src === "binance" ? "● Élő: Binance (" + cryptoBase + "/USDT), késés nélkül" : usSym ? "● Élő: Finnhub-kötések tőzsdeidőben, nyitás előtt/után Yahoo" : "● Yahoo Finance — európai és egyéb tőzsdéken néhány perc késés lehet";
       main.replaceChildren();
       const LW = window.LightweightCharts;
       const intraday = iv !== "1d" && iv !== "1wk";
@@ -1835,6 +1857,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const vs = ch.addHistogramSeries({ priceScaleId: "vol", priceFormat: { type: "volume" }, lastValueVisible: false, priceLineVisible: false });
         ch.priceScale("vol").applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
         vs.setData(bars.map((b, i) => ({ time: b.time, value: sr.v[i] || 0, color: b.close >= b.open ? col.up + "55" : col.down + "55" })));
+        volSeries = vs;
       }
       // Alsó panel: RSI és/vagy MACD, az idősíkja a főgrafikonnal együtt mozog
       sub.replaceChildren();
@@ -1902,23 +1925,51 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       // Jelmagyarázat: a kurzor alatti gyertya adatai
       const fmtP = (v) => fmtNum(v, Math.abs(v) >= 1 ? 2 : 4);
       const showBar = (b) => { legend.textContent = b ? "Ny " + fmtP(b.open) + "  M " + fmtP(b.high) + "  A " + fmtP(b.low) + "  Z " + fmtP(b.close) + "  " + fmtPctN((b.close / b.open - 1) * 100) : ""; };
-      ch.subscribeCrosshairMove((param) => { showBar(param.time != null ? param.seriesData.get(candles) : bars[bars.length - 1]); });
+      ch.subscribeCrosshairMove((param) => { hovering = param.time != null; showBar(hovering ? param.seriesData.get(candles) : bars[bars.length - 1]); });
+      legendShow = showBar;
       showBar(bars[bars.length - 1]);
       ch.timeScale().fitContent();
       if (bars.length > 160) ch.timeScale().setVisibleLogicalRange({ from: bars.length - 160, to: bars.length + 3 });
     }
-    // Élő ár: az utolsó gyertya folyamatosan frissül
-    const liveTimer = setInterval(() => {
-      const y = YQ[t];
-      if (!candles || !bars.length || !y || typeof y.p !== "number") return;
+    // Élő gyertya. Kriptó: a Binance gyertya-adatfolyama. Más: az élő árakból (Finnhub/Yahoo) építjük;
+    // ha az idősík lejárt, új gyertya nyílik.
+    const putBar = (nb, vol) => {
       const lb = bars[bars.length - 1];
-      const nb = { ...lb, close: y.p, high: Math.max(lb.high, y.p), low: Math.min(lb.low, y.p) };
-      bars[bars.length - 1] = nb;
-      try { candles.update(nb); } catch (e) { /* idősík-váltás közben */ }
+      if (!lb || nb.time < lb.time) return;
+      if (nb.time === lb.time) bars[bars.length - 1] = nb; else bars.push(nb);
+      if (!hovering && legendShow) legendShow(nb);
+      try { candles.update(nb); if (volSeries && vol != null) volSeries.update({ time: nb.time, value: vol, color: nb.close >= nb.open ? col.up + "55" : col.down + "55" }); } catch (e) { /* idősík-váltás közben */ }
+    };
+    const startBinance = () => {
+      if (binWs || src !== "binance" || !alive) return;
+      try { binWs = new WebSocket("wss://stream.binance.com:9443/ws/" + cryptoBase.toLowerCase() + "usdt@kline_" + BIN_IV[curIv]); } catch (e) { return; }
+      const me = binWs;
+      me.onmessage = (e) => {
+        let m; try { m = JSON.parse(e.data); } catch (err) { return; }
+        const k = m && m.k;
+        if (!k || !candles) return;
+        putBar({ time: shift(k.t / 1000), open: +k.o, high: +k.h, low: +k.l, close: +k.c }, +k.v);
+      };
+      me.onclose = () => { if (binWs === me) { binWs = null; if (alive) setTimeout(startBinance, 3000); } };
+    };
+    const liveTimer = setInterval(() => {
+      if (!candles || !bars.length) return;
+      if (src === "binance") { startBinance(); return; }
+      // a legfrissebb ár: Finnhub-kötés (ha 60 mp-en belüli), különben a Yahoo élő ára
+      let p = null, ts = null;
+      if (usSym && LIVE[usSym] && fhSeen[usSym] && Date.now() - fhSeen[usSym] < 60000) { p = LIVE[usSym].p; ts = fhSeen[usSym] / 1000; }
+      else if (YQ[t] && typeof YQ[t].p === "number") { p = YQ[t].p; ts = YQ[t].t || null; }
+      if (typeof p !== "number" || !ts) return;
+      const lb = bars[bars.length - 1], step = IV_SEC[curIv], tsx = shift(ts);
+      if (tsx < lb.time) return;
+      const k = Math.floor((tsx - lb.time) / step);
+      if (k <= 0) putBar({ ...lb, close: p, high: Math.max(lb.high, p), low: Math.min(lb.low, p) });
+      else putBar({ time: lb.time + k * step, open: lb.close, high: Math.max(lb.close, p), low: Math.min(lb.close, p), close: p });
     }, 1000);
     EXTRA_Y.add(t); if (typeof ySyncHook === "function") ySyncHook();
+    if (usSym) { CHART_FH.add(usSym); if (typeof fhSubHook === "function") fhSubHook(); }
     build();
-    return () => { alive = false; clearInterval(liveTimer); destroy(); };
+    return () => { alive = false; clearInterval(liveTimer); if (binWs) { try { binWs.close(); } catch (e) { /* már zárva */ } } if (usSym) CHART_FH.delete(usSym); destroy(); };
   }
 
   async function mkRenderDetail() {
@@ -2155,6 +2206,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       }
       for (const x of tapeItems(current())) if (x.group === "Részvény" && !x.y) out.add(String(x.name).toUpperCase());
       for (const h of portfolio) if (h.type !== "crypto") out.add(h.symbol);
+      for (const x of CHART_FH) out.add(x);
       for (const s of ["OTP", "MOL", "RICHTER", ...NO_STREAM]) out.delete(s);
       return [...out];
     };
@@ -2214,6 +2266,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     let cryptoWs = null, cryptoSyms = [], stockWs = null;
     const subscribed = new Set();
     // Új portfolio-tételnél: a részvényekre feliratkozunk, a kriptó-adatfolyamot újranyitjuk az új listával
+    fhSubHook = () => { if (stockWs && stockWs.readyState === 1) for (const s of stockSyms()) if (!subscribed.has(s)) { subscribed.add(s); stockWs.send(JSON.stringify({ type: "subscribe", symbol: s })); } };
     onPfChange = () => {
       if (stockWs && stockWs.readyState === 1) for (const s of stockSyms()) if (!subscribed.has(s)) { subscribed.add(s); stockWs.send(JSON.stringify({ type: "subscribe", symbol: s })); }
       if (cryptoWs && Object.keys(cgOf()).some((s) => !cryptoSyms.includes(s))) { try { cryptoWs.close(); } catch (e) {} }
@@ -2246,7 +2299,6 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     // Yahoo Finance élő adatfolyam a Workeren át (/yws): európai ETF-ek, devizák, nyersanyagok,
     // indexek, budapesti részvények, és az amerikai részvények tőzsdenyitás előtt/zárás után is.
     // Az üzenetek base64-be csomagolt protobufok; ezt bontjuk ki itt.
-    const fhSeen = {};
     const US_Y = {};
     const b64bytes = (str) => { const bin = atob(str); const u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; };
     const decodeYahoo = (u) => {
