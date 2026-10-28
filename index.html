@@ -1132,7 +1132,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   async function pollPortfolio() {
     if (!portfolio.length) return;
     const ids = [...new Set(portfolio.filter((h) => h.type === "crypto" && h.cg && !wsFresh(h.cg)).map((h) => h.cg))];
-    const stk = [...new Set(portfolio.filter((h) => h.type !== "crypto" && !FILE_SYMS.has(h.symbol)).map((h) => h.symbol))];
+    const stk = [...new Set(portfolio.filter((h) => h.type !== "crypto" && !FILE_SYMS.has(h.symbol) && !NO_STREAM.has(h.symbol)).map((h) => h.symbol))];
     const jobs = [];
     if (ids.length) jobs.push((async () => {
       const r = await fetch("https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&include_24hr_change=true&ids=" + encodeURIComponent(ids.join(",")));
@@ -1178,9 +1178,10 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   // Egy tétel előzmény-forrása: kriptó a CoinGeckóról, európai ETF a saját tőzsdéjéről dollárba váltva, a többi a Yahoo-ról
   const histItem = (key, sym, isCrypto, cg) => {
     sym = String(sym).toUpperCase();
-    if (isCrypto) return cg ? { key, kind: "cg", id: cg } : null;
+    if (isCrypto) return { key, kind: "cx", id: sym, cg };
     const uc = Object.entries(UCITS).find(([, v]) => v.sym === sym);
     if (uc) return { key, kind: "y", id: uc[0], ratio: uc[1].ratio };
+    if (NO_STREAM.has(sym)) return null; // európai ETF, de még nem tudjuk a tőzsdéjét
     return { key, kind: "y", id: sym.replace(/\./g, "-"), ratio: 1 };
   };
   async function histLoad(range, items) {
@@ -1193,12 +1194,29 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     if (ys.length && historyUrl) jobs.push(fetch(historyUrl + "?range=" + range + "&y=" + encodeURIComponent(ys.join(","))).then((r) => r.ok ? r.json() : null).then((j) => {
       for (const [id, v] of Object.entries((j && j.series) || {})) HIST[range + "|y:" + id] = { t: v.t, c: v.c, at: now };
     }).catch(() => {}));
+    // Kriptó: a Binance gyertyái (bőkezű keret); ha ott nincs ilyen pár, a CoinGecko, egymás után, hogy ne fussunk bele a korlátjába
     const days = { "5d": 7, "1mo": 30, "3mo": 90, "1y": 365 }[range];
-    for (const id of [...new Set(stale.filter((it) => it.kind === "cg").map((it) => it.id))]) {
-      jobs.push(fetch("https://api.coingecko.com/api/v3/coins/" + encodeURIComponent(id) + "/market_chart?vs_currency=usd&days=" + days).then((r) => r.ok ? r.json() : null).then((j) => {
-        if (j && Array.isArray(j.prices) && j.prices.length) HIST[range + "|cg:" + id] = { t: j.prices.map((x) => Math.floor(x[0] / 1000)), c: j.prices.map((x) => x[1]), at: now };
-      }).catch(() => {}));
-    }
+    const [iv, lim] = range === "5d" ? ["1h", 168] : ["1d", days];
+    const cx = [...new Map(stale.filter((it) => it.kind === "cx").map((it) => [it.id, it])).values()];
+    jobs.push((async () => {
+      const fallback = [];
+      await Promise.all(cx.map(async (it) => {
+        try {
+          const r = await fetch("https://api.binance.com/api/v3/klines?symbol=" + encodeURIComponent(it.id) + "USDT&interval=" + iv + "&limit=" + lim);
+          const j = r.ok ? await r.json() : null;
+          if (Array.isArray(j) && j.length > 1) { HIST[range + "|cx:" + it.id] = { t: j.map((k) => Math.floor(k[0] / 1000)), c: j.map((k) => +k[4]), at: now }; return; }
+        } catch (e) { /* jön a tartalék */ }
+        if (it.cg) fallback.push(it);
+      }));
+      for (const it of fallback) {
+        try {
+          const r = await fetch("https://api.coingecko.com/api/v3/coins/" + encodeURIComponent(it.cg) + "/market_chart?vs_currency=usd&days=" + days);
+          const j = r.ok ? await r.json() : null;
+          if (j && Array.isArray(j.prices) && j.prices.length > 1) HIST[range + "|cx:" + it.id] = { t: j.prices.map((x) => Math.floor(x[0] / 1000)), c: j.prices.map((x) => x[1]), at: now };
+        } catch (e) { /* nincs előzmény */ }
+        await new Promise((res) => setTimeout(res, 1200));
+      }
+    })());
     await Promise.all(jobs);
     const out = {};
     for (const it of items) {
@@ -1706,7 +1724,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       }
       const us = US_Y[id];
       // Tőzsdeidőben a Finnhub kötései az elsődlegesek; a Yahoo a nyitás előtti és zárás utáni időszakot fedi le
-      if (us && !(fhSeen[us] && Date.now() - fhSeen[us] < 60000)) {
+      if (us && !NO_STREAM.has(us) && !(fhSeen[us] && Date.now() - fhSeen[us] < 60000)) {
         const when = d.hours === 0 ? " (nyitás előtti kereskedés)" : d.hours >= 2 ? " (zárás utáni kereskedés)" : "";
         applyStockQuote(us, { price: d.price, change: pct, prevClose: prev, t, source: "Yahoo Finance, élő" + when });
         stockAt = new Date();
@@ -1803,9 +1821,10 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         calEvents = j.calendar || [];
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
-        loadPrices();
+        const pricesReady = loadPrices();
         if (first) {
-          first = false; await loadMarketDef(); pollLive(); connectBybit(); connectStocks();
+          // Előbb az árlista (benne az európai ETF-ek tőzsdéje), hogy az azonos nevű amerikai papírok ára ne keveredjen bele
+          first = false; await pricesReady; await loadMarketDef(); pollLive(); connectBybit(); connectStocks();
           setInterval(pollLive, 60000); setInterval(pollPortfolio, 60000); setInterval(pollMarket, 60000);
           setInterval(() => { loadSparks(); if (view() === "pf") drawPfChart(); }, 15 * 60000);
         }
