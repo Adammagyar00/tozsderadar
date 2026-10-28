@@ -1,6 +1,6 @@
 {
  "source": "Finnhub",
- "updatedAt": "2026-10-28T06:19:32Z",
+ "updatedAt": "2026-10-28T07:34:01Z",
  "quotes": {
   "VUAA": {
    "price": 149.52,
@@ -13,9 +13,9 @@
    "source": "Yahoo Finance (VUAA.L)"
   },
   "DFND": {
-   "price": 8.7501,
+   "price": 8.7455,
    "change": 0.06,
-   "prevClose": 8.7448,
+   "prevClose": 8.7402,
    "t": 1793118906,
    "listing": "DFND.L",
    "currency": "GBP",
@@ -23,9 +23,9 @@
    "source": "Yahoo Finance (DFND.L)"
   },
   "EQQQ": {
-   "price": 724.4379,
+   "price": 724.0563,
    "change": 1.59,
-   "prevClose": 713.0749,
+   "prevClose": 712.6994,
    "t": 1793118919,
    "listing": "EQQQ.L",
    "currency": "GBp",
