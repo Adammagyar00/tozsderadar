@@ -1,4 +1,5 @@
 {
+ "builtAt": "2026-10-28T17:22:44Z",
  "digests": [
   {
    "calendar": [
@@ -417,6 +418,162 @@
      "title": "Délben esett a BUX: 0,8%-kal 145 440 pont körül járt, az OTP és a Richter gyengült",
      "url": "https://www.portfolio.hu/uzlet/20261028/eses-a-magyar-tozsden-872562",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TE Connectivity",
+     "summary": "A TE Connectivity pénzügyi negyedik negyedéves, egy részvényre jutó korrigált eredménye 3,14 dollár lett, a Wall Street 3,07 dollárra számított. A társaság közlése szerint a nettó árbevétel rekordot, 5,3 milliárd dollárt ért el.",
+     "symbols": [
+      "TEL"
+     ],
+     "title": "A TE Connectivity az elemzői várakozás felett jelentett, az adatközponti növekedés tartja az AI-beruházási ciklust",
+     "url": "https://finance.yahoo.com/m/527b2e55-2285-3650-a158-d228c3a965e5/te-connectivity%E2%80%99s-data-center.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Boston Scientific a teljes évre szóló előrejelzését lejjebb vitte, miután egy közelmúltbeli kibertámadás zavarokat okozott a működésben. A Yahoo Finance összefoglalója szerint a részvény emiatt esik.",
+     "symbols": [
+      "BSX"
+     ],
+     "title": "A Boston Scientific csökkentette éves kilátásait a kibertámadás okozta fennakadások miatt",
+     "url": "https://finance.yahoo.com/m/c5c23db3-d508-3c1f-bab0-6408a09c4739/micron%2C-sk-hynix%2C-ge-vernova%2C.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A PetroChina negyedéves nyeresége a háború miatt felfújt energiaárak hatására nőtt. Eközben a kőolajkitermelés, a finomítói kihasználtság és a dízeleladások is csökkentek.",
+     "symbols": [
+      "0857.HK"
+     ],
+     "title": "A PetroChina harmadik negyedéves profitja 51,84 milliárd jüanra (7,78 milliárd dollár) ugrott",
+     "url": "https://finance.yahoo.com/energy/articles/petrochina-q3-profit-jumps-7-153000822.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A közel-keleti háború a háztartásokat és a vállalkozásokat is sújtja, ezért a brit gazdaság jövő évi növekedési várakozását lefaragták.",
+     "symbols": [
+      "GBP"
+     ],
+     "title": "Az Irán-háború miatt lefelé módosították az Egyesült Királyság jövő évi növekedési előrejelzését",
+     "url": "https://uk.finance.yahoo.com/news/uk-growth-downgraded-over-iran-151336008.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Bank of America heti pénzáramlási jelentése szerint az ügyfelek egymás után a második héten adtak el amerikai részvényeket. A kivonások élén a kommunikációs szolgáltatási szektor állt a Meta Platforms erős negyedéves jelentés utáni eladási hulláma nyomán.",
+     "symbols": [
+      "META"
+     ],
+     "title": "A BofA ügyfelei rekordtempóban adták el a kommunikációs szolgáltatási részvényeket a Meta zuhanása után",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-clients-dump-communication-services-150952976.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A Strategy (MSTR) közölte, hogy a részvényesek megszavazták a változtatást, amely lehetővé teszi a bitcoinnal finanszírozott négy elsőbbségi részvény napi osztalékfizetését.",
+     "symbols": [
+      "MSTR"
+     ],
+     "title": "A Strategy részvényesei jóváhagyták a napi osztalékfizetést az STRC, STRF, STRK és STRD elsőbbségi részvényekre",
+     "url": "https://www.cryptoprowl.com/releases/strategy-wins-vote-to-pay-daily-dividends-on-strc-strf-strk-and-strd-7511?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CCN",
+     "summary": "A két cég három területen mélyítette a partnerséget: RLUSD stabilcoin-elszámolás, intézményi finanszírozás a Ripple Prime-on keresztül és vállalati kincstárkezelés.",
+     "symbols": [
+      "XRP",
+      "HOOD"
+     ],
+     "title": "A Ripple és a Robinhood kibővítette együttműködését az RLUSD, a Ripple Prime és a vállalati kincstárkezelés területén",
+     "url": "https://www.ccn.com/news/crypto/ripple-robinhood-partnership-rlusd-treasury-prime/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "Scott Bessent a Ripple saját rendezvényén mondta, hogy a stabilcoinok az amerikai kormány finanszírozását segítik. A cikk szerint az viszont kérdéses, hogy ez az XRP-tulajdonosoknak közvetlen hasznot hoz-e.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Bessent a Ripple konferenciáján: a stabilcoinok fontos finanszírozási forrást jelentenek majd az amerikai államnak",
+     "url": "https://247wallst.com/investing/2026/10/28/bessent-tells-ripple-conference-stablecoins-will-be-an-important-source-of-funding-for-the-treasury-heres-what-it-means-for-xrp-holders/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A JPMorgan Chase, a Coca-Cola és a Dell Technologies további négy céggel együtt kifogást emelt az OKX és az ICE tokenizált részvénykereskedési terve ellen.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "A JPMorgan, a Coca-Cola és a Dell is csatlakozott az OKX–ICE tokenizált részvénykereskedés elleni tiltakozáshoz",
+     "url": "https://www.cryptoprowl.com/releases/jpmorgan-coca-cola-join-pushback-against-okx-ice-tokenized-stock-trading-7513?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A JPMorgan bírálta John Healey bankokat érintő adóemelését, szerintük az \"nélkülözi az elvet\".",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "A JPMorgan \"elvtelennek\" nevezte a brit bankadót",
+     "url": "https://uk.finance.yahoo.com/news/jp-morgan-lashes-unprincipled-bank-152643638.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-28T16:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Tikr",
+     "summary": "A Verizon vezérigazgatója, Dan Schulman szerint a SpaceX-nek legalább négy–hat évre és 300–500 milliárd dollárra lenne szüksége egy amerikai mobilhálózat kiépítéséhez.",
+     "symbols": [
+      "SPCX",
+      "VZ"
+     ],
+     "title": "Musk szerint 2–3 év a SpaceX mobilszolgáltatójának felépítése, a Verizon vezére nem ért egyet",
+     "url": "https://www.tikr.com/blog/musk-says-it-will-take-2-or-3-years-for-spacex-to-build-a-mobile-carrier-verizon-ceo-disagrees?ref=yahoofinance&.tsrc=rss",
+     "verified": true
     }
    ],
    "markets": [
@@ -605,7 +762,7 @@
     }
    ],
    "summary": "A Wall Street kedden emelkedéssel zárt: az S&P 500 0,60%-kal 7722,60 pontra, a Nasdaq 1,18%-kal 26 477,81 pontra erősödött, a chipszektort az Anthropic nyilvános tőzsdei tájékoztatója húzta. A Brent 113,88, a WTI 99,90 dolláron zárt, miután az iráni diplomáciai tárgyalások enyhítették a feszültséget. A BUX 1,9%-kal emelkedett, az OTP vezetett; a MOL mintegy 133 milliárd forintot igényel vissza az államtól. A Fed ma 19:00-kor (magyar idő), az EKB csütörtökön 14:15-kor dönt, a BoJ pénteken.",
-   "updatedAt": "2026-10-28T14:06:21Z",
+   "updatedAt": "2026-10-28T16:58:00Z",
    "watchlist": [
     {
      "change": "",
