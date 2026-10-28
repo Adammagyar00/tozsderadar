@@ -550,6 +550,7 @@ export class Store {
         await this.state.storage.put("tgtest:" + body.id, Date.now());
         if (body.what === "summary") return reply({ ok: await this.summary(body.id, chat, true) });
         if (body.what === "weekly") return reply({ ok: await this.weekly(body.id, chat) });
+        if (body.what === "recap") return reply({ ok: await this.recap(body.id, chat) });
         return reply({ ok: await tgSend(this.env, chat, "✅ <b>TőzsdeRadar</b>: a Telegram-értesítések működnek.") });
       }
       return reply({ error: "ismeretlen" }, 404);
@@ -607,7 +608,7 @@ export class Store {
       list.push(arg);
       await this.state.storage.put({ ["chat:" + arg]: chat, ["chatOf:" + chat]: arg, linked: [...new Set(list)] });
       if (old && old !== arg) await this.state.storage.delete("chat:" + old);
-      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este 10-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /heti · /stop");
+      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este 10-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /heti · /attekintes · /stop");
       return;
     }
     const id = await this.state.storage.get("chatOf:" + chat);
@@ -620,13 +621,14 @@ export class Store {
     }
     if (cmd === "/osszegzes" || cmd === "/summary") { await this.summary(id, chat, true); return; }
     if (cmd === "/heti") { await this.weekly(id, chat); return; }
+    if (cmd === "/attekintes") { await this.recap(id, chat); return; }
     if (cmd === "/riasztasok") {
       const k = await this.keys(id);
       const al = ((k.alerts && k.alerts.v) || []).filter((a) => a && a.y);
       await tgSend(this.env, chat, al.length ? "<b>Riasztásaid</b>\n" + al.map((a) => (a.off ? "🔕 " : "🔔 ") + esc(a.label || a.y) + ": " + esc(alertText(a))).join("\n") : "Nincs szinkronizált riasztásod. Az oldalon a Piacok menüben állíthatsz be.");
       return;
     }
-    await tgSend(this.env, chat, "Parancsok: /riasztasok · /osszegzes · /heti · /stop");
+    await tgSend(this.env, chat, "Parancsok: /riasztasok · /osszegzes · /heti · /attekintes · /stop");
   }
 
   async cron() {
@@ -669,6 +671,7 @@ export class Store {
     for (const u of users) {
       if (b.hour === 22 && b.minute < 10 && u.srv.summary !== false) await once(u, "sum", () => this.summary(u.id, u.chat, false));
       if (dow === 0 && b.hour === 20 && b.minute < 10 && u.srv.weekly !== false) await once(u, "week", () => this.weekly(u.id, u.chat));
+      if (dow === 1 && b.hour === 7 && b.minute < 10 && u.srv.recap !== false) await once(u, "recap", () => this.recap(u.id, u.chat));
     }
     // A napi kiadás (data.json): 5 percenként hírek, reggel események, 10 percenként a frissítés ellenőrzése
     if (b.minute % 5 !== 0) return;
@@ -731,6 +734,39 @@ export class Store {
       await this.state.storage.delete("staleSent");
       for (const u of to) await tgSend(this.env, u.chat, "✅ A TőzsdeRadar frissítése újra rendben fut.");
     }
+  }
+
+  // Hétfő reggeli heti áttekintés: az elmúlt hét piaci mozgásai, napi főcímei, fontos hírei és megjelent adatai
+  async recap(id, chat) {
+    let j = {};
+    try { const r = await fetch(SITE + "data.json?t=" + Date.now()); j = r.ok ? await r.json() : {}; } catch { j = {}; }
+    const today = budapest().date, from = budapest(new Date(Date.now() - 7 * 86400000)).date;
+    const dl = (iso) => iso.slice(5).replace("-", ".") + ".";
+    const lines = ["🗞 <b>TőzsdeRadar heti áttekintés</b> · " + dl(from) + "–" + dl(budapest(new Date(Date.now() - 86400000)).date)];
+    // A hét piacai: heti változás
+    const MK = [["^GSPC", "S&P 500"], ["^IXIC", "Nasdaq"], ["^GDAXI", "DAX"], ["^BUX.BD", "BUX"], ["BTC-USD", "Bitcoin"], ["ETH-USD", "Ethereum"], ["GC=F", "Arany"], ["BZ=F", "Brent"], ["EURHUF=X", "EUR/HUF"], ["EURUSD=X", "EUR/USD"]];
+    const q = await weekQuotes(MK.map((m) => m[0]));
+    const mk = MK.filter(([t]) => q[t]).map(([t, n]) => (q[t].price >= q[t].base ? "🟢 " : "🔴 ") + n + " " + pct((q[t].price / q[t].base - 1) * 100));
+    if (mk.length) lines.push("", "<b>A hét piacai</b>", mk.join("\n"));
+    const days = (j.digests || []).filter((d) => d.date >= from && d.date < today).sort((a, b) => a.date.localeCompare(b.date));
+    if (days.length) lines.push("", "<b>Napról napra</b>", days.map((d) => "• " + dl(d.date) + " " + esc(d.headline || "")).join("\n"));
+    // A hét fontos hírei: megerősített, nem semleges hírek a jegybankok, piacok, Magyarország és a figyelőlista témáiból
+    const PRI = { "Jegybankok": 0, "Globális piacok": 1, "Magyarország": 2, "Figyelőlista": 3, "Nyersanyagok és geopolitika": 4, "Vállalatok és technológia": 5, "Kripto": 6 };
+    const seen = new Set();
+    const top = days.flatMap((d) => (d.items || []).map((it) => ({ ...it, _d: d.date })))
+      .filter((it) => it.title && it.verified !== false && (it.impact || "semleges") !== "semleges" && !seen.has(it.title) && seen.add(it.title))
+      .sort((a, b) => (PRI[a.category] ?? 9) - (PRI[b.category] ?? 9) || b._d.localeCompare(a._d)).slice(0, 8);
+    if (top.length) lines.push("", "<b>A hét fontos hírei</b>", top.map((it) => (it.impact === "pozitív" ? "🟢 " : "🔴 ") + esc(it.title)).join("\n"));
+    // Megjelent adatok és gyorsjelentések
+    const SURP = { beat: "jobb a vártnál", miss: "gyengébb a vártnál", inline: "a vártnak megfelelő", mixed: "vegyes" };
+    const ev = (j.calendar || []).filter((e) => e.date >= from && e.date < today && e.actual && ((e.importance || 1) >= 2 || e.surprise))
+      .sort((a, b) => (a.date + (a.time || "")).localeCompare(b.date + (b.time || ""))).slice(0, 10);
+    if (ev.length) lines.push("", "<b>Megjelent adatok, döntések, gyorsjelentések</b>", ev.map((e) => "• " + esc(e.event) + ": " + esc(e.actual) + (e.surprise && SURP[e.surprise] ? " (" + SURP[e.surprise] + ")" : "")).join("\n"));
+    if (lines.length === 1) lines.push("", "Az elmúlt hétről nincs elég adat.");
+    lines.push("", "A heti portfolio-összefoglalót vasárnap este kapod. <a href=\"" + SITE + "\">TőzsdeRadar megnyitása</a>");
+    let text = lines.join("\n");
+    if (text.length > 4000) text = text.slice(0, 3990) + "…";
+    return tgSend(this.env, chat, text);
   }
 
   // Heti összefoglaló: a portfolio heti változása, a hét legnagyobb mozgásai, a jövő hét eseményei
