@@ -1500,6 +1500,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     "Indexek": [["^GSPC", "S&P 500"], ["^IXIC", "Nasdaq Composite"], ["^NDX", "Nasdaq 100"], ["^DJI", "Dow Jones"], ["^RUT", "Russell 2000"], ["^VIX", "VIX (félelemindex)"], ["^GDAXI", "DAX"], ["^FTSE", "FTSE 100"], ["^FCHI", "CAC 40"], ["^STOXX50E", "Euro Stoxx 50"], ["^BUX.BD", "BUX"], ["^N225", "Nikkei 225"], ["^HSI", "Hang Seng"], ["000001.SS", "Shanghai Composite"]],
     "Nyersanyagok": [["GC=F", "Arany"], ["SI=F", "Ezüst"], ["PL=F", "Platina"], ["HG=F", "Réz"], ["BZ=F", "Brent olaj"], ["CL=F", "WTI olaj"], ["NG=F", "Földgáz (Henry Hub)"], ["ZW=F", "Búza"], ["ZC=F", "Kukorica"], ["KC=F", "Kávé"]],
   };
+  // A Yahoo angolul keres: a gyakori magyar kifejezéseket lefordítjuk
+  const HU_SEARCH = { "arany": "gold", "ezüst": "silver", "platina": "platinum", "réz": "copper", "olaj": "crude oil", "kőolaj": "crude oil", "brent": "brent crude", "földgáz": "natural gas", "gáz": "natural gas", "búza": "wheat", "kukorica": "corn", "kávé": "coffee", "kakaó": "cocoa", "cukor": "sugar", "forint": "HUF", "euró": "EUR", "euro": "EUR", "dollár": "USD", "frank": "CHF", "font": "GBP", "jen": "JPY", "bitcoin": "bitcoin", "félelemindex": "VIX", "magyar": "Budapest", "otp": "OTP.BD", "mol": "MOL.BD", "richter": "RICHT.BD", "magyar telekom": "MTELEKOM.BD", "4ig": "4IG.BD" };
   const MK_TYPE = { EQUITY: "Részvény", ETF: "ETF", CRYPTOCURRENCY: "Kripto", CURRENCY: "Deviza", INDEX: "Index", FUTURE: "Határidős", MUTUALFUND: "Alap" };
   const MK_TAB_TYPE = { "Kripto": "CRYPTOCURRENCY", "Részvények": "EQUITY", "ETF-ek": "ETF", "Devizák": "CURRENCY", "Indexek": "INDEX", "Nyersanyagok": "FUTURE" };
   const YQ = {};      // Yahoo-jelölés → { p, prev, t, cur }
@@ -1557,7 +1559,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         const seq = ++mkSeq;
         $("mkList").replaceChildren(el("p", "muted", "Keresés…"));
         try {
-          const r = await fetch(searchUrl + "?q=" + encodeURIComponent(mkQuery));
+          const r = await fetch(searchUrl + "?q=" + encodeURIComponent(HU_SEARCH[mkQuery.toLowerCase()] || mkQuery));
           const j = r.ok ? await r.json() : { results: [] };
           if (seq !== mkSeq) return;
           mkResults = j.results || [];
