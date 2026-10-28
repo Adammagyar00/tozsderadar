@@ -77,7 +77,7 @@ async function market(url, origin) {
 }
 
 // Árfolyam-előzmények a grafikonokhoz (figyelőlista-görbék, portfolio-grafikon)
-const RANGES = { "5d": "60m", "1mo": "1d", "3mo": "1d", "1y": "1d" };
+const RANGES = { "1d": "5m", "5d": "60m", "1mo": "1d", "3mo": "1d", "1y": "1d" };
 const historyCache = new Map();
 
 async function yahooHistory(ticker, range) {
@@ -111,6 +111,32 @@ async function history(url, origin) {
   });
 }
 
+// Kereső a Piacok oldalhoz: részvény, ETF, kriptó, deviza, index, határidős (nyersanyag) a Yahoo Finance-ből
+const searchCache = new Map();
+async function search(url, origin) {
+  const q = (url.searchParams.get("q") || "").trim().slice(0, 40);
+  let out = [];
+  if (q) {
+    const hit = searchCache.get(q.toLowerCase());
+    if (hit && Date.now() - hit.at < 10 * 60000) out = hit.out;
+    else {
+      const res = await fetch("https://query2.finance.yahoo.com/v1/finance/search?quotesCount=20&newsCount=0&listsCount=0&q=" + encodeURIComponent(q), {
+        headers: { "User-Agent": "Mozilla/5.0 (TozsdeRadar)" },
+      });
+      if (res.ok) {
+        const j = await res.json();
+        out = (j.quotes || []).filter((x) => x.symbol && x.quoteType).map((x) => ({
+          symbol: x.symbol, name: x.shortname || x.longname || x.symbol, type: x.quoteType, exch: x.exchDisp || x.exchange || "",
+        }));
+        searchCache.set(q.toLowerCase(), { out, at: Date.now() });
+      }
+    }
+  }
+  return new Response(JSON.stringify({ source: "Yahoo Finance", results: out }), {
+    headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": origin, vary: "Origin" },
+  });
+}
+
 const allowed = (origin) => ALLOWED_ORIGINS.includes(origin) || origin.startsWith("http://localhost");
 
 export default {
@@ -120,6 +146,11 @@ export default {
       const origin = request.headers.get("Origin") || "";
       if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
       return quotes(url, env, origin);
+    }
+    if (url.pathname === "/search") {
+      const origin = request.headers.get("Origin") || "";
+      if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
+      return search(url, origin);
     }
     if (url.pathname === "/history") {
       const origin = request.headers.get("Origin") || "";

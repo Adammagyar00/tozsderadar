@@ -19,4 +19,16 @@ try {
   const j = await r.json();
   console.log("::notice::/history: " + r.status + " " + Object.entries(j.series || {}).map(([k, v]) => k + "=" + v.c.length + " pont").join(", "));
 } catch (e) { console.log("::notice::/history hiba: " + e.message); }
+for (const q of ["gold", "nvidia", "bitcoin", "VWCE"]) {
+  try {
+    const r = await fetch(base + "/search?q=" + q, { headers: { Origin: "https://adammagyar00.github.io" } });
+    const j = await r.json();
+    console.log("::notice::/search " + q + ": " + r.status + " " + (j.results || []).slice(0, 4).map((x) => x.symbol + "(" + x.type + ")").join(", "));
+  } catch (e) { console.log("::notice::/search hiba: " + e.message); }
+}
+try {
+  const r = await fetch(base + "/history?range=1d&y=BTC-USD,GC%3DF", { headers: { Origin: "https://adammagyar00.github.io" } });
+  const j = await r.json();
+  console.log("::notice::/history 1d: " + Object.entries(j.series || {}).map(([k, v]) => k + "=" + v.c.length).join(", "));
+} catch (e) { console.log("::notice::/history 1d hiba: " + e.message); }
 process.exit(0);

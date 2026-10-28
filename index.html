@@ -294,6 +294,29 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .pf-chart-box .ax { position: absolute; right: 0; font-family: var(--font-data); font-size: 11px; color: var(--muted); background: var(--surface); padding: 0 2px; }
 .pf-chart-box .tip { position: absolute; top: 0; transform: translateX(-50%); font-family: var(--font-data); font-size: 12px; background: var(--fg); color: var(--surface); padding: 2px 8px; border-radius: 6px; white-space: nowrap; pointer-events: none; }
 .pf-chart-box .msg { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 14px; text-align: center; padding: 0 12px; }
+.mk-search { width: 100%; max-width: 560px; font-size: 16px; padding: 10px 16px; margin-top: 16px; display: block; }
+.mk-tabs { margin-top: 12px; }
+.mk-list { display: grid; gap: 0; margin-top: 8px; }
+.mk-count { font-size: 13px; color: var(--muted); padding: 6px 0; }
+.mk-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; width: 100%; text-align: left; font: inherit; color: var(--fg); background: none; border: 0; border-bottom: 1px dashed var(--line); padding: 11px 6px; cursor: pointer; border-radius: 6px; }
+.mk-row:hover { background: var(--accent-soft); }
+.mk-row.sel { background: var(--accent-soft); outline: 1px solid var(--accent); }
+.mk-name { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; min-width: 0; }
+.mk-name .nm { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.mk-name .ex { font-size: 12px; color: var(--muted); }
+.mk-name .bell { font-size: 12px; }
+.tag-t { font-family: var(--font-data); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); background: var(--bg); border: 1px solid var(--line); padding: 1px 5px; border-radius: 4px; }
+.mk-px, .mk-bigpx { font-family: var(--font-data); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; display: grid; justify-items: end; }
+.mk-px .p { font-size: 14px; } .mk-px .ch { font-size: 12px; }
+.mk-bigpx .p { font-family: var(--font-display); font-weight: 700; font-size: clamp(22px, 3vw, 30px); } .mk-bigpx .ch { font-size: 14px; }
+.mk-px .up, .mk-bigpx .up { color: var(--up); } .mk-px .down, .mk-bigpx .down { color: var(--down); } .mk-px .na { color: var(--muted); }
+.mk-detail { margin-top: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; scroll-margin-top: 16px; }
+.mk-dh { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px 16px; align-items: start; }
+.mk-dh h3 { margin: 4px 0 0; font-family: var(--font-display); font-size: clamp(20px, 2.6vw, 26px); line-height: 1.2; }
+.mk-detail .chips { margin-top: 14px; }
+.mk-al-form { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto; margin-top: 14px; }
+@media (max-width: 760px) { .mk-al-form { grid-template-columns: minmax(0, 1fr); } }
+.mk-al-head { margin-top: 30px; }
 .al-list { margin-top: 18px; display: grid; gap: 8px; }
 .al-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px 14px; align-items: center; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; }
 .al-row.fired { border-left-color: var(--warn); }
@@ -337,7 +360,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     <a class="menu-item" href="#" data-view="home"><b>Főoldal</b><span class="d">A nap legfontosabb gazdasági hírei, piacok, jegybankok.</span></a>
     <a class="menu-item" href="#watchlist-news" data-view="wl"><b>Watchlist News<span class="cnt" id="wlNewsCnt" hidden></span></b><span class="d">Csak a figyelőlistád részvényeiről, ETF-jeiről és kriptóiról.</span></a>
     <a class="menu-item" href="#naptar" data-view="cal"><b>Gazdasági naptár<span class="cnt" id="calCnt" hidden></span></b><span class="d">Előre látható események: adatok, kamatdöntések, gyorsjelentések.</span></a>
-    <a class="menu-item" href="#riasztasok" data-view="al"><b>Riasztások<span class="cnt" id="alCnt" hidden></span></b><span class="d">Szóljon az oldal, ha egy ár átlép egy szintet vagy nagyot mozdul.</span></a>
+    <a class="menu-item" href="#piacok" data-view="mk"><b>Piacok<span class="cnt" id="alCnt" hidden title="Aktív riasztások"></span></b><span class="d">Kriptók, részvények, ETF-ek, devizák, indexek, nyersanyagok: keresés élő árral, grafikonnal és riasztással.</span></a>
     <a class="menu-item" href="#portfolio" data-view="pf"><b>Portfolio</b><span class="d">A saját kriptóid, részvényeid és ETF-jeid értéke és hozama, élő árakkal.</span></a>
   </div>
 </nav>
@@ -723,7 +746,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 
   // Watchlist News: minden kiadásból azok a hírek, amelyek a figyelőlista valamelyik tételéről szólnak
   let wlFilter = null;
-  const view = () => ({ "#watchlist-news": "wl", "#naptar": "cal", "#portfolio": "pf", "#riasztasok": "al" })[location.hash] || "home";
+  const view = () => ({ "#watchlist-news": "wl", "#naptar": "cal", "#portfolio": "pf", "#piacok": "mk", "#riasztasok": "mk" })[location.hash] || "home";
   const wlSymSet = () => new Set((watchlist || []).map((w) => String(w.symbol).toUpperCase()));
   const wlSymsOf = (it, syms = wlSymSet()) => (it.symbols || []).map((x) => String(x).toUpperCase()).filter((x) => syms.has(x));
   const isWlItem = (it) => it.category === "Figyelőlista" || wlSymsOf(it).length > 0;
@@ -1178,6 +1201,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       body.append(el("p", "pf-note", "Minden érték dollárban. Kriptónál a változás 24 órás, részvénynél és ETF-nél az előző záráshoz képest. Az árak élőben frissülnek; ha egy tételnek nincs ára, az nem számít bele az összegekbe. (Ez nem pénzügyi tanácsadás.)"));
     }
 
+    if (!portfolio.length) return;
     const rows = portfolio.map((h) => {
       const q = pfQuote(h);
       const value = q ? q.p * h.qty : null;
@@ -1270,7 +1294,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   // ---------- Árfolyam-előzmények (Worker /history: Yahoo; kriptó: CoinGecko), 15 percig tárolva ----------
   let historyUrl = null;
   const HIST = {};
-  const RANGE_SEC = { "5d": 7 * 86400, "1mo": 30 * 86400, "3mo": 90 * 86400, "1y": 365 * 86400 };
+  const RANGE_SEC = { "1d": 86400, "5d": 7 * 86400, "1mo": 30 * 86400, "3mo": 90 * 86400, "1y": 365 * 86400 };
   // Egy tétel előzmény-forrása: kriptó a CoinGeckóról, európai ETF a saját tőzsdéjéről dollárba váltva, a többi a Yahoo-ról
   const histItem = (key, sym, isCrypto, cg) => {
     sym = String(sym).toUpperCase();
@@ -1291,7 +1315,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       for (const [id, v] of Object.entries((j && j.series) || {})) HIST[range + "|y:" + id] = { t: v.t, c: v.c, at: now };
     }).catch(() => {}));
     // Kriptó: a Binance gyertyái (bőkezű keret); ha ott nincs ilyen pár, a CoinGecko, egymás után, hogy ne fussunk bele a korlátjába
-    const days = { "5d": 7, "1mo": 30, "3mo": 90, "1y": 365 }[range];
+    const days = { "1d": 1, "5d": 7, "1mo": 30, "3mo": 90, "1y": 365 }[range];
     const [iv, lim] = range === "5d" ? ["1h", 168] : ["1d", days];
     const cx = [...new Map(stale.filter((it) => it.kind === "cx").map((it) => [it.id, it])).values()];
     jobs.push((async () => {
@@ -1378,6 +1402,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     // Az utolsó pont a mostani, élő érték (csak az előzménnyel rendelkező tételekből)
     const nowVal = have.reduce((a, h) => { const q = pfQuote(h); return a + (q ? q.p * h.qty : 0); }, 0);
     if (nowVal > 0) { times.push(Math.floor(Date.now() / 1000)); vals.push(nowVal); }
+    drawSeries(box, pfRefs.chartSum, times, vals, fmtMoney, bucket === 3600);
+  }
+
+  // Vonalgrafikon (portfolio és Piacok): terület, min/max felirat, egérrel/ujjal leolvasható pontok
+  function drawSeries(box, sum, times, vals, fmtV, intraday) {
     const n = vals.length, W = 600, H = 180, pad = 6;
     const min = Math.min(...vals), max = Math.max(...vals);
     const x = (i) => (i * W / (n - 1));
@@ -1389,22 +1418,22 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       + '<polygon points="0,' + H + ' ' + line + ' ' + W + ',' + H + '" fill="' + col + '" fill-opacity="0.10"/>'
       + '<polyline points="' + line + '" fill="none" stroke="' + col + '" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>'
       + '<line class="cur" x1="0" x2="0" y1="0" y2="' + H + '" stroke="var(--muted)" stroke-width="1" vector-effect="non-scaling-stroke" visibility="hidden"/></svg>';
-    const axMax = el("span", "ax", fmtMoney(max)); axMax.style.top = "0";
-    const axMin = el("span", "ax", fmtMoney(min)); axMin.style.bottom = "0";
+    const axMax = el("span", "ax", fmtV(max)); axMax.style.top = "0";
+    const axMin = el("span", "ax", fmtV(min)); axMin.style.bottom = "0";
     const tip = el("span", "tip"); tip.hidden = true;
     box.append(axMax, axMin, tip);
-    const fmtT = (t) => new Date(t * 1000).toLocaleString("hu-HU", bucket === 3600 ? { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" } : { year: "numeric", month: "short", day: "numeric" });
+    const fmtT = (t) => new Date(t * 1000).toLocaleString("hu-HU", intraday ? { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" } : { year: "numeric", month: "short", day: "numeric" });
     const diff = vals[n - 1] - vals[0];
-    const sum = pfRefs.chartSum;
-    sum.append(fmtMoney(vals[0]) + " → " + fmtMoney(vals[n - 1]) + "  ");
-    sum.append(el("span", up ? "up" : "down", fmtMoney(diff, true) + " (" + fmtPctN(diff / vals[0] * 100) + ")"));
+    sum.replaceChildren();
+    sum.append(fmtV(vals[0]) + " → " + fmtV(vals[n - 1]) + "  ");
+    sum.append(el("span", up ? "up" : "down", (diff >= 0 ? "+" : "") + fmtV(diff) + " (" + fmtPctN(diff / vals[0] * 100) + ")"));
     const cur = box.querySelector(".cur");
     const move = (ev) => {
       const r = box.getBoundingClientRect();
       const i = Math.max(0, Math.min(n - 1, Math.round((ev.clientX - r.left) / r.width * (n - 1))));
       const px = x(i) / W * r.width;
       cur.setAttribute("x1", x(i)); cur.setAttribute("x2", x(i)); cur.setAttribute("visibility", "visible");
-      tip.hidden = false; tip.textContent = fmtT(times[i]) + " · " + fmtMoney(vals[i]);
+      tip.hidden = false; tip.textContent = fmtT(times[i]) + " · " + fmtV(vals[i]);
       tip.style.left = Math.max(70, Math.min(r.width - 70, px)) + "px";
     };
     box.onpointermove = move; box.onpointerdown = move;
@@ -1418,18 +1447,15 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const AL_TYPES = { above: "ár fölé megy", below: "ár alá megy", move: "napi változás eléri (±%)" };
   // Egy jelölés vagy futószalag-tétel aktuális ára és napi %-os változása
   const quoteOf = (key) => {
+    if (String(key).startsWith("Y:")) {
+      const t = key.slice(2), y = YQ[t];
+      return y && typeof y.p === "number" ? { p: y.p, ch: yPct(y), price: curFmt(y.p, y.cur) } : null;
+    }
     const l = LIVE[String(key).toUpperCase()];
     if (l && typeof l.p === "number") return { p: l.p, ch: l.ch, price: l.price };
     const m = MKT[key];
     if (m && typeof m.p === "number") return { p: m.p, ch: m.ch, price: m.price };
     return null;
-  };
-  const alertOptions = () => {
-    const out = new Map();
-    for (const w of watchlist || []) out.set(String(w.symbol).toUpperCase(), w.name);
-    for (const h of portfolio) if (!out.has(h.symbol)) out.set(h.symbol, h.name || h.symbol);
-    for (const m of MARKET_DEF || []) if ((m.y || m.fh || m.cg) && !out.has(m.name)) out.set(m.name, m.group);
-    return out;
   };
   const alertText = (a) => a.type === "move" ? "napi változás ≥ ±" + fmtNum(a.value, 2) + "%" : (a.type === "above" ? "≥ " : "≤ ") + fmtNum(a.value, a.value >= 100 ? 2 : 4);
   let toastBox = null;
@@ -1458,66 +1484,210 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       a.firedAt = new Date().toISOString();
       a.firedPrice = q.price;
       fired = true;
-      const msg = a.key + ": " + alertText(a) + " — most " + q.price + (typeof q.ch === "number" ? " (" + fmtPctN(q.ch) + ")" : "");
+      const msg = (a.label || a.key) + ": " + alertText(a) + " — most " + q.price + (typeof q.ch === "number" ? " (" + fmtPctN(q.ch) + ")" : "");
       toast("Riasztás · TőzsdeRadar", msg);
       beep();
       try { if ("Notification" in window && Notification.permission === "granted") new Notification("TőzsdeRadar riasztás", { body: msg, icon: "icon.svg", tag: a.id }); } catch (e) { /* nem támogatott */ }
     }
-    if (fired) { saveAlerts(); renderMenu(); if (view() === "al") updateAlerts(); }
+    if (fired) { saveAlerts(); renderMenu(); if (view() === "mk") { updateAlerts(); mkRenderDetail(); } }
   }
-  function renderAlertsPage() {
+  // ---------- Piacok: kereső minden eszközre (Yahoo Finance), élő árral, grafikonnal és riasztással ----------
+  const MK_LISTS = {
+    "Kripto": [["BTC-USD", "Bitcoin"], ["ETH-USD", "Ethereum"], ["SOL-USD", "Solana"], ["XRP-USD", "XRP"], ["BNB-USD", "BNB"], ["DOGE-USD", "Dogecoin"], ["ADA-USD", "Cardano"], ["TRX-USD", "Tron"], ["AVAX-USD", "Avalanche"], ["LINK-USD", "Chainlink"], ["LTC-USD", "Litecoin"], ["DOT-USD", "Polkadot"]],
+    "Részvények": [["NVDA", "Nvidia"], ["MSFT", "Microsoft"], ["AAPL", "Apple"], ["GOOGL", "Alphabet"], ["AMZN", "Amazon"], ["META", "Meta"], ["TSLA", "Tesla"], ["AVGO", "Broadcom"], ["LLY", "Eli Lilly"], ["MU", "Micron"], ["MRVL", "Marvell"], ["JPM", "JPMorgan"], ["BE", "Bloom Energy"], ["OTP.BD", "OTP Bank"], ["MOL.BD", "MOL"], ["RICHT.BD", "Richter Gedeon"]],
+    "ETF-ek": [["SPY", "SPDR S&P 500"], ["VOO", "Vanguard S&P 500"], ["QQQ", "Invesco QQQ"], ["IWM", "iShares Russell 2000"], ["VTI", "Vanguard Total Market"], ["GLD", "SPDR Gold"], ["TLT", "iShares 20+ Treasury"], ["ITA", "iShares Aerospace & Defense"], ["VUAA.L", "Vanguard S&P 500 UCITS (Acc)"], ["EQQQ.L", "Invesco EQQQ Nasdaq-100 UCITS"], ["DFND.L", "iShares Global Aerospace & Defence UCITS"], ["DFEN.DE", "VanEck Defense UCITS"], ["XDW0.DE", "Xtrackers MSCI World Energy UCITS"]],
+    "Devizák": [["EURHUF=X", "EUR/HUF"], ["USDHUF=X", "USD/HUF"], ["CHFHUF=X", "CHF/HUF"], ["GBPHUF=X", "GBP/HUF"], ["EURUSD=X", "EUR/USD"], ["GBPUSD=X", "GBP/USD"], ["USDJPY=X", "USD/JPY"], ["USDCHF=X", "USD/CHF"], ["EURCHF=X", "EUR/CHF"]],
+    "Indexek": [["^GSPC", "S&P 500"], ["^IXIC", "Nasdaq Composite"], ["^NDX", "Nasdaq 100"], ["^DJI", "Dow Jones"], ["^RUT", "Russell 2000"], ["^VIX", "VIX (félelemindex)"], ["^GDAXI", "DAX"], ["^FTSE", "FTSE 100"], ["^FCHI", "CAC 40"], ["^STOXX50E", "Euro Stoxx 50"], ["^BUX.BD", "BUX"], ["^N225", "Nikkei 225"], ["^HSI", "Hang Seng"], ["000001.SS", "Shanghai Composite"]],
+    "Nyersanyagok": [["GC=F", "Arany"], ["SI=F", "Ezüst"], ["PL=F", "Platina"], ["HG=F", "Réz"], ["BZ=F", "Brent olaj"], ["CL=F", "WTI olaj"], ["NG=F", "Földgáz (Henry Hub)"], ["ZW=F", "Búza"], ["ZC=F", "Kukorica"], ["KC=F", "Kávé"]],
+  };
+  const MK_TYPE = { EQUITY: "Részvény", ETF: "ETF", CRYPTOCURRENCY: "Kripto", CURRENCY: "Deviza", INDEX: "Index", FUTURE: "Határidős", MUTUALFUND: "Alap" };
+  const MK_TAB_TYPE = { "Kripto": "CRYPTOCURRENCY", "Részvények": "EQUITY", "ETF-ek": "ETF", "Devizák": "CURRENCY", "Indexek": "INDEX", "Nyersanyagok": "FUTURE" };
+  const YQ = {};      // Yahoo-jelölés → { p, prev, t, cur }
+  const YINFO = {};   // Yahoo-jelölés → { name, type, exch }
+  const EXTRA_Y = new Set();
+  let searchUrl = null, mkMarketUrl = null;
+  let mkTab = "Kripto", mkSel = null, mkRange = "1d", mkResults = null, mkQuery = "", mkSeq = 0;
+  const CUR_SIGN = { USD: "$", EUR: "€", GBP: "£", GBp: "penny", GBX: "penny", HUF: "Ft", JPY: "¥", CHF: "CHF", CNY: "CNY", HKD: "HKD" };
+  const curFmt = (v, cur) => fmtNum(v, Math.abs(v) >= 1 ? 2 : 4) + (cur ? " " + (CUR_SIGN[cur] || cur) : "");
+  const yPct = (y) => typeof y.pct === "number" ? y.pct : (y.prev ? (y.p / y.prev - 1) * 100 : null);
+  const mkItems = () => mkResults || MK_LISTS[mkTab].map(([symbol, name]) => ({ symbol, name, type: MK_TAB_TYPE[mkTab], exch: "" }));
+  // Ezekre iratkozik fel az élő adatfolyam: a látható lista, a kiválasztott eszköz és a riasztások
+  function mkSubscribe() {
+    EXTRA_Y.clear();
+    if (view() === "mk") { for (const it of mkItems()) EXTRA_Y.add(it.symbol.toUpperCase()); if (mkSel) EXTRA_Y.add(mkSel); }
+    for (const a of alerts) if (String(a.key).startsWith("Y:")) EXTRA_Y.add(a.key.slice(2));
+  }
+  async function mkLoadQuotes(list) {
+    const need = list.filter((t) => !YQ[t]);
+    if (!need.length || !mkMarketUrl) return;
+    for (let i = 0; i < need.length; i += 40) {
+      try {
+        const r = await fetch(mkMarketUrl + "?y=" + encodeURIComponent(need.slice(i, i + 40).join(",")));
+        if (!r.ok) continue;
+        const j = await r.json();
+        for (const [t, q] of Object.entries(j.quotes || {})) if (!YQ[t] || (q.t || 0) >= (YQ[t].t || 0)) YQ[t] = { p: q.price, prev: q.prevClose, t: q.t, cur: q.currency };
+      } catch (e) { /* marad üresen, amíg az adatfolyam nem hoz árat */ }
+    }
+    mkUpdateLive();
+  }
+  function renderMarketsPage() {
     const c = $("content");
-    if (c.querySelector("#alForm")) { updateAlerts(); return; }
-    c.replaceChildren();
+    if (c.querySelector("#mkSearch")) { mkUpdateLive(); return; }
+    c.replaceChildren(); c.dataset.sig = "";
     const lead = el("section", "lead");
-    lead.append(el("div", "lead-eyebrow", "Árfigyelés"), el("h2", null, "Riasztások"));
-    lead.append(el("p", null, "Állíts be szinteket: az oldal szól (felugró üzenettel, hanggal és ha engeded, böngészőértesítéssel), amikor egy ár átlépi őket vagy nagyot mozdul. A riasztás akkor működik, amikor az oldal nyitva van valamelyik böngészőfülön; a beállítások csak ebben a böngészőben tárolódnak."));
-    c.append(lead);
-    const form = el("form", "pf-form al-form"); form.id = "alForm"; form.noValidate = true;
-    form.innerHTML = '<label><span>Jelölés</span><input id="alKey" list="alOpts" placeholder="pl. BTC, NVDA, EUR/HUF" autocomplete="off" spellcheck="false"></label>'
-      + '<label><span>Feltétel</span><select id="alType"><option value="above">' + AL_TYPES.above + '</option><option value="below">' + AL_TYPES.below + '</option><option value="move">' + AL_TYPES.move + '</option></select></label>'
-      + '<label><span>Érték</span><input id="alVal" inputmode="decimal" placeholder="pl. 75000 vagy 5" autocomplete="off"></label>'
-      + '<div class="acts"><button class="btn" type="submit">Hozzáadás</button></div><datalist id="alOpts"></datalist>';
-    c.append(form);
-    const bar = el("div", "pf-bar");
-    const msg = el("p", "hint"); msg.id = "alMsg"; msg.setAttribute("role", "status");
-    bar.append(msg);
+    lead.append(el("div", "lead-eyebrow", "Élő árfolyamok és riasztások"), el("h2", null, "Piacok"));
+    lead.append(el("p", null, "Keress rá bármilyen kriptóra, részvényre, ETF-re, devizára, indexre vagy nyersanyagra, nézd meg az élő árát és a grafikonját, és állíts be rá riasztást. A CFD-k a mögöttük álló eszköz árát követik (index, nyersanyag, deviza), ezért azokat itt a mögöttes termékként találod."));
+    const search = el("input", "nf-search mk-search"); search.id = "mkSearch"; search.type = "search"; search.placeholder = "Keresés: pl. Nvidia, bitcoin, arany, DAX, EUR/USD, VWCE…"; search.value = mkQuery;
+    search.setAttribute("aria-label", "Eszköz keresése");
+    const tabs = el("div", "chips mk-tabs");
+    const tabBtns = [];
+    for (const t of Object.keys(MK_LISTS)) {
+      const b = el("button", "chip", t); b.type = "button"; b.setAttribute("aria-pressed", String(!mkResults && mkTab === t));
+      b.addEventListener("click", () => { mkTab = t; mkResults = null; mkQuery = ""; search.value = ""; for (const x of tabBtns) x.setAttribute("aria-pressed", String(x === b)); mkRenderList(); });
+      tabBtns.push(b); tabs.append(b);
+    }
+    let timer = null;
+    search.addEventListener("input", () => {
+      clearTimeout(timer);
+      timer = setTimeout(async () => {
+        mkQuery = search.value.trim();
+        if (!mkQuery) { mkResults = null; for (const x of tabBtns) x.setAttribute("aria-pressed", String(x.textContent === mkTab)); mkRenderList(); return; }
+        for (const x of tabBtns) x.setAttribute("aria-pressed", "false");
+        if (!searchUrl) { mkResults = []; mkRenderList("A kereső a GitHubos oldalon működik."); return; }
+        const seq = ++mkSeq;
+        $("mkList").replaceChildren(el("p", "muted", "Keresés…"));
+        try {
+          const r = await fetch(searchUrl + "?q=" + encodeURIComponent(mkQuery));
+          const j = r.ok ? await r.json() : { results: [] };
+          if (seq !== mkSeq) return;
+          mkResults = j.results || [];
+        } catch (e) { if (seq !== mkSeq) return; mkResults = []; }
+        mkRenderList();
+      }, 350);
+    });
+    lead.append(search, tabs);
+    const detail = el("section", "mk-detail"); detail.id = "mkDetail"; detail.hidden = true;
+    const list = el("div", "mk-list"); list.id = "mkList";
+    const alHead = el("div", "section-head mk-al-head"); alHead.append(el("h3", null, "Riasztásaim"));
+    const alBar = el("div", "pf-bar");
+    const alMsg = el("p", "hint"); alMsg.id = "alMsg"; alMsg.setAttribute("role", "status");
+    alMsg.textContent = "A riasztás akkor szól, amikor az oldal nyitva van valamelyik böngészőfülön; a beállítások csak ebben a böngészőben tárolódnak.";
+    alBar.append(alMsg);
     if ("Notification" in window && Notification.permission !== "granted") {
       const nb = el("button", "btn-ghost", "Böngészőértesítés engedélyezése"); nb.type = "button";
-      nb.addEventListener("click", async () => { try { const r = await Notification.requestPermission(); msg.textContent = r === "granted" ? "Az értesítések engedélyezve." : "Az értesítést a böngésző nem engedte; a felugró üzenet és a hang így is működik."; if (r === "granted") nb.remove(); } catch (e) { msg.textContent = "Ez a böngésző nem támogatja az értesítéseket."; } });
-      bar.append(nb);
+      nb.addEventListener("click", async () => { try { const r = await Notification.requestPermission(); alMsg.textContent = r === "granted" ? "Az értesítések engedélyezve." : "Az értesítést a böngésző nem engedte; a felugró üzenet és a hang így is működik."; if (r === "granted") nb.remove(); } catch (e) { alMsg.textContent = "Ez a böngésző nem támogatja az értesítéseket."; } });
+      alBar.append(nb);
     }
-    c.append(bar);
-    const list = el("div", "al-list"); list.id = "alList"; c.append(list);
-    const opts = form.querySelector("#alOpts");
-    for (const [k, v] of alertOptions()) { const o = el("option"); o.value = k; o.label = v || ""; opts.append(o); }
-    const typeSel = form.querySelector("#alType");
-    form.addEventListener("submit", (ev) => {
-      ev.preventDefault();
-      const raw = $("alKey").value.trim();
-      const known = [...alertOptions().keys()].find((k) => k.toUpperCase() === raw.toUpperCase());
-      const key = known || raw.toUpperCase();
-      const value = parseNum($("alVal").value);
-      if (!key) { msg.textContent = "Add meg, mit figyeljen (például BTC, NVDA vagy EUR/HUF)."; return; }
-      if (!(value > 0)) { msg.textContent = "Az érték legyen nullánál nagyobb szám."; return; }
-      const q = quoteOf(key);
-      alerts.push({ id: Date.now().toString(36), key, type: typeSel.value, value, created: new Date().toISOString() });
-      saveAlerts();
-      msg.textContent = "Riasztás beállítva: " + key + ", " + alertText(alerts[alerts.length - 1]) + "." + (q ? " Most: " + q.price + "." : " Ehhez most nincs élő ár; amint lesz, figyeli.");
-      $("alVal").value = "";
-      updateAlerts(); renderMenu(); checkAlerts();
-    });
-    list.addEventListener("click", (ev) => {
+    const alList = el("div", "al-list"); alList.id = "alList";
+    alList.addEventListener("click", (ev) => {
       const b = ev.target.closest("button[data-act]");
       if (!b) return;
       const a = alerts.find((x) => x.id === b.dataset.id);
       if (!a) return;
       if (b.dataset.act === "del") alerts = alerts.filter((x) => x !== a);
       else { delete a.firedAt; delete a.firedPrice; }
-      saveAlerts(); updateAlerts(); renderMenu(); checkAlerts();
+      saveAlerts(); updateAlerts(); renderMenu(); mkRenderDetail(); checkAlerts();
     });
+    c.append(lead, detail, list, alHead, alBar, alList);
+    mkRenderList();
+    if (mkSel) mkRenderDetail();
     updateAlerts();
   }
+  function mkRenderList(msg) {
+    const box = $("mkList");
+    if (!box) return;
+    box.replaceChildren();
+    const items = mkItems();
+    for (const it of items) YINFO[it.symbol.toUpperCase()] = { name: it.name, type: it.type, exch: it.exch || (YINFO[it.symbol.toUpperCase()] || {}).exch || "" };
+    if (!items.length) { box.append(el("p", "muted", msg || "Nincs találat. Próbáld angolul vagy a jelölésével (pl. „gold”, „NVDA”, „BTC”).")); return; }
+    if (mkResults) box.append(el("div", "mk-count", items.length + " találat"));
+    for (const it of items) {
+      const t = it.symbol.toUpperCase();
+      const row = el("button", "mk-row"); row.type = "button"; row.dataset.y = t;
+      if (t === mkSel) row.classList.add("sel");
+      const name = el("div", "mk-name");
+      name.append(el("span", "tag-t", MK_TYPE[it.type] || it.type || ""), el("b", "sym", it.symbol), el("span", "nm", it.name));
+      if (it.exch) name.append(el("span", "ex", it.exch));
+      if (alerts.some((a) => a.key === "Y:" + t && !a.firedAt)) name.append(el("span", "bell", "🔔"));
+      const px = el("div", "mk-px"); px.dataset.yq = t;
+      row.append(name, px);
+      row.addEventListener("click", () => { mkSel = t; for (const r of box.querySelectorAll(".mk-row")) r.classList.toggle("sel", r === row); mkRenderDetail(); mkSubscribe(); mkLoadQuotes([t]); $("mkDetail").scrollIntoView({ behavior: "smooth", block: "start" }); });
+      box.append(row);
+    }
+    mkSubscribe();
+    mkLoadQuotes(items.map((x) => x.symbol.toUpperCase()));
+    mkUpdateLive();
+  }
+  function mkPxNodes(box, y) {
+    box.replaceChildren();
+    if (!y || typeof y.p !== "number") { box.append(el("span", "na", "…")); return; }
+    const pct = yPct(y);
+    box.append(el("span", "p", curFmt(y.p, y.cur)));
+    if (typeof pct === "number") box.append(el("span", "ch " + (pct >= 0 ? "up" : "down"), fmtPctN(pct)));
+  }
+  function mkUpdateLive() {
+    for (const n of document.querySelectorAll("[data-yq]")) mkPxNodes(n, YQ[n.dataset.yq]);
+  }
+  async function mkRenderDetail() {
+    const box = $("mkDetail");
+    if (!box || !mkSel) return;
+    const t = mkSel, info = YINFO[t] || { name: t, type: "", exch: "" };
+    box.hidden = false;
+    box.replaceChildren();
+    const head = el("div", "mk-dh");
+    const title = el("div");
+    title.append(el("div", "lead-eyebrow", [MK_TYPE[info.type] || info.type, t, info.exch].filter(Boolean).join(" · ")), el("h3", null, info.name || t));
+    const px = el("div", "mk-bigpx"); px.dataset.yq = t;
+    const close = el("button", "pf-ic", "✕"); close.type = "button"; close.setAttribute("aria-label", "Bezárás");
+    close.addEventListener("click", () => { mkSel = null; box.hidden = true; for (const r of document.querySelectorAll(".mk-row.sel")) r.classList.remove("sel"); mkSubscribe(); });
+    head.append(title, px, close);
+    const chips = el("div", "chips");
+    const sum = el("div", "pf-chart-sum");
+    const chart = el("div", "pf-chart-box");
+    for (const [r, label] of [["1d", "1 nap"], ["5d", "1 hét"], ["1mo", "1 hónap"], ["1y", "1 év"]]) {
+      const b = el("button", "chip", label); b.type = "button"; b.setAttribute("aria-pressed", String(mkRange === r));
+      b.addEventListener("click", () => { mkRange = r; for (const x of chips.children) x.setAttribute("aria-pressed", String(x === b)); drawMk(); });
+      chips.append(b);
+    }
+    // Riasztás erre az eszközre
+    const form = el("form", "pf-form mk-al-form"); form.noValidate = true;
+    form.innerHTML = '<label><span>Riasztás, ha</span><select class="mkType"><option value="above">' + AL_TYPES.above + '</option><option value="below">' + AL_TYPES.below + '</option><option value="move">' + AL_TYPES.move + '</option></select></label>'
+      + '<label><span>Érték</span><input class="mkVal" inputmode="decimal" autocomplete="off" placeholder="pl. ' + (YQ[t] && YQ[t].p ? fmtNum(YQ[t].p * 1.05, YQ[t].p >= 1 ? 2 : 4) : "100") + '"></label>'
+      + '<div class="acts"><button class="btn" type="submit">Riasztás beállítása</button></div>';
+    const fmsg = el("p", "hint");
+    form.addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const type = form.querySelector(".mkType").value;
+      const value = parseNum(form.querySelector(".mkVal").value);
+      if (!(value > 0)) { fmsg.textContent = "Az érték legyen nullánál nagyobb szám."; return; }
+      alerts.push({ id: Date.now().toString(36), key: "Y:" + t, label: (info.name && info.name !== t ? info.name + " (" + t + ")" : t), type, value, created: new Date().toISOString() });
+      saveAlerts(); renderMenu(); updateAlerts(); mkSubscribe(); checkAlerts();
+      fmsg.textContent = "Beállítva: " + alertText(alerts[alerts.length - 1]) + ". Lent, a Riasztásaim között látod.";
+      form.querySelector(".mkVal").value = "";
+      for (const r of document.querySelectorAll('.mk-row[data-y="' + CSS.escape(t) + '"] .mk-name')) if (!r.querySelector(".bell")) r.append(el("span", "bell", "🔔"));
+    });
+    const mine = alerts.filter((a) => a.key === "Y:" + t);
+    const mineP = el("p", "hint", mine.length ? "Erre az eszközre beállítva: " + mine.map((a) => alertText(a) + (a.firedAt ? " (teljesült)" : "")).join(", ") : "");
+    box.append(head, chips, sum, chart, form, fmsg, mineP);
+    mkUpdateLive();
+    async function drawMk() {
+      const range = mkRange;
+      chart.replaceChildren(el("div", "msg", historyUrl ? "Grafikon betöltése…" : "A grafikon a GitHubos oldalon érhető el."));
+      sum.replaceChildren();
+      if (!historyUrl) return;
+      const data = await histLoad(range, [{ key: t, kind: "y", id: t, ratio: 1 }]);
+      if (range !== mkRange || t !== mkSel) return;
+      const sr = data[t];
+      chart.replaceChildren();
+      if (!sr || sr.c.length < 2) { chart.append(el("div", "msg", "Ehhez az időszakhoz nincs elérhető adat.")); return; }
+      const times = sr.t.slice(), vals = sr.c.slice();
+      const y = YQ[t];
+      if (y && typeof y.p === "number" && (!times.length || y.t > times[times.length - 1])) { times.push(Math.floor(y.t || Date.now() / 1000)); vals.push(y.p); }
+      drawSeries(chart, sum, times, vals, (v) => curFmt(v, (YQ[t] || {}).cur), range === "1d" || range === "5d");
+    }
+    drawMk();
+  }
+
   let alSig = "";
   function updateAlerts() {
     const list = $("alList");
@@ -1529,7 +1699,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (!alerts.length) { list.append(el("p", "muted", "Még nincs riasztás. Fent állíthatsz be egyet.")); return; }
       for (const a of alerts) {
         const row = el("div", "al-row" + (a.firedAt ? " fired" : ""));
-        const cnd = el("div", "c"); cnd.append(el("span", "sym", a.key), alertText(a));
+        const cnd = el("div", "c"); cnd.append(el("span", "sym", a.label || a.key), alertText(a));
         const now = el("span", "now"); now.dataset.key = a.key;
         const ctl = el("div", "ctl");
         if (a.firedAt) { const r = el("button", "pf-ic", "Újra"); r.type = "button"; r.dataset.act = "rearm"; r.dataset.id = a.id; ctl.append(r); }
@@ -1545,7 +1715,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     }
   }
 
-  const PAGE_NAMES = { home: "Főoldal", wl: "Watchlist News", cal: "Gazdasági naptár", pf: "Portfolio", al: "Riasztások" };
+  const PAGE_NAMES = { home: "Főoldal", wl: "Watchlist News", cal: "Gazdasági naptár", pf: "Portfolio", mk: "Piacok" };
   function renderMenu() {
     const v = view();
     $("pageName").textContent = PAGE_NAMES[v];
@@ -1568,7 +1738,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     if (d) { $("edition").textContent = fmtDate(d.date); renderTape(d); } else $("tapeBand").hidden = true;
     if (v === "cal") { renderCalendarPage(); return; }
     if (v === "pf") { renderPortfolioPage(); return; }
-    if (v === "al") { renderAlertsPage(); return; }
+    if (v === "mk") { renderMarketsPage(); return; }
+    mkSubscribe();
     if (!d) { renderEmpty("Még nincs kiadás", "Az első összefoglaló a következő reggeli frissítéskor jelenik meg."); return; }
     if (v === "wl") renderWatchlistNews(); else renderDigest(d);
   }
@@ -1800,6 +1971,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       for (const m of MARKET_DEF || []) if (m.y) out.add(m.y.toUpperCase());
       for (const k of Object.keys(UCITS)) out.add(k);
       for (const sym of stockSyms()) { const y = sym.replace(/\./g, "-"); US_Y[y] = sym; out.add(y); }
+      for (const t of EXTRA_Y) out.add(t);
       return [...out];
     };
     const ySync = () => {
@@ -1811,6 +1983,10 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const t = d.time ? (d.time > 1e12 ? d.time / 1000 : d.time) : Date.now() / 1000;
       const prev = isFinite(d.prev) && d.prev ? d.prev : (isFinite(d.change) ? d.price - d.change : null);
       const pct = isFinite(d.pct) ? d.pct : (prev ? (d.price / prev - 1) * 100 : null);
+      if (EXTRA_Y.has(id) || YQ[id]) {
+        const old = YQ[id] || {};
+        YQ[id] = { ...old, p: d.price, prev: prev || old.prev, pct: isFinite(d.pct) ? d.pct : old.pct, t };
+      }
       const def = (MARKET_DEF || []).find((m) => m.y && m.y.toUpperCase() === id);
       if (def) applyMarket({ [def.y]: { price: d.price, prevClose: prev, t } }, "Yahoo Finance, élő");
       const uc = UCITS[id];
@@ -1851,6 +2027,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       quoteUrl = cfg.wsUrl.replace(/^wss:/, "https:").replace(/\/ws$/, "/quote");
       marketUrl = quoteUrl.replace(/\/quote$/, "/market");
       historyUrl = quoteUrl.replace(/\/quote$/, "/history");
+      searchUrl = quoteUrl.replace(/\/quote$/, "/search");
+      mkMarketUrl = marketUrl;
+      mkSubscribe();
+      if (view() === "mk") { mkLoadQuotes([...EXTRA_Y]); if (mkSel) mkRenderDetail(); }
+      else if (alerts.some((a) => String(a.key).startsWith("Y:"))) mkLoadQuotes([...EXTRA_Y]);
       loadSparks();
       if (view() === "pf") drawPfChart();
       pollMarket();
@@ -1905,7 +2086,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       renderWatchlist();
       updatePortfolio();
       checkAlerts();
-      if (view() === "al") updateAlerts();
+      if (view() === "mk") { updateAlerts(); mkUpdateLive(); }
     }, 1000);
     const loadRemote = async () => {
       try {
