@@ -1389,7 +1389,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         }
         box.append(el("p", null, evs.length ? "Holnap figyelj:" : "Holnapra nincs kiemelt esemény a naptárban."));
         if (evs.length) { const ul = el("ul"); for (const e of evs) ul.append(el("li", null, (e.time || "egész nap") + " · " + (e.country || "") + " · " + e.event)); box.append(ul); }
-        box.append(el("p", "hint", "Ezt este 9-kor Telegramon is megkaphatod: Beállítások → Telegram."));
+        box.append(el("p", "hint", "Ezt este fél 11-kor Telegramon is megkaphatod: ⚙ Beállítások → Telegram."));
       }
     }
     for (const r of rows) {
@@ -3009,7 +3009,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const saveMeta = () => lsPut(SYNC_META_KEY, JSON.stringify(syncMeta));
   const settings = (() => { try { return { summary: true, ...JSON.parse(lsGet(SET_KEY) || "{}") }; } catch (e) { return { summary: true }; } })();
   // Telegram-értesítések kapcsolói (alapból mind be van kapcsolva)
-  const TG_OPTS = [["summary", "Esti összefoglaló (21:00)"], ["weekly", "Heti összefoglaló (vasárnap 20:00)"], ["events", "Reggeli események (7:30): makroadatok, gyorsjelentések"], ["news", "Fontos hírek a tételeidről"], ["stale", "Figyelmeztetés, ha elakad a frissítés"]];
+  const TG_OPTS = [["summary", "Esti összefoglaló (22:30, az utolsó frissítés után)"], ["weekly", "Heti összefoglaló (vasárnap 20:00)"], ["events", "Reggeli események (7:30): makroadatok, gyorsjelentések"], ["news", "Fontos hírek a tételeidről"], ["stale", "Figyelmeztetés, ha elakad a frissítés"]];
   const saveSettings = () => { lsPut(SET_KEY, JSON.stringify(settings)); syncKick(); };
   const AL_CFG = ["id", "key", "label", "type", "value", "off", "created", "base", "hi", "lo", "line"];
   // A szerveroldali riasztáshoz és összefoglalóhoz: melyik Yahoo-jelölés tartozik egy tételhez
@@ -3111,13 +3111,15 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   };
 
   // ---------- Elakadt frissítés jelzése: a feltöltés (builtAt) és a Claude-frissítés (updatedAt) ütemezéshez mérve ----------
-  const RUNS = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]]; // budapesti idő; feltöltés +25 perc
+  // budapesti idő; feltöltés +25 perc. 2026-10-29-től kétóránként (6:22-től 22:22-ig), előtte háromóránként
+  const RUNS_OLD = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
+  const RUNS_NEW = [[5, 57], [7, 57], [9, 57], [11, 57], [13, 57], [15, 57], [17, 57], [19, 57], [21, 57]];
   const bud = (d) => { const p = Object.fromEntries(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Budapest", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(d).map((x) => [x.type, x.value])); return { y: +p.year, m: +p.month, d: +p.day, h: +p.hour, mi: +p.minute }; };
   function staleOf(data, now = Date.now()) {
     const b = bud(new Date(now));
     const off = Math.round((Date.UTC(b.y, b.m - 1, b.d, b.h, b.mi) - now) / 900000) * 900000;
     const slots = [];
-    for (let dd = -2; dd <= 0; dd++) { const x = bud(new Date(now + dd * 86400000)); for (const [h, mi] of RUNS) slots.push(Date.UTC(x.y, x.m - 1, x.d, h, mi) - off); }
+    for (let dd = -2; dd <= 0; dd++) { const x = bud(new Date(now + dd * 86400000)); for (const [h, mi] of (x.y * 10000 + x.m * 100 + x.d >= 20261029 ? RUNS_NEW : RUNS_OLD)) slots.push(Date.UTC(x.y, x.m - 1, x.d, h, mi) - off); }
     slots.sort((a, c) => a - c);
     const due = slots.filter((x) => x + 70 * 60000 <= now);
     if (due.length < 2) return null;
@@ -3190,7 +3192,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     }
     // Telegram
     tg.replaceChildren(el("h3", null, "Telegram-értesítések"));
-    tg.append(el("p", null, "A riasztásaid akkor is megérkeznek a telefonodra, ha a TőzsdeRadar nincs megnyitva (a szerver percenként ellenőrzi az árakat), és este 9-kor összefoglalót kapsz: a portfolio napi változása, a legnagyobb mozgások és a holnapi fontos események."));
+    tg.append(el("p", null, "A riasztásaid akkor is megérkeznek a telefonodra, ha a TőzsdeRadar nincs megnyitva (a szerver percenként ellenőrzi az árakat), és este fél 11-kor, az utolsó frissítés után összefoglalót kapsz: a portfolio napi változása, a legnagyobb mozgások és a holnapi fontos események."));
     if (!workerBase) tg.append(el("p", null, "A GitHubos oldalon érhető el."));
     else if (!syncId) { tg.append(el("p", null, "Ehhez a szinkront is be kell kapcsolni (a Telegram ehhez a kódhoz kapcsolódik).")); tg.append(el("div", "set-row")); tg.lastChild.append(btn("Szinkron bekapcsolása", enable)); }
     else if (!tgInfo) tg.append(el("p", null, "Állapot betöltése…"));

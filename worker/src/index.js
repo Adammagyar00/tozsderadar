@@ -435,8 +435,11 @@ async function weekQuotes(tickers) {
   return out;
 }
 
-// A frissítési lánc ütemezése (budapesti idő): a Claude-frissítés :57-kor, a feltöltés utána :22-kor
-const RUNS = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
+// A frissítési lánc ütemezése (budapesti idő): a Claude-frissítés :57-kor, a feltöltés utána :22-kor.
+// 2026-10-29-től kétóránként (6:22-től 22:22-ig frissül az oldal), előtte háromóránként.
+const RUNS_OLD = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
+const RUNS_NEW = [[5, 57], [7, 57], [9, 57], [11, 57], [13, 57], [15, 57], [17, 57], [19, 57], [21, 57]];
+const runsOn = (date) => date >= "2026-10-29" ? RUNS_NEW : RUNS_OLD;
 function budapestOffsetMs(now) {
   const b = budapest(new Date(now));
   const [y, m, d] = b.date.split("-").map(Number);
@@ -451,7 +454,7 @@ function staleOf(data, now = Date.now()) {
   for (let dd = -2; dd <= 0; dd++) {
     const b = budapest(new Date(now + dd * 86400000));
     const [y, m, d] = b.date.split("-").map(Number);
-    for (const [h, mi] of RUNS) slots.push(Date.UTC(y, m - 1, d, h, mi) - off);
+    for (const [h, mi] of runsOn(b.date)) slots.push(Date.UTC(y, m - 1, d, h, mi) - off);
   }
   slots.sort((a, b) => a - b);
   const due = slots.filter((x) => x + 25 * 60000 + 45 * 60000 <= now);
@@ -604,7 +607,7 @@ export class Store {
       list.push(arg);
       await this.state.storage.put({ ["chat:" + arg]: chat, ["chatOf:" + chat]: arg, linked: [...new Set(list)] });
       if (old && old !== arg) await this.state.storage.delete("chat:" + old);
-      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este 9-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /heti · /stop");
+      await tgSend(this.env, chat, "✅ <b>Összekapcsolva a TőzsdeRadarral.</b>\nIde érkeznek a riasztásaid (percenkénti ellenőrzéssel, akkor is, ha az oldal nincs megnyitva), és este fél 11-kor az összefoglaló.\n\nParancsok: /riasztasok · /osszegzes · /heti · /stop");
       return;
     }
     const id = await this.state.storage.get("chatOf:" + chat);
@@ -660,11 +663,11 @@ export class Store {
       if (changed) await this.state.storage.put("st:" + u.id, st);
     }
     const b = budapest();
-    // Esti összefoglaló 21:00-kor, heti összefoglaló vasárnap 20:00-kor, reggeli eseménylista 7:30-kor (budapesti idő)
+    // Esti összefoglaló 22:30-kor (a 22:22-es utolsó feltöltés után), heti összefoglaló vasárnap 20:00-kor, reggeli eseménylista 7:30-kor (budapesti idő)
     const once = async (u, key, fn) => { if ((await this.state.storage.get(key + ":" + u.id)) === b.date) return; await this.state.storage.put(key + ":" + u.id, b.date); await fn(); };
     const dow = new Date(Date.UTC(...b.date.split("-").map((v, i) => i === 1 ? v - 1 : +v))).getUTCDay();
     for (const u of users) {
-      if (b.hour === 21 && b.minute < 10 && u.srv.summary !== false) await once(u, "sum", () => this.summary(u.id, u.chat, false));
+      if (b.hour === 22 && b.minute >= 30 && b.minute < 40 && u.srv.summary !== false) await once(u, "sum", () => this.summary(u.id, u.chat, false));
       if (dow === 0 && b.hour === 20 && b.minute < 10 && u.srv.weekly !== false) await once(u, "week", () => this.weekly(u.id, u.chat));
     }
     // A napi kiadás (data.json): 5 percenként hírek, reggel események, 10 percenként a frissítés ellenőrzése
