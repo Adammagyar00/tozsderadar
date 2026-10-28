@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="80%" r="95%">
+      <stop offset="0" stop-color="#174536"/>
+      <stop offset="1" stop-color="#0b1a15"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc39d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#4cc39d" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <!-- radar: negyedkörök a bal alsó sarokból -->
+  <g fill="none" stroke="#4cc39d" stroke-linecap="round">
+    <path d="M10 38 A16 16 0 0 1 26 54" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M10 24 A30 30 0 0 1 40 54" stroke-opacity="0.32" stroke-width="2"/>
+    <path d="M10 10 A44 44 0 0 1 54 54" stroke-opacity="0.2" stroke-width="2"/>
+  </g>
+  <!-- pásztázó sugár -->
+  <path d="M10 54 L10 10 A44 44 0 0 1 41.1 22.9 Z" fill="url(#sweep)"/>
+  <!-- emelkedő árfolyam -->
+  <polyline points="10,46 21,40 29,43 41,30 50,20" fill="none" stroke="#e7f6ef" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- jelzés a radaron -->
+  <circle cx="50" cy="20" r="8" fill="#4cc39d" fill-opacity="0.22"/>
+  <circle cx="50" cy="20" r="4.2" fill="#6fe3b9"/>
+</svg>
