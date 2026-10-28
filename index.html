@@ -48,7 +48,11 @@ header.mast .hdr-right { justify-self: end; justify-content: flex-end; }
   header.mast .brand { grid-column: 1 / -1; grid-row: 1; }
   header.mast .mast-left { flex-wrap: nowrap; gap: 10px; }
   header.mast .edition { font-size: 11px; text-align: right; }
+  header.mast .mast-left { min-width: 0; }
+  header.mast .page-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 }
+/* keskeny telefonon az oldal neve helyett a kiemelt gomb és a cím mutatja, hol vagyunk */
+@media (max-width: 440px) { header.mast .page-name { display: none; } }
 .brand { font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 4vw, 36px); letter-spacing: -0.02em; margin: 0; }
 .brand { display: inline-flex; align-items: center; gap: 0.32em; }
 .brand .bt span { color: var(--accent); }
@@ -131,6 +135,9 @@ aside { display: grid; gap: 18px; align-content: start; }
 .mast-left { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .menu-btn { display: inline-flex; align-items: center; gap: 8px; font: inherit; font-size: 14px; font-weight: 600; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
 .menu-btn:hover, .menu-btn[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); }
+.gear-btn { display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); text-decoration: none; flex: none; }
+.gear-btn svg { width: 19px; height: 19px; }
+.gear-btn:hover, .gear-btn[aria-current="page"] { border-color: var(--accent); color: var(--accent); }
 .burger { display: inline-grid; gap: 3px; }
 .burger i { display: block; width: 16px; height: 2px; background: currentColor; border-radius: 1px; }
 .page-name { font-family: var(--font-data); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
@@ -435,6 +442,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   <div class="wrap">
     <div class="mast-left">
       <button class="menu-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="menu"><span class="burger" aria-hidden="true"><i></i><i></i><i></i></span>Menü</button>
+      <a class="gear-btn" id="gearBtn" href="#beallitasok" title="Beállítások" aria-label="Beállítások"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1.08-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1.08 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></a>
       <span class="page-name" id="pageName">Főoldal</span>
     </div>
     <h1 class="brand"><svg class="brand-ic" viewBox="0 0 64 64" aria-hidden="true"><defs> <radialGradient id="brbg" cx="30%" cy="80%" r="95%"> <stop offset="0" stop-color="#174536"/> <stop offset="1" stop-color="#0b1a15"/> </radialGradient> <linearGradient id="brsw" x1="0" y1="1" x2="1" y2="0"> <stop offset="0" stop-color="#4cc39d" stop-opacity="0"/> <stop offset="1" stop-color="#4cc39d" stop-opacity="0.55"/> </linearGradient> </defs> <rect width="64" height="64" rx="15" fill="url(#brbg)"/> <g fill="none" stroke="#4cc39d" stroke-linecap="round"> <path d="M10 38 A16 16 0 0 1 26 54" stroke-opacity="0.45" stroke-width="2"/> <path d="M10 24 A30 30 0 0 1 40 54" stroke-opacity="0.32" stroke-width="2"/> <path d="M10 10 A44 44 0 0 1 54 54" stroke-opacity="0.2" stroke-width="2"/> </g> <path d="M10 54 L10 10 A44 44 0 0 1 41.1 22.9 Z" fill="url(#brsw)"/> <polyline points="10,46 21,40 29,43 41,30 50,20" fill="none" stroke="#e7f6ef" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/> <circle cx="50" cy="20" r="8" fill="#4cc39d" fill-opacity="0.22"/> <circle cx="50" cy="20" r="4.2" fill="#6fe3b9"/></svg><span class="bt">Tőzsde<span>Radar</span></span></h1>
@@ -457,7 +465,6 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     <a class="menu-item" href="#piacok" data-view="mk"><b>Piacok<span class="cnt" id="alCnt" hidden title="Aktív riasztások"></span></b><span class="d">Kriptók, részvények, ETF-ek, devizák, indexek, nyersanyagok: keresés élő árral, grafikonnal és riasztással.</span></a>
     <a class="menu-item" href="#portfolio" data-view="pf"><b>Portfolio</b><span class="d">A saját kriptóid, részvényeid és ETF-jeid értéke és hozama, élő árakkal.</span></a>
     <a class="menu-item" href="#hoterkep" data-view="hm"><b>Hőtérkép és hangulat</b><span class="d">Szektorok, nagy részvények, indexek és kriptók napi mozgása színes csempéken; félelem- és kapzsiságindex, funding rate.</span></a>
-    <a class="menu-item" href="#beallitasok" data-view="set"><b>Beállítások</b><span class="d">Szinkron a telefonod és a géped között, Telegram-értesítések, telepítés alkalmazásként.</span></a>
   </div>
 </nav>
 
@@ -3076,6 +3083,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const v = view();
     $("pageName").textContent = PAGE_NAMES[v];
     for (const a of document.querySelectorAll(".menu-item")) a.setAttribute("aria-current", a.dataset.view === v ? "page" : "false");
+    $("gearBtn").setAttribute("aria-current", v === "set" ? "page" : "false");
     const n = digests.length ? watchlistNews().length : 0;
     $("wlNewsCnt").hidden = !n; $("wlNewsCnt").textContent = String(n);
     const m = upcoming().length;
@@ -3104,6 +3112,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 
   const setMenu = (open) => { $("menu").hidden = !open; $("menuBtn").setAttribute("aria-expanded", String(open)); };
   $("menuBtn").addEventListener("click", () => setMenu($("menu").hidden));
+  $("gearBtn").addEventListener("click", (e) => { setMenu(false); if (location.hash === "#beallitasok") { e.preventDefault(); render(); } window.scrollTo({ top: 0 }); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("menu").hidden) { setMenu(false); $("menuBtn").focus(); } });
   for (const a of document.querySelectorAll(".menu-item")) {
     a.addEventListener("click", (e) => {

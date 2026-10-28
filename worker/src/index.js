@@ -514,11 +514,11 @@ export class Store {
       return;
     }
     const id = await this.state.storage.get("chatOf:" + chat);
-    if (!id) { await tgSend(this.env, chat, "Ez a bot a TőzsdeRadar értesítéseit küldi. Az összekapcsoláshoz nyisd meg az oldalon a <b>Beállítások</b> menüt, és kattints a „Telegram összekapcsolása” gombra.\n" + SITE + "#beallitasok"); return; }
+    if (!id) { await tgSend(this.env, chat, "Ez a bot a TőzsdeRadar értesítéseit küldi. Az összekapcsoláshoz nyisd meg az oldalon a fent lévő ⚙ <b>Beállítások</b> gombot, és kattints a „Telegram összekapcsolása” gombra.\n" + SITE + "#beallitasok"); return; }
     if (cmd === "/stop") {
       await this.state.storage.delete(["chat:" + id, "chatOf:" + chat]);
       await this.state.storage.put("linked", (await this.linked()).filter((x) => x !== id));
-      await tgSend(this.env, chat, "Leválasztva: több értesítés nem jön. Újra az oldal Beállítások menüjéből kapcsolhatod össze.");
+      await tgSend(this.env, chat, "Leválasztva: több értesítés nem jön. Újra az oldalon a ⚙ Beállításoknál kapcsolhatod össze.");
       return;
     }
     if (cmd === "/osszegzes" || cmd === "/summary") { await this.summary(id, chat, true); return; }
