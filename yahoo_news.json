@@ -1,13 +1,21 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-29T01:56:26Z",
+ "updatedAt": "2026-10-29T02:48:22Z",
  "items": [
   {
-   "title": "Bitcoin Controls 59.5% of the Crypto Market. Is Altcoin Season Still Possible?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/28/bitcoin-controls-59-5-of-the-crypto-market-is-altcoin-season-still-possible/?.tsrc=rss",
-   "published": "2026-10-29T01:41:42Z",
+   "title": "Small-Cap Stocks Just Did Something They Haven't Done Since 2018. Is It Finally Time to Buy?",
+   "link": "https://www.fool.com/investing/2026/10/28/small-cap-stocks-did-something-finally-time-to-buy/?.tsrc=rss",
+   "published": "2026-10-29T02:35:00Z",
    "publisher": "",
-   "summary": "Bitcoin now commands nearly 60% of the entire crypto market, and the reason why tells a very different story than most altcoin investors want to hear. Whether that spells opportunity or prolonged pain depends on a few key signals starting to shift.",
+   "summary": "The rate-driven sell-off in the Russell 2000 creates a potential buying opportunity.",
+   "symbols": []
+  },
+  {
+   "title": "Ripple’s RLUSD Has a Moody’s A2 Rating and Is Live on Coinbase. Does a Stronger Stablecoin Help XRP?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/28/ripples-rlusd-has-a-moodys-a2-rating-and-is-live-on-coinbase-does-a-stronger-stablecoin-help-xrp/?.tsrc=rss",
+   "published": "2026-10-29T02:15:46Z",
+   "publisher": "",
+   "summary": "Ripple's stablecoin just earned a Moody's investment-grade rating and landed on Coinbase, yet XRP holders are still waiting to feel any benefit. Whether RLUSD's growing credibility can actually lift XRP depends on a single missing piece.",
    "symbols": [
     "BTC",
     "ETH",
@@ -18,6 +26,63 @@
     "MU",
     "MRVL"
    ]
+  },
+  {
+   "title": "SPCX Stock Slips Overnight: T-Mobile CEO Again Rejects SpaceX Mobile Network Deal",
+   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-t-mobile-ceo-again-rejects-spacex-mobile-network-deal/cZUQE8WR9GD?.tsrc=rss",
+   "published": "2026-10-29T02:13:34Z",
+   "publisher": "",
+   "summary": "T-Mobile is still open to satellite resale through T-Satellite and other commercial arrangements with SpaceX.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "3 Refining Stocks With Pricing Power as Fuel Bottlenecks Tighten",
+   "link": "https://finance.yahoo.com/energy/articles/3-refining-stocks-pricing-power-021221789.html",
+   "published": "2026-10-29T02:12:21Z",
+   "publisher": "",
+   "summary": "Fuel markets have been hit by refinery outages, military risk and years of underinvestment, creating a world where crude is available but turning it into usable diesel and gasoline has become the real choke point. That squeeze can reward certain integrated oil and refining stocks while leaving others exposed. This article walks through three global refiners that are closely tied to this storyline ",
+   "symbols": []
+  },
+  {
+   "title": "Gold slips after Fed holds rates, PCE inflation data in focus",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-fed-holds-rates-015115459.html",
+   "published": "2026-10-29T01:51:15Z",
+   "publisher": "",
+   "summary": "Investing.com -- Gold prices fell on Wednesday after the U.S. Federal Reserve held interest rates steady but offered limited clarity on its next move, leaving investors uncertain about the prospect of further tightening before year-end as they awaited fresh inflation data.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Controls 59.5% of the Crypto Market. Is Altcoin Season Still Possible?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/28/bitcoin-controls-59-5-of-the-crypto-market-is-altcoin-season-still-possible/?.tsrc=rss",
+   "published": "2026-10-29T01:41:42Z",
+   "publisher": "",
+   "summary": "Bitcoin now commands nearly 60% of the entire crypto market, and the reason why tells a very different story than most altcoin investors want to hear. Whether that spells opportunity or prolonged pain depends on a few key signals starting to shift.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Is Vistra Stock Engineered To Make You Money?",
+   "link": "https://www.trefis.com/stock/vst/articles/620957/is-vistra-stock-engineered-to-make-you-money/2026-10-28?.tsrc=rss",
+   "published": "2026-10-29T01:37:09Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
   },
   {
    "title": "The Fed Holds Interest Rates in a 10–2 Vote. Here's What This Means for Artificial Intelligence (AI) Stocks.",
@@ -61,11 +126,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -83,12 +148,12 @@
    "publisher": "",
    "summary": "T-Mobile US (NASDAQ:TMUS) said its third-quarter performance was led by postpaid phone and 5G broadband customer gains, higher service revenue and continued expansion in average revenue per account, while management raised portions of its full-year financial outlook. President and CEO Srini Gopalan",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3065,78 +3130,6 @@
    "published": "2026-10-28T15:35:41Z",
    "publisher": "",
    "summary": "Neocloud, AI stocks are rebounding amid some renewed AI optimism even after SpaceX CEO Elon Musk predicts major wipeouts for the sector.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Budget Uncertainty Weighed on Mercury Systems (MRCY) in Q3",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/budget-uncertainty-weighed-mercury-systems-153236198.html",
-   "published": "2026-10-28T15:32:36Z",
-   "publisher": "",
-   "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. In 2026, Small Caps initially outperformed but faced challenges in the third quarter, marked by the Russell 2000 Growth Index’s -9.4% decline versus the S&P 500’s +2.3% rise. Factors such as rising Treasury yields and higher oil […]",
-   "symbols": []
-  },
-  {
-   "title": "Lisa Morales Joins Vinson & Elkins as NY-Based Corporate Partner",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/lisa-morales-joins-vinson-elkins-153032881.html",
-   "published": "2026-10-28T15:30:32Z",
-   "publisher": "",
-   "summary": "By Karen Roman Vinson & Elkins said Lisa Morales is the firm’s new partner in its Corporate practice in New York, having previously served at Simpson Thacher & Bartlett as M&A partner. Ms. Morales’ experience focuses on complex public and private mergers, acquisitions, divestitures, distressed M&A transactions, and joint ventures across a broad range of […] The post Lisa Morales Joins Vinson & Elk",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "PetroChina Q3 Profit Jumps to $7.78 Billion",
-   "link": "https://finance.yahoo.com/energy/articles/petrochina-q3-profit-jumps-7-153000822.html",
-   "published": "2026-10-28T15:30:00Z",
-   "publisher": "",
-   "summary": "PetroChina's third-quarter profit hit 51.84 billion yuan on war-inflated prices, while crude output, refinery runs and diesel sales all declined.",
-   "symbols": []
-  },
-  {
-   "title": "AAON (AAON): Top-Line Surge Overshadows Temporary Margin Pressure",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/aaon-aaon-top-line-surge-152857637.html",
-   "published": "2026-10-28T15:28:57Z",
-   "publisher": "",
-   "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. In 2026, Small Caps initially outperformed but faced challenges in the third quarter, marked by the Russell 2000 Growth Index’s -9.4% decline versus the S&P 500’s +2.3% rise. Factors such as rising Treasury yields and higher oil […]",
-   "symbols": []
-  },
-  {
-   "title": "ChatGPT Latest Stock Portfolio: 5 Stock Picks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/chatgpt-latest-stock-portfolio-5-152756705.html",
-   "published": "2026-10-28T15:27:56Z",
-   "publisher": "",
-   "summary": "Remember when everyone said AI could never pick stocks? Some of the early numbers are making that line look old. AI systems have improved fast, and early numbers are making that view harder to defend. FinQ launched two AI-managed ETFs in February, and they are up 25.35% and 23.98%, compared with 11.0% for the S&P […]",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "JP Morgan lashes out at ‘unprincipled’ bank tax",
-   "link": "https://uk.finance.yahoo.com/news/jp-morgan-lashes-unprincipled-bank-152643638.html",
-   "published": "2026-10-28T15:26:43Z",
-   "publisher": "",
-   "summary": "JP Morgan has criticised John Healey’s tax raid on banks, saying it “lacks principle”.",
    "symbols": [
     "BE",
     "DFEN",
