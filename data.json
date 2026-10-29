@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-29T12:58:06Z",
+ "builtAt": "2026-10-29T15:20:38Z",
  "digests": [
   {
    "calendar": [
@@ -591,12 +591,12 @@
      "addedAt": "2026-10-29T10:45:00Z",
      "category": "Nyersanyagok és geopolitika",
      "impact": "semleges",
-     "source": "FinanceFeeds (nem megerősített)",
-     "summary": "A FinanceFeeds értesülése szerint J. D. Vance levelet írt az iráni Mohszen Rezaeinek a tárgyalások újraindítására, katari közvetítéssel; ezt más forrás még nem erősítette meg. A Brent csütörtökön ázsiai kereskedésben mintegy 1%-ot esett 114 dollár környékére, a WTI 101,4 dollár körül jár.",
+     "source": "FinanceFeeds (nem megerősített) · WSJ, NYT, IBTimes",
+     "summary": "A WSJ és a NYT szerint J. D. Vance levelet küldött Mohszen Rezaeinek, az iráni biztonsági tanács vezetőjének a tárgyalások újraindítására; a levelet Trump jóváhagyta, bár ő maga azt mondta, nem utasította Vancet a kapcsolatfelvételre. A Brent csütörtökön 1–2%-ot esett 114 dollár körüli szintre, a WSJ szerint viszont Washington a Gulf-államokat egy november 3. utáni lehetséges rövid katonai kampányra készülésre kérte.",
      "symbols": [],
-     "title": "Értesülések szerint Vance levélben próbálja újraéleszteni az iráni békefolyamatot, a Brent 114 dollár körül jár",
+     "title": "Vance levélben próbálja újraindítani az iráni tárgyalásokat, a Brent 114 dollár körül jár",
      "url": "https://financefeeds.com/brent-crude-oil-price-114-20-thursday-vance-iran-letter-gdp-pce-day-bull-120-bear-108/",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-10-29T12:52:00Z",
@@ -664,6 +664,42 @@
      "title": "A Repsol a várakozásnál jobb eredményt jelentett, növelte a visszavásárlást és az osztalékot",
      "url": "https://finance.yahoo.com/markets/stocks/articles/repsol-beats-estimates-buyback-dividend-110013747.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T14:50:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A harmadik negyedévben az amerikai gazdaság évesítve 3,4%-kal nőtt a második negyedévi 2,2% után (BEA első becslés). A szeptemberi PCE-árindex havi 0,5%-kal, éves alapon 3,6%-kal emelkedett, a maginfláció 0,3% havi és 3,1% éves. A heti első munkanélküli-segély kérelmek száma 194 ezerre csökkent, a várt 199 ezer alatt; a piac a decemberi Fed-kamatemelést is lehetségesnek tartja.",
+     "symbols": [],
+     "title": "Gyorsult az amerikai növekedés (GDP +3,4%), felpörgött az infláció: a PCE 3,6%-ra nőtt",
+     "url": "https://www.investing.com/news/economy-news/us-inflation-heats-up-in-september-consumer-spending-rises-4983689",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T14:50:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az EKB a várakozásoknak megfelelően 2,50%-on tartotta a betéti rátát (irányadó ráta 2,65%, jegybanki hitel 2,90%), és az energiaköltségek miatti növekvő inflációs kockázatra figyelmeztetett. A döntés után az euró az FXStreet szerint 17 havi mélypontra esett a dollárral szemben, az európai tőzsdék közel kéthavi csúcson álltak. A piac a decemberi kamatemelésre is számít.",
+     "symbols": [],
+     "title": "Az EKB változatlanul hagyta a kamatot (betéti ráta 2,50%), az euró 17 havi mélypontra gyengült",
+     "url": "https://www.investing.com/news/economy-news/ecb-keeps-rates-unchanged-but-points-to-mounting-inflation-risk-4983925",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T14:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Merck harmadik negyedéves korrigált EPS-e 2,49 dollár volt a várt 2,08 ellenében, bevétele 18,09 milliárd dollár a várt 17,31 milliárdhoz képest (LSEG). A Keytruda eladásai 6%-kal nőttek 8,6 milliárd dollárra, a Gardasil 14%-kal. A cég a teljes éves korrigált EPS-célt 2,77–2,82 dollárra emelte; a növekedés mintegy 550 millió dollárja előrehozott vásárlásokból jött.",
+     "symbols": [],
+     "title": "A Merck felülmúlta a várakozásokat és emelte éves profitkilátását",
+     "url": "https://www.investing.com/news/stock-market-news/merck-tops-thirdquarter-estimates-as-keytruda-gardasil-outperform-4982557",
+     "verified": true
     }
    ],
    "markets": [
@@ -690,7 +726,7 @@
     }
    ],
    "summary": "A Fed szerdán 10–2 arányban változatlanul, 3,75–4,00%-on hagyta a kamatot; Warsh szerint 2027-től nyolc helyett hét kamatdöntő ülés lesz. Az Alphabet gyengébb eredménye az ázsiai tőzsdéket és a Wall Street határidős jegyeit is lefelé húzta, az arany csökken, a bitcoin 80 ezer dollár alá csúszott. A Samsung rekordnyereséget közölt, a Bloomberg szerint a Marvell a Lumentum megvételéről tárgyal. Ma az EKB kamatdöntése, az amerikai GDP- és PCE-adat, valamint a Lilly, az Amazon és az Intel gyorsjelentése várható; Magyarországon a pénzügyminiszter középtávú tervet vázolt fel.",
-   "updatedAt": "2026-10-29T12:52:00Z",
+   "updatedAt": "2026-10-29T14:50:00Z",
    "watchlist": []
   },
   {
@@ -2590,14 +2626,14 @@
    "id": "2026-10-29-lly-earnings"
   },
   {
-   "actual": "",
+   "actual": "3,4%",
    "country": "US",
    "date": "2026-10-29",
    "event": "GDP, 3. negyedév (első becslés, évesített)",
    "forecast": "",
    "importance": 3,
-   "note": "Csütörtök 13:30 (Kiplinger, Newsquawk is ezt közli)",
-   "previous": "",
+   "note": "BEA első becslés; a konszenzus forrásonként eltér (3,0–3,2%), ezért nincs kitöltve",
+   "previous": "2,2%",
    "source": "Kiplinger",
    "time": "13:30",
    "type": "Makroadat",
@@ -2605,12 +2641,13 @@
    "id": "2026-10-29-us-gdp"
   },
   {
-   "actual": "",
+   "actual": "havi +0,5%, éves 3,6%; maginfláció havi +0,3%, éves 3,1%",
    "country": "US",
    "date": "2026-10-29",
    "event": "PCE-árindex, szeptember",
    "forecast": "",
    "importance": 3,
+   "note": "A maginfláció a várakozásoknak megfelelt (Invezz, CNN)",
    "previous": "",
    "source": "Kiplinger",
    "time": "13:30",
@@ -2619,13 +2656,13 @@
    "id": "2026-10-29-us-pce"
   },
   {
-   "actual": "",
+   "actual": "2,50% (változatlan)",
    "country": "EU",
    "date": "2026-10-29",
    "event": "EKB kamatdöntés (betéti ráta)",
    "forecast": "",
    "importance": 3,
-   "note": "Sajtótájékoztató 14:45",
+   "note": "Sajtótájékoztató 14:45; főrefinanszírozási ráta 2,65%. Forrás: Reuters, EKB-közlemény szerinti beszámolók",
    "previous": "2,50%",
    "source": "euribor-rates.info",
    "time": "14:15",
