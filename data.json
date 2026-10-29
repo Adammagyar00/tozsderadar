@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-29T18:57:06Z",
+ "builtAt": "2026-10-29T20:55:57Z",
  "digests": [
   {
    "calendar": [
@@ -902,6 +902,129 @@
      "title": "A Perrigo eladja csecsemőtápszer-üzletágát a MeridianMade-nek, legfeljebb 175 millió dollárért",
      "url": "https://www.investing.com/news/stock-market-news/perrigo-to-sell-infant-formula-business-to-meridianmade-for-up-to-175-million-4984765",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Yahoo Finance",
+     "summary": "Az amerikai részvényindexek csökkentek, a kommunikációs szolgáltatások szektor zuhant az Alphabet gyenge jelentése után. A befektetőket ismét az AI-célú tőkekiadások mértéke aggasztja.",
+     "symbols": [
+      "GOOGL",
+      "QQQ",
+      "VOO"
+     ],
+     "title": "A Wall Street esik: az Alphabet bevételi csalódása újra felélesztette az AI-beruházásoktól való félelmeket",
+     "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "Értesülések szerint a Marvell közel áll egy nagy optikai üzlethez, a részvényesek azonban attól tartanak, mennyire hígítja ez a meglévő tulajdonosok részesedését.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A Marvell részvénye mintegy 12%-ot esik: a Lumentum-felvásárlás árától tartanak a befektetők",
+     "url": "https://www.fool.com/investing/2026/10/29/why-marvell-stock-is-down-today/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A Samsung profitcsalódása nyomán a memóriaszektor eladási hullámba került, az SK Hynix 3%-ot esett, a Western Digital is gyengült. A Sandisk a saját gyorsjelentése előtt áll.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "A Sandisk és a Micron 5%-ot esik: a Samsung-csalódás lehűtötte a memóriachip-rallit",
+     "url": "https://247wallst.com/investing/2026/10/29/sandisk-and-micron-slide-5-as-samsung-miss-cools-memory-rally-ahead-of-sandisk-earnings-sk-hynix-falls-3-western-digital-dips/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A Ripple 900 millió dolláros éves bevételt vetít előre, az XRP szerepéről azonban alig beszél; a friss partnerségek más irányra utalnak.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "A Ripple szerint évi 900 millió dolláros bevétel felé tart, de nem mondja meg, ebből mennyi függ az XRP-től",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/10/29/ripple-is-heading-for-900-million-in-annual-revenue-how-much-of-it-depends-on-xrp/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Strategy bejelentése szerint a jövő héten kezdi a napi osztalékfizetést.",
+     "symbols": [
+      "MSTR",
+      "BTC"
+     ],
+     "title": "A Strategy a jövő héttől napi osztalékot fizet",
+     "url": "https://finance.yahoo.com/m/84650033-0bad-3b95-8083-9b692eaba5b5/strategy%27s-bitcoin-bazooka-is.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A hírek szerint az elnök fontolgatja a konfliktus kiélezését, a vezérkari főnök pedig a Fehér Házban egyeztetett.",
+     "symbols": [],
+     "title": "Trump az iráni eszkaláció lehetőségét mérlegeli, miközben a legfőbb amerikai tábornok ritka látogatást tett a Fehér Házban",
+     "url": "https://www.investing.com/news/economy-news/trump-weighs-iran-escalation-as-top-us-general-makes-rare-white-house-visit-4984927",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az olajárak a napot lejjebb zárták, mert a tárgyalási remények részben ellensúlyozták a közel-keleti ellátási kockázatokat.",
+     "symbols": [],
+     "title": "Az olajár csökkenéssel zárt: a diplomáciai remények ellensúlyozták a közel-keleti kínálati aggodalmakat",
+     "url": "https://www.investing.com/news/commodities-news/us-oil-prices-fall-as-investors-gauge-risks-to-mideast-supply-4981268",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Terrestar Solutions megállapodott, hogy tervezett kanadai műholdrendszerét összekapcsolja az Equatysszel, a Viasat és a Space42 közös vállalkozásával.",
+     "symbols": [
+      "VSAT"
+     ],
+     "title": "A Viasat 7%-ot ugrott: a Terrestar az Equatys műholdas vállalkozás első szuverén partnere",
+     "url": "https://www.tikr.com/blog/viasat-soars-7-as-terrestar-becomes-first-sovereign-shell-for-its-equatys-satellite-venture?ref=yahoofinance&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T20:39:49Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Polymarket közlése szerint a platform jelentős kiesést szenvedett, ezért a kereskedési műveleteket felfüggesztették.",
+     "symbols": [],
+     "title": "A Polymarket nagyobb leállást jelentett, felfüggesztette a kereskedést",
+     "url": "https://www.investing.com/news/stock-market-news/polymarket-reports-major-outage-suspends-trading-actions-4984887",
+     "verified": true
     }
    ],
    "markets": [
@@ -928,7 +1051,7 @@
     }
    ],
    "summary": "A Fed szerdán 10–2 arányban változatlanul, 3,75–4,00%-on hagyta a kamatot; Warsh szerint 2027-től nyolc helyett hét kamatdöntő ülés lesz. Az Alphabet gyengébb eredménye az ázsiai tőzsdéket és a Wall Street határidős jegyeit is lefelé húzta, az arany csökken, a bitcoin 80 ezer dollár alá csúszott. A Samsung rekordnyereséget közölt, a Bloomberg szerint a Marvell a Lumentum megvételéről tárgyal. Ma az EKB kamatdöntése, az amerikai GDP- és PCE-adat, valamint a Lilly, az Amazon és az Intel gyorsjelentése várható; Magyarországon a pénzügyminiszter középtávú tervet vázolt fel.",
-   "updatedAt": "2026-10-29T18:40:00Z",
+   "updatedAt": "2026-10-29T20:39:49Z",
    "watchlist": []
   },
   {
