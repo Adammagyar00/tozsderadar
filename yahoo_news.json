@@ -1,7 +1,123 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-29T22:43:08Z",
+ "updatedAt": "2026-10-29T23:39:08Z",
  "items": [
+  {
+   "title": "LIVE: MicroStrategy Q3 2026 earnings call",
+   "link": "https://www.thestreet.com/crypto/markets/live-microstrategy-q3-2026-earnings-call?.tsrc=rss",
+   "published": "2026-10-29T23:22:25Z",
+   "publisher": "",
+   "summary": "Michael Saylor’s MicroStrategy reports its earnings on Oct. 29.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "20 Years of S&P 500 History Show: This Simple Strategy Is Only 8.3% Less Than \"Perfect\"",
+   "link": "https://www.fool.com/investing/2026/10/29/20-years-of-sp-500-history-show-this-simple-strate/?.tsrc=rss",
+   "published": "2026-10-29T23:20:00Z",
+   "publisher": "",
+   "summary": "Instead of waiting for stocks to go down, just buying the S&P 500 as soon as possible can give you nearly perfect returns.",
+   "symbols": []
+  },
+  {
+   "title": "What Coinbase Global (COIN) Said on Its Q3 Earnings Call",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-coinbase-global-coin-said-on-its-q3-earnings-call-2026-10-29/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-10-29T23:14:32Z",
+   "publisher": "",
+   "summary": "Coinbase Global (NASDAQ:COIN) executives said the company’s efforts to diversify beyond spot cryptocurrency trading helped support revenue in the third quarter, as growth in prediction markets and derivatives offset lower crypto spot-market activity. During a live Q&A session following the comp",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Does Ormat Stock's Valuation Make Sense?",
+   "link": "https://www.trefis.com/stock/ora/articles/621239/does-ormat-stocks-valuation-make-sense/2026-10-29?.tsrc=rss",
+   "published": "2026-10-29T23:09:56Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Ripple’s RLUSD Grew 88% This Year While XRP Fell 29%. Is the Stablecoin Replacing XRP?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/29/ripples-rlusd-grew-88-this-year-while-xrp-fell-29-is-the-stablecoin-replacing-xrp/?.tsrc=rss",
+   "published": "2026-10-29T22:59:53Z",
+   "publisher": "",
+   "summary": "Ripple's stablecoin is landing on Coinbase, powering repo markets, and earning a Moody's credit rating while XRP sits at a one-year low. Whether RLUSD is complementing XRP or quietly crowding it out depends on details Ripple is not spelling out.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Binance Hacker Hunts for Exit Ramps as DeFi Exchanges Pause Markets",
+   "link": "https://decrypt.co/382194/binance-hack-exit-ramps-defi-exchange-ethereum?.tsrc=rss",
+   "published": "2026-10-29T22:57:48Z",
+   "publisher": "",
+   "summary": "Etherscan records show wallets tied to the suspected Binance hack swapping freezable stablecoins for Ethereum on decentralized exchanges.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Can Avis Budget Stock Fall 50%?",
+   "link": "https://www.trefis.com/stock/car/articles/621253/can-avis-budget-stock-fall-50/2026-10-29?.tsrc=rss",
+   "published": "2026-10-29T22:55:12Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "JPMorgan Is Bullish on Palantir, Predicts Over 30% Rally on Strong AI Demand",
+   "link": "https://stocktwits.com/news-articles/markets/equity/jp-morgan-is-bullish-on-palantir-predicts-over-30-rally-on-strong-ai-demand/cZUXbW6R9RW?.tsrc=rss",
+   "published": "2026-10-29T22:40:49Z",
+   "publisher": "",
+   "summary": "JPMorgan has initiated coverage on Palantir Technologies with an ‘overweight rating and a $262 price target.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "FTAI Aviation Ltd. Q3 2026 Earnings Call Summary",
+   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-ftai-aviation-ltd-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+   "published": "2026-10-29T22:28:16Z",
+   "publisher": "",
+   "summary": "Moby summary of FTAI Aviation Ltd.'s Q3 2026 earnings call",
+   "symbols": []
+  },
   {
    "title": "Monro, Inc. Q2 2027 Earnings Call Summary",
    "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-monro-inc-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
@@ -28,11 +144,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -50,14 +166,22 @@
    "publisher": "",
    "summary": "PepsiCo has lost nearly a third of its value since 2023, and a brand you grew up loving can quietly disguise just how much retirement risk is sitting in your 401(k) right now.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
+  },
+  {
+   "title": "Oil Climbs on Signs US May Resume Military Strikes Against Iran",
+   "link": "https://finance.yahoo.com/energy/articles/oil-climbs-signs-us-may-220217351.html",
+   "published": "2026-10-29T22:02:17Z",
+   "publisher": "",
+   "summary": "Oil rose on signs the US may resume military strikes against Iran, risking fresh turbulence in the region that may hurt energy flows.",
+   "symbols": []
   },
   {
    "title": "MicroStrategy Posts Record $21B Operating Income on Bitcoin Gain, but BTC-Per-Share Falls",
@@ -69,11 +193,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -102,11 +226,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -144,11 +268,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -161,11 +285,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -186,11 +310,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -388,12 +512,12 @@
    "publisher": "",
    "summary": "“Customer B” is spending more to rent SpaceX’s AI data centers than investors thought.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -407,11 +531,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -421,6 +545,22 @@
    "publisher": "",
    "summary": "Bloomberg announced the 2027 target weights and composition for the Bloomberg Commodity Index (\"BCOM\"). Launched in 1998, with historical information dating back to 1960, BCOM is a widely tracked benchmark for the commodities market. As of January 2027, BCOM will remain composed of 25 exchange traded contracts on physical commodities. The new target weights will take effect during the January 2027",
    "symbols": []
+  },
+  {
+   "title": "SpaceX Wins Target Lift On AI, Data Center Growth. But Is It A Buy?",
+   "link": "https://finance.yahoo.com/m/660c7337-ed05-359d-9a1b-ba3c35c58d47/spacex-wins-target-lift-on.html",
+   "published": "2026-10-29T20:59:20Z",
+   "publisher": "",
+   "summary": "Analysts continue to praise growth in SpaceX's AI, data center business. Morningstar lifts its price target on shares.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "He’ll Sell a Fund at a $30,000 Loss in His Brokerage Account and Buy It Back in His IRA a Week Later. The IRS Won’t Just Delay That Loss. It’ll Erase It for Good",
@@ -2962,138 +3102,6 @@
    "published": "2026-10-29T13:45:53Z",
    "publisher": "",
    "summary": "The letter, which was approved by President Donald Trump, suggests direct negotiations between the countries.",
-   "symbols": []
-  },
-  {
-   "title": "SPX Technologies (SPXC): Core HVAC and Detection Strengths Outshine AI Sentiment Volatility",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/spx-technologies-spxc-core-hvac-134539825.html",
-   "published": "2026-10-29T13:45:39Z",
-   "publisher": "",
-   "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. In 2026, Small Caps initially outperformed but faced challenges in the third quarter, marked by the Russell 2000 Growth Index’s -9.4% decline versus the S&P 500’s +2.3% rise. Factors such as rising Treasury yields and higher oil […]",
-   "symbols": []
-  },
-  {
-   "title": "Microsoft beat estimates while Google looks at a value hit, and rising risks at Nvidia",
-   "link": "https://finance.yahoo.com/video/microsoft-beat-estimates-while-google-looks-at-a-value-hit-and-rising-risks-at-nvidia-134306096.html",
-   "published": "2026-10-29T13:43:06Z",
-   "publisher": "",
-   "summary": "The 8:30 hosts Julie Hyman, Jake Conely, and Pras Subramanian tackle the top stories of the day. Including rounding up the earnings from Microsoft (MSFT) and Alphabet (GOOGL)(GOOG), the mounting risks at Nvidia (NVDA), and the new touchscreen laptop Apple (AAPL) just debuted.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Bitwise Raises Bitcoin Price Forecast To $1.6 Million By 2036",
-   "link": "https://www.cryptoprowl.com/releases/bitwise-raises-bitcoin-price-forecast-to-16-million-by-2036-7536?.tsrc=rss",
-   "published": "2026-10-29T13:43:00Z",
-   "publisher": "",
-   "summary": "Crypto asset manager Bitwise has raised its price target on Bitcoin (CRYPTO: $BTC) to $1.6 million U.S. by 2036.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "EV Content and Data Center Expansion Strengthen Allegro Microsystems’ (ALGM) Long-Term Thesis",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ev-content-data-center-expansion-134203454.html",
-   "published": "2026-10-29T13:42:03Z",
-   "publisher": "",
-   "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. In 2026, Small Caps initially outperformed but faced challenges in the third quarter, marked by the Russell 2000 Growth Index’s -9.4% decline versus the S&P 500’s +2.3% rise. Factors such as rising Treasury yields and higher oil […]",
-   "symbols": []
-  },
-  {
-   "title": "3 Reasons FOUR has explosive upside potential",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-four-explosive-upside-133903504.html",
-   "published": "2026-10-29T13:39:03Z",
-   "publisher": "",
-   "summary": "Over the past six months, Shift4’s stock price fell to $38.75. Shareholders have lost 14.1% of their capital, which is disappointing considering the S&P 500 has climbed by 8.2%. This was partly due to its softer quarterly results and might have investors contemplating their next move.",
-   "symbols": []
-  },
-  {
-   "title": "GDP, PCE, Jobless Claims and Q3 Earnings - Busy Morning!",
-   "link": "https://finance.yahoo.com/economy/articles/gdp-pce-jobless-claims-q3-133900428.html",
-   "published": "2026-10-29T13:39:00Z",
-   "publisher": "",
-   "summary": "Headline PCE Price Index month over month reached +0.5%, in-line with expectations. Year over year, this came in at +3.6%.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Rising Backlogs and Scale Support Cavco Industries’ (CVCO) Long-Term Growth Thesis",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/rising-backlogs-scale-support-cavco-133728601.html",
-   "published": "2026-10-29T13:37:28Z",
-   "publisher": "",
-   "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. In 2026, Small Caps initially outperformed but faced challenges in the third quarter, marked by the Russell 2000 Growth Index’s -9.4% decline versus the S&P 500’s +2.3% rise. Factors such as rising Treasury yields and higher oil […]",
-   "symbols": []
-  },
-  {
-   "title": "Eli Lilly, Merck Third-Quarter Results Top Street Views",
-   "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-merck-third-quarter-133556075.html",
-   "published": "2026-10-29T13:35:56Z",
-   "publisher": "",
-   "summary": "Eli Lilly (LLY) and Merck (MRK) reported third-quarter results above Wall Street's estimates on Thur",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bright Horizons Family Solutions (BFAM): Reallocating Capital Following Australian Performance Setbacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bright-horizons-family-solutions-bfam-133336666.html",
-   "published": "2026-10-29T13:33:36Z",
-   "publisher": "",
-   "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. In 2026, Small Caps initially outperformed but faced challenges in the third quarter, marked by the Russell 2000 Growth Index’s -9.4% decline versus the S&P 500’s +2.3% rise. Factors such as rising Treasury yields and higher oil […]",
-   "symbols": []
-  },
-  {
-   "title": "Tech stocks hit hard after Samsung, Fortinet, and ServiceNow miss earnings",
-   "link": "https://finance.yahoo.com/video/tech-stocks-hit-hard-samsung-133200577.html",
-   "published": "2026-10-29T13:32:00Z",
-   "publisher": "",
-   "summary": "The 8:30 hosts, Jake Conley, Julie Hyman, and Pras Subramanian, take a look at tech stocks taking a hit after companies like Samsung (SSNLF), Fortinet (FTNT), and ServiceNow (NOW) reported more disappointing earnings than expected.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "High-Tech Metals signs ore purchase deal with Forrestania",
-   "link": "https://www.mining-technology.com/news/high-tech-metals-ore-purchase-deal-forrestania/?.tsrc=rss",
-   "published": "2026-10-29T13:31:14Z",
-   "publisher": "",
-   "summary": "Forrestania can acquire up to 400,000t of ore in 24 months, with pricing linked to grade and gold price.",
    "symbols": []
   }
  ]
