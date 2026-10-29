@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-29T16:56:06Z",
+ "builtAt": "2026-10-29T18:57:06Z",
  "digests": [
   {
    "calendar": [
@@ -779,6 +779,129 @@
      "title": "A Boliden harmadik negyedéves működési eredménye 5,4 milliárd koronára nőtt, a várakozás fölé",
      "url": "https://www.investing.com/news/company-news/boliden-q3-2026-slides-record-profit-driven-by-strong-metal-prices-93CH-4984648",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "CoinTelegraph · Benzinga",
+     "summary": "Az NYSE tulajdonosa, az Intercontinental Exchange amerikai szabályozott örökös határidős (perp) piacot tervez a Trade[XYZ] Hyperliquid-alapú piacaira; az indításhoz szabályozói jóváhagyás kell. Stanley Druckenmiller befektetőként üdvözölte a lépést, Elon Musk egy szavas, „Interesting” megjegyzéssel továbbosztotta. A HYPE a források szerint nagyjából 13–20%-ot emelkedett a gyengélkedő kriptopiacon.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "A Hyperliquid (HYPE) árfolyama jelentősen szárnyal: az ICE amerikai szabályozott örökös határidős piacot indítana a Trade[XYZ] Hyperliquid-piacaira",
+     "url": "https://cointelegraph.com/markets/hype-price-all-time-high-ice-us-hyperliquid-perps",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A Decrypt szerint a Deribit bitcoin-opcióinak nagyjából harmada jár le pénteken, egy nappal azután, hogy a Fed változatlanul hagyta a kamatot, két tisztviselő pedig emelésre szavazott. A lejárat körül megnőhet az árfolyam-ingadozás.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Pénteken járnak le a Deribit bitcoin-opciós pozíciói: mintegy 11 milliárd dollár, a Fed-szünet után",
+     "url": "https://decrypt.co/382171/11-billion-bitcoin-options-expire-tomorrow-what-means?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A Glassnode adatai szerint a bitcoin árfolyama közel jár az amerikai azonnali ETF-ek birtokosainak átlagos vételi árához. A 85 ezer dollár felett vásárolt, mintegy 4 millió BTC ellenállást jelenthet a visszapattanásnak.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Glassnode: 4 millió bitcoin gazdát cserélt 85 ezer dollár felett, ez korlátozhatja a felépülést",
+     "url": "https://decrypt.co/382161/4m-bitcoin-bought-above-85k-could-cap-recovery-glassnode?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Bank of America továbbra is vételt javasol a Micronra 1550 dolláros célárral, ami az idézett cikk szerint jóval a jelenlegi, 877,55 dolláros árfolyam felett van. A bank elemzése szerint a Micron a memóriaszektor legjobb választása.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "A Bank of America a memóriachip-szektor első számú ajánlásának nevezte a Micront, célár 1550 dollár",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-names-top-stock-172808901.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Crocs közleménye szerint a 2026-os kilátásokat bevétel és eredmény oldalon is felemelte (a harmadik emelés az évben), a vállalati bevételnövekedést mostantól kb. 3%-ra várja. A HEYDUDE bevétele 6%-kal, a Crocs-márkáé 4%-kal nőtt; a cég a negyedévben mintegy 250 millió dollárnyi saját részvényt vásárolt vissza.",
+     "symbols": [
+      "CROX"
+     ],
+     "title": "A Crocs emelte éves előrejelzését, a HEYDUDE-márka visszatért a növekedéshez, a részvény ugrik",
+     "url": "https://www.investing.com/news/stock-market-news/crocs-shares-surge-on-raised-forecast-as-heydude-turnaround-gains-traction-4984820",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A cég közleménye szerint a nettó bevétel kb. 9,8 milliárd dollár volt, 14%-kal több az előző évinél, a korrigált egy részvényre jutó eredmény 5,31 dollár. Az elemzői várakozás nagyjából 9,65 milliárd dollár bevétel és 5,15–5,16 dollár EPS volt, így a jelentés meghaladta azt; a fogyasztói kiadások kitartása támogatta az eredményt.",
+     "symbols": [
+      "MA"
+     ],
+     "title": "A Mastercard negyedéves jelentése erős: bevétel kb. 9,8 milliárd dollár (+14%), korrigált EPS 5,31 dollár",
+     "url": "https://www.investing.com/news/economy-news/mastercard-caps-strong-quarter-for-card-giants-as-consumer-spending-holds-up-4984830",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az Investing.com szerint a jegybank csütörtökön 50 bázisponttal emelte a kamatot 16,5%-ra, hogy lehorgonyozza a romló inflációs várakozásokat. Az indok a háborús logisztikai zavarok és a magasabb energiaárak okozta árnyomás. A megelőző, szeptember 18-tól érvényes ráta 16,0% volt.",
+     "symbols": [],
+     "title": "Az Ukrán Nemzeti Bank 50 bázisponttal 16,5%-ra emelte az irányadó kamatot a háborús inflációs kockázatok miatt",
+     "url": "https://finance.yahoo.com/economy/policy/articles/national-bank-ukraine-lifts-key-164330816.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a General Motors 220 millió dollárt fizet annak a vádnak a lezárására, hogy megsértette a fogyasztók adatvédelmi jogait. A korábbi, a vezetési adatok eladásával kapcsolatos FTC-határozat és egy kaliforniai megegyezés (12,75 millió dollár) is ismert; a 220 millió dolláros egyezséget külön forrás nem erősítette meg.",
+     "symbols": [
+      "GM"
+     ],
+     "title": "A GM 220 millió dollárt fizet a fogyasztói adatvédelmi vádak rendezésére",
+     "url": "https://www.investing.com/news/stock-market-news/gm-to-pay-220-million-to-settle-allegations-it-violated-consumers-privacy-4984760",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Perrigo 8-K-bejelentése szerint az ár 40 millió dollár készpénz a zárásnál és legfeljebb 135 millió dollár teljesítményfüggő kifizetés 2030-ig. Az üzletág az utolsó négy negyedévben 380 millió dollár árbevételt hozott, a cég 2026 negyedik negyedévétől megszűnő tevékenységként mutatja ki.",
+     "symbols": [
+      "PRGO"
+     ],
+     "title": "A Perrigo eladja csecsemőtápszer-üzletágát a MeridianMade-nek, legfeljebb 175 millió dollárért",
+     "url": "https://www.investing.com/news/stock-market-news/perrigo-to-sell-infant-formula-business-to-meridianmade-for-up-to-175-million-4984765",
+     "verified": true
     }
    ],
    "markets": [
@@ -805,7 +928,7 @@
     }
    ],
    "summary": "A Fed szerdán 10–2 arányban változatlanul, 3,75–4,00%-on hagyta a kamatot; Warsh szerint 2027-től nyolc helyett hét kamatdöntő ülés lesz. Az Alphabet gyengébb eredménye az ázsiai tőzsdéket és a Wall Street határidős jegyeit is lefelé húzta, az arany csökken, a bitcoin 80 ezer dollár alá csúszott. A Samsung rekordnyereséget közölt, a Bloomberg szerint a Marvell a Lumentum megvételéről tárgyal. Ma az EKB kamatdöntése, az amerikai GDP- és PCE-adat, valamint a Lilly, az Amazon és az Intel gyorsjelentése várható; Magyarországon a pénzügyminiszter középtávú tervet vázolt fel.",
-   "updatedAt": "2026-10-29T16:45:00Z",
+   "updatedAt": "2026-10-29T18:40:00Z",
    "watchlist": []
   },
   {
