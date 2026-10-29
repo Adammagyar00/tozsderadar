@@ -3115,7 +3115,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   // budapesti idő. Eddig háromóránként (:57, feltöltés +25 perc); 2026-10-29-től kétóránként, egész órára kész (5:30 … 21:30, feltöltés +20 perc)
   const RUNS_OLD = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
   const RUNS_NEW = [[5, 30], [7, 30], [9, 30], [11, 30], [13, 30], [15, 30], [17, 30], [19, 30], [21, 30]];
-  const RUNS_V3 = [[7, 30], [9, 30], [11, 30], [13, 30], [15, 30], [17, 30], [19, 30], [21, 30]]; // 2026-10-30-tól: első frissítés 8:00-ra
+  const RUNS_V3 = Array.from({ length: 15 }, (_, i) => [7 + i, 30]); // 2026-10-30-tól óránként: 7:30 … 21:30 (8:00 … 22:00-ra kint)
   const bud = (d) => { const p = Object.fromEntries(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Budapest", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(d).map((x) => [x.type, x.value])); return { y: +p.year, m: +p.month, d: +p.day, h: +p.hour, mi: +p.minute }; };
   function staleOf(data, now = Date.now()) {
     const b = bud(new Date(now));

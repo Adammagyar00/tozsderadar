@@ -439,8 +439,8 @@ async function weekQuotes(tickers) {
 // 2026-10-29-től kétóránként, egész órára kész: frissítés 5:30, 7:30 … 21:30, feltöltés 20 perccel utána.
 const RUNS_OLD = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
 const RUNS_NEW = [[5, 30], [7, 30], [9, 30], [11, 30], [13, 30], [15, 30], [17, 30], [19, 30], [21, 30]];
-// 2026-10-30-tól a reggeli fő frissítés 7:30-kor indul (8:00-ra kint van), utána 9:30 … 21:30
-const RUNS_V3 = [[7, 30], [9, 30], [11, 30], [13, 30], [15, 30], [17, 30], [19, 30], [21, 30]];
+// 2026-10-30-tól óránként: a reggeli fő frissítés 7:30-kor (8:00-ra kint), utána 8:30 … 21:30
+const RUNS_V3 = Array.from({ length: 15 }, (_, i) => [7 + i, 30]);
 const runsOn = (date) => date >= "2026-10-30" ? RUNS_V3 : date >= "2026-10-29" ? RUNS_NEW : RUNS_OLD;
 function budapestOffsetMs(now) {
   const b = budapest(new Date(now));
