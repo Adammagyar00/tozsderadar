@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-29T06:56:05Z",
+ "builtAt": "2026-10-29T08:56:02Z",
  "digests": [
   {
    "calendar": [
@@ -453,6 +453,86 @@
      "title": "A Microsoft felülmúlta a várakozásokat: az Azure 48%-kal nőtt, a részvény 3–4%-ot erősödött tőzsdezárás után",
      "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T08:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Shell harmadik negyedéves kiigazított eredménye 10,81 milliárd dollár lett, a 2022 óta legjobb negyedéves érték, és meghaladta az elemzői várakozást. A rekordmagas finomítói árrések mellett a cég a visszavásárlást 3-ról 5 milliárd dollárra emelte.",
+     "symbols": [
+      "SHEL"
+     ],
+     "title": "A Shell vártnál nagyobb, 10,8 milliárd dolláros negyedéves profitot ért el, és 5 milliárd dolláros részvény-visszavásárlást indít",
+     "url": "https://www.investing.com/news/stock-market-news/shell-beats-expectations-with-108-billion-profit-hikes-buybacks",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T08:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A francia olajcég harmadik negyedéves kiigazított nettó eredménye az előző negyedévhez képest 51%-kal emelkedett, és meghaladta a mintegy 8,3 milliárd dolláros elemzői átlagot. Negyedévente 2,5 milliárd dolláros visszavásárlást tervez.",
+     "symbols": [
+      "TTE"
+     ],
+     "title": "A TotalEnergies kiigazított negyedéves nyeresége 51%-kal, 9,1 milliárd dollárra nőtt a finomítói árrések és a gázárak miatt",
+     "url": "https://www.investing.com/news/earnings/totalenergies-q3-adjusted-net-income-jumps-51-on-refining-margins-gas-prices",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T08:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Lloyds adózás előtti eredménye mintegy 2,33 milliárd font volt, a tavalyi alacsony bázist a motorfinanszírozási céltartalék nyomta. A költségvetés a banki adópótlékot 3%-ról 6%-ra emeli 15 hónapra; a bank tartja éves céljait.",
+     "symbols": [],
+     "title": "A Lloyds harmadik negyedéves adózás előtti nyeresége a duplájára, 2,3 milliárd fontra nőtt, miközben a brit bankokra magasabb adó vár",
+     "url": "https://www.investing.com/news/stock-market-news/lloyds-reports-thirdquarter-profit-rise-as-britains-banks-face-higher-taxes",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T08:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Haleon mostantól mintegy 2,5%-os organikus bevételnövekedést vár a korábbi 3–5% helyett; a harmadik negyedéves organikus növekedés 2,6% volt. A 500 millió font további részvény-visszavásárlásra szolgál. A kilátást egyelőre főleg az Investing.com cikke közli.",
+     "symbols": [],
+     "title": "A Haleon mérsékelte 2026-os növekedési kilátását a gyengébb megfázás- és influenzaszezon miatt, 500 millió font visszavásárlást jelentett be",
+     "url": "https://www.investing.com/news/earnings/haleon-trims-2026-growth-outlook-as-weaker-cold-and-flu-demand-prompts-500-mln-4981655",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T08:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits (Tim Farrar szakértői jegyzete)",
+     "summary": "Tim Farrar műholdas szakértő szerint az Amazon hamarosan felvásárolhatja a Viasatot, és az AST megkísérelt ellenajánlatot összeállítani, ez utóbbit másodkézből hallotta. Bejelentett üzlet nincs; a SpaceX az EchoStar maradék üzletének megvételét akár a jövő héten bejelentheti.",
+     "symbols": [
+      "AMZN",
+      "ASTS",
+      "VSAT",
+      "SPCX"
+     ],
+     "title": "Értesülések szerint az Amazon megvehetné a Viasatot, az AST SpaceMobile pedig ellenajánlaton dolgozik",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-could-buy-viasat-ast-071520080.html",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-10-29T08:40:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Economx · Pénzcentrum",
+     "summary": "Reggel 7 órai jegyzések szerint az euró 367,02, a dollár 329,53, a svájci frank 397,50 forintba került. A forint a dollárral szemben 1,7%-kal, a frankkal szemben 2,6%-kal gyengébb a hónap eleji szintnél.",
+     "symbols": [],
+     "title": "A forint csütörtök reggel gyengébben állt az októberi kezdésnél: az euró 367 forint körül, a dollár 329,5 forint körül mozgott",
+     "url": "https://www.economx.hu/tozsde/2026/10/29/forint-arfolyam-dollar-euro-svajci-frank-devizakereskedelem/",
+     "verified": true
     }
    ],
    "markets": [
@@ -479,7 +559,7 @@
     }
    ],
    "summary": "A Fed szerdán 10–2 arányban változatlanul, 3,75–4,00%-on hagyta a kamatot; Warsh szerint 2027-től nyolc helyett hét kamatdöntő ülés lesz. Az Alphabet gyengébb eredménye az ázsiai tőzsdéket és a Wall Street határidős jegyeit is lefelé húzta, az arany csökken, a bitcoin 80 ezer dollár alá csúszott. A Samsung rekordnyereséget közölt, a Bloomberg szerint a Marvell a Lumentum megvételéről tárgyal. Ma az EKB kamatdöntése, az amerikai GDP- és PCE-adat, valamint a Lilly, az Amazon és az Intel gyorsjelentése várható; Magyarországon a pénzügyminiszter középtávú tervet vázolt fel.",
-   "updatedAt": "2026-10-29T06:50:00Z",
+   "updatedAt": "2026-10-29T08:40:00Z",
    "watchlist": []
   },
   {
