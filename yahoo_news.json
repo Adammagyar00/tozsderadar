@@ -1,7 +1,47 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-29T04:47:56Z",
+ "updatedAt": "2026-10-29T05:44:51Z",
  "items": [
+  {
+   "title": "Petrochina shares rise as Q3 profit surges on strong oil prices",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/petrochina-shares-rise-q3-profit-052644553.html",
+   "published": "2026-10-29T05:26:44Z",
+   "publisher": "",
+   "summary": "Investing.com-- PetroChina’s Hong Kong-listed shares rose on Thursday after the company reported a sharp rise in third-quarter profit, as elevated oil and gas prices tied to the ongoing Middle East conflict boosted earnings well ahead of expectations.",
+   "symbols": []
+  },
+  {
+   "title": "ExxonMobil (XOM) Q3 earnings: what to expect",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-xom-q3-earnings-expect-051834754.html",
+   "published": "2026-10-29T05:18:34Z",
+   "publisher": "",
+   "summary": "Integrated energy company ExxonMobil (NYSE:XOM) will be reporting results this Friday before market open. Here’s what you need to know.",
+   "symbols": []
+  },
+  {
+   "title": "Compass (COMP) Stock Sees Modest Fair Value Cut As Analysts Weigh Mixed Housing Signals",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/compass-comp-stock-sees-modest-051459184.html",
+   "published": "2026-10-29T05:14:59Z",
+   "publisher": "",
+   "summary": "The fair value estimate for Compass has moved from about US$14.92 to about US$14.23. This gives you an updated reference point for current price targets. This adjustment sits alongside mixed analyst commentary, with some research pointing to improving execution and synergy expectations and others focusing on macro headwinds and a tougher near term setup. As you read on, you will see how this evolv",
+   "symbols": []
+  },
+  {
+   "title": "Asian shares and U.S. futures are mixed after Google parent Alphabet's earnings disappoint",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-u-futures-mixed-050355681.html",
+   "published": "2026-10-29T05:03:55Z",
+   "publisher": "",
+   "summary": "HONG KONG (AP) — Asian shares and U. futures were mixed Thursday, weighed down by some big technology stocks after Google parent Alphabet’s earnings were lower than expected.",
+   "symbols": []
+  },
+  {
+   "title": "Chevron (CVX) to report earnings tomorrow: here is what to expect",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-report-earnings-tomorrow-044634946.html",
+   "published": "2026-10-29T04:46:34Z",
+   "publisher": "",
+   "summary": "Integrated energy company Chevron (NYSE:CVX) will be reporting earnings this Friday before the bell. Here’s what to expect.",
+   "symbols": []
+  },
   {
    "title": "Broadcom And 2 More Quality Value Stocks To Watch",
    "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-2-more-quality-value-043350945.html",
@@ -12,11 +52,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -1384,12 +1424,12 @@
    "publisher": "",
    "summary": "Neocloud, AI stocks are rebounding amid some renewed AI optimism even after SpaceX CEO Elon Musk predicts major wipeouts for the sector.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3049,80 +3089,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Robinhood sinks 8% following earnings, but Wall Street is missing something",
-   "link": "https://finance.yahoo.com/video/robinhood-sinks-8-following-earnings-but-wall-street-is-missing-something-160046990.html",
-   "published": "2026-10-28T16:00:46Z",
-   "publisher": "",
-   "summary": "Scott Melker breaks down Robinhood's (HOOD) third-quarter earnings after the trading platform missed profit expectations, sending shares down 8%. Despite the sell-off, Melker highlights a key detail investors may be overlooking: Robinhood's crypto revenue continued to climb even as the broader crypto market struggled. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SpaceX Could Keep Starship Cost Savings Instead of Cutting Launch Prices, Varda Executive Says",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/10/62663410/spacex-starship-prices?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-   "published": "2026-10-28T16:00:23Z",
-   "publisher": "",
-   "summary": "Elon Musk‘s SpaceX (NASDAQ:SPCX) could slash the cost of reaching orbit with Starship without giving customers much of a discount, a senior executive at one of its launch customers told Benzinga. Michael Reilly, chief strategy officer of Varda Space Industries,...",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Robinhood misses on Q3 earnings, plus IBM, Intel, and Oracle object to tokenized plans",
-   "link": "https://finance.yahoo.com/video/robinhood-misses-on-q3-earnings-plus-ibm-intel-and-oracle-object-to-tokenized-plans-164530342.html",
-   "published": "2026-10-28T15:59:00Z",
-   "publisher": "",
-   "summary": "Scott Melker breaks down Robinhood's (HOOD) earnings miss, the objections of companies like IBM (IBM), Oracle (ORCL), and Intel (INTC) to tokenized stock plans, and recent comments by Scott Bessent on the GENIUS Act. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Elon Musk’s SpaceXAI Is Reportedly Seeking To Buy 418 Mississippi Homes Near Its Power Plant. There’s One Catch For Sellers.",
-   "link": "https://247wallst.com/personal-finance/2026/10/28/elon-musks-spacexai-is-reportedly-seeking-to-buy-418-mississippi-homes-near-its-power-plant-theres-one-catch-for-sellers/?.tsrc=rss",
-   "published": "2026-10-28T15:58:08Z",
-   "publisher": "",
-   "summary": "SpaceXAI is offering to buy nearly 420 homes near its noisy Mississippi power plant, but sellers who accept quietly sign away something the offer never puts a price on.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Canada hikes rates to contain oil price surge caused by Iran war",
-   "link": "https://finance.yahoo.com/economy/policy/articles/canada-hikes-rates-contain-oil-155512453.html",
-   "published": "2026-10-28T15:55:12Z",
-   "publisher": "",
-   "summary": "Canada's central bank raised its key interest rate to 2.5 percent Wednesday, as it tries to prevent an oil price surge caused by the Iran war from sparking broader inflation.The quarter-point hike was the Bank of Canada's first interest rate increase since July 2023, when it was trying to get control of widespread inflation caused by the Covid-19 pandemic.",
-   "symbols": []
   }
  ]
 }
