@@ -1,6 +1,425 @@
 {
- "builtAt": "2026-10-28T23:22:39Z",
+ "builtAt": "2026-10-29T04:55:49Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "okt. 29.",
+     "event": "EKB kamatdöntés 14:15; amerikai GDP és PCE 13:30; Eli Lilly (LLY), Amazon és Intel gyorsjelentés"
+    },
+    {
+     "date": "okt. 30.",
+     "event": "Bank of Japan kamatdöntés; eurózóna GDP gyorsbecslés"
+    },
+    {
+     "date": "nov. 3.",
+     "event": "Amerikai félidős választások"
+    },
+    {
+     "date": "nov. 5.",
+     "event": "Bank of England kamatdöntés"
+    },
+    {
+     "date": "nov. 6.",
+     "event": "Amerikai munkaerőpiaci jelentés"
+    }
+   ],
+   "date": "2026-10-29",
+   "generatedAt": "2026-10-29T04:50:00Z",
+   "headline": "Fed-szünet után az Alphabet-csalódás húzza le a határidőseket; a Marvell a Lumentumot venné meg, ma EKB-döntés és nagy gyorsjelentések",
+   "items": [
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Bloomberg (nem megerősített értesülés)",
+     "summary": "A Bloomberg névtelen forrásokra hivatkozva azt írta, hogy a Marvell előrehaladott tárgyalásokat folytat az optikai alkatrészeket gyártó Lumentum felvásárlásáról. Egyik cég sem erősítette meg a hírt, végleges megállapodásról vagy árról nincs adat. A Lumentum részvénye tőzsdezárás után mintegy 9–11%-ot emelkedett, a Marvell több mint 7–8%-ot esett.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "Értesülés: a Marvell előrehaladott tárgyalásokban van a Lumentum megvételéről",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-nears-deal-optical-supplier-222616085.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk · Yahoo Finance",
+     "summary": "A CoinDesk szerint a bitcoin ismét 80 ezer dollár alá, mintegy 79 750 dollárra esett (-1,5%), a technológiai részvények ingadozása és a Fed-döntés nyomán. A BeInCrypto és a 247WallSt is 80 ezer dollár alatti árról ír. A szint körül napok óta ingadozik az árfolyam.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin 80 ezer dollár alá csúszott a Samsung-jelentés és a héja Fed után",
+     "url": "https://www.coindesk.com/",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt (Galaxy Research)",
+     "summary": "A Galaxy Research szerint kilenc fedezeti alap és bank 68 000 bitcoinnyi spot ETF-kitettséget csökkentett, mert a cash-and-carry ügylet kifulladt. Közben vagyonkezelő platformok és szuverén alapok vásároltak.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Fedezeti alapok és bankok 68 ezer BTC-nyi ETF-kitettséget adtak le, szuverén alapok vásároltak",
+     "url": "https://decrypt.co/382059/wall-street-fast-money-fled-bitcoin-etfs-sovereign-funds?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A 247WallSt cikke szerint az RLUSD befektetési fokozatú Moody's-minősítést kapott, és felkerült a Coinbase-re. Az XRP-tulajdonosok azonban egyelőre nem érzik a hatást, a cikk szerint az RLUSD hitelessége az XRP árfolyamát csak egy hiányzó elem mellett emelheti.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "A 247WallSt szerint a Ripple RLUSD stabilcoinja Moody's A2 minősítést kapott és elérhető a Coinbase-en",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/10/28/ripples-rlusd-has-a-moodys-a2-rating-and-is-live-on-coinbase-does-a-stronger-stablecoin-help-xrp/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Stocktwits szerint a T-Mobile vezérigazgatója újra elzárkózott a SpaceX-szel kötendő mobilhálózati üzlettől, de a műholdas viszonteladásra (T-Satellite) nyitott marad. A SpaceX-részvény éjszaka kissé gyengült.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX-részvény esik: a T-Mobile vezére ismét elutasította a mobilhálózati megállapodást",
+     "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-t-mobile-ceo-again-rejects-spacex-mobile-network-deal/cZUQE8WR9GD?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto · Investing.com (Reuters)",
+     "summary": "A Fed 3,75–4,00%-on tartotta a kamatot. Warsh bejelentette, hogy a kamatdöntő ülések száma 2027-ben nyolcról hétre csökken, a Reuters szerint pedig a bizottság a mérleggel kapcsolatos kérdéseket a jövő év elején veszi napirendre.",
+     "title": "Warsh: 2027-től nyolc helyett hét kamatdöntő ülés lesz, a mérlegről jövő év elején tárgyal a Fed",
+     "url": "https://beincrypto.com/fed-rate-setting-calendar-warsh-2027/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az EKB csütörtökön várhatóan nem változtat a kamaton (betéti ráta jelenleg 2,50%). A piac fókuszában a francia államkötvények és Christine Lagarde jövőbeli szerepe áll.",
+     "title": "EKB: a várakozások szerint változatlan kamat, a befektetők a francia kötvényekre és Lagarde jövőjére figyelnek",
+     "url": "https://www.investing.com/news/economy-news/ecb-to-hold-rates-as-investors-focus-on-french-bondslagardes-future-4981183",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a Reserve Bank of New Zealand kormányzója magasnak nevezte a decemberi kamatemelés esélyét.",
+     "title": "Az új-zélandi jegybank elnöke szerint nagy az esély a decemberi kamatemelésre",
+     "url": "https://www.investing.com/news/economy-news/new-zealand-central-bank-governor-says-chances-of-december-hike-are-high-4981263",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Hong Kong Monetary Authority a Fed döntését követve nem módosította az alapkamatot (Reuters).",
+     "title": "A hongkongi jegybank változatlanul hagyta a kamatot, követve a Fedet",
+     "url": "https://www.investing.com/news/economy-news/hong-kong-monetary-authority-leaves-interest-rates-unchanged-tracking-fed-move-4981417",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az ázsiai részvénypiacok csökkentek, miután az Alphabet csalódást keltő eredménye lefelé húzta a New York-i határidős indexeket.",
+     "title": "Az ázsiai tőzsdék esnek, az Alphabet gyenge eredménye a Wall Street határidős jegyeit is lehúzta",
+     "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower-4981378",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az olasz kormány jóváhagyta a 2027-es költségvetést, amely magasabb adókat vet ki a bankokra és az energiaszektor cégeire.",
+     "title": "Olaszország elfogadta a 2027-es költségvetést: adóemelés a bankokra és az energiacégekre",
+     "url": "https://www.investing.com/news/commodities-news/italy-approves-2027-budget-with-tax-hikes-on-banks-and-energy-firms-4980520",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters által ismertetett felmérés szerint a német fogyasztói hangulat az inflációs aggodalmak miatt tovább gyengült.",
+     "title": "Romlott a német fogyasztói bizalom az inflációs félelmek miatt",
+     "url": "https://www.investing.com/news/economic-indicators/german-consumer-sentiment-slips-on-inflation-fears-survey-shows-4977593",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az USA áruforgalmi hiánya váratlanul nőtt, mert az AI-hoz kapcsolódó kereslet rekordmagasságba lökte az importot.",
+     "title": "Rekordra nőtt az amerikai áruimport, szélesedett a kereskedelmi hiány",
+     "url": "https://www.investing.com/news/economic-indicators/us-goods-trade-deficit-unexpectedly-widens-in-september-4979180",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a lengyel zloty a legalacsonyabb árfolyamára esett 2023 novembere óta. A régiós valuták gyengülése a forintra is hatással lehet.",
+     "title": "A lengyel zloty 2023 novembere óta a leggyengébb szinten",
+     "url": "https://www.investing.com/news/forex-news/polish-zloty-falls-to-weakest-level-since-november-2023-93CH-4978728",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az Investing.com szerint az arany ára szerdán csökkent, mert a Fed bár változatlanul hagyta a kamatot, nem adott egyértelmű jelzést a következő lépésről. A piac a friss inflációs adatot várja.",
+     "title": "Az arany esik a Fed-döntés után, a PCE-adatra várnak a befektetők",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-fed-holds-rates-015115459.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters egy iráni tisztviselőre hivatkozva azt írta, hogy Teherán csak elfogadhatatlan ötleteket lát a háború lezárására tett legújabb közvetítésben. Az olaj eközben az iráni diplomácia és a megújuló támadási kockázatok között ingadozik.",
+     "title": "Irán szerint az újabb közvetítői javaslatokban csak elfogadhatatlan elemek vannak",
+     "url": "https://www.investing.com/news/commodities-news/iran-sees-only-unacceptable-ideas-in-latest-mediation-to-end-war-official-says-4979005",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Világbank a közel-keleti háború és más sokkok miatt a nyersanyagárak 23%-os idei emelkedésére számít.",
+     "title": "A Világbank szerint 2026-ban 23%-kal emelkednek a nyersanyagárak a közel-keleti háború miatt",
+     "url": "https://www.investing.com/news/economic-indicators/world-bank-sees-commodity-prices-up-23-in-2026-due-to-middle-east-war-other-shocks-4979537",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Petrobras 3,512 millió hordónyi olajegyenértékű napi termelést jelentett, ami 11,7%-kal több az egy évvel korábbinál. A növekedést a brazil sósziklaalatti (pre-salt) mezők bővülése hajtotta.",
+     "title": "Rekordot döntött a Petrobras olaj- és gáztermelése a harmadik negyedévben",
+     "url": "https://finance.yahoo.com/energy/articles/petrobras-oil-gas-output-jumps-010500840.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Phillips 66 a finomítási marzsok erősödésének köszönhetően rekord negyedéves nyereséget közölt.",
+     "title": "Rekordnegyedéves profitot ért el a Phillips 66 a finomítói üzletágban",
+     "url": "https://www.investing.com/news/stock-market-news/phillips-66-posts-record-quarterly-profit-on-refining-strength-4980528",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Samsung Electronics előzetes adatai szerint a harmadik negyedéves működési eredmény rekordnak számító 107,4 billió won, ami az első 100 billió won feletti negyedév egy dél-koreai cégnél. A növekedést a memóriachipek, köztük a HBM iránti kereslet hajtja. A piac a becslések egy részét ennél magasabbra várta.",
+     "symbols": [],
+     "title": "Rekordnyereséget jelentett a Samsung a harmadik negyedévben az AI-chipboom miatt",
+     "url": "https://www.investing.com/news/stock-market-news/samsung-posts-record-profit-in-q3-on-ai-chip-boom-4981289",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (értesülés)",
+     "summary": "A Reuters névtelen forrásokra hivatkozva azt közölte, hogy az amerikai igazságügyi minisztérium versenyjogi szempontból érdeklődik az Nvidia 12,9 milliárd dolláros Hugging Face-felvásárlása iránt. Hivatalos megerősítést nem találtunk, a minisztérium és az Nvidia álláspontja nem ismert.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Értesülések szerint a DOJ vizsgálja az Nvidia 12,9 milliárd dolláros Hugging Face-vásárlását",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-faces-doj-antitrust-scrutiny-over-129b-hugging-face-deal-reuters-says-4980539",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (értesülés)",
+     "summary": "A Reuters exkluzív értesülése szerint az amerikai kereskedelmi hatóság (FTC) a személyre szabott árazásról kér adatokat több nagy cégtől, köztük a Walmarttól, az Ubertől és a Deltától. Az FTC augusztusban tett javaslatot a személyre szabott árazás átláthatóságára.",
+     "symbols": [
+      "WMT",
+      "UBER",
+      "DAL"
+     ],
+     "title": "Értesülések szerint az FTC adatokat kér a Walmarttól, az Ubertől és a Deltától a személyre szabott árazásról",
+     "url": "https://www.investing.com/news/stock-market-news/exclusiveus-ftc-demands-walmart-uber-delta-and-others-hand-over-data-on-personalized-pricing-4980434",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az amerikai hatóságok a xinjiangi kényszermunkához fűződő kapcsolatokra hivatkozva megtiltották három kínai genomikai cég termékeinek behozatalát, köztük a BGI Genomics és az MGI Tech árut.",
+     "title": "Az USA betiltotta a BGI Genomics és az MGI Tech importját a xinjiangi kényszermunka miatt",
+     "url": "https://www.investing.com/news/stock-market-news/us-bans-imports-from-three-chinese-genomics-companies-citing-forced-labor-4979357",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · The Information (értesülés)",
+     "summary": "A Reuters a The Information értesülésére hivatkozva azt írja, hogy a két kínai AI-cég az OpenAI Astra modelljét használta saját modelljei tanításához. Az OpenAI és az érintett cégek reakciója a cikkből nem derül ki.",
+     "title": "The Information: a DeepSeek és a Moonshot az OpenAI GPT-6 Astra modelljét használta a legújabb modelljei tanítására",
+     "url": "https://www.investing.com/news/stock-market-news/deepseek-moonshot-used-openaisgpt6-astra-to-train-latest-models-the-information-reports-4981380",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint Utah állam bűnvádat emelt a Kalshi előrejelzési piac ellen, mert szerinte az illegális szerencsejátékot népszerűsít.",
+     "title": "Utah büntetőeljárást indított a Kalshi ellen illegális szerencsejáték népszerűsítése miatt",
+     "url": "https://www.investing.com/news/stock-market-news/utah-criminally-charges-kalshi-with-promoting-illegal-gambling-4981217",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Yahoo Finance",
+     "summary": "A Reuters szerint a FedEx negyedéves nyeresége meghaladta a várakozást, a működési marzsok azonban csökkentek, ezért a részvény gyengült. A Yahoo-hírfolyam szerint a negyedéves EPS 3,74 dollár volt a várt 3,34 ellenében, a kilátások pedig lehúzták az árfolyamot.",
+     "title": "A FedEx vártnál nagyobb negyedéves profitot jelentett, de a marzsok romlottak és a részvény esik",
+     "url": "https://www.investing.com/news/stock-market-news/fedex-forecasts-annual-profit-above-estimates-posts-higher-quarterly-earnings-on-better-pricing-volumes-4980618",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Honeywell repülőgépipari üzletága a vártnál jobb negyedéves eredményt közölt, és feljebb vitte a második féléves szabad pénzáramlási előrejelzését.",
+     "title": "A Honeywell Aerospace emelte a második féléves cash flow-kilátását és a várakozás fölött teljesített",
+     "url": "https://www.investing.com/news/stock-market-news/honeywell-aerospace-lifts-2026-secondhalf-free-cash-forecast-declares-dividend-4980623",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Ford alapnyeresége (core profit) a harmadik negyedévben enyhén emelkedett, annak ellenére, hogy a nyersanyagok drágultak.",
+     "title": "A Ford harmadik negyedéves alaperedménye kissé nőtt, a nyersanyagköltségek emelkedése ellenére",
+     "url": "https://www.investing.com/news/stock-market-news/fords-thirdquarter-core-profit-ticks-higher-despite-rising-commodity-costs-4980617",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az Airbus fenntartotta éves célkitűzéseit, és az év végi szállításnövekedéstől várja a teljesítést. Az Investing.com szerint az első kilenc hónapban a rendelések 115%-kal nőttek.",
+     "title": "Az Airbus tartja éves célját, az év végi szállítási hullámra számít",
+     "url": "https://www.investing.com/news/stock-market-news/airbus-holds-annual-targets-bets-on-yearend-delivery-surge-4980299",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Chipotle negyedéves bevétele meghaladta az elemzői várakozást, a vendégforgalom továbbra is erős.",
+     "title": "A Chipotle a várakozásnál nagyobb negyedéves forgalmat ért el",
+     "url": "https://www.investing.com/news/stock-market-news/chipotle-beats-quarterly-sales-expectations-on-resilient-demand-4980716",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az Apple első érintőképernyős laptopjait mutatta be egy termékbemutató-sorozat részeként; a gépek ára magas.",
+     "title": "Az Apple először mutatott be érintőképernyős laptopokat",
+     "url": "https://www.investing.com/news/stock-market-news/apple-expected-to-show-first-touchscreen-laptops-amid-product-blitz-4978532",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo-hírfolyamban megjelent elemzés szerint a Ripple hétfőn szövetségi chartert szerzett, kedden a BNY-vel és a Robinhooddal, szerdán a Coinbase-szel jelentett be együttműködést, mindez a New York-i Swell konferenciához időzítve. A cikk 900 millió dolláros éves bevételi ütemet is említ.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "A Ripple szövetségi charterhez jutott, újabb partnerségeket jelentett be (BNY, Robinhood, Coinbase)",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/charter-hand-ripple-built-week-001304281.html",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Pénzcentrum",
+     "summary": "A pénzügyminiszter által felvázolt kormányzati terv szerint az infláció az idei 1,7%-ról jövőre 3%-ra emelkedhet, a költségvetési hiányt 2030-ra 3% alá szorítanák az euró bevezetésének támogatására. A Pénzcentrum is beszámolt a tervről, amely kiadáscsökkentést is tartalmaz. A wiiw előrejelzése szerint idén a hiány 7,6% lehet a GDP-hez képest, a kormány 7,5%-os célja fölött.",
+     "title": "Kármán András: 2030-ig 3% alá szorítanák a hiányt, jövőre 3%-ra gyorsulhat az infláció",
+     "url": "https://www.portfolio.hu/gazdasag/20261028/karman-andras-felvazolta-mik-a-kormany-tervei-2030-ig-872450",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio (nem megerősített)",
+     "summary": "A Portfolio értesülése szerint a jövő január 1-jére tervezett, inflációhoz kötött jövedékiadó-emelés július 1-jére csúszna. A költségvetési kiesést 15–20 milliárd forintra becsülik. Más forrás egyelőre nem erősítette meg.",
+     "title": "Értesülés: csendben eltolná a kormány az üzemanyagok adóemelését, 15–20 milliárd forintos költségvetési hatással",
+     "url": "https://portfolio.hu/uzlet/20261028/csendben-belenyul-az-uzemanyagok-adozasaba-a-kormany-872494",
+     "verified": false
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Szeptember 10-én +25 bp; ma 14:15-kor döntés",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A Fed szerdán 10–2 arányban változatlanul, 3,75–4,00%-on hagyta a kamatot; Warsh szerint 2027-től nyolc helyett hét kamatdöntő ülés lesz. Az Alphabet gyengébb eredménye az ázsiai tőzsdéket és a Wall Street határidős jegyeit is lefelé húzta, az arany csökken, a bitcoin 80 ezer dollár alá csúszott. A Samsung rekordnyereséget közölt, a Bloomberg szerint a Marvell a Lumentum megvételéről tárgyal. Ma az EKB kamatdöntése, az amerikai GDP- és PCE-adat, valamint a Lilly, az Amazon és az Intel gyorsjelentése várható; Magyarországon a pénzügyminiszter középtávú tervet vázolt fel.",
+   "updatedAt": "2026-10-29T04:50:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -1937,6 +2356,24 @@
    "type": "Gyorsjelentés",
    "url": "https://www.google.com/finance/quote/LLY:NYSE",
    "id": "2026-10-29-lly-earnings"
+  },
+  {
+   "actual": "",
+   "country": "US",
+   "date": "2026-10-29",
+   "event": "Intel gyorsjelentés, 3. negyedév",
+   "forecast": "",
+   "importance": 2,
+   "note": "Amerikai tőzsdezárás után (csütörtök)",
+   "previous": "",
+   "source": "Yahoo Finance, stock3.com",
+   "symbols": [
+    "INTC"
+   ],
+   "time": "",
+   "type": "Gyorsjelentés",
+   "url": "https://finance.yahoo.com/technology/article/intel-to-report-q3-earnings-as-chip-stocks-continue-to-rebound-221713961.html",
+   "id": "2026-10-29-intc-earnings"
   },
   {
    "actual": "",
