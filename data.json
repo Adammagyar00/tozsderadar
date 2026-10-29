@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-29T10:55:54Z",
+ "builtAt": "2026-10-29T12:58:06Z",
  "digests": [
   {
    "calendar": [
@@ -597,6 +597,73 @@
      "title": "Értesülések szerint Vance levélben próbálja újraéleszteni az iráni békefolyamatot, a Brent 114 dollár körül jár",
      "url": "https://financefeeds.com/brent-crude-oil-price-114-20-thursday-vance-iran-letter-gdp-pce-day-bull-120-bear-108/",
      "verified": false
+    },
+    {
+     "addedAt": "2026-10-29T12:52:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · CNBC",
+     "summary": "A Lilly harmadik negyedéves bevétele 24,4 milliárd dollár volt (+39% éves alapon), a korrigált EPS 7,48 dollár; az LSEG konszenzusa a CNBC szerint 6,26 dollár EPS és 22,61 milliárd dollár bevétel volt. A cég 91–92 milliárd dollárra emelte az éves bevételi célt, a korrigált EPS-célt viszont 35–36 dollárra mérsékelte a felvásárlásokhoz kötött 4,57 dolláros részvényenkénti IPR&D-költség miatt. A részvény az előpiacon 4% felett állt.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Az Eli Lilly a várakozásnál jobb eredményt jelentett, és emelte az éves bevételi kilátását",
+     "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-jumps-earnings-beat-112629990.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T12:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · DoorDash közlemény",
+     "summary": "A DoorDash és a Maplebear (Instacart) végleges megállapodást kötött: a vételár részvényenként 65 dollár, ami 26% prémium az október 22-i záráshoz képest, a részvénytőke értéke mintegy 17 milliárd dollár. A vételár legalább 75%-a készpénz, az Instacart igazgatósága egyhangúlag jóváhagyta. Az ügylet várhatóan versenyhatósági vizsgálatot kap.",
+     "symbols": [
+      "DASH",
+      "CART"
+     ],
+     "title": "A DoorDash 17 milliárd dollárért megvásárolja az Instacartot",
+     "url": "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T12:52:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance · CNBC",
+     "summary": "Christine Lagarde az EKB közlése szerint 2027. február 7-én lemond, nyolc hónappal a mandátuma lejárta előtt. António Costa, az Európai Tanács elnöke szerint az utód kiválasztása azonnal megkezdődik; a sajtóértesülések szerint Klaas Knot és Pablo Hernández de Cos az esélyesek. A bejelentés az EKB mai kamatdöntése előtt érkezett.",
+     "symbols": [],
+     "title": "Lagarde 2027. február 7-én távozik az EKB éléről, az utódlás folyamata azonnal elindul",
+     "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T12:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "A Caterpillar korrigált EPS-e 7,20 dollár volt (előző év: 4,95), a Wall Street átlagosan 7,06 dollárra számított; a bevétel 17%-kal, 20,7 milliárd dollárra nőtt, az üzemi marzs 20,4%. A Yahoo szerint az erős számok sem nyugtatták meg a piacot.",
+     "symbols": [
+      "CAT"
+     ],
+     "title": "A Caterpillar harmadik negyedéves eredménye felülmúlta a várakozást",
+     "url": "https://finance.yahoo.com/m/cba440d5-44c0-3d31-8d30-1c1664866f59/caterpillar%E2%80%99s-strong-earnings.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T12:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A spanyol energiacég harmadik negyedéves korrigált nettó nyeresége meghaladta az elemzői várakozást, és a társaság növelte a részvényesi kifizetéseket. A részvény 2,9%-ot emelkedett.",
+     "symbols": [],
+     "title": "A Repsol a várakozásnál jobb eredményt jelentett, növelte a visszavásárlást és az osztalékot",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/repsol-beats-estimates-buyback-dividend-110013747.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -623,7 +690,7 @@
     }
    ],
    "summary": "A Fed szerdán 10–2 arányban változatlanul, 3,75–4,00%-on hagyta a kamatot; Warsh szerint 2027-től nyolc helyett hét kamatdöntő ülés lesz. Az Alphabet gyengébb eredménye az ázsiai tőzsdéket és a Wall Street határidős jegyeit is lefelé húzta, az arany csökken, a bitcoin 80 ezer dollár alá csúszott. A Samsung rekordnyereséget közölt, a Bloomberg szerint a Marvell a Lumentum megvételéről tárgyal. Ma az EKB kamatdöntése, az amerikai GDP- és PCE-adat, valamint a Lilly, az Amazon és az Intel gyorsjelentése várható; Magyarországon a pénzügyminiszter középtávú tervet vázolt fel.",
-   "updatedAt": "2026-10-29T10:45:00Z",
+   "updatedAt": "2026-10-29T12:52:00Z",
    "watchlist": []
   },
   {
@@ -2503,6 +2570,26 @@
    "id": "2026-10-28-us-googl-earnings"
   },
   {
+   "actual": "EPS 7,48 $ / bevétel 24,4 Mrd $",
+   "country": "US",
+   "date": "2026-10-29",
+   "event": "Eli Lilly gyorsjelentés, 3. negyedév",
+   "forecast": "EPS 6,26 $ / bevétel 22,61 Mrd $",
+   "importance": 2,
+   "note": "Konszenzus: LSEG (CNBC); más források eltérő EPS-konszenzust közölnek. Eredmény: Lilly közlemény, CNBC.",
+   "previous": "",
+   "source": "Google Finance",
+   "surprise": "beat",
+   "surpriseNote": "EPS +19,5% a vártnál, bevétel +7,9%; az éves bevételi célt 91–92 Mrd $-ra emelték.",
+   "symbols": [
+    "LLY"
+   ],
+   "time": "12:45",
+   "type": "Gyorsjelentés",
+   "url": "https://www.google.com/finance/quote/LLY:NYSE",
+   "id": "2026-10-29-lly-earnings"
+  },
+  {
    "actual": "",
    "country": "US",
    "date": "2026-10-29",
@@ -2545,23 +2632,6 @@
    "type": "Jegybank",
    "url": "https://euribor-rates.info/en/ecb-interest-rates/",
    "id": "2026-10-29-eu-ecb"
-  },
-  {
-   "actual": "",
-   "country": "US",
-   "date": "2026-10-29",
-   "event": "Eli Lilly gyorsjelentés, 3. negyedév",
-   "forecast": "",
-   "importance": 2,
-   "previous": "",
-   "source": "Google Finance",
-   "symbols": [
-    "LLY"
-   ],
-   "time": "",
-   "type": "Gyorsjelentés",
-   "url": "https://www.google.com/finance/quote/LLY:NYSE",
-   "id": "2026-10-29-lly-earnings"
   },
   {
    "actual": "",
