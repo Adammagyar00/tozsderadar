@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-29T04:55:49Z",
+ "builtAt": "2026-10-29T06:56:05Z",
  "digests": [
   {
    "calendar": [
@@ -391,6 +391,68 @@
      "title": "Értesülés: csendben eltolná a kormány az üzemanyagok adóemelését, 15–20 milliárd forintos költségvetési hatással",
      "url": "https://portfolio.hu/uzlet/20261028/csendben-belenyul-az-uzemanyagok-adozasaba-a-kormany-872494",
      "verified": false
+    },
+    {
+     "addedAt": "2026-10-29T06:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A PetroChina nettó nyeresége 51,84 milliárd jüanra nőtt (előző év: 42,65 milliárd), a bevétel mintegy 10%-kal, 793,6 milliárd jüanra emelkedett. A hongkongi részvény 3,2%-ot erősödött. A cég az első a kínai nagy hármasból, amely jelentett.",
+     "symbols": [],
+     "title": "A PetroChina harmadik negyedéves nyeresége 22%-kal nőtt az olajárak miatt",
+     "url": "https://www.investing.com/news/stock-market-news/petrochina-shares-rise-as-q3-profit-surges-on-strong-oil-prices-4981479",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T06:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Aker BP közlemény",
+     "summary": "Az Aker BP nyeresége 986 millió dollár (1,56 $/részvény) volt a várt 614 millió ellenében, de a többletet egy Valhall és Wisting eszközökhöz kötődő értékvesztés-visszaírás adta (adózás előtt 870 millió, adózás után 262 millió dollár). A működési eredmény a várakozás szintjén maradt, a 380–400 ezer hordós termelési célt megtartották.",
+     "symbols": [],
+     "title": "Az Aker BP harmadik negyedéves nyeresége meghaladta a várakozást a leírás-visszafordítás miatt",
+     "url": "https://www.investing.com/news/earnings/aker-bp-q3-profit-tops-forecast-on-870-million-writedown-reversal-4981492",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T06:50:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Korea JoongAng Daily",
+     "summary": "A Samsung rekord negyedéves üzemi nyereséget (107,4 billió won) közölt, de a hátralévő akár 75 billió won részvényesi juttatás részleteit csak a januári igazgatósági ülés után mondja el. A részvény napközben akár 6,6%-ot esett, a Kospi mintegy 2,8–3,1%-ot gyengült, az SK Hynix előző napi bejelentése mellett.",
+     "symbols": [],
+     "title": "A Samsung részvénye 5–6,6%-ot esett, a Kospi 3% körül zuhant: a rekordprofit mellett késik a részvényesi visszajuttatási terv",
+     "url": "https://www.investing.com/news/stock-market-news/asia-stocks-fall-as-alphabet-samsung-results-disappoint-more-tech-earnings-loom-4981441",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T06:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Yahoo Finance · SiliconANGLE, CNBC",
+     "summary": "A korrigált EPS 2,67 dollár volt a várt 3,02 ellenében, a bevétel 127,58 milliárd dollár a várt 128,22 helyett; a keresési hirdetési bevétel is elmaradt. A Google Cloud bevétele a duplájára, 30,71 milliárd dollárra nőtt, a lekötött állomány 561 milliárd dollár. A szabad cash flow mintegy 9 milliárd dollár negatív volt, a CFO szerint 2027-ben jelentősen nő a beruházás.",
+     "symbols": [
+      "GOOGL"
+     ],
+     "title": "Az Alphabet mindkét sorban elmaradt a várttól, a részvény mintegy 9%-ot esett tőzsdezárás után",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-misses-revenue-expectations-shares-013333509.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T06:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · SiliconANGLE",
+     "summary": "A korrigált EPS 4,89 dollár (várt: 4,73), a bevétel 92,28 milliárd dollár (várt: 90,69), az Azure bevétele 33,17 milliárd dollár. A beruházás 45,2 milliárd dollár volt, a vártnál kevesebb; a szabad cash flow 27%-kal, 18,6 milliárd dollárra csökkent.",
+     "symbols": [
+      "MSFT"
+     ],
+     "title": "A Microsoft felülmúlta a várakozásokat: az Azure 48%-kal nőtt, a részvény 3–4%-ot erősödött tőzsdezárás után",
+     "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -417,7 +479,7 @@
     }
    ],
    "summary": "A Fed szerdán 10–2 arányban változatlanul, 3,75–4,00%-on hagyta a kamatot; Warsh szerint 2027-től nyolc helyett hét kamatdöntő ülés lesz. Az Alphabet gyengébb eredménye az ázsiai tőzsdéket és a Wall Street határidős jegyeit is lefelé húzta, az arany csökken, a bitcoin 80 ezer dollár alá csúszott. A Samsung rekordnyereséget közölt, a Bloomberg szerint a Marvell a Lumentum megvételéről tárgyal. Ma az EKB kamatdöntése, az amerikai GDP- és PCE-adat, valamint a Lilly, az Amazon és az Intel gyorsjelentése várható; Magyarországon a pénzügyminiszter középtávú tervet vázolt fel.",
-   "updatedAt": "2026-10-29T04:50:00Z",
+   "updatedAt": "2026-10-29T06:50:00Z",
    "watchlist": []
   },
   {
