@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-29T15:20:38Z",
+ "builtAt": "2026-10-29T16:56:06Z",
  "digests": [
   {
    "calendar": [
@@ -700,6 +700,85 @@
      "title": "A Merck felülmúlta a várakozásokat és emelte éves profitkilátását",
      "url": "https://www.investing.com/news/stock-market-news/merck-tops-thirdquarter-estimates-as-keytruda-gardasil-outperform-4982557",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T16:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · ADT közlemény",
+     "summary": "Az ADT közlése szerint a Thrive Holdings készpénzért, részvényenként 10 dollárért megvásárolja a céget, ami 45,6%-os felár a 6,87 dolláros október 27-i záróárhoz képest. A tőkeérték mintegy 7,6, a vállalati érték 15,3 milliárd dollár. A zárást 2027 első negyedévére várják, a részvényesi jóváhagyás függvényében; a részvény csütörtökön mintegy 34%-ot emelkedett.",
+     "symbols": [
+      "ADT"
+     ],
+     "title": "A Thrive Holdings 7,6 milliárd dollárért felvásárolja az ADT-t, a részvény 34%-ot ugrott",
+     "url": "https://www.investing.com/news/stock-market-news/adt-stock-spikes-34-on-76-billion-takeover-deal-by-josh-kushners-thrive-4984472",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T16:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (meg nem nevezett források)",
+     "summary": "A Reuters három, meg nem nevezett EKB-s döntéshozóra hivatkozva azt írja, hogy a december 17-i ülésen a betéti ráta 2,75%-ra emelése szinte biztos, hacsak az energiaárak nem zuhannak be. Az emelést követően a kötvényhozamok miatt szünet jöhet. Az EKB szóvivője nem kívánt nyilatkozni.",
+     "symbols": [],
+     "title": "Értesülések szerint decemberben jöhet az EKB kamatemelése, utána szünet",
+     "url": "https://www.investing.com/news/economy-news/ecb-governors-see-december-hike-likely-followed-by-pause-sources-say-4984636",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-10-29T16:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint a monetáris tanács az overnight betéti rátát 19%-ról 20%-ra, a hitelezési rátát 20%-ról 21%-ra emelte. Ez az első emelés 2024 márciusa óta, és meglepetés volt, mert az elemzők tartást vártak.",
+     "symbols": [],
+     "title": "Az egyiptomi jegybank 100 bázisponttal emelte az irányadó kamatot",
+     "url": "https://www.investing.com/news/economy-news/egypts-central-bank-raises-key-interest-rates-by-100-basis-points-93CH-4984496",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T16:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CoinDesk",
+     "summary": "Az ICE és az OKX közös vállalkozásának október 28-i értesítője szerint a Walmart, az Eli Lilly, a Cigna, a Carnival és az Arcos Dorados sem akarja, hogy részvényei kerüljenek a tervezett platformra. A tiltakozó cégek száma a CoinDesk szerint 38 az eredeti 62-ből. Indoklást nem közöltek, a kereskedés kezdete sem ismert.",
+     "symbols": [
+      "LLY",
+      "WMT"
+     ],
+     "title": "Walmart, Eli Lilly és Cigna is tiltakozott az OKX–ICE tokenizált részvényplatform ellen",
+     "url": "https://www.coindesk.com/business/2026/10/29/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T16:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Culper Research short pozíciót jelentett be a Cerebras Systemsben, és szerinte a wafer-méretű chipek tényleges élettartama 1,5–2,5 év, a cég pedig az áprilisi S-1-ben 3–5 évre nyújtotta a feltételezett használati időt. A jelentés részben névtelen volt alkalmazottakra és ügyfelekre épül, a Culper maga is véleménynek nevezi. A részvény mintegy 4–6%-ot esett; a cég nem reagált.",
+     "symbols": [
+      "CBRS"
+     ],
+     "title": "A Culper Research shortolja a Cerebrast: szerinte a lapka élettartama csak 1,5–2,5 év",
+     "url": "https://www.investing.com/news/stock-market-news/cerebras-systems-stock-after-the-culper-research-short-report-93CH-4984616",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-29T16:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Boliden működési eredménye 5416 millió svéd korona volt (egy éve 3237), a FactSet-konszenzus mintegy 4498 millió volt. A bevétel 30,4 milliárd korona. A magasabb réz- és cinkárak hajtották a növekedést, de a szabad cash flow 1121 millióra esett 2284-ről.",
+     "symbols": [],
+     "title": "A Boliden harmadik negyedéves működési eredménye 5,4 milliárd koronára nőtt, a várakozás fölé",
+     "url": "https://www.investing.com/news/company-news/boliden-q3-2026-slides-record-profit-driven-by-strong-metal-prices-93CH-4984648",
+     "verified": true
     }
    ],
    "markets": [
@@ -726,7 +805,7 @@
     }
    ],
    "summary": "A Fed szerdán 10–2 arányban változatlanul, 3,75–4,00%-on hagyta a kamatot; Warsh szerint 2027-től nyolc helyett hét kamatdöntő ülés lesz. Az Alphabet gyengébb eredménye az ázsiai tőzsdéket és a Wall Street határidős jegyeit is lefelé húzta, az arany csökken, a bitcoin 80 ezer dollár alá csúszott. A Samsung rekordnyereséget közölt, a Bloomberg szerint a Marvell a Lumentum megvételéről tárgyal. Ma az EKB kamatdöntése, az amerikai GDP- és PCE-adat, valamint a Lilly, az Amazon és az Intel gyorsjelentése várható; Magyarországon a pénzügyminiszter középtávú tervet vázolt fel.",
-   "updatedAt": "2026-10-29T14:50:00Z",
+   "updatedAt": "2026-10-29T16:45:00Z",
    "watchlist": []
   },
   {
