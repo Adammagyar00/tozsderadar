@@ -439,7 +439,9 @@ async function weekQuotes(tickers) {
 // 2026-10-29-től kétóránként, egész órára kész: frissítés 5:30, 7:30 … 21:30, feltöltés 20 perccel utána.
 const RUNS_OLD = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
 const RUNS_NEW = [[5, 30], [7, 30], [9, 30], [11, 30], [13, 30], [15, 30], [17, 30], [19, 30], [21, 30]];
-const runsOn = (date) => date >= "2026-10-29" ? RUNS_NEW : RUNS_OLD;
+// 2026-10-30-tól a reggeli fő frissítés 7:30-kor indul (8:00-ra kint van), utána 9:30 … 21:30
+const RUNS_V3 = [[7, 30], [9, 30], [11, 30], [13, 30], [15, 30], [17, 30], [19, 30], [21, 30]];
+const runsOn = (date) => date >= "2026-10-30" ? RUNS_V3 : date >= "2026-10-29" ? RUNS_NEW : RUNS_OLD;
 function budapestOffsetMs(now) {
   const b = budapest(new Date(now));
   const [y, m, d] = b.date.split("-").map(Number);
@@ -728,7 +730,7 @@ export class Store {
     const to = users.filter((u) => u.srv.stale !== false);
     if (st.stale && sent !== st.slot) {
       await this.state.storage.put("staleSent", st.slot);
-      const msg = "⚠️ <b>Elakadt a TőzsdeRadar frissítése.</b>\n" + (st.kind === "upload" ? "Elmaradt az adatfeltöltés (esedékes volt: " + hhmm(st.slot + 20 * 60000) + "). Legutóbbi feltöltés: " + hhmm(st.since) + "." : "Két egymás utáni frissítés sem hozott új hírt (utolsó: " + hhmm(st.since) + ").") + "\nSzólj Claude-nak a beszélgetésben, hogy nézze meg.";
+      const msg = "⚠️ <b>Elakadt a TőzsdeRadar frissítése.</b>\n" + (st.kind === "upload" ? "Elmaradt az adatfeltöltés (esedékes volt: " + hhmm(st.slot + 25 * 60000) + "). Legutóbbi feltöltés: " + hhmm(st.since) + "." : "Két egymás utáni frissítés sem hozott új hírt (utolsó: " + hhmm(st.since) + ").") + "\nSzólj Claude-nak a beszélgetésben, hogy nézze meg.";
       for (const u of to) await tgSend(this.env, u.chat, msg);
     } else if (!st.stale && sent) {
       await this.state.storage.delete("staleSent");
