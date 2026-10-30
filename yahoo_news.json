@@ -1,7 +1,48 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-30T04:47:26Z",
+ "updatedAt": "2026-10-30T05:45:45Z",
  "items": [
+  {
+   "title": "These 2 Nearly 100% Historically Accurate Market Signals Are Conflicting. Here's What Investors Should Do.",
+   "link": "https://www.fool.com/investing/2026/10/30/these-2-nearly-100-historically-accurate-market-si/?.tsrc=rss",
+   "published": "2026-10-30T05:20:00Z",
+   "publisher": "",
+   "summary": "These two market signals have been nearly 100% accurate in the past, but one is bullish and the other is bearish.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "EQT (EQT) Deal Sparks Fresh Marcellus And Utica Takeover Talk",
+   "link": "https://finance.yahoo.com/energy/articles/eqt-eqt-deal-sparks-fresh-051711434.html",
+   "published": "2026-10-30T05:17:11Z",
+   "publisher": "",
+   "summary": "EQT (NYSE:EQT) has ignited fresh M&A talk in the Marcellus/Utica gas basin after agreeing to acquire Range Resources. Analysts are now flagging Antero Resources, CNX Resources, and Seneca Resources as potential next deal targets in the region. Commentary around EQT's move frames the Range Resources transaction as a possible opening step toward wider basin consolidation. EQT's purchase of Range Res",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Is Getting Boring, and That's the Bull Case, Says Market Analyst James Check",
+   "link": "https://beincrypto.com/bitcoin-boring-bull-case-james-check/?.tsrc=rss",
+   "published": "2026-10-30T05:00:00Z",
+   "publisher": "",
+   "summary": "James Check says boring Bitcoin is the bull case as volatility nears 2023 lows and JPMorgan waits for calmer markets.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "If a Stock Market Crash Is Coming, History Says Following These 6 Words From Warren Buffett Is the Smartest Move You Can Make",
    "link": "https://www.fool.com/investing/2026/10/30/if-a-stock-market-crash-is-coming-history-says-fol/?.tsrc=rss",
@@ -28,11 +69,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3087,57 +3128,6 @@
    "published": "2026-10-29T15:07:15Z",
    "publisher": "",
    "summary": "Walmart, Eli Lilly, Cigna, Carniva,l and Arcos Dorados objected to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total to 38.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Merck Rises 5% as Earnings Beat Lifts Profit Outlook; Eli Lilly Climbs 7%, Johnson & Johnson Edges Higher",
-   "link": "https://247wallst.com/investing/2026/10/29/merck-rises-5-as-earnings-beat-lifts-profit-outlook-eli-lilly-climbs-7-johnson-johnson-edges-higher/?.tsrc=rss",
-   "published": "2026-10-29T15:06:57Z",
-   "publisher": "",
-   "summary": "Merck and Eli Lilly both beat Wall Street, but their paths to profit look nothing alike, and the gap between them could widen sharply as one faces a looming patent cliff and the other rides an unstoppable drug category.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "What Happens to a $5,000 Investment If Micron’s Memory Boom Lasts Longer Than Expected?",
-   "link": "https://247wallst.com/investing/2026/10/29/what-happens-to-a-5000-investment-if-microns-memory-boom-lasts-longer-than-expected/?.tsrc=rss",
-   "published": "2026-10-29T15:03:56Z",
-   "publisher": "",
-   "summary": "Micron's management admits they have no line of sight to when memory supply and demand balance, and that uncertainty cuts both ways for anyone holding a position in this stock right now.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Merck Jumps Nearly 5% on Q3 Beat and Raised Outlook as CEO Touts “Potentially Practice-Changing” Pipeline",
-   "link": "https://www.tikr.com/blog/merck-jumps-nearly-5-on-q3-beat-and-raised-outlook-as-ceo-touts-potentially-practice-changing-pipeline?ref=yahoofinance&.tsrc=rss",
-   "published": "2026-10-29T15:03:29Z",
-   "publisher": "",
-   "summary": "Key TakeawaysMerck stock rose nearly 5% Thursday on a third-quarter beat, with sales up 5% to $18. 1 billion, and higher 2026 guidance midpoints.",
    "symbols": [
     "BTC",
     "ETH",
