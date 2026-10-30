@@ -1,6 +1,301 @@
 {
- "builtAt": "2026-10-29T21:24:24Z",
+ "builtAt": "2026-10-30T06:58:22Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 3.",
+     "event": "USA félidős választások"
+    },
+    {
+     "date": "nov. 4.",
+     "event": "Eurózóna infláció, október (gyorsbecslés)"
+    },
+    {
+     "date": "nov. 5.",
+     "event": "Bank of England kamatdöntés"
+    },
+    {
+     "date": "nov. 6.",
+     "event": "USA munkaerőpiaci jelentés"
+    },
+    {
+     "date": "nov. 10.",
+     "event": "USA CPI; KSH infláció"
+    }
+   ],
+   "date": "2026-10-30",
+   "generatedAt": "2026-10-30T06:00:00Z",
+   "headline": "A Binance 6,3 milliárd dolláros feltörése és az Alphabet–Amazon–Intel-esés megtépázta a kockázatos eszközöket",
+   "items": [
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "A világ legnagyobb kriptotőzsdéje csütörtök este felfüggesztette a kifizetéseket, miután felhasználók szerint pénzeszközök hagyták el a rendszerét. A Binance becslése szerint az incidens hatása mintegy 6,3 milliárd dollár, a Tether és a Circle együtt 2,38 milliárd dollárnyi eszközt fagyasztott be, a tőzsde szerint az ügyfelek pénze biztonságban van. A számok még változhatnak.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A Binance felfüggesztette a kifizetéseket egy rekordméretű, becsült 6,3 milliárd dolláros incidens miatt",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/binance-halts-withdrawals-amid-5-000533365.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Binance-incidens hírére péntek hajnalban a bitcoin 78 ezer dollár környékére gyengült, a kripto piacon 24 óra alatt kb. 1,49 milliárd dollárnyi pozíciót zártak ki kényszerből, főleg long pozíciókat. A hírfolyam szerint a legtöbb kriptoeszköz esett, a Hyperliquid kivételével.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A bitcoin 78 ezer dollárig esett, 1,49 milliárd dollárnyi kriptopozíciót likvidáltak",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-sinks-78k-binance-hit-002509301.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "BeInCrypto (Yahoo Finance hírfolyam)",
+     "summary": "A BeInCrypto szerint a HYPE az ICE-hez, Druckenmillerhez és Elon Muskhoz köthető hírek miatt erősödik a piaci eséssel szemben. Az ICE-vezér korábbi, Hyperliquidról tett megjegyzései és Druckenmiller 23 millió dolláros közvetett kitettsége ismert, a mai mozgás konkrét oka viszont külön nem megerősített.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "Értesülések szerint a Hyperliquid (HYPE) emelkedik, miközben a kripto többi része esik",
+     "url": "https://beincrypto.com/hyperliquid-rises-crypto-falls-ice-druckenmiller/?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Bloomberg (Yahoo Finance hírfolyam)",
+     "summary": "A Bloomberg beszámolója szerint az Anthropic a SpaceX Q3-bevételének több mint harmadát tette ki. Önálló megerősítést nem találtunk: a SpaceX bevétele a negyedévben kb. 14,5 milliárd dollár volt, a cégnek szóló havi 1,25 milliárd dolláros számítási kapacitás-szerződés pedig ismert, de a konkrét arány nem megerősített.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Az Anthropic a Bloomberg szerint a SpaceX harmadik negyedéves bevételének több mint harmadát adta",
+     "url": "https://finance.yahoo.com/news/anthropic-nears-first-quarterly-profit-000422401.html",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az Alphabet rekordesése és az AI-beruházásokkal kapcsolatos aggodalmak a Nasdaq Compositet kb. 1,4%-kal 26 185 pont közelébe vitték, az S&P 500 mintegy 0,3%-ot esett, ezzel véget ért a háromnapos emelkedés. A felfelé és lefelé mozgó részvények aránya ugyanakkor az emelkedők javára állt.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "A Nasdaq 1,4%-ot esett az Alphabet-sokk miatt, az S&P 500 0,3%-ot",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "Az Amazon és az Intel csalódást keltő jelentése után a Nasdaq-határidős mintegy 2%-ot esett, az ázsiai tőzsdéken a technológiai részvények estek (Fujitsu 16%-ot zuhant a gyenge félévi eredmény miatt). A befektetők az AI-beruházások megtérülésétől tartanak.",
+     "symbols": [
+      "QQQ"
+     ],
+     "title": "Péntek reggel zuhannak a Nasdaq-határidősök, az ázsiai technológiai részvények is esnek",
+     "url": "https://www.investing.com/news/stock-market-news/asian-tech-stocks-slump-as-ai-rout-deepens-on-disappointing-us-earnings-4985778",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "Az Amazon harmadik negyedéves egy részvényre jutó eredménye 1,89 dollár, bevétele 201,94 milliárd dollár volt, a várt 1,96 dollárral és 202,1 milliárd dollárral szemben. A negyedik negyedéves forgalmi kilátás is a várakozás alatt maradt, a részvény a forrásoktól függően kb. 5–6%-ot esett tőzsdezárás után. A beruházási kiadások és a negatív szabad cash flow aggasztják a befektetőket.",
+     "symbols": [],
+     "title": "Az Amazon elmaradt a várakozásoktól, gyenge negyedik negyedéves kilátást adott, a részvény zárás után esett",
+     "url": "https://www.investing.com/news/stock-market-news/amazon-projects-fourth-quarter-sales-below-estimates-4984966",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "Az Intel harmadik negyedéves korrigált eredménye 0,52 dollár részvényenként (várakozás kb. 0,41 dollár), bevétele 16,5 milliárd dollár volt, a cég mégis gyenge negyedik negyedéves kilátást adott. A vállalat az izraeli üzemben történt robbanást és a gyenge PC-keresletet nevezte meg okként.",
+     "symbols": [],
+     "title": "Az Intel részvénye kb. 20%-ot zuhant zárás után a gyenge negyedik negyedéves kilátás miatt",
+     "url": "https://www.investing.com/news/stock-market-news/intel-plunges-20-as-weak-q4-forecast-overshadows-earnings-beat-4984988",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az Alphabet A-sorozatú részvénye 12,6%-ot esett, ez a cég történetének legrosszabb napja, a piaci érték kb. 480–500 milliárd dollárral csökkent. A Bank of America szerint a Google keresőüzletét mintegy 10-szeres eredményszorzóval értékelik az S&P 500 18,7-es átlagával szemben. A keresési bevétel elmaradt, a szabad cash flow negatív lett.",
+     "symbols": [],
+     "title": "Az Alphabet 12,6%-ot esett a csütörtöki zárásig, a BofA alacsonyabb szorzóval értékeli a keresőt",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-just-had-worst-day-001015980.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az elemzők kérdéseket tesznek fel arról, miért nem gyorsítja a szoftvercég növekedését az AI egyre szélesebb körű használata. A részvény csütörtökön az S&P 500 leggyengébb teljesítményét nyújtotta.",
+     "symbols": [],
+     "title": "A ServiceNow lett az S&P 500 legrosszabbja egy elmaradt kulcsfontosságú bevételi mutató miatt",
+     "url": "https://finance.yahoo.com/m/5f9750f9-b04e-3830-9f5a-d06f079281de/servicenow-stock-is-worst-in.html",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A japán jegybank egy tag emelési javaslata ellenére (Takata 1,5%-ot kért) változatlanul hagyta az irányadó kamatot, és emelte az infláció előrejelzését. A Reuters szerint a következő emelés akár decemberben jöhet, az elemzők az időzítésről megoszlanak. A tokiói maginfláció október végén a célszint felett maradt.",
+     "symbols": [],
+     "title": "A Bank of Japan 1,25%-on hagyta a kamatot (8–1), és további emelést jelzett",
+     "url": "https://www.investing.com/news/economy-news/boj-keeps-interest-rates-steady-signals-further-rate-hikes-4985752",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Yahoo Finance",
+     "summary": "A Brent ára péntek reggel kb. 115,7 dollárra nőtt, az olaj a negyedik egymást követő havi emelkedés felé tart. A húszik több szaúdi létesítmény elleni támadást jelentettek be, a szaúdi hatóságok az állítások teljes körét nem erősítették meg; emellett az amerikai katonai csapások újraindulásának jelei is felfelé tolják az árat.",
+     "symbols": [],
+     "title": "Emelkedik az olaj: a húszik szaúdi célpontokat támadtak, az USA új iráni csapásokat mérlegel",
+     "url": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia-4985735",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az arany októberben több mint 3%-ot gyengült, mert a közel-keleti harcok magasan tartják az energiaárakat, ez pedig inflációs aggályokat és Fed-emelési várakozásokat táplál. Az arany pénteken 4000 dollár alá süllyedt.",
+     "symbols": [],
+     "title": "Az arany 4000 dollár alá esett, az infláció a Fed-emelési félelmeket élesztette",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-4-000-014613798.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · SEC-közlemény",
+     "summary": "Az EQT részvénycserés üzletben, 0,987 EQT-részvényért vásárolja meg a Range Resourcest (kb. 12,8 milliárd dolláros részvényérték). A Yahoo által idézett elemzők szerint az Antero, a CNX és a Seneca lehet a következő célpont, ez azonban elemzői feltevés.",
+     "symbols": [],
+     "title": "Az EQT–Range-üzlet újabb felvásárlási találgatásokat indított a gázpiacon",
+     "url": "https://finance.yahoo.com/energy/articles/eqt-eqt-deal-sparks-fresh-051711434.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az amerikai szabályozó a Reuters szerint a kínai távközlési vállalatokat kizárná az amerikai telefonszámokhoz való közvetlen hozzáférésből. A lépés a nemzetbiztonsági szigorítások sorába illeszkedik.",
+     "symbols": [],
+     "title": "Az USA betiltaná a kínai távközlési cégek közvetlen hozzáférését az amerikai telefonszámokhoz",
+     "url": "https://www.investing.com/news/stock-market-news/us-plans-to-ban-chinese-telecom-firms-from-direct-access-to-us-phone-numbers-4985764",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Egy amerikai esküdtszék a Bayer javára döntött abban a perben, amelyben három nő állította, hogy a Roundup gyomirtó rákot okozott. A 7,25 milliárd dolláros, országos rendezési megállapodásról szóló bírói döntés még várat magára.",
+     "symbols": [],
+     "title": "A Bayer megnyert egy újabb Roundup-rákperert, a rendezési megállapodásról még nincs döntés",
+     "url": "https://www.investing.com/news/stock-market-news/bayer-wins-roundup-weedkiller-cancer-trial-while-awaiting-settlement-ruling-4985676",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Proactive Investors · StockTwits",
+     "summary": "A Strategy harmadik negyedéves bevétele a hírek szerint kb. 125 millió dollár volt (éves összevetésben −3%), a várakozás alatt, a részvény zárás után 2–6%-ot esett. A cég rekordnak mondott, kb. 21 milliárd dolláros eredményt könyvelt a bitcoin értéknövekedése miatt, az egy részvényre jutó bitcoin viszont csökkent.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Strategy bevétele elmaradt a várttól, a részvény zárás után esett",
+     "url": "https://www.proactiveinvestors.com/companies/news/1100957/strategy-shares-slip-after-earnings-as-revenue-misses-estimates-1100957.html",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Coinbase a Reuters szerint a kriptokereskedés élénkülése és a származtatott ügyletek, valamint a predikciós piacok növekedése révén visszatért a profithoz.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Coinbase negyedéves nyereséget ért el, megszakítva a veszteségsorozatot",
+     "url": "https://www.investing.com/news/stock-market-news/coinbase-snaps-losing-streak-with-thirdquarter-profit-on-crypto-trading-rebound-4985073",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "Bill Hagerty szenátor jelezte, hogy az amerikai bitcoin-tartalék hamarosan növekedhet, de feltételekhez és költségvetési szabályhoz kötné. Konkrét döntés nem született.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Hagerty szenátor szerint az USA hamarosan bővítheti a bitcoin-tartalékát",
+     "url": "https://www.thestreet.com/crypto/policy/sen-hagerty-hints-u-s-could-add-to-its-bitcoin-reserve-very-soon?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Economx · Pénzcentrum",
+     "summary": "Az Economx szerint az euró 7 órakor 365,79 forinton állt a csütörtök esti 365,37 forint után, a dollár 327 forint, a svájci frank 397,6 forint körül volt. A Pénzcentrum is 365,9-es euró-árfolyamot közölt.",
+     "symbols": [],
+     "title": "Péntek reggel az euró 365,8 forint körül mozgott, erősebb forint a heti csúcsokhoz képest",
+     "url": "https://www.economx.hu/tozsde/2026/10/30/forint-euro-dollar-svajci-frank-arfolyam-devizakereskedelem/",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
+   "updatedAt": "2026-10-30T06:00:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -2996,15 +3291,17 @@
    "id": "2026-10-29-eu-ecb"
   },
   {
-   "actual": "",
+   "actual": "EPS 0,52 $ (korrigált) / bevétel 16,5 Mrd $",
    "country": "US",
    "date": "2026-10-29",
    "event": "Intel gyorsjelentés, 3. negyedév",
-   "forecast": "",
+   "forecast": "EPS ~0,41 $",
    "importance": 2,
    "note": "Amerikai tőzsdezárás után (csütörtök)",
    "previous": "",
    "source": "Yahoo Finance, stock3.com",
+   "surprise": "beat",
+   "surpriseNote": "Korrigált EPS ~27%-kal a vártnál több, de a gyenge Q4-kilátás miatt a részvény zárás után kb. 20%-ot esett.",
    "symbols": [
     "INTC"
    ],
@@ -3014,29 +3311,31 @@
    "id": "2026-10-29-intc-earnings"
   },
   {
-   "actual": "",
+   "actual": "EPS 1,89 $ / bevétel 201,94 Mrd $",
    "country": "US",
    "date": "2026-10-29",
    "event": "Amazon gyorsjelentés, 3. negyedév",
-   "forecast": "",
+   "forecast": "EPS 1,96 $ / bevétel 202,1 Mrd $",
    "importance": 2,
-   "note": "Amerikai tőzsdezárás után",
+   "note": "Amerikai tőzsdezárás után; konszenzus: Investing.com, MarketScreener",
    "previous": "",
    "source": "Sentisense, CME Group",
+   "surprise": "miss",
+   "surpriseNote": "EPS −3,6% a vártnál, bevétel kissé elmaradt; a Q4-kilátás is a várakozás alatt, a részvény zárás után kb. 5–6%-ot esett.",
    "time": "",
    "type": "Gyorsjelentés",
    "url": "https://www.cmelitegroup.com/knowledge-hub/earnings-calendar/",
    "id": "2026-10-29-us-amzn-earnings"
   },
   {
-   "actual": "",
+   "actual": "1,25% (változatlan, 8–1; Takata 1,5%-ot kért)",
    "country": "JP",
    "date": "2026-10-30",
    "event": "Bank of Japan kamatdöntés",
    "forecast": "",
    "importance": 3,
-   "note": "Kétnapos ülés okt. 29–30.; a pontos időpont forrásonként eltér",
-   "previous": "",
+   "note": "Emelést jelzett; a Reuters szerint akár decemberben. Megerősítette: Reuters, Investing.com",
+   "previous": "1,25%",
    "source": "Newsquawk, FinanceCalendar",
    "time": "",
    "type": "Jegybank",
@@ -3100,6 +3399,22 @@
   },
   {
    "actual": "",
+   "country": "US",
+   "date": "2026-11-04",
+   "event": "Külkereskedelmi mérleg, szeptember",
+   "forecast": "",
+   "importance": 2,
+   "note": "",
+   "previous": "",
+   "source": "BEA",
+   "symbols": [],
+   "time": "14:30",
+   "type": "Makroadat",
+   "url": "https://www.bea.gov/news/schedule",
+   "id": "2026-11-04-us-trade"
+  },
+  {
+   "actual": "",
    "country": "GB",
    "date": "2026-11-05",
    "event": "Bank of England kamatdöntés + Monetary Policy Report",
@@ -3156,6 +3471,38 @@
   },
   {
    "actual": "",
+   "country": "EU",
+   "date": "2026-11-13",
+   "event": "Eurózóna GDP, 3. negyedév (módosított becslés)",
+   "forecast": "",
+   "importance": 2,
+   "note": "",
+   "previous": "",
+   "source": "Eurostat",
+   "symbols": [],
+   "time": "11:00",
+   "type": "Makroadat",
+   "url": "https://ec.europa.eu/eurostat/documents/24987/6642470/QNA_release_calendar.pdf",
+   "id": "2026-11-13-eu-gdp-revised"
+  },
+  {
+   "actual": "",
+   "country": "US",
+   "date": "2026-11-13",
+   "event": "Termelői árindex (PPI), október",
+   "forecast": "",
+   "importance": 2,
+   "note": "",
+   "previous": "",
+   "source": "BLS",
+   "symbols": [],
+   "time": "14:30",
+   "type": "Makroadat",
+   "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+   "id": "2026-11-13-us-ppi"
+  },
+  {
+   "actual": "",
    "country": "HU",
    "date": "2026-11-17",
    "event": "MNB kamatdöntés",
@@ -3182,6 +3529,22 @@
    "type": "Jegybank",
    "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
    "id": "2026-11-18-us-fomc-minutes"
+  },
+  {
+   "actual": "",
+   "country": "US",
+   "date": "2026-11-25",
+   "event": "GDP 3. negyedév (második becslés) és személyi jövedelem/PCE, október",
+   "forecast": "",
+   "importance": 3,
+   "note": "",
+   "previous": "",
+   "source": "BEA",
+   "symbols": [],
+   "time": "14:30",
+   "type": "Makroadat",
+   "url": "https://www.bea.gov/news/schedule",
+   "id": "2026-11-25-us-gdp-pce"
   },
   {
    "actual": "",
@@ -3268,6 +3631,22 @@
    "type": "Jegybank",
    "url": "https://centralbank.watch/tools/calendar/",
    "id": "2026-12-17-eu-ecb"
+  },
+  {
+   "actual": "",
+   "country": "JP",
+   "date": "2026-12-18",
+   "event": "Bank of Japan kamatdöntés (a kétnapos ülés dec. 17–18.)",
+   "forecast": "",
+   "importance": 3,
+   "note": "A pontos időpont forrásonként eltér",
+   "previous": "",
+   "source": "Bank of Japan ülésnaptár",
+   "symbols": [],
+   "time": "",
+   "type": "Jegybank",
+   "url": "https://www.financecalendar.com/bank-of-japan-rate-decisions/",
+   "id": "2026-12-18-jp-boj"
   }
  ]
 }
