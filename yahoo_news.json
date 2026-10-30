@@ -1,13 +1,30 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-30T15:24:42Z",
+ "updatedAt": "2026-10-30T16:23:53Z",
  "items": [
   {
-   "title": "This Little-Known ETF Owns QQQ’s Stocks Without the Big Bet on Nvidia",
-   "link": "https://247wallst.com/investing/etf/2026/10/30/this-little-known-etf-owns-qqqs-stocks-without-the-big-bet-on-nvidia/?.tsrc=rss",
-   "published": "2026-10-30T15:14:46Z",
+   "title": "SanDisk stock tumbles as Kioxia warns on NAND price surge",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-tumbles-kioxia-warns-161834544.html",
+   "published": "2026-10-30T16:18:34Z",
    "publisher": "",
-   "summary": "QQQ investors hand nearly 8 cents of every dollar to a single chipmaker without realizing a quieter fund holds every same stock with none of that concentration risk.",
+   "summary": "Investing.com -- SanDisk shares fell more than 11% following warnings from competitor Kioxia that the surge in NAND flash memory prices may be ending, alongside weak Intel guidance and broader concerns about the AI trade.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Jim Cramer has a new way of thinking about the biggest tech stocks",
+   "link": "https://www.thestreet.com/investing/stocks/jim-cramer-has-a-new-way-of-thinking-about-the-biggest-tech-stocks?.tsrc=rss",
+   "published": "2026-10-30T16:17:00Z",
+   "publisher": "",
+   "summary": "Jim Cramer has a framework for the biggest names in tech. It changes how you think about owning them.",
    "symbols": [
     "SPCX",
     "BE",
@@ -15,6 +32,302 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Bitcoin Dips Below $80,000. Here Are the 5 Factors That Are Impacting the Price of Bitcoin Right Now.",
+   "link": "https://www.fool.com/investing/2026/10/30/bitcoin-dips-below-80000-here-are-the-x-factors-th/?.tsrc=rss",
+   "published": "2026-10-30T16:15:00Z",
+   "publisher": "",
+   "summary": "Why is the world's top cryptocurrency losing its luster?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Binance's $6.3 billion hack: How the biggest crypto heist unfolded",
+   "link": "https://finance.yahoo.com/video/binances-63-billion-hack-how-the-biggest-crypto-heist-unfolded-160734578.html",
+   "published": "2026-10-30T16:07:34Z",
+   "publisher": "",
+   "summary": "Scott Melker breaks down the largest cryptocurrency hack on record after attackers stole an estimated $6.3 billion from Binance. What initially appeared to involve a compromised engineer's laptop escalated into a massive security breach, with billions in digital assets drained from the exchange's wallets in roughly 20 minutes.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Exxon’s Refineries Out-Earned Its Oil Wells Last Quarter For the First Time in 6 Years. Here’s What That Says About Where the Profit Is Coming From.",
+   "link": "https://www.fool.com/investing/2026/10/30/exxon-s-refineries-out-earned-its-oil-wells-last-quarter-for-the-first-time-in-6-years-here-s-what-that-says-about-where-the-profit-is-coming-from/?.tsrc=rss",
+   "published": "2026-10-30T16:05:01Z",
+   "publisher": "",
+   "summary": "Exxon's refineries were money-printing machines during the third quarter.",
+   "symbols": []
+  },
+  {
+   "title": "3 industrials stocks with warning signs",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-warning-signs-160329574.html",
+   "published": "2026-10-30T16:03:29Z",
+   "publisher": "",
+   "summary": "Whether you see them or not, industrials businesses play a crucial part in our daily activities. But they are at the whim of volatile macroeconomic factors that influence capital spending (like interest rates), and the market seems convinced that demand will slow. Due to this bearish outlook, the industry has tumbled by 8.9% over the past six months. This drop is a stark contrast from the S&P 500’",
+   "symbols": []
+  },
+  {
+   "title": "US Oil Companies Are Coming Out as Victors of the Iran War. They Have Made Over $130 Billion Since.",
+   "link": "https://www.ibtimes.com/us-oil-companies-profits-iran-war-fuel-prices-3809189?.tsrc=rss",
+   "published": "2026-10-30T16:01:13Z",
+   "publisher": "",
+   "summary": "ExxonMobil, Chevron and Valero have reported sharp earnings gains, but executives are largely sticking with existing investment plans rather than rushing to expand capacity.",
+   "symbols": []
+  },
+  {
+   "title": "Can Elon Musk’s $119 Billion Terafab Chip Plant Pay Off Without Outside Customers?",
+   "link": "https://beincrypto.com/terafab-lightning-speed-elon-musk-chip/?.tsrc=rss",
+   "published": "2026-10-30T16:00:00Z",
+   "publisher": "",
+   "summary": "Elon Musk says Terafab, estimated at up to $119 billion, is going well, as a Korean supplier gets replies within an hour.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Why Micron Stock Dove Today",
+   "link": "https://www.fool.com/investing/2026/10/30/why-micron-stock-dove-today/?.tsrc=rss",
+   "published": "2026-10-30T15:56:48Z",
+   "publisher": "",
+   "summary": "The chipmaker is falling despite a competitor's bullish results.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Cintas Corporation (CTAS) Gains 15% as Record Q4 Margins Fuel Guidance Increase",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/cintas-corporation-ctas-gains-15-155435831.html",
+   "published": "2026-10-30T15:54:35Z",
+   "publisher": "",
+   "summary": "Bristol Gate Capital Partners, an investment management company, published its Q3 2026 investor letter for the “US Equity Strategy”. The letter can be downloaded here. The US Equity Strategy lagged the S&P 500 (+2.3%) in Q3 2026, as declines in industrial and semiconductor-equipment holdings weighed against gains in tech. Despite this relative drag, the strategy […]",
+   "symbols": []
+  },
+  {
+   "title": "Binance Hack Shakes Market Confidence Amid $1.5B in Liquidations: Expert",
+   "link": "https://www.cryptoprowl.com/releases/binance-hack-shakes-market-confidence-amid-15b-in-liquidations-expert-7580?.tsrc=rss",
+   "published": "2026-10-30T15:52:00Z",
+   "publisher": "",
+   "summary": "The Binance security breach and a wave of leveraged liquidations have put Bitcoin (CRYPTO: $BTC) at a critical junc...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3 EPS, Revenue Miss Expectations, Shares Fall",
+   "link": "https://finance.yahoo.com/news/top-midday-stories-intel-shares-154739859.html",
+   "published": "2026-10-30T15:47:39Z",
+   "publisher": "",
+   "summary": "All three major US stock indexes were down in late-morning trading Friday, as oil prices were up and",
+   "symbols": []
+  },
+  {
+   "title": "3 insurance stocks with questionable fundamentals",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-insurance-stocks-questionable-fundamentals-154729317.html",
+   "published": "2026-10-30T15:47:29Z",
+   "publisher": "",
+   "summary": "Insurance companies serve as the backbone of risk management, providing essential protection and financial security for individuals and businesses. These institutions have benefited from improved pricing power and robust premium growth, so it’s no surprise the industry has posted a 10.3% gain over the past six months, beating the S&P 500 by 2.8 percentage points.",
+   "symbols": []
+  },
+  {
+   "title": "Fidelity’s Health Care ETF Holds the Biotechs XLV Skips. Retirees Should Know the Difference",
+   "link": "https://247wallst.com/investing/etf/2026/10/30/fidelitys-health-care-etf-holds-the-biotechs-xlv-skips-retirees-should-know-the-difference/?.tsrc=rss",
+   "published": "2026-10-30T15:47:23Z",
+   "publisher": "",
+   "summary": "Two health care ETFs track the same sector but own very different slices of it, and for retirees building a portfolio, that gap in biotech exposure and concentration could matter more than the nearly identical returns suggest.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "COIN Stock Sinks To Over 2-Year Low As Bitcoin Sinks Below $77K, Wall Street Cuts Price Targets",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/coin-stock-sinks-to-over-2-year-low-as-bitcoin-sinks-below-77-k-wall-street-cuts-price-targets/cZUhUigR9Ts?.tsrc=rss",
+   "published": "2026-10-30T15:44:45Z",
+   "publisher": "",
+   "summary": "Needham said the Binance incident roiled crypto markets around Coinbase’s earnings report and flagged AI-derived hacking risk as a concern for the sector heading into 2027.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why SpaceX Stock Dropped Today",
+   "link": "https://www.fool.com/investing/2026/10/30/why-spacex-stock-dropped-today/?.tsrc=rss",
+   "published": "2026-10-30T15:40:33Z",
+   "publisher": "",
+   "summary": "Intel's bad guidance could be bad news for SpaceX, too.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Saudi Arabia Mineral Processing Equipment Market Size, Share, Trends, and Forecast, 2026-2031 | Vision 2030 and Mining Expansion Drive 8.98% CAGR Through 2031",
+   "link": "https://finance.yahoo.com/energy/articles/saudi-arabia-mineral-processing-equipment-153600408.html",
+   "published": "2026-10-30T15:36:00Z",
+   "publisher": "",
+   "summary": "Local assembly lowers logistics costs and boosts tender success, while modular plants, energy-efficient equipment and aftermarket wear parts strengthen ROIDublin, Oct. 30, 2026 (GLOBE NEWSWIRE) -- \"Saudi Arabia Mineral Processing Equipment - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts (2026-2031)\" has been added to ResearchAndMarkets.com's offering. The Saudi Arabia miner",
+   "symbols": []
+  },
+  {
+   "title": "Spotify Gains 6% on Early 2027 AI Remix Launch Plan and Price Hikes of “$4 to $5 a Month”",
+   "link": "https://www.tikr.com/blog/spotify-gains-6-on-early-2027-ai-remix-launch-plan-and-price-hikes-of-4-to-5-a-month?ref=yahoofinance&.tsrc=rss",
+   "published": "2026-10-30T15:35:29Z",
+   "publisher": "",
+   "summary": "Key TakeawaysSpotify stock rose 6% today after a report that it plans a paid AI remix and cover service for early 2027, at a possible $4 to $5 a month extra. The add-on would let Spotify charge for AI, which investors have seen as a threat.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Own an S&P 500 Fund? Reddit’s Slide Affects You More Than You Think",
+   "link": "https://247wallst.com/investing/etf/2026/10/30/own-an-sp-500-fund-reddits-slide-affects-you-more-than-you-think/?.tsrc=rss",
+   "published": "2026-10-30T15:33:39Z",
+   "publisher": "",
+   "summary": "Reddit's massive single-day drop barely touched most 401(k) accounts, but investors in one popular thematic fund absorbed a hit that index holders never saw coming.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Alphabet lost $482 billion in market cap in 1 day. The fix? Have its chatbot suggest you stuff to buy",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-lost-482-billion-market-153000834.html",
+   "published": "2026-10-30T15:30:00Z",
+   "publisher": "",
+   "summary": "The company behind Google search just had its worst day on Wall Street ever. Here’s why its next move could change how you search, and what you end up buying.",
+   "symbols": []
+  },
+  {
+   "title": "Prediction markets herald insider trading risks for private biotechs",
+   "link": "https://www.pharmaceutical-technology.com/features/prediction-markets-herald-insider-trading-risks-for-private-biotechs/?.tsrc=rss",
+   "published": "2026-10-30T15:26:32Z",
+   "publisher": "",
+   "summary": "Legal experts say that pharma outcome bets on platforms like Kalshi and Polymarket pose new insider trading risks.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Musk: Agentic Demand “Growing Faster Than I’ve Ever Seen” as Grok Bot Soars",
+   "link": "https://www.tikr.com/blog/musk-agentic-demand-growing-faster-than-ive-ever-seen-as-grok-bot-soars?ref=yahoofinance&.tsrc=rss",
+   "published": "2026-10-30T15:21:27Z",
+   "publisher": "",
+   "summary": "Key TakeawaysGrok Bot’s daily users rose from under 100,000 in early September to over 600,000 by Oct. 26, and Elon Musk notes that the AI agent has no free tier.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "OmniAb Q3 Earnings Call Highlights",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-omniab-q3-earnings-call-highlights-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-10-30T15:14:50Z",
+   "publisher": "",
+   "summary": "OmniAb (NASDAQ:OABI) reported higher third-quarter revenue and raised its full-year 2026 revenue and year-end cash outlook, citing partner-program milestones, expanding service revenue and early commercial progress for its xPloration B-cell screening platform. Third-quarter revenue rose to $4.0 mil",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "This Little-Known ETF Owns QQQ’s Stocks Without the Big Bet on Nvidia",
+   "link": "https://247wallst.com/investing/etf/2026/10/30/this-little-known-etf-owns-qqqs-stocks-without-the-big-bet-on-nvidia/?.tsrc=rss",
+   "published": "2026-10-30T15:14:46Z",
+   "publisher": "",
+   "summary": "QQQ investors hand nearly 8 cents of every dollar to a single chipmaker without realizing a quieter fund holds every same stock with none of that concentration risk.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -28,11 +341,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -45,11 +358,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -58,6 +371,23 @@
    "published": "2026-10-30T15:09:00Z",
    "publisher": "",
    "summary": "Cryptocurrency-related stocks tumbled on Friday after Binance disclosed a security breach with an estimated impact of $6.3 billion, potentially the largest crypto theft on record. Coinbase Global Inc (NASDAQ:COIN) shares fell 13%, while Robinhood Markets Inc (NASDAQ:HOOD) dropped 8%. Circle...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "VKTX: Is a 2029 Launch for Its Obesity Drug Within Reach?",
+   "link": "https://finance.yahoo.com/healthcare/articles/vktx-2029-launch-obesity-drug-150700232.html",
+   "published": "2026-10-30T15:07:00Z",
+   "publisher": "",
+   "summary": "Viking Therapeutics is set to target a potential first-half 2029 launch for VK2735, but clinical readouts, FDA review and intensifying competition could shape its timeline.",
    "symbols": [
     "BTC",
     "ETH",
@@ -79,11 +409,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -92,6 +422,14 @@
    "published": "2026-10-30T15:00:18Z",
    "publisher": "",
    "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. Conestoga Capital Advisors released its third-quarter 2026 investor letter, outlining a shifting macroeconomic backdrop for small-cap equities. After a strong start to 2026, 3Q26 headwinds—including elevated oil prices, persistent inflation, and a September F",
+   "symbols": []
+  },
+  {
+   "title": "Will Oil Prices Slump on Peace Hopes? ETFs in Focus",
+   "link": "https://finance.yahoo.com/energy/articles/oil-prices-slump-peace-hopes-145900484.html",
+   "published": "2026-10-30T14:59:00Z",
+   "publisher": "",
+   "summary": "Lately, oil prices have retreated on renewed U.S.-Iran peace hopes. Explore three ETFs that could benefit from lower crude prices.",
    "symbols": []
   },
   {
@@ -112,12 +450,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "What Just Happened To Altria Stock?",
+   "link": "https://www.trefis.com/stock/mo/articles/621602/what-just-happened-to-altria-stock/2026-10-30?.tsrc=rss",
+   "published": "2026-10-30T14:56:46Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
   },
   {
    "title": "Darktrace and Fortinet Strengthen Climb Global’s (CLMB) Growth Profile",
@@ -137,11 +483,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -154,11 +500,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -203,11 +549,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -241,12 +587,12 @@
    "publisher": "",
    "summary": "Recent tech earnings have sent the AI trade into a tailspin.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -282,12 +628,12 @@
    "publisher": "",
    "summary": "Verizon is adding new subscribers at a strong clip, but Space Exploration Technologies is an overhang.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -520,12 +866,12 @@
    "publisher": "",
    "summary": "Chinese regulators might be the toughest hurdle to clear in a Tesla-SpaceX deal.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -726,12 +1072,12 @@
    "publisher": "",
    "summary": "The 8:30 hosts Julie Hyman, Jake Conely, and Barron's Associate Editor Al Root tackle the top stories of the day. This includes Amazon (AMZN) reporting a weak earnings quarter and Intel (INTC) blaming slow PC sales for its weak earnings. The 8:30 team is joined by Clear Street Managing Director and Senior Analyst Owen Lau to break down the $6.3B Binance hack. They then welcome Mitlin Financial Fou",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2518,7 +2864,16 @@
    "published": "2026-10-30T07:05:00Z",
    "publisher": "",
    "summary": "FTSE 100 called 0.4% higher at 10,764 Wall Street declines Asian technology shares retreat Brent crude rises above $116 7.00 am GMT: London set for positive open London shares are expected to open higher on Friday, with IG pricing the FTSE 100 around 42 points stronger at 10,764...",
-   "symbols": []
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
   },
   {
    "title": "A2Gold signs agreement to sell Bolo Gold project in Nevada",
@@ -2737,326 +3092,6 @@
    "published": "2026-10-30T03:54:17Z",
    "publisher": "",
    "summary": "Crypto sells off on Binance hack fears while Hyperliquid rises on news from ICE, Druckenmiller and Elon Musk.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What TriMas (TRS) Said on Its Q3 Earnings Call",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-trimas-trs-said-on-its-q3-earnings-call-2026-10-29/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-10-30T03:14:06Z",
-   "publisher": "",
-   "summary": "TriMas (NASDAQ:TRS) reported higher third-quarter sales, operating profit and adjusted earnings as demand increased across its Packaging and Specialty Products businesses and cost-reduction actions contributed to profitability. Third-quarter net sales rose 7.7% year over year to $178.7 million, inc",
-   "symbols": []
-  },
-  {
-   "title": "SNDK Tumbles Amid Tech Selloff Despite Upbeat Q1 Report; Retail Turns Bullish",
-   "link": "https://stocktwits.com/news-articles/markets/equity/sndk-tumbles-amid-tech-selloff-despite-upbeat-q1-report-retail-turns-bullish/cZUhheRR9RZ?.tsrc=rss",
-   "published": "2026-10-30T03:05:48Z",
-   "publisher": "",
-   "summary": "Mixed reports from Intel and Amazon sent AI Infrastructure stocks into a tailspin Thursday.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Tech firms take fresh hit as earnings misses fan AI fears",
-   "link": "https://finance.yahoo.com/technology/ai/articles/tech-firms-fresh-hit-earnings-024928854.html",
-   "published": "2026-10-30T02:49:28Z",
-   "publisher": "",
-   "summary": "Tech firms were again on the back foot Friday after another round of disappointing earnings from Wall Street titans fanned already deep concerns about the AI investment boom.\"The concern isn't that AI demand has already slowed.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "$5,000 in XRP or $5,000 in Bitcoin: Claude AI Says Which Could Be Worth More by 2028",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/29/5000-in-xrp-or-5000-in-bitcoin-claude-ai-says-which-could-be-worth-more-by-2028/?.tsrc=rss",
-   "published": "2026-10-30T02:47:56Z",
-   "publisher": "",
-   "summary": "A $5,000 bet on XRP and the same bet on Bitcoin will follow very different paths to 2028, and Claude's scenario breakdown reveals which cryptocurrency carries a genuinely surprising edge over its far larger rival.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Tesla-SpaceX Merger ‘Does Make Strategic Sense,’ Analyst Says — But SpaceX Needs Nearly 2x The Growth",
-   "link": "https://stocktwits.com/news-articles/markets/equity/tesla-spacex-merger-strategic-sense-analyst-says-spacex-needs-2x-growth/cZUhgVVR9Rm?.tsrc=rss",
-   "published": "2026-10-30T02:44:46Z",
-   "publisher": "",
-   "summary": "Morningstar sees benefits in a Tesla-SpaceX merger across energy, AI, robotics and connectivity.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Kevin O'Leary Says Anthropic IPO Offers What SpaceX Didn't: 'Could Be a Hot Trade'",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/kevin-oleary-says-anthropic-ipo-023010666.html",
-   "published": "2026-10-30T02:30:10Z",
-   "publisher": "",
-   "summary": "Investor Kevin O’Leary sees a potentially attractive trading opportunity in Anthropic’s upcoming initial public offering, arguing that immediate liquidity could make the AI company’s stock more appealing than the Space Exploration Technologies Corp. IPO allocation he previously declined. O’Leary Prioritizes...",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Valero: 3 Key Takeaways for Long-Term Investors",
-   "link": "https://www.fool.com/earnings/takeaways/2026/10/29/valero-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-   "published": "2026-10-30T02:20:03Z",
-   "publisher": "",
-   "summary": "A $9.8 billion cash balance and disciplined capital projects position the refiner to sustain shareholder returns through commodity cycles.",
-   "symbols": []
-  },
-  {
-   "title": "Aspen Neuroscience Announces Pricing of Initial Public Offering",
-   "link": "https://finance.yahoo.com/healthcare/articles/aspen-neuroscience-announces-pricing-initial-021200059.html",
-   "published": "2026-10-30T02:12:00Z",
-   "publisher": "",
-   "summary": "SAN DIEGO, Oct. 29, 2026 (GLOBE NEWSWIRE) -- Aspen Neuroscience, Inc. (Nasdaq: ASPE), a clinical-stage regenerative medicine biotechnology company developing autologous cell therapies for Parkinson’s disease (PD), today announced the pricing of its initial public offering of 9,375,000 shares of common stock at a price to the public of $15.00 per share. All of the shares of common stock are being o",
-   "symbols": []
-  },
-  {
-   "title": "Amrize: 3 Key Takeaways for Long-Term Investors",
-   "link": "https://www.fool.com/earnings/takeaways/2026/10/29/amrize-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-   "published": "2026-10-30T02:02:33Z",
-   "publisher": "",
-   "summary": "Pricing discipline and targeted acquisitions are offsetting cost inflation while an internal savings program delivers $73 million in year-to-date results.",
-   "symbols": []
-  },
-  {
-   "title": "Dow Jones Futures Fall, Nasdaq Futures Plunge 2% On Amazon, Intel After Google, ServiceNow, Fortinet Dive",
-   "link": "https://finance.yahoo.com/m/0a5ce393-a6df-312b-af64-1893a264d0df/dow-jones-futures-fall%2C.html",
-   "published": "2026-10-30T01:49:26Z",
-   "publisher": "",
-   "summary": "Amazon, Intel and Illumina were earnings losers overnight after Google, ServiceNow and Fortinet slammed techs. Much of the market is doing fine.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bitcoin Bulls Take the Biggest Hit in a $1.49 Billion Crypto Liquidation Day",
-   "link": "https://beincrypto.com/crypto-liquidations-bitcoin-longs-binance-hack/?.tsrc=rss",
-   "published": "2026-10-30T01:49:03Z",
-   "publisher": "",
-   "summary": "Crypto liquidations hit $1.49 billion in 24 hours as Bitcoin longs took the heaviest losses while one major token rallied.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Gold hovers near $4,000 as PCE inflation, oil risks revive Fed hike concerns",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-4-000-014613798.html",
-   "published": "2026-10-30T01:46:13Z",
-   "publisher": "",
-   "summary": "Gold fell more than 3% in October as renewed fighting in the Middle East kept energy prices elevated and fuelled inflation concerns. Oil prices rose on signs that Washington could resume military strikes against Iran after next week's U.S. midterm elections.",
-   "symbols": []
-  },
-  {
-   "title": "Anthropic accounts for over a third of SpaceX revenue in Q3, Bloomberg reports",
-   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-accounts-over-third-spacex-014451805.html",
-   "published": "2026-10-30T01:44:51Z",
-   "publisher": "",
-   "summary": "Investing.com-- Anthropic accounted for more than a third of SpaceX's (NASDAQ:SPCX) revenue in the third quarter, highlighting the Elon Musk-led company's growing dependence on artificial intelligence computing contracts, Bloomberg News reported on Thursday, citing a person familiar with the matter.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "U.S. stock futures sink, Nasdaq down 2% as Amazon, Intel earnings underwhelm",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-sink-nasdaq-013610173.html",
-   "published": "2026-10-30T01:36:10Z",
-   "publisher": "",
-   "summary": "Investing.com-- U.S. stock index futures fell on Thursday evening, with technology stocks set to extend losses after earnings from Amazon and Intel missed market estimates.",
-   "symbols": []
-  },
-  {
-   "title": "Warren Buffett Says Doing Nothing Beats Doing Something. History Says He's Right.",
-   "link": "https://www.fool.com/investing/2026/10/29/warren-buffett-nothing-beat-something-history-says/?.tsrc=rss",
-   "published": "2026-10-30T01:35:00Z",
-   "publisher": "",
-   "summary": "Investing is one of the few things where doing less is actually doing more.",
-   "symbols": []
-  },
-  {
-   "title": "SPCX, ASTS, RKLB Slide Overnight: Amazon Reaffirms 2026 Satellite Service Debut — Retail Weighs Competitive Threat",
-   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-asts-rklb-amazon-reaffirms-2026-satellite-service-debut-retail-competitive-threat/cZUhfAvR9R1?.tsrc=rss",
-   "published": "2026-10-30T01:34:25Z",
-   "publisher": "",
-   "summary": "Amazon’s Globalstar deal and upcoming direct-to-device network increase potential competition with ASTS.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Why Is MSTR Stock Falling More Than 6% Overnight?",
-   "link": "https://stocktwits.com/news-articles/markets/equity/why-is-mstr-stock-falling-more-than-6-overnight/cZUhfW9R9R0?.tsrc=rss",
-   "published": "2026-10-30T01:20:25Z",
-   "publisher": "",
-   "summary": "Strategy posted $125.4 million in total revenue for the quarter, down 3% year-over-year, and also below analysts’ expectations.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Nvidia's web of AI bets: smart strategy or bubble risk?",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidias-ai-bets-smart-strategy-011724661.html",
-   "published": "2026-10-30T01:17:24Z",
-   "publisher": "",
-   "summary": "Nvidia's $3 billion investment in Meta's share sale, announced Tuesday, is the latest addition to a portfolio of stakes, loans and guarantees that has made the chip giant what some analysts describe as the central bank of the artificial intelligence boom.Nvidia also has around $36 billion in cloud backstops and a guarantee of up to $105 billion linked to an OpenAI data center, according to US medi",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Caught Out By Reddit's Slide? What Bears Saw",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/caught-reddits-slide-bears-saw-010907537.html",
-   "published": "2026-10-30T01:09:07Z",
-   "publisher": "",
-   "summary": "Reddit has just reported another strong set of quarterly results and even secured a place in the S&P 500, yet the stock chart tells a very different story. Investors who held Reddit over the past year are down 33.3%, including dividends. If an investor had bought in on 29 October 2025 believing machine translation, AI search, and higher margins justified a rich P/E, what did that original case mis",
-   "symbols": []
-  },
-  {
-   "title": "Commodity Prices Can Rise While PDBC Lags. Blame the Futures Roll",
-   "link": "https://247wallst.com/investing/etf/2026/10/29/commodity-prices-can-rise-while-pdbc-lags-blame-the-futures-roll/?.tsrc=rss",
-   "published": "2026-10-30T01:03:09Z",
-   "publisher": "",
-   "summary": "Commodity prices can surge while your commodity ETF quietly loses ground, and the culprit never shows up in the fee table. Understanding the mechanics of the futures roll reveals a hidden cost that separates the price chart from the return you actually pocket.",
-   "symbols": []
-  },
-  {
-   "title": "Can Axon Stock Jump 50%?",
-   "link": "https://www.trefis.com/stock/axon/articles/621251/can-axon-stock-jump-50/2026-10-29?.tsrc=rss",
-   "published": "2026-10-30T01:00:13Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Why Should You Think About CSX Differently Now?",
-   "link": "https://www.trefis.com/stock/csx/articles/621250/why-should-you-think-about-csx-differently-now/2026-10-29?.tsrc=rss",
-   "published": "2026-10-30T00:50:59Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Bitcoin Is Beating the S&P 500, so Why Is $85,000 Still Out of Reach?",
-   "link": "https://beincrypto.com/bitcoin-outperforms-sp500-below-85000/?.tsrc=rss",
-   "published": "2026-10-30T00:45:19Z",
-   "publisher": "",
-   "summary": "Bitcoin now beats the S&P 500 on more trading days, after outperforming on just one day in five during June.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Buenaventura Announces Third Quarter and Nine-Month 2026 Results",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/buenaventura-announces-third-quarter-nine-004500394.html",
-   "published": "2026-10-30T00:45:00Z",
-   "publisher": "",
-   "summary": "LIMA, Peru, October 30, 2026--Compañía de Minas Buenaventura S.A.A. (\"Buenaventura\" or \"the Company\") (NYSE: BVN; Lima Stock Exchange: BUE.LM), Peru’s largest publicly-traded precious metals mining company, today announced results for the third quarter (3Q26) and nine months ended September 30, 2026 (9M26). Financial results are prepared in accordance with International Financial Reporting Standar",
-   "symbols": []
-  },
-  {
-   "title": "BC-Select Stock Indices",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-003130045.html",
-   "published": "2026-10-30T00:31:30Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — Prices as of 8:30:00 PM Thursday, October 29. Change High Low Dow Jones 15 Utilities 1104.",
-   "symbols": []
-  },
-  {
-   "title": "AI Price Prediction: Bitcoin Is 35% Below ATH. ChatGPT AI Says When It Could Get Back to $126,000",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/29/ai-price-prediction-bitcoin-is-35-below-ath-chatgpt-ai-says-when-it-could-get-back-to-126000/?.tsrc=rss",
-   "published": "2026-10-30T00:29:03Z",
-   "publisher": "",
-   "summary": "Bitcoin sits more than a third below its record high, and ChatGPT has a surprisingly specific month when it could get back there, along with the exact conditions that could push that date forward or delay it further.",
    "symbols": [
     "BTC",
     "ETH",
