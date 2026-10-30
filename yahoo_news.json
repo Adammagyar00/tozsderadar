@@ -1,7 +1,39 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-30T23:10:18Z",
+ "updatedAt": "2026-10-30T23:41:32Z",
  "items": [
+  {
+   "title": "3 Australian Penny Stocks With Revenue Over 250 Million",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-penny-stocks-revenue-231147762.html",
+   "published": "2026-10-30T23:11:47Z",
+   "publisher": "",
+   "summary": "Oil prices are riding a four month upswing as conflict threats around the Strait of Hormuz keep energy supply risks in focus, and that is feeding straight into inflation worries. When costs stay stubborn, investors often hunt for smaller Australian companies with cleaner balance sheets rather than chasing hype. This article highlights three financially solid penny stocks that screen for stronger f",
+   "symbols": []
+  },
+  {
+   "title": "Mitani Is Just One Of Our 3 Top Hydrogen Stocks Picks",
+   "link": "https://finance.yahoo.com/energy/articles/mitani-just-one-3-top-231046623.html",
+   "published": "2026-10-30T23:10:46Z",
+   "publisher": "",
+   "summary": "Oil prices are heading for a fourth monthly gain as Middle East risks keep energy security in the headlines. Expensive fossil fuels can push policy makers and companies to look harder at alternatives like hydrogen fuel cell power. For investors, that creates a window to study businesses tied to this transition. This article highlights three hydrogen fuel cell technology stocks from our screener th",
+   "symbols": []
+  },
+  {
+   "title": "SpaceX accuses T-Mobile, other carriers of trying to harm it",
+   "link": "https://www.thestreet.com/markets/spacex-accuses-t-mobile-other-carriers-of-trying-to-harm-it?.tsrc=rss",
+   "published": "2026-10-30T23:04:00Z",
+   "publisher": "",
+   "summary": "SpaceX told the FCC that T-Mobile and other big carriers are fighting satellite-to-phone rules to hurt a rival.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "How Much Bitcoin Would You Need to Be a Millionaire if It Gets Back to Its Record High?",
    "link": "https://247wallst.com/investing/cryptocurrency/2026/10/30/how-much-bitcoin-would-you-need-to-be-a-millionaire-if-it-gets-back-to-its-record-high/?.tsrc=rss",
@@ -12,11 +44,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -37,11 +69,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -51,12 +83,12 @@
    "publisher": "",
    "summary": "Nvidia’s relationship with SpaceX runs deeper than most investors have noticed. The way that stake came together is worth understanding.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -102,6 +134,23 @@
     "BTC",
     "ETH",
     "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+   "published": "2026-10-30T22:14:00Z",
+   "publisher": "",
+   "summary": "The Q3 results we have already seen from 60% of S&P 500 members through Friday, October 30th, reconfirm the broad-based growth momentum we have become used to in the last few reporting cycles. Upcoming notable reports include Tech bellwethers like Apple, Advanced Micro Devices, and Palantir.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
     "ONDO",
     "XRP",
     "LLY",
@@ -119,11 +168,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3079,72 +3128,6 @@
    "publisher": "",
    "summary": "Wall Street has been gripped by a tech sell-off as fears about AI overspending unsettle investors.",
    "symbols": []
-  },
-  {
-   "title": "SpaceX's $28 Billion Spectrum Deals May Not Be Enough: Expert Sees Another $130 Billion to Rival T-Mobile",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/10/62739633/spacex-tmobile-130-billion?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-   "published": "2026-10-30T13:48:24Z",
-   "publisher": "",
-   "summary": "Elon Musk’s SpaceX (NASDAQ:SPCX) has agreed to nearly $28 billion in wireless spectrum deals. But telecommunications expert William Webb estimates it could need another $120 billion to $130 billion to compete with T-Mobile US Inc. (NASDAQ:TMUS) and America’s other major...",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Silver Has Lost More Than Half Its Value Since January",
-   "link": "https://247wallst.com/investing/2026/10/30/silver-has-lost-more-than-half-its-value-since-january/?.tsrc=rss",
-   "published": "2026-10-30T13:48:13Z",
-   "publisher": "",
-   "summary": "Silver has shed more than half its value from a record set just nine months ago, and the forces behind the collapse show no sign of reversing. Two signals now stand between a fragile floor and a deeper breakdown.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Amazon and Intel Plunge After Disappointing Results, Fueling Wall Street's Nerves About AI Spending",
-   "link": "https://www.ibtimes.com/amazon-intel-shares-fall-ai-spending-pc-market-3809185?.tsrc=rss",
-   "published": "2026-10-30T13:43:26Z",
-   "publisher": "",
-   "summary": "Amazon and Intel shares fell sharply after earnings highlighted the costs of AI investment, negative cash flow at Amazon and continued weakness in Intel's PC business.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Can You Make Money Off NVIDIA Stock Now?",
-   "link": "https://www.trefis.com/stock/nvda/articles/621499/can-you-make-money-off-nvidia-stock-now/2026-10-30?.tsrc=rss",
-   "published": "2026-10-30T13:42:03Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
   }
  ]
 }
