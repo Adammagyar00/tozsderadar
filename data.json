@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T10:55:56Z",
+ "builtAt": "2026-10-30T11:56:35Z",
  "digests": [
   {
    "calendar": [
@@ -376,6 +376,111 @@
      "title": "A Sanofi gyorsjelentése: a Dupixent 34,8%-kal nőtt, a gyógyszercég felemelte az éves célokat",
      "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-10-30-06-30-00-3392028",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · ExxonMobil közlemény · Investing.com",
+     "summary": "Az ExxonMobil harmadik negyedéves nyeresége 15,4 milliárd dollár (3,72 dollár/részvény) volt, a korrigált nyereség 17,5 milliárd dollár (4,23 dollár/részvény), szemben a Bloomberg szerinti 4,13 és az LSEG szerinti 4,08 dolláros konszenzussal. A finomítói haszonkulcsok emelkedése húzta a eredményt. A cég 20 milliárd dolláros visszavásárlást jelentett be 2027-re, a negyedik negyedéves osztalék 1,07 dollár/részvény.",
+     "symbols": [
+      "XOM"
+     ],
+     "title": "Az ExxonMobil korrigált nyeresége meghaladta a várakozást, 20 milliárd dolláros 2027-es részvény-visszavásárlást jelentett be",
+     "url": "https://finance.yahoo.com/energy/articles/exxonmobil-announces-third-quarter-2026-results-103000231.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance",
+     "summary": "A Chevron harmadik negyedéves korrigált nyeresége 10,4 milliárd dollár (5,28 dollár/részvény), a konszenzus a MarketBeat szerint 4,86 dollár volt. A bevétel a Yahoo Finance szerint 67,8 milliárd dollár. A beszámoló a finomítói haszonkulcsok emelkedését emeli ki.",
+     "symbols": [
+      "CVX"
+     ],
+     "title": "A Chevron korrigált eredménye a vártnál jobb, a finomítói marzsok emelték a nyereséget",
+     "url": "https://www.investing.com/news/earnings/chevron-beats-estimates-as-refining-margins-lift-earnings-4986588",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Valero közlemény · Investing.com",
+     "summary": "A Valero végleges megállapodást kötött a LYB Houston Hub megvételére 320,5 millió dollárért. A kb. 700 hektáros telephelyet 2025 februárjában zárták be; a Valero 2027 végéig 165 ezer hordó/napos könnyűolaj-feldolgozást indítana újra. A zárás 2026 végére várható, a versenyhivatali (HSR) várakozási idő lejártától függően.",
+     "symbols": [
+      "VLO",
+      "LYB"
+     ],
+     "title": "A Valero 320,5 millió dollárért megvenné a LyondellBasell egykori houstoni finomítóját",
+     "url": "https://finance.yahoo.com/energy/articles/valero-acquire-former-houston-refinery-102500402.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T11:50:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Eurostat",
+     "summary": "Az Eurostat gyorsbecslése szerint a GDP az euróövezetben 0,4%-kal, az EU-ban 0,5%-kal bővült az előző negyedévhez képest. Az elemzői várakozás 0,2% volt. A következő becslést november 13-án teszik közzé.",
+     "symbols": [],
+     "title": "Az euróövezet GDP-je a harmadik negyedévben 0,4%-kal nőtt negyedéves alapon, a várt 0,2% helyett",
+     "url": "https://www.investing.com/news/economic-indicators/eurozone-grows-by-13-yearonyear-in-thirdquarter-4986493",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T11:50:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Destatis",
+     "summary": "A Destatis gyorsbecslése szerint a német GDP negyedéves alapon 0,2%-kal bővült (várakozás: 0,1%), éves alapon 1,3%-kal (árakkal korrigálva). A növekedést az infrastruktúra- és védelmi állami kiadások támasztották alá, a beruházások csökkentek, az export gyengült.",
+     "symbols": [],
+     "title": "A német gazdaság a harmadik negyedévben 0,2%-kal nőtt, a vártnál jobban",
+     "url": "https://www.investing.com/news/economic-indicators/germanys-economy-grows-02-in-third-quarter-93CH-4986387",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T11:50:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Fabio Panetta, az olasz jegybank elnöke szerint a kamatok további emelése szükségessé válhat, mert az infláció a célszint felett marad. Az EKB tanácsának figyelembe kell vennie a kötvényhozamok közelmúltbeli emelkedését is. Az EKB csütörtökön változatlanul hagyta a kamatot.",
+     "symbols": [],
+     "title": "Panetta szerint az EKB-nak további kamatemelésekre lehet szüksége az infláció megfékezéséhez",
+     "url": "https://www.investing.com/news/economy-news/more-ecb-hikes-may-be-needed-to-stop-inflation-panetta-says-4986586",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T11:50:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Istat",
+     "summary": "Az Istat előzetes adata szerint az olasz fogyasztói árak éves növekedése 5,4% (szeptemberben 4,2%), a harmonizált index 5,6%. Az emelkedést főként az energiaárak hajtották; a maginfláció 2,0%.",
+     "symbols": [],
+     "title": "Az olasz infláció októberben 5,4%-ra gyorsult, jóval a várt 4,6% felett",
+     "url": "https://www.investing.com/news/economic-indicators/italys-consumer-price-inflation-jumps-to-54-in-october-93CH-4986528",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters által ismertetett belső feljegyzés szerint a VW a wolfsburgi üzem 300 millió eurós költséghiánya miatt felfüggesztette az új elektromos Golf fejlesztését. A munkavállalói tanács szerint a szünet nem késleltetné a bevezetést. A Volkswagen előző nap a legnagyobb negyedéves veszteségét jelentette több mint egy évtizedben.",
+     "symbols": [
+      "VOW3"
+     ],
+     "title": "A Volkswagen felfüggesztette az elektromos Golf fejlesztését a wolfsburgi üzemben",
+     "url": "https://www.investing.com/news/company-news/volkswagen-halts-electric-golf-development-at-wolfsburg-plant--report-93CH-4986589",
+     "verified": true
     }
    ],
    "markets": [
@@ -402,7 +507,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T09:45:00Z",
+   "updatedAt": "2026-10-30T11:50:00Z",
    "watchlist": []
   },
   {
@@ -3452,14 +3557,17 @@
    "id": "2026-10-30-jp-boj"
   },
   {
-   "actual": "",
+   "actual": "+0,4% negyedéves (EU: +0,5%)",
    "country": "EU",
    "date": "2026-10-30",
    "event": "Eurózóna GDP, 3. negyedév (gyorsbecslés)",
-   "forecast": "",
+   "forecast": "+0,2% negyedéves",
    "importance": 3,
+   "note": "Eurostat gyorsbecslés; konszenzus: FXStreet",
    "previous": "",
    "source": "Newsquawk, Thrive in Markets",
+   "surprise": "beat",
+   "surpriseNote": "A negyedéves növekedés 0,2 százalékponttal a vártnál jobb.",
    "time": "",
    "type": "Makroadat",
    "url": "https://thriveinmarkets.com/calendar/2026-10-26/",
