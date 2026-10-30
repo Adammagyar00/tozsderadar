@@ -1,7 +1,154 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-30T01:00:32Z",
+ "updatedAt": "2026-10-30T01:57:07Z",
  "items": [
+  {
+   "title": "Dow Jones Futures Fall, Nasdaq Futures Plunge 2% On Amazon, Intel After Google, ServiceNow, Fortinet Dive",
+   "link": "https://finance.yahoo.com/m/0a5ce393-a6df-312b-af64-1893a264d0df/dow-jones-futures-fall%2C.html",
+   "published": "2026-10-30T01:49:26Z",
+   "publisher": "",
+   "summary": "Amazon, Intel and Illumina were earnings losers overnight after Google, ServiceNow and Fortinet slammed techs. Much of the market is doing fine.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Anthropic accounts for over a third of SpaceX revenue in Q3, Bloomberg reports",
+   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-accounts-over-third-spacex-014451805.html",
+   "published": "2026-10-30T01:44:51Z",
+   "publisher": "",
+   "summary": "Investing.com-- Anthropic accounted for more than a third of SpaceX's (NASDAQ:SPCX) revenue in the third quarter, highlighting the Elon Musk-led company's growing dependence on artificial intelligence computing contracts, Bloomberg News reported on Thursday, citing a person familiar with the matter.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "U.S. stock futures sink, Nasdaq down 2% as Amazon, Intel earnings underwhelm",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-sink-nasdaq-013610173.html",
+   "published": "2026-10-30T01:36:10Z",
+   "publisher": "",
+   "summary": "Investing.com-- U.S. stock index futures fell on Thursday evening, with technology stocks set to extend losses after earnings from Amazon and Intel missed market estimates.",
+   "symbols": []
+  },
+  {
+   "title": "Warren Buffett Says Doing Nothing Beats Doing Something. History Says He's Right.",
+   "link": "https://www.fool.com/investing/2026/10/29/warren-buffett-nothing-beat-something-history-says/?.tsrc=rss",
+   "published": "2026-10-30T01:35:00Z",
+   "publisher": "",
+   "summary": "Investing is one of the few things where doing less is actually doing more.",
+   "symbols": []
+  },
+  {
+   "title": "SPCX, ASTS, RKLB Slide Overnight: Amazon Reaffirms 2026 Satellite Service Debut — Retail Weighs Competitive Threat",
+   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-asts-rklb-amazon-reaffirms-2026-satellite-service-debut-retail-competitive-threat/cZUhfAvR9R1?.tsrc=rss",
+   "published": "2026-10-30T01:34:25Z",
+   "publisher": "",
+   "summary": "Amazon’s Globalstar deal and upcoming direct-to-device network increase potential competition with ASTS.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Why Is MSTR Stock Falling More Than 6% Overnight?",
+   "link": "https://stocktwits.com/news-articles/markets/equity/why-is-mstr-stock-falling-more-than-6-overnight/cZUhfW9R9R0?.tsrc=rss",
+   "published": "2026-10-30T01:20:25Z",
+   "publisher": "",
+   "summary": "Strategy posted $125.4 million in total revenue for the quarter, down 3% year-over-year, and also below analysts’ expectations.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Nvidia's web of AI bets: smart strategy or bubble risk?",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidias-ai-bets-smart-strategy-011724661.html",
+   "published": "2026-10-30T01:17:24Z",
+   "publisher": "",
+   "summary": "Nvidia's $3 billion investment in Meta's share sale, announced Tuesday, is the latest addition to a portfolio of stakes, loans and guarantees that has made the chip giant what some analysts describe as the central bank of the artificial intelligence boom.Nvidia also has around $36 billion in cloud backstops and a guarantee of up to $105 billion linked to an OpenAI data center, according to US medi",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Caught Out By Reddit's Slide? What Bears Saw",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/caught-reddits-slide-bears-saw-010907537.html",
+   "published": "2026-10-30T01:09:07Z",
+   "publisher": "",
+   "summary": "Reddit has just reported another strong set of quarterly results and even secured a place in the S&P 500, yet the stock chart tells a very different story. Investors who held Reddit over the past year are down 33.3%, including dividends. If an investor had bought in on 29 October 2025 believing machine translation, AI search, and higher margins justified a rich P/E, what did that original case mis",
+   "symbols": []
+  },
+  {
+   "title": "Commodity Prices Can Rise While PDBC Lags. Blame the Futures Roll",
+   "link": "https://247wallst.com/investing/etf/2026/10/29/commodity-prices-can-rise-while-pdbc-lags-blame-the-futures-roll/?.tsrc=rss",
+   "published": "2026-10-30T01:03:09Z",
+   "publisher": "",
+   "summary": "Commodity prices can surge while your commodity ETF quietly loses ground, and the culprit never shows up in the fee table. Understanding the mechanics of the futures roll reveals a hidden cost that separates the price chart from the return you actually pocket.",
+   "symbols": []
+  },
+  {
+   "title": "Can Axon Stock Jump 50%?",
+   "link": "https://www.trefis.com/stock/axon/articles/621251/can-axon-stock-jump-50/2026-10-29?.tsrc=rss",
+   "published": "2026-10-30T01:00:13Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Why Should You Think About CSX Differently Now?",
+   "link": "https://www.trefis.com/stock/csx/articles/621250/why-should-you-think-about-csx-differently-now/2026-10-29?.tsrc=rss",
+   "published": "2026-10-30T00:50:59Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Is Beating the S&P 500, so Why Is $85,000 Still Out of Reach?",
+   "link": "https://beincrypto.com/bitcoin-outperforms-sp500-below-85000/?.tsrc=rss",
+   "published": "2026-10-30T00:45:19Z",
+   "publisher": "",
+   "summary": "Bitcoin now beats the S&P 500 on more trading days, after outperforming on just one day in five during June.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
   {
    "title": "Buenaventura Announces Third Quarter and Nine-Month 2026 Results",
    "link": "https://finance.yahoo.com/markets/stocks/articles/buenaventura-announces-third-quarter-nine-004500394.html",
@@ -28,12 +175,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "Novo Resources targets high-grade gold at Tibooburra",
+   "link": "https://finance.yahoo.com/video/novo-resources-targets-high-grade-002902754.html",
+   "published": "2026-10-30T00:29:02Z",
+   "publisher": "",
+   "summary": "Novo Resources Corp general manager of exploration Rohan Williams talked with Proactive about the company’s upcoming 2,700-metre reverse circulation drilling program at the Tibooburra Gold Project in New South Wales and the formation of a 70:30 joint venture with Manhattan Gold Corporation Ltd. Drilling at the Clone prospect will follow up encouraging results from Novo Resources Corp’s 2025 campai",
+   "symbols": []
   },
   {
    "title": "Bitcoin sinks to $78k after Binance hit with reported $5.3 bln hack",
@@ -45,11 +200,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -59,12 +214,12 @@
    "publisher": "",
    "summary": "Runaway demand for AI related chips has pushed Samsung to record operating profit. This shows how quickly earnings can move when a business is plugged into a powerful growth trend. That is the sort of earnings momentum analysts are looking for in this group of financially solid companies with strong profit growth potential. This article highlights three stocks from that list that fit this earnings",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -78,11 +233,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -95,12 +250,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "Review & Preview: Don’t Call It a Tech Wreck",
+   "link": "https://finance.yahoo.com/m/e95a0bef-0959-3cd2-acd2-e0018ddb54df/review-%26-preview%3A-don%E2%80%99t-call.html",
+   "published": "2026-10-29T23:55:00Z",
+   "publisher": "",
+   "summary": "Alphabet’s huge drop pulled down the Dow, S&P 500 and Nasdaq. But under the surface, most stocks had a solid day.",
+   "symbols": []
   },
   {
    "title": "Nasdaq 100 Futures Dip On Weak Intel, Amazon Earnings With Bloated Capex Worries Weighing On Sentiment — AMZN, INTC, SBUX, PLTR, ASTS In Focus",
@@ -154,11 +317,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2985,178 +3148,6 @@
    "publisher": "",
    "summary": "Caterpillar topped earnings estimates, but the Dow's best stock of 2026 is sinking anyway as Wall Street keeps dumping stocks tied to the AI build-out.",
    "symbols": []
-  },
-  {
-   "title": "FRAF Q3 Earnings Rise Y/Y as Margin & Deposit Growth Improve",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/fraf-q3-earnings-rise-y-143200725.html",
-   "published": "2026-10-29T14:32:00Z",
-   "publisher": "",
-   "summary": "Franklin Financial's Q3 earnings rally 59% y/y on higher net interest income and lower expenses, while rising non-performing loans pose credit risks.",
-   "symbols": []
-  },
-  {
-   "title": "Eli Lilly Raises Forecast, EBay Jumps on Results | Stock Movers",
-   "link": "https://finance.yahoo.com/video/eli-lilly-raises-forecast-ebay-143059520.html",
-   "published": "2026-10-29T14:30:59Z",
-   "publisher": "",
-   "summary": "Today's biggest winners and losers in the stock market. On this episode of Stock Movers: - Eli Lilly (LLY) is climbing in early trading after the drugmaker boosted its revenue guidance for the full year, following better-than-expected sales in the third quarter. - EBay (EBAY) shares jumped after the online auction company's results and forecast were seen as underlining its strong execution and gro",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "BC-Most Active Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143051087.html",
-   "published": "2026-10-29T14:30:51Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change Inlif Ltd.",
-   "symbols": []
-  },
-  {
-   "title": "Why Is Uranium Energy (UEC) Down 11.8% Since Last Earnings Report?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-uranium-energy-uec-down-143002442.html",
-   "published": "2026-10-29T14:30:02Z",
-   "publisher": "",
-   "summary": "Uranium Energy (UEC) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-   "symbols": []
-  },
-  {
-   "title": "Where Will VYM Be in 2036? Here’s What the 2.4% Yield Is Hiding.",
-   "link": "https://www.fool.com/investing/2026/10/29/where-will-vym-be-in-2036-here-s-what-the-2-4-yield-is-hiding/?.tsrc=rss",
-   "published": "2026-10-29T14:28:02Z",
-   "publisher": "",
-   "summary": "VYM's focus on higher-yielding dividend stocks doesn't mean it will deliver a higher total return.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Can BAC's Branch Expansion & AI Push Drive Long-Term Growth?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bacs-branch-expansion-ai-push-142600967.html",
-   "published": "2026-10-29T14:26:00Z",
-   "publisher": "",
-   "summary": "Bank of America's expanding branch network and AI investments could fuel deposit growth, deepen customer relationships and improve operating efficiency.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Did The Market Read Lam Research Stock Right?",
-   "link": "https://www.trefis.com/stock/lrcx/articles/621285/did-the-market-read-lam-research-stock-right/2026-10-29?.tsrc=rss",
-   "published": "2026-10-29T14:24:06Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "These IBD 50 Energy Stocks Show Gigantic Earnings Growth",
-   "link": "https://finance.yahoo.com/m/4726d84d-d5fb-3269-b458-89e2fccc09d2/these-ibd-50-energy-stocks.html",
-   "published": "2026-10-29T14:19:11Z",
-   "publisher": "",
-   "summary": "Energy-related stocks now dominate the IBD 50, along with technology. The energy sector is up more than 11% this month, beating all other S&P 500 sectors.",
-   "symbols": []
-  },
-  {
-   "title": "Lumentum Holdings (LITE) Is Reportedly In Advanced Acquisition Talks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/lumentum-holdings-lite-reportedly-advanced-141742846.html",
-   "published": "2026-10-29T14:17:42Z",
-   "publisher": "",
-   "summary": "Lumentum Holdings (NasdaqGS:LITE) is reportedly in advanced talks to be acquired by Marvell Technology. The potential deal would combine Marvell's AI data center infrastructure portfolio with Lumentum's optical and photonic components business. Any acquisition agreement would be subject to negotiation outcomes, regulatory review and approval by relevant stakeholders. The reported Marvell bid for L",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Alphabet is Plunging More Than 10% After Its Earnings Disappointed. It's Dragging The Nasdaq With It.",
-   "link": "https://www.ibtimes.com/alphabet-plunging-more-10-after-its-earnings-disappointed-its-dragging-nasdaq-it-3809135?.tsrc=rss",
-   "published": "2026-10-29T14:15:32Z",
-   "publisher": "",
-   "summary": "The company reported a larger negative free cash flow than analysts had expected.",
-   "symbols": []
-  },
-  {
-   "title": "Eli Lilly Shares Surge on Raised Sales Forecast",
-   "link": "https://finance.yahoo.com/video/eli-lilly-shares-surge-raised-141521694.html",
-   "published": "2026-10-29T14:15:21Z",
-   "publisher": "",
-   "summary": "Eli Lilly & Co. raised its full-year sales forecast as demand for its blockbuster obesity and diabetes drugs continues to surge. Speaking on \"Bloomberg Open Interest,\" Bloomberg's Madison Muller also discusses the implications for Novo Nordisk.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Hot takes on hot wings, the state of the running shoe market, and Microsoft's recent quarter",
-   "link": "https://finance.yahoo.com/video/hot-takes-on-hot-wings-the-state-of-the-running-shoe-market-and-microsofts-recent-quarter-141512057.html",
-   "published": "2026-10-29T14:15:12Z",
-   "publisher": "",
-   "summary": "Yahoo Finance Executive Editor Brian Sozzi breaks down all the latest earnings reports, including Google (GOOG), Microsoft (MSFT), Chipotle (CMG), and Wingstop (WING). Plus, why C-suite leaders are poring through Anthropic's S-1. Sozzi sits down for an interview with Brooks Running CEO Dan Sheridan- whose company is a subsidiary of Berkshire Hathaway, Inc. (BRK-A) (BRK-B)- to discuss the state of ",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "3 Reasons to sell AKAM and 1 stock to buy instead",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-akam-1-141103021.html",
-   "published": "2026-10-29T14:11:03Z",
-   "publisher": "",
-   "summary": "Akamai currently trades at $96.60 per share and has shown little upside over the past six months, posting a small loss of 3.2%. The stock also fell short of the S&P 500’s 8.2% gain during that period.",
-   "symbols": []
-  },
-  {
-   "title": "VYM’s Price May Be Soaring, but Its Dividend Isn’t Keeping Up",
-   "link": "https://247wallst.com/investing/etf/2026/10/29/vyms-price-may-be-soaring-but-its-dividend-isnt-keeping-up/?.tsrc=rss",
-   "published": "2026-10-29T14:08:13Z",
-   "publisher": "",
-   "summary": "VYM has handed shareholders a remarkable run, but the gap between share price growth and dividend growth is raising an uncomfortable question for retirees counting on that quarterly check.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
