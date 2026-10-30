@@ -1,6 +1,6 @@
 {
  "source": "Finnhub",
- "updatedAt": "2026-10-30T22:30:55Z",
+ "updatedAt": "2026-10-30T23:15:24Z",
  "quotes": {
   "VUAA": {
    "price": 147.1,
@@ -304,7 +304,7 @@
    "price": 6131.31,
    "prevClose": 6207.07,
    "t": 1793379600,
-   "currency": "EUR"
+   "currency": null
   },
   "^BUX.BD": {
    "price": 145257.34,
