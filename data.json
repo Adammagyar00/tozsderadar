@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T16:56:05Z",
+ "builtAt": "2026-10-30T17:56:37Z",
  "digests": [
   {
    "calendar": [
@@ -828,6 +828,72 @@
      "title": "Lemond a Strategy pénzügyi igazgatója, Andrew Kang, a rekordnegyedéves eredmény mellett",
      "url": "https://www.cryptoprowl.com/releases/strategys-chief-financial-officer-resigns-7554?.tsrc=rss",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T17:38:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a St. Louis-i Fed elnöke, Alberto Musalem szerint a Fed-nek hamarosan emelnie kell a kamatot. A kijelentés illeszkedik a Fed többi tagjának (pl. Barkin) mai, további emelést jelző megszólalásaihoz.",
+     "symbols": [],
+     "title": "Musalem (Fed): hamarosan kamatemelésre van szükség",
+     "url": "https://www.investing.com/news/economy-news/feds-musalem-says-a-rate-hike-is-needed-soon-4988364",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T17:38:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Philip Lane, az EKB főközgazdásza szerint az MI-hez kapcsolódó beruházások támasztják alá az euróövezet növekedését.",
+     "symbols": [],
+     "title": "Lane (EKB): az MI-beruházások támogatják az euróövezeti növekedést",
+     "url": "https://www.investing.com/news/economy-news/ecbs-lane-says-ai-investments-are-supporting-euro-zone-growth-93CH-4988394",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T17:38:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Cintas első negyedéves bevétele rekordot döntve 3,01 milliárd dollár (+10,9%), a hígított EPS 1,36 dollár (+13,3%). A cég emelte az éves bevételi iránymutatását 12,15–12,27 milliárd dollárra; az árfolyam a Yahoo szerint 15%-ot emelkedett.",
+     "symbols": [
+      "CTAS"
+     ],
+     "title": "A Cintas rekord első negyedéves bevételt jelentett, és emelte az éves kilátásait",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cintas-corporation-ctas-gains-15-155435831.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T17:38:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Colgate-Palmolive a vártnál jobb harmadik negyedév után felemelte a teljes éves eredménynövekedési kilátását.",
+     "symbols": [
+      "CL"
+     ],
+     "title": "A Colgate-Palmolive a harmadik negyedéves eredmény után emelte az éves növekedési kilátását",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/colgate-palmolive-lifts-full-earnings-143355575.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T17:38:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (a Financial Times nyomán)",
+     "summary": "A Financial Times értesülése szerint a Clayton, Dubilier & Rice a kb. 40 milliárd dolláros fizetésfeldolgozó Global Payments felvásárlására törekszik. Külön megerősítést nem találtunk, cáfolatot sem.",
+     "symbols": [
+      "GPN"
+     ],
+     "title": "Értesülések szerint a CD&R felvásárolná a 40 milliárd dolláros Global Paymentst",
+     "url": "https://www.investing.com/news/stock-market-news/cdr-pursues-buyout-of-40-billion-payments-processor-global-payments-ft-reports-4988379",
+     "verified": false
     }
    ],
    "markets": [
@@ -854,7 +920,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T16:45:00Z",
+   "updatedAt": "2026-10-30T17:38:00Z",
    "watchlist": []
   },
   {
