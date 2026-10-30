@@ -1,315 +1,315 @@
 {
  "source": "Finnhub",
- "updatedAt": "2026-10-30T15:32:17Z",
+ "updatedAt": "2026-10-30T16:30:01Z",
  "quotes": {
   "VUAA": {
-   "price": 147.32,
-   "change": -1.35,
+   "price": 147.0,
+   "change": -1.57,
    "prevClose": 149.34,
-   "t": 1793373350,
+   "t": 1793376852,
    "listing": "VUAA.L",
    "currency": "USD",
-   "local": 147.32,
+   "local": 147.0,
    "source": "Yahoo Finance (VUAA.L)"
   },
   "DFND": {
-   "price": 8.8943,
-   "change": -2.19,
-   "prevClose": 9.0938,
-   "t": 1793373128,
+   "price": 8.9077,
+   "change": -2.08,
+   "prevClose": 9.0966,
+   "t": 1793376812,
    "listing": "DFND.L",
    "currency": "GBP",
-   "local": 6.641,
+   "local": 6.649,
    "source": "Yahoo Finance (DFND.L)"
   },
   "EQQQ": {
-   "price": 699.3423,
-   "change": -2.88,
-   "prevClose": 720.1148,
-   "t": 1793373323,
+   "price": 695.5588,
+   "change": -3.44,
+   "prevClose": 720.3299,
+   "t": 1793376858,
    "listing": "EQQQ.L",
    "currency": "GBp",
-   "local": 52217.0,
+   "local": 51919.0,
    "source": "Yahoo Finance (EQQQ.L)"
   },
   "XDW0": {
-   "price": 84.1461,
-   "change": 1.74,
-   "prevClose": 82.7068,
-   "t": 1793373069,
+   "price": 84.0763,
+   "change": 1.56,
+   "prevClose": 82.781,
+   "t": 1793376840,
    "listing": "XDW0.DE",
    "currency": "EUR",
-   "local": 75.42,
+   "local": 75.29,
    "source": "Yahoo Finance (XDW0.DE)"
   },
   "DFEN": {
-   "price": 58.7751,
-   "change": -1.55,
-   "prevClose": 59.7011,
-   "t": 1793373360,
+   "price": 58.7161,
+   "change": -1.74,
+   "prevClose": 59.7546,
+   "t": 1793376520,
    "listing": "DFEN.DE",
    "currency": "EUR",
-   "local": 52.68,
+   "local": 52.58,
    "source": "Yahoo Finance (DFEN.DE)"
   },
   "LLY": {
-   "price": 1430.73,
-   "change": 4.1516,
+   "price": 1425.86,
+   "change": 3.797,
    "prevClose": 1373.7,
-   "t": 1793374278
+   "t": 1793377743
   },
   "MU": {
-   "price": 888.4,
-   "change": -4.9097,
+   "price": 883.62,
+   "change": -5.4213,
    "prevClose": 934.27,
-   "t": 1793374284
+   "t": 1793377743
   },
   "MRVL": {
-   "price": 199.45,
-   "change": -8.6516,
+   "price": 197.36,
+   "change": -9.6089,
    "prevClose": 218.34,
-   "t": 1793374283
+   "t": 1793377740
   },
   "SPCX": {
-   "price": 138.45,
-   "change": -3.7807,
+   "price": 138.04,
+   "change": -4.0656,
    "prevClose": 143.89,
-   "t": 1793374284
+   "t": 1793377743
   },
   "BE": {
-   "price": 204.16,
-   "change": -8.1601,
+   "price": 202.38,
+   "change": -8.9609,
    "prevClose": 222.3,
-   "t": 1793374284
+   "t": 1793377737
   },
   "JPM": {
-   "price": 338.95,
-   "change": -1.3476,
+   "price": 338.92,
+   "change": -1.3563,
    "prevClose": 343.58,
-   "t": 1793374282
+   "t": 1793377739
   },
   "VOO": {
-   "price": 697.14,
-   "change": -1.4392,
+   "price": 696.35,
+   "change": -1.5509,
    "prevClose": 707.32,
-   "t": 1793374284
+   "t": 1793377743
   },
   "QQQ": {
-   "price": 694.51,
-   "change": -2.9119,
+   "price": 692.66,
+   "change": -3.1705,
    "prevClose": 715.34,
-   "t": 1793374284
+   "t": 1793377743
   },
   "NVDA": {
-   "price": 206.07,
-   "change": -3.5524,
+   "price": 204.94,
+   "change": -4.0813,
    "prevClose": 213.66,
-   "t": 1793374284
+   "t": 1793377743
   },
   "MSFT": {
-   "price": 521.93,
-   "change": -1.5486,
+   "price": 523.04,
+   "change": -1.3393,
    "prevClose": 530.14,
-   "t": 1793374283
+   "t": 1793377743
   },
   "AAPL": {
-   "price": 347.53,
-   "change": -0.3955,
+   "price": 347.65,
+   "change": -0.3611,
    "prevClose": 348.91,
-   "t": 1793374284
+   "t": 1793377766
   },
   "GOOGL": {
-   "price": 282.65,
-   "change": -0.4122,
+   "price": 280.72,
+   "change": -1.0922,
    "prevClose": 283.82,
-   "t": 1793374307
+   "t": 1793377766
   },
   "AMZN": {
-   "price": 239.89,
-   "change": -1.5997,
+   "price": 239.1,
+   "change": -1.9238,
    "prevClose": 243.79,
-   "t": 1793374307
+   "t": 1793377766
   },
   "META": {
-   "price": 620.78,
-   "change": -0.5989,
+   "price": 620.41,
+   "change": -0.6581,
    "prevClose": 624.52,
-   "t": 1793374307
+   "t": 1793377765
   },
   "TSLA": {
-   "price": 400.99,
-   "change": -0.5728,
+   "price": 400.21,
+   "change": -0.7662,
    "prevClose": 403.3,
-   "t": 1793374307
+   "t": 1793377766
   },
   "AVGO": {
-   "price": 326.8,
-   "change": -5.2754,
+   "price": 325.61,
+   "change": -5.6203,
    "prevClose": 345,
-   "t": 1793374307
+   "t": 1793377766
   },
   "BRK.B": {
-   "price": 546.61,
-   "change": 0.858,
+   "price": 546.69,
+   "change": 0.8728,
    "prevClose": 541.96,
-   "t": 1793374298
+   "t": 1793377761
   },
   "V": {
-   "price": 414.32,
-   "change": 0.9207,
+   "price": 414.55,
+   "change": 0.9768,
    "prevClose": 410.54,
-   "t": 1793374304
+   "t": 1793377764
   },
   "NFLX": {
-   "price": 62.5,
-   "change": 0.7252,
+   "price": 62.29,
+   "change": 0.3868,
    "prevClose": 62.05,
-   "t": 1793374306
+   "t": 1793377765
   },
   "AMD": {
-   "price": 512.07,
-   "change": -9.5954,
+   "price": 502.47,
+   "change": -11.2902,
    "prevClose": 566.42,
-   "t": 1793374307
+   "t": 1793377766
   },
   "ORCL": {
-   "price": 131.48,
-   "change": -5.7896,
+   "price": 131.94,
+   "change": -5.46,
    "prevClose": 139.56,
-   "t": 1793374307
+   "t": 1793377765
   },
   "TSM": {
-   "price": 409.23,
-   "change": -5.2292,
+   "price": 407.47,
+   "change": -5.6367,
    "prevClose": 431.81,
-   "t": 1793374305
+   "t": 1793377764
   }
  },
  "market": {
   "EURHUF=X": {
-   "price": 365.465,
+   "price": 365.354,
    "prevClose": 365.08,
-   "t": 1793374261,
+   "t": 1793377785,
    "currency": "HUF"
   },
   "USDHUF=X": {
-   "price": 327.677,
+   "price": 327.369,
    "prevClose": 326.67,
-   "t": 1793374261,
+   "t": 1793377791,
    "currency": "HUF"
   },
   "CHFHUF=X": {
-   "price": 397.525,
+   "price": 397.36,
    "prevClose": 396.54,
-   "t": 1793374261,
+   "t": 1793377784,
    "currency": "HUF"
   },
   "GBPHUF=X": {
-   "price": 438.85,
+   "price": 438.53,
    "prevClose": 436.78,
-   "t": 1793374261,
+   "t": 1793377787,
    "currency": "HUF"
   },
   "EURUSD=X": {
-   "price": 1.1157,
+   "price": 1.1167,
    "prevClose": 1.1181,
-   "t": 1793374245,
+   "t": 1793377782,
    "currency": "USD"
   },
   "BZ=F": {
-   "price": 113.74,
+   "price": 113.96,
    "prevClose": 110.8,
-   "t": 1793373656,
+   "t": 1793377189,
    "currency": "USD"
   },
   "CL=F": {
-   "price": 104.2,
+   "price": 104.45,
    "prevClose": 102.0,
-   "t": 1793373661,
+   "t": 1793377192,
    "currency": "USD"
   },
   "GC=F": {
-   "price": 3917.0,
+   "price": 3905.9,
    "prevClose": 4031.4,
-   "t": 1793373660,
+   "t": 1793377191,
    "currency": "USD"
   },
   "SI=F": {
-   "price": 49.315,
+   "price": 49.24,
    "prevClose": 52.38,
-   "t": 1793373661,
+   "t": 1793377191,
    "currency": "USD"
   },
   "HG=F": {
-   "price": 6.4935,
+   "price": 6.4815,
    "prevClose": 6.6025,
-   "t": 1793373660,
+   "t": 1793377194,
    "currency": "USD"
   },
   "NG=F": {
-   "price": 2.878,
+   "price": 2.893,
    "prevClose": 2.952,
-   "t": 1793373660,
+   "t": 1793377191,
    "currency": "USD"
   },
   "^TNX": {
    "price": 4.954,
    "prevClose": 4.989,
-   "t": 1793373354,
+   "t": 1793376894,
    "currency": "USD"
   },
   "^GSPC": {
-   "price": 7606.99,
+   "price": 7600.3,
    "prevClose": 7720.39,
-   "t": 1793374261,
+   "t": 1793377795,
    "currency": "USD"
   },
   "^IXIC": {
-   "price": 25564.47,
+   "price": 25504.88,
    "prevClose": 26184.725,
-   "t": 1793374259,
+   "t": 1793377796,
    "currency": "USD"
   },
   "^DJI": {
-   "price": 52020.95,
+   "price": 51985.41,
    "prevClose": 52342.56,
-   "t": 1793374262,
+   "t": 1793377796,
    "currency": "USD"
   },
   "^RUT": {
-   "price": 2817.867,
+   "price": 2807.724,
    "prevClose": 2859.2166,
-   "t": 1793373360,
+   "t": 1793376895,
    "currency": "USD"
   },
   "^GDAXI": {
-   "price": 25839.21,
+   "price": 25791.67,
    "prevClose": 26039.68,
-   "t": 1793373362,
+   "t": 1793376896,
    "currency": "EUR"
   },
   "^FTSE": {
-   "price": 10736.34,
+   "price": 10721.87,
    "prevClose": 10722.07,
-   "t": 1793373362,
+   "t": 1793376897,
    "currency": "GBP"
   },
   "^FCHI": {
-   "price": 7963.85,
+   "price": 7954.57,
    "prevClose": 7970.0,
-   "t": 1793373360,
+   "t": 1793376885,
    "currency": "EUR"
   },
   "^STOXX50E": {
-   "price": 6141.79,
+   "price": 6125.9,
    "prevClose": 6207.07,
-   "t": 1793373360,
-   "currency": null
+   "t": 1793376870,
+   "currency": "EUR"
   },
   "^BUX.BD": {
-   "price": 144619.2,
+   "price": 145257.34,
    "prevClose": 147188.22,
-   "t": 1793373360,
+   "t": 1793376721,
    "currency": "HUF"
   },
   "^N225": {
@@ -331,21 +331,21 @@
    "currency": "CNY"
   },
   "OTP.BD": {
-   "price": 41970.0,
+   "price": 41560.0,
    "prevClose": 42750.0,
-   "t": 1793371987,
+   "t": 1793375698,
    "currency": "HUF"
   },
   "MOL.BD": {
    "price": 4990.0,
    "prevClose": 5050.0,
-   "t": 1793372156,
+   "t": 1793375424,
    "currency": "HUF"
   },
   "RICHT.BD": {
-   "price": 12960.0,
+   "price": 12830.0,
    "prevClose": 13100.0,
-   "t": 1793372130,
+   "t": 1793375609,
    "currency": "HUF"
   }
  }
