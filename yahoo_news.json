@@ -1,7 +1,40 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-30T03:47:57Z",
+ "updatedAt": "2026-10-30T04:47:26Z",
  "items": [
+  {
+   "title": "If a Stock Market Crash Is Coming, History Says Following These 6 Words From Warren Buffett Is the Smartest Move You Can Make",
+   "link": "https://www.fool.com/investing/2026/10/30/if-a-stock-market-crash-is-coming-history-says-fol/?.tsrc=rss",
+   "published": "2026-10-30T04:20:00Z",
+   "publisher": "",
+   "summary": "Worried about a stock market crash? Warren Buffett's advice can help you keep your head -- and spot opportunities when others are running scared.",
+   "symbols": []
+  },
+  {
+   "title": "Dow, S&P 500, Nasdaq Futures Fall As Weak Tech Earnings Trigger Selloff: INTC, IOVA, SLS, AMZN Stocks In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-fall-as-weak-tech-earnings-trigger-selloff-intc-iova-sls-amzn-stocks-in-focus/cZUhiAhR9RF?.tsrc=rss",
+   "published": "2026-10-30T04:03:05Z",
+   "publisher": "",
+   "summary": "Markets are headed for a mixed close in October, with the Nasdaq likely to end lower, while the Dow and S&P 500 are headed to close in the green.",
+   "symbols": []
+  },
+  {
+   "title": "Every Crypto is Down, Except HyperLiquid. Why?",
+   "link": "https://beincrypto.com/hyperliquid-rises-crypto-falls-ice-druckenmiller/?.tsrc=rss",
+   "published": "2026-10-30T03:54:17Z",
+   "publisher": "",
+   "summary": "Crypto sells off on Binance hack fears while Hyperliquid rises on news from ICE, Druckenmiller and Elon Musk.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "What TriMas (TRS) Said on Its Q3 Earnings Call",
    "link": "https://www.marketbeat.com/instant-alerts/transcript-what-trimas-trs-said-on-its-q3-earnings-call-2026-10-29/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
@@ -20,11 +53,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -37,11 +70,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -54,11 +87,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -84,12 +117,12 @@
    "publisher": "",
    "summary": "Investor Kevin O’Leary sees a potentially attractive trading opportunity in Anthropic’s upcoming initial public offering, arguing that immediate liquidity could make the AI company’s stock more appealing than the Space Exploration Technologies Corp. IPO allocation he previously declined. O’Leary Prioritizes...",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3115,39 +3148,6 @@
     "MU",
     "MRVL"
    ]
-  },
-  {
-   "title": "Turner, Mason & Company Releases Four Fall Energy Market Outlook Reports",
-   "link": "https://finance.yahoo.com/energy/articles/turner-mason-company-releases-four-150000084.html",
-   "published": "2026-10-29T15:00:00Z",
-   "publisher": "",
-   "summary": "Texas-based consultancy Turner, Mason & Company today announced the release of its Fall 2026 Outlooks on the energy market, providing medium- and long-term analysis of crude and refined products, heavy crude markets, renewable fuels and regulations and worldwide refinery construction.",
-   "symbols": []
-  },
-  {
-   "title": "Lilly’s Weight-Loss Machine Gets Even Bigger",
-   "link": "https://app.moby.co/home/news/news-lillys-weight-loss-machine-gets-even-bigger?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-   "published": "2026-10-29T14:59:07Z",
-   "publisher": "",
-   "summary": "Mounjaro and Zepbound powered another huge earnings beat and a multibillion-dollar guidance upgrade, even as Lilly’s new obesity pill trails Novo Nordisk out of the gate.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "AI Fears Sink Indexes Despite Most Stocks Trading Higher",
-   "link": "https://finance.yahoo.com/m/592d6d94-c2ea-3dde-883c-b9e709e9ad19/ai-fears-sink-indexes-despite.html",
-   "published": "2026-10-29T14:53:13Z",
-   "publisher": "",
-   "summary": "You wouldn't guess it looking at the index level, but most stocks were actually in the green today.",
-   "symbols": []
   }
  ]
 }
