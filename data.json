@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T17:56:37Z",
+ "builtAt": "2026-10-30T18:55:55Z",
  "digests": [
   {
    "calendar": [
@@ -894,6 +894,73 @@
      "title": "Értesülések szerint a CD&R felvásárolná a 40 milliárd dolláros Global Paymentst",
      "url": "https://www.investing.com/news/stock-market-news/cdr-pursues-buyout-of-40-billion-payments-processor-global-payments-ft-reports-4988379",
      "verified": false
+    },
+    {
+     "addedAt": "2026-10-30T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance szerint az Alphabet heti, 477 milliárd dolláros vesztesége a pénteki mélypontnál nagyobb volt, mint a SpaceX, az Intel, az Nvidia és az Amazon együttes vesztesége, így a cég történetének legrosszabb hónapját zárja. A 766 milliárd dolláros összeget más forrás nem erősítette meg, cáfolatot sem találtunk.",
+     "symbols": [
+      "GOOGL"
+     ],
+     "title": "Az Alphabet októberben rekordot döntött: 766 milliárd dollárnyi piaci értéket veszített",
+     "url": "https://finance.yahoo.com/markets/article/alphabets-october-wipeout-hits-766-billion-its-worst-month-ever-181407937.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T18:40:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance szerint a Nasdaq pénteken délután mintegy 810 ponttal esett, a mega-cap chipgyártók az Intel gyorsjelentése után estek vissza. A Yahoo élő tudósítása szerint a Nasdaq a nap közben 2,5–3% fölötti mínuszban járt, az S&P 500 1,3–2%-ot esett.",
+     "symbols": [
+      "^IXIC",
+      "INTC"
+     ],
+     "title": "A Nasdaq 810 pontot zuhant, miután az Intel eredménye lehúzta a nagy chipgyártókat",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-plunges-810-points-mega-174623685.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T18:40:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Dallasi Fed elnöke, Lorie Logan szerint a Fednek legalább még két kamatemelésre van szüksége. Ez összhangban van Logan október eleji kijelentésével (legalább további 50 bázispont), de a mai nyilatkozatot külön nem találtuk meg más forrásnál.",
+     "symbols": [],
+     "title": "Logan (Fed): legalább két további kamatemelés kellhet",
+     "url": "https://www.investing.com/news/economic-indicators/fed-needs-at-least-two-more-rate-hikes-logan-says-4988462",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-10-30T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com két cikke szerint az amerikai értékpapír-felügyelet (SEC) végrehajtási vezetője közölte, hogy az ügynökség figyeli az MI-vel kapcsolatos vállalati közzétételeket. A mai nyilatkozatot külön forrás nem erősítette meg, cáfolatot nem találtunk.",
+     "symbols": [],
+     "title": "Az SEC vizsgálja az MI-cégek közléseit a buborékaggodalmak közepette",
+     "url": "https://www.investing.com/news/economy-news/us-secs-top-cop-says-agency-is-monitoring-ai-corporate-disclosures-4988480",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-10-30T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com (jelentés nyomán)",
+     "summary": "Az Investing.com egy jelentésre hivatkozva írja, hogy a Ford 2032-re 20%-os értékesítésnövekedést, évi 5 millió autót céloz. Külön megerősítést nem találtunk, cáfolatot sem.",
+     "symbols": [
+      "F"
+     ],
+     "title": "Jelentés szerint a Ford 2032-re 20%-kal, évi 5 millió autóra növelné az eladásait",
+     "url": "https://www.investing.com/news/stock-market-news/ford-targets-20-sales-jump-by-2032-to-5-million-cars-annually--report-4988459",
+     "verified": false
     }
    ],
    "markets": [
@@ -920,7 +987,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T17:38:00Z",
+   "updatedAt": "2026-10-30T18:40:00Z",
    "watchlist": []
   },
   {
