@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T14:55:45Z",
+ "builtAt": "2026-10-30T15:56:43Z",
  "digests": [
   {
    "calendar": [
@@ -692,6 +692,97 @@
      "title": "Az Investing.com szerint ugrott az Xponential Fitness árfolyama egy állítólagos felvásárlási ajánlat miatt",
      "url": "https://www.investing.com/news/stock-market-news/xponential-fitness-shares-jump-on-reports-of-takeover-bid-4988071",
      "verified": false
+    },
+    {
+     "addedAt": "2026-10-30T15:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az index októberben eddig több mint 5,8%-ot esett. A Meta, az Alphabet és az Amazon is tovább emelte az MI-infrastruktúra-kiadási terveit, a Meta rekordméretű, 97,5 milliárd dolláros tőkebevonása pedig a hígulástól való félelmet erősítette.",
+     "symbols": [
+      "QQQ"
+     ],
+     "title": "A Nasdaq-100 októberben több mint 2 billió dollárnyi piaci értéket veszíthet az MI-kiadási aggodalmak miatt",
+     "url": "https://www.investing.com/news/stock-market-news/nasdaq-faces-2-trillion-wipeout-in-october-as-ai-spending-fears-deepen-4988211",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T15:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St. · Investing.com",
+     "summary": "A Reuters szerint az Intel 29%-os zuhanása után a félvezetőpapírok (Arm, Qualcomm, Nvidia, Broadcom, Micron) 2–10%-ot estek; az Intel a memóriaárak emelkedésével magyarázta a PC-piaci lassulást. A Marvell kb. 8%-os eséséről a 24/7 Wall St. számolt be, ezt más forrás nem erősítette meg külön.",
+     "symbols": [
+      "MU",
+      "MRVL"
+     ],
+     "title": "A chipszektor kiárusítása az Intel-sokk után: a Micron 4–6%-ot esett, a Marvell a 24/7 Wall St. szerint 8%-ot",
+     "url": "https://247wallst.com/investing/2026/10/30/broadcom-falls-5-despite-da-davidson-upgrade-on-anthropic-and-openai-ipo-hopes-arm-and-qualcomm-sink-10-marvell-drops-8/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T15:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR · Regeneron",
+     "summary": "A bevétel 36%-kal 5,1 milliárd dollárra nőtt, a nem GAAP szerinti egy részvényre jutó nyereség 20,07 dollár volt, a cég emelte az éves kilátását és bővítette a Sanofi-együttműködést. A forrásoknál eltér a napi emelkedés mértéke (7–12%).",
+     "symbols": [],
+     "title": "A Regeneron 7–12%-ot ugrott a Dupixent-vezérelte erős harmadik negyedéves eredmény után",
+     "url": "https://www.tikr.com/blog/regeneron-soars-12-on-dupixent-fueled-q3-beat-one-of-our-strongest-years-ever",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T15:45:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Cointelegraph",
+     "summary": "Saylor a harmadik negyedéves hívásán 10, 20 vagy 30 milliárd dollárnyi kapacitásról beszélt, új törzsrészvény-kibocsátás nélkül. Ez kapacitás, nem bejelentett célösszeg.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Strategy a Cointelegraph szerint akár 30 milliárd dollárnyi „digitális hitelt” (elsőbbségi részvényt) hozhat létre további bitcoinvásárlásra",
+     "url": "https://www.cryptoprowl.com/releases/saylor-says-strategy-could-create-up-to-30-billion-of-digital-credit-to-fund-more-bitcoin-7578?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T15:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · AP",
+     "summary": "A szaúdi vezetésű koalíció szóvivője szerint a drónt pénteken elfogták. A húszik szóvivője tagadta, hogy Mekkát támadták volna; szerintük célpontjaik a szaúdi olajlétesítmények és katonai bázisok.",
+     "symbols": [],
+     "title": "Szaúd-Arábia szerint lelőttek egy drónt Mekka térségében; a koalíció a húszikat nevezte meg, ők tagadják",
+     "url": "https://www.investing.com/news/economy-news/saudi-arabia-says-drone-intercepted-and-destroyed-near-islams-holiest-city--ap-4988176",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T15:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A richmondi Fed elnöke a SiriusXM-nek azt mondta, a Fed fokozatos megközelítést jelzett; szerinte az MI-beruházások inflációs hatásúak. A Reuters szerint a befektetők újabb negyedpontos emelést várnak a decemberi ülésen.",
+     "symbols": [],
+     "title": "Barkin (Fed): az irány egyértelmű, a kérdés az ütem",
+     "url": "https://www.investing.com/news/economy-news/feds-barkin-says-us-central-banks-direction-straightforward-the-question-is-pace-siriusxm-reports-4988174",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T15:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a csoport működési eredmény-előrejelzése 590-ről 710 milliárd jenre nőtt, az MI-hez kötődő kereslet erősebb a vártnál. Az Investing.com szerint a korrigált működési eredmény kilátása 780 milliárd jen (korábban 650).",
+     "symbols": [],
+     "title": "A Panasonic 20%-kal emelte éves nyereségkilátását erős negyedév után",
+     "url": "https://www.investing.com/news/earnings/panasonic-raises-fullyear-profit-guidance-by-20-after-strong-quarter-93CH-4988219",
+     "verified": true
     }
    ],
    "markets": [
@@ -718,7 +809,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T14:45:00Z",
+   "updatedAt": "2026-10-30T15:45:00Z",
    "watchlist": []
   },
   {
