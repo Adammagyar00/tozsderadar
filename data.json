@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T12:57:14Z",
+ "builtAt": "2026-10-30T13:56:11Z",
  "digests": [
   {
    "calendar": [
@@ -524,6 +524,76 @@
      "title": "Bloomberg értesülése szerint a Marvell előrehaladott tárgyalásokat folytat a Lumentum megvásárlásáról",
      "url": "https://www.marketscreener.com/news/marvell-in-advanced-talks-to-buy-lumentum-bloomberg-news-reports-ce785cd3db8af523",
      "verified": false
+    },
+    {
+     "addedAt": "2026-10-30T13:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Bloomberg, Reuters",
+     "summary": "A Lilly harmadik negyedéves bevétele 39%-kal, 24,4 milliárd dollárra nőtt a Mounjaro és a Zepbound húzásával, a cég pedig 85–87 helyett 91–92 milliárd dollárra emelte az éves bevételi iránymutatást. A korrigált EPS-sávot 35–36 dollárra szűkítették a felvásárlásokhoz kötődő kutatási költségek miatt. A részvény csütörtökön 6,6%-ot nyert, rekordon, 1373,70 dolláron zárt.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Az Eli Lilly 91–92 milliárd dollárra emelte éves bevételi kilátását, a részvény rekordon zárt",
+     "url": "https://www.tikr.com/blog/eli-lilly-stock-rose-nearly-7-to-a-record-as-it-lifted-its-2026-sales-forecast-to-as-much-as-92-billion-heres-where-the-stock-could-go",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T13:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A Sandisk a várakozásnál jobb eredményt (korrigált EPS 49,51 dollár, bevétel 11,03 milliárd dollár) közölt, emelte a kilátásait és 8:1 részvényfelaprózást jelentett be. A 24/7 Wall St. szerint a részvény mégis 9%-ot esett, a Western Digital 8%-ot, a Seagate 7%-ot, a Micron 6%-ot; más források kisebb, 3–4%-os elővásári mozgást jeleztek.",
+     "symbols": [
+      "MU",
+      "SNDK",
+      "WDC",
+      "STX"
+     ],
+     "title": "A Sandisk 9%-ot esett a gyorsjelentés és az 8:1 részvényfelaprózás ellenére, a memóriapiac is gyengült",
+     "url": "https://247wallst.com/investing/2026/10/30/sandisk-sinks-9-despite-earnings-beat-raised-guidance-and-8-for-1-split-western-digital-tumbles-8-seagate-slides-7-micron-falls-6/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T13:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com (Bank of America)",
+     "summary": "A Bank of America szerint a Tesla sanghaji gyára, amely a járművek nagyjából felét gyártja, egy nagy amerikai védelmi beszállító alá kerülne, ezért Peking blokkolhatná az üzletet. A bank a Teslának inkrementális felértékelődési lehetőséget lát az üzletben; hivatalos bejelentés vagy megállapodás nincs, a JPMorgan szintén Kínát nevezte a legnagyobb akadálynak.",
+     "symbols": [
+      "SPCX",
+      "TSLA"
+     ],
+     "title": "A Bank of America szerint Kína jelentheti a fő szabályozói kockázatot egy esetleges SpaceX–Tesla-egyesülésnél",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-beijing-could-block-spacex-125025186.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T13:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Destatis, Reuters",
+     "summary": "A Destatis előzetes adata szerint a német fogyasztói árak éves növekedése szeptemberi 3,3%-ról 2,8%-ra csökkent (várakozás ~3,1%), havi alapon 0,2%-os csökkenéssel. A maginfláció 2,1%-ra mérséklődött, a lassulást a kormány októberi üzemanyagadó-csökkentése is magyarázza.",
+     "symbols": [],
+     "title": "Az októberi német infláció a vártnál jobban, 2,8%-ra lassult",
+     "url": "https://www.investing.com/news/economic-indicators/germany-october-inflation-slows-more-than-expected-to-28-4987753",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T13:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters, Statistics Canada",
+     "summary": "A Statistics Canada szerint a reál-GDP augusztusban lényegében változatlan maradt (várakozás +0,2%). A szeptemberi gyorsbecslés 0,1%-os visszaesést jelez a feldolgozóipar és a bányászat, olaj- és gázkitermelés veszteségei miatt, ami a harmadik negyedévre évesítve kb. 1,3%-os növekedést jelent, a Bank of Canada 2%-os előrejelzése alatt.",
+     "symbols": [],
+     "title": "A kanadai gazdaság augusztusban ismét stagnált, szeptemberre csökkenést jeleznek",
+     "url": "https://www.investing.com/news/economy-news/canadas-economic-growth-stalls-again-in-august-september-likely-a-decline-4987518",
+     "verified": true
     }
    ],
    "markets": [
@@ -550,7 +620,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T12:50:00Z",
+   "updatedAt": "2026-10-30T13:45:00Z",
    "watchlist": []
   },
   {
