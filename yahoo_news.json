@@ -1,7 +1,64 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-30T06:54:34Z",
+ "updatedAt": "2026-10-30T08:00:26Z",
  "items": [
+  {
+   "title": "Learn Why The Bull Case For Micron Stock Could Change Following Memory Shortage Warning",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-micron-071618157.html",
+   "published": "2026-10-30T07:16:18Z",
+   "publisher": "",
+   "summary": "Micron Technology is in focus after SK Hynix reported record quarterly results and projected tight memory supply through 2030, while Micron continued to secure long term customer agreements and maintained its regular US$0.15 cash dividend that went ex dividend on 14 October 2026. The same supply constraints that SK Hynix links to AI and data center demand are feeding into Micron’s DRAM, HBM and NA",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "As the Nasdaq wobbles on capex, this Buffett strategy went 15-for-15",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-wobbles-capex-buffett-strategy-070916451.html",
+   "published": "2026-10-30T07:09:16Z",
+   "publisher": "",
+   "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+   "symbols": []
+  },
+  {
+   "title": "MARKETS LIVE: FTSE 100 set to rise despite Wall Street sell-off and Asian technology rout",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100978/markets-live-ftse-100-set-to-rise-despite-wall-street-sell-off-and-asian-technology-rout-1100978.html?.tsrc=rss",
+   "published": "2026-10-30T07:05:00Z",
+   "publisher": "",
+   "summary": "FTSE 100 called 0.4% higher at 10,764 Wall Street declines Asian technology shares retreat Brent crude rises above $116 7.00 am GMT: London set for positive open London shares are expected to open higher on Friday, with IG pricing the FTSE 100 around 42 points stronger at 10,764...",
+   "symbols": []
+  },
+  {
+   "title": "A2Gold signs agreement to sell Bolo Gold project in Nevada",
+   "link": "https://www.mining-technology.com/news/a2gold-bolo-gold-project-nevada/?.tsrc=rss",
+   "published": "2026-10-30T07:03:21Z",
+   "publisher": "",
+   "summary": "Super Gold will issue A2Gold 3,750,000 common shares at a deemed value of C$0.40 each when the transaction closes.",
+   "symbols": []
+  },
+  {
+   "title": "The Case Against a SpaceX and Tesla Merger",
+   "link": "https://www.fool.com/investing/2026/10/30/the-case-against-a-spacex-and-tesla-merger/?.tsrc=rss",
+   "published": "2026-10-30T06:50:00Z",
+   "publisher": "",
+   "summary": "The market is getting excited about a potential merger, but now may not be the right time for Tesla shareholders to get the best deal.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Stocktwits Passport Portfolio: SPY, DIA Edge Higher In October, Beating QQQ And Asian Stocks Amid Tech Volatility",
    "link": "https://stocktwits.com/news-articles/markets/equity/stocktwits-passport-portfolio-spy-dia-edge-higher-in-october-beating-qqq-and-asian-stocks-amid-tech-volatility/cZUhk6SR9Ry?.tsrc=rss",
@@ -19,11 +76,36 @@
    ]
   },
   {
+   "title": "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn’t Need Bitcoin Or Equity to Do the ‘Heavy Lifting’",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/mstr-stock-down-44-michael-063658213.html",
+   "published": "2026-10-30T06:36:58Z",
+   "publisher": "",
+   "summary": "View more earnings on $BTC Strategy Inc. (NASDAQ: MSTR) Chair Michael Saylor said on Thursday that the company could expand its capital options without depending entirely on Bitcoin’s (CRYPTO: BTC) appreciation or issuing more shares. Strategy Ready for Next Bull Run, Says Saylor During the company’s third-quarter earnings call, Saylor said the Bitcoin treasury firm is positioning its balance shee",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
    "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "link": "https://www.benzinga.com/markets/prediction-markets/26/10/62727776/stock-market-will-sp-500-open-up-or-down-today-69?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
    "published": "2026-10-30T06:21:23Z",
    "publisher": "",
    "summary": "U.S. stock futures are trending lower early Friday as Wall Street digests an over 12% post-earnings plunge in Alphabet Inc. (NASDAQ:GOOG) (NASDAQ:GOOGL) shares, escalating geopolitical tensions in the Middle East, and ongoing concerns about rising energy costs. The Polymarket traders,...",
+   "symbols": []
+  },
+  {
+   "title": "Oil Prices Head for Fourth Monthly Gain as Middle East Tensions Escalate",
+   "link": "https://finance.yahoo.com/energy/articles/oil-prices-head-fourth-monthly-062000939.html",
+   "published": "2026-10-30T06:20:00Z",
+   "publisher": "",
+   "summary": "Oil prices are heading for a fourth consecutive monthly gain as Houthi attacks on Saudi Arabia and fears of renewed strikes on Iran heighten concerns about Middle Eastern supply disruptions.",
    "symbols": []
   },
   {
@@ -68,11 +150,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -82,12 +164,12 @@
    "publisher": "",
    "summary": "Viasat drew Amazon takeover speculation, while advancing NASA work and satellite-connectivity partnerships.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -611,11 +693,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3003,123 +3085,6 @@
    "publisher": "",
    "summary": "The company has a large expansion opportunity.",
    "symbols": []
-  },
-  {
-   "title": "Ripple Closes to $1B Revenue as $63T BNY Adds XRP Custody",
-   "link": "https://cryptonews.com/news/ripple-nears-1b-revenue-bny-xrp-custody/?.tsrc=rss",
-   "published": "2026-10-29T15:34:00Z",
-   "publisher": "",
-   "summary": "Ripple, the company behind XRP, is approaching a $1 billion annualized revenue run rate as institutional adoption accelerates. The company expects to exit 2026 with $900 million in annualized product revenue, marking a major milestone for its expanding financial infrastructure business. 🚨RIPPLE EXPECTS $900 MILLION ANNUALIZED PRODUCT REVENUE RUN RATE!Ripple ...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Ripple Is Worth $50Bn and Nearing $900M in Revenue But XRP Is Down 30% YTD: Is XRP News From Swell Enough to Close the Gap?",
-   "link": "https://99bitcoins.com/news/altcoins/xrp-news-ripple-xrp-separate-directions/?.tsrc=rss",
-   "published": "2026-10-29T15:33:17Z",
-   "publisher": "",
-   "summary": "Bitcoin recovered toward $81,000 as we prepared for FOMC latest interest rate decision. BTC bounced nearly 2% during the rebound, but persistent inflation concerns and uncertainty over future rate hikes continue to complicate its outlook. Bitcoin now faces two additional macroeconomic forces. Oil prices surged above $115 per barrel after ...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Eli Lilly shares jump 6% as drugmaker lifts 2026 revenue forecast",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100941/eli-lilly-shares-jump-6-as-drugmaker-lifts-2026-revenue-forecast-1100941.html?.tsrc=rss",
-   "published": "2026-10-29T15:32:00Z",
-   "publisher": "",
-   "summary": "Eli Lilly and Co (NYSE:LLY) shares rose more than 6% on Thursday morning after the drugmaker raised its full-year revenue outlook and reported third-quarter sales that beat analyst estimates. Revenue climbed 39% from a year earlier to $24.4 billion, ahead of estimates of $22.61 billion....",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Novo Nordisk faces tougher GLP-1 competition, Citi says",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100930/novo-nordisk-faces-tougher-glp-1-competition-citi-says-1100930.html?.tsrc=rss",
-   "published": "2026-10-29T15:30:00Z",
-   "publisher": "",
-   "summary": "Novo Nordisk (NYSE:NVO) faces tougher GLP-1 competition after Lilly’s retatrutide outperformed Ozempic in a diabetes trial, Citi said, maintaining its ‘neutral/high risk’ rating and a Dkr296.00 target price. That assessment followed positive results from Lilly’s phase III TRANSCEND-T2D-2...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Walmart, Eli Lilly Join 38 Companies Opposing OKX-ICE Tokenized Stocks",
-   "link": "https://www.cryptoprowl.com/releases/walmart-eli-lilly-join-38-companies-opposing-okx-ice-tokenized-stocks-7539?.tsrc=rss",
-   "published": "2026-10-29T15:27:00Z",
-   "publisher": "",
-   "summary": "Walmart (NYSE: $WMT), Eli Lilly (NYSE: $LLY), Cigna Group (NYSE: $CI), Carnival (NYSE: $CCL) and Arcos Dorados (NYS...",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Is Ares Capital Corp a Buy After Its Latest Earnings Report?",
-   "link": "https://www.fool.com/investing/2026/10/29/is-ares-capital-corp-a-buy-after-its-latest-earnings-report/?.tsrc=rss",
-   "published": "2026-10-29T15:25:02Z",
-   "publisher": "",
-   "summary": "Ares Capital's latest earnings highlighted some concerns about its ability to cover its high-yielding dividend.",
-   "symbols": []
-  },
-  {
-   "title": "Eli Lilly (LLY) shares skyrocket, what you need to know",
-   "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-shares-skyrocket-152034193.html",
-   "published": "2026-10-29T15:20:34Z",
-   "publisher": "",
-   "summary": "Shares of global pharmaceutical company Eli Lilly (NYSE:LLY) jumped 8.1% in the morning session after the company reported third-quarter 2026 non-GAAP earnings growth and raised the midpoint of its full-year revenue guidance by $5.5 billion.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
