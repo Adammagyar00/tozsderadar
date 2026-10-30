@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T11:56:35Z",
+ "builtAt": "2026-10-30T12:57:14Z",
  "digests": [
   {
    "calendar": [
@@ -33,7 +33,7 @@
      "impact": "negatív",
      "origin": "yahoo",
      "source": "Yahoo Finance · Investing.com · Reuters",
-     "summary": "A világ legnagyobb kriptotőzsdéje csütörtök este felfüggesztette a kifizetéseket, miután felhasználók szerint pénzeszközök hagyták el a rendszerét. A Binance becslése szerint az incidens hatása mintegy 6,3 milliárd dollár, a Tether és a Circle együtt 2,38 milliárd dollárnyi eszközt fagyasztott be, a tőzsde szerint az ügyfelek pénze biztonságban van. A számok még változhatnak.",
+     "summary": "A világ legnagyobb kriptotőzsdéje csütörtök este felfüggesztette a kifizetéseket, miután felhasználók szerint pénzeszközök hagyták el a rendszerét. A Binance becslése szerint az incidens hatása mintegy 6,3 milliárd dollár, a Tether és a Circle együtt 2,38 milliárd dollárnyi eszközt fagyasztott be, a tőzsde szerint az ügyfelek pénze biztonságban van. A számok még változhatnak. A Reuters egy forrás szerint az FBI és az amerikai titkosszolgálat is együttműködik a Binance-szel a nyomozásban.",
      "symbols": [
       "BTC",
       "ETH"
@@ -481,6 +481,49 @@
      "title": "A Volkswagen felfüggesztette az elektromos Golf fejlesztését a wolfsburgi üzemben",
      "url": "https://www.investing.com/news/company-news/volkswagen-halts-electric-golf-development-at-wolfsburg-plant--report-93CH-4986589",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T12:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · AbbVie közlemény (SEC)",
+     "summary": "Az AbbVie korrigált egy részvényre jutó nyeresége 3,82 dollár, a nettó árbevétele 17,404 milliárd dollár (+10,3%) volt. A cég az éves korrigált EPS-sávját 13,95–13,99 dollárra emelte. Az eredmény a vártnál 0,08 dollárral jobb.",
+     "symbols": [
+      "ABBV"
+     ],
+     "title": "Az AbbVie harmadik negyedéves eredménye meghaladta a várakozást, emelte az éves EPS-kilátást",
+     "url": "https://www.investing.com/news/earnings/abbvie-earnings-beat-by-008-revenue-topped-estimates-4987285",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T12:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reddit árfolyama a nyitás előtt kb. 23%-ot esett: a negyedik negyedévre gyenge kilátást adott, és jelezte, hogy a keresőből érkező forgalom csökken. A Pinterest harmadik negyedéves bevétele 1,17 milliárd dollár volt a várt 1,21 milliárd helyett, részvénye kb. 8%-ot esett.",
+     "symbols": [
+      "RDDT",
+      "PINS"
+     ],
+     "title": "A Reddit és a Pinterest részvénye zuhan a gyenge felhasználószám- és bevételi kilátások miatt",
+     "url": "https://www.investing.com/news/stock-market-news/reddit-pinterest-shares-tumble-on-weak-user-and-revenue-growth-4987225",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T12:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "Bloomberg (Yahoo Finance, MarketScreener közvetítésével)",
+     "summary": "A Bloomberg névtelen forrásokra hivatkozva írta, hogy a Marvell részvénycserével venné meg a Lumentumot, a bejelentés akár a jövő héten megtörténhet. A cégek nem erősítették meg a tárgyalásokat, megállapodás még nincs. Az MRVL árfolyama a hír után kb. 8–11%-ot esett.",
+     "symbols": [
+      "MRVL",
+      "LITE"
+     ],
+     "title": "Bloomberg értesülése szerint a Marvell előrehaladott tárgyalásokat folytat a Lumentum megvásárlásáról",
+     "url": "https://www.marketscreener.com/news/marvell-in-advanced-talks-to-buy-lumentum-bloomberg-news-reports-ce785cd3db8af523",
+     "verified": false
     }
    ],
    "markets": [
@@ -507,7 +550,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T11:50:00Z",
+   "updatedAt": "2026-10-30T12:50:00Z",
    "watchlist": []
   },
   {
