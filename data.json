@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T13:56:11Z",
+ "builtAt": "2026-10-30T14:55:45Z",
  "digests": [
   {
    "calendar": [
@@ -594,6 +594,104 @@
      "title": "A kanadai gazdaság augusztusban ismét stagnált, szeptemberre csökkenést jeleznek",
      "url": "https://www.investing.com/news/economy-news/canadas-economic-growth-stalls-again-in-august-september-likely-a-decline-4987518",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T14:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Nasdaq a péntek esti nyitáskor zuhant, mert az Amazon és az Intel gyorsjelentése tovább erősítette az MI-beruházások költségei miatti félelmeket. A Yahoo Finance délelőtti jelentése szerint a Nasdaq Composite 2,6%-ot esett, a CNBC szerint 600 pontnál is többet.",
+     "symbols": [
+      "^IXIC",
+      "AMZN",
+      "INTC"
+     ],
+     "title": "A Nasdaq mélyen esve nyitott: az Amazon és az Intel tovább rontotta az MI-kiadások miatti aggodalmakat",
+     "url": "https://www.investing.com/news/stock-market-news/nasdaq-tumbles-at-open-as-amazon-intel-add-to-ai-spending-woes-4988016",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T14:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az európai részvénypiacok péntek délután lejjebb hozták a főbb indexeket, mert az amerikai technológiai cégek gyorsjelentései újra az MI-beruházások finanszírozási terhe felé fordították a figyelmet.",
+     "symbols": [],
+     "title": "Esnek az európai tőzsdék, mert az Amazon és az Intel az MI-kiadások miatti pénzégetéstől való félelmet erősítette",
+     "url": "https://www.investing.com/news/stock-market-news/european-shares-dip-as-amazon-intel-stoke-ai-cashburn-fears-4985916",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T14:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint az októberi chicagói beszerzésimenedzser-index a várakozás alatt maradt, ami az ipari aktivitás gyengülésére utal. A pontos értéket a forrás címe nem közli.",
+     "symbols": [],
+     "title": "A chicagói PMI a várakozás alá esett, a feldolgozóipar lassulását jelzi",
+     "url": "https://www.investing.com/news/economic-indicators/chicago-pmi-dips-below-forecast-signals-manufacturing-slowdown-93CH-4988032",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T14:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a General Dynamics harmadik negyedéves eredménye felülmúlta a becsléseket a Gulfstream üzleti jet és a tengerészeti üzletág erős megrendelései miatt. A cég közleménye szerint a hígított egy részvényre jutó nyereség 4,49 dollár, a bevétel 14,6 milliárd dollár volt.",
+     "symbols": [
+      "GD"
+     ],
+     "title": "A General Dynamics gyorsjelentése meghaladta a várakozást, erős a Gulfstream és a haditengerészeti megrendelés",
+     "url": "https://www.investing.com/news/stock-market-news/general-dynamics-tops-quarterly-estimates-on-robust-gulfstream-marine-bookings-4987898",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T14:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance szerint az olajár több mint 2%-kal emelkedett, miután megtámadtak egy tankert a Hormuzi-szorosban. A hír a már jelzett közel-keleti ellátási aggodalmakat erősíti.",
+     "symbols": [],
+     "title": "Több mint 2%-ot ugrott az olaj egy hormuzi tankerek elleni támadás nyomán",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-jump-135715843.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T14:45:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A 247WallSt szerint a kriptoközeli részvények csúnyán estek a rekordméretű Binance-feltörés és a Coinbase csalódást keltő kereskedési bevételei nyomán; a Circle is kb. 9%-ot esett. A bitcoin 80 ezer dollár alá ment.",
+     "symbols": [
+      "COIN",
+      "MSTR",
+      "HOOD",
+      "CRCL",
+      "BTC"
+     ],
+     "title": "A Coinbase 11%-ot, a Strategy 12%-ot, a Robinhood 10%-ot esett a Binance-feltörés és a gyenge kereskedési bevételek miatt",
+     "url": "https://247wallst.com/investing/2026/10/30/coinbase-tumbles-11-as-record-binance-hack-hits-crypto-and-trading-revenue-slides-strategy-sinks-12-robinhood-plunges-10-circle-drops-9/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T14:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com (egyetlen forrás)",
+     "summary": "Az Investing.com beszámolója szerint a részvény emelkedett a felvásárlási ajánlatról szóló értesülések hatására. Független megerősítést nem találtunk; a cég áprilisban stratégiai felülvizsgálatot (akár eladást) jelentett be.",
+     "symbols": [
+      "XPOF"
+     ],
+     "title": "Az Investing.com szerint ugrott az Xponential Fitness árfolyama egy állítólagos felvásárlási ajánlat miatt",
+     "url": "https://www.investing.com/news/stock-market-news/xponential-fitness-shares-jump-on-reports-of-takeover-bid-4988071",
+     "verified": false
     }
    ],
    "markets": [
@@ -620,7 +718,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T13:45:00Z",
+   "updatedAt": "2026-10-30T14:45:00Z",
    "watchlist": []
   },
   {
