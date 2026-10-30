@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T15:56:43Z",
+ "builtAt": "2026-10-30T16:56:05Z",
  "digests": [
   {
    "calendar": [
@@ -783,6 +783,51 @@
      "title": "A Panasonic 20%-kal emelte éves nyereségkilátását erős negyedév után",
      "url": "https://www.investing.com/news/earnings/panasonic-raises-fullyear-profit-guidance-by-20-after-strong-quarter-93CH-4988219",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T16:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Kioxia a jelenlegi negyedévre kb. 2000 milliárd jenes üzemi eredményt vár, a várt 2350 milliárd alatt; az átlagos NAND-eladási ár a harmadik negyedévben kb. 20-as évek közepi százalékkal nőtt, szemben az előző negyedévi mintegy 70%-kal. A befektetők ezt a memóriapiac egészére nézve figyelmeztetésnek vették, a gyenge Intel-kilátással együtt.",
+     "symbols": [
+      "SNDK",
+      "MU",
+      "WDC",
+      "STX"
+     ],
+     "title": "A SanDisk több mint 11%-ot esett, mert a Kioxia az NAND-árak emelkedésének lassulására figyelmeztetett",
+     "url": "https://www.investing.com/news/stock-market-news/sandisk-stock-tumbles-as-kioxia-warns-on-nand-price-surge-4988296",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T16:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Meta a Los Angeles-i állami bíróságon zajló per közben egyezett meg egy tinédzser felperessel, aki szerint az Instagram és a Facebook függőséget okozó kialakítása hozzájárult mentális problémáihoz. A per így várhatóan már csak a Snap ellen folytatódik; a cégek tagadják az állításokat.",
+     "symbols": [
+      "META"
+     ],
+     "title": "A Meta peren kívül megegyezett egy tinédzserrel a közösségimédia-függőségről szóló tárgyalás közben",
+     "url": "https://www.investing.com/news/stock-market-news/meta-settles-with-teen-during-trial-testing-claims-social-media-caused-depression-eating-disorders-4988301",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T16:45:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl · CoinDesk · SEC 8-K",
+     "summary": "Kang november 5-i hatállyal távozik, december 31-ig tanácsadóként marad; a cég szerint nem nézeteltérés miatt. Addig Phong Le vezérigazgató látja el a pénzügyi vezetést, 2027. január 1-től Reza Virasteh lesz a CFO. A negyedéves bevétel 125,4 millió dollár volt, a várt 127,2 millió alatt.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Lemond a Strategy pénzügyi igazgatója, Andrew Kang, a rekordnegyedéves eredmény mellett",
+     "url": "https://www.cryptoprowl.com/releases/strategys-chief-financial-officer-resigns-7554?.tsrc=rss",
+     "verified": true
     }
    ],
    "markets": [
@@ -809,7 +854,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T15:45:00Z",
+   "updatedAt": "2026-10-30T16:45:00Z",
    "watchlist": []
   },
   {
