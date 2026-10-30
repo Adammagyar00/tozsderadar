@@ -1,7 +1,47 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-30T01:57:07Z",
+ "updatedAt": "2026-10-30T02:49:13Z",
  "items": [
+  {
+   "title": "Tesla-SpaceX Merger ‘Does Make Strategic Sense,’ Analyst Says — But SpaceX Needs Nearly 2x The Growth",
+   "link": "https://stocktwits.com/news-articles/markets/equity/tesla-spacex-merger-strategic-sense-analyst-says-spacex-needs-2x-growth/cZUhgVVR9Rm?.tsrc=rss",
+   "published": "2026-10-30T02:44:46Z",
+   "publisher": "",
+   "summary": "Morningstar sees benefits in a Tesla-SpaceX merger across energy, AI, robotics and connectivity.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Valero: 3 Key Takeaways for Long-Term Investors",
+   "link": "https://www.fool.com/earnings/takeaways/2026/10/29/valero-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+   "published": "2026-10-30T02:20:03Z",
+   "publisher": "",
+   "summary": "A $9.8 billion cash balance and disciplined capital projects position the refiner to sustain shareholder returns through commodity cycles.",
+   "symbols": []
+  },
+  {
+   "title": "Aspen Neuroscience Announces Pricing of Initial Public Offering",
+   "link": "https://finance.yahoo.com/healthcare/articles/aspen-neuroscience-announces-pricing-initial-021200059.html",
+   "published": "2026-10-30T02:12:00Z",
+   "publisher": "",
+   "summary": "SAN DIEGO, Oct. 29, 2026 (GLOBE NEWSWIRE) -- Aspen Neuroscience, Inc. (Nasdaq: ASPE), a clinical-stage regenerative medicine biotechnology company developing autologous cell therapies for Parkinson’s disease (PD), today announced the pricing of its initial public offering of 9,375,000 shares of common stock at a price to the public of $15.00 per share. All of the shares of common stock are being o",
+   "symbols": []
+  },
+  {
+   "title": "Amrize: 3 Key Takeaways for Long-Term Investors",
+   "link": "https://www.fool.com/earnings/takeaways/2026/10/29/amrize-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+   "published": "2026-10-30T02:02:33Z",
+   "publisher": "",
+   "summary": "Pricing discipline and targeted acquisitions are offsetting cost inflation while an internal savings program delivers $73 million in year-to-date results.",
+   "symbols": []
+  },
   {
    "title": "Dow Jones Futures Fall, Nasdaq Futures Plunge 2% On Amazon, Intel After Google, ServiceNow, Fortinet Dive",
    "link": "https://finance.yahoo.com/m/0a5ce393-a6df-312b-af64-1893a264d0df/dow-jones-futures-fall%2C.html",
@@ -20,18 +60,43 @@
    ]
   },
   {
+   "title": "Bitcoin Bulls Take the Biggest Hit in a $1.49 Billion Crypto Liquidation Day",
+   "link": "https://beincrypto.com/crypto-liquidations-bitcoin-longs-binance-hack/?.tsrc=rss",
+   "published": "2026-10-30T01:49:03Z",
+   "publisher": "",
+   "summary": "Crypto liquidations hit $1.49 billion in 24 hours as Bitcoin longs took the heaviest losses while one major token rallied.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Gold hovers near $4,000 as PCE inflation, oil risks revive Fed hike concerns",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-4-000-014613798.html",
+   "published": "2026-10-30T01:46:13Z",
+   "publisher": "",
+   "summary": "Gold fell more than 3% in October as renewed fighting in the Middle East kept energy prices elevated and fuelled inflation concerns. Oil prices rose on signs that Washington could resume military strikes against Iran after next week's U.S. midterm elections.",
+   "symbols": []
+  },
+  {
    "title": "Anthropic accounts for over a third of SpaceX revenue in Q3, Bloomberg reports",
    "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-accounts-over-third-spacex-014451805.html",
    "published": "2026-10-30T01:44:51Z",
    "publisher": "",
    "summary": "Investing.com-- Anthropic accounted for more than a third of SpaceX's (NASDAQ:SPCX) revenue in the third quarter, highlighting the Elon Musk-led company's growing dependence on artificial intelligence computing contracts, Bloomberg News reported on Thursday, citing a person familiar with the matter.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -58,12 +123,12 @@
    "publisher": "",
    "summary": "Amazon’s Globalstar deal and upcoming direct-to-device network increase potential competition with ASTS.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -77,11 +142,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -91,12 +156,12 @@
    "publisher": "",
    "summary": "Nvidia's $3 billion investment in Meta's share sale, announced Tuesday, is the latest addition to a portfolio of stakes, loans and guarantees that has made the chip giant what some analysts describe as the central bank of the artificial intelligence boom.Nvidia also has around $36 billion in cloud backstops and a guarantee of up to $105 billion linked to an OpenAI data center, according to US medi",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -222,6 +287,14 @@
     "VOO",
     "XDW0"
    ]
+  },
+  {
+   "title": "Alphabet just had its worst day as a public company. BofA now values Google search at a lower multiple than fossil fuel stocks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-just-had-worst-day-001015980.html",
+   "published": "2026-10-30T00:10:15Z",
+   "publisher": "",
+   "summary": "Search revenue missed forecasts and free cash flow went negative. Bank of America now values Google’s core search business at about 10 times earnings, against 18.7 for the S&P 500.",
+   "symbols": []
   },
   {
    "title": "zkLink Nova Goes Offline After Hacker Steals More Than $780,000 From Its Bridge",
@@ -3066,88 +3139,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "What Could Surprise Marvell Stock Investors On The Upside?",
-   "link": "https://www.trefis.com/stock/mrvl/articles/621295/what-could-surprise-marvell-stock-investors-on-the-upside/2026-10-29?.tsrc=rss",
-   "published": "2026-10-29T14:45:21Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Musk Says A Tesla-SpaceX Merger Is “A Good Idea,” But Admits It Would Require 1.98 Billion “Yes” Votes. He Calls It “Quite A High Hurdle”",
-   "link": "https://247wallst.com/investing/2026/10/29/musk-says-a-tesla-spacex-merger-is-a-good-idea-but-admits-it-would-require-1-98-billion-yes-votes-he-calls-it-quite-a-high-hurdle/?.tsrc=rss",
-   "published": "2026-10-29T14:42:35Z",
-   "publisher": "",
-   "summary": "Elon Musk says combining SpaceX (NASDAQ:SPCX) and Tesla (NASDAQ:TSLA) would be a good idea. He also says Tesla’s side of the shareholder vote would be hard to win. On SpaceX’s third-quarter earnings call on October 20, 2026, Deutsche Bank’s Edison Yu asked about a combination. Musk replied: “This is definitely the kind of question where […]",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "What Did It Take To Hold Costco Stock?",
-   "link": "https://www.trefis.com/stock/cost/articles/621331/what-did-it-take-to-hold-costco-stock/2026-10-29?.tsrc=rss",
-   "published": "2026-10-29T14:39:44Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Why Did Cloudflare Stock Jump?",
-   "link": "https://www.trefis.com/stock/net/articles/621292/why-did-cloudflare-stock-jump/2026-10-29?.tsrc=rss",
-   "published": "2026-10-29T14:39:41Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "What Are MARA Stock Investors Overlooking?",
-   "link": "https://www.trefis.com/stock/mara/articles/621242/what-are-mara-stock-investors-overlooking/2026-10-29?.tsrc=rss",
-   "published": "2026-10-29T14:33:45Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Pinnacle Silver and Gold plans drilling at El Potrero after high-grade silver discoveries",
-   "link": "https://finance.yahoo.com/video/pinnacle-silver-gold-plans-drilling-143248582.html",
-   "published": "2026-10-29T14:32:48Z",
-   "publisher": "",
-   "summary": "Pinnacle Silver and Gold CEO Robert Archer joined Steve Darling from Proactive to discuss plans for a diamond drilling program at the company’s EL Potrero project in Durango, Mexico, following the discovery of silver-gold-lead-zinc mineralization on the Maria Fernanda 2 (MF2) concession. Archer said the company is advancing permitting for the proposed drilling campaign, which is intended to invest",
-   "symbols": []
-  },
-  {
-   "title": "Caterpillar, the Dow's best stock of 2026, is unraveling — and an earnings beat couldn't stop it",
-   "link": "https://finance.yahoo.com/markets/article/caterpillar-the-dows-best-stock-of-2026-is-unraveling--and-an-earnings-beat-couldnt-stop-it-143227286.html",
-   "published": "2026-10-29T14:32:27Z",
-   "publisher": "",
-   "summary": "Caterpillar topped earnings estimates, but the Dow's best stock of 2026 is sinking anyway as Wall Street keeps dumping stocks tied to the AI build-out.",
-   "symbols": []
   }
  ]
 }
