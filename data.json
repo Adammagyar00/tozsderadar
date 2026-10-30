@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-30T18:55:55Z",
+ "builtAt": "2026-10-30T19:56:13Z",
  "digests": [
   {
    "calendar": [
@@ -961,6 +961,48 @@
      "title": "Jelentés szerint a Ford 2032-re 20%-kal, évi 5 millió autóra növelné az eladásait",
      "url": "https://www.investing.com/news/stock-market-news/ford-targets-20-sales-jump-by-2032-to-5-million-cars-annually--report-4988459",
      "verified": false
+    },
+    {
+     "addedAt": "2026-10-30T19:40:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Ripple a Tether és a Circle után a harmadik nagy stabilcoin-kibocsátó, amely befagyasztotta a Binance-ből kiszivárgott pénz egy részét. Az RLUSD-ben befagyasztott összeget a források eltérően becsülik (kb. 40–200 millió dollár). Az XRP-t a Yahoo Finance cikke szerint nem lehet befagyasztani.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "A Ripple is befagyasztotta a Binance-hackből származó RLUSD-t, a Tether és a Circle után",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/ripple-froze-stolen-rlusd-xrp-",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T19:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A Decrypt szerint a Binance mintegy 6,4 milliárd dollárt veszített, ami a valaha volt legnagyobb kriptohack, a bitcoin mégis csak kb. 3%-ot gyengült. A CoinMarketCap félelem-és-kapzsiság indexe 43-ról 36 pontra esett. A Reuters által idézett elemzők szerint a hatás rövid életű lehet, ha a Binance helyreállítja a működést, a Standard Chartered viszont további veszteségeket vár.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Decrypt: a bitcoin a Binance-hack ellenére csak kb. 3%-ot esett, szemben a 2018-as közel 11%-kal",
+     "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-30T19:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A Rivian vesztesége a vártnál kisebb volt, bevétele a várakozás felett. Az R2 gyártásának felfutása sikeres, a cég 67–70 ezer autóra emelte az éves szállítási célt. A Jefferies Buy-ra emelte a részvényt. A papír a gyengélkedő piac ellenére emelkedett.",
+     "symbols": [
+      "RIVN"
+     ],
+     "title": "A Rivian harmadik negyedéves eredménye jobb a vártnál, emelte a szállítási kilátást; a Jefferies Buy-ra emelte",
+     "url": "https://www.fool.com/investing/2026/10/30/why-did-rivian-stock-surge-higher-on-friday/",
+     "verified": true
     }
    ],
    "markets": [
@@ -987,7 +1029,7 @@
     }
    ],
    "summary": "A Binance becslése szerint 6,3 milliárd dolláros biztonsági incidens érte, a tőzsde felfüggesztette a kifizetéseket, a bitcoin 78 ezer dollárig esett. Az Alphabet rekordesése után az Amazon és az Intel is csalódást keltő kilátást adott, a Nasdaq-határidős kb. 2%-ot esett, az ázsiai technológiai részvények is gyengültek. A Bank of Japan 1,25%-on hagyta a kamatot, és további emelést jelzett. Az olaj Brent-ára 115 dollár felett jár a húszik támadásai és az iráni csapások lehetősége miatt, az arany 4000 dollár alá esett.",
-   "updatedAt": "2026-10-30T18:40:00Z",
+   "updatedAt": "2026-10-30T19:40:00Z",
    "watchlist": []
   },
   {
