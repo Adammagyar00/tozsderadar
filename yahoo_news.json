@@ -1,6 +1,6 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T22:08:36Z",
+ "updatedAt": "2026-10-31T22:38:53Z",
  "items": [
   {
    "title": "Want $1,000 a Month in Passive Income? Start With This Brilliant Dividend ETF.",
@@ -27,11 +27,11 @@
    "symbols": []
   },
   {
-   "title": "SpaceX Says Starship Flies Commercial Payloads This Year. Here's What a Successful Flight Is Worth -- and What a Failure Costs.",
-   "link": "https://www.fool.com/investing/2026/10/31/spacex-says-starship-flies-commercial-payloads-thi/?.tsrc=rss",
-   "published": "2026-10-31T21:25:00Z",
+   "title": "SpaceX Stock Fell Below Its IPO Price, But Binance’s CZ Is Bullish",
+   "link": "https://beincrypto.com/spacex-stock-below-ipo-price-cz/?.tsrc=rss",
+   "published": "2026-10-31T21:30:00Z",
    "publisher": "",
-   "summary": "Successful launches could unlock billions in additional revenue.",
+   "summary": "SpaceX stock slips below its $135 IPO price as CZ calls it a long-term winner and options price a 14% swing.",
    "symbols": [
     "SPCX",
     "BE",
@@ -39,6 +39,22 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "SpaceX Says Starship Flies Commercial Payloads This Year. Here's What a Successful Flight Is Worth -- and What a Failure Costs.",
+   "link": "https://www.fool.com/investing/2026/10/31/spacex-says-starship-flies-commercial-payloads-thi/?.tsrc=rss",
+   "published": "2026-10-31T21:25:00Z",
+   "publisher": "",
+   "summary": "Successful launches could unlock billions in additional revenue.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -52,11 +68,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -69,11 +85,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -110,11 +126,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -132,12 +148,12 @@
    "publisher": "",
    "summary": "Billionaire Elon Musk-led Space Exploration Technologies Corp. slammed legacy telecom operators like T-Mobile US Inc. in a letter to the Federal Communications Commission (FCC) over the agency’s proposed spectrum rule changes. SpaceX Slams ‘Misplaced Desire’ In the letter dated October...",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -358,11 +374,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3031,22 +3047,6 @@
    "publisher": "",
    "summary": "The closely watched ratio suggests silver is getting cheaper than gold.",
    "symbols": []
-  },
-  {
-   "title": "Alphabet's October wipeout hits $766 billion, its worst month ever",
-   "link": "https://finance.yahoo.com/markets/article/alphabets-october-wipeout-hits-766-billion-its-worst-month-ever-181407937.html",
-   "published": "2026-10-30T18:14:07Z",
-   "publisher": "",
-   "summary": "Alphabet's $477 billion weekly loss at Friday's low outpaced SpaceX, Intel, Nvidia and Amazon combined, capping its worst month ever.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
