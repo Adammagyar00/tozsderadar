@@ -1,13 +1,87 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T15:09:22Z",
+ "updatedAt": "2026-10-31T15:39:14Z",
  "items": [
   {
-   "title": "Changpeng Zhao fires back at Elon Musk's mockery after $6.3 billion Binance hack, citing $1B SpaceX stake",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/changpeng-zhao-fires-back-elon-150000099.html",
-   "published": "2026-10-31T15:00:00Z",
+   "title": "Wall Street Is Getting More Interested in Credo. Here’s My Price Prediction",
+   "link": "https://247wallst.com/investing/2026/10/31/wall-street-is-getting-more-interested-in-credo-heres-my-price-prediction/?.tsrc=rss",
+   "published": "2026-10-31T15:33:50Z",
    "publisher": "",
-   "summary": "The world's largest crypto trading service saw billions stolen from its digital wallet by hackers who were potentially state-backed.",
+   "summary": "Credo just posted triple-digit revenue growth and still trades at a steeper discount than its closest rivals, yet the stock has fallen nearly 20% in a single month. Something in this picture does not add up, and the answer points to a price target most analysts have not caught up to yet.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day",
+   "link": "https://finance.yahoo.com/energy/articles/nabep-rig-fleet-grows-41-152100373.html",
+   "published": "2026-10-31T15:21:00Z",
+   "publisher": "",
+   "summary": "In November, North American Blue Energy Partners' (NABEP) in-country fleet will reach 41 of the 60 rigs announced earlier this month.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Fatigue Is Real: James Lavish Says Early Holders Have Moved On As Young Investors Turn To Betting",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-fatigue-real-james-lavish/cZU1PzZR9cM?.tsrc=rss",
+   "published": "2026-10-31T15:20:38Z",
+   "publisher": "",
+   "summary": "James Lavish said AI stocks, cash yields, and long-time holders selling call options have kept Bitcoin stuck near $80,000.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "BW Energy (OB:BWE) Stock Catches A Q3 Earnings Squeeze",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/bw-energy-ob-bwe-stock-151625884.html",
+   "published": "2026-10-31T15:16:25Z",
+   "publisher": "",
+   "summary": "BW Energy just reported Q3 2026 numbers that flipped the script on recent optimism. The company moved from earlier quarterly profits to a small net loss of about US$0.7 million on revenue of US$73.2 million, even as the stock closed at NOK54.4 after a weak week and month. Traders have been punishing the shares, yet the real shock is the profit squeeze, with earnings hit by lower realized oil price",
+   "symbols": []
+  },
+  {
+   "title": "Elon Musk Has Incredible News for Micron Stock Investors",
+   "link": "https://www.fool.com/investing/2026/10/31/elon-musk-has-incredible-news-for-micron-stock-investors/?.tsrc=rss",
+   "published": "2026-10-31T15:14:01Z",
+   "publisher": "",
+   "summary": "Musk's comments suggest that the incredible demand for memory chips is sustainable over the long run.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Why SpaceX Stock Is Worth Buying and Holding for 10 Years",
+   "link": "https://www.fool.com/investing/2026/10/31/why-spacex-stock-worth-buying-holding-10-years/?.tsrc=rss",
+   "published": "2026-10-31T15:05:00Z",
+   "publisher": "",
+   "summary": "Rockets made SpaceX famous, but its AI business is now its largest driver of growth.",
    "symbols": [
     "SPCX",
     "BE",
@@ -19,18 +93,34 @@
    ]
   },
   {
+   "title": "Changpeng Zhao fires back at Elon Musk's mockery after $6.3 billion Binance hack, citing $1B SpaceX stake",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/changpeng-zhao-fires-back-elon-150000099.html",
+   "published": "2026-10-31T15:00:00Z",
+   "publisher": "",
+   "summary": "The world's largest crypto trading service saw billions stolen from its digital wallet by hackers who were potentially state-backed.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
    "title": "The Nasdaq 100 Briefly Fell Into a Correction as the AI Trade Cracks",
    "link": "https://247wallst.com/investing/2026/10/31/the-nasdaq-100-briefly-fell-into-a-correction-as-the-ai-trade-cracks/?.tsrc=rss",
    "published": "2026-10-31T14:54:06Z",
    "publisher": "",
    "summary": "Chip stocks cratered, the Nasdaq-100 crossed a line it has not crossed all year, and one portfolio manager says the AI trade just entered a dangerous new phase that separates believers from skeptics.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -44,11 +134,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -77,11 +167,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -94,11 +184,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -135,11 +225,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -152,11 +242,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -268,11 +358,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -290,12 +380,12 @@
    "publisher": "",
    "summary": "Key TakeawaysJPMorgan’s Q3 EPS of $5. 57 missed the roughly $5.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3033,63 +3123,6 @@
     "VOO",
     "XDW0"
    ]
-  },
-  {
-   "title": "3 semiconductor stocks we approach with caution",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-semiconductor-stocks-approach-caution-165929659.html",
-   "published": "2026-10-30T16:59:29Z",
-   "publisher": "",
-   "summary": "Semiconductors are the core infrastructure powering the Information Age. But they’re also susceptible to economic fluctuations as chip demand will ebb and flow with capital spending. Unfortunately, the market seems to be predicting a downturn as the industry has tumbled by 4.5% over the past six months. This performance is a far cry from the S&P 500’s 7.5% ascent.",
-   "symbols": []
-  },
-  {
-   "title": "Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10%",
-   "link": "https://247wallst.com/investing/2026/10/30/applied-optoelectronics-plunges-15-coherent-tumbles-13-as-hyperscaler-spending-fears-hit-ai-optics-stocks-lumentum-and-marvell-sink-10/?.tsrc=rss",
-   "published": "2026-10-30T16:57:26Z",
-   "publisher": "",
-   "summary": "Google's cash burn just torched half a trillion dollars in market value, and the shockwave is now tearing through the optical suppliers that keep AI data centers running. Whether their sold-out order books can absorb the fallout is the question every trader is scrambling to answer.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "S&P 500 Joins Nasdaq to End October in the Red",
-   "link": "https://finance.yahoo.com/m/aad4b0ac-4b46-3fd9-8a07-f07611e55f81/s%26p-500-joins-nasdaq-to-end.html",
-   "published": "2026-10-30T16:55:23Z",
-   "publisher": "",
-   "summary": "The Dow Jones Industrial Average was on track to end October higher.",
-   "symbols": []
-  },
-  {
-   "title": "What Just Happened To Alnylam Stock?",
-   "link": "https://www.trefis.com/stock/alny/articles/621578/what-just-happened-to-alnylam-stock/2026-10-30?.tsrc=rss",
-   "published": "2026-10-30T16:51:31Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "1 industrials stock with competitive advantages and 2 we brush off",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-competitive-advantages-165129405.html",
-   "published": "2026-10-30T16:51:29Z",
-   "publisher": "",
-   "summary": "Whether you see them or not, industrials businesses play a crucial part in our daily activities. Unfortunately, this role also comes with a demand profile tethered to the ebbs and flows of the broader economy, and investors seem to be forecasting a downturn - over the past six months, the industry has pulled back by 8.9%. This performance is a far cry from the S&P 500’s 7.5% ascent.",
-   "symbols": []
-  },
-  {
-   "title": "They Called This Stock a Winner in the AI Coding Boom. A Year Later, It’s Up 94%.",
-   "link": "https://247wallst.com/investing/2026/10/30/they-called-this-stock-a-winner-in-the-ai-coding-boom-a-year-later-its-up-94/?.tsrc=rss",
-   "published": "2026-10-30T16:49:21Z",
-   "publisher": "",
-   "summary": "Three major firms loaded up on JFrog the same morning after its blowout quarter, and the AI coding thesis looked airtight until the stock cratered below their buy price and stayed there for months.",
-   "symbols": []
   }
  ]
 }
