@@ -1,7 +1,56 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T12:11:36Z",
+ "updatedAt": "2026-10-31T13:25:28Z",
  "items": [
+  {
+   "title": "America’s Greatest Dividend Posts Strong Earnings",
+   "link": "https://247wallst.com/investing/2026/10/31/americas-greatest-dividend-posts-strong-earnings/?.tsrc=rss",
+   "published": "2026-10-31T12:47:54Z",
+   "publisher": "",
+   "summary": "One tobacco stock has raised its dividend 61 times in 57 years while leaving rivals like Kraft Heinz and General Mills in the dust. The case for calling it America's greatest dividend stock is harder to dismiss than you might expect.",
+   "symbols": []
+  },
+  {
+   "title": "Wall Street's favorite stocks are in their worst slump since 2010: Chart of the Day",
+   "link": "https://finance.yahoo.com/markets/article/wall-streets-favorite-stocks-are-in-their-worst-slump-since-2010-chart-of-the-day-124436147.html",
+   "published": "2026-10-31T12:44:36Z",
+   "publisher": "",
+   "summary": "Stocks with the most Buy ratings have lagged the least-loved ones for most of 2026.",
+   "symbols": []
+  },
+  {
+   "title": "Starlink's Consumer Business Is Booming. This Business Is Growing Even Faster.",
+   "link": "https://www.fool.com/investing/2026/10/31/starlink-consumer-business-booming-spacex-stock/?.tsrc=rss",
+   "published": "2026-10-31T12:22:00Z",
+   "publisher": "",
+   "summary": "There's another Starlink customer that's rapidly increasing its revenue contribution -- and it makes for a more compelling SpaceX investment thesis.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Prediction: Here's What a $1,000 Investment in Bitcoin Will Be Worth in 2030",
+   "link": "https://www.fool.com/investing/2026/10/31/prediction-heres-what-a-1000-investment-in-crypto/?.tsrc=rss",
+   "published": "2026-10-31T12:19:00Z",
+   "publisher": "",
+   "summary": "Even if Bitcoin's growth rate slows, it could still rank among the top-performing assets in the world.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "The Binance hack knocked about $100 billion off crypto — and the timing has a familiar ring: Chart of the Day",
    "link": "https://finance.yahoo.com/markets/crypto/article/the-binance-hack-knocked-about-100-billion-off-crypto--and-the-timing-has-a-familiar-ring-chart-of-the-day-120412412.html",
@@ -12,11 +61,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -42,13 +91,30 @@
    "publisher": "",
    "summary": "OpenAI reportedly is now seeking to raise $20 billion at a $1.25 trillion valuation. Meta, Microsoft just raised funds while the Anthropic IPO looms.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
+   ]
+  },
+  {
+   "title": "Trump Talks About His Family’s Crypto Money – “A Little Bit Dangerous”",
+   "link": "https://beincrypto.com/trump-talks-about-crypto-money/?.tsrc=rss",
+   "published": "2026-10-31T11:41:54Z",
+   "publisher": "",
+   "summary": "Trump calls digital money dangerous after Binance hack, yet his disclosure shows over $1.4 billion in crypto income in 2025.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
    ]
   },
   {
@@ -93,11 +159,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -150,11 +216,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3025,72 +3091,6 @@
    "publisher": "",
    "summary": "Whether you see them or not, industrials businesses play a crucial part in our daily activities. But they are at the whim of volatile macroeconomic factors that influence capital spending (like interest rates), and the market seems convinced that demand will slow. Due to this bearish outlook, the industry has tumbled by 8.9% over the past six months. This drop is a stark contrast from the S&P 500’",
    "symbols": []
-  },
-  {
-   "title": "US Oil Companies Are Coming Out as Victors of the Iran War. They Have Made Over $130 Billion Since.",
-   "link": "https://www.ibtimes.com/us-oil-companies-profits-iran-war-fuel-prices-3809189?.tsrc=rss",
-   "published": "2026-10-30T16:01:13Z",
-   "publisher": "",
-   "summary": "ExxonMobil, Chevron and Valero have reported sharp earnings gains, but executives are largely sticking with existing investment plans rather than rushing to expand capacity.",
-   "symbols": []
-  },
-  {
-   "title": "Can Elon Musk’s $119 Billion Terafab Chip Plant Pay Off Without Outside Customers?",
-   "link": "https://beincrypto.com/terafab-lightning-speed-elon-musk-chip/?.tsrc=rss",
-   "published": "2026-10-30T16:00:00Z",
-   "publisher": "",
-   "summary": "Elon Musk says Terafab, estimated at up to $119 billion, is going well, as a Korean supplier gets replies within an hour.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Dove Today",
-   "link": "https://www.fool.com/investing/2026/10/30/why-micron-stock-dove-today/?.tsrc=rss",
-   "published": "2026-10-30T15:56:48Z",
-   "publisher": "",
-   "summary": "The chipmaker is falling despite a competitor's bullish results.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Cintas Corporation (CTAS) Gains 15% as Record Q4 Margins Fuel Guidance Increase",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/cintas-corporation-ctas-gains-15-155435831.html",
-   "published": "2026-10-30T15:54:35Z",
-   "publisher": "",
-   "summary": "Bristol Gate Capital Partners, an investment management company, published its Q3 2026 investor letter for the “US Equity Strategy”. The letter can be downloaded here. The US Equity Strategy lagged the S&P 500 (+2.3%) in Q3 2026, as declines in industrial and semiconductor-equipment holdings weighed against gains in tech. Despite this relative drag, the strategy […]",
-   "symbols": []
-  },
-  {
-   "title": "Binance Hack Shakes Market Confidence Amid $1.5B in Liquidations: Expert",
-   "link": "https://www.cryptoprowl.com/releases/binance-hack-shakes-market-confidence-amid-15b-in-liquidations-expert-7580?.tsrc=rss",
-   "published": "2026-10-30T15:52:00Z",
-   "publisher": "",
-   "summary": "The Binance security breach and a wave of leveraged liquidations have put Bitcoin (CRYPTO: $BTC) at a critical junc...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
   }
  ]
 }
