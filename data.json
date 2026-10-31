@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-31T09:56:02Z",
+ "builtAt": "2026-10-31T12:55:50Z",
  "digests": [
   {
    "calendar": [
@@ -376,6 +376,76 @@
      "title": "A Qualcomm és a Coherent is kb. 11%-ot esett pénteken az Intel és az Amazon gyenge jelentései nyomán",
      "url": "https://www.tikr.com/blog/qualcomm-stock-fell-11-in-a-day-on-intels-pc-warning-heres-why-november-4-tests-its-claim-that-phones-have-bottomed",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T12:40:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Deutsche Bank stratégái (Parag Thatte, Binky Chadha) szerint a mélyülő technológiai kiárusítás és a pozícionáltság semlegesre csökkenése után a szektor kockázat-hozam aránya kedvezővé vált, az MI-kereslettel kapcsolatos aggodalmak jelentős része pedig már beárazódott. A bank szerint a mega-cap növekedési és techrészvények három hét alatt több mint 16 százalékponttal alulteljesítették az S&P 500 többi részét.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "A Deutsche Bank globális technológiai túlsúlyra emelte a szektort a kiárusítás után",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tech-risk-reward-turns-favorable-113238995.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T12:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A forrástól függően 409,5 millió (Farside) vagy 643 millió dollár nettó kiáramlás volt csütörtökön, ami megszakította a négynapos beáramlási sorozatot; a legnagyobb kiáramlás a BlackRockból (kb. 234 millió) és a Fidelityből (kb. 201 millió) érkezett. A beszámolók szerint közvetlen adat nem köti a kiáramlást a feltöréshez, a kereskedők a hétfői ETF-áramlásokat figyelik.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin-ETF-ekből 409–643 millió dollár áramlott ki a Binance-feltörés után",
+     "url": "https://beincrypto.com/investors-pull-643-million-bitcoin-etfs/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T12:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Egy, a helyzetet ismerő személy a Reuters szerint azt mondta, hogy a Binance együttműködik az FBI-jal és az amerikai Secret Service-szel. A TRM Labs és a Chainalysis a támadást a TraderTraitor nevű, Észak-Koreához köthető csoporthoz kapcsolja; a Circle több mint 800 millió dollárnyi USDC-t fagyasztott be. Trump a Bloomberg szerint vizsgálja az észak-koreai szálat.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "Az FBI és a Secret Service is nyomoz a Binance 6,3 milliárd dolláros feltörése ügyében; elemzőcégek észak-koreai kapcsolatot látnak",
+     "url": "https://www.investing.com/news/stock-market-news/fbi-and-us-secret-service-working-withbinance-after63-billion-hack-source-says-4987288",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T12:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Seoul Economic Daily",
+     "summary": "Az OpenAI vezérigazgatója szombaton a Yongin melletti Samsung-találkozón mintegy 50 vezetővel egyeztetett a memóriachipekről és az MI-infrastruktúráról. A beszámolók szerint ellátási mennyiségről, árról vagy szerződésről nem közöltek számot; Altman ugyanaznap az SK-csoport elnökével is találkozott.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Sam Altman a Samsung vezetőivel tárgyalt MI-chipekről és infrastruktúráról",
+     "url": "https://www.investing.com/news/company-news/samsung-hosts-openais-altman-for-talks-on-ai-chips-and-infrastructure-4989209",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T12:40:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint szombaton mintegy 70 ezer rendőr van készenlétben a megélhetési költségek miatti tiltakozások előtt, két héttel a fosztogatásba torkolló zavargások után. Laurent Nuñez belügyminiszter rendkívül határozott választ ígért; a párizsi République–Bastille-menetet bíróság tiltotta meg. A kereskedelmi kamara becslése szerint a kiskereskedők vesztesége meghaladja az 1 milliárd eurót.",
+     "symbols": [],
+     "title": "Franciaország újabb tüntetéshullámra készül, a kormány kemény fellépést ígér",
+     "url": "https://www.investing.com/news/economy-news/france-braces-for-fresh-unrest-government-vows-tough-response-4989212",
+     "verified": true
     }
    ],
    "markets": [
@@ -402,7 +472,7 @@
     }
    ],
    "summary": "Az amerikai részvényindexek harmadik egymást követő hetet zártak lejtmenetben, a Nasdaq a Yahoo szerint a legrosszabb hónapját zárta 2025 márciusa óta, az Intel pedig közel 29%-ot zuhant. A Binance 6,3 milliárd dolláros feltörése után a bitcoin 77 ezer dollár fölött stabilizálódott, miközben mintegy 3 milliárd dollárnyi eszközt befagyasztottak. A kínai feldolgozóipari PMI októberben 49,3-ra esett, a Fitch pedig negatívra módosította Franciaország kilátását. A Brent a háborús csúcs közelében marad a Hormuzi-szoros támadásai miatt. A jövő hét fókuszában a november 3-i amerikai félidős választás, az Apple és a Palantir gyorsjelentése és a pénteki munkaerőpiaci jelentés áll.",
-   "updatedAt": "2026-10-31T09:45:00Z",
+   "updatedAt": "2026-10-31T12:40:00Z",
    "watchlist": []
   },
   {
