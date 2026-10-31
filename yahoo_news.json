@@ -1,7 +1,24 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T19:39:24Z",
+ "updatedAt": "2026-10-31T20:09:04Z",
  "items": [
+  {
+   "title": "Binance Needs to Buy Back Billions in Stolen Coins. Could Its Buying Lift Bitcoin?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/31/binance-needs-to-buy-back-billions-in-stolen-coins-could-its-buying-lift-bitcoin/?.tsrc=rss",
+   "published": "2026-10-31T19:37:55Z",
+   "publisher": "",
+   "summary": "After North Korea's record-breaking heist drained billions from Binance, the exchange scrambled to replace stolen coins before reopening withdrawals. Whether that effort signals a Bitcoin recovery or just a fleeting weekend bounce depends on what the numbers actually reveal.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day",
    "link": "https://finance.yahoo.com/energy/articles/nabep-rig-fleet-grows-41-193200516.html",
@@ -28,11 +45,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -50,12 +67,12 @@
    "publisher": "",
    "summary": "The IPO is expected soon, and it could be the biggest ever. Here's what you need to know.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -66,12 +83,12 @@
    "publisher": "",
    "summary": "Binance founder Changpeng Zhao on Friday told Elon Musk to stop trolling after Musk reacted with laughing emojis to concerns Binance’s hack losses could mirror FTX’s 2022 collapse. Why CZ Pushed Back at Musk Musk posted \"Everyday is Zeroday\" as...",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -85,11 +102,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -602,12 +619,12 @@
    "publisher": "",
    "summary": "Despite Bloom Energy’s outperformance relative to the broader market over the past year, Wall Street analysts remain cautiously optimistic about the stock’s prospects.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3045,23 +3062,6 @@
    "publisher": "",
    "summary": "Reporting record revenue was only part of the reason this aerospace stock has soared recently.",
    "symbols": []
-  },
-  {
-   "title": "Why bitcoin isn't panicking over the Binance hack",
-   "link": "https://finance.yahoo.com/video/why-bitcoin-isnt-panicking-over-the-binance-hack-174033902.html",
-   "published": "2026-10-30T17:40:33Z",
-   "publisher": "",
-   "summary": "Laffer Tengler Investments CEO and CIO Nancy Tengler and her panel of experts welcome the \"Wolf of all Streets,\" Scott Melker, to the show to discuss bitcoin's (BTC-USD) surprising resilience following reports of a $6.3 billion hack at Binance. Today's panel includes Futurum CEO Daniel Newman, Kelly Intelligence CEO Kevin Kelly, and SHAKTI partner Liz Harrow.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
