@@ -1,7 +1,55 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T10:14:03Z",
+ "updatedAt": "2026-10-31T11:09:44Z",
  "items": [
+  {
+   "title": "The AI trade's trick-or-treat earnings season",
+   "link": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
+   "published": "2026-10-31T10:45:06Z",
+   "publisher": "",
+   "summary": "The latest wave of hyperscaler earnings is spooking Wall Street. Bulls and bears alike have evidence to validate their wildest dreams — or their worst nightmares.",
+   "symbols": []
+  },
+  {
+   "title": "Schwab International Equity ETF vs. Vanguard Total International Stock ETF: Two Low-Cost International ETFs, but One Offers More Growth Potential for the Next Decade",
+   "link": "https://www.fool.com/coverage/etfs/2026/10/31/schwab-international-equity-etf-vs-vanguard-total-international-stock-etf-two-low-cost-international-etfs-but-one-offers-more-growth-potential-for-the-next-decade/?.tsrc=rss",
+   "published": "2026-10-31T10:20:02Z",
+   "publisher": "",
+   "summary": "Schwab and Vanguard offer two inexpensive ways to invest internationally, but their differences in global exposure could have a meaningful impact on long-term returns.",
+   "symbols": []
+  },
+  {
+   "title": "Down 33.3% This Year, Is Netflix the Best Value Stock to Buy in November?",
+   "link": "https://www.fool.com/investing/2026/10/31/down-big-this-year-is-netflix-the-best-value-stock/?.tsrc=rss",
+   "published": "2026-10-31T10:20:00Z",
+   "publisher": "",
+   "summary": "It's time to embrace Netflix as a high-quality value stock rather than an industry-disrupting growth stock.",
+   "symbols": []
+  },
+  {
+   "title": "Here's Why I'm Buying Bitcoin Right Now",
+   "link": "https://www.fool.com/investing/2026/10/31/heres-why-im-buying-bitcoin-right-now/?.tsrc=rss",
+   "published": "2026-10-31T10:05:00Z",
+   "publisher": "",
+   "summary": "Bitcoin offers the optimal mix of upside potential with downside risk protection.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
   {
    "title": "The biggest question about Binance bitcoin heist: How much AI was involved?",
    "link": "https://finance.yahoo.com/technology/article/the-biggest-question-about-binance-bitcoin-heist-how-much-ai-was-involved-100000500.html",
@@ -12,12 +60,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "What 150 Years of Bubbles Teach Us About the AI Boom",
+   "link": "https://finance.yahoo.com/m/6640db01-8a1f-3253-9a88-80c3bb51b72e/what-150-years-of-bubbles.html",
+   "published": "2026-10-31T10:00:00Z",
+   "publisher": "",
+   "summary": "Observers failed to see the impending downturns in 1873, 1929, and 2000. And money is pouring into AI at a much higher rate than it did in those market crashes.",
+   "symbols": []
   },
   {
    "title": "Here's What $10,000 Invested Equally in SpaceX and Nvidia Could Be Worth in 2030",
@@ -26,12 +82,12 @@
    "publisher": "",
    "summary": "A $10,000 investment in SpaceX and Nvidia could rise fivefold by 2030.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -42,12 +98,12 @@
    "publisher": "",
    "summary": "Putting all of Musk's ambitions under one roof is not going to solve valuation issues across either stock.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -61,11 +117,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -78,11 +134,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3050,90 +3106,6 @@
     "VOO",
     "QQQ",
     "XDW0"
-   ]
-  },
-  {
-   "title": "OmniAb Q3 Earnings Call Highlights",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-omniab-q3-earnings-call-highlights-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-10-30T15:14:50Z",
-   "publisher": "",
-   "summary": "OmniAb (NASDAQ:OABI) reported higher third-quarter revenue and raised its full-year 2026 revenue and year-end cash outlook, citing partner-program milestones, expanding service revenue and early commercial progress for its xPloration B-cell screening platform. Third-quarter revenue rose to $4.0 mil",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "This Little-Known ETF Owns QQQ’s Stocks Without the Big Bet on Nvidia",
-   "link": "https://247wallst.com/investing/etf/2026/10/30/this-little-known-etf-owns-qqqs-stocks-without-the-big-bet-on-nvidia/?.tsrc=rss",
-   "published": "2026-10-30T15:14:46Z",
-   "publisher": "",
-   "summary": "QQQ investors hand nearly 8 cents of every dollar to a single chipmaker without realizing a quieter fund holds every same stock with none of that concentration risk.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Cipher Digital (CIFR) Faces Earnings Pressure As Undervalued Narrative Gets Tested",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/cipher-digital-cifr-faces-earnings-151052888.html",
-   "published": "2026-10-30T15:10:52Z",
-   "publisher": "",
-   "summary": "Cipher Digital (CIFR) is back on traders’ screens after a sharp share price drop, as the company heads into its November 2 earnings release with forecasts pointing to weaker EPS and revenue. The recent slide in Cipher Digital’s share price, including a 1-day share price return that declined 8.68% and a 30-day share price return down 48.82%, comes on top of a 1-year total shareholder return that ha",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SK Hynix Just Delivered Fantastic News for Micron",
-   "link": "https://www.fool.com/investing/2026/10/30/sk-hynix-just-delivered-fantastic-news-for-micron/?.tsrc=rss",
-   "published": "2026-10-30T15:10:16Z",
-   "publisher": "",
-   "summary": "Demand for memory processors appears to be outpacing supply for the next three years.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Crypto stocks slide as $6.3 billion Binance hack rattles market",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101014/crypto-stocks-slide-as-6-3-billion-binance-hack-rattles-market-1101014.html?.tsrc=rss",
-   "published": "2026-10-30T15:09:00Z",
-   "publisher": "",
-   "summary": "Cryptocurrency-related stocks tumbled on Friday after Binance disclosed a security breach with an estimated impact of $6.3 billion, potentially the largest crypto theft on record. Coinbase Global Inc (NASDAQ:COIN) shares fell 13%, while Robinhood Markets Inc (NASDAQ:HOOD) dropped 8%. Circle...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
    ]
   }
  ]
