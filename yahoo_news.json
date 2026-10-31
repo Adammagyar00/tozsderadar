@@ -1,7 +1,40 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T17:10:23Z",
+ "updatedAt": "2026-10-31T17:37:47Z",
  "items": [
+  {
+   "title": "Binance says it has replaced 90% of $6.3 billion stolen in record crypto hack",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/binance-says-replaced-90-6-172646569.html",
+   "published": "2026-10-31T17:26:46Z",
+   "publisher": "",
+   "summary": "The world’s largest cryptocurrency exchange reiterated on Saturday that it would absorb the entire financial impact of the theft, pledging that users would not suffer losses.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "3 Underowned S&P 500 Stocks as Investors Rotate Beyond AI",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-underowned-p-500-stocks-171435079.html",
+   "published": "2026-10-31T17:14:35Z",
+   "publisher": "",
+   "summary": "When market favorites stumble and previously ignored stocks begin to catch a bid, the real story often hides in the rotation beneath the headlines. That is exactly what is playing out as crowded AI trades unwind and attention drifts toward quieter, under-owned S&P 500 stocks that many investors barely track. This article breaks down three such tickers that screens flag as exposed to the recent shi",
+   "symbols": []
+  },
+  {
+   "title": "Thor Explorations And 2 Canadian Penny Stocks To Watch",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/thor-explorations-2-canadian-penny-171150486.html",
+   "published": "2026-10-31T17:11:50Z",
+   "publisher": "",
+   "summary": "AI enthusiasm in big tech has cooled as investors question heavy spending on data centers and chips. That pullback has shifted attention to smaller Canadian companies where every dollar is watched closely and balance sheets matter. Financially disciplined penny stocks can offer exposure to early stage growth, with tighter cost control and less hype. This article highlights three financially health",
+   "symbols": []
+  },
   {
    "title": "Bitcoin Looks Like A 'Relative Dud' Against Gold And US Treasuries, Says Bloomberg's Mike McGlone",
    "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-looks-like-a-relative-dud-against-gold-and-treasuries/cZU1EOgR9cv?.tsrc=rss",
@@ -26,12 +59,12 @@
    "publisher": "",
    "summary": "Ahead of its IPO, investors must weigh the AI lab's improving operating results against its enormous spending commitments.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -45,11 +78,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3047,38 +3080,6 @@
    "published": "2026-10-30T17:25:12Z",
    "publisher": "",
    "summary": "Investing.com -- Goldman Sachs has updated its outlook on China jewelry stocks following gold's decline from its January peak of $5,595 per ounce to current levels around $4,041 per ounce. The investment bank warns of mounting earnings downside risk for companies in the sector across fiscal years 2027 and potentially 2028 if spot prices remain at current levels.",
-   "symbols": []
-  },
-  {
-   "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday Friday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-172229310.html",
-   "published": "2026-10-30T17:22:29Z",
-   "publisher": "",
-   "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Big Tech Stocks Have Never Looked Cheaper. Is the Magnificent Seven a Screaming Buy?",
-   "link": "https://www.fool.com/investing/2026/10/30/big-tech-stocks-have-never-looked-cheaper-is-the-magnificent-seven-a-screaming-buy/?.tsrc=rss",
-   "published": "2026-10-30T17:20:03Z",
-   "publisher": "",
-   "summary": "Hyperscaler stocks are tumbling after earnings. Is it time to buy?",
-   "symbols": []
-  },
-  {
-   "title": "Gold plunges, but UBS isn't budging on its price target",
-   "link": "https://www.thestreet.com/investing/ubs-gold-5000-price-target?.tsrc=rss",
-   "published": "2026-10-30T17:17:00Z",
-   "publisher": "",
-   "summary": "A bold forecast faces its toughest test yet.",
    "symbols": []
   }
  ]
