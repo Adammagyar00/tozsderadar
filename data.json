@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-31T15:56:12Z",
+ "builtAt": "2026-10-31T18:56:23Z",
  "digests": [
   {
    "calendar": [
@@ -515,6 +515,83 @@
      "title": "Az Imperial Oil rekord negyedéves nyereséget ért el a harmadik negyedévben, az osztalék változatlan",
      "url": "https://finance.yahoo.com/markets/stocks/articles/imperial-oil-stock-record-downstream-141302765.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T18:40:00Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · CoinDesk",
+     "summary": "A Binance közlése szerint a tőzsde saját forrásból, vállalati pénzből és a SAFU-alap részleges bevonásával az előző napi kb. 80% után mostanra az ellopott eszközök mintegy 90%-át pótolta. A hátralévő rész kevésbé likvid tokenekből áll, ezek beszerzése tovább tarthat. A tőzsde szerint a veszteséget nem az ügyfelek viselik; a kb. 3 milliárd dollárnyi befagyasztott eszköz ettől független.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A Binance szerint a 6,3 milliárd dolláros feltörésben ellopott eszközök kb. 90%-át pótolta; november 1-re tervezi a kifizetések újraindítását",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/binance-says-replaced-90-6-172646569.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T18:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters egy, az ügyet ismerő forrásra hivatkozva azt írja, hogy a vasárnapi online ülésen a hét kulcsfontosságú OPEC+ termelő elvben megállapodott a decemberi célok változatlanul hagyásáról. Hivatalos döntés még nincs. A figyelem a 2027-es kvótákra terelődik, a Perzsa-öböl több tagja pedig az iráni konfliktus miatt a kvótája alatt termel.",
+     "symbols": [],
+     "title": "Reuters-forrás: az OPEC+ decemberre változatlanul hagyná a kitermelési célokat",
+     "url": "https://www.investing.com/news/commodities-news/opec-set-to-keep-production-targets-unchanged-in-december-source-says-4989301",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T18:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az iráni tárgyalók szombaton Dohában egyeztettek katari közvetítőkkel a háborúból való kiút kereséséről; a megbeszélések Washingtonnal folyamatos egyeztetésben zajlanak. Katar hétnapos bizalomépítő tervet vitt Teheránba, amelyet egy iráni tisztviselő nem talált kielégítőnek. A térség országai arra számítanak, hogy Trump a választás után újraindíthatja a támadásokat; Irán azzal fenyeget, hogy válaszul amerikai és izraeli célpontokat vesz célba.",
+     "symbols": [],
+     "title": "Iráni küldöttek katari közvetítőkkel tárgyaltak Dohában, miközben a félidős választás után amerikai csapások fenyegetnek",
+     "url": "https://www.investing.com/news/commodities-news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-4989288",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (The Information nyomán)",
+     "summary": "A The Information értesülései szerint a Meta kb. három hónap alatt készített el egy \"Max\" nevű, mintegy 1,5 méter magas humanoid prototípust a kínai Fourier startuppal, és a második verzión dolgozik. A robot a Meta MI-ügynökének fizikai kiterjesztése lehet. A Meta állítása szerint a munka belső kutatás, értékesítést nem terveznek. A Reuters a hírt nem tudta függetlenül ellenőrizni.",
+     "symbols": [],
+     "title": "A The Information értesülése szerint a Meta humanoid robotprototípust épített a kínai Fourier céggel",
+     "url": "https://www.investing.com/news/stock-market-news/meta-builds-humanoid-robot-with-chinese-startup-fourier-the-information-says-4989297",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T18:40:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Financial Times",
+     "summary": "A Financial Times szombati értesülése szerint a Bank of England pénzügyi stabilitási bizottsága fontolgatja, hogy a magas hitel/jövedelem küszöböt a háztartási jövedelem 4,5-szereséről 5-szörösére emelje. A jegybank a lap szerint rendszeresen felülvizsgálja a lakhatással kapcsolatos eszközeit. Döntésről nincs hír.",
+     "symbols": [],
+     "title": "FT: a Bank of England mérlegeli a magas jövedelem-arányú jelzáloghitelek küszöbének 5-szörös jövedelemre emelését",
+     "url": "https://www.investing.com/news/economy-news/bank-of-england-weighs-raising-highrisk-mortgage-threshold-to-five-times-income-4989294",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Piper Sandler elemzője szerint az optikai hálózatok egyre fontosabbak az MI-adatátvitelben, a Lumentum nagyteljesítményű lézerei pedig ezt segítő technológiák. A bank szerint a Marvell kiárusítása túlzott volt. A Bloomberg korábbi értesülése szerint a felek teljes egészében részvényalapú felvásárlásról tárgyalnak; ezt egyik cég sem erősítette meg.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A Piper Sandler fenntartotta a Marvell túlsúlyozás (Overweight) ajánlását és a 400 dolláros célárat a Lumentum-értesülések után",
+     "url": "https://www.tikr.com/blog/piper-sandlers-400-target-says-marvells-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261031-jgcx9j7x&.tsrc=rss",
+     "verified": true
     }
    ],
    "markets": [
@@ -541,7 +618,7 @@
     }
    ],
    "summary": "Az amerikai részvényindexek harmadik egymást követő hetet zártak lejtmenetben, a Nasdaq a Yahoo szerint a legrosszabb hónapját zárta 2025 márciusa óta, az Intel pedig közel 29%-ot zuhant. A Binance 6,3 milliárd dolláros feltörése után a bitcoin 77 ezer dollár fölött stabilizálódott, miközben mintegy 3 milliárd dollárnyi eszközt befagyasztottak. A kínai feldolgozóipari PMI októberben 49,3-ra esett, a Fitch pedig negatívra módosította Franciaország kilátását. A Brent a háborús csúcs közelében marad a Hormuzi-szoros támadásai miatt. A jövő hét fókuszában a november 3-i amerikai félidős választás, az Apple és a Palantir gyorsjelentése és a pénteki munkaerőpiaci jelentés áll.",
-   "updatedAt": "2026-10-31T15:40:00Z",
+   "updatedAt": "2026-10-31T18:40:00Z",
    "watchlist": []
   },
   {
