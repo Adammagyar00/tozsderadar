@@ -1,13 +1,46 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T11:39:54Z",
+ "updatedAt": "2026-10-31T12:11:36Z",
  "items": [
   {
-   "title": "Jamie Dimon warns US savers about Washington’s ‘heroin’ effect — it could crush you. Here’s how his bank protects itself",
-   "link": "https://finance.yahoo.com/economy/policy/articles/jamie-dimon-warns-us-savers-113500574.html",
-   "published": "2026-10-31T11:35:00Z",
+   "title": "The Binance hack knocked about $100 billion off crypto — and the timing has a familiar ring: Chart of the Day",
+   "link": "https://finance.yahoo.com/markets/crypto/article/the-binance-hack-knocked-about-100-billion-off-crypto--and-the-timing-has-a-familiar-ring-chart-of-the-day-120412412.html",
+   "published": "2026-10-31T12:04:12Z",
    "publisher": "",
-   "summary": "Hint: It prepares for trouble before trouble arrives.",
+   "summary": "The Binance hack came about a year after crypto's peak, right where its last three bear markets found their lows.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Tom Lee Says Investors Are Hesitant To Buy The Dip As Midterm Elections Loom — 'People Are Marking Their Calendar Until November 3rd'",
+   "link": "https://stocktwits.com/news-articles/markets/equity/tom-lee-investors-hesitant-buy-the-dip-midterm-elections-november-3/cZUKCFjR9cq?.tsrc=rss",
+   "published": "2026-10-31T12:01:04Z",
+   "publisher": "",
+   "summary": "During an interview with CNBC on Friday, Lee pointed to a lack of conviction among investors until after Nov. 3, with the Nasdaq facing a sharp sell-off.",
+   "symbols": []
+  },
+  {
+   "title": "EBay Leads Five Stocks Near Buy Points From Resilient Sectors",
+   "link": "https://finance.yahoo.com/m/4b4a36ef-aafb-35f1-9224-e8262bfa6459/ebay-leads-five-stocks-near.html",
+   "published": "2026-10-31T12:00:40Z",
+   "publisher": "",
+   "summary": "Ebay, Quest Diagnostics, Fastenal, Chubb trade in or around buy points after earnings. TG Therapeutics breaks out.",
+   "symbols": []
+  },
+  {
+   "title": "OpenAI Cuts Funding Target Amid Meta, Microsoft Offerings, Anthropic IPO",
+   "link": "https://finance.yahoo.com/m/9f64f875-35a4-3cac-86e3-a7d06eb54605/openai-cuts-funding-target.html",
+   "published": "2026-10-31T11:55:01Z",
+   "publisher": "",
+   "summary": "OpenAI reportedly is now seeking to raise $20 billion at a $1.25 trillion valuation. Meta, Microsoft just raised funds while the Anthropic IPO looms.",
    "symbols": [
     "SPCX",
     "BE",
@@ -15,6 +48,22 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Jamie Dimon warns US savers about Washington’s ‘heroin’ effect — it could crush you. Here’s how his bank protects itself",
+   "link": "https://finance.yahoo.com/economy/policy/articles/jamie-dimon-warns-us-savers-113500574.html",
+   "published": "2026-10-31T11:35:00Z",
+   "publisher": "",
+   "summary": "Hint: It prepares for trouble before trouble arrives.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -35,6 +84,23 @@
    "symbols": []
   },
   {
+   "title": "Investors Pull $643 Million From Bitcoin ETFs After the Biggest Crypto Hack in History",
+   "link": "https://beincrypto.com/investors-pull-643-million-bitcoin-etfs/?.tsrc=rss",
+   "published": "2026-10-31T11:29:43Z",
+   "publisher": "",
+   "summary": "Investors pulled $643 million from Bitcoin ETFs a day after the record Binance hack. Here is what it means for the funds.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
    "title": "Intel Is Down 45% in October, Its Worst Month Ever",
    "link": "https://247wallst.com/investing/2026/10/31/intel-is-down-45-in-october-its-worst-month-ever/?.tsrc=rss",
    "published": "2026-10-31T11:18:52Z",
@@ -49,12 +115,12 @@
    "publisher": "",
    "summary": "SpaceX has a bright future ahead, and it's not from the place you might expect.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -73,6 +139,23 @@
    "publisher": "",
    "summary": "The latest wave of hyperscaler earnings is spooking Wall Street. Bulls and bears alike have evidence to validate their wildest dreams — or their worst nightmares.",
    "symbols": []
+  },
+  {
+   "title": "Will U.S. Midterms Impact Crypto? Grayscale Says Election Outcome Matters Only 'At The Margins'",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/u-midterms-impact-crypto-grayscale-104506814.html",
+   "published": "2026-10-31T10:45:06Z",
+   "publisher": "",
+   "summary": "Bitcoin and the broader cryptocurrency industry could continue expanding regardless of which party controls Congress after Tuesday’s midterm elections. Grayscale Sees Limited Midterm Election Risk In an Oct. 28 report, Grayscale noted that prediction markets favor Democrats taking control of...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Schwab International Equity ETF vs. Vanguard Total International Stock ETF: Two Low-Cost International ETFs, but One Offers More Growth Potential for the Next Decade",
@@ -3008,80 +3091,6 @@
     "MU",
     "MRVL"
    ]
-  },
-  {
-   "title": "Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3 EPS, Revenue Miss Expectations, Shares Fall",
-   "link": "https://finance.yahoo.com/news/top-midday-stories-intel-shares-154739859.html",
-   "published": "2026-10-30T15:47:39Z",
-   "publisher": "",
-   "summary": "All three major US stock indexes were down in late-morning trading Friday, as oil prices were up and",
-   "symbols": []
-  },
-  {
-   "title": "3 insurance stocks with questionable fundamentals",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-insurance-stocks-questionable-fundamentals-154729317.html",
-   "published": "2026-10-30T15:47:29Z",
-   "publisher": "",
-   "summary": "Insurance companies serve as the backbone of risk management, providing essential protection and financial security for individuals and businesses. These institutions have benefited from improved pricing power and robust premium growth, so it’s no surprise the industry has posted a 10.3% gain over the past six months, beating the S&P 500 by 2.8 percentage points.",
-   "symbols": []
-  },
-  {
-   "title": "Fidelity’s Health Care ETF Holds the Biotechs XLV Skips. Retirees Should Know the Difference",
-   "link": "https://247wallst.com/investing/etf/2026/10/30/fidelitys-health-care-etf-holds-the-biotechs-xlv-skips-retirees-should-know-the-difference/?.tsrc=rss",
-   "published": "2026-10-30T15:47:23Z",
-   "publisher": "",
-   "summary": "Two health care ETFs track the same sector but own very different slices of it, and for retirees building a portfolio, that gap in biotech exposure and concentration could matter more than the nearly identical returns suggest.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "COIN Stock Sinks To Over 2-Year Low As Bitcoin Sinks Below $77K, Wall Street Cuts Price Targets",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/coin-stock-sinks-to-over-2-year-low-as-bitcoin-sinks-below-77-k-wall-street-cuts-price-targets/cZUhUigR9Ts?.tsrc=rss",
-   "published": "2026-10-30T15:44:45Z",
-   "publisher": "",
-   "summary": "Needham said the Binance incident roiled crypto markets around Coinbase’s earnings report and flagged AI-derived hacking risk as a concern for the sector heading into 2027.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Why SpaceX Stock Dropped Today",
-   "link": "https://www.fool.com/investing/2026/10/30/why-spacex-stock-dropped-today/?.tsrc=rss",
-   "published": "2026-10-30T15:40:33Z",
-   "publisher": "",
-   "summary": "Intel's bad guidance could be bad news for SpaceX, too.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Saudi Arabia Mineral Processing Equipment Market Size, Share, Trends, and Forecast, 2026-2031 | Vision 2030 and Mining Expansion Drive 8.98% CAGR Through 2031",
-   "link": "https://finance.yahoo.com/energy/articles/saudi-arabia-mineral-processing-equipment-153600408.html",
-   "published": "2026-10-30T15:36:00Z",
-   "publisher": "",
-   "summary": "Local assembly lowers logistics costs and boosts tender success, while modular plants, energy-efficient equipment and aftermarket wear parts strengthen ROIDublin, Oct. 30, 2026 (GLOBE NEWSWIRE) -- \"Saudi Arabia Mineral Processing Equipment - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts (2026-2031)\" has been added to ResearchAndMarkets.com's offering. The Saudi Arabia miner",
-   "symbols": []
   }
  ]
 }
