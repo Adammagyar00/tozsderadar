@@ -1,6 +1,357 @@
 {
- "builtAt": "2026-10-30T20:56:40Z",
+ "builtAt": "2026-10-31T06:55:43Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 2.",
+     "event": "ISM feldolgozóipari PMI; Apple és Palantir gyorsjelentés"
+    },
+    {
+     "date": "nov. 3.",
+     "event": "Amerikai félidős választás"
+    },
+    {
+     "date": "nov. 6.",
+     "event": "Amerikai munkaerőpiaci jelentés (október)"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés; Nvidia gyorsjelentés"
+    }
+   ],
+   "date": "2026-10-31",
+   "generatedAt": "2026-10-31T06:50:00Z",
+   "headline": "A kriptopiac a Binance-hack után stabilizálódik, a tech-kiárusítás és az olaj háborús csúcs közelsége árnyékolja a hétvégét",
+   "items": [
+    {
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CNBC, CNN",
+     "summary": "A Binance közlése szerint a 6,3 milliárd dolláros feltörés során ellopott eszközök mintegy 3 milliárd dollárnyi részét azonosították és befagyasztották, a kifizetések vasárnap reggelre indulhatnak újra. A TRM Labs és a Chainalysis a támadást az észak-koreai TraderTraitor csoporthoz köti; az FBI és a titkosszolgálat a Reuters szerint együttműködik a Binance-szel. A bitcoin a hétvége elején 77 ezer dollár felett tartott.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A Binance szerint kb. 3 milliárd dollárnyi ellopott kriptót befagyasztottak; a kifizetések vasárnapra újraindulhatnak, a bitcoin 77 ezer dollár felett stabilizálódott",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-holds-above-77-000-060510120.html",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "A két amerikai tőzsde szigorítja a biztonsági intézkedéseit a rekordméretű Binance-támadás után. A Reuters szerint több kriptotőzsde is gyors lépéseket kér az iparágtól a védelem megerősítésére. A szabályozók a tengerentúli tőzsdék szigorúbb felügyeletét is felvetik.",
+     "symbols": [
+      "BTC",
+      "COIN"
+     ],
+     "title": "A Coinbase és a Kraken növeli a biztonságot a Binance-feltörés után; a tőzsdék gyors védelmi lépéseket sürgetnek",
+     "url": "https://www.cryptoprowl.com/releases/coinbase-and-kraken-ramp-up-security-after-massive-binance-hack-7584?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga",
+     "summary": "Az amerikai részvényindexek a harmadik egymást követő heti veszteséget könyvelték el, az Amazon, az Intel és az Eli Lilly gyorsjelentése mozgatta a piacot. A Nasdaq a Yahoo szerint a legrosszabb hónapját zárta 2025 márciusa óta, az MI-kiadások megtérülése miatti aggodalmak közepette.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Harmadik egymást követő hetet zárt gyengén az S&P 500 és a Nasdaq, miközben a befektetők kivonulnak a tech- és MI-részvényekből",
+     "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-third-straight-week-lower-as-investors-move-away-from-tech-ai-amzn-intc-lly-rblx-in-focus/cZUKKlTR9cJ?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "Az Intel gyenge negyedik negyedéves kilátása miatt a részvény közel 29%-ot esett a pénteki ülésen, ami lehúzta a nagy chipgyártókat is. A papír az S&P 500 októberi legnagyobb vesztese lett.",
+     "symbols": [
+      "INTC"
+     ],
+     "title": "Az Intel részvénye közel 29%-ot zuhant pénteken, októberben az S&P 500 legrosszabb teljesítője lett",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/30/stock-market-today-oct-30-intel-plunges-nearly-29-as-weak-outlook-rattles-wall-street/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A nagy tech-cégek gyenge gyorsjelentései után a SpaceX (SPCX) részvénye pénteken az értesülések szerint a tőzsdei bevezetési ár alá süllyedt. A Yahoo Finance szerint ezzel a cég piaci értéke 2 billió dollár alá csökkent.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX részvénye a technológiai gyorsjelentések után az IPO-ár alá esett",
+     "url": "https://finance.yahoo.com/m/b5aeecce-1d32-3744-aa96-e36fea749124/tech-earnings-send-spacex.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance beszámolója szerint a SpaceX a T-Mobile-t és más mobilszolgáltatókat azzal vádolja, hogy megpróbálják akadályozni. A hírt külön megerősítő forrást nem találtunk, a részletek tisztázatlanok.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Értesülések szerint a SpaceX azzal vádolja a T-Mobile-t és más szolgáltatókat, hogy kárt akarnak neki okozni",
+     "url": "https://www.thestreet.com/markets/spacex-accuses-t-mobile-other-carriers-of-trying-to-harm-it?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A beszámoló szerint a Walmart és az Eli Lilly csatlakozott a tokenizált, blokkláncon kereskedett részvények elleni kezdeményezéshez. Független megerősítést nem találtunk.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Az Eli Lilly és a Walmart is a blokkláncalapú részvénykereskedés ellen szól – írja a Yahoo Finance",
+     "url": "https://finance.yahoo.com/video/walmart-eli-lilly-join-pushback-163000217.html",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga",
+     "summary": "A Benzinga szerint az ARK Invest vezetője biotechrészvényeket vett (Tempus AI, Illumina), az Eli Lilly-ból viszont eladott. Független megerősítést nem találtunk.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Cathie Wood az értesülések szerint csökkentette Eli Lilly-pozícióját a kiugró negyedév után, miközben a TEM-et és az ILMN-t vásárolta",
+     "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-invest-buys-tem-ilmn-biotech-stocks-sells-lly/cZUKolkR9ch?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A tiszta energiás részvények kiárusítása közepette a Bloom Energy (BE) mintegy 10%-ot esett. A Motley Fool szerint a cég közel 400-szoros nyereségszorzón került be az S&P 500-ba, ami a későbbi gyengébb teljesítményt valószínűsíti.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "A Bloom Energy 10%-ot, a FuelCell Energy 12%-ot esett pénteken az S&P 500-be való felvétel ellenére is",
+     "url": "https://247wallst.com/investing/2026/10/30/fuelcell-energy-sinks-12-despite-completing-49-million-export-import-bank-financing-bloom-energy-tumbles-10-plug-power-falls-4/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance szerint az amerikai olajipar profitja jóval meghaladja a tavalyi szintet a háborús olajár-sokk miatt. Az Exxon finomítói üzletága hat év után először többet termelt, mint a kitermelés.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Az amerikai olajcégek az iráni háború óta 130 milliárd dollárnál is többet kerestek",
+     "url": "https://www.ibtimes.com/us-oil-companies-profits-iran-war-fuel-prices-3809189?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A korrigált egy részvényre jutó nyereség 2,49 dollár volt a várt kb. 2,09 dollárral szemben, a bevétel 18,1 milliárd dollár. Az eladások 5%-kal nőttek, a Keytruda vitte a növekedést.",
+     "symbols": [
+      "MRK"
+     ],
+     "title": "A Merck 2%-ot emelkedett pénteken a vártnál jobb harmadik negyedév nyomán",
+     "url": "https://www.fool.com/investing/2026/10/30/why-merck-stock-flew-higher-on-friday/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance beszámolója szerint az Okta az S&P 500 tagja lesz, a papír a bejelentés után a tőzsdezárást követően emelkedett. Külön, független megerősítést nem találtunk.",
+     "symbols": [
+      "OKTA"
+     ],
+     "title": "Az S&P Dow Jones Indices szerint az Okta bekerül az S&P 500-ba, a részvény zárás után ugrott",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/okta-set-join-p-500-215100402.html",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A cég közleménye szerint az amerikai energiaügyi tárca (DOE) visszaállította a korábban felfüggesztett támogatást.",
+     "symbols": [
+      "EMN"
+     ],
+     "title": "Az Eastman Chemical újra megkapta a 375 millió dolláros energiaügyi minisztériumi támogatást újrahasznosítási kapacitás bővítésére",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/eastman-chemical-emn-gets-375-021236977.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A hivatalos (NBS) feldolgozóipari PMI 49,3-ra esett szeptember 50,1-es értékéről, a Reuters-felmérés 50,0-t várt. Az export- és belső kereslet is gyengült; a nem feldolgozóipari PMI 49,7-re süllyedt. A csúcstechnológiai szektor továbbra is 50 felett maradt.",
+     "symbols": [],
+     "title": "Összetorpant a kínai feldolgozóipar októberben: a hivatalos PMI 49,3, a vártnál gyengébb",
+     "url": "https://www.investing.com/news/economy-news/chinas-october-factory-activity-contracts-at-fastest-pace-in-3-months-pmi-survey-shows-4989032",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A jegybank az éves eladási ütemet 330 milliárdról kb. 860 milliárd jenre emeli (könyv szerinti értéken), így a teljes kivezetés becsült ideje 112 évről 43 évre rövidül. A pénzügyminiszter szerint a nagyobb eladások növelik a kormányhoz befizetett jegybanki nyereséget; a jegybank piaci helyzettől függően lassíthatja vagy felfüggesztheti az eladásokat.",
+     "symbols": [],
+     "title": "A Bank of Japan 2027 januárjától közel megháromszorozza az ETF-eladások ütemét",
+     "url": "https://www.investing.com/news/economy-news/boj-speeds-up-etf-sales-potentially-boosting-funding-for-takaichis-plans-4989085",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Fitch az A+ minősítést megtartotta, de a kilátást stabilról negatívra rontotta soron kívüli felülvizsgálatban. Az adósság a GDP 115,7%-áról 2028-ra kb. 124%-ra nőhet; a 2027-es hiányt 5,5%-ra várja a költségvetési tervezet 5,0%-ával szemben, a 2027-es elnökválasztás pedig bizonytalanná teszi a kiigazítást.",
+     "symbols": [],
+     "title": "A Fitch negatívra módosította Franciaország kilátását, az adósságot 2028-ra 124%-ra várja",
+     "url": "https://www.investing.com/news/stock-market-news/fitch-revises-frances-outlook-to-negative-on-worsening-debt-dynamics-4988846",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "CNBC · OilPrice.com",
+     "summary": "A Brent hordónként kb. 117 dollár körül járt pénteken, nem sokkal a márciusi háborús záróérték (118,35 dollár) alatt, októberben közel 14%-ot drágult, ez a negyedik egymást követő havi emelkedés. A Kpler szerint a hónap utolsó hetében a szoros kőolajexportja 7,3 millió hordó/napra esett, a háború előtti szint több mint 40%-a alá. Trump szerint a konfliktus hamarosan véget ér, tűzszünetről azonban nincs hír.",
+     "symbols": [],
+     "title": "A Hormuzi-szorosban rekordszámú támadás érte a tankereket októberben, az olaj háborús csúcs közelében jár",
+     "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Privátbankár · MNB",
+     "summary": "Az MNB pénteki hivatalos euró-középárfolyama 365,80 forint volt, a piaci zárás 365,7 körül alakult. A Privátbankár szerint a forint az euróval szemben kb. 0,3%-ot erősödött a hónapban.",
+     "symbols": [],
+     "title": "A forint októberben enyhén erősödött az euróval szemben, a dollárral és a svájci frankkal szemben gyengült",
+     "url": "https://privatbankar.hu/cikkek/reszveny/a-dollar-es-a-svajci-frank-is-kifogott-a-forinton-oktoberben.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Financial Times (Reuters, Investing.com)",
+     "summary": "A Financial Times szerint a kötelező ajánlatok határideje pénteken lejárt, és az első zárás a 20 milliárd dollár alatt is maradhat; az értékelés 1,4 billióról 1,25 billió dollárra mérséklődött. Egy ismeretlen forrás szerint gazdag magánszemélyeknek is felajánlhatják a részvételt ugyanezen az értékelésen. Az OpenAI és a befektetők nem kommentálták. Más forrás nem erősítette meg önállóan.",
+     "symbols": [],
+     "title": "Az FT értesülése szerint az OpenAI 30-ról 20 milliárd dollárra csökkentette a tőkebevonási célt, 1,25 billió dolláros értékelés mellett",
+     "url": "https://www.investing.com/news/economy-news/openai-cuts-funding-target-by-10-billion-ft-reports-4988969",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Reuters (Investing.com)",
+     "summary": "A beszámoló szerint a hitelminősítő a magas MI-beruházások és a gyengülő szabad cash flow miatt rontott a kilátáson. Más forrásból nem tudtuk megerősíteni; a Meta szabad cash flow-ja a harmadik negyedévben negatív volt.",
+     "symbols": [
+      "META"
+     ],
+     "title": "A Reuters értesülése szerint az S&P Global negatívra módosította a Meta kilátását az MI-kiadások és a cash flow miatt",
+     "url": "https://www.investing.com/news/stock-market-news/sp-global-revises-outlook-on-meta-to-negative-on-cashflow-concerns-4988756",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Reuters (Investing.com)",
+     "summary": "A hírt a Reuters hozta, független megerősítést keresésünk nem talált, a részletek (időzítés, ok) nem tisztázottak.",
+     "symbols": [
+      "ALK"
+     ],
+     "title": "A Reuters szerint az Alaska Air 200 állást szüntet meg, és évi 700 millió dolláros veszteségre figyelmeztet",
+     "url": "https://www.investing.com/news/stock-market-news/alaska-air-to-cut-200-jobs-as-fuel-costs-threaten-700-million-annual-loss-4988943",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Bloomberg (Investing.com)",
+     "summary": "A Bloomberg értesülése szerint a Google mérlegeli a szerepvállalást. Hivatalos megerősítés nincs.",
+     "symbols": [
+      "GOOGL"
+     ],
+     "title": "Bloomberg: a Google a Pentagon Golden Dome rakétavédelmi projektében vállalhat kiberbiztonsági szerepet",
+     "url": "https://www.investing.com/news/stock-market-news/google-weighs-cybersecurity-role-in-pentagons-golden-dome-project--bloomberg-4988811",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Bloomberg (Investing.com)",
+     "summary": "Az MI-infrastruktúra-startup értesülések szerint új tőkebevonást tervez. A céges megerősítés hiányzik.",
+     "symbols": [],
+     "title": "Bloomberg: a Baseten 2 milliárd dolláros körben 30 milliárd dolláros értékelést keres",
+     "url": "https://www.investing.com/news/company-news/baseten-seeks-30bn-valuation-in-new-2-billion-funding-round--bloomberg-4988882",
+     "verified": false
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · CNBC",
+     "summary": "A hét fő eseményei a november 3-i amerikai félidős választás, az Apple és a Palantir gyorsjelentése, az ISM-felmérések és a pénteki munkaerőpiaci jelentés. A CNBC hasonló előzetest közölt.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Reuters-előzetes: félidős választás, gyorsjelentések és munkaerőpiaci adat vár a MI-tól tartó piacra a jövő héten",
+     "url": "https://www.investing.com/news/economy-news/midterm-elections-earnings-jobs-data-loom-for-aiwary-market-4986533",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "Az amerikai részvényindexek harmadik egymást követő hetet zártak lejtmenetben, a Nasdaq a Yahoo szerint a legrosszabb hónapját zárta 2025 márciusa óta, az Intel pedig közel 29%-ot zuhant. A Binance 6,3 milliárd dolláros feltörése után a bitcoin 77 ezer dollár fölött stabilizálódott, miközben mintegy 3 milliárd dollárnyi eszközt befagyasztottak. A kínai feldolgozóipari PMI októberben 49,3-ra esett, a Fitch pedig negatívra módosította Franciaország kilátását. A Brent a háborús csúcs közelében marad a Hormuzi-szoros támadásai miatt. A jövő hét fókuszában a november 3-i amerikai félidős választás, az Apple és a Palantir gyorsjelentése és a pénteki munkaerőpiaci jelentés áll.",
+   "updatedAt": "2026-10-31T06:50:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -4135,18 +4486,52 @@
   },
   {
    "actual": "",
+   "country": "USA",
+   "date": "2026-11-02",
+   "event": "ISM feldolgozóipari PMI, október",
+   "forecast": "",
+   "importance": 2,
+   "note": "Az ISM az október 2-i hétfői közzétételt jelezte; a konszenzus nem két forrásból megerősített.",
+   "previous": "54,5",
+   "source": "CMC Markets, Newsquawk",
+   "symbols": [],
+   "time": "16:00",
+   "type": "Makroadat",
+   "url": "https://cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-ism-pmi-reports-us-jobs-report-apple-earnings",
+   "id": "2026-11-02-us-ism-mfg"
+  },
+  {
+   "actual": "",
    "country": "US",
    "date": "2026-11-02",
    "event": "Apple gyorsjelentés, pénzügyi 4. negyedév",
-   "forecast": "",
+   "forecast": "EPS ~2,00 $ / bevétel ~112,95 Mrd $",
    "importance": 2,
-   "note": "Amerikai tőzsdezárás után; a naptárak státusza eltér (megerősített/becsült)",
+   "note": "Konszenzus: Earnings Whispers (a TipRanks EPS 1,99 $ / bevétel 113,2 Mrd $-t közöl); a vállalati irányadás EPS 1,91–2,04 $, bevétel 111,7–113,7 Mrd $. Zárás után; a dátumot az Apple még nem erősítette meg hivatalosan.",
    "previous": "",
    "source": "Sentisense, CME Group",
    "time": "",
    "type": "Gyorsjelentés",
    "url": "https://www.cmelitegroup.com/knowledge-hub/earnings-calendar/",
    "id": "2026-11-02-us-aapl-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-02",
+   "event": "Palantir gyorsjelentés, 3. negyedév",
+   "forecast": "EPS 0,41 $ / bevétel ~2,18 Mrd $",
+   "importance": 2,
+   "note": "Konszenzus: TipRanks (a Zacks bevételt 2,17 Mrd $-ra becsüli). Zárás után.",
+   "previous": "",
+   "source": "TipRanks, Zacks, Yahoo Finance",
+   "symbols": [
+    "PLTR"
+   ],
+   "time": "",
+   "type": "Gyorsjelentés",
+   "url": "https://www.tipranks.com/news/apple-vs-palantir-which-stock-has-more-upside",
+   "id": "2026-11-02-us-pltr-earnings"
   },
   {
    "actual": "",
@@ -4192,6 +4577,22 @@
   },
   {
    "actual": "",
+   "country": "USA",
+   "date": "2026-11-04",
+   "event": "ISM szolgáltatóipari PMI, október",
+   "forecast": "",
+   "importance": 2,
+   "note": "",
+   "previous": "",
+   "source": "CMC Markets, Truflation",
+   "symbols": [],
+   "time": "16:00",
+   "type": "Makroadat",
+   "url": "https://cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-ism-pmi-reports-us-jobs-report-apple-earnings",
+   "id": "2026-11-04-us-ism-services"
+  },
+  {
+   "actual": "",
    "country": "GB",
    "date": "2026-11-05",
    "event": "Bank of England kamatdöntés + Monetary Policy Report",
@@ -4220,6 +4621,22 @@
   },
   {
    "actual": "",
+   "country": "Kína",
+   "date": "2026-11-09",
+   "event": "Infláció (CPI) és termelői árak (PPI), október",
+   "forecast": "",
+   "importance": 2,
+   "note": "Az NBS közzététele 9:30 kínai idő szerint.",
+   "previous": "",
+   "source": "NBS, FinanceCalendar",
+   "symbols": [],
+   "time": "02:30",
+   "type": "Makroadat",
+   "url": "https://www.financecalendar.com/?p=2105",
+   "id": "2026-11-09-cn-cpi"
+  },
+  {
+   "actual": "",
    "country": "US",
    "date": "2026-11-10",
    "event": "Fogyasztói árindex (CPI), október",
@@ -4245,6 +4662,22 @@
    "type": "Makroadat",
    "url": "https://www.ksh.gov.hu/",
    "id": "2026-11-10-hu-cpi"
+  },
+  {
+   "actual": "",
+   "country": "Egyesült Királyság",
+   "date": "2026-11-12",
+   "event": "GDP első becslés, 3. negyedév (július–szeptember)",
+   "forecast": "",
+   "importance": 3,
+   "note": "Egyben a szeptemberi havi GDP.",
+   "previous": "",
+   "source": "ONS",
+   "symbols": [],
+   "time": "08:00",
+   "type": "Makroadat",
+   "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026",
+   "id": "2026-11-12-gb-gdp"
   },
   {
    "actual": "",
@@ -4277,6 +4710,24 @@
    "type": "Makroadat",
    "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
    "id": "2026-11-13-us-ppi"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-17",
+   "event": "Nvidia gyorsjelentés, 3. negyedév (2027-es pénzügyi év)",
+   "forecast": "",
+   "importance": 3,
+   "note": "A telefonkonferencia 17:00 ET-kor; az eredményt kb. 16:20 ET-kor teszik közzé.",
+   "previous": "",
+   "source": "Nvidia befektetői kapcsolatok",
+   "symbols": [
+    "NVDA"
+   ],
+   "time": "23:00",
+   "type": "Gyorsjelentés",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+   "id": "2026-11-17-nvda-earnings"
   },
   {
    "actual": "",
