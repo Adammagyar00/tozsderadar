@@ -1,7 +1,31 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T02:47:19Z",
+ "updatedAt": "2026-10-31T03:44:26Z",
  "items": [
+  {
+   "title": "EXE Q3 deep dive: Integration, new CEO, and commercial expansion define the quarter",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/exe-q3-deep-dive-integration-031529843.html",
+   "published": "2026-10-31T03:15:29Z",
+   "publisher": "",
+   "summary": "Natural gas producer Expand Energy (NASDAQ:EXE) reported revenue ahead of Wall Street’s expectations in Q3 2026, with sales up 11.6% year on year to $2.81 billion. Its non-GAAP profit of $1.46 per share was 10.8% above analysts’ consensus estimates.",
+   "symbols": []
+  },
+  {
+   "title": "Elon Musk Warns Of AI Shakeout, While Zuckerberg, Pichai, Nadella, Jassy Discuss The Costs: MAG 7 Voices This Week",
+   "link": "https://stocktwits.com/news-articles/markets/equity/elon-musk-warns-of-ai-shakeout-while-zuckerberg-pichai-nadella-jassy-discuss-the-costs-mag-7-voices-this-week/cZUKmssR9cO?.tsrc=rss",
+   "published": "2026-10-31T02:45:16Z",
+   "publisher": "",
+   "summary": "Commentary from Magnificent Seven this week focused on striking the balance between continued AI investment and the growing demands on cash flow, financing and infrastructure capacity.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Eastman Chemical (EMN) Gets $375 Million DOE Grant Reinstated For Recycling Expansion",
    "link": "https://finance.yahoo.com/markets/stocks/articles/eastman-chemical-emn-gets-375-021236977.html",
@@ -20,11 +44,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -512,11 +536,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3078,39 +3102,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "How investors should approach crypto after Binance's $6.3B hack",
-   "link": "https://finance.yahoo.com/video/how-investors-should-approach-crypto-after-binances-63b-hack-143047131.html",
-   "published": "2026-10-30T14:17:00Z",
-   "publisher": "",
-   "summary": "The 8:30 host, Jake Conley, speaks with Owen Lau, Clear Street Managing Director and Senior Analyst, about the hack of crypto exchange Binance (AIBINANCE-USD) that has affected $6.3 billion in digital assets.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "YPF Sociedad Anónima (BASE:YPFD) Stock Fair Value Edges Higher After Mixed Analyst Revisions",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ypf-sociedad-nima-ypfd-stock-141554506.html",
-   "published": "2026-10-30T14:15:54Z",
-   "publisher": "",
-   "summary": "Price targets around YPF Sociedad Anónima have settled into a band between US$55 and US$66, giving you a clear view of how analysts are framing potential upside versus risk. The lower end at US$55 reflects more cautious views on how much is already priced in, while the upper end at US$66 highlights confidence from firms such as JPMorgan that YPF can support a higher equity valuation if plans are d",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
    ]
   }
  ]
