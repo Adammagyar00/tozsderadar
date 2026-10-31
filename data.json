@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-31T06:55:43Z",
+ "builtAt": "2026-10-31T09:56:02Z",
  "digests": [
   {
    "calendar": [
@@ -323,6 +323,59 @@
      "title": "Reuters-előzetes: félidős választás, gyorsjelentések és munkaerőpiaci adat vár a MI-tól tartó piacra a jövő héten",
      "url": "https://www.investing.com/news/economy-news/midterm-elections-earnings-jobs-data-loom-for-aiwary-market-4986533",
      "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "Az OPay pénteken visszavonta tervezett, 304 millió dolláros amerikai IPO-ját, mert egy meg nem nevezett országban hatósági vizsgálat indult. A cég szerint az érintett joghatóság az alaptevékenysége szempontjából lényegtelen, és hamar megoldódhat az ügy. Az ár 19 dollár/részvény volt, ami kb. 4 milliárd dolláros értékelést jelentett; a szolgáltatások Nigériában, Indonéziában, Egyiptomban és Pakisztánban változatlanul működnek.",
+     "symbols": [],
+     "title": "A SoftBank-támogatta OPay lemondta a 304 millió dolláros amerikai tőzsdei bevezetését egy külföldi hatósági vizsgálat miatt",
+     "url": "https://www.investing.com/news/company-news/softbankbacked-opay-cancels-304m-us-ipo-over-regulatory-inquiry--bloomberg-4989192",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T09:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com (Xinhua)",
+     "summary": "A Xinhua szombati jelentése szerint a 17 stratégiai ásványra kiterjedő egyéves felmérés az arany esetében kb. 50, a nikkelnél kb. 30 nagy lelőhelynek megfelelő növekedést mutat. A rénium megmaradt erőforrásai több mint 200%-kal nőttek. A növekedés újrabecslésből (társult, alacsonyabb minőségű, nehezen kitermelhető készletek) származik, nem új felfedezésekből.",
+     "symbols": [],
+     "title": "Kína szerint a nemzeti felmérés után jelentősen nőtt az arany-, nikkel- és más stratégiai ásványi készleteinek becslése",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/china-reports-sharp-increase-gold-070904245.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "Az Exxon harmadik negyedévi szabad pénzárama 19,1 milliárd dollár volt, az osztalékot 44. éve emelte egymás után (1,07 dollár/részvény). Darren Woods vezérigazgató szerint a vállalat az olajár-ciklusoktól függetlenül viszonylag egyenletes szétosztásra törekszik; a finomítói környezet szerinte jövőre is kedvező maradhat.",
+     "symbols": [
+      "XOM"
+     ],
+     "title": "Az ExxonMobil a gyorsjelentéssel együtt megerősítette a 2027-re tervezett 20 milliárd dolláros részvény-visszavásárlást",
+     "url": "https://www.tikr.com/blog/exxonmobil-plans-20-billion-of-2027-buybacks-heres-how-its-ceo-answered-the-60-oil-question",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-10-31T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Qualcomm 164,79 dolláron zárt, az Intel PC-piaci figyelmeztetése miatt; a Coherent 210,32 dolláron, az MI-hardverpapírok eladási hullámában. Egyik esetben sincs cégspecifikus hír. A Qualcomm november 4-én jelent.",
+     "symbols": [
+      "QCOM",
+      "COHR"
+     ],
+     "title": "A Qualcomm és a Coherent is kb. 11%-ot esett pénteken az Intel és az Amazon gyenge jelentései nyomán",
+     "url": "https://www.tikr.com/blog/qualcomm-stock-fell-11-in-a-day-on-intels-pc-warning-heres-why-november-4-tests-its-claim-that-phones-have-bottomed",
+     "verified": true
     }
    ],
    "markets": [
@@ -349,7 +402,7 @@
     }
    ],
    "summary": "Az amerikai részvényindexek harmadik egymást követő hetet zártak lejtmenetben, a Nasdaq a Yahoo szerint a legrosszabb hónapját zárta 2025 márciusa óta, az Intel pedig közel 29%-ot zuhant. A Binance 6,3 milliárd dolláros feltörése után a bitcoin 77 ezer dollár fölött stabilizálódott, miközben mintegy 3 milliárd dollárnyi eszközt befagyasztottak. A kínai feldolgozóipari PMI októberben 49,3-ra esett, a Fitch pedig negatívra módosította Franciaország kilátását. A Brent a háborús csúcs közelében marad a Hormuzi-szoros támadásai miatt. A jövő hét fókuszában a november 3-i amerikai félidős választás, az Apple és a Palantir gyorsjelentése és a pénteki munkaerőpiaci jelentés áll.",
-   "updatedAt": "2026-10-31T06:50:00Z",
+   "updatedAt": "2026-10-31T09:45:00Z",
    "watchlist": []
   },
   {
