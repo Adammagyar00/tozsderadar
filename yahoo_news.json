@@ -1,7 +1,39 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T03:44:26Z",
+ "updatedAt": "2026-10-31T04:43:38Z",
  "items": [
+  {
+   "title": "Mission Produce (AVO): buy, sell, or hold post Q2 earnings?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/mission-produce-avo-buy-sell-043529131.html",
+   "published": "2026-10-31T04:35:29Z",
+   "publisher": "",
+   "summary": "Over the last six months, Mission Produce’s shares have sunk to $11.61, producing a disappointing 16.3% loss - a stark contrast to the S&P 500’s 7.5% gain. This may have investors wondering how to approach the situation.",
+   "symbols": []
+  },
+  {
+   "title": "What Bears Saw Before Galiano Gold Slid",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/bears-saw-galiano-gold-slid-042238133.html",
+   "published": "2026-10-31T04:22:38Z",
+   "publisher": "",
+   "summary": "If you had paused on Galiano Gold back on 1 January, curious but unconvinced by the bullish and bearish research already on record, the outcome might look different today. Investors who held Galiano Gold from the start of the year are down 23.3%, including dividends. With fresh lease extensions at Asanko now confirmed and stronger recent quarterly figures, the obvious question is which early warni",
+   "symbols": []
+  },
+  {
+   "title": "Is SpaceX Stock a Buy After Plummeting 28%?",
+   "link": "https://www.fool.com/investing/2026/10/31/is-spacex-stock-a-buy-after-plummeting-28/?.tsrc=rss",
+   "published": "2026-10-31T04:20:00Z",
+   "publisher": "",
+   "summary": "Elon Musk sees tremendous growth ahead for the AI and space juggernaut.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "EXE Q3 deep dive: Integration, new CEO, and commercial expansion define the quarter",
    "link": "https://finance.yahoo.com/markets/stocks/articles/exe-q3-deep-dive-integration-031529843.html",
@@ -17,12 +49,12 @@
    "publisher": "",
    "summary": "Commentary from Magnificent Seven this week focused on striking the balance between continued AI investment and the growing demands on cash flow, financing and infrastructure capacity.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3062,47 +3094,6 @@
    "publisher": "",
    "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change Hub Cyber Security Ltd.",
    "symbols": []
-  },
-  {
-   "title": "SpaceX has lost more than $400 billion in market value in less than a month",
-   "link": "https://finance.yahoo.com/markets/article/spacex-has-lost-more-than-400-billion-in-market-value-in-less-than-a-month-142516838.html",
-   "published": "2026-10-30T14:25:16Z",
-   "publisher": "",
-   "summary": "SpaceX stock broke below $140 Friday, erasing its post-earnings jump.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Energy stocks are surging: Can the rally last?",
-   "link": "https://finance.yahoo.com/video/energy-stocks-are-surging-can-the-rally-last-141815208.html",
-   "published": "2026-10-30T14:18:15Z",
-   "publisher": "",
-   "summary": "Energy stocks are outperforming the broader market, with oil giants Chevron (CVX), ExxonMobil (XOM), and BP (BP) reporting strong profits. The 8:30 hosts Jake Conley and Julie Hyman break down what's fueling the sector's momentum and why oil prices could remain elevated for longer.",
-   "symbols": []
-  },
-  {
-   "title": "How investors should approach crypto after Binance's $6.3B hack",
-   "link": "https://finance.yahoo.com/video/investors-approach-crypto-binances-6-141700027.html",
-   "published": "2026-10-30T14:17:00Z",
-   "publisher": "",
-   "summary": "The 8:30 host, Jake Conley, speaks with Owen Lau, Clear Street Managing Director and Senior Analyst, about the hack of crypto exchange Binance (AIBINANCE-USD) that has affected $6.3 billion in digital assets.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
   }
  ]
 }
