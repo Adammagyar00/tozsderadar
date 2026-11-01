@@ -1,7 +1,40 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T10:40:29Z",
+ "updatedAt": "2026-11-01T11:12:57Z",
  "items": [
+  {
+   "title": "AI stocks just lost $5 trillion — but history says the stock market's sweetest stretch starts now",
+   "link": "https://finance.yahoo.com/markets/article/ai-stocks-just-lost-5-trillion--but-history-says-the-stock-markets-sweetest-stretch-starts-now-110000768.html",
+   "published": "2026-11-01T11:00:00Z",
+   "publisher": "",
+   "summary": "October selloffs, like the $5 trillion AI stock wipeout that hit the market, often lead into a sweet spot for traders.",
+   "symbols": []
+  },
+  {
+   "title": "FBI Confirms North Korea Stole Over $6B In Record Crypto Heist, Binance Replenishes 90% Of Funds Stolen",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/fbi-confirms-north-korea-stole-over-6-b-in-record-crypto-heist-binance-replenishes-90-of-funds-stolen/cNGeVyCR9c6?.tsrc=rss",
+   "published": "2026-11-01T10:51:12Z",
+   "publisher": "",
+   "summary": "Binance said it has replenished about 90% of the stolen crypto, and CZ credited U.S. agencies for helping limit the damage.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "MercadoLibre and Dutch Bros Have Fallen More Than 30% From Their Record Highs. Here's Why Both Are Worth Buying Now.",
+   "link": "https://www.fool.com/investing/2026/11/01/mercadolibre-and-dutch-bros-have-fallen-more-than/?.tsrc=rss",
+   "published": "2026-11-01T10:50:00Z",
+   "publisher": "",
+   "summary": "These top stocks have near-term pressure but long-term opportunity.",
+   "symbols": []
+  },
   {
    "title": "Elon Musk’s SpaceXAI will buy your home near its Mississippi gas turbines — if you never sue over ‘torturous’ noise",
    "link": "https://finance.yahoo.com/real-estate/articles/elon-musk-spacexai-buy-home-103000536.html",
@@ -9,12 +42,12 @@
    "publisher": "",
    "summary": "As neighbors fight back over noise and alleged air-permit violations, the AI giant is reportedly eyeing 418 homes in a deal that could reshape the community.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -57,12 +90,12 @@
    "publisher": "",
    "summary": "Investors should ask some key questions about SpaceX before getting swept up in the AI excitement.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -76,11 +109,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3037,39 +3070,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Strategy: 3 Key Takeaways for Long-Term Investors",
-   "link": "https://www.fool.com/earnings/takeaways/2026/10/30/strategy-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-   "published": "2026-10-30T19:51:01Z",
-   "publisher": "",
-   "summary": "The company's balance sheet can weather a 78% Bitcoin price decline before debt exceeds asset value, a structural cushion that shapes its growth strategy.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Chevron and Exxon Have Rallied Nearly 60%. Here’s What $100,000 Pays in Dividends",
-   "link": "https://247wallst.com/investing/2026/10/30/chevron-and-exxon-have-rallied-nearly-60-heres-what-100000-pays-in-dividends/?.tsrc=rss",
-   "published": "2026-10-30T19:47:00Z",
-   "publisher": "",
-   "summary": "After rallying nearly 60%, Chevron and Exxon still write quarterly checks to shareholders, but rising prices mean new buyers lock in far less income than those who bought in January. The gap between these two oil giants matters more than most retirees realize.",
-   "symbols": []
-  },
-  {
-   "title": "Goldman Sachs Said Buy a Year Ago. This Stock Went on to Lose 61%.",
-   "link": "https://247wallst.com/investing/2026/10/30/goldman-sachs-said-buy-a-year-ago-this-stock-went-on-to-lose-61/?.tsrc=rss",
-   "published": "2026-10-30T19:44:25Z",
-   "publisher": "",
-   "summary": "Goldman Sachs named the right threat, slashed its price target by half, and still held a Buy rating on FMC. What followed over the next year exposed just how costly that stubborn optimism turned out to be.",
-   "symbols": []
   }
  ]
 }
