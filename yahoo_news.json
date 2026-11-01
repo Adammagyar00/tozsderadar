@@ -1,7 +1,66 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T16:10:10Z",
+ "updatedAt": "2026-11-01T16:42:04Z",
  "items": [
+  {
+   "title": "SK hynix Just Dropped 33% in a Month. Is It Time to Sell, or Load Up?",
+   "link": "https://www.tikr.com/blog/sk-hynix-just-dropped-33-in-a-month-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261101-wv59jg34&.tsrc=rss",
+   "published": "2026-11-01T16:16:38Z",
+   "publisher": "",
+   "summary": "Key TakeawaysSK hynix (SKHY) fell 33% in the month through October 22, compared with a 22% decline for Micron (MU) and a 6% drop in the Nasdaq 100. Lam Research (LRCX) added pressure to semiconductor stocks as investors questioned whether AI infrastructure spending could sustain its rapid growth.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Sandisk Sinks 13% Last Friday After a Beat: Kioxia Says the Flash Price Surge Is Fading",
+   "link": "https://www.tikr.com/blog/sandisk-sinks-13-last-friday-after-a-beat-kioxia-says-the-flash-price-surge-is-fading?ref=yahoofinance&tlnk=yf-261101-v7m7rqjf&.tsrc=rss",
+   "published": "2026-11-01T16:14:06Z",
+   "publisher": "",
+   "summary": "Sandisk (SNDK:NASDAQ) shares fell 13. 47% to $1,150.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Cathie Wood buys $11.2 million of popular AI stock",
+   "link": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-11-2-million-of-popular-ai-stock-tempus-ai-tem?.tsrc=rss",
+   "published": "2026-11-01T16:07:00Z",
+   "publisher": "",
+   "summary": "Here are Cathie Wood’s latest moves and thoughts.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
+   "link": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack?.tsrc=rss",
+   "published": "2026-11-01T16:01:02Z",
+   "publisher": "",
+   "summary": "Bitcoin ETFs saw $643.2 million in outflows Friday, the first full trading session after the $6.4 billion Binance hack, ending October with roughly $516 million in net outflows.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "These 3 AI Stocks Could Soon Enter the S&P 500. Are They Worth Buying Before the Move?",
    "link": "https://www.fool.com/investing/2026/11/01/these-3-ai-stocks-could-soon-enter-the-sp-500-are/?.tsrc=rss",
@@ -25,12 +84,12 @@
    "publisher": "",
    "summary": "Anthropic looks like a great business. But that doesn’t mean investors should rush to buy its shares when it goes public.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -41,12 +100,12 @@
    "publisher": "",
    "summary": "Inflation in the US remains above the Federal Reserve’s 2% goal, and investors are rethinking how much risk to take before the next rate decision. In periods like this, businesses that analysts expect to grow earnings quickly and still keep balance sheets in reasonable shape can feel scarce. This article highlights three such stocks from a “healthy growth with financial discipline” screen and expl",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -136,11 +195,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3072,55 +3131,6 @@
    "publisher": "",
    "summary": "The Nasdaq sank Friday as Intel stock plunged and Amazon shares dropped on disappointing earnings reports.",
    "symbols": []
-  },
-  {
-   "title": "OmniAb, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-omniab-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-   "published": "2026-10-30T21:03:55Z",
-   "publisher": "",
-   "summary": "Moby summary of OmniAb, Inc.'s Q3 2026 earnings call",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Orezone Files Technical Report for the Casa Berardi Updated Life-of-Mine Plan",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/orezone-files-technical-report-casa-210000711.html",
-   "published": "2026-10-30T21:00:00Z",
-   "publisher": "",
-   "summary": "VANCOUVER, British Columbia, Oct. 30, 2026 (GLOBE NEWSWIRE) -- Orezone Gold Corporation (TSX: ORE | ASX: ORE | OTCQX: ORZCF) (the “Company” or “Orezone”) is pleased to announce that it has filed the technical report supporting the Casa Berardi updated Life-of-Mine Plan, previously announced by the Company on September 15, 2026 (the “News Release”). The technical report titled “Updated Life-of-Mine",
-   "symbols": []
-  },
-  {
-   "title": "Update: Nasdaq Composite Marks Worst Month Since March 2025 as AI Spending Fears Rise",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-composite-marks-worst-month-205653774.html",
-   "published": "2026-10-30T20:56:53Z",
-   "publisher": "",
-   "summary": "(Updates with latest market prices and developments.) The Nasdaq Composite recorded its steepest",
-   "symbols": []
-  },
-  {
-   "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-   "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-   "published": "2026-10-30T20:51:56Z",
-   "publisher": "",
-   "summary": "Techs led another stock market sell-off. It's a time to be defensive. Apple, Palantir, jobs and midterm elections loom.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
