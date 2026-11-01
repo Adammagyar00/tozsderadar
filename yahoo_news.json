@@ -1,6 +1,6 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T19:39:51Z",
+ "updatedAt": "2026-11-01T20:10:39Z",
  "items": [
   {
    "title": "Is the Vanguard S&P 500 ETF Still a Buy for Long-Term Investors? Here's My Honest Take.",
@@ -28,12 +28,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "Jobs, Midterm Elections, Apple, Palantir, McDonald’s, Moderna, and More to Watch This Week",
+   "link": "https://finance.yahoo.com/m/70ce984f-00d7-351b-ac85-1541ff0679b6/jobs%2C-midterm-elections%2C.html",
+   "published": "2026-11-01T19:00:00Z",
+   "publisher": "",
+   "summary": "In another busy earnings week, AMD, Estée Lauder, Qualcomm, Pfizer, and many more will report results. We’ll see three readings on jobs this week, as well as data on the manufacturing and services sectors.",
+   "symbols": []
   },
   {
    "title": "Should You Sell Your Stocks Right Now? Here's What a Century's Worth of History Suggests.",
@@ -3181,14 +3189,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Okta jumps after-hours following tapped inclusion in the S&P 500",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/okta-jumps-hours-following-tapped-215908289.html",
-   "published": "2026-10-30T21:59:08Z",
-   "publisher": "",
-   "summary": "Investing.com -- Okta Inc (NASDAQ:OKTA) shares climbed 2.1% in extended trading Friday after S&P Dow Jones Indices selected the identity and access management provider to join the benchmark S&P 500 index. The after-hours rebound helped the cybersecurity firm pare steep regular-session losses, following a more than 6% drop earlier in the day amid a widespread selloff across technology equities.",
-   "symbols": []
   }
  ]
 }
