@@ -1,7 +1,15 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T03:51:24Z",
+ "updatedAt": "2026-11-01T04:51:53Z",
  "items": [
+  {
+   "title": "3 Integrated Oil Majors Whose Cash Flow Outlook Just Got Clearer",
+   "link": "https://finance.yahoo.com/energy/articles/3-integrated-oil-majors-whose-041824843.html",
+   "published": "2026-11-01T04:18:24Z",
+   "publisher": "",
+   "summary": "Oil markets are finally catching their breath. OPEC+ is holding December output targets steady while still keeping meaningful cuts in place through 2026, which gives you clearer sight lines on energy-linked cash flows than at any point in the past year. That stability creates a window where sentiment can reset before the next supply surprise. This article walks through three integrated oil and gas",
+   "symbols": []
+  },
   {
    "title": "Micron's Chinese Rival CXMT Just Grew Its Sales More Than Sevenfold. I'd Buy Micron Stock Now.",
    "link": "https://www.fool.com/investing/2026/10/31/micron-s-chinese-rival-cxmt-just-grew-its-sales-more-than-sevenfold-i-d-buy-micron-stock-now/?.tsrc=rss",
@@ -12,11 +20,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -29,11 +37,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -46,11 +54,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3088,14 +3096,6 @@
     "VOO",
     "XDW0"
    ]
-  },
-  {
-   "title": "Update: Nasdaq Plummets 975 Points as Intel's Results Help Trigger Sell-Off in Mega-Cap Chipmakers",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-plummets-975-points-intel-185707804.html",
-   "published": "2026-10-30T18:57:07Z",
-   "publisher": "",
-   "summary": "(Updates with index/price moves from the first paragraph.) US equity indexes sank as a sharp sell",
-   "symbols": []
   }
  ]
 }
