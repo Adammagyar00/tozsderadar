@@ -1,7 +1,81 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T11:12:57Z",
+ "updatedAt": "2026-11-01T12:07:39Z",
  "items": [
+  {
+   "title": "The Stock Market Is Doing Something for Only the 3rd Time in 28 Years, and History Says It's Clear What Comes Next for Stocks",
+   "link": "https://www.fool.com/investing/2026/11/01/stock-market-do-something-3rd-time-in-28-years-history-says-clear-what-next-for-stocks/?.tsrc=rss",
+   "published": "2026-11-01T11:56:02Z",
+   "publisher": "",
+   "summary": "History has a knack for forecasting the future -- and that’s bad news for Wall Street.",
+   "symbols": []
+  },
+  {
+   "title": "$10,000 in Rocket Lab at Its Record High Is Worth About $3,900 Today. Here's What Gets That Money Back.",
+   "link": "https://www.fool.com/investing/2026/11/01/10000-in-rocket-lab-at-its-record-high-is-worth-ab/?.tsrc=rss",
+   "published": "2026-11-01T11:52:00Z",
+   "publisher": "",
+   "summary": "Rocket Lab has posted big revenue growth, but its stock has still seen a huge pullback.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "US Hedge Funds Just Sold Every AI Stock They Bought Since 2025",
+   "link": "https://beincrypto.com/hedge-funds-dump-ai-stocks/?.tsrc=rss",
+   "published": "2026-11-01T11:31:14Z",
+   "publisher": "",
+   "summary": "Hedge funds made their biggest stock pullback since 2017, and AI stocks took the hit. Is it a bubble or forced selling?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "5 Bullish XRP Price Predictions Made in 2026 — From Peter Brandt's $5.40 to Jake Claver's $10,000",
+   "link": "https://www.ccn.com/news/crypto/5-bullish-xrp-price-predictions-made-2026/?.tsrc=rss",
+   "published": "2026-11-01T11:20:44Z",
+   "publisher": "",
+   "summary": "Bullish XRP forecasts range from 21Shares’ $2.69 scenario to Jake Claver’s $10,000 prediction. Institutional adoption, ETF demand, and historical chart patterns underpin the different forecasts.…",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "3 Dividend Stocks With Yields Over 5%",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-yields-over-111404442.html",
+   "published": "2026-11-01T11:14:04Z",
+   "publisher": "",
+   "summary": "AI heavyweights have poured money into chips and data centers, with corporate investment in artificial intelligence hitting US$581.7b in 2025. Cash is flowing into growth stories, which can leave steady dividend payers overlooked. That creates an opening for investors who want reliable income while others chase headlines. This article highlights three high yield dividend veterans that combine long",
+   "symbols": []
+  },
+  {
+   "title": "This Dividend Stock Yielding Quadruple the S&P 500 Looks Like a Buy Right Now",
+   "link": "https://www.fool.com/investing/2026/11/01/dividend-stock-yield-quadruple-sp-500-pepsico/?.tsrc=rss",
+   "published": "2026-11-01T11:03:00Z",
+   "publisher": "",
+   "summary": "How does a growing dividend recently yielding 4.4% sound?",
+   "symbols": []
+  },
   {
    "title": "AI stocks just lost $5 trillion — but history says the stock market's sweetest stretch starts now",
    "link": "https://finance.yahoo.com/markets/article/ai-stocks-just-lost-5-trillion--but-history-says-the-stock-markets-sweetest-stretch-starts-now-110000768.html",
@@ -20,11 +94,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -34,6 +108,23 @@
    "publisher": "",
    "summary": "These top stocks have near-term pressure but long-term opportunity.",
    "symbols": []
+  },
+  {
+   "title": "Binance resumes withdrawals for some cryptocurrencies after heist",
+   "link": "https://www.cbsnews.com/news/binance-crypto-heist-withdrawals/?.tsrc=rss",
+   "published": "2026-11-01T10:35:55Z",
+   "publisher": "",
+   "summary": "The exchange said it would resume withdrawals in phases, pending security checks.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Elon Musk’s SpaceXAI will buy your home near its Mississippi gas turbines — if you never sue over ‘torturous’ noise",
@@ -196,6 +287,14 @@
    "published": "2026-11-01T05:23:00Z",
    "publisher": "",
    "summary": "Oil and gas producer Vitesse Energy (NYSE:VTS) will be announcing earnings results this Monday after market close. Here’s what investors should know.",
+   "symbols": []
+  },
+  {
+   "title": "ExxonMobil Stock Outlook: Is Wall Street Bullish or Bearish?",
+   "link": "https://www.barchart.com/story/news/8578499/exxonmobil-stock-outlook-is-wall-street-bullish-or-bearish?.tsrc=rss",
+   "published": "2026-11-01T05:17:18Z",
+   "publisher": "",
+   "summary": "Despite ExxonMobil's outperformance relative to the broader market over the past year, Wall Street analysts remain cautiously optimistic about the stock’s prospects.",
    "symbols": []
   },
   {
@@ -2960,115 +3059,6 @@
     "SPCX",
     "VOO",
     "XDW0"
-   ]
-  },
-  {
-   "title": "Wall Street Has Cut Its Strategy Target by More Than Half. BTIG Still Sees $250",
-   "link": "https://www.tikr.com/blog/wall-street-has-cut-its-strategy-target-by-more-than-half-btig-still-sees-250?ref=yahoofinance&tlnk=yf-261030-w6q7vqhq&.tsrc=rss",
-   "published": "2026-10-30T20:08:13Z",
-   "publisher": "",
-   "summary": "Key TakeawaysBTIG reiterated its Buy rating and $250 price target on Strategy on Oct. 30, 77% above the last close, the day after Strategy reported a record $20.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms",
-   "link": "https://decrypt.co/382282/crypto-hacks-buy-bitcoin-proxies-stock-market-wall-street?.tsrc=rss",
-   "published": "2026-10-30T20:06:03Z",
-   "publisher": "",
-   "summary": "Analysts at Cantor Fitzgerald, TD Cowen and Compass Point say the record $6.4 billion theft is a Binance security failure, not a crypto-wide threat, pointing clients toward proxies like Coinbase, Robinhood, and Strategy.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Revvity Board Declares Quarterly Dividend",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/revvity-board-declares-quarterly-dividend-200500742.html",
-   "published": "2026-10-30T20:05:00Z",
-   "publisher": "",
-   "summary": "WALTHAM, Mass., October 30, 2026--The Board of Directors of Revvity, Inc. (NYSE: RVTY), today declared a regular quarterly dividend of $0.07 per share of common stock. This dividend is payable on February 12, 2027 to all shareholders of record at the close of business on January 22, 2027.",
-   "symbols": []
-  },
-  {
-   "title": "Standard Chartered sees new winner after Binance hack",
-   "link": "https://www.thestreet.com/crypto/markets/standard-chartered-sees-new-winner-after-binance-hack?.tsrc=rss",
-   "published": "2026-10-30T20:00:00Z",
-   "publisher": "",
-   "summary": "Binance suffers what is believed to be the crypto industry’s largest hack ever.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Sector Update: Energy Stocks Gain Late Afternoon",
-   "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-195710565.html",
-   "published": "2026-10-30T19:57:10Z",
-   "publisher": "",
-   "summary": "Energy stocks were higher late Friday afternoon, with the NYSE Energy Sector Index rising 1.2% and t",
-   "symbols": []
-  },
-  {
-   "title": "Gold Price Just Hit a Yearly Low. What Are Analysts Saying?",
-   "link": "https://beincrypto.com/gold-price-lowest-point-2026-analysts/?.tsrc=rss",
-   "published": "2026-10-30T19:54:53Z",
-   "publisher": "",
-   "summary": "Spot gold price fell below $3,900 per ounce, its lowest level of 2026 and roughly 30% below its January peak.",
-   "symbols": []
-  },
-  {
-   "title": "Billions of Dollars In Cryptocurrency Was Just Stolen. Should Investors Be Worried?",
-   "link": "https://finance.yahoo.com/m/5fca5436-e17f-3286-9998-a50d689e2363/billions-of-dollars-in.html",
-   "published": "2026-10-30T19:54:00Z",
-   "publisher": "",
-   "summary": "The $6.3 billion heist could revive efforts to push for legislation like the Clarity Act.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "XRP Price Prediction: XRP Is Down 18% in October. How Low Could It Go in November?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/30/xrp-price-prediction-xrp-is-down-18-in-october-how-low-could-it-go-in-november/?.tsrc=rss",
-   "published": "2026-10-30T19:53:25Z",
-   "publisher": "",
-   "summary": "After an 18% October slide and millions in forced liquidations, XRP sits at a fragile price level where the next move could either stabilize the coin or trigger a fresh wave of selling pressure heading into November.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
    ]
   }
  ]
