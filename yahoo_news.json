@@ -1,7 +1,82 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T02:49:45Z",
+ "updatedAt": "2026-11-01T03:51:24Z",
  "items": [
+  {
+   "title": "Micron's Chinese Rival CXMT Just Grew Its Sales More Than Sevenfold. I'd Buy Micron Stock Now.",
+   "link": "https://www.fool.com/investing/2026/10/31/micron-s-chinese-rival-cxmt-just-grew-its-sales-more-than-sevenfold-i-d-buy-micron-stock-now/?.tsrc=rss",
+   "published": "2026-11-01T03:33:01Z",
+   "publisher": "",
+   "summary": "What does a sevenfold sales leap for a Chinese rival say about the memory maker's stock?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Strategy's Michel Saylor Says the Next Bitcoin Bull Market Has Already Started. Here's Why He's Right.",
+   "link": "https://www.fool.com/investing/2026/10/31/strategys-michel-saylor-says-the-next-bitcoin-bull/?.tsrc=rss",
+   "published": "2026-11-01T03:20:00Z",
+   "publisher": "",
+   "summary": "Saylor sees one price dynamic as being particularly important to differentiating between bull and bear regimes.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "FBI confirms North Korea behind stolen billions from Binance in biggest crypto heist in history",
+   "link": "https://www.independent.co.uk/tech/fbi-north-korea-binance-crypto-heist-b3076990.html?.tsrc=rss",
+   "published": "2026-11-01T03:05:54Z",
+   "publisher": "",
+   "summary": "FBI says attack tied to ‘malicious cyber activity’ by entity known as TraderTraitor, the same actors behind $1.5bn Bybit hack last year",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "AI investors rush to hedge against potential tech market downturn - WSJ",
+   "link": "https://finance.yahoo.com/markets/options/articles/ai-investors-rush-hedge-against-030211499.html",
+   "published": "2026-11-01T03:02:11Z",
+   "publisher": "",
+   "summary": "Investing.com -- Investors and technology executives are increasingly seeking protection against a potential artificial intelligence market downturn as concerns mount over the sustainability of trillions of dollars in AI-related investments, The Wall Street Journal reported Saturday.",
+   "symbols": []
+  },
+  {
+   "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+   "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html",
+   "published": "2026-11-01T02:44:14Z",
+   "publisher": "",
+   "summary": "Techs led another stock market sell-off. It's a time to be defensive. Apple, Palantir, jobs and midterm elections loom.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
   {
    "title": "Bloom Energy Trades at 140 Times Earnings. Here's the Growth Rate It Needs to Justify That.",
    "link": "https://www.fool.com/investing/2026/10/31/bloom-energy-trades-at-140-times-earnings-heres-th/?.tsrc=rss",
@@ -9,12 +84,12 @@
    "publisher": "",
    "summary": "Bloom Energy is growing into its valuation, and the most recent quarter marks an important turning point.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3021,73 +3096,6 @@
    "publisher": "",
    "summary": "(Updates with index/price moves from the first paragraph.) US equity indexes sank as a sharp sell",
    "symbols": []
-  },
-  {
-   "title": "Ripple Froze the Stolen RLUSD. XRP Cannot Be Frozen.",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/ripple-froze-stolen-rlusd-xrp-185534907.html",
-   "published": "2026-10-30T18:55:34Z",
-   "publisher": "",
-   "summary": "Ripple became the third major stablecoin issuer to freeze funds drained from Binance, after Tether and Circle. Its own rulebook shows exactly where that power stops.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Palantir Stock Tests Key Level As Earnings Loom",
-   "link": "https://finance.yahoo.com/m/7ce432a6-f7f1-373d-be60-33e2151bdcd4/palantir-stock-tests-key.html",
-   "published": "2026-10-30T18:54:16Z",
-   "publisher": "",
-   "summary": "Palantir stock is testing its 50-day moving average ahead of third-quarter earnings due on Monday.",
-   "symbols": []
-  },
-  {
-   "title": "Bitcoin Drops as Markets Digest Multbillion-Dollar Binance Hack",
-   "link": "https://www.investopedia.com/bitcoin-drops-as-markets-digest-multbillion-dollar-binance-hack-12202897?.tsrc=rss",
-   "published": "2026-10-30T18:49:20Z",
-   "publisher": "",
-   "summary": "Bitcoin, which earlier this year shook off its crypto-winter doldrums to clamber back over $80,000, is now below $77,000 amid a high-profile hack of crypto exchange Binance.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Video - CEO Clips: Alex Metals: Searching for the Next Major Silver-Gold Discovery in Alaska",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/video-ceo-clips-alex-metals-184800448.html",
-   "published": "2026-10-30T18:48:00Z",
-   "publisher": "",
-   "summary": "Vancouver, British Columbia--(Newsfile Corp. - October 30, 2026) - Alex Metals (TSXV: ALX) is advancing three exploration projects in Southeast Alaska, targeting high-grade silver, gold, zinc and copper discoveries in a region with significant mineral potential. The company recently completed an approximately $8 million exploration program, including drilling at two projects and additional fieldwo",
-   "symbols": []
-  },
-  {
-   "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
-   "link": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash?.tsrc=rss",
-   "published": "2026-10-30T18:45:03Z",
-   "publisher": "",
-   "summary": "Binance lost about $6.4 billion, the largest crypto hack on record, yet Bitcoin fell about 3%, against nearly 11% in 2018 when the exchange was last attacked.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
