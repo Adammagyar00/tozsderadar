@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-01T09:55:52Z",
+ "builtAt": "2026-11-01T12:56:29Z",
  "digests": [
   {
    "calendar": [
@@ -208,6 +208,68 @@
      "title": "A Xiaomi októberi elektromosautó-kiszállítása meghaladta az 50 ezret, ez idei havi csúcs",
      "url": "https://www.investing.com/news/stock-market-news/xiaomis-october-ev-deliveries-top-50000-hit-2026-monthly-high-4989416",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T12:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters három forrása szerint az OPEC+ hét magtagja (Szaúd-Arábia, Oroszország, Irak, Kuvait, Algéria, Kazahsztán, Omán) elvben megállapodott a decemberi célok változatlanul hagyásáról; a döntés vasárnapi online ülésen születik. A csoport szeptemberben fejezte be az 1,65 millió hordó/napos csökkentés visszaépítését, az október–novemberi célokat is érintetlenül hagyta. A 2027-es bázisokat a negyedik negyedéves kapacitásfelülvizsgálat alapozza meg.",
+     "symbols": [],
+     "title": "Az OPEC+ forrásai szerint decemberben is változatlan marad a kitermelési célszám",
+     "url": "https://www.investing.com/news/commodities-news/opec-set-to-keep-oil-output-targets-steady-sources-say-4989496",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T12:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg szerint az Al Mayeda nevű, katari LNG-t szállító tankert pénteken érte támadás a Hormuzi-szoros közelében, miután Irán – Pakisztán közvetítésével – órákkal korábban zöld utat adott az áthaladásra. A hajó a nyomkövetés szerint visszafordult a Perzsa-öböl felé; a támadót nem azonosították. Az LNG-szállítások októberben a háború előtti volumen kb. 30%-án álltak.",
+     "symbols": [],
+     "title": "Iráni engedély ellenére megtámadtak egy pakisztáni LNG-tankert a Hormuzi-szorosnál – Bloomberg",
+     "url": "https://www.investing.com/news/economy-news/pakistanbound-lng-tanker-attacked-near-hormuz-despite-iran-clearance--bloomberg-4989531",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T12:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A BYD októberben 490 168 járművet adott el (egy évvel korábban 441 706), ez hatodik egymást követő havi növekedés. A külföldi szállítás 170 194 darab volt (+102,8% éves alapon), a tisztán elektromos személyautók eladása rekord, 305 743 darab. Az év első tíz hónapjában az összeladás 2,16%-kal elmarad az előző évitől, a hazai értékesítés 27,8%-kal esett.",
+     "symbols": [],
+     "title": "A BYD októberi eladásai 11%-kal nőttek, a kivitel több mint a duplájára ugrott",
+     "url": "https://www.investing.com/news/stock-market-news/chinas-byd-extends-sales-growth-streak-on-strong-exports-4989716",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T12:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint orosz támadások után ukrán háztartások ezrei maradtak áram nélkül, miközben ukrán drónok orosz létesítményt rongáltak meg. Orosz hatóságok vasárnap ipari létesítmény elleni dróntámadást jelentettek a Nyizsnyij Novgorod-i terület Kszto­vo járásában, ahol a helyi média szerint a NORSZI-finomító van. A kár mértéke egyelőre nem megerősített.",
+     "symbols": [],
+     "title": "Orosz csapások áramot vettek el ukránok ezreitől, drónok rongáltak meg egy orosz létesítményt – Reuters",
+     "url": "https://www.investing.com/news/commodities-news/russian-strikes-cut-power-to-thousands-in-ukraine-as-drones-damage-russian-facility-4989707",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T12:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Forbes, helyi sajtó",
+     "summary": "Az MZX Tech, a SpaceXAI leányvállalata ajánlatot tett a Southaven-i, zajos ideiglenes gázturbinák (69 db) melletti házak megvételére azzal a feltétellel, hogy az eladók nem csatlakoznak a zaj miatti csoportos perhez. Egy ingatlanos szerint 418 házról lehet szó (ez nem cégadat), 18 tulajdonos már belement. A cég tagadja a keresetben foglaltakat, júliusban pedig vállalta, hogy jövő nyárra állandó gázerőművel váltja ki az ideiglenes turbinákat.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceXAI lakásokat vásárolna fel a mississippi gázturbinái körül, ha a tulajdonosok nem perelnek",
+     "url": "https://finance.yahoo.com/real-estate/articles/elon-musk-spacexai-buy-home-103000536.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -234,7 +296,7 @@
     }
    ],
    "summary": "A Wall Street pénteken tovább esett a gyenge technológiai gyorsjelentések után. A WSJ szerint a befektetők egyre inkább védekeznek egy MI-piaci leesés ellen, miközben a nagy techcégek akár 828 milliárd dollárt költhetnek infrastruktúrára. A Binance-feltörés kapcsán az FBI szerint észak-koreai csoport áll a háttérben. Az Eli Lilly rekordon zárt a hétre, Dél-Korea exportja októberben közel megduplázódott. A héten Apple, Palantir és AMD jelent, kedden félidős választás, csütörtökön BoE-döntés, pénteken amerikai munkaerőpiaci adat jön.",
-   "updatedAt": "2026-11-01T09:45:00Z",
+   "updatedAt": "2026-11-01T12:45:00Z",
    "watchlist": []
   },
   {
