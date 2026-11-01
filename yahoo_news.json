@@ -1,7 +1,32 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T06:55:35Z",
+ "updatedAt": "2026-11-01T07:58:46Z",
  "items": [
+  {
+   "title": "Black Stone Minerals (BSM) Q3 earnings: what to expect",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/black-stone-minerals-bsm-q3-073100499.html",
+   "published": "2026-11-01T07:31:00Z",
+   "publisher": "",
+   "summary": "Mineral rights owner Black Stone Minerals (NYSE:BSM) will be reporting results this Monday after market hours. Here’s what you need to know.",
+   "symbols": []
+  },
+  {
+   "title": "Binance says resuming withdrawals after major hack",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/binance-says-resuming-withdrawals-major-065851156.html",
+   "published": "2026-11-01T06:58:51Z",
+   "publisher": "",
+   "summary": "Binance said Sunday that it had resumed withdrawals after a major hack that affected more than $6 billion in funds.\"First batch network now opened in phase one of withdrawals is $BTC bitcoin network,\" Binance said on X. The company said in an earlier update that it was preparing to resume the first phase of withdrawals between 0600 and 0900 GMT on Sunday.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Viper Energy (VNOM) Q3 earnings report preview: what to look for",
    "link": "https://finance.yahoo.com/markets/stocks/articles/viper-energy-vnom-q3-earnings-064300964.html",
@@ -28,11 +53,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -190,6 +215,14 @@
     "XDW0",
     "XRP"
    ]
+  },
+  {
+   "title": "Anthropic's Frenemies Meta and Google Are Showing Cracks In the AI Trade. What That Tells Us About the Anthropic IPO.",
+   "link": "https://www.barchart.com/story/news/8577768/anthropic-s-frenemies-meta-and-google-are-showing-cracks-in-the-ai-trade-what-that-tells-us-about-the-anthropic-ipo?.tsrc=rss",
+   "published": "2026-11-01T01:00:03Z",
+   "publisher": "",
+   "summary": "This ETF demonstrates some of the issues with the complex interconnectedness of Anthropic and hyperscalers like Google and Meta. Here's what it means for the ANT IPO.",
+   "symbols": []
   },
   {
    "title": "Why the Tokenization Boom May Be a Signal to Buy Bitcoin",
@@ -3055,48 +3088,6 @@
    "publisher": "",
    "summary": "Chevron (NYSE:CVX) reported third-quarter 2026 earnings of $9.9 billion, or $5.06 per share, as record U.S. refinery crude throughput and nearly 4 million barrels per day of production helped support operating performance. Adjusted earnings totaled $10.4 billion, or $5.28 per share, while cash flow",
    "symbols": []
-  },
-  {
-   "title": "The Tech Sell-Off is Putting the AI Trade on Notice. An Expert is Questioning Whether the Spending is Justified.",
-   "link": "https://www.ibtimes.com/amazon-intel-selloffs-ai-spending-investor-scrutiny-3809202?.tsrc=rss",
-   "published": "2026-10-30T19:14:16Z",
-   "publisher": "",
-   "summary": "The Nasdaq Composite fell more than 3% on Friday, its worst day since June.",
-   "symbols": []
-  },
-  {
-   "title": "LLY, ABBV Stocks Hit All-Time High – Here’s What’s Driving Investor Enthusiasm Today",
-   "link": "https://stocktwits.com/news-articles/markets/equity/lly-abbv-stocks-hit-all-time-high-here-s-what-s-driving-investor-enthusiasm-today/cZUL2RQR9cd?.tsrc=rss",
-   "published": "2026-10-30T19:13:33Z",
-   "publisher": "",
-   "summary": "LLY shares extended gains on bullish Wall Street action after the company raised its full-year 2026 outlook.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "'Sentiment will take a hit': Binance $6.3 billion hack rattles bitcoin, crypto market",
-   "link": "https://finance.yahoo.com/markets/article/copy-intel-amazon-lead-tech-lower-bitcoin-falls-on-suspected-biggest-crypto-hack-in-history-alphacheck-190920999.html",
-   "published": "2026-10-30T19:09:20Z",
-   "publisher": "",
-   "summary": "Crypto assets took a hit this week after Binance's $6.3 billion hack, but the sour sentiment should be short-lived, analysts say.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
