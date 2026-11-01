@@ -1,7 +1,65 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T18:06:13Z",
+ "updatedAt": "2026-11-01T18:43:41Z",
  "items": [
+  {
+   "title": "Here's What $6,000 Invested in Micron Could Be Worth in 2028",
+   "link": "https://www.fool.com/investing/2026/11/01/heres-what-6000-invested-in-micron-could-be-worth/?.tsrc=rss",
+   "published": "2026-11-01T18:20:00Z",
+   "publisher": "",
+   "summary": "Micron has been one of the best-performing artificial intelligence stocks this year.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Saylor Is Hinting at Another Bitcoin Buy Before MSCI Rules on Strategy. What Happens to BTC if Strategy Has to Sell Instead?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/01/saylor-is-hinting-at-another-bitcoin-buy-before-msci-rules-on-strategy-what-happens-to-btc-if-strategy-has-to-sell-instead/?.tsrc=rss",
+   "published": "2026-11-01T18:01:09Z",
+   "publisher": "",
+   "summary": "Michael Saylor just posted his Bitcoin purchase chart again, but this time a looming MSCI index decision could flip the script entirely and turn Strategy from the market's biggest buyer into a forced seller.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Is Coinbase Safe After the $6 Billion Binance Hack?",
+   "link": "https://beincrypto.com/binance-hack-coinbase-security-assessment/?.tsrc=rss",
+   "published": "2026-11-01T17:54:09Z",
+   "publisher": "",
+   "summary": "Hackers took over $8B from Binance, Bybit, and Bitget. See how Coinbase custody differs, and where it is still exposed.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "How Many AGNC Shares It Takes to Earn $500 a Month in Dividends",
    "link": "https://www.fool.com/investing/2026/11/01/how-many-agnc-shares-it-takes-to-earn-500-a-month/?.tsrc=rss",
@@ -45,11 +103,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -103,11 +161,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -125,6 +183,30 @@
    "publisher": "",
    "summary": "Nvidia is rarely this cheap this late in the year.",
    "symbols": []
+  },
+  {
+   "title": "There's a $12,000 Reason to Consider Investing in QQQ Over SPY, but It Comes With a Caveat",
+   "link": "https://www.kiplinger.com/what-1000-invested-in-qqq-etf-spy-etf-is-worth-now?.tsrc=rss",
+   "published": "2026-11-01T16:30:00Z",
+   "publisher": "",
+   "summary": "Mega-cap tech and communications stocks deliver outsized rewards — and greater risk.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
   },
   {
    "title": "SK hynix Just Dropped 33% in a Month. Is It Time to Sell, or Load Up?",
@@ -3097,47 +3179,6 @@
    "published": "2026-10-30T21:41:17Z",
    "publisher": "",
    "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "A $6.4 Billion Hack Just Turned Crypto Upside Down",
-   "link": "https://app.moby.co/home/news/news-64b-binance-heist-biggest-theft-in-history?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-   "published": "2026-10-30T21:36:15Z",
-   "publisher": "",
-   "summary": "CZ was on the Nasdaq floor Monday, and by Thursday night, he was assuring users that funds were ‘SAFU.’",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Stock Market Today, Oct. 30: Amazon Misses Revenue and Earnings Expectations",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/30/stock-market-today-oct-30-amazon-misses-revenue-and-earnings-expectations/?.tsrc=rss",
-   "published": "2026-10-30T21:35:02Z",
-   "publisher": "",
-   "summary": "Today, Oct. 30, 2026, Amazon's cloud business grew 39% but heavy AI investment and weaker cash flow kept investors on edge.",
-   "symbols": []
-  },
-  {
-   "title": "SPDW vs VWO: Two International ETFs Face Off, but One Offers a Better Mix of Income and Growth for Long-Term Investors",
-   "link": "https://www.fool.com/coverage/etfs/2026/10/30/spdw-vs-vwo-two-international-etfs-face-off-but-one-offers-a-better-mix-of-income-and-growth/?.tsrc=rss",
-   "published": "2026-10-30T21:35:02Z",
-   "publisher": "",
-   "summary": "Two international ETFs offer investors very different paths to global diversification, with meaningful differences in growth potential, income, and risk.",
-   "symbols": []
-  },
-  {
-   "title": "A Tale of Two Energy ETFs: How EMLP and TAN Are Worlds Apart",
-   "link": "https://www.fool.com/coverage/etfs/2026/10/30/a-tale-of-two-energy-etfs-how-emlp-and-tan-are-worlds-apart/?.tsrc=rss",
-   "published": "2026-10-30T21:35:01Z",
-   "publisher": "",
-   "summary": "EMLP offers diversified pipeline exposure with lower volatility and stronger returns, while TAN provides concentrated solar exposure with higher risk and deeper drawdowns.",
    "symbols": []
   }
  ]
