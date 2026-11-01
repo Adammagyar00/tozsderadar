@@ -1,7 +1,40 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T05:46:13Z",
+ "updatedAt": "2026-11-01T06:55:35Z",
  "items": [
+  {
+   "title": "Viper Energy (VNOM) Q3 earnings report preview: what to look for",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/viper-energy-vnom-q3-earnings-064300964.html",
+   "published": "2026-11-01T06:43:00Z",
+   "publisher": "",
+   "summary": "Mineral and royalty company Viper Energy (NASDAQ:VNOM) will be reporting earnings this Monday afternoon. Here’s what to expect.",
+   "symbols": []
+  },
+  {
+   "title": "Diamondback Energy (FANG) reports Q3: everything you need to know ahead of earnings",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/diamondback-energy-fang-reports-q3-060300346.html",
+   "published": "2026-11-01T06:03:00Z",
+   "publisher": "",
+   "summary": "Oil and gas producer Diamondback Energy (NASDAQ:FANG) will be reporting earnings this Monday after market hours. Here’s what to expect.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin faces further downside risks as fear surges, Binance hack rattles markets",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-faces-further-downside-risks-054912223.html",
+   "published": "2026-11-01T05:49:12Z",
+   "publisher": "",
+   "summary": "Investing.com -- Bitcoin entered November under pressure after a sharp deterioration in investor sentiment, heavy exchange-traded fund outflows, and a record $6.3 billion Binance hack raised concerns that the cryptocurrency’s recent selloff may not be over.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Vitesse Energy earnings: what to look for from VTS",
    "link": "https://finance.yahoo.com/markets/stocks/articles/vitesse-energy-earnings-look-vts-052300424.html",
@@ -3064,30 +3097,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Video - CEO Clips: Exploring the Potential for a Major Copper-Gold Discovery in Yukon",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/video-ceo-clips-exploring-potential-190600536.html",
-   "published": "2026-10-30T19:06:00Z",
-   "publisher": "",
-   "summary": "Vancouver, British Columbia--(Newsfile Corp. - October 30, 2026) - Yukon Metals (CSE: YMC) (OTCQB: YMMCF) is advancing a diverse portfolio of mineral exploration projects across Yukon, led by its flagship AZ Copper-Gold Project. The property spans nearly 20 kilometres, and the company recently confirmed a new copper-gold-molybdenum porphyry-style system at its Viper Prospect. Its next objective is",
-   "symbols": []
-  },
-  {
-   "title": "BC-OILS",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-oils-190018066.html",
-   "published": "2026-10-30T19:00:18Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — Futures trading on the New York Mercantile Exchange Friday:Open High Low Settle Chg.'s open int 1,913,868 down 14,364 HEATING OIL 42,000 gal, cents per gal Nov 26 472.",
-   "symbols": []
-  },
-  {
-   "title": "Wall Street sell-off deepens as investors question returns on ‘monster AI splurge’",
-   "link": "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment?.tsrc=rss",
-   "published": "2026-10-30T18:59:44Z",
-   "publisher": "",
-   "summary": "Wall Street suffered a steep day of losses Friday after the latest tech earnings reignited concerns that massive spending on AI may not deliver the returns that investors expect.",
-   "symbols": []
   }
  ]
 }
