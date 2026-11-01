@@ -1,7 +1,15 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T08:49:14Z",
+ "updatedAt": "2026-11-01T09:44:30Z",
  "items": [
+  {
+   "title": "Saudi Arabia’s economy contracts 3.8% as war disrupts oil production",
+   "link": "https://finance.yahoo.com/economy/articles/saudi-arabia-economy-contracts-3-090812953.html",
+   "published": "2026-11-01T09:08:12Z",
+   "publisher": "",
+   "summary": "Investing.com -- Saudi Arabia’s economy contracted for a second consecutive quarter as the war involving Iran and escalating conflict with Yemen’s Houthi rebels disrupted oil production and exports, threatening one of the kingdom’s weakest economic performances in years.",
+   "symbols": []
+  },
   {
    "title": "Kosmos Energy (KOS) to report earnings tomorrow: here is what to expect",
    "link": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-kos-report-earnings-082700926.html",
@@ -117,6 +125,14 @@
     "ONDO",
     "XRP"
    ]
+  },
+  {
+   "title": "Are Wall Street Analysts Predicting Bank of America Stock Will Climb or Sink?",
+   "link": "https://www.barchart.com/story/news/8578307/are-wall-street-analysts-predicting-bank-of-america-stock-will-climb-or-sink?.tsrc=rss",
+   "published": "2026-11-01T03:15:43Z",
+   "publisher": "",
+   "summary": "While Bank of America has underperformed relative to the broader market over the past year, Wall Street analysts remain bullish about the stock’s prospects.",
+   "symbols": []
   },
   {
    "title": "FBI confirms North Korea behind stolen billions from Binance in biggest crypto heist in history",
@@ -3056,38 +3072,6 @@
    "publisher": "",
    "summary": "Average annual production of 100 koz of gold over a 16.2-year mine life – After-tax NPV5% of C$1,565 M and after-tax IRR of 37.3% at spot gold of US$4,300/oz - NPV5% to initial capital ratio of 3.6x. Highlights Robust Economics After-tax NPV5% of C$1,001 M and after-tax IRR of 26.6% at a base case gold price of US$3,600/oz and an exchange rate of 1.38 C$/US$.At a spot gold price of US$4,300/oz, af",
    "symbols": []
-  },
-  {
-   "title": "Wealth Firms Urge Patience on Anthropic IPO",
-   "link": "https://www.wealthmanagement.com/investing-strategies/advisors-urge-patience-on-anthropic-ipo-shares?.tsrc=rss",
-   "published": "2026-10-30T19:16:36Z",
-   "publisher": "",
-   "summary": "Advisors see muted client interest in Anthropic's IPO and recommend a patient, long-term approach to buying shares.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Bloom Energy Just Joined the S&P 500. Here's What History Says Happens Next.",
-   "link": "https://www.fool.com/investing/2026/10/30/bloom-energy-just-joined-the-sp-500-heres-what-his/?.tsrc=rss",
-   "published": "2026-10-30T19:15:00Z",
-   "publisher": "",
-   "summary": "The green energy stock has a bright future.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
