@@ -1,13 +1,29 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T20:41:00Z",
+ "updatedAt": "2026-11-01T21:14:24Z",
  "items": [
   {
-   "title": "Binance resumes withdrawals as tracker shows $3.7B outflows",
-   "link": "https://www.thestreet.com/crypto/markets/binance-sees-3-7-billion-in-outflows-after-hack?.tsrc=rss",
-   "published": "2026-11-01T20:31:58Z",
+   "title": "Barclays Says a SpaceX Merger Is Now \"a Key Part\" of the Tesla Bull Case. Here's Who Actually Wins if It Happens -- and Who Pays.",
+   "link": "https://www.fool.com/investing/2026/11/01/barclays-says-a-spacex-merger-is-now-a-key-part-of/?.tsrc=rss",
+   "published": "2026-11-01T21:05:00Z",
    "publisher": "",
-   "summary": "Blockchain tracker DefiLlama shows more money leaving Binance-linked wallets than coming in as withdrawals resume. Here is what the number actually says.",
+   "summary": "SpaceX and Tesla could be on track for the biggest merger in stock market history.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Bitcoin Price Prediction for November 2026",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/01/bitcoin-price-prediction-for-november-2026/?.tsrc=rss",
+   "published": "2026-11-01T20:47:12Z",
+   "publisher": "",
+   "summary": "After two straight losing Octobers and a historic breach at the world's largest crypto exchange, Bitcoin heads into November facing a gauntlet of make-or-break dates that could send it soaring past $86,000 or spiraling toward levels not seen since summer.",
    "symbols": [
     "BTC",
     "ETH",
@@ -20,18 +36,35 @@
    ]
   },
   {
+   "title": "Binance resumes withdrawals as tracker shows $3.7B outflows",
+   "link": "https://www.thestreet.com/crypto/markets/binance-sees-3-7-billion-in-outflows-after-hack?.tsrc=rss",
+   "published": "2026-11-01T20:31:58Z",
+   "publisher": "",
+   "summary": "Blockchain tracker DefiLlama shows more money leaving Binance-linked wallets than coming in as withdrawals resume. Here is what the number actually says.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
    "title": "What Does JPMorgan Chase (JPM) Hiring A Data Infrastructure Chief Mean Now?",
    "link": "https://finance.yahoo.com/technology/ai/articles/does-jpmorgan-chase-jpm-hiring-200812032.html",
    "published": "2026-11-01T20:08:12Z",
    "publisher": "",
    "summary": "JPMorgan Chase (NYSE:JPM) appointed Krithika Swaminathan as managing director and head of data infrastructure product. Swaminathan brings a track record in enterprise data platforms, artificial intelligence, and cloud modernization to the bank's technology ranks. The new role focuses on resilient and scalable data infrastructure that supports AI driven banking and digital services across the firm.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -42,12 +75,12 @@
    "publisher": "",
    "summary": "The social network's stock spent months about that far below its own high. What finally brought it back?",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -61,11 +94,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3179,22 +3212,6 @@
    "published": "2026-10-30T22:25:59Z",
    "publisher": "",
    "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Okta Stock Can Find More Buyers as It Joins the S&P 500",
-   "link": "https://finance.yahoo.com/m/9caa5bbe-db77-33ed-aec8-9298712adc25/okta-stock-can-find-more.html",
-   "published": "2026-10-30T22:20:00Z",
-   "publisher": "",
-   "summary": "Okta can expect a new pool of buyers for its stock as a member of the S&P 500. Kenvue is being acquired and will therefore depart the index.",
-   "symbols": []
-  },
-  {
-   "title": "Indian Founder Led Growth Stocks To Watch In October 2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/indian-founder-led-growth-stocks-221708852.html",
-   "published": "2026-10-30T22:17:08Z",
-   "publisher": "",
-   "summary": "Oil traders are bracing for a wild week as Brent crude edges toward $120, and that kind of energy price anxiety often pulls attention back to growth stories closer to home. Indian fast growing companies, where founders and executives still own a meaningful stake, can give investors a way to focus on businesses that management clearly believes in. This article highlights three such high conviction ",
    "symbols": []
   }
  ]
