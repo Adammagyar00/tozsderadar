@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-01T06:55:45Z",
+ "builtAt": "2026-11-01T09:55:52Z",
  "digests": [
   {
    "calendar": [
@@ -133,6 +133,81 @@
      "title": "Két bálna értesülések szerint 109 millió dollárnyi HYPE-ot adott el, miután az ICE visszavett a perpetual-bejelentéséből",
      "url": "https://247wallst.com/investing/cryptocurrency/2026/10/31/two-whales-sold-109-million-of-hyperliquid-after-ice-softened-its-perps-post-is-the-hype-rally-over/",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-01T09:45:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "A Binance vasárnap szakaszosan újraindította a kifizetéseket; az első fázisban 15 token, köztük a bitcoin, az ether, a USDT és az USDC érhető el. A tőzsde közlése szerint az ellopott eszközök nagy részét (jelentések szerint 90–95%-át) pótolta, a veszteséget nem hárítja az ügyfelekre. Az FBI korábban észak-koreai csoportot nevezett meg a támadás mögött.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A Binance szakaszosan újraindítja a kifizetéseket a 6,3 milliárd dolláros feltörés után",
+     "url": "https://www.investing.com/news/cryptocurrency-news/binance-to-resume-crypto-withdrawals-in-phases-after-record-6-billion-hack-4989397",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T09:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Al Jazeera",
+     "summary": "Az iráni külügyminiszter közlése szerint katari közvetítéssel a korábbi hétnapos javaslatot kétnaposra rövidítették: az első napon az USA lépne, a másodikon újraindulna a hajózás. Trump szerint a tárgyalások \"rendben mennek\", de nem sürgeti az üzletet; közvetlen amerikai–iráni egyeztetés nincs tervben. Az olaj a héten hatórás csúcs közelében, Brent 113 dollár körül zárt pénteken.",
+     "symbols": [],
+     "title": "Irán 48 órás tervet ajánlott a Hormuzi-szoros újranyitására, Trump szerint haladnak a tárgyalások",
+     "url": "https://www.investing.com/news/economy-news/iran-offers-48hour-hormuz-reopening-plan-as-trump-signals-progress-in-talks-4989413",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T09:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A szaúdi statisztikai hivatal előzetes adata szerint a GDP éves alapon 3,8%-kal csökkent a harmadik negyedévben (a másodikban 4,7% volt). Az olajszektor 20,4%-kal esett, a nem olajszektor 1,9%-kal nőtt.",
+     "symbols": [],
+     "title": "A szaúdi gazdaság a harmadik negyedévben 3,8%-kal zsugorodott a háború miatt",
+     "url": "https://www.investing.com/news/economy-news/saudi-arabias-economy-contracts-38-as-war-disrupts-oil-production-4989425",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Stocktwits",
+     "summary": "A DeepSeek csapata szombaton nyílt forráskódú (MIT-licenc) prototípust mutatott be, amely fejlesztői csevegéseket és GitHub-aktivitást figyel, és kérés nélkül javasol javításokat. A hír az Anthropic várható tőzsdei bevezetése előtt néhány héttel érkezett.",
+     "symbols": [],
+     "title": "A DeepSeek autonóm kódoló ügynököt indított a Claude Code ellen",
+     "url": "https://www.investing.com/news/company-news/deepseek-launches-autonomous-coding-agent-to-challenge-anthropics-claude-code-4989391",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Hanwha Defense USA a philadelphiai hajógyárban egy közepes partraszálló hajót épít az amerikai haditengerészetnek (további három opcióval), ez a csoport első ilyen megrendelése. A munka 2027 negyedik negyedévében indulhat, az első hajó 2030-ra várható.",
+     "symbols": [],
+     "title": "A Hanwha 269 millió dolláros amerikai haditengerészeti hajóépítési szerződést nyert",
+     "url": "https://www.investing.com/news/company-news/hanwha-secures-269-million-us-navy-shipbuilding-contract-eyes-more-orders-4989385",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-01T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Xiaomi októberben több mint 50 ezer elektromos autót szállított ki (szeptemberben 40 ezer felett volt). Az év első tíz hónapjában kb. 336 ezer jármű fogyott, a 550 ezres éves célhoz a jelenlegi ütem fenntartása kell.",
+     "symbols": [],
+     "title": "A Xiaomi októberi elektromosautó-kiszállítása meghaladta az 50 ezret, ez idei havi csúcs",
+     "url": "https://www.investing.com/news/stock-market-news/xiaomis-october-ev-deliveries-top-50000-hit-2026-monthly-high-4989416",
+     "verified": true
     }
    ],
    "markets": [
@@ -159,7 +234,7 @@
     }
    ],
    "summary": "A Wall Street pénteken tovább esett a gyenge technológiai gyorsjelentések után. A WSJ szerint a befektetők egyre inkább védekeznek egy MI-piaci leesés ellen, miközben a nagy techcégek akár 828 milliárd dollárt költhetnek infrastruktúrára. A Binance-feltörés kapcsán az FBI szerint észak-koreai csoport áll a háttérben. Az Eli Lilly rekordon zárt a hétre, Dél-Korea exportja októberben közel megduplázódott. A héten Apple, Palantir és AMD jelent, kedden félidős választás, csütörtökön BoE-döntés, pénteken amerikai munkaerőpiaci adat jön.",
-   "updatedAt": "2026-11-01T06:50:00Z",
+   "updatedAt": "2026-11-01T09:45:00Z",
    "watchlist": []
   },
   {
