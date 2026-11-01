@@ -1,7 +1,31 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T02:01:41Z",
+ "updatedAt": "2026-11-01T02:49:45Z",
  "items": [
+  {
+   "title": "Bloom Energy Trades at 140 Times Earnings. Here's the Growth Rate It Needs to Justify That.",
+   "link": "https://www.fool.com/investing/2026/10/31/bloom-energy-trades-at-140-times-earnings-heres-th/?.tsrc=rss",
+   "published": "2026-11-01T02:35:00Z",
+   "publisher": "",
+   "summary": "Bloom Energy is growing into its valuation, and the most recent quarter marks an important turning point.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Ulta Beauty (ULTA) Opens First Qatar Stores As Global Growth Moves Up A Gear",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ulta-beauty-ulta-opens-first-021351375.html",
+   "published": "2026-11-01T02:13:51Z",
+   "publisher": "",
+   "summary": "Ulta Beauty (NasdaqGS:ULTA) has opened its first stores in Qatar, marking its initial physical expansion beyond the US market. The retailer is working with Kuwait based Alshaya Group to roll out a broader store network across the Middle East region. Management has signalled plans for additional locations in multiple Gulf markets following the Qatar launch. Ulta Beauty's Qatar entry and wider Middl",
+   "symbols": []
+  },
   {
    "title": "Eli Lilly stock surges as cheaper drugs unlock a bigger market",
    "link": "https://www.thestreet.com/health/eli-lilly-stock-surges-as-cheaper-drugs-unlock-a-bigger-market?.tsrc=rss",
@@ -12,11 +36,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3064,30 +3088,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Frank Talk: Elon Musk, Anthropic and the new wave of American generosity",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101025/frank-talk-elon-musk-anthropic-and-the-new-wave-of-american-generosity-1101025.html?.tsrc=rss",
-   "published": "2026-10-30T18:45:00Z",
-   "publisher": "",
-   "summary": "Americans are giving more to charity than ever, with donations reaching a record US$617.2 billion last year, and the artificial intelligence boom could usher in a new era of philanthropy, writes Frank Holmes, CEO of U.S. Global Investors (NASDAQ:GROW). In this opinion piece, Holmes examines...",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Why Did Rivian Stock Surge Higher on Friday?",
-   "link": "https://www.fool.com/investing/2026/10/30/why-did-rivian-stock-surge-higher-on-friday/?.tsrc=rss",
-   "published": "2026-10-30T18:44:01Z",
-   "publisher": "",
-   "summary": "The EV maker is showing signs that profitability is around the corner.",
-   "symbols": []
   }
  ]
 }
