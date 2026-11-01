@@ -1,7 +1,15 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T22:10:29Z",
+ "updatedAt": "2026-11-01T22:40:31Z",
  "items": [
+  {
+   "title": "Stocks Are Entering Their Historically Strongest Stretch -- But There May Be a Catch This Year",
+   "link": "https://www.fool.com/investing/2026/11/01/stocks-are-entering-their-historically-strongest-s/?.tsrc=rss",
+   "published": "2026-11-01T22:20:00Z",
+   "publisher": "",
+   "summary": "Don't try to predict the market's near-term action. It's driven by fickle feelings and ever-changing headlines.",
+   "symbols": []
+  },
   {
    "title": "XRP Was the No. 2 Crypto in 2018. What Would It Take to Get Back There?",
    "link": "https://247wallst.com/investing/cryptocurrency/2026/11/01/xrp-was-the-no-2-crypto-in-2018-what-would-it-take-to-get-back-there/?.tsrc=rss",
@@ -12,11 +20,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -34,12 +42,12 @@
    "publisher": "",
    "summary": "Most SpaceX investors understand that Starlink currently pays the bills. The intriguing thing is that Starlink has its own growth engine in the form of improving ARPU.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -58,12 +66,12 @@
    "publisher": "",
    "summary": "JPMorgan Chase reported Q3 earnings that came in below expectations for the first time since 2023, while also updating guidance to a higher full year 2026 net interest income outlook of about US$106.2b and reshaping capital returns through lower share buybacks and a higher dividend. The decision to dial back repurchases in order to fund franchise investment and client support, even as earnings lag",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3196,14 +3204,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "3 Australian Penny Stocks With Revenue Over 250 Million",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-penny-stocks-revenue-231147762.html",
-   "published": "2026-10-30T23:11:47Z",
-   "publisher": "",
-   "summary": "Oil prices are riding a four month upswing as conflict threats around the Strait of Hormuz keep energy supply risks in focus, and that is feeding straight into inflation worries. When costs stay stubborn, investors often hunt for smaller Australian companies with cleaner balance sheets rather than chasing hype. This article highlights three financially solid penny stocks that screen for stronger f",
-   "symbols": []
   }
  ]
 }
