@@ -1,6 +1,6 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-10-31T23:38:44Z",
+ "updatedAt": "2026-11-01T00:07:38Z",
  "items": [
   {
    "title": "How Much XRP Do You Need to Make $100,000 by 2030?",
@@ -12,11 +12,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -347,6 +347,22 @@
    "publisher": "",
    "summary": "Investors should be ready to buy, not sell, when turbulence intensifies.",
    "symbols": []
+  },
+  {
+   "title": "SpaceX Reportedly Faces Higher Borrowing Costs on Its $40 Billion GPU Deal. What It Means for SPCX Stock.",
+   "link": "https://www.barchart.com/story/news/8574034/spacex-reportedly-faces-higher-borrowing-costs-on-its-40-billion-gpu-deal-what-it-means-for-spcx-stock?.tsrc=rss",
+   "published": "2026-10-31T17:30:03Z",
+   "publisher": "",
+   "summary": "SpaceX’s $40 billion GPU financing deal raises concerns about higher borrowing costs, but its financing structure and strong AI investment returns could help mitigate the risks for SPCX stock.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Binance says it has replaced 90% of $6.3 billion stolen in record crypto hack",
@@ -3038,23 +3054,6 @@
    "published": "2026-10-30T18:21:53Z",
    "publisher": "",
    "summary": "Gold futures hit a new 52-week low.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bitcoin Price Could Fall as Dollar Debasement Trade Unravels, Connection Capital Founder Warns",
-   "link": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-could-fall-as-dollar-debasement-trade-unravels-connection-capital-founder-warns/?.tsrc=rss",
-   "published": "2026-10-30T18:15:41Z",
-   "publisher": "",
-   "summary": "As the market weeps from the biggest crypto theft in history, Bitcoin (BTC) could face renewed selling pressure in the coming months as a strengthening US dollar threatens to undermine one of crypto’s biggest macroeconomic investment narratives, according to Connection Capital founder Dan Krupka. In comments provided to 99Bitcoins, Krupka ...",
    "symbols": [
     "BTC",
     "ETH",
