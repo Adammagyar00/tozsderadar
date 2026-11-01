@@ -1,7 +1,105 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T12:50:25Z",
+ "updatedAt": "2026-11-01T13:47:17Z",
  "items": [
+  {
+   "title": "2 Brilliant ETFs I'm Stocking Up On if a Bear Market Is Coming",
+   "link": "https://www.fool.com/investing/2026/11/01/2-brilliant-etfs-im-stocking-up-on-if-a-bear-marke/?.tsrc=rss",
+   "published": "2026-11-01T13:35:00Z",
+   "publisher": "",
+   "summary": "If a downturn is coming, I want to own good companies and focus on dividends rather than stock prices.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Holds Near $78K Over Weekend As Polymarket Refunds Hack Victims After Crypto Security Scares",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-holds-near-78-k-over-weekend-as-polymarket-refunds-hack-victims-after-crypto-security-scares/cNGeAf4R92d?.tsrc=rss",
+   "published": "2026-11-01T13:34:59Z",
+   "publisher": "",
+   "summary": "The breach happened amid a backdrop of a $6 billion hack on Binance, which the FBI attributed to North Korea's TraderTraitor group.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "JPMorgan Says AI Boom Is Driving A ‘Rare’ Profit Cycle — But There’s A Big Risk Investors Should Watch",
+   "link": "https://stocktwits.com/news-articles/markets/equity/jpmorgan-ai-boom-rare-profit-cycle-big-risk-investors-watch/cNGeABmR925?.tsrc=rss",
+   "published": "2026-11-01T13:32:35Z",
+   "publisher": "",
+   "summary": "JPMorgan said that as the AI trade gets bigger, it is watching rising funding costs and growing reliance on debt.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "SpaceX (SPCX) Loses Bid To Dismiss Clean Air Act Lawsuit",
+   "link": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-loses-bid-dismiss-131232322.html",
+   "published": "2026-11-01T13:12:32Z",
+   "publisher": "",
+   "summary": "Space Exploration Technologies (NasdaqGS: SPCX) failed to win dismissal of a Clean Air Act lawsuit on its Mississippi AI data centers. A federal judge allowed an NAACP complaint over gas-fired turbine emissions to proceed rather than throwing out the case at this stage. The suit focuses on alleged pollution from turbines supplying power to SpaceX AI facilities located near local communities in Mis",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Want to invest your 401(k) in gold? Here are your options",
+   "link": "https://www.usatoday.com/story/money/money-management/investing/2026/11/01/how-to-invest-in-gold-with-a-401k/92520724007/?.tsrc=rss",
+   "published": "2026-11-01T13:11:26Z",
+   "publisher": "",
+   "summary": "Learn how to invest in gold through a 401(k), including gold ETFs and funds, plus how a 401(k)-to-gold IRA rollover works.",
+   "symbols": []
+  },
+  {
+   "title": "1 Unstoppable ETF I'm Buying Hand Over Fist During the Next Bear Market",
+   "link": "https://www.fool.com/investing/2026/11/01/unstoppable-etf-buying-bear-market-smh/?.tsrc=rss",
+   "published": "2026-11-01T13:05:00Z",
+   "publisher": "",
+   "summary": "Bear markets are a great time to buy.",
+   "symbols": []
+  },
+  {
+   "title": "A Stock Market Smackdown Week: Elections, Jobs Data, Iran And Earnings",
+   "link": "https://finance.yahoo.com/m/bdc566db-7234-3a10-bd90-ce784a1eaec5/a-stock-market-smackdown.html",
+   "published": "2026-11-01T13:00:54Z",
+   "publisher": "",
+   "summary": "The week ahead promises to be rough and tumble for investors, with midterm elections, October jobs and possible attacks on Iran in the mix.",
+   "symbols": []
+  },
+  {
+   "title": "Grant Cardone bets Jason Calacanis $1M that Bitcoin hits a new high within 2 years — Calacanis calls it 'free money'",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/grant-cardone-bets-jason-calacanis-130000437.html",
+   "published": "2026-11-01T13:00:00Z",
+   "publisher": "",
+   "summary": "This isn’t the only $1 million bet Calacanis has been challenged with since making his bold Bitcoin predictions.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Bitwise Just Boosted Its 10-Year Bitcoin Price Target to $1.6 Million. That Would Likely Make Bitcoin the Top-Performing Asset of the Next Decade.",
    "link": "https://www.fool.com/investing/2026/11/01/bitwise-just-boosted-its-10-year-bitcoin-price-tar/?.tsrc=rss",
@@ -12,11 +110,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -94,11 +192,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2945,96 +3043,6 @@
    "publisher": "",
    "summary": "Key TakeawaysAbsci fell 8% today as AI drug discovery peers Schrödinger and Recursion slid in a Nasdaq sell-off. These stocks trade together on sentiment, so the drop says little about Absci’s business.",
    "symbols": []
-  },
-  {
-   "title": "Weekly Wrap: Crypto Plunges After Binance Hack",
-   "link": "https://www.cryptoprowl.com/releases/weekly-wrap-crypto-plunges-after-binance-hack-7582?.tsrc=rss",
-   "published": "2026-10-30T20:26:00Z",
-   "publisher": "",
-   "summary": "Bitcoin’s (CRYPTO: $BTC) price was down 5% and trading at $77,000 on the afternoon of Oct. 30 following revel...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "The real question we should all be asking about AI",
-   "link": "https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt?.tsrc=rss",
-   "published": "2026-10-30T20:25:44Z",
-   "publisher": "",
-   "summary": "The stock market is turning its back on Big Tech.",
-   "symbols": []
-  },
-  {
-   "title": "How major US stock indexes fared Friday 10/30/2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-202111310.html",
-   "published": "2026-10-30T20:21:11Z",
-   "publisher": "",
-   "summary": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.8% Friday for its worst day since June.",
-   "symbols": []
-  },
-  {
-   "title": "Update: US Equity Indexes Slump as Intel's Results Trigger Sell-Off in Mega-Cap Chipmakers",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slump-intel-202046249.html",
-   "published": "2026-10-30T20:20:46Z",
-   "publisher": "",
-   "summary": "(Updates with index/price moves, macroeconomic data, company/geopolitical news from the first paragr",
-   "symbols": []
-  },
-  {
-   "title": "Bank of America vs. JPMorgan Chase: Diverging Quarterly Revenue Trends for These Financial Giants",
-   "link": "https://www.fool.com/coverage/charts/2026/10/30/bank-of-america-vs-jpmorgan-chase-diverging-quarterly-revenue-trends-for-these-financial-giants/?.tsrc=rss",
-   "published": "2026-10-30T20:20:02Z",
-   "publisher": "",
-   "summary": "JPMorgan Chase's quarterly revenue has climbed 14% over two years while Bank of America's has remained essentially flat—a widening gap that raises questions about competitive positioning.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "US Equity Markets End Lower After Sell-Off in Technology Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201952161.html",
-   "published": "2026-10-30T20:19:52Z",
-   "publisher": "",
-   "summary": "US equity indexes ended lower Friday amid a sell-off in the technology sector after Intel's (INTC) Q",
-   "symbols": []
-  },
-  {
-   "title": "Is Shell (LSE:SHEL) Reasonable After Stronger Cash Flow And Buybacks?",
-   "link": "https://finance.yahoo.com/energy/articles/shell-lse-shel-reasonable-stronger-201809340.html",
-   "published": "2026-10-30T20:18:09Z",
-   "publisher": "",
-   "summary": "Shell has ridden a powerful wave in energy markets, yet with the stock up 191.4% over the past 5 years, the key issue for you now is whether that price is still grounded in the cash it can generate. Recent spikes in oil prices, high refining margins and fresh capital returns have sharpened the focus on what the company’s future cash flows are really worth today. A 191.4% gain over 5 years puts rea",
-   "symbols": []
-  },
-  {
-   "title": "8 Months Ago, A Major Wall Street Bank Said Buy Marvell. It’s Up More Than 150%. Here’s Where We See the Stock Going",
-   "link": "https://247wallst.com/investing/2026/10/30/8-months-ago-a-major-wall-street-bank-said-buy-marvell-its-up-more-than-150-heres-where-we-see-the-stock-going/?.tsrc=rss",
-   "published": "2026-10-30T20:17:36Z",
-   "publisher": "",
-   "summary": "BofA upgraded Marvell into a brutal slide and the stock went on a wild ride that has left investors wondering whether the latest pullback is another gift or the beginning of something worse.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
