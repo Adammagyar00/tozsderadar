@@ -1,7 +1,81 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T13:47:17Z",
+ "updatedAt": "2026-11-01T14:38:46Z",
  "items": [
+  {
+   "title": "Investors pull $1bn from crypto exchange hacked by North Korea",
+   "link": "https://uk.finance.yahoo.com/news/investors-pull-1bn-crypto-exchange-142309845.html",
+   "published": "2026-11-01T14:23:09Z",
+   "publisher": "",
+   "summary": "Investors have pulled more than $1bn (£750m) from the world’s largest cryptocurrency exchange in the wake of a devastating cyber attack by North Korea.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Anthropic Says It's Building Its Own Data Centers. Bloom Energy Sells Exactly the Onsite Power That Requires.",
+   "link": "https://www.fool.com/investing/2026/11/01/anthropic-says-its-building-its-own-data-centers-b/?.tsrc=rss",
+   "published": "2026-11-01T14:23:00Z",
+   "publisher": "",
+   "summary": "As Anthropic gets into the data center business, Bloom Energy could be a likely power partner.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "1 Stat That Makes Nike Stock Hard to Ignore",
+   "link": "https://www.fool.com/investing/2026/11/01/1-stat-that-makes-nike-stock-hard-to-ignore/?.tsrc=rss",
+   "published": "2026-11-01T14:11:00Z",
+   "publisher": "",
+   "summary": "The stock price keeps declining, but with what Nike has done over the last 24 years, it's hard to ignore this one stat.",
+   "symbols": []
+  },
+  {
+   "title": "5 Best Tech Stocks for the Next 5 Years According to Financial Media",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-tech-stocks-next-140507052.html",
+   "published": "2026-11-01T14:05:07Z",
+   "publisher": "",
+   "summary": "Big Tech just had a week investors will remember. At its low on Friday, Alphabet had lost $477 billion in market value for the week, its worst week ever and the second-biggest weekly wipeout for any US-listed stock by Yahoo Finance’s calculations, Yahoo Finance reported on October 30. Most of the damage came Thursday, when […]",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "SoFi Just Made a Big Move Into Blockchain Payments. Here's What Investors Need to Know.",
+   "link": "https://www.fool.com/investing/2026/11/01/sofi-just-made-a-big-move-into-blockchain-payments/?.tsrc=rss",
+   "published": "2026-11-01T14:04:00Z",
+   "publisher": "",
+   "summary": "SoFi is taking blockchain beyond cryptocurrency trading and into everyday payments. The opportunity could be significant, but investors need to see one thing before getting too excited: proof that it can make money from it.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "2 Brilliant ETFs I'm Stocking Up On if a Bear Market Is Coming",
    "link": "https://www.fool.com/investing/2026/11/01/2-brilliant-etfs-im-stocking-up-on-if-a-bear-marke/?.tsrc=rss",
@@ -20,11 +94,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -34,12 +108,12 @@
    "publisher": "",
    "summary": "JPMorgan said that as the AI trade gets bigger, it is watching rising funding costs and growing reliance on debt.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -50,12 +124,12 @@
    "publisher": "",
    "summary": "Space Exploration Technologies (NasdaqGS: SPCX) failed to win dismissal of a Clean Air Act lawsuit on its Mississippi AI data centers. A federal judge allowed an NAACP complaint over gas-fired turbine emissions to proceed rather than throwing out the case at this stage. The suit focuses on alleged pollution from turbines supplying power to SpaceX AI facilities located near local communities in Mis",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -93,11 +167,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3003,46 +3077,6 @@
     "VOO",
     "XDW0"
    ]
-  },
-  {
-   "title": "Origin Agritech Announces Receipt of Nasdaq Notice Regarding Minimum Bid Price Requirement",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/origin-agritech-announces-receipt-nasdaq-203000597.html",
-   "published": "2026-10-30T20:30:00Z",
-   "publisher": "",
-   "summary": "BEIJING, Oct. 30, 2026 (GLOBE NEWSWIRE) -- Origin Agritech Limited (NASDAQ: SEED) (\"Origin\" or the \"Company\"), a leading Chinese agricultural technology company, today announced that on October 27, 2026, it received a written notice (the \"Notice\") from the Listing Qualifications Department of The Nasdaq Stock Market LLC (\"Nasdaq\") stating that, for the last 30 consecutive business days, the closin",
-   "symbols": []
-  },
-  {
-   "title": "PTC Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-   "link": "https://finance.yahoo.com/healthcare/articles/ptc-therapeutics-reports-inducement-grants-203000456.html",
-   "published": "2026-10-30T20:30:00Z",
-   "publisher": "",
-   "summary": "PTC Therapeutics, Inc. (NASDAQ: PTCT) today announced that on Oct. 28, 2026, the company approved non-statutory stock options to purchase an aggregate of 9.620 shares of its common stock and 11,535 restricted stock units (\"RSUs\"), each representing the right to receive one share of its common stock upon vesting, to 13 new employees. The awards were made pursuant to the Nasdaq inducement grant exce",
-   "symbols": []
-  },
-  {
-   "title": "Dune Oil to Present the M47 Oil Block at Market Bridge Live in London and the Oil & Gas Virtual Investor Conference",
-   "link": "https://finance.yahoo.com/energy/articles/dune-oil-present-m47-oil-203000597.html",
-   "published": "2026-10-30T20:30:00Z",
-   "publisher": "",
-   "summary": "Vancouver, British Columbia--(Newsfile Corp. - October 30, 2026) - Dune Oil Corp. (CSE: DUNE) (OTCQB: DUNXF) (FSE: Z621) (\"Dune\" or the \"Company\") is pleased to announce that Scott Lower, President and Chief Executive Officer, will present the Company's M47 oil exploration block (the \"M47 Block\") in southeastern Türkiye at Market Bridge Live in London on November 4, 2026, and at the Oil & Gas Virt",
-   "symbols": []
-  },
-  {
-   "title": "Oil price check-in: Why there's a 'line of sight' for lower diesel prices",
-   "link": "https://finance.yahoo.com/video/oil-price-check-in-why-theres-a-line-of-sight-for-lower-diesel-prices-202851504.html",
-   "published": "2026-10-30T20:28:51Z",
-   "publisher": "",
-   "summary": "Tortoise senior portfolio manager and managing director, Rob Thummel, sits down with Yahoo Finance Markets and Data Editor Jared Blikre to share some insights on the outlook for oil (CL=F, BZ=F) and diesel prices, the Strait of Hormuz, and more.",
-   "symbols": []
-  },
-  {
-   "title": "Absci Sinks 8%, Schrödinger and Recursion Slide as AI Drug Discovery Stocks Give Back Rally",
-   "link": "https://www.tikr.com/blog/absci-sinks-8-schrodinger-and-recursion-slide-as-ai-drug-discovery-stocks-give-back-rally?ref=yahoofinance&tlnk=yf-261030-886qj6q6&.tsrc=rss",
-   "published": "2026-10-30T20:28:19Z",
-   "publisher": "",
-   "summary": "Key TakeawaysAbsci fell 8% today as AI drug discovery peers Schrödinger and Recursion slid in a Nasdaq sell-off. These stocks trade together on sentiment, so the drop says little about Absci’s business.",
-   "symbols": []
   }
  ]
 }
