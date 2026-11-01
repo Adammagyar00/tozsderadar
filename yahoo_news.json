@@ -1,13 +1,13 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T01:05:18Z",
+ "updatedAt": "2026-11-01T02:01:41Z",
  "items": [
   {
-   "title": "Why the Tokenization Boom May Be a Signal to Buy Bitcoin",
-   "link": "https://unchainedcrypto.com/why-the-tokenization-boom-may-be-a-signal-to-buy-bitcoin/?.tsrc=rss",
-   "published": "2026-11-01T00:00:44Z",
+   "title": "Eli Lilly stock surges as cheaper drugs unlock a bigger market",
+   "link": "https://www.thestreet.com/health/eli-lilly-stock-surges-as-cheaper-drugs-unlock-a-bigger-market?.tsrc=rss",
+   "published": "2026-11-01T01:47:00Z",
    "publisher": "",
-   "summary": "Alex Thorn says every “blockchain, not Bitcoin” era has been a great time to buy BTC, and today’s tokenization boom looks like the same pendulum swing.",
+   "summary": "Lilly shares hit a record as weight-loss drugs became more accessible.",
    "symbols": [
     "BTC",
     "ETH",
@@ -20,18 +20,59 @@
    ]
   },
   {
+   "title": "J.P. Morgan Just Made a Bold Prediction About Bitcoin. Should You Buy It?",
+   "link": "https://www.fool.com/investing/2026/10/31/jp-morgan-just-made-a-bold-prediction-about-bitcoi/?.tsrc=rss",
+   "published": "2026-11-01T01:20:00Z",
+   "publisher": "",
+   "summary": "J.P. Morgan sees the coin as a better performer than stocks, though it comes at a cost.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Why the Tokenization Boom May Be a Signal to Buy Bitcoin",
+   "link": "https://unchainedcrypto.com/why-the-tokenization-boom-may-be-a-signal-to-buy-bitcoin/?.tsrc=rss",
+   "published": "2026-11-01T00:00:44Z",
+   "publisher": "",
+   "summary": "Alex Thorn says every “blockchain, not Bitcoin” era has been a great time to buy BTC, and today’s tokenization boom looks like the same pendulum swing.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
    "title": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock",
    "link": "https://finance.yahoo.com/technology/ai/articles/andy-jassy-says-west-very-233005253.html",
    "published": "2026-10-31T23:30:05Z",
    "publisher": "",
    "summary": "Amazon.com Inc. is expanding its Bedrock AI platform with China’s Kimi and GLM open models, while CEO Andy Jassy outlined ambitions for the service to eventually match Amazon’s massive EC2 cloud business. Amazon disclosed the additions during its third-quarter earnings...",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3047,31 +3088,6 @@
    "publisher": "",
    "summary": "The EV maker is showing signs that profitability is around the corner.",
    "symbols": []
-  },
-  {
-   "title": "The Fixed-Income Fork: The Critical Differences Between VCSH and SMB",
-   "link": "https://www.fool.com/coverage/etfs/2026/10/30/the-fixed-income-fork-the-critical-differences-between-vcsh-and-smb/?.tsrc=rss",
-   "published": "2026-10-30T18:35:02Z",
-   "publisher": "",
-   "summary": "VCSH offers higher yields and lower costs, while SMB provides tax-exempt income. Which fits your portfolio?",
-   "symbols": []
-  },
-  {
-   "title": "Eli Lilly Is Now Worth as Much as Warren Buffett's Berkshire Hathaway. Can the Rally Keep Going?",
-   "link": "https://www.fool.com/investing/2026/10/30/eli-lilly-is-now-worth-as-much-as-warren-buffetts/?.tsrc=rss",
-   "published": "2026-10-30T18:35:00Z",
-   "publisher": "",
-   "summary": "Eli Lilly's business is heavily driven by one product, while Berkshire Hathaway is a diversified conglomerate.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
