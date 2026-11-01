@@ -1,13 +1,70 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T22:40:31Z",
+ "updatedAt": "2026-11-01T23:13:12Z",
  "items": [
+  {
+   "title": "Dow Jones Futures Rise After Market Sell-Off; How Midterm Elections May Swing Stocks",
+   "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-rise-after.html",
+   "published": "2026-11-01T23:04:13Z",
+   "publisher": "",
+   "summary": "Techs led another stock market sell-off. It's a time to be defensive. Apple, Palantir, jobs and midterm elections loom.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Earnings to watch: California Resources (CRC) reports Q3 results tomorrow",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-california-resources-crc-230407292.html",
+   "published": "2026-11-01T23:04:07Z",
+   "publisher": "",
+   "summary": "Oil and gas producer California Resources (NYSE:CRC) will be reporting earnings tomorrow after market hours. Here’s what investors should know.",
+   "symbols": []
+  },
+  {
+   "title": "3 Catalysts Cramer Says Could Extend the Nasdaq Sell-Off This Week",
+   "link": "https://beincrypto.com/cramer-catalysts-extend-nasdaq-selloff/?.tsrc=rss",
+   "published": "2026-11-01T22:38:12Z",
+   "publisher": "",
+   "summary": "Jim Cramer flags the midterms, an Iran decision, and the jobs report as risks for the Nasdaq sell-off this week.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Uptober Failed as Oil, Bonds and AI Broke Pattern: What Changed?",
+   "link": "https://beincrypto.com/bitcoin-uptober-october-oil-ai-bonds/?.tsrc=rss",
+   "published": "2026-11-01T22:32:38Z",
+   "publisher": "",
+   "summary": "Bitcoin Uptober ended in a 7% loss as oil, bonds and AI trades broke their usual pattern. See what changed in October.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
   {
    "title": "Stocks Are Entering Their Historically Strongest Stretch -- But There May Be a Catch This Year",
    "link": "https://www.fool.com/investing/2026/11/01/stocks-are-entering-their-historically-strongest-s/?.tsrc=rss",
    "published": "2026-11-01T22:20:00Z",
    "publisher": "",
    "summary": "Don't try to predict the market's near-term action. It's driven by fickle feelings and ever-changing headlines.",
+   "symbols": []
+  },
+  {
+   "title": "Gold Had Its Worst October Since 2008: Will It Crash Further This Week?",
+   "link": "https://beincrypto.com/gold-worst-october-since-2008-this-week/?.tsrc=rss",
+   "published": "2026-11-01T21:58:18Z",
+   "publisher": "",
+   "summary": "Gold ended its worst October since 2008 at $3,875. Saxo Bank says the selloff may not be over. Here is what decides it.",
    "symbols": []
   },
   {
@@ -34,6 +91,46 @@
    "publisher": "",
    "summary": "Oil and gas producer Crescent Energy (NYSE:CRGY) will be reporting earnings this Monday after market hours. Here’s what you need to know.",
    "symbols": []
+  },
+  {
+   "title": "Can General Motors and Ford Survive the Flood of Cheap Chinese EVs?",
+   "link": "https://finance.yahoo.com/m/c98ba448-fbf5-3d3b-9314-94f45d1669d7/can-general-motors-and-ford.html",
+   "published": "2026-11-01T21:35:00Z",
+   "publisher": "",
+   "summary": "China is flooding the world with cars, hurting rivals everywhere. Why GM and Lear could thrive anyway.",
+   "symbols": []
+  },
+  {
+   "title": "Yes, Alphabet Stock Got Hammered. No, We’re Not Selling.",
+   "link": "https://finance.yahoo.com/m/c87c1f67-7e8d-3e32-a321-55370038842a/yes%2C-alphabet-stock-got.html",
+   "published": "2026-11-01T21:28:00Z",
+   "publisher": "",
+   "summary": "The Google-parent trades at a rare discount. If it simply returns to its historical valuation relative to Apple, the stock has nearly 50% upside.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "The Big Money Poll Shows Investors as Divided as America",
+   "link": "https://finance.yahoo.com/m/ed866a6d-9ab0-3639-93f4-3a5dadd447c3/the-big-money-poll-shows.html",
+   "published": "2026-11-01T21:23:00Z",
+   "publisher": "",
+   "summary": "The optimists cite robust earnings growth; the pessimists see a bubble in danger of bursting. Plus, the pros’ forecasts for interest rates, international markets, the midterm elections, and more.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
   },
   {
    "title": "Starlink's Subscriber Growth Is Explosive. Could SpaceX Unlock a Second Growth Engine?",
@@ -3105,105 +3202,6 @@
    "publisher": "",
    "summary": "Investors were still buying it in the afterglow of its latest quarterly earnings release.",
    "symbols": []
-  },
-  {
-   "title": "3 Oil Stocks Retail Investors Are Watching As Brent Crude Nears $120",
-   "link": "https://finance.yahoo.com/energy/articles/3-oil-stocks-retail-investors-001817462.html",
-   "published": "2026-10-31T00:18:17Z",
-   "publisher": "",
-   "summary": "Oil markets are back in the spotlight as US–Iran risks near the Strait of Hormuz, Brent crude near $120 and a fresh gas scare in Europe pull energy security back onto your screen. Price swings of this scale can punish some sectors while opening gaps for others. This article walks through 3 integrated majors from our screener that look most sensitive to these headlines and explains how that exposur",
-   "symbols": []
-  },
-  {
-   "title": "Franklin Templeton’s Dividend-to-Bitcoin ETFs Open on Nasdaq With About $72,000 in Trades",
-   "link": "https://unchainedcrypto.com/franklin-templetons-dividend-to-bitcoin-etfs-open-on-nasdaq-with-about-72000-in-trades/?.tsrc=rss",
-   "published": "2026-10-31T00:15:00Z",
-   "publisher": "",
-   "summary": "FBEQ and FIBT, which first traded on Thursday, build their bitcoin slice from dividends and reach it through ETPs, derivatives and depositary receipts rather than holding bitcoin directly, per their prospectuses.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI — AMZN, INTC, LLY, RBLX In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-third-straight-week-lower-as-investors-move-away-from-tech-ai-amzn-intc-lly-rblx-in-focus/cZUKKlTR9cJ?.tsrc=rss",
-   "published": "2026-10-31T00:05:39Z",
-   "publisher": "",
-   "summary": "The S&P 500 and Nasdaq 100 ended the week down 0.6% and 2%, respectively.",
-   "symbols": []
-  },
-  {
-   "title": "Investors Have Poured a Record $2.24 Trillion Into ETFs This Year. Three Firms Collected Nearly Half of It",
-   "link": "https://247wallst.com/investing/etf/2026/10/30/investors-have-poured-a-record-2-24-trillion-into-etfs-this-year-three-firms-collected-nearly-half-of-it/?.tsrc=rss",
-   "published": "2026-10-31T00:03:47Z",
-   "publisher": "",
-   "summary": "A record $2.24 trillion has flooded into ETFs worldwide this year, yet despite thousands of funds competing for that money, nearly half of it ended up in the hands of just three companies running essentially the same idea.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Rig count unchanged as prices climb",
-   "link": "https://www.oaoa.com/?p=376581&.tsrc=rss",
-   "published": "2026-10-31T00:02:00Z",
-   "publisher": "",
-   "summary": "The rig count in the Permian Basin was unchanged this week, the latest count Friday by Baker Hughes shows, with 272 rigs active in the region. A year ago, 251 rigs were active in the region. Nationally, the oil and gas rig count is unchanged from last week at 603 rigs. A year ago, 546 rigs were active. The count shows that 462 rigs sought oil, up two from the previous week, and 130 explored ...",
-   "symbols": []
-  },
-  {
-   "title": "Review & Preview: Ending on a Down Note",
-   "link": "https://finance.yahoo.com/m/b0499f52-933b-3c3a-a9fe-a4d478f02828/review-%26-preview%3A-ending-on-a.html",
-   "published": "2026-10-30T23:55:00Z",
-   "publisher": "",
-   "summary": "Boo! A frightful pre-Halloween hit the broader market. Tech stocks in particular had a brutal day, capping off a poor month.",
-   "symbols": []
-  },
-  {
-   "title": "Why Bitcoin shrugged off the largest crypto hack ever",
-   "link": "https://www.thestreet.com/crypto/markets/why-bitcoin-shrugged-off-the-largest-crypto-hack-ever?.tsrc=rss",
-   "published": "2026-10-30T23:36:50Z",
-   "publisher": "",
-   "summary": "The largest crypto theft on record took 18,270 Bitcoin – about 0.09% of all coins in circulation. The price fell about 5%.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What Eli Lilly and Company (LLY) Said on Its Q3 Earnings Call",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-eli-lilly-and-company-lly-said-on-its-q3-earnings-call-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-10-30T23:17:32Z",
-   "publisher": "",
-   "summary": "Eli Lilly and Company (NYSE:LLY) raised its full-year outlook after reporting third-quarter revenue growth of 39% from the prior-year period, driven primarily by demand for its Mounjaro and Zepbound incretin medicines and continued growth across international markets. Chair and CEO Dave Ricks said",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
