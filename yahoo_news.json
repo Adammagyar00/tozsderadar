@@ -1,7 +1,15 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T17:36:01Z",
+ "updatedAt": "2026-11-01T18:06:13Z",
  "items": [
+  {
+   "title": "How Many AGNC Shares It Takes to Earn $500 a Month in Dividends",
+   "link": "https://www.fool.com/investing/2026/11/01/how-many-agnc-shares-it-takes-to-earn-500-a-month/?.tsrc=rss",
+   "published": "2026-11-01T17:48:00Z",
+   "publisher": "",
+   "summary": "The mortgage REIT offers a high-risk, high-reward income stream.",
+   "symbols": []
+  },
   {
    "title": "Oil, Inflation, and Fed Risk. Why MicroStrategy Still Wants More Bitcoin Now?",
    "link": "https://beincrypto.com/microstrategy-bitcoin-buy-oil-fed-risk/?.tsrc=rss",
@@ -12,11 +20,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -26,6 +34,23 @@
    "publisher": "",
    "summary": "Cheniere Energy loaded its very first LNG cargo at Sabine Pass in 2016 with no revenue and a mountain of debt. What happened to early investors over the next decade reveals just how dramatically the global energy landscape can reward patience at the right moment.",
    "symbols": []
+  },
+  {
+   "title": "Binance withdrawals resume following $6 billion hack",
+   "link": "https://www.cnn.com/2026/11/01/business/binance-withdrawals-crypto-heist?.tsrc=rss",
+   "published": "2026-11-01T17:09:34Z",
+   "publisher": "",
+   "summary": "Binance, the world’s largest cryptocurrency exchange, said it has resumed withdrawals after a record $6.3 billion was stolen from its digital wallets last week.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "3 Oil And Gas Stocks Linked To Higher Brent Prices",
@@ -45,11 +70,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -67,6 +92,23 @@
    "publisher": "",
    "summary": "Reddit's accelerating growth has now surpassed The Trade Desk's quarterly revenue for the first time, marking a dramatic reversal after years of trailing.",
    "symbols": []
+  },
+  {
+   "title": "Binance Phases in Customer Withdrawals Days After Massive Hack",
+   "link": "https://finance.yahoo.com/m/703326f8-cea5-3d40-8cff-c5c1219f68b0/binance-phases-in-customer.html",
+   "published": "2026-11-01T16:41:59Z",
+   "publisher": "",
+   "summary": "Bitcoin's price was rising on Sunday after crypto exchange Binance began the phase in of customer withdrawals, two days after a massive hack resulted in a record $6.3 billion theft.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "A Wall Street Firm Modeled Out an AI Crash: S&P 500 Down 30%, $20 Trillion Gone. But Here's What Happens Next",
@@ -397,12 +439,12 @@
    "publisher": "",
    "summary": "NASA has the leverage to build a real space market.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3096,30 +3138,6 @@
    "published": "2026-10-30T21:35:01Z",
    "publisher": "",
    "summary": "EMLP offers diversified pipeline exposure with lower volatility and stronger returns, while TAN provides concentrated solar exposure with higher risk and deeper drawdowns.",
-   "symbols": []
-  },
-  {
-   "title": "BC-Select Stock Indices",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213014279.html",
-   "published": "2026-10-30T21:30:14Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — Prices as of 5:30:00 PM Friday, October 30. Change High Low Dow Jones 15 Utilities 1111.",
-   "symbols": []
-  },
-  {
-   "title": "Boeing CEO Says High Oil Prices Could Actually Boost Jet Orders — Here's Why",
-   "link": "https://finance.yahoo.com/energy/articles/boeing-ceo-says-high-oil-213007769.html",
-   "published": "2026-10-30T21:30:07Z",
-   "publisher": "",
-   "summary": "High fuel prices usually spell trouble for airlines, squeezing profits and potentially slowing travel. But Boeing Co CEO Kelly Ortberg sees a counterintuitive upside: when jet fuel gets more expensive, airlines have a stronger reason to replace older planes with...",
-   "symbols": []
-  },
-  {
-   "title": "Imperial Oil Limited Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-imperial-oil-limited-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-   "published": "2026-10-30T21:27:29Z",
-   "publisher": "",
-   "summary": "Moby summary of Imperial Oil Limited's Q3 2026 earnings call",
    "symbols": []
   }
  ]
