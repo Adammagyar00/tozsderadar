@@ -1,7 +1,40 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-01T00:07:38Z",
+ "updatedAt": "2026-11-01T01:05:18Z",
  "items": [
+  {
+   "title": "Why the Tokenization Boom May Be a Signal to Buy Bitcoin",
+   "link": "https://unchainedcrypto.com/why-the-tokenization-boom-may-be-a-signal-to-buy-bitcoin/?.tsrc=rss",
+   "published": "2026-11-01T00:00:44Z",
+   "publisher": "",
+   "summary": "Alex Thorn says every “blockchain, not Bitcoin” era has been a great time to buy BTC, and today’s tokenization boom looks like the same pendulum swing.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock",
+   "link": "https://finance.yahoo.com/technology/ai/articles/andy-jassy-says-west-very-233005253.html",
+   "published": "2026-10-31T23:30:05Z",
+   "publisher": "",
+   "summary": "Amazon.com Inc. is expanding its Bedrock AI platform with China’s Kimi and GLM open models, while CEO Andy Jassy outlined ambitions for the service to eventually match Amazon’s massive EC2 cloud business. Amazon disclosed the additions during its third-quarter earnings...",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "How Much XRP Do You Need to Make $100,000 by 2030?",
    "link": "https://247wallst.com/investing/cryptocurrency/2026/10/31/how-much-xrp-do-you-need-to-make-100000-by-2030/?.tsrc=rss",
@@ -355,12 +388,12 @@
    "publisher": "",
    "summary": "SpaceX’s $40 billion GPU financing deal raises concerns about higher borrowing costs, but its financing structure and strong AI investment returns could help mitigate the risks for SPCX stock.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3029,31 +3062,6 @@
    "published": "2026-10-30T18:35:00Z",
    "publisher": "",
    "summary": "Eli Lilly's business is heavily driven by one product, while Berkshire Hathaway is a diversified conglomerate.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "1 S&P 500 stock to consider right now and 2 we avoid",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-consider-182729640.html",
-   "published": "2026-10-30T18:27:29Z",
-   "publisher": "",
-   "summary": "The S&P 500 (^GSPC) is often seen as a benchmark for strong businesses, but that doesn’t mean every stock is worth owning. Some companies face significant challenges, whether it’s stagnating growth, heavy debt, or disruptive new competitors.",
-   "symbols": []
-  },
-  {
-   "title": "Gold Just Hit a New Low. Here's Where Traders Are Finding Safety Instead.",
-   "link": "https://finance.yahoo.com/m/4d5c1d4e-32f0-3fab-8e35-61dc0af1e9d0/gold-just-hit-a-new-low..html",
-   "published": "2026-10-30T18:21:53Z",
-   "publisher": "",
-   "summary": "Gold futures hit a new 52-week low.",
    "symbols": [
     "BTC",
     "ETH",
