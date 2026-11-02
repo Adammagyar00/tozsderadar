@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T18:11:53Z",
+ "builtAt": "2026-11-02T18:55:33Z",
  "digests": [
   {
    "calendar": [
@@ -768,6 +768,73 @@
      "title": "A Wells Fargo november 24-től az ügyfelekre hárítaná az AI-ügynökök számlahozzáférésének felelősségét",
      "url": "https://www.americanbanker.com/news/wells-fargo-wants-customers-to-prove-theyve-revoked-ai-agents?.tsrc=rss",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance",
+     "summary": "A Marvell árfolyama esik az 115 milliárd dolláros, teljes egészében részvényalapú Lumentum-felvásárlás bejelentése után. Az Investing.com szerint a B. Riley az akvizícióval kapcsolatos aggályok miatt csökkentette a célárat, a William Blair pedig Outperform ajánlását megerősítette.",
+     "symbols": [
+      "MRVL",
+      "LITE"
+     ],
+     "title": "A Marvell zuhan a Lumentum-üzlet miatt; a B. Riley csökkentette, a William Blair fenntartotta ajánlását",
+     "url": "https://www.investing.com/news/analyst-ratings/briley-lowers-marvell-stock-price-target-on-acquisition-concerns-93CH-4992557",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T18:40:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A Decrypt szerint az Nvidia, a Costco, a Nike és más vállalatok is kifogást emeltek a részvényeik tokenizált kereskedése ellen az OKX–ICE felületen, a kifogást emelők száma így 50. Október 23-án még 22 kifogásról szóltak a hivatalos közlések, a mostani szám újabb hullámot jelez.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Az OKX–ICE tokenizált részvénykereskedési felülete ellen már 50 vállalat emelt kifogást, köztük az Nvidia és a Nike",
+     "url": "https://decrypt.co/382348/nvidia-nike-biggest-wave-yet-tokenized-stock-objections",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Bloomberg",
+     "summary": "A Reuters a Bloomberg News jelentésére hivatkozva írja, hogy a Meta legalább 20 milliárd dollárnyi kötvénykibocsátást fontolgat. A hír az MI-beruházások finanszírozásához kapcsolódik; a kibocsátás végleges mérete és időzítése nem ismert.",
+     "symbols": [
+      "META"
+     ],
+     "title": "A Meta a Bloomberg szerint legalább 20 milliárd dollárt vonna be kötvénykibocsátásból",
+     "url": "https://www.investing.com/news/stock-market-news/meta-eyes-at-least-20-billion-from-potential-bond-offerings-bloomberg-news-reports-4992542",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T18:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg értesülései szerint a Crypto.com működési okokra hivatkozva megszünteti hongkongi fogyasztói alkalmazását. Külön megerősítést nem találtunk, cáfolatot sem.",
+     "symbols": [],
+     "title": "A Crypto.com a Bloomberg szerint kivonul a hongkongi fogyasztói alkalmazásból",
+     "url": "https://www.investing.com/news/stock-market-news/cryptocom-to-exit-hong-kong-consumer-app-citing-operations--bloomberg-93CH-4992534",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-02T18:40:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A San Francisco-i Fed (SF Fed) 2026-21. sz. munkaanyaga szerint az El Niño felfelé mutató kockázatot jelent az árak (PCE) és a foglalkoztatás számára; a hosszabb távú hatást főleg a maghoz tartozó szolgáltatások és az élelmiszerárak hajtják.",
+     "symbols": [],
+     "title": "Az SF Fed tanulmánya szerint az El Niño jelentős inflációs kockázatot jelent 2027-re",
+     "url": "https://www.investing.com/news/economy-news/el-nino-poses-meaningful-risk-of-higher-inflation-in-2027-sf-fed-paper-says-4992548",
+     "verified": true
     }
    ],
    "markets": [
@@ -794,7 +861,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T17:50:00Z",
+   "updatedAt": "2026-11-02T18:40:00Z",
    "watchlist": []
   },
   {
