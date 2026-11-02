@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T09:55:56Z",
+ "builtAt": "2026-11-02T10:55:43Z",
  "digests": [
   {
    "calendar": [
@@ -373,6 +373,44 @@
      "title": "A Goldman Sachs újra emelte olajárjóslatait a közel-keleti kínálati kockázatok miatt",
      "url": "https://finance.yahoo.com/energy/articles/goldman-hikes-oil-prices-forecast-080828143.html",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-02T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Dow Jones",
+     "summary": "A Ryanair beszámolt a pénzügyi 2. negyedéves eredményéről: a profit csökkent, a bevétel nőtt, a légitársaság pedig kilátásokat adott a 3. negyedévre és a 2027-es üzleti évre. A Benzinga szerint az eredmény meghaladta az elemzői várakozást, a részvény az elővásárlásban kb. 0,7%-ot emelkedett.",
+     "symbols": [],
+     "title": "Ryanair: csökkenő negyedéves profit, nőtt a bevétel; új kilátások a 3. negyedévre és a 2027-es üzleti évre",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ryanair-fiscal-q2-earnings-decline-094555955.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Benzinga",
+     "summary": "Az Inovio Pharmaceuticals árfolyama hétfőn az elővásárlásban 218–225%-kal emelkedett. A Benzinga szerint a mozgást egy FDA-jóváhagyás váltotta ki; a cég INO-3107 gyógyszerének FDA-határideje október 30-ra volt kitűzve.",
+     "symbols": [],
+     "title": "Az Inovio részvénye mintegy 225%-ot szökik az elővásárlásban",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-inovio-pharmaceuticals-stock-skyrocketing-225-today-93CH-4990437",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Bitcoin.com (egyetlen forrás)",
+     "summary": "A Bitcoin.com értesülése szerint a Hyperliquid két legnyereségesebb kereskedője együttesen több mint 1 milliárd dollárnyi short pozíciót tart, az egyik kb. 617,5 millió dollárt 22 piacon, köztük 224 millió dollárt ETH-ra. Független megerősítést nem találtam.",
+     "symbols": [
+      "HYPE",
+      "ETH"
+     ],
+     "title": "Hyperliquid: a két legnyereségesebb kereskedő együtt több mint 1 milliárd dollárnyi short pozíciót tart – írja a Bitcoin.com",
+     "url": "https://news.bitcoin.com/defi/hyperliquid-top-traders-short-1-billion/",
+     "verified": false
     }
    ],
    "markets": [
@@ -399,7 +437,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T09:50:00Z",
+   "updatedAt": "2026-11-02T10:50:00Z",
    "watchlist": []
   },
   {
