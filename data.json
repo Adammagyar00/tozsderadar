@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T06:58:31Z",
+ "builtAt": "2026-11-02T08:01:55Z",
  "digests": [
   {
    "calendar": [
@@ -285,6 +285,46 @@
      "title": "Ripple november 1-jén újabb 1 milliárd XRP-t oldott fel az escrow-ból",
      "url": "https://u.today/1-billion-xrp-on-move-as-ripple-makes-first-escrow-release-in-november",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-02T07:50:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A bitcoin hétfőn kissé emelkedett, miután a Binance a rekordméretű, mintegy 6,3 milliárd dolláros lopás után fokozatosan újraindította a kifizetéseket, a bitcoinnal kezdve. A CoinDesk szerint az első szakaszban 15 kriptovaluta nyílt meg, a további újranyitás a biztonsági ellenőrzésektől függ.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin 78 ezer dollár körül stabilizálódik az októberi veszteségek után; a Binance részben újraindította a kifizetéseket",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-steadies-78k-october-losses-071526374.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T07:50:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Investing.com beszámolói szerint a német kiskereskedelmi forgalom szeptemberben a várakozásoknál nagyobbat, mintegy 2%-ot esett az előző hónaphoz képest. Az adat a német fogyasztás gyengeségére utal.",
+     "symbols": [],
+     "title": "Szeptemberben váratlanul esett a német kiskereskedelmi forgalom",
+     "url": "https://www.investing.com/news/economic-indicators/german-retail-sales-plunge-2-in-september-missing-forecasts-4990023",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T07:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Phillip Securities az Amazon AWS-üzletágának erős teljesítménye miatt javított az Amazon részvényének besorolásán.",
+     "symbols": [
+      "AMZN"
+     ],
+     "title": "A Phillip Securities az AWS erejére hivatkozva felminősítette az Amazon részvényét",
+     "url": "https://www.investing.com/news/analyst-ratings/phillip-securities-upgrades-amazon-stock-rating-on-aws-strength-93CH-4990042",
+     "verified": true
     }
    ],
    "markets": [
@@ -311,7 +351,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T06:58:00Z",
+   "updatedAt": "2026-11-02T07:50:00Z",
    "watchlist": []
   },
   {
