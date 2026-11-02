@@ -1,6 +1,319 @@
 {
- "builtAt": "2026-11-02T05:01:06Z",
+ "builtAt": "2026-11-02T06:58:31Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 2.",
+     "event": "Apple és Palantir gyorsjelentés (zárás után); ISM feldolgozóipari PMI"
+    },
+    {
+     "date": "nov. 3.",
+     "event": "RBA kamatdöntés; USA félidős választások; AMD gyorsjelentés"
+    },
+    {
+     "date": "nov. 4.",
+     "event": "Eurózóna inflációs gyorsbecslés; ISM szolgáltatóipar"
+    },
+    {
+     "date": "nov. 5.",
+     "event": "Bank of England kamatdöntés"
+    },
+    {
+     "date": "nov. 6.",
+     "event": "USA munkaerőpiaci jelentés"
+    },
+    {
+     "date": "nov. 10.",
+     "event": "USA CPI; KSH infláció"
+    }
+   ],
+   "date": "2026-11-02",
+   "generatedAt": "2026-11-02T06:58:00Z",
+   "headline": "Rebound várható a Wall Streeten a technológiai kiárusítás után: az Apple- és Palantir-jelentés, a félidős választás és a bank-/jegybanki döntések állnak a hét fókuszában.",
+   "items": [
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A vasárnap esti kereskedésben az amerikai határidős indexek emelkedtek, miután az októberi technológiai kiárusítás (a mesterséges intelligenciába fektetett pénzek megtérülésétől való félelem) mélyen lerántotta a technológiai részvényeket. A héten az Apple és a Palantir gyorsjelentése, a keddi félidős választás és a pénteki munkaerőpiaci jelentés mozgathatja a piacot.",
+     "symbols": [],
+     "title": "Emelkedést jeleznek az amerikai tőzsdei határidős indexek a Wall Street rázós októbere után; a figyelem az Apple-jelentésen, a félidős választásokon és a munkaerőpiaci adaton",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-edge-high-010138847.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · AP",
+     "summary": "Hétfőn az ázsiai tőzsdék többsége emelkedett, de a technológiai részvények továbbra is ingadoztak, az olajár pedig több mint 3%-kal csökkent. A Wall Street pénteken a júniusi óta legrosszabb napját zárta, miután a befektetők kiárusították a technológiai és MI-részvényeket.",
+     "symbols": [],
+     "title": "Ázsiában többnyire emelkedtek a részvények, a technológiai szektor azonban ingadozik; az olaj több mint 3%-ot esett",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-advance-tech-052925730.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters összefoglalója szerint a dollár árfolyama szűk sávban maradt az amerikai félidős választások előtt. A bitcoint a Binance 6,3 milliárd dolláros feltörése utáni bizonytalanság továbbra is nyomja.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A dollár szűk sávban mozog a félidős választások előtt; a bitcoin a kriptohack után gyengélkedik",
+     "url": "https://www.investing.com/news/forex-news/dollar-rangebound-ahead-of-us-midterms-bitcoin-reels-from-crypto-heist-4989794",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a kínai gyárak növekedése októberben lassult, mert az exportrendelések gyengültek (magánszektorbeli PMI). Japánban a gyári növekedés lassult és nőttek a költségek, Dél-Koreában a növekedés üteme nyolchavi mélypontra esett.",
+     "symbols": [],
+     "title": "Az októberi feldolgozóipari PMI lassuló növekedést jelez Kínában, Japánban és Dél-Koreában",
+     "url": "https://www.investing.com/news/economy-news/china-factory-growth-slows-in-october-as-export-orders-ease-private-pmi-shows-4989800",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint Kína nagy állami bankjai a harmadik negyedévben évek óta a leggyorsabb negyedéves profitbővülést közölték, miközben a nettó kamatmarzsok stabilizálódtak. A hírt követően a kínai nagybankok részvényei emelkedtek.",
+     "symbols": [],
+     "title": "Kína nagybankjai évek leggyorsabb negyedéves profitnövekedését érték el, a kamatmarzsok stabilizálódtak",
+     "url": "https://www.investing.com/news/stock-market-news/chinas-big-banks-post-fastest-quarterly-profit-growth-in-years-as-margins-stabilise-4989783",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az ausztrál Westpac teljes éves profitja a Reuters szerint kismértékben nőtt, a bank ugyanakkor lassuló hitelkeresletről számolt be.",
+     "symbols": [],
+     "title": "Westpac éves profitja kissé nőtt, a bank lassuló hitelkeresletet jelez",
+     "url": "https://www.investing.com/news/stock-market-news/australian-lender-westpacs-fullyear-profit-ticks-higher-4989776",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A jegybank október 30-án 1,25%-on hagyta az alapkamatot, Ueda Kazuo kormányzó azonban további emeléseket jelzett. A Reuters elemzése szerint a decemberi emelés bekalkulált, de nem világos, hol van a semleges kamatszint.",
+     "symbols": [],
+     "title": "A Bank of Japan decemberi kamatemelése a Reuters elemzése szerint gyakorlatilag eldőlt, a semleges kamatszint körüli bizonytalanság azonban megmarad",
+     "url": "https://www.investing.com/news/economy-news/analysisboj-locks-in-december-hike-but-neutralrate-uncertainty-muddies-outlook-4989896",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A brit jegybank csütörtökön, november 5-én dönt; az alapkamat jelenleg 3,75%. A Reuters szerint az emelés várható, a jegybank viszont visszafoghatja a további szigorításra vonatkozó piaci fogadásokat. A szeptemberi ülésen 6–3 arányban maradt a kamat, három tag emelést kért.",
+     "symbols": [],
+     "title": "A Bank of England a Reuters szerint kamatot emelhet csütörtökön, de óvatos lehet a további emelések várakozásával szemben",
+     "url": "https://www.investing.com/news/economy-news/bank-of-england-poised-to-raise-rates-but-may-push-back-on-bets-for-more-4989788",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com előzetese szerint az ausztrál jegybank november 3-i ülésén 25 bázispontos emelést várnak, ami 4,85%-ra vinné az alapkamatot. A CBA és az ANZ is emelést vár, a piaci várakozások azonban nem teljesen egységesek.",
+     "symbols": [],
+     "title": "Az RBA előzetes szerint 25 bázispontos kamatemelés jöhet kedden az inflációs kilátások romlása miatt",
+     "url": "https://www.investing.com/news/economy-news/rba-preview-november-25-bps-hike-expected-as-inflation-outlook-worsens-4989814",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az ázsiai kereskedésben az olajár esett, mert a reményeket keltő diplomáciai erőfeszítések enyhítették az újabb kínálatkiesés miatti aggodalmakat az amerikai–izraeli és Irán közötti háborúban. Az AP szerint az olaj több mint 3%-ot gyengült, de a hordónkénti ár továbbra is 100 dollár környékén jár.",
+     "symbols": [],
+     "title": "Esik az olaj, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja",
+     "url": "https://finance.yahoo.com/energy/articles/oil-falls-trump-favours-iran-015737846.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters hivatalos nyilatkozatra hivatkozva közölte, hogy iráni tárgyalók a katari fővárosban folytatják a tárgyalásokat az amerikai–iráni háború befejezéséről. A tárgyalások eddig közvetítőkön keresztül zajlottak.",
+     "symbols": [],
+     "title": "Iráni tárgyalók Dohában folytatják az egyeztetést a háború lezárásáról",
+     "url": "https://www.investing.com/news/commodities-news/iranian-negotiators-in-doha-to-continue-talks-to-end-the-usiran-war-official-says-4989743",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A spot arany 0,6%-ot nőtt, uncia árát 3900 dollár körül jegyezték. Az ezüst 1,4%-ot erősödött, a platina 3,4%-ot gyengült, a dollárindex 0,2%-kal 101,88-ra esett. A piacot az iráni kockázatok is támogatják.",
+     "symbols": [],
+     "title": "Az arany 3900 dollár közelébe emelkedett, miután a befektetők a mélypont után visszatértek",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/gold-rebounds-toward-3-900-013553389.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint Donald Trump azt mondta, hogy az Egyesült Államok és Kanada között megvan egy új kereskedelmi megállapodás elképzelése. Részleteket a cím nem közöl; Trump korábban is többször jelezte, hogy hamarosan megállapodás születhet.",
+     "symbols": [],
+     "title": "Trump szerint az USA-nak és Kanadának van „koncepciója” egy új kereskedelmi megállapodásról",
+     "url": "https://www.investing.com/news/commodities-news/trump-says-us-canada-have-concept-of-a-new-trade-deal-4989778",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Világgazdaság · Portfolio · Pénzcentrum",
+     "summary": "A Tisza-kormány a 2027-es költségvetési javaslat szerint 3%-os inflációval számol, és ehhez igazítja a januári nyugdíjemelést is. A tervezet szerint a költségvetési hiány a 2026-os 7,5%-ról 4,9%-ra csökkenhet, a növekedés 2,4% lehet; a hiány összege 5102,7 milliárd forint. A parlamenti vita és az elfogadás még hátravan.",
+     "symbols": [],
+     "title": "A kormány bejelentette: januártól 3%-kal emelkednek a nyugdíjak, a 2027-es költségvetés 4,9%-os GDP-arányos hiánnyal számol",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/11/nyugdijemeles-2027-kormany-januar-emeles",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A tajvani chiptervező vezérigazgatója szerint az MI iránti kereslet növekedése folytatódni fog, bár üteme változhat. A cég mobilchip-üzletága ugyanakkor erős ellenszéllel küzd, mert a globális okostelefon-szállítások várhatóan csökkennek.",
+     "symbols": [],
+     "title": "MediaTek: a vezérigazgató szerint folytatódik az MI-chipek iránti erős kereslet, a részvény emelkedett",
+     "url": "https://www.investing.com/news/stock-market-news/mediatek-shares-rise-as-ceo-flags-strong-aifueled-chip-demand-4989903",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits · The Japan Times",
+     "summary": "A japán Kioxia a következő negyedévre a vártnál gyengébb működési eredményt (kb. 2000 milliárd jen a várt 2350 helyett) és lassuló NAND-áremelkedést jelzett, ezért a tokiói nyitáskor mintegy 15%-ot esett. A Micron és a Sandisk péntek óta tartó esése után hétfő hajnalban 2% fölött emelkedett; a Sandisk pénteken kb. 13%-ot, a Micron 5%-ot veszített.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Kioxia zuhan a visszafogott memóriakilátás után, a Micron és a Sandisk vasárnap este 2% fölött emelkedett",
+     "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-dram-inch-higher-overnight-after-mixed-week-japan-s-kioxia-plunges-after-cautious-memory-outlook/cNG9K4wR92O?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet · Barclays/BofA elemzői vélemény",
+     "summary": "A Barclays szerint egy Tesla–SpaceX összeolvadás még december előtt bejelenthető lehet, a Bank of America szerint viszont a felár, a szavazás és Kína lesz a döntő, és semmi sem biztos. Egyik cég sem jelentett be vagy erősített meg ilyen ügyletet. Elemzői vélemények, nem tényközlések.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Barclays és a Bank of America szerint a Tesla–SpaceX egyesülés körüli feltételek és Kína szerepe dönt; bejelentés még nincs",
+     "url": "https://www.thestreet.com/markets/tesla-spacex-merger-math-just-shifted-in-teslas-favor?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Stocktwits (nem megerősített értesülés) · Yahoo Finance",
+     "summary": "A Stocktwits beszámolója szerint Musk enyhített a TSMC Terafab-beli szerepével kapcsolatos álláspontján, és a tárgyalások az irányításról, a befektetésről és a technológiáról is szólhatnak. Hivatalos megerősítés nincs, a hírt a Stocktwits közli értesülésként.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Értesülések szerint Musk felújítja a TSMC-vel a Terafab-tárgyalásokat, a SpaceX-részvény éjszaka emelkedett",
+     "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-musk-tsmc-terafab-talks-capex-efficiency-greatly-underestimated/cNG9KfcR92f?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A BeInCrypto adata szerint az amerikai spot Ethereum-ETF-ekből októberben 1,61 milliárd dollár áramlott ki, miközben az ETH egy fontos szint alá esett. A Cointelegraph október 21-ig 1,08 milliárdos kiáramlást mért (akkor az év legrosszabb havi értéke); a teljes októberi összeget független forrás még nem erősítette meg.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "A spot ethereum ETF-ek októberi kiáramlása a BeInCrypto szerint 1,61 milliárd dollár volt, a legrosszabb hónap az indulás óta",
+     "url": "https://beincrypto.com/ethereum-etfs-record-october-outflow/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet · Investing.com · Reuters",
+     "summary": "A tőzsde a 6,3 milliárd dolláros feltörés után fokozatosan újraindította a kifizetéseket. A Reuters szerint a kiáramlások kezdenek stabilizálódni, a DefiLlama követése azonban a Binance-hoz köthető tárcákból 3,7 milliárd dollár nettó kiáramlást mutat.",
+     "symbols": [],
+     "title": "Binance: a Reuters szerint stabilizálódnak a kiáramlások, a DefiLlama 3,7 milliárd dolláros nettó kiáramlást mutat",
+     "url": "https://www.thestreet.com/crypto/markets/binance-sees-3-7-billion-in-outflows-after-hack?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "Michael Saylor ismét közzétette a Strategy bitcoinvásárlási grafikonját, ami a korábbi gyakorlat szerint új vásárlást jelezhet. A 24/7 Wall St. szerint az MSCI index-döntése a Strategyt a piac legnagyobb vevőjéből kényszereladóvá is teheti. Vásárlást a cég még nem jelentett be; a döntés időpontját a források eltérően közlik.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Saylor újabb bitcoinvásárlást sejtet, miközben az MSCI döntése Strategy sorsáról közeleg",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/01/saylor-is-hinting-at-another-bitcoin-buy-before-msci-rules-on-strategy-what-happens-to-btc-if-strategy-has-to-sell-instead/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "U.Today · Finbold (nem megerősített)",
+     "summary": "A havi ütemezés szerint Ripple vasárnap újabb 1 milliárd XRP-hez jutott hozzá az escrow-számlákról; a korábbi gyakorlat alapján a token jelentős részét visszazárja. A pontos visszazárt összeget még nem erősítették meg, ezért a hír csak előzetes (a forrás: U.Today, Finbold, TipRanks).",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Ripple november 1-jén újabb 1 milliárd XRP-t oldott fel az escrow-ból",
+     "url": "https://u.today/1-billion-xrp-on-move-as-ripple-makes-first-escrow-release-in-november",
+     "verified": false
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
+   "updatedAt": "2026-11-02T06:58:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -5141,6 +5454,22 @@
    "type": "Gyorsjelentés",
    "url": "https://www.tipranks.com/news/apple-vs-palantir-which-stock-has-more-upside",
    "id": "2026-11-02-us-pltr-earnings"
+  },
+  {
+   "actual": "",
+   "country": "Ausztrália",
+   "date": "2026-11-03",
+   "event": "RBA (Ausztrál jegybank) kamatdöntés",
+   "forecast": "",
+   "importance": 3,
+   "note": "Az alapkamat szeptemberben 4,60%-ra emelkedett; a piaci várakozások megoszlanak a 25 bp-os emelésről (4,85%)",
+   "previous": "4,60%",
+   "source": "RBA / financecalendar.com / forexfundamentals.com",
+   "symbols": [],
+   "time": "04:30",
+   "type": "Jegybank",
+   "url": "https://www.rba.gov.au/schedules-events/board-meetings.html",
+   "id": "2026-11-03-au-rba"
   },
   {
    "actual": "",
