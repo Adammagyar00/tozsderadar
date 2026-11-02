@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T19:56:21Z",
+ "builtAt": "2026-11-02T20:56:20Z",
  "digests": [
   {
    "calendar": [
@@ -876,6 +876,43 @@
      "title": "A bitcoin-visszapattanás a Binance-hack után elhalt; a Morgan Stanley több mint felére vágta a Coinbase célárát",
      "url": "https://finance.yahoo.com/m/7ef8aa37-6402-315d-b6cb-491c233bfe3c/bitcoin-bounce-fades-after.html",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-02T20:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt; Benzinga, IDEXX közlemény (SEC)",
+     "summary": "Az IDEXX 3. negyedéves bevétele 1,214 Mrd dollár (+10%), korrigált EPS-e 4,01 dollár volt, a vártnál (kb. 3,71 dollár) jobb. A cég felemelte a 2026-os EPS-előrejelzését 14,96–15,16 dollárra. A Benzinga szerint a klinikai látogatások száma közben kb. 1,8%-kal csökkent.",
+     "symbols": [
+      "IDXX"
+     ],
+     "title": "Az IDEXX árfolyama mintegy 19%-ot szökött a 3. negyedéves eredmény és az emelt éves kilátások után",
+     "url": "https://www.benzinga.com/markets/earnings/26/11/62787385/aging-pets-higher-testing-frequency-propel-idexx-past-wall-street-estimates-despite-slower-clinic-traffic",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T20:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga; Quartz",
+     "summary": "Mark Levine, New York város számvevője a Quartz és a Benzinga szerint azt kifogásolja, hogy az Anthropic irányítási szerkezete a vezetőknek és egy független alapítványnak ad aránytalan befolyást. Levine korábban levélben kérte a tőzsdei bevezetés elhalasztását; az Anthropic tárgyalásokat kezdett vele.",
+     "symbols": [],
+     "title": "New York város pénzügyi főellenőre szerint az Anthropic tervezett tőzsdei bevezetése csorbítja a részvényesi jogokat",
+     "url": "https://www.benzinga.com/markets/private-markets/26/11/62794396/anthropics-ipo-looks-more-like-spacexs-and-new-york-citys-pension-chief-isnt-impressed",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T20:45:00Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio.hu; Világgazdaság",
+     "summary": "A Portfolio és a Világgazdaság szerint a forint a nap folyamán erősödött: az euró árfolyama délutánra kb. 364,2 forintra esett, a dollár 325 forint körül járt. A forintot az olajár esése segítette.",
+     "symbols": [],
+     "title": "Erősödött a forint az olajárzuhanás nyomán: az euró 364 forint körül jár",
+     "url": "https://portfolio.hu/deviza/20261102/erosodik-a-forint-364-korul-jar-az-euro-873492",
+     "verified": true
     }
    ],
    "markets": [
@@ -902,7 +939,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T19:42:00Z",
+   "updatedAt": "2026-11-02T20:45:00Z",
    "watchlist": []
   },
   {
