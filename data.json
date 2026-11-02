@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T11:59:21Z",
+ "builtAt": "2026-11-02T12:57:26Z",
  "digests": [
   {
    "calendar": [
@@ -422,6 +422,116 @@
      "title": "Új piacfelügyeleti eszközt indít az MNB a befektetők védelmére",
      "url": "https://www.portfolio.hu/befektetes/20261102/uj-piacfelugyeleti-eszkozt-indit-a-befektetok-vedelmere-a-magyar-nemzeti-bank-873520",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-02T12:58:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com (Washington Post értesülése)",
+     "summary": "A Washington Post hétfői, az ügyet ismerő személyekre hivatkozó értesülése szerint a SpaceX tárgyal az EchoStar Boost Mobile egységének megvételéről, vagy arról, hogy hozzáférést kapjon a hálózathoz, amelyet az AT&T-től és a T-Mobile-tól bérelnek. Hivatalos megerősítés nincs; az EchoStar árfolyama a hírre emelkedett.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Washington Post szerint a SpaceX tárgyal az EchoStar Boost Mobile-jának megvásárlásáról vagy hálózatának használatáról",
+     "url": "https://finance.yahoo.com/technology/articles/echostar-rises-report-spacex-talks-113337684.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T12:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · S&P Dow Jones Indices",
+     "summary": "Az S&P Dow Jones Indices október 30-i közleménye szerint az Okta a Kenvue helyére kerül az S&P 500-ban, november 4-én a nyitás előtt. A részvény hétfőn a tőzsdenyitás előtt mintegy 2,5%-ot emelkedett az indexalapok várható keresletére.",
+     "symbols": [
+      "OKTA"
+     ],
+     "title": "Az Okta felkerül az S&P 500-ba, a részvény emelkedik",
+     "url": "https://investorshub.advfn.com/market-news/article/39008/okta-shares-rise-2-5-ahead-of-sp-500-inclusion-as-index-fund-demand-builds?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T12:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Estée Lauder a Reuters beszámolója szerint megemelte éves kilátásait, mert a kereslet ellenállónak bizonyul a karácsonyi szezon előtt. A pontos számokat a forrásközlemény részletezi.",
+     "symbols": [
+      "EL"
+     ],
+     "title": "Az Estée Lauder emelte éves előrejelzéseit a kitartó kereslet miatt az ünnepi szezon előtt",
+     "url": "https://www.investing.com/news/stock-market-news/estee-lauder-raises-annual-forecasts-on-resilient-demand-ahead-of-holiday-season-4990805",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T12:58:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a világ feldolgozóipari felmérései szilárd aktivitást mutatnak, ugyanakkor az energiaárak és az ellátási zavarok hatása már érezhető.",
+     "symbols": [],
+     "title": "A feldolgozóipar szilárd, de az energiaköltségek és az ellátási zavarok terhe kezd látszani",
+     "url": "https://www.investing.com/news/economy-news/manufacturing-solid-but-strain-of-energy-costs-supply-disruptions-starts-to-show-4991014",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T12:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint a Choice Hotels 3. negyedéves eredménye felülmúlta az elemzői becsléseket, és a cég megemelte az egy szobára jutó bevételre (RevPAR) vonatkozó éves kilátását.",
+     "symbols": [
+      "CHH"
+     ],
+     "title": "A Choice Hotels meghaladta a 3. negyedéves várakozásokat, emelte a RevPAR-kilátást",
+     "url": "https://www.investing.com/news/earnings/choice-hotels-beats-q3-estimates-raises-revpar-outlook-4991027",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T12:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Kosmos Energy 3. negyedéves jelentése elmaradt az elemzői várakozásoktól, a részvény a tőzsdenyitás előtt több mint 10%-ot esett.",
+     "symbols": [
+      "KOS"
+     ],
+     "title": "A Kosmos Energy árfolyama zuhan a 3. negyedéves eredmény és a bevételi elmaradás után",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-stock-sinks-third-110320565.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T12:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · ADVFN (UBS elemzői felminősítése)",
+     "summary": "Az ADVFN beszámolója szerint a Rivian részvénye 3,2%-kal emelkedett, miután az UBS vételre javasolta a papírt az erős 3. negyedéves jelentés nyomán.",
+     "symbols": [
+      "RIVN"
+     ],
+     "title": "A Rivian 3,2%-ot emelkedik, miután az UBS Buy-ra minősítette fel az erős 3. negyedéves eredmény után",
+     "url": "https://investorshub.advfn.com/market-news/article/39010/rivian-shares-rise-3-2-as-ubs-upgrades-stock-to-buy-following-strong-q3-results?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T12:58:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Tesla októberi észak-európai regisztrációi jelentősen nőttek, miközben a kínai gyártók versenye erősödik.",
+     "symbols": [
+      "TSLA"
+     ],
+     "title": "A Tesla havi regisztrációi ugrásszerűen nőttek Észak-Európában a kínai verseny erősödése ellenére",
+     "url": "https://www.investing.com/news/stock-market-news/teslas-monthly-registrations-surge-in-northern-europe-even-as-chinese-competition-rises-4990675",
+     "verified": true
     }
    ],
    "markets": [
@@ -448,7 +558,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T11:45:00Z",
+   "updatedAt": "2026-11-02T12:58:00Z",
    "watchlist": []
   },
   {
