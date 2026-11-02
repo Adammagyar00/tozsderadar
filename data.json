@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T14:47:31Z",
+ "builtAt": "2026-11-02T16:00:43Z",
  "digests": [
   {
    "calendar": [
@@ -560,6 +560,57 @@
      "title": "A Marriott emelte az éves szobabevétel-növekedési előrejelzését az ellenálló utazási kereslet miatt",
      "url": "https://www.investing.com/news/stock-market-news/marriott-raises-annual-room-revenue-growth-forecast-4991130",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T15:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az Anthropic harmadik negyedéves bevétele jelentősen nőtt, vesztesége pedig csökkent a tervezett tőzsdei bevezetés előtt. Több beszámoló mintegy 16,8 milliárd dolláros negyedéves bevételről és közel 45%-os negyedéves növekedésről ír; a hivatalos beszámoló még nem jelent meg.",
+     "symbols": [],
+     "title": "Az Anthropic negyedéves vesztesége szűkült, bevétele ugrott a nagy várakozású tőzsdei bevezetés előtt",
+     "url": "https://www.investing.com/news/stock-market-news/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-of-blockbuster-ipo-4992139",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T15:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (névtelen források)",
+     "summary": "Névtelen forrásokra hivatkozó Reuters-beszámoló szerint a jemeni húszi erők Aden városától mintegy 80 km-re nyomultak előre. Független megerősítést nem találtunk.",
+     "symbols": [],
+     "title": "Értesülések szerint a húszik 80 km-re közelítették meg Adent",
+     "url": "https://www.investing.com/news/commodities-news/yemens-houthis-advance-to-within-80-km-of-aden-sources-say-4992244",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-02T15:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com (jelentésre hivatkozva)",
+     "summary": "Az Investing.com szerint a két hirdetéstechnológiai részvény egy jelentés nyomán emelkedik, amely szerint az OpenAI bevonja őket a ChatGPT hirdetéseibe. Az eredeti jelentést és az OpenAI megerősítését nem találtuk meg.",
+     "symbols": [
+      "PUBM",
+      "MGNI"
+     ],
+     "title": "A Pubmatic és a Magnite emelkedik: jelentés szerint az OpenAI platformjaikat használja a ChatGPT-hirdetésekhez",
+     "url": "https://www.investing.com/news/stock-market-news/pubmatic-and-magnite-climb-after-report-says-openai-taps-platforms-for-chatgpt-ads-4992211",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-02T15:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · ISM",
+     "summary": "Az ISM feldolgozóipari PMI októberben 55,5-re emelkedett a szeptemberi 54,5-ről, a várakozás felett. A termelési részindex 59,0 volt, a beszerzési árak indexe 75,2-re mérséklődött, de továbbra is széles körű drágulást jelez.",
+     "symbols": [],
+     "title": "Az amerikai feldolgozóipar októberben gyorsult, a költségek továbbra is magasak",
+     "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -586,7 +637,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T14:25:00Z",
+   "updatedAt": "2026-11-02T15:45:00Z",
    "watchlist": []
   },
   {
@@ -5682,15 +5733,17 @@
    "id": "2026-10-30-eu-gdp-flash"
   },
   {
-   "actual": "",
+   "actual": "55,5",
    "country": "USA",
    "date": "2026-11-02",
    "event": "ISM feldolgozóipari PMI, október",
-   "forecast": "",
+   "forecast": "54,5–54,7",
    "importance": 2,
-   "note": "Az ISM az október 2-i hétfői közzétételt jelezte; a konszenzus nem két forrásból megerősített.",
+   "note": "Megjelent: ISM (hivatalos közlemény) 55,5; a konszenzus források szerint 54,5–54,7. Termelés 59,0, árak 75,2.",
    "previous": "54,5",
    "source": "CMC Markets, Newsquawk",
+   "surprise": "beat",
+   "surpriseNote": "55,5 a ~54,5–54,7 várakozással szemben; a termelési részindex 59,0.",
    "symbols": [],
    "time": "16:00",
    "type": "Makroadat",
