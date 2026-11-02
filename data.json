@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T17:04:01Z",
+ "builtAt": "2026-11-02T18:11:53Z",
  "digests": [
   {
    "calendar": [
@@ -700,6 +700,74 @@
      "title": "Az Emírségek a háború ellenére növeli olajexportját – az energiaügyi miniszter szerint",
      "url": "https://www.investing.com/news/commodities-news/uae-boosts-oil-exports-despite-iran-war-energy-minister-says-93CH-4992349",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T17:50:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · WSJ",
+     "summary": "A tőzsdei beszámolók szerint a három fő amerikai index emelkedik hétfő délelőtt a pénteki esés után. A lendületet az olaj nagy esése adta az amerikai–iráni tárgyalások újraindulásának reményében; az olajár-csökkenés mértékét a források eltérően (kb. 3–7%) adják meg. A keddi félidős választás előtt a befektetők kockázatvállalóbbak.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Az amerikai részvények a pénteki eladási hullám után felpattantak, az olajár zuhanása segített",
+     "url": "https://www.wsj.com/finance/stocks/stock-futures-higher-oil-lower-as-investors-return-to-risk-17e79294?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T17:50:00Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · StockTwits",
+     "summary": "A Strategy az elmúlt héten 811 bitcoint vásárolt mintegy 65,5 millió dollárért, átlagosan 80 846 dolláros áron. A cég emellett tovább vásárolja vissza az STRC-részvényeit.",
+     "symbols": [
+      "BTC",
+      "MSTR"
+     ],
+     "title": "A Strategy 811 bitcoint vett, ez a legnagyobb heti vásárlása szeptember óta",
+     "url": "https://stocktwits.com/news-articles/markets/equity/mstr-makes-its-largest-bitcoin-purchase-since-september-keeps-buying-back-more-strc/cNGacLWR9Pi?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T17:50:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A brazil kriptotőzsde biztonsági incidens miatt szüneteltette a befizetéseket és kifizetéseket. A Tether több mint 4,5 millió, a támadáshoz köthető USDT-t befagyasztott.",
+     "symbols": [],
+     "title": "A Mercado Bitcoin, Brazília legnagyobb tőzsdéje felfüggesztette a kifizetéseket egy 40 milliós dolláros támadás után",
+     "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T17:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters a benyújtott dokumentumra hivatkozva írja, hogy az Anthropic a tőzsdei bevezetés részeként 3,5 milliárd dollárnyi részvényt kínálna japán befektetőknek. Független megerősítést a saját keresés nem talált, de cáfolatot sem.",
+     "symbols": [],
+     "title": "Az Anthropic a Reuters szerint 3,5 milliárd dollárnyi részvényt adna el japán befektetőknek az IPO-ban",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-plans-to-sell-35-billion-of-shares-to-japan-investors-in-ipo-filing-shows-4989963",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T17:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · American Banker",
+     "summary": "Az American Banker szerint az új feltételek szerint az ügyfél akkor is felel az AI-ügynök tevékenységéért, ha leállítását kérte, kivéve, ha bizonyítja a hozzáférés visszavonását. Más nagy amerikai bankok is hasonló irányba mozdultak.",
+     "symbols": [
+      "WFC"
+     ],
+     "title": "A Wells Fargo november 24-től az ügyfelekre hárítaná az AI-ügynökök számlahozzáférésének felelősségét",
+     "url": "https://www.americanbanker.com/news/wells-fargo-wants-customers-to-prove-theyve-revoked-ai-agents?.tsrc=rss",
+     "verified": true
     }
    ],
    "markets": [
@@ -726,7 +794,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T16:45:00Z",
+   "updatedAt": "2026-11-02T17:50:00Z",
    "watchlist": []
   },
   {
