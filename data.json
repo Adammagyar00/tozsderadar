@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T18:55:33Z",
+ "builtAt": "2026-11-02T19:56:21Z",
  "digests": [
   {
    "calendar": [
@@ -835,6 +835,47 @@
      "title": "Az SF Fed tanulmánya szerint az El Niño jelentős inflációs kockázatot jelent 2027-re",
      "url": "https://www.investing.com/news/economy-news/el-nino-poses-meaningful-risk-of-higher-inflation-in-2027-sf-fed-paper-says-4992548",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T19:42:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · WSJ",
+     "summary": "A WSJ szerint az amerikai és az európai állampapírok hozama csökkent, miután az olajár élesen esett az USA és Irán közötti konfliktus lezárására tett új diplomáciai lépések nyomán. Az amerikai részvényindexek közben emelkednek a félidős választások előtt.",
+     "symbols": [],
+     "title": "Az amerikai és az európai kötvényhozamok csökkennek, ahogy az olajár az amerikai–iráni diplomáciai erőfeszítések hírére esik",
+     "url": "https://www.wsj.com/finance/investing/treasury-yields-little-changed-in-asian-trade-ahead-of-midterms-key-data-this-week-c5a1fdb3?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T19:42:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A Decrypt szerint az ellopott 6,43 milliárd dollárból 2,85 milliárd dollárt befagyasztottak vagy lefoglaltak, ami jóval nagyobb arány, mint a Bybit-hacknél (kb. 3%). Az összeg egyetlen forrásból származik; más források a befagyasztott összeget kb. 2,7–3 milliárd dollárra tették.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "Egy új tárca 25 másodpercenként: Észak-Korea automatizáltan mossa a Binance-hackből származó pénzt",
+     "url": "https://decrypt.co/382355/north-korea-laundering-binance-hack-loot-new-wallet-every-25-seconds?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-02T19:42:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance összefoglalója szerint a bitcoin lendülete elfogyott a Binance-hack után, és a Morgan Stanley több mint 50%-kal csökkentette a Coinbase célárfolyamát. A Morgan Stanley-jegyzetet külön forrásból nem sikerült megerősíteni (más bankok, pl. a Barclays és a Needham célár-csökkentése igen).",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin-visszapattanás a Binance-hack után elhalt; a Morgan Stanley több mint felére vágta a Coinbase célárát",
+     "url": "https://finance.yahoo.com/m/7ef8aa37-6402-315d-b6cb-491c233bfe3c/bitcoin-bounce-fades-after.html",
+     "verified": false
     }
    ],
    "markets": [
@@ -861,7 +902,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T18:40:00Z",
+   "updatedAt": "2026-11-02T19:42:00Z",
    "watchlist": []
   },
   {
