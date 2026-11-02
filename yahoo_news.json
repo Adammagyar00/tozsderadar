@@ -1,13 +1,45 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-02T04:59:47Z",
+ "updatedAt": "2026-11-02T06:02:06Z",
  "items": [
   {
-   "title": "Eli Lilly (LLY) Stock Sees Modest Fair Value Lift As Analysts Rework GLP 1 Outlook",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-stock-sees-042916543.html",
-   "published": "2026-11-02T04:29:16Z",
+   "title": "Tesla-SpaceX merger math just shifted in Tesla's favor",
+   "link": "https://www.thestreet.com/markets/tesla-spacex-merger-math-just-shifted-in-teslas-favor?.tsrc=rss",
+   "published": "2026-11-02T05:37:00Z",
    "publisher": "",
-   "summary": "Eli Lilly’s updated fair value estimate has shifted from US$1,328.83 to US$1,397.02, giving investors a fresh reference point for where analysts currently anchor their price targets. This adjustment aligns with recent research focused on the strength of the obesity and diabetes portfolio, wide guidance ranges, and the balance between premium pricing and execution risk across GLP-1 and incretin the",
+   "summary": "Musk sees merit in combining Tesla and SpaceX, but Bank of America says the premium, the vote and China will decide what Tesla holders actually get.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Asian shares mostly advance but tech stocks remain volatile, while oil sinks 3.3%",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-advance-tech-052925730.html",
+   "published": "2026-11-02T05:29:25Z",
+   "publisher": "",
+   "summary": "HONG KONG (AP) — Asian shares were mostly higher Monday but technology stocks remained volatile, while oil prices fell more than 3%. futures edged higher after Wall Street fell Friday to its worst day since June as investors dumped technology- and artificial intelligence-related stocks.",
+   "symbols": []
+  },
+  {
+   "title": "Advanced Micro Devices And 2 More Growth Stocks To Watch",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-2-more-051057766.html",
+   "published": "2026-11-02T05:10:57Z",
+   "publisher": "",
+   "summary": "Oil prices remain above $100 a barrel as conflict risks keep supply on edge, and that kind of backdrop tends to reward companies that can grow earnings without relying on cheap money or a calm world. Investors hunting for businesses that analysts expect to lift profits quickly, while keeping their finances in check, may not want to wait. This article walks through three such stocks and explains wh",
+   "symbols": []
+  },
+  {
+   "title": "Eli Lilly (LLY) Unveils Diabetes Cancer And Colitis Trial Wins Across Its Pipeline",
+   "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-unveils-diabetes-051006763.html",
+   "published": "2026-11-02T05:10:06Z",
+   "publisher": "",
+   "summary": "Eli Lilly (NYSE: LLY) reports strong Phase 3 data for retatrutide in type 2 diabetes, including a head-to-head trial versus Ozempic. The company announces positive Phase 1 results for sofetabart mipitecan in ovarian cancer, targeting settings with few approved targeted therapies. Lilly also presents late-stage Omvoh data in pediatric ulcerative colitis at major medical congresses, supporting poten",
    "symbols": [
     "BTC",
     "ETH",
@@ -20,6 +52,72 @@
    ]
   },
   {
+   "title": "Bitcoin 39% Below Peak, Meme Coins Down Up to 99%, but S&P 500 Near Record",
+   "link": "https://beincrypto.com/bitcoin-meme-coins-below-peak/?.tsrc=rss",
+   "published": "2026-11-02T05:00:00Z",
+   "publisher": "",
+   "summary": "Bitcoin sits 39% below its high and meme coins up to 99%, while the S&P 500 trails its record by 3%. See the gap.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Asia stocks rise as tech gains ahead of Apple results",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-rise-tech-gains-045147433.html",
+   "published": "2026-11-02T04:51:47Z",
+   "publisher": "",
+   "summary": "Investing.com-- Most Asian stocks rose on Monday, with technology shares leading gains as easing oil prices supported risk appetite, while investors awaited quarterly results from Apple amid concerns over heavy artificial intelligence spending.",
+   "symbols": []
+  },
+  {
+   "title": "Can SpaceX Overcome the AI Trade Sell-Off?",
+   "link": "https://www.fool.com/investing/2026/11/01/can-spacex-overcome-the-ai-trade-sell-off/?.tsrc=rss",
+   "published": "2026-11-02T04:50:00Z",
+   "publisher": "",
+   "summary": "SpaceX stock may struggle to gain ground as long as investors question AI spending.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Is a Stock-Pocalypse Coming This Week? Analysts Share Their Boldest Calls",
+   "link": "https://beincrypto.com/stock-pocalypse-us-stock-market-crash-this-week/?.tsrc=rss",
+   "published": "2026-11-02T04:48:15Z",
+   "publisher": "",
+   "summary": "Is a stock-pocalypse coming? After the Nasdaq’s worst day since June, analysts share their most dramatic forecasts.",
+   "symbols": []
+  },
+  {
+   "title": "Eli Lilly (LLY) Stock Sees Modest Fair Value Lift As Analysts Rework GLP 1 Outlook",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-stock-sees-042916543.html",
+   "published": "2026-11-02T04:29:16Z",
+   "publisher": "",
+   "summary": "Eli Lilly’s updated fair value estimate has shifted from US$1,328.83 to US$1,397.02, giving investors a fresh reference point for where analysts currently anchor their price targets. This adjustment aligns with recent research focused on the strength of the obesity and diabetes portfolio, wide guidance ranges, and the balance between premium pricing and execution risk across GLP-1 and incretin the",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
    "title": "Ethereum ETFs Log Their Worst Month for Flows Since 2024 Launch",
    "link": "https://beincrypto.com/ethereum-etfs-record-october-outflow/?.tsrc=rss",
    "published": "2026-11-02T04:17:55Z",
@@ -29,11 +127,27 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Elon Musk Blinks? Tesla’s Terafab May Reportedly Lean on TSMC After All",
+   "link": "https://finance.yahoo.com/technology/articles/elon-musk-blinks-tesla-terafab-041311073.html",
+   "published": "2026-11-02T04:13:11Z",
+   "publisher": "",
+   "summary": "Tesla Inc. (NASDAQ:TSLA) CEO Elon Musk is reportedly reconsidering how much control to keep over his Terafab chip project in Texas, and may let Taiwan Semiconductor Manufacturing Co. Ltd. (NYSE:TSM) take a bigger role in building and running it. TSMC Could Run Terafab Fab Operations Musk has “softened his stance” on working with TSMC, and the two sides are preparing to reopen negotiations, supply ",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
    ]
   },
   {
@@ -3028,136 +3142,6 @@
    "published": "2026-10-31T10:45:06Z",
    "publisher": "",
    "summary": "Bitcoin and the broader cryptocurrency industry could continue expanding regardless of which party controls Congress after Tuesday’s midterm elections. Grayscale Sees Limited Midterm Election Risk In an Oct. 28 report, Grayscale noted that prediction markets favor Democrats taking control of...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Fears over $828 billion AI capex spending spree help erase $1 trillion in market value",
-   "link": "https://finance.yahoo.com/technology/ai/articles/fears-over-828-billion-ai-104400351.html",
-   "published": "2026-10-31T10:44:00Z",
-   "publisher": "",
-   "summary": "Five tech giants are set to spend as much as $828 billion this year on infrastructure as the AI race eats into cash flow and rattles Wall Street.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Schwab International Equity ETF vs. Vanguard Total International Stock ETF: Two Low-Cost International ETFs, but One Offers More Growth Potential for the Next Decade",
-   "link": "https://www.fool.com/coverage/etfs/2026/10/31/schwab-international-equity-etf-vs-vanguard-total-international-stock-etf-two-low-cost-international-etfs-but-one-offers-more-growth-potential-for-the-next-decade/?.tsrc=rss",
-   "published": "2026-10-31T10:20:02Z",
-   "publisher": "",
-   "summary": "Schwab and Vanguard offer two inexpensive ways to invest internationally, but their differences in global exposure could have a meaningful impact on long-term returns.",
-   "symbols": []
-  },
-  {
-   "title": "Down 33.3% This Year, Is Netflix the Best Value Stock to Buy in November?",
-   "link": "https://www.fool.com/investing/2026/10/31/down-big-this-year-is-netflix-the-best-value-stock/?.tsrc=rss",
-   "published": "2026-10-31T10:20:00Z",
-   "publisher": "",
-   "summary": "It's time to embrace Netflix as a high-quality value stock rather than an industry-disrupting growth stock.",
-   "symbols": []
-  },
-  {
-   "title": "Here's Why I'm Buying Bitcoin Right Now",
-   "link": "https://www.fool.com/investing/2026/10/31/heres-why-im-buying-bitcoin-right-now/?.tsrc=rss",
-   "published": "2026-10-31T10:05:00Z",
-   "publisher": "",
-   "summary": "Bitcoin offers the optimal mix of upside potential with downside risk protection.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "The biggest question about Binance bitcoin heist: How much AI was involved?",
-   "link": "https://finance.yahoo.com/technology/article/the-biggest-question-about-binance-bitcoin-heist-how-much-ai-was-involved-100000500.html",
-   "published": "2026-10-31T10:00:00Z",
-   "publisher": "",
-   "summary": "There are hundreds of questions about the hack that stole over $6 billion of bitcoin from Binance. But most importantly is whether AI was involved. The answer could reshape a lot of things.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What 150 Years of Bubbles Teach Us About the AI Boom",
-   "link": "https://finance.yahoo.com/m/6640db01-8a1f-3253-9a88-80c3bb51b72e/what-150-years-of-bubbles.html",
-   "published": "2026-10-31T10:00:00Z",
-   "publisher": "",
-   "summary": "Observers failed to see the impending downturns in 1873, 1929, and 2000. And money is pouring into AI at a much higher rate than it did in those market crashes.",
-   "symbols": []
-  },
-  {
-   "title": "Here's What $10,000 Invested Equally in SpaceX and Nvidia Could Be Worth in 2030",
-   "link": "https://www.fool.com/investing/2026/10/31/what-10k-invested-equally-spacex-nvidia-stock/?.tsrc=rss",
-   "published": "2026-10-31T09:35:00Z",
-   "publisher": "",
-   "summary": "A $10,000 investment in SpaceX and Nvidia could rise fivefold by 2030.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "SpaceX Is Considering a Merger With Tesla. Here's Why That Would Be a Bad Move.",
-   "link": "https://www.fool.com/investing/2026/10/31/spacex-is-considering-a-merger-with-tesla-heres-wh/?.tsrc=rss",
-   "published": "2026-10-31T09:20:00Z",
-   "publisher": "",
-   "summary": "Putting all of Musk's ambitions under one roof is not going to solve valuation issues across either stock.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Tether's Safety Cushion Nearly Doubles To $8B In A Single Quarter After $1.5B Profit In Third Quarter",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/tether-s-safety-cushion-nearly-doubles-to-8-b-in-a-single-quarter-after-1-5-b-profit-in-third-quarter/cZUKvdpR9cN?.tsrc=rss",
-   "published": "2026-10-31T09:12:24Z",
-   "publisher": "",
-   "summary": "CEO Paolo Ardoino said USDT's user base has topped 700 million, calling it \"the biggest financial inclusion success story in the history of humanity.\"",
    "symbols": [
     "BTC",
     "ETH",
