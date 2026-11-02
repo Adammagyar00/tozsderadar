@@ -1,7 +1,49 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-02T03:55:44Z",
+ "updatedAt": "2026-11-02T04:59:47Z",
  "items": [
+  {
+   "title": "Eli Lilly (LLY) Stock Sees Modest Fair Value Lift As Analysts Rework GLP 1 Outlook",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-stock-sees-042916543.html",
+   "published": "2026-11-02T04:29:16Z",
+   "publisher": "",
+   "summary": "Eli Lilly’s updated fair value estimate has shifted from US$1,328.83 to US$1,397.02, giving investors a fresh reference point for where analysts currently anchor their price targets. This adjustment aligns with recent research focused on the strength of the obesity and diabetes portfolio, wide guidance ranges, and the balance between premium pricing and execution risk across GLP-1 and incretin the",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Ethereum ETFs Log Their Worst Month for Flows Since 2024 Launch",
+   "link": "https://beincrypto.com/ethereum-etfs-record-october-outflow/?.tsrc=rss",
+   "published": "2026-11-02T04:17:55Z",
+   "publisher": "",
+   "summary": "US spot Ethereum ETFs lost $1.61 billion in October, their worst month since launch, as ETH slips under a key level.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "The S&P 500's Shiller P/E Is Above 40. History Says What Happened the Only Other Time.",
+   "link": "https://www.fool.com/investing/2026/11/01/the-s-and-p-500-s-shiller-p-e-is-above-40-history-says-what-happened-the-only-other-time/?.tsrc=rss",
+   "published": "2026-11-02T04:01:02Z",
+   "publisher": "",
+   "summary": "Stocks still had a good year left the last time this valuation gauge broke 40. How did the next decade go?",
+   "symbols": []
+  },
   {
    "title": "Stocktwits Pharma Pulse: Biotech Beats The Broader Market — Novo, Pfizer And Moderna Earnings Up Next",
    "link": "https://stocktwits.com/news-articles/markets/equity/stocktwits-pharma-pulse-biotech-beats-market-novo-pfizer-moderna-earnings/cNG9jx6R92W?.tsrc=rss",
@@ -9,14 +51,22 @@
    "publisher": "",
    "summary": "Moderna will report on Friday, while the SITC meeting will bring fresh cancer-treatment findings from Immunocore and Candel.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
+  },
+  {
+   "title": "Midterms, Jobs Data, and Apple Earnings Test Wall Street This Week: Will Stocks Hold?",
+   "link": "https://beincrypto.com/wall-street-this-week-midterms-jobs/?.tsrc=rss",
+   "published": "2026-11-02T03:16:34Z",
+   "publisher": "",
+   "summary": "Midterms, jobs data and Apple earnings test Wall Street this week after the Nasdaq's worst month since March 2025.",
+   "symbols": []
   },
   {
    "title": "Dow Jones Futures Rise But Market Still Ails; Midterm Elections Ahead",
@@ -3118,55 +3168,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Eli Lilly Soars 11% in a Week on a $5.5 Billion Guidance Raise: “Beating on the Up”",
-   "link": "https://www.tikr.com/blog/eli-lilly-soars-11-in-a-week-on-a-5-5-billion-guidance-raise-beating-on-the-up?ref=yahoofinance&tlnk=yf-261031-6vw98rf6&.tsrc=rss",
-   "published": "2026-10-31T09:00:02Z",
-   "publisher": "",
-   "summary": "Key TakeawaysEli Lilly shares rose 11% in the week through Oct. 30 to a record close after a third-quarter beat and a $5.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "President Donald Trump Claims, \"Tariffs Are Making Us Much Richer,\" but Economists Show They Have Unintended Consequences",
-   "link": "https://www.fool.com/investing/2026/10/31/donald-trump-claims-tariffs-making-us-much-richer-economists-show-they-have-unintended-consequences/?.tsrc=rss",
-   "published": "2026-10-31T08:26:02Z",
-   "publisher": "",
-   "summary": "The costs of tariffs to consumers, the U.S. economy, and the stock market may be considerably greater than the revenue they bring in over the next decade.",
-   "symbols": []
-  },
-  {
-   "title": "Here's Why I Haven't Bought SpaceX Stock and Probably Never Will",
-   "link": "https://www.fool.com/investing/2026/10/31/heres-why-i-havent-bought-spacex-stock-and-probabl/?.tsrc=rss",
-   "published": "2026-10-31T08:21:00Z",
-   "publisher": "",
-   "summary": "This company lies well outside my circle of competence -- and I see other downsides, too.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "If I Could Only Buy and Hold 1 Dividend Stock Heading Into the Eye of a Stock Market Storm, This Would Be It",
-   "link": "https://www.fool.com/investing/2026/10/31/if-i-could-only-buy-and-hold-1-dividend-stock-head/?.tsrc=rss",
-   "published": "2026-10-31T08:15:00Z",
-   "publisher": "",
-   "summary": "As conditions stand today, Target stock could hit the bull's eye for investors.",
-   "symbols": []
   }
  ]
 }
