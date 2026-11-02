@@ -230,6 +230,12 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .wl-del:hover { color: var(--down); }
 .live-status { margin: 0; line-height: 1.4; }
 .wl-add { display: grid; grid-template-columns: 80px minmax(0, 1fr) auto; gap: 6px; }
+.wl-add.mine { grid-template-columns: 92px 84px minmax(0, 1fr); }
+.wl-add.mine .btn { grid-column: 1 / -1; }
+.wl-add select { font: inherit; font-size: 14px; padding: 6px 4px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; }
+.wl-tools { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; margin-top: 8px; font-size: 12px; }
+.wl-edit { background: none; border: 0; padding: 0; font: inherit; font-size: 12px; color: var(--accent); cursor: pointer; }
+.wl-msg { font-size: 12px; color: var(--muted); }
 .wl-add input { font: inherit; font-size: 14px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; }
 .btn { font: inherit; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 6px; border: 0; background: var(--accent); color: var(--surface); cursor: pointer; }
 
@@ -483,14 +489,16 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         <div class="cal" id="cal"><p class="muted">A naptár a kiadással együtt töltődik be.</p></div>
       </section>
       <section class="panel" aria-labelledby="wlLabel">
-        <div class="panel-head"><div class="sec-label" id="wlLabel">Figyelőlista</div><span class="hint" id="wlAsOf"></span></div>
+        <div class="panel-head"><div class="sec-label" id="wlLabel">Figyelőlista</div><span class="hint" id="wlAsOf"></span><button class="wl-edit" type="button" id="wlEdit" hidden>✎ Szerkesztés</button></div>
         <div class="wl" id="wl"><p class="muted">A figyelőlista betöltése…</p></div>
         <p class="hint live-status" id="liveStatus" hidden></p>
         <form class="wl-add" id="wlAdd" hidden>
-          <input id="wlSym" placeholder="Jelölés" aria-label="Jelölés, például NVDA" maxlength="12" required>
-          <input id="wlName" placeholder="Név" aria-label="Név" maxlength="80" required>
+          <select id="wlType" aria-label="Típus" hidden><option value="Részvény">Részvény</option><option value="ETF">ETF</option><option value="Kripto">Kripto</option></select>
+          <input id="wlSym" placeholder="Jelölés" aria-label="Jelölés, például NVDA" maxlength="15" required>
+          <input id="wlName" placeholder="Név" aria-label="Név" maxlength="80">
           <button class="btn" type="submit">Hozzáad</button>
         </form>
+        <div class="wl-tools" id="wlTools" hidden><span class="wl-msg" id="wlMsg"></span><button class="wl-edit" type="button" id="wlReset">Alaplista visszaállítása</button></div>
       </section>
       <nav class="panel archive" aria-label="Korábbi kiadások">
         <div class="sec-label">Archívum</div>
@@ -518,6 +526,12 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const lsGet = (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } };
   const lsPut = (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* privát mód */ } };
   let syncKick = () => {};
+  // Saját figyelőlista (GitHubos oldal): ha a látogató szerkeszti, ez lép az alaplista helyére (helyben tárolva, szinkronnal)
+  const MYWL_KEY = "tozsderadar-watchlist-v1";
+  let serverWl = null, wlEditing = false;
+  let myWl = (() => { try { const a = JSON.parse(lsGet(MYWL_KEY) || "null"); return Array.isArray(a) ? a.filter((w) => w && w.symbol) : null; } catch (e) { return null; } })();
+  const effWl = () => myWl || serverWl;
+  const saveMyWl = () => { syncKick(); lsPut(MYWL_KEY, JSON.stringify(myWl)); };
   const HU_MONTHS = ["január","február","március","április","május","június","július","augusztus","szeptember","október","november","december"];
   const HU_DAYS = ["vasárnap","hétfő","kedd","szerda","csütörtök","péntek","szombat"];
   const fmtDate = (iso) => {
@@ -681,7 +695,14 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 
   function renderWatchlist() {
     const box = $("wl"); box.replaceChildren();
-    $("wlAdd").hidden = !canEdit;
+    const mineMode = !!window.__GN_REMOTE__;
+    $("wlAdd").hidden = !(canEdit || (mineMode && wlEditing));
+    $("wlAdd").classList.toggle("mine", mineMode);
+    $("wlType").hidden = !mineMode;
+    $("wlEdit").hidden = !mineMode;
+    $("wlEdit").textContent = wlEditing ? "✓ Kész" : "✎ Szerkesztés";
+    $("wlTools").hidden = !(mineMode && wlEditing);
+    $("wlReset").hidden = !myWl;
     if (watchlist === null) { box.append(el("p", "muted", "A figyelőlista betöltése…")); return; }
     if (!watchlist.length) { box.append(el("p", "muted", "A figyelőlista üres. Adj hozzá egy részvényt vagy ETF-et a jelölésével.")); return; }
     const d = current();
@@ -697,7 +718,9 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const isCrypto = (w) => String(w.type || "").toLowerCase().startsWith("kripto");
     const sorted = [...watchlist].sort((a, b) => (isCrypto(b) - isCrypto(a)) || ((a.order || 0) - (b.order || 0)));
     for (const w of sorted) {
-      const q = LIVE[String(w.symbol).toUpperCase()] || quotes.get(String(w.symbol).toUpperCase());
+      const yq = w.y && YQ[w.y] && typeof YQ[w.y].p === "number" ? YQ[w.y] : null;
+      const yPctV = yq ? yPct(yq) : null;
+      const q = LIVE[String(w.symbol).toUpperCase()] || (yq ? { price: curFmt(yq.p, yq.cur), change: typeof yPctV === "number" ? (yPctV >= 0 ? "+" : "") + yPctV.toFixed(2).replace(".", ",") + "%" : "", p: yq.p, note: "Élő ár (" + w.y + ")", source: "Yahoo Finance" } : null) || quotes.get(String(w.symbol).toUpperCase());
       const row = el("div", "wl-row");
       const name = el("div", "wl-name");
       if (String(w.type || "").toLowerCase().startsWith("kripto")) name.append(el("span", "tag-c", "Crypto"));
@@ -712,11 +735,16 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       } else {
         px.append(el("span", "na", "nincs adat"));
       }
-      if (canEdit) {
+      if (canEdit || (mineMode && wlEditing)) {
         const del = el("button", "wl-del", "×");
         del.type = "button";
         del.setAttribute("aria-label", "Törlés: " + w.name);
         del.addEventListener("click", async () => {
+          if (mineMode) {
+            myWl = (myWl || serverWl || []).filter((x) => String(x.symbol).toUpperCase() !== String(w.symbol).toUpperCase()).map((x) => ({ ...x }));
+            saveMyWl(); watchlist = effWl(); $("wlMsg").textContent = "Kivéve: " + w.symbol + "."; renderWatchlist(); onWlChange();
+            return;
+          }
           try { await db.collection("watchlist").doc(w.id).delete(); } catch (e) { del.textContent = "!"; del.title = "Nem sikerült törölni. Próbáld újra."; }
         });
         px.append(" ", del);
@@ -1510,7 +1538,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const wlIsCrypto = (w) => String(w.type || "").toLowerCase().startsWith("kripto");
   async function loadSparks() {
     if (!watchlist || !watchlist.length) return;
-    SPARK = await histLoad("5d", watchlist.map((w) => histItem(String(w.symbol).toUpperCase(), w.symbol, wlIsCrypto(w), w.cg)));
+    SPARK = await histLoad("5d", watchlist.map((w) => w.y ? { key: String(w.symbol).toUpperCase(), kind: "y", id: w.y, ratio: 1 } : histItem(String(w.symbol).toUpperCase(), w.symbol, wlIsCrypto(w), w.cg)));
     renderWatchlist();
   }
   function sparkFor(w, q) {
@@ -1767,6 +1795,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     if (view() === "mk") { for (const it of mkItems()) EXTRA_Y.add(it.symbol.toUpperCase()); if (mkSel) EXTRA_Y.add(mkSel); }
     for (const a of alerts) if (String(a.key).startsWith("Y:")) EXTRA_Y.add(a.key.slice(2));
     EXTRA_Y.add("USDHUF=X"); EXTRA_Y.add("EURUSD=X");
+    for (const w of watchlist || []) if (w.y) EXTRA_Y.add(w.y);
     if (view() === "hm") for (const t of hmTickers()) EXTRA_Y.add(t);
     if (typeof ySyncHook === "function") ySyncHook();
   }
@@ -3028,7 +3057,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   const pfY = (h) => h.type === "crypto" ? h.symbol + "-USD" : ucitsOf(h.symbol) || (NO_STREAM.has(h.symbol) ? null : h.symbol.replace(/\./g, "-"));
   function syncValues() {
     const v = {
-      portfolio, favs: favs || [], chart: lwcPrefs, pfcur: pfCur, settings,
+      portfolio, favs: favs || [], chart: lwcPrefs, pfcur: pfCur, settings, mywl: myWl,
       alerts: alerts.map((a) => ({ ...Object.fromEntries(AL_CFG.filter((k) => a[k] !== undefined).map((k) => [k, a[k]])), y: alertY(a) })),
       srv: {
         pf: portfolio.map((h) => ({ symbol: h.symbol, qty: h.qty, type: h.type, y: pfY(h) })), favs: (favs || []).map((f) => f.symbol),
@@ -3056,6 +3085,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     },
     chart: (v) => { if (v && typeof v === "object") { Object.assign(lwcPrefs, v); lsPut(LWC_KEY, JSON.stringify(lwcPrefs)); } },
     pfcur: (v) => { if (PF_CURS[v]) { pfCur = v; lsPut(PFCUR_KEY, v); } },
+    mywl: (v) => { myWl = Array.isArray(v) ? v.filter((w) => w && w.symbol) : null; lsPut(MYWL_KEY, JSON.stringify(myWl)); watchlist = effWl(); onWlChange(); },
     settings: (v) => { if (v && typeof v === "object") { Object.assign(settings, v); lsPut(SET_KEY, JSON.stringify(settings)); } },
   };
   async function syncNow() {
@@ -3308,10 +3338,44 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   window.addEventListener("hashchange", () => { importFromHash(); joinFromHash(); setMenu(false); render(); });
   joinFromHash();
 
+  // Figyelőlista változott (saját lista): élő árak, görbék, szinkron
+  let onWlChange = () => { renderWatchlist(); };
+  $("wlEdit").addEventListener("click", () => { wlEditing = !wlEditing; $("wlMsg").textContent = wlEditing ? "Új tétel: válaszd ki a típust, írd be a jelölést (pl. NVDA, VWCE, SOL); a név nem kötelező. A × gombbal veszel ki tételt." : ""; renderWatchlist(); });
+  $("wlReset").addEventListener("click", () => { if (!confirm("Visszaállítod az alap figyelőlistát? A saját módosításaid elvesznek.")) return; myWl = null; saveMyWl(); watchlist = effWl(); $("wlMsg").textContent = "Az alaplista visszaállítva."; renderWatchlist(); onWlChange(); });
   $("wlAdd").addEventListener("submit", async (ev) => {
     ev.preventDefault();
-    const sym = $("wlSym").value.trim().toUpperCase().replace(/[^A-Z0-9.\-]/g, "");
+    const sym = $("wlSym").value.trim().toUpperCase().replace(/[^A-Z0-9.\-^=]/g, "");
     const name = $("wlName").value.trim();
+    if (window.__GN_REMOTE__) {
+      if (!sym) return;
+      const type = $("wlType").value;
+      const list = myWl || (serverWl || []).map((x) => ({ ...x }));
+      if (list.some((x) => String(x.symbol).toUpperCase() === sym)) { $("wlMsg").textContent = sym + " már a listán van."; return; }
+      const item = { symbol: sym, name: name || sym, type, order: Math.max(0, ...list.map((x) => x.order || 0)) + 1 };
+      $("wlMsg").textContent = "Keresés…";
+      if (type === "Kripto") {
+        const c = await findCoin(sym);
+        if (c) { item.cg = c.id; if (!name) item.name = c.name; }
+      } else if (searchUrl) {
+        // a Yahoo-keresőből: pontos név, és európai tőzsdén jegyzett papírnál a tőzsdei jelölés (pl. VWCE → VWCE.DE)
+        try {
+          const r = await fetch(searchUrl + "?q=" + encodeURIComponent(sym));
+          const res = r.ok ? ((await r.json()).results || []) : [];
+          const want = type === "ETF" ? "ETF" : "EQUITY";
+          const hit = res.find((x) => x.symbol.toUpperCase() === sym) || res.find((x) => x.type === want && x.symbol.toUpperCase().split(".")[0] === sym.split(".")[0]) || res.find((x) => x.type === want);
+          if (hit) {
+            if (!name) item.name = hit.name;
+            item.y = hit.symbol.toUpperCase(); // amerikai papírnál ugyanaz a jelölés: azonnal van utolsó ára, élőben is frissül
+            YINFO[hit.symbol.toUpperCase()] = { name: hit.name, type: hit.type, exch: hit.exch };
+          } else item.y = sym.replace(/\./g, "-");
+        } catch (e) { item.y = sym.replace(/\./g, "-"); }
+      }
+      myWl = [...list, item]; saveMyWl(); watchlist = effWl();
+      $("wlSym").value = ""; $("wlName").value = "";
+      $("wlMsg").textContent = "Hozzáadva: " + item.name + (item.y && item.y !== sym ? " (" + item.y + ")" : "") + ". Az élő ára pár másodpercen belül megjelenik.";
+      renderWatchlist(); onWlChange();
+      return;
+    }
     if (!sym || !name || !db) return;
     const order = watchlist && watchlist.length ? Math.max(...watchlist.map((w) => w.order || 0)) + 1 : 1;
     try {
@@ -3396,7 +3460,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const pend = new Map();
     const cgOf = () => {
       const m = {};
-      for (const w of watchlist || []) if (w.cg) m[String(w.symbol).toUpperCase()] = w.cg;
+      for (const w of watchlist || []) { if (w.cg) m[String(w.symbol).toUpperCase()] = w.cg; else if (wlIsCrypto(w)) m[String(w.symbol).toUpperCase()] = "sym:" + String(w.symbol).toUpperCase(); }
       for (const x of tapeItems(current())) if (x.cg) m[String(x.name).toUpperCase()] = x.cg;
       for (const h of portfolio) if (h.type === "crypto" && !m[h.symbol]) m[h.symbol] = h.cg || "sym:" + h.symbol;
       return m;
@@ -3405,7 +3469,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       const out = new Set();
       for (const w of watchlist || []) {
         const t = String(w.type || "").toLowerCase();
-        if (!t.startsWith("kripto") && !t.includes("lse") && !t.includes("xetra")) out.add(String(w.symbol).toUpperCase());
+        if (!t.startsWith("kripto") && !t.includes("lse") && !t.includes("xetra") && !(w.y && w.y !== String(w.symbol).toUpperCase())) out.add(String(w.symbol).toUpperCase());
       }
       for (const x of tapeItems(current())) if (x.group === "Részvény" && !x.y) out.add(String(x.name).toUpperCase());
       for (const h of portfolio) if (h.type !== "crypto") out.add(h.symbol);
@@ -3470,6 +3534,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const subscribed = new Set();
     // Új portfolio-tételnél: a részvényekre feliratkozunk, a kriptó-adatfolyamot újranyitjuk az új listával
     fhSubHook = () => { if (stockWs && stockWs.readyState === 1) for (const s of stockSyms()) if (!subscribed.has(s)) { subscribed.add(s); stockWs.send(JSON.stringify({ type: "subscribe", symbol: s })); } };
+    onWlChange = () => {
+      renderWatchlist(); mkSubscribe();
+      mkLoadQuotes((watchlist || []).filter((w) => w.y).map((w) => w.y)).then(renderWatchlist);
+      onPfChange(); loadSparks();
+    };
     onPfChange = () => {
       if (stockWs && stockWs.readyState === 1) for (const s of stockSyms()) if (!subscribed.has(s)) { subscribed.add(s); stockWs.send(JSON.stringify({ type: "subscribe", symbol: s })); }
       if (cryptoWs && Object.keys(cgOf()).some((s) => !cryptoSyms.includes(s))) { try { cryptoWs.close(); } catch (e) {} }
@@ -3655,7 +3724,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         if (!r.ok) throw new Error(String(r.status));
         const j = await r.json();
         digests = (j.digests || []).slice().sort((a, b) => b.date.localeCompare(a.date));
-        watchlist = j.watchlist || [];
+        serverWl = j.watchlist || [];
+        watchlist = effWl();
         calEvents = j.calendar || [];
         if (!selected || !digests.some((x) => x.date === selected)) selected = digests[0]?.date || null;
         render();
