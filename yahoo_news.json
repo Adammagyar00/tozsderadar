@@ -1,7 +1,23 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-02T02:52:21Z",
+ "updatedAt": "2026-11-02T03:55:44Z",
  "items": [
+  {
+   "title": "Stocktwits Pharma Pulse: Biotech Beats The Broader Market — Novo, Pfizer And Moderna Earnings Up Next",
+   "link": "https://stocktwits.com/news-articles/markets/equity/stocktwits-pharma-pulse-biotech-beats-market-novo-pfizer-moderna-earnings/cNG9jx6R92W?.tsrc=rss",
+   "published": "2026-11-02T03:52:37Z",
+   "publisher": "",
+   "summary": "Moderna will report on Friday, while the SITC meeting will bring fresh cancer-treatment findings from Immunocore and Candel.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Dow Jones Futures Rise But Market Still Ails; Midterm Elections Ahead",
    "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-rise-but.html",
@@ -41,12 +57,12 @@
    "publisher": "",
    "summary": "Musk reportedly softened his stance on TSMC’s Terafab role, with talks potentially covering control, investment and tech.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -76,11 +92,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3150,14 +3166,6 @@
    "published": "2026-10-31T08:15:00Z",
    "publisher": "",
    "summary": "As conditions stand today, Target stock could hit the bull's eye for investors.",
-   "symbols": []
-  },
-  {
-   "title": "Greatland Resources And 2 More Australian Undervalued Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/greatland-resources-2-more-australian-081107148.html",
-   "published": "2026-10-31T08:11:07Z",
-   "publisher": "",
-   "summary": "China’s factory activity has slipped again as new export orders weaken, which keeps pressure on global growth expectations and has pushed many Australian stocks with solid cash generation into the bargain bin. That gap between dependable cash coming in and discounted share prices is where disciplined value investors often find their edge. This article highlights three Australian companies that cur",
    "symbols": []
   }
  ]
