@@ -1,7 +1,494 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-02T18:26:45Z",
+ "updatedAt": "2026-11-02T19:29:56Z",
  "items": [
+  {
+   "title": "Update: US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-amid-191826781.html",
+   "published": "2026-11-02T19:18:26Z",
+   "publisher": "",
+   "summary": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+   "symbols": []
+  },
+  {
+   "title": "Verizon's CEO Has a Warning for SpaceX and Its Mobile Plans",
+   "link": "https://www.fool.com/investing/2026/11/02/verizon-s-ceo-has-a-warning-for-spacex-and-its-mobile-plans/?.tsrc=rss",
+   "published": "2026-11-02T19:14:02Z",
+   "publisher": "",
+   "summary": "SpaceX may be looking to dominate the mobile market in the future, but it won't happen easily.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop",
+   "link": "https://www.wsj.com/finance/investing/treasury-yields-little-changed-in-asian-trade-ahead-of-midterms-key-data-this-week-c5a1fdb3?.tsrc=rss",
+   "published": "2026-11-02T19:10:00Z",
+   "publisher": "",
+   "summary": "Yields on Treasurys and European government bonds fell as oil prices dropped sharply on renewed diplomatic efforts to end the conflict between the U.S. and Iran.",
+   "symbols": []
+  },
+  {
+   "title": "Not Newmont. Not Barrick. This Gold Stock Collects Cash Without Running a Mine.",
+   "link": "https://www.fool.com/investing/2026/11/02/not-newmont-not-barrick-gold-stock-collects-cash/?.tsrc=rss",
+   "published": "2026-11-02T19:05:00Z",
+   "publisher": "",
+   "summary": "Franco-Nevada is having a record year in mining profits without actually doing any mining.",
+   "symbols": []
+  },
+  {
+   "title": "Torino Announces 2.82 Billion Pounds of Copper, 2.88 Million Ounces of Gold in Maiden NI 43-101 Inferred Resource at Zonda Project in San Juan, Argentina",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/torino-announces-2-82-billion-190500574.html",
+   "published": "2026-11-02T19:05:00Z",
+   "publisher": "",
+   "summary": "615 million tonnes at 0.34% CuEq (0.21% Cu, 0.15 g/t Au) in a pit-constrained resource, reported at US$5.00/lb copper and US$3,750/oz gold Higher-grade envelope of 338 Mt at 0.41% CuEq (0.26% Cu, 0.17 g/t Au), containing 1.92 Blb copper and 1.86 Moz gold. Resource sits in exposed mineralization from surface to 200 m depth within a natural amphitheatre, open laterally and at depth The potassic core",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Bounce Fades After Binance Hack; Coinbase Target Slashed",
+   "link": "https://finance.yahoo.com/m/7ef8aa37-6402-315d-b6cb-491c233bfe3c/bitcoin-bounce-fades-after.html",
+   "published": "2026-11-02T19:00:41Z",
+   "publisher": "",
+   "summary": "Morgan Stanley slashed its Coinbase price target by over 50%.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Update: Equities Rise Intraday Ahead of Midterm Elections as Oil Slides",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/equities-rise-intraday-ahead-midterm-190006630.html",
+   "published": "2026-11-02T19:00:06Z",
+   "publisher": "",
+   "summary": "(Updates with latest market prices and developments.) Stocks on Wall Street advanced intraday ahe",
+   "symbols": []
+  },
+  {
+   "title": "Why Musk's telecom play is no 'Hail Mary' fix",
+   "link": "https://finance.yahoo.com/video/why-musks-telecom-play-is-no-hail-mary-fix-185825477.html",
+   "published": "2026-11-02T18:58:25Z",
+   "publisher": "",
+   "summary": "Market Hang's panel discusses SpaceX (SPCX) CEO Elon Musk's reported push into the telecom business and the short-term upside if he actually pursues the idea. Host and \"The Buy Side\" author Turney Duff is joined by Mike Rode, Chief Investment Strategist at FAS Wealth Partners; Kyla Scanlon, host of Vox's \"Best of Luck\" and author of \"In This Economy\"; Conor Sen, founder of The Housing Frame; and S",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Rocket Companies Jumps 9%, Compass and Zillow Surge 8% as Treasury Yields Retreat",
+   "link": "https://247wallst.com/investing/2026/11/02/rocket-companies-jumps-9-compass-and-zillow-surge-8-as-treasury-yields-retreat/?.tsrc=rss",
+   "published": "2026-11-02T18:57:01Z",
+   "publisher": "",
+   "summary": "Treasury yields just flinched, and housing stocks are sprinting toward their biggest single-day gains in months. But with soft sales data, ongoing integrations, and FTC litigation in the mix, the question is whether this rally has legs or a trap door.",
+   "symbols": []
+  },
+  {
+   "title": "Marvell Stocks Decline 6.8% With Lumentum Deal Putting Dilution Ahead of Synergies",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-stocks-decline-6-8-185401901.html",
+   "published": "2026-11-02T18:54:01Z",
+   "publisher": "",
+   "summary": "The proposed combination gives current Marvell holders approximately 67% of the enlarged business.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%, SanDisk Slides 3%",
+   "link": "https://247wallst.com/investing/2026/11/02/micron-falls-4-as-kioxias-cautious-outlook-hits-memory-stocks-western-digital-drops-5-sandisk-slides-3/?.tsrc=rss",
+   "published": "2026-11-02T18:53:55Z",
+   "publisher": "",
+   "summary": "Kioxia's cautious December-quarter forecast rattled memory stocks and raised a question the entire sector is now wrestling with: does soft guidance from Japan's largest chipmaker signal a cooling AI memory cycle, or is the selloff noise ahead of a March rebound?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "US Dollar Edges Up Against The Loonie as Bond Yields And Oil Prices Fall",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-edges-against-loonie-185350411.html",
+   "published": "2026-11-02T18:53:50Z",
+   "publisher": "",
+   "summary": "The US dollar nudged higher against the Canadian currency on Monday afternoon as 10-year Treasury yi",
+   "symbols": []
+  },
+  {
+   "title": "Is There Any Reason To Invest In HF Sinclair Stock?",
+   "link": "https://www.trefis.com/stock/dino/articles/621809/is-there-any-reason-to-invest-in-hf-sinclair-stock/2026-11-02?.tsrc=rss",
+   "published": "2026-11-02T18:53:44Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Eli Lilly Just Delivered Another Blowout Quarter. Is This Unstoppable Growth Stock Still a Buy?",
+   "link": "https://www.fool.com/investing/2026/11/02/eli-lilly-just-delivered-another-blowout-quarter-is-this-unstoppable-growth-stock-still-a-buy/?.tsrc=rss",
+   "published": "2026-11-02T18:53:02Z",
+   "publisher": "",
+   "summary": "The drugmaker continues its impressive run.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why Lumentum Stock Fell 14.9% Today",
+   "link": "https://www.fool.com/investing/2026/11/02/why-lumentum-stock-fell-14-9-today/?.tsrc=rss",
+   "published": "2026-11-02T18:53:01Z",
+   "publisher": "",
+   "summary": "Is Lumentum a bargain after today’s drop? It trades below Marvell’s offer, but there’s a catch.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Super Micro Drops 5% Ahead of Earnings as AI Server Selloff Extends; Dell Falls 4%, HPE Slides 3%",
+   "link": "https://247wallst.com/investing/2026/11/02/super-micro-drops-5-ahead-of-earnings-as-ai-server-selloff-extends-dell-falls-4-hpe-slides-3/?.tsrc=rss",
+   "published": "2026-11-02T18:51:47Z",
+   "publisher": "",
+   "summary": "AI server stocks are sliding hard ahead of a critical earnings report, and the question hanging over the sector is whether surging revenue can survive a brutal squeeze on margins and cash flow.",
+   "symbols": []
+  },
+  {
+   "title": "Sector Update: Financial Stocks Higher Monday Afternoon",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-monday-185121002.html",
+   "published": "2026-11-02T18:51:21Z",
+   "publisher": "",
+   "summary": "Financial stocks gained in Monday afternoon trading, with the NYSE Financial Index rising 1.6% and t",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Can These 4 ETFs Build a Retirement Portfolio on Their Own?",
+   "link": "https://www.fool.com/retirement/2026/11/02/can-these-4-etfs-build-a-retirement-portfolio-on-t/?.tsrc=rss",
+   "published": "2026-11-02T18:50:00Z",
+   "publisher": "",
+   "summary": "These four ETFs will give you instant exposure to the stock, bond, and real estate markets.",
+   "symbols": []
+  },
+  {
+   "title": "Is Chipotle Stock Still Worth Owning After Its Quarter?",
+   "link": "https://www.trefis.com/stock/cmg/articles/621797/is-chipotle-stock-still-worth-owning-after-its-quarter/2026-11-02?.tsrc=rss",
+   "published": "2026-11-02T18:46:55Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "North Korea Is Laundering Binance Hack Loot at One New Wallet Every 25 Seconds",
+   "link": "https://decrypt.co/382355/north-korea-laundering-binance-hack-loot-new-wallet-every-25-seconds?.tsrc=rss",
+   "published": "2026-11-02T18:46:03Z",
+   "publisher": "",
+   "summary": "$2.85 billion of the $6.43 billion stolen from Binance has been frozen or seized, compared with about 3% in the Bybit hack, as North Korea’s automated laundering spans 12,000 wallets.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Sector Update: Energy Stocks Fall Monday Afternoon",
+   "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-monday-184523145.html",
+   "published": "2026-11-02T18:45:23Z",
+   "publisher": "",
+   "summary": "Energy stocks were lower Monday afternoon, with the NYSE Energy Sector Index falling 2.9% and the St",
+   "symbols": []
+  },
+  {
+   "title": "Cathie Wood Makes Major Shift After Big Tech Gains",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-makes-major-shift-184020110.html",
+   "published": "2026-11-02T18:40:20Z",
+   "publisher": "",
+   "summary": "ARK loaded Teradyne and AeroVironment while trimming AMD, TSMC and Eli Lilly.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Black Cautions Tesla Shareholders On SpaceX Merger Risks: Says Marvell-Lumentum Deal Reaction Offers Early Warning",
+   "link": "https://stocktwits.com/news-articles/markets/equity/black-cautions-tesla-shareholders-on-space-x-merger-risks-says-marvell-lumentum-deal-reaction-offers-early-warning/cNGa3WER9Po?.tsrc=rss",
+   "published": "2026-11-02T18:31:18Z",
+   "publisher": "",
+   "summary": "Gary Black said in a post on X that in large, complex all-stock transactions with extended timelines, traders typically sell the acquirer’s shares, reducing the effective value delivered to the target’s shareholders.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Four More Crypto Hacks Land in the Days After Binance",
+   "link": "https://www.bankless.com/read/news/four-more-crypto-hacks-land-days-after-binance?.tsrc=rss",
+   "published": "2026-11-02T18:30:07Z",
+   "publisher": "",
+   "summary": "Brazil's largest exchange, an unnamed EU entity, BTCPay merchants and a dozen DeFi websites were all hit between Friday and Monday.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Cipher Digital Falls 5% on Q3 Revenue Miss as First HPC Lease Revenue Arrives",
+   "link": "https://www.tikr.com/blog/cipher-digital-falls-5-on-q3-revenue-miss-as-first-hpc-lease-revenue-arrives?ref=yahoofinance&tlnk=yf-261102-vfpc362f&.tsrc=rss",
+   "published": "2026-11-02T18:28:43Z",
+   "publisher": "",
+   "summary": "Key TakeawaysCipher Digital fell 5% after third-quarter revenue missed estimates, despite its first $5. 9 million of HPC rent.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Sector Update: Tech Stocks Decline Monday Afternoon",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-decline-monday-182831307.html",
+   "published": "2026-11-02T18:28:31Z",
+   "publisher": "",
+   "summary": "Tech stocks were lower Monday afternoon, with the State Street Technology Select Sector SPDR ETF (XL",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Riot Platforms Sinks 5%, Cipher Down 8% as Keefe Bruyette Warns of “Lease Catalyst Drought”",
+   "link": "https://www.tikr.com/blog/riot-platforms-sinks-5-cipher-down-8-as-keefe-bruyette-warns-of-lease-catalyst-drought?ref=yahoofinance&tlnk=yf-261102-rpqh9qvg&.tsrc=rss",
+   "published": "2026-11-02T18:27:39Z",
+   "publisher": "",
+   "summary": "Key TakeawaysRiot Platforms fell 2% after Keefe Bruyette cut its price target to $20 from $35, in a reset that also hit Cipher Digital, CleanSpark and Hut 8. The firm kept its Outperform rating but warned of a possible “lease catalyst drought” through early 2027.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Oil prices slide as hopes rise for potential US-Iran diplomatic breakthrough",
+   "link": "https://finance.yahoo.com/markets/commodities/article/oil-prices-slide-as-hopes-rise-for-potential-us-iran-diplomatic-breakthrough-182732084.html",
+   "published": "2026-11-02T18:27:32Z",
+   "publisher": "",
+   "summary": "Oil prices took a leg down on Monday on reports of diplomatic efforts between the US and Iran.",
+   "symbols": []
+  },
+  {
+   "title": "US Equity Indexes Rise Amid Sinking Crude Oil",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-amid-182526945.html",
+   "published": "2026-11-02T18:25:26Z",
+   "publisher": "",
+   "summary": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+   "symbols": []
+  },
+  {
+   "title": "Why Did Arxis Stock Fall?",
+   "link": "https://www.trefis.com/stock/arxs/articles/621893/why-did-arxis-stock-fall/2026-11-02?.tsrc=rss",
+   "published": "2026-11-02T18:24:17Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Why SpaceX stock is rising today",
+   "link": "https://www.fool.com/investing/2026/11/02/why-spacex-stock-is-rising-today/?.tsrc=rss",
+   "published": "2026-11-02T18:22:02Z",
+   "publisher": "",
+   "summary": "A possible Boost Mobile deal could hand SpaceX millions of wireless customers to build Starlink Mobile on, but Boost rents its network from the same carriers that already turned SpaceX down.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Exchange-Traded Funds Higher as US Equities Rise After Midday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-182141612.html",
+   "published": "2026-11-02T18:21:41Z",
+   "publisher": "",
+   "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Prediction: Anthropic Will Be Worth More Than Bitcoin by the End of the Year. On Polymarket, the Current Odds Are 79%.",
+   "link": "https://www.fool.com/investing/2026/11/02/prediction-anthropic-be-worth-more-than-bitcoin/?.tsrc=rss",
+   "published": "2026-11-02T18:20:00Z",
+   "publisher": "",
+   "summary": "Anthropic's IPO filing has forced crypto investors to rethink their valuation of Bitcoin.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "What Are Trade Desk Stock Investors Overlooking?",
+   "link": "https://www.trefis.com/stock/ttd/articles/621824/what-are-trade-desk-stock-investors-overlooking/2026-11-02?.tsrc=rss",
+   "published": "2026-11-02T18:18:00Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Eli Lilly Stocks Move Lower With Higher Target Facing a Volume-Price Tradeoff",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-move-lower-181632544.html",
+   "published": "2026-11-02T18:16:32Z",
+   "publisher": "",
+   "summary": "Cantor Fitzgerald raises its target to $1,600 and keeps an Overweight rating.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion Revenue Outlook",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/lumentum-stocks-drop-11-merger-181621853.html",
+   "published": "2026-11-02T18:16:21Z",
+   "publisher": "",
+   "summary": "Stronger sales and margin guidance arrive alongside a takeover whose dollar value depends on Marvell's shares.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why Trump-Tied Companies Could Face Democratic Probes Post-Midterms",
+   "link": "https://finance.yahoo.com/video/why-trump-tied-companies-could-181456165.html",
+   "published": "2026-11-02T18:14:56Z",
+   "publisher": "",
+   "summary": "Companies with Trump-family financial ties or White House relationships could face the greatest investigation risk under Democratic control of at least one chamber in 2027, with crypto, defense and technology among the sectors most exposed, according to Bloomberg Intelligence. Ahead of Tuesday's vote, lawmakers have already expressed interest in more than 200 companies, including through letters t",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Why Coeur Mining Bears Were Right Before The Drop",
    "link": "https://finance.yahoo.com/markets/stocks/articles/why-coeur-mining-bears-were-180922151.html",
@@ -28,11 +515,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2923,518 +3410,6 @@
     "MU",
     "ONDO",
     "XRP"
-   ]
-  },
-  {
-   "title": "EchoStar rises on report SpaceX in talks to buy Boost Mobile or tap its network",
-   "link": "https://finance.yahoo.com/technology/articles/echostar-rises-report-spacex-talks-113337684.html",
-   "published": "2026-11-02T11:33:37Z",
-   "publisher": "",
-   "summary": "Investing.com -- SpaceX is in talks to buy EchoStar’s Boost Mobile or gain access to its network, which is leased from AT&T and T-Mobile, the Washington Post reported Monday, citing people familiar with the matter.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Sinda Ltd. Reports Third Quarter 2026 Results, Highlighting Continued Drilling Success and Notable Progress Toward the Caracol Exploration Decline",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/sinda-ltd-reports-third-quarter-113100102.html",
-   "published": "2026-11-02T11:31:00Z",
-   "publisher": "",
-   "summary": "SAN MIGUEL DE ALLENDE, Mexico, November 02, 2026--Sinda Ltd. (NYSE: SIND) (\"Sinda\" or the \"Company\") today announced third quarter 2026 results and the filing of its Form 10-Q.",
-   "symbols": []
-  },
-  {
-   "title": "Rivian Shares Rise 3.2% as UBS Upgrades Stock to Buy Following Strong Q3 Results",
-   "link": "https://investorshub.advfn.com/market-news/article/39010/rivian-shares-rise-3-2-as-ubs-upgrades-stock-to-buy-following-strong-q3-results?.tsrc=rss",
-   "published": "2026-11-02T11:30:49Z",
-   "publisher": "",
-   "summary": "Rivian Automotive (NASDAQ:RIVN) shares climbed 3. 2% to $12.",
-   "symbols": []
-  },
-  {
-   "title": "Dune Oil Highlights Significant Regional Oil Production Success in Türkiye's Cudi-Gabar Basin near Its M47 Block",
-   "link": "https://finance.yahoo.com/energy/articles/dune-oil-highlights-significant-regional-113000111.html",
-   "published": "2026-11-02T11:30:00Z",
-   "publisher": "",
-   "summary": "Seven producing oil fields in five years and TPAO drilling-project filings identify 22 well locations on neighbouring licencesVancouver, British Columbia--(Newsfile Corp. - November 2, 2026) - Dune Oil Corp. (CSE: DUNE) (OTCQB: DUNXF) (FSE: Z62) (\"Dune\" or the \"Company\") highlights recent developments in the Cudi-Gabar petroleum province of southeastern Türkiye, including statements by the Ministe",
-   "symbols": []
-  },
-  {
-   "title": "InPlay Oil Corp. Confirms Monthly Dividend for November 2026",
-   "link": "https://finance.yahoo.com/energy/articles/inplay-oil-corp-confirms-monthly-113000993.html",
-   "published": "2026-11-02T11:30:00Z",
-   "publisher": "",
-   "summary": "InPlay Oil Corp. (TSX: IPO) (OTCQX: IPOOF) (\"InPlay\" or the \"Company\") is pleased to confirm that its Board of Directors has declared a monthly cash dividend of $0.09 per common share payable on November 30, 2026, to shareholders of record at the close of business on November 16, 2026. The monthly cash dividend is expected to be designated as an \"eligible dividend\" for Canadian federal and provinc",
-   "symbols": []
-  },
-  {
-   "title": "Okta Shares Rise 2.5% Ahead of S&P 500 Inclusion as Index Fund Demand Builds",
-   "link": "https://investorshub.advfn.com/market-news/article/39008/okta-shares-rise-2-5-ahead-of-sp-500-inclusion-as-index-fund-demand-builds?.tsrc=rss",
-   "published": "2026-11-02T11:29:11Z",
-   "publisher": "",
-   "summary": "Okta (NASDAQ:OKTA) shares advanced 2. 5% in pre-market trading on Monday, supported by expectations of increased institutional demand ahead of the cybersecurity company’s addition to the S&P 500 index.",
-   "symbols": []
-  },
-  {
-   "title": "Soma Gold Enters Into $10 Million Royalty Agreement with Silver Crown Royalties",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/soma-gold-enters-10-million-112442025.html",
-   "published": "2026-11-02T11:24:42Z",
-   "publisher": "",
-   "summary": "Soma Gold (SOMA.V) said it entered into a agreement with Silver Crown Royalties under which the latt",
-   "symbols": []
-  },
-  {
-   "title": "Strategy's Michael Saylor Blames These 3 Factors for Bitcoin's Recent Sluggish Performance. The Most Important Is Treasury Yields.",
-   "link": "https://www.fool.com/investing/2026/11/02/strategys-michael-saylor-blames-these-3-factors-fo/?.tsrc=rss",
-   "published": "2026-11-02T11:20:00Z",
-   "publisher": "",
-   "summary": "When safe investments yield more, riskier investments aren't as attractive.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bitcoin Steadies Near $78,000 as Binance Withdrawals Resume",
-   "link": "https://unchainedcrypto.com/bitcoin-steadies-near-78000-as-binance-withdrawals-resume/?.tsrc=rss",
-   "published": "2026-11-02T11:15:56Z",
-   "publisher": "",
-   "summary": "Bitcoin sits about 2% above its post-Binance hack low despite Friday’s $643 million ETF exit, and Binance says withdrawals have slowed since it reopened them Sunday.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Pecoy Copper Announces C$49.8 Million Strategic Financing Led by Hudbay Minerals",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/pecoy-copper-announces-c-49-111500963.html",
-   "published": "2026-11-02T11:15:00Z",
-   "publisher": "",
-   "summary": "VANCOUVER, British Columbia, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Pecoy Copper Corp. (“Pecoy Copper” or the “Company”) (TSXV: PCU; FSE: D5E; OTCQX: PCUUF) is pleased to announce that it has entered into subscription agreements with Hudbay Minerals Inc. (TSX, NYSE: HBM) (“Hudbay”) and an additional strategic investor (the “Strategic Investor” and, together with Hudbay, the “Investors”). Under these su",
-   "symbols": []
-  },
-  {
-   "title": "Apple, SpaceX, Intel, Palantir, and More Stocks That Explain Today’s Market",
-   "link": "https://finance.yahoo.com/m/9e7a7710-9e1a-35b4-ba03-c1bc8203ddcb/apple%2C-spacex%2C-intel%2C.html",
-   "published": "2026-11-02T11:15:00Z",
-   "publisher": "",
-   "summary": "Intel shares slide despite a broader tech rebound, while Palantir edges higher ahead of its third-quarter earnings.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "The Stock Market Has Done This Just Twice in 156 Years. Now It's Happening Again.",
-   "link": "https://www.fool.com/investing/2026/11/02/the-stock-market-has-done-this-just-twice-in-156-y/?.tsrc=rss",
-   "published": "2026-11-02T11:14:00Z",
-   "publisher": "",
-   "summary": "Is history sounding the death knell for this bull market?",
-   "symbols": []
-  },
-  {
-   "title": "Morgan Stanley warns the S&P 500 could drop 9%",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-warns-p-500-111219871.html",
-   "published": "2026-11-02T11:12:19Z",
-   "publisher": "",
-   "summary": "Morgan Stanley says the AI correction is not the end of the bull market",
-   "symbols": []
-  },
-  {
-   "title": "The Binance Hacker Splits Its 233M Stolen XRP Across Six New Wallets: Can XRP Price Hold $1.24?",
-   "link": "https://99bitcoins.com/news/altcoins/xrp-news-hacker-splits-xrp-etf-inflows/?.tsrc=rss",
-   "published": "2026-11-02T11:11:53Z",
-   "publisher": "",
-   "summary": "Bitcoin (BTC USD) traded at $78,210 on Monday, November 2, after US spot Bitcoin ETFs shed $643.3 million on Friday, their biggest one-day outflow since June 25, as investors pulled back from the Binance hack and a wallet maker warned the funds themselves could be next. The funds blinked. The ...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "OpenAI Cuts Funding Target Amid Meta, Microsoft Offerings, Anthropic IPO",
-   "link": "https://finance.yahoo.com/m/9f64f875-35a4-3cac-86e3-a7d06eb54605/openai-cuts-funding-target.html",
-   "published": "2026-11-02T11:11:07Z",
-   "publisher": "",
-   "summary": "OpenAI reportedly is now seeking to raise $20 billion at a $1.25 trillion valuation. Meta, Microsoft just raised funds while the Anthropic IPO looms.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "A $731 Billion Opportunity for SpaceX Stock",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/731-billion-opportunity-spacex-stock-111026186.html",
-   "published": "2026-11-02T11:10:26Z",
-   "publisher": "",
-   "summary": "Elon Musk Says Space Computing Could Overtake Earth by 2028",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 British Penny Stocks With Up To 58% Profit Margin",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-british-penny-stocks-58-110841556.html",
-   "published": "2026-11-02T11:08:41Z",
-   "publisher": "",
-   "summary": "Oil prices are forecast by Goldman Sachs to average $105 per barrel in December, which keeps energy, transport and manufacturing costs under pressure for the UK economy. Higher input bills can squeeze weaker balance sheets. It also pushes attention onto smaller British-listed shares with cleaner finances and lower debt. This article highlights three financially solid penny stocks that screen well ",
-   "symbols": []
-  },
-  {
-   "title": "Ed Yardeni Sees AI Chip Rebound, Year-End Stock Rally — Warns Of Midterm Election, Iran War Risks",
-   "link": "https://stocktwits.com/news-articles/markets/equity/ed-yardeni-sees-ai-chip-rebound-year-end-stock-rally-warns-of-midterm-election-iran-war-risks/cNG9HZeR92y?.tsrc=rss",
-   "published": "2026-11-02T11:08:29Z",
-   "publisher": "",
-   "summary": "Yardeni told CNBC-TV18 investors are rotating out of AI stocks into health care, financials and industrials rather than leaving U.S. equities, and that the pullback has lowered valuations even as earnings expectations rise.",
-   "symbols": []
-  },
-  {
-   "title": "Invesco NASDAQ 100 ETF (QQQM) Adds NVIDIA and Apple on Thursday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110545202.html",
-   "published": "2026-11-02T11:05:45Z",
-   "publisher": "",
-   "summary": "The fund bought $198.6 million of stock and sold nothing, raising 100 positions and trimming none.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Apple Earnings, Midterms, Jobs Data Put Markets To The Test: 3 Charts To Watch This Week",
-   "link": "https://stocktwits.com/news-articles/markets/equity/apple-earnings-midterms-jobs-data-put-markets-to-the-test-3-charts-to-watch-this-week/cNG9HShR92U?.tsrc=rss",
-   "published": "2026-11-02T11:05:31Z",
-   "publisher": "",
-   "summary": "Monday’s earnings report will test whether investors continue to treat Apple as a relative safe haven.",
-   "symbols": []
-  },
-  {
-   "title": "iShares PHLX SOX Semiconductor (SOXX) Adds AMD and Micron on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110526256.html",
-   "published": "2026-11-02T11:05:26Z",
-   "publisher": "",
-   "summary": "The fund bought $212.3 million of stock, led by $22.0 million in AMD and $17.8 million in Micron.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What Avantis U.S. Equity ETF (AVUS) Bought: Exxon Mobil Leads on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-equity-etf-avus-110523728.html",
-   "published": "2026-11-02T11:05:23Z",
-   "publisher": "",
-   "summary": "The fund bought $213.4 million more than it sold, with Exxon Mobil a new 1.36% position.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "iShares A.I. Innovation (BAI) Buys $33.6 Million More Twist Bioscience on Thursday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-innovation-bai-buys-33-110457816.html",
-   "published": "2026-11-02T11:04:57Z",
-   "publisher": "",
-   "summary": "The fund bought $33.6 million of Twist Bioscience and $13.8 million of SpaceX, while exiting its Alphabet Class A stake for $250.5 million.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "What State Street Health Care SPDR (XLV) Bought: Eli Lilly Leads on Oct. 29",
-   "link": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110443929.html",
-   "published": "2026-11-02T11:04:43Z",
-   "publisher": "",
-   "summary": "The $49.10 billion fund bought $423.4 million of stock, lifting all 60 positions and selling nothing.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "What ProShares Ultra QQQ (QLD) Bought: No Buys as NVIDIA Leads Sells on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-ultra-qqq-qld-bought-110439317.html",
-   "published": "2026-11-02T11:04:39Z",
-   "publisher": "",
-   "summary": "The $13.26 billion fund sold $430.9 million of stock on Thursday, with no purchases and 99 positions trimmed.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "INVESCO QQQ (QQQ) Sells NVIDIA and Apple on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-sells-nvidia-110408798.html",
-   "published": "2026-11-02T11:04:08Z",
-   "publisher": "",
-   "summary": "The fund sold $2.24 billion of stock, cutting 100 positions and adding none, with NVIDIA and Apple its largest sales.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of Costco (COST) on Thursday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-costco-cost-110349793.html",
-   "published": "2026-11-02T11:03:49Z",
-   "publisher": "",
-   "summary": "ETFs sold a net $75.6 million of Costco on Thursday, Oct. 29.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of CrowdStrike (CRWD) on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-crowdstrike-crwd-110342998.html",
-   "published": "2026-11-02T11:03:42Z",
-   "publisher": "",
-   "summary": "ETFs sold a net $76.4 million of CrowdStrike (CRWD) shares in Thursday's session.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Applied Materials (AMAT) Sees $77.8 Million in Net ETF Selling on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-sees-77-110338307.html",
-   "published": "2026-11-02T11:03:38Z",
-   "publisher": "",
-   "summary": "ETFs sold $77.8 million in Applied Materials stock on Oct. 29, with 45 funds buying and 28 selling.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Kosmos Energy stock sinks on third quarter earnings, revenue miss",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-stock-sinks-third-110320565.html",
-   "published": "2026-11-02T11:03:20Z",
-   "publisher": "",
-   "summary": "Investing.com -- Kosmos Energy reported third-quarter results that fell short of analyst expectations, with shares tumbling more than 10% in premarket trading following the announcement.",
-   "symbols": []
-  },
-  {
-   "title": "ETFs Are Net Sellers of Cisco (CSCO) on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-cisco-csco-110315488.html",
-   "published": "2026-11-02T11:03:15Z",
-   "publisher": "",
-   "summary": "ETFs sold a net $103.3 million of Cisco Systems (CSCO) on Thursday.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of Tesla (TSLA) on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-tesla-tsla-110308756.html",
-   "published": "2026-11-02T11:03:08Z",
-   "publisher": "",
-   "summary": "Tesla (TSLA) drew $108.6 million in net ETF selling on Oct. 29, with 32 funds buying and 24 selling.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of Amazon (AMZN) on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-amazon-amzn-110252419.html",
-   "published": "2026-11-02T11:02:52Z",
-   "publisher": "",
-   "summary": "ETFs sold a net $146.8 million of Amazon stock, with 25 funds cutting and 44 adding.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of Broadcom (AVGO) on Thursday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-broadcom-avgo-110246843.html",
-   "published": "2026-11-02T11:02:46Z",
-   "publisher": "",
-   "summary": "ETFs sold $164.2 million of Broadcom stock on Thursday.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of Micron Technology (MU) on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-micron-technology-110239391.html",
-   "published": "2026-11-02T11:02:39Z",
-   "publisher": "",
-   "summary": "ETFs sold $175.9 million of Micron Technology on Thursday, with more funds trading the other way in smaller amounts.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of Advanced Micro Devices (AMD) on Oct. 29",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-advanced-micro-110236273.html",
-   "published": "2026-11-02T11:02:36Z",
-   "publisher": "",
-   "summary": "ETFs sold a net $181.8 million of Advanced Micro Devices (AMD) on Thursday.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of Microsoft (MSFT) on Thursday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-microsoft-msft-110229066.html",
-   "published": "2026-11-02T11:02:29Z",
-   "publisher": "",
-   "summary": "Microsoft (MSFT) drew $356.4 million in net ETF selling last Thursday.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
    ]
   }
  ]
