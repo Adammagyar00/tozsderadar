@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-02T16:00:43Z",
+ "builtAt": "2026-11-02T17:04:01Z",
  "digests": [
   {
    "calendar": [
@@ -611,6 +611,95 @@
      "title": "Az amerikai feldolgozóipar októberben gyorsult, a költségek továbbra is magasak",
      "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T16:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az amerikai építési kiadások szeptemberben 1,9%-kal csökkentek a Reuters és az Investing.com beszámolója szerint. A visszaesés gyengébb építőipari aktivitásra utal.",
+     "symbols": [],
+     "title": "Szeptemberben 1,9%-kal esett az amerikai építési kiadás",
+     "url": "https://www.investing.com/news/economy-news/us-construction-spending-fell-19-in-september-4992276",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T16:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A 247WallSt szerint az iráni békeremények miatt eső olajár hatására az amerikai légitársaságok részvényei ugrottak: a JetBlue 11%-ot, a United Airlines 6%-ot, az American Airlines 5%-ot nyert.",
+     "symbols": [],
+     "title": "Az olajár esése megdobta a légitársaságok árfolyamát: a JetBlue 11%-ot, a United 6%-ot, az American 5%-ot emelkedett",
+     "url": "https://247wallst.com/investing/2026/11/02/jetblue-soars-11-united-rallies-6-as-oil-drops-on-iran-peace-talk-hopes-american-airlines-gains-5/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T16:45:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CBS News",
+     "summary": "A CBS News szerint a Binance egyes kriptoeszközöknél újra engedélyezi a kifizetéseket a rekordméretű lopás után. A beszámoló szerint az ügyfelek 4,6 milliárd dollárt vontak ki; a forrásoknál a kiáramlás összege eltérő mérésekből adódóan különbözhet.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A Binance a hackertámadás után részben újraindította a kifizetéseket; az ügyfelek a CBS szerint 4,6 milliárd dollárt vettek ki",
+     "url": "https://www.cbsnews.com/news/binance-crypto-heist-withdrawals/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T16:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A Bitmine közleménye szerint újabb 8573 ETH-t vett, így az ethereum-tartalék értéke meghaladja a 13,7 milliárd dollárt. Tom Lee a Decrypt szerint a Binance-hacket bullish eseménynek nevezte.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "A Bitmine újabb 8573 ETH-t vásárolt, ethereum-állománya 13,7 milliárd dollár fölé nőtt",
+     "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T16:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance beszámolója szerint Musk a Grok használati korlátait szigorítja, mert a chatbot üzemeltetési költsége túl magas lett.",
+     "symbols": [],
+     "title": "Musk szerint a Grok használatát korlátozni kell, mert a kiszolgálás költsége „fenntarthatatlanul magas”",
+     "url": "https://finance.yahoo.com/technology/article/musk-is-throttling-grok-because-its-cost-is-unsustainably-high-162959909.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T16:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a kanadai feldolgozóipar 2026-ban először zsugorodott, a vámok a keresletet visszafogták.",
+     "symbols": [],
+     "title": "Először csökkent idén a kanadai feldolgozóipar tarifák miatt",
+     "url": "https://www.investing.com/news/economy-news/canadian-manufacturing-contracts-for-first-time-in-2026-as-tariffs-hit-demand-4992386",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-02T16:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint az Egyesült Arab Emírségek energiaügyi minisztere közölte, hogy az ország az iráni háború ellenére növeli olajexportját.",
+     "symbols": [],
+     "title": "Az Emírségek a háború ellenére növeli olajexportját – az energiaügyi miniszter szerint",
+     "url": "https://www.investing.com/news/commodities-news/uae-boosts-oil-exports-despite-iran-war-energy-minister-says-93CH-4992349",
+     "verified": true
     }
    ],
    "markets": [
@@ -637,7 +726,7 @@
     }
    ],
    "summary": "A határidős amerikai indexek emelkednek a péntek rázós, technológiai vezette kiárusítása után, az ázsiai tőzsdék többnyire követik. Az olaj 3%-ot esett, mert Trump a félidős választás előtt az iráni diplomáciát favorizálja, az arany 3900 dollár felé emelkedik. A héten az ausztrál (kedd), majd a brit jegybank (csütörtök) kamatemelést fontolgat, a Bank of Japan decemberi emelése pedig bekalkulált. Magyarországon a kormány bejelentette a januári 3%-os nyugdíjemelést és a 4,9%-os hiánycélú 2027-es költségvetést.",
-   "updatedAt": "2026-11-02T15:45:00Z",
+   "updatedAt": "2026-11-02T16:45:00Z",
    "watchlist": []
   },
   {
