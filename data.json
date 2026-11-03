@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-03T09:55:42Z",
+ "builtAt": "2026-11-03T10:55:54Z",
  "digests": [
   {
    "calendar": [
@@ -515,6 +515,32 @@
      "title": "Gyengüléssel kezdte a napot a forint",
      "url": "https://www.portfolio.hu/deviza/20261103/gyengulessel-kezdte-a-napot-a-forint-873812",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T10:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Unchained",
+     "summary": "A brazil tőzsde közlése szerint már 11 millió dollárt zároltak a Tetherrel és a Circle-lel együttműködve. A befizetések és kifizetések a biztonság teljes helyreállításáig szünetelnek. A cég szerint az ügyfelek nem veszítenek eszközt.",
+     "symbols": [],
+     "title": "A brazil Mercado Bitcoin tőzsde 38 millió dolláros biztonsági incidenst közölt, az ügyfelek nem veszítenek eszközt",
+     "url": "https://unchainedcrypto.com/brazils-mercado-bitcoin-puts-security-incident-at-38-million-says-clients-wont-lose-assets/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T10:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Simply Wall St",
+     "summary": "A Strategy (MSTR) a friss piaci turbulencia alatt több mint 65 millió dollár értékben vett bitcoint. A vásárlás akkor történt, amikor a kriptoszektort a biztonsági aggályok terhelték.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Strategy a Binance-feltörés okozta zavar idején több mint 65 millió dollárnyi bitcoint vásárolt",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-still-doubling-down-100842528.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -541,7 +567,7 @@
     }
    ],
    "summary": "Az ausztrál jegybank kamatot emelt, a megosztott szavazás szünetet vetít előre. Az ázsiai tőzsdék az újabb MI-vezérelt technológiai eladás miatt vegyesen mozogtak, az amerikai Dow 0,6%-ot nőtt, a technológiai szektor esett. Az olaj hétfőn több mint 7%-ot esett az iráni diplomáciai remények miatt, majd a WSJ értesülése szerint az USA újabb csapást mért Iránra. Az Apple és a Palantir a vártnál jobb negyedéves eredményt közölt, Kína a jüan erősödésének lassítására emeli a devizabetétek tartalékrátáját.",
-   "updatedAt": "2026-11-03T09:45:00Z",
+   "updatedAt": "2026-11-03T10:40:00Z",
    "watchlist": []
   },
   {
