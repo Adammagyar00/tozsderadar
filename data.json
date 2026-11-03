@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-03T18:55:47Z",
+ "builtAt": "2026-11-03T19:56:10Z",
  "digests": [
   {
    "calendar": [
@@ -918,6 +918,70 @@
      "title": "A Polymarket egyik egysége megkapta az amerikai iparági szervezet engedélyét határidős brókertevékenységre",
      "url": "https://www.investing.com/news/stock-market-news/polymarket-unit-gets-us-industry-organizations-approval-to-be-futures-broker-4996123",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T19:45:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint Joachim Nagel, a Bundesbank elnöke úgy látja, hogy az EKB decemberben valószínűleg emel. A piac már korábban is nagy eséllyel árazta a decemberi emelést, az EKB betéti rátája jelenleg 2,50%.",
+     "symbols": [],
+     "title": "Nagel: az EKB decemberben valószínűleg kamatot emel",
+     "url": "https://www.investing.com/news/economy-news/ecb-likely-to-raise-rates-in-december-says-nagel-4996194",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a BMW lejjebb vitte 2026-os profitmarzs-előrejelzését, a cím szerint a portfólió változásai miatt. A cég korábban, júniusban is csökkentette az autóipari EBIT-marzs célját 1–3%-ra.",
+     "symbols": [],
+     "title": "A BMW csökkentette 2026-os profitmarzs-kilátását a portfólióváltozások miatt",
+     "url": "https://www.investing.com/news/stock-market-news/bmw-cuts-2026-profit-margin-outlook-amid-portfolio-changes-4996215",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T19:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · StockTwits (TrendForce)",
+     "summary": "A StockTwits beszámolója szerint a TrendForce becslése alapján az egyesülés után a közös cég részesedése 7% körül lenne, csak az Nvidia és a Broadcom előzné meg. A Marvell 115 milliárd dolláros, teljes egészében részvényben fizetett Lumentum-felvásárlását a befektetők hűvösen fogadták.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A TrendForce szerint a Marvell–Lumentum egyesült cég piaci részesedése megközelítené a 7%-ot",
+     "url": "https://stocktwits.com/news-articles/markets/equity/marvell-s-lumentum-buy-threatens-broadcom-s-ai-optics-lead-says-trend-force/cNGXQHiR9dW?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Tradingpedia",
+     "summary": "A Tradingpedia szerint a Revvity részvénye a nyitás előtt 8,8%-ot emelkedett, miután a cég harmadik negyedéves számai meghaladták a Wall Street várakozásait. Más forrás megerősítését nem találtam.",
+     "symbols": [
+      "RVTY"
+     ],
+     "title": "A Revvity értesülések szerint a vártnál jobb 3. negyedéves eredményt közölt és emelte kilátásait",
+     "url": "https://www.tradingpedia.com/2026/11/03/revvity-shares-jump-after-strong-q3-raises-outlook/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "MarketScreener",
+     "summary": "A MarketScreener szerint a Bayer felemelte a teljes éves profitkilátását, a gyógyszeres üzletág talpra állása nyomán. Más forrás megerősítését nem találtam.",
+     "symbols": [
+      "BAYN"
+     ],
+     "title": "A Bayer részvénye emelkedik, miután a cég a gyógyszerüzlet javulása miatt emelte éves előrejelzését",
+     "url": "https://www.marketscreener.com/news/bayer-shares-jump-after-pharma-recovery-prompts-outlook-raise-ce785fd9de81f02d",
+     "verified": false
     }
    ],
    "markets": [
@@ -944,7 +1008,7 @@
     }
    ],
    "summary": "Az ausztrál jegybank kamatot emelt, a megosztott szavazás szünetet vetít előre. Az ázsiai tőzsdék az újabb MI-vezérelt technológiai eladás miatt vegyesen mozogtak, az amerikai Dow 0,6%-ot nőtt, a technológiai szektor esett. Az olaj hétfőn több mint 7%-ot esett az iráni diplomáciai remények miatt, majd a WSJ értesülése szerint az USA újabb csapást mért Iránra. Az Apple és a Palantir a vártnál jobb negyedéves eredményt közölt, Kína a jüan erősödésének lassítására emeli a devizabetétek tartalékrátáját.",
-   "updatedAt": "2026-11-03T18:40:00Z",
+   "updatedAt": "2026-11-03T19:45:00Z",
    "watchlist": []
   },
   {
