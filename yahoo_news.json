@@ -1,7 +1,97 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-03T01:02:21Z",
+ "updatedAt": "2026-11-03T01:59:48Z",
  "items": [
+  {
+   "title": "Gold holds near $3,950 as Iran peace hopes ease oil, U.S. vote in focus",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-3-950-013615439.html",
+   "published": "2026-11-03T01:36:15Z",
+   "publisher": "",
+   "summary": "Investing.com -- Gold held above $3,950 an ounce on Tuesday after posting their biggest daily gain in two months, as hopes of progress in U.S.-Iran peace negotiations eased energy-driven inflation concerns, while investors awaited U.S. midterm election for potential shifts in the market outlook.",
+   "symbols": []
+  },
+  {
+   "title": "U.S. stock futures steady; Apple dips after mixed earnings",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-apple-013106272.html",
+   "published": "2026-11-03T01:31:06Z",
+   "publisher": "",
+   "summary": "Investing.com-- U.S. stock index futures rose slightly on Monday evening, with Wall Street eying some recovery after logging a weak start to November on sustained losses in technology shares.",
+   "symbols": []
+  },
+  {
+   "title": "Hochschild Mining And 2 British Penny Stocks To Watch",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hochschild-mining-2-british-penny-012131870.html",
+   "published": "2026-11-03T01:21:31Z",
+   "publisher": "",
+   "summary": "Oil prices remain elevated as supply risks keep energy expensive, which maintains pressure on household bills and business costs in the United Kingdom. Investors looking for potential protection are focusing on smaller companies that already have modest valuations and stronger balance sheets. This article examines a shortlist of resilient UK penny stocks screened for quality and highlights three o",
+   "symbols": []
+  },
+  {
+   "title": "3 Canadian Value Stocks With ROE Over 22%",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-value-stocks-roe-012059202.html",
+   "published": "2026-11-03T01:20:59Z",
+   "publisher": "",
+   "summary": "Oil prices are holding above $100 per barrel as supply risks from the Middle East and tight global capacity keep energy costs elevated. That pressure filters through to everything from transport to groceries for Canadian households. Smaller Canadian businesses with solid balance sheets and disciplined operations can be overlooked in this kind of market. This article highlights three under followed",
+   "symbols": []
+  },
+  {
+   "title": "Is B2Gold (TSX:BTO) Still Cheap Based On Its Earnings?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/b2gold-tsx-bto-still-cheap-012014111.html",
+   "published": "2026-11-03T01:20:14Z",
+   "publisher": "",
+   "summary": "B2Gold has given long term holders a strong 63.1% gain over the past three years, yet that rise leaves a simple question for anyone looking at the ticker today. Is the current share price, around C$6.68 at the last close, adequately grounded in the mining group’s earnings profile? The 63.1% return over three years puts real weight on whether the earnings that supported that journey can still justi",
+   "symbols": []
+  },
+  {
+   "title": "Binance withdrawals resume following $6 billion hack",
+   "link": "https://www.cnn.com/2026/11/01/business/binance-withdrawals-crypto-heist?.tsrc=rss",
+   "published": "2026-11-03T01:11:20Z",
+   "publisher": "",
+   "summary": "Binance, the world’s largest cryptocurrency exchange, said it has resumed withdrawals after a record $6.3 billion was stolen from its digital wallets last week.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Questions Mount Over Venezuela’s Biggest Oil Deal",
+   "link": "https://finance.yahoo.com/energy/articles/questions-mount-over-venezuela-biggest-010000297.html",
+   "published": "2026-11-03T01:00:00Z",
+   "publisher": "",
+   "summary": "Trump’s $100 billion Venezuela oil deal faces growing scrutiny, as NABEP confronts questions over financing, drilling capacity and its ability to develop 65 billion barrels of reserves.",
+   "symbols": []
+  },
+  {
+   "title": "3 Altcoins to Watch in the First Week of November 2026",
+   "link": "https://beincrypto.com/top-3-altcoins-first-week-november-2026/?.tsrc=rss",
+   "published": "2026-11-03T00:57:54Z",
+   "publisher": "",
+   "summary": "Three tokens: HYPE, PEPE, and STX test key Fibonacci levels after the Binance hack. See the altcoins to watch this week.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Novo Resources targets Tibooburra drilling as broader gold pipeline advances",
+   "link": "https://www.proactiveinvestors.com/companies/news/1101113/novo-resources-targets-tibooburra-drilling-as-broader-gold-pipeline-advances-1101113.html?.tsrc=rss",
+   "published": "2026-11-03T00:47:00Z",
+   "publisher": "",
+   "summary": "Novo Resources Corp (TSX:NVO, OTCQX:NSRPF, ASX:NVO) i is preparing to launch a 2,700-metre reverse circulation drilling program at the Tibooburra Gold Project in New South Wales as it advances a broader portfolio of gold targets across Australia. Drilling at the Clone prospect is expected to...",
+   "symbols": []
+  },
   {
    "title": "Why GE Vernova Stock Crept Higher on Monday",
    "link": "https://www.fool.com/investing/2026/11/02/why-ge-vernova-stock-crept-higher-on-monday/?.tsrc=rss",
@@ -20,11 +110,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -58,12 +148,12 @@
    "publisher": "",
    "summary": "California Resources and Carbon TerraVault signed a non-binding MoU with Bloom Energy to jointly evaluate developing 1 gigawatt or more of solid-oxide fuel cell power generation paired with carbon capture and permanent storage in California.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3149,121 +3239,6 @@
    "published": "2026-11-02T15:41:09Z",
    "publisher": "",
    "summary": "The S&P/TSX rallied more than 350 points mid-morning Monday as the base metals sector led most secto",
-   "symbols": []
-  },
-  {
-   "title": "Marvell Announces $115 Billion Acquisition of Optical Components Maker Lumentum to in Effort to Upgrade AI Speed",
-   "link": "https://www.ibtimes.com/marvell-acquire-lumentum-ai-optical-connectivity-3809283?.tsrc=rss",
-   "published": "2026-11-02T15:37:52Z",
-   "publisher": "",
-   "summary": "The companies expect the acquisition to close in the first half of 2028, subject to shareholder and regulatory approvals.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Here Comes the AI Bounce Back",
-   "link": "https://finance.yahoo.com/m/aa8a21d8-0a01-3d6c-bf96-6fe612883d3a/here-comes-the-ai-bounce-back.html",
-   "published": "2026-11-02T15:35:40Z",
-   "publisher": "",
-   "summary": "The stock market rebound was gaining steam, bouncing back from last week's AI-led selloff.",
-   "symbols": []
-  },
-  {
-   "title": "Mercado Bitcoin Halts Withdrawals Over Security Incident as Hypernative Flags $40 Million Drain",
-   "link": "https://unchainedcrypto.com/mercado-bitcoin-halts-withdrawals-over-security-incident-as-hypernative-flags-40-million-drain/?.tsrc=rss",
-   "published": "2026-11-02T15:32:38Z",
-   "publisher": "",
-   "summary": "The Brazilian exchange says no clients lost money, while monitoring firm Hypernative puts the outflows from wallets it attributes to Mercado Bitcoin at more than $40 million.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Bitcoin Edges Up After Binance Hack, But Coinbase Keeps Falling",
-   "link": "https://finance.yahoo.com/m/7ef8aa37-6402-315d-b6cb-491c233bfe3c/bitcoin-edges-up-after.html",
-   "published": "2026-11-02T15:32:15Z",
-   "publisher": "",
-   "summary": "Morgan Stanley slashed its Coinbase price target by over 50%.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "BC-Most Active Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153017443.html",
-   "published": "2026-11-02T15:30:17Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change Inlif Ltd.",
-   "symbols": []
-  },
-  {
-   "title": "The Manufacturing Economy Is Growing, but So Are Headwinds",
-   "link": "https://finance.yahoo.com/m/438862e2-3b10-3b4e-af32-354368feb8bf/the-manufacturing-economy-is.html",
-   "published": "2026-11-02T15:26:16Z",
-   "publisher": "",
-   "summary": "Despite all the headwinds, the U.S. manufacturing economy has growth for 10 consecutive months.",
-   "symbols": []
-  },
-  {
-   "title": "AI Stocks Slide: Are Tech ETFs Worth Watching?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ai-stocks-slide-tech-etfs-152200828.html",
-   "published": "2026-11-02T15:22:00Z",
-   "publisher": "",
-   "summary": "More than $2 trillion in market value vanished in October, but the AI trade may not be over.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Tech’s Next Big Bet Is Defense. What That Means for Lockheed Stock and Its Peers.",
-   "link": "https://finance.yahoo.com/m/c8f033a9-39ef-353c-9850-c6f74489aa4f/tech%E2%80%99s-next-big-bet-is.html",
-   "published": "2026-11-02T15:15:00Z",
-   "publisher": "",
-   "summary": "Traditional defense contractors’ next big competitor could be Alphabet.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Update: Ryanair Fiscal Q2 Earnings Decline, Revenue Increases; Issues Outlook for Fiscal Q3, Fiscal 2027",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ryanair-fiscal-q2-earnings-decline-151340497.html",
-   "published": "2026-11-02T15:13:40Z",
-   "publisher": "",
-   "summary": "(Updates with additional information in the the sixth to eighth paragraphs, and the recent stock mov",
    "symbols": []
   }
  ]
