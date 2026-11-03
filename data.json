@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-03T16:56:16Z",
+ "builtAt": "2026-11-03T17:55:59Z",
  "digests": [
   {
    "calendar": [
@@ -793,6 +793,78 @@
      "title": "A Binance ügyfelei 7,42 milliárd dollárt vontak ki a feltörés után",
      "url": "https://www.cbsnews.com/news/binance-customers-withdraw-billions-crypto-hack/",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T17:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · BLS",
+     "summary": "A BLS szerint a nyitott álláshelyek száma szeptemberben mintegy 7,52 millió volt (4,5%-os arány), a Bloomberg felmérésében szereplő várakozás fölött. Az elbocsátások aránya 1,0% volt, a felmondásoké 2,1%. Az erős munkaerőpiac a kamatcsökkentési várakozásokat mérsékelheti.",
+     "symbols": [],
+     "title": "Az amerikai álláshelyek száma szeptemberben 7,52 millióra nőtt, a várakozás fölé",
+     "url": "https://www.bls.gov/jlt/latest-numbers.htm",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Meta az Investing.com szerint legalább 20 milliárd dollár értékű, dollár- és euróalapú kötvényt kínál; a dollárkibocsátás kb. 15 milliárd dollár, öt lejáratra osztva, az első euróban denominált kötvényekkel együtt. A Bloomberg szerint a méret nőhet, a végső árazásról még nincs adat.",
+     "symbols": [],
+     "title": "A Meta legalább 20 milliárd dolláros kötvényeladásba kezdett az MI-beruházások finanszírozására",
+     "url": "https://www.investing.com/news/stock-market-news/meta-seeks-at-least-20-billion-in-bond-sale-as-ai-debt-boom-accelerates-4995462",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A cég a McCormickkal tervezett élelmiszer-egyesítés utáni egyszerűsítéssel, folyamatok átalakításával és technológiai beruházásokkal gyorsítaná az átalakulást. A társaság tiszta szépség- és testápolási szereplővé válna; az egyesítés várhatóan 2027 közepére zárul le.",
+     "symbols": [],
+     "title": "A Unilever 2029-ig 1 milliárd eurós megtakarítást tűzött ki célul",
+     "url": "https://www.investing.com/news/stock-market-news/unilever-targets-1-billion-in-savings-by-2029-93CH-4995992",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T17:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · AP",
+     "summary": "Az AP értesülései szerint az izraeli miniszterelnök arra kérte Washingtont, hogy a választás után újítsa fel az iráni csapásokat. Trump korábban jelezte, hogy a választás után nem tervez csapást Irán ellen. A hírt független forrás nem erősítette meg.",
+     "symbols": [],
+     "title": "Értesülések szerint Netanjahu az amerikai iráni csapások folytatását sürgette a félidős választások után",
+     "url": "https://www.investing.com/news/commodities-news/oil-rises-after-reported-us-strike-on-irans-qeshm-island-4993349",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (névtelen források)",
+     "summary": "A Reuters névtelen források alapján azt írta, hogy egy amerikai milliárdos által vezetett csoport a Lukoil külföldi egységeit a Lukoil amerikai alapok kezében lévő részvényeire cserélné. Korábbi beszámolók szerint az amerikai Pénzügyminisztérium már elutasított hasonló ajánlatokat; az ügylet nem hivatalos.",
+     "symbols": [],
+     "title": "Értesülések szerint amerikai milliárdos vezet részvénycsere-tervet a Lukoil külföldi eszközeinek megvásárlására",
+     "url": "https://www.investing.com/news/stock-market-news/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T17:45:00Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl (nem megerősített)",
+     "summary": "A CryptoProwl közleménye szerint egyedi részvényekre szóló, lejárat nélküli határidős szerződések már kereskedhetők szabályozott amerikai tőzsdéken. Korábbi jelentések szerint a Coinbase, a Kalshi és a Bitnomial szeptemberben kért engedélyt ilyen termékekre; a jóváhagyást független forrás még nem erősítette meg.",
+     "symbols": [],
+     "title": "A CFTC értesülések szerint jóváhagyta az első egyedi részvényekre szóló örökjáradékos határidős szerződést az amerikai tőzsdéken",
+     "url": "https://www.cryptoprowl.com/releases/cftc-clears-first-stock-perpetual-futures-for-trading-on-us-exchanges-7632",
+     "verified": false
     }
    ],
    "markets": [
@@ -819,7 +891,7 @@
     }
    ],
    "summary": "Az ausztrál jegybank kamatot emelt, a megosztott szavazás szünetet vetít előre. Az ázsiai tőzsdék az újabb MI-vezérelt technológiai eladás miatt vegyesen mozogtak, az amerikai Dow 0,6%-ot nőtt, a technológiai szektor esett. Az olaj hétfőn több mint 7%-ot esett az iráni diplomáciai remények miatt, majd a WSJ értesülése szerint az USA újabb csapást mért Iránra. Az Apple és a Palantir a vártnál jobb negyedéves eredményt közölt, Kína a jüan erősödésének lassítására emeli a devizabetétek tartalékrátáját.",
-   "updatedAt": "2026-11-03T15:50:00Z",
+   "updatedAt": "2026-11-03T17:45:00Z",
    "watchlist": []
   },
   {
