@@ -1,13 +1,53 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-03T08:17:39Z",
+ "updatedAt": "2026-11-03T09:26:08Z",
  "items": [
   {
-   "title": "AAPL Stock Tumbles Overnight On Margin Pressure From Surging Memory Prices; MU, SNDK Inch Higher",
-   "link": "https://stocktwits.com/news-articles/markets/equity/aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/cNGQxyuR95f?.tsrc=rss",
-   "published": "2026-11-03T08:09:19Z",
+   "title": "Talos Energy (TALO) to report earnings tomorrow: here is what to expect",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/talos-energy-talo-report-earnings-090936743.html",
+   "published": "2026-11-03T09:09:36Z",
    "publisher": "",
-   "summary": "Apple executives said memory prices will continue to rise into the next year.",
+   "summary": "Offshore energy producer Talos Energy (NYSE:TALO) will be announcing earnings results tomorrow after market hours. Here’s what to expect.",
+   "symbols": []
+  },
+  {
+   "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver ahead of midterm election results, AMD earnings",
+   "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html",
+   "published": "2026-11-03T09:08:46Z",
+   "publisher": "",
+   "summary": "Will the AI-fueled tech sell-off continue?",
+   "symbols": []
+  },
+  {
+   "title": "Broadridge Signs On to Run Shareholder Votes for NYSE’s Planned Tokenized Stocks",
+   "link": "https://unchainedcrypto.com/broadridge-signs-on-to-run-shareholder-votes-for-nyses-planned-tokenized-stocks/?.tsrc=rss",
+   "published": "2026-11-03T09:00:04Z",
+   "publisher": "",
+   "summary": "The proxy-voting company is one of four transfer agents the New York Stock Exchange added to its blockchain-based trading venue, which still needs regulatory approval.",
+   "symbols": []
+  },
+  {
+   "title": "Important Notice of Dividend Announcement to shareholder of Xtrackers II",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/important-notice-dividend-announcement-shareholder-090000587.html",
+   "published": "2026-11-03T09:00:00Z",
+   "publisher": "",
+   "summary": "LONDON, November 03, 2026-- Xtrackers II",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "NVDA Shares Inch Higher Overnight After 4-Day Rout: Chipmaker Reportedly Tells Cloud Clients To Limit China Exposure",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvda-shares-inch-higher-overnight-after-4-day-rout-chipmaker-reportedly-tells-cloud-clients-to-reduce-china-exposure/cNGQy3nR95h?.tsrc=rss",
+   "published": "2026-11-03T08:55:57Z",
+   "publisher": "",
+   "summary": "Separately, Nvidia reportedly had a role to play in Marvell’s massive deal to acquire Lumentum, announced on Monday.",
    "symbols": [
     "BTC",
     "ETH",
@@ -18,6 +58,127 @@
     "MU",
     "MRVL"
    ]
+  },
+  {
+   "title": "3 S&P 500 stocks we find risky",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-risky-085336392.html",
+   "published": "2026-11-03T08:53:36Z",
+   "publisher": "",
+   "summary": "While the S&P 500 (^GSPC) includes industry leaders, not every stock in the index is a winner. Some companies are past their prime, weighed down by poor execution, weak financials, or structural headwinds.",
+   "symbols": []
+  },
+  {
+   "title": "Talos Energy (TALO) Q3 earnings: what to expect",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/talos-energy-talo-q3-earnings-084536355.html",
+   "published": "2026-11-03T08:45:36Z",
+   "publisher": "",
+   "summary": "Offshore energy producer Talos Energy (NYSE:TALO) will be reporting earnings tomorrow after market close. Here’s what investors should know.",
+   "symbols": []
+  },
+  {
+   "title": "Earnings to watch: SM Energy (SM) reports Q3 results tomorrow",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-sm-energy-sm-083736947.html",
+   "published": "2026-11-03T08:37:36Z",
+   "publisher": "",
+   "summary": "Oil and gas producer SM Energy (NYSE:SM) will be announcing earnings results tomorrow after the bell. Here’s what to expect.",
+   "symbols": []
+  },
+  {
+   "title": "Resolutions of the Extraordinary General Meeting of shareholders of Nordic Fibreboard AS",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/resolutions-extraordinary-general-meeting-shareholders-083000241.html",
+   "published": "2026-11-03T08:30:00Z",
+   "publisher": "",
+   "summary": "Nordic Fibreboard AS (register number 11421437, address Rääma 31, Pärnu 80044) Extraordinary General Meeting of shareholders was held today, on 3rd of November 2026 in Nordic Fibreboard AS office, at Rääma 31, Pärnu. The general meeting started at 10.00 and ended at 10:15. According to the Articles of Association, the Company (hereinafter also referred to as the “Company”) has a total of 8,499,061",
+   "symbols": []
+  },
+  {
+   "title": "Kavango completes commissioning of Hillside gold plant in Zimbabwe",
+   "link": "https://www.mining-technology.com/news/kavango-completes-commissioning-hillside-plant/?.tsrc=rss",
+   "published": "2026-11-03T08:17:16Z",
+   "publisher": "",
+   "summary": "The Ministry of Mines & Mining Development approved commissioning of the Hillside pilot processing plant and TSF.",
+   "symbols": []
+  },
+  {
+   "title": "TSLA Stock Slips Overnight: Trump Vows To Shield Musk — But Influencer Flags ‘Tougher Than Ever’ SpaceX Merger Vote",
+   "link": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-trump-vows-shield-musk-influencer-tougher-spacex-merger-vote/cNGQUPfR95Q?.tsrc=rss",
+   "published": "2026-11-03T08:15:08Z",
+   "publisher": "",
+   "summary": "Tesla influencer Alexandra Merz estimated a potential SpaceX merger would need nearly 1.98 billion ‘yes’ votes.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "CVR Energy Nears $4 Billion Refinery Deal With Marathon",
+   "link": "https://finance.yahoo.com/energy/articles/cvr-energy-nears-4-billion-081500757.html",
+   "published": "2026-11-03T08:15:00Z",
+   "publisher": "",
+   "summary": "Carl Icahn-controlled CVR Energy is nearing a multibillion-dollar acquisition of Marathon Petroleum refineries amid record refining margins and global fuel supply disruptions.",
+   "symbols": []
+  },
+  {
+   "title": "Top 3 Growth Stocks To Watch In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-growth-stocks-watch-081318369.html",
+   "published": "2026-11-03T08:13:18Z",
+   "publisher": "",
+   "summary": "Australia’s central bank just pushed interest rates to an 18 year high at 4.85%, which puts real pressure on weaker businesses. That kind of stress test can highlight companies with solid balance sheets and room for earnings to grow. The screener here focuses on exactly that: financially healthy stocks with strong earnings growth potential. This article walks through three standouts to show how th",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "3 Oil And Gas Stocks With Cash Flow Tied To Higher Energy Prices",
+   "link": "https://finance.yahoo.com/energy/articles/3-oil-gas-stocks-cash-081013039.html",
+   "published": "2026-11-03T08:10:13Z",
+   "publisher": "",
+   "summary": "Oil markets have snapped back into the spotlight after Saudi Aramco posted a 34.6% YoY jump in Q3 profit, while conflict and shipping disruptions tighten supply and keep geopolitics front and center. That mix of fatter sector earnings and higher risk has real consequences for portfolios. This article walks through three global integrated majors most exposed to these headlines and explains how the ",
+   "symbols": []
+  },
+  {
+   "title": "AAPL Stock Tumbles Overnight On Margin Pressure From Surging Memory Prices; MU, SNDK Inch Higher",
+   "link": "https://stocktwits.com/news-articles/markets/equity/aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/cNGQxyuR95f?.tsrc=rss",
+   "published": "2026-11-03T08:09:19Z",
+   "publisher": "",
+   "summary": "Apple executives said memory prices will continue to rise into the next year.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "New Strong Sell Stocks for November 3rd",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-november-3rd-080100826.html",
+   "published": "2026-11-03T08:01:00Z",
+   "publisher": "",
+   "summary": "AAUC, CWH and EGO have been added to the Zacks Rank #5 (Strong Sell) List on November 3, 2026.",
+   "symbols": []
   },
   {
    "title": "Nevada Sunrise Metals: A dawning gold and copper growth story",
@@ -61,11 +222,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -75,12 +236,12 @@
    "publisher": "",
    "summary": "California Resources has rewarded long term holders over the past five years, which naturally puts a spotlight on whether the current share price really lines up with what its sales can support. After a period that includes both a sizeable reported loss and new clean power ambitions, the question is how much revenue strength the market is now pricing into the stock. Over the past 5 years the share",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -99,12 +260,12 @@
    "publisher": "",
    "summary": "AST SpaceMobile recently secured Brazilian spectrum approvals across S band and 700 MHz, expanded gateway plans, and continued preparing global direct to device service with more than 60 gateways and partnerships spanning over 3 billion mobile subscribers. At the same time, reports of SpaceX exploring a Boost Mobile deal highlight how access to retail subscribers could pressure AST SpaceMobile’s p",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -123,12 +284,12 @@
    "publisher": "",
    "summary": "Vancouver, British Columbia--(Newsfile Corp. - November 3, 2026) - Questcorp Mining Inc. (CSE: QQQ) (OTCQB: QQCMF) (FSE: D910) (the \"Company\" or \"Questcorp\") is pleased to announce that it has completed the acquisition of a 100% interest in the North Island Copper Project, located near Port Hardy on Vancouver Island, British Columbia, having acquired the remaining 49% interest under its option agr",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -142,11 +303,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2955,202 +3116,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "Sector Update: Tech",
-   "link": "https://finance.yahoo.com/technology/articles/sector-tech-175502318.html",
-   "published": "2026-11-02T17:55:02Z",
-   "publisher": "",
-   "summary": "Tech stocks were lower Monday afternoon, with the State Street Technology Select Sector SPDR ETF (XL",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
-   "link": "https://finance.yahoo.com/technology/articles/one-largest-deals-tech-history-175411871.html",
-   "published": "2026-11-02T17:54:11Z",
-   "publisher": "",
-   "summary": "Marvell's planned purchase of Lumentum is one of the biggest acquisitions in tech history. And they both have the same strategic investor: Nvidia.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "ServiceNow Has Become The Canary In The Coal Mine For Agentic-AI Driven Software Implosion",
-   "link": "https://247wallst.com/investing/2026/11/02/servicenow-has-become-the-canary-in-the-coal-mine-for-agentic-ai-driven-software-implosion/?.tsrc=rss",
-   "published": "2026-11-02T17:45:43Z",
-   "publisher": "",
-   "summary": "ServiceNow just shed a third of its value in a single week, and the reason has nothing to do with a bad quarter. It signals something far more threatening to every software company charging by the seat.",
-   "symbols": []
-  },
-  {
-   "title": "What Is Behind The Move In Rocket Companies Stock?",
-   "link": "https://www.trefis.com/stock/rkt/articles/621889/what-is-behind-the-move-in-rocket-companies-stock/2026-11-02?.tsrc=rss",
-   "published": "2026-11-02T17:44:09Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Why JetBlue Stock Keeps Going Up",
-   "link": "https://www.fool.com/investing/2026/11/02/why-jetblue-stock-keeps-going-up/?.tsrc=rss",
-   "published": "2026-11-02T17:42:59Z",
-   "publisher": "",
-   "summary": "JetBlue reported big losses last week -- but also big hope for a turnaround in earnings in 2028.",
-   "symbols": []
-  },
-  {
-   "title": "BMNR Buys Nearly $20M Worth Of ETH: Tom Lee Calls Market’s Binance Hack Reaction ‘Very Constructive’",
-   "link": "https://stocktwits.com/news-articles/markets/equity/bmnr-buys-nearly-20-m-worth-of-eth-tom-lee-calls-market-s-binance-hack-reaction-very-constructive/cNGa5GaR9Pm?.tsrc=rss",
-   "published": "2026-11-02T17:39:50Z",
-   "publisher": "",
-   "summary": "The firm's total crypto, cash, and \"moonshot\" holdings dropped to $14.5 billion from $15 billion.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Anthropic reveals $900bn of AI spending plans",
-   "link": "https://uk.finance.yahoo.com/news/anthropic-reveals-900bn-ai-spending-173940036.html",
-   "published": "2026-11-02T17:39:40Z",
-   "publisher": "",
-   "summary": "Anthropic has revealed plans to spend almost $900bn (£670bn) on computing power in the coming years in a move that risks stoking investor concerns about the cost of the AI boom.",
-   "symbols": []
-  },
-  {
-   "title": "Nvidia and Nike Lead Biggest Wave Yet of Tokenized Stock Objections",
-   "link": "https://decrypt.co/382348/nvidia-nike-biggest-wave-yet-tokenized-stock-objections?.tsrc=rss",
-   "published": "2026-11-02T17:36:03Z",
-   "publisher": "",
-   "summary": "Nvidia, Costco, Nike and nine other companies objected to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total to 50.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Marvell, Lumentum, Oracle, SpaceX, Rivian, Apple, Palantir, and More Stocks That Explain Today’s Market",
-   "link": "https://finance.yahoo.com/m/9e7a7710-9e1a-35b4-ba03-c1bc8203ddcb/marvell%2C-lumentum%2C-oracle%2C.html",
-   "published": "2026-11-02T17:30:00Z",
-   "publisher": "",
-   "summary": "Apple and Palantir are scheduled to report quarterly earnings after the closing bell Monday.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Expect a 2% S&P 500 Move This Week Thanks to Midterms",
-   "link": "https://finance.yahoo.com/m/c1b4355a-c125-3f39-94fe-753c970879d1/expect-a-2%25-s%26p-500-move-this.html",
-   "published": "2026-11-02T17:27:02Z",
-   "publisher": "",
-   "summary": "Midterm election week has historically been a volatile period for the stock market, and this week is unlikely to be different.",
-   "symbols": []
-  },
-  {
-   "title": "Hard-Hit Airline Stocks Rebound on Falling Oil Prices",
-   "link": "https://finance.yahoo.com/m/319a3089-0f28-3343-aa1c-07518f3c152a/hard-hit-airline-stocks.html",
-   "published": "2026-11-02T17:27:00Z",
-   "publisher": "",
-   "summary": "The pullback in oil futures is a welcome reprieve for the likes of JetBlue, Delta, and other major carriers.",
-   "symbols": []
-  },
-  {
-   "title": "U.S. Stocks Rebound After Friday’s Selloff as Oil Slides",
-   "link": "https://www.wsj.com/finance/stocks/stock-futures-higher-oil-lower-as-investors-return-to-risk-17e79294?.tsrc=rss",
-   "published": "2026-11-02T17:21:00Z",
-   "publisher": "",
-   "summary": "U.S. stocks are recovering after Friday’s selloff, helped by a slide in oil prices.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 Undervalued Stocks Trading At Least 26% Below Fair Value",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-undervalued-stocks-trading-least-171334018.html",
-   "published": "2026-11-02T17:13:34Z",
-   "publisher": "",
-   "summary": "Oil prices hovering above $100 per barrel on the back of supply risks have pushed a lot of attention toward headline sectors. Quietly, that kind of backdrop can reset expectations across the market as investors rethink which cash flows feel dependable and which valuations look stretched. This article walks through three stocks that screens flag as trading below estimated fair value based on their ",
-   "symbols": []
-  },
-  {
-   "title": "Stock Market Midday, Nov. 2: Stocks Rally as Oil Prices Tumble on Diplomatic Hopes",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/02/stock-market-midday-nov-2-stocks-rally-as-oil-prices-tumble-on-diplomatic-hopes/?.tsrc=rss",
-   "published": "2026-11-02T17:12:55Z",
-   "publisher": "",
-   "summary": "On Nov. 2, 2026, crude plummeted roughly 7% on Middle East ceasefire prospects, sparking broad risk-on sentiment across major indexes.",
-   "symbols": []
-  },
-  {
-   "title": "Lumentum to Join Marvell in AI Optical Connectivity Push",
-   "link": "https://www.marketbeat.com/instant-alerts/event-lumentum-to-join-marvell-in-ai-optical-connectivity-push-2026-11-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-11-02T17:12:14Z",
-   "publisher": "",
-   "summary": "Marvell said it has agreed to combine with Lumentum (NASDAQ:LITE), positioning the proposed transaction as a move to build a larger provider of optical connectivity technology for artificial-intelligence infrastructure. Marvell Chairman and CEO Matt Murphy said the combination would bring together",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
    ]
   }
  ]
