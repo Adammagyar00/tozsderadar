@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-03T07:56:19Z",
+ "builtAt": "2026-11-03T08:55:46Z",
  "digests": [
   {
    "calendar": [
@@ -308,6 +308,110 @@
      "title": "A CoreWeave árfolyama esett az adósságaggályok miatt a bejelentés után",
      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/02/stock-market-today-nov-2-coreweave-slides-on-debt-concerns-after-crowdstrike-partnership-expands/?.tsrc=rss",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T08:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint a német divatcég a gyenge kereslet és a magasabb költségek miatt mérsékelte idei előrejelzését. A részletes számokat a hírfolyam nem közölte; a cég korábbi, 2026-ra szóló kilátása is csökkenő eredményt vetített előre.",
+     "symbols": [],
+     "title": "A Hugo Boss csökkentette 2026-os kilátásait a gyenge kereslet és a magasabb költségek miatt",
+     "url": "https://www.investing.com/news/earnings/hugo-boss-cuts-2026-outlook-on-weak-demand-higher-costs-4993727",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T08:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · BioMarin (SEC 8-K)",
+     "summary": "A BioMarin 3. negyedéves bevétele 32%-kal, 1,025 milliárd dollárra nőtt, nagyrészt az Amicus-felvásárlásnak köszönhetően. A cég a rendelések időzítési bizonytalansága és két megvásárolt K+F-tétel miatt módosította az éves iránymutatást (a cég 8-K közleménye szerint).",
+     "symbols": [
+      "BMRN"
+     ],
+     "title": "A BioMarin bevétele túlszárnyalta a várakozást a 3. negyedévben, de csökkentette éves kilátását",
+     "url": "https://www.investing.com/news/stock-market-news/biomarin-reports-q3-revenue-beat-but-cuts-fullyear-outlook-93CH-4993720",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T08:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint az európai részvénypiacok gyengén nyithatnak, mert az amerikai–iráni feszültségek miatt az olajár visszapattant.",
+     "symbols": [],
+     "title": "A Reuters szerint Európában esést jeleznek az indexek, az amerikai–iráni feszültség miatt újra emelkedik az olaj",
+     "url": "https://www.investing.com/news/stock-market-news/europe-stocks-set-to-fall-as-usiran-tensions-fuel-oil-rebound-4993690",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T08:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (FT értesülése alapján)",
+     "summary": "A Reuters az Financial Times értesülésére hivatkozva azt írja, hogy a kínai szabályozó arra kérte a bankokat, hogy szüneteltessék az IPO-kat. Önálló megerősítést nem találtunk.",
+     "symbols": [],
+     "title": "Az FT szerint a kínai szabályozó felfüggesztette a bankok IPO-ügyeit",
+     "url": "https://www.investing.com/news/stock-market-news/china-regulator-tells-banks-to-pause-ipos-ft-reports-4993631",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T08:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a brit távközlési cég leépít és szünetelteti a fiberhálózat-építést. Hivatalos megerősítést nem találtunk; korábbi, az FT-re hivatkozó beszámolók költségcsökkentési tervről szóltak.",
+     "symbols": [],
+     "title": "A Virgin Media O2 értesülések szerint elbocsátásokat hajt végre és szünetelteti a szálas hálózat kiépítését",
+     "url": "https://www.investing.com/news/stock-market-news/virgin-media-o2-cuts-jobs-and-pauses-fibre-rollout-93CH-4993723",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T08:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a TotalEnergies ötéves LNG-megállapodást írt alá az ADNOC Gasszal. Egy másodlagos forrás szerint a szerződés a Das-szigetről szállított LNG-re vonatkozik; elsődleges közleményt nem találtunk.",
+     "symbols": [
+      "TTE"
+     ],
+     "title": "A TotalEnergies ötéves LNG-szerződést kötött az ADNOC Gasszal",
+     "url": "https://www.investing.com/news/stock-market-news/totalenergies-signs-fiveyear-lng-deal-with-adnoc-gas-93CH-4993679",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T08:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Stocktwits szerint az Apple vezetői jelezték, hogy a memóriaárak jövőre is emelkednek. Az Apple részvénye ezért esett, a Micron és a SanDisk kissé emelkedett.",
+     "symbols": [
+      "AAPL",
+      "MU",
+      "SNDK"
+     ],
+     "title": "Az Apple árfolyama az éjszaka esett a memóriaárak emelkedéséből eredő árrésnyomás miatt; a Micron és a SanDisk emelkedett",
+     "url": "https://stocktwits.com/news-articles/markets/equity/aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/cNGQxyuR95f?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T08:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Közgazdászok figyelmeztetése szerint Nagy-Britannia recesszió „jelentős” kockázatával nézne szembe, ha az MI-beruházások üteme lassulna.",
+     "symbols": [],
+     "title": "Közgazdászok szerint a brit gazdaság recessziós kockázata jelentős, ha az MI-boom lassul",
+     "url": "https://uk.finance.yahoo.com/news/britain-faces-substantial-threat-recession-080000285.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -334,7 +438,7 @@
     }
    ],
    "summary": "Az ausztrál jegybank kamatot emelt, a megosztott szavazás szünetet vetít előre. Az ázsiai tőzsdék az újabb MI-vezérelt technológiai eladás miatt vegyesen mozogtak, az amerikai Dow 0,6%-ot nőtt, a technológiai szektor esett. Az olaj hétfőn több mint 7%-ot esett az iráni diplomáciai remények miatt, majd a WSJ értesülése szerint az USA újabb csapást mért Iránra. Az Apple és a Palantir a vártnál jobb negyedéves eredményt közölt, Kína a jüan erősödésének lassítására emeli a devizabetétek tartalékrátáját.",
-   "updatedAt": "2026-11-03T07:20:00Z",
+   "updatedAt": "2026-11-03T08:45:00Z",
    "watchlist": []
   },
   {
