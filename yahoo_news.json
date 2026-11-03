@@ -1,13 +1,13 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-03T12:25:31Z",
+ "updatedAt": "2026-11-03T13:44:17Z",
  "items": [
   {
-   "title": "J.P. Morgan expands UAE footprint with DIFC private bank branch",
-   "link": "https://www.privatebankerinternational.com/news/j-p-morgan-difc-private-bank-branch/?.tsrc=rss",
-   "published": "2026-11-03T12:13:43Z",
+   "title": "Rate Hikes Could Be Coming: History Likes These 4 Bank Stocks",
+   "link": "https://247wallst.com/investing/2026/11/03/rate-hikes-could-be-coming-history-likes-these-4-bank-stocks/?.tsrc=rss",
+   "published": "2026-11-03T13:37:52Z",
    "publisher": "",
-   "summary": "The opening builds on J.P. Morgan’s operations in the UAE, where the firm has been active for more than five decades.",
+   "summary": "Although rate hikes disappeared from the Federal Reserve’s playbook for 3 years, Wall Street is preparing for another tightening cycle. The Fed raised rates in September for the first time in 3 years, leaving the upper bound of the federal funds target range at 4.00%. Traders on Kalshi put a 72% market-implied probability on another […]",
    "symbols": [
     "SPCX",
     "BE",
@@ -16,6 +16,531 @@
     "VOO",
     "QQQ",
     "XDW0"
+   ]
+  },
+  {
+   "title": "Analysts downgrade Marvell and slash price targets over Lumentum deal",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/analysts-downgrade-marvell-slash-price-133715676.html",
+   "published": "2026-11-03T13:37:15Z",
+   "publisher": "",
+   "summary": "Investing.com -- TD Cowen and Bank of America both downgraded Marvell Technology on Tuesday, citing concerns about the chipmaker’s all-stock acquisition of Lumentum.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Dip Buyers in Leveraged Tech ETFs Are Getting Crushed",
+   "link": "https://247wallst.com/investing/2026/11/03/dip-buyers-in-leveraged-tech-etfs-are-getting-crushed/?.tsrc=rss",
+   "published": "2026-11-03T13:35:57Z",
+   "publisher": "",
+   "summary": "Billions poured into leveraged semiconductor and tech ETFs as prices fell in October, but the funds that reset their exposure every single day carry a hidden math that makes waiting for a rebound far more painful than most buyers expect.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "If I Had $1,000 to Invest Today, Here's the Trillion-Dollar Stock I'd Buy Instead of SpaceX",
+   "link": "https://www.fool.com/investing/2026/11/03/if-1000-invest-trillion-dollar-stock-buy-spacex/?.tsrc=rss",
+   "published": "2026-11-03T13:32:00Z",
+   "publisher": "",
+   "summary": "The recent correction in Alphabet stock creates a long-term buying opportunity for investors.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "CEO.CA's Inside the Boardroom: Gold Producer to Scale Molybdenum & Copper Supply Next to China: Erdene Resource Development",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/ceo-cas-inside-boardroom-gold-133000679.html",
+   "published": "2026-11-03T13:30:00Z",
+   "publisher": "",
+   "summary": "Toronto, Ontario--(Newsfile Corp. - November 3, 2026) - CEO.CA (\"CEO.CA\"), the leading investor social network in junior resource and venture stocks, shares exclusive updates with CEOs of junior mining explorers.Founded in 2012, CEO.CA, a wholly owned subsidiary of EarthLabs, Inc., is one of the most popular free financial websites and apps in Canada and for investors globally - with industry lead",
+   "symbols": []
+  },
+  {
+   "title": "Marvell's $115-billion Lumentum acquisition sends both stocks tumbling as investors question the AI megadeal",
+   "link": "https://finance.yahoo.com/technology/ai/articles/marvells-115-billion-lumentum-acquisition-133000048.html",
+   "published": "2026-11-03T13:30:00Z",
+   "publisher": "",
+   "summary": "Marvell makes $115-billion bet on AI with Lumentum acquisition. Marvell shares fell 13% and Lumentum dropped 19% after the all-stock deal was announced.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "US Midterm Elections: Yardeni Warns A Blue Wave Could Deliver ‘A Cold Shower For Stocks’ — UBS Sees Near-Term Volatility",
+   "link": "https://stocktwits.com/news-articles/markets/equity/us-midterm-elections-yardeni-warns-a-blue-wave-could-deliver-a-cold-shower-for-stocks-ubs-sees-near-term-volatility/cNGXdWWR95q?.tsrc=rss",
+   "published": "2026-11-03T13:26:00Z",
+   "publisher": "",
+   "summary": "Strategists are weighing risks to fiscal negotiations, Treasury yields and AI investment as Americans vote in the November 3 midterm elections.",
+   "symbols": []
+  },
+  {
+   "title": "Stock Market Today: Dow Slides 300 Points On Election Day; Apple, Palantir Dive On Earnings (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/810dfed2-d215-3d61-b039-c22ccd3cf6d4/stock-market-today%3A-dow.html",
+   "published": "2026-11-03T13:19:49Z",
+   "publisher": "",
+   "summary": "The Dow Jones index drops 300 points on Election Day, as Apple and Palantir tumble on earnings.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "What Sent Carvana Stock Higher?",
+   "link": "https://www.trefis.com/stock/cvna/articles/622240/what-sent-carvana-stock-higher/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:18:33Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Is Mastercard's Next Big Thing Already Here?",
+   "link": "https://www.trefis.com/stock/ma/articles/622311/is-mastercards-next-big-thing-already-here/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:18:31Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Why Did Stanley Black & Decker Stock Jump?",
+   "link": "https://www.trefis.com/stock/swk/articles/622301/why-did-stanley-black-decker-stock-jump/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:18:19Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Is Agnico Eagle Mines Stock A Real Bargain?",
+   "link": "https://www.trefis.com/stock/aem/articles/622295/is-agnico-eagle-mines-stock-a-real-bargain/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:18:16Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Is Lam Research Stock's Fall A Bargain Or A Warning?",
+   "link": "https://www.trefis.com/stock/lrcx/articles/622263/is-lam-research-stocks-fall-a-bargain-or-a-warning/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:18:09Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Does The Move In Joby Stock Change Anything?",
+   "link": "https://www.trefis.com/stock/joby/articles/622296/does-the-move-in-joby-stock-change-anything/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:18:06Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Is Going On With Adobe Stock?",
+   "link": "https://www.trefis.com/stock/adbe/articles/622286/what-is-going-on-with-adobe-stock/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:18:04Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Why Is Everyone Ignoring Iamgold Stock's High Cash Yield?",
+   "link": "https://www.trefis.com/stock/iag/articles/622285/why-is-everyone-ignoring-iamgold-stocks-high-cash-yield/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:18:01Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Should You Buy Ford Stock For Its Cash?",
+   "link": "https://www.trefis.com/stock/f/articles/622279/should-you-buy-ford-stock-for-its-cash/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T13:17:50Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "US Stock Market Today: S&P 500 Futures Slip On Firm Manufacturing And Jobs Focus",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-131343081.html",
+   "published": "2026-11-03T13:13:43Z",
+   "publisher": "",
+   "summary": "The Morning Bull - US Market Morning Update Tuesday, Nov, 3 2026 US stocks are set for a softer open, with sentiment pulled in two directions by competing signals on growth and inflation. Strong US manufacturing data is the main force shaping the tone before the bell. The ISM Manufacturing PMI came in at 55.5 for October 2026, pointing to solid factory activity. At the same time, the S&P Global ma",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Morning Minute: Tom Lee Calls the Binance Hack Bullish for Ethereum",
+   "link": "https://decrypt.co/382410/morning-minute-tom-lee-calls-the-binance-hack-bullish-for-ethereum?.tsrc=rss",
+   "published": "2026-11-03T13:11:47Z",
+   "publisher": "",
+   "summary": "Meanwhile, both the BTC ETFs and ETH ETFs bleed outflows in the Binance hack aftermath, dragging down prices.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Marvell and Lumentum Fell Hard. Their Supplier’s Stock Is Soaring",
+   "link": "https://247wallst.com/investing/2026/11/03/marvell-and-lumentum-fell-hard-their-suppliers-stock-is-soaring/?.tsrc=rss",
+   "published": "2026-11-03T13:11:00Z",
+   "publisher": "",
+   "summary": "When Marvell announced a blockbuster acquisition and both stocks tanked, one overlooked supplier quietly posted the best quarter in its history after hours. The question now is whether that record run can survive the deal's fallout.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Baltic Classifieds Group And 2 Other British Penny Stocks To Watch",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/baltic-classifieds-group-2-other-131022698.html",
+   "published": "2026-11-03T13:10:22Z",
+   "publisher": "",
+   "summary": "Oil prices recently moved higher after reports of a US strike on Iran's Qeshm Island, reminding investors how quickly energy shocks can ripple through global markets. When big benchmarks swing, smaller British companies with healthier balance sheets can draw fresh attention from investors looking for focused exposure without excessive leverage. This article highlights three financially grounded pe",
+   "symbols": []
+  },
+  {
+   "title": "TSX futures drop amid rise in oil prices; U.S. midterm elections ahead",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-drop-amid-rise-131011513.html",
+   "published": "2026-11-03T13:10:11Z",
+   "publisher": "",
+   "summary": "Investing.com - Futures connected to Canada’s main stock index pointed lower on Tuesday, as investors assessed a renewed jump in oil prices and looked ahead to the U.S. midterm elections.",
+   "symbols": []
+  },
+  {
+   "title": "Eli Lilly Just Delivered Another Monster Quarter. But There’s More to This Story Than Weight-Loss Drugs",
+   "link": "https://247wallst.com/investing/2026/11/03/eli-lilly-just-delivered-another-monster-quarter-but-theres-more-to-this-story-than-weight-loss-drugs/?.tsrc=rss",
+   "published": "2026-11-03T13:03:39Z",
+   "publisher": "",
+   "summary": "Eli Lilly's weight-loss drugs get all the headlines, but CEO David Ricks is betting the company's next act looks nothing like its last one. Here is what it would actually take for shares to reach $1,700 in 2027.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Premarket movers: Apple, Palantir, Dynatrace slide premarket; Grab, Upwork jump",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-apple-palantir-dynatrace-130332497.html",
+   "published": "2026-11-03T13:03:32Z",
+   "publisher": "",
+   "summary": "Investing.com - U.S. stock index futures traded mixed on Tuesday as investors prepared for the results of the U.S. midterm elections and assessed a renewed rise in oil prices.",
+   "symbols": []
+  },
+  {
+   "title": "US Equity Futures Mixed Pre-Bell as Traders Await Midterm Election Results",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-mixed-pre-130109558.html",
+   "published": "2026-11-03T13:01:09Z",
+   "publisher": "",
+   "summary": "US equity futures were mixed pre-bell Tuesday as traders await the results of the midterm elections",
+   "symbols": []
+  },
+  {
+   "title": "Compass Pathways To Complete COMP360 FDA Filing Within Two Weeks — CEO Nath Eyes Launch In First Half Of 2027",
+   "link": "https://stocktwits.com/news-articles/markets/equity/compass-pathways-to-complete-comp-360-fda-filing-within-two-weeks/cNGX5p6R95Y?.tsrc=rss",
+   "published": "2026-11-03T13:00:33Z",
+   "publisher": "",
+   "summary": "COMP360, a synthetic psilocybin-based treatment being developed for treatment-resistant depression, could be a ‘blockbuster opportunity,’ Compass Pathways said.",
+   "symbols": []
+  },
+  {
+   "title": "Lode Gold Identifies Exploration Potential for Additional Higher-Grade Gold Within Previously Drilled Areas at Fremont Gold Mine",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/lode-gold-identifies-exploration-potential-130000126.html",
+   "published": "2026-11-03T13:00:00Z",
+   "publisher": "",
+   "summary": "Vancouver, British Columbia--(Newsfile Corp. - November 3, 2026) - Lode Gold Resources Inc. (TSXV: LOD) (OTCQB: LODFF) (FSE: X27) (\"Lode Gold\" or the \"Company\") announced today that it has identified structural patterns controlling gold grade distribution at the Pine Tree-Josephine Mine within its Fremont Gold Mine in Mariposa County, USA. The interpretation is based on the digitization, completed",
+   "symbols": []
+  },
+  {
+   "title": "Buy, Sell, or Hold? Tuesday’s Top Upgrades and Downgrades: AON, Bloom Energy, Chevron, Cloudflare, Marvell Technologies, Lumentum Holdings, Merck & Co., Roku, X-Energy, and More",
+   "link": "https://247wallst.com/investing/2026/11/03/buy-sell-or-hold-tuesdays-top-upgrades-and-downgrades-aon-bloom-energy-chevron-cloudflare-marvell-technologies-lumentum-holdings-merck-co-roku-x-energy-and-more/?.tsrc=rss",
+   "published": "2026-11-03T12:59:26Z",
+   "publisher": "",
+   "summary": "Tech stocks keep beating estimates and then selling off anyway, Apple just joined the club, and Wall Street analysts are busy reshuffling their ratings on everything from nuclear energy plays to insurance giants. Here is who got upgraded, downgraded, and initiated today.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Why SpaceX Buying Boost Mobile Won’t Unlock Wireless for Musk",
+   "link": "https://finance.yahoo.com/m/02eb1191-5f47-3d7c-9dcd-4b7b1d5beacb/why-spacex-buying-boost.html",
+   "published": "2026-11-03T12:52:00Z",
+   "publisher": "",
+   "summary": "A Boost Mobile deal doesn’t get SpaceX much closer to offering mobile wireless service.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Nancy Pelosi’s Family Bought Intel in July, Right Before Its Worst Day Since 1974",
+   "link": "https://247wallst.com/investing/etf/2026/11/03/nancy-pelosis-family-bought-intel-in-july-right-before-its-worst-day-since-1974/?.tsrc=rss",
+   "published": "2026-11-03T12:51:07Z",
+   "publisher": "",
+   "summary": "Paul Pelosi bought Intel shares and options worth up to $1.5 million in late July, then Intel suffered its worst single-session collapse in half a century. Now retail investors who copy congressional trades are tallying the damage.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Midterms, Markets, and Earnings Malaise. Apple and Palantir Sum Up the Mood.",
+   "link": "https://finance.yahoo.com/m/8c98fe86-43ff-387a-9a9a-fa7efa5633e6/midterms%2C-markets%2C-and.html",
+   "published": "2026-11-03T12:43:00Z",
+   "publisher": "",
+   "summary": "All the news you need to start your day.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Arthur Hayes Expects Bitcoin Weakness Until Fed And Banks Start Growing Balance Sheets",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/arthur-hayes-expects-bitcoin-weakness-until-fed-and-banks-start-growing-balance-sheets/cNGXPeBR95o?.tsrc=rss",
+   "published": "2026-11-03T12:42:22Z",
+   "publisher": "",
+   "summary": "The next Fed balance sheet update is due on Nov. 5, with the October jobs report following a day later.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "How Big Could NVIDIA Stock's Next Fall Be?",
+   "link": "https://www.trefis.com/stock/nvda/articles/622250/how-big-could-nvidia-stocks-next-fall-be/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T12:41:33Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "The Nasdaq 100 Is Now Officially in a Correction",
+   "link": "https://247wallst.com/investing/2026/11/03/the-nasdaq-100-is-now-officially-in-a-correction/?.tsrc=rss",
+   "published": "2026-11-03T12:38:59Z",
+   "publisher": "",
+   "summary": "A late-session reversal wiped out early gains and pushed the Nasdaq 100 past a threshold it had nearly touched days earlier, while chips cratered and most of the market quietly moved higher. What that split tells long-term QQQ holders about what comes next is complicated.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Micron Said \"Super Intelligence\" Creates the Most Compelling Opportunity in Its History. Here's Why It Matters for Investors.",
+   "link": "https://www.fool.com/investing/2026/11/03/micron-said-super-intelligence-creates-the-most-co/?.tsrc=rss",
+   "published": "2026-11-03T12:35:00Z",
+   "publisher": "",
+   "summary": "Micron is sitting on the biggest growth opportunity since its inception 48 years ago.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "SpaceX or Tesla: If I Could Buy and Hold Only 1 Elon Musk Stock Through 2030, It Would be This One",
+   "link": "https://www.fool.com/investing/2026/11/03/spacex-or-tesla-if-i-could-buy-and-hold-only-1-thr/?.tsrc=rss",
+   "published": "2026-11-03T12:20:00Z",
+   "publisher": "",
+   "summary": "Elon Musk has grand ambitions across two of his largest businesses, SpaceX and Tesla.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "XRP Has Moved Just 2.4% Since Saturday, Its Tightest Range Since August’s 71% Breakout: Which Way Will the Squeeze Break?",
+   "link": "https://99bitcoins.com/news/altcoins/xrp-news-flat-price-squeeze/?.tsrc=rss",
+   "published": "2026-11-03T12:19:12Z",
+   "publisher": "",
+   "summary": "Bitcoin (BTC USD) traded at $78,210 on Monday, November 2, after US spot Bitcoin ETFs shed $643.3 million on Friday, their biggest one-day outflow since June 25, as investors pulled back from the Binance hack and a wallet maker warned the funds themselves could be next. The funds blinked. The ...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "What Just Happened To Marvell Stock?",
+   "link": "https://www.trefis.com/stock/mrvl/articles/622181/what-just-happened-to-marvell-stock-2/2026-11-03?.tsrc=rss",
+   "published": "2026-11-03T12:17:28Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "J.P. Morgan expands UAE footprint with DIFC private bank branch",
+   "link": "https://www.privatebankerinternational.com/news/j-p-morgan-difc-private-bank-branch/?.tsrc=rss",
+   "published": "2026-11-03T12:13:43Z",
+   "publisher": "",
+   "summary": "The opening builds on J.P. Morgan’s operations in the UAE, where the firm has been active for more than five decades.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "BofA Slashes Marvell Target by 44% After Lumentum Deal",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-slashes-marvell-target-44-120726332.html",
+   "published": "2026-11-03T12:07:26Z",
+   "publisher": "",
+   "summary": "The firm cut its rating to Neutral, citing dilution, regulatory uncertainty and potential customer conflicts from the proposed acquisition.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
    ]
   },
   {
@@ -73,6 +598,22 @@
    "publisher": "",
    "summary": "Anthropic's amended S-1 shows third-quarter revenue near $17 billion, up 47%, but a $567 million operating loss and $895 billion in compute commitments. Host Ejaaz Ahamadeen breaks down why demand outran Anthropic's compute, where the money goes, whether it can pay, and whether the IPO is a buy or a sell.",
    "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "October ETF Asset Report",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/october-etf-asset-report-120000800.html",
+   "published": "2026-11-03T12:00:00Z",
+   "publisher": "",
+   "summary": "October ETF flows favored broad-market equity and bond funds, while leveraged semiconductor ETFs attracted dip-buyers despite steep losses.",
+   "symbols": [
     "SPCX",
     "BE",
     "JPM",
@@ -99,12 +640,62 @@
    "symbols": []
   },
   {
+   "title": "MRVL's Proposed LITE Buyout Suggests Long-Term AI Infrastructure Boom",
+   "link": "https://finance.yahoo.com/technology/ai/articles/mrvls-proposed-lite-buyout-suggests-115200969.html",
+   "published": "2026-11-03T11:52:00Z",
+   "publisher": "",
+   "summary": "MRVL's proposed $115 billion LITE acquisition highlights surging demand for AI photonics, major synergies and expanding opportunities in AI infrastructure.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
    "title": "1 energy stock to target this week and 2 we ignore",
    "link": "https://finance.yahoo.com/energy/articles/1-energy-stock-target-week-114936496.html",
    "published": "2026-11-03T11:49:36Z",
    "publisher": "",
    "summary": "Energy businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. Unfortunately, this role also comes with a demand profile tethered to the ebbs and flows of energy prices and the broader economy, and investors seem to be forecasting a downturn - over the past six months, the industry has pulled back by 1.5%. This drop was disheartening since the S",
    "symbols": []
+  },
+  {
+   "title": "Why Is Crypto Down? Altcoins Lose Up to 25% in a Month as Americans Vote, and One Trader’s Midterm Chart Points to Another Leg Lower",
+   "link": "https://www.coinspeaker.com/why-is-crypto-down-midterms-altcoins/?.tsrc=rss",
+   "published": "2026-11-03T11:48:43Z",
+   "publisher": "",
+   "summary": "Why is crypto down? Because the Binance hack, two days of heavy ETF outflows and today’s US midterm elections hit an already weak market at once. An interesting chart is circulating on X: trader dealer.eth’s chart shows Bitcoin fell 15% to 51% after each of the last three midterms. Does ...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Elon Musk Has an AI Problem: People Are Using Grok Too Much",
+   "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-ai-problem-people-114505552.html",
+   "published": "2026-11-03T11:45:05Z",
+   "publisher": "",
+   "summary": "Elon Musk has spent years arguing that artificial intelligence will become more useful as it gets more capable. Grok Bot, from Space Exploration Technologies Corp. unit SpaceXSI, is testing the other side of that promise: the more work users ask...",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Binance hack: CZ warns ‘there’s no 100% security’ in crypto",
@@ -116,11 +707,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -278,6 +869,22 @@
     "MU",
     "ONDO",
     "XRP"
+   ]
+  },
+  {
+   "title": "The IPO catch: Why the best deals can be the hardest to buy",
+   "link": "https://moneyweek.com/investments/stocks-and-shares/ipo-catch-why-best-deals-often-hardest-to-buy?.tsrc=rss",
+   "published": "2026-11-03T11:11:29Z",
+   "publisher": "",
+   "summary": "UK investors can now apply for the biggest US flotations. History suggests you'll do no better than the market if you buy once trading starts.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
    ]
   },
   {
@@ -2512,573 +3119,6 @@
    "published": "2026-11-02T22:05:00Z",
    "publisher": "",
    "summary": "High-grade growth potential laterally and at depth: Drilling in the western extension of the 800 Zone, one of the mineralized zones at Eagle River, intersected high-grade gold over significant widths, including 8.3 g/t gold over 10.6 metres, highlighting the potential to expand the known high-grade zone laterally. Previously released drilling also identified mineralization more than 200 metres bel",
-   "symbols": []
-  },
-  {
-   "title": "Ero Copper Reports Record Third Quarter 2026 Results",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ero-copper-reports-record-third-220500641.html",
-   "published": "2026-11-02T22:05:00Z",
-   "publisher": "",
-   "summary": "(all amounts in US dollars, unless otherwise noted) VANCOUVER, British Columbia, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Ero Copper Corp. (TSX: ERO, NYSE: ERO) (“Ero” or the “Company”) is pleased to announce its operating and financial results for the three and nine months ended September 30, 2026. Management will host a conference call tomorrow, Tuesday, November 3, 2026, at 10:30 a.m. Eastern time to ",
-   "symbols": []
-  },
-  {
-   "title": "Ross Stores (ROST) Gains As Market Dips: What You Should Know",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ross-stores-rost-gains-market-220003513.html",
-   "published": "2026-11-02T22:00:03Z",
-   "publisher": "",
-   "summary": "In the most recent trading session, Ross Stores (ROST) closed at $230.59, indicating a +1.01% shift from the previous trading day.",
-   "symbols": []
-  },
-  {
-   "title": "Here's Why Symbotic Inc. (SYM) Fell More Than Broader Market",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-symbotic-inc-sym-220003017.html",
-   "published": "2026-11-02T22:00:03Z",
-   "publisher": "",
-   "summary": "The latest trading day saw Symbotic Inc. (SYM) settling at $37.22, representing a -1.87% change from its previous close.",
-   "symbols": []
-  },
-  {
-   "title": "NABEP Restarts Key Orinoco Belt Furnace in Continued Production Push",
-   "link": "https://finance.yahoo.com/energy/articles/nabep-restarts-key-orinoco-belt-220000037.html",
-   "published": "2026-11-02T22:00:00Z",
-   "publisher": "",
-   "summary": "North American Blue Energy Partners (NABEP) has restarted a key furnace at its Zuata 2 (Petrocedeño) facility in the Orinoco Belt after five years, a step the company expects to add 8,000 to 10,000 barrels of oil per day within the next few weeks. Over a full year, that's between 2.92 million and 3.65 million barrels of crude, worth hundreds of millions of dollars at today's prices, from a single ",
-   "symbols": []
-  },
-  {
-   "title": "TOPAZ ANNOUNCES THIRD QUARTER 2026 FINANCIAL RESULTS INCLUDING 9% ROYALTY PRODUCTION GROWTH",
-   "link": "https://finance.yahoo.com/energy/articles/topaz-announces-third-quarter-2026-220000680.html",
-   "published": "2026-11-02T22:00:00Z",
-   "publisher": "",
-   "summary": "Topaz Energy Corp. (TSX:TPZ) (\"Topaz\" or the \"Company\") is pleased to provide third quarter 2026 financial results. Select financial information is outlined below and should be read in conjunction with Topaz's interim condensed consolidated financial statements (\"Financial Statements\") and related management's discussion and analysis (\"MD&A\") as at and for the three and nine months ended September",
-   "symbols": []
-  },
-  {
-   "title": "4 Energy Stocks for Midterm Elections That Could Go Either Way",
-   "link": "https://finance.yahoo.com/energy/articles/4-energy-stocks-midterm-elections-220000515.html",
-   "published": "2026-11-02T22:00:00Z",
-   "publisher": "",
-   "summary": "Prediction markets favor a Democratic sweep. Here are four energy stocks to watch if Democrats win both chambers or Republicans hold the Senate.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "California Resources (NYSE:CRC) reports adjusted EPS above analyst estimates in Q3 2026 earnings",
-   "link": "https://finance.yahoo.com/energy/articles/california-resources-nyse-crc-reports-215834138.html",
-   "published": "2026-11-02T21:58:34Z",
-   "publisher": "",
-   "summary": "Oil and gas producer California Resources (NYSE:CRC) fell short of the market’s revenue expectations in Q3 2026, with revenue falling 52.2% year on year to $421 million. Its non-GAAP profit of $1.17 per share was 21.1% above analysts’ consensus estimates.",
-   "symbols": []
-  },
-  {
-   "title": "Dow Jones Futures: AI Trade Dives As Marvell, Lumentum Plunge; Apple Slides On Earnings With Midterm Elections Next",
-   "link": "https://finance.yahoo.com/m/4fe38c4f-79dc-38c4-99cf-7844e9e446ee/dow-jones-futures%3A-ai-trade.html",
-   "published": "2026-11-02T21:53:32Z",
-   "publisher": "",
-   "summary": "Dow Jones Futures: The AI trade dived Monday, while Apple stock dropped on earnings late. The midterm elections are Tuesday.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Fortuna Advances Diamba Sud Gold Project Permitting in Senegal",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/fortuna-advances-diamba-sud-gold-214500058.html",
-   "published": "2026-11-02T21:45:00Z",
-   "publisher": "",
-   "summary": "VANCOUVER, British Columbia, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Fortuna Mining Corp. (NYSE: FSM | TSX: FVI) is pleased to provide an update on its progress at the Diamba Sud gold project, Senegal. Jorge A. Ganoza, CEO and Director of Fortuna, commented, “Following our July final investment decision on the 30% plant expansion at our flagship Séguéla mine, and with Diamba Sud advancing through the fi",
-   "symbols": []
-  },
-  {
-   "title": "Stock Market Today: Dow Up, Nasdaq Dives As Seagate Sinks; These Stocks Clear Entries",
-   "link": "https://finance.yahoo.com/m/d2c3bbee-4bc3-3931-9b35-8ffcd691e60c/stock-market-today%3A-dow-up%2C.html",
-   "published": "2026-11-02T21:43:48Z",
-   "publisher": "",
-   "summary": "Stock Market Today: The Dow Jones index rises but the Nasdaq falls as tech struggles. Amazon pops, but Lumentum and Marvell Technology plunge.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Vitesse Energy’s (NYSE:VTS) Q3 2026: beats on revenue",
-   "link": "https://finance.yahoo.com/energy/articles/vitesse-energy-nyse-vts-q3-214013255.html",
-   "published": "2026-11-02T21:40:13Z",
-   "publisher": "",
-   "summary": "Oil and gas producer Vitesse Energy (NYSE:VTS) reported Q3 2026 results exceeding the market’s revenue expectations, with revenue up 23% year on year to $82.95 million. Its GAAP loss of $0.86 per share was significantly below analysts’ consensus estimates.",
-   "symbols": []
-  },
-  {
-   "title": "Cramer: “All the Copper in Data Centers Will Eventually Be Replaced” by Fiber. Lumentum Wins",
-   "link": "https://www.tikr.com/blog/cramer-all-the-copper-in-data-centers-will-eventually-be-replaced-by-fiber-lumentum-wins?ref=yahoofinance&tlnk=yf-261102-p8947567&.tsrc=rss",
-   "published": "2026-11-02T21:36:31Z",
-   "publisher": "",
-   "summary": "Key TakeawaysMarvell agreed today Monday to buy Lumentum in an all-stock deal worth about $115 billion, three days after Jim Cramer said on Mad Money that the deal wouldn’t surprise him. Lumentum shareholders come out ahead: they get a 24% premium, and they’re paid in Marvell stock, so they share in the move from copper to fiber that Cramer expects.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "This Has Been the Best-Performing Stock in the \"Magnificent Seven\" This Year, and It's Not Even Close",
-   "link": "https://www.fool.com/investing/2026/11/02/this-has-been-the-best-performing-stock-in-the-magnificent-seven-this-year-and-it-s-not-even-close/?.tsrc=rss",
-   "published": "2026-11-02T21:35:02Z",
-   "publisher": "",
-   "summary": "Most of the leading tech stocks have underperformed the S&P 500 in 2026.",
-   "symbols": []
-  },
-  {
-   "title": "Carbon TerraVault Provides Third Quarter 2026 Update",
-   "link": "https://finance.yahoo.com/energy/articles/carbon-terravault-provides-third-quarter-213100700.html",
-   "published": "2026-11-02T21:31:00Z",
-   "publisher": "",
-   "summary": "Announced MOU with Bloom Energy to Advance 1 GW or More of Decarbonized Power in California Submitted a New EPA Class VI Permit Application for ~57 Million Metric Tons of Storage Volume LONG BEACH, Calif., Nov. 02, 2026 (GLOBE NEWSWIRE) -- Carbon TerraVault Holdings, LLC (CTV), a carbon management subsidiary of California Resources Corporation (NYSE: CRC), today provided a third quarter 2026 updat",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Stocks kick off November lower as AI sell-off hits Tech",
-   "link": "https://finance.yahoo.com/video/stocks-kick-off-november-lower-as-ai-sell-off-hits-tech-213023708.html",
-   "published": "2026-11-02T21:30:23Z",
-   "publisher": "",
-   "summary": "Yahoo Finance Markets and Data Editor Jared Blikre breaks down Wall Street's rocky start to November as a continued sell-off in AI-related stocks weighs on the broader market. Blikre takes a look at the pressure on semiconductor stocks and the tech sector.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bonterra Congratulates Gold Fields on Securing Environmental Approval for the Windfall Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bonterra-congratulates-gold-fields-securing-213000922.html",
-   "published": "2026-11-02T21:30:00Z",
-   "publisher": "",
-   "summary": "Val-d'Or, Quebec--(Newsfile Corp. - November 2, 2026) - Bonterra Resources Inc. (TSXV: BTR) (OTCQX: BONXF) (FSE: 9BR2) (\"Bonterra\" or the \"Company\") congratulates Gold Fields Limited (\"Gold Fields\") and its wholly owned subsidiary, Windfall Mining Group Inc. (\"Windfall Mining\"), on receiving the Certificate of Authorization from the Québec government to begin construction of the Windfall Project i",
-   "symbols": []
-  },
-  {
-   "title": "California Resources Corporation Announces Strategic Collaboration with Bloom Energy to Advance Decarbonized Power Across California",
-   "link": "https://finance.yahoo.com/energy/articles/california-resources-corporation-announces-strategic-213000494.html",
-   "published": "2026-11-02T21:30:00Z",
-   "publisher": "",
-   "summary": "Companies to Evaluate Scalable, Clean and Firm Power Solutions to Advance 1 GW or More of Decarbonized Power in CaliforniaLONG BEACH, Calif., Nov. 02, 2026 (GLOBE NEWSWIRE) -- California Resources Corporation (NYSE: CRC), and its carbon management business, Carbon TerraVault (CTV), today announced the signing of a memorandum of understanding¹ (MOU) with Bloom Energy (NYSE: BE) (Bloom), to jointly ",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Earnings live updates: Roku posts earnings beat ahead of acquisition by Fox",
-   "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-apple-palantir-roku-and-more-212856249.html",
-   "published": "2026-11-02T21:28:56Z",
-   "publisher": "",
-   "summary": "The third quarter earnings season is over halfway done, and the reports continue to pour in.",
-   "symbols": []
-  },
-  {
-   "title": "Update: Dow Rises in Choppy Session Amid US Election Anxiety",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/dow-rises-choppy-session-amid-212705816.html",
-   "published": "2026-11-02T21:27:05Z",
-   "publisher": "",
-   "summary": "(Updates with market moves at the end of the day, and other changes, if any.) The Dow Jones Indus",
-   "symbols": []
-  },
-  {
-   "title": "TSX Closer: Index Gains on Industrials And Telecom Strength Despite Steep Drop in Energy",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-gains-industrials-212457717.html",
-   "published": "2026-11-02T21:24:57Z",
-   "publisher": "",
-   "summary": "The S&P/TSX Composite Index advanced on Monday, supported by gains in industrials, telecommunication",
-   "symbols": []
-  },
-  {
-   "title": "Elon Musk sends incredible news to Micron stock investors",
-   "link": "https://www.thestreet.com/investing/elon-musk-incredible-news-micron-stock-investors-humanoid-robot-memory-needs?.tsrc=rss",
-   "published": "2026-11-02T21:23:00Z",
-   "publisher": "",
-   "summary": "Elon Musk made one comment about robots, and Micron investors suddenly had a very different story to tell.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Mystery $106 Million Crypto Theft Hits EU Entity Days After Binance Hack",
-   "link": "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack?.tsrc=rss",
-   "published": "2026-11-02T21:16:03Z",
-   "publisher": "",
-   "summary": "Onchain investigator ZachXBT says an unidentified EU entity lost more than $106 million from centralized exchange accounts on Sunday,.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Micron Expected to Launch Massive Stock Buybacks in December. What to Know.",
-   "link": "https://finance.yahoo.com/m/6e7d3557-4321-350c-8293-3d69906f37a5/micron-expected-to-launch.html",
-   "published": "2026-11-02T21:10:00Z",
-   "publisher": "",
-   "summary": "Micron Technology is likely to increase its stock repurchases starting Dec. 9 after federal Chips Act restrictions on buybacks expire.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Sector Update: Financial Stocks Higher Late Afternoon",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-210621921.html",
-   "published": "2026-11-02T21:06:21Z",
-   "publisher": "",
-   "summary": "Financial stocks were advancing in late Monday afternoon trading, with the NYSE Financial Index risi",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "POMDOCTOR LIMITED Announces Receipt of Nasdaq Notifications Regarding Continued Listing Requirements",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/pomdoctor-limited-announces-receipt-nasdaq-210500871.html",
-   "published": "2026-11-02T21:05:00Z",
-   "publisher": "",
-   "summary": "POMDOCTOR LIMITED (\"Pomdoctor\" or the \"Company\") (Nasdaq: POM), a digital healthcare company focused on advancing AI-enabled healthcare solutions and predictive healthcare capabilities, today announced that on October 28, 2026, it received two letters (the \"Letters\") from the Listing Qualifications Department (the \"Staff\") of The Nasdaq Stock Market LLC (\"Nasdaq\") regarding deficiencies with respe",
-   "symbols": []
-  },
-  {
-   "title": "Diamondback Energy, Inc. Announces Third Quarter 2026 Financial and Operating Results; Increases Base Dividend",
-   "link": "https://finance.yahoo.com/energy/articles/diamondback-energy-inc-announces-third-210100923.html",
-   "published": "2026-11-02T21:01:00Z",
-   "publisher": "",
-   "summary": "MIDLAND, Texas, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Diamondback Energy, Inc. (NASDAQ: FANG) (“Diamondback,” “we,” “our” or the “Company”) today announced financial and operating results for the third quarter ended September 30, 2026. THIRD QUARTER 2026 HIGHLIGHTS Average oil production of 525 MBO/d (1,034 MBOE/d)Net cash provided by operating activities of $2.6 billion; Operating Cash Flow Before Wo",
-   "symbols": []
-  },
-  {
-   "title": "Sector Update: Energy Stocks Decline Late Afternoon",
-   "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-210002413.html",
-   "published": "2026-11-02T21:00:02Z",
-   "publisher": "",
-   "summary": "Energy stocks were lower late Monday afternoon, with the NYSE Energy Sector Index falling 3.5% and t",
-   "symbols": []
-  },
-  {
-   "title": "AppLovin Is the Worst-Performing Stock in the S&P 500 This Year. Has the Market Overreacted?",
-   "link": "https://www.fool.com/investing/2026/11/02/applovin-is-the-worst-performing-stock-in-the-s-and-p-500-this-year-has-the-market-overreacted/?.tsrc=rss",
-   "published": "2026-11-02T20:59:01Z",
-   "publisher": "",
-   "summary": "This once-hot growth stock has lost two-thirds of its value this year.",
-   "symbols": []
-  },
-  {
-   "title": "Ryanair CEO Predicts European Airfare Prices Will Be Up 20 Percent in 2027: ‘Challenging Environment’",
-   "link": "https://firstformoney.com/ryanair-ceo-predicts-european-airfare-prices-will-be-up-20-percent-in-2027-challenging-environment/?.tsrc=rss",
-   "published": "2026-11-02T20:55:57Z",
-   "publisher": "",
-   "summary": "European airfare may rise significantly next year, while capacity is expected to decline. Michael O’Leary, CEO of Ryanair, sat down for a candid interview with CNBC on Monday, November 2, and explained that while his company is “very well hedged,” he noted, “from next April onward we and the other European airlines are not well […]",
-   "symbols": []
-  },
-  {
-   "title": "Update: US Equity Indexes Mixed Amid Sliding Crude Oil, Technology",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-amid-205157979.html",
-   "published": "2026-11-02T20:51:57Z",
-   "publisher": "",
-   "summary": "(Updates with index/price moves and company/geopolitical news from the first paragraph.) US equit",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-205134097.html",
-   "published": "2026-11-02T20:51:34Z",
-   "publisher": "",
-   "summary": "Tech stocks were lower late Monday afternoon, with the State Street Technology Select Sector SPDR ET",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "ASTS Stock Dives 11% As SpaceX Reportedly Eyes EchoStar’s Boost Mobile",
-   "link": "https://stocktwits.com/news-articles/markets/equity/asts-stock-dives-11-as-space-x-reportedly-eyes-echo-star-s-boost-mobile/cNGaJbzR9Ps?.tsrc=rss",
-   "published": "2026-11-02T20:48:05Z",
-   "publisher": "",
-   "summary": "According to a report from The Washington Post, SpaceX discussed a deal with EchoStar about its wireless carrier Boost Mobile.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Sector Update: Energy",
-   "link": "https://finance.yahoo.com/energy/articles/sector-energy-204505864.html",
-   "published": "2026-11-02T20:45:05Z",
-   "publisher": "",
-   "summary": "Energy stocks were lower late Monday afternoon, with the NYSE Energy Sector Index falling 3.5% and t",
-   "symbols": []
-  },
-  {
-   "title": "41% of Americans expect to be poorer next year. Here’s what that means for Bitcoin",
-   "link": "https://www.thestreet.com/crypto/markets/41-of-americans-expect-to-be-poorer-next-year-heres-what-that-means-for-bitcoin?.tsrc=rss",
-   "published": "2026-11-02T20:42:00Z",
-   "publisher": "",
-   "summary": "As per a recent survey, Americans are now gloomier about their wallets than they were during the 2008 financial crisis.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "The Intel stock collapse is getting worse — and the $3.5 trillion chip rout is spreading",
-   "link": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-35-trillion-chip-rout-is-spreading-204139530.html",
-   "published": "2026-11-02T20:41:39Z",
-   "publisher": "",
-   "summary": "Chip stocks are adding to last week's tech wreckage.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "The Intel stock collapse is getting worse — and the $3.7 trillion chip rout is spreading",
-   "link": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
-   "published": "2026-11-02T20:41:39Z",
-   "publisher": "",
-   "summary": "Intel's slide spread through memory and storage stocks Monday as most of Wall Street moved on from last week's tech sell-off.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "How Much Would $100 a Week in XRP Since Its $3.65 All-Time High Be Worth Now?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/02/how-much-would-100-a-week-in-xrp-since-its-3-65-all-time-high-be-worth-now/?.tsrc=rss",
-   "published": "2026-11-02T20:39:47Z",
-   "publisher": "",
-   "summary": "XRP crashed 65% from its all-time high, yet one dollar-cost averaging strategy softened that blow dramatically. Whether this approach can pull the investor back to break-even before losses deepen depends on a price recovery that still faces serious obstacles.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Nvidia, Microsoft, and JPMorgan object to OKXICE tokenized stocks",
-   "link": "https://finance.yahoo.com/video/nvidia-microsoft-jpmorgan-object-okxice-203000548.html",
-   "published": "2026-11-02T20:30:00Z",
-   "publisher": "",
-   "summary": "Scott Melker discusses the growing list of major US companies, now about 50, filing objections to unaffiliated third-party tokens tracking their shares on a new tokenized stock venue backed by ICE (ICE). \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest cryp",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Oil Prices Sink as Iran, US Signal Openness to Diplomatic Resolution to Conflict",
-   "link": "https://finance.yahoo.com/energy/articles/oil-prices-sink-iran-us-202846757.html",
-   "published": "2026-11-02T20:28:46Z",
-   "publisher": "",
-   "summary": "Oil prices slumped Monday after Iran and the US signaled willingness to reach a diplomatic solution",
-   "symbols": []
-  },
-  {
-   "title": "Lumentum Goes From $1 Billion Spinoff to $115 Billion Takeover",
-   "link": "https://finance.yahoo.com/technology/articles/lumentum-goes-1-billion-spinoff-202825360.html",
-   "published": "2026-11-02T20:28:25Z",
-   "publisher": "",
-   "summary": "In 2015, executives at the Silicon Valley hardware firm known then as JDSU spun off a division making optical components and commercial lasers, believing the unit would be better off chasing growth opportunities on its own.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Nasdaq Falls As Micron, Seagate Sink; These Stocks Clear Entries (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/d2c3bbee-4bc3-3931-9b35-8ffcd691e60c/stock-market-today%3A-nasdaq.html",
-   "published": "2026-11-02T20:26:41Z",
-   "publisher": "",
-   "summary": "Stock Market Today: The Dow Jones index rallies Monday as oil prices dive. Amazon jumps but Lumentum and Marvell Technology plunge.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "CVX Q3 deep dive: operational discipline, Venezuela expansion, and AI adoption drive results",
-   "link": "https://finance.yahoo.com/energy/articles/cvx-q3-deep-dive-operational-202136087.html",
-   "published": "2026-11-02T20:21:36Z",
-   "publisher": "",
-   "summary": "Integrated energy company Chevron (NYSE:CVX) reported Q3 2026 results beating Wall Street’s revenue expectations, with sales up 36.3% year on year to $67.8 billion. Its non-GAAP profit of $5.28 per share was 8.5% above analysts’ consensus estimates.",
-   "symbols": []
-  },
-  {
-   "title": "Betting On Drug Sales: Is Viatris Or Lilly The Better Way In?",
-   "link": "https://www.trefis.com/stock/vtrs/articles/621760/betting-on-drug-sales-is-viatris-or-lilly-the-better-way-in/2026-11-02?.tsrc=rss",
-   "published": "2026-11-02T20:21:06Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Alerian MLP ETF vs. iShares Global Clean Energy ETF: Alerian MLP ETF vs. iShares Global Clean Energy ETF: Oil Prices Are Rising, but Which Energy ETF Offers More Upside?",
-   "link": "https://www.fool.com/coverage/etfs/2026/11/02/alerian-mlp-etf-vs-ishares-global-clean-energy-etf-alerian-mlp-etf-vs-ishares-global-clean-energy-etf-oil-prices-are-rising-but-which-energy-etf-offers-more-upside/?.tsrc=rss",
-   "published": "2026-11-02T20:20:02Z",
-   "publisher": "",
-   "summary": "One targets traditional energy infrastructure with concentrated holdings; the other pursues global renewables with broader diversification and lower costs.",
    "symbols": []
   }
  ]
