@@ -1,13 +1,37 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-03T03:52:07Z",
+ "updatedAt": "2026-11-03T04:55:01Z",
  "items": [
   {
-   "title": "ASTS Stock Climbs From 16-Month Low: Boost Mobile Founder Urges AST To ‘Pivot FAST’ As SpaceX Eyes Bigger Wireless Push",
-   "link": "https://stocktwits.com/news-articles/markets/equity/asts-stock-boost-mobile-founder-ast-pivot-fast-spacex-wireless-push/cNGQp1pR95b?.tsrc=rss",
-   "published": "2026-11-03T03:30:48Z",
+   "title": "Asian currencies mixed as yuan slides after PBOC move, won rebounds",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-slides-044909228.html",
+   "published": "2026-11-03T04:49:09Z",
    "publisher": "",
-   "summary": "Jim Cramer saw competitive benefits in a potential Boost deal, while Tim Farrar suggested that SpaceX wanted DISH’s infrastructure.",
+   "summary": "Investing.com -- Asian currencies traded mixed on Tuesday, with the yuan weakening after the People’s Bank of China moved to slow its recent appreciation.",
+   "symbols": []
+  },
+  {
+   "title": "Asia stocks mixed as Apple outlook weighs; RBA raises rates to 18-yr high",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-mixed-apple-outlook-044034259.html",
+   "published": "2026-11-03T04:40:34Z",
+   "publisher": "",
+   "summary": "Investing.com-- Asian stocks were mixed on Tuesday as investors assessed Apple's earnings outlook and positioned for the U.S. midterm elections, while the Reserve Bank of Australia raised interest rates for the fifth time this year to curb persistent inflation.",
+   "symbols": []
+  },
+  {
+   "title": "Compass (COMP) Trades Below Fair Value, Is The Pullback A Buying Opportunity?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/compass-comp-trades-below-fair-042711241.html",
+   "published": "2026-11-03T04:27:11Z",
+   "publisher": "",
+   "summary": "Compass (COMP) has been moving on performance figures that give investors fresh data to work with, including revenue of US$10,555.6 million and net income of US$67.5 million, alongside mixed recent share price returns. Compass has given shareholders a mixed ride, with the 1-year total shareholder return of 21.1% contrasting with a share price that is still down 10.3% year to date and roughly 21.5%",
+   "symbols": []
+  },
+  {
+   "title": "Elon Musk admits Grok Bot is too costly as users hit caps",
+   "link": "https://www.thestreet.com/technology/spacex-grok-bot-cost-problem-orbital-data-centers?.tsrc=rss",
+   "published": "2026-11-03T04:17:00Z",
+   "publisher": "",
+   "summary": "Subscribers to SpaceX’s AI helper ran dry days early, and Musk’s reply says a lot about who pays for the computing race.",
    "symbols": [
     "SPCX",
     "BE",
@@ -16,6 +40,55 @@
     "VOO",
     "QQQ",
     "XDW0"
+   ]
+  },
+  {
+   "title": "Jim Cramer Calls Ralph Lauren Stock Top Apparel Pick Before Thursday Earnings",
+   "link": "https://beincrypto.com/jim-cramer-ralph-lauren-stock-earnings/?.tsrc=rss",
+   "published": "2026-11-03T04:12:00Z",
+   "publisher": "",
+   "summary": "Jim Cramer calls Ralph Lauren stock his top apparel pick after a 380% rally, as it and Tapestry report earnings Thursday.",
+   "symbols": []
+  },
+  {
+   "title": "Asian shares are mixed as tech losses offset broader gains on Wall Street",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-tech-losses-035100041.html",
+   "published": "2026-11-03T03:51:00Z",
+   "publisher": "",
+   "summary": "HONG KONG (AP) — Asian stocks were mixed Tuesday as markets like South Korea and Taiwan that are heavily weighted toward technology shares declined following a sell-off on Wall Street. futures edged lower and oil prices moved higher.",
+   "symbols": []
+  },
+  {
+   "title": "ASTS Stock Climbs From 16-Month Low: Boost Mobile Founder Urges AST To ‘Pivot FAST’ As SpaceX Eyes Bigger Wireless Push",
+   "link": "https://stocktwits.com/news-articles/markets/equity/asts-stock-boost-mobile-founder-ast-pivot-fast-spacex-wireless-push/cNGQp1pR95b?.tsrc=rss",
+   "published": "2026-11-03T03:30:48Z",
+   "publisher": "",
+   "summary": "Jim Cramer saw competitive benefits in a potential Boost deal, while Tim Farrar suggested that SpaceX wanted DISH’s infrastructure.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Jim Cramer Calls Out 'Pretty Thick' Negativity on Apple, Palantir and Marvell: 'No Matter What They Say, It Isn't Enough'",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-calls-pretty-thick-032537139.html",
+   "published": "2026-11-03T03:25:37Z",
+   "publisher": "",
+   "summary": "View more earnings on AAPL CNBC’s Jim Cramer is not buying Monday’s selloff in Apple Inc. (NASDAQ:AAPL), Palantir Technologies Inc. (NASDAQ:PLTR) and Marvell Technology Inc. (NASDAQ:MRVL) as the tech slump stretches into a new week. Tech Rout Isn’t Over In a post on X, Cramer said that investors are piling “negativity” onto the three tech stocks and that it is “pretty thick.” “No matter what they ",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
    ]
   },
   {
@@ -81,12 +154,12 @@
    "publisher": "",
    "summary": "Investors were worried about the growth prospects and future profitability of companies across satellite communication, AI infrastructure, and quantum computing.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -100,11 +173,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -117,11 +190,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -134,11 +207,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -159,11 +232,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3157,95 +3230,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "Marvell Technology Targets $550B AI Optics Market With Lumentum Deal",
-   "link": "https://www.marketbeat.com/instant-alerts/event-marvell-technology-targets-550b-ai-optics-market-with-lumentum-deal-2026-11-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-11-02T16:14:03Z",
-   "publisher": "",
-   "summary": "Marvell Technology (NASDAQ:MRVL) said it has agreed to combine with photonics provider Lumentum, positioning the combined company to pursue growing demand for optical connectivity in artificial intelligence infrastructure. Marvell Chairman and CEO Matt Murphy said the transaction would bring togeth",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Monteoro Minerals Ltd. (MTAU) Opens the Market",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/monteoro-minerals-ltd-mtau-opens-161300715.html",
-   "published": "2026-11-02T16:13:00Z",
-   "publisher": "",
-   "summary": "Toronto, Ontario--(Newsfile Corp. - November 2, 2026) - Robert Neill, Chief Executive Officer and Director, and Robert Shaw, Director and Technical Advisor, of Monteoro Minerals Ltd. (\"Monteoro\" or the \"Company\") (TSXV: MTAU), along with members of the Company's management team, joined Graham MacKenzie, Managing Director, Exchange Traded Products, Toronto Stock Exchange (\"TSX\"), to open the market",
-   "symbols": []
-  },
-  {
-   "title": "EchoStar Gains on SpaceX Talks; Lumentum, Marvell Reach Deal | Stock Movers",
-   "link": "https://finance.yahoo.com/video/echostar-gains-spacex-talks-lumentum-161257353.html",
-   "published": "2026-11-02T16:12:57Z",
-   "publisher": "",
-   "summary": "On this episode of Stock Movers: - EchoStar (ECHO) is gaining on news Elon Musk's SpaceX is looking to start a wireless service with Echostar. - Lumentum (LITE) is moving on news Marvell Technology has reached a deal to buy Lumentum at an enterprise value of $115 billion. Lumentum makes lasers and other optical technology for moving enormous amounts of data at high speeds, which underpins the AI b",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "The No. 1 Reason to Buy Royal Caribbean Stock in November",
-   "link": "https://www.fool.com/investing/2026/11/02/the-no-1-reason-to-buy-royal-caribbean-stock-in-no/?.tsrc=rss",
-   "published": "2026-11-02T16:12:00Z",
-   "publisher": "",
-   "summary": "The country's most valuable cruise line company by market cap stands out in more ways than one.",
-   "symbols": []
-  },
-  {
-   "title": "3 Energy Stocks To Watch As Oil Prices Fall And Risk Stays High",
-   "link": "https://finance.yahoo.com/energy/articles/3-energy-stocks-watch-oil-161050147.html",
-   "published": "2026-11-02T16:10:50Z",
-   "publisher": "",
-   "summary": "Oil has just swung lower, with crude prices down over 4%, even as Wall Street banks like Goldman Sachs keep talking about high disruption risk and S&P Global’s Dan Yergin frames Iran as a structural fault line for energy markets. That mix of short term relief and ongoing threat is exactly where mispricing often appears. This piece walks through 3 large energy producers exposed to this news backdro",
-   "symbols": []
-  },
-  {
-   "title": "Gold Rebounds as Investors Seek Cash",
-   "link": "https://finance.yahoo.com/video/gold-rebounds-investors-seek-cash-160949855.html",
-   "published": "2026-11-02T16:09:49Z",
-   "publisher": "",
-   "summary": "Gold is trying to recover after its worst October since 2008, but market jitters are turning the metal into a source of liquidity, not a safe haven. Suki Cooper, Standard Chartered Global Head of Commodities Research explains the pressure near $4,000, where support may emerge, and why silver faces even tougher headwinds.",
-   "symbols": []
-  },
-  {
-   "title": "SpaceX weighs Boost Mobile deal in push for Starlink phone service: Report",
-   "link": "https://finance.yahoo.com/markets/stocks/article/spacex-weighs-boost-mobile-deal-in-push-for-starlink-phone-service-report-160901851.html",
-   "published": "2026-11-02T16:09:01Z",
-   "publisher": "",
-   "summary": "SpaceX may be attempting an end run to get around obstacles it's facing in getting a mobile network off the ground.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
    ]
   }
  ]
