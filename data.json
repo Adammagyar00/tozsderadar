@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-03T17:55:59Z",
+ "builtAt": "2026-11-03T18:55:47Z",
  "digests": [
   {
    "calendar": [
@@ -865,6 +865,59 @@
      "title": "A CFTC értesülések szerint jóváhagyta az első egyedi részvényekre szóló örökjáradékos határidős szerződést az amerikai tőzsdéken",
      "url": "https://www.cryptoprowl.com/releases/cftc-clears-first-stock-perpetual-futures-for-trading-on-us-exchanges-7632",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T18:40:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A Tether vezére szerint a cég körülbelül 150 000 BTC-t (nagyjából 11,5 milliárd dollárt) birtokol. A jelentésben nem szereplő 50 000 bitcoint a cég saját befektetésként kezeli, nem az USDT fedezeteként. A számot független forrás még nem erősítette meg.",
+     "symbols": [
+      "BTC",
+      "USDT"
+     ],
+     "title": "A Tether vezérigazgatója szerint a cég mintegy 150 000 bitcoint tart, 50 000-rel többet a tartalékjelentésnél",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/03/tether-says-it-holds-150000-bitcoin-50000-more-than-its-reserve-report-showed-what-does-that-mean-for-btc/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Bayer vezérigazgatója karácsony előtt számít a Roundup-perek rendezésére. A februárban bejelentett 7,25 milliárd dolláros megállapodás bírósági jóváhagyásra vár.",
+     "symbols": [
+      "BAYN"
+     ],
+     "title": "A Bayer vezérigazgatója szerint a Roundup-ügyi megállapodás karácsony előtt várható",
+     "url": "https://www.investing.com/news/stock-market-news/roundup-settlement-expected-before-christmas-bayer-ceo-says-4994305",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T18:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint orosz támadás érte az ukrán áramhálózatot az abu-dzabi tárgyalások előtt. Merz német kancellár arra sürgette Moszkvát, hogy vegyen részt a megbeszéléseken.",
+     "symbols": [],
+     "title": "Oroszország az ukrán energiahálózatot támadja az abu-dzabi tárgyalások előtt; Merz tárgyalásra szólítja Moszkvát",
+     "url": "https://www.investing.com/news/commodities-news/russia-bombards-ukraine-power-grid-before-abu-dhabi-talks-merz-urges-moscow-to-engage-4996122",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T18:40:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Polymarket egyik leányvállalata jóváhagyást kapott egy amerikai iparági önszabályozó szervezettől, hogy határidős bróker lehessen. A lépés a tőkeáttételes kereskedés felé nyithat utat, de a szabályozói folyamat még nem zárult le.",
+     "symbols": [],
+     "title": "A Polymarket egyik egysége megkapta az amerikai iparági szervezet engedélyét határidős brókertevékenységre",
+     "url": "https://www.investing.com/news/stock-market-news/polymarket-unit-gets-us-industry-organizations-approval-to-be-futures-broker-4996123",
+     "verified": true
     }
    ],
    "markets": [
@@ -891,7 +944,7 @@
     }
    ],
    "summary": "Az ausztrál jegybank kamatot emelt, a megosztott szavazás szünetet vetít előre. Az ázsiai tőzsdék az újabb MI-vezérelt technológiai eladás miatt vegyesen mozogtak, az amerikai Dow 0,6%-ot nőtt, a technológiai szektor esett. Az olaj hétfőn több mint 7%-ot esett az iráni diplomáciai remények miatt, majd a WSJ értesülése szerint az USA újabb csapást mért Iránra. Az Apple és a Palantir a vártnál jobb negyedéves eredményt közölt, Kína a jüan erősödésének lassítására emeli a devizabetétek tartalékrátáját.",
-   "updatedAt": "2026-11-03T17:45:00Z",
+   "updatedAt": "2026-11-03T18:40:00Z",
    "watchlist": []
   },
   {
