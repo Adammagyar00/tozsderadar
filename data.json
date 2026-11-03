@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-03T14:56:19Z",
+ "builtAt": "2026-11-03T15:56:37Z",
  "digests": [
   {
    "calendar": [
@@ -708,6 +708,91 @@
      "title": "A Shopify harmadik negyedéves bevétele 32%-kal, 3,74 milliárd dollárra nőtt, de kissé a várakozás alatt maradt",
      "url": "https://www.shopify.com/news/shopify-q3-2026-financial-results",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T15:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A chipszektor kedden visszapattant a technológiai szektor közelmúltbeli erős eladási hulláma után. A Micron, az Nvidia és az AMD vezette az emelkedést, az AMD ma zárás után közöl gyorsjelentést.",
+     "symbols": [
+      "MU",
+      "AMD",
+      "NVDA"
+     ],
+     "title": "A chipgyártók részvényei visszapattantak: a Micron, az Nvidia és az AMD vezette a felpattanást",
+     "url": "https://finance.yahoo.com/markets/article/micron-nvidia-amd-lead-chip-stocks-rebound-14053",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T15:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Ferrari az elemzői várakozásnál jobb eredményt közölt, és kismértékben emelte éves kilátását. A Yahoo Finance videós beszélgetése szerint a luxusvásárlók kereslete tartósan erős.",
+     "symbols": [
+      "RACE"
+     ],
+     "title": "A Ferrari emelte előrejelzését, mert a luxusvásárlók továbbra is költenek",
+     "url": "https://finance.yahoo.com/video/ferrari-raises-outlook-as-luxury-buyers-keep-spending-1451",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T15:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a Fiserv mintegy 3000 munkavállalói és külsős pozíciót szüntet meg az új vezérigazgató irányítása alatt.",
+     "symbols": [
+      "FI"
+     ],
+     "title": "A Fiserv új vezérigazgató alatt 3000 alkalmazotti és külsős munkahelyet szüntet meg",
+     "url": "https://www.investing.com/news/stock-market-news/fiserv-cuts-3000-employees-and-contractor",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T15:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg értesülése szerint a Foodtastic mintegy 1 milliárd kanadai dolláros ajánlatot nyújtott be az étteremfranchise-cég MTY megvásárlására, miután korábbi megkereséseit elutasították. Az ügylet nem hivatalos.",
+     "symbols": [
+      "MTY"
+     ],
+     "title": "A Foodtastic a Bloomberg szerint 1 milliárd kanadai dolláros felvásárlási ajánlatot tett az MTY-ra az elutasított megkeresések után",
+     "url": "https://www.investing.com/news/stock-market-news/foodtastic-proposes-c1-billion-mty-takeov",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T15:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Donald Trump kijelentette, hogy az Egyesült Államok közel jár a kereskedelmi megállapodáshoz Kanadával. A tárgyalások egyik kulcskérdése a műtrágyára kivetett vám.",
+     "symbols": [],
+     "title": "Trump szerint az USA közel áll a kereskedelmi megállapodáshoz Kanadával; a műtrágyavámok is téma",
+     "url": "https://www.investing.com/news/economy-news/trump-says-us-close-to-canada-trade-deal-ferti",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T15:50:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CBS News",
+     "summary": "A CBS News szerint a Binance közlése alapján a nettó kiáramlás a tőzsde teljes eszközállományának csupán mintegy 3%-a. A kivonások a 6,3 milliárd dolláros feltörés utáni kifizetés-újraindítást követték.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A Binance ügyfelei 7,42 milliárd dollárt vontak ki a feltörés után",
+     "url": "https://www.cbsnews.com/news/binance-customers-withdraw-billions-crypto-hack/",
+     "verified": true
     }
    ],
    "markets": [
@@ -734,7 +819,7 @@
     }
    ],
    "summary": "Az ausztrál jegybank kamatot emelt, a megosztott szavazás szünetet vetít előre. Az ázsiai tőzsdék az újabb MI-vezérelt technológiai eladás miatt vegyesen mozogtak, az amerikai Dow 0,6%-ot nőtt, a technológiai szektor esett. Az olaj hétfőn több mint 7%-ot esett az iráni diplomáciai remények miatt, majd a WSJ értesülése szerint az USA újabb csapást mért Iránra. Az Apple és a Palantir a vártnál jobb negyedéves eredményt közölt, Kína a jüan erősödésének lassítására emeli a devizabetétek tartalékrátáját.",
-   "updatedAt": "2026-11-03T13:50:00Z",
+   "updatedAt": "2026-11-03T15:50:00Z",
    "watchlist": []
   },
   {
