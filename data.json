@@ -1,6 +1,342 @@
 {
- "builtAt": "2026-11-02T20:56:20Z",
+ "builtAt": "2026-11-03T06:56:25Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 3.",
+     "event": "AMD gyorsjelentés; USA félidős választások"
+    },
+    {
+     "date": "nov. 4.",
+     "event": "Eurózóna inflációs gyorsbecslés; ISM szolgáltatói PMI"
+    },
+    {
+     "date": "nov. 5.",
+     "event": "Bank of England kamatdöntés"
+    },
+    {
+     "date": "nov. 6.",
+     "event": "USA munkaerőpiaci jelentés"
+    }
+   ],
+   "date": "2026-11-03",
+   "generatedAt": "2026-11-03T07:20:00Z",
+   "headline": "Az RBA 18 éves csúcsra emelte a kamatot, az MI-technológiai eladási hullám és az olajár-ingadozás nyomja a piacokat; az Apple és a Palantir jobb eredményt közölt.",
+   "items": [
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az RBA a Reuters és az Investing.com szerint kamatot emelt, a kamatszint a 2008-as szintre ért. A bank élesen felfelé módosította az inflációs előrejelzéseit, a megosztott szavazás pedig a Reuters szerint szünetet vetít előre a következő üléseken.",
+     "symbols": [],
+     "title": "Az ausztrál jegybank (RBA) kamatot emelt, 18 éves csúcsra",
+     "url": "https://www.investing.com/news/economy-news/australias-central-bank-lifts-rates-to-18year-high-split-vote-points-to-pause-ahead-4993466",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Apple közleménye szerint a szeptemberi negyedév bevétele 114,5 milliárd dollár (+12%), a hígított egy részvényre jutó eredmény 2,10 dollár volt. Az ázsiai piacokon az Apple kilátásai ennek ellenére nyomták a hangulatot.",
+     "symbols": [
+      "AAPL"
+     ],
+     "title": "Az Apple eredménye felülmúlta a várakozásokat az erős iPhone-eladásoknak köszönhetően",
+     "url": "https://www.investing.com/news/stock-market-news/apple-results-beat-wall-street-expectationson-strong-iphone-sales-4992898",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "",
+     "source": "Palantir (SEC 8-K)",
+     "summary": "A cég 8-K közleménye szerint a 3. negyedéves bevétel 2,313 milliárd dollár (+96% éves alapon), az egy részvényre jutó eredmény 0,44 dollár. Az amerikai kereskedelmi bevétel először haladta meg az amerikai kormányzati bevételt.",
+     "symbols": [
+      "PLTR"
+     ],
+     "title": "A Palantir bevétele 96%-kal nőtt, első alkalommal haladta meg a 2 milliárd dollárt negyedévente",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com (Semafor)",
+     "summary": "A Roku a Yahoo Finance összefoglalója szerint a vártnál jobb negyedéves eredményt hozott a Fox általi felvásárlás előtt. A Semafor értesülése szerint az üzlet várhatóan átmegy az amerikai versenyhatósági vizsgálaton.",
+     "symbols": [
+      "ROKU"
+     ],
+     "title": "A Roku a vártnál jobb eredményt közölt; a Fox 22 milliárd dolláros felvásárlása a Semafor szerint átmehet az amerikai trösztvizsgálaton",
+     "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-apple-palantir-roku-and-more-212856249.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A cég 3. negyedéves jelentése szerint az éves alaposztalék 7,3%-kal, 4,72 dollárra nő; a negyedéves olajtermelés 525 ezer hordó/nap volt. A Yahoo Finance szerint a vállalat az éves termelési előrejelzését is emelte.",
+     "symbols": [
+      "FANG"
+     ],
+     "title": "A Diamondback Energy emelte az osztalékot és a termelési kilátást",
+     "url": "https://finance.yahoo.com/energy/articles/diamondback-energy-raises-dividend-2026-031118758.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A California Resources és a Carbon TerraVault nem kötelező érvényű szándéknyilatkozatot írt alá a Bloom Energyvel legalább 1 GW szilárdoxidos üzemanyagcellás áramtermelés és szén-dioxid-leválasztás fejlesztésének közös vizsgálatáról Kaliforniában. A BE részvénye a Stocktwits szerint a tőzsdezárás után emelkedett.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "A Bloom Energy és a California Resources 1 GW-os üzemanyagcellás együttműködést vizsgál",
+     "url": "https://stocktwits.com/news-articles/markets/equity/be-stock-rallies-after-hours-on-crc-tie-up-targeting-1-gw-of-fuel-cell-capacity/cNGQZE1R9Pw?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A várakozások szerint a Micron december 9-től növeli a visszavásárlásokat, amikor lejárnak a CHIPS-törvény korlátozásai. Az időzítés és a volumen nem megerősített, a vállalat nem vállalta a teljes engedélyezett keret felhasználását.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "A Micron a Yahoo Finance szerint decemberben jelentősen növelheti a részvényvisszavásárlást",
+     "url": "https://finance.yahoo.com/m/6e7d3557-4321-350c-8293-3d69906f37a5/micron-expected-to-launch.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A TheStreet beszámolója szerint a Morgan Stanley felemelte az Eli Lilly célárfolyamát, mert a Zepbound és a Mounjaro iránti kereslet nagyon erős. A részvény a cikk szerint a rekordcsúcs közelében jár; ez a Morgan Stanley véleménye, nem tény.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "A Morgan Stanley emelte az Eli Lilly célárát a Zepbound és a Mounjaro iránti kereslet miatt",
+     "url": "https://www.thestreet.com/investing/stocks/unprecedented-weight-loss-drug-craze-is-pushing-lilly-to-record-highs?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A ZachXBT blokklánc-nyomozó szerint egy meg nem nevezett uniós szervezet vasárnap több mint 106 millió dollárt vesztett központosított tőzsdei számlákról. A Decrypt beszámolója szerint a lopás napokkal a Binance elleni támadás után történt.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "Újabb, több mint 106 millió dolláros kriptolopás érte egy uniós szervezetet a Binance-hack után",
+     "url": "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · WSJ",
+     "summary": "A Wall Street Journal értesülése szerint az USA csapást mért Irán Kesm-szigetére, ezután az olaj ára emelkedett; a Portfolio címe szerint a tőzsdék estek. A hétfői, több mint 7%-os olajárzuhanást az iráni diplomáciai nyitás okozta, Trump közben a Reuters szerint kételyeit fejezte ki az újabb támadásokkal kapcsolatban.",
+     "symbols": [],
+     "title": "Az amerikai erők a WSJ szerint megtámadták Irán Kesm-szigetét, az olajár emelkedett",
+     "url": "https://www.investing.com/news/economy-news/us-struck-irans-qeshm-island-wsj-reports-4993361",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · AFP",
+     "summary": "Az AFP szerint az ázsiai részvénypiacok kedden nehezen találtak irányt a Wall Street-i újabb MI-vezérelt technológiai eladás után. Az olaj hétfői, több mint 7%-os esése és az iráni háború lezárására utaló jelek sem adtak támaszt; a befektetők az amerikai félidős választásokra figyelnek.",
+     "symbols": [],
+     "title": "Az ázsiai tőzsdék vegyesen mozogtak: az MI-technológiai eladási hullám elnyomta az olajárzuhanás hatását",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-down-ai-concerns-025549205.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Investing.com zárási összefoglalója szerint a Dow Jones 0,60%-kal emelkedett, a toronto-i S&P/TSX 0,73%-kal. A Reuters szerint az olajárzuhanás sem oldotta az MI-szektor körüli aggodalmakat, a technológiai eladás a globális részvényeket is visszahúzta.",
+     "symbols": [],
+     "title": "Az amerikai tőzsdék vegyesen zártak: a Dow 0,6%-ot nőtt, a technológiai szektor tovább esett",
+     "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-060-4992666",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters és az Investing.com szerint a kínai jegybank (PBOC) november 15-től 6%-ra emeli a devizabetétek tartalékrátáját a jüan erősödésének lassítására. A Yahoo Finance szerint a jüan a lépés után gyengült.",
+     "symbols": [],
+     "title": "Kína 6%-ra emeli a devizabetétek kötelezőtartalék-rátáját, hogy lassítsa a jüan erősödését",
+     "url": "https://www.investing.com/news/economy-news/china-hikes-forex-deposit-reserve-ratio-to-6-4993337",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters és az Investing.com szerint a dél-koreai fogyasztói árindex októberben a várakozásoknál kisebb ütemben nőtt, a főindex lassult. A Reuters szerint ez a várható kamatemelés előtt történt.",
+     "symbols": [],
+     "title": "A dél-koreai infláció októberben a vártnál kisebb volt",
+     "url": "https://www.investing.com/news/economic-indicators/south-korea-cpi-grows-less-than-expected-in-oct-4993229",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a Fed felmérése a vállalati hitelkereslet visszaesését mutatta az előző negyedévben.",
+     "symbols": [],
+     "title": "A Fed felmérése szerint az üzleti hitelkereslet gyengült az elmúlt negyedévben",
+     "url": "https://www.investing.com/news/economic-indicators/business-loan-demand-softened-last-quarter-fed-survey-shows-4992963",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "origin": "",
+     "source": "Portfolio.hu · MNB",
+     "summary": "A Portfolio az MNB felmérésére hivatkozva azt írja, hogy a lakosság pénzügyi optimizmusa csökkent, a hitelfelvételi kedv viszont négyéves csúcsra emelkedett. Az egy évre előretekintő árfolyam-várakozások mediánja 361 forint/euró.",
+     "symbols": [],
+     "title": "MNB-felmérés: csökkent a lakosság pénzügyi optimizmusa, négyéves csúcson a hitelfelvételi kedv",
+     "url": "https://www.portfolio.hu/bank/20261102/mnb-csokkent-a-magyar-lakossag-penzugyi-optimizmusa-viszont-negyeves-csucsra-ugrott-a-hitelfelveteli-kedv-873504",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · WSJ",
+     "summary": "A Wall Street Journal értesülése szerint a CVR Energy közel áll ahhoz, hogy mintegy 4 milliárd dollárért megvegye a Marathon finomítóit. Az üzletet hivatalosan nem jelentették be, külön megerősítést nem találtunk.",
+     "symbols": [
+      "CVI",
+      "MPC"
+     ],
+     "title": "A CVR Energy a WSJ szerint közel jár egy 4 milliárd dolláros üzlethez a Marathon finomítóiért",
+     "url": "https://www.investing.com/news/stock-market-news/cvr-energy-nears-4-bln-deal-for-marathon-refineries-wsj-4993499",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg értesülése szerint a Disney több ezer állás megszüntetésére készül, a vezetőket a Reuters összefoglalója szerint 20%-os költségcsökkentésre kérték. A vállalat hivatalosan nem erősítette meg.",
+     "symbols": [
+      "DIS"
+     ],
+     "title": "A Disney a Bloomberg szerint több ezer elbocsátás felé halad",
+     "url": "https://www.investing.com/news/stock-market-news/disney-moves-toward-thousands-of-job-cuts-bloomberg-reports-4993421",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com jelentése szerint az EVgo ajánlatot kapott az LS Powertől részvényenként 2 dolláros áron. Az ajánlatot külön forrás nem erősítette meg.",
+     "symbols": [
+      "EVGO"
+     ],
+     "title": "Az LS Power az Investing.com szerint 2 dolláros részvényenkénti felvásárlási ajánlatot tett az EVgóra",
+     "url": "https://www.investing.com/news/company-news/evgo-receives-2-per-share-buyout-proposal-from-ls-power-93CH-4992677",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg értesülése szerint a Children's Place a csődeljáráson belüli eladást vagy a felszámolást is fontolgatja. A vállalat nem erősítette meg.",
+     "symbols": [
+      "PLCE"
+     ],
+     "title": "A Children's Place a Bloomberg szerint csődös eladást vagy felszámolást is mérlegel",
+     "url": "https://www.investing.com/news/stock-market-news/childrens-place-weighs-bankruptcy-sale-or-liquidation-bloomberg-reports-4992670",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Grab az erős kiszállítási és fuvarmegosztási kereslet miatt feljebb vitte éves előrejelzéseit.",
+     "symbols": [
+      "GRAB"
+     ],
+     "title": "A Grab emelte 2026-os előrejelzéseit az erős kiszállítási és fuvarmegosztási kereslet miatt",
+     "url": "https://www.investing.com/news/stock-market-news/grab-holdings-boosts-2026-forecasts-on-strong-delivery-ridehailing-demand-4993190",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az Investing.com szerint a Pershing Square Inc. 3. negyedéves nettó vesztesége a kisebb teljesítménydíjak és a magasabb költségek miatt alakult ki, a visszatérő kezelési díjak növekedése ellenére.",
+     "symbols": [
+      "PS"
+     ],
+     "title": "Az Ackman-féle Pershing Square negyedéves veszteséget jelentett",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ackman-pershing-square-adds-seven-053601900.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A Motley Fool szerint november 2-án a CrowdStrike-partnerség hírét felülírták a tőkeáttétellel és az égetett készpénzzel kapcsolatos aggályok a jelentés előtt.",
+     "symbols": [
+      "CRWV"
+     ],
+     "title": "A CoreWeave árfolyama esett az adósságaggályok miatt a bejelentés után",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/02/stock-market-today-nov-2-coreweave-slides-on-debt-concerns-after-crowdstrike-partnership-expands/?.tsrc=rss",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "Az ausztrál jegybank kamatot emelt, a megosztott szavazás szünetet vetít előre. Az ázsiai tőzsdék az újabb MI-vezérelt technológiai eladás miatt vegyesen mozogtak, az amerikai Dow 0,6%-ot nőtt, a technológiai szektor esett. Az olaj hétfőn több mint 7%-ot esett az iráni diplomáciai remények miatt, majd a WSJ értesülése szerint az USA újabb csapást mért Iránra. Az Apple és a Palantir a vártnál jobb negyedéves eredményt közölt, Kína a jüan erősödésének lassítására emeli a devizabetétek tartalékrátáját.",
+   "updatedAt": "2026-11-03T07:20:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -6053,7 +6389,7 @@
    "id": "2026-11-02-us-ism-mfg"
   },
   {
-   "actual": "",
+   "actual": "EPS 2,10 $ / bevétel 114,5 Mrd $",
    "country": "US",
    "date": "2026-11-02",
    "event": "Apple gyorsjelentés, pénzügyi 4. negyedév",
@@ -6061,14 +6397,16 @@
    "importance": 2,
    "note": "Konszenzus: Earnings Whispers (a TipRanks EPS 1,99 $ / bevétel 113,2 Mrd $-t közöl); a vállalati irányadás EPS 1,91–2,04 $, bevétel 111,7–113,7 Mrd $. Zárás után; a dátumot az Apple még nem erősítette meg hivatalosan.",
    "previous": "",
-   "source": "Sentisense, CME Group",
+   "source": "Sentisense, CME Group, Apple (SEC 8-K)",
+   "surprise": "beat",
+   "surpriseNote": "EPS +5,0% a vártnál (2,10 $ a ~2,00 $-ral szemben; 0,05 $ vámvisszatérítés hatásával), bevétel +1,4%",
    "time": "",
    "type": "Gyorsjelentés",
    "url": "https://www.cmelitegroup.com/knowledge-hub/earnings-calendar/",
    "id": "2026-11-02-us-aapl-earnings"
   },
   {
-   "actual": "",
+   "actual": "EPS 0,44 $ / bevétel 2,313 Mrd $",
    "country": "USA",
    "date": "2026-11-02",
    "event": "Palantir gyorsjelentés, 3. negyedév",
@@ -6076,7 +6414,9 @@
    "importance": 2,
    "note": "Konszenzus: TipRanks (a Zacks bevételt 2,17 Mrd $-ra becsüli). Zárás után.",
    "previous": "",
-   "source": "TipRanks, Zacks, Yahoo Finance",
+   "source": "TipRanks, Zacks, Palantir (SEC 8-K)",
+   "surprise": "beat",
+   "surpriseNote": "EPS +7,3% a vártnál, bevétel +6,1% (konszenzus 0,41 $ / ~2,18 Mrd $)",
    "symbols": [
     "PLTR"
    ],
@@ -6086,13 +6426,13 @@
    "id": "2026-11-02-us-pltr-earnings"
   },
   {
-   "actual": "",
+   "actual": "Kamatemelés (18 éves csúcs)",
    "country": "Ausztrália",
    "date": "2026-11-03",
    "event": "RBA (Ausztrál jegybank) kamatdöntés",
    "forecast": "",
    "importance": 3,
-   "note": "Az alapkamat szeptemberben 4,60%-ra emelkedett; a piaci várakozások megoszlanak a 25 bp-os emelésről (4,85%)",
+   "note": "Az alapkamat szeptemberben 4,60%-ra emelkedett; a Reuters és az Investing.com szerint az RBA ma kamatot emelt, a megosztott szavazás szünetet vetít előre",
    "previous": "4,60%",
    "source": "RBA / financecalendar.com / forexfundamentals.com",
    "symbols": [],
