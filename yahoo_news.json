@@ -1,7 +1,72 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-03T00:09:36Z",
+ "updatedAt": "2026-11-03T01:02:21Z",
  "items": [
+  {
+   "title": "Why GE Vernova Stock Crept Higher on Monday",
+   "link": "https://www.fool.com/investing/2026/11/02/why-ge-vernova-stock-crept-higher-on-monday/?.tsrc=rss",
+   "published": "2026-11-03T00:36:10Z",
+   "publisher": "",
+   "summary": "It was mentioned positively in a new research note on AI infrastructure stocks.",
+   "symbols": []
+  },
+  {
+   "title": "Trezor CEO says Bitcoin ETFs aren't the same as owning Bitcoin",
+   "link": "https://www.thestreet.com/crypto/markets/trezor-ceo-says-bitcoin-etfs-arent-the-same-as-owning-bitcoin?.tsrc=rss",
+   "published": "2026-11-03T00:30:00Z",
+   "publisher": "",
+   "summary": "Trezor CEO Matěj Žák says Bitcoin ETFs offer convenience but leave investors without control.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "S&P 500, Nasdaq Drop As Capex Concerns Grip Tech Investors, Outweighing US-Iran Diplomacy Hope — ORCL, META, PLTR, AAPL In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-drop-as-capex-concerns-grip-tech-investors-outweighing-us-iran-diplomacy-hope/cNGQZKqR9PD?.tsrc=rss",
+   "published": "2026-11-03T00:22:35Z",
+   "publisher": "",
+   "summary": "The U.S. midterm elections will be held on Tuesday.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Should Strong Earnings And Dividend Approval Require Action From Buenaventura Stock Investors?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/strong-earnings-dividend-approval-require-001621478.html",
+   "published": "2026-11-03T00:16:21Z",
+   "publisher": "",
+   "summary": "Compañía de Minas BuenaventuraA reported third quarter 2026 revenue of US$545.33 million and net income of US$245.09 million, alongside a board approved dividend of US$0.5508 per share or ADS. The combination of higher year on year earnings and a specific cash dividend per share reflects management’s focus on translating recent performance into direct cash distributions to holders. Investors can n",
+   "symbols": []
+  },
+  {
+   "title": "BE Stock Rallies After-Hours On CRC Tie-Up Targeting 1GW Of Fuel-Cell Capacity",
+   "link": "https://stocktwits.com/news-articles/markets/equity/be-stock-rallies-after-hours-on-crc-tie-up-targeting-1-gw-of-fuel-cell-capacity/cNGQZE1R9Pw?.tsrc=rss",
+   "published": "2026-11-03T00:10:42Z",
+   "publisher": "",
+   "summary": "California Resources and Carbon TerraVault signed a non-binding MoU with Bloom Energy to jointly evaluate developing 1 gigawatt or more of solid-oxide fuel cell power generation paired with carbon capture and permanent storage in California.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "“Buy chips on dips”: Top tech stocks to buy (and which to avoid)",
    "link": "https://www.thestreet.com/video/buy-chips-on-dips-top-tech-stock-to-buy-and-which-to-avoid?.tsrc=rss",
@@ -17,12 +82,12 @@
    "publisher": "",
    "summary": "Anthropic’s amended S-1 shows revenue still growing at a breakneck pace, but sequential growth fell from 144% in Q2 to about 47% in Q3. Is that an early sign its pricing power is slipping ahead of a possible $1.5 trillion IPO?",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -41,12 +106,12 @@
    "publisher": "",
    "summary": "Get ready for a volatile ride.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -60,11 +125,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -77,12 +142,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "Chevron & Exxon Mobil Stocks Retreat From 52-Week Highs: Buy the Dip?",
+   "link": "https://finance.yahoo.com/energy/articles/chevron-exxon-mobil-stocks-retreat-231700413.html",
+   "published": "2026-11-02T23:17:00Z",
+   "publisher": "",
+   "summary": "With Chevron and Exxon stock both up nearly 50% year to date, investors may be wondering whether the pullback presents a buying opportunity.",
+   "symbols": []
   },
   {
    "title": "Top 3 Canadian Dividend Stocks To Watch In November 2026",
@@ -427,12 +500,12 @@
    "publisher": "",
    "summary": "Key TakeawaysOn Oct. 30, Elon Musk posted that orbital compute added each month will probably pass ground-based compute around the end of 2028 and far exceed it in 2029.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3192,79 +3265,6 @@
    "publisher": "",
    "summary": "(Updates with additional information in the the sixth to eighth paragraphs, and the recent stock mov",
    "symbols": []
-  },
-  {
-   "title": "JPMorgan's shocking capital expenditures estimates for Amazon, and worries for McDonald's ahead",
-   "link": "https://finance.yahoo.com/video/jpmorgans-shocking-capital-expenditures-estimates-for-amazon-and-worries-for-mcdonalds-ahead-151240797.html",
-   "published": "2026-11-02T15:12:40Z",
-   "publisher": "",
-   "summary": "Yahoo Finance Executive Editor Brian Sozzi breaks down all the top headlines of the trading day, including how hyperscalers have gotten \"silly cheap,\" Nvidia's (NVDA) \"unbelievable\" valuation, and why McDonald's (MCD) earnings should have investors worried. Sozzi also sits down with the Founder & CEO of JC2 Ventures and Former Cisco Executive Chairman & CEO John Chambers to discuss the current sta",
-   "symbols": []
-  },
-  {
-   "title": "SpaceX Launch Customer Varda Says a Single Flight Could Help Make Medicine for Millions",
-   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62781771/varda-space-medicine?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-   "published": "2026-11-02T15:09:31Z",
-   "publisher": "",
-   "summary": "A single spaceflight could help make medicine for millions of patients, Michael Reilly, chief strategy officer of Varda Space Industries, told Benzinga in an exclusive interview.The $1.6 billion startup manufactures drug crystals in orbit and brings them back to Earth....",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 Dividend Stocks To Own In November 2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-own-november-150902025.html",
-   "published": "2026-11-02T15:09:02Z",
-   "publisher": "",
-   "summary": "With oil prices forecast by Goldman Sachs to average US$105 per barrel in December, cash flow is front of mind again for income seekers. Higher energy and living costs can make each dividend cheque feel more valuable, especially when bond yields move around and growth stories look fragile. This article walks through three higher yielding companies that combine 3%+ income with covered, steady and g",
-   "symbols": []
-  },
-  {
-   "title": "How Bitcoin Looks Heading Into a High-Stakes US Midterm Election Week",
-   "link": "https://beincrypto.com/bitcoin-outlook-us-midterm-elections-2026/?.tsrc=rss",
-   "published": "2026-11-02T15:05:56Z",
-   "publisher": "",
-   "summary": "Bitcoin faces a critical week as US midterm elections approach. ETF outflows hit $643 million, raising concerns over BTC price volatility.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Apple Stock Opens Slightly Lower Ahead of Earnings",
-   "link": "https://finance.yahoo.com/m/5931b239-662f-33fb-b5be-c1b3df4c9b14/apple-stock-opens-slightly.html",
-   "published": "2026-11-02T15:05:50Z",
-   "publisher": "",
-   "summary": "Shares of Apple opened in the red ahead of the company’s fourth-quarter earnings release, due after the market close today.",
-   "symbols": []
-  },
-  {
-   "title": "JPMorgan has some explosive capex estimates for Amazon — and investors are uncomfortable",
-   "link": "https://finance.yahoo.com/video/jpmorgan-has-some-explosive-capex-estimates-for-amazon--and-investors-are-uncomfortable-150514815.html",
-   "published": "2026-11-02T15:05:14Z",
-   "publisher": "",
-   "summary": "Yahoo Finance Executive Editor Brian Sozzi outlines JPMorgan's recent predictions about Amazon's (AMZN) capex acceleration, highlighting how investors are reacting.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
