@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-03T08:55:46Z",
+ "builtAt": "2026-11-03T09:55:42Z",
  "digests": [
   {
    "calendar": [
@@ -91,7 +91,7 @@
      "category": "Figyelőlista",
      "impact": "pozitív",
      "origin": "yahoo",
-     "source": "Yahoo Finance · Stocktwits",
+     "source": "Yahoo Finance · StockTwits · Stocktwits",
      "summary": "A California Resources és a Carbon TerraVault nem kötelező érvényű szándéknyilatkozatot írt alá a Bloom Energyvel legalább 1 GW szilárdoxidos üzemanyagcellás áramtermelés és szén-dioxid-leválasztás fejlesztésének közös vizsgálatáról Kaliforniában. A BE részvénye a Stocktwits szerint a tőzsdezárás után emelkedett.",
      "symbols": [
       "BE"
@@ -390,7 +390,7 @@
      "category": "Figyelőlista",
      "impact": "semleges",
      "origin": "yahoo",
-     "source": "Yahoo Finance · Stocktwits",
+     "source": "Yahoo Finance · StockTwits · Stocktwits",
      "summary": "A Stocktwits szerint az Apple vezetői jelezték, hogy a memóriaárak jövőre is emelkednek. Az Apple részvénye ezért esett, a Micron és a SanDisk kissé emelkedett.",
      "symbols": [
       "AAPL",
@@ -412,6 +412,109 @@
      "title": "Közgazdászok szerint a brit gazdaság recessziós kockázata jelentős, ha az MI-boom lassul",
      "url": "https://uk.finance.yahoo.com/news/britain-faces-substantial-threat-recession-080000285.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T09:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Marvell részvénycserés ügyletben vásárolja meg a Lumentumot, részvényenként 4,5 Marvell-részvényt kínálva; a cégek közleménye szerint a Marvell-részvényesek az egyesült cég kb. 67%-át birtokolnák. A Lumentum árfolyama mintegy 19%-ot esett, a Marvellé a hígulási aggályok miatt csökkent.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A Marvell 115 milliárd dollárért felvásárolja a Lumentumot, a Marvell árfolyama esett",
+     "url": "https://finance.yahoo.com/m/0ee5649c-52d4-3454-b116-25d3ec20239f/marvell-to-buy-lumentum-for.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T09:45:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a tőzsde több eszközön és hálózaton újra engedélyezi a kifizetéseket a múlt heti, rekordnagyságú támadás után. A társ-vezérigazgató szerint a cég pénzügyi helyzete erős.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Binance újraindítja a kifizetéseket a 6,3 milliárd dolláros feltörés után",
+     "url": "https://www.investing.com/news/economy-news/binance-to-reopen-withdrawals-for-more-assets-on-several-networks-4993418",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T09:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az Investing.com szerint a Bitcoin kedden egyhavi mélypontra csökkent a félidős választások utáni amerikai szabályozási bizonytalanság miatt. Az árfolyamot a Binance-feltörés is nyomja.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Bitcoin több mint egyhavi mélypontra, 76 500 dollár közelébe esett",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slips-over-1-mth-071110766.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T09:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · StockTwits · Washington Post (értesülés)",
+     "summary": "A lap értesülése szerint a SpaceX az EchoStar Boost Mobile nevű szolgáltatójának megvásárlását vagy hálózatának használatát tárgyalta. A hír az AST SpaceMobile árfolyamát mintegy 11%-kal letörte.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Washington Post szerint a SpaceX tárgyalt az EchoStar Boost Mobile-járól; az AST SpaceMobile 11%-ot esett",
+     "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-dives-11-as-space-x-reportedly-eyes-echo-star-s-boost-mobile/cNGaJbzR9Ps?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T09:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Yahoo Finance és az Investing.com szerint az Aramco profitja a magasabb olajárak és egy közös vállalati eladás miatt a vártnál jobban emelkedett, annak ellenére, hogy a kiszállításokat támadások zavarták.",
+     "symbols": [],
+     "title": "A Saudi Aramco harmadik negyedéves profitja 35%-kal nőtt",
+     "url": "https://finance.yahoo.com/energy/articles/aramco-q3-profit-rises-more-061301506.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · StockTwits · Benzinga (értesülés)",
+     "summary": "Az értesülés szerint az Nvidia részvénye a négy napos esés után kissé emelkedett. A hír forrása a Benzinga; független megerősítést nem találtunk.",
+     "symbols": [],
+     "title": "Hírek szerint az Nvidia arra kérte felhőszolgáltató ügyfeleit, korlátozzák kínai kitettségüket",
+     "url": "https://stocktwits.com/news-articles/markets/equity/nvda-shares-inch-higher-overnight-after-4-day-rout-chipmaker-reportedly-tells-cloud-clients-to-reduce-china-exposure/cNGQy3nR95h?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-03T09:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters és az Investing.com szerint a hongkongi GDP éves alapon 5,2%-kal bővült a harmadik negyedévben, meghaladva az elemzői várakozást.",
+     "symbols": [],
+     "title": "Hongkong gazdasága a harmadik negyedévben 5,2%-kal nőtt, a várakozás felett",
+     "url": "https://www.investing.com/news/stock-market-news/hong-kong-economy-grows-52-in-third-quarter-beats-forecasts-93CH-4993921",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-03T09:45:00Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio.hu",
+     "summary": "A Portfolio szerint a forint kedd reggel mérsékelten gyengült: az euró árfolyama a hajnali kb. 354,5-ről 365 forint közelébe emelkedett.",
+     "symbols": [],
+     "title": "Gyengüléssel kezdte a napot a forint",
+     "url": "https://www.portfolio.hu/deviza/20261103/gyengulessel-kezdte-a-napot-a-forint-873812",
+     "verified": false
     }
    ],
    "markets": [
@@ -438,7 +541,7 @@
     }
    ],
    "summary": "Az ausztrál jegybank kamatot emelt, a megosztott szavazás szünetet vetít előre. Az ázsiai tőzsdék az újabb MI-vezérelt technológiai eladás miatt vegyesen mozogtak, az amerikai Dow 0,6%-ot nőtt, a technológiai szektor esett. Az olaj hétfőn több mint 7%-ot esett az iráni diplomáciai remények miatt, majd a WSJ értesülése szerint az USA újabb csapást mért Iránra. Az Apple és a Palantir a vártnál jobb negyedéves eredményt közölt, Kína a jüan erősödésének lassítására emeli a devizabetétek tartalékrátáját.",
-   "updatedAt": "2026-11-03T08:45:00Z",
+   "updatedAt": "2026-11-03T09:45:00Z",
    "watchlist": []
   },
   {
