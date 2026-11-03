@@ -1,7 +1,121 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-02T23:15:50Z",
+ "updatedAt": "2026-11-03T00:09:36Z",
  "items": [
+  {
+   "title": "“Buy chips on dips”: Top tech stocks to buy (and which to avoid)",
+   "link": "https://www.thestreet.com/video/buy-chips-on-dips-top-tech-stock-to-buy-and-which-to-avoid?.tsrc=rss",
+   "published": "2026-11-02T23:58:14Z",
+   "publisher": "",
+   "summary": "Is the tech selloff a warning sign or a massive buying opportunity? Pence Capital CIO Dryden Pence explains why you should be buying “chips on dips” and reveals the 6 AI and semiconductor stocks to scoop up right now—plus the stock to avoid.",
+   "symbols": []
+  },
+  {
+   "title": "Anthropic Just Released Updated Numbers Ahead of Its Nov. IPO. Revenue Growth Slowed Sharply.",
+   "link": "https://www.fool.com/investing/2026/11/02/anthropic-just-released-updated-numbers-ahead-of-its-nov-ipo-its-operating-profit-vanished/?.tsrc=rss",
+   "published": "2026-11-02T23:40:02Z",
+   "publisher": "",
+   "summary": "Anthropic’s amended S-1 shows revenue still growing at a breakneck pace, but sequential growth fell from 144% in Q2 to about 47% in Q3. Is that an early sign its pricing power is slipping ahead of a possible $1.5 trillion IPO?",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Energy ETFs Returned More Than 62% Over the Past Year. These 3 Charge as Little as 0.08%",
+   "link": "https://247wallst.com/investing/etf/2026/11/02/energy-etfs-returned-more-than-62-over-the-past-year-these-3-charge-as-little-as-0-08/?.tsrc=rss",
+   "published": "2026-11-02T23:33:09Z",
+   "publisher": "",
+   "summary": "Energy ETFs crushed the S&P 500 over the past year, but the path included a brutal crude oil collapse before prices surged past $100 a barrel. Three funds chasing the same rally charge wildly different fees, and that gap matters more than it seems.",
+   "symbols": []
+  },
+  {
+   "title": "Prediction: This Will Be SpaceX’s Stock Price by the End of 2027",
+   "link": "https://www.fool.com/investing/2026/11/02/prediction-this-will-be-spacex-s-stock-price-by-the-end-of-2027/?.tsrc=rss",
+   "published": "2026-11-02T23:27:02Z",
+   "publisher": "",
+   "summary": "Get ready for a volatile ride.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Could XRP Hit $5 Before Bitcoin Reaches $200,000? ChatGPT Weighs In",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/02/could-xrp-hit-5-before-bitcoin-reaches-200000-chatgpt-weighs-in/?.tsrc=rss",
+   "published": "2026-11-02T23:23:37Z",
+   "publisher": "",
+   "summary": "XRP needs a 300% gain while Bitcoin needs less than half that, yet ChatGPT gives Bitcoin the edge on timing. The math behind which milestone gets hit first reveals a surprising tension between percentage gains, market caps, and institutional money.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Eli Lilly Stock: Is It Still a Buy at $1,400?",
+   "link": "https://www.fool.com/investing/2026/11/02/eli-lilly-stock-is-it-still-a-buy-at-1-400/?.tsrc=rss",
+   "published": "2026-11-02T23:20:02Z",
+   "publisher": "",
+   "summary": "The company just released some incredible quarterly results, but its valuation is also fairly high.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Top 3 Canadian Dividend Stocks To Watch In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-dividend-stocks-231645464.html",
+   "published": "2026-11-02T23:16:45Z",
+   "publisher": "",
+   "summary": "Oil market forecasts are back in focus after Goldman Sachs projected Brent crude at an average of $105 per barrel in December, with prices staying elevated next year. Higher energy costs can squeeze household budgets, so reliable cash payouts from Canadian dividend stocks become more attractive. This article walks through three high yielding companies with dividends above 3% that aim to combine in",
+   "symbols": []
+  },
+  {
+   "title": "3 British Value Stocks To Own In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-british-value-stocks-own-231535345.html",
+   "published": "2026-11-02T23:15:35Z",
+   "publisher": "",
+   "summary": "Goldman Sachs now expects Brent crude to average $105 per barrel in December, which keeps pressure on inflation and interest rates and makes dependable cash generation more valuable for investors. When money is no longer cheap, solid free cash flow and a discounted share price can be a powerful combination. This article highlights three United Kingdom listed companies that appear underpriced based",
+   "symbols": []
+  },
+  {
+   "title": "3 Oil And Gas Stocks For Investors Watching Lower Crude Prices",
+   "link": "https://finance.yahoo.com/energy/articles/3-oil-gas-stocks-investors-231513893.html",
+   "published": "2026-11-02T23:15:13Z",
+   "publisher": "",
+   "summary": "Oil prices just dropped sharply on renewed US and Iran talks, yet long term forecasts still point to elevated crude and persistent supply risk. That mix of cheaper entry points today and potentially higher input costs ahead creates a fork in the road for investors who care about inflation, rates and energy exposure. This article walks through three global integrated oil and gas producers most expo",
+   "symbols": []
+  },
+  {
+   "title": "Is Equinox Gold (TSX:EQX) Reasonable, Or Are Earnings Looking Stretched?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/equinox-gold-tsx-eqx-reasonable-231313873.html",
+   "published": "2026-11-02T23:13:13Z",
+   "publisher": "",
+   "summary": "Equinox Gold has given long term holders a striking 3 year run, yet the recent pullback and shifting sector mood raise a sharper question about whether the current share price lines up with the earnings that support it. With gold miners under pressure since the Iran conflict and gold prices softening, investors are again asking how much earnings power this stock is really pricing in. Over the past",
+   "symbols": []
+  },
   {
    "title": "Marvell To Buy Lumentum For $115 Billion, Creating AI Connectivity Leader",
    "link": "https://finance.yahoo.com/m/0ee5649c-52d4-3454-b116-25d3ec20239f/marvell-to-buy-lumentum-for.html",
@@ -12,11 +126,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -34,12 +148,12 @@
    "publisher": "",
    "summary": "The largest university endowments in the US are reporting their highest returns since 2021, off the back of SpaceX’s $1.76 trillion IPO in June and gains in public equities. Top university endowments such as Harvard, Stanford, the University of North Carolina, and Washington University in St. Louis saw their returns more than double year-over-year. It’s welcome relief for these institutions, many ",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -102,11 +216,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -127,11 +241,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -144,11 +258,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -158,12 +272,12 @@
    "publisher": "",
    "summary": "The country’s largest university endowments are reporting the strongest returns since 2021, driven in large part by early exposure to SpaceX and other AI-linked companies. The private aerospace company’s $1.76 trillion IPO in June, coupled with strong gains in public equities, locked in large one-year gains, according to data compiled for PitchBook’s university endowment return tracker, which trac",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -177,11 +291,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -190,6 +304,38 @@
    "published": "2026-11-02T22:15:08Z",
    "publisher": "",
    "summary": "Oil and gas producer Crescent Energy (NYSE:CRGY) reported Q3 2026 results beating Wall Street’s revenue expectations, with revenue up 55.9% year on year to $1.35 billion. Its non-GAAP profit of $0.77 per share was 27.4% above analysts’ consensus estimates.",
+   "symbols": []
+  },
+  {
+   "title": "AeroVironment (AVAV) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/aerovironment-avav-sees-more-significant-221502591.html",
+   "published": "2026-11-02T22:15:02Z",
+   "publisher": "",
+   "summary": "AeroVironment (AVAV) reached $123.08 at the closing of the latest trading day, reflecting a -2.4% change compared to its last close.",
+   "symbols": []
+  },
+  {
+   "title": "Dollar General (DG) Advances While Market Declines: Some Information for Investors",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-dg-advances-while-221502498.html",
+   "published": "2026-11-02T22:15:02Z",
+   "publisher": "",
+   "summary": "Dollar General (DG) closed at $135.78 in the latest trading session, marking a +2.63% move from the prior day.",
+   "symbols": []
+  },
+  {
+   "title": "Intrusion Inc. (INTZ) Falls More Steeply Than Broader Market: What Investors Need to Know",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/intrusion-inc-intz-falls-more-221502874.html",
+   "published": "2026-11-02T22:15:02Z",
+   "publisher": "",
+   "summary": "In the latest trading session, Intrusion Inc. (INTZ) closed at $0.56, marking a -3.62% move from the previous day.",
+   "symbols": []
+  },
+  {
+   "title": "Rocket Lab Corporation (RKLB) Declines More Than Market: Some Information for Investors",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-corporation-rklb-declines-221502510.html",
+   "published": "2026-11-02T22:15:02Z",
+   "publisher": "",
+   "summary": "Rocket Lab Corporation (RKLB) concluded the recent trading session at $52.07, signifying a -4.86% move from its prior day's close.",
    "symbols": []
   },
   {
@@ -251,11 +397,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -264,6 +410,22 @@
    "published": "2026-11-02T22:10:24Z",
    "publisher": "",
    "summary": "Trump and Jim Cramer defend SpaceX as Musk eyes Boost Mobile. Here is what could move SpaceX stock next.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Musk: Ground Data Centers Will Be “Peanuts Compared to Orbital Compute” by 2029",
+   "link": "https://www.tikr.com/blog/musk-ground-data-centers-will-be-peanuts-compared-to-orbital-compute-by-2029?ref=yahoofinance&tlnk=yf-261102-7qhv8g64&.tsrc=rss",
+   "published": "2026-11-02T22:08:11Z",
+   "publisher": "",
+   "summary": "Key TakeawaysOn Oct. 30, Elon Musk posted that orbital compute added each month will probably pass ground-based compute around the end of 2028 and far exceed it in 2029.",
    "symbols": [
     "SPCX",
     "BE",
@@ -362,12 +524,12 @@
    "publisher": "",
    "summary": "Prediction markets favor a Democratic sweep. Here are four energy stocks to watch if Democrats win both chambers or Republicans hold the Senate.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3094,194 +3256,6 @@
    "published": "2026-11-02T15:05:14Z",
    "publisher": "",
    "summary": "Yahoo Finance Executive Editor Brian Sozzi outlines JPMorgan's recent predictions about Amazon's (AMZN) capex acceleration, highlighting how investors are reacting.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "‘They sell the big hot dogs’: The companies that hyperscalers trail in valuations",
-   "link": "https://finance.yahoo.com/video/sell-big-hot-dogs-companies-150500685.html",
-   "published": "2026-11-02T15:05:00Z",
-   "publisher": "",
-   "summary": "Yahoo Finance Executive Editor Brian Sozzi walks through a chart showing Microsoft (MSFT), Amazon (AMZN), Alphabet (GOOGL) (GOOG), Meta (META), and Oracle (ORCL) trading at lower forward P/E multiples than consumer staples and retailers like Costco (COST), Walmart (WMT), Coca-Cola (KO), and Home Depot (HD).",
-   "symbols": []
-  },
-  {
-   "title": "‘Marking Their Calendar Until November 3rd.’ Tom Lee Says Investors Waiting To Buy The Dip After The Nasdaq 100’s Worst Month Since March 2025",
-   "link": "https://247wallst.com/investing/2026/11/02/marking-their-calendar-until-november-3rd-tom-lee-says-investors-waiting-to-buy-the-dip-after-the-nasdaq-100s-worst-month-since-march-2025/?.tsrc=rss",
-   "published": "2026-11-02T15:04:24Z",
-   "publisher": "",
-   "summary": "Fundstrat’s Tom Lee believes dip buyers are waiting for a specific date. “I think people are going to plan to buy the dip,” Lee said. “But as strange as it sounds, I think people are marking their calendar until November 3rd.” He made the comment to CNBC on Friday, Oct. 30, according to Stocktwits’ account […]",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Binance bleeds $6B after record hack",
-   "link": "http://videos.coindesk.com/previews/r0lUxtVI?.tsrc=rss",
-   "published": "2026-11-02T15:03:04Z",
-   "publisher": "",
-   "summary": "More than $6 billion in crypto flowed out of Binance-linked wallets in the first 24 hours after the exchange reopened withdrawals, following a record hack that stole roughly $6.3 billion. Rival exchanges OKX and Bybit absorbed hundreds of millions in the shuffle. CoinDesk’s Jennifer Sanasie hosts “CoinDesk Daily.”",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Canada Commodities: Oil Prices Drop After Rubio Says President Trump Prefers Diplomatic Solution With Iran",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-drop-150102169.html",
-   "published": "2026-11-02T15:01:02Z",
-   "publisher": "",
-   "summary": "Crude oil prices fell 6% Monday despite continued attacks on ships, after US Secretary of State Marc",
-   "symbols": []
-  },
-  {
-   "title": "Stocks rebound as oil prices sink, Anthropic releases Q3 financials: AlphaCheck",
-   "link": "https://finance.yahoo.com/markets/article/stocks-rebound-as-oil-prices-ease-anthropic-releases-3rd-quarter-financials-alphacheck-150044554.html",
-   "published": "2026-11-02T15:00:44Z",
-   "publisher": "",
-   "summary": "Stocks rebounded on Monday following a brutal sell-off in tech.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "BC-Gold Futures",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-150031279.html",
-   "published": "2026-11-02T15:00:31Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — Prices as of 10:00:00 AM Monday, November 02.Contract Open High Low Last Change Today's Volume Friday's Volume Nov 26 3884.",
-   "symbols": []
-  },
-  {
-   "title": "BC-Crude Oil Futures",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-crude-oil-futures-150024498.html",
-   "published": "2026-11-02T15:00:24Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — Prices as of 10:00:00 AM Monday, November 02.Light Sweet Crude (NYMX)1,000 bbl.",
-   "symbols": []
-  },
-  {
-   "title": "Record Resources hires Research Capital to explore ways to maximize shareholder value",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101079/record-resources-hires-research-capital-to-explore-ways-to-maximize-shareholder-value-1101079.html?.tsrc=rss",
-   "published": "2026-11-02T15:00:00Z",
-   "publisher": "",
-   "summary": "Record Resources Inc (TSX-V:REC) has appointed Research Capital Corporation as its exclusive financial advisor to explore ways to maximize shareholder value, after receiving unsolicited expressions of interest from multiple parties. The company said it will evaluate the interest in its...",
-   "symbols": []
-  },
-  {
-   "title": "Nicola Mining Finishes Its 2026 Mining Campaign at the Dominion Creek Gold Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/nicola-mining-finishes-2026-mining-145859701.html",
-   "published": "2026-11-02T14:58:59Z",
-   "publisher": "",
-   "summary": "Nicola Mining (NIM.V) completed its 2026 mining campaign at the Dominion Creek Gold Project in centr",
-   "symbols": []
-  },
-  {
-   "title": "Why RELX PLC (RELX) Could Benefit From AI Rather Than Fear It?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-relx-plc-relx-could-145843326.html",
-   "published": "2026-11-02T14:58:43Z",
-   "publisher": "",
-   "summary": "Fiduciary Management Inc. (FMI), an independent money management firm, released its second-quarter 2026 investor letter. The letter can be downloaded here. The letter argues that markets posted modest Q3 gains, but rising rates, oil prices, and leverage drove a sharp decline in small-cap stocks. It cautions that elevated valuations, extreme investor optimism, and heavy S&P […]",
-   "symbols": []
-  },
-  {
-   "title": "Cipher Digital Falls 5% on Revenue Miss and Keefe Bruyette Target Cut; TeraWulf and IREN Drop 4%",
-   "link": "https://247wallst.com/investing/2026/11/02/cipher-digital-falls-5-on-revenue-miss-and-keefe-bruyette-target-cut-terawulf-and-iren-drop-4/?.tsrc=rss",
-   "published": "2026-11-02T14:55:17Z",
-   "publisher": "",
-   "summary": "Keefe Bruyette just slashed Cipher Digital's price target by more than half, and a revenue miss is adding fuel to a stock that has already lost more than half its value in a single month. Whether the AI landlord model survives this stress test depends on a tight window of deadlines that could break either way.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Oracle upgraded, Reddit downgraded: Wall Street's top analyst calls",
-   "link": "https://finance.yahoo.com/news/oracle-nike-upgraded-wall-streets-134055988.html",
-   "published": "2026-11-02T14:55:07Z",
-   "publisher": "",
-   "summary": "Oracle upgraded, Reddit downgraded: Wall Street's top analyst calls",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "CDW Corp. (CDW): Positioned to Enable the AI Infrastructure Boom",
-   "link": "https://finance.yahoo.com/technology/ai/articles/cdw-corp-cdw-positioned-enable-145139444.html",
-   "published": "2026-11-02T14:51:39Z",
-   "publisher": "",
-   "summary": "Fiduciary Management Inc. (FMI), an independent money management firm, released its second-quarter 2026 investor letter. The letter can be downloaded here. The letter argues that markets posted modest Q3 gains, but rising rates, oil prices, and leverage drove a sharp decline in small-cap stocks. It cautions that elevated valuations, extreme investor optimism, and heavy S&P […]",
-   "symbols": []
-  },
-  {
-   "title": "Stock Market Today: Dow Rallies 400 Points As Oil Prices Dive; Apple Falls Ahead Of Earnings (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/d2c3bbee-4bc3-3931-9b35-8ffcd691e60c/stock-market-today%3A-dow.html",
-   "published": "2026-11-02T14:51:31Z",
-   "publisher": "",
-   "summary": "The Dow Jones index rallies 400 points Monday as oil prices dive below $98 a barrel. Apple stock falls ahead of earnings.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SpaceX–Boost Mobile: A look at Elon Musk's unique vision for mobile connectivity",
-   "link": "https://finance.yahoo.com/video/spacexboost-mobile-a-look-at-elon-musks-unique-vision-for-mobile-connectivity-145104894.html",
-   "published": "2026-11-02T14:51:04Z",
-   "publisher": "",
-   "summary": "Bullseye American Ingenuity Fund portfolio manager Adam Johnson sits down with The 8:30 Hosts Pras Subramanian and Jake Conley to discuss the latest headlines on SpaceX (SPCX).",
    "symbols": [
     "BE",
     "DFEN",
