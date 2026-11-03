@@ -1,7 +1,81 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-03T04:55:01Z",
+ "updatedAt": "2026-11-03T05:55:29Z",
  "items": [
+  {
+   "title": "Bill Ackman's Pershing Square Says Wall Street Is 'Penalizing Hyperscalers' For Build-Out Costs, Ignoring Growth Potential",
+   "link": "https://stocktwits.com/news-articles/markets/equity/bill-ackman-pershing-square-wall-street-penalizing-hyperscalers-build-out-costs-ignoring-growth-potential/cNGQt6GR955?.tsrc=rss",
+   "published": "2026-11-03T05:41:46Z",
+   "publisher": "",
+   "summary": "Pershing Square sees AI infrastructure spending driving stronger future growth for major tech companies.",
+   "symbols": []
+  },
+  {
+   "title": "Ackman’s Pershing Square adds seven investments in 2026, reports Q3 loss",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ackman-pershing-square-adds-seven-053601900.html",
+   "published": "2026-11-03T05:36:01Z",
+   "publisher": "",
+   "summary": "Investing.com -- Bill Ackman’s Pershing Square Inc (NYSE:PS) reported a third-quarter net loss as lower performance fees and higher expenses outweighed growth in recurring management-fee income.",
+   "symbols": []
+  },
+  {
+   "title": "Strive (ASST) Adds 124 Bitcoin And Closes In On A Corporate Crypto Milestone",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/strive-asst-adds-124-bitcoin-051622774.html",
+   "published": "2026-11-03T05:16:22Z",
+   "publisher": "",
+   "summary": "Strive (NasdaqGM:ASST) acquired 124 additional Bitcoin, lifting its corporate holdings close to Metaplanet's position as of early November 2026. The firm used proceeds from a recent preferred stock offering to fund the latest Bitcoin purchases, tying fresh capital to digital assets. Strive's larger Bitcoin stash now places it among the biggest public corporate holders of the cryptocurrency alongsi",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "i-80 Gold (TSX:IAU) Keeps Archimedes On Track For Year End 2026 Production",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/80-gold-tsx-iau-keeps-051223502.html",
+   "published": "2026-11-03T05:12:23Z",
+   "publisher": "",
+   "summary": "i-80 Gold (TSX:IAU) reaffirmed that first underground mining production from the Archimedes project is targeted by year-end 2026. The company declared maiden mineral reserves at its Granite Creek property, providing a new reserve base for the Nevada portfolio. Management outlined an updated development strategy that prioritizes Archimedes and Granite Creek within the broader project pipeline. The ",
+   "symbols": []
+  },
+  {
+   "title": "Ben Cowen Says “Everyone Expects It” Was a Bad Reason to Bet Against the Q4 Market Selloff",
+   "link": "https://beincrypto.com/ben-cowen-q4-market-selloff-expected/?.tsrc=rss",
+   "published": "2026-11-03T05:12:00Z",
+   "publisher": "",
+   "summary": "Ben Cowen says a widely expected Q4 market selloff still hit, while Morgan Stanley's Mike Wilson sees a buying chance.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Trump's ‘Mr. Veto’ Threat Hangs Over Wall Street: Tech Sell-Off Is ‘More Than Just A Correction,’ Analyst Says",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/trumps-mr-veto-threat-hangs-045029541.html",
+   "published": "2026-11-03T04:50:29Z",
+   "publisher": "",
+   "summary": "Tuesday’s midterm elections arrive after a rough month for tech stocks, and investors are preparing for two years of political gridlock if Democrats win. ‘Mr. Veto’ Looms Over the Market Market commentator The Kobeissi Letter said in a post on X Monday that the sell-off is “more than just a correction in tech stocks,” arguing that investors are also “pricing in two years of political gridlock.” Tr",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Asian currencies mixed as yuan slides after PBOC move, won rebounds",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-slides-044909228.html",
@@ -33,12 +107,12 @@
    "publisher": "",
    "summary": "Subscribers to SpaceX’s AI helper ran dry days early, and Musk’s reply says a lot about who pays for the computing race.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -84,11 +158,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3129,107 +3203,6 @@
     "MU",
     "ONDO",
     "XRP"
-   ]
-  },
-  {
-   "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
-   "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-throttles-grok-bot-162321608.html",
-   "published": "2026-11-02T16:23:21Z",
-   "publisher": "",
-   "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Bitmine Buys Another 8,573 ETH, Pushes Ethereum Holdings Past $13.7B",
-   "link": "https://www.cryptoprowl.com/releases/bitmine-buys-another-8573-eth-pushes-ethereum-holdings-past-137b-7597?.tsrc=rss",
-   "published": "2026-11-02T16:23:00Z",
-   "publisher": "",
-   "summary": "Bitmine Immersion Technologies (NYSE: $BMNR) has increased its Ethereum (CRYPTO: $ETH) holdings to more than 6 mill...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Micron is the Real Loser in Lumentum Deal Which Assumes “Market Will Collapse in Two to Three Years”",
-   "link": "https://www.tikr.com/blog/micron-is-the-real-loser-in-lumentum-deal-which-assumes-market-will-collapse-in-two-to-three-years?ref=yahoofinance&tlnk=yf-261102-x8mw3pcr&.tsrc=rss",
-   "published": "2026-11-02T16:22:07Z",
-   "publisher": "",
-   "summary": "Key TakeawaysMarvell agreed to buy Lumentum in an all-stock deal valued at $115 billion, and Lumentum shares fell 12% on Monday. Citrini Research’s Jukan reads the sale as a sign that Lumentum’s management expects the AI boom to end within two to three years.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "The 5 most interesting analyst questions from Coinbase’s Q3 earnings call",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/5-most-interesting-analyst-questions-162136518.html",
-   "published": "2026-11-02T16:21:36Z",
-   "publisher": "",
-   "summary": "Coinbase’s third quarter saw revenue and profit surpass Wall Street expectations, yet the market responded negatively as sales declined sharply compared to last year. Management attributed results to a significant mix shift in trading activity, with strong growth in Prediction Markets and derivatives offsetting declining spot crypto volumes. CFO Alesia Haas noted that, despite a 10% quarter-over-q",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Strive Buys 124 Bitcoin, Moves Closer to Overtaking Metaplanet",
-   "link": "https://www.cryptoprowl.com/releases/strive-buys-124-bitcoin-moves-closer-to-overtaking-metaplanet-7596?.tsrc=rss",
-   "published": "2026-11-02T16:16:00Z",
-   "publisher": "",
-   "summary": "Bitcoin (CRYPTO: $BTC) treasury company Strive (Nasdaq: $ASST) added 124 BTC to its holdings last week, bringing it...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Marvell agrees to buy Lumentum in $115 billion all-stock deal",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101090/marvell-agrees-to-buy-lumentum-in-115-billion-all-stock-deal-1101090.html?.tsrc=rss",
-   "published": "2026-11-02T16:15:00Z",
-   "publisher": "",
-   "summary": "Marvell Technology Inc (NASDAQ:MRVL) agreed to acquire optical technology supplier Lumentum (NASDAQ:LITE) in an all-stock transaction with an implied enterprise value of $115 billion, the companies announced. Lumentum shareholders would receive 4.500 Marvell shares for each share they own,...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
    ]
   }
  ]
