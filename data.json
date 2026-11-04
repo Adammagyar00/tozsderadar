@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T16:56:13Z",
+ "builtAt": "2026-11-04T17:55:53Z",
  "digests": [
   {
    "calendar": [
@@ -981,6 +981,32 @@
      "title": "Bloomberg: az Emírségek harmadik kőolajvezetéket mérlegel a Hormuzi-szoros megkerülésére",
      "url": "https://www.investing.com/news/economy-news/uae-weighs-third-crude-pipeline-to-bypass-strait-of-hormuz-bloomberg-reports-5000332",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-04T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint az OpenAI megveszi a Pierre nevű céget, hogy bővítse a Codex kódoló eszköz fejlesztői infrastruktúráját. Az ügylet részleteit a forrás nem közli; önálló, külön megerősítést nem találtunk, de cáfolat sem merült fel.",
+     "symbols": [],
+     "title": "Az OpenAI felvásárolja a Pierre-t a Codex fejlesztői infrastruktúrájának bővítésére",
+     "url": "https://www.investing.com/news/economy-news/openai-to-acquire-pierre-to-expand-codex-developer-infrastructure-5000565",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com a cég prezentációja alapján azt írja, hogy a Freshpet harmadik negyedévében a árrés bővülése emelt éves iránymutatáshoz vezetett. A pontos számokat a forrás összefoglalója nem tartalmazza; a cáfolat nem merült fel.",
+     "symbols": [
+      "FRPT"
+     ],
+     "title": "A Freshpet a margóbővülésnek köszönhetően emelte éves kilátásait a harmadik negyedéves jelentésben",
+     "url": "https://www.investing.com/news/company-news/freshpet-q3-2026-slides-margin-expansion-drives-raised-guidance-93CH-5000637",
+     "verified": true
     }
    ],
    "markets": [
@@ -1007,7 +1033,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T16:45:00Z",
+   "updatedAt": "2026-11-04T17:45:00Z",
    "watchlist": []
   },
   {
