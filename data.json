@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T09:55:52Z",
+ "builtAt": "2026-11-04T10:56:36Z",
  "digests": [
   {
    "calendar": [
@@ -622,6 +622,93 @@
      "title": "A forint a dollár gyengülése mellett az euróval szemben 364–365 között mozog",
      "url": "https://portfolio.hu/deviza/20261104/utik-a-dollart-trump-es-a-republikanusok-felsulesere-mutatjuk-mi-tortenik-a-forinttal-874078",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T10:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Amgen közlemény",
+     "summary": "Az Amgen bevétele 8%-kal 10,4 milliárd dollárra nőtt, a nem-GAAP egy részvényre jutó nyereség 6,45 dollár volt (a MarketBeat szerinti 5,79 dolláros konszenzus fölött). A cég 2026-ra 38,9–39,7 milliárd dolláros bevételt és 22,90–23,70 dolláros nem-GAAP EPS-t vár. A biohasonmás-portfólió 26%-kal nőtt; a címhez tartozó Investing.com-cikk szerint a részvény a biohasonmásokkal kapcsolatos aggodalmak miatt mégis gyengült.",
+     "symbols": [
+      "AMGN"
+     ],
+     "title": "Az Amgen a vártnál jobb harmadik negyedévet jelentett és emelte éves kilátásait",
+     "url": "https://www.investing.com/news/earnings/amgen-beats-estimates-but-shares-dip-on-biosimilar-concerns-4996387",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T10:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az S&P Global PMI alapján a brit szolgáltatószektor növekedése októberben nyolc hónapos csúcsra erősödött. A korábbi előzetes adat 53,1 volt a vártnál (51,8) jobb, ez a legerősebb bővülés februárja óta.",
+     "symbols": [],
+     "title": "A brit szolgáltatóipar októberben nyolchavi csúcsra gyorsult a PMI szerint",
+     "url": "https://www.investing.com/news/economic-indicators/uk-services-growth-hits-8month-high-in-october-pmi-shows-4997999",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T10:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "FXStreet · FXTribune · Eurostat",
+     "summary": "Az első becslések szerint az eurózóna harmonizált infláció októberben évi 4,0% volt, a szeptemberi 3,8%-ról, ami megfelelt a várakozásnak. Havi alapon az árak 0,4%-kal nőttek. Az ír statisztikai hivatal szerint Írországban az energia ára 18,3%-kal emelkedett.",
+     "symbols": [],
+     "title": "Az eurózóna éves infláció októberben 4,0%-ra gyorsult a gyorsbecslés szerint",
+     "url": "https://www.fxstreet.com/news/eurozone-flash-hicp-grows-faster-by-4-yoy-in-october-as-expected-202611041002",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T10:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Benzinga",
+     "summary": "A CoreWeave részvénye a nyitás előtt kb. 3–4%-ot esett, miután a demokraták a félidős választáson megszerezték a Kongresszust, a befektetők az adatközpontokra és az MI-bővítésre vonatkozó szigorúbb szabályozástól tartanak. A részvény kedden 7,16%-kal, 53,74 dollárra emelkedett; a cég harmadik negyedéves jelentése november 10-re várható.",
+     "symbols": [
+      "CRWV"
+     ],
+     "title": "A CoreWeave árfolyama esik: a demokrata kongresszusi győzelem miatt az MI-adatközpontok szabályozásától tartanak",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-coreweave-stock-sliding-today-93CH-4998006",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T10:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint az európai gázár nőtt, mert a félidős választás eredménye és a Hormuzi-szoros körüli tárgyalások megtorpanása bizonytalanságot okoz.",
+     "symbols": [],
+     "title": "Az európai gáz ára emelkedik: a félidős választás és a megrekedt hormuzi tárgyalások árnyékolják a kilátásokat",
+     "url": "https://www.investing.com/news/commodities-news/european-gas-rises-as-us-midterms-and-stalled-hormuz-talks-cloud-outlook-4997836",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T10:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint az Európai Központi Bank előrejelzése alapján az eurózóna bérnövekedése jövőre enyhén gyorsul. A bérdinamika az EKB kamatpályájának egyik kulcstényezője.",
+     "symbols": [],
+     "title": "Az EKB szerint a bérnövekedés jövőre kissé fellendül az eurózónában",
+     "url": "https://www.investing.com/news/economy-news/euro-zone-wage-growth-to-rebound-slightly-next-year-ecb-says-4997947",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T10:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters elemzése szerint a félidős választáson Trump pártját ért vereség növelheti az amerikai kereskedelmi partnerek mozgásterét a vámtárgyalásokon.",
+     "symbols": [],
+     "title": "A félidős választási rendreutasítás Trump kereskedelmi partnerei számára mozgásteret adhat az ellenállásra",
+     "url": "https://www.investing.com/news/commodities-news/trumps-midterm-rebuke-gives-trading-partners-room-to-resist-4997948",
+     "verified": true
     }
    ],
    "markets": [
@@ -648,7 +735,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T09:45:00Z",
+   "updatedAt": "2026-11-04T10:45:00Z",
    "watchlist": []
   },
   {
@@ -7798,12 +7885,13 @@
    "id": "2026-11-03-us-midterms"
   },
   {
-   "actual": "",
+   "actual": "4,0%",
    "country": "EU",
    "date": "2026-11-04",
    "event": "Infláció, október (gyorsbecslés, éves)",
-   "forecast": "",
+   "forecast": "4,0%",
    "importance": 3,
+   "note": "Havi: +0,4%. Forrás: FXStreet, FXTribune (az ír CSO is 4,0%-ot közölt a hazai HICP-re); várakozás: FXStreet szerint egyezett.",
    "previous": "3,8%",
    "source": "Eurostat",
    "time": "11:00",
