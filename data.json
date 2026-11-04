@@ -1,6 +1,515 @@
 {
- "builtAt": "2026-11-03T20:56:27Z",
+ "builtAt": "2026-11-04T06:56:16Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 4.",
+     "event": "Eurózóna infláció gyorsbecslés; ISM szolgáltatóipar"
+    },
+    {
+     "date": "nov. 5.",
+     "event": "Bank of England kamatdöntés"
+    },
+    {
+     "date": "nov. 6.",
+     "event": "USA munkaerőpiaci jelentés"
+    },
+    {
+     "date": "nov. 10.",
+     "event": "USA CPI; magyar infláció"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés; USA kiskereskedelem; Nvidia gyorsjelentés"
+    }
+   ],
+   "date": "2026-11-04",
+   "generatedAt": "2026-11-04T06:55:00Z",
+   "headline": "A demokraták megnyerték a félidős választást, a technológiai részvények és a határidős indexek esnek, miközben az AMD rekordnegyedévet közölt",
+   "items": [
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az S&P 500 határidős indexe a hír idején 0,73%-kal, a Nasdaqé 1,5%-kal volt lejjebb. A befektetők a kongresszusi erőviszonyok változását és a technológiai szektort érintő következményeket árazzák.",
+     "symbols": [],
+     "title": "Az amerikai tőzsdei határidős indexek tovább esnek, ahogy a demokraták győzelme biztosnak látszik",
+     "url": "https://finance.yahoo.com/m/109bf77d-030d-36af-9613-14055ff7126e/futures-sink-further-as.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A szerdai ázsiai kereskedésben a technológiai papírok húzták le az indexeket. A korai amerikai félidős eredmények demokrata előretörést jeleztek, ami az MI-beruházások, a szabályozás és az amerikai költségvetési politika miatti aggodalmat erősíti.",
+     "symbols": [],
+     "title": "Az ázsiai tőzsdék élesen estek, a technológiai részvények vezették az eladást a választási eredmények nyomán",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-tumble-tech-shares-053659908.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az AP, a CBS és a CNBC jelzése szerint a demokraták többséget szereztek a Szenátusban, a Ház megszerzését pedig előre jelezték. A piacok a kormányzati és szabályozási kilátások megváltozását árazzák.",
+     "symbols": [],
+     "title": "Félidős választás: a demokraták nyerték a Szenátust, a Házban is előnyben vannak",
+     "url": "https://www.investing.com/news/economic-indicators/takeaways-from-the-us-midterm-elections-4996986",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters reggeli összefoglalója szerint a piac azt latolgatja, mit jelent a demokrata kongresszusi többség az adatközpontokat és az MI-ágazatot érintő szabályozásra.",
+     "symbols": [],
+     "title": "Reggeli piaci kommentár: a befektetők attól tartanak, hogy a „kék hullám” megtépázza az adatközpont-ágazatot",
+     "url": "https://www.investing.com/news/economy-news/morning-bid-markets-fret-blue-wave-will-drown-data-centres-4997373",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a dollár árfolyama szerdára enyhén csökkent az amerikai félidős választások eredményei előtt és közben.",
+     "symbols": [],
+     "title": "A dollár gyengült, miközben a piac a félidős eredményekre figyel",
+     "url": "https://www.investing.com/news/economy-news/dollar-dips-with-us-midterm-results-in-focus-4997104",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · StockStory",
+     "summary": "A szoftverrészvények folytatták az előző napi eladást, mert a befektetők az MI-beruházási kiadások és a lassuló szoftvermegrendelések miatt újraárazzák az értékeltségeket. A hírt a StockStory közölte.",
+     "symbols": [],
+     "title": "A Cloudflare, a MongoDB, a Datadog, a JFrog és az Elastic árfolyama zuhant a szoftverszektor újabb eladási hullámában",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-mongodb-datadog-jfrog-elastic-234136948.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az AMD harmadik negyedéves bevétele a cég közlése szerint 13,4 milliárd dollár volt, az adatközponti szegmens 97%-kal nőtt. A Reuters szerint a cég a következő negyedévre a várakozásoknál magasabb bevételt jelzett; ugyanakkor az OpenAI- és Meta-chipüzletek miatt mintegy 1 milliárd dolláros negyedéves terhet könyvelt.",
+     "symbols": [],
+     "title": "Az AMD negyedéves bevétel-előrejelzése a vártnál jobb, az adatközponti bevétel rekordot döntött",
+     "url": "https://www.investing.com/news/stock-market-news/amd-forecasts-quarterly-revenue-above-estimates-as-datacenter-growth-accelerates-4996502",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (FT nyomán)",
+     "summary": "A Financial Times beszámolója szerint az Oracle elállt a Tencenttel októberben jelentett, mintegy 7 milliárd dolláros chipbérleti megállapodástól. A korábbi üzletet egyik cég sem erősítette meg nyilvánosan; a mostani értesülést más forrás nem erősítette meg.",
+     "symbols": [],
+     "title": "Az Oracle az FT szerint lemondott a 7 milliárd dolláros Tencent-féle MI-üzletről Trump nyomására",
+     "url": "https://www.investing.com/news/stock-market-news/oracle-abandons-7-billion-tencent-ai-deal-under-trump-pressure-ft-reports-4997414",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Block megemelte az éves profitkilátását, a harmadik negyedévi növekedést a Cash App húzta. A cég előzetes egyezségre jutott az amerikai igazságügyi minisztériummal.",
+     "symbols": [],
+     "title": "A Block emelte profitkilátását a Cash App erejének köszönhetően, és előzetes megállapodást kötött az igazságügyi minisztériummal",
+     "url": "https://www.investing.com/news/economy-news/block-lifts-profit-outlook-on-cash-app-strength-reaches-preliminary-doj-settlement-4996965",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a 3M 7,35 milliárd dolláros megállapodást vállal a PFAS-vegyületekkel kapcsolatos igények lezárására.",
+     "symbols": [],
+     "title": "A 3M 7,35 milliárd dollárt különít el a „tartós vegyi anyagokhoz” kapcsolódó követelések rendezésére",
+     "url": "https://www.investing.com/news/stock-market-news/3m-to-take-58-billion-hit-under-pfas-personal-injury-settlement-4996985",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (FT nyomán)",
+     "summary": "A Financial Times értesülése szerint a CVS mérlegeli, hogy különválasztja a gyógyszertári és a biztosítási tevékenységét. A cég döntést nem jelentett be; az értesülést más forrás nem erősítette meg.",
+     "symbols": [],
+     "title": "A CVS Health az FT szerint a kiskereskedelmi gyógyszertári és biztosítási üzletág szétválasztását vizsgálja",
+     "url": "https://www.investing.com/news/stock-market-news/cvs-health-explores-splitting-retail-pharmacy-insurance-businesses-ft-reports-4996836",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Skyworks részvénye a gyenge okostelefon-kereslet miatt visszafogott előrejelzése nyomán esett.",
+     "symbols": [],
+     "title": "A Skyworks árfolyama zuhan: a lanyha okostelefon-piac miatt gyenge kilátást adott",
+     "url": "https://www.investing.com/news/stock-market-news/skyworks-tumbles-as-sluggish-smartphone-market-weighs-on-forecast-4996716",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Booking harmadik negyedéves eredményét az amerikai kereskedelmi hatóság (FTC) intézkedéséhez kapcsolódó, nagyjából 1 milliárd dolláros tétel terheli.",
+     "symbols": [],
+     "title": "A Booking Holdings az FTC-intézkedéshez kötődően mintegy 1 milliárd dolláros terhet vállalt a harmadik negyedévben",
+     "url": "https://www.investing.com/news/stock-market-news/booking-holdings-takes-900-million-hit-to-quarterly-revenue-linked-to-ftc-action-4996593",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Super Micro következő negyedéves bevételi előrejelzése meghaladja az elemzői várakozást, amit a vállalat az MI-szerverek iránti erős keresletre vezet vissza.",
+     "symbols": [],
+     "title": "A Super Micro a vártnál magasabb negyedéves bevételt jelzett az erős MI-szerverkereslet miatt",
+     "url": "https://www.investing.com/news/stock-market-news/super-micro-forecasts-quarterly-revenue-above-estimates-on-strong-ai-server-demand-4996409",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A Motley Fool szerint a Stellantis részvénye esett, mert a beszállítói chiphiány hírek szerint zavarja a Fiat termelését, ami kérdésessé teszi az év végi volument.",
+     "symbols": [],
+     "title": "A Stellantis árfolyama esik: egy beszállítói chiphiány jelentések szerint érinti az olaszországi termelést",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/stock-market-today-nov-3-stellantis-falls-on-reports-of-chip-shortage-disrupting-fiat-output/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a kanadai Suncor Energy harmadik negyedéves eredménye felülmúlta az elemzői várakozást.",
+     "symbols": [],
+     "title": "A Suncor profitja meghaladta a várakozást a magasabb olajárak és árrések miatt",
+     "url": "https://www.investing.com/news/stock-market-news/suncor-energy-tops-profit-estimates-on-higher-oil-prices-margins-4996955",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A társaság az erős finomítói árrések (crack spread) mellett 563 millió dolláros rekord negyedéves nettó eredményt közölt a harmadik negyedévben.",
+     "symbols": [],
+     "title": "A CVR Energy rekord negyedéves nyereséget ért el, 563 millió dolláros nettó eredménnyel",
+     "url": "https://finance.yahoo.com/energy/articles/cvr-energy-inc-cvi-q3-050553220.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az olaj a négyhetes mélypont közelében állapodott meg, miután a piac a háborúk lezárásáról szóló tárgyalások sikerében bízik.",
+     "symbols": [],
+     "title": "Az olajár a 4 hetes mélypont közelében zárt a háborús békétárgyalások reményében",
+     "url": "https://www.investing.com/news/commodities-news/oil-rises-after-report-of-us-strike-on-irans-qeshm-island-4993342",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A halasztott finomítói karbantartások és a bizonytalan kínai export miatt a dízelhiány az előrejelzések szerint jóval 2027-be is átnyúlhat.",
+     "symbols": [],
+     "title": "A globális dízelhiány 2027-ig elhúzódhat",
+     "url": "https://finance.yahoo.com/energy/articles/global-diesel-crunch-set-last-000000062.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint Donald Trump úgy nyilatkozott, hogy az Egyesült Államok az év végét követően nem fizet tovább Izraelnek.",
+     "symbols": [],
+     "title": "Trump szerint az USA az év végével megszünteti az Izraelnek fizetett támogatást",
+     "url": "https://www.investing.com/news/economy-news/trump-says-uswill-stop-paying-israel-after-yearend-4995154",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az amerikai gyári megrendelések szeptemberben széles körű erősödés mellett meghaladták az elemzői várakozást.",
+     "symbols": [],
+     "title": "Az amerikai gyári megrendelések szeptemberben a várakozásnál jobbak voltak",
+     "url": "https://www.investing.com/news/economy-news/us-factory-orders-beat-expectations-in-september-amid-broad-strength-4995810",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a kínai szolgáltatói növekedés a bizalom gyengülése közben három hónapos mélypontra esett vissza.",
+     "symbols": [],
+     "title": "Kínában a szolgáltatóipar növekedése három hónapos mélypontra lassult",
+     "url": "https://www.investing.com/news/economy-news/chinas-services-growth-slows-to-threemonth-low-as-confidence-weakens-4997108",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters által idézett PMI-adat szerint a belső kereslet javulása miatt az indiai szolgáltatói növekedés négy hónapos csúcsra ért.",
+     "symbols": [],
+     "title": "Indiában a szolgáltatóipar növekedése négyhavi csúcsra gyorsult",
+     "url": "https://www.investing.com/news/economic-indicators/india-services-growth-hits-4month-high-as-domestic-demand-improves-pmi-shows-4997330",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az új-zélandi munkanélküliségi ráta a harmadik negyedévben 5,7% volt, ami 2015 óta a legmagasabb érték.",
+     "symbols": [],
+     "title": "Új-Zélandon a munkanélküliség a harmadik negyedévben 5,7%-ra emelkedett, 2015 óta a legmagasabb",
+     "url": "https://www.investing.com/news/economy-news/new-zealand-unemployment-climbs-to-57-in-q3-4996644",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters exkluzív értesülése szerint a japán JIC alap a JSR eladását tervezi a Mitsui Chemicals számára. A tervet hivatalosan nem jelentették be.",
+     "symbols": [],
+     "title": "Értesülések szerint a japán JIC eladná a JSR-t a Mitsui Chemicalsnak",
+     "url": "https://www.investing.com/news/stock-market-news/exclusivejapan-fund-jic-plans-to-sell-jsr-to-mitsui-chemicals-sources-say-4997042",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters exkluzív beszámolója szerint a Jio azt vizsgálja, hogy technológiai együttműködésért cserébe részesedést adjon a Comcastnak és a Charternek. Megállapodás nincs.",
+     "symbols": [],
+     "title": "Értesülések szerint az Ambani-féle Jio technológia–részesedés alapú tárgyalásokat folytat a Comcasttal és a Charterrel",
+     "url": "https://www.investing.com/news/stock-market-news/exclusiveambanis-jio-explores-techforequity-talks-with-comcast-and-charter-sources-say-4996271",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters források szerint az SK Hynix New York állambeli chipgyártási tervei az amerikai Kína-korlátozások miatt elakadtak.",
+     "symbols": [],
+     "title": "Értesülések szerint az SK Hynix New York-i chipterveit az USA Kínára vonatkozó korlátozásai akadályozzák",
+     "url": "https://www.investing.com/news/economy-news/sk-hynixs-new-york-chip-plans-hit-snag-over-us-restrictions-on-china-sources-say-4996231",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A bitcoin a szavazóhelyiségek zárása óta kb. 1,2%-ot esett, 76 873 dollárra. Az Ohióban győztes Sherrod Brown visszatérése az AP szerint hátrány a kriptoiparnak.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin esik, mert a demokrata győzelmek miatt a kriptotörvény háttérbe szorulhat; Sherrod Brown visszatér a Szenátusba",
+     "url": "https://finance.yahoo.com/m/d0c0d176-f308-36fc-8017-9c599a7b715f/bitcoin-falls-as-democratic.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Unchained",
+     "summary": "Az Unchained adatai szerint a kivett bitcoin november 3-án egy forgalmas, címkézetlen címre került. Az alapban maradt 7500 BTC értéke mintegy 583 millió dollár.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Binance SAFU-alapjából október 31-én kivett 7500 bitcoin újra mozgott",
+     "url": "https://unchainedcrypto.com/the-7500-btc-that-left-binances-safu-fund-has-moved-again-to-an-unlabeled-address/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · StockTwits",
+     "summary": "Az amerikai spot Ethereum-ETF-ek hétfőn 139,8 millió dolláros nettó kiáramlást könyveltek, ez a hatodik egymást követő kiáramlási nap.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "Az Ethereum árfolyama visszapattant, bár az amerikai spot ETH-ETF-ekből hatodik napja áramlik ki tőke",
+     "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/ethereum-price-recovers-despite-6-straight-days-of-etf-selling-with-holders-sitting-on-billions-in-losses/cNGXfMNR9d9?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Bitmine Immersion Technologies a közlés szerint közel 20 millió dollárnyi Ethereumot vett, és ezzel az ETH-készlete a teljes kínálat 4,9%-át teszi ki.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "A Bitmine újabb Ethereumot vásárolt, így 6,06 millió ETH-t tart",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/why-bitmine-immersion-technologies-stock-043344012.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A Motley Fool szerint az XRP és a Zcash gyengébb napok után emelkedett, miközben a befektetők az amerikai félidős választásokra figyeltek.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Az XRP és a Zcash vezette a keddi kriptopiaci visszapattanást",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A 247WallSt szerint a delegálási funkció olyan hibát hordozott, amely lehetővé tehette, hogy partnerszámlák a megengedettnél több stabilcoint bocsássanak ki; a sebezhetőség még fennállhat.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Az XRP Ledger hibát javít: új funkció miatt partnerszámlák jogosulatlanul stabilcoint hozhattak létre",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/03/xrp-news-the-xrp-ledger-is-fixing-a-flaw-that-could-have-let-partners-print-extra-stablecoins-how-big-a-risk-was-it/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Proactive Investors",
+     "summary": "A Bank of America értékelése szerint a Marvell célára a Lumentum-felvásárlás miatt csökken, a cég nyereségbecslését változatlanul hagyta. Az UBS ezzel szemben jónak ítélte az üzletet.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A BofA „semlegesre” minősítette le a Marvellt, a célárát 400-ról 225 dollárra vágta a Lumentum-felvásárlás miatt; az UBS támogatja az üzletet",
+     "url": "https://www.proactiveinvestors.com/companies/news/1101170/marvell-cut-to-neutral-by-bofa-as-ubs-backs-lumentum-deal-1101170.html?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "Dan Niles szerint a CXMT a DRAM-piac kb. 8%-át birtokolja, és 2028-ra 20%-ot céloz. Szerinte a Micron rekord 2026-os évét főleg a magasabb memóriaárak hozták, így az új kínai kínálat ezt veszélyezteti.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Dan Niles szerint a kínai CXMT jelenti a Micron valódi kockázatát",
+     "url": "https://www.tikr.com/blog/microns-real-risk-chinas-cxmt-targets-20-by-2028-warns-dan-niles?ref=yahoofinance&tlnk=yf-261103-8wfh2j5c&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A TheStreet szerint Elon Musk újabb vitába keveredett a T-Mobile-lal a Starlink mobilszolgáltatás miatt.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX visszavágott a T-Mobile-nak, amely szerinte hátráltatná a Starlinket",
+     "url": "https://www.thestreet.com/markets/spacex-fires-back-att-mobile-over-desire-to-harm-starlink?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A SpaceX MI-botjának fizetős használata gyorsan nő, a költsége viszont a bevételekhez képest magas, ahogy Elon Musk maga is elismerte.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Grok már 800 ezer fizető heti felhasználónál jár, de Musk szerint a kiszolgálás költsége „fenntarthatatlanul magas”",
+     "url": "https://finance.yahoo.com/technology/ai/articles/grok-bot-growing-fast-elon-190316873.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A TheStreet szerint a Tesla és a SpaceX csatlakozott azokhoz a cégekhez, amelyek kifogásolják az NYSE-t működtető ICE új tervét.",
+     "symbols": [
+      "TSLA",
+      "SPCX"
+     ],
+     "title": "A Tesla és a SpaceX is tiltakozik az ICE tokenizált részvényes terve ellen",
+     "url": "https://www.thestreet.com/crypto/markets/elon-musks-tesla-and-spacex-protest-nyse-parents-new-plan?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga",
+     "summary": "A Bloomberg nyomán a Benzinga szerint a 25 milliárd dolláros dán nyugdíjalap az Anthropic kibocsátásán részt venne, mert a cég irányítását és biztonsági vállalásait ESG-szempontból elfogadhatóbbnak tartja a SpaceX-nél.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A dán AkademikerPension az Anthropic IPO-ban venne részvényt, a SpaceX-et nem vállalta",
+     "url": "https://www.benzinga.com/markets/private-markets/26/11/62847275/spacex-was-a-no-go-now-this-pension-fund-wants-the-anthropic-ipo?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
+   "updatedAt": "2026-11-04T06:55:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -7116,7 +7625,7 @@
    "id": "2026-11-03-au-rba"
   },
   {
-   "actual": "",
+   "actual": "EPS 2,09 $ (nem GAAP) / bevétel 13,4 Mrd $",
    "country": "USA",
    "date": "2026-11-03",
    "event": "AMD gyorsjelentés, 3. negyedév",
@@ -7125,6 +7634,8 @@
    "note": "Dátum: Tickzen és Digrin egyező naptára; az időpont (zárás előtt/után) még nem megerősített",
    "previous": "",
    "source": "Tickzen, Digrin",
+   "surprise": "beat",
+   "surpriseNote": "A bevétel a cég ~13,0 Mrd $-os saját sávja és a ~12,5 Mrd $-os várakozás felett; az adatközponti bevétel +97% éves alapon",
    "symbols": [
     "AMD"
    ],
@@ -7134,7 +7645,7 @@
    "id": "2026-11-03-amd-earnings"
   },
   {
-   "actual": "",
+   "actual": "Demokrata többség a Szenátusban (AP-hívás), a Házban is előnyben (CBS/CNBC)",
    "country": "US",
    "date": "2026-11-03",
    "event": "Félidős választások",
@@ -7310,6 +7821,22 @@
    "type": "Makroadat",
    "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
    "id": "2026-11-13-us-ppi"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-17",
+   "event": "Kiskereskedelmi forgalom, október",
+   "forecast": "",
+   "importance": 2,
+   "note": "Dátum a Census Bureau hivatalos kiadási naptára szerint",
+   "previous": "",
+   "source": "US Census Bureau",
+   "symbols": [],
+   "time": "14:30",
+   "type": "Makroadat",
+   "url": "https://www.census.gov/retail/release_schedule.html",
+   "id": "2026-11-17-us-retail-sales"
   },
   {
    "actual": "",
