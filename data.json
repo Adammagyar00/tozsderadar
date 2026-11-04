@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T13:55:57Z",
+ "builtAt": "2026-11-04T14:55:54Z",
  "digests": [
   {
    "calendar": [
@@ -857,6 +857,68 @@
      "title": "A Fiserv 3. negyedéves jelentése: 6,45 milliárd dolláros goodwill-értékvesztés, korrigált EPS 1,75 dollár",
      "url": "https://www.sec.gov/Archives/edgar/data/0000798354/000079835426000039/fisvq326earningsrelease.htm",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T14:42:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az ADP jelentése szerint az amerikai magánszektor októberben 86 ezer új munkahelyet teremtett. Az adat a pénteki hivatalos munkaerőpiaci jelentés előtt ad támpontot a Fed számára.",
+     "symbols": [],
+     "title": "Az amerikai magáncégek októberben 86 ezer fővel növelték a foglalkoztatást az ADP szerint",
+     "url": "https://www.investing.com/news/economic-indicators/us-private-payrolls-rise-by-86000-in-october-adp-says-4999417",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T14:42:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az amerikai külkereskedelmi hiány szűkült, és kedvezőbb lett az elemzői várakozásnál. A részletes számokat a cikk szerzője nem közölte a hírfolyamban.",
+     "symbols": [],
+     "title": "Az amerikai külkereskedelmi mérleg hiánya szűkült, a várakozásoknál kedvezőbben",
+     "url": "https://www.investing.com/news/economic-indicators/us-trade-balance-narrows-beating-forecasts-93CH-4999409",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T14:42:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az ARRAY bejelentette, hogy 1,32 milliárd dolláros, tisztán részvényalapú ügyletben felvásárolja a Shoalst. A részletes feltételeket a hírfolyam nem közölte.",
+     "symbols": [],
+     "title": "Az ARRAY 1,32 milliárd dollárért, teljes egészében részvénycserével megvenné a Shoalst",
+     "url": "https://www.investing.com/news/stock-market-news/array-to-buy-shoals-in-132-billion-allstock-deal-4999420",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T14:42:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A JPMorgan elemzése szerint a növekvő export és a gyenge kereslet miatt a globális olajpiac többletbe fordul. Az olajár már most a négyhetes mélypont közelében van.",
+     "symbols": [],
+     "title": "A JPMorgan szerint a növekvő export és a gyenge kereslet többletbe fordítja a globális olajpiacot",
+     "url": "https://www.investing.com/news/commodities-news/jpmorgan-says-rising-exports-weak-demand-push-global-oil-market-into-surplus-4999413",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T14:42:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance szerint a SpaceX a Qualcommmal együttműködve törekszik arra, hogy a Starlinkből nagy amerikai mobilszolgáltató legyen. A részletes feltételeket a hírfolyam nem közölte.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX megállapodást kötött a Qualcommmal, így a Starlink közelebb kerül ahhoz, hogy a negyedik nagy amerikai mobilszolgáltató legyen",
+     "url": "https://finance.yahoo.com/technology/article/spacex-inks-qualcomm-deal-putting-starlink-closer-to-becoming-the-fourth-major-us-wireless-carrier-133000731.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -883,7 +945,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T13:45:00Z",
+   "updatedAt": "2026-11-04T14:42:00Z",
    "watchlist": []
   },
   {
