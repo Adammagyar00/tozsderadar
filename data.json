@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T14:55:54Z",
+ "builtAt": "2026-11-04T15:55:54Z",
  "digests": [
   {
    "calendar": [
@@ -919,6 +919,17 @@
      "title": "A SpaceX megállapodást kötött a Qualcommmal, így a Starlink közelebb kerül ahhoz, hogy a negyedik nagy amerikai mobilszolgáltató legyen",
      "url": "https://finance.yahoo.com/technology/article/spacex-inks-qualcomm-deal-putting-starlink-closer-to-becoming-the-fourth-major-us-wireless-carrier-133000731.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T15:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "ISM · InvestingLive",
+     "summary": "Az ISM szolgáltatóipari index 54,5 pont lett (előző: 54,9), kissé a 54,8-as várakozás alatt, de a szektor 28. hónapja bővül. Az üzleti aktivitás 53,8-ra (56,5), az új megrendelések 55,9-re (59,8) csökkentek, az árak indexe 73,0 maradt magas.",
+     "symbols": [],
+     "title": "Az amerikai ISM szolgáltatóipari PMI októberben 54,5-re lassult, a várt 54,8 alatt",
+     "url": "https://www.prnewswire.com/news-releases/services-pmi-at-54-5-october-2026-ism-services-pmi-report-302928112.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -945,7 +956,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T14:42:00Z",
+   "updatedAt": "2026-11-04T15:45:00Z",
    "watchlist": []
   },
   {
@@ -8110,13 +8121,13 @@
    "id": "2026-11-04-eu-hicp-flash"
   },
   {
-   "actual": "",
+   "actual": "-105,0 Mrd $",
    "country": "US",
    "date": "2026-11-04",
    "event": "Külkereskedelmi mérleg, szeptember",
-   "forecast": "",
+   "forecast": "-108,0 Mrd $",
    "importance": 2,
-   "note": "",
+   "note": "Import rekord, 426,6 Mrd $ (+1,2%), export 321,5 Mrd $ (+1,9%). Forrás: BEA/Census (Reuters, RTTNews); várakozás: Reuters-felmérés.",
    "previous": "",
    "source": "BEA",
    "symbols": [],
@@ -8126,14 +8137,14 @@
    "id": "2026-11-04-us-trade"
   },
   {
-   "actual": "",
+   "actual": "54,5",
    "country": "USA",
    "date": "2026-11-04",
    "event": "ISM szolgáltatóipari PMI, október",
-   "forecast": "",
+   "forecast": "54,8",
    "importance": 2,
-   "note": "",
-   "previous": "",
+   "note": "Üzleti aktivitás 53,8 (előző 56,5), új megrendelések 55,9 (59,8), árak 73,0 (74,0). Forrás: ISM (PR Newswire), InvestingLive; várakozás: InvestingLive.",
+   "previous": "54,9",
    "source": "CMC Markets, Truflation",
    "symbols": [],
    "time": "16:00",
