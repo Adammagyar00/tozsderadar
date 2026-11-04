@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T10:56:36Z",
+ "builtAt": "2026-11-04T11:56:10Z",
  "digests": [
   {
    "calendar": [
@@ -709,6 +709,48 @@
      "title": "A félidős választási rendreutasítás Trump kereskedelmi partnerei számára mozgásteret adhat az ellenállásra",
      "url": "https://www.investing.com/news/commodities-news/trumps-midterm-rebuke-gives-trading-partners-room-to-resist-4997948",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T11:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance beszámolója szerint a Dow határidős indexei és számos MI-részvény a demokraták választási sikere után emelkedésbe fordult. Az AMD és az Arista erősödik, Elon Musk cégei, a Tesla és a SpaceX viszont vesztesek között vannak.",
+     "symbols": [
+      "TSLA",
+      "SPCX",
+      "AMD"
+     ],
+     "title": "Választási hírek a tőzsdén: a Dow határidős indexe emelkedésbe fordult, az AMD és az Arista erősödik, a SpaceX és a Tesla veszít",
+     "url": "https://finance.yahoo.com/m/e5be454d-07fd-3d94-8114-a4e8ff2910de/stock-market-election-news%3A.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T11:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Motley Fool",
+     "summary": "A Bloom Energy új előrejelzése szerint a negyedik negyedéves bevétel akár 1,55 milliárd dollár is lehet. Az Investing.com szerint a részvény ma emelkedik.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "A Bloom Energy árfolyama szárnyal: az új kilátás akár 1,55 milliárd dolláros Q4 bevételt vetít előre",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-bloom-energy-stock-surging-today-93CH-4998236",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T11:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Coca-Cola HBC harmadik negyedéves bevétele meghaladta a várakozást, a társaság pedig emelte a 2026-os növekedési kilátását.",
+     "symbols": [],
+     "title": "A Coca-Cola HBC Q3 bevétele a várakozás felett, emelte a 2026-os növekedési kilátást",
+     "url": "https://www.investing.com/news/stock-market-news/cocacola-hbc-q3-revenue-beats-forecasts-2026-growth-outlook-raised-93CH-4998249",
+     "verified": true
     }
    ],
    "markets": [
@@ -735,7 +777,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T10:45:00Z",
+   "updatedAt": "2026-11-04T11:45:00Z",
    "watchlist": []
   },
   {
