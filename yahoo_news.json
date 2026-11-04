@@ -1,13 +1,29 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-04T07:51:50Z",
+ "updatedAt": "2026-11-04T08:56:52Z",
  "items": [
   {
-   "title": "Bitcoin recovers to near $78k as Democrats sweep midterm elections",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-recovers-near-78k-democrats-074054900.html",
-   "published": "2026-11-04T07:40:54Z",
+   "title": "CVR Energy to acquire two US refineries from Marathon for $4.2bn",
+   "link": "https://www.offshore-technology.com/news/cvr-energy-acquire-refineries-marathon-4-2bn/?.tsrc=rss",
+   "published": "2026-11-04T08:15:23Z",
    "publisher": "",
-   "summary": "Investing.com-- Bitcoin rose on Wednesday, tracking a broader rebound in risk assets as markets welcomed some clarity on U.S. politics following a Democrat sweep of Congress in the midterm elections.",
+   "summary": "The deal includes the St. Paul Park refinery in Minnesota, the Mandan refinery in North Dakota, and marketing operations.",
+   "symbols": []
+  },
+  {
+   "title": "One97 Communications And 2 Top Indian Founder Led Stocks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/one97-communications-2-top-indian-081505459.html",
+   "published": "2026-11-04T08:15:05Z",
+   "publisher": "",
+   "summary": "Oil prices have rebounded on renewed worries about supply from the Middle East, and that puts founder led Indian businesses in a bright spotlight. Leaders who built their companies from scratch often react faster when energy costs and import bills become unpredictable. Investors looking to align with that kind of personal commitment may find today especially interesting. This article highlights th",
+   "symbols": []
+  },
+  {
+   "title": "Could Buying This 1 Cryptocurrency Make You Rich?",
+   "link": "https://www.fool.com/investing/2026/11/04/could-buying-this-1-cryptocurrency-make-you-rich/?.tsrc=rss",
+   "published": "2026-11-04T07:50:00Z",
+   "publisher": "",
+   "summary": "Venice Token has skyrocketed in value this year. But can it continue its momentum over the long haul?",
    "symbols": [
     "BTC",
     "ETH",
@@ -18,6 +34,80 @@
     "MU",
     "MRVL"
    ]
+  },
+  {
+   "title": "Democrats Have Retaken the House and Senate -- but There's an Even Bigger Winner Today",
+   "link": "https://www.fool.com/investing/2026/11/04/democrats-have-retaken-the-house-and-senate-but-theres-an-even-bigger-winner-today/?.tsrc=rss",
+   "published": "2026-11-04T07:43:01Z",
+   "publisher": "",
+   "summary": "Congressional Democrats aren’t the only one’s cheering.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin recovers to near $78k as Democrats sweep midterm elections",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-recovers-near-78k-democrats-074054900.html",
+   "published": "2026-11-04T07:40:54Z",
+   "publisher": "",
+   "summary": "Investing.com-- Bitcoin rose on Wednesday, tracking a broader rebound in risk assets as markets welcomed some clarity on U.S. politics following a Democrat sweep of Congress in the midterm elections.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Zacks Investment Ideas feature highlights: QQQ, CoreWeave, SanDisk, Marvell, Arm and Micron",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-073200537.html",
+   "published": "2026-11-04T07:32:00Z",
+   "publisher": "",
+   "summary": "QQQ faces AI funding fears, rate pressures and tech pullbacks, but historical post-midterm gains and improving technical conditions point to potential market recovery.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "The Zacks Analyst Blog Highlights Lilly, Cisco, KLA, Oil-Dri Corp. of America and NVE",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-lilly-072400082.html",
+   "published": "2026-11-04T07:24:00Z",
+   "publisher": "",
+   "summary": "Lilly, Cisco and KLA lead five featured analyst reports, highlighting growth drivers ranging from GLP-1 demand and AI infrastructure to semiconductor advances.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "The Zacks Analyst Blog Highlights Phillips 66, Valero Energy and HF Sinclair",
+   "link": "https://finance.yahoo.com/energy/articles/zacks-analyst-blog-highlights-phillips-071600706.html",
+   "published": "2026-11-04T07:16:00Z",
+   "publisher": "",
+   "summary": "Phillips 66, Valero Energy and HF Sinclair posted strong third-quarter earnings, fueled by refining margins and favorable energy market conditions. Discover the factors supporting their November momentum and the strategies driving growth and shareholder returns.",
+   "symbols": []
   },
   {
    "title": "Okta (OKTA) Has Joined The S&P 500",
@@ -37,11 +127,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -59,12 +149,12 @@
    "publisher": "",
    "summary": "Tetragon today announces the commencement of a tender offer to purchase a portion of its outstanding non-voting shares for a maximum aggregate payment of $50,000,000 in cash. The tender offer, which was initially announced by Tetragon on 27 October 2026, will be conducted as a \"modified Dutch auction\" with shareholders able to tender their Tetragon non-voting shares at prices ranging from and incl",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -126,6 +216,14 @@
    "symbols": []
   },
   {
+   "title": "Evercore Names the 3 Conditions That Could Wipe Out S&P 500’s Gains",
+   "link": "https://beincrypto.com/evercore-sp-500-midterm-worst-case/?.tsrc=rss",
+   "published": "2026-11-04T05:57:55Z",
+   "publisher": "",
+   "summary": "Evercore ISI sees the S&P 500 at 6,800 if a disputed midterm and Iran escalation follow a Democratic sweep.",
+   "symbols": []
+  },
+  {
    "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62851581/stock-market-will-sp-500-open-up-or-down-today-72?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
    "published": "2026-11-04T05:57:08Z",
@@ -156,12 +254,12 @@
    "publisher": "",
    "summary": "Morgan Stanley analyst Adam Jonas says Space Exploration Technologies Corp. (NASDAQ:SPCX) will achieve positive cash flow by 2031, reiterating bullish sentiment on the Elon Musk-led company. Morgan Stanley Cuts SpaceX Debt Issuance Target In a new investor note shared by influencer Sawyer Merritt on X on Tuesday, Jonas said that the investment bank had “nearly doubled” its revenue and earnings est",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -171,6 +269,14 @@
    "published": "2026-11-04T05:36:59Z",
    "publisher": "",
    "summary": "Investing.com-- Asian stocks fell sharply on Wednesday, with technology shares leading losses as early U.S. midterm election results pointed to potential Democratic gains in Congress, raising concerns over artificial intelligence spending, regulation and the outlook for U.S. fiscal policy.",
+   "symbols": []
+  },
+  {
+   "title": "Who’s Buying Gold in 2026? The World Gold Council’s New Data Has an Answer",
+   "link": "https://beincrypto.com/world-gold-council-gold-forecast-2026/?.tsrc=rss",
+   "published": "2026-11-04T05:30:14Z",
+   "publisher": "",
+   "summary": "World Gold Council halved its 2026 gold investment forecast as retail buying slowed, but lifted its central bank outlook.",
    "symbols": []
   },
   {
@@ -304,12 +410,12 @@
    "publisher": "",
    "summary": "Key TakeawaysBloom Energy shares are up 146% in 2026 as AI data centers’ demand for onsite power drove three guidance raises, to $4. 4 billion to $4.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -328,12 +434,12 @@
    "publisher": "",
    "summary": "Key TakeawaysAST SpaceMobile shares are down 11% in the past week, mostly on a report that SpaceX may buy EchoStar’s Boost Mobile, as Amazon also moves in. A SpaceX-owned carrier would hurt AT&T and Verizon, AST’s US partners, before AST, and push both closer to it.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -451,6 +557,23 @@
    "symbols": []
   },
   {
+   "title": "Binance's Teng Says Industry Must Learn From Hack: Do New Crypto Features Raise Risk?",
+   "link": "https://beincrypto.com/binance-hack-teng-says-industry-learn/?.tsrc=rss",
+   "published": "2026-11-04T02:35:00Z",
+   "publisher": "",
+   "summary": "Binance co-CEO Teng says the industry must learn from the Binance hack. See whether new crypto features raise risk.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
    "title": "Futures Sink Further As Democrats' Big Night Starts To Look Like a Lock",
    "link": "https://finance.yahoo.com/m/109bf77d-030d-36af-9613-14055ff7126e/futures-sink-further-as.html",
    "published": "2026-11-04T02:18:29Z",
@@ -506,6 +629,23 @@
    "publisher": "",
    "summary": "Suncor Energy more than doubled its third-quarter net earnings and generated record adjusted funds from operations, prompting the Canadian energy producer to increase its dividend and share buybacks while advancing plans to sell non-core offshore assets.",
    "symbols": []
+  },
+  {
+   "title": "US Midterm 2026 Results: Democrats Win Congress as US Futures and BTC Whipsaw",
+   "link": "https://beincrypto.com/us-midterm-results-btc-us-futures/?.tsrc=rss",
+   "published": "2026-11-04T01:42:06Z",
+   "publisher": "",
+   "summary": "US midterm 2026 results show Democrats winning Congress. Track how Bitcoin and US futures reacted as markets sold off, then pared losses.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Gold holds near $3,930 as Iran talks, U.S. midterms shape outlook",
@@ -2806,128 +2946,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "UnitedHealth Just Gained 11% in a Month: Take Profits, or Buy More?",
-   "link": "https://www.tikr.com/blog/unitedhealth-just-gained-11-in-a-month-take-profits-or-buy-more?ref=yahoofinance&tlnk=yf-261103-35xcv3qj&.tsrc=rss",
-   "published": "2026-11-03T17:33:31Z",
-   "publisher": "",
-   "summary": "Key TakeawaysUnitedHealth Group (UNH) stock gained approximately 11% in the month through October 30, supported by stronger third-quarter earnings and another increase to its 2026 profit outlook. Operating earnings climbed to $6.",
-   "symbols": []
-  },
-  {
-   "title": "Elon Musk Got Turned Down by 3 Phone Giants. Now SpaceX Is Eyeing Boost Mobile as a Shortcut Around a $300 Billion Build.",
-   "link": "https://247wallst.com/videos/elon-musk-got-turned-down-by-3-phone-giants-now-spacex-is-eyeing-boost-mobile-as-a-shortcut-around-a-300-billion-build/?.tsrc=rss",
-   "published": "2026-11-03T17:30:14Z",
-   "publisher": "",
-   "summary": "Eric Bleeker of 24/7 Wall St. looks at why SpaceX (NASDAQ: SPCX) may be eyeing Boost Mobile after Verizon (NYSE: VZ), AT&T (NYSE: T) and T-Mobile (NASDAQ: TMUS) reportedly turned Elon Musk down as a phone partner. The Washington Post reported on November 2nd that SpaceX has been in talks to buy Boost from EchoStar (NASDAQ: SATS) or partner with it. Nothing has been signed, and the structure is sti",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "What a Democratic sweep could mean for stocks — and why history says not much",
-   "link": "https://finance.yahoo.com/markets/article/what-a-democratic-sweep-could-mean-for-stocks--and-why-history-says-not-much-172652296.html",
-   "published": "2026-11-03T17:26:52Z",
-   "publisher": "",
-   "summary": "Every midterm outcome under a Republican president has left the S&P 500 about 15% higher a year later.",
-   "symbols": []
-  },
-  {
-   "title": "CFTC’s Selig Says Perpetual Futures on Individual Stocks Can Now Trade in the US",
-   "link": "https://unchainedcrypto.com/cftcs-selig-says-perpetual-futures-on-individual-stocks-can-now-trade-in-the-us/?.tsrc=rss",
-   "published": "2026-11-03T17:20:37Z",
-   "publisher": "",
-   "summary": "Chairman Michael Selig said the contracts were deemed approved as security futures under joint CFTC and SEC oversight, though his statement named no exchange, stock or start date.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Why the Anthropic IPO 'could be the swing vote' for Wall Street bank stocks",
-   "link": "https://finance.yahoo.com/markets/article/why-the-anthropic-ipo-could-be-the-swing-vote-for-wall-street-bank-stocks-172030065.html",
-   "published": "2026-11-03T17:20:30Z",
-   "publisher": "",
-   "summary": "Despite reporting sturdy third quarter results in early October, signs of a slowdown in deals and trading activity have begun to pick up at US banks. The environment only raises the stakes for Anthropic's highly anticipated public debut, which could come as soon as Nov. 16.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Diamondback Energy Raises Its Dividend 7.3%. Here’s the Coverage Math",
-   "link": "https://247wallst.com/investing/2026/11/03/diamondback-energy-raises-its-dividend-7-3-heres-the-coverage-math/?.tsrc=rss",
-   "published": "2026-11-03T17:17:53Z",
-   "publisher": "",
-   "summary": "Diamondback just bumped its quarterly dividend again, but headline yield tells income investors almost nothing about whether that payout survives a crude selloff. The number that actually matters sits buried in the free cash flow statement.",
-   "symbols": []
-  },
-  {
-   "title": "Forget Nvidia: Eli Lilly Will Become “the Most Valuable Company in the World,” Says Macro Investor",
-   "link": "https://www.tikr.com/blog/forget-nvidia-eli-lilly-will-become-the-most-valuable-company-in-the-world-says-macro-investor?ref=yahoofinance&tlnk=yf-261103-3q4hj2qq&.tsrc=rss",
-   "published": "2026-11-03T17:17:19Z",
-   "publisher": "",
-   "summary": "Key TakeawaysEli Lilly hit a record high on Friday after raising its 2026 revenue forecast to $91-$92 billion, lifting its market value to about $1. 1 trillion, level with Berkshire Hathaway.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Benchmark diesel price is down; so is futures market in a big way",
-   "link": "https://finance.yahoo.com/energy/articles/benchmark-diesel-price-down-futures-171317476.html",
-   "published": "2026-11-03T17:13:17Z",
-   "publisher": "",
-   "summary": "The benchmark price used for most fuel surcharges rose/fell slightly this week, but the focus in oil markets is on the huge decline in futures market prices recorded Monday. The Department of Energy/Energy Information Administration average weekly retail diesel price fell to $6.292/gallon, a decline of 6 cts/g, effective Monday, published Tuesday. That price would […] The post Benchmark diesel pri",
-   "symbols": []
-  },
-  {
-   "title": "Netflix Trades at a Discount to the S&P 500's Valuation. Is It Deserved?",
-   "link": "https://www.fool.com/investing/2026/11/03/netflix-trades-at-a-discount-to-the-sp-500s-valuat/?.tsrc=rss",
-   "published": "2026-11-03T17:13:00Z",
-   "publisher": "",
-   "summary": "Netflix is now trading for less than 17 times next year's earnings.",
-   "symbols": []
-  },
-  {
-   "title": "Top Midday Stories: Apple Fiscal Q4 EPS, Revenue Top Estimates, Shares Fall; Meta Reportedly Targeting Up to $25 Billion in Bond Sale",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-apple-fiscal-170956313.html",
-   "published": "2026-11-03T17:09:56Z",
-   "publisher": "",
-   "summary": "The S&P 500 Index and Nasdaq Composite were up in late-morning trading Tuesday, while the Dow Jones",
-   "symbols": []
-  },
-  {
-   "title": "Billionaire Paul Singer Says Wall Street Faces “Obliteration”",
-   "link": "https://247wallst.com/investing/2026/11/03/billionaire-paul-singer-says-wall-street-faces-obliteration/?.tsrc=rss",
-   "published": "2026-11-03T17:07:28Z",
-   "publisher": "",
-   "summary": "Hedge fund manager Paul Singer has a name for what happens when investor fear of missing out flips into something far worse, and he thinks the conditions for that reversal are already in place.",
-   "symbols": []
   }
  ]
 }
