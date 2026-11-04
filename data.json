@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T19:56:25Z",
+ "builtAt": "2026-11-04T20:56:12Z",
  "digests": [
   {
    "calendar": [
@@ -1051,6 +1051,162 @@
      "title": "A chipszektor a legalacsonyabb szintjére esett április vége óta, miután a demokraták a félidős választáson győztek",
      "url": "https://finance.yahoo.com/m/b85debf9-a8a5-3505-a5ba-812ad44e0e07/chip-stocks-feeling-blue.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A nyersolaj ára 90 dollár alá csökkent, és a héten a 2020 óta tartó legrosszabb heti teljesítmény felé tart. A piac szerint az iráni háború a vége felé közeledik.",
+     "symbols": [],
+     "title": "Az olajár 90 dollár alá esett: a kereskedők az iráni háború lezárására fogadnak a demokrata választási győzelem után",
+     "url": "https://finance.yahoo.com/markets/article/oil-prices-fall-below-90-as-traders-bet-on-iran-war-ending-after-democrats-sweep-midterms-192105228.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az energiarészvények szerdán délután gyengén szerepeltek: az NYSE energiaszektor-indexe 5,4%-os esést mutatott, az olajár csökkenésével párhuzamosan.",
+     "symbols": [],
+     "title": "Az amerikai energiaszektor zuhan: az NYSE energiaszektor-indexe 5,4%-ot esett szerdán délután",
+     "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-wednesday-184335445.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Reuters szerint a védelmi részvények estek, mert a befektetők attól tartanak, hogy a demokrata előretörés után szűkülhet a Pentagon költségvetése.",
+     "symbols": [
+      "DFEN"
+     ],
+     "title": "A védelmi cégek árfolyama esik, mert a demokrata győzelem a Pentagon szigorúbb költségvetésétől való félelmet kelt",
+     "url": "https://www.investing.com/news/stock-market-news/defense-firms-fall-as-democratic-victory-stokes-fears-of-tighter-pentagon-budget-5000702",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Micron árfolyama szerdán 6%-ot esett, miután a demokraták szerezték meg a kongresszusi többséget. A befektetők lassabb MI-kapacitásépítést árazanak be.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "A Micron 6%-ot esett: a demokrata győzelem az MI-beruházások lassulásától való félelmet kelti",
+     "url": "https://www.tikr.com/blog/micron-sinks-6-as-democratic-sweep-stokes-fears-of-an-ai-slowdown-in-build?ref=yahoofinance&tlnk=yf-261104-99f4g74r&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Lumentum árfolyama 10%-ot esett, a Marvell és a Coherent szintén gyengült, mert az MI-adatközponti részvényeket eladták a választás után.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A Lumentum 10%-ot zuhant a Marvell-lel együtt: a választás után eladták az adatközponti részvényeket",
+     "url": "https://www.tikr.com/blog/lumentum-sinks-10-with-marvell-as-blue-wave-hits-data-center-stocks-premium-can-quickly-go-negative?ref=yahoofinance&tlnk=yf-261104-h5m994wv&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl (sajtóközlemény)",
+     "summary": "Egy sajtóközlemény szerint a Bernstein szerdán hét bitcoinbányász célárát vágta meg, akár 54%-kal, mert a texasi demokrata siker veszélyeztetheti az MI-adatközponti fellendülést. Önálló megerősítést nem találtunk.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Bernstein akár 54%-kal is csökkentette hét bitcoinbányász célárát a texasi demokrata siker után",
+     "url": "https://www.cryptoprowl.com/releases/bernstein-cuts-price-targets-on-seven-bitcoin-miners-after-democrats-texas-win-threatens-ai-data-center-boom-7670?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A Strategy (MSTR) újabb bitcoinvásárlást jelentett be 811 bitcoinnal, míg az amerikai spot bitcoin-ETF-ekből tovább vonták ki a pénzt: a BlackRock ETF-jéből egy nap alatt 405,3 millió dollár távozott.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Strategy újabb 811 bitcoint vett, miközben a BlackRock bitcoin-ETF-jéből 405,3 millió dollár áramlott ki egy nap alatt",
+     "url": "https://247wallst.com/investing/2026/11/04/michael-saylor-keeps-buying-bitcoin-while-etf-investors-sell-strategy-added-811-coins-while-blackrocks-bitcoin-etf-saw-405-3-million-pulled-out-in-a-single-day/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A bitcoin szeptember óta mért mélypontjára zuhant, majd ugyanazon a napon látványosan visszapattant. A cikk szerint a mögöttes kereskedési adatok óvatosságra intenek.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin 76 ezer dollár közelére esett, majd órákon belül 78 ezer fölé tért vissza",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/04/bitcoin-dipped-toward-76000-and-bounced-back-above-78000-within-hours-is-the-bottom-in/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Barron's",
+     "summary": "A kutató- és tanácsadó cég emelte éves kilátásait, de a negyedik negyedévre implikált eredmény elmarad a Wall Street várakozásától.",
+     "symbols": [],
+     "title": "A Gartner árfolyama zuhan: a gyenge előrejelzés az olcsóbb MI-szolgáltatások fenyegetését mutatja",
+     "url": "https://finance.yahoo.com/m/eda8cb55-a7b4-3dee-b05f-bef36a372c23/gartner-stock-sinks.-weak.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Barron's",
+     "summary": "A Barron's szerint a megnövekedett szövetségi kiadásoktól való aggodalom már megjelenik a piacon, a demokrata siker pedig újabb adósságplafon-vitát vetít előre.",
+     "symbols": [],
+     "title": "A demokraták győzelme adóssághatár-vitát vetít előre: a kötvénypiac már érzi a nagyobb szövetségi kiadások kockázatát",
+     "url": "https://finance.yahoo.com/m/14dbcca7-fe7f-309a-b6c8-3367ae10c6ec/democrats%E2%80%99-big-win-sets-up-a.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az olajár csökkenése lendítette a légitársaságok árfolyamát az amerikai tőzsdén szerdán.",
+     "symbols": [],
+     "title": "Az amerikai légitársaságok részvényei emelkednek, mert a nyersolaj ára több mint 3 dollárral esett",
+     "url": "https://www.investing.com/news/stock-market-news/us-airline-stocks-climb-as-crude-oil-prices-drop-over-3-93CH-5001082",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T20:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Reuters szerint a kaliforniai milliárdosadó-kezdeményezés lemaradásban van, miközben az államban még számolják a szavazatokat.",
+     "symbols": [],
+     "title": "A kaliforniai milliárdosadó-javaslat hátrányban van a szavazatok számlálásakor",
+     "url": "https://www.investing.com/news/economic-indicators/billionaire-tax-measure-trails-as-california-tallies-votes-5001028",
+     "verified": true
     }
    ],
    "markets": [
@@ -1077,7 +1233,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T18:45:00Z",
+   "updatedAt": "2026-11-04T20:45:00Z",
    "watchlist": []
   },
   {
