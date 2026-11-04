@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T15:55:54Z",
+ "builtAt": "2026-11-04T16:56:13Z",
  "digests": [
   {
    "calendar": [
@@ -930,6 +930,57 @@
      "title": "Az amerikai ISM szolgáltatóipari PMI októberben 54,5-re lassult, a várt 54,8 alatt",
      "url": "https://www.prnewswire.com/news-releases/services-pmi-at-54-5-october-2026-ism-services-pmi-report-302928112.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T16:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "CNBC · CNN · Yahoo Finance",
+     "summary": "A CNBC, a CNN és a Yahoo Finance szerint a Dow kb. 1200–1400 ponttal (2,4–2,7%) emelkedett, az S&P 500 és a Nasdaq 1,4–1,8%-kal; az Apple és a Microsoft történelmi csúcsra ért. A kezdeti esés után a politikai kockázat csökkenése húzta a piacot, az MI-infrastruktúrához kötődő részvények viszont gyengélkedtek.",
+     "symbols": [
+      "AAPL",
+      "MSFT",
+      "NVDA"
+     ],
+     "title": "Az amerikai tőzsdék szárnyalnak a demokrata választási győzelem után: a Dow mintegy 1300 ponttal emelkedik",
+     "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T16:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com híre szerint Mike Johnson nem lesz a Ház republikánus vezetője a következő ciklusban, miután a demokraták megszerezték a Házat. Külön megerősítést nem találtam, de cáfolatot sem.",
+     "symbols": [],
+     "title": "Mike Johnson nem vezeti tovább a republikánus képviselőket a következő évben",
+     "url": "https://www.investing.com/news/economy-news/mike-johnson-will-not-lead-house-republicans-next-year-5000355",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T16:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters nyomán az Investing.com szerint a Flutter szünetelteti részvény-visszavásárlási programját, hogy az eladósodottságot és a költségeket csökkentse. A hírt külön forrás nem erősítette meg, cáfolat sincs.",
+     "symbols": [],
+     "title": "A Flutter felfüggeszti a részvény-visszavásárlást a költségcsökkentés és az adósságcsökkentés érdekében",
+     "url": "https://www.investing.com/news/stock-market-news/flutter-pauses-share-buybacks-to-focus-on-deleveraging-cost-saving-4998870",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T16:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Bloomberg, közvetítette: Investing.com",
+     "summary": "A Bloomberg értesülései szerint az Egyesült Arab Emírségek egy harmadik, a Hormuzi-szorost megkerülő kőolajvezeték lehetőségét vizsgálja. A tervet korábban is említették, de a konkrét hírt nem erősítette meg másik forrás.",
+     "symbols": [],
+     "title": "Bloomberg: az Emírségek harmadik kőolajvezetéket mérlegel a Hormuzi-szoros megkerülésére",
+     "url": "https://www.investing.com/news/economy-news/uae-weighs-third-crude-pipeline-to-bypass-strait-of-hormuz-bloomberg-reports-5000332",
+     "verified": false
     }
    ],
    "markets": [
@@ -956,7 +1007,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T15:45:00Z",
+   "updatedAt": "2026-11-04T16:45:00Z",
    "watchlist": []
   },
   {
