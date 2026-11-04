@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T11:56:10Z",
+ "builtAt": "2026-11-04T12:56:17Z",
  "digests": [
   {
    "calendar": [
@@ -751,6 +751,88 @@
      "title": "A Coca-Cola HBC Q3 bevétele a várakozás felett, emelte a 2026-os növekedési kilátást",
      "url": "https://www.investing.com/news/stock-market-news/cocacola-hbc-q3-revenue-beats-forecasts-2026-growth-outlook-raised-93CH-4998249",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T12:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az Uber negyedéves profitelőrejelzése elmaradt a várakozásoktól. A cég a sofőrhiányt és a közel-keleti konfliktust nevezte meg a gyengébb kilátás okaként.",
+     "symbols": [
+      "UBER"
+     ],
+     "title": "Az Uber profitkilátása csalódást keltett a sofőrhiány és a közel-keleti konfliktus miatt",
+     "url": "https://www.investing.com/news/stock-market-news/ubers-profit-forecast-disappoints-as-driver-shortages-middle-east-conflict-hurt-4998735",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T12:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a CVS Health szétválasztja a gyógyszertári üzletágát és a biztosítási tevékenységét. Korábban az FT értesülése szerint a cég ezt mérlegelte.",
+     "symbols": [
+      "CVS"
+     ],
+     "title": "A CVS Health két részre válik: a gyógyszertári üzletágat leválasztják a biztosításról",
+     "url": "https://www.investing.com/news/stock-market-news/cvs-health-to-split-in-two-separating-pharmacy-business-from-insurance-4998559",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T12:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a londoni FTSE 100 index nagyjából 1%-kal emelkedett, a bank- és bányarészvények vezették a mezőnyt.",
+     "symbols": [],
+     "title": "A FTSE 100 1%-ot emelkedett a bankok és a bányászok húzására",
+     "url": "https://www.investing.com/news/economy-news/ftse-100-climbs-1-on-banks-miners-boost-4998623",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T12:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance szerint az Nvidia részvénye emelkedett, mert a befektetők az erős MI-vállalati eredményekre koncentrálnak. A demokraták az adatközpont-építés korlátozásával fenyegetnek, ez egyelőre háttérbe szorult.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Az Nvidia emelkedik: a befektetők az erős MI-eredményekre figyelnek, nem az adatközpont-korlátozás fenyegetésére",
+     "url": "https://finance.yahoo.com/m/99ed91be-3beb-3eb0-aee8-c64c515c6a6f/why-nvidia-stock-is-rising-as.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T12:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Qnity harmadik negyedéves egy részvényre jutó nyeresége 1,46 dollár volt, a várt 1,20 dollárral szemben. Az eredmény a Yahoo Finance szerint enyhítette az MI-szektor feszültségét.",
+     "symbols": [
+      "Q"
+     ],
+     "title": "A Qnity eredménye megnyugtatta az MI-kereskedelemtől tartó befektetőket",
+     "url": "https://finance.yahoo.com/m/5cb78c16-895a-3e98-a7d8-53dd11c44781/qnity-earnings-were-a-relief.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T12:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "InvestorsHub (Yahoo Finance-en)",
+     "summary": "Az InvestorsHub szerint a Tesla árfolyama 4,5%-kal, 380 dollár körülire gyengült a demokrata választási győzelem után. Független megerősítést nem találtunk.",
+     "symbols": [
+      "TSLA"
+     ],
+     "title": "A Tesla részvénye 4,5%-ot esett a demokrata félidős siker szabályozási és fúziós aggályai miatt",
+     "url": "https://investorshub.advfn.com/market-news/article/39239/tesla-shares-fall-4-5-as-democratic-midterm-victory-raises-regulatory-and-merger-concerns",
+     "verified": false
     }
    ],
    "markets": [
@@ -777,7 +859,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T11:45:00Z",
+   "updatedAt": "2026-11-04T12:50:00Z",
    "watchlist": []
   },
   {
