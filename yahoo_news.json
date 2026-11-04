@@ -1,7 +1,89 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-04T06:33:57Z",
+ "updatedAt": "2026-11-04T07:51:50Z",
  "items": [
+  {
+   "title": "Bitcoin recovers to near $78k as Democrats sweep midterm elections",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-recovers-near-78k-democrats-074054900.html",
+   "published": "2026-11-04T07:40:54Z",
+   "publisher": "",
+   "summary": "Investing.com-- Bitcoin rose on Wednesday, tracking a broader rebound in risk assets as markets welcomed some clarity on U.S. politics following a Democrat sweep of Congress in the midterm elections.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Okta (OKTA) Has Joined The S&P 500",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-joined-p-500-071521952.html",
+   "published": "2026-11-04T07:15:21Z",
+   "publisher": "",
+   "summary": "Okta (NasdaqGS: OKTA) has been added to the S&P 500 index, replacing its previous slot in the S&P 400 mid-cap index. The identity management provider is also joining related S&P 500 sector and industry sub-indices tied to its classification. This index reshuffle affects funds and ETFs that track the S&P 400 and S&P 500, which now need to adjust their Okta holdings. Okta’s move into the S&P 500 and",
+   "symbols": []
+  },
+  {
+   "title": "Down 51% From Its High: Is This 84.6% Margin NAND Flash Maker a Bargain?",
+   "link": "https://finance.yahoo.com/technology/articles/down-51-high-84-6-070844476.html",
+   "published": "2026-11-04T07:08:44Z",
+   "publisher": "",
+   "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "S-Oil Corp (XKRX:010950) (Q3 2026) Earnings Call Highlights: Record Lube Profit and Surging ...",
+   "link": "https://finance.yahoo.com/energy/articles/oil-corp-xkrx-010950-q3-070709109.html",
+   "published": "2026-11-04T07:07:09Z",
+   "publisher": "",
+   "summary": "S-Oil Corp (XKRX:010950) posted KRW 1,406.7 billion in Q3 2026 operating income as tight global supply and strong refining spreads offset petrochemical losses and inventory-related charges.",
+   "symbols": []
+  },
+  {
+   "title": "Tetragon Financial Group Limited Announcement of Tender Offer to Purchase $50,000,000 of Tetragon Non-Voting Shares",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tetragon-financial-group-limited-announcement-065500198.html",
+   "published": "2026-11-04T06:55:00Z",
+   "publisher": "",
+   "summary": "Tetragon today announces the commencement of a tender offer to purchase a portion of its outstanding non-voting shares for a maximum aggregate payment of $50,000,000 in cash. The tender offer, which was initially announced by Tetragon on 27 October 2026, will be conducted as a \"modified Dutch auction\" with shareholders able to tender their Tetragon non-voting shares at prices ranging from and incl",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny",
+   "link": "https://stocktwits.com/news-articles/markets/equity/midterm-election-impact-spcx-asts-rklb-musk-political-tesla-spacex-merger-scrutiny/cNGLRztR9dU?.tsrc=rss",
+   "published": "2026-11-04T06:50:43Z",
+   "publisher": "",
+   "summary": "Morgan Stanley valued SpaceX slightly below the S&P 500 on projected 2028 earnings and forecast positive free cash flow by 2031.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
   {
    "title": "C3.ai (AI), Why Is The Stock Back In Focus?",
    "link": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-ai-why-stock-062401285.html",
@@ -20,12 +102,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "Oil Prices Rebound as Middle East Supply Fears Return",
+   "link": "https://finance.yahoo.com/energy/articles/oil-prices-rebound-middle-east-061500190.html",
+   "published": "2026-11-04T06:15:00Z",
+   "publisher": "",
+   "summary": "Oil prices recover from four-week lows as analysts warn that Persian Gulf oil exports remain constrained despite hopes of a diplomatic resolution to the Iran war.",
+   "symbols": []
   },
   {
    "title": "Pampa Energia Q3 Earnings Call Highlights",
@@ -50,6 +140,22 @@
    "publisher": "",
    "summary": "Nicholas Mugalli warned of an investor “bloodbath,” particularly for AI stocks, citing risks of tougher regulation.",
    "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Morgan Stanley Analyst Says SPCX Will Be Cash Flow Positive by 2031, Four Years Earlier Than Expected—Cuts Borrowing Forecast by Nearly $280 Billion",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-analyst-says-spcx-053955574.html",
+   "published": "2026-11-04T05:39:55Z",
+   "publisher": "",
+   "summary": "Morgan Stanley analyst Adam Jonas says Space Exploration Technologies Corp. (NASDAQ:SPCX) will achieve positive cash flow by 2031, reiterating bullish sentiment on the Elon Musk-led company. Morgan Stanley Cuts SpaceX Debt Issuance Target In a new investor note shared by influencer Sawyer Merritt on X on Tuesday, Jonas said that the investment bank had “nearly doubled” its revenue and earnings est",
+   "symbols": [
     "SPCX",
     "BE",
     "JPM",
@@ -65,6 +171,14 @@
    "published": "2026-11-04T05:36:59Z",
    "publisher": "",
    "summary": "Investing.com-- Asian stocks fell sharply on Wednesday, with technology shares leading losses as early U.S. midterm election results pointed to potential Democratic gains in Congress, raising concerns over artificial intelligence spending, regulation and the outlook for U.S. fiscal policy.",
+   "symbols": []
+  },
+  {
+   "title": "Democratic Rout Ends Trump's Legislative Agenda and Sets Up Corporate Allies For Pain",
+   "link": "https://finance.yahoo.com/m/c7dac0a6-abf2-3044-a349-1e4889ffc5d4/democratic-rout-ends-trump%27s.html",
+   "published": "2026-11-04T05:15:29Z",
+   "publisher": "",
+   "summary": "Democrats look almost certain to seize control of the House of Representatives after they won the Senate late Tuesday night, constricting President Donald Trump's power and likely queuing up congressional investigations into the White House and into the companies that have supported his agenda.",
    "symbols": []
   },
   {
@@ -107,6 +221,14 @@
     "ONDO",
     "XRP"
    ]
+  },
+  {
+   "title": "US stock futures tumble as Democrats score key midterm election wins",
+   "link": "https://www.foxbusiness.com/markets/us-stock-futures-tumble-democrats-score-key-midterm-election-wins?.tsrc=rss",
+   "published": "2026-11-04T04:57:40Z",
+   "publisher": "",
+   "summary": "Wall Street faces fresh uncertainty over what Democratic control of Congress could mean for taxes, government spending and regulation.",
+   "symbols": []
   },
   {
    "title": "Compass Pathways: 3 Key Takeaways for Long-Term Investors",
@@ -176,12 +298,44 @@
    "symbols": []
   },
   {
+   "title": "Bloom Energy Is Up 146% in 2026: Take Profits, or Buy More?",
+   "link": "https://www.tikr.com/blog/bloom-energy-is-up-146-in-2026-take-profits-or-buy-more?ref=yahoofinance&tlnk=yf-261104-j4465vp6&.tsrc=rss",
+   "published": "2026-11-04T04:21:45Z",
+   "publisher": "",
+   "summary": "Key TakeawaysBloom Energy shares are up 146% in 2026 as AI data centers’ demand for onsite power drove three guidance raises, to $4. 4 billion to $4.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
    "title": "History Shows a Worst-Case Scenario Unfolding for Stocks on Election Night, as Well as a Silver Lining That Isn't Getting Enough Attention",
    "link": "https://www.fool.com/investing/2026/11/03/history-shows-worst-case-scenario-unfolding-stocks-election-night-silver-lining-isnt-getting-enough-attention/?.tsrc=rss",
    "published": "2026-11-04T04:21:02Z",
    "publisher": "",
    "summary": "A Republican president overseeing a split Congress has delivered outlier S&P 500 returns since 1926.",
    "symbols": []
+  },
+  {
+   "title": "AST SpaceMobile Sinks 11% in a Week as SpaceX Eyes Boost Mobile: “Pivot FAST”",
+   "link": "https://www.tikr.com/blog/ast-spacemobile-sinks-11-in-a-week-as-spacex-eyes-boost-mobile-pivot-fast?ref=yahoofinance&tlnk=yf-261104-jr3x45m8&.tsrc=rss",
+   "published": "2026-11-04T04:15:44Z",
+   "publisher": "",
+   "summary": "Key TakeawaysAST SpaceMobile shares are down 11% in the past week, mostly on a report that SpaceX may buy EchoStar’s Boost Mobile, as Amazon also moves in. A SpaceX-owned carrier would hurt AT&T and Verizon, AST’s US partners, before AST, and push both closer to it.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Sherrod Brown Takes Back Senate Seat in Blow to Crypto Industry",
@@ -2773,169 +2927,6 @@
    "published": "2026-11-03T17:07:28Z",
    "publisher": "",
    "summary": "Hedge fund manager Paul Singer has a name for what happens when investor fear of missing out flips into something far worse, and he thinks the conditions for that reversal are already in place.",
-   "symbols": []
-  },
-  {
-   "title": "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why Greg Abel Is Still Holding.",
-   "link": "https://www.fool.com/investing/2026/11/03/dividend-stock-warren-buffett-why-greg-abel-ko/?.tsrc=rss",
-   "published": "2026-11-03T17:05:00Z",
-   "publisher": "",
-   "summary": "This fantastic stock is beating the market this year.",
-   "symbols": []
-  },
-  {
-   "title": "Hut 8 Surges 16% Ahead of Earnings as Bitcoin Miners Rebound; Riot Platforms Surges 14%, MARA Holdings Jumps 9%",
-   "link": "https://247wallst.com/investing/2026/11/03/hut-8-surges-16-ahead-of-earnings-as-bitcoin-miners-rebound-riot-platforms-surges-14-mara-holdings-jumps-9/?.tsrc=rss",
-   "published": "2026-11-03T17:03:18Z",
-   "publisher": "",
-   "summary": "Bitcoin miners pivoting toward AI infrastructure are staging a sharp rebound, but the real question is whether Hut 8 can prove its lease timeline holds when it opens its books on November 4.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "VanEck Just Launched a Diversified ETF Holding Stocks, Bonds, and Bitcoin. Is This the Best Way to Get Exposure to Crypto?",
-   "link": "https://www.fool.com/investing/2026/11/03/vaneck-just-launched-a-diversified-etf/?.tsrc=rss",
-   "published": "2026-11-03T17:03:00Z",
-   "publisher": "",
-   "summary": "The VanEck Wealth Builder ETF livens up the multi-asset ETF concept by adding Bitcoin to the mix.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Binance deposits overtake withdrawals, and the SEC creates crypto FAQs on governance",
-   "link": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
-   "published": "2026-11-03T17:00:00Z",
-   "publisher": "",
-   "summary": "Scott Melker discusses deposits overtaking withdrawals on Binance, North Korea denying any role in the hack, and the SEC creating 3 guides on crypto governance and token status. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Analyst who called 2021 crypto crash says don’t sell Bitcoin now",
-   "link": "https://www.thestreet.com/crypto/markets/analyst-who-called-2021-crypto-crash-says-dont-sell-bitcoin-now?.tsrc=rss",
-   "published": "2026-11-03T17:00:00Z",
-   "publisher": "",
-   "summary": "Bitcoin is sliding, but Benjamin Cowen says the cycle points the other way. His calendar reads buying season, not selling.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Stocks wobble on concerns over AI and US midterms",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-down-ai-concerns-025549205.html",
-   "published": "2026-11-03T16:54:12Z",
-   "publisher": "",
-   "summary": "Stock markets wavered Tuesday amid growing nervousness about the debt-fuelled spending by AI heavyweights, though the focus was squarely on US midterm elections that could reshape President Donald Trump's final two years in office.\"Investors were sitting uncomfortably as they waited with bated breath for the US midterm elections,\" said Dan Coatsworth, head of markets at AJ Bell.",
-   "symbols": []
-  },
-  {
-   "title": "Savings Tech Platform: Vestwell Founder & CEO Aaron Schumm, Live from NYSE",
-   "link": "https://finance.yahoo.com/small-business/articles/savings-tech-platform-vestwell-founder-165226459.html",
-   "published": "2026-11-03T16:52:26Z",
-   "publisher": "",
-   "summary": "IPO Edge hosted a fireside chat from the floor of the New York Stock Exchange during the 3rd Annual Private Equity IPO Summit with Aaron Schumm, founder and Chief Executive Officer […]",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Trifecta Gold advances 30,000-hectare Yukon Portfolio Across Tombstone Gold Belt",
-   "link": "https://finance.yahoo.com/video/trifecta-gold-advances-30-000-165206171.html",
-   "published": "2026-11-03T16:52:06Z",
-   "publisher": "",
-   "summary": "Trifecta Gold CEO Richard Drechsler joined Steve Darling from Proactive to discuss the company's extensive Yukon exploration portfolio, its strategy of advancing promising gold targets towards discovery and its work across more than 30,000 hectares in the highly prospective Tombstone Gold Belt. Formed as a spin-out from project generator Strategic Metals, Trifecta Gold was established to identify ",
-   "symbols": []
-  },
-  {
-   "title": "Five Metals Producers Trade Higher as Gold, Silver and Copper Futures Pull Back",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/five-metals-producers-trade-higher-165200576.html",
-   "published": "2026-11-03T16:52:00Z",
-   "publisher": "",
-   "summary": "US Metal News News Commentary - Gold and silver futures gave back part of Monday's gains on Tuesday morning, Election Day in the United States, and copper futures fell by more than their Monday advance, yet several metals producers with fresh quarterly numbers or project studies traded higher, among them a Brazil-focused copper miner, a zinc miner and smelter, an aluminum products maker, a Canadia",
-   "symbols": []
-  },
-  {
-   "title": "Retail Flows and Industry Consolidation Power KKR & Co.’s (KKR) Growth Runway",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/retail-flows-industry-consolidation-power-164714487.html",
-   "published": "2026-11-03T16:47:14Z",
-   "publisher": "",
-   "summary": "1 Main Capital, a boutique investment firm, recently released its third-quarter 2026 investor letter. The Fund returned −9.1%, versus +2.3% for the S&P 500 and −7.2% for the Russell 2000. The letter can be downloaded here. The manager attributes the shortfall to weak share prices across several holdings, despite strong results at some companies, and […]",
-   "symbols": []
-  },
-  {
-   "title": "Coinbase Stock Rallies Again. Here’s How Much Crypto Risk Is Hiding in Your ETFs",
-   "link": "https://247wallst.com/investing/etf/2026/11/03/coinbase-stock-rallies-again-heres-how-much-crypto-risk-is-hiding-in-your-etfs/?.tsrc=rss",
-   "published": "2026-11-03T16:43:45Z",
-   "publisher": "",
-   "summary": "Coinbase bounced hard today, but the real story is how many supposedly diversified ETFs are silently loaded with crypto exposure that moves in lockstep when the market turns.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling",
-   "link": "https://finance.yahoo.com/energy/articles/trump-bombs-iran-talks-peace-164343494.html",
-   "published": "2026-11-03T16:43:43Z",
-   "publisher": "",
-   "summary": "Brent slipped below $105 this morning following a flurry of headlines suggesting growing momentum in U.S.-Iran peace talks, only for Tehran to subsequently dismiss the reports.",
    "symbols": []
   }
  ]
