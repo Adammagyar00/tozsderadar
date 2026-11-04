@@ -1,13 +1,94 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-04T05:31:11Z",
+ "updatedAt": "2026-11-04T06:33:57Z",
  "items": [
+  {
+   "title": "C3.ai (AI), Why Is The Stock Back In Focus?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-ai-why-stock-062401285.html",
+   "published": "2026-11-04T06:24:01Z",
+   "publisher": "",
+   "summary": "C3.ai (AI) is back in focus after the stock closed at US$11.55 on 2 November, slipping 2.53% and trailing the S&P 500 in a weak session for equities. The latest pullback comes after a choppy stretch for C3.ai. The stock has posted a 30 day share price return of 4.81% and a 90 day gain of 16.45%. However, year to date the share price is still down 16.07%, and the 1 year total shareholder return is ",
+   "symbols": []
+  },
+  {
+   "title": "Strategy (MSTR) Q3 Earnings Ride Bitcoin Windfall As Funding Risks Linger",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-q3-earnings-ride-061936805.html",
+   "published": "2026-11-04T06:19:36Z",
+   "publisher": "",
+   "summary": "Strategy entered this Q3 2026 release with a bruised share chart over the past month, yet the stock jumped 3.7% today to US$135.63. That reaction sits against a quarter defined by one thing above all else: a huge profit swing powered by Bitcoin fair value gains that pushed net income to about US$19.1b and basic earnings per share to roughly US$47.78. For a business long treated as a leveraged Bitc",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Pampa Energia Q3 Earnings Call Highlights",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-pampa-energia-q3-earnings-call-highlights-2026-11-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-11-04T06:14:14Z",
+   "publisher": "",
+   "summary": "Pampa Energia (NYSE:PAM) reported third-quarter adjusted EBITDA of $398 million, up 23% from a year earlier, as improved power-generation margins and greater use of internally supplied gas offset weaker crude-oil results and lower thermal dispatch. Investor Relations and Sustainability Officer Lida",
+   "symbols": []
+  },
+  {
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62851581/stock-market-will-sp-500-open-up-or-down-today-72?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+   "published": "2026-11-04T05:57:08Z",
+   "publisher": "",
+   "summary": "U.S. stock futures are pointing to a broadly lower open early Wednesday as Wall Street digests early midterm election results showing key Democratic Senate victories and a shifting geopolitical landscape. The Polymarket traders, a Polygon (CRYPTO: POL) based prediction platform,...",
+   "symbols": []
+  },
+  {
+   "title": "Trump Claims GOP Would Have Won ‘Landslide’ With Him On Ballot — Analyst Sees ‘Absolute Bloodbath’ For AI Stocks",
+   "link": "https://stocktwits.com/news-articles/markets/equity/trump-gop-won-landslide-ballot-analyst-absolute-bloodbath-ai-stocks/cNGLGfqR9dD?.tsrc=rss",
+   "published": "2026-11-04T05:49:33Z",
+   "publisher": "",
+   "summary": "Nicholas Mugalli warned of an investor “bloodbath,” particularly for AI stocks, citing risks of tougher regulation.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Asia stocks tumble as tech shares slide on U.S. election results",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-tumble-tech-shares-053659908.html",
+   "published": "2026-11-04T05:36:59Z",
+   "publisher": "",
+   "summary": "Investing.com-- Asian stocks fell sharply on Wednesday, with technology shares leading losses as early U.S. midterm election results pointed to potential Democratic gains in Congress, raising concerns over artificial intelligence spending, regulation and the outlook for U.S. fiscal policy.",
+   "symbols": []
+  },
+  {
+   "title": "Learn Why The Bull Case For Viper Energy Stock Could Change Following Earnings Beat",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-viper-051330975.html",
+   "published": "2026-11-04T05:13:30Z",
+   "publisher": "",
+   "summary": "Viper Energy reported strong third quarter 2026 results, with revenue of US$661 million, net income of US$140 million, and a US$0.50 base dividend per Class A share, alongside share repurchases and updated production guidance. The combination of higher revenue, a move from prior losses to profit, raised oil production targets, and increased cash returns signals that Viper Energy is leaning on its ",
+   "symbols": []
+  },
   {
    "title": "CVR Energy Inc (CVI) (Q3 2026) Earnings Call Highlights: Record Earnings and a Transformative ...",
    "link": "https://finance.yahoo.com/energy/articles/cvr-energy-inc-cvi-q3-050553220.html",
    "published": "2026-11-04T05:05:53Z",
    "publisher": "",
    "summary": "CVR Energy Inc (CVI) posted record quarterly net income of $563 million on surging crack spreads while announcing its largest-ever deal to nearly double refining capacity and cut RIN exposure.",
+   "symbols": []
+  },
+  {
+   "title": "Novo Resources builds Australian gold drilling pipeline",
+   "link": "https://finance.yahoo.com/video/novo-resources-builds-australian-gold-050324005.html",
+   "published": "2026-11-04T05:03:24Z",
+   "publisher": "",
+   "summary": "Novo Resources Corp general manager of exploration Rohan Williams talked with Proactive about the company’s upcoming drilling program at the Clone prospect within the Tibooburra Gold Project in New South Wales, as well as its wider exploration pipeline across Australia. Williams said Novo is preparing to begin a 2,700-metre drilling program at Clone, following encouraging results from drilling com",
    "symbols": []
   },
   {
@@ -20,11 +101,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -45,11 +126,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -62,11 +143,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -79,11 +160,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -112,11 +193,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2856,118 +2937,6 @@
    "publisher": "",
    "summary": "Brent slipped below $105 this morning following a flurry of headlines suggesting growing momentum in U.S.-Iran peace talks, only for Tehran to subsequently dismiss the reports.",
    "symbols": []
-  },
-  {
-   "title": "AI spending boom could exceed $10 trillion, raising fears of financial fallout",
-   "link": "https://finance.yahoo.com/technology/ai/articles/ai-spending-boom-could-exceed-164317229.html",
-   "published": "2026-11-03T16:43:17Z",
-   "publisher": "",
-   "summary": "Investing.com --The scale of the artificial intelligence investment boom is becoming a source of concern, with spending on infrastructure potentially exceeding $10 trillion if companies follow through on their current plans.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "CFTC Clears First Stock Perpetual Futures for Trading on US Exchanges",
-   "link": "https://www.cryptoprowl.com/releases/cftc-clears-first-stock-perpetual-futures-for-trading-on-us-exchanges-7632?.tsrc=rss",
-   "published": "2026-11-03T16:43:00Z",
-   "publisher": "",
-   "summary": "Perpetual futures tied to individual stocks can begin trading on regulated US exchanges for the first time, marking...",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "JPMorgan Highlights Top Copper Stocks Amid U.S. Supply Push",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/jpmorgan-highlights-top-copper-stocks-164241106.html",
-   "published": "2026-11-03T16:42:41Z",
-   "publisher": "",
-   "summary": "Investing.com -- JPMorgan has identified leading copper stocks as U.S. domestic mine production gains momentum, with the country's project pipeline now reaching approximately 1.3 million tonnes per annum.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire",
-   "link": "https://finance.yahoo.com/news/oil-looks-doha-washington-signs-164100497.html",
-   "published": "2026-11-03T16:41:00Z",
-   "publisher": "",
-   "summary": "Oil Market Daily News Commentary - Diplomatic efforts to end the U.S.-Iran conflict are in focus for the oil market this week, after the U.S. Secretary of State said on Saturday that talks have never stopped and Iran's state news agency reported on Monday that the country's foreign minister described Doha and Islamabad as playing active mediator roles. No ceasefire agreement had been announced as ",
-   "symbols": []
-  },
-  {
-   "title": "Palantir’s Bookings Worry Is Dragging Down These Widely Held ETFs",
-   "link": "https://247wallst.com/investing/etf/2026/11/03/palantirs-bookings-worry-is-dragging-down-these-widely-held-etfs/?.tsrc=rss",
-   "published": "2026-11-03T16:33:49Z",
-   "publisher": "",
-   "summary": "Palantir beat on revenue and earnings, yet its stock tumbled anyway, and the fallout quietly clipped the returns of millions of investors who never bought a single share of PLTR.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Shopify’s Post-Earnings Drop Is Rippling Through Popular ETFs",
-   "link": "https://247wallst.com/investing/etf/2026/11/03/shopifys-post-earnings-drop-is-rippling-through-popular-etfs/?.tsrc=rss",
-   "published": "2026-11-03T16:33:11Z",
-   "publisher": "",
-   "summary": "Shopify's earnings miss sent the stock tumbling, and the damage is spreading through funds that millions of retirement savers hold without realizing it. Whether your portfolio took a hit depends on one obscure detail about where Shopify is incorporated.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Oil Continues To Fall As U.S. Bombs Iran Before Election Day",
-   "link": "https://finance.yahoo.com/m/8a60e112-9a70-3e41-b4d1-1e1a5147c1f0/oil-continues-to-fall-as-u.s..html",
-   "published": "2026-11-03T16:24:51Z",
-   "publisher": "",
-   "summary": "Crude oil futures fell about 1% to around $96 a barrel.",
-   "symbols": []
-  },
-  {
-   "title": "Bloom Energy Gains 9% on California Resources’ 1 GW Fuel Cell Tie-Up and Barclays Upgrade",
-   "link": "https://www.tikr.com/blog/bloom-energy-gains-9-on-california-resources-1-gw-fuel-cell-tie-up-and-barclays-upgrade?ref=yahoofinance&tlnk=yf-261103-m5gp73qf&.tsrc=rss",
-   "published": "2026-11-03T16:22:54Z",
-   "publisher": "",
-   "summary": "Key TakeawaysBloom Energy rose 9% on a plan with California Resources for 1 GW or more of fuel cell power and a Barclays upgrade. The deal gives Bloom a low-carbon pitch for California data centers, but it’s non-binding.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
