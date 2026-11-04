@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-04T08:56:04Z",
+ "builtAt": "2026-11-04T09:55:52Z",
  "digests": [
   {
    "calendar": [
@@ -535,6 +535,93 @@
      "title": "A Smith+Nephew csökkentette éves kilátásait az amerikai ortopédiai kereslet lassulása miatt",
      "url": "https://www.investing.com/news/earnings/smithnephew-cuts-guidance-on-weak-orthopaedics-demand-4997562",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T09:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · The Local Sweden",
+     "summary": "A Riksbank 25 bázisponttal, 1,75%-ról 2%-ra emelte az irányadó kamatot. A jegybank jelezte, hogy ha az inflációs és gazdasági előrejelzések beválnak, a következő évben valószínűleg tovább emel. Az új kamat november 11-től lép életbe.",
+     "symbols": [],
+     "title": "A svéd jegybank 2%-ra emelte az alapkamatot",
+     "url": "https://www.investing.com/news/economic-indicators/swedish-central-bank-raises-policy-rate-to-2-amid-inflation-concerns-93CH-4997690",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T09:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A HCOB/S&P Global végső francia szolgáltatói PMI 46,2 volt (szeptemberben 51,2), a 48,4-es gyorsbecslésnél is rosszabb. Az S&P Global szerint a tiltakozások és a gyengébb belföldi kereslet húzta le, a megrendelők döntéseket halasztanak.",
+     "symbols": [],
+     "title": "A francia szolgáltatóipar októberben a májusi óta leggyorsabban zsugorodott",
+     "url": "https://www.investing.com/news/economic-indicators/french-services-sector-contracts-in-october-at-fastest-pace-since-may-pmi-shows-4997744",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · RTTNews",
+     "summary": "A bevétel 10%-kal 6,41 Mrd euróra, a folyó műveletek eredménye 9%-kal 1,28 Mrd euróra nőtt, mindkettő meghaladta az elemzői várakozást (6,19 Mrd, illetve 1,24 Mrd euró). A cég megerősítette a 3,40–3,65 Mrd eurós éves eredménycélt.",
+     "symbols": [],
+     "title": "A Heidelberg Materials 300 millió euróval emelte költségmegtakarítási célját a harmadik negyedéves profit után",
+     "url": "https://www.investing.com/news/earnings/heidelberg-materials-raises-cost-savings-target-by-300-mln-after-q3-profit-beat-4997432",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A csoport EBIT-je különleges tételek nélkül 638 millió euró volt, a Vara Research 618,5 milliós várakozása felett. Az egy részvényre jutó mag-eredmény növekedését a 10–15%-os sáv felső végére várják, az EBIT-marzs 11,5% fölé. Ez idén a második emelés.",
+     "symbols": [],
+     "title": "A Fresenius a vártnál jobb harmadik negyedév után emelte 2026-os kilátásait",
+     "url": "https://www.investing.com/news/earnings/fresenius-raises-2026-earnings-outlook-after-q3-profit-beats-estimates-4997419",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Google a Reutersnek megerősítette, hogy az ajánlatok júniusban indultak Kanadában, Franciaországban, Németországban, Japánban és Svájcban. Évente egy havi fizetés jár, legfeljebb 12 hónapig. Az elfogadók számát a Reuters nem tudta megállapítani.",
+     "symbols": [
+      "GOOGL"
+     ],
+     "title": "A Google több országban is kiterjesztette az önkéntes végkielégítési ajánlatait",
+     "url": "https://www.investing.com/news/stock-market-news/exclusivegoogle-extends-voluntary-buyout-offers-to-employees-in-several-countries-4997689",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T09:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A kínai felhők és AI-cégek (köztük az Alibaba, a Tencent és a ByteDance) kb. 6 millió RTX Pro 5500 kártyát rendeltek mintegy 70 Mrd dollár értékben, de négy hónapon belül a mennyiség durván 1%-át várják. Az Nvidia az amerikai szankciók és a kapacitáshiány miatt korlátozza a szállítást.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Bloomberg: az Nvidia kínai ügyfelei a megrendelt RTX-chipek mintegy 1%-át kapják meg",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-china-clients-to-get-1-of-70-bln-rtx-chips-ordered-bloomberg-4997319",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-04T09:45:00Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio.hu · Economx",
+     "summary": "A Portfolio szerint az euró árfolyama szerdán reggel 364,5 forint körül volt (Economx: 364,52 7 órakor), később 365,15-öt jeleztek. A dollár az amerikai félidős választások eredménye miatt gyengült.",
+     "symbols": [],
+     "title": "A forint a dollár gyengülése mellett az euróval szemben 364–365 között mozog",
+     "url": "https://portfolio.hu/deviza/20261104/utik-a-dollart-trump-es-a-republikanusok-felsulesere-mutatjuk-mi-tortenik-a-forinttal-874078",
+     "verified": true
     }
    ],
    "markets": [
@@ -561,7 +648,7 @@
     }
    ],
    "summary": "A kedd esti amerikai félidős választáson a demokraták a jelzések szerint megszerezték a Szenátust, és a Házban is előnyben vannak. A választás utáni órákban az amerikai határidős indexek estek (az S&P 500 kb. 0,7%-ot, a Nasdaq 1,5%-ot), az ázsiai tőzsdéken a technológiai részvények vezették a visszaesést. A befektetők az MI-beruházásokat és a szabályozást érintő kockázatot árazzák. Az AMD rekord adatközponti bevételt és a vártnál erősebb kilátást jelentett. Az olajár a négyhetes mélypont közelében van a békétárgyalások reményében, a jegybanki kamatok nem változtak.",
-   "updatedAt": "2026-11-04T08:45:00Z",
+   "updatedAt": "2026-11-04T09:45:00Z",
    "watchlist": []
   },
   {
