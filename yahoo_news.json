@@ -1,13 +1,70 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-05T20:22:41Z",
+ "updatedAt": "2026-11-05T21:21:59Z",
  "items": [
   {
-   "title": "Bank Earnings Have Entered the Upside-Down",
-   "link": "https://www.fool.com/investing/2026/11/05/bank-earnings-have-entered-the-upside-down/?.tsrc=rss",
-   "published": "2026-11-05T20:09:42Z",
+   "title": "US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-tech-shares-fall-sharply-184425813.html",
+   "published": "2026-11-05T21:18:03Z",
    "publisher": "",
-   "summary": "Bad results, stock up. Good results, stock down? This most recent round of big bank earnings has investors scratching their heads.",
+   "summary": "Nasdaq had its worst day in 18 months, falling 5.5% with nearly $2tn shaved off its value",
+   "symbols": []
+  },
+  {
+   "title": "Okeanis Eco Tankers Corp. – Invitation to Q3 2026 Results Webcast",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/okeanis-eco-tankers-corp-invitation-211500017.html",
+   "published": "2026-11-05T21:15:00Z",
+   "publisher": "",
+   "summary": "ATHENS, Greece, Nov. 05, 2026 (GLOBE NEWSWIRE) -- Okeanis Eco Tankers Corp. (the “Company” or “OET”) (NYSE:ECO / OSE:OET), will report unaudited condensed financial results for the third quarter of 2026, after market close on the NYSE, on Wednesday, November 11, 2026, and a webcast will be held at 14:30 CET, on Thursday, November 12, 2026. Participants may access the webcast using the following li",
+   "symbols": []
+  },
+  {
+   "title": "US Equity Markets End Lower After Crude Oil Rises, Mega-Cap Tech Stocks Fall",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-210758027.html",
+   "published": "2026-11-05T21:07:58Z",
+   "publisher": "",
+   "summary": "US equity indexes ended lower Thursday after crude oil prices rose and mega-cap technology stocks su",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "How Mamdani's Pied-à-Terre Tax Could Change NYC's High-End Rental Market",
+   "link": "https://www.bisnow.com/news/new-york/multifamily/how-mamdani-pied-a-terre-tax-could-change-nyc-high-end-rental-market?.tsrc=rss",
+   "published": "2026-11-05T21:05:08Z",
+   "publisher": "",
+   "summary": "Mayor Zohran Mamdani's pied-à-terre tax could increase high-end rents and change landlord strategies.",
+   "symbols": []
+  },
+  {
+   "title": "Candel Therapeutics Announces Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)",
+   "link": "https://finance.yahoo.com/healthcare/articles/candel-therapeutics-announces-inducement-grant-210500333.html",
+   "published": "2026-11-05T21:05:00Z",
+   "publisher": "",
+   "summary": "NEEDHAM, Mass., Nov. 05, 2026 (GLOBE NEWSWIRE) -- Candel Therapeutics, Inc. (Candel or the Company) (Nasdaq: CADL), a clinical-stage biopharmaceutical company focused on developing multimodal immunotherapies to improve disease outcomes for patients with cancer, today announced that on November 3, 2026, the Compensation Committee of Candel’s Board of Directors granted Maria Ostrovsky, in connection",
+   "symbols": []
+  },
+  {
+   "title": "Compass, Inc. Reports Record Third Quarter 2026 Results",
+   "link": "https://finance.yahoo.com/real-estate/articles/compass-inc-reports-record-third-210500691.html",
+   "published": "2026-11-05T21:05:00Z",
+   "publisher": "",
+   "summary": "Compass, Inc. (\"Compass\" or \"the Company\") (NYSE: COMP), a global real estate services company with a presence in every major U.S. city and approximately 120 countries and territories, announced its financial results for the third quarter ended September 30, 2026.",
+   "symbols": []
+  },
+  {
+   "title": "SpaceX and Tesla Stock Plunges Have Wiped About $450 Billion in Value Since the Midterms. Is It Time to Buy?",
+   "link": "https://www.fool.com/investing/2026/11/05/spacex-and-tesla-stock-plunges-have-wiped-about-usd450-billion-in-value-since-the-midterms-is-it-time-to-buy/?.tsrc=rss",
+   "published": "2026-11-05T21:03:35Z",
+   "publisher": "",
+   "summary": "Elon Musk's two public companies have lost about $450 billion in market value in just two trading days. Here's what's behind the selloff, and whether either stock is worth buying now.",
    "symbols": [
     "SPCX",
     "BE",
@@ -19,12 +76,260 @@
    ]
   },
   {
+   "title": "Apple Reportedly Set To Raise $7.5B From Bond Offering Amid Market Selloff",
+   "link": "https://stocktwits.com/news-articles/markets/equity/apple-reportedly-set-to-raise-7-5-b-from-bond-offering-amid-market-selloff/cNG1HDrR948?.tsrc=rss",
+   "published": "2026-11-05T21:03:05Z",
+   "publisher": "",
+   "summary": "Apple Inc. is securing $7.5 billion through a high-grade corporate bond offering, drawing heavy investor demand despite a broader market downturn.",
+   "symbols": []
+  },
+  {
+   "title": "Sector Update: Energy Stocks Drop Thursday",
+   "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-drop-thursday-210255557.html",
+   "published": "2026-11-05T21:02:55Z",
+   "publisher": "",
+   "summary": "Energy stocks declined Thursday with the NYSE Energy Sector Index dropping 2.1% and the State Street",
+   "symbols": []
+  },
+  {
+   "title": "Sector Update: Financial Stocks Fall Late Afternoon",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-afternoon-210028155.html",
+   "published": "2026-11-05T21:00:28Z",
+   "publisher": "",
+   "summary": "Financial stocks were lower in late Thursday afternoon trading, with the NYSE Financial Index declin",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Elon Musk's SpaceX Default Risk Hits Record High as Democratic Sweep Adds to AI Rout",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62948387/elon-musks-spacex-default-risk-hits-record-high-as-democratic-sweep-adds-to-ai-rout?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+   "published": "2026-11-05T21:00:08Z",
+   "publisher": "",
+   "summary": "The cost of insuring SpaceX (NASDAQ:SPCX) debt against default hit a record Thursday, as Democrats’ election sweep raised political risks for Elon Musk’s companies and an AI stock rout engulfed Wall Street. SpaceX’s five-year credit-default swaps widened as much as...",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Riot expands partnership with Anthropic through AI data center lease",
+   "link": "https://finance.yahoo.com/video/riot-expands-partnership-anthropic-ai-210000685.html",
+   "published": "2026-11-05T21:00:00Z",
+   "publisher": "",
+   "summary": "Scott Melker discusses Riot's (RIOT) expanded partnership with Anthropic (ANTH.PVT), naming the AI developer as the tenant in its data centers. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Retail traders dump $358 million in stocks in biggest selling day since 2020",
+   "link": "https://finance.yahoo.com/markets/article/retail-traders-dump-358-million-in-stocks-in-biggest-selling-day-since-2020-205924608.html",
+   "published": "2026-11-05T20:59:24Z",
+   "publisher": "",
+   "summary": "Retail investors are dumping US stocks at a pace not seen since the onset of the COVID-19 pandemic, breaking with their typical market-down-day habit of \"buying the dip.\"",
+   "symbols": []
+  },
+  {
+   "title": "Stock Market Today: Dow Loses 1,700 As Nasdaq Craters; Tesla, SpaceX Lose $450 Bil. In Two Days (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/38cb0654-6e49-3715-b4e4-f2f830876d7a/stock-market-today%3A-dow-loses.html",
+   "published": "2026-11-05T20:50:40Z",
+   "publisher": "",
+   "summary": "The Dow Jones index rises Thursday after the postelection rally. Cava and Dutch Bros plunge on earnings.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Waiting for a Stock Market Crash Before You Invest? Here's What the Data Says It Can Cost You.",
+   "link": "https://www.fool.com/investing/2026/11/05/waiting-for-a-stock-market-crash-before-you-invest/?.tsrc=rss",
+   "published": "2026-11-05T20:50:00Z",
+   "publisher": "",
+   "summary": "Does it ever make sense to keep some cash on the sidelines?",
+   "symbols": []
+  },
+  {
+   "title": "Update: Nasdaq Sinks Into Correction Territory, Dow Erases Mega Post-Election Rally Amid Big-Tech Rout",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-sinks-correction-territory-dow-204537057.html",
+   "published": "2026-11-05T20:45:37Z",
+   "publisher": "",
+   "summary": "(Updates with index/price moves from the first paragraph.) US equity indexes were in meltdown ahe",
+   "symbols": []
+  },
+  {
+   "title": "11-5-2026: Democrats Sweep, Data Center Backlash + Rising AI Capex Fears",
+   "link": "https://finance.yahoo.com/video/11-5-2026-democrats-sweep-203812943.html",
+   "published": "2026-11-05T20:38:12Z",
+   "publisher": "",
+   "summary": "Michael Reinking, Senior Market Strategist at the NYSE, reviews a volatile week in which a Democratic sweep and a wave of data center ballot measures upended the AI trade. The S&P 500 rallied over 1.5% Wednesday, as oil fell, but neoclouds and data center infrastructure stocks plunged while mega-cap hyperscalers gained on hopes of slower cash burn. On Thursday, fears of an AI capex peak sent the i",
+   "symbols": []
+  },
+  {
+   "title": "Gas prices headed lower, absent escalation in the Middle East",
+   "link": "https://www.thestreet.com/economy/gas-prices-headed-lower-absent-escalation-in-the-middle-east?.tsrc=rss",
+   "published": "2026-11-05T20:37:00Z",
+   "publisher": "",
+   "summary": "A growing global supply glut and tumbling crude prices could send gas below $4 a gallon before Thanksgiving.",
+   "symbols": []
+  },
+  {
+   "title": "VDE vs NLR: Does a Broad Energy ETF Beat a Nuclear-Focused Fund?",
+   "link": "https://www.fool.com/coverage/etfs/2026/11/05/vde-vs-nlr-does-a-broad-energy-etf-beat-a-nuclear-focused-fund/?.tsrc=rss",
+   "published": "2026-11-05T20:33:02Z",
+   "publisher": "",
+   "summary": "Vanguard's diversified energy portfolio delivered 173% more wealth over five years despite a lower dividend yield, while VanEck's concentrated nuclear play suffered steeper losses.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin, stocks crash in steepest selloff since Liberation Day",
+   "link": "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally?.tsrc=rss",
+   "published": "2026-11-05T20:21:25Z",
+   "publisher": "",
+   "summary": "The post-election rally lasted one day before markets turned sharply lower.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Circle Sinks 10% as Crypto Stocks Slide and Mizuho Calls Q3 “Uneventful”",
+   "link": "https://www.tikr.com/blog/circle-sinks-10-as-crypto-stocks-slide-and-mizuho-calls-q3-uneventful?ref=yahoofinance&tlnk=yf-261105-w999qv4j&.tsrc=rss",
+   "published": "2026-11-05T20:21:10Z",
+   "publisher": "",
+   "summary": "Key TakeawaysCircle shares fell 10% today as crypto stocks, Robinhood included, slid with the market and seven firms cut their price targets. $182 million of Circle’s $865 million in third-quarter revenue came from a one-time presale of its ARC token.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Mercado Bitcoin Said Its Hack Was Contained, But Blockchain Data Tells a Different Story",
+   "link": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data?.tsrc=rss",
+   "published": "2026-11-05T20:16:03Z",
+   "publisher": "",
+   "summary": "Fresh forensic analysis traces $48.6 million across 11 blockchains and finds thousands of customer deposit addresses drained hours after the Brazilian exchange said it had stopped the breach on Monday.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Coinbase Sinks 9% as Bitcoin Falls Below $76,000",
+   "link": "https://www.tikr.com/blog/coinbase-sinks-9-as-bitcoin-falls-below-76000?ref=yahoofinance&tlnk=yf-261105-hg64qgxm&.tsrc=rss",
+   "published": "2026-11-05T20:14:48Z",
+   "publisher": "",
+   "summary": "Key TakeawaysCoinbase shares fell 9% today as Bitcoin dropped below $76,000 in a broad market sell-off. Coinbase fell almost three times as far as the S&P 500 because its fees and earnings move with Bitcoin.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Bank Earnings Have Entered the Upside-Down",
+   "link": "https://www.fool.com/investing/2026/11/05/bank-earnings-have-entered-the-upside-down/?.tsrc=rss",
+   "published": "2026-11-05T20:09:42Z",
+   "publisher": "",
+   "summary": "Bad results, stock up. Good results, stock down? This most recent round of big bank earnings has investors scratching their heads.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
    "title": "Billionaire Bill Ackman's market warning resurfaces as stocks plunge",
    "link": "https://www.thestreet.com/investing/billionaire-bill-ackmans-market-warning-resurfaces-as-stocks-plunge?.tsrc=rss",
    "published": "2026-11-05T20:09:21Z",
    "publisher": "",
    "summary": "The Pershing Square founder warned about “broken markets” just two days before Wall Street’s selloff, but he still doesn’t see a slowdown in AI.",
    "symbols": []
+  },
+  {
+   "title": "Strategy Sinks 9% as Bitcoin Tumbles Below $76,000 and Tech Sells Off",
+   "link": "https://www.tikr.com/blog/strategy-sinks-9-as-bitcoin-tumbles-below-76000-and-tech-sells-off?ref=yahoofinance&tlnk=yf-261105-qg8jq549&.tsrc=rss",
+   "published": "2026-11-05T20:08:49Z",
+   "publisher": "",
+   "summary": "Key TakeawaysStrategy fell 9% today as bitcoin dropped 5% to below $76,000 in a broad tech sell-off. The stock fell about twice as far as bitcoin because its bitcoin was worth 1.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Morgan Stanley Sinks 6%, Goldman Down 6%, Citi Down 5% as Market Selloff Drags Wall Street Banks",
+   "link": "https://www.tikr.com/blog/morgan-stanley-sinks-6-goldman-down-6-citi-down-5-as-market-selloff-drags-wall-street-banks?ref=yahoofinance&tlnk=yf-261105-jwpc6pp2&.tsrc=rss",
+   "published": "2026-11-05T20:08:12Z",
+   "publisher": "",
+   "summary": "Key TakeawaysMorgan Stanley fell 6% today, with Goldman Sachs and Citigroup down about as much, in a broad selloff with no company news behind it. Morgan Stanley leans on trading far more than JPMorgan Chase, which leaves it among the banks most exposed if trading and dealmaking cool.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Why Marvell Stock Is Falling Today",
@@ -53,11 +358,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -75,12 +380,12 @@
    "publisher": "",
    "summary": "Key TakeawaysCredo Technology fell 14% today as an AI hardware sell-off over Democrats’ midterm sweep entered a second day. The drop prices in a slower data center buildout that hasn’t shown up in Credo’s guidance or analysts’ estimates.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -107,12 +412,12 @@
    "publisher": "",
    "summary": "Anthropic signed on for up to $45 billion in SpaceX computing power over the next three years. James Altucher’s latest free presentation explains Musk’s real goal: “He wants to control the AI industry from end to end.”Baltimore, MD, Nov. 05, 2026 (GLOBE NEWSWIRE) -- The AI race just got strange. One of Elon Musk’s biggest rivals is now paying him to run its AI. According to SpaceX’s IPO filings, A",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -143,11 +448,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -168,11 +473,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -185,11 +490,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -207,12 +512,12 @@
    "publisher": "",
    "summary": "SpaceX Faces Growing Backlash Over Its Massive 6-Gigawatt Arizona AI Project",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -226,11 +531,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -291,11 +596,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -333,11 +638,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -380,6 +685,22 @@
    "publisher": "",
    "summary": "First Andes Silver (FAS.V) started its Phase 2 soil sampling program at its Santas Gloria Project in",
    "symbols": []
+  },
+  {
+   "title": "Democrats Mid-term Sweep Puts AI & Data Center Trade in Question",
+   "link": "https://app.moby.co/home/news/news-democrats-mid-term-sweep-puts-ai-data-center-trade-in-question?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+   "published": "2026-11-05T19:10:13Z",
+   "publisher": "",
+   "summary": "Texas flipped. TSLA and SPCX fell.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Strategy (MSTR) CFO Exit Looms, Does The Stock Look Fully Valued?",
@@ -676,12 +997,12 @@
    "publisher": "",
    "summary": "Hilton President and CEO Chris Nassetta said about the switch: “Nasdaq is closely aligned with our growth ambitions.”",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -3060,301 +3381,6 @@
     "QQQ",
     "XDW0"
    ]
-  },
-  {
-   "title": "What Changed In Bristol Myers Squibb's Story?",
-   "link": "https://www.trefis.com/stock/bmy/articles/622816/what-changed-in-bristol-myers-squibbs-story/2026-11-05?.tsrc=rss",
-   "published": "2026-11-05T13:12:39Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Famed XRP Analyst Eyes $10 as New York Stock Exchange Deal Fuels Adoption Claims",
-   "link": "https://www.ccn.com/news/crypto/famed-xrp-analyst-eyes-10-as-new-york-stock-exchange-deal-fuels-adoption-claims/?.tsrc=rss",
-   "published": "2026-11-05T13:10:44Z",
-   "publisher": "",
-   "summary": "NYSE expanded its tokenization partnerships without naming XRPL as a selected settlement network. Securitize’s relationship with Ripple concerns RLUSD and a separately announced XRPL integration.…",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Core Scientific Stock After Capacity Deal And Data Center Buyout",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/core-scientific-stock-capacity-deal-131026302.html",
-   "published": "2026-11-05T13:10:26Z",
-   "publisher": "",
-   "summary": "Core Scientific recently expanded its high performance computing footprint by partnering with AMD for up to 2.5 gigawatts of data center capacity and closing the US$444 million acquisition of Polaris DS. The AMD agreement and Polaris DS purchase indicate a heavier commitment to AI and HPC infrastructure, further reducing Core Scientific's focus on pure Bitcoin mining exposure. The focus now shifts",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "OFA Group Announces 10-for-1 Consolidation of Class A Ordinary Shares",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ofa-group-announces-10-1-130000873.html",
-   "published": "2026-11-05T13:00:00Z",
-   "publisher": "",
-   "summary": "Torrance, Calif., Nov. 05, 2026 (GLOBE NEWSWIRE) -- OFA Group (Nasdaq: OFAL) (the “Company”) today announced that it will effect a consolidation of its Class A ordinary shares at a ratio of 10-for-1 (the “Share Consolidation”), effective as of 12:01 a.m. Eastern Time on November 10, 2026 (the “Effective Time”). The Company’s Class A ordinary shares are expected to begin trading on a split-adjusted",
-   "symbols": []
-  },
-  {
-   "title": "Northern Discovery Metals Completes Acquisition of the Cibola Copper-Gold Project in British Columbia",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/northern-discovery-metals-completes-acquisition-130000598.html",
-   "published": "2026-11-05T13:00:00Z",
-   "publisher": "",
-   "summary": "CALGARY, Alberta, Nov. 05, 2026 (GLOBE NEWSWIRE) -- Northern Discovery Metals Inc. (CSE: NOR) (FSE: M1V0) (“Northern Discovery” or the “Company”) is pleased to announce, further to its news release dated October 8, 2026, that it has completed the acquisition (the “Acquisition”), from Orogen Royalties Inc. (“Orogen”), of a 100% interest in the Cibola copper-gold project (“Cibola” or the “Property”)",
-   "symbols": []
-  },
-  {
-   "title": "Buy, Sell, or Hold? Thursday’s Top Upgrades and Downgrades: Block, Cisco Systems, Dollar Tree, First Solar, HubSpot, JetBlue Airways, Nike, Space-X, Skyworks Solutions, and More",
-   "link": "https://247wallst.com/investing/2026/11/05/buy-sell-or-hold-thursdays-top-upgrades-and-downgrades-block-cisco-systems-dollar-tree-first-solar-hubspot-jetblue-airways-nike-space-x-skyworks-solutions-and-more/?.tsrc=rss",
-   "published": "2026-11-05T12:59:20Z",
-   "publisher": "",
-   "summary": "Pre-Market Stock Futures: Futures are trading mixed after a wild Wednesday saw all the major indices soar on a big Democratic victory that turned many traditionally Red states Blue. When the post-election dust settled, the legacy Dow Jones Industrials led the way, closing up a stunning 3.03% at 53,356, while the S&P 500 finished the […]",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "The Dow Just Jumped 1,569 Points for Its Best Post-Midterm Day in 44 Years",
-   "link": "https://247wallst.com/investing/2026/11/05/the-dow-just-jumped-1569-points-for-its-best-post-midterm-day-in-44-years/?.tsrc=rss",
-   "published": "2026-11-05T12:57:58Z",
-   "publisher": "",
-   "summary": "Relief, cheaper oil and a calmer VIX sent Wall Street soaring after the midterms, yet no major index hit a record, and one fund quietly did. Which one reveals the rally's real story, and what could unravel it?",
-   "symbols": []
-  },
-  {
-   "title": "XYZ’s Latest Target Hike From Barclays Implies Over 20% Upside Potential – What CEO Jack Dorsey Said In Shareholder Letter",
-   "link": "https://stocktwits.com/news-articles/markets/equity/xyz-s-latest-target-hike-from-barclays-implies-over-20-upside-potential-what-ceo-jack-dorsey-said-in-shareholder-letter/cNG11vsR9Ey?.tsrc=rss",
-   "published": "2026-11-05T12:56:14Z",
-   "publisher": "",
-   "summary": "Block CEO Jack Dorsey said in a shareholder letter that stablecoins and Bitcoin still remain key to the growth of CashApp.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "3 Stocks Yielding Triple the S&P 500 to Buy in November",
-   "link": "https://www.fool.com/investing/2026/11/05/3-stocks-yielding-triple-the-sp-500-to-buy-in-nove/?.tsrc=rss",
-   "published": "2026-11-05T12:50:00Z",
-   "publisher": "",
-   "summary": "Not every dividend stock's yield has been pared back amid the broad market's moves.",
-   "symbols": []
-  },
-  {
-   "title": "Stocks Mostly Up Pre-Bell as Traders Weigh Impact of Democrats' Midterm Victory",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-pre-bell-traders-124919340.html",
-   "published": "2026-11-05T12:49:19Z",
-   "publisher": "",
-   "summary": "US equity futures were mostly trending higher on Thursday as traders continue to assess the Democrat",
-   "symbols": []
-  },
-  {
-   "title": "Will Truist's Merchant Services Expansion Boost Growth Prospects?",
-   "link": "https://finance.yahoo.com/small-business/articles/truists-merchant-services-expansion-boost-124700743.html",
-   "published": "2026-11-05T12:47:00Z",
-   "publisher": "",
-   "summary": "TFC's Merchant Services expansion speeds onboarding & adds payment capabilities, but can it reverse merchant weakness and aid sustainable fee income growth?",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Stack Capital Group Inc. Reports Q3-2026 Financial Results",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/stack-capital-group-inc-reports-124500937.html",
-   "published": "2026-11-05T12:45:00Z",
-   "publisher": "",
-   "summary": "TORONTO, Nov. 05, 2026 (GLOBE NEWSWIRE) -- Stack Capital Group Inc., (“Stack Capital” or the “Company”) (TSX:STCK) today announced its financial results for the period ended September 30, 2026. Stack Capital reports all amounts in Canadian Dollars unless otherwise stated. FINANCIAL SUMMARY Book Value per Share (BVpS): $19.90, compared to $20.25 as at June 30, 2026Total Book Value: $311 million POR",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "In Bouncy Market, This Stock Provides One Option For Investors. And Wall Street Is Buying In.",
-   "link": "https://finance.yahoo.com/m/b2e5dd66-5fb7-3c2d-911a-a7c1403a5d3a/in-bouncy-market%2C-this-stock.html",
-   "published": "2026-11-05T12:43:33Z",
-   "publisher": "",
-   "summary": "In a volatile market, VIX owner and options pioneer Cboe stock navigates a rocky path toward a breakout.",
-   "symbols": []
-  },
-  {
-   "title": "ConocoPhillips (NYSE:COP) delivers impressive Q3 2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/conocophillips-nyse-cop-delivers-impressive-124245049.html",
-   "published": "2026-11-05T12:42:45Z",
-   "publisher": "",
-   "summary": "Oil and gas producer ConocoPhillips (NYSE:COP) reported Q3 2026 results beating Wall Street’s revenue expectations, with revenue up 29.2% year on year to $20.06 billion. Its GAAP profit of $3.34 per share was 11% above analysts’ consensus estimates.",
-   "symbols": []
-  },
-  {
-   "title": "ConocoPhillips beats third-quarter profit estimates",
-   "link": "https://finance.yahoo.com/energy/articles/conocophillips-beats-third-quarter-profit-124208958.html",
-   "published": "2026-11-05T12:42:08Z",
-   "publisher": "",
-   "summary": "Investing.com -- ConocoPhillips (NYSE: COP) shares are trading more than 1% higher in premarket trading on Thursday after the company reported third-quarter adjusted earnings per share of $3.27, beating the analyst estimate of $2.97 by $0.30.",
-   "symbols": []
-  },
-  {
-   "title": "Meet CEO Mike Kriak: Joseph Lubin’s Right Hand Now Leading the New Consensys",
-   "link": "https://coingape.com/block-of-fame/cxo-stories/meet-ceo-mike-kriak-joseph-lubins-right-hand-now-leading-the-new-consensys/?.tsrc=rss",
-   "published": "2026-11-05T12:41:39Z",
-   "publisher": "",
-   "summary": "Some business decisions come at a crucial time. But when one of crypto’s longest-standing companies decides to reshape itself, the person leading that transition becomes just as important as the decision itself. On September 9, 2026, Consensys announced plans to split its operations into two independently operated companies. MetaMask would continue as a consumer-focused financial",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Could Buying Micron Stock Today Help Set You Up for Life?",
-   "link": "https://www.fool.com/investing/2026/11/05/could-buying-micron-stock-today-help-set-you-up-fo/?.tsrc=rss",
-   "published": "2026-11-05T12:37:00Z",
-   "publisher": "",
-   "summary": "The memory market's impressive prospects make Micron Technology stock worth buying and holding for the long run.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Marvell’s $115 Billion Deal Has Lost More Than a Third of Its Value",
-   "link": "https://247wallst.com/investing/2026/11/05/marvells-115-billion-deal-has-lost-more-than-a-third-of-its-value/?.tsrc=rss",
-   "published": "2026-11-05T12:34:39Z",
-   "publisher": "",
-   "summary": "Analysts see Marvell doubling, yet the market is pricing something very different. A fixed exchange ratio with no safety net has turned a premium into a discount, and Lumentum investors are the first to show they doubt the deal.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Was The Run In Applied Materials Stock Hiding In Plain Sight?",
-   "link": "https://www.trefis.com/stock/amat/articles/622951/was-the-run-in-applied-materials-stock-hiding-in-plain-sight/2026-11-05?.tsrc=rss",
-   "published": "2026-11-05T12:32:37Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Could You Have Seen The Run In eBay Stock Coming?",
-   "link": "https://www.trefis.com/stock/ebay/articles/622961/could-you-have-seen-the-run-in-ebay-stock-coming/2026-11-05?.tsrc=rss",
-   "published": "2026-11-05T12:32:35Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "The Open Question Under Apple Stock's Price",
-   "link": "https://www.trefis.com/stock/aapl/articles/622962/the-open-question-under-apple-stocks-price/2026-11-05?.tsrc=rss",
-   "published": "2026-11-05T12:32:33Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "If You Ran NRG Energy, What Would You Do?",
-   "link": "https://www.trefis.com/stock/nrg/articles/622994/if-you-ran-nrg-energy-what-would-you-do/2026-11-05?.tsrc=rss",
-   "published": "2026-11-05T12:32:30Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "RUA GOLD Submits Substantive Fast-Track Application for Auld Creek Gold-Antimony Project in New Zealand",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/rua-gold-submits-substantive-fast-123000746.html",
-   "published": "2026-11-05T12:30:00Z",
-   "publisher": "",
-   "summary": "Vancouver, British Columbia--(Newsfile Corp. - November 5, 2026) - Rua Gold Inc. (TSX: RUA) (NZX: RGI) (OTCQX: NZAUF) (WKN: A40QYC) (\"RUA GOLD\" or the \"Company\") is pleased to announce the submission of its Substantive Application under New Zealand's Fast-track Approvals Act for the Auld Creek gold-antimony project (the \"Auld Creek Project\" or the \"Project\") in the Reefton Goldfield on the South I",
-   "symbols": []
-  },
-  {
-   "title": "Au Gold Corp Samples 40 g/t and 22 g/t Gold from the Harvey's Reef Complex Defining Additional High-Priority Drill Targets and Engages Prestige Drilling at the Havelock Gold-Antimony Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/au-gold-corp-samples-40-123000154.html",
-   "published": "2026-11-05T12:30:00Z",
-   "publisher": "",
-   "summary": "Vancouver, British Columbia--(Newsfile Corp. - November 5, 2026) - Au Gold Corp (TSXV: AUGC) (the \"Company\" or \"AUGC\") is pleased to provide a target development update for the Havelock Gold-Antimony project in Victoria, Australia.Highlights:Harvey's Reef (north) - Select grab samples returned 22 and 3.5 grams per tonne (\"g/t\") gold from historic mining waste piles.Harvey's Reef (central and south",
-   "symbols": []
-  },
-  {
-   "title": "Sitka Gold Drills 41.7 Metres of 2.20 g/t Gold from Surface, Including 1.2 Metres of 53.10 g/t Gold, Within 74.8 Metres of 1.31 g/t Gold, Confirming High-Grade Mineralization at the Contact Zone, RC Gold Project, Yukon",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/sitka-gold-drills-41-7-123000922.html",
-   "published": "2026-11-05T12:30:00Z",
-   "publisher": "",
-   "summary": "Drilling confirms and expands significant gold mineralization at the Contact and Bear Paw targetsDrill Hole DDRCCC-26-162 intersected 74.8 m of 1.31 g/t gold from surface, including 41.7 m of 2.20 g/t gold and 1.2 m of 53.10 g/t gold, at the Contact Zone Drill hole DDRCCC-26-160 intersected 48.6 m of 1.18 g/t gold, including 1.8 m of 4.27 g/t gold, at the Bear Paw Zone Drilling continues to outlin",
-   "symbols": []
-  },
-  {
-   "title": "InPlay Oil Corp. Announces Third Quarter 2026 Financial and Operating Results and Preliminary 2027 Guidance Highlighted by 15% Per Share Growth in Oil Production",
-   "link": "https://finance.yahoo.com/news/inplay-oil-corp-announces-third-123000687.html",
-   "published": "2026-11-05T12:30:00Z",
-   "publisher": "",
-   "summary": "InPlay Oil Corp. (TSX: IPO) (TASE: IPO) (OTCQX: IPOOF) (\"InPlay\" or the \"Company\") is pleased to announce its financial and operating results for the three and nine months ended September 30, 2026, together with preliminary 2027 production and capital guidance. InPlay's unaudited interim financial statements and notes, and Management's Discussion and Analysis (\"MD&A\") for the three and nine months",
-   "symbols": []
   }
  ]
 }
