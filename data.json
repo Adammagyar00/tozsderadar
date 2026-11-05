@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T15:55:46Z",
+ "builtAt": "2026-11-05T16:57:02Z",
  "digests": [
   {
    "calendar": [
@@ -736,6 +736,61 @@
      "title": "A bitcoin 79 ezer dollárra csúszott, a választás utáni emelkedés veszít lendületéből",
      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-firms-to-805k-as-us-elections-buoy-risk-appetite-but-outlook-unclear-5002271",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T16:40:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Reuters · Yahoo Finance",
+     "summary": "A Reuters délutáni adata szerint a Nasdaq Composite mintegy 3,1%-ot, az S&P 500 1,7%-ot, a Dow 0,7%-ot esett; a Yahoo Finance élő összefoglalója a nap egy későbbi szakaszában már kb. 5%-os Nasdaq-esést jelzett. A chipindex 7–11%-ot veszített, a Qualcomm gyenge okostelefon-chipértékesítési kilátása és a demokrata félidős siker utáni MI-szabályozási félelmek miatt. A végleges záróértékek még nem megerősítettek.",
+     "symbols": [
+      "^IXIC",
+      "^GSPC",
+      "^DJI",
+      "QCOM",
+      "NVDA",
+      "AMD"
+     ],
+     "title": "A Nasdaq csütörtökön tovább zuhan: a chipszektor kiárusítása korrekció közelébe vitte az indexet",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/05/wall-street-slumps-as-sharp-tech-losses-put-nasdaq-on-course-for-correction",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T16:40:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "Bloomberg · Reuters",
+     "summary": "A Stoxx 600 reggel 0,7%-kal, 661,99 ponton járt (közel a csúcshoz), a bányászok húzták, a tech lemaradt. A Bloomberg szerint délután a nyereség elfogyott, az ASML kb. 6%-ot esett a chipszektor gyengesége miatt. Záróérték még nincs megerősítve.",
+     "symbols": [
+      "ASML"
+     ],
+     "title": "Az európai tőzsdék elvesztették a nyitó emelkedést: az ASML nagyot esett, a Stoxx 600 a rekord közelében, változatlanul áll",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/european-stocks-hit-fresh-record-as-ai-unwind-boosts-region",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T16:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "source": "Trading Economics · OilPriceAPI",
+     "summary": "A Trading Economics és az OilPriceAPI adatai szerint a Brent kb. 96,1–96,3 dollár hordónként (+1,8%), a WTI 88,7–90,2 dollár körül jár, a keddi-szerdai esés után.",
+     "symbols": [],
+     "title": "Az olajár csütörtökön emelkedik: a Brent kb. 96 dollár",
+     "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T16:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Benzinga",
+     "summary": "A Benzinga szerint az EPS 4,69 dollár volt a várt 4,42 ellenében, a cég emelte az éves előrejelzését, a részvény 8,1%-kal 537,23 dollárra emelkedett. Más forrás ezt egyelőre nem erősítette meg.",
+     "symbols": [
+      "MSI"
+     ],
+     "title": "A Motorola Solutions a vártnál jobb negyedéves eredményt közölt és emelte az éves kilátásait, az árfolyam 8%-ot ugrott",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62927195/motorola-solutions-sezzle-unity-software-toyota-motor-and-other-big-stocks-moving-higher-on-thursday",
+     "verified": false
     }
    ],
    "markets": [
@@ -762,7 +817,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T15:40:00Z",
+   "updatedAt": "2026-11-05T16:40:00Z",
    "watchlist": []
   },
   {
