@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T11:56:54Z",
+ "builtAt": "2026-11-05T12:58:14Z",
  "digests": [
   {
    "calendar": [
@@ -479,6 +479,68 @@
      "title": "A bankok szigorúbb kongresszusi felügyeletre készülnek a demokrata győzelem után",
      "url": "https://www.investing.com/news/economy-news/banks-brace-for-tighter-oversight-from-us-congress-after-democrats-sweep-5002830",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T12:50:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "MoneyWeek · MPA · FXStreet",
+     "summary": "A Bank of England 3,75%-ról 4%-ra emelte az alapkamatot, ez a három év utáni első emelés. A monetáris bizottság 8–1 arányban szavazott, a másik tag Catherine Mann 50 bázispontos emelést akart. A lépést a piac beárazta.",
+     "symbols": [],
+     "title": "A Bank of England 25 bázisponttal 4%-ra emelte az alapkamatot",
+     "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T12:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Két, a témát ismerő forrás szerint a chipek az USA-ból exportálhatók, de Kína nem engedélyezte a nagy volumenű behozatalt. Néhány nagy kínai cég az elmúlt hónapokban cégenként nagyjából 10 ezer H200-at kapott. A kínai piaci hozzáférés így továbbra is korlátozott az Nvidia számára.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Reuters: mintegy 600 ezer Nvidia H200 chip vár Hongkongban, mert Peking nem hagyja jóvá a nagy tételű kínai importot",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-chips-stockpile-in-hong-kong-awaits-china-import-approval--report-5003235",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T12:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A cég a Reuters beszámolója szerint a magánrepülőgépek erős keresletére hivatkozva emelte idei szabadpénzáram-várakozását. Korábban, az első negyedév után már emelt (1 Mrd dollár fölé); a mostani új szám a cikk alapján nem ellenőrizhető részletesen.",
+     "symbols": [],
+     "title": "A Bombardier a Reuters szerint emelte a 2026-os szabad cash flow előrejelzését az erős privátjet-kereslet miatt",
+     "url": "https://www.investing.com/news/stock-market-news/bombardier-raises-2026-free-cash-flow-forecast-on-strong-private-jet-demand-5003245",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T12:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Eli Lilly közlemény",
+     "summary": "Az Eli Lilly közleménye szerint ízületi kopásos térdfájdalommal és elhízással, valamint pikkelysömörös ízületi gyulladással és elhízással élők körében végzett új klinikai és valós életbeli kutatásokat ismertet az amerikai reumatológiai kongresszuson.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "A Lilly új retatrutid-, Taltz- és Zepbound-adatokat mutat be az ACR Convergence 2026 konferencián",
+     "url": "https://finance.yahoo.com/healthcare/articles/lilly-showcase-retatrutide-taltz-ixekizumab-114500494.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T12:50:00Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio.hu",
+     "summary": "A Portfolio szerint a dollár gyengülése a demokrata félidős siker után segítette a forintot; csütörtökön az euró 363 körül, a dollár 323 forint körül járt. A cikk szerint a 8,2%-os éves ipari termelésbővülés is támogatta a forintot. Az MNB szerdai hivatalos euróárfolyama 363,32 forint volt.",
+     "symbols": [],
+     "title": "A forint másfél hónapos csúcsra erősödött az euróval szemben, az euró 362,5 forint körül zárt szerdán",
+     "url": "https://www.portfolio.hu/deviza/20261105/magahoz-tert-a-dollar-megtorpant-a-forint-lendulete-874388",
+     "verified": true
     }
    ],
    "markets": [
@@ -505,7 +567,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T11:40:00Z",
+   "updatedAt": "2026-11-05T12:50:00Z",
    "watchlist": []
   },
   {
@@ -8937,13 +8999,14 @@
    "id": "2026-11-04-us-ism-services"
   },
   {
-   "actual": "",
+   "actual": "4,00% (előző: 3,75%)",
    "country": "GB",
    "date": "2026-11-05",
    "event": "Bank of England kamatdöntés + Monetary Policy Report",
    "forecast": "",
    "importance": 3,
-   "previous": "",
+   "note": "+25 bp, MPC szavazás 8–1 (Mann 50 bp-ot akart). Forrás: MoneyWeek, MPA, FXStreet.",
+   "previous": "3,75%",
    "source": "Bank of England",
    "time": "13:00",
    "type": "Jegybank",
