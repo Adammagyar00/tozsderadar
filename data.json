@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T17:55:37Z",
+ "builtAt": "2026-11-05T18:55:38Z",
  "digests": [
   {
    "calendar": [
@@ -949,6 +949,58 @@
      "title": "A Deoleo árfolyama mintegy 19%-ot esett, miután a DCOOP és az Acesur felvásárlást jelentett be",
      "url": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-05T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A TIKR beszámolója szerint a Lumentum csütörtökön kb. 15%-ot, a Marvell további 14%-ot veszített. A Marvell november 2-án jelentette be a Lumentum 115 milliárd dolláros, teljes egészében részvényben fizetett felvásárlását (több forrás megerősíti), így a Lumentum árfolyama a Marvell részvényeivel mozog. A százalékos mozgásokat külön forrás nem erősítette meg.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A Lumentum árfolyama mintegy 15%-ot esett, a Marvell is tovább zuhan az MI-chipek kiárusításában",
+     "url": "https://www.tikr.com/blog/lumentum-sinks-15-as-ai-chip-selloff-deepens?ref=yahoofinance&tlnk=yf-261105-4c3r2g4v&.tsrc=rss",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-05T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A hírek szerint a szabályozó szerint a Webull felügyeleti és pénzmosás elleni rendszerei 2020 és 2023 között nem tartottak lépést a cég gyors növekedésével, és még elhunyt ügyfelek számlanyitási kérelmét is jóváhagyták. A 4,2 millió dolláros összeget független forrásból nem sikerült megerősíteni.",
+     "symbols": [],
+     "title": "A Finra 4,2 millió dolláros bírságot szabott ki a Webullra a felügyeleti rendszerek hiányosságai miatt",
+     "url": "https://finance.yahoo.com/m/09bbb011-0eaf-3026-bf63-d1330a675a43/finra-fines-webull-%244.2.html",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-05T18:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A cryptoprowl által közölt hír szerint a bitcoinbányászból MI-infrastruktúra-fejlesztővé váló cég eladta bitcoin-tartalékát. A cég tavasszal valóban bejelentette, hogy kivezeti a bitcoin-állományát, de a most közölt 192 millió dolláros összeget külön forrás nem erősítette meg.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Keel Infrastructure (korábban Bitfarms) értesülések szerint eladta teljes, 192 millió dolláros bitcoin-tartalékát, és napi eladásokat tervez",
+     "url": "https://www.cryptoprowl.com/releases/keel-infrastructure-sells-entire-192m-bitcoin-treasury-plans-daily-btc-sales-7715?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-05T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a bíró megállapította az Albertsons felelősségét a washingtoni opioidjárványban. Az eljárás idén nyáron zajlott a King megyei bíróságon; a 900 millió dolláros összeget a keresésem nem tudta független forrásból megerősíteni.",
+     "symbols": [],
+     "title": "Egy bíró a Reuters szerint 900 millió dollár megfizetésére kötelezte az Albertsonst Washington államban az opioidválságban játszott szerepe miatt",
+     "url": "https://www.investing.com/news/stock-market-news/albertsons-must-pay-900-million-for-fueling-opioid-epidemic-in-washington-state-judge-rules-5005252",
+     "verified": false
     }
    ],
    "markets": [
@@ -975,7 +1027,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T17:45:00Z",
+   "updatedAt": "2026-11-05T18:40:00Z",
    "watchlist": []
   },
   {
