@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T13:57:24Z",
+ "builtAt": "2026-11-05T14:56:36Z",
  "digests": [
   {
    "calendar": [
@@ -583,6 +583,97 @@
      "title": "A Visa szerint az amerikai ünnepi kiskereskedelmi forgalom 4,5%-kal nőhet, a leggyorsabb ütemben 2021 óta",
      "url": "https://www.investing.com/news/stock-market-news/visa-sees-us-holiday-retail-sales-growing-45-fastest-pace-since-2021-5003995",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T14:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az első alkalommal igénylők száma az október 31-ével záruló héten 6 ezerrel, 189 ezerre esett, a várt 196–197 ezer alatt. A tartós igénylők száma 1,718 millióra nőtt. A Reuters szerint az alacsony elbocsátások mellett az Irán elleni háború miatti bizonytalanság a felvételeket fékezi.",
+     "symbols": [],
+     "title": "Az amerikai heti munkanélküli-segélykérelmek 189 ezerre csökkentek, a 2026. júliusi mélyponttal egyező, 1969 óta legalacsonyabb szinten",
+     "url": "https://www.investing.com/news/economic-indicators/us-weekly-jobless-claims-at-57year-lows-amid-low-layoffs-5004323",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T14:45:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A clevelandi Fed elnöke, Beth Hammack szerint a Fednek még van tennivalója az inflációval, és kisebb, gyakoribb emelésekkel kellene restriktív szintre jutni. A Fed múlt héten 3,75–4,00%-on hagyta az irányadó kamatot; a piac decemberre újabb emelést vár.",
+     "symbols": [],
+     "title": "A Fed-es Hammack a fokozatos kamatemelési pályát támogatja az infláció letörésére",
+     "url": "https://www.investing.com/news/economy-news/feds-hammack-favors-gradual-ratehike-path-to-lower-inflation-5004429",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T14:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · UKMTO",
+     "summary": "Az UKMTO szerint a hajót két azonosítatlan lövedék találta el; a személyzet állapota és a kár egyelőre nem ismert, a hajókat óvatosságra intik. A térségben az elmúlt napokban több hasonló támadás történt.",
+     "symbols": [],
+     "title": "Egy tankert két ismeretlen lövedék talált el a Perzsa-öbölben, Katartól mintegy 50 tengeri mérföldre északra",
+     "url": "https://www.investing.com/news/economy-news/tanker-in-persian-gulf-attacked-by-two-unidentified-projectiles-ukmto-says-5004284",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T14:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A japán kormány értesülések szerint akár pénteken sürgősségi kiberbiztonsági csomagot jelenthet be. A tajvani SinoPac ügyfélszámláiról csalárd átutalások történtek, a francia támadás állítólag a bank saját pénzeszközeit célozta; a részletek és az érintett intézmények köre még tisztázatlan.",
+     "symbols": [],
+     "title": "Japán új intézkedéseket jelent be, miután francia és tajvani bankokat is kibertámadás ért Dél-Korea után",
+     "url": "https://www.investing.com/news/economy-news/japan-to-announce-new-measures-as-cyber-attacks-hit-french-and-taiwanese-banks-after-south-korea-93CH-5004296",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-05T14:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Morgan Stanley elemzője szerint az MI-vel összefüggő újraértékelés nagy része már az árfolyamban van, a kockázat/hozam kiegyensúlyozottabb. A cég fundamentumait továbbra is konstruktívan látják; a célár 135 dollárról 120-ra csökkent.",
+     "symbols": [
+      "CSCO"
+     ],
+     "title": "A Morgan Stanley Equal-weightre minősítette le a Ciscót, célárát 120 dollárra csökkentette",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-cuts-cisco-rating-132038760.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T14:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · NTT DATA közlemény",
+     "summary": "A megállapodás szerint az NTT Global Data Centers a Bloom tüzelőanyag-cella technológiáját használja, az első szállítások 2027-ben indulnak. A Bloom szerint ez eddigi legnagyobb nemzetközi projektje.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Az NTT DATA 900 MW-os helyszíni áramtermelési megállapodást kötött a Bloom Energyvel adatközpont-projektekre",
+     "url": "https://finance.yahoo.com/energy/articles/ntt-data-announces-agreement-bloom-140000854.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T14:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A cég a korrigált EBITDA-előrejelzést legalább 380 millió dollárra mérsékelte (korábban 385–390 millió), az árbevétel-várakozást legalább 2,1 milliárd dollárra. Az azonos üzleti egységek forgalma 4,4% volt a 4,6%-os várakozással szemben. A Cava is több mint 8%-ot esett a várakozást elmaradó gyorsjelentés után.",
+     "symbols": [
+      "BROS",
+      "CAVA"
+     ],
+     "title": "A Dutch Bros árfolyama mintegy 14%-ot esett, mert a vártnál jobb EPS ellenére lefaragta az éves kilátásait",
+     "url": "https://finance.yahoo.com/m/38cb0654-6e49-3715-b4e4-f2f830876d7a/stock-market-today%3A-dow-rises.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -609,7 +700,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T13:45:00Z",
+   "updatedAt": "2026-11-05T14:45:00Z",
    "watchlist": []
   },
   {
