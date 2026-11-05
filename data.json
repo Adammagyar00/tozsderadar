@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T19:55:26Z",
+ "builtAt": "2026-11-05T20:56:02Z",
  "digests": [
   {
    "calendar": [
@@ -1051,6 +1051,35 @@
      "title": "A General Mills a WSJ szerint mérlegeli a Häagen-Dazs márka észak-amerikai területen kívüli leválasztását",
      "url": "https://www.investing.com/news/stock-market-news/general-mills-eyes-separation-of-haagendazs-brand-outside-north-america-wsj-reports-5005376",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-05T20:40:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Yahoo Finance · CNBC",
+     "summary": "A Yahoo Finance és a CNBC napközbeni jelentése szerint a Nasdaq a nap során 4–5% körüli mínuszba süllyedt, a Dow több mint ezer pontot esett, ezzel eltűnt a választás utáni rali. A lejtmenetet a chipszektor vezette. A végleges záróértékek egyelőre nem állnak rendelkezésre, a napközbeni adatok eltérnek.",
+     "symbols": [
+      "^IXIC",
+      "^DJI",
+      "^GSPC"
+     ],
+     "title": "A Nasdaq csütörtökön akár 5%-ot is zuhant a chipszektor kiárusításában, a Dow és az S&P 500 elvesztette a választás utáni emelkedést",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T20:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · The Information (értesülés)",
+     "summary": "Az Investing.com az Information beszámolójára hivatkozva azt írja, hogy az Nvidia régi távközlési épületek átalakítását fontolgatja MI-adatközpontoknak. Külön megerősítést nem találtam, a cég részéről nincs közlés, ezért a hír nem megerősített.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Az Nvidia az Information értesülése szerint régi távközlési épületek MI-adatközponttá alakítását vizsgálja",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-explores-retrofitting-old-telecom-buildings-for-ai-data-centers--information-93CH-5005447",
+     "verified": false
     }
    ],
    "markets": [
@@ -1077,7 +1106,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T19:45:00Z",
+   "updatedAt": "2026-11-05T20:40:00Z",
    "watchlist": []
   },
   {
