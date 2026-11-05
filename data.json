@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T18:55:38Z",
+ "builtAt": "2026-11-05T19:55:26Z",
  "digests": [
   {
    "calendar": [
@@ -1001,6 +1001,56 @@
      "title": "Egy bíró a Reuters szerint 900 millió dollár megfizetésére kötelezte az Albertsonst Washington államban az opioidválságban játszott szerepe miatt",
      "url": "https://www.investing.com/news/stock-market-news/albertsons-must-pay-900-million-for-fueling-opioid-epidemic-in-washington-state-judge-rules-5005252",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-05T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance szerint az Anthropic IPO-tervei a technológiai részvények kiárusítása közepette nehezebb piaci környezetbe ütköznek. A cég október 26-án nyilvánosan benyújtotta az S-1-et, a Nasdaqon az „ANT” jelzéssel listázódna; az időzítés és az értékelés még változhat.",
+     "symbols": [],
+     "title": "Az Anthropic tőzsdei bevezetési tervei egy megtépázott Wall Streettel találkoznak",
+     "url": "https://finance.yahoo.com/technology/article/anthropics-ipo-plans-run-up-against-a-battered-wall-street-192138177.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247wallst",
+     "summary": "A 247wallst beszámolója szerint a fintech-részvények csütörtökön élesen estek a bitcoin leszakadása és a demokrata kongresszusi többség miatti szabályozási aggodalmak közepette.",
+     "symbols": [
+      "HOOD"
+     ],
+     "title": "A Robinhood 12%-ot, a SoFi 9%-ot, az Affirm 8%-ot esett a bitcoin gyengélkedése és a demokrata Kongresszus árnyékában",
+     "url": "https://247wallst.com/investing/2026/11/05/robinhood-sinks-12-sofi-tumbles-9-affirm-drops-8-as-bitcoin-slides-and-democratic-congress-weighs-on-fintech/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247wallst",
+     "summary": "A 247wallst szerint a Redwire bevétele elmaradt a várttól, annak ellenére, hogy rekord margint és rendelésállományt jelentett. A űripari részvények együtt estek.",
+     "symbols": [],
+     "title": "A Redwire 21%-ot zuhant a bevételi csalódás miatt; az Intuitive Machines 15%-ot, a Planet Labs 12%-ot esett",
+     "url": "https://247wallst.com/investing/2026/11/05/redwire-plunges-21-as-revenue-miss-overshadows-record-margins-and-backlog-intuitive-machines-sinks-15-planet-labs-tumbles-12/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Wall Street Journal (értesülés)",
+     "summary": "A Wall Street Journal értesülései szerint a General Mills fontolgatja a Häagen-Dazs márka Észak-Amerikán kívüli üzletének leválasztását. A cég részéről megerősítés nincs, a döntés nem végleges.",
+     "symbols": [],
+     "title": "A General Mills a WSJ szerint mérlegeli a Häagen-Dazs márka észak-amerikai területen kívüli leválasztását",
+     "url": "https://www.investing.com/news/stock-market-news/general-mills-eyes-separation-of-haagendazs-brand-outside-north-america-wsj-reports-5005376",
+     "verified": false
     }
    ],
    "markets": [
@@ -1027,7 +1077,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T18:40:00Z",
+   "updatedAt": "2026-11-05T19:45:00Z",
    "watchlist": []
   },
   {
