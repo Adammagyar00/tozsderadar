@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T12:58:14Z",
+ "builtAt": "2026-11-05T13:57:24Z",
  "digests": [
   {
    "calendar": [
@@ -541,6 +541,48 @@
      "title": "A forint másfél hónapos csúcsra erősödött az euróval szemben, az euró 362,5 forint körül zárt szerdán",
      "url": "https://www.portfolio.hu/deviza/20261105/magahoz-tert-a-dollar-megtorpant-a-forint-lendulete-874388",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T13:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Reuters",
+     "summary": "A korrigált egy részvényre jutó eredmény 3,27 dollár volt a várt 2,97 dollárral szemben. A GAAP szerinti EPS 3,34 dollár, a bevétel kb. 29%-kal, 20,06 milliárd dollárra nőtt. A részvény az előpiaci kereskedésben emelkedett.",
+     "symbols": [
+      "COP"
+     ],
+     "title": "A ConocoPhillips a vártnál jobb harmadik negyedéves eredményt közölt, az árfolyam az előpiacon emelkedett",
+     "url": "https://finance.yahoo.com/energy/articles/conocophillips-beats-third-quarter-profit-124208958.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T13:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Arrow Electronics közlemény",
+     "summary": "A cég közleménye szerint a bevétel 10,7 milliárd dollár (+39% éves alapon), a nem-GAAP EPS 6,22 dollár, mindkettő a saját iránymutatás felső sávja fölött. Az Investing.com szerint az EPS 1,47 dollárral haladta meg a várakozást.",
+     "symbols": [
+      "ARW"
+     ],
+     "title": "Az Arrow Electronics a vártnál jóval jobb harmadik negyedévet jelentett",
+     "url": "https://www.investing.com/news/earnings/arrow-electronics-earnings-beat-by-147-revenue-topped-estimates-5003983",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T13:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a Visa az idei ünnepi szezonra 4,5%-os amerikai kiskereskedelmi forgalomnövekedést vár. Külön megerősítést a Visa közleményéből nem találtam, cáfolat nincs.",
+     "symbols": [
+      "V"
+     ],
+     "title": "A Visa szerint az amerikai ünnepi kiskereskedelmi forgalom 4,5%-kal nőhet, a leggyorsabb ütemben 2021 óta",
+     "url": "https://www.investing.com/news/stock-market-news/visa-sees-us-holiday-retail-sales-growing-45-fastest-pace-since-2021-5003995",
+     "verified": true
     }
    ],
    "markets": [
@@ -567,7 +609,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T12:50:00Z",
+   "updatedAt": "2026-11-05T13:45:00Z",
    "watchlist": []
   },
   {
