@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T16:57:02Z",
+ "builtAt": "2026-11-05T17:55:37Z",
  "digests": [
   {
    "calendar": [
@@ -267,14 +267,14 @@
      "category": "Vállalatok és technológia",
      "impact": "semleges",
      "origin": "investing",
-     "source": "Investing.com",
+     "source": "Investing.com · Investing.com (Reuters)",
      "summary": "Az Investing.com jelentés alapján számol be arról, hogy a Microsoft nem vesz részt az Nscale texasi bővítésében, mielőtt az Nscale 35 milliárd dolláros értékű tőzsdére lépne.",
      "symbols": [
       "MSFT"
      ],
      "title": "A Microsoft egy jelentés szerint elutasította az Nscale texasi bővítését a 35 milliárd dolláros tőzsdei bevezetés előtt",
      "url": "https://www.investing.com/news/stock-market-news/microsoft-declines-nscale-texas-expansion-ahead-of-35-bln-ipo--report-5002260",
-     "verified": false
+     "verified": true
     },
     {
      "category": "Vállalatok és technológia",
@@ -791,6 +791,164 @@
      "title": "A Motorola Solutions a vártnál jobb negyedéves eredményt közölt és emelte az éves kilátásait, az árfolyam 8%-ot ugrott",
      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62927195/motorola-solutions-sezzle-unity-software-toyota-motor-and-other-big-stocks-moving-higher-on-thursday",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · a Wendy's SEC-közleménye",
+     "summary": "A Wendy's független bizottsága egyhangúlag elutasította a Trian vezette csoport 7,35 dolláros részvényenkénti, mintegy 1,4 milliárd dolláros ajánlatát, mert szerintük az jelentősen alulértékeli a céget. A testület november 4-én korlátozott időtartamú részvényesi jogokat védő tervet is elfogadott. Ezt a cég SEC-bejelentése is megerősíti.",
+     "symbols": [
+      "WEN"
+     ],
+     "title": "A Wendy's elutasította a Trian 1,4 milliárd dolláros felvásárlási ajánlatát, és részvényesi jogokat védő tervet (\"poison pill\") fogadott el",
+     "url": "https://www.investing.com/news/stock-market-news/wendys-rejects-14-billion-trian-buyout-offer-adopts-poison-pill-defense-5005186",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · a Shield közleménye",
+     "summary": "A cég közleménye szerint végleges megállapodást kötött az Echodyne megvásárlásáról; az Echodyne radarjait ellenlábas drónvédelmi és biztonsági rendszerekben használják. A tranzakció értéke 5,3 milliárd dollár, emellett 2,5 milliárd dollár friss tőkét vonnak be. A független megerősítést a kereséseim nem találták meg, cáfolatot sem.",
+     "symbols": [],
+     "title": "A Shield megvásárolja az Echodyne radargyártót 5,3 milliárd dollárért, és 2,5 milliárd dollárt gyűjt 28,8 milliárd dolláros értékelésen",
+     "url": "https://finance.yahoo.com/technology/articles/shield-acquire-echodyne-transaction-valued-163000227.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az EKB elnöke a Reuters szerint azt mondta, a bank a bejövő adatokat vizsgálja annak eldöntéséhez, hogy szükség van-e decemberi emelésre. Az EKB október 29-én 2,50%-on hagyta a betéti rátát, és a piac többsége decemberi 25 bázispontos emelést vár.",
+     "symbols": [],
+     "title": "Lagarde: az EKB mutatókat figyel, hogy kell-e decemberi kamatemelés",
+     "url": "https://www.investing.com/news/economy-news/ecb-looking-at-indicators-to-see-if-december-hike-needed-lagarde-says-5005239",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance beszámolója szerint a Micron felfüggesztette a tajvani memóriachip-létesítményének tervét. A hír a csütörtöki chipszektor-eladási hullám közben jött, a Micron árfolyama 12–13%-ot esett. A késedelem szűkítheti a kínálatot az erős MI-memóriakereslet idején. A felfüggesztést a cég nem erősítette meg.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "A Micron a jelentések szerint felfüggesztette a 4,5 milliárd dolláros tajvani memóriagyár tervét",
+     "url": "https://finance.yahoo.com/technology/articles/micron-hits-unexpected-roadblock-4-165840277.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters hírében a paraguayi elnök a bankösszeomlás nyomán erősödő nyomás miatt mondott le. A független megerősítést a keresésem nem találta meg, ezért a hírt óvatosan kell kezelni.",
+     "symbols": [],
+     "title": "A Reuters szerint lemondott Paraguay elnöke, Santiago Peña a bankösszeomlás miatti nyomás alatt",
+     "url": "https://www.investing.com/news/economy-news/paraguay-president-pena-resigns-under-mounting-pressure-from-bank-collapse-5005187",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · CNBC",
+     "summary": "A CNBC jelentése szerint a demokraták a félidős győzelem után vizsgálatot készítenek elő a JPMorgan és Jeffrey Epstein kapcsolatáról. A bank korábban azt közölte, sajnálja a kapcsolatot, de nem segített Epsteinnek bűncselekményeket elkövetni.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "A CNBC értesülése szerint a demokraták a JPMorgan Epstein-kapcsolatainak vizsgálatára készülnek",
+     "url": "https://www.investing.com/news/stock-market-news/democrats-gearing-up-to-probe-jpmorgans-relationship-with-epstein-cnbc-reports-5005185",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · MarketBeat",
+     "summary": "Charles Bristow, a JPMorgan treasury-vezetője és befektetési igazgatója szerint a bank felkészül arra, hogy a kamatok bármelyik irányba mozdulhatnak, de a gyors emelkedés tágabb kockázatot jelent a pénzügyi rendszerre.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "A JPMorgan pénzügyi vezetője szerint a gyors kamatemelkedés veszélyeztetheti a pénzügyi rendszert",
+     "url": "https://www.marketbeat.com/instant-alerts/event-jpmorgan-chase-co-warns-a-rapid-rate-rise-could-shake-the-financial-system-2026-11-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A bitcoin mintegy 5%-ot esett, ahogy az MI-részvények zuhantak, és a demokrata félidős győzelem új szabályozási kérdéseket vetett fel. A kényszerlikvidálások a szerdai, részben short fedezések hajtotta emelkedést visszaadták. A Decrypt szerint 428 millió dollárnyi long pozíció záródott.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin 76–77 ezer dollár alá esett, a választás utáni emelkedés elpárolgott; 428 millió dollárnyi long pozíciót számoltak fel",
+     "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A zálogként lekötött bitcoinok elhagyták a cég tárcáit, november 30-án pedig 1 milliárd dolláros visszafizetési ablak nyílik. A blokklánc-adatok csak az első célcímet mutatják, a szándék nem ismert. A cég korábban hasonló átutalásokat nem eladásnak nevezte.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Trump Media 4259 bitcoint mozgatott meg; a 24/7 Wall St. szerint kérdés, hogy eladásra készül-e",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/05/trump-media-just-moved-4259-bitcoin-is-it-about-to-sell/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Scott Melker elemzése szerint a STRC visszatérése a névértékre fontos Michael Saylor bitcoinvásárlási stratégiájának finanszírozása szempontjából.",
+     "symbols": [
+      "MSTR",
+      "BTC"
+     ],
+     "title": "A Strategy STRC elsőbbségi részvénye május óta először tért vissza a 100 dolláros névértékre",
+     "url": "https://finance.yahoo.com/video/strategys-strc-hits-par-for-first-time-since-may-this-is-why-it-matters-170731534.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters jelentése szerint a Wonder Group bizalmasan benyújtotta az amerikai IPO-hoz szükséges dokumentumokat. A cég korábban 9 milliárd dolláros értékelésen vont be tőkét; a bizalmas benyújtást a keresésem nem erősítette meg.",
+     "symbols": [],
+     "title": "Marc Lore Wonder Group vállalata a Reuters szerint bizalmasan benyújtotta amerikai tőzsdei bevezetési kérelmét",
+     "url": "https://www.investing.com/news/stock-market-news/marc-lores-wonder-group-confidentially-files-for-us-ipo-5005181",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "CNBC",
+     "summary": "A CNBC szerint a világ legnagyobb olívaolaj-cégének részvénye zuhant, mert két riválisa, a DCOOP és az Acesur megveszi a céget, és fele-fele arányban birtokolná. Az ügylet részleteit a keresésem nem tudta független forrásból megerősíteni.",
+     "symbols": [],
+     "title": "A Deoleo árfolyama mintegy 19%-ot esett, miután a DCOOP és az Acesur felvásárlást jelentett be",
+     "url": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html",
+     "verified": false
     }
    ],
    "markets": [
@@ -817,7 +975,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T16:40:00Z",
+   "updatedAt": "2026-11-05T17:45:00Z",
    "watchlist": []
   },
   {
