@@ -1,6 +1,363 @@
 {
- "builtAt": "2026-11-04T20:56:12Z",
+ "builtAt": "2026-11-05T06:56:49Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 5.",
+     "event": "Bank of England kamatdöntés"
+    },
+    {
+     "date": "nov. 6.",
+     "event": "USA: munkaerőpiaci jelentés (október)"
+    },
+    {
+     "date": "nov. 10.",
+     "event": "KSH infláció, USA CPI"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés, Nvidia gyorsjelentés"
+    }
+   ],
+   "date": "2026-11-05",
+   "generatedAt": "2026-11-05T06:50:00Z",
+   "headline": "A demokraták félidős győzelme után a Dow közel 3%-ot szárnyalt, az olaj zuhant, a chip- és MI-részvények viszont esnek",
+   "items": [
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Dow Jones 1569,4 ponttal 53 356,12-re, az S&P 500 119,7 ponttal 7688,62-re, a Nasdaq 364,5 ponttal 25 736,51-re zárt szerdán, miután a demokraták nyertek a félidős választáson és az olajár visszaesett. A Microsoft közel 7%-ot erősödött, a SpaceX és a Tesla viszont esett.",
+     "symbols": [
+      "DIA",
+      "SPY",
+      "QQQ"
+     ],
+     "title": "Az amerikai tőzsdék a félidős választás után szárnyaltak: a Dow 1569 ponttal, mintegy 3%-kal emelkedett",
+     "url": "https://finance.yahoo.com/m/762d358c-ec5a-3821-a3f9-e47c4e4c3f0c/stock-market-today%3A-dow-soars.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Qualcomm a vártnál jobb bevételt jelentett, de gyengébb árrést jelzett a chiptervező üzletágában. A Reuters szerint az okostelefon-chipeladások elmaradtak a várakozástól, a részvény zárás után esett.",
+     "symbols": [
+      "QCOM"
+     ],
+     "title": "A Qualcomm árfolyama esik: a cég szűkülő chipmarzsokra figyelmeztetett",
+     "url": "https://finance.yahoo.com/m/1c74714d-b3e8-378c-98a9-4f7059eb768b/qualcomm%E2%80%99s-stock-falls-after.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az Arm második negyedéves bevétele meghaladta az elemzői várakozást az MI és az adatközpontok iránti erős kereslet nyomán. Az Investing.com szerint a részvény mégis esett zárás után, mert a kilátás nem volt kiemelkedő.",
+     "symbols": [
+      "ARM"
+     ],
+     "title": "Az Arm a vártnál jobb bevételt ért el a második negyedévben az MI- és adatközponti kereslet miatt",
+     "url": "https://www.investing.com/news/stock-market-news/arm-beats-secondquarter-revenue-estimates-on-ai-and-datacenter-demand-5001267",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A félvezető-részvények éles eséséből a dél-koreai tőzsdén kereskedési korlátozás lett, de az olajár nagy esése és a demokrata választási győzelem támogatta a többi piacot. Kína jobban teljesített, a tajvani index az Investing.com szerint 3,28%-ot esett.",
+     "symbols": [
+      "MU",
+      "SOXX"
+     ],
+     "title": "Ázsiában vegyesen zártak a tőzsdék: a chipszektor zuhanása miatt kereskedési korlátozást léptettek életbe Dél-Koreában",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-mixed-chip-rout-042442281.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A befektetők és elemzők a demokrata többségű Kongresszustól új adatközponti és MI-szabályozást várnak. A cikk szerint a Micron háromhónapos mélypontra esett.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "A Micron 3 hónapos mélypontra esett a chipszektor eladási hullámában, miután egy vezető demokrata törvényhozó az MI-fejlesztés szüneteltetését sürgette",
+     "url": "https://stocktwits.com/news-articles/markets/equity/micron-hits-3-month-low-amid-chip-rout-after-top-democratic-lawmaker-calls-for-ai-regulation-pause-in-development/cNG14kWR9Eh?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Marvell árfolyama a Lumentum-felvásárlás bejelentése óta jelentősen gyengült; az SEC-bejelentések szerint a 115 milliárd dolláros, teljes egészében részvényalapú üzletben 4,5 Marvell-részvényt kapnak egy Lumentum-részvényért. A választás utáni szabályozási félelmek tovább nyomták a szektort.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A Marvell 7%-ot zuhant, mert a demokrata győzelem az MI-adatközponti részvényeket is megviselte",
+     "url": "https://www.tikr.com/blog/marvell-sinks-7-as-democratic-sweep-hits-ai-data-center-stocks?ref=yahoofinance&tlnk=yf-261104-c3963v6x&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Bloomberg-jelentés szerint a két cég a Wall Street-i befektetőkkel tárgyal a SpaceX nagyjából 40 milliárd dolláros chipfinanszírozási ügyletének részleges értékesítéséről, éppen amikor az MI-boom a demokrata győzelem után bizonytalanabbá válik.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Goldman és az Apollo tárgyalások szerint a SpaceX mintegy 40 milliárd dolláros chipfinanszírozásának részeit adná tovább befektetőknek",
+     "url": "https://finance.yahoo.com/technology/ai/articles/goldman-apollo-talks-sell-spacex-211021473.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A SpaceX és a Tesla részvényei a demokrata sikerre estek. Gary Black szerint egy részvényalapú Tesla–SpaceX-egyesülés prémiuma eltűnhet, mert a felvásárló és a célpont is nagyot esett.",
+     "symbols": [
+      "SPCX",
+      "TSLA"
+     ],
+     "title": "A Tesla és a SpaceX is esik, mert Elon Musk republikánus választási fogadása nem jött be",
+     "url": "https://finance.yahoo.com/m/6b0cf61e-a63d-3391-b423-6ebcab7be274/tesla%2C-spacex-dive-as-elon.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Lilly jogi és szabályozói nyomást gyakorol a kevert tirzepatid-készítményeket kínálókra, vitatva azok biztonsági és marketingállításait. A cég elérte egy versenytárs hirdetéseinek módosítását.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Az Eli Lilly reklámmódosítást ért el az ellenfeleknél a fogyókúrás szerek terén, és átrendezte fejlesztési portfólióját",
+     "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-wins-ad-061439557.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a német hadiipari cég újra lejjebb vitte idei bevételi célját. A cég augusztusban már mérsékelte az előrejelzést a F126-os fregatt törlése miatt.",
+     "symbols": [
+      "DFEN",
+      "RHM"
+     ],
+     "title": "A Rheinmetall ismét csökkentette 2026-os árbevételi előrejelzését, mert a Boxer-megrendelés csúszik",
+     "url": "https://www.investing.com/news/stock-market-news/rheinmetall-cuts-2026-sales-forecast-again-as-boxer-order-slips-5001668",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a brit jegybank csütörtökön, a mai kamatdöntésén három év után először kamatemelésre készül. Egy FT-felmérés szerint a brit infláció 2027 elején érheti el csúcsát, 4,4%-on.",
+     "symbols": [
+      "GBP"
+     ],
+     "title": "A Bank of England három év után először emelhet kamatot",
+     "url": "https://www.investing.com/news/economy-news/bank-of-england-poised-to-hike-rates-for-first-time-in-3-years-5001845",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Financial Times felmérése szerint a brit infláció 4,4%-ig emelkedhet, ami a jegybanki kamatemelési várakozásokat erősíti.",
+     "symbols": [
+      "GBP"
+     ],
+     "title": "Az FT elemzői felmérése szerint a brit infláció 2027 elején éri el csúcsát, 4,4%-on",
+     "url": "https://www.investing.com/news/economy-news/uk-inflation-to-peak-at-44-around-start-of-2027-ft-survey-shows-5002287",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A New York Times értesülése szerint a meghallgatás december 14-én lesz. Cook az október 28-i FOMC-n 25 bázispontos kamatemelést kért.",
+     "symbols": [
+      "USD"
+     ],
+     "title": "A Fehér Ház december 14-re tűzte ki a meghallgatást Lisa Cook Fed-kormányzó ügyében – írja a New York Times",
+     "url": "https://www.investing.com/news/economy-news/white-house-sets-hearing-on-feds-cook-for-december-14-nyt-says-5001827",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a japán jegybank tagjai megvitatták a további emelések szükségességét. A BoJ legutóbb október 30-án változatlanul hagyta a kamatot.",
+     "symbols": [
+      "JPY"
+     ],
+     "title": "A Bank of Japan szeptemberi jegyzőkönyve szerint további kamatemelések szükségességét és gyorsabb lépést is megvitattak",
+     "url": "https://www.investing.com/news/economy-news/boj-board-saw-the-need-to-keep-raising-rates-september-meeting-minutes-show-5001844",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a brazil jegybank megállt a kamatcsökkentésekkel, miután Lula nyerte a választást.",
+     "symbols": [
+      "BRL"
+     ],
+     "title": "A brazil jegybank véget vetett a kamatvágási sorozatnak Lula választási győzelme után",
+     "url": "https://www.investing.com/news/economy-news/brazils-central-bank-ends-run-of-rate-cuts-after-lula-election-win-5001496",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Toyota negyedéves nyeresége 34%-kal nőtt, az autógyártó emelte éves előrejelzését.",
+     "symbols": [
+      "TM"
+     ],
+     "title": "A Toyota hat negyedév után először növelte a profitját, és emelte éves kilátásait",
+     "url": "https://www.investing.com/news/stock-market-news/toyota-profit-surges-34-first-rise-in-six-quarters-5002210",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Financial Times értesülése szerint a kínai hatóságok megakadályozzák a SoftBank ABB-robotikai üzletág megvásárlását.",
+     "symbols": [
+      "9984.T"
+     ],
+     "title": "Kína blokkolja a SoftBank 5,4 milliárd dolláros felvásárlását az ABB robotikai részlegén – írja az FT",
+     "url": "https://www.investing.com/news/stock-market-news/softbanks-54-bln-takeover-of-abb-robotics-unit-blocked-by-china-ft-5002105",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Bloomberg News jelentése alapján az Apple költségcsökkentési lépésként visszavágja a dolgozók mesterséges intelligenciára fordítható költségkeretét.",
+     "symbols": [
+      "AAPL"
+     ],
+     "title": "Az Apple a Bloomberg szerint csökkenti a munkavállalói MI-költségkereteket",
+     "url": "https://www.investing.com/news/stock-market-news/apple-cuts-employee-ai-budgets-in-costcontrol-push-bloomberg-news-reports-5001149",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com jelentés alapján számol be arról, hogy a Microsoft nem vesz részt az Nscale texasi bővítésében, mielőtt az Nscale 35 milliárd dolláros értékű tőzsdére lépne.",
+     "symbols": [
+      "MSFT"
+     ],
+     "title": "A Microsoft egy jelentés szerint elutasította az Nscale texasi bővítését a 35 milliárd dolláros tőzsdei bevezetés előtt",
+     "url": "https://www.investing.com/news/stock-market-news/microsoft-declines-nscale-texas-expansion-ahead-of-35-bln-ipo--report-5002260",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (névtelen források)",
+     "summary": "A Reuters névtelen források alapján számolt be az ajánlatról; hivatalos megerősítés nincs. A Rhythm részvénye az Investing.com szerint 28%-ot ugrott.",
+     "symbols": [
+      "AZN",
+      "RYTM"
+     ],
+     "title": "Értesülések szerint az AstraZeneca 10 milliárd dolláros ajánlatot tett a Rhythm elhízás elleni gyógyszergyártóra",
+     "url": "https://www.investing.com/news/stock-market-news/astrazeneca-made-10-billion-offer-for-obesity-drugmaker-rhythm-sources-say-5001694",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A 910 megawattos, teljes telephelyre szóló szerződés értéke az első időszakra nagyjából 28 milliárd dollár; a bérlő neve még nem ismert.",
+     "symbols": [
+      "RIOT"
+     ],
+     "title": "A Riot Platforms 28 milliárd dolláros, 15 éves bérleti szerződést kötött egy MI-labor számára a Corsicana-i telephelyre",
+     "url": "https://finance.yahoo.com/technology/ai/articles/riot-platforms-riot-signs-28-221603373.html",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A kriptopiac a részvénypiaccal együtt emelkedett a félidős választás után. Az Investing.com szerint a bitcoin 80,5 ezer dollárra erősödött, de a kilátás bizonytalan.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A bitcoin visszatért 80 ezer dollár fölé, az Ethereum vezette az emelkedést a Wall Street rallija mellett",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/04/crypto-market-today-nov-4-bitcoin-stages-sharp-recovery-as-wall-street-rallies-and-regulatory-hopes-return/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az elemzőház szerint a kereslet tetőzése a világ finomítói kapacitásának jelentős részét fenyegeti.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Wood Mackenzie: a finomítók ötöde bezárási veszélyben lehet, mert a globális olajkereslet 2032-ben tetőzik",
+     "url": "https://finance.yahoo.com/energy/articles/wood-mackenzie-one-five-refineries-053200811.html",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
+   "updatedAt": "2026-11-05T06:50:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -8548,6 +8905,22 @@
    "type": "Makroadat",
    "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
    "id": "2026-11-13-us-ppi"
+  },
+  {
+   "actual": "",
+   "country": "Németország",
+   "date": "2026-11-17",
+   "event": "ZEW gazdasági várakozási index, november",
+   "forecast": "",
+   "importance": 2,
+   "note": "ZEW hivatalos 2026/27-es kiadási naptára",
+   "previous": "",
+   "source": "ZEW",
+   "symbols": [],
+   "time": "11:05",
+   "type": "Makroadat",
+   "url": "https://www.zew.de/fileadmin/FTP/div/ZEW-Konjunkturerwartungen_Termine2026_2027.pdf",
+   "id": "2026-11-17-de-zew"
   },
   {
    "actual": "",
