@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-05T14:56:36Z",
+ "builtAt": "2026-11-05T15:55:46Z",
  "digests": [
   {
    "calendar": [
@@ -674,6 +674,68 @@
      "title": "A Dutch Bros árfolyama mintegy 14%-ot esett, mert a vártnál jobb EPS ellenére lefaragta az éves kilátásait",
      "url": "https://finance.yahoo.com/m/38cb0654-6e49-3715-b4e4-f2f830876d7a/stock-market-today%3A-dow-rises.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T15:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Yahoo Finance élő tudósítása szerint a Nasdaq a chipek eladása miatt mintegy 3%-ot esett, az Arm a vártnál gyengébb kulcsmutatót közölt. Intraday adatok szerint az AMD kb. 11–13%-ot, a Sandisk 12–14%-ot, a Micron 8–10%-ot esett; a Bloom Energy is mintegy 18%-ot vesztett, a mozgásokat a demokrata kongresszusi győzelemtől való félelem hajtja az MI-adatközpont-építések lassulása miatt. Az értékek napközbeniek, a záróadatok eltérhetnek.",
+     "symbols": [
+      "AMD",
+      "SNDK",
+      "MU",
+      "ARM",
+      "BE",
+      "^IXIC"
+     ],
+     "title": "A chipszektor eladási hulláma csütörtökön is folytatódik: a Nasdaq kb. 3%-ot zuhant, az AMD és a Sandisk kétszámjegyűt esett",
+     "url": "https://finance.yahoo.com/m/38cb0654-6e49-3715-b4e4-f2f830876d7a/stock-market-today%3A-nasdaq.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T15:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A cryptoprowl szerint a kripto piacszerkezeti törvényjavaslat jövője bizonytalan a választási eredmény után. A javaslat már szeptemberben elakadt a szenátusban; a TD Cowen korábbi előrejelzése szerint egy demokrata győzelem megakasztaná a törvényt.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "Kérdésessé vált a Clarity Act kripto-szabályozási törvény sorsa, miután a demokraták átvették a Kongresszus irányítását",
+     "url": "https://www.cryptoprowl.com/releases/clarity-act-in-doubt-as-democrats-take-control-of-us-congress-7687?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T15:40:00Z",
+     "category": "Vállal",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a divatcég feljebb srófolta az éves bevételi kilátásait, a részvény ennek ellenére esik az amerikai kereskedésben.",
+     "symbols": [
+      "RL"
+     ],
+     "title": "A Ralph Lauren emelte az éves bevételi előrejelzését, de az árfolyam esik, mert a befektetők gyorsabb növekedést várnak",
+     "url": "https://www.investing.com/news/stock-market-news/ralph-lauren-raises-annual-revenue-forecast-5004070",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-05T15:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a bitcoin 79 ezer dollárra gyengült, a választások utáni ralihoz fűzött remények elhalványultak, a kilátások továbbra is bizonytalanok.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin 79 ezer dollárra csúszott, a választás utáni emelkedés veszít lendületéből",
+     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-firms-to-805k-as-us-elections-buoy-risk-appetite-but-outlook-unclear-5002271",
+     "verified": true
     }
    ],
    "markets": [
@@ -700,7 +762,7 @@
     }
    ],
    "summary": "A szerdai amerikai kereskedést a demokrata félidős siker és az olajár nagy esése határozta meg: a Dow 1569 ponttal, mintegy 3%-kal zárt feljebb, az S&P 500 és a Nasdaq 1,4–1,6%-ot erősödött. Az olaj és a dollár gyengült, az arany és a bitcoin emelkedett. A chip- és MI-adatközponti részvényeket a várható szabályozás és a Qualcomm gyenge marzskilátása nyomta, Ázsiában Dél-Koreában kereskedési korlátozás lépett életbe. A Bank of England ma délben háromévnyi szünet után emelheti a kamatot, pénteken jön az amerikai munkaerőpiaci jelentés.",
-   "updatedAt": "2026-11-05T14:45:00Z",
+   "updatedAt": "2026-11-05T15:40:00Z",
    "watchlist": []
   },
   {
