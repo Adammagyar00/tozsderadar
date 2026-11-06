@@ -1,21 +1,53 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-06T10:36:56Z",
+ "updatedAt": "2026-11-06T11:28:04Z",
  "items": [
   {
-   "title": "European gas tumbles to seal worst week since 2025, snaps five-week rally",
-   "link": "https://finance.yahoo.com/energy/articles/european-gas-tumbles-seal-worst-102619137.html",
-   "published": "2026-11-06T10:26:19Z",
+   "title": "Aureka secures prospecting licence for Comstock project in Victoria",
+   "link": "https://www.mining-technology.com/news/aureka-prospecting-licence-comstock-project/?.tsrc=rss",
+   "published": "2026-11-06T11:22:26Z",
    "publisher": "",
-   "summary": "Investing.com - European wholesale natural gas prices fell sharply on Friday, sliding 3.5% on the day to seal their steepest weekly drop in more than a year and a half, as a relentless retreat across global crude benchmarks and the political fallout from the U.S. midterm elections abruptly dismantled a five-week winning streak.",
+   "summary": "Resources Victoria granted the licence within four months of accepting the application.",
    "symbols": []
   },
   {
-   "title": "The Democrats Won Congress. Here's What Could Come Next for Crypto.",
-   "link": "https://www.fool.com/investing/2026/11/06/the-democrats-won-congress-heres-what-could-come-n/?.tsrc=rss",
-   "published": "2026-11-06T10:17:00Z",
+   "title": "Why Amazon and Other AI Data-Center Stocks Will Be Post-Midterm Winners",
+   "link": "https://finance.yahoo.com/m/99ca441a-fa42-39c1-8f23-1a4d05995246/why-amazon-and-other-ai.html",
+   "published": "2026-11-06T11:15:00Z",
    "publisher": "",
-   "summary": "While the incoming Congress may be less crypto friendly than the current one, history says there's little to fear here.",
+   "summary": "A forced slowdown on AI spending could prove beneficial for the hyperscalers and enable them to shore up their balance sheets.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "High AI Anxiety Eases on Wall Street Pre-Bell; Asia, Europe Off",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/high-ai-anxiety-eases-wall-111154583.html",
+   "published": "2026-11-06T11:11:54Z",
+   "publisher": "",
+   "summary": "Wall Street futures pointed largely higher pre-bell Friday as traders looked for values after the Th",
+   "symbols": []
+  },
+  {
+   "title": "Pan American Silver Corp (PAAS) (Q3 2026) Earnings Call Highlights: Record $377 Million Free ...",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/pan-american-silver-corp-paas-110844751.html",
+   "published": "2026-11-06T11:08:44Z",
+   "publisher": "",
+   "summary": "Pan American Silver Corp (PAAS) delivered strong cash generation and liquidity in Q3 2026, but lower silver output and rising gold costs prompted revised production and cost guidance.",
+   "symbols": []
+  },
+  {
+   "title": "State Street Health Care SPDR (XLV) Adds Eli Lilly and J&J on Nov. 4",
+   "link": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110533851.html",
+   "published": "2026-11-06T11:05:33Z",
+   "publisher": "",
+   "summary": "The $50.93 billion fund bought $284.5 million of stock, lifting all 60 positions and selling nothing.",
    "symbols": [
     "BTC",
     "ETH",
@@ -28,11 +60,11 @@
    ]
   },
   {
-   "title": "Bitcoin Slides to a Seven-Week Low Near $75,200 as AI Stocks Drag Wall Street Lower",
-   "link": "https://unchainedcrypto.com/bitcoin-slides-to-a-seven-week-low-near-75200-as-ai-stocks-drag-wall-street-lower/?.tsrc=rss",
-   "published": "2026-11-06T10:15:17Z",
+   "title": "Proshares Trust (TQQQ) Adds Apple and Nvidia on Nov. 4",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-trust-tqqq-adds-apple-110521279.html",
+   "published": "2026-11-06T11:05:21Z",
    "publisher": "",
-   "summary": "Bitcoin gave back its post-midterm rally as the S&P 500 and Nasdaq Composite posted their worst day since April 2025, though it fell less than the Nasdaq 100.",
+   "summary": "The 3x leveraged ETF bought $351.5 million of stock on Wednesday, lifting 97 positions and trimming none.",
    "symbols": [
     "BTC",
     "ETH",
@@ -42,6 +74,366 @@
     "LLY",
     "MU",
     "MRVL"
+   ]
+  },
+  {
+   "title": "INVESCO QQQ (QQQ) Adds Apple and NVIDIA on Nov. 4",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-adds-apple-110513112.html",
+   "published": "2026-11-06T11:05:13Z",
+   "publisher": "",
+   "summary": "The fund bought $409.3 million of stock, lifting 98 positions and trimming none, with Apple and NVIDIA the largest additions.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "iShares PHLX SOX Semi Sector Index Fund (SOXX) Adds AMD and NVDA on Wednesday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semi-sector-110502951.html",
+   "published": "2026-11-06T11:05:02Z",
+   "publisher": "",
+   "summary": "The fund's $513.3 million in gross trading was entirely buys, lifting 28 positions with no decreases.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Dow Jones Industrial Average ETF (DIA) Buys $96.4 Million More Goldman on Nov. 4",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/dow-jones-industrial-average-etf-110437188.html",
+   "published": "2026-11-06T11:04:37Z",
+   "publisher": "",
+   "summary": "The fund added $932.2 million across all 30 of its positions, with no sales, on a day it held $45.93 billion in assets.",
+   "symbols": []
+  },
+  {
+   "title": "Cloudflare Stock Surges After Earnings. What That Says About AI Fears.",
+   "link": "https://finance.yahoo.com/m/a17e37b1-e9e4-32e7-8c36-97ae69fa2426/cloudflare-stock-surges-after.html",
+   "published": "2026-11-06T11:04:00Z",
+   "publisher": "",
+   "summary": "The cybersecurity company’s rebound shows investors that the brutal tech selloff could still create buying opportunities.",
+   "symbols": []
+  },
+  {
+   "title": "53 ETFs Add to Advanced Micro Devices (AMD) on Nov. 4",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/53-etfs-add-advanced-micro-110148785.html",
+   "published": "2026-11-06T11:01:48Z",
+   "publisher": "",
+   "summary": "ETFs bought $43.3 million in AMD shares on Wednesday.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "42 ETFs Add to JPMorgan Chase (JPM) on Nov. 4",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/42-etfs-add-jpmorgan-chase-110120957.html",
+   "published": "2026-11-06T11:01:20Z",
+   "publisher": "",
+   "summary": "ETFs bought $65.6 million of JPMorgan Chase shares on Wednesday.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "U.S. chip stocks rebound sharply after Thursday’s brutal selloff",
+   "link": "https://finance.yahoo.com/technology/articles/u-chip-stocks-rebound-sharply-105433545.html",
+   "published": "2026-11-06T10:54:33Z",
+   "publisher": "",
+   "summary": "Investing.com -- U.S. chip stocks rebounded in premarket trading Friday, recovering some ground after a sweeping AI-driven selloff Thursday that followed the Democrats’ midterm election victory earlier this week.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Tech Rebounds Sharply Ahead of Crucial Jobs Report to End a Volatile Week",
+   "link": "https://finance.yahoo.com/m/ef87bcf1-bbd5-3e2b-b57c-465fdfe16c5e/tech-rebounds-sharply-ahead.html",
+   "published": "2026-11-06T10:54:25Z",
+   "publisher": "",
+   "summary": "It’s been a roller-coaster week, and the market is flipping the script again in premarket trade as tech dip-buyers spark a sharp rotation out of cyclical value names and back into growth ahead of a crucial jobs report.",
+   "symbols": []
+  },
+  {
+   "title": "Kalshi Users Pour $300 Million Into Stock Perps Within Hours of U.S. Debut",
+   "link": "https://unchainedcrypto.com/kalshi-users-pour-300-million-into-stock-perps-within-hours-of-u-s-debut/?.tsrc=rss",
+   "published": "2026-11-06T10:45:32Z",
+   "publisher": "",
+   "summary": "Contracts on Palantir, Meta, SpaceX and dozens more answer to both the CFTC and SEC, two days after Chairman Michael Selig said equity perps could trade onshore.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "IREN Moves Its $4 Billion AI Cloud Goal Into 2027, With $6 Billion of Capex Yet to Be Financed",
+   "link": "https://unchainedcrypto.com/iren-moves-its-4-billion-ai-cloud-goal-into-2027-with-6-billion-of-capex-yet-to-be-financed/?.tsrc=rss",
+   "published": "2026-11-06T10:45:12Z",
+   "publisher": "",
+   "summary": "The bitcoin miner turned AI cloud provider blamed a customer-requested change and supplier timing for the delay, as AI cloud revenue rose to $200 million last quarter.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Chip Wreck Reaches Asian Stock Markets",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/chip-wreck-reaches-asian-stock-104017534.html",
+   "published": "2026-11-06T10:40:17Z",
+   "publisher": "",
+   "summary": "Asian stock markets largely fell back on Friday, on traders' concerns that new political leadership",
+   "symbols": []
+  },
+  {
+   "title": "Nvidia Shares Suffer Worst Day Since January 2025 -- AI Fears Trigger $450 Billion Rout",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-shares-suffer-worst-day-104000765.html",
+   "published": "2026-11-06T10:40:00Z",
+   "publisher": "",
+   "summary": "Nvidia Stock Plunges as Texas Data Center Restrictions Put AI Boom at Risk",
+   "symbols": []
+  },
+  {
+   "title": "2 Reasons Micron Stock Could Be a Buy Right Now (and 1 Reason for Caution)",
+   "link": "https://www.fool.com/investing/2026/11/06/reason-micron-stock-could-be-buy-now-caution/?.tsrc=rss",
+   "published": "2026-11-06T10:40:00Z",
+   "publisher": "",
+   "summary": "Micron has become one of the most important stocks in the AI trade. What dynamics will shape where it goes next?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Micron Shares Suffer Brutal 17% Rout as Chip Selloff Deepens",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/micron-shares-suffer-brutal-17-103844985.html",
+   "published": "2026-11-06T10:38:44Z",
+   "publisher": "",
+   "summary": "Micron Faces Double Blow as Taiwan Factory Delays Add to AI Chip Selloff",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Nasdaq Suffers Worst AI Panic in Years as Nvidia, SanDisk, and Western Digital Sink",
+   "link": "https://finance.yahoo.com/technology/ai/articles/nasdaq-suffers-worst-ai-panic-103707000.html",
+   "published": "2026-11-06T10:37:07Z",
+   "publisher": "",
+   "summary": "Midterm Election Shock Sends Nasdaq Into Correction as AI Stocks Face Regulatory Fears",
+   "symbols": []
+  },
+  {
+   "title": "American markets enter whipsaw territory post-midterms — wiping out more than $2.5T overnight. Secure your nest egg now",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/american-markets-enter-whipsaw-territory-103500007.html",
+   "published": "2026-11-06T10:35:00Z",
+   "publisher": "",
+   "summary": "Every crisis is an opportunity.",
+   "symbols": []
+  },
+  {
+   "title": "Fast-Money Systematic Funds Stoked $2.3 Trillion Tech-Stock Rout",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/fast-money-systematic-funds-stoked-103031992.html",
+   "published": "2026-11-06T10:30:31Z",
+   "publisher": "",
+   "summary": "As investors rushed out of US technology stocks on Thursday, selling by trend-following systematic strategies amplified what quickly became a record plunge by market value in the Nasdaq 100 index.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Could Investing $500 a Month in SpaceX Stock Help You Retire a Millionaire?",
+   "link": "https://www.fool.com/investing/2026/11/06/could-investing-500-a-month-in-spacex-stock-help-y/?.tsrc=rss",
+   "published": "2026-11-06T10:30:00Z",
+   "publisher": "",
+   "summary": "SpaceX has been in the spotlight since its historic IPO.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Kospi Sinks as Micron Contagion Spreads on Korea’s ‘Black Friday’",
+   "link": "https://finance.yahoo.com/m/5b56a81d-1e1c-39a7-8a83-1d9b922141ec/kospi-sinks-as-micron.html",
+   "published": "2026-11-06T10:29:59Z",
+   "publisher": "",
+   "summary": "South Korea’s equity market was hit hard again, suffering what local media are calling a “Black Friday” collapse overnight.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Gold Slips Below $4,050 as US Dollar Recovers, but Weekly Gains Remain Above 5%",
+   "link": "https://investorshub.advfn.com/market-news/article/39407/gold-slips-below-4050-as-us-dollar-recovers-but-weekly-gains-remain-above-5?.tsrc=rss",
+   "published": "2026-11-06T10:26:54Z",
+   "publisher": "",
+   "summary": "Gold prices declined on Friday, November 6, as a recovery in the US dollar prompted investors to take profits following a strong rally driven by the US midterm election results and falling Treasury yields. Spot gold fell 1% to $4,048.",
+   "symbols": []
+  },
+  {
+   "title": "European gas tumbles to seal worst week since 2025, snaps five-week rally",
+   "link": "https://finance.yahoo.com/energy/articles/european-gas-tumbles-seal-worst-102619137.html",
+   "published": "2026-11-06T10:26:19Z",
+   "publisher": "",
+   "summary": "Investing.com - European wholesale natural gas prices fell sharply on Friday, sliding 3.5% on the day to seal their steepest weekly drop in more than a year and a half, as a relentless retreat across global crude benchmarks and the political fallout from the U.S. midterm elections abruptly dismantled a five-week winning streak.",
+   "symbols": []
+  },
+  {
+   "title": "Oil Prices Rise on Renewed Middle East Tanker Attacks but Remain Set for Heavy Weekly Losses",
+   "link": "https://investorshub.advfn.com/market-news/article/39405/oil-prices-rise-on-renewed-middle-east-tanker-attacks-but-remain-set-for-heavy-weekly-losses?.tsrc=rss",
+   "published": "2026-11-06T10:23:04Z",
+   "publisher": "",
+   "summary": "Oil prices advanced during Asian trading on Friday, November 6, as renewed attacks on commercial vessels in the Middle East raised concerns about potential disruptions to global energy supplies. However, crude benchmarks remained on course for substantial weekly declines as investors assessed the prospects for diplomatic progress in the conflict involving the United States, Israel and Iran.",
+   "symbols": []
+  },
+  {
+   "title": "US Stock Futures Mixed After AI Sell-Off as Investors Await Jobs Report: Dow Jones, S&P, Nasdaq, Wall Street",
+   "link": "https://investorshub.advfn.com/market-news/article/39402/us-stock-futures-mixed-after-ai-sell-off-as-investors-await-jobs-report-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
+   "published": "2026-11-06T10:19:25Z",
+   "publisher": "",
+   "summary": "US stock futures were mixed on Friday, November 6, as investors assessed the consequences of a sharp technology-led market sell-off following the Democratic Party’s gains in the US midterm elections, while awaiting employment figures that could influence the Federal Reserve’s next interest-rate decision. The decline in artificial intelligence-related stocks wiped an estimated $2.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Keurig Dr Pepper (KDP) Stock Sees Modest Fair Value Lift As Analysts Weigh Split Plans",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-pepper-kdp-stock-101853440.html",
+   "published": "2026-11-06T10:18:53Z",
+   "publisher": "",
+   "summary": "Price targets for Keurig Dr Pepper have shifted toward the low to low mid US$40 range, with recent moves into the US$38 to US$41 band from firms such as JPMorgan. Analysts link these adjustments to how the stock lines up against beverage growth prospects, coffee segment challenges, and the planned split into Global Coffee Co and Beverage Co by early 2027. As you read on, you will see how this evol",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "The Democrats Won Congress. Here's What Could Come Next for Crypto.",
+   "link": "https://www.fool.com/investing/2026/11/06/the-democrats-won-congress-heres-what-could-come-n/?.tsrc=rss",
+   "published": "2026-11-06T10:17:00Z",
+   "publisher": "",
+   "summary": "While the incoming Congress may be less crypto friendly than the current one, history says there's little to fear here.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Bitcoin Slides to a Seven-Week Low Near $75,200 as AI Stocks Drag Wall Street Lower",
+   "link": "https://unchainedcrypto.com/bitcoin-slides-to-a-seven-week-low-near-75200-as-ai-stocks-drag-wall-street-lower/?.tsrc=rss",
+   "published": "2026-11-06T10:15:17Z",
+   "publisher": "",
+   "summary": "Bitcoin gave back its post-midterm rally as the S&P 500 and Nasdaq Composite posted their worst day since April 2025, though it fell less than the Nasdaq 100.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -59,12 +451,12 @@
    "publisher": "",
    "summary": "Vancouver, British Columbia--(Newsfile Corp. - November 6, 2026) - Questcorp Mining Inc. (CSE: QQQ) (OTCQB: QQCMF) (FSE: D910) (the \"Company\" or \"Questcorp\") along with Joint Venture partner and operator Riverside Resources Inc. (\"Riverside\") are pleased to announce commencement of Phase 2B at the La Union Project, Sonora, Mexico. With the conclusion of the rainy season, Riverside has commenced ro",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -78,11 +470,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -95,11 +487,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -112,11 +504,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -225,11 +617,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -363,6 +755,22 @@
    "publisher": "",
    "summary": "Oil just swung from a sharp 12% weekly drop to a fast rebound as Middle East headlines flipped from easing risk to renewed tanker attacks, and that kind of whiplash can quietly reshape portfolios. Big integrated oil majors often sit right in the path of these moves, which can cut both ways for investors watching energy and transport costs. This article walks through 3 stocks from our Global Integr",
    "symbols": []
+  },
+  {
+   "title": "‘The nail that sticks out gets hammered first’: Elon Musk’s net worth falls $113 billion from Tesla and SpaceX drops",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nail-sticks-gets-hammered-first-080000323.html",
+   "published": "2026-11-06T08:00:00Z",
+   "publisher": "",
+   "summary": "Tesla and SpaceX bucked the market rally as investors worried about political retaliation.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Scottish Mortgage NAV total return rises 31.5% as SpaceX listing and Moderna trial success lift performance",
@@ -2624,409 +3032,6 @@
     "MU",
     "ONDO",
     "XRP"
-   ]
-  },
-  {
-   "title": "Google could take stake in TeraWulf’s $19B AI project",
-   "link": "http://videos.coindesk.com/previews/o5vIHFts?.tsrc=rss",
-   "published": "2026-11-05T19:35:47Z",
-   "publisher": "",
-   "summary": "Google has agreed to backstop Anthropic’s $19 billion lease at bitcoin miner TeraWulf’s Kentucky data center. If Anthropic defaults, Google can take over the lease or take a stake in the project. Plus, Payward purchases AAVE tokens and Standard Chartered’s venture arm invests in Soter. CoinDesk’s Jennifer Sanasie hosts “CoinDesk Daily.” - This episode is brought to you by Grayscale, the world's la",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Has Silver Replaced Gold as the Better Metal for Investors? iShares Gold Trust vs abrdn Physical Silver Shares ETF Tells the Tale",
-   "link": "https://www.fool.com/coverage/etfs/2026/11/05/has-silver-replaced-gold-as-the-better-metal-for-investors-ishares-gold-trust-vs-abrdn-physical-silver-shares-etf-tells-the-tale/?.tsrc=rss",
-   "published": "2026-11-05T19:33:02Z",
-   "publisher": "",
-   "summary": "Gold offers lower volatility and stronger five-year returns, while silver delivered a 3.8% one-year gain but with significantly higher drawdown risk.",
-   "symbols": []
-  },
-  {
-   "title": "SpaceX Stock Tumbles. A 6-Gigawatt AI Data Center Is Drawing Backlash",
-   "link": "https://finance.yahoo.com/technology/ai/articles/spacex-stock-tumbles-6-gigawatt-193257934.html",
-   "published": "2026-11-05T19:32:57Z",
-   "publisher": "",
-   "summary": "SpaceX Faces Growing Backlash Over Its Massive 6-Gigawatt Arizona AI Project",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Micron Stock Falls After Report of $4.5 Billion Taiwan Pause",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-falls-report-4-193252177.html",
-   "published": "2026-11-05T19:32:52Z",
-   "publisher": "",
-   "summary": "The planned plant was set to be a major production base for AI memory components",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SpaceX Stock Is Still Falling. It Trades At Apple’s Valuation.",
-   "link": "https://finance.yahoo.com/m/12c89445-f84d-308c-a32e-1b9535c6322f/spacex-stock-is-still.html",
-   "published": "2026-11-05T19:29:00Z",
-   "publisher": "",
-   "summary": "China Renaissance initiates coverage of SpaceX with a Buy rating and a $194.20 price target,",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "What Anthropic's IPO could mean for Amazon and Google",
-   "link": "https://finance.yahoo.com/technology/article/what-anthropics-ipo-could-mean-for-amazon-and-google-192716198.html",
-   "published": "2026-11-05T19:27:16Z",
-   "publisher": "",
-   "summary": "Anthropic's IPO could payoff for Amazon and Google.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us.",
-   "link": "https://finance.yahoo.com/m/a69385ba-7bed-307d-82ea-55b8e8f0fb7a/the-ai-trade-selloff-is.html",
-   "published": "2026-11-05T19:27:00Z",
-   "publisher": "",
-   "summary": "The market clearly believes that a Democratic Congress means less AI spending. We ask two very hard questions. Will you like our answers?",
-   "symbols": []
-  },
-  {
-   "title": "Warren Buffett's 90/10 rule to invest for retirement: Does it still work?",
-   "link": "https://finance.yahoo.com/personal-finance/investing/article/warren-buffetts-9010-rule-to-invest-for-retirement-does-it-still-work-192629455.html",
-   "published": "2026-11-05T19:26:29Z",
-   "publisher": "",
-   "summary": "Does Warren Buffett's famous investing strategy still hold up? Here's what retirement investors should know.",
-   "symbols": []
-  },
-  {
-   "title": "Bitcoin Breaks Below $76K, Wiping Out Over $1B Crypto Bets: MSTR, BMNR, CRCL, COIN Stocks Tumble Double Digits",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/mstr-bmnr-crcl-coin-stocks-tumble-bitcoin-breaks-76-k-wiping-out-1-b-crypto-bets/cNG1sepR94N?.tsrc=rss",
-   "published": "2026-11-05T19:23:22Z",
-   "publisher": "",
-   "summary": "Ethereum, Solana, Ripple’s XRP, and Dogecoin saw a steeper drop than Bitcoin in the last 24 hours amid the crypto sell-off.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Gold Just Had Its Best Day Since August, Back Above $4,000",
-   "link": "https://247wallst.com/investing/2026/11/05/gold-just-had-its-best-day-since-august-back-above-4000/?.tsrc=rss",
-   "published": "2026-11-05T19:22:47Z",
-   "publisher": "",
-   "summary": "Gold's rebound lit a fire under the miners, and one stock nearly tripled the metal's move. Yet the Fed, a brutal year, and rising costs could turn that leverage against anyone holding for retirement.",
-   "symbols": []
-  },
-  {
-   "title": "Anthropic's IPO plans run up against a battered Wall Street",
-   "link": "https://finance.yahoo.com/technology/article/anthropics-ipo-plans-run-up-against-a-battered-wall-street-192138177.html",
-   "published": "2026-11-05T19:21:38Z",
-   "publisher": "",
-   "summary": "Anthropic's IPO plans are clashing with a market rout.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "This Semiconductor ETF Is Set For Its Worst Week In Over 18 Months As Democratic Sweep Raises Data Center Skepticism",
-   "link": "https://stocktwits.com/news-articles/markets/equity/soxx-etf-semiconductor-is-set-for-its-worst-week-in-over-18-months/cNG1sEhR94Z?.tsrc=rss",
-   "published": "2026-11-05T19:21:17Z",
-   "publisher": "",
-   "summary": "Global chip stocks suffered steep losses on Thursday, extending a broad market retreat as a Democratic sweep in the midterm elections fueled growing political resistance against artificial intelligence infrastructure.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Update: Nasdaq Enters Correction Territory, Dow Erases Post-Election Rally Amid Big-Tech Rout",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-enters-correction-territory-dow-191906339.html",
-   "published": "2026-11-05T19:19:06Z",
-   "publisher": "",
-   "summary": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
-   "symbols": []
-  },
-  {
-   "title": "If You Invested $1,000 in Tesla at Its 2010 IPO, Here’s What You’d Have Today",
-   "link": "https://247wallst.com/investing/2026/11/05/if-you-invested-1000-in-tesla-at-its-2010-ipo-heres-what-youd-have-today/?.tsrc=rss",
-   "published": "2026-11-05T19:17:42Z",
-   "publisher": "",
-   "summary": "Tesla turned a modest bet into a fortune for early believers, yet buyers from just a few years ago are staring at losses while the S&P 500 pulled ahead. What separates the winners from the underwater, and does today's price still make sense?",
-   "symbols": []
-  },
-  {
-   "title": "Equities Plunge in Tech-Led Sell-Off Amid Data Center Restriction Fears",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/equities-plunge-tech-led-sell-191442459.html",
-   "published": "2026-11-05T19:14:42Z",
-   "publisher": "",
-   "summary": "Stocks on Wall Street plummeted intraday with the technology sector getting hammered the most, as tr",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "First Andes Silver Begins Phase 2 Soil Sampling Program at Santas Gloria Project in Peru",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/first-andes-silver-begins-phase-191223612.html",
-   "published": "2026-11-05T19:12:23Z",
-   "publisher": "",
-   "summary": "First Andes Silver (FAS.V) started its Phase 2 soil sampling program at its Santas Gloria Project in",
-   "symbols": []
-  },
-  {
-   "title": "Democrats Mid-term Sweep Puts AI & Data Center Trade in Question",
-   "link": "https://app.moby.co/home/news/news-democrats-mid-term-sweep-puts-ai-data-center-trade-in-question?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-   "published": "2026-11-05T19:10:13Z",
-   "publisher": "",
-   "summary": "Texas flipped. TSLA and SPCX fell.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Strategy (MSTR) CFO Exit Looms, Does The Stock Look Fully Valued?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-cfo-exit-looms-191004309.html",
-   "published": "2026-11-05T19:10:04Z",
-   "publisher": "",
-   "summary": "Strategy (MSTR) is in focus after announcing that Chief Financial Officer Andrew Kang plans to resign on November 5, 2026. A staggered handover of finance leadership roles has already been mapped out. Recent trading shows that Strategy shares remain volatile, with a 1-day share price return of 5.09% and a 90-day share price return of 42.53%, even as the 30-day share price return is down 13.38% and",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Stocks crater as investors recoil from tech companies",
-   "link": "https://www.cbsnews.com/news/stocks-midterm-elections-tech-companies-ai-data-centers/?.tsrc=rss",
-   "published": "2026-11-05T19:08:23Z",
-   "publisher": "",
-   "summary": "Tech-heavy Nasdaq plunges nearly 1,300 points as Wall Street weighs the impact of Democratic wins on the AI sector.",
-   "symbols": []
-  },
-  {
-   "title": "Is the Sharp Drop in Micron Stock a Buying Opportunity?",
-   "link": "https://finance.yahoo.com/m/835abbab-64fe-3558-87f6-ffd2f42cf2d0/is-the-sharp-drop-in-micron.html",
-   "published": "2026-11-05T19:08:00Z",
-   "publisher": "",
-   "summary": "Micron stock has fallen below $800 and its market share has shrunk. It's time to look on the bright side.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Why Intel Stock Is Down Today",
-   "link": "https://www.fool.com/investing/2026/11/05/why-intel-stock-is-down-today/?.tsrc=rss",
-   "published": "2026-11-05T19:07:02Z",
-   "publisher": "",
-   "summary": "Chip stocks are getting hammered on fears that Democratic control of Congress and key governorships will slow the data center build-out Intel needs.",
-   "symbols": []
-  },
-  {
-   "title": "Here's What a $10,000 Investment in Anthropic Could Be Worth by 2030",
-   "link": "https://www.fool.com/investing/2026/11/05/heres-what-a-10000-investment-in-anthropic-could-b/?.tsrc=rss",
-   "published": "2026-11-05T19:05:00Z",
-   "publisher": "",
-   "summary": "Anthropic could be a huge moneymaker for investors if it can maintain its rapid growth rate.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "The Stock Market Celebrated Election Day. Then the AI Trade Imploded.",
-   "link": "https://finance.yahoo.com/m/38c96a1f-9853-3505-99f8-e90d6000ec99/the-stock-market-celebrated.html",
-   "published": "2026-11-05T19:04:00Z",
-   "publisher": "",
-   "summary": "Investors have to consider how quickly data centers can actually be built, and what that will mean for the companies selling products into the ecosystem.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Robinhood Sinks 12%, SoFi Tumbles 9%, Affirm Drops 8% as Bitcoin Slides and Democratic Congress Weighs on Fintech",
-   "link": "https://247wallst.com/investing/2026/11/05/robinhood-sinks-12-sofi-tumbles-9-affirm-drops-8-as-bitcoin-slides-and-democratic-congress-weighs-on-fintech/?.tsrc=rss",
-   "published": "2026-11-05T19:03:03Z",
-   "publisher": "",
-   "summary": "Crypto is bleeding and a new Congress is circling, but the sharpest fintech selloff is not hitting every name equally. Why are PayPal and Block holding up while the growth darlings take the heat, and who in Washington is setting the stakes?",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Is First Solar Stock Still Worth Owning After Its Quarter?",
-   "link": "https://www.trefis.com/stock/fslr/articles/622915/is-first-solar-stock-still-worth-owning-after-its-quarter/2026-11-05?.tsrc=rss",
-   "published": "2026-11-05T19:02:19Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Why Oracle Stock Is Sinking Today",
-   "link": "https://www.fool.com/investing/2026/11/05/why-oracle-stock-is-sinking-today/?.tsrc=rss",
-   "published": "2026-11-05T19:02:01Z",
-   "publisher": "",
-   "summary": "Oracle stock is sinking as the post-election sell-off in AI infrastructure stocks deepens, with investors worried that Democratic wins in states like Texas could slow the data center build-out.",
-   "symbols": []
-  },
-  {
-   "title": "Video - CEO Clips: Dakota Gold: Advancing the Next Gold Mine in South Dakota's Historic Homestake District",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/video-ceo-clips-dakota-gold-190200685.html",
-   "published": "2026-11-05T19:02:00Z",
-   "publisher": "",
-   "summary": "Vancouver, British Columbia--(Newsfile Corp. - November 5, 2026) - Dakota Gold (NYSE American: DC) is advancing its Richmond Hill Gold Project in South Dakota's historic Homestake Gold District, with plans to responsibly develop a new gold mine in the Black Hills. The project features a near-surface gold deposit that management believes could support a straightforward, cost-efficient mining operat",
-   "symbols": []
-  },
-  {
-   "title": "Coinbase makes a bigger push into crypto derivatives",
-   "link": "https://finance.yahoo.com/video/coinbase-makes-bigger-push-crypto-190100780.html",
-   "published": "2026-11-05T19:01:00Z",
-   "publisher": "",
-   "summary": "Scott Melker discusses Coinbase's (COIN) latest offering, Deribit options and perpetuals, to its institutional customers. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Where Will Ethereum Be in 3 Years?",
-   "link": "https://www.fool.com/investing/2026/11/05/where-will-ethereum-be-in-3-years/?.tsrc=rss",
-   "published": "2026-11-05T19:01:00Z",
-   "publisher": "",
-   "summary": "Ethereum isn't broken; it's just slow. Here's why that matters over the next three years.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Redwire Plunges 21% as Revenue Miss Overshadows Record Margins and Backlog; Intuitive Machines Sinks 15%, Planet Labs Tumbles 12%",
-   "link": "https://247wallst.com/investing/2026/11/05/redwire-plunges-21-as-revenue-miss-overshadows-record-margins-and-backlog-intuitive-machines-sinks-15-planet-labs-tumbles-12/?.tsrc=rss",
-   "published": "2026-11-05T18:57:09Z",
-   "publisher": "",
-   "summary": "Record margins and a record backlog should have been a win for Redwire, yet traders ran for the exits. One shipping delay, a flattering year-over-year comparison, and a looming fourth-quarter test explain why bulls and bears are suddenly so divided.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
    ]
   }
  ]
