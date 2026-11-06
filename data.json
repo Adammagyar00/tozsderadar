@@ -1,6 +1,384 @@
 {
- "builtAt": "2026-11-05T20:56:02Z",
+ "builtAt": "2026-11-06T06:56:20Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 6.",
+     "event": "USA: októberi munkaerőpiaci jelentés (14:30)"
+    },
+    {
+     "date": "nov. 10.",
+     "event": "USA CPI; magyar infláció (KSH)"
+    },
+    {
+     "date": "nov. 12.",
+     "event": "Cisco gyorsjelentés (zárás után)"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés; Nvidia gyorsjelentés"
+    }
+   ],
+   "date": "2026-11-06",
+   "generatedAt": "2026-11-06T06:55:00Z",
+   "headline": "A Nasdaq 5,5%-ot zuhant, Ázsiában a Nikkei és a KOSPI is összeomlott; ma délután jön az amerikai munkaerőpiaci jelentés",
+   "items": [
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance",
+     "summary": "A Nasdaq 5,52%-kal 24 315 pontra esett, és korrekciós zónába került, az S&P 500 4,36%-kal 7354 ponton zárt, a Dow 1833 pontot (3,44%) veszített. A kiárusítást a félvezetők vezették (a Philadelphiai chipindex több mint 12%-ot esett, az Nvidia kb. 9%-ot), mert a piac attól tart, hogy a félidős választás után szigorúbb szabályok lassíthatják az MI-adatközpont-beruházásokat. Mindhárom index az áprilisi 2025-ös vámpánik óta a legrosszabb napját zárta.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "A Wall Street csütörtökön összeomlott: a Nasdaq 5,5%-ot, az S&P 500 4,4%-ot zuhant, a Dow több mint 1800 pontot veszített",
+     "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-345-5005517",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · AP, Reuters",
+     "summary": "A Wall Street-i MI-kiárusítás átgyűrűzött Ázsiába: a Nikkei 225 több mint 6%-os eséssel nyitott, és a medvepiac határát közelíti, a dél-koreai KOSPI a nyitáskor 8%-ot esett, ami 20 perces kereskedési szünetet (circuit breaker) váltott ki. A Reuters szerint a háttérben a szigorúbb szabályozástól és az MI-beruházások lassulásától való félelem áll.",
+     "symbols": [],
+     "title": "Ázsiában is összeomlottak a tőzsdék: a Nikkei 6–7%-ot, a KOSPI 8%-ot zuhant, a szöuli tőzsdén kereskedési szünetet rendeltek el",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/south-korea-kospi-halts-trade-011744724.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A dél-koreai szabályozó lazított a fedezeti hitellel (margin) folytatott kereskedés szabályain, hogy csökkentse a kényszerű részvényeladásokat a zuhanó piacon. A lépés a KOSPI csütörtök-pénteki esése után jött.",
+     "symbols": [],
+     "title": "Dél-Korea enyhíti a hitelből vásárlás szabályait, hogy megfékezze a kényszereladásokat",
+     "url": "https://www.investing.com/news/stock-market-news/s-korea-eases-margin-trading-rules-to-stem-forced-stock-sales-5006397",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az amerikai tőzsdeindex-határidős ügyletek csütörtök este erősödtek, némi fellélegzést jelezve a tőzsdei zuhanás után. A befektetők a ma 14:30-kor érkező októberi munkaerőpiaci adatot figyelik.",
+     "symbols": [],
+     "title": "Az amerikai részvény-határidősök emelkednek a MI-kiárusítás után, a figyelem a munkaerőpiaci jelentésen van",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-rise-ai-013807565.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A várakozások szerint az amerikai nem mezőgazdasági foglalkoztatás októberben kb. 65 ezerrel nőhetett (szeptemberben 29 ezer volt), a munkanélküliségi ráta 4,2% maradhat, a bérnövekedés éves szinten 2,9%-ra lassulhat. A becslések 35 és 125 ezer között szóródnak; a BLS jelentése 14:30-kor jelenik meg.",
+     "symbols": [],
+     "title": "Októberben gyorsulhatott az amerikai munkahelyteremtés – mai jelentés előtt a konszenzus kb. 65 ezer új állás",
+     "url": "https://www.investing.com/news/economic-indicators/us-job-growth-expected-to-pick-up-in-october-with-moderation-in-wage-gains-5006475",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Donald Trump szerint a tőzsde a történelem egyik legrosszabb napját élte át, és az amerikaiak nyugdíjszámlái is veszítettek értékükből; ezért a választást nyert demokratákat tette felelőssé. A piac a demokrata kongresszustól az MI-adatközpontok szigorúbb szabályozását várja.",
+     "symbols": [],
+     "title": "Trump a demokratákat hibáztatja a tőzsdei esésért a félidős választás után",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/trump-blames-democrats-wall-street-010352357.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A megválasztott texasi kormányzó, Gina Hinojosa a Reuters szerint azt mondta, az állam olyan törvényeket hoz, amelyek megvédik a polgárokat az adatközpontoktól. A bejelentés az MI-infrastruktúra-részvények eladási hullámát erősíthette.",
+     "symbols": [
+      "BE",
+      "SPCX"
+     ],
+     "title": "Texas új demokrata kormányzója törvényekkel védené meg a lakosságot az adatközpontoktól",
+     "url": "https://www.investing.com/news/economy-news/texas-governorelect-says-state-will-have-laws-to-shield-citizens-from-data-centers-5006141",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Bloom Energy árfolyama 16%-ot zuhant csütörtökön, bár az NTT DATA 900 megawattnyi helyszíni áramtermelést telepít a cég rendszereivel. A befektetők attól tartanak, hogy a demokrata kongresszus lassíthatja az adatközpont-építési hullámot, ezért a MI-energetikai részvényeket (GE Vernova, Oklo) is eladták.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "A Bloom Energy 16%-ot esett, annak ellenére, hogy az NTT DATA 900 MW-os megállapodást kötött vele",
+     "url": "https://www.tikr.com/blog/bloom-energy-sinks-16-despite-900-mw-ntt-data-deal-as-midterm-fears-hit-ai-power-stocks",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga",
+     "summary": "A Benzinga szerint a SpaceX ötéves hitelderivatívái a csütörtöki kereskedésben rekordszintre szélesedtek, mert a demokrata kongresszusi győzelem politikai kockázatot jelent Elon Musk cégeinek, és az MI-részvények kiárusítása is nyomást gyakorolt a papírokra.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX csődkockázatát mérő hitelderivatíva-felár (CDS) rekordra emelkedett",
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62948387/elon-musks-spacex-default-risk-hits-record-high-as-democratic-sweep-adds-to-ai-rout",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Semafor (a StockTwits/Yahoo Finance szerint)",
+     "summary": "A Semafor tudósítója szerint az AT&T és a T-Mobile megvitatta, hogy kitiltaná a Boost Mobile-t a hálózatáról, ha a SpaceX felvásárolná az EchoStar vállalatát. Ez akadályt jelenthetne Elon Musk amerikai mobilszolgáltatói terveinek. Hivatalos megerősítés nincs.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Értesülések szerint az AT&T és a T-Mobile letiltaná a Boost Mobile-t a hálózatán, ha a SpaceX megvenné",
+     "url": "https://stocktwits.com/news-articles/markets/equity/at-and-t-t-mobile-are-reportedly-ready-to-boot-boost-mobile-if-space-x-buys-it/cNGlEqAR94p",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A 24/7 Wall St. szerint a védelmi vállalatok részvényei megsínylették a félidős választást: a kongresszus átbillenésével a rendkívül nagy védelmi költségvetési kérelem sorsa bizonytalan. A cikk a Lockheed árfolyamgrafikonját is vizsgálja.",
+     "symbols": [
+      "DFEN"
+     ],
+     "title": "A védelmi részvények estek, mert a demokrata kongresszus mellett az 1500 milliárd dolláros védelmi költségvetés kérdésessé vált",
+     "url": "https://247wallst.com/investing/2026/11/05/defense-stocks-sank-as-democrats-took-congress-and-the-1-5-trillion-budget-looks-doomed/",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "Az olajár kb. 4%-kal emelkedett, mert az iráni háború kockázata a választás után ismét előtérbe került, és újabb tankertámadások történtek a Közel-Keleten. A Reuters szerint a nyersolaj így is éles heti esés felé tart, az amerikai energiarészvények pedig a demokrata győzelem miatt nem követték az olajat.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Az olaj 4%-ot pattant vissza a 100 dollár felé, de a heti szinten így is nagyot esik; az energiarészvények gyengék",
+     "url": "https://finance.yahoo.com/energy/articles/oil-rebounds-toward-100-democrats-010000633.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A TIKR szerint a nagy amerikai bankok a széles körű kiárusítás miatt estek, vállalati hír nélkül. A Morgan Stanley a kereskedésre jobban támaszkodik, mint a JPMorgan Chase, így érzékenyebb a kereskedési és ügyletvolumen lassulására.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "A Morgan Stanley és a Goldman 6%-ot, a Citi 5%-ot esett a piaci kiárusításban",
+     "url": "https://www.tikr.com/blog/morgan-stanley-sinks-6-goldman-down-6-citi-down-5-as-market-selloff-drags-wall-street-banks",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Proactive Investors",
+     "summary": "A Bank of America fenntartotta vételi ajánlását, és a célárat 1557 dollárra emelte: az értékelési szorzót 25-ről 26-szorosra emelte a 2028-as becsült egy részvényre jutó eredményre. Az elemzők a fogyókúrás szereken túli gyógyszerekben látnak további felértékelődési potenciált.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "A Bank of America emelte az Eli Lilly célárát 1557 dollárra, a nem elhízás-ellenes pipeline-ra hivatkozva",
+     "url": "https://www.proactiveinvestors.com/companies/news/1101327/eli-lilly-gets-bofa-target-hike-as-non-obesity-pipeline-takes-focus-1101327.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters egy magas rangú iráni tisztviselőre hivatkozva közölte, hogy Teherán javaslatot juttatott el Washingtonba Katar útján. Irán szerint hét feltételt (szankciófeloldás, befagyasztott vagyon felszabadítása, jóvátétel stb.) kell teljesíteni a tárgyalások megkezdéséhez; az USA állítólag vizsgálja a javaslatot.",
+     "symbols": [],
+     "title": "Irán atomprogramra vonatkozó javaslatot küldött az USA-nak Katar közvetítésével",
+     "url": "https://www.investing.com/news/commodities-news/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-tells-reuters-5006492",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az arany pénteken kissé visszaesett, de a legerősebb heti emelkedés felé halad augusztus óta, mert a félidős választás kimenete gyengítette a dollárt és az amerikai állampapírhozamokat. A 24/7 Wall St. szerint az arany csütörtökön a legjobb napját zárta augusztus óta, és 4000 dollár fölé került.",
+     "symbols": [],
+     "title": "Az arany a legjobb heti teljesítmény felé tart augusztus óta, miután a politikai fordulat gyengítette a dollárt és a hozamokat",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/gold-heads-best-week-since-020322963.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg, Moscow Times",
+     "summary": "Putyin rendelete négy orosz JTI-egységet helyezett ideiglenes kezelés alá egy helyi cég (Industrial Assets) irányításával. A Japan Tobacco részvénye a Tokiói nyitás előtt közel 19%-os esést jelzett. A hasonló lépés korábban a Nestlé, a Metro és az Auchan orosz vagyonát is érintette.",
+     "symbols": [],
+     "title": "Putyin ideiglenes állami irányítás alá vonta a Japan Tobacco orosz egységeit; a részvény 19%-os esés felé tart",
+     "url": "https://www.investing.com/news/stock-market-news/japan-tobacco-shares-face-19-slump-after-kremlin-seizes-russian-assets-5006368",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A szeptemberi japán átlagbérek növekedése 29 éve a leggyorsabb volt, a reálbérek pedig kilencedik hónapja nőnek. A Reuters szerint ez alátámasztja a Bank of Japan további kamatemelési szándékát.",
+     "symbols": [],
+     "title": "Japánban az átlagbérek 29 éve a leggyorsabban nőttek szeptemberben, a reálbérek kilencedik hónapja emelkednek",
+     "url": "https://www.investing.com/news/economy-news/japans-real-wages-rise-for-ninth-month-in-september-backing-boj-rate-hike-5006105",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Tőzsdefórum, Privátbankár",
+     "summary": "A Tőzsdefórum szerint a BUX 144 484 ponton zárt, az OTP, a Mol és a Telekom gyengült; ez a szerdai 147 607 ponthoz képest kb. 2%-os esés. A Privátbankár ezzel szemben csak minimális, kb. 0,1%-os mínuszról ír, ezért a pontos záróérték nem megerősített.",
+     "symbols": [],
+     "title": "A BUX csütörtökön csökkenéssel zárt, a források között eltérés van a mértékben",
+     "url": "https://tozsdeforum.hu/bet/premium/tozsdezaras-november-5-a-bux-es-az-otp-komolyan-esett-a-mol-gyengult-a-richter-a-mai-nap-gyoztese/",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az adatközpont-üzemeltető IREN késlelteti a Microsoftnak szánt MI-szolgáltatások egy részét, és nagyjából 15 milliárd dolláros kiadási programot jelentett be. A cég 10-Q jelentése szerint a Microsoft hálózati tervmódosítást kért, ami a szállítási határidőket is érinti.",
+     "symbols": [],
+     "title": "Az IREN késlelteti a Microsoftnak szánt MI-kapacitás átadását, és 15 milliárd dolláros beruházást tervez",
+     "url": "https://www.investing.com/news/stock-market-news/ai-data-center-firm-iren-delays-microsoft-ai-deliveries-plans-15-billion-spending-push-5006291",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Google 17 milliárd dolláros adatközpont-beruházást tervez Wyomingban, éppen akkor, amikor a demokrata kongresszus és egyes államok szigorítást fontolgatnak az adatközpontokra.",
+     "symbols": [],
+     "title": "A Google 17 milliárd dolláros adatközpontot tervez Wyomingban, miközben nő a korlátozások kockázata",
+     "url": "https://www.investing.com/news/stock-market-news/google-plans-17-billion-wyoming-data-center-amid-rising-threats-of-curbs-5005532",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A TheStreet szerint a Sandisk részvényei az Nvidiával és a Broadcommal együtt estek, mert a befektetők az MI-adatközpont-bővítés kilátásait kérdőjelezik meg, annak ellenére, hogy a cég jó negyedéves eredményt közölt.",
+     "symbols": [],
+     "title": "A Sandisk árfolyama 20%-ot zuhant a MI-kiárusításban, a jó gyorsjelentés ellenére",
+     "url": "https://www.thestreet.com/investing/stocks/sandisk-stock-plunges-20-as-ai-selloff-deepens-despite-strong-earnings-sndk",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters értesülése szerint a Silver Lake (amely kb. 8%-ot birtokol) és a szaúdi PIF az elmúlt hetekben megkereste a Unityt; a megbeszélések előzetesek, és nem biztos, hogy ügylet lesz belőle. A cég befektetési bankárt bízott meg a lehetőségek felmérésével; a részvény a hír után emelkedett.",
+     "symbols": [],
+     "title": "Értesülések szerint a Silver Lake és a szaúdi PIF felvásárolná a Unityt, kb. 25 milliárd dolláros értékelésen",
+     "url": "https://www.investing.com/news/stock-market-news/unity-shares-jump-on-report-of-takeover-interest-from-silver-lake-pif-5006168",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Rekord olaj- és gáztermelés és magasabb nyersanyagárak hajtották az EOG negyedéves eredményét és szabad cash flow-ját, a cég 8%-kal emelte az osztalékot.",
+     "symbols": [],
+     "title": "Az EOG Resources 8%-kal emelte az osztalékot, a harmadik negyedéves profit 89%-kal nőtt",
+     "url": "https://finance.yahoo.com/energy/articles/eog-resources-lifts-dividend-8-024000468.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CoinDesk",
+     "summary": "A CoinDesk szerint a Google vállalta, hogy az Anthropic 19 milliárd dolláros kentuckyi adatközpont-bérletét a TeraWulfnál támogatja; ha az Anthropic nem fizet, a Google átveheti a bérletet vagy részesedést szerezhet a projektben.",
+     "symbols": [],
+     "title": "A Google a hírek szerint garanciát vállalt az Anthropic 19 milliárd dolláros TeraWulf-bérleti szerződésére",
+     "url": "https://videos.coindesk.com/previews/o5vIHFts",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · StockTwits",
+     "summary": "A StockTwits beszámolója szerint az Apple 7,5 milliárd dollárt vesz fel befektetési besorolású vállalati kötvénykibocsátással, jelentős befektetői kereslet mellett. Független megerősítést nem találtunk.",
+     "symbols": [],
+     "title": "Hírek szerint az Apple 7,5 milliárd dolláros kötvénykibocsátással finanszíroz",
+     "url": "https://stocktwits.com/news-articles/markets/equity/apple-reportedly-set-to-raise-7-5-b-from-bond-offering-amid-market-selloff/cNG1HDrR948",
+     "verified": false
+    },
+    {
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters elemzése szerint az észak-koreai hadsereg hackerei állnak a Binance-t ért támadás mögött. A Binance-hackelés után az amerikai szabályozók már egyeztettek a bankokkal rendszereik biztonságáról.",
+     "symbols": [],
+     "title": "Az észak-koreai hackerek állhatnak a Binance elleni támadás mögött",
+     "url": "https://www.investing.com/news/economy-news/north-koreas-army-of-worldclass-hackers-is-secret-weapon-that-took-down-binance-5006478",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a World Liberty Financial WLFI-token-visszavásárlási programot indított. Az Investing.com szerint a Trump-memecoin a demokraták választási győzelme után rekordalacsony szintre esett.",
+     "symbols": [],
+     "title": "A Trump-család World Liberty Financial tokenvisszavásárlási programot indított; a Trump-memecoin történelmi mélypontra esett",
+     "url": "https://www.investing.com/news/stock-market-news/trumpbacked-world-liberty-financial-launches-wlfi-token-buyback-program-5006317",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A csütörtöki Wall Street-i kiárusítás a Nasdaqot 5,5%-kal korrekciós zónába, az S&P 500-at 4,4%-kal lejjebb vitte, a chipszektor vezette a zuhanást, mert a piac a demokrata kongresszus alatti szigorúbb MI-adatközpont-szabályozástól tart. Pénteken Ázsia követte: a Nikkei 6–7%-ot, a KOSPI 8%-ot esett, utóbbinál kereskedési szünet volt. Az olaj az iráni háború kockázata miatt visszapattant, de heti szinten nagyot esik; az arany a dollár gyengülése mellett erősödik. Iránról Reuters-értesülés szerint javaslat érkezett az USA-nak Katarán át. 14:30-kor jelenik meg az októberi amerikai munkaerőpiaci jelentés (konszenzus kb. 65 ezer új állás).",
+   "updatedAt": "2026-11-06T06:55:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -9557,9 +9935,9 @@
    "country": "US",
    "date": "2026-11-06",
    "event": "Munkaerőpiaci jelentés, október (nem mezőgazdasági foglalkoztatás)",
-   "forecast": "",
+   "forecast": "+65 ezer új állás, munkanélküliség 4,2%, éves béremelkedés 2,9%",
    "importance": 3,
-   "previous": "",
+   "previous": "+29 ezer (szeptember)",
    "source": "BLS",
    "time": "14:30",
    "type": "Makroadat",
@@ -9625,6 +10003,24 @@
    "type": "Makroadat",
    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026",
    "id": "2026-11-12-gb-gdp"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-12",
+   "event": "Cisco gyorsjelentés, 2027-es pénzügyi év 1. negyedév",
+   "forecast": "",
+   "importance": 2,
+   "note": "Zárás után; a negyedév 2026. október 24-én ért véget. A cég saját bejelentése.",
+   "previous": "",
+   "source": "Cisco (hivatalos közlemény)",
+   "symbols": [
+    "CSCO"
+   ],
+   "time": "22:30",
+   "type": "Gyorsjelentés",
+   "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+   "id": "2026-11-12-csco-earnings"
   },
   {
    "actual": "",
@@ -9752,6 +10148,22 @@
    "type": "Jegybank",
    "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
    "id": "2026-11-18-us-fomc-minutes"
+  },
+  {
+   "actual": "",
+   "country": "Németország",
+   "date": "2026-11-24",
+   "event": "ifo üzleti klíma index, november",
+   "forecast": "",
+   "importance": 2,
+   "note": "Az ifo hivatalos közzétételi naptára szerint.",
+   "previous": "",
+   "source": "ifo Intézet",
+   "symbols": [],
+   "time": "10:30",
+   "type": "Makroadat",
+   "url": "https://www.ifo.de/en/survey/ifo-business-climate-index-germany",
+   "id": "2026-11-24-de-ifo"
   },
   {
    "actual": "",
