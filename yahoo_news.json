@@ -1,7 +1,89 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-06T01:47:44Z",
+ "updatedAt": "2026-11-06T02:53:06Z",
  "items": [
+  {
+   "title": "EOG Resources Lifts Dividend 8% as Q3 Profit Surges 89%",
+   "link": "https://finance.yahoo.com/energy/articles/eog-resources-lifts-dividend-8-024000468.html",
+   "published": "2026-11-06T02:40:00Z",
+   "publisher": "",
+   "summary": "Record oil and gas production and stronger commodity prices drive a sharp increase in quarterly earnings and free cash flow.",
+   "symbols": []
+  },
+  {
+   "title": "Micron freezes Taiwan plant as workers demand bigger cut",
+   "link": "https://www.thestreet.com/technology/micron-freezes-taiwan-plant-workers-union-pay-dispute-profit-sharing?.tsrc=rss",
+   "published": "2026-11-06T02:37:00Z",
+   "publisher": "",
+   "summary": "A pay deal Micron believed was settled is under challenge amid an already-stressed memory market.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Japan’s Nikkei nears bear market as AI rout batters tech valuations",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/japan-nikkei-nears-bear-market-023300869.html",
+   "published": "2026-11-06T02:33:00Z",
+   "publisher": "",
+   "summary": "Investing.com-- Japan's Nikkei 225 index approached bear-market territory on Friday, as a deepening global selloff in artificial intelligence and semiconductor stocks triggered another wave of heavy selling in technology-heavy Japanese companies.",
+   "symbols": []
+  },
+  {
+   "title": "Gold heads for best week since August as U.S. political shift lifts bonds",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-heads-best-week-since-020322963.html",
+   "published": "2026-11-06T02:03:22Z",
+   "publisher": "",
+   "summary": "Investing.com -- Gold prices eased on Friday but remained on course for their strongest weekly advance since August, as the U.S. midterm election outcome weakened the dollar and Treasury yields.",
+   "symbols": []
+  },
+  {
+   "title": "SpaceX chief Shotwell gifts stock to kids via Trump Accounts",
+   "link": "https://www.thestreet.com/investing/shotwell-spacex-stock-gift-trump-accounts-cost-basis?.tsrc=rss",
+   "published": "2026-11-06T02:03:00Z",
+   "publisher": "",
+   "summary": "The IRS cost-basis rule following the gift could hand kids a future tax bill.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Micron Technology vs. Western Digital: Which Tech Stock Is the Better Buy for 2027?",
+   "link": "https://www.fool.com/coverage/better-buy/2026/11/05/micron-technology-vs-western-digital-which-tech-stock-is-the-better-buy-for-2027/?.tsrc=rss",
+   "published": "2026-11-06T01:59:01Z",
+   "publisher": "",
+   "summary": "Both memory and storage stocks are riding the AI data boom, but one may be much better prepared for the next downturn.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "U.S. stock futures rise after AI rout batters Wall St; payrolls data in focus",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-rise-ai-013807565.html",
+   "published": "2026-11-06T01:38:07Z",
+   "publisher": "",
+   "summary": "Investing.com-- U.S. stock index futures firmed on Thursday evening, heralding some recovery after increasing doubts over the AI trade in a Democrat-led Congress wiped out hundreds of billions from Wall Street.",
+   "symbols": []
+  },
   {
    "title": "Oil rises on fresh tanker attacks, but heads for steep weekly loss",
    "link": "https://finance.yahoo.com/energy/articles/oil-rises-fresh-tanker-attacks-012523801.html",
@@ -28,11 +110,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -45,11 +127,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -83,12 +165,12 @@
    "publisher": "",
    "summary": "SpaceX stock has the potential to quadruple in the next three years.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -117,6 +199,14 @@
    "symbols": []
   },
   {
+   "title": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
+   "link": "https://finance.yahoo.com/energy/articles/oil-rebounds-toward-100-democrats-010000633.html",
+   "published": "2026-11-06T01:00:00Z",
+   "publisher": "",
+   "summary": "Oil prices rebounded 4% as Iran war risks resurfaced after the U.S. midterms, while AI stocks plunged and energy markets faced fresh uncertainty.",
+   "symbols": []
+  },
+  {
    "title": "Review & Preview: AI Reckoning",
    "link": "https://finance.yahoo.com/m/194a3d94-5d6d-325b-82e6-9daef9090cb8/review-%26-preview%3A-ai-reckoning.html",
    "published": "2026-11-06T00:55:00Z",
@@ -142,11 +232,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -156,12 +246,12 @@
    "publisher": "",
    "summary": "Billionaire Elon Musk-led Space Exploration Technologies Corp. may be a commercial spaceflight company, but its aggressive compute buildout is fast becoming a crucial element of its business. SpaceX’s Data Center Buildout Exceeds Google On Tuesday, semiconductor research firm SemiAnalysis released...",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -175,11 +265,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -216,11 +306,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -230,12 +320,12 @@
    "publisher": "",
    "summary": "Semafor’s Rohan Goswami said that AT&T and T-Mobile have discussed removing Boost Mobile from their networks if SpaceX acquires the EchoStar unit, creating a potential obstacle to Elon Musk’s push to become a major U.S. wireless carrier.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -270,12 +360,12 @@
    "publisher": "",
    "summary": "Key TakeawaysBloom Energy fell 16% today, even after NTT DATA agreed to deploy 900 megawatts of Bloom’s onsite power. Investors fear Democrats’ win in Congress could stall the data-center buildout, and they sold the AI power trade, GE Vernova and Oklo included.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -289,11 +379,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -306,11 +396,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3159,114 +3249,6 @@
    "published": "2026-11-05T16:27:36Z",
    "publisher": "",
    "summary": "Keel sold 2,520 Bitcoin in the third quarter for $192 million, while it continued to negotiate leases for its AI data center sites.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "U.S. Sen. Thom Tillis High Oil Prices Having ‘Significant’ Impact on Inflation",
-   "link": "https://finance.yahoo.com/video/u-sen-thom-tillis-high-162706192.html",
-   "published": "2026-11-05T16:27:06Z",
-   "publisher": "",
-   "summary": "How should policymakers address affordability concerns, inflation, energy prices, and the growing role of digital assets in the U.S. economy? In this NYSE Live interview, U.S. Senator Thom Tillis of North Carolina discusses the state of the economy, cryptocurrency regulation, energy prices, affordability challenges, and the legislative priorities he hopes Congress can advance before the end of the",
-   "symbols": []
-  },
-  {
-   "title": "AMD’s Double-Digit Drop Is Rippling Through Your Chip ETFs",
-   "link": "https://247wallst.com/investing/etf/2026/11/05/amds-double-digit-drop-is-rippling-through-your-chip-etfs/?.tsrc=rss",
-   "published": "2026-11-05T16:23:32Z",
-   "publisher": "",
-   "summary": "One chipmaker stumbled after a blowout quarter, and the fallout reached far beyond its own shareholders. Your index funds and retirement accounts may hold the same stocks twice, so how exposed are you when Washington moves the market?",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Chip stocks hammered as political shift raises AI infrastructure concerns",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101316/chip-stocks-hammered-as-political-shift-raises-ai-infrastructure-concerns-1101316.html?.tsrc=rss",
-   "published": "2026-11-05T16:23:00Z",
-   "publisher": "",
-   "summary": "Chip stocks plunged on Thursday, with Nvidia, Micron and AMD leading a sharp selloff that dragged the Nasdaq Composite down nearly 5% as investors reassessed the outlook for AI infrastructure spending and regulation. The Nasdaq fell 1,211 points, or 4.71%, putting it more than 10% below last...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Top 3 Canadian Insider Growth Stocks To Watch In November 2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-insider-growth-161414331.html",
-   "published": "2026-11-05T16:14:14Z",
-   "publisher": "",
-   "summary": "Higher interest rates from central banks such as the Bank of England are keeping money markets on edge, and growth stories are no longer given a free pass. Investors hunting for Canadian opportunities are paying closer attention to businesses where insiders have serious skin in the game and are pushing for expansion. This article highlights three fast growing, tightly held Canadian stocks from our",
-   "symbols": []
-  },
-  {
-   "title": "A Sharp Pullback in Chip Stocks Meets Fresh Records in Four of Five Recent Earnings Reports",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sharp-pullback-chip-stocks-meets-161400314.html",
-   "published": "2026-11-05T16:14:00Z",
-   "publisher": "",
-   "summary": "Market Updates News Commentary - Semiconductor stocks are taking the brunt of a lower market this morning. As of 10:18 a.m. ET, the PHLX Semiconductor Index (SOX) was down 826.18 points, or 8.05%, at 9,442.47, a steeper decline than the Nasdaq Composite (down 3.74%) or the S&P 500 (down 2.21%). Even after today's move, the index stood about 33% above where it finished 2025, based on daily closing ",
-   "symbols": []
-  },
-  {
-   "title": "Micron Sinks 13% as Chip Rout Deepens and $4.5 Billion Taiwan Plant Stalls",
-   "link": "https://www.tikr.com/blog/micron-sinks-13-as-chip-rout-deepens-and-4-5-billion-taiwan-plant-stalls?ref=yahoofinance&tlnk=yf-261105-4j94c4wf&.tsrc=rss",
-   "published": "2026-11-05T16:13:35Z",
-   "publisher": "",
-   "summary": "Key TakeawaysMicron fell 13% on a phone chipmaker’s memory-cost warning and a reported pause at a $4. 5 billion Taiwan plant.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Why Micron Stock Keeps Going Down",
-   "link": "https://www.fool.com/investing/2026/11/05/why-micron-stock-keeps-going-down/?.tsrc=rss",
-   "published": "2026-11-05T16:13:19Z",
-   "publisher": "",
-   "summary": "Micron motored higher as the AI revolution took off. But will competition from China bring it all crashing down?",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Big pharma-backed T-Therapeutics snags $133m to bring TCEs to clinic",
-   "link": "https://www.pharmaceutical-technology.com/news/t-therapeutics-135m-series-b-oncology-immunology-tces-to-clinic/?.tsrc=rss",
-   "published": "2026-11-05T16:10:48Z",
-   "publisher": "",
-   "summary": "T-Therapeutics will now generate proof-of-concept data for its oncology and immunology drugs with “blockbuster” potential.",
    "symbols": [
     "BTC",
     "ETH",
