@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-06T13:56:01Z",
+ "builtAt": "2026-11-06T14:56:12Z",
  "digests": [
   {
    "calendar": [
@@ -751,6 +751,36 @@
      "title": "Októberben 165 ezerrel nőtt az amerikai foglalkoztatás, a munkanélküliség 4,1%-ra csökkent",
      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-06T14:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Trading Economics",
+     "summary": "A chipszektor pénteken szárnyalt a 2020 óta legrosszabb napi esése után. A Trading Economics összesítése szerint az Nvidia 4,1%-ot, a Broadcom 4,6%-ot, a Micron 8,9%-ot, az AMD 7,6%-ot erősödött.",
+     "symbols": [
+      "NVDA",
+      "AMD",
+      "MU",
+      "SNDK",
+      "AVGO"
+     ],
+     "title": "A chip-részvények visszapattantak a csütörtöki kiárusítás után: az Nvidia, az AMD, a Micron és a Sandisk emelkedik",
+     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-06T14:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A 24/7 Wall St. cikke szerint a nagy befektetők az MI-részvények összeomlása után megkérdőjelezik az Anthropic 1500 milliárd dolláros tőzsdei értékelését. Külön megerősítést nem találtam.",
+     "symbols": [],
+     "title": "Nagybefektetők kételkednek, hogy az Anthropic 1500 milliárd dolláros értéken tőzsdére mehet az MI-összeomlás után",
+     "url": "https://247wallst.com/investing/2026/11/06/big-investors-now-doubt-anthropic-can-ipo-at-1-5-trillion-after-the-ai-crash/?.tsrc=rss",
+     "verified": false
     }
    ],
    "markets": [
@@ -777,7 +807,7 @@
     }
    ],
    "summary": "A csütörtöki Wall Street-i kiárusítás a Nasdaqot 5,5%-kal korrekciós zónába, az S&P 500-at 4,4%-kal lejjebb vitte, a chipszektor vezette a zuhanást, mert a piac a demokrata kongresszus alatti szigorúbb MI-adatközpont-szabályozástól tart. Pénteken Ázsia követte: a Nikkei 6–7%-ot, a KOSPI 8%-ot esett, utóbbinál kereskedési szünet volt. Az olaj az iráni háború kockázata miatt visszapattant, de heti szinten nagyot esik; az arany a dollár gyengülése mellett erősödik. Iránról Reuters-értesülés szerint javaslat érkezett az USA-nak Katarán át. 14:30-kor jelenik meg az októberi amerikai munkaerőpiaci jelentés (konszenzus kb. 65 ezer új állás).",
-   "updatedAt": "2026-11-06T13:45:00Z",
+   "updatedAt": "2026-11-06T14:40:00Z",
    "watchlist": []
   },
   {
