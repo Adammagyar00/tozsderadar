@@ -1,7 +1,72 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-06T05:58:26Z",
+ "updatedAt": "2026-11-06T07:14:14Z",
  "items": [
+  {
+   "title": "JGB yields plunge to July lows as Wall St tech tout sparks haven rush",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/jgb-yields-plunge-july-lows-064646140.html",
+   "published": "2026-11-06T06:46:46Z",
+   "publisher": "",
+   "summary": "Investing.com - Japanese government bond yields tumbled across the curve on Friday, with the benchmark 10-year yield sinking to its lowest level since June in its steepest single-day decline since July as a violent sell-off across Wall Street technology giants drove institutional investors into the safety of sovereign debt.",
+   "symbols": []
+  },
+  {
+   "title": "Innovation Drives Quality and Opens New Horizons: Sinochem Holdings Strengthens Global Partnerships and Showcases Innovation at the 9th CIIE",
+   "link": "https://finance.yahoo.com/technology/articles/innovation-drives-quality-opens-horizons-062900680.html",
+   "published": "2026-11-06T06:29:00Z",
+   "publisher": "",
+   "summary": "SHANGHAI, Nov. 06, 2026 (GLOBE NEWSWIRE) -- The 9th China International Import Expo (CIIE) opened on November 5, 2026, at the National Exhibition and Convention Center (Shanghai). Sinochem Holdings, a globally operating, diversified chemical company, is participating in the expo for the ninth consecutive year, showcasing innovations from five overseas subsidiaries and hosting a dedicated signing c",
+   "symbols": []
+  },
+  {
+   "title": "Nasdaq Stock Market Correction: 3 Words From Warren Buffett To Remember RIght Now",
+   "link": "https://www.fool.com/investing/2026/11/06/nasdaq-stock-market-correction-three-words-from-warren-buffett-to-remember-now/?.tsrc=rss",
+   "published": "2026-11-06T06:27:02Z",
+   "publisher": "",
+   "summary": "The words of Warren Buffett are always worth heeding in times like these.",
+   "symbols": []
+  },
+  {
+   "title": "3 Australian Growth Stocks To Watch In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-growth-stocks-watch-061345712.html",
+   "published": "2026-11-06T06:13:45Z",
+   "publisher": "",
+   "summary": "Asian markets have been hit hard after the recent tech and AI sell off, which has dragged down many Australian growth stocks along with weaker sentiment. For investors, that kind of broad pullback can hide companies that still have robust earnings potential and solid balance sheets. This article highlights three stocks that screen well for strong expected profit growth and financial health, so you",
+   "symbols": []
+  },
+  {
+   "title": "Micron Stock Has Lost Over 40% Since Its June Record. I'd Still Buy It.",
+   "link": "https://www.fool.com/investing/2026/11/06/micron-stock-has-lost-over-40-since-its-june-record-i-d-still-buy-it/?.tsrc=rss",
+   "published": "2026-11-06T06:13:02Z",
+   "publisher": "",
+   "summary": "After two more steep drops, is the memory maker's stock now priced for its profits to collapse?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Oil Prices Head for 12% Weekly Loss Despite Fresh Tanker Attacks",
+   "link": "https://finance.yahoo.com/energy/articles/oil-prices-head-12-weekly-060500517.html",
+   "published": "2026-11-06T06:05:00Z",
+   "publisher": "",
+   "summary": "Oil prices are heading for a 12% weekly decline as hopes of an end to the Iran war grow following the U.S. midterm elections, although fresh tanker attacks continue to support prices.",
+   "symbols": []
+  },
+  {
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62966566/stock-market-will-sp-500-open-up-or-down-today-74?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+   "published": "2026-11-06T05:56:08Z",
+   "publisher": "",
+   "summary": "U.S. stock futures are mixed early Friday as Wall Street awaits the critical October nonfarm payrolls report and tech shares attempt to rebound from their worst session since 2020. The Polymarket traders, a Polygon (CRYPTO: POL) based prediction platform, are...",
+   "symbols": []
+  },
   {
    "title": "IREN Ltd (IREN) Q1 2027 Earnings Call Highlights: AI Cloud Revenue Nearly Triples to $200 ...",
    "link": "https://finance.yahoo.com/technology/ai/articles/iren-ltd-iren-q1-2027-052040826.html",
@@ -12,11 +77,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -50,12 +115,12 @@
    "publisher": "",
    "summary": "Bloom Energy (BE) is back in focus after a sharp pullback tied to US election results increased concern about future AI data center approvals, even as the business continues to sign large fuel cell deals. The sharp election driven selloff means Bloom Energy’s share price has dropped 16.4% in the past day and 43.4% over the past month, yet it still carries a 69.7% year to date share price gain and ",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -99,6 +164,23 @@
    "publisher": "",
    "summary": "For questions about this article or underlying research, email help@trefis.com.",
    "symbols": []
+  },
+  {
+   "title": "Ben Cowen Says After Nasdaq Fall, Bitcoin Could Head Back to $58,000",
+   "link": "https://beincrypto.com/ben-cowen-nasdaq-bitcoin-58000-warning/?.tsrc=rss",
+   "published": "2026-11-06T04:40:10Z",
+   "publisher": "",
+   "summary": "Ben Cowen says the Nasdaq has erased its post-midterm gains, and a 2018-style selloff could send Bitcoin back to $58,000.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
   },
   {
    "title": "Royal Gold (RGLD) As Strong Q3 Results Revive The Undervalued Narrative",
@@ -336,6 +418,23 @@
    ]
   },
   {
+   "title": "Bitcoin Trader Lost $15 Million in Minutes After the Wall Street Crash",
+   "link": "https://beincrypto.com/crypto-liquidation-wall-street-crash-traders-lost-billions/?.tsrc=rss",
+   "published": "2026-11-06T02:00:00Z",
+   "publisher": "",
+   "summary": "One trader lost $15.6 million in eight liquidations as a US stock crash fueled a $1.09 billion crypto wipeout.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
    "title": "Micron Technology vs. Western Digital: Which Tech Stock Is the Better Buy for 2027?",
    "link": "https://www.fool.com/coverage/better-buy/2026/11/05/micron-technology-vs-western-digital-which-tech-stock-is-the-better-buy-for-2027/?.tsrc=rss",
    "published": "2026-11-06T01:59:01Z",
@@ -483,6 +582,23 @@
    "symbols": []
   },
   {
+   "title": "Nasdaq's XRP Treasury Crashed Nearly 50% In a Month",
+   "link": "https://beincrypto.com/evernorth-xrp-treasury-nasdaq-crash/?.tsrc=rss",
+   "published": "2026-11-06T01:00:00Z",
+   "publisher": "",
+   "summary": "Ripple-backed Evernorth faces a 73.7 million share overhang after losing nearly 47% since its Nasdaq debut.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
    "title": "Review & Preview: AI Reckoning",
    "link": "https://finance.yahoo.com/m/194a3d94-5d6d-325b-82e6-9daef9090cb8/review-%26-preview%3A-ai-reckoning.html",
    "published": "2026-11-06T00:55:00Z",
@@ -563,6 +679,23 @@
    "publisher": "",
    "summary": "Global markets tumbled after a Wall Street rout wiped out roughly $2.5 trillion in market value Thursday on fears that Democrats’ midterm gains could put the brakes on the AI buildout.",
    "symbols": []
+  },
+  {
+   "title": "What is Happening to Bitcoin Price? Inside the Shocking 48 Hours",
+   "link": "https://beincrypto.com/bitcoin-price-crash-48-hours-spot-selling-analysis/?.tsrc=rss",
+   "published": "2026-11-06T00:20:07Z",
+   "publisher": "",
+   "summary": "Bitcoin crashes to $75K after an $80K rally. Spot selling, liquidations, and Wall Street turmoil explain why.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Presentation to Munich Mining Conference",
@@ -3025,145 +3158,6 @@
    "published": "2026-11-05T17:33:43Z",
    "publisher": "",
    "summary": "NVIDIA, Amazon, and Palantir are posting strong growth underneath a volatile October, but each stock needs something specific to happen before 2027 for bold price targets to hold up.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "The Unwinding of the AI Trade Is Taking These Stocks Down With It the Most",
-   "link": "https://finance.yahoo.com/m/b1f1fbe6-2fcf-30c9-abb1-0dfe2e888f8d/the-unwinding-of-the-ai-trade.html",
-   "published": "2026-11-05T17:33:00Z",
-   "publisher": "",
-   "summary": "Vertiv, Sandisk, and other stocks with AI and data-center exposure are the worst performing S&P 500 components since the closing bell on Tuesday.",
-   "symbols": []
-  },
-  {
-   "title": "Update: Nasdaq Enters Correction Territory as Volatility Spikes Amid Chip Rout",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-enters-correction-territory-volatility-172724977.html",
-   "published": "2026-11-05T17:27:24Z",
-   "publisher": "",
-   "summary": "(Updates with index/price moves and company news from the first paragraph.) US equity indexes wer",
-   "symbols": []
-  },
-  {
-   "title": "What Is Behind The Move In Coupang Stock?",
-   "link": "https://www.trefis.com/stock/cpng/articles/623001/what-is-behind-the-move-in-coupang-stock/2026-11-05?.tsrc=rss",
-   "published": "2026-11-05T17:27:12Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Sick of Swings? Same… But History Is on Our Side",
-   "link": "https://www.fool.com/investing/2026/11/05/sick-of-swings-same-but-history-is-on-our-side/?.tsrc=rss",
-   "published": "2026-11-05T17:26:01Z",
-   "publisher": "",
-   "summary": "The Nasdaq is falling again after Wednesday's rally. If the past month's swings have worn on you, here's how we're thinking about them.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Trump Media Just Moved 4,259 Bitcoin. Is It About to Sell?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/05/trump-media-just-moved-4259-bitcoin-is-it-about-to-sell/?.tsrc=rss",
-   "published": "2026-11-05T17:23:15Z",
-   "publisher": "",
-   "summary": "Coins pledged as collateral just left their wallets, and a $1 billion repayment window opens on November 30. Blockchain trails show where the Bitcoin went first, but the destination and the motive stay hidden, and lenders may not be the only ones watching.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Finra Fines Webull $4.2 Million, Says Violations Include Approving Applications of Dead Customers",
-   "link": "https://finance.yahoo.com/m/09bbb011-0eaf-3026-bf63-d1330a675a43/finra-fines-webull-%244.2.html",
-   "published": "2026-11-05T17:23:00Z",
-   "publisher": "",
-   "summary": "The regulatory organization says Webull’s supervisory systems, including anti-money-laundering programs, failed to keep pace with the brokerage firm’s rapid growth from 2020 to 2023.",
-   "symbols": []
-  },
-  {
-   "title": "Wall Street's Fear Gauge Just Made a Massive Move",
-   "link": "https://finance.yahoo.com/markets/options/articles/wall-streets-fear-gauge-just-172244609.html",
-   "published": "2026-11-05T17:22:44Z",
-   "publisher": "",
-   "summary": "The VIX plunged more than 20% as investors moved past election uncertainty.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "It's Not Just AI. All S&P 500 Sectors Are Fueling the Index's $1.7 Trillion Drop.",
-   "link": "https://finance.yahoo.com/m/9c3a1163-55d4-302d-b47a-7ce604db4a78/it%27s-not-just-ai.-all-s%26p-500.html",
-   "published": "2026-11-05T17:15:43Z",
-   "publisher": "",
-   "summary": "AI stocks may have started the downturn, but it didn't take long for the selloff to spread across all sectors of the market.",
-   "symbols": []
-  },
-  {
-   "title": "JPMorgan Chase & Co. Warns a Rapid Rate Rise Could Shake the Financial System",
-   "link": "https://www.marketbeat.com/instant-alerts/event-jpmorgan-chase-co-warns-a-rapid-rate-rise-could-shake-the-financial-system-2026-11-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-11-05T17:14:53Z",
-   "publisher": "",
-   "summary": "JPMorgan Chase & Co. (NYSE:JPM) is preparing for interest rates to move in either direction, but a rapid rise poses a broader risk to the financial system, according to Charles Bristow, the bank’s head of treasury and chief investment officer. Bristow said the bank has stress-tested its balance",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Micron's Bold Memory Expansion Faces a Sudden Crisis",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/microns-bold-memory-expansion-faces-171446543.html",
-   "published": "2026-11-05T17:14:46Z",
-   "publisher": "",
-   "summary": "A delayed fab could constrain supply just as AI-memory demand stays strong.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Qualcomm Says December Won’t Be Its Biggest Quarter Anymore as Apple Walks Away",
-   "link": "https://247wallst.com/investing/2026/11/05/qualcomm-says-december-wont-be-its-biggest-quarter-anymore-as-apple-walks-away/?.tsrc=rss",
-   "published": "2026-11-05T17:14:44Z",
-   "publisher": "",
-   "summary": "Qualcomm has known for years that Apple would leave, and now the CFO says it will rewrite the company's calendar. Can automotive and AI data centers fill the gap before the next earnings report tests the story?",
    "symbols": [
     "BE",
     "DFEN",
