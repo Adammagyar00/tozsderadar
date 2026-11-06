@@ -1,7 +1,387 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-06T17:49:26Z",
+ "updatedAt": "2026-11-06T18:52:02Z",
  "items": [
+  {
+   "title": "Sector Update: Energy Stocks Higher Friday Afternoon",
+   "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-friday-184319151.html",
+   "published": "2026-11-06T18:43:19Z",
+   "publisher": "",
+   "summary": "Energy stocks advanced Friday afternoon, with the NYSE Energy Sector Index up 0.1% and the State Str",
+   "symbols": []
+  },
+  {
+   "title": "Why Micron Stock Is Up Today",
+   "link": "https://www.fool.com/investing/2026/11/06/why-micron-stock-is-up-today/?.tsrc=rss",
+   "published": "2026-11-06T18:39:01Z",
+   "publisher": "",
+   "summary": "Micron is bouncing back after Thursday’s chip rout, but the reason it fell- a possible slowdown in data center construction- hasn’t gone away.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Calumet, Inc. Q3 2026 Earnings Call Summary",
+   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-calumet-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+   "published": "2026-11-06T18:36:05Z",
+   "publisher": "",
+   "summary": "Moby summary of Calumet, Inc.'s Q3 2026 earnings call",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin ETFs Bleed $430 Million as Tech Rout Tests Wall Street Buyers",
+   "link": "https://decrypt.co/382733/bitcoin-etfs-bleed-430-million-tech-rout-tests-wall-street?.tsrc=rss",
+   "published": "2026-11-06T18:36:03Z",
+   "publisher": "",
+   "summary": "Fidelity and BlackRock led Thursday's Bitcoin ETF withdrawals as a technology-stock selloff rattled risk assets.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why Opendoor Stock Is Down Today",
+   "link": "https://www.fool.com/investing/2026/11/06/why-opendoor-stock-is-down-today/?.tsrc=rss",
+   "published": "2026-11-06T18:35:01Z",
+   "publisher": "",
+   "summary": "Opendoor is selling more and buying a lot more homes, but margins are shrinking, losses are widening, and its year-end profit goal is now behind schedule.",
+   "symbols": []
+  },
+  {
+   "title": "Axon Enterprise earnings analysis: questions answered and next catalysts",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/axon-enterprise-earnings-analysis-questions-183440738.html",
+   "published": "2026-11-06T18:34:40Z",
+   "publisher": "",
+   "summary": "Investing.com -- Axon Enterprise (AXON) is $312.79, down 18.24% as of Nov 6, 12:51 PM EST. That is a fresh 52-week low area (range $307.00–$665.07), and the market cap is about $25.3B. The Nasdaq rose 1.7% the same day, so this is a company-specific reaction.",
+   "symbols": []
+  },
+  {
+   "title": "Monster earnings analysis: questions answered and next catalysts",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/monster-earnings-analysis-questions-answered-183406487.html",
+   "published": "2026-11-06T18:34:06Z",
+   "publisher": "",
+   "summary": "Investing.com -- Monster Beverage Corp (MNST) is trading at $46.55 (-2.68%) as of Nov 6, 12:50 PM EST. Its market cap is about $90.6B. The Q3 print (Nov 5) beat on sales and matched on EPS, but the market focused on costs. The stock also fell on a day when the S&P 500 and Nasdaq were up, so the move is company-specific Read more (Nov 6, 2026).",
+   "symbols": []
+  },
+  {
+   "title": "Sector Update: Tech Stocks Rise Friday Afternoon",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-friday-183139661.html",
+   "published": "2026-11-06T18:31:39Z",
+   "publisher": "",
+   "summary": "Tech stocks were higher Friday afternoon, with the State Street Technology Select Sector SPDR ETF (X",
+   "symbols": []
+  },
+  {
+   "title": "Coherent Soars 13% as Citi Lifts Target to $440, Lumentum Up 3% in AI Optics Rebound",
+   "link": "https://www.tikr.com/blog/coherent-soars-13-as-citi-lifts-target-to-440-lumentum-up-3-in-ai-optics-rebound?ref=yahoofinance&tlnk=yf-261106-h6qvhh58&.tsrc=rss",
+   "published": "2026-11-06T18:31:15Z",
+   "publisher": "",
+   "summary": "Key TakeawaysCoherent jumped 13% today after Citi raised its target to $440, and Lumentum and Marvell bounced too. Wall Street is split on Coherent’s quarter: Citi and Stifel raised their targets, while BofA and others cut theirs.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why Oklo Stock Is Up 21.8% Today",
+   "link": "https://www.fool.com/investing/2026/11/06/why-oklo-stock-is-up-today/?.tsrc=rss",
+   "published": "2026-11-06T18:30:01Z",
+   "publisher": "",
+   "summary": "Oklo’s stock is jumping after earnings, but the company is basically pre-revenue, and its first plant is still years from coming online.",
+   "symbols": []
+  },
+  {
+   "title": "SpaceX government contracts to be under 10% of revenue, Musk says",
+   "link": "https://finance.yahoo.com/technology/articles/spacex-government-contracts-under-10-182923290.html",
+   "published": "2026-11-06T18:29:23Z",
+   "publisher": "",
+   "summary": "Investing.com -- SpaceX will see payments from US government agencies drop to less than 10% of its total revenue this quarter, Elon Musk said on Friday, marking a continued decline in what was once the rocket company's primary source of income.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Economist who predicted 2008 crash issues stark Bitcoin bubble warning",
+   "link": "https://www.thestreet.com/crypto/markets/economist-who-predicted-2008-crash-issues-stark-bitcoin-bubble-warning?.tsrc=rss",
+   "published": "2026-11-06T18:28:36Z",
+   "publisher": "",
+   "summary": "Peter Schiff tells investors to sell as AI stocks slide and the midterm results reshape Washington.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Bloom Energy Rises 2%, AMD Up 8% as AI Stocks Rebound From Midterm Rout",
+   "link": "https://www.tikr.com/blog/bloom-energy-rises-2-amd-up-8-as-ai-stocks-rebound-from-midterm-rout?ref=yahoofinance&tlnk=yf-261106-qv7xx7qr&.tsrc=rss",
+   "published": "2026-11-06T18:28:16Z",
+   "publisher": "",
+   "summary": "Key TakeawaysBloom Energy rose 2% today as AI stocks, AMD among them, bounced back from Thursday’s post-midterm selloff. Bloom had just landed a 900-megawatt NTT DATA deal and a 1-gigawatt plan with California Resources.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Nasdaq Entered Correction Territory: What History Says Usually Happens After the Sell-Off",
+   "link": "https://www.ibtimes.com/nasdaq-correction-more-selling-before-rebound-3809496?.tsrc=rss",
+   "published": "2026-11-06T18:23:58Z",
+   "publisher": "",
+   "summary": "A review of 10 previous Nasdaq corrections found that additional losses were common in the following month. However, the index generally recovered over the following six months.",
+   "symbols": []
+  },
+  {
+   "title": "Qualcomm Faces Worst Day Since 2020 as Chips Crater",
+   "link": "https://finance.yahoo.com/technology/articles/qualcomm-faces-worst-day-since-181632192.html",
+   "published": "2026-11-06T18:16:32Z",
+   "publisher": "",
+   "summary": "Qualcomm's handset miss collided with a much broader AI-chip de-rating.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Enbridge Inc. Q3 2026 Earnings Call Summary",
+   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-enbridge-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+   "published": "2026-11-06T18:16:32Z",
+   "publisher": "",
+   "summary": "Moby summary of Enbridge Inc.'s Q3 2026 earnings call",
+   "symbols": []
+  },
+  {
+   "title": "Sector Update: Energy",
+   "link": "https://finance.yahoo.com/energy/articles/sector-energy-181446029.html",
+   "published": "2026-11-06T18:14:46Z",
+   "publisher": "",
+   "summary": "Energy stocks were higher Friday afternoon, with the NYSE Energy Sector Index up 0.1% and the State",
+   "symbols": []
+  },
+  {
+   "title": "What Does QUALCOMM (QCOM) Winning A Nationwide 5G Buildout Mean For Investors?",
+   "link": "https://finance.yahoo.com/technology/articles/does-qualcomm-qcom-winning-nationwide-181422645.html",
+   "published": "2026-11-06T18:14:22Z",
+   "publisher": "",
+   "summary": "QUALCOMM (NasdaqGS:QCOM) and SpaceX have agreed a multiyear partnership to power the new Starlink Mobile nationwide 5G network. The project uses Qualcomm 5G infrastructure technology at national scale, taking the chip designer beyond its traditional smartphone-focused business. Starlink Mobile aims to offer a satellite-backed 5G service across the U.S., creating a new competitor to existing wirele",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Exchange-Traded Funds Higher as US Equities Advance After Midday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-181230703.html",
+   "published": "2026-11-06T18:12:30Z",
+   "publisher": "",
+   "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "The Chip Stock Bloodbath Is a Case Study in the Risks of Leveraged ETFs",
+   "link": "https://finance.yahoo.com/m/e1cc3675-f7f1-37df-be78-62a32fbe2487/the-chip-stock-bloodbath-is-a.html",
+   "published": "2026-11-06T18:03:00Z",
+   "publisher": "",
+   "summary": "Leveraged single-stock ETFs tracking chip makers plunged on Thursday as underlying stocks tumbled.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Bitcoin Under $76,000 After $430M ETF Outflows. Has It Bottomed?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/06/bitcoin-under-76000-after-430m-etf-outflows-has-it-bottomed/?.tsrc=rss",
+   "published": "2026-11-06T18:01:24Z",
+   "publisher": "",
+   "summary": "A rare 4-sigma stock market rout dragged Bitcoin down while every spot ETF issuer watched cash walk out the door. One small bounce has traders split on whether the worst is over, and a single price line may settle it.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Stay In, Keep Buying: The Best Days Hide Nearby",
+   "link": "https://www.fool.com/investing/2026/11/06/stay-in-keep-buying-the-best-days-hide-nearby/?.tsrc=rss",
+   "published": "2026-11-06T18:01:01Z",
+   "publisher": "",
+   "summary": "Thursday was the Nasdaq's worst day since April 2025. Here's what history says often comes next and how to make a rough market work for you.",
+   "symbols": []
+  },
+  {
+   "title": "Update: Wall Street Rises as Tech Stocks Rebound",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-rises-tech-stocks-175946005.html",
+   "published": "2026-11-06T17:59:46Z",
+   "publisher": "",
+   "summary": "(Updates with latest market prices and developments.) US benchmark equity indexes rose intraday a",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "What Changed In Arista's Story?",
+   "link": "https://www.trefis.com/stock/anet/articles/623302/what-changed-in-aristas-story/2026-11-06?.tsrc=rss",
+   "published": "2026-11-06T17:57:22Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Musk Kills Tesla Cybertruck. Why He Had to Shoot the Elephant.",
+   "link": "https://finance.yahoo.com/m/06aa7a72-3f3b-3740-ba90-e5a9da6f4d4f/musk-kills-tesla-cybertruck..html",
+   "published": "2026-11-06T17:57:00Z",
+   "publisher": "",
+   "summary": "Cybertruck production will wind down in 2027.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Hims & Hers stock climbs on direct partnership with Eli Lilly for obesity drugs",
+   "link": "https://finance.yahoo.com/healthcare/articles/hims-hers-stock-climbs-direct-175700315.html",
+   "published": "2026-11-06T17:57:00Z",
+   "publisher": "",
+   "summary": "Investing.com -- Shares of Hims & Hers Health Inc (NYSE:HIMS) rose 6.3% on Friday following an agreement with Eli Lilly and Company (NYSE:LLY) to sell its weight-loss treatments directly through the telehealth provider's platform. The partnership eliminates a previous friction point for patients, who previously had to navigate away from Hims & Hers to Lilly’s standalone cash-pay portal, LillyDirec",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Hims & Hers Gained as the Market Dipped. Here’s What the November 9 Report Must Prove",
+   "link": "https://www.tikr.com/blog/hims-hers-gained-as-the-market-dipped-heres-what-the-november-9-report-must-prove?ref=yahoofinance&tlnk=yf-261106-3x47j4hm&.tsrc=rss",
+   "published": "2026-11-06T17:51:09Z",
+   "publisher": "",
+   "summary": "Key TakeawaysHims & Hers reports third-quarter results after the close on Nov. 9.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Strive Adds 15,124 BTC in October After Reporting $509M Q3 Profit",
+   "link": "https://www.cryptoprowl.com/releases/strive-adds-15124-btc-in-october-after-reporting-509m-q3-profit-7746?.tsrc=rss",
+   "published": "2026-11-06T17:50:00Z",
+   "publisher": "",
+   "summary": "Bitcoin treasury company and asset manager Strive (NASDAQ: $ASST) reported third-quarter net income of $509.0 milli...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why You Should Think About SanDisk Differently Now",
+   "link": "https://www.trefis.com/stock/sndk/articles/623300/why-you-should-think-about-sandisk-differently-now/2026-11-06?.tsrc=rss",
+   "published": "2026-11-06T17:48:39Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Treasury Yields Rise on Strong Jobs Data",
    "link": "https://www.wsj.com/finance/investing/u-s-treasurys-little-changed-markets-await-employment-data-88f3f2b6?.tsrc=rss",
@@ -20,11 +400,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -42,12 +422,12 @@
    "publisher": "",
    "summary": "[IMAGE CREDIT: NASA/Aubrey Gemignani and SUMALI IBNU CHAMID from Alemedia. id via Canva] Key TakeawaysTesla rose 5% today after Elon Musk said it will wind down Cybertruck production in Texas around mid-2027 to build more Cybercabs.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -74,12 +454,12 @@
    "publisher": "",
    "summary": "Political relationships are becoming a potentially costly corporate liability.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -108,6 +488,30 @@
    ]
   },
   {
+   "title": "AI Stocks Plunge: Buy, Sell or Hold?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ai-stocks-plunge-buy-sell-171600469.html",
+   "published": "2026-11-06T17:16:00Z",
+   "publisher": "",
+   "summary": "Amid the sharp correction in AI stocks, investors question what to do next.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
    "title": "IREN Says New AI Cloud Customers Are Prepaying 90% of the Chips",
    "link": "https://247wallst.com/investing/2026/11/06/iren-says-new-ai-cloud-customers-are-prepaying-90-of-the-chips/?.tsrc=rss",
    "published": "2026-11-06T17:13:45Z",
@@ -117,11 +521,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -134,11 +538,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -151,11 +555,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -354,12 +758,12 @@
    "publisher": "",
    "summary": "Robert Reich criticized Space Exploration Technologies Corp. CEO Elon Musk’s political spending after Republican Ken Paxton suffered a double-digit defeat in the Texas Senate race, arguing that grassroots organizing can overcome the financial influence of billionaires. Reich Criticizes Musk’s Political...",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2996,399 +3400,6 @@
    "published": "2026-11-06T10:54:25Z",
    "publisher": "",
    "summary": "It’s been a roller-coaster week, and the market is flipping the script again in premarket trade as tech dip-buyers spark a sharp rotation out of cyclical value names and back into growth ahead of a crucial jobs report.",
-   "symbols": []
-  },
-  {
-   "title": "Kalshi Users Pour $300 Million Into Stock Perps Within Hours of U.S. Debut",
-   "link": "https://unchainedcrypto.com/kalshi-users-pour-300-million-into-stock-perps-within-hours-of-u-s-debut/?.tsrc=rss",
-   "published": "2026-11-06T10:45:32Z",
-   "publisher": "",
-   "summary": "Contracts on Palantir, Meta, SpaceX and dozens more answer to both the CFTC and SEC, two days after Chairman Michael Selig said equity perps could trade onshore.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "IREN Moves Its $4 Billion AI Cloud Goal Into 2027, With $6 Billion of Capex Yet to Be Financed",
-   "link": "https://unchainedcrypto.com/iren-moves-its-4-billion-ai-cloud-goal-into-2027-with-6-billion-of-capex-yet-to-be-financed/?.tsrc=rss",
-   "published": "2026-11-06T10:45:12Z",
-   "publisher": "",
-   "summary": "The bitcoin miner turned AI cloud provider blamed a customer-requested change and supplier timing for the delay, as AI cloud revenue rose to $200 million last quarter.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Chip Wreck Reaches Asian Stock Markets",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/chip-wreck-reaches-asian-stock-104017534.html",
-   "published": "2026-11-06T10:40:17Z",
-   "publisher": "",
-   "summary": "Asian stock markets largely fell back on Friday, on traders' concerns that new political leadership",
-   "symbols": []
-  },
-  {
-   "title": "Nvidia Shares Suffer Worst Day Since January 2025 -- AI Fears Trigger $450 Billion Rout",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-shares-suffer-worst-day-104000765.html",
-   "published": "2026-11-06T10:40:00Z",
-   "publisher": "",
-   "summary": "Nvidia Stock Plunges as Texas Data Center Restrictions Put AI Boom at Risk",
-   "symbols": []
-  },
-  {
-   "title": "2 Reasons Micron Stock Could Be a Buy Right Now (and 1 Reason for Caution)",
-   "link": "https://www.fool.com/investing/2026/11/06/reason-micron-stock-could-be-buy-now-caution/?.tsrc=rss",
-   "published": "2026-11-06T10:40:00Z",
-   "publisher": "",
-   "summary": "Micron has become one of the most important stocks in the AI trade. What dynamics will shape where it goes next?",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Micron Shares Suffer Brutal 17% Rout as Chip Selloff Deepens",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/micron-shares-suffer-brutal-17-103844985.html",
-   "published": "2026-11-06T10:38:44Z",
-   "publisher": "",
-   "summary": "Micron Faces Double Blow as Taiwan Factory Delays Add to AI Chip Selloff",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Nasdaq Suffers Worst AI Panic in Years as Nvidia, SanDisk, and Western Digital Sink",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nasdaq-suffers-worst-ai-panic-103707000.html",
-   "published": "2026-11-06T10:37:07Z",
-   "publisher": "",
-   "summary": "Midterm Election Shock Sends Nasdaq Into Correction as AI Stocks Face Regulatory Fears",
-   "symbols": []
-  },
-  {
-   "title": "American markets enter whipsaw territory post-midterms — wiping out more than $2.5T overnight. Secure your nest egg now",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/american-markets-enter-whipsaw-territory-103500007.html",
-   "published": "2026-11-06T10:35:00Z",
-   "publisher": "",
-   "summary": "Every crisis is an opportunity.",
-   "symbols": []
-  },
-  {
-   "title": "Fast-Money Systematic Funds Stoked $2.3 Trillion Tech-Stock Rout",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/fast-money-systematic-funds-stoked-103031992.html",
-   "published": "2026-11-06T10:30:31Z",
-   "publisher": "",
-   "summary": "As investors rushed out of US technology stocks on Thursday, selling by trend-following systematic strategies amplified what quickly became a record plunge by market value in the Nasdaq 100 index.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Could Investing $500 a Month in SpaceX Stock Help You Retire a Millionaire?",
-   "link": "https://www.fool.com/investing/2026/11/06/could-investing-500-a-month-in-spacex-stock-help-y/?.tsrc=rss",
-   "published": "2026-11-06T10:30:00Z",
-   "publisher": "",
-   "summary": "SpaceX has been in the spotlight since its historic IPO.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Kospi Sinks as Micron Contagion Spreads on Korea’s ‘Black Friday’",
-   "link": "https://finance.yahoo.com/m/5b56a81d-1e1c-39a7-8a83-1d9b922141ec/kospi-sinks-as-micron.html",
-   "published": "2026-11-06T10:29:59Z",
-   "publisher": "",
-   "summary": "South Korea’s equity market was hit hard again, suffering what local media are calling a “Black Friday” collapse overnight.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Gold Slips Below $4,050 as US Dollar Recovers, but Weekly Gains Remain Above 5%",
-   "link": "https://investorshub.advfn.com/market-news/article/39407/gold-slips-below-4050-as-us-dollar-recovers-but-weekly-gains-remain-above-5?.tsrc=rss",
-   "published": "2026-11-06T10:26:54Z",
-   "publisher": "",
-   "summary": "Gold prices declined on Friday, November 6, as a recovery in the US dollar prompted investors to take profits following a strong rally driven by the US midterm election results and falling Treasury yields. Spot gold fell 1% to $4,048.",
-   "symbols": []
-  },
-  {
-   "title": "European gas tumbles to seal worst week since 2025, snaps five-week rally",
-   "link": "https://finance.yahoo.com/energy/articles/european-gas-tumbles-seal-worst-102619137.html",
-   "published": "2026-11-06T10:26:19Z",
-   "publisher": "",
-   "summary": "Investing.com - European wholesale natural gas prices fell sharply on Friday, sliding 3.5% on the day to seal their steepest weekly drop in more than a year and a half, as a relentless retreat across global crude benchmarks and the political fallout from the U.S. midterm elections abruptly dismantled a five-week winning streak.",
-   "symbols": []
-  },
-  {
-   "title": "Oil Prices Rise on Renewed Middle East Tanker Attacks but Remain Set for Heavy Weekly Losses",
-   "link": "https://investorshub.advfn.com/market-news/article/39405/oil-prices-rise-on-renewed-middle-east-tanker-attacks-but-remain-set-for-heavy-weekly-losses?.tsrc=rss",
-   "published": "2026-11-06T10:23:04Z",
-   "publisher": "",
-   "summary": "Oil prices advanced during Asian trading on Friday, November 6, as renewed attacks on commercial vessels in the Middle East raised concerns about potential disruptions to global energy supplies. However, crude benchmarks remained on course for substantial weekly declines as investors assessed the prospects for diplomatic progress in the conflict involving the United States, Israel and Iran.",
-   "symbols": []
-  },
-  {
-   "title": "Should JPMorgan Diversified Return U.S. Small Cap Equity ETF (JPSE) Be on Your Investing Radar?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-diversified-return-u-small-102002195.html",
-   "published": "2026-11-06T10:20:02Z",
-   "publisher": "",
-   "summary": "Style Box ETF report for JPSE",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "US Stock Futures Mixed After AI Sell-Off as Investors Await Jobs Report: Dow Jones, S&P, Nasdaq, Wall Street",
-   "link": "https://investorshub.advfn.com/market-news/article/39402/us-stock-futures-mixed-after-ai-sell-off-as-investors-await-jobs-report-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
-   "published": "2026-11-06T10:19:25Z",
-   "publisher": "",
-   "summary": "US stock futures were mixed on Friday, November 6, as investors assessed the consequences of a sharp technology-led market sell-off following the Democratic Party’s gains in the US midterm elections, while awaiting employment figures that could influence the Federal Reserve’s next interest-rate decision. The decline in artificial intelligence-related stocks wiped an estimated $2.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Keurig Dr Pepper (KDP) Stock Sees Modest Fair Value Lift As Analysts Weigh Split Plans",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-pepper-kdp-stock-101853440.html",
-   "published": "2026-11-06T10:18:53Z",
-   "publisher": "",
-   "summary": "Price targets for Keurig Dr Pepper have shifted toward the low to low mid US$40 range, with recent moves into the US$38 to US$41 band from firms such as JPMorgan. Analysts link these adjustments to how the stock lines up against beverage growth prospects, coffee segment challenges, and the planned split into Global Coffee Co and Beverage Co by early 2027. As you read on, you will see how this evol",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "The Democrats Won Congress. Here's What Could Come Next for Crypto.",
-   "link": "https://www.fool.com/investing/2026/11/06/the-democrats-won-congress-heres-what-could-come-n/?.tsrc=rss",
-   "published": "2026-11-06T10:17:00Z",
-   "publisher": "",
-   "summary": "While the incoming Congress may be less crypto friendly than the current one, history says there's little to fear here.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bitcoin Slides to a Seven-Week Low Near $75,200 as AI Stocks Drag Wall Street Lower",
-   "link": "https://unchainedcrypto.com/bitcoin-slides-to-a-seven-week-low-near-75200-as-ai-stocks-drag-wall-street-lower/?.tsrc=rss",
-   "published": "2026-11-06T10:15:17Z",
-   "publisher": "",
-   "summary": "Bitcoin gave back its post-midterm rally as the S&P 500 and Nasdaq Composite posted their worst day since April 2025, though it fell less than the Nasdaq 100.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What sparked Wall Street’s crazy sell-off?",
-   "link": "https://www.cnn.com/2026/11/06/investing/tech-selloff-explainer?.tsrc=rss",
-   "published": "2026-11-06T10:00:15Z",
-   "publisher": "",
-   "summary": "A stunning $2.5 trillion was wiped off the value of the tech-heavy Nasdaq on Thursday as investors rushed to dump tech stocks, rattled by fears that Democrats’ midterm victories could slow the AI buildout. But another force made the sell-off more brutal: Investors who had borrowed heavily to bet on the boom were under pressure to sell.",
-   "symbols": []
-  },
-  {
-   "title": "Questcorp and Riverside Resources Commence Phase 2B Program at La Union Project, Sonora, Mexico",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/questcorp-riverside-resources-commence-phase-100000016.html",
-   "published": "2026-11-06T10:00:00Z",
-   "publisher": "",
-   "summary": "Vancouver, British Columbia--(Newsfile Corp. - November 6, 2026) - Questcorp Mining Inc. (CSE: QQQ) (OTCQB: QQCMF) (FSE: D910) (the \"Company\" or \"Questcorp\") along with Joint Venture partner and operator Riverside Resources Inc. (\"Riverside\") are pleased to announce commencement of Phase 2B at the La Union Project, Sonora, Mexico. With the conclusion of the rainy season, Riverside has commenced ro",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Where Are the XRP Bulls? Price Drops to $1.21 Despite a $540 Million Binance Outflow",
-   "link": "https://beincrypto.com/xrp-binance-outflow-etf-flows-price/?.tsrc=rss",
-   "published": "2026-11-06T09:52:10Z",
-   "publisher": "",
-   "summary": "XRP price slides to $1.21 after 418.5 million XRP leave Binance, while spot XRP ETFs log 3 straight days of zero flows.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Michael Saylor Posts “Feeling ₿ullish” 80 Minutes Before BTC USD Drops 5%: Does Strategy’s Chairman Have the Worst Timing on X?",
-   "link": "https://99bitcoins.com/news/bitcoin-btc/btc-usd-saylor-bullish-timing/?.tsrc=rss",
-   "published": "2026-11-06T09:47:50Z",
-   "publisher": "",
-   "summary": "Strategy chairman Michael Saylor posted “Feeling ₿ullish” on X at 13:08 UTC on Thursday, November 5, with BTC USD at $79,541, and within three hours Bitcoin had fallen to $75,826 as a Wall Street chip-stock crash hit crypto. Few posts have aged faster. The picture shows Saylor in a dark ...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Jake Claver’s Viral $750 XRP Call Under Fire as Elizabeth Warren Eyes Banking Chair",
-   "link": "https://www.ccn.com/news/crypto/jake-clavers-750-xrp-under-fire-elizabeth-warren-banking-chair/?.tsrc=rss",
-   "published": "2026-11-06T09:44:39Z",
-   "publisher": "",
-   "summary": "Elizabeth Warren is expected to chair the Senate Banking Committee in January, potentially bringing tougher scrutiny of crypto’s expansion into finance. ChartNerd challenged XRP’s $750…",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Sell Off Turns to Uncertainty",
-   "link": "https://finance.yahoo.com/video/sell-off-turns-uncertainty-094138735.html",
-   "published": "2026-11-06T09:41:38Z",
-   "publisher": "",
-   "summary": "Investors want to avoid risk amid uncertainty from AI, US politics",
-   "symbols": []
-  },
-  {
-   "title": "The Nasdaq Just Hit Correction Territory. History Says the Stock Market Will Do This Next (Hint: It May Stun You)",
-   "link": "https://www.fool.com/investing/2026/11/06/nasdaq-hit-correction-stock-market-will-do-this-next/?.tsrc=rss",
-   "published": "2026-11-06T09:32:02Z",
-   "publisher": "",
-   "summary": "The Nasdaq closed in correction territory as post-midterm euphoria quickly gave way to anxiety about AI spending.",
-   "symbols": []
-  },
-  {
-   "title": "Yikes! The Stock Market Just Did Something It Has Never Done Before. History Is Clear About What Comes Next.",
-   "link": "https://www.fool.com/investing/2026/11/06/stock-market-never-done-before-what-comes-next/?.tsrc=rss",
-   "published": "2026-11-06T09:32:02Z",
-   "publisher": "",
-   "summary": "U.S. stocks got routed on Thursday as midterm election results raised questions about the durability of the artificial intelligence boom.",
-   "symbols": []
-  },
-  {
-   "title": "Meet the Unstoppable Vanguard ETF Beating the S&P 500 and the Dow Jones in 2026",
-   "link": "https://www.fool.com/investing/2026/11/06/meet-vanguard-etf-beating-sp-500-dow-jones-2026/?.tsrc=rss",
-   "published": "2026-11-06T09:32:00Z",
-   "publisher": "",
-   "summary": "Small-cap stocks have benefited from a range of tailwinds this year.",
-   "symbols": []
-  },
-  {
-   "title": "AI wipeout in focus; U.S. employment data ahead - what’s moving markets",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ai-wipeout-focus-u-employment-093159092.html",
-   "published": "2026-11-06T09:31:59Z",
-   "publisher": "",
-   "summary": "Investing.com - Futures linked to the main U.S. stock indices are mixed, with the Nasdaq contract holding on to gains, as investors look to pick up the pieces from a massive artificial intelligence-driven wipeout sparked by the Democrats’ election win earlier this week. Shares of Tesla and SpaceX drop, shaving estimated billions of dollars from their market value and boss Elon Musk’s personal fort",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Wall Street Peers Into Abyss of AI Trade as Midterms Expose Risk",
-   "link": "https://finance.yahoo.com/technology/ai/articles/wall-street-peers-abyss-ai-093002270.html",
-   "published": "2026-11-06T09:30:02Z",
-   "publisher": "",
-   "summary": "For months, investors have been worrying about a long list of risks to the gravy train of artificial intelligence spending.",
    "symbols": []
   }
  ]
