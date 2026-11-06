@@ -1,7 +1,252 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-06T00:13:57Z",
+ "updatedAt": "2026-11-06T01:47:44Z",
  "items": [
+  {
+   "title": "Oil rises on fresh tanker attacks, but heads for steep weekly loss",
+   "link": "https://finance.yahoo.com/energy/articles/oil-rises-fresh-tanker-attacks-012523801.html",
+   "published": "2026-11-06T01:25:23Z",
+   "publisher": "",
+   "summary": "Investing.com-- Oil prices extended gains in Asian trading Friday as fresh attacks on tankers in the Middle East heightened supply disruption concerns, although prices remained on course for sharp weekly losses as investors reassessed the outlook for the U.S.-Israeli war with Iran.",
+   "symbols": []
+  },
+  {
+   "title": "Fortuna Mining Corp (FSM) (Q3 2026) Earnings Call Highlights: Strong Cash Generation and Growth ...",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/fortuna-mining-corp-fsm-q3-012024834.html",
+   "published": "2026-11-06T01:20:24Z",
+   "publisher": "",
+   "summary": "Fortuna Mining Corp (FSM) targets 60% gold production growth by mid-2028 while navigating higher costs and a production shortfall at Seguela in Q3 2026.",
+   "symbols": []
+  },
+  {
+   "title": "Cathie Wood Sells $12.8 Million Of Alphabet, Days After The Stock Suffered Its Worst Day Since Its 2004 IPO, Losing Nearly Half A Trillion Dollars In Market Value",
+   "link": "https://247wallst.com/investing/2026/11/05/cathie-wood-sells-12-8-million-of-alphabet-days-after-the-stock-suffered-its-worst-day-since-its-2004-ipo-losing-nearly-half-a-trillion-dollars-in-market-value/?.tsrc=rss",
+   "published": "2026-11-06T01:20:15Z",
+   "publisher": "",
+   "summary": "Cathie Wood’s ARK Invest reduced its stake in Alphabet (NASDAQ:GOOGL) on Wednesday, Nov. 4. According to CoinCentral’s report of ARK’s daily trades, the firm sold 46,164 shares worth $12.8 million through the ARK Innovation ETF (CBOE:ARKK) and the ARK Autonomous Technology & Robotics ETF (CBOE:ARKQ). A smaller sale came one session earlier. TipRanks reported that […]",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Prediction: This Is How Much XRP Will Be Worth by the End of 2030",
+   "link": "https://www.fool.com/investing/2026/11/05/prediction-this-is-how-much-xrp-will-be-worth-by-t/?.tsrc=rss",
+   "published": "2026-11-06T01:20:00Z",
+   "publisher": "",
+   "summary": "It's time for investors to ratchet down their future growth expectations for XRP.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Dow Jones Futures Fall, Techs Bounce After Nasdaq Dives 5.5%; Nvidia, Sandisk, CoreWeave, SpaceX Plunge",
+   "link": "https://finance.yahoo.com/m/0cd2227b-7753-3d54-a8c5-286efe82ac39/dow-jones-futures-fall%2C-techs.html",
+   "published": "2026-11-06T01:18:01Z",
+   "publisher": "",
+   "summary": "Nvidia, CoreWeave, SpaceX plunged, but the stock market sell-off spread far beyond AI. The October jobs report looms.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "South Korea’s KOSPI halts trade after 8% wipeout on AI losses",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/south-korea-kospi-halts-trade-011744724.html",
+   "published": "2026-11-06T01:17:44Z",
+   "publisher": "",
+   "summary": "Investing.com-- South Korea’s KOSPI stock index plummeted 8% at the open on Friday, triggering a 20 minute trading halt as markets grappled with a prolonged, deepening rout in artificial intelligence stocks.",
+   "symbols": []
+  },
+  {
+   "title": "Prediction: This Will Be SpaceX's Stock Price by the End of 2029",
+   "link": "https://www.fool.com/investing/2026/11/05/prediction-this-will-be-spacexs-stock-price-by-the/?.tsrc=rss",
+   "published": "2026-11-06T01:15:00Z",
+   "publisher": "",
+   "summary": "SpaceX stock has the potential to quadruple in the next three years.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning",
+   "link": "https://www.fool.com/investing/2026/11/05/nasdaq-composite-shattered-single-session-point-loss-record-3-reasons-elevator-down-moves-just-beginning/?.tsrc=rss",
+   "published": "2026-11-06T01:10:02Z",
+   "publisher": "",
+   "summary": "The artificial intelligence (AI)-driven Nasdaq Composite plunged 1,422 points on Nov. 5.",
+   "symbols": []
+  },
+  {
+   "title": "Trump blames Democrats for Wall Street selloff after historic midterm election win",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/trump-blames-democrats-wall-street-010352357.html",
+   "published": "2026-11-06T01:03:52Z",
+   "publisher": "",
+   "summary": "Investing.com -- U.S. President Donald Trump blamed Democrats for Wall Street's sharp selloff following their sweeping midterm election victories, saying the stock market had suffered one of its worst days in history and warning that Americans' 401(k) retirement accounts had taken a hit.",
+   "symbols": []
+  },
+  {
+   "title": "S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Nasdaq In Correction Territory — NVDA, AAPL, UBER, SOXX In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-dip-as-investors-step-back-from-ai-and-tech-with-nasdaq-in-correction-territory-nvda-aapl-uber-soxx-in-focus/cNGlIylR94A?.tsrc=rss",
+   "published": "2026-11-06T01:00:30Z",
+   "publisher": "",
+   "summary": "The iShares Semiconductor ETF is on track for its worst week in over 18 months.",
+   "symbols": []
+  },
+  {
+   "title": "Review & Preview: AI Reckoning",
+   "link": "https://finance.yahoo.com/m/194a3d94-5d6d-325b-82e6-9daef9090cb8/review-%26-preview%3A-ai-reckoning.html",
+   "published": "2026-11-06T00:55:00Z",
+   "publisher": "",
+   "summary": "All three indexes suffered major losses on Thursday.",
+   "symbols": []
+  },
+  {
+   "title": "Japan's Nikkei falls more than 6% as Asian benchmarks tumble after Wall Street drop",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/japans-stock-benchmark-nikkei-tumbles-004324375.html",
+   "published": "2026-11-06T00:43:24Z",
+   "publisher": "",
+   "summary": "TOKYO (AP) — Japan’s stock benchmark tumbled more than 6% after trading opened Friday, and other Asian stocks also declined following a widespread sell-off of issues related to artificial intelligence on Wall Street. Tokyo's benchmark Nikkei 225 slipped 6.",
+   "symbols": []
+  },
+  {
+   "title": "CleanSpark Sinks Another 17%, IREN Down 17% as Bitcoin Tumbles and AI Data Center Selloff Deepens",
+   "link": "https://www.tikr.com/blog/cleanspark-sinks-another-17-iren-down-17-as-bitcoin-tumbles-and-ai-data-center-selloff-deepens?ref=yahoofinance&tlnk=yf-261105-g8wjm26w&.tsrc=rss",
+   "published": "2026-11-06T00:36:27Z",
+   "publisher": "",
+   "summary": "Key TakeawaysCleanSpark fell 17% today as bitcoin dropped below $76,000, and the AI data center selloff also hit IREN and Core Scientific. Investors now value CleanSpark mostly on its bitcoin, with little credit for its data center plans.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Elon Musk's SpaceX Could Build More Data Center Capacity in 18 Months Than Google Did in 27 Years, Says SemiAnalysis",
+   "link": "https://finance.yahoo.com/technology/ai/articles/elon-musks-spacex-could-build-003006299.html",
+   "published": "2026-11-06T00:30:06Z",
+   "publisher": "",
+   "summary": "Billionaire Elon Musk-led Space Exploration Technologies Corp. may be a commercial spaceflight company, but its aggressive compute buildout is fast becoming a crucial element of its business. SpaceX’s Data Center Buildout Exceeds Google On Tuesday, semiconductor research firm SemiAnalysis released...",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Could $1,000 in XRP Today Be Worth $10,000 by 2030?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/05/could-1000-in-xrp-today-be-worth-10000-by-2030/?.tsrc=rss",
+   "published": "2026-11-06T00:23:07Z",
+   "publisher": "",
+   "summary": "A tenfold gain sounds simple until you check what XRP would have to overtake to get there. Before betting $1,000, see which milestones the price must clear and what the market has to deliver first.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Allied Gold (TSX:AAUC) Could Be 32% Undervalued After Its Q3 Profit Swing",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/allied-gold-tsx-aauc-could-002015876.html",
+   "published": "2026-11-06T00:20:15Z",
+   "publisher": "",
+   "summary": "Why Allied Gold’s latest earnings matter for investors Allied Gold (TSX:AAUC) just posted a swing to profit in Q3 2026, supported by higher sales, a 5% increase in gold production, and updated guidance linked to new mine output. The miner also outlined plans for shareholder return policies starting in 2027, including a potential base dividend and share buyback program. This places future cash gene",
+   "symbols": []
+  },
+  {
+   "title": "Massive tech sell-off wipes $2.5 trillion from the stock market",
+   "link": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges?.tsrc=rss",
+   "published": "2026-11-06T00:20:14Z",
+   "publisher": "",
+   "summary": "Global markets tumbled after a Wall Street rout wiped out roughly $2.5 trillion in market value Thursday on fears that Democrats’ midterm gains could put the brakes on the AI buildout.",
+   "symbols": []
+  },
+  {
+   "title": "Presentation to Munich Mining Conference",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/presentation-munich-mining-conference-002000870.html",
+   "published": "2026-11-06T00:20:00Z",
+   "publisher": "",
+   "summary": "ADELAIDE, AU / ACCESS Newswire / November 5, 2026 / (ASX:BGD)(OTC:BGDFF)(FRA:BGD3) (Barton or Company) advises that the attached presentation is due to be presented today at the Munich Mining Conference.A copy of this presentation can be accessed on the ASX website, the investor section of Barton's website, or directly by clicking here.",
+   "symbols": []
+  },
+  {
+   "title": "CleanSpark (CLSK) Slides On Texas Policy Risk, Is The 74% Undervalued View Credible?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/cleanspark-clsk-slides-texas-policy-001852815.html",
+   "published": "2026-11-06T00:18:52Z",
+   "publisher": "",
+   "summary": "CleanSpark (CLSK) is in focus after KBW cut its rating to Market Perform, linking the change to Texas election results that raised questions about future data center incentives and moratorium risks. CleanSpark has been caught in a sharp selloff, with the share price down 16.69% on the day, 30.91% over the past week, and 53.91% across the last month, as Texas policy uncertainty and weaker bitcoin p",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "AT&T, T-Mobile Are Reportedly Ready To Boot Boost Mobile If SpaceX Buys It",
+   "link": "https://stocktwits.com/news-articles/markets/equity/at-and-t-t-mobile-are-reportedly-ready-to-boot-boost-mobile-if-space-x-buys-it/cNGlEqAR94p?.tsrc=rss",
+   "published": "2026-11-06T00:15:48Z",
+   "publisher": "",
+   "summary": "Semafor’s Rohan Goswami said that AT&T and T-Mobile have discussed removing Boost Mobile from their networks if SpaceX acquires the EchoStar unit, creating a potential obstacle to Elon Musk’s push to become a major U.S. wireless carrier.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Why Is Everyone Ignoring Expand Energy Stock's High Cash Yield?",
+   "link": "https://www.trefis.com/stock/exe/articles/622830/why-is-everyone-ignoring-expand-energy-stocks-high-cash-yield/2026-11-05?.tsrc=rss",
+   "published": "2026-11-06T00:08:59Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
   {
    "title": "Dow Jones Futures Fall; Nasdaq Dives 5.5%, Nvidia, Sandisk, CoreWeave, SpaceX Plunge, But Sell-Off Spreads Beyond AI",
    "link": "https://finance.yahoo.com/m/0cd2227b-7753-3d54-a8c5-286efe82ac39/dow-jones-futures-fall%3B.html",
@@ -19,11 +264,11 @@
    ]
   },
   {
-   "title": "Anthropic faces valuation pushback on $1.5T IPO following market rout, WSJ reports",
-   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-faces-valuation-pushback-1-235917172.html",
-   "published": "2026-11-05T23:59:17Z",
+   "title": "Bloom Energy Sinks 16% Despite 900 MW NTT DATA Deal as Midterm Fears Hit AI Power Stocks",
+   "link": "https://www.tikr.com/blog/bloom-energy-sinks-16-despite-900-mw-ntt-data-deal-as-midterm-fears-hit-ai-power-stocks?ref=yahoofinance&tlnk=yf-261105-rx3xfv52&.tsrc=rss",
+   "published": "2026-11-06T00:02:30Z",
    "publisher": "",
-   "summary": "Investing.com -- Anthropic's (NASDAQ:ANT) ambition to execute a record-shattering initial public offering at a $1.5 trillion valuation faces mounting institutional resistance following a sharp, sector-wide unwinding of artificial intelligence bets, according to reporting from The Wall Street Journal. The San Francisco-based artificial intelligence developer had been targeting an offering the week ",
+   "summary": "Key TakeawaysBloom Energy fell 16% today, even after NTT DATA agreed to deploy 900 megawatts of Bloom’s onsite power. Investors fear Democrats’ win in Congress could stall the data-center buildout, and they sold the AI power trade, GE Vernova and Oklo included.",
    "symbols": [
     "SPCX",
     "BE",
@@ -31,6 +276,64 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Should You Buy SanDisk Stock For Its Cash?",
+   "link": "https://www.trefis.com/stock/sndk/articles/622855/should-you-buy-sandisk-stock-for-its-cash/2026-11-05?.tsrc=rss",
+   "published": "2026-11-06T00:01:36Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "nLight (LASR) Beats Q3 Earnings and Revenue Estimates",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nlight-lasr-beats-q3-earnings-000014173.html",
+   "published": "2026-11-06T00:00:14Z",
+   "publisher": "",
+   "summary": "nLight (LASR) delivered earnings and revenue surprises of +166.67% and +8.55%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "U.S. Shale Giants Hold Back on Drilling Despite Higher Oil Prices",
+   "link": "https://finance.yahoo.com/energy/articles/u-shale-giants-hold-back-000000183.html",
+   "published": "2026-11-06T00:00:00Z",
+   "publisher": "",
+   "summary": "Smaller producers may increase drilling, but major shale operators remain cautious despite higher-for-longer oil price expectations.",
+   "symbols": []
+  },
+  {
+   "title": "Anthropic faces valuation pushback on $1.5T IPO following market rout, WSJ reports",
+   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-faces-valuation-pushback-1-235917172.html",
+   "published": "2026-11-05T23:59:17Z",
+   "publisher": "",
+   "summary": "Investing.com -- Anthropic's (NASDAQ:ANT) ambition to execute a record-shattering initial public offering at a $1.5 trillion valuation faces mounting institutional resistance following a sharp, sector-wide unwinding of artificial intelligence bets, according to reporting from The Wall Street Journal. The San Francisco-based artificial intelligence developer had been targeting an offering the week ",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -92,11 +395,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -155,12 +458,12 @@
    "publisher": "",
    "summary": "Cardone Capital founder and entrepreneur Grant Cardone warned on Tuesday that James Talarico‘s Texas Senate race win over GOP’s Ken Paxton could pose challenges to Space Exploration Technologies Corp. as Democrats secure key victories in the midterm elections. Trouble For...",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -377,11 +680,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -668,12 +971,12 @@
    "publisher": "",
    "summary": "Goldman Sachs, Apollo Global look to sell portions of $40 billion GPU deal with SpaceX. Cathie Wood buys the dip amid AI retreat.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2972,328 +3275,6 @@
     "MRVL",
     "MU",
     "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Marvell agrees to buy Lumentum in $115B stock deal",
-   "link": "https://www.manufacturingdive.com/news/marvell-lumentum-115b-stock-deal-ai-data-centers/873783/?.tsrc=rss",
-   "published": "2026-11-05T16:09:00Z",
-   "publisher": "",
-   "summary": "The deal brings together \"complementary electrical and optical technologies\" needed for connectivity in artificial intelligence infrastructure, Marvell said in a news release.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Hilton CEO: Nasdaq a 'better home' for the hospitality company",
-   "link": "https://finance.yahoo.com/video/hilton-ceo-nasdaq-a-better-home-for-the-hospitality-company-160726073.html",
-   "published": "2026-11-05T16:07:26Z",
-   "publisher": "",
-   "summary": "Hilton (HLT) CEO Chris Nassetta joins Yahoo Finance Executive Editor Brian Sozzi to discuss the company's move to Nasdaq (NQ=F) as a bet on innovation and growth, citing AI agents to enhance physical and digital guest experiences.",
-   "symbols": []
-  },
-  {
-   "title": "Tesla’s Plunge Just Hit Millions of Index Fund Investors. Here’s How Much Your ETF Lost",
-   "link": "https://247wallst.com/investing/etf/2026/11/05/teslas-plunge-just-hit-millions-of-index-fund-investors-heres-how-much-your-etf-lost/?.tsrc=rss",
-   "published": "2026-11-05T16:03:49Z",
-   "publisher": "",
-   "summary": "You never bought a single Tesla share, yet your retirement account still felt Thursday's selloff. One popular sector fund carries far more exposure than anyone expects, and overlapping funds can quietly multiply the risk.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Astera Labs Has Slumped Since June: Why J.P. Morgan Still Sees 157% Upside",
-   "link": "https://www.tikr.com/blog/astera-labs-has-slumped-since-june-why-j-p-morgan-still-sees-157-upside?ref=yahoofinance&tlnk=yf-261105-2jhx2mwc&.tsrc=rss",
-   "published": "2026-11-05T16:03:12Z",
-   "publisher": "",
-   "summary": "Key TakeawaysAstera Labs stock is down 19% today, at about $181, and 29% over three months, even though third-quarter revenue rose 154% and fourth-quarter guidance beat analysts’ estimates. J.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Shield AI To Hit $28.8 Billion Value With $5.3 Billion Radar Acquisition",
-   "link": "https://finance.yahoo.com/technology/articles/shield-ai-hit-28-8-160003152.html",
-   "published": "2026-11-05T16:00:03Z",
-   "publisher": "",
-   "summary": "Defense tech startup set to acquire Echodyne Corp., which sells radar sensors to government and commercial customers.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Circularity Fuels Closes $7M Seed Round to Scale Jet Fuel Made from Dairy Biogas",
-   "link": "https://finance.yahoo.com/energy/articles/circularity-fuels-closes-7m-seed-160000198.html",
-   "published": "2026-11-05T16:00:00Z",
-   "publisher": "",
-   "summary": "REDWOOD CITY, Calif., November 05, 2026--Circularity Fuels, which earlier this year completed the world’s first end-to-end conversion of raw biogas from dairy manure into sustainable aviation fuel (SAF), today announced it has closed a $7 million seed round led by Trucks and DCVC, with participation from Sum Ventures and Automotive Ventures.",
-   "symbols": []
-  },
-  {
-   "title": "Nasdaq on Track for a Correction as an AI Bloodbath Tanks Stocks",
-   "link": "https://finance.yahoo.com/m/15936d27-6104-3e42-b32a-2f50f607baee/nasdaq-on-track-for-a.html",
-   "published": "2026-11-05T15:59:36Z",
-   "publisher": "",
-   "summary": "The Nasdaq Composite will enter correction territory if losses last in what's shaping up to be an AI bloodbath on Wall Street.",
-   "symbols": []
-  },
-  {
-   "title": "Stocks Reverse Post-Midterm Gains as Jitters Return and the AI Trade Unravels. Nasdaq Plunges into Correction Territory.",
-   "link": "https://www.ibtimes.com/stocks-plunge-ai-shares-texas-data-center-regulation-3809454?.tsrc=rss",
-   "published": "2026-11-05T15:57:37Z",
-   "publisher": "",
-   "summary": "Stocks related to the AI trade are suffering the most.",
-   "symbols": []
-  },
-  {
-   "title": "The VIX Hasn't Surged Like This Since Trump Tariff Chaos",
-   "link": "https://finance.yahoo.com/m/01487e80-7473-3739-be36-8450cbbae8b1/the-vix-hasn%27t-surged-like.html",
-   "published": "2026-11-05T15:53:01Z",
-   "publisher": "",
-   "summary": "Wall Street's volatility gauge just skyrocketed, a troubling sign as to what's ahead.",
-   "symbols": []
-  },
-  {
-   "title": "Eli Lilly and Company’s (LLY) GLP-1 Franchise Faces Growing Price Competition",
-   "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-company-lly-glp-155250940.html",
-   "published": "2026-11-05T15:52:50Z",
-   "publisher": "",
-   "summary": "Baron Capital, an investment management company, released its Q3 2026 investor letter for the “Baron Health Care Fund”. The letter can be downloaded here. During the quarter ended September 30, 2026, Baron Health Care Fund® advanced 4.02%, underperforming the Russell 3000 Health Care Index’s 6.19% gain. Since its inception, the Fund’s annualized growth is 10.80%, […]",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "QQQ key support and resistance levels to watch",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/qqq-key-support-resistance-levels-155146068.html",
-   "published": "2026-11-05T15:51:46Z",
-   "publisher": "",
-   "summary": "Investing.com -- Invesco QQQ Trust (QQQ) is at $661.58, down 4.39%, as of Nov 5, 2026 at 10:20 AM EST. The daily technical gauge is Strong Sell, while RSI is 29.7, signaling oversold momentum rather than a confirmed reversal.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "What Just Happened To CDW Stock?",
-   "link": "https://www.trefis.com/stock/cdw/articles/623013/what-just-happened-to-cdw-stock/2026-11-05?.tsrc=rss",
-   "published": "2026-11-05T15:49:21Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "AppLovin’s Surge Is a Rare Bright Spot for Growth ETF Holders",
-   "link": "https://247wallst.com/investing/etf/2026/11/05/applovins-surge-is-a-rare-bright-spot-for-growth-etf-holders/?.tsrc=rss",
-   "published": "2026-11-05T15:45:06Z",
-   "publisher": "",
-   "summary": "One stock is soaring more than 30% while the rest of tech sinks, yet the funds that millions of retirement savers rely on barely feel it. Why do three different ETFs leave investors so exposed on the same day?",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Chip Stocks Nosedive, Tanking the Rest of the Market",
-   "link": "https://finance.yahoo.com/m/926def34-4f0c-337f-a2e0-0fa675ef254e/chip-stocks-nosedive%2C-tanking.html",
-   "published": "2026-11-05T15:41:34Z",
-   "publisher": "",
-   "summary": "The AI selloff has taken the reigns.",
-   "symbols": []
-  },
-  {
-   "title": "‘Help! My Kid’s a Zillionaire!’",
-   "link": "https://finance.yahoo.com/m/83afaec4-ff50-31ad-bfba-f50e16862cf3/%E2%80%98help%21-my-kid%E2%80%99s-a.html",
-   "published": "2026-11-05T15:41:00Z",
-   "publisher": "",
-   "summary": "Lots of young people are getting rich off Anthropic’s pending IPO and other deals. What’s a parent to do?",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Port Announces PortCon - the First AI Software Factory Summit",
-   "link": "https://finance.yahoo.com/technology/ai/articles/port-announces-portcon-first-ai-153800616.html",
-   "published": "2026-11-05T15:38:00Z",
-   "publisher": "",
-   "summary": "Port, the open AI Software Factory platform, today announced The AI Software Factory Summit, taking place Nov. 17-18, 2026 at SHACK15 in San Francisco. The event features AI software factory use cases and insights from leading technology companies, including NVIDIA, GitHub, SpaceX, Uber and Expedia. Attendees will see how these teams run AI in production and learn what has worked, what hasn't, and",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Anthropic Is Going Public, and You Might Be Able to Buy the Stock at Its IPO Price",
-   "link": "https://finance.yahoo.com/m/e60c3058-f057-3fea-aa61-39650ed1a7f8/anthropic-is-going-public%2C.html",
-   "published": "2026-11-05T15:37:00Z",
-   "publisher": "",
-   "summary": "The artificial intelligence company intends to allocate a portion of IPO shares to customers of some of the nation’s largest brokerage firms.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Nvidia Stock Is Below $200. What History Suggests Is the Floor.",
-   "link": "https://finance.yahoo.com/m/c9f327b9-16c5-3a50-a74d-937a12644740/nvidia-stock-is-below-%24200..html",
-   "published": "2026-11-05T15:35:00Z",
-   "publisher": "",
-   "summary": "Nvidia stock has hit a three-month low. Here's where its record suggests the slide should stop.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Better Space Stock: Rocket Lab vs. AST SpaceMobile (Hint: It Comes Down to Dilution)",
-   "link": "https://www.fool.com/investing/2026/11/05/better-space-stock-rocket-lab-vs-ast-spacemobile/?.tsrc=rss",
-   "published": "2026-11-05T15:35:00Z",
-   "publisher": "",
-   "summary": "Sustainable business models are the key to staying alive in the commercial space race.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "BC-Most Active Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153422188.html",
-   "published": "2026-11-05T15:34:22Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change Lakewood Amedex Biotherap.",
-   "symbols": []
-  },
-  {
-   "title": "1911 Gold reports more underground drilling progress at True North ahead of potential 2027 restart",
-   "link": "https://finance.yahoo.com/video/1911-gold-reports-more-underground-153344666.html",
-   "published": "2026-11-05T15:33:44Z",
-   "publisher": "",
-   "summary": "1911 Gold Corporation CEO Shaun Heinrichs joined Steve Darling from Proactive to discuss additional assay results from the company's ongoing underground infill and delineation drilling program at the True North Gold Project in Manitoba, where exploration is focused on strengthening mineral resources targeted for the early years of a potential mine restart. Heinrichs told Proactive that the latest ",
-   "symbols": []
-  },
-  {
-   "title": "SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out",
-   "link": "https://finance.yahoo.com/markets/article/spacex-tesla-stocks-tumble-as-democratic-sweep-raises-questions-on-merger-prospects-ai-buildout-153753814.html",
-   "published": "2026-11-05T15:30:32Z",
-   "publisher": "",
-   "summary": "SpaceX and Tesla extended declines on Thursday.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Good Intentions Don't Count; Measured Plastic Does",
-   "link": "https://finance.yahoo.com/economy/articles/good-intentions-dont-count-measured-153000301.html",
-   "published": "2026-11-05T15:30:00Z",
-   "publisher": "",
-   "summary": "NEW YORK CITY, NY / ACCESS Newswire / November 5, 2026 / The economics of plastic have turned recycling from an act of corporate responsibility into a financial imperative. SMX sits at the center of that shift, providing the authentication and traceability technology that allows recycled plastic to function as a trusted industrial material.",
-   "symbols": []
-  },
-  {
-   "title": "Will Earnings Beat Change Newmont Stock Narrative",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-change-newmont-stock-151729340.html",
-   "published": "2026-11-05T15:17:29Z",
-   "publisher": "",
-   "summary": "Newmont Corporation reported third quarter 2026 sales of US$6,363 million and net income of US$2,475 million, alongside updated production guidance and a declared US$0.26 quarterly dividend. The combination of stronger profitability, lower cost guidance and reaffirmed gold output targets highlights how Newmont is working to tighten its operating discipline while still returning cash to shareholder",
-   "symbols": []
-  },
-  {
-   "title": "Stock Market Today: Nasdaq Craters 3% As Chips Sell Off; Arm Misses Key Metric (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/38cb0654-6e49-3715-b4e4-f2f830876d7a/stock-market-today%3A-nasdaq.html",
-   "published": "2026-11-05T15:16:19Z",
-   "publisher": "",
-   "summary": "The Dow Jones index rises Thursday after the postelection rally. Cava and Dutch Bros plunge on earnings.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
     "XRP"
    ]
   }
