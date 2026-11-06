@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-06T14:56:12Z",
+ "builtAt": "2026-11-06T15:56:31Z",
  "digests": [
   {
    "calendar": [
@@ -781,6 +781,98 @@
      "title": "Nagybefektetők kételkednek, hogy az Anthropic 1500 milliárd dolláros értéken tőzsdére mehet az MI-összeomlás után",
      "url": "https://247wallst.com/investing/2026/11/06/big-investors-now-doubt-anthropic-can-ipo-at-1-5-trillion-after-the-ai-crash/?.tsrc=rss",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-06T15:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · IBTimes",
+     "summary": "Az IBTimes szerint a Magnificent Seven részvényei együtt mintegy 1000 milliárd dollárnyi piaci értéket veszítettek; az Nvidia egyedül több mint 440 milliárdot. Az amerikai indexek a legrosszabb napjukat zárták 2025 áprilisa óta.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "A „Csodás Hetek” együtt több mint 1000 milliárd dollárt vesztett a techkiárusításban",
+     "url": "https://www.ibtimes.com/tech-stocks-ai-spending-fears-market-selloff-3809480?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-06T15:45:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az októberi, vártnál jóval erősebb amerikai foglalkoztatási adat után a piacok nagyobb eséllyel számolnak újabb Fed-kamatemeléssel.",
+     "symbols": [
+      "VOO",
+      "QQQ"
+     ],
+     "title": "A kereskedők növelték a Fed-kamatemelésre tett téteket az erős munkaerőpiaci jelentés után",
+     "url": "https://www.investing.com/news/economy-news/traders-raise-bets-of-fed-rate-hike-after-jobs-report-5008229",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-06T15:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a spanyol miniszterelnök-helyettes bejelentette: az ország a volt jegybankelnököt jelöli az EKB elnöki posztjára. A jelölés a Lagarde-utódlási folyamat része.",
+     "symbols": [],
+     "title": "Spanyolország Hernández de Cost jelölte az EKB elnöki posztjára",
+     "url": "https://www.investing.com/news/economy-news/spain-nominates-former-central-bank-head-de-cos-for-ecb-presidency-deputy-pm-says-5008585",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-06T15:45:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg értesülései szerint az EKB mérlegeli az adatközpont-finanszírozású bankhitelek felülvizsgálatát. Külön megerősítést nem találtam; az EKB februárban már kért adatokat egyes bankoktól az MI-kitettségről.",
+     "symbols": [],
+     "title": "Az EKB a Bloomberg szerint felülvizsgálná az adatközpontokhoz kötődő banki hitelezést",
+     "url": "https://www.investing.com/news/stock-market-news/ecb-mulls-review-of-bank-lending-tied-to-data-centers--bloomberg-93CH-5008498",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-06T15:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (források)",
+     "summary": "A Reuters exkluzív híre szerint névtelen források állítják, hogy a hálózati cég az eladását vizsgálja. A cég nem erősítette meg; független megerősítést nem találtam.",
+     "symbols": [],
+     "title": "Értesülések szerint az Extreme Networks eladását mérlegeli",
+     "url": "https://www.investing.com/news/stock-market-news/exclusivenetworking-firm-extreme-networks-explores-sale-sources-say-5008457",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-06T15:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga (Musk X-bejegyzése)",
+     "summary": "A Benzinga szerint Elon Musk pénteken azt írta, hogy a SoftBank nem teljesíti a turbinamegrendeléseit, miközben a SoftBank részvénye 10,8%-ot zuhant. A SoftBank részéről nem találtam megerősítést vagy cáfolatot.",
+     "symbols": [],
+     "title": "Musk szerint a SoftBank nem teljesíti a turbinamegrendeléseit; a SoftBank 10,8%-ot esett",
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62977060/musk-softbank-turbines?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-06T15:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A 24/7 Wall St. szerint a Marvell saját, teljes egészében részvényalapú felvásárlása váltotta ki a legnagyobb esést az MI-chipcégek között. Külön megerősítést nem találtam.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A Marvell egy hónap alatt 50%-ot esett; egyetlen elemző sem ajánl eladást",
+     "url": "https://247wallst.com/investing/2026/11/06/marvell-drops-50-in-one-month-this-analyst-stands-pat-on-195-gains-prediction/?.tsrc=rss",
+     "verified": false
     }
    ],
    "markets": [
@@ -807,7 +899,7 @@
     }
    ],
    "summary": "A csütörtöki Wall Street-i kiárusítás a Nasdaqot 5,5%-kal korrekciós zónába, az S&P 500-at 4,4%-kal lejjebb vitte, a chipszektor vezette a zuhanást, mert a piac a demokrata kongresszus alatti szigorúbb MI-adatközpont-szabályozástól tart. Pénteken Ázsia követte: a Nikkei 6–7%-ot, a KOSPI 8%-ot esett, utóbbinál kereskedési szünet volt. Az olaj az iráni háború kockázata miatt visszapattant, de heti szinten nagyot esik; az arany a dollár gyengülése mellett erősödik. Iránról Reuters-értesülés szerint javaslat érkezett az USA-nak Katarán át. 14:30-kor jelenik meg az októberi amerikai munkaerőpiaci jelentés (konszenzus kb. 65 ezer új állás).",
-   "updatedAt": "2026-11-06T14:40:00Z",
+   "updatedAt": "2026-11-06T15:45:00Z",
    "watchlist": []
   },
   {
