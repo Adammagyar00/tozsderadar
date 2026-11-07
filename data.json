@@ -1,6 +1,196 @@
 {
- "builtAt": "2026-11-06T20:56:04Z",
+ "builtAt": "2026-11-07T06:55:59Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 10.",
+     "event": "Amerikai CPI (október), magyar infláció (KSH)"
+    },
+    {
+     "date": "nov. 12.",
+     "event": "Cisco gyorsjelentés"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "Nvidia gyorsjelentés, MNB kamatdöntés"
+    },
+    {
+     "date": "dec. 1.",
+     "event": "ISM feldolgozóipari PMI"
+    }
+   ],
+   "date": "2026-11-07",
+   "generatedAt": "2026-11-07T06:48:10Z",
+   "headline": "Szombati összefoglaló: a Wall Street rossz hetet zárt, jövő héten az amerikai infláció és a Cisco-jelentés a fókusz",
+   "items": [
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Roku 8-K (SEC)",
+     "summary": "A Roku az SEC-nek benyújtott 8-K bejelentése szerint november 6-án a Fox Corporation teljes tulajdonú leányvállalata lett. A június közepén bejelentett, mintegy 22 milliárd dolláros üzlet a korábban jelzett, 2027 első félévére várt zárásnál jóval korábban megvalósult.",
+     "symbols": [],
+     "title": "A Fox lezárta a Roku felvásárlását, a Roku részvényének kereskedése megszűnik a Nasdaqon",
+     "url": "https://www.investing.com/news/sec-filings/fox-completes-acquisition-of-roku-trading-to-be-halted-on-nasdaq-93CH-5009407",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters / Bloomberg",
+     "summary": "A Bloomberg és a Reuters hivatkozása szerint az OpenAI 11 milliárd dolláros finanszírozást szerzett 1250 milliárd dolláros értékelés mellett. A Wall Street Journal szerint ez kevesebb mint fele az eredetileg célzott 30 milliárd dollárnak, és az értékelés is alacsonyabb az eredetileg tervezett 1400 milliárd dollárnál.",
+     "symbols": [],
+     "title": "Bloomberg: az OpenAI 11 milliárd dollárt gyűjtött 1250 milliárd dolláros értéken",
+     "url": "https://www.investing.com/news/stock-market-news/openai-secures-11-billion-funding-at-125-trillion-valuation-bloomberg-news-reports-5009182",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint Donald Harrison, a Google vezetője lemondott a SpaceX igazgatótanácsi tagságáról. Musk indoklása szerint a lépés mögött az Alphabettel kapcsolatos érdekellentétek állnak. Az Alphabet a SpaceX egyik jelentős részvényese.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Google vezetője kilép a SpaceX igazgatótanácsából; Musk az Alphabettel fennálló összeférhetetlenséget említette",
+     "url": "https://www.investing.com/news/stock-market-news/google-executive-donald-harrison-resigns-from-spacex-board-5009426",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Barron's",
+     "summary": "Ron Baron éves befektetői konferenciáján Musk azt mondta, a SpaceX eladásai „robbanásszerűen” nőnek, és a Wall Street becslésének kétszeresét kitevő bevételt jelzett. A 247WallSt szerint az elemzők egyike sem becsül ennyit, Musk pedig maga is csak legjobb tippnek nevezte az előrejelzést.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Musk: a SpaceX bevétele a Wall Street-i becslések kétszerese lehet, az eladások „robbanásszerűen” nőnek",
+     "url": "https://finance.yahoo.com/m/33f9fc20-fa78-3956-8228-680794206f3a/elon-musk-says-spacex-sales.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az S&P 500 a héten 2,7%-ot esett, elsősorban az energia- és technológiai szektor gyengélkedése miatt. A péntek-esti tőzsdezárás a csütörtöki mély zuhanás után részleges visszapattanást hozott, a Nasdaq 264 pontot erősödött.",
+     "symbols": [
+      "VOO",
+      "QQQ"
+     ],
+     "title": "Az S&P 500 a heti 2,7%-os esés után az áprilisi 2025 óta legrosszabb hetét zárta",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-weekly-drop-214616427.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint a dollár az amerikai munkaerőpiaci adat nyomán a júniusi óta legjobb napját zárta, és heti emelkedés felé tart. A 165 ezres októberi munkahelybővülés a Fed-kamatemelési fogadásokat is erősítette.",
+     "symbols": [],
+     "title": "A dollár a júniusi óta legjobb napját zárta az erős amerikai munkaerőpiaci jelentés után",
+     "url": "https://www.investing.com/news/forex-news/asian-fx-mixed-as-yen-gains-on-risk-aversion-taiwan-dollar-breaks-33-amid-ai-rout-5006410",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A kínai jegybank októberben is vásárolt aranyat, így az aranyvásárlási sorozat már két éve tart. A sárga fém októberi esése a 2008 óta legnagyobb volt egy októberi hónapban.",
+     "symbols": [],
+     "title": "Kína 24. hónapja is növelte aranytartalékát, miközben az arany ára 4000 dollár alá esett",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/china-extends-gold-buying-streak-041505328.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint Trump az iráni tárgyalásokon elért előrelépést említett, ugyanakkor a Hormuzi-szorosnál folytatódó támadások bizonytalanná teszik a folyamatot. Az olajpiac az elmúlt napokban a béke reményei és a támadások hírei között ingadozott.",
+     "symbols": [],
+     "title": "Trump az iráni béke előrehaladását jelezte, miközben a hormuzi támadások veszélyeztetik a tárgyalásokat",
+     "url": "https://www.investing.com/news/economy-news/trump-signals-iran-peace-progress-as-hormuz-attacks-threaten-talks-5009635",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Kristalina Georgieva a Reuters beszámolója szerint azt mondta, hogy az MI-beruházásokra épülő növekedés lassulása tényező lenne a jegybankok döntéseiben. Az IMF vezetője korábban az olajár-sokk és az MI-beruházási boom közötti feszültségre is figyelmeztetett.",
+     "symbols": [],
+     "title": "Az IMF vezetője: az MI-vezérelt növekedés bármilyen lassulása számítana a jegybankoknak",
+     "url": "https://www.investing.com/news/economy-news/imfs-georgieva-says-any-slowdown-in-aidriven-growth-would-be-factor-for-central-banks-5009427",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg információi szerint a Groq új finanszírozási körben mintegy 8 milliárd dolláros értékelést keres. A mesterségesintelligencia-chipekkel foglalkozó cég az augusztusi, 3,5 milliárd dolláros értékelésű körhöz képest többszörös emelkedést céloz; az információt más forrás nem erősítette meg.",
+     "symbols": [],
+     "title": "Bloomberg: az Nvidia-támogatta Groq új körben 8 milliárd dolláros értékelést keres",
+     "url": "https://www.investing.com/news/stock-market-news/nvidiabacked-groq-seeks-8-billion-valuation-in-new-funding-round--bloomberg-5009486",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "FXStreet · CoinTurk",
+     "summary": "Az FXStreet és a CoinTurk szerint a HYPE péntek reggel kb. 8%-ot gyengült, 80 dollár alá. A Hyperliquid Strategies (PURR) a jelentések szerint amerikai határidős közvetítői (FCM) státuszt kért, hogy amerikai ügyfeleket is kiszolgálhasson. Az esésnek egyéb, konkrét kiváltó oka nem ismert.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "A Hyperliquid-token 8%-ot esett, miután a Hyperliquid Strategies amerikai árutőzsdei közvetítői engedélyt kért",
+     "url": "https://fxstreet.com/cryptocurrencies/news/hype-price-forecast-hyperliquid-strategies-seeks-us-approval-for-perpetual-futures-202611060554",
+     "verified": false
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "CNBC · LSEG",
+     "summary": "A CNBC heti előzetese szerint kedden érkezik az októberi amerikai inflációs adat, csütörtökön pedig a Cisco jelent. Az LSEG adatai szerint a határidős piac mintegy 65%-os eséllyel árazza a Fed decemberi kamatemelését. A kötvénypiac szerdán, a veteránnap miatt zárva tart.",
+     "symbols": [],
+     "title": "Jövő héten az amerikai infláció és a Cisco gyorsjelentése áll a fókuszban; a decemberi Fed-emelésre ~65% az esély",
+     "url": "https://www.cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "Az S&P 500 2,7%-ot esett a héten, ez az áprilisi 2025 óta a legrosszabb heti teljesítménye, bár pénteken a technológiai részvények részben visszapattantak. Az erős októberi munkaerőpiaci adat után a dollár erősödött, a piac mintegy 65%-os eséllyel árazza a Fed decemberi kamatemelését. A SpaceX-nél a Google vezetője kilépett az igazgatótanácsból, Musk pedig a Wall Street becsléseinél jóval nagyobb bevételt jelzett. A hétvégén a hormuzi támadások és az iráni tárgyalások hírei az olajpiac fő bizonytalansági tényezői; kedden jön az amerikai CPI.",
+   "updatedAt": "2026-11-07T06:48:10Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -10886,6 +11076,22 @@
    "type": "Makroadat",
    "url": "https://www.bea.gov/news/schedule",
    "id": "2026-11-25-us-gdp-pce"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-01",
+   "event": "ISM feldolgozóipari PMI, november",
+   "forecast": "",
+   "importance": 2,
+   "note": "Az ISM hivatalos kiadási naptára szerint december 1., 10:00 ET.",
+   "previous": "",
+   "source": "ISM",
+   "symbols": [],
+   "time": "16:00",
+   "type": "Makroadat",
+   "url": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+   "id": "2026-12-01-us-ism-mfg"
   },
   {
    "actual": "",
