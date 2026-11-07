@@ -1,13 +1,30 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-07T16:13:38Z",
+ "updatedAt": "2026-11-07T17:12:46Z",
  "items": [
   {
-   "title": "Anthropic Could Postpone Its $1.5 Trillion IPO, Per One Investor, As Market Sours On AI Trade. Another Says It Could End Up Closer To $1 Trillion",
-   "link": "https://247wallst.com/investing/2026/11/07/anthropic-could-postpone-its-1-5-trillion-ipo-per-one-investor-as-market-sours-on-ai-trade-another-says-it-could-end-up-closer-to-1-trillion/?.tsrc=rss",
-   "published": "2026-11-07T15:58:25Z",
+   "title": "AI Stocks Are Falling; Bitcoin Is Holding Ground. Here's What Could Come Next.",
+   "link": "https://www.fool.com/investing/2026/11/07/ai-stocks-are-falling-bitcoin-is-holding-ground/?.tsrc=rss",
+   "published": "2026-11-07T16:51:00Z",
    "publisher": "",
-   "summary": "A brutal Thursday selloff just handed Wall Street's biggest buyers the upper hand over the largest IPO ever attempted. Now the question for everyday investors is whether the price, the size, or the date gives way first.",
+   "summary": "Bitcoin's relative stability amid market turbulence portends well for its future.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "AST SpaceMobile Is Building Its Own Reusable Rocket to Rely Less on SpaceX",
+   "link": "https://247wallst.com/investing/2026/11/07/ast-spacemobile-is-building-its-own-reusable-rocket-to-rely-less-on-spacex/?.tsrc=rss",
+   "published": "2026-11-07T16:49:42Z",
+   "publisher": "",
+   "summary": "AST SpaceMobile wants its own rocket, and Firefly is cashing in before a single engine fires. The deal could cost shareholders more than dilution, and the satellites that actually earn revenue still sit on the ground.",
    "symbols": [
     "SPCX",
     "BE",
@@ -15,6 +32,79 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "ECB’s Lagarde says inflation to stay high, sees little reason to alter rate course",
+   "link": "https://finance.yahoo.com/economy/policy/articles/ecb-lagarde-says-inflation-stay-164342748.html",
+   "published": "2026-11-07T16:43:42Z",
+   "publisher": "",
+   "summary": "Investing.com - Euro zone inflation will remain elevated over the coming quarters, European Central Bank President Christine Lagarde said, signaling that it would take \"significant changes\" to deter policymakers from raising interest rates again in December.",
+   "symbols": []
+  },
+  {
+   "title": "Prediction: These Are the 3 Biggest Threats Facing SpaceX in 2027",
+   "link": "https://www.fool.com/investing/2026/11/07/prediction-these-are-the-3-biggest-spacex-threats/?.tsrc=rss",
+   "published": "2026-11-07T16:33:00Z",
+   "publisher": "",
+   "summary": "Elon Musk may have scored another own goal.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "$1,000 in Bitcoin or XRP: Which Is Worth More by 2030?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/07/1000-in-bitcoin-or-xrp-which-is-worth-more-by-2030/?.tsrc=rss",
+   "published": "2026-11-07T16:31:54Z",
+   "publisher": "",
+   "summary": "Both coins have slumped this month, but one sits much farther from its peak while the other has a stronger ETF story. Six 2030 scenarios show how a $1,000 bet could split, and why the bigger upside may come with a catch.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "3 Top Picks With At Least 2% Dividend Yield",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-top-picks-least-2-160951965.html",
+   "published": "2026-11-07T16:09:51Z",
+   "publisher": "",
+   "summary": "The recent US midterm election shock pulled attention and capital away from AI heavyweights and oil producers. That shift puts the spotlight back on steady, low carbon power sources like nuclear energy that can run regardless of politics or fuel headlines. For investors, this creates an opening to reassess long term clean power exposure. This article examines three nuclear focused stocks that may ",
+   "symbols": []
+  },
+  {
+   "title": "Should Expanded Glenburgh Drilling Require Action From Benz Mining (TSXV:BZ) Investors?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/expanded-glenburgh-drilling-require-action-160911974.html",
+   "published": "2026-11-07T16:09:11Z",
+   "publisher": "",
+   "summary": "Benz Mining advanced work at its Glenburgh Gold Project in Western Australia after reporting encouraging drilling results and securing A$150 million in August 2026 to fund what it describes as one of the largest gold exploration programs in the country. The decision to ramp up to 14 drill rigs and aim for a maiden mineral resource in the first half of 2027 signals a clear operational focus on defi",
+   "symbols": []
+  },
+  {
+   "title": "Anthropic Could Postpone Its $1.5 Trillion IPO, Per One Investor, As Market Sours On AI Trade. Another Says It Could End Up Closer To $1 Trillion",
+   "link": "https://247wallst.com/investing/2026/11/07/anthropic-could-postpone-its-1-5-trillion-ipo-per-one-investor-as-market-sours-on-ai-trade-another-says-it-could-end-up-closer-to-1-trillion/?.tsrc=rss",
+   "published": "2026-11-07T15:58:25Z",
+   "publisher": "",
+   "summary": "A brutal Thursday selloff just handed Wall Street's biggest buyers the upper hand over the largest IPO ever attempted. Now the question for everyday investors is whether the price, the size, or the date gives way first.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -60,11 +150,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -126,11 +216,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2804,112 +2894,6 @@
    "publisher": "",
    "summary": "The market hates empty spaces. But there are plenty of open calendar pages coming up. And that puts the year-end rally back in focus.",
    "symbols": []
-  },
-  {
-   "title": "After the Midterm Rally, the Dow Is on Track to Beat the Nasdaq for the First Time Since 2022. Here's What History Says Could Come Next.",
-   "link": "https://www.fool.com/investing/2026/11/06/after-the-midterm-rally-the-dow-is-on-track-to-bea/?.tsrc=rss",
-   "published": "2026-11-06T19:50:00Z",
-   "publisher": "",
-   "summary": "The Dow tends to outperform the Nasdaq during growth stock-driven sell-offs.",
-   "symbols": []
-  },
-  {
-   "title": "Eli Lilly Picks Hims & Hers to Sell Its Obesity Drugs, Days Before Hims Reports",
-   "link": "https://www.tikr.com/blog/eli-lilly-picks-hims-hers-to-sell-its-obesity-drugs-days-before-hims-reports?ref=yahoofinance&tlnk=yf-261106-2f783gv8&.tsrc=rss",
-   "published": "2026-11-06T19:40:24Z",
-   "publisher": "",
-   "summary": "Key TakeawaysEli Lilly will let Hims & Hers sell its Zepbound and Foundayo obesity drugs directly on its platform, and Hims shares rose 4% today. Novo Nordisk’s drugs are already on the platform, so Hims now sells branded drugs from both leading GLP-1 makers.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Elon Musk's longtime backer exits Tesla after 13-fold gain",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-longtime-backer-exits-192753973.html",
-   "published": "2026-11-06T19:27:53Z",
-   "publisher": "",
-   "summary": "Scottish Mortgage Investment Trust also reduced its SpaceX exposure after years of gains from Elon Musk's companies.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "AST SpaceMobile Soars 7% on $1.3 Billion Rocket Plan Promising “Unconstrained Access to Orbit”",
-   "link": "https://www.tikr.com/blog/ast-spacemobile-soars-7-on-1-3-billion-rocket-plan-promising-unconstrained-access-to-orbit?ref=yahoofinance&tlnk=yf-261106-mhjpg9p6&.tsrc=rss",
-   "published": "2026-11-06T19:27:22Z",
-   "publisher": "",
-   "summary": "Key TakeawaysAST SpaceMobile rose 7% on plans for its own reusable rocket, with Firefly Aerospace engines under a deal worth more than $1. 3 billion.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Google Is Spending $17 Billion on a Wyoming Data Center and Says It Will Pay for 100% of Its Power",
-   "link": "https://247wallst.com/investing/2026/11/06/google-is-spending-17-billion-on-a-wyoming-data-center-and-says-it-will-pay-for-100-of-its-power/?.tsrc=rss",
-   "published": "2026-11-06T19:26:29Z",
-   "publisher": "",
-   "summary": "Google just answered the loudest objection to AI data centers, yet the market barely noticed and one key supplier tumbled. The fine print on who supplies the power, and what the pledge leaves out, may matter more than the headline.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Eli Lilly Strikes Surprising Deal With Hims & Hers",
-   "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-strikes-surprising-deal-192531796.html",
-   "published": "2026-11-06T19:25:31Z",
-   "publisher": "",
-   "summary": "Wall Street sees opportunity, but profitability questions remain unresolved.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Texas Gov.-Elect Gina Hinojosa Just Delivered Fantastic News for SpaceX Investors",
-   "link": "https://www.fool.com/investing/2026/11/06/texas-gov-elect-gina-hinojosa-just-delivered-fanta/?.tsrc=rss",
-   "published": "2026-11-06T19:20:00Z",
-   "publisher": "",
-   "summary": "Democrat Gina Hinojosa defeated Republican incumbent Greg Abbott in the Texas governor's race.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
