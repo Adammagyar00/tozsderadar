@@ -1,7 +1,90 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-07T00:10:12Z",
+ "updatedAt": "2026-11-07T01:00:11Z",
  "items": [
+  {
+   "title": "New York-based miner sells $192M Bitcoin for AI",
+   "link": "https://www.thestreet.com/crypto/markets/new-york-based-miner-sells-192m-bitcoin-for-ai?.tsrc=rss",
+   "published": "2026-11-07T00:56:00Z",
+   "publisher": "",
+   "summary": "Keel has sold almost all its bitcoin. Its replacement business still needs leases.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Eli Lilly Is Much More Than a Weight-Loss Drug Company. Here's the Evidence",
+   "link": "https://www.fool.com/investing/2026/11/06/eli-lilly-is-much-more-than-a-weight-loss-drug-company-here-s-the-evidence/?.tsrc=rss",
+   "published": "2026-11-07T00:38:02Z",
+   "publisher": "",
+   "summary": "Eli Lilly could thrive even as competition in the weight-loss market intensifies.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "5 Best Memory Stocks to Buy According to Billionaires",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-memory-stocks-buy-003110873.html",
+   "published": "2026-11-07T00:31:10Z",
+   "publisher": "",
+   "summary": "In the first half of the year, memory was the hottest AI trade. Hyperscalers poured billions of dollars into data centers where high-bandwidth memory was one of the tightest bottlenecks in the supply chain. Most of the memory stocks rallied as a result, though the returns have been muted in the second half of the […]",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Is Artemis Gold (TSXV:ARTG) Fully Valued After Earnings And Blackwater Progress?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/artemis-gold-tsxv-artg-fully-001256630.html",
+   "published": "2026-11-07T00:12:56Z",
+   "publisher": "",
+   "summary": "Artemis Gold (TSXV:ARTG) just put fresh numbers on the table. Third quarter earnings, Blackwater mine progress and a growing dividend now sit at the center of the investment story. Artemis Gold’s recent earnings update and Blackwater milestones have coincided with a 7 day share price return of 13.71% and a 1 day move of 2.96% to CA$40.64. The 1 year total shareholder return of 18.12% and very larg",
+   "symbols": []
+  },
+  {
+   "title": "Jim Cramer Says the AI Sell-Off “Is Not Like 2000.” Here’s His Case",
+   "link": "https://247wallst.com/investing/2026/11/06/jim-cramer-says-the-ai-sell-off-is-not-like-2000-heres-his-case/?.tsrc=rss",
+   "published": "2026-11-07T00:09:10Z",
+   "publisher": "",
+   "summary": "Data center stocks are tumbling and the Nasdaq has slipped into correction, yet Jim Cramer insists this is no repeat of the dot-com crash. He sees one real threat hiding in the debt, and a few warning signs could prove him wrong.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
   {
    "title": "Kumocast.io Launches Free Live Trading Signals and Price Predictions for Forex, Gold, Oil, Indices and Stocks, Refreshed Every 30 Minutes",
    "link": "https://finance.yahoo.com/markets/currencies/articles/kumocast-io-launches-free-live-234945016.html",
@@ -60,11 +143,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -109,11 +192,11 @@
    "symbols": []
   },
   {
-   "title": "Google-backed miner reveals $710M profit, operating loss surges 257%",
-   "link": "https://www.thestreet.com/crypto/markets/google-backed-miners-710-million-profit-masks-operating-losses?.tsrc=rss",
-   "published": "2026-11-06T23:30:00Z",
+   "title": "Eric Trump Likens Bitcoin's Latest Spike Above $81,000 as 'Almost Like a Flight to Security' After Democrats Take Congress",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/eric-trump-likens-bitcoins-latest-233007831.html",
+   "published": "2026-11-06T23:30:07Z",
    "publisher": "",
-   "summary": "TeraWulf’s AI business is growing fast. Its earnings still require a closer look.",
+   "summary": "American Bitcoin Corp. co-founder Eric Trump said on Wednesday that Bitcoin’s latest spike reflected the new reality of a “split government” after Democrats won both chambers of Congress. Midterm Results a Bullish Catalyst for BTC? Bitcoin rose sharply from $77,000...",
    "symbols": [
     "BTC",
     "ETH",
@@ -123,6 +206,23 @@
     "LLY",
     "MU",
     "MRVL"
+   ]
+  },
+  {
+   "title": "Google-backed miner reveals $710M profit, operating loss surges 257%",
+   "link": "https://www.thestreet.com/crypto/markets/google-backed-miners-710-million-profit-masks-operating-losses?.tsrc=rss",
+   "published": "2026-11-06T23:30:00Z",
+   "publisher": "",
+   "summary": "TeraWulf’s AI business is growing fast. Its earnings still require a closer look.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -164,12 +264,12 @@
    "publisher": "",
    "summary": "Artificial intelligence (AI) stocks are plunging following the results of the midterm elections.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -378,6 +478,23 @@
    ]
   },
   {
+   "title": "Nvidia Stock, Other AI Names Rebound After Sell-Off",
+   "link": "https://finance.yahoo.com/m/870e9d6a-dbbb-3380-9680-17f32e5017a1/nvidia-stock%2C-other-ai-names.html",
+   "published": "2026-11-06T22:00:32Z",
+   "publisher": "",
+   "summary": "Nvidia and other chip stocks exposed to the AI data center buildout rebounded on Friday after a hard sell-off.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
    "title": "Liberty Gold Reports Q3 2026 Financial and Operating Results",
    "link": "https://finance.yahoo.com/markets/commodities/articles/liberty-gold-reports-q3-2026-220000709.html",
    "published": "2026-11-06T22:00:00Z",
@@ -408,12 +525,12 @@
    "publisher": "",
    "summary": "Key TakeawaysVerizon yields 6. 1% and AT&T 5.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -737,6 +854,22 @@
    "publisher": "",
    "summary": "Energy stocks were softer late Friday afternoon, with the NYSE Energy Sector Index easing 0.1% and t",
    "symbols": []
+  },
+  {
+   "title": "Musk says Tesla will end Cybertruck production next year",
+   "link": "https://www.cbsnews.com/news/tesla-ending-cybertruck-production-next-year/?.tsrc=rss",
+   "published": "2026-11-06T20:57:20Z",
+   "publisher": "",
+   "summary": "Tesla CEO Elon Musk said the electric car maker will halt production of its Cybertruck next year and prioritize self-driving taxis.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Nasdaq Crashes Through This Key Chart Level; What Should Smart Traders Do Now?",
@@ -3047,130 +3180,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "Your AMD Stock Thesis Still Has Loose Ends",
-   "link": "https://www.trefis.com/stock/amd/articles/623301/your-amd-stock-thesis-still-has-loose-ends/2026-11-06?.tsrc=rss",
-   "published": "2026-11-06T14:41:55Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "The One Thing To Settle Before Buying AbbVie Stock",
-   "link": "https://www.trefis.com/stock/abbv/articles/623290/the-one-thing-to-settle-before-buying-abbvie-stock/2026-11-06?.tsrc=rss",
-   "published": "2026-11-06T14:41:55Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Can AMD Stock Fall 50%?",
-   "link": "https://www.trefis.com/stock/amd/articles/623218/can-amd-stock-fall-50/2026-11-06?.tsrc=rss",
-   "published": "2026-11-06T14:41:50Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Magnificent Seven Lost $1 Trillion in Tech Rout. Here's How Much Each Plunged.",
-   "link": "https://www.ibtimes.com/tech-stocks-ai-spending-fears-market-selloff-3809480?.tsrc=rss",
-   "published": "2026-11-06T14:41:34Z",
-   "publisher": "",
-   "summary": "Nvidia led the decline with a loss of more than $440 billion in market value as major U.S. indexes posted their worst session since April 2025.",
-   "symbols": []
-  },
-  {
-   "title": "SpaceX, Tesla Merger Less Likely After Midterms. Texas Gov. Requests Pause On Land Talks.",
-   "link": "https://finance.yahoo.com/m/78896665-9396-36da-b57e-abaf23a742ac/spacex%2C-tesla-merger-less.html",
-   "published": "2026-11-06T14:40:35Z",
-   "publisher": "",
-   "summary": "Texas Gov.-elect requests pause on potential land sale to SpaceX. Probability of Tesla merger falls after midterms, analysts say.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "This Chip CEO Just Warned the Data Center Market Is in a 'Bubble.' Which Stocks Are Most Exposed?",
-   "link": "https://www.fool.com/investing/2026/11/06/this-chip-ceo-just-warned-the-data-center-market-is-in-a-bubble-which-stocks-are-most-exposed/?.tsrc=rss",
-   "published": "2026-11-06T14:40:14Z",
-   "publisher": "",
-   "summary": "On one of the worst days for AI stocks in years, a veteran chip executive said out loud what many investors fear. Here's who has the most to lose if he's right.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Forget pricey JPMorgan: Is this turnaround bank the better rebound bet?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/forget-pricey-jpmorgan-turnaround-bank-143943093.html",
-   "published": "2026-11-06T14:39:43Z",
-   "publisher": "",
-   "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Hims & Hers Rises 4% as Eli Lilly Deal Brings Zepbound to Its Platform: “A Clear Positive”",
-   "link": "https://www.tikr.com/blog/hims-hers-rises-4-as-eli-lilly-deal-brings-zepbound-to-its-platform-a-clear-positive?ref=yahoofinance&tlnk=yf-261106-629h4w9f&.tsrc=rss",
-   "published": "2026-11-06T14:39:31Z",
-   "publisher": "",
-   "summary": "Key TakeawaysHims & Hers shares jumped 4% after Eli Lilly agreed to sell Zepbound and Foundayo on the Hims & Hers platform at Lilly’s self-pay prices. With Novo Nordisk’s Wegovy already there, Hims & Hers now offers branded obesity drugs from both leading GLP-1 makers.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
    ]
   }
  ]
