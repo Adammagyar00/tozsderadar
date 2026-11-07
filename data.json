@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-07T15:56:39Z",
+ "builtAt": "2026-11-07T18:56:09Z",
  "digests": [
   {
    "calendar": [
@@ -240,6 +240,70 @@
      "title": "A Marvell és a Western Digital a 2001 óta legrosszabb hetét zárta, kb. 28%-ot esve",
      "url": "https://247wallst.com/investing/2026/11/07/marvell-and-western-digital-just-had-their-worst-week-since-2001/",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-07T18:40:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Kaiser Ng több mint öt év után távozik, új vállalkozásba kezd; utódja az Airwallex korábbi pénzügyi alelnöke, Justin Yek. A Binance közlése szerint az átadás-átvételt fél éve tervezik. A támadás miatt a cég napokra befagyasztotta a kifizetéseket; a Binance és az FBI az észak-koreai TraderTraitor csoportot nevezte meg, a veszteséget a Binance viseli.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Binance pénzügyi igazgatója távozik a mintegy 6,3 milliárd dolláros hekkertámadás után; utódja Justin Yek",
+     "url": "https://www.investing.com/news/stock-market-news/binance-cfo-kaiser-ng-steps-down-justin-yek-named-new-finance-chief-5009978",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-07T18:40:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · EKB (interjú)",
+     "summary": "A Yomiuri Shimbunnak adott interjúban az EKB elnöke szerint az inflációs adatok magasak maradnak, másodlagos hatásokat egyelőre nem látnak a prognózison túl. Az októberi infláció 4%, a maginfláció 2,5% volt. Azt nem mondta biztosra, hogy decemberben emelnek.",
+     "symbols": [],
+     "title": "Lagarde: az infláció a következő negyedévekben is magas marad; decemberi emelést nem zárt ki",
+     "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-inflation-to-stay-high-sees-little-reason-to-alter-rate-course-4966516",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-07T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A WSJ-re hivatkozó beszámolók szerint befektetők az MI-részvények eladási hulláma miatt alacsonyabb, akár kb. 1000 milliárd dolláros értékelést vagy a bevezetés elhalasztását is lehetségesnek tartják. A cég az időzítés változását nem erősítette meg; az értékelési számok forrásonként eltérnek (1–1,3 ezer milliárd dollár).",
+     "symbols": [],
+     "title": "Az Anthropic 1500 milliárd dolláros tőzsdei bevezetése csúszhat, vagy alacsonyabb értékelés jöhet",
+     "url": "https://247wallst.com/investing/2026/11/07/anthropic-could-postpone-its-1-5-trillion-ipo-per-one-investor-as-market-sours-on-ai-trade-another-says-it-could-end-up-closer-to-1-trillion/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-07T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A 24/7 Wall St. szerint a Baron-konferencián Ron Baron említette az 1000 milliárd dolláros összeget, amit Musk elfogadott; a számot nem finanszírozták. A hivatalos adatok ettől eltérnek: az első fázis a SpaceX szerint kb. 16,8 milliárd dollár, az adóbejelentések szerint a teljes kiépítés akár 119 milliárd dollár.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Musk szerint a Terafab chipgyár akár 1000 milliárd dollárba is kerülhet",
+     "url": "https://247wallst.com/investing/2026/11/07/musk-says-his-terafab-chip-plant-could-cost-1-trillion/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-07T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "FT (értesülés) · Investing.com",
+     "summary": "Az FT az ügyet ismerő források alapján azt írja, hogy a feljegyzés szerint Jensen Huang kapcsolatban állt a szingapúri Megaspeed (Nvidia-ügyfél) egyik vezetőjével, akit a kínai állambiztonság állítólag beszervezett. Az Nvidia nem kommentálta; republikánus képviselők zárt meghallgatást kértek. Az állítások nem bizonyítottak, a feljegyzés nem nyilvános.",
+     "symbols": [],
+     "title": "FT: amerikai titkosszolgálati feljegyzés szerint az Nvidia vezetője viszonyban állt egy állítólagos kínai kémmel",
+     "url": "https://www.investing.com/news/stock-market-news/us-intelligence-memo-ties-nvidias-huang-to-alleged-chinese-spy-ft-reports-5009930",
+     "verified": false
     }
    ],
    "markets": [
@@ -266,7 +330,7 @@
     }
    ],
    "summary": "Az S&P 500 2,7%-ot esett a héten, ez az áprilisi 2025 óta a legrosszabb heti teljesítménye, bár pénteken a technológiai részvények részben visszapattantak. Az erős októberi munkaerőpiaci adat után a dollár erősödött, a piac mintegy 65%-os eséllyel árazza a Fed decemberi kamatemelését. A SpaceX-nél a Google vezetője kilépett az igazgatótanácsból, Musk pedig a Wall Street becsléseinél jóval nagyobb bevételt jelzett. A hétvégén a hormuzi támadások és az iráni tárgyalások hírei az olajpiac fő bizonytalansági tényezői; kedden jön az amerikai CPI.",
-   "updatedAt": "2026-11-07T15:40:00Z",
+   "updatedAt": "2026-11-07T18:40:00Z",
    "watchlist": []
   },
   {
