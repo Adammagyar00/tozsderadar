@@ -1,7 +1,15 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-07T06:55:17Z",
+ "updatedAt": "2026-11-07T07:59:27Z",
  "items": [
+  {
+   "title": "Hycroft Stock In Focus After Wider Loss And Executive Changes",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hycroft-stock-focus-wider-loss-071151282.html",
+   "published": "2026-11-07T07:11:51Z",
+   "publisher": "",
+   "summary": "Hycroft Mining Holding reported third quarter 2026 results with a net loss of US$26.15 million and basic loss per share from continuing operations of US$0.28, while management also confirmed wider losses for the first nine months of the year. The miner is reshaping its leadership bench, with the current CFO set to move into an Executive Vice President, Strategic Advisor role in March 2027 and a lo",
+   "symbols": []
+  },
   {
    "title": "Cathie Wood-Led Ark Loads Up On GOOG, AMD, NVDA And Biotech Stocks — But Sells CRWV, AVGO, LLY",
    "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-invest-buys-goog-amd-nvda-biotech-stocks-sell-crwv-avgo-lly/cNGVV2wR9Ii?.tsrc=rss",
@@ -12,11 +20,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3075,23 +3083,6 @@
    "published": "2026-11-06T15:54:39Z",
    "publisher": "",
    "summary": "At 5x forward earnings, Micron stock is too cheap to sell.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "JonesTrading keeps KEEL at buy, $7.50 target as HPC leases slip into 2027",
-   "link": "https://blockspace.media/insight/keel-stock-target-lease-delays/?.tsrc=rss",
-   "published": "2026-11-06T15:51:22Z",
-   "publisher": "",
-   "summary": "JonesTrading's buy case for KEEL leans on a cross-check that puts all 478MW of unleased power at $2 million of revenue per IT MW. The check ignores buildout capital, and…",
    "symbols": [
     "BTC",
     "ETH",
