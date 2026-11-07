@@ -1,7 +1,104 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-07T19:42:11Z",
+ "updatedAt": "2026-11-07T20:38:35Z",
  "items": [
+  {
+   "title": "Why gold is losing its shine: Goldman breaks down the recent sell-off",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/why-gold-losing-shine-goldman-203206007.html",
+   "published": "2026-11-07T20:32:06Z",
+   "publisher": "",
+   "summary": "Investing.com - Speculative gold selling accelerated in late October, driving prices lower and decoupling the precious metal from falling real interest rates as non-traditional investors liquidated massive positions.",
+   "symbols": []
+  },
+  {
+   "title": "3 Growth Stocks With Earnings Growth Up To 58%",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-earnings-growth-201412969.html",
+   "published": "2026-11-07T20:14:12Z",
+   "publisher": "",
+   "summary": "October’s US jobs report showed 165,000 new roles created, with hiring spread across sectors and economists calling the labor market strong and stable. That kind of broad employment backdrop can support companies that already look financially sound and are expected to grow earnings quickly. This article highlights three stocks that match that profile and explains why this group could appeal if you",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "DraftKings (DKNG) Sees Texas Betting Hopes Rise As Prediction Markets Draw Scrutiny",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/draftkings-dkng-sees-texas-betting-201359163.html",
+   "published": "2026-11-07T20:13:59Z",
+   "publisher": "",
+   "summary": "DraftKings (NasdaqGS:DKNG) faces fresh political crosswinds as the 2026 U.S. midterm elections reshape gambling and prediction market debates. In Texas, the defeat of a high profile gambling opponent in statewide races has revived discussion of legal sports betting legislation. Federal and state officials are signaling closer scrutiny of prediction markets after contentious midterm contests and di",
+   "symbols": []
+  },
+  {
+   "title": "Morgan Stanley says SpaceX stock is now cheaper than the S&P 500",
+   "link": "https://www.thestreet.com/investing/stocks/morgan-stanley-says-spacex-stock-is-now-cheaper-than-the-sp-500?.tsrc=rss",
+   "published": "2026-11-07T20:13:00Z",
+   "publisher": "",
+   "summary": "Five months after its blockbuster IPO, SpaceX investors are back where they started; Morgan Stanley sees an opening.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Warren Buffett Warned Investors About This in 1999. The Past Week Looked Familiar",
+   "link": "https://247wallst.com/investing/2026/11/07/warren-buffett-warned-investors-about-this-in-1999-the-past-week-looked-familiar/?.tsrc=rss",
+   "published": "2026-11-07T20:04:05Z",
+   "publisher": "",
+   "summary": "In July 1999 Warren Buffett said investors expected far too much from stocks; the S&P 500 then fell 49.1% from March 2000 to October 2002. A version of the gauge he named in 2001 reads higher today. Here is what a repeat would do to a couple with $2.4 million taking $96,000 a year, and four plans with dollar results.",
+   "symbols": []
+  },
+  {
+   "title": "Core Scientific Is Quitting Bitcoin Mining as It Now Makes About 92% of Its Revenue Renting to AI Customers",
+   "link": "https://247wallst.com/investing/2026/11/07/core-scientific-is-quitting-bitcoin-mining-as-it-now-makes-about-92-of-its-revenue-renting-to-ai-customers/?.tsrc=rss",
+   "published": "2026-11-07T19:52:50Z",
+   "publisher": "",
+   "summary": "Core Scientific has put a year-end date on abandoning the business that made its name, and its stock keeps sliding anyway. Behind the pivot sit one dominant tenant, a mountain of debt, and two milestones that could decide everything.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Here's What $10,000 Invested in Bloom Energy (BE) Stock Could Be Worth in 3 Years",
+   "link": "https://www.fool.com/investing/2026/11/07/heres-what-10000-invested-in-bloom-energy-be-stock/?.tsrc=rss",
+   "published": "2026-11-07T19:50:00Z",
+   "publisher": "",
+   "summary": "This stock has soared in recent years -- but it's volatile.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
   {
    "title": "Bloom Energy wins abroad while Texas turns against data centers",
    "link": "https://www.thestreet.com/investing/bloom-energy-be-stock-texas-data-centers-ban?.tsrc=rss",
@@ -9,12 +106,12 @@
    "publisher": "",
    "summary": "Bloom Energy just landed its largest international project yet. Back home, a new governor’s promise has investors asking what comes next.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -41,12 +138,12 @@
    "publisher": "",
    "summary": "Alphabet (NasdaqGS: GOOGL) has expanded its SpaceX stake by nearly 4 million additional shares, lifting the holding’s value to about US$69b. The position has grown from an original US$900m investment, reflecting a very large increase in the implied equity value. Alphabet has agreed to pay SpaceX monthly for Nvidia GPU access that will support the Gemini Enterprise AI platform. Alphabet’s larger Sp",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -57,12 +154,12 @@
    "publisher": "",
    "summary": "Ceragon Networks Ltd (CRNT) posted $95.5 million in Q3 2026 revenue with non-GAAP EPS tripling to $0.07, while flagging persistent supply chain pressures and pricing negotiations heading into 2027.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -76,11 +173,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2816,89 +2913,6 @@
    "published": "2026-11-06T21:11:31Z",
    "publisher": "",
    "summary": "Keel Infrastructure (KEEL) has released third quarter results reporting US$27.6 million in sales and a wider net loss of US$62.71 million. The update has refocused attention on its ongoing business transition. The share price reaction has been severe, with Keel Infrastructure down 21.43% on a 1 day share price return and 50.45% over 30 days, while the 1 year total shareholder return has fallen 54.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Hims & Hers Surges On 'Surprising And Inevitable' Deal With Eli Lilly",
-   "link": "https://finance.yahoo.com/m/3eaa7d18-56f8-336a-a6a8-2cb209834b70/hims-%26-hers-surges-on.html",
-   "published": "2026-11-06T21:11:15Z",
-   "publisher": "",
-   "summary": "Hims & Hers Health inked a deal with Eli Lilly on Friday to sell the company's obesity drugs, further entrenching itself in the GLP-1 space.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "5 Latest Jim Cramer Stock Picks on Twitter and Mad Money",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/5-latest-jim-cramer-stock-211011014.html",
-   "published": "2026-11-06T21:10:11Z",
-   "publisher": "",
-   "summary": "Markets are trembling amid the latest AI stock sell-off, which has sent shares of major AI players deep into the red. But CNBC’s Jim Cramer believes the downturn is not another dot-com crash. Cramer warned that AI stocks could fall further, particularly semiconductor companies whose shares surged during the AI boom. However, he argued that […]",
-   "symbols": []
-  },
-  {
-   "title": "Nasdaq Adds 264 Points as Tech Stocks Rebound, But Ends the Week Lower: Stock Market Today",
-   "link": "https://www.kiplinger.com/investing/stocks/nasdaq-adds-264-points-in-tech-rebound-but-ends-the-week-lower-stock-market-today?.tsrc=rss",
-   "published": "2026-11-06T21:09:39Z",
-   "publisher": "",
-   "summary": "Several beaten-down tech stocks bounced on Friday, but it wasn't enough to erase weekly losses.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Congress Just Flipped. Here’s What Warren Buffett Does After Every Election.",
-   "link": "https://247wallst.com/investing/2026/11/06/congress-just-flipped-heres-what-warren-buffett-does-after-every-election/?.tsrc=rss",
-   "published": "2026-11-06T21:07:31Z",
-   "publisher": "",
-   "summary": "A 66-year-old retiree lost about $11,300 in the week after the midterm election. The last six midterms show what stocks and dividends did over the next 12 months, and why Warren Buffett does not trade on election results.",
-   "symbols": []
-  },
-  {
-   "title": "TELA Bio Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-   "link": "https://finance.yahoo.com/healthcare/articles/tela-bio-announces-inducement-grants-210500780.html",
-   "published": "2026-11-06T21:05:00Z",
-   "publisher": "",
-   "summary": "MALVERN, Pa., Nov. 06, 2026 (GLOBE NEWSWIRE) -- TELA Bio, Inc. (\"TELA Bio\") (NASDAQ: TELA), a commercial-stage medical technology company focused on providing innovative soft-tissue reconstruction solutions, today announced that the Compensation Committee of the Board of Directors of TELA Bio approved inducement grants of restricted stock units covering 108,550 shares of its common stock to four n",
-   "symbols": []
-  },
-  {
-   "title": "POMDOCTOR LIMITED Regains Compliance with Nasdaq Bid Price Requirement",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/pomdoctor-limited-regains-compliance-nasdaq-210500852.html",
-   "published": "2026-11-06T21:05:00Z",
-   "publisher": "",
-   "summary": "POMDOCTOR LIMITED (\"Pomdoctor\" or the \"Company\") (NASDAQ: POM), a digital healthcare company focused on advancing AI-enabled healthcare solutions and predictive healthcare capabilities, today announced that on November 5, 2026, the Company received a letter (the \"Compliance Letter\") from The Nasdaq Stock Market LLC (\"Nasdaq\") informing the Company that it has regained compliance with the minimum b",
-   "symbols": []
-  },
-  {
-   "title": "Sector Update: Financial Stocks Decline Friday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-friday-210442308.html",
-   "published": "2026-11-06T21:04:42Z",
-   "publisher": "",
-   "summary": "Financial stocks fell Friday with the NYSE Financial Index and the State Street Financial Select Sec",
    "symbols": [
     "BTC",
     "ETH",
