@@ -1,13 +1,298 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-07T12:16:12Z",
+ "updatedAt": "2026-11-07T13:29:18Z",
  "items": [
+  {
+   "title": "Trump’s last midterm market got ugly — then stocks surged 12%. How a post-election pop can add a boost to your nest egg",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/trump-last-midterm-market-got-131500948.html",
+   "published": "2026-11-07T13:15:00Z",
+   "publisher": "",
+   "summary": "If history repeats itself, you could be in for a surprise.",
+   "symbols": []
+  },
+  {
+   "title": "Marvell and Western Digital Just Had Their Worst Week Since 2001",
+   "link": "https://247wallst.com/investing/2026/11/07/marvell-and-western-digital-just-had-their-worst-week-since-2001/?.tsrc=rss",
+   "published": "2026-11-07T13:11:06Z",
+   "publisher": "",
+   "summary": "Both chipmakers raised guidance, yet investors dumped them like a crisis was underway. One election, one record-setting selloff, and one looming merger now separate a sturdier bet from a riskier one.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Better IPO to Buy: Anthropic vs. SpaceX",
+   "link": "https://www.fool.com/investing/2026/11/07/better-ipo-to-buy-anthropic-vs-spacex/?.tsrc=rss",
+   "published": "2026-11-07T13:07:00Z",
+   "publisher": "",
+   "summary": "Anthropic and SpaceX are competing in the AI model space.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Tech stocks are now cheaper than the S&P 500 for the first time since 2017 — here's what history says comes next: Chart of the Day",
+   "link": "https://finance.yahoo.com/markets/article/tech-stocks-are-now-cheaper-than-the-sp-500-for-the-first-time-since-2017--heres-what-history-says-comes-next-chart-of-the-day-130131812.html",
+   "published": "2026-11-07T13:01:31Z",
+   "publisher": "",
+   "summary": "Chip stocks lost nearly 30% in five weeks, but the typical S&P 500 stock barely moved, and tech now trades below the market's valuation for the first time since 2017.",
+   "symbols": []
+  },
+  {
+   "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Up Amid AI Rout",
+   "link": "https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html",
+   "published": "2026-11-07T13:01:21Z",
+   "publisher": "",
+   "summary": "Among the best stocks in earnings performance, highly rated Eli Lilly is in a buy zone.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Warren Buffett's Top Advice for Investors Bracing for a Market Crash",
+   "link": "https://www.fool.com/investing/2026/11/07/warren-buffett-advice-brace-market-crash/?.tsrc=rss",
+   "published": "2026-11-07T12:50:00Z",
+   "publisher": "",
+   "summary": "In addition to portfolio actions, getting ready for a downturn requires mental and emotional preparation.",
+   "symbols": []
+  },
+  {
+   "title": "What Is Behind The Rise In Moderna Stock?",
+   "link": "https://www.trefis.com/stock/mrna/articles/623751/what-is-behind-the-rise-in-moderna-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:52Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Just Lifted Lam Research Stock?",
+   "link": "https://www.trefis.com/stock/lrcx/articles/623747/what-just-lifted-lam-research-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:52Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Is Behind The Move In EchoStar Stock?",
+   "link": "https://www.trefis.com/stock/echo/articles/623745/what-is-behind-the-move-in-echostar-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:52Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Is Behind The Move In DexCom Stock?",
+   "link": "https://www.trefis.com/stock/dxcm/articles/623746/what-is-behind-the-move-in-dexcom-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:51Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Is Behind The Move In Arista Stock?",
+   "link": "https://www.trefis.com/stock/anet/articles/623737/what-is-behind-the-move-in-arista-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:51Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Is Behind The Rebound In Qualcomm Stock?",
+   "link": "https://www.trefis.com/stock/qcom/articles/623744/what-is-behind-the-rebound-in-qualcomm-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:50Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Just Happened To Applied Digital Stock On Friday?",
+   "link": "https://www.trefis.com/stock/apld/articles/623741/what-just-happened-to-applied-digital-stock-on-friday/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:48Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "What Is Behind The Move In Atlassian Stock?",
+   "link": "https://www.trefis.com/stock/team/articles/623732/what-is-behind-the-move-in-atlassian-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:47Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Just Happened To Vistra Stock?",
+   "link": "https://www.trefis.com/stock/vst/articles/623734/what-just-happened-to-vistra-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:42Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Is Behind The Move In Oklo Stock?",
+   "link": "https://www.trefis.com/stock/oklo/articles/623735/what-is-behind-the-move-in-oklo-stock/2026-11-07?.tsrc=rss",
+   "published": "2026-11-07T12:49:40Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "No taxes on Social Security? Trump might not have delivered, but there are ways you can pull it off 100% — here’s how",
+   "link": "https://finance.yahoo.com/economy/policy/articles/no-taxes-social-security-trump-124500210.html",
+   "published": "2026-11-07T12:45:00Z",
+   "publisher": "",
+   "summary": "Trump’s promise to eliminate taxes on Social Security wasn’t fulfilled, but there are still ways to lower your tax 100% in 2027.",
+   "symbols": []
+  },
+  {
+   "title": "In 5 Years, One of These Cryptocurrencies Could Be Worth More Than Bitcoin",
+   "link": "https://www.fool.com/investing/2026/11/07/in-5-years-one-of-these-cryptocurrencies-could-be/?.tsrc=rss",
+   "published": "2026-11-07T12:45:00Z",
+   "publisher": "",
+   "summary": "If Bitcoin hits one serious snag in particular, a few of its smaller competitors might have a shot at overcoming it.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Some Experts Think TransMedics Group (TMDX) Has a Near-Monopoly on Keeping Donor Organs Alive",
+   "link": "https://finance.yahoo.com/healthcare/articles/experts-think-transmedics-group-tmdx-124206222.html",
+   "published": "2026-11-07T12:42:06Z",
+   "publisher": "",
+   "summary": "We recently released our ranking of the 10 Stocks That Could Skyrocket in 2027, and TransMedics Group (NASDAQ:TMDX) ranked 9th. SpaceX’s public debut in June gave investors a new yardstick for how fast a space-linked stock can move, in both directions. Since then, shares of newer space companies have swung hard around SpaceX’s latest report. […]",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "ON Semiconductor (ON) Is Jeff Brown’s Chip Play on Tesla’s Optimus Robot",
+   "link": "https://finance.yahoo.com/technology/ai/articles/semiconductor-jeff-brown-chip-play-124140081.html",
+   "published": "2026-11-07T12:41:40Z",
+   "publisher": "",
+   "summary": "ON Semiconductor (NASDAQ:ON) took the No. 7 spot on our newly published list of the 10 Stocks That Could Skyrocket in 2027. SpaceX’s public debut in June gave investors a new yardstick for how fast a space-linked stock can move, in both directions. Since then, shares of newer space companies have swung hard around SpaceX’s […]",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Coherent Stock Fell 8% in a Week. J.P. Morgan Sees 100% Upside From Here",
+   "link": "https://www.tikr.com/blog/coherent-stock-fell-8-in-a-week-j-p-morgan-sees-100-upside-from-here?ref=yahoofinance&tlnk=yf-261107-rw3jqjf8&.tsrc=rss",
+   "published": "2026-11-07T12:36:28Z",
+   "publisher": "",
+   "summary": "Key TakeawaysCoherent (COHR) stock fell 8% during the week ended November 6, closing at $193 despite a sharp Friday rebound. Marvell Technology (MRVL) agreed to acquire Lumentum (LITE) in a $115 billion all-stock deal, potentially strengthening competition in AI optical connectivity.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Fed pauses as 7.18% mortgages punish buyers — but a big Dec. 9 hike means more pain may follow. Lock in your yield now",
+   "link": "https://finance.yahoo.com/real-estate/articles/fed-pauses-7-18-mortgages-123000389.html",
+   "published": "2026-11-07T12:30:00Z",
+   "publisher": "",
+   "summary": "Here’s why there’s still an appetite for higher rates.",
+   "symbols": []
+  },
+  {
+   "title": "Alibaba Just Gained 12% in a Week as the Nasdaq Fell: Take Profits, or Buy More?",
+   "link": "https://www.tikr.com/blog/alibaba-just-gained-12-in-a-week-as-the-nasdaq-fell-take-profits-or-buy-more?ref=yahoofinance&tlnk=yf-261107-9466567f&.tsrc=rss",
+   "published": "2026-11-07T12:28:46Z",
+   "publisher": "",
+   "summary": "Key TakeawaysAlibaba stock rose 12% in the past week after Apple picked Qwen for its China AI launch. Money also rotated out of US AI hardware into cheap Chinese internet stocks like Alibaba and Tencent.",
+   "symbols": []
+  },
+  {
+   "title": "David Bach: How to turn $27 into millions using this 1 formula — without discipline, budgeting or big money to start",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/david-bach-turn-27-millions-121500401.html",
+   "published": "2026-11-07T12:15:00Z",
+   "publisher": "",
+   "summary": "Even a small amount of money invested daily for multiple decades can turn into millions of dollars, according to this financial expert.",
+   "symbols": []
+  },
+  {
+   "title": "Our Pick Of The Best Canadian Dividend Stocks In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/pick-best-canadian-dividend-stocks-121428115.html",
+   "published": "2026-11-07T12:14:28Z",
+   "publisher": "",
+   "summary": "The Bank of England has lifted interest rates for the first time in more than three years, and higher borrowing costs are already squeezing mortgages and personal loans. That kind of pressure often pushes investors toward dependable cash payouts. Well covered, growing Canadian dividends above 3% can offer a steadier income stream when headlines feel noisy. This article highlights three dividend pa",
+   "symbols": []
+  },
   {
    "title": "Elon Musk Wants to Build an \"Enormous Robot Army.\" Here's What That Means for Tesla and SpaceX Investors.",
    "link": "https://www.fool.com/investing/2026/11/07/elon-musk-wants-to-build-an-enormous-robot-army-he/?.tsrc=rss",
    "published": "2026-11-07T11:49:00Z",
    "publisher": "",
    "summary": "Elon Musk is fighting for complete control of Tesla's voting power.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "October Payrolls Smash Estimates at 165K, Jobless Rate Falls to 4.1% (UPDATED)",
+   "link": "https://finance.yahoo.com/economy/articles/october-payrolls-smash-estimates-165k-114506271.html",
+   "published": "2026-11-07T11:45:06Z",
+   "publisher": "",
+   "summary": "Editor’s Note: This article was updated with additional content. The U.S. economy added 165,000 jobs in October, well above the 65,000 economists had expected, the Bureau of Labor Statistics said Friday. Private payrolls rose by 159,000, far above the 64,000...",
    "symbols": [
     "SPCX",
     "BE",
@@ -2657,376 +2942,6 @@
     "SPCX",
     "VOO",
     "XDW0"
-   ]
-  },
-  {
-   "title": "Nasdaq Entered Correction Territory: What History Says Usually Happens After the Sell-Off",
-   "link": "https://www.ibtimes.com/nasdaq-correction-more-selling-before-rebound-3809496?.tsrc=rss",
-   "published": "2026-11-06T18:23:58Z",
-   "publisher": "",
-   "summary": "A review of 10 previous Nasdaq corrections found that additional losses were common in the following month. However, the index generally recovered over the following six months.",
-   "symbols": []
-  },
-  {
-   "title": "Qualcomm Faces Worst Day Since 2020 as Chips Crater",
-   "link": "https://finance.yahoo.com/technology/articles/qualcomm-faces-worst-day-since-181632192.html",
-   "published": "2026-11-06T18:16:32Z",
-   "publisher": "",
-   "summary": "Qualcomm's handset miss collided with a much broader AI-chip de-rating.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Enbridge Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-enbridge-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-   "published": "2026-11-06T18:16:32Z",
-   "publisher": "",
-   "summary": "Moby summary of Enbridge Inc.'s Q3 2026 earnings call",
-   "symbols": []
-  },
-  {
-   "title": "Sector Update: Energy",
-   "link": "https://finance.yahoo.com/energy/articles/sector-energy-181446029.html",
-   "published": "2026-11-06T18:14:46Z",
-   "publisher": "",
-   "summary": "Energy stocks were higher Friday afternoon, with the NYSE Energy Sector Index up 0.1% and the State",
-   "symbols": []
-  },
-  {
-   "title": "What Does QUALCOMM (QCOM) Winning A Nationwide 5G Buildout Mean For Investors?",
-   "link": "https://finance.yahoo.com/technology/articles/does-qualcomm-qcom-winning-nationwide-181422645.html",
-   "published": "2026-11-06T18:14:22Z",
-   "publisher": "",
-   "summary": "QUALCOMM (NasdaqGS:QCOM) and SpaceX have agreed a multiyear partnership to power the new Starlink Mobile nationwide 5G network. The project uses Qualcomm 5G infrastructure technology at national scale, taking the chip designer beyond its traditional smartphone-focused business. Starlink Mobile aims to offer a satellite-backed 5G service across the U.S., creating a new competitor to existing wirele",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Exchange-Traded Funds Higher as US Equities Advance After Midday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-181230703.html",
-   "published": "2026-11-06T18:12:30Z",
-   "publisher": "",
-   "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "The Chip Stock Bloodbath Is a Case Study in the Risks of Leveraged ETFs",
-   "link": "https://finance.yahoo.com/m/e1cc3675-f7f1-37df-be78-62a32fbe2487/the-chip-stock-bloodbath-is-a.html",
-   "published": "2026-11-06T18:03:00Z",
-   "publisher": "",
-   "summary": "Leveraged single-stock ETFs tracking chip makers plunged on Thursday as underlying stocks tumbled.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bitcoin Under $76,000 After $430M ETF Outflows. Has It Bottomed?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/06/bitcoin-under-76000-after-430m-etf-outflows-has-it-bottomed/?.tsrc=rss",
-   "published": "2026-11-06T18:01:24Z",
-   "publisher": "",
-   "summary": "A rare 4-sigma stock market rout dragged Bitcoin down while every spot ETF issuer watched cash walk out the door. One small bounce has traders split on whether the worst is over, and a single price line may settle it.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Stay In, Keep Buying: The Best Days Hide Nearby",
-   "link": "https://www.fool.com/investing/2026/11/06/stay-in-keep-buying-the-best-days-hide-nearby/?.tsrc=rss",
-   "published": "2026-11-06T18:01:01Z",
-   "publisher": "",
-   "summary": "Thursday was the Nasdaq's worst day since April 2025. Here's what history says often comes next and how to make a rough market work for you.",
-   "symbols": []
-  },
-  {
-   "title": "Update: Wall Street Rises as Tech Stocks Rebound",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-rises-tech-stocks-175946005.html",
-   "published": "2026-11-06T17:59:46Z",
-   "publisher": "",
-   "summary": "(Updates with latest market prices and developments.) US benchmark equity indexes rose intraday a",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What Changed In Arista's Story?",
-   "link": "https://www.trefis.com/stock/anet/articles/623302/what-changed-in-aristas-story/2026-11-06?.tsrc=rss",
-   "published": "2026-11-06T17:57:22Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Musk Kills Tesla Cybertruck. Why He Had to Shoot the Elephant.",
-   "link": "https://finance.yahoo.com/m/06aa7a72-3f3b-3740-ba90-e5a9da6f4d4f/musk-kills-tesla-cybertruck..html",
-   "published": "2026-11-06T17:57:00Z",
-   "publisher": "",
-   "summary": "Cybertruck production will wind down in 2027.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Hims & Hers stock climbs on direct partnership with Eli Lilly for obesity drugs",
-   "link": "https://finance.yahoo.com/healthcare/articles/hims-hers-stock-climbs-direct-175700315.html",
-   "published": "2026-11-06T17:57:00Z",
-   "publisher": "",
-   "summary": "Investing.com -- Shares of Hims & Hers Health Inc (NYSE:HIMS) rose 6.3% on Friday following an agreement with Eli Lilly and Company (NYSE:LLY) to sell its weight-loss treatments directly through the telehealth provider's platform. The partnership eliminates a previous friction point for patients, who previously had to navigate away from Hims & Hers to Lilly’s standalone cash-pay portal, LillyDirec",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Hims & Hers Gained as the Market Dipped. Here’s What the November 9 Report Must Prove",
-   "link": "https://www.tikr.com/blog/hims-hers-gained-as-the-market-dipped-heres-what-the-november-9-report-must-prove?ref=yahoofinance&tlnk=yf-261106-3x47j4hm&.tsrc=rss",
-   "published": "2026-11-06T17:51:09Z",
-   "publisher": "",
-   "summary": "Key TakeawaysHims & Hers reports third-quarter results after the close on Nov. 9.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Strive Adds 15,124 BTC in October After Reporting $509M Q3 Profit",
-   "link": "https://www.cryptoprowl.com/releases/strive-adds-15124-btc-in-october-after-reporting-509m-q3-profit-7746?.tsrc=rss",
-   "published": "2026-11-06T17:50:00Z",
-   "publisher": "",
-   "summary": "Bitcoin treasury company and asset manager Strive (NASDAQ: $ASST) reported third-quarter net income of $509.0 milli...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Why You Should Think About SanDisk Differently Now",
-   "link": "https://www.trefis.com/stock/sndk/articles/623300/why-you-should-think-about-sandisk-differently-now/2026-11-06?.tsrc=rss",
-   "published": "2026-11-06T17:48:39Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Treasury Yields Rise on Strong Jobs Data",
-   "link": "https://www.wsj.com/finance/investing/u-s-treasurys-little-changed-markets-await-employment-data-88f3f2b6?.tsrc=rss",
-   "published": "2026-11-06T17:36:00Z",
-   "publisher": "",
-   "summary": "Treasury yields rose on robust U.S. labor data and ahead of next week’s inflation reports, while safe-haven buying kept borrowing costs near recent lows in Germany.",
-   "symbols": []
-  },
-  {
-   "title": "Analyst warns Bitcoin should be down 40% after two weeks of chaos",
-   "link": "https://www.thestreet.com/crypto/markets/analyst-warns-bitcoin-should-be-down-40-after-two-weeks-of-chaos?.tsrc=rss",
-   "published": "2026-11-06T17:30:00Z",
-   "publisher": "",
-   "summary": "A hack, a selloff and a midterm upset hit crypto in two weeks. One analyst says Bitcoin’s reaction tells a different story.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What the AI stock crash cost your 401(k) for every $1,000 invested",
-   "link": "https://finance.yahoo.com/markets/article/what-the-ai-stock-crash-cost-your-401k-for-every-1000-invested-172821837.html",
-   "published": "2026-11-06T17:28:21Z",
-   "publisher": "",
-   "summary": "Thursday's AI stock crash cost a basic S&P 500 index fund about a nickel on the dollar, while chip stocks lost nearly a third of their value.",
-   "symbols": []
-  },
-  {
-   "title": "Tesla Rebounds 5% as Musk Ends Cybertruck to Make Room for “Increased Cybercab Production”",
-   "link": "https://www.tikr.com/blog/tesla-rebounds-5-as-musk-ends-cybertruck-to-make-room-for-increased-cybercab-production?ref=yahoofinance&tlnk=yf-261106-69vjr5x9&.tsrc=rss",
-   "published": "2026-11-06T17:25:36Z",
-   "publisher": "",
-   "summary": "[IMAGE CREDIT: NASA/Aubrey Gemignani and SUMALI IBNU CHAMID from Alemedia. id via Canva] Key TakeawaysTesla rose 5% today after Elon Musk said it will wind down Cybertruck production in Texas around mid-2027 to build more Cybercabs.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 High-Yield Healthcare Stocks to Buy With $1,000 and Hold Through Any Market",
-   "link": "https://www.fool.com/investing/2026/11/06/3-high-yield-healthcare-stocks-to-buy-with-1000-an/?.tsrc=rss",
-   "published": "2026-11-06T17:24:00Z",
-   "publisher": "",
-   "summary": "They are so much more than just dividend stocks.",
-   "symbols": []
-  },
-  {
-   "title": "Apple Is “the Anti-AI Large Cap Tech Trade,” Says Josh Brown. Now It’s Capping AI Spending",
-   "link": "https://www.tikr.com/blog/apple-is-the-anti-ai-large-cap-tech-trade-says-josh-brown-now-its-capping-ai-spending?ref=yahoofinance&tlnk=yf-261106-5rx9fr6v&.tsrc=rss",
-   "published": "2026-11-06T17:23:13Z",
-   "publisher": "",
-   "summary": "Key TakeawaysApple closed at a record on Nov. 4, worth about $5.",
-   "symbols": []
-  },
-  {
-   "title": "Apple, Meta, Musk Face New Threat From Democrats",
-   "link": "https://finance.yahoo.com/technology/articles/apple-meta-musk-face-threat-172226280.html",
-   "published": "2026-11-06T17:22:26Z",
-   "publisher": "",
-   "summary": "Political relationships are becoming a potentially costly corporate liability.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Michael Burry Takes Profits on Major AI Bear Bet",
-   "link": "https://finance.yahoo.com/markets/options/articles/michael-burry-takes-profits-major-171655168.html",
-   "published": "2026-11-06T17:16:55Z",
-   "publisher": "",
-   "summary": "Burry sold 25% of his SMH puts but says the remaining position is still very large.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "AI Stocks Plunge: Buy, Sell or Hold?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ai-stocks-plunge-buy-sell-171600469.html",
-   "published": "2026-11-06T17:16:00Z",
-   "publisher": "",
-   "summary": "Amid the sharp correction in AI stocks, investors question what to do next.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "IREN Says New AI Cloud Customers Are Prepaying 90% of the Chips",
-   "link": "https://247wallst.com/investing/2026/11/06/iren-says-new-ai-cloud-customers-are-prepaying-90-of-the-chips/?.tsrc=rss",
-   "published": "2026-11-06T17:13:45Z",
-   "publisher": "",
-   "summary": "A customer just agreed to fund nearly all of IREN's chips upfront, yet cash is draining and debt is climbing fast. Why would anyone pay that much early, and what does it reveal about the $6 billion gap still unfunded?",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
    ]
   }
  ]
