@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-07T18:56:09Z",
+ "builtAt": "2026-11-07T20:55:55Z",
  "digests": [
   {
    "calendar": [
@@ -304,6 +304,34 @@
      "title": "FT: amerikai titkosszolgálati feljegyzés szerint az Nvidia vezetője viszonyban állt egy állítólagos kínai kémmel",
      "url": "https://www.investing.com/news/stock-market-news/us-intelligence-memo-ties-nvidias-huang-to-alleged-chinese-spy-ft-reports-5009930",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-07T20:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "Az NTT DATA 900 megawattnyi Bloom üzemanyagcellát telepít adatközponti projektekben világszerte, a szállítások 2027-ben indulnak. A TheStreet szerint a texasi kormányzói ígéret az adatközpont-engedélyek leállításáról bizonytalanságot okoz; a nyitott kérdés, hogy a tiltás kiterjedne-e az önellátó adatközpontokra is. A részvény a héten kb. 12–15%-ot esett az AI-részvényeket érintő választási félelmek miatt.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Bloom Energy: az NTT DATA-val kötött 900 MW-os üzlet a cég eddigi legnagyobb nemzetközi projektje, de a texasi adatközpont-szigorítás aggodalmat kelt",
+     "url": "https://www.thestreet.com/investing/bloom-energy-be-stock-texas-data-centers-ban?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-07T20:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Musk szombati X-posztja szerint a hátralévő megrendelések jóval meghaladják azt, amit a Tesla a sor leállításáig le tud gyártani. A texasi gyárban a Cybertruck-gyártás 2027 közepén ér véget, a helyet a Cybercab bővítése veszi át. A Tesla nem közölt végleges leállítási dátumot és darabszámot.",
+     "symbols": [
+      "TSLA"
+     ],
+     "title": "Tesla: extra műszakot indít a Cybertruck-megrendelések teljesítésére, mielőtt jövőre lebontják a gyártósort",
+     "url": "https://www.investing.com/news/stock-market-news/tesla-to-expand-cybertruck-production-in-bid-to-fill-orders-before-dismantling-line-next-year-5009996",
+     "verified": true
     }
    ],
    "markets": [
@@ -330,7 +358,7 @@
     }
    ],
    "summary": "Az S&P 500 2,7%-ot esett a héten, ez az áprilisi 2025 óta a legrosszabb heti teljesítménye, bár pénteken a technológiai részvények részben visszapattantak. Az erős októberi munkaerőpiaci adat után a dollár erősödött, a piac mintegy 65%-os eséllyel árazza a Fed decemberi kamatemelését. A SpaceX-nél a Google vezetője kilépett az igazgatótanácsból, Musk pedig a Wall Street becsléseinél jóval nagyobb bevételt jelzett. A hétvégén a hormuzi támadások és az iráni tárgyalások hírei az olajpiac fő bizonytalansági tényezői; kedden jön az amerikai CPI.",
-   "updatedAt": "2026-11-07T18:40:00Z",
+   "updatedAt": "2026-11-07T20:40:00Z",
    "watchlist": []
   },
   {
