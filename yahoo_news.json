@@ -1,13 +1,37 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T13:28:19Z",
+ "updatedAt": "2026-11-08T14:17:32Z",
  "items": [
   {
-   "title": "Cathie Wood Sees Tesla’s Robotaxi Business Taking Off — Says This Is The Moment Investors Have Waited For",
-   "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-tesla-robotaxi-business-escape-velocity-investors-waiting-for/cNGYPoVR9IH?.tsrc=rss",
-   "published": "2026-11-08T13:09:30Z",
+   "title": "Is a Market Crash Coming? Warren Buffett's Warning Is Ringing Loud and Clear.",
+   "link": "https://www.fool.com/investing/2026/11/08/is-a-market-crash-coming-warren-buffetts-warning-i/?.tsrc=rss",
+   "published": "2026-11-08T14:09:00Z",
    "publisher": "",
-   "summary": "During an interview with CNBC, Wood said ARK has been buying Tesla and SpaceX shares during the recent pullback.",
+   "summary": "Buffett has successfully invested through all kinds of markets over decades and is worth listening to.",
+   "symbols": []
+  },
+  {
+   "title": "Yardeni Research Warns AI Earnings Expectations Are Reaching Unsustainable Levels",
+   "link": "https://investorshub.advfn.com/market-news/article/39469/yardeni-research-warns-ai-earnings-expectations-are-reaching-unsustainable-levels?.tsrc=rss",
+   "published": "2026-11-08T13:57:00Z",
+   "publisher": "",
+   "summary": "Yardeni Research has warned that increasingly ambitious earnings forecasts for artificial intelligence-related companies are making investors less tolerant of disappointing results, even as enthusiasm surrounding AI continues to support long-term profit expectations. In a research note, the firm highlighted the widening gap between analysts’ projections for corporate earnings growth and investors’",
+   "symbols": []
+  },
+  {
+   "title": "Midterm results may add uncertainty to the Fed’ next rate decision — here are 5 money moves to consider before December",
+   "link": "https://finance.yahoo.com/economy/policy/articles/midterm-results-may-add-uncertainty-135000425.html",
+   "published": "2026-11-08T13:50:00Z",
+   "publisher": "",
+   "summary": "Just as timing the market rarely pays off, betting on the Federal Reserve can be risky.",
+   "symbols": []
+  },
+  {
+   "title": "Morgan Stanley Says $300. Michael Burry Says Overvalued. Here's Who Is Right About SpaceX Stock.",
+   "link": "https://www.fool.com/investing/2026/11/08/morgan-stanley-michael-burry-spacex-stock/?.tsrc=rss",
+   "published": "2026-11-08T13:50:00Z",
+   "publisher": "",
+   "summary": "Experts are split on where SpaceX stock will go next.",
    "symbols": [
     "SPCX",
     "BE",
@@ -15,6 +39,47 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "The Best Energy Stock to Buy With Oil Near $105 Isn't an Oil Producer",
+   "link": "https://www.fool.com/investing/2026/11/08/the-best-energy-stock-to-buy-with-oil-near-105-isn/?.tsrc=rss",
+   "published": "2026-11-08T13:35:00Z",
+   "publisher": "",
+   "summary": "Oil prices are high today, but also highly volatile; you can sidestep the commodity risk with this high-yield energy investment.",
+   "symbols": []
+  },
+  {
+   "title": "Prediction: This Will Be the Best-Performing AI Stock of 2027",
+   "link": "https://www.fool.com/investing/2026/11/08/prediction-this-will-be-the-best-performing-ai-sto/?.tsrc=rss",
+   "published": "2026-11-08T13:25:00Z",
+   "publisher": "",
+   "summary": "Micron is well positioned to be a top 2027 stock.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Cathie Wood Sees Tesla’s Robotaxi Business Taking Off — Says This Is The Moment Investors Have Waited For",
+   "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-tesla-robotaxi-business-escape-velocity-investors-waiting-for/cNGYPoVR9IH?.tsrc=rss",
+   "published": "2026-11-08T13:09:30Z",
+   "publisher": "",
+   "summary": "During an interview with CNBC, Wood said ARK has been buying Tesla and SpaceX shares during the recent pullback.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -33,12 +98,12 @@
    "publisher": "",
    "summary": "The sharp post-election pullback in the S&P 500 has investors reeling. It might be a good buying opportunity.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -49,6 +114,23 @@
    "publisher": "",
    "summary": "The two billionaires built their fortunes in very different ways, but they credit the same philosophy for their success. Here's how everyday investors can put it to work.",
    "symbols": []
+  },
+  {
+   "title": "Democrats Reportedly Push CLARITY Act Rewrite to Expand SEC Powers",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/democrats-reportedly-push-clarity-act-123005654.html",
+   "published": "2026-11-08T12:30:05Z",
+   "publisher": "",
+   "summary": "Democrats are reportedly preparing major changes to the CLARITY Act following their midterm election victory. Scott Melker warns that the proposed changes could reshape the regulatory outlook for Bitcoin and the broader crypto industry. He pointed to the new language...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Fidelity, Vanguard issue the same sobering 10-year outlook — and US retirees stand to suffer most. Protect your nest egg",
@@ -73,12 +155,12 @@
    "publisher": "",
    "summary": "NextNav has seen its share price fall sharply in recent months, yet over the past few years the stock still shows a strong gain. This puts a spotlight on whether the current US$8.61 level lines up with the value on its balance sheet. With the market reacting both to big swings in performance and to new partnership themes, investors are increasingly asking how much of the story is actually supporte",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -162,6 +244,22 @@
     "MU",
     "ONDO",
     "XRP"
+   ]
+  },
+  {
+   "title": "JP Morgan Athlete Center of Excellence: athletes need a financial playbook now more than ever",
+   "link": "https://finance.yahoo.com/small-business/articles/jp-morgan-athlete-center-excellence-110000713.html",
+   "published": "2026-11-08T11:00:00Z",
+   "publisher": "",
+   "summary": "These aren’t professional athlete questions.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
    ]
   },
   {
@@ -478,6 +576,22 @@
    ]
   },
   {
+   "title": "Fervo Energy Just Dropped 35% in a Month. Is It Time to Sell, or Load Up?",
+   "link": "https://www.tikr.com/blog/fervo-energy-just-dropped-35-in-a-month-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261108-m229w87q&.tsrc=rss",
+   "published": "2026-11-08T03:26:11Z",
+   "publisher": "",
+   "summary": "Key TakeawaysFervo Energy stock fell 35% in the past month, a bit less than Bloom Energy and Oklo, as AI power stocks sold off and a short seller’s report added to the pressure. Fervo’s first Cape Station GeoBlock started commercial operation a day early, on Sept.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
    "title": "History Says Energy Led All Sectors in the Last Bear Market. Here's What's Different Now.",
    "link": "https://www.fool.com/investing/2026/11/07/history-says-energy-led-all-sectors-in-the-last-be/?.tsrc=rss",
    "published": "2026-11-08T03:20:00Z",
@@ -508,6 +622,22 @@
    "publisher": "",
    "summary": "The dollar continues to lose purchasing power.",
    "symbols": []
+  },
+  {
+   "title": "Musk “Would Never Lend Money” to Pure AI Clouds. Goldman Is Selling SpaceX’s $40 Billion GPU Debt",
+   "link": "https://www.tikr.com/blog/musk-would-never-lend-money-to-pure-ai-clouds-goldman-is-selling-spacexs-40-billion-gpu-debt?ref=yahoofinance&tlnk=yf-261108-9c4wp97w&.tsrc=rss",
+   "published": "2026-11-08T02:18:12Z",
+   "publisher": "",
+   "summary": "Key TakeawaysGoldman Sachs and Apollo are marketing slices of a roughly $40 billion debt package that buys Nvidia chips for SpaceX to rent, Bloomberg reported. Elon Musk says he would never lend to a company that only makes money serving AI from a data center, and this deal is written so lenders can count on all of SpaceX, Starlink included, to pay the rent.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "3 British Quality Stocks With ROE Over 27%",
@@ -2821,130 +2951,6 @@
    "published": "2026-11-07T03:00:00Z",
    "publisher": "",
    "summary": "Stocks just had their worst week since April 2025, and Warren Buffett's Berkshire rose 5% while holding about $365 billion in cash. Here is how a retiree with $900,000 can copy the habit.",
-   "symbols": []
-  },
-  {
-   "title": "Bitcoin Slips Toward 50-Week Moving Average, Putting Post-September Recovery To The Test: Weekly Close Streak Hangs In Balance",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-slips-toward-week-moving-average-weekly-close-hangs-balance/cNGVKPER9Ig?.tsrc=rss",
-   "published": "2026-11-07T02:54:42Z",
-   "publisher": "",
-   "summary": "A weekly close below the mean could signal a failed breakout and temper bullish momentum.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Micron stock flashes bargain pricing signal with costly catch",
-   "link": "https://www.thestreet.com/investing/stocks/micron-stock-valuation-risk?.tsrc=rss",
-   "published": "2026-11-07T02:47:00Z",
-   "publisher": "",
-   "summary": "Not every bargain is what it first seems.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "The S&P 500 Just Fell More Than 4% in a Day From Near Its Record. Here's What Happened Next in 2 Similar Situations Since 1950.",
-   "link": "https://www.fool.com/investing/2026/11/06/the-s-and-p-500-just-fell-more-than-4-in-a-day-from-near-its-record-here-s-what-happened-next-in-2-similar-situations-since-1950/?.tsrc=rss",
-   "published": "2026-11-07T02:43:02Z",
-   "publisher": "",
-   "summary": "The only two close matches are 1955 and 1989. A year later, they were nothing alike.",
-   "symbols": []
-  },
-  {
-   "title": "Tesla, SpaceX Face Different Risks From Gina Hinojosa’s Texas Midterm Win: Bitunix Analyst Says Expansion, Not Existing Operations, Is Key Concern",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-face-different-risks-023006398.html",
-   "published": "2026-11-07T02:30:06Z",
-   "publisher": "",
-   "summary": "Tesla Inc. and Space Exploration Technologies Corp. investors may be overstating the immediate Texas policy risk following the election, Dean Chen, an analyst at Bitunix Exchange, told Benzinga, saying he sees \"limited immediate operational impact\" from Gina Hinojosa’s gubernatorial win....",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Kevin O'Leary's 3 'big' economic predictions for 2027: ‘I’m going out on a limb here’",
-   "link": "https://www.thestreet.com/personalities/kevin-oleary-3-economic-predictions-2027?.tsrc=rss",
-   "published": "2026-11-07T02:17:00Z",
-   "publisher": "",
-   "summary": "The “Shark Tank” investor’s forecast carries potential implications for anyone watching their money.",
-   "symbols": []
-  },
-  {
-   "title": "IREN (IREN) Stock Price Rallies As Q1 Results Spotlight AI Margins",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/iren-iren-stock-price-rallies-021423209.html",
-   "published": "2026-11-07T02:14:23Z",
-   "publisher": "",
-   "summary": "IREN just ripped 20% higher in a single session after dropping first quarter 2027 numbers, a sharp reversal for a stock that fell over 40% in the past month. Traders are cheering one thing above everything else. Artificial intelligence cloud revenue landed at about US$200m out of US$228m total sales, with adjusted earnings before interest, tax, depreciation and amortisation margin near 29%. That k",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "AngloGold Ashanti Stock Is Up 5.0% What's Changed Earnings And Growth Plans",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/anglogold-ashanti-stock-5-0-021026565.html",
-   "published": "2026-11-07T02:10:26Z",
-   "publisher": "",
-   "summary": "AngloGold Ashanti reported past third quarter 2026 net income of US$787 million on 696,000 ounces of gold, reaffirmed full year production guidance, and approved large capital spending on brownfield growth projects, while maintaining strong free cash flow and an interim dividend of US$0.71 per share. The mix of lower recent output, heavier investment to lift future volumes at Geita, Siguiri and Cu",
-   "symbols": []
-  },
-  {
-   "title": "IREN Ltd. (IREN) Cuts Net Losses by 61%, Shares Climb 20%",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/iren-ltd-iren-cuts-net-014345470.html",
-   "published": "2026-11-07T01:43:45Z",
-   "publisher": "",
-   "summary": "IREN Ltd. (NASDAQ:IREN) is one of the 10 Stocks With Effortless 18-42% Gains. IREN Ltd. (NASDAQ:IREN) rebounded on Friday, climbing 20.02 percent to close at $21.64 apiece, following strong earnings that saw net losses slashed markedly, signaling that growing revenues from its AI business are beginning to translate into financial gains, helping justify its heavy […]",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What Sent Quanta Stock Lower?",
-   "link": "https://www.trefis.com/stock/pwr/articles/623009/what-sent-quanta-stock-lower/2026-11-06?.tsrc=rss",
-   "published": "2026-11-07T01:28:51Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Petrus Resources Ltd (PTRUF) (Q3 2026) Earnings Call Highlights: Record Production and Surging ...",
-   "link": "https://finance.yahoo.com/energy/articles/petrus-resources-ltd-ptruf-q3-011709499.html",
-   "published": "2026-11-07T01:17:09Z",
-   "publisher": "",
-   "summary": "Petrus Resources Ltd (PTRUF) posted record quarterly production of 12,152 BOE/d and a 96% jump in operating netback, though hedging losses and rising net debt tempered funds flow growth.",
    "symbols": []
   }
  ]
