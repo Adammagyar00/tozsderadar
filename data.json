@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-08T09:56:22Z",
+ "builtAt": "2026-11-08T12:56:16Z",
  "digests": [
   {
    "calendar": [
@@ -81,6 +81,70 @@
      "title": "A bitcoin 76 ezer dollár alatt tartja magát, a Binance EU-s számlazárásai tovább nyomják a kriptopiacot",
      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-below-76k-as-binance-eu-closures-add-to-crypto-market-pressure-5010133",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-08T12:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "Ron Baron befektető a CNBC-nek adott interjújában azt mondta, hogy az eddig mintegy 30 milliárd dollárnyi nyereséget hozó Musk-befektetéseiből (Tesla, SpaceX) a következő évtizedben további több száz milliárd dollárra számít, függetlenül attól, hogy a két cég összeolvad-e. A számok Baron saját becslései, nem a cégek előrejelzései.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Ron Baron szerint a Tesla- és SpaceX-befektetései a következő évtizedben „több száz milliárd dollárt” hozhatnak",
+     "url": "https://stocktwits.com/news-articles/markets/equity/ron-baron-30b-betting-on-elon-musk-hundreds-billions-more-tsla-spcx-merger/cNGoz1vR9It",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-08T12:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Bank of America szerint a félvezető-részvények 2027 elején kezdhetnek érdemben talpra állni, de előbb az eredménybecslések csökkenhetnek: a szektor jellemzően 6–9 hónappal a fundamentális fordulat előtt esik. Az elemzés három forgatókönyvet vázol; a szektor 13,7-szeres várható P/E-n forog, 22%-os diszkonttal az S&P 500-hoz képest. A bank kedvenc részvényei között szerepel a Micron és a Marvell is.",
+     "symbols": [
+      "MU",
+      "MRVL"
+     ],
+     "title": "Vétel vagy várakozás? A BofA három forgatókönyvet vázol a chipszektorra",
+     "url": "https://www.investing.com/news/stock-market-news/buy-the-dip-or-wait-bofa-maps-out-3-scenarios-for-chip-stocks-and-top-picks-5010206",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-08T12:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Financial Times",
+     "summary": "A Financial Times értesülései szerint az Anthropic mintegy 3,4 milliárd dolláros megállapodást kötött gázüzemű generátorokra adatközpontjai áramellátásához. A beszámolók eltérnek abban, hogy végleges vásárlásról vagy tárgyalásról van-e szó; a megállapodás részletei nem teljesen tisztázottak.",
+     "symbols": [],
+     "title": "Az Anthropic az FT szerint 3,4 milliárd dolláros megállapodást kötött gázüzemű áramellátásra adatközpontjaihoz",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-reportedly-strikes-34-billion-deal-for-gasfired-power-at-data-centres-5010208",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-08T12:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance · Reuters",
+     "summary": "A szaúdi energiaügyi minisztérium közlése szerint vasárnap lehulló roncsok megrongáltak egy Aramco-tulajdonú irodaépületet Rijád pénzügyi negyedében, miután a húszi lázadók rakétákat lőttek a királyságra. Sérültekről nem számoltak be, az olajtermelés vagy export zavaráról nincs hír. Egy Reuters-szemtanú több emelet kitört ablakait látta.",
+     "symbols": [],
+     "title": "Houthi-rakétatámadás nyomán megrongálódott egy Aramco-épület Rijádban",
+     "url": "https://www.investing.com/news/economy-news/saudi-aramco-riyadh-office-hit-as-houthi-missiles-target-kingdom-5010189",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-08T12:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "Reuters (iráni tisztviselő) · Irán Forradalmi Gárdája (IRGC) közlése alapján",
+     "summary": "A Forradalmi Gárda közlése szerint szombat este két olajtanker aknára futott a hormuzi szoros térségében; ezt független forrás még nem erősítette meg. Egy iráni tisztviselő a Reuters szerint azt mondta, hogy Teherán és Washington messze van a háborút lezáró megállapodástól, az iráni hadsereg szóvivője szerint a szoros zárva marad, amíg az USA el nem fogadja a feltételeket.",
+     "symbols": [],
+     "title": "Irán szerint a hormuzi szoros zárva marad, két tanker aknára futott (az IRGC közlése szerint)",
+     "url": "https://investinglive.com/commodities/update-iran-says-hormuz-stays-shut-until-demands-met-as-us-deal-remains-far-off/",
+     "verified": false
     }
    ],
    "markets": [
@@ -107,7 +171,7 @@
     }
    ],
    "summary": "A Wall Street az AI-részvények eladási hulláma miatt az április 2025 óta legrosszabb hetét zárta. Hétfőn Kína inflációs adata nyitja a hetet, kedden jön az amerikai októberi CPI és a magyar infláció, csütörtökön pedig a Cisco gyorsjelentése. A Közel-Keleten az iráni blokád és a hormuzi szoros körüli feszültség tovább tart, a jegybankok közül egyik sem döntött a hétvégén. Az alapkamatok változatlanok: Fed 3,75–4,00%, EKB betéti ráta 2,50%, MNB alapkamat 5,50%.",
-   "updatedAt": "2026-11-08T09:45:00Z",
+   "updatedAt": "2026-11-08T12:40:00Z",
    "watchlist": []
   },
   {
