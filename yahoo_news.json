@@ -1,7 +1,114 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T16:11:53Z",
+ "updatedAt": "2026-11-08T17:12:46Z",
  "items": [
+  {
+   "title": "Wall Street Just Set a Record That Could Signal Trouble for the Stock Market",
+   "link": "https://247wallst.com/investing/2026/11/08/wall-street-just-set-a-record-that-could-signal-trouble-for-the-stock-market/?.tsrc=rss",
+   "published": "2026-11-08T16:47:47Z",
+   "publisher": "",
+   "summary": "Investors stampeded into downside protection in a single session, shattering a record set during last spring's turmoil. The scramble exposes how quickly AI-fueled confidence cracked, and history suggests this kind of panic can mean two very different things.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Is America’s AI Data Center Boom About to Hit a Brick Wall?",
+   "link": "https://247wallst.com/investing/2026/11/08/is-americas-ai-data-center-boom-about-to-hit-a-brick-wall/?.tsrc=rss",
+   "published": "2026-11-08T16:34:58Z",
+   "publisher": "",
+   "summary": "AI demand keeps surging, yet former Bitcoin miners are losing nearly half their value in a month. Money is tightening, Texas politicians are circling, and two December dates could decide which data center builders survive.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Top 5 stocks to watch this week",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-stocks-watch-week-162025831.html",
+   "published": "2026-11-08T16:20:25Z",
+   "publisher": "",
+   "summary": "Investing.com -- Investors are preparing for a busy week on Wall Street, with earnings from five closely watched companies, fresh U.S. inflation data and shifting interest rate expectations likely to shape market sentiment.",
+   "symbols": []
+  },
+  {
+   "title": "A Record 1.28 Billion Barrels of Oil Are Stuck at Sea — and That Could Mean Higher Gas Prices",
+   "link": "https://247wallst.com/investing/2026/11/08/a-record-1-28-billion-barrels-of-oil-are-stuck-at-sea-and-that-could-mean-higher-gas-prices/?.tsrc=rss",
+   "published": "2026-11-08T16:17:54Z",
+   "publisher": "",
+   "summary": "Crude prices are sliding, yet the oil itself is stuck on tankers far from any refinery. Shipping now swallows a startling share of every barrel's cost, and drivers may feel it before the relief arrives.",
+   "symbols": []
+  },
+  {
+   "title": "Goldman Sachs revamps 2027 gold price target, but signals rebound",
+   "link": "https://www.thestreet.com/investing/goldman-sachs-gold-2027-forecast?.tsrc=rss",
+   "published": "2026-11-08T16:17:00Z",
+   "publisher": "",
+   "summary": "That forecast price drop comes with one twist.",
+   "symbols": []
+  },
+  {
+   "title": "America’s AI Spending Boom Just Crossed a Staggering $1 Trillion Milestone",
+   "link": "https://247wallst.com/investing/2026/11/08/americas-ai-spending-boom-just-crossed-a-staggering-1-trillion-milestone/?.tsrc=rss",
+   "published": "2026-11-08T16:15:33Z",
+   "publisher": "",
+   "summary": "Record shipments of AI hardware are pouring into American data centers, yet NVIDIA's stock has dropped more than 21% in a month. What does the import data reveal that the share price refuses to show, and who else profits?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Bloom Energy (BE) Lands 900 Megawatt Data Center Power Deal In Biggest Overseas Win",
+   "link": "https://finance.yahoo.com/energy/articles/bloom-energy-lands-900-megawatt-160915925.html",
+   "published": "2026-11-08T16:09:15Z",
+   "publisher": "",
+   "summary": "Bloom Energy (NYSE:BE) announced a new agreement with NTT DATA to deploy 900 megawatts of onsite fuel cell power for global data centers. The NTT DATA partnership is described by Bloom Energy as its largest international agreement to date for data center projects. The deal targets power supply for NTT DATA data centers that support AI-related workloads and address grid and sustainability constrain",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Marvell Is 57% Below Its High After a $115 Billion Deal: Is It Time to Sell, or Load Up?",
+   "link": "https://www.tikr.com/blog/marvell-is-57-below-its-high-after-a-115-billion-deal-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261108-qpwhpq68&.tsrc=rss",
+   "published": "2026-11-08T15:54:40Z",
+   "publisher": "",
+   "summary": "Key TakeawaysMarvell shares have fallen about 44% since October 28, after it agreed to buy Lumentum in an all-stock deal valued at $115 billion. The fixed 4.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Democrats Win Midterms: 5 Best Healthcare and Insurance Stocks To Buy",
    "link": "https://finance.yahoo.com/healthcare/articles/democrats-win-midterms-5-best-154204119.html",
@@ -12,11 +119,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -34,12 +141,12 @@
    "publisher": "",
    "summary": "SpaceX’s outlook just became more uncertain.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2858,124 +2965,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "AI Wants “Every Scrap of RAM.” Qualcomm and Arm Just Showed Who Pays the Bill",
-   "link": "https://www.tikr.com/blog/ai-wants-every-scrap-of-ram-qualcomm-and-arm-just-showed-who-pays-the-bill?ref=yahoofinance&tlnk=yf-261107-72q2vv83&.tsrc=rss",
-   "published": "2026-11-07T07:15:04Z",
-   "publisher": "",
-   "summary": "Key TakeawaysArm fell 13% and Qualcomm 9. 5% on Thursday as pricier memory hit their phone businesses.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Hycroft Stock In Focus After Wider Loss And Executive Changes",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/hycroft-stock-focus-wider-loss-071151282.html",
-   "published": "2026-11-07T07:11:51Z",
-   "publisher": "",
-   "summary": "Hycroft Mining Holding reported third quarter 2026 results with a net loss of US$26.15 million and basic loss per share from continuing operations of US$0.28, while management also confirmed wider losses for the first nine months of the year. The miner is reshaping its leadership bench, with the current CFO set to move into an Executive Vice President, Strategic Advisor role in March 2027 and a lo",
-   "symbols": []
-  },
-  {
-   "title": "Cathie Wood-Led Ark Loads Up On GOOG, AMD, NVDA And Biotech Stocks — But Sells CRWV, AVGO, LLY",
-   "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-invest-buys-goog-amd-nvda-biotech-stocks-sell-crwv-avgo-lly/cNGVV2wR9Ii?.tsrc=rss",
-   "published": "2026-11-07T06:00:20Z",
-   "publisher": "",
-   "summary": "The latest round of trades touched multiple ARK ETFs, spanning artificial intelligence, semiconductors, biotechnology, defense and space-related companies.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Top 3 Biotech Stocks To Watch In November 2026",
-   "link": "https://finance.yahoo.com/healthcare/articles/top-3-biotech-stocks-watch-051712732.html",
-   "published": "2026-11-07T05:17:12Z",
-   "publisher": "",
-   "summary": "Central banks are signalling that higher interest rates are likely needed to tame stubborn inflation, which keeps borrowing costs elevated and funding more expensive for many risky assets. Yet that pressure has not removed the appeal of high potential growth stories; it has simply raised the bar on quality. This article looks at three biotech stocks that pair this high risk, high reward profile wi",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Is TeraWulf (WULF) Fairly Valued After Strong Q3 Earnings And HPC Lease Growth?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/terawulf-wulf-fairly-valued-strong-051446318.html",
-   "published": "2026-11-07T05:14:46Z",
-   "publisher": "",
-   "summary": "TeraWulf (WULF) just posted third quarter 2026 results that reshaped its story for investors, with high performance computing leases overtaking bitcoin mining and profitability swinging sharply year over year. TeraWulf’s share price tells a mixed story, with a sharp 12.8% 1 day share price return following the earnings release, while the 30 day share price return is down 21% and the year to date s",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Coeur Mining Q3 Earnings Call Highlights",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-coeur-mining-q3-earnings-call-highlights-2026-11-06/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-11-07T05:14:40Z",
-   "publisher": "",
-   "summary": "Coeur Mining (NYSE:CDE) expects a sharp increase in fourth-quarter production to bring full-year output near the low end of its guidance ranges, after weather disruptions and equipment downtime weighed on its third-quarter results. Chairman, President and CEO Mitchell Krebs said the company still e",
-   "symbols": []
-  },
-  {
-   "title": "Mike McGlone Doubles Down On $10K Bitcoin Doom Call: 'Stock Bear Market Has Started'",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/mike-mc-glone-doubles-down-on-10-k-bitcoin-doom-call-stock-bear-market-has-started/cNGVm8wR9IL?.tsrc=rss",
-   "published": "2026-11-07T05:07:20Z",
-   "publisher": "",
-   "summary": "In the Wolf of All Streets, Scott Melker said the Nasdaq was already halfway to a 20% drop, while Bitcoin was still well above its 2026 low.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Keel Infrastructure (KEEL) Leaves Bitcoin Behind As AI Data Center Permits Move Ahead",
-   "link": "https://finance.yahoo.com/technology/ai/articles/keel-infrastructure-keel-leaves-bitcoin-042813386.html",
-   "published": "2026-11-07T04:28:13Z",
-   "publisher": "",
-   "summary": "Keel Infrastructure (NasdaqGM:KEEL) has fully exited its Bitcoin holdings and ended its Bitcoin treasury exposure. The business plans ongoing daily Bitcoin sales as it winds down mining activities and reallocates resources to other uses. Management reports progress on construction and permitting for AI and high performance computing data centers across several sites. New state regulations in Penns",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
    ]
   }
  ]
