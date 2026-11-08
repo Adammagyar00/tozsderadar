@@ -1,7 +1,23 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T20:38:27Z",
+ "updatedAt": "2026-11-08T21:13:52Z",
  "items": [
+  {
+   "title": "Fibocom LTE Cat.1 bis Modules: Starlink DTC Field Test Report",
+   "link": "https://finance.yahoo.com/technology/ai/articles/fibocom-lte-cat-1-bis-210000606.html",
+   "published": "2026-11-08T21:00:00Z",
+   "publisher": "",
+   "summary": "Fibocom's LE270-EU and LE271-GL LTE Cat.1 bis modules have successfully connected to the SpaceX Direct to Cell (DTC) satellite network during live-network testing in New Zealand. Using standard firmware and without adding satellite-specific hardware modifications, both modules successfully registered on the network, established IP data sessions, and transmitted data over the satellite link. Testin",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Here’s Why BofA Cut International Flavors & Fragrances (IFF) to Underperform",
    "link": "https://finance.yahoo.com/markets/stocks/articles/why-bofa-cut-international-flavors-202614886.html",
@@ -49,6 +65,22 @@
    "publisher": "",
    "summary": "The BlackRock CEO says his parents managed to build an impressive retirement fund, even though their combined income was probably not more than $150,000 in today’s dollars.",
    "symbols": []
+  },
+  {
+   "title": "Tesla Isn’t a Mag-7 Stock. This Is.",
+   "link": "https://finance.yahoo.com/m/1989a8d6-2668-3d81-b94f-8613123a1e6b/tesla-isn%E2%80%99t-a-mag-7-stock..html",
+   "published": "2026-11-08T19:44:00Z",
+   "publisher": "",
+   "summary": "SpaceX is a much better tech stock than Tesla.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "XRP Price Prediction 2040: What Could XRP Be Worth in 14 Years?",
@@ -568,12 +600,12 @@
    "publisher": "",
    "summary": "SpaceX stock fell after Democrats swept the midterms. See what Q3 earnings, Texas data center risks, and Starship Flight 15 mean for SPCX shareholders now.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2856,30 +2888,6 @@
     "VOO",
     "XDW0"
    ]
-  },
-  {
-   "title": "October Payrolls Smash Estimates at 165K, Jobless Rate Falls to 4.1% (UPDATED)",
-   "link": "https://finance.yahoo.com/economy/articles/october-payrolls-smash-estimates-165k-114506271.html",
-   "published": "2026-11-07T11:45:06Z",
-   "publisher": "",
-   "summary": "Editor’s Note: This article was updated with additional content. The U.S. economy added 165,000 jobs in October, well above the 65,000 economists had expected, the Bureau of Labor Statistics said Friday. Private payrolls rose by 159,000, far above the 64,000...",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "He inherited a house from his mom — and her $114K Medicaid bill. Now, the state wants to take the house to pay her debt",
-   "link": "https://finance.yahoo.com/healthcare/articles/inherited-house-mom-her-114k-114500366.html",
-   "published": "2026-11-07T11:45:00Z",
-   "publisher": "",
-   "summary": "A $114,000 Medicaid claim shows why even a paid-off home can be at risk after an owner dies. Here’s how estate recovery works and which protections may apply.",
-   "symbols": []
   }
  ]
 }
