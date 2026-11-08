@@ -1,7 +1,23 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T03:53:17Z",
+ "updatedAt": "2026-11-08T04:53:29Z",
  "items": [
+  {
+   "title": "Barclays (LSE:BARC) Stock Gets Fair Value Trim After Analyst Target Cuts",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/barclays-lse-barc-stock-gets-042020996.html",
+   "published": "2026-11-08T04:20:20Z",
+   "publisher": "",
+   "summary": "Price targets for Barclays have been marked down into a tighter band, with recent moves clustering around 460 GBp, 540 GBp and 580 GBp. These shifts reflect a more balanced analyst narrative, where some firms cut targets and keep neutral stances while others, like JPMorgan with its 580 GBp target and Overweight rating, continue to see upside potential based on their own fair value work. As you rea",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "History Says Energy Led All Sectors in the Last Bear Market. Here's What's Different Now.",
    "link": "https://www.fool.com/investing/2026/11/07/history-says-energy-led-all-sectors-in-the-last-be/?.tsrc=rss",
@@ -2880,23 +2896,6 @@
    "publisher": "",
    "summary": "Coinbase users can now borrow USDC against gold.",
    "symbols": []
-  },
-  {
-   "title": "Packaged-food company offers shares with 13.5% dividend",
-   "link": "https://www.thestreet.com/crypto/markets/packaged-food-company-offers-shares-with-13-5-dividend?.tsrc=rss",
-   "published": "2026-11-06T22:30:14Z",
-   "publisher": "",
-   "summary": "CEO Norma Chu paired the plan with a letter addressing the stock’s slide since July.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
