@@ -1,7 +1,23 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T00:08:52Z",
+ "updatedAt": "2026-11-08T01:04:58Z",
  "items": [
+  {
+   "title": "Galiano Gold Q3 Earnings Call Highlights",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-galiano-gold-q3-earnings-call-highlights-2026-11-07/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-11-08T00:14:11Z",
+   "publisher": "",
+   "summary": "Galiano Gold (NYSEAMERICAN:GAU) reported higher gold production and stronger cash generation in the third quarter of 2026, as improved processing rates and grades helped the company maintain its full-year production and cost outlook. The company produced 40,922 ounces of gold, up 19% from the secon",
+   "symbols": []
+  },
+  {
+   "title": "What Suzano (SUZ) Said on Its Q3 Earnings Call",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-suzano-suz-said-on-its-q3-earnings-call-2026-11-07/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-11-08T00:14:10Z",
+   "publisher": "",
+   "summary": "Suzano (NYSE:SUZ) reported its first quarterly results including the Arbex consumer goods business and raised its 2026 pulp cash cost forecast, while executives said stronger pulp sales and prices should help the company reduce debt in the fourth quarter. CEO Beto Abreu said Arbex performed in line",
+   "symbols": []
+  },
   {
    "title": "Cash-Strapped But Backed by AMD: Is Fermi (FRMI) Stock a Golden Opportunity or a Dangerous Trap?",
    "link": "https://finance.yahoo.com/markets/stocks/articles/cash-strapped-backed-amd-fermi-233105742.html",
@@ -130,6 +146,23 @@
    "publisher": "",
    "summary": "Inflation worries are back on center stage as companies talk more about rising costs and squeezed customers on earnings calls, which keeps attention on assets that some investors view as potential shelters when prices stay high. That focus creates fresh interest in high quality gold producers with stronger finances and lower production costs. This article highlights three leading stocks from our p",
    "symbols": []
+  },
+  {
+   "title": "Dow Jones Futures: Market Needs Repair But Apple, Amazon, Microsoft Strong; Berkshire Doubles Stock Buyback",
+   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures%3A-market.html",
+   "published": "2026-11-07T21:45:54Z",
+   "publisher": "",
+   "summary": "The stock market needs repair while Sandisk and Micron seem broken. Apple, Amazon and Microsoft are holding up. Berkshire earnings fell.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
   },
   {
    "title": "Consumer Staples Showdown: Weighing the Differences Between VDC and RSPS",
@@ -2849,47 +2882,6 @@
    "publisher": "",
    "summary": "Canadian Natural Resources (NYSE:CNQ) plans to increase share repurchases after reaching its net debt target ahead of schedule, while an early completion of maintenance at its Horizon oil sands facility is expected to lift fourth-quarter production. The company reported third-quarter adjusted funds",
    "symbols": []
-  },
-  {
-   "title": "Anthropic's falling IPO valuation raises stakes for broader AI trade",
-   "link": "https://www.axios.com/2026/11/06/anthropicai-ipo-valuation-ai-trade#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
-   "published": "2026-11-06T22:07:56Z",
-   "publisher": "",
-   "summary": "Just as public markets are growing increasingly skeptical over the AI trade, private investors are reportedly reconsidering Anthropic's mind-blowingly high $2 trillion valuation .",
-   "symbols": []
-  },
-  {
-   "title": "Charlie Bilello Says “Some Sanity Has Returned to the Market.” What That Means for Your Portfolio",
-   "link": "https://247wallst.com/investing/2026/11/06/charlie-bilello-says-some-sanity-has-returned-to-the-market-what-that-means-for-your-portfolio/?.tsrc=rss",
-   "published": "2026-11-06T22:07:28Z",
-   "publisher": "",
-   "summary": "The market's wildest bets just lost billions in paper gains, and one data watcher calls the wreckage healthy. Before you cheer or panic, see which three moves could protect your retirement accounts and what to watch before year-end.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Nvidia Stock, Other AI Names Rebound After Sell-Off",
-   "link": "https://finance.yahoo.com/m/870e9d6a-dbbb-3380-9680-17f32e5017a1/nvidia-stock%2C-other-ai-names.html",
-   "published": "2026-11-06T22:00:32Z",
-   "publisher": "",
-   "summary": "Nvidia and other chip stocks exposed to the AI data center buildout rebounded on Friday after a hard sell-off.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
