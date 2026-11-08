@@ -1,7 +1,15 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T04:53:29Z",
+ "updatedAt": "2026-11-08T05:50:12Z",
  "items": [
+  {
+   "title": "Permian Resources Q3 Earnings Call Highlights",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-permian-resources-q3-earnings-call-highlights-2026-11-07/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-11-08T05:14:13Z",
+   "publisher": "",
+   "summary": "Permian Resources (NYSE:PR) reported record free cash flow of $0.98 per share in the third quarter of 2026, as higher production, lower operating costs and improved natural gas prices helped offset a decline in oil prices from the prior quarter. The oil and gas producer also raised its full-year oi",
+   "symbols": []
+  },
   {
    "title": "Barclays (LSE:BARC) Stock Gets Fair Value Trim After Analyst Target Cuts",
    "link": "https://finance.yahoo.com/markets/stocks/articles/barclays-lse-barc-stock-gets-042020996.html",
@@ -9,12 +17,12 @@
    "publisher": "",
    "summary": "Price targets for Barclays have been marked down into a tighter band, with recent moves clustering around 460 GBp, 540 GBp and 580 GBp. These shifts reflect a more balanced analyst narrative, where some firms cut targets and keep neutral stances while others, like JPMorgan with its 580 GBp target and Overweight rating, continue to see upside potential based on their own fair value work. As you rea",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2888,14 +2896,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Coinbase has news for gold holders",
-   "link": "https://www.thestreet.com/crypto/markets/coinbase-has-news-for-gold-holders?.tsrc=rss",
-   "published": "2026-11-06T22:35:58Z",
-   "publisher": "",
-   "summary": "Coinbase users can now borrow USDC against gold.",
-   "symbols": []
   }
  ]
 }
