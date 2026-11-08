@@ -1,6 +1,101 @@
 {
- "builtAt": "2026-11-07T20:55:55Z",
+ "builtAt": "2026-11-08T06:56:25Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 9.",
+     "event": "Kínai CPI és PPI (október)"
+    },
+    {
+     "date": "nov. 10.",
+     "event": "Amerikai CPI (október), magyar infláció (KSH)"
+    },
+    {
+     "date": "nov. 12.",
+     "event": "Cisco gyorsjelentés"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "Nvidia gyorsjelentés, MNB kamatdöntés"
+    }
+   ],
+   "date": "2026-11-08",
+   "generatedAt": "2026-11-08T06:55:00Z",
+   "headline": "Vasárnapi összefoglaló: a hét az amerikai infláció és a kínai adatok jegyében indul, a Wall Street rossz hetet zárt",
+   "items": [
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az amerikai haderő a Reuters és az Investing.com szerint a Ománi-öbölben harcképtelenné tett egy teherhajót, amely megpróbálta áttörni az Irán elleni blokádot. A blokád a hormuzi szoros körüli feszültség része, ezért az olajpiacon továbbra is kockázati tényező.",
+     "symbols": [],
+     "title": "Az amerikai hadsereg harcképtelenné tett egy teherhajót, amely az iráni blokád áttörésére tett kísérletet",
+     "url": "https://www.investing.com/news/commodities-news/us-military-says-it-disabled-cargo-vessel-in-gulf-of-oman-5010055",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a szaúdi hatóságok visszavonták a riasztásokat az olajtermelő térségben, miután egy húszi rakétát elfogtak. Hasonló riasztások és elfogások az elmúlt hetekben többször előfordultak, ami az energiainfrastruktúra biztonsága miatt tartja ébren a piacot.",
+     "symbols": [],
+     "title": "Szaúd-Arábia feloldotta az olajtermelő régió riasztásait, miután elfogtak egy húszi rakétát",
+     "url": "https://www.investing.com/news/economy-news/saudi-arabia-lifts-oil-region-alerts-after-houthi-missile-intercepted-5010126",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint Gadi Eisenkot kapta meg az első megbízást a kormányalakításra Izraelben. Korábbi hírek szerint a 120 fős Kneszet 67 képviselője őt ajánlotta, 46 Netanjahut. A megbízás nem garantálja a kormány megalakulását.",
+     "symbols": [],
+     "title": "Izraelben Eisenkot kapta az első kormányalakítási megbízást, Netanjahu leváltására törekszik",
+     "url": "https://www.investing.com/news/economy-news/israels-eisenkot-gets-first-mandate-to-form-government-aiming-to-oust-netanyahu-5010017",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Novartis Lp(a)-csökkentő szere, a pelacarsen szeptemberben nem érte el a fő célt a nagy kardiovaszkuláris kimenetel-vizsgálatban: bár csökkentette az Lp(a)-szintet, a szív- és érrendszeri események kockázatát nem. Az Investing.com szerint a gyógyszert most félreteszik; egy német lap is a program leállításáról ír, a Novartis hivatalos megerősítését viszont nem találtuk.",
+     "symbols": [],
+     "title": "A Novartis felfüggesztheti a pelacarsen fejlesztését, miután a nagy hatástanulmány kudarcot vallott",
+     "url": "https://www.investing.com/news/stock-market-news/novartis-shelves-potential-blockbuster-pelacarsen-as-landmark-study-fails-5009935",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A Wall Street az AI-részvények eladási hulláma miatt az április 2025 óta legrosszabb hetét zárta. Hétfőn Kína inflációs adata nyitja a hetet, kedden jön az amerikai októberi CPI és a magyar infláció, csütörtökön pedig a Cisco gyorsjelentése. A Közel-Keleten az iráni blokád és a hormuzi szoros körüli feszültség tovább tart, a jegybankok közül egyik sem döntött a hétvégén. Az alapkamatok változatlanok: Fed 3,75–4,00%, EKB betéti ráta 2,50%, MNB alapkamat 5,50%.",
+   "updatedAt": "2026-11-08T06:55:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -11217,6 +11312,24 @@
   },
   {
    "actual": "",
+   "country": "USA",
+   "date": "2026-11-19",
+   "event": "Walmart gyorsjelentés, 2027-es pénzügyi év 3. negyedév (tőzsdenyitás előtt)",
+   "forecast": "",
+   "importance": 2,
+   "note": "Vállalati iránymutatás a negyedévre: korrigált EPS 0,62–0,64 $. Nyitás előtti közzététel, 8:00 ET (14:00 magyar idő) telefonkonferencia.",
+   "previous": "",
+   "source": "days.to; TipRanks",
+   "symbols": [
+    "WMT"
+   ],
+   "time": "",
+   "type": "Gyorsjelentés",
+   "url": "https://days.to/walmart-earnings",
+   "id": "2026-11-19-wmt-earnings"
+  },
+  {
+   "actual": "",
    "country": "Németország",
    "date": "2026-11-24",
    "event": "ifo üzleti klíma index, november",
@@ -11262,6 +11375,24 @@
    "type": "Makroadat",
    "url": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
    "id": "2026-12-01-us-ism-mfg"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-01",
+   "event": "Marvell gyorsjelentés, 2027-es pénzügyi év 3. negyedév",
+   "forecast": "",
+   "importance": 2,
+   "note": "Vállalati iránymutatás: bevétel 3,15 Mrd $ (±5%), korrigált EPS 1,10 $ (±0,05). A telefonkonferencia 13:30 PT (22:30 magyar idő).",
+   "previous": "",
+   "source": "Marvell Technology (investor relations)",
+   "symbols": [
+    "MRVL"
+   ],
+   "time": "22:30",
+   "type": "Gyorsjelentés",
+   "url": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
+   "id": "2026-12-01-mrvl-earnings"
   },
   {
    "actual": "",
@@ -11333,6 +11464,22 @@
    "type": "Jegybank",
    "url": "https://allampapirkalkulator.hu/fogalmak/kamatdontes",
    "id": "2026-12-15-hu-mnb"
+  },
+  {
+   "actual": "",
+   "country": "Egyesült Királyság",
+   "date": "2026-12-17",
+   "event": "Bank of England kamatdöntés (MPC)",
+   "forecast": "",
+   "importance": 3,
+   "note": "Hivatalos MPC-naptár: közzététel 12:00 GMT. Decemberben nincs Monetary Policy Report.",
+   "previous": "4,00%",
+   "source": "Bank of England",
+   "symbols": [],
+   "time": "13:00",
+   "type": "Jegybank",
+   "url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
+   "id": "2026-12-17-gb-boe"
   },
   {
    "actual": "",
