@@ -1,7 +1,40 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T05:50:12Z",
+ "updatedAt": "2026-11-08T06:57:04Z",
  "items": [
+  {
+   "title": "Bitcoin holds below $76K as Binance EU closures add to crypto market pressure",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-holds-below-76k-binance-063007720.html",
+   "published": "2026-11-08T06:30:07Z",
+   "publisher": "",
+   "summary": "Investing.com -- Bitcoin traded below $76,000 on Sunday as fresh regulatory and security concerns weighed on the cryptocurrency industry, with Binance preparing to close certain European customer accounts and authorities intensifying scrutiny of digital asset transactions.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Aura Minerals Stock In Focus After Strong Q3 Results",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/aura-minerals-stock-focus-strong-061647591.html",
+   "published": "2026-11-08T06:16:47Z",
+   "publisher": "",
+   "summary": "Aura Minerals reported Q3 2026 sales of US$385.98 million and net income of US$135 million, with basic EPS from continuing operations of US$1.61, alongside a US$0.72 per share dividend and a US$10 million share buyback. Operationally, Aura Minerals lifted gold equivalent production by 27% and confirmed progress at the Era Dorada project, while its reported earnings and revenue came in slightly bel",
+   "symbols": []
+  },
+  {
+   "title": "What Talos Energy (TALO) Said on Its Q3 Earnings Call",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-talos-energy-talo-said-on-its-q3-earnings-call-2026-11-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-11-08T06:14:07Z",
+   "publisher": "",
+   "summary": "Talos Energy (NYSE:TALO) raised its full-year 2026 production guidance after third-quarter output exceeded expectations, as strong performance from existing operations and a recently closed offshore acquisition supported adjusted free cash flow of $186 million. The company produced approximately 69",
+   "symbols": []
+  },
   {
    "title": "Permian Resources Q3 Earnings Call Highlights",
    "link": "https://www.marketbeat.com/instant-alerts/transcript-permian-resources-q3-earnings-call-highlights-2026-11-07/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
@@ -2854,48 +2887,6 @@
    "publisher": "",
    "summary": "James Hardie Industries plc. (NYSE: JHX) will replace Roku Inc. (NASD: ROKU) in the S&P MidCap 400 effective prior to the opening of trading on Wednesday, November 11. S&P 500 constituent Fox Corp. (NASD: FOXA, FOX) acquired Roku in a deal that closed today, November 6.",
    "symbols": []
-  },
-  {
-   "title": "Cathie Wood buys $47 million of popular semiconductor stock",
-   "link": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-47-million-of-popular-semiconductor-stock-nvidia-nvda?.tsrc=rss",
-   "published": "2026-11-06T23:07:00Z",
-   "publisher": "",
-   "summary": "Here are Cathie Wood’s latest moves.",
-   "symbols": []
-  },
-  {
-   "title": "Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-micron-technology-jumps-as-chip-stocks-rebound-from-thursday-s-rout/?.tsrc=rss",
-   "published": "2026-11-06T22:56:15Z",
-   "publisher": "",
-   "summary": "Memory chip demand and bargain hunting lifted the stock today, Nov. 6, 2026, as traders looked past the prior day's sharp sell-off.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Weekly Wrap: Bitcoin Falls as U.S. Market Crashes",
-   "link": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoin-falls-as-us-market-crashes-7752?.tsrc=rss",
-   "published": "2026-11-06T22:50:00Z",
-   "publisher": "",
-   "summary": "Cryptocurrencies such as Bitcoin (CRYPTO: $BTC) remain under pressure due to a U.S. market rout. Bitcoin’s pr...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
