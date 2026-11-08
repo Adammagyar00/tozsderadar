@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-08T12:56:16Z",
+ "builtAt": "2026-11-08T15:56:20Z",
  "digests": [
   {
    "calendar": [
@@ -145,6 +145,47 @@
      "title": "Irán szerint a hormuzi szoros zárva marad, két tanker aknára futott (az IRGC közlése szerint)",
      "url": "https://investinglive.com/commodities/update-iran-says-hormuz-stays-shut-until-demands-met-as-us-deal-remains-far-off/",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-08T15:40:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters heti előzetese szerint a Nasdaq mintegy 12%-kal zárt az október 6-i csúcsa alatt, vagyis korrekciós zónában van; az S&P 500 techszektora 7,3%-ot, a Philadelphiai félvezetőindex több mint 12%-ot zuhant, ami több mint hat éve a legnagyobb napi esés volt. Egyes szereplők az esést ahhoz kötik, hogy a keddi félidős választáson a demokraták győzelme lassíthatja az AI-adatközpont-építést. Az LSEG adatai szerint a határidős piac mintegy 65% esélyt áraz a Fed decemberi kamatemelésére; kedden jön az amerikai CPI, a héten pedig a CoreWeave, az Applied Materials és a Cisco jelent.",
+     "symbols": [],
+     "title": "Heti előzetes a Wall Streetről: a techszektor eladási hulláma megviseli a piacot, jön az amerikai infláció",
+     "url": "https://www.investing.com/news/stock-market-news/as-tech-swoon-roils-market-us-inflation-data-on-tap-5010231",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-08T15:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A Motley Fool cikke szerint a GE Vernova és a Bloom Energy árfolyama a finanszírozási félelmek és a félidős választás utáni bizonytalanság miatt esett; a pontos esésmértékek a különböző beszámolókban eltérnek. A SpaceX az október 20-i gyorsjelentési hívásán azt mondta, hogy az új számítási beruházások egy évnél rövidebb idő alatt megtérülnek. A Bloom a 900 MW-os NTT DATA-megállapodás ellenére is esett.",
+     "symbols": [
+      "BE",
+      "SPCX"
+     ],
+     "title": "Az AI-áramellátási részvények a finanszírozási aggodalmak miatt estek, a SpaceX szerint az új számítási kapacitás egy éven belül megtérül",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ai-power-stocks-just-fell-145500327.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-08T15:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "Cathie Wood a CNBC-nek adott interjújában azt mondta, hogy az ARK a közelmúltbeli visszaesés alatt Tesla- és SpaceX-részvényeket vett, és a kettőt a legnagyobb meggyőződéssel tartott pozíciói közé sorolta. A Tesla robotaxi-üzletét „szökési sebességre” kapcsolt üzletnek nevezte, a SpaceX esetében pedig a lehetséges orbitális adatközpontokat emelte ki. Ez Wood saját véleménye, nem a cégek közlése.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Cathie Wood: az ARK a visszaesés alatt vásárolta a Tesla- és SpaceX-részvényeket",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-sees-tesla-robotaxi-130930598.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -171,7 +212,7 @@
     }
    ],
    "summary": "A Wall Street az AI-részvények eladási hulláma miatt az április 2025 óta legrosszabb hetét zárta. Hétfőn Kína inflációs adata nyitja a hetet, kedden jön az amerikai októberi CPI és a magyar infláció, csütörtökön pedig a Cisco gyorsjelentése. A Közel-Keleten az iráni blokád és a hormuzi szoros körüli feszültség tovább tart, a jegybankok közül egyik sem döntött a hétvégén. Az alapkamatok változatlanok: Fed 3,75–4,00%, EKB betéti ráta 2,50%, MNB alapkamat 5,50%.",
-   "updatedAt": "2026-11-08T12:40:00Z",
+   "updatedAt": "2026-11-08T15:40:00Z",
    "watchlist": []
   },
   {
