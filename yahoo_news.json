@@ -1,7 +1,49 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T10:44:03Z",
+ "updatedAt": "2026-11-08T11:39:50Z",
  "items": [
+  {
+   "title": "A Top Silicon Valley Investor Predicts a Bitcoin Crash to $57,000 Within the Next 12 Months. Here's Why He's Wrong.",
+   "link": "https://www.fool.com/investing/2026/11/08/top-silicon-valley-investor-predicts-a-bitcoin-cra/?.tsrc=rss",
+   "published": "2026-11-08T11:23:00Z",
+   "publisher": "",
+   "summary": "Longtime Bitcoin investors have seen this story before: a crash, and then a spectacular rally.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "3 Canadian Quality Stocks With ROE Over 20%",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-quality-stocks-roe-111318698.html",
+   "published": "2026-11-08T11:13:18Z",
+   "publisher": "",
+   "summary": "Higher interest rates are expected to stick around for years, which keeps cheap borrowing off the table and puts weak balance sheets under pressure. That backdrop pushes careful investors toward Canadian companies that earn strong returns on equity and keep their finances tight. This article walks through three stocks from a quality focused screener that highlights businesses with robust finances ",
+   "symbols": []
+  },
+  {
+   "title": "3 AI Chip Stocks to Buy in November After the October Sell-Off",
+   "link": "https://www.fool.com/investing/2026/11/08/3-ai-chip-stocks-to-buy-in-november-after-the-octo/?.tsrc=rss",
+   "published": "2026-11-08T11:05:00Z",
+   "publisher": "",
+   "summary": "AI stocks are trading at some attractive price tags right now.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Ring Energy Q3 Earnings Call Highlights",
    "link": "https://www.marketbeat.com/instant-alerts/transcript-ring-energy-q3-earnings-call-highlights-2026-11-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
@@ -25,12 +67,12 @@
    "publisher": "",
    "summary": "During an interview with CNBC, Baron said he expects to make hundreds of billions of dollars over the next decade, regardless of whether Tesla and SpaceX eventually merge.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -44,11 +86,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2889,39 +2931,6 @@
    "published": "2026-11-07T00:30:06Z",
    "publisher": "",
    "summary": "GasBuddy analyst Patrick De Haan said that energy prices at the pump could see a big drop after the GOP suffered setbacks during Tuesday’s midterm elections amid the ongoing war with Iran. Gas Could Drop to $3.65/Gallon In a post...",
-   "symbols": []
-  },
-  {
-   "title": "Q3 Earnings Update: Broad-Based Growth, Key Sector Outliers, and What's Ahead for Q4",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-broad-based-growth-002200772.html",
-   "published": "2026-11-07T00:22:00Z",
-   "publisher": "",
-   "summary": "The bulk of the Q3 earnings season is over, with results from roughly 12% of S&P 500 members remaining. Including the still-to-come reports, Q3 earnings are on pace to grow +28.4% year-over-year on +14.4% higher revenues, the 8th straight quarter of double-digit earnings growth for the index.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Uber’s Robo Push",
-   "link": "https://finance.yahoo.com/m/b007a5be-2a9e-3534-973c-5e577846b13e/uber%E2%80%99s-robo-push.html",
-   "published": "2026-11-07T00:19:00Z",
-   "publisher": "",
-   "summary": "Uber plans to have tens of thousands of autonomous vehicles by 2030.",
-   "symbols": []
-  },
-  {
-   "title": "Is Artemis Gold (TSXV:ARTG) Fully Valued After Earnings And Blackwater Progress?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/artemis-gold-tsxv-artg-fully-001256630.html",
-   "published": "2026-11-07T00:12:56Z",
-   "publisher": "",
-   "summary": "Artemis Gold (TSXV:ARTG) just put fresh numbers on the table. Third quarter earnings, Blackwater mine progress and a growing dividend now sit at the center of the investment story. Artemis Gold’s recent earnings update and Blackwater milestones have coincided with a 7 day share price return of 13.71% and a 1 day move of 2.96% to CA$40.64. The 1 year total shareholder return of 18.12% and very larg",
    "symbols": []
   }
  ]
