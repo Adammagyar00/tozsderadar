@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-09T10:56:40Z",
+ "builtAt": "2026-11-09T11:56:10Z",
  "digests": [
   {
    "calendar": [
@@ -484,6 +484,132 @@
      "title": "A Genmab részvénye 4%-ot emelkedik, miután az FDA jóváhagyta a J&J rákgyógyszerét",
      "url": "https://www.investing.com/news/stock-market-news/genmab-shares-rise-4-on-jj-cancer-drug-fda-approval-93CH-5010914",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Bloomberg",
+     "summary": "A Citigroup stratégái lefokozták az amerikai részvényeket és a globális techszektort, az európai részvényeket pedig felminősítették, mert azok kevésbé vannak kitéve az AI-körüli turbulenciának.",
+     "symbols": [],
+     "title": "A Citi stratégái csökkentették az amerikai részvények és a globális techszektor súlyát, az európai részvényeket felminősítették",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/citi-strategists-cut-us-stocks-095547644.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CCN",
+     "summary": "Az amerikai spot bitcoin-ETF-ek egy hét alatt 1,28 milliárd dollárt veszítettek, ebből a BlackRock IBIT 1,21 milliárdot; az idei nettó tőkeáramlás kb. -914 millió dollárra romlott. A cikk a decemberi Fed-kamatemelési várakozások erősödésével hozza összefüggésbe.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A spot bitcoin-ETF-ekből egy hét alatt 1,28 milliárd dollár áramlott ki, kamatemelési fogadások erősödnek",
+     "url": "https://www.ccn.com/news/crypto/bitcoin-etf-outflows-1-28b-fed-rate-hike/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Unchained",
+     "summary": "Az Ethereum társalapítója X-szálában azt írta, hogy az égetett díjak hajszolása vállalati jellegű költekezés és irányítás felé tolná a hálózatot, az értékmegőrző szerep jobban illik a decentralizációhoz.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "Vitalik Buterin: az ETH díjégetésének maximalizálása a decentralizáció rovására menne",
+     "url": "https://unchainedcrypto.com/vitalik-buterin-says-maximizing-eths-fee-burn-would-cost-ethereum-its-decentralization/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Irak megállapodásra jutott az Egyesült Államokkal a Hormuzi-szoroson keresztüli kőolajexport elősegítéséről, a háborús zavarok hónapjai után.",
+     "symbols": [],
+     "title": "Irak megállapodott az USA-val a hormuzi olajexport megkönnyítéséről",
+     "url": "https://finance.yahoo.com/energy/articles/iraq-strikes-u-deal-boost-091000561.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A szöuli kereskedők hétfőn is veszteséget könyveltek; a Kospi medvepiaci szinten maradt a chipszektor gyengélkedése miatt.",
+     "symbols": [],
+     "title": "A Kospi határozottan medvepiacban van, a chipszektor gondjai mélyülnek",
+     "url": "https://finance.yahoo.com/m/ef469a1a-5ab7-3d12-aa1b-40f41600ff6a/kospi-firmly-in-bear-market.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com (Bernstein-elemzés)",
+     "summary": "A Bernstein elemzői szerint az Nvidia kulcsember-kockázattal néz szembe a Jensen Huang körüli vizsgálat miatt.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "A Bernstein szerint az Nvidia részvényét kulcsember-kockázat terheli a vezérigazgatót övező vizsgálat miatt",
+     "url": "https://www.investing.com/news/analyst-ratings/bernstein-says-nvidia-stock-faces-key-man-risk-amid-ceo-scrutiny-93CH-5011185",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az UniCredit harmadik negyedéves nyeresége a vártnál jobb lett, a bank megemelte éves célkitűzését; a részvény 5%-ot emelkedett.",
+     "symbols": [],
+     "title": "Az UniCredit részvénye 5%-ot ugrott: a harmadik negyedéves profit meghaladta a várakozást, a bank emelte a 2026-os célt",
+     "url": "https://www.investing.com/news/earnings/unicredit-q3-profit-rises-more-than-expected-hikes-annual-guidance-5010611",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A SoftBank Corp. a prezentációja szerint rekordbevételt ért el a második negyedévben, a felhőüzlet növekedése pedig a kilátások emeléséhez vezetett.",
+     "symbols": [],
+     "title": "A SoftBank Corp. második negyedéve: rekordbevétel, a felhőüzlet növekedése miatt emelt kilátások",
+     "url": "https://www.investing.com/news/company-news/softbank-q2-fy2026-slides-record-revenue-cloud-growth-drive-guidance-lift-93CH-5010800",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com (BofA-elemzés)",
+     "summary": "A Bank of America három európai chipgyártó részvényét lefokozta, indoklása a cégek magas memóriapiaci kitettsége.",
+     "symbols": [],
+     "title": "A BofA három európai chipcég besorolását rontotta a magas memóriakitettség miatt",
+     "url": "https://www.investing.com/news/stock-market-news/bofa-downgrades-3-european-chip-stocks-on-high-memory-exposure-5011065",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T11:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az NTT a címben foglaltak szerint teljes, 4,9%-os NEC-tulajdonrészét értékesíti, akár 250 milliárd jen értékben.",
+     "symbols": [],
+     "title": "Az NTT eladja teljes, 4,9%-os NEC-részesedését, akár 250 milliárd jenért",
+     "url": "https://www.investing.com/news/stock-market-news/ntt-to-sell-entire-49-stake-in-nec-for-up-to-250bn-93CH-5011071",
+     "verified": true
     }
    ],
    "markets": [
@@ -510,7 +636,7 @@
     }
    ],
    "summary": "Az ázsiai részvénypiacok hétfőn erősen emelkedtek a Wall Street múlt heti AI-eladási hulláma után, Tajvanon 6%-os ugrással. Az Nvidia igazgatósága vizsgálatot indított vezérigazgatója ügyében, ami az AI-szektor hangulatát árnyékolja. Kínában az októberi fogyasztói infláció 0,7%-ra lassult, a termelői árak viszont 5,7%-kal nőttek. Az olaj Trump iráni megjegyzése után esett, az arany 4100 dollár fölé erősödött, a bitcoin 74 ezer dollár alá csúszott. Kedden érkezik az amerikai októberi CPI és a magyar infláció.",
-   "updatedAt": "2026-11-09T10:45:00Z",
+   "updatedAt": "2026-11-09T11:45:00Z",
    "watchlist": []
   },
   {
