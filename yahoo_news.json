@@ -1,7 +1,40 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-08T23:11:48Z",
+ "updatedAt": "2026-11-09T00:10:12Z",
  "items": [
+  {
+   "title": "Dow Jones Futures Rise, Techs Slide A Nvidia Probes CEO Jensen Huang Spying Case",
+   "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-rise%2C-techs.html",
+   "published": "2026-11-08T23:59:57Z",
+   "publisher": "",
+   "summary": "The stock market is damaged but Apple, Amazon and Microsoft are holding up. Nvidia is probing CEO Jensen Huang's spy case.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Forget the High-Beta Hype: 5 ‘Sleep Well at Night’ Stocks to Buy Now",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/forget-high-beta-hype-5-231024225.html",
+   "published": "2026-11-08T23:10:24Z",
+   "publisher": "",
+   "summary": "Yahoo Finance reported that the S&P 500 fell more than 4% on Thursday, November 5, its worst day since the April 2025 tariff crash, erasing roughly $3 trillion in market value. The Nasdaq slid into a correction, and the PHLX Semiconductor Index dropped 12%, its worst session since March 2020. The shock rippled well beyond […]",
+   "symbols": []
+  },
+  {
+   "title": "Don’t Miss Out: 5 Stocks Getting Major Upgrades From Top Analysts",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/don-t-miss-5-stocks-230746266.html",
+   "published": "2026-11-08T23:07:46Z",
+   "publisher": "",
+   "summary": "Wall Street ended a punishing week on Friday with a partial recovery. The Nasdaq Composite rose 1.09% to 24,579.42 and the S&P 500 gained 0.31% to 7,376.86, while the Dow Jones Industrial Average slipped 0.46% on November 6. The S&P 500 was still on track for its worst week since June. A Chip-Led Rout Shakes […]",
+   "symbols": []
+  },
   {
    "title": "Dow Jones Futures: Techs Slide As Nvidia Probes CEO Jensen Huang Spying Case",
    "link": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures%3A-techs.html",
@@ -53,11 +86,35 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-bulls-could-burned-gary-223005762.html",
+   "published": "2026-11-08T22:30:05Z",
+   "publisher": "",
+   "summary": "Investor Gary Black, the co-founder of The Future Fund LLC, reiterated his criticism of and dilution concerns about a possible merger between Elon Musk-led enterprises Space Exploration Technologies Corp. and Tesla Inc.. Gary Black Flags Lumentum Deal In a post...",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
    ]
   },
   {
@@ -78,11 +135,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -100,12 +157,12 @@
    "publisher": "",
    "summary": "Space Exploration Technologies (NasdaqGS:SPCX) has secured a reported US$45b AI compute agreement from Anthropic for access to its Colossus and Colossus II data centers. Anthropic is expected to pay SpaceX several billions of dollars over multiple years under the Colossus infrastructure arrangement. Alphabet's Google unit has deepened its partnership with SpaceX and plans to allocate nearly US$1b ",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -157,12 +214,12 @@
    "publisher": "",
    "summary": "Some entrepreneurs build businesses. Others have to convince the world that their vision of the future is worth billions of dollars. Selling that vision can be just as important as building the technology behind it. Billionaire entrepreneur and investor Mark...",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -230,6 +287,14 @@
     "ONDO",
     "XRP"
    ]
+  },
+  {
+   "title": "The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns",
+   "link": "https://finance.yahoo.com/economy/policy/articles/market-bloodbath-just-exposed-wall-204604891.html",
+   "published": "2026-11-08T20:46:04Z",
+   "publisher": "",
+   "summary": "\"They’re up because of mounting fiscal stress, not because of AI.\"",
+   "symbols": []
   },
   {
    "title": "Kevin Warsh’s Expected Rate Hike Is a Warning to Retirees That the Fed Won’t Rescue Stocks",
@@ -2857,63 +2922,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Better IPO to Buy: Anthropic vs. SpaceX",
-   "link": "https://www.fool.com/investing/2026/11/07/better-ipo-to-buy-anthropic-vs-spacex/?.tsrc=rss",
-   "published": "2026-11-07T13:07:00Z",
-   "publisher": "",
-   "summary": "Anthropic and SpaceX are competing in the AI model space.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Tech stocks are now cheaper than the S&P 500 for the first time since 2017 — here's what history says comes next: Chart of the Day",
-   "link": "https://finance.yahoo.com/markets/article/tech-stocks-are-now-cheaper-than-the-sp-500-for-the-first-time-since-2017--heres-what-history-says-comes-next-chart-of-the-day-130131812.html",
-   "published": "2026-11-07T13:01:31Z",
-   "publisher": "",
-   "summary": "Chip stocks lost nearly 30% in five weeks, but the typical S&P 500 stock barely moved, and tech now trades below the market's valuation for the first time since 2017.",
-   "symbols": []
-  },
-  {
-   "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Up Amid AI Rout",
-   "link": "https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html",
-   "published": "2026-11-07T13:01:21Z",
-   "publisher": "",
-   "summary": "Among the best stocks in earnings performance, highly rated Eli Lilly is in a buy zone.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Warren Buffett's Top Advice for Investors Bracing for a Market Crash",
-   "link": "https://www.fool.com/investing/2026/11/07/warren-buffett-advice-brace-market-crash/?.tsrc=rss",
-   "published": "2026-11-07T12:50:00Z",
-   "publisher": "",
-   "summary": "In addition to portfolio actions, getting ready for a downturn requires mental and emotional preparation.",
-   "symbols": []
-  },
-  {
-   "title": "What Is Behind The Rise In Moderna Stock?",
-   "link": "https://www.trefis.com/stock/mrna/articles/623751/what-is-behind-the-rise-in-moderna-stock/2026-11-07?.tsrc=rss",
-   "published": "2026-11-07T12:49:52Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
   }
  ]
 }
