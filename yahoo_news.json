@@ -1,7 +1,64 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-09T03:24:38Z",
+ "updatedAt": "2026-11-09T04:37:35Z",
  "items": [
+  {
+   "title": "Asia stocks roar back as Taiwan jumps 6%, Nvidia probe rattles AI trade",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-roar-back-taiwan-042552045.html",
+   "published": "2026-11-09T04:25:52Z",
+   "publisher": "",
+   "summary": "Investing.com -- Asian stocks rallied on Monday, following a recovery on Wall Street, although concerns over an investigation involving Nvidia CEO Jensen Huang tempered gains as investors reassessed the outlook for the artificial intelligence trade.",
+   "symbols": []
+  },
+  {
+   "title": "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-rebound-after-sharp-ai-selloff-last-week-nvda-amd-vir-sndk-in-focus/cNGADuWR9eT?.tsrc=rss",
+   "published": "2026-11-09T03:48:14Z",
+   "publisher": "",
+   "summary": "Last week, markets were dominated by the outcome of the November midterm election results, with the Democrats sweeping both the Senate and the House.",
+   "symbols": []
+  },
+  {
+   "title": "Microsoft's Oracle move raises new question for investors",
+   "link": "https://www.thestreet.com/investing/stocks/microsofts-oracle-move-raises-new-question-for-investors?.tsrc=rss",
+   "published": "2026-11-09T03:47:00Z",
+   "publisher": "",
+   "summary": "Microsoft just handed Oracle a problem it cannot easily explain away.",
+   "symbols": []
+  },
+  {
+   "title": "AMD, AVGO, INTC, MU: Chip Stocks Inch Higher As Investors Look Past Midterms-Led Selloff, Nvidia Controversy",
+   "link": "https://stocktwits.com/news-articles/markets/equity/amd-avgo-intc-mu-chip-stocks-inch-higher-as-investors-look-past-midterms-led-selloff-nvidia-controversy/cNGAD0CR9eR?.tsrc=rss",
+   "published": "2026-11-09T03:34:24Z",
+   "publisher": "",
+   "summary": "Last week, AI-linked stocks fell sharply after Democrats, seen to be critical of the rapid data center buildout, won Congress.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Elon Musk sends a strong signal to SpaceX stock investors",
+   "link": "https://www.thestreet.com/investing/stocks/elon-musk-sends-a-strong-signal-to-spacex-stock-investors?.tsrc=rss",
+   "published": "2026-11-09T03:17:00Z",
+   "publisher": "",
+   "summary": "A single remark from Musk at an investor conference moved three telecom stocks in opposite directions.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "APA Corporation’s Q3 2026 earnings call: our top 5 analyst questions",
    "link": "https://finance.yahoo.com/markets/stocks/articles/apa-corporation-q3-2026-earnings-024536008.html",
@@ -17,12 +74,12 @@
    "publisher": "",
    "summary": "Baron touted $50 billion in annual rental revenue from $35 billion data-center investments.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2803,72 +2860,6 @@
    "published": "2026-11-07T15:26:32Z",
    "publisher": "",
    "summary": "Two AI stocks lost nearly half their value in a month while Microsoft barely moved. The split has less to do with chips than with one question every data center builder now has to answer, and rising rates are forcing the issue.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "AMD Stock Popped After Earnings, Then Gave It All Back. Is It a Buy Now?",
-   "link": "https://www.fool.com/investing/2026/11/07/amd-stock-popped-after-earnings-then-gave-it-back/?.tsrc=rss",
-   "published": "2026-11-07T15:23:00Z",
-   "publisher": "",
-   "summary": "AMD's results were good, but the overall picture of the stock isn't as great.",
-   "symbols": []
-  },
-  {
-   "title": "Democrats Just Swept Congress — and 80 Years of Stock Market History Says This Happens Next",
-   "link": "https://247wallst.com/investing/2026/11/07/democrats-just-swept-congress-and-80-years-of-stock-market-history-says-this-happens-next/?.tsrc=rss",
-   "published": "2026-11-07T15:22:56Z",
-   "publisher": "",
-   "summary": "Eighty years of midterm history say stocks usually thrive after a divided Congress, yet Wall Street panicked within days. One crowded corner of the market could break a streak that has never failed, and three signals will show which way it goes.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Why Marvell Technology Stock Plunged 28.1% This Week",
-   "link": "https://www.fool.com/coverage/market-movers/2026/11/07/why-marvell-technology-stock-plunged-28-1-this-week/?.tsrc=rss",
-   "published": "2026-11-07T15:17:24Z",
-   "publisher": "",
-   "summary": "Investors don't see Marvell's new acquisition as being so marvelous.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "3 Great Australian Biotech Stocks To Own In November 2026",
-   "link": "https://finance.yahoo.com/healthcare/articles/3-great-australian-biotech-stocks-151421369.html",
-   "published": "2026-11-07T15:14:21Z",
-   "publisher": "",
-   "summary": "AI has grabbed the headlines for stock market swings this year, yet one quiet beneficiary has been healthcare, as investors look for sectors less tied to the boom and bust of big tech spending. Australian biotech shares sit right in that sweet spot of specialised science and diversified demand. This article walks through three stocks from the local biotech universe that combine solid balance sheet",
-   "symbols": []
-  },
-  {
-   "title": "TSMC Jumped 6% on a Report It Could Make Memory Chips for Nvidia",
-   "link": "https://247wallst.com/investing/2026/11/07/tsmc-jumped-6-on-a-report-it-could-make-memory-chips-for-nvidia/?.tsrc=rss",
-   "published": "2026-11-07T15:13:51Z",
-   "publisher": "",
-   "summary": "An unconfirmed report sent TSMC's ADR surging after a brutal selloff, but the real story hides in the gap between patents and production. Nvidia's memory bills and two upcoming dates will decide whether the rally holds.",
    "symbols": [
     "BTC",
     "ETH",
