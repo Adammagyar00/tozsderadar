@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-09T19:56:18Z",
+ "builtAt": "2026-11-09T20:56:06Z",
  "digests": [
   {
    "calendar": [
@@ -1128,6 +1128,32 @@
      "title": "A Banque de France szerint Franciaország elkerüli az év végi recessziót",
      "url": "https://www.investing.com/news/economy-news/france-to-dodge-threat-of-yearend-recession-central-bank-says-5013031",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-09T20:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint az amerikai munkaügyi statisztikai hivatal (BLS) az októberi inflációs jelentésben nem közli a 12 havi fogyasztóiár- és maginfláció-adatokat. Külön megerősítést nem találtunk, ezért a hír nem megerősített; a keddi CPI-közlés várakozásait érintheti.",
+     "symbols": [],
+     "title": "A BLS az októberi jelentésből kihagyja a 12 havi CPI- és maginfláció-adatokat",
+     "url": "https://www.investing.com/news/economy-news/bls-will-omit-12month-cpi-core-cpi-figures-from-october-report-5013053",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-09T20:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Egy nyilvános meghallgatási közlemény szerint a SpaceX gázüzemű erőművet és szuperszámítási létesítményt építene Texasban, Starbase-ben, mintegy 24 milliárd dolláros kezdeti beruházással. Nagyobb lap külön megerősítését nem találtuk.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX 24 milliárd dolláros gázerőművet és szuperszámítógép-központot tervez Starbase-ben",
+     "url": "https://finance.yahoo.com/energy/articles/spacex-plans-24-billion-power-194659267.html",
+     "verified": false
     }
    ],
    "markets": [
@@ -1154,7 +1180,7 @@
     }
    ],
    "summary": "Az ázsiai részvénypiacok hétfőn erősen emelkedtek a Wall Street múlt heti AI-eladási hulláma után, Tajvanon 6%-os ugrással. Az Nvidia igazgatósága vizsgálatot indított vezérigazgatója ügyében, ami az AI-szektor hangulatát árnyékolja. Kínában az októberi fogyasztói infláció 0,7%-ra lassult, a termelői árak viszont 5,7%-kal nőttek. Az olaj Trump iráni megjegyzése után esett, az arany 4100 dollár fölé erősödött, a bitcoin 74 ezer dollár alá csúszott. Kedden érkezik az amerikai októberi CPI és a magyar infláció.",
-   "updatedAt": "2026-11-09T19:45:00Z",
+   "updatedAt": "2026-11-09T20:45:00Z",
    "watchlist": []
   },
   {
