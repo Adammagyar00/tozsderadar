@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-09T09:56:36Z",
+ "builtAt": "2026-11-09T10:56:40Z",
  "digests": [
   {
    "calendar": [
@@ -383,6 +383,107 @@
      "title": "Az Airbus elindította az 5 milliárd eurós részvényvisszavásárlást, az első tranzs 800 millió euró",
      "url": "https://www.investing.com/news/stock-market-news/airbus-kicks-off-5-bln-buyback-with-first-800-mln-tranche-5010628",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T10:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint Peking januárig meghosszabbította az új ritkaföldfém-ellenőrzések felfüggesztését. A korábbi egyéves felfüggesztés egy másodlagos forrás szerint november 10-én járt volna le, így a lépés az amerikai–kínai kereskedelmi feszültség enyhítését szolgálja.",
+     "symbols": [],
+     "title": "Kína januárig meghosszabbítja az új ritkaföldfém-exportkorlátozások felfüggesztését",
+     "url": "https://www.investing.com/news/commodities-news/china-extends-suspension-of-new-rare-earth-controls-until-january-5010878",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T10:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint Teherán kitart a kétnapos tárgyalási javaslata mellett, az Egyesült Államok viszont elutasította a feltételeket. A hétfő reggeli olajár-csökkenést részben az iráni megállapodásba vetett remény magyarázta.",
+     "symbols": [],
+     "title": "Irán megvédi a kétnapos béketárgyalási javaslatát, miután az USA elutasította a feltételeit",
+     "url": "https://www.investing.com/news/commodities-news/iran-defends-twoday-proposal-for-peace-talks-after-us-rejects-conditions-5010885",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T10:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a Sentix befektetői bizalmi index novemberben csökkent az euróövezetben. A részletes számokat a forrásban lehet megnézni.",
+     "symbols": [],
+     "title": "Az euróövezeti befektetői hangulat novemberben romlott a Sentix felmérése szerint",
+     "url": "https://www.investing.com/news/economy-news/euro-zone-investor-morale-dips-in-novembersentix-survey-shows-5010895",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T10:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az eurócsoport hétfői ülésén szóba kerülnek az EKB vezetői pozíciói, a döntés azonban az állam- és kormányfők iránymutatásától függ.",
+     "symbols": [],
+     "title": "Az euróövezeti pénzügyminiszterek az EKB-kinevezésekről tárgyalnak, de a vezetők iránymutatására várnak",
+     "url": "https://www.investing.com/news/stock-market-news/euro-zone-ministers-to-discuss-ecb-appointments-but-await-leaders-guidance-5010896",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T10:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az Investing.com szerint hétfőn a brit tőzsde emelkedett, mert a bányászcégek követték a fémárakat, az olaj pedig csúszott az amerikai–iráni megállapodásba vetett remények miatt.",
+     "symbols": [],
+     "title": "FTSE 100: a bányászok vezetésével emelkedtek a brit részvények, az olaj az iráni remények miatt esik",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-jump-085612574.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T10:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az európai tőzsdék emelkedtek, a bankszektor húzta a mutatókat, miközben a befektetők az AI-kereskedést mérlegelik.",
+     "symbols": [],
+     "title": "Az európai részvények a bankszektor erősödésével emelkednek",
+     "url": "https://www.investing.com/news/stock-market-news/europe-shares-tread-water-as-investors-weigh-ai-trade-banks-in-focus-5010733",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T10:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com hétfői összeállítása szerint az SAP részvénye emelkedik. Az okot a cikk tartalmazza; függetlenül nem találtunk megerősítést a mai mozgásra.",
+     "symbols": [
+      "SAP"
+     ],
+     "title": "Miért emelkedik ma az SAP részvénye?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-sap-stock-rallying-today-93CH-5010856",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T10:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Genmab árfolyama mintegy 4%-kal nőtt a J&J rákgyógyszerére kapott FDA-jóváhagyás után.",
+     "symbols": [
+      "GMAB",
+      "JNJ"
+     ],
+     "title": "A Genmab részvénye 4%-ot emelkedik, miután az FDA jóváhagyta a J&J rákgyógyszerét",
+     "url": "https://www.investing.com/news/stock-market-news/genmab-shares-rise-4-on-jj-cancer-drug-fda-approval-93CH-5010914",
+     "verified": true
     }
    ],
    "markets": [
@@ -409,7 +510,7 @@
     }
    ],
    "summary": "Az ázsiai részvénypiacok hétfőn erősen emelkedtek a Wall Street múlt heti AI-eladási hulláma után, Tajvanon 6%-os ugrással. Az Nvidia igazgatósága vizsgálatot indított vezérigazgatója ügyében, ami az AI-szektor hangulatát árnyékolja. Kínában az októberi fogyasztói infláció 0,7%-ra lassult, a termelői árak viszont 5,7%-kal nőttek. Az olaj Trump iráni megjegyzése után esett, az arany 4100 dollár fölé erősödött, a bitcoin 74 ezer dollár alá csúszott. Kedden érkezik az amerikai októberi CPI és a magyar infláció.",
-   "updatedAt": "2026-11-09T08:55:00Z",
+   "updatedAt": "2026-11-09T10:45:00Z",
    "watchlist": []
   },
   {
