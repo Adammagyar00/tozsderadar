@@ -435,6 +435,94 @@ async function weekQuotes(tickers) {
   return out;
 }
 
+// A portfolio értékelése dollárban, ugyanazokból a forrásokból, mint az oldal:
+// kriptó a CoinGeckótól (az oldal által tárolt azonosítóval), részvény/ETF a Yahoo-tól,
+// ha ott nincs, a Finnhubtól. Amit sehol nem találunk, azt név szerint visszaadjuk.
+const CG = "https://api.coingecko.com/api/v3/";
+async function cgId(h) {
+  if (h.cg) return h.cg;
+  try {
+    const r = await fetch(CG + "search?query=" + encodeURIComponent(h.symbol), { headers: { accept: "application/json" } });
+    const c = r.ok ? ((await r.json()).coins || []).filter((x) => String(x.symbol).toUpperCase() === String(h.symbol).toUpperCase()) : [];
+    c.sort((a, b) => (a.market_cap_rank || 1e9) - (b.market_cap_rank || 1e9));
+    return c.length ? c[0].id : null;
+  } catch { return null; }
+}
+async function valuePf(pf, env, week) {
+  const out = new Map();
+  const crypto = pf.filter((h) => h.type === "crypto");
+  const ids = new Map();
+  await Promise.all(crypto.map(async (h) => { const id = await cgId(h); if (id) ids.set(h, id); }));
+  if (ids.size) {
+    if (week) {
+      await Promise.all([...ids].map(async ([h, id]) => {
+        try {
+          const r = await fetch(CG + "coins/" + encodeURIComponent(id) + "/market_chart?vs_currency=usd&days=7", { headers: { accept: "application/json" } });
+          const p = r.ok ? (await r.json()).prices || [] : [];
+          if (p.length >= 2) out.set(h, { now: p[p.length - 1][1] * h.qty, base: p[0][1] * h.qty });
+        } catch { /* kimarad */ }
+      }));
+    } else {
+      try {
+        const r = await fetch(CG + "simple/price?vs_currencies=usd&include_24hr_change=true&ids=" + encodeURIComponent([...new Set(ids.values())].join(",")), { headers: { accept: "application/json" } });
+        const j = r.ok ? await r.json() : {};
+        for (const [h, id] of ids) {
+          const x = j[id];
+          if (!x || typeof x.usd !== "number") continue;
+          const ch = typeof x.usd_24h_change === "number" ? x.usd_24h_change : null;
+          out.set(h, { now: x.usd * h.qty, base: ch == null ? null : x.usd * h.qty / (1 + ch / 100) });
+        }
+      } catch { /* kimarad */ }
+    }
+  }
+  // részvény/ETF: elsőként az oldal saját árfájlja (prices.json), dollárban, a UCITS ETF-eknél
+  // a valódi (londoni/frankfurti) jegyzésből átszámolva — így pontosan az oldallal egyező összeg jön ki
+  let P = {};
+  try { const r = await fetch(SITE + "prices.json?t=" + Date.now()); P = r.ok ? (await r.json()).quotes || {} : {}; } catch { P = {}; }
+  for (const h of pf) {
+    if (h.type === "crypto") continue;
+    const x = P[String(h.symbol).toUpperCase()];
+    if (x && x.listing) h.y = x.listing; // a heti bázishoz is a valódi jegyzés kell
+    if (week || !x || typeof x.price !== "number") continue;
+    out.set(h, { now: x.price * h.qty, base: typeof x.prevClose === "number" && x.prevClose ? x.prevClose * h.qty : null });
+  }
+  if (week) {
+    // heti: a mostani ár a prices.json-ból, a bázis a jegyzés egy héttel korábbi záróárából, ugyanazzal az arányszámmal
+    const wl = pf.filter((h) => h.type !== "crypto" && P[String(h.symbol).toUpperCase()]);
+    const wq = wl.length ? await weekQuotes(wl.map((h) => h.y || h.symbol)) : {};
+    for (const h of wl) {
+      const x = P[String(h.symbol).toUpperCase()], w = wq[h.y || h.symbol];
+      if (typeof x.price !== "number") continue;
+      const ratio = x.local ? x.price / x.local : 1;
+      out.set(h, { now: x.price * h.qty, base: w && w.base ? w.base * ratio * h.qty : null });
+    }
+  }
+  // a többi (és a CoinGeckón nem talált kriptó): Yahoo
+  const rest = pf.filter((h) => !out.has(h) && h.y);
+  const q = rest.length ? await (week ? weekQuotes : freshQuotes)(rest.map((h) => h.y)) : {};
+  const curs = [...new Set(Object.values(q).map((x) => x.cur).filter((c) => c && c !== "USD"))];
+  const fx = curs.length ? await freshQuotes(curs.map((c) => (c === "GBp" || c === "GBX" ? "GBP" : c === "ILA" ? "ILS" : c === "ZAc" ? "ZAR" : c.toUpperCase()) + "USD=X")) : {};
+  const usd = (v, c) => {
+    if (!c || c === "USD") return v;
+    const sub = c === "GBp" || c === "GBX" || c === "ILA" || c === "ZAc";
+    const k = (c === "GBp" || c === "GBX" ? "GBP" : c === "ILA" ? "ILS" : c === "ZAc" ? "ZAR" : c.toUpperCase()) + "USD=X";
+    return fx[k] ? v * fx[k].price / (sub ? 100 : 1) : null;
+  };
+  for (const h of rest) {
+    const x = q[h.y];
+    if (!x) continue;
+    const now = usd(x.price * h.qty, x.cur);
+    const b = week ? x.base : x.prev;
+    if (now != null) out.set(h, { now, base: b ? usd(b * h.qty, x.cur) : null });
+  }
+  // végső tartalék részvénynél: Finnhub (dollár), mint az oldalon
+  await Promise.all(pf.filter((h) => !out.has(h) && h.type !== "crypto" && SYMBOL_RE.test(String(h.symbol).toUpperCase())).map(async (h) => {
+    try { const f = await quote(String(h.symbol).toUpperCase(), env); if (f) out.set(h, { now: f.price * h.qty, base: week ? null : f.prevClose ? f.prevClose * h.qty : null }); } catch { /* kimarad */ }
+  }));
+  const rows = pf.filter((h) => out.has(h)).map((h) => { const o = out.get(h); return { sym: h.symbol, now: o.now, base: o.base, ch: o.base ? (o.now / o.base - 1) * 100 : null }; });
+  return { rows, missing: pf.filter((h) => !out.has(h)).map((h) => h.symbol) };
+}
+
 // A frissítési lánc ütemezése (budapesti idő). Eddig: a Claude-frissítés :57-kor, a feltöltés :22-kor, háromóránként.
 // 2026-10-29-től kétóránként, egész órára kész: frissítés 5:30, 7:30 … 21:30, feltöltés 20 perccel utána.
 const RUNS_OLD = [[5, 57], [8, 57], [11, 57], [14, 57], [17, 57], [20, 57], [23, 57]];
@@ -794,26 +882,21 @@ export class Store {
   async weekly(id, chat) {
     const k = await this.keys(id);
     const srv = (k.srv && k.srv.v) || {};
-    const pf = (srv.pf || []).filter((h) => h && h.y && h.qty > 0);
+    const pf = (srv.pf || []).filter((h) => h && h.symbol && h.qty > 0).map((h) => ({ ...h }));
     const favs = (srv.favs || []).filter(Boolean).slice(0, 25);
-    const fx = await freshQuotes(["EURUSD=X", "GBPUSD=X", "USDHUF=X"]);
-    const q = await weekQuotes([...pf.map((h) => h.y), ...favs]);
-    const usd = (v, cur) => cur === "USD" ? v : cur === "GBp" || cur === "GBX" ? (fx["GBPUSD=X"] ? v / 100 * fx["GBPUSD=X"].price : null) : cur === "GBP" ? (fx["GBPUSD=X"] ? v * fx["GBPUSD=X"].price : null) : cur === "EUR" ? (fx["EURUSD=X"] ? v * fx["EURUSD=X"].price : null) : cur === "HUF" ? (fx["USDHUF=X"] ? v / fx["USDHUF=X"].price : null) : null;
+    const fx = await freshQuotes(["USDHUF=X"]);
+    const q = await weekQuotes(favs);
+    const pv = await valuePf(pf, this.env, true);
     const lines = ["📊 <b>TőzsdeRadar heti összefoglaló</b> · " + budapest().date.replace(/-/g, ".")];
-    let now = 0, then = 0;
-    const rows = [];
-    for (const h of pf) {
-      const x = q[h.y];
-      if (!x) continue;
-      const a = usd(x.price * h.qty, x.cur), b0 = usd(x.base * h.qty, x.cur);
-      if (a == null || b0 == null) continue;
-      now += a; then += b0; rows.push({ s: h.symbol, ch: (x.price / x.base - 1) * 100 });
-    }
+    const rows = pv.rows;
     if (rows.length) {
-      const d = now - then;
+      const now = rows.reduce((a, r) => a + r.now, 0);
+      const wb = rows.filter((r) => r.base != null);
+      const then = wb.reduce((a, r) => a + r.base, 0), d = wb.reduce((a, r) => a + r.now, 0) - then;
       lines.push("", "<b>Portfolio</b>: " + huNum(now, 2) + " $" + (fx["USDHUF=X"] ? " (" + huNum(Math.round(now * fx["USDHUF=X"].price), 0) + " Ft)" : ""), "A héten: " + (d >= 0 ? "+" : "−") + huNum(Math.abs(d), 2) + " $ (" + pct(then ? d / then * 100 : 0) + ")");
-      lines.push(rows.sort((a, b) => b.ch - a.ch).map((r) => (r.ch >= 0 ? "🟢 " : "🔴 ") + esc(r.s) + " " + pct(r.ch)).join("\n"));
+      lines.push(rows.filter((r) => r.ch != null).sort((a, b) => b.ch - a.ch).map((r) => (r.ch >= 0 ? "🟢 " : "🔴 ") + esc(r.sym) + " " + pct(r.ch)).join("\n"));
     }
+    if (pv.missing.length) lines.push("⚠️ Ár nélkül, nincs az összegben: " + esc(pv.missing.join(", ")));
     const fv = favs.map((t) => q[t] ? { t, ch: (q[t].price / q[t].base - 1) * 100 } : null).filter(Boolean).sort((a, b) => b.ch - a.ch);
     if (fv.length >= 2) lines.push("", "<b>Kedvenceid a héten</b>", "Legjobb: " + fv.slice(0, 3).map((x) => esc(x.t) + " " + pct(x.ch)).join(", "), "Leggyengébb: " + fv.slice(-3).reverse().map((x) => esc(x.t) + " " + pct(x.ch)).join(", "));
     try {
@@ -833,37 +916,22 @@ export class Store {
   async summary(id, chat, manual) {
     const k = await this.keys(id);
     const srv = (k.srv && k.srv.v) || {};
-    const pf = (srv.pf || []).filter((h) => h && h.y && h.qty > 0);
+    const pf = (srv.pf || []).filter((h) => h && h.symbol && h.qty > 0).map((h) => ({ ...h }));
     const favs = (srv.favs || []).filter(Boolean).slice(0, 25);
-    const fx = ["EURUSD=X", "GBPUSD=X", "USDHUF=X"];
-    const q = await freshQuotes([...fx, ...pf.map((h) => h.y), ...favs]);
-    const usd = (v, cur) => {
-      if (cur === "USD") return v;
-      if (cur === "GBp" || cur === "GBX") return q["GBPUSD=X"] ? v / 100 * q["GBPUSD=X"].price : null;
-      if (cur === "GBP") return q["GBPUSD=X"] ? v * q["GBPUSD=X"].price : null;
-      if (cur === "EUR") return q["EURUSD=X"] ? v * q["EURUSD=X"].price : null;
-      if (cur === "HUF") return q["USDHUF=X"] ? v / q["USDHUF=X"].price : null;
-      return null;
-    };
+    const q = await freshQuotes(["USDHUF=X", ...favs]);
+    const pv = await valuePf(pf, this.env, false);
     const lines = ["🌙 <b>TőzsdeRadar esti összefoglaló</b> · " + budapest().date.replace(/-/g, ".")];
-    const rows = [];
-    let total = 0, base = 0;
-    for (const h of pf) {
-      const x = q[h.y];
-      if (!x) continue;
-      const v = usd(x.price * h.qty, x.cur);
-      if (v == null) continue;
-      const ch = x.prev ? (x.price / x.prev - 1) * 100 : null;
-      total += v; base += ch == null ? v : v / (1 + ch / 100);
-      rows.push({ sym: h.symbol, ch, v });
-    }
+    const rows = pv.rows;
     if (rows.length) {
-      const d = total - base;
+      const total = rows.reduce((a, r) => a + r.now, 0);
+      const wb = rows.filter((r) => r.base != null);
+      const base = wb.reduce((a, r) => a + r.base, 0), d = wb.reduce((a, r) => a + r.now, 0) - base;
       const huf = q["USDHUF=X"] ? " (" + huNum(Math.round(total * q["USDHUF=X"].price), 0) + " Ft)" : "";
       lines.push("", "<b>Portfolio</b>: " + huNum(total, 2) + " $" + huf, "Mai változás: " + (d >= 0 ? "+" : "−") + huNum(Math.abs(d), 2) + " $ (" + pct(base ? d / base * 100 : 0) + ")");
       const mv = rows.filter((r) => r.ch != null).sort((a, b) => Math.abs(b.ch) - Math.abs(a.ch)).slice(0, 4);
       if (mv.length) lines.push(mv.map((r) => (r.ch >= 0 ? "🟢 " : "🔴 ") + esc(r.sym) + " " + pct(r.ch)).join("\n"));
     }
+    if (pv.missing.length) lines.push("⚠️ Ár nélkül, nincs az összegben: " + esc(pv.missing.join(", ")));
     const fv = favs.map((t) => { const x = q[t]; return x && x.prev ? { t, ch: (x.price / x.prev - 1) * 100 } : null; }).filter(Boolean).sort((a, b) => b.ch - a.ch);
     if (fv.length >= 2) {
       const top = fv.slice(0, 3), bot = fv.slice(-3).reverse().filter((x) => !top.includes(x));

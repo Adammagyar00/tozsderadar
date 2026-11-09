@@ -3060,7 +3060,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       portfolio, favs: favs || [], chart: lwcPrefs, pfcur: pfCur, settings, mywl: myWl,
       alerts: alerts.map((a) => ({ ...Object.fromEntries(AL_CFG.filter((k) => a[k] !== undefined).map((k) => [k, a[k]])), y: alertY(a) })),
       srv: {
-        pf: portfolio.map((h) => ({ symbol: h.symbol, qty: h.qty, type: h.type, y: pfY(h) })), favs: (favs || []).map((f) => f.symbol),
+        pf: portfolio.map((h) => ({ symbol: h.symbol, qty: h.qty, type: h.type, y: pfY(h), cg: h.cg || null })), favs: (favs || []).map((f) => f.symbol),
         // a hírek és a naptár jelölései (BTC, NVDA, VUAA…): portfolio, kedvencek, figyelőlista
         syms: [...new Set([...portfolio.map((h) => h.symbol), ...(favs || []).map((f) => { const u = f.symbol.toUpperCase(); return (UCITS[u] || {}).sym || u.replace(/-USD$/, "").split(".")[0]; }), ...(watchlist || []).map((w) => String(w.symbol).toUpperCase())])],
         ...Object.fromEntries(TG_OPTS.map(([k]) => [k, settings[k] !== false])),
