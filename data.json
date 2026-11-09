@@ -1,6 +1,320 @@
 {
- "builtAt": "2026-11-08T20:56:23Z",
+ "builtAt": "2026-11-09T06:57:36Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 10.",
+     "event": "USA CPI (okt.) és magyar infláció (KSH)"
+    },
+    {
+     "date": "nov. 12.",
+     "event": "Cisco gyorsjelentés"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés, Nvidia gyorsjelentés"
+    },
+    {
+     "date": "dec. 9.",
+     "event": "FOMC kamatdöntés"
+    }
+   ],
+   "date": "2026-11-09",
+   "generatedAt": "2026-11-09T06:55:00Z",
+   "headline": "Hétfő reggel: az ázsiai tőzsdék visszapattantak, az Nvidia-vizsgálat és a keddi amerikai CPI áll a fókuszban",
+   "items": [
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Nvidia független igazgatókból álló bizottsága külső jogi tanácsadóval vizsgálja, hogy Huang külföldi titkosszolgálati törekvés célpontja volt-e. A cég szerint nincs okuk azt hinni, hogy nemzetbiztonság vagy üzleti titkok sérültek. Huang belső levélben beismerte házasságtörését. Az Nvidia részvénye a tőzsdezárás utáni kereskedésben mintegy 3%-ot esett.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Az Nvidia igazgatósága vizsgálatot indított, mert Jensen Huang vezérigazgatót külföldi hírszerzés célba vehette",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence-5010307",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Hétfőn az ázsiai részvénypiacok a Wall Street múlt heti eladási hulláma után erősen visszapattantak. Tajvanon a rövidlejáratú eladások korlátozása és az 500 milliárd tajvani dolláros stabilizációs alap készenléte emelte a hangulatot. Az Nvidia-vezérigazgatót érintő vizsgálat ugyanakkor óvatosságra intette a befektetőket az AI-szektorban.",
+     "symbols": [],
+     "title": "Ázsiai tőzsdék: a tajvani index 6%-ot ugrott, a Nikkei 3,4%-ot emelkedett, de az Nvidia-vizsgálat visszafogta a kedvet",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-roar-back-taiwan-042552045.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "A kínai statisztikai hivatal szerint az októberi fogyasztói árak 0,7%-kal emelkedtek éves alapon (várakozás: 0,8%), a termelői árak 5,7%-kal – ez a leggyorsabb ütem 2022 júniusa óta. A gyenge belső kereslet és a dráguló ipari költségek közti szakadék tovább nőtt.",
+     "symbols": [],
+     "title": "Kína: az októberi fogyasztói infláció elmaradt a várttól (0,7%), a termelői árak 5,7%-kal nőttek",
+     "url": "https://finance.yahoo.com/economy/articles/china-cpi-inflation-misses-forecasts-021515043.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A hírek szerint Peking további két hónappal elhalasztja a 24%-os kiegészítő vám bevezetését az amerikai termékekre. A lépés a kereskedelmi feszültségek enyhítését szolgálja.",
+     "symbols": [],
+     "title": "Kína két hónappal meghosszabbítja az amerikai importra kivetett 24%-os pótvám felfüggesztését",
+     "url": "https://www.investing.com/news/commodities-news/china-extends-suspension-of-24-tariff-on-us-imports-for-two-months-5010427",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Hétfő hajnalban az olajárak estek, mert Trump jelezte: új iráni támadás nem valószínű, ha a diplomácia halad. A Brent a múlt héten mintegy 12,5%-ot esett, de a hormuzi szoros körüli kockázatok megmaradtak, és elemzők szerint a konfliktus újra kiújulhat.",
+     "symbols": [],
+     "title": "Olaj: csökkent az ár, miután Trump szerint új iráni támadások „valószínűtlenek”, ha előrehaladnak a tárgyalások",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-dip-trump-says-005521345.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Investing.com",
+     "summary": "Az arany ára az erős amerikai munkaerőpiaci adat miatti visszaesés után hétfőn visszakapaszkodott 4100 dollár/uncia fölé. A befektetők a keddi amerikai fogyasztóiár-adatot és a Fed további szigorításának esélyét mérlegelik.",
+     "symbols": [],
+     "title": "Az arany 4100 dollár fölé erősödött az amerikai infláció várásában",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/gold-rebounds-above-4-100-014644409.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A vasárnap esti kereskedésben az amerikai indexek határidős jegyei vegyesen mozogtak. A piacot az AI-beruházások fenntarthatóságáról szóló aggodalmak és a kedd esti amerikai inflációs adat várakozása határozza meg.",
+     "symbols": [],
+     "title": "Vegyes amerikai tőzsdei határidős jegyek: az AI-kiadások miatti aggodalom és az inflációs adatra várakozás",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-mixed-amid-012009920.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto · Investing.com · Reuters",
+     "summary": "A kriptopénzek a félidős választások után kéthavi mélypontra csúsztak. A bitcoin 74 ezer dollár alá süllyedt, a kényszerlikvidációk összege közel 1 milliárd dollár volt.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin 74 ezer dollár alá esett, a kriptopiaci likvidációk megközelítették az 1 milliárd dollárt",
+     "url": "https://beincrypto.com/bitcoin-price-crash-crypto-liquidations-market-risks/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A BeInCrypto szerint az Ethereum árfolyama egy hónap alatt 13,98%-kal gyengült, miközben a spot ETF-ekből hat hete folyamatosan tőke áramlik ki. Néhány nagy tulajdonos (bálna) ennek ellenére vásárolt a visszaesésben.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "Az Ethereum egy hónap alatt közel 14%-ot esett, a spot ETF-ek hat hete kiáramlást mutatnak",
+     "url": "https://beincrypto.com/ethereum-whales-buy-etf-outflows/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Scott Melker értesülése",
+     "summary": "A hírek szerint a demokraták a félidős választási győzelem után jelentős módosításokat készítenek elő a kriptopiaci CLARITY-törvényen. Scott Melker szerint ez átalakíthatja a bitcoin és a kriptoipar szabályozási környezetét.",
+     "symbols": [],
+     "title": "Értesülések szerint a demokraták átírnák a CLARITY-törvényt, bővítve az SEC jogköreit",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/democrats-reportedly-push-clarity-act-123005654.html",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · StockTwits",
+     "summary": "A StockTwits szerint a chipgyártók részvényei hétfő reggel enyhén emelkedtek, mivel a befektetők túllátnak a félidős választások utáni eladáson és az Nvidia-vezérigazgatót érintő vitán.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Chipszektor: az AMD, a Broadcom, az Intel és a Micron kissé emelkedett a választás utáni eladási hullám után",
+     "url": "https://stocktwits.com/news-articles/markets/equity/amd-avgo-intc-mu-chip-stocks-inch-higher-as-investors-look-past-midterms-led-selloff-nvidia-controversy/cNGAD0CR9eR?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga",
+     "summary": "Az elemző-befektető Gary Black ismét bírálta a SpaceX és a Tesla lehetséges, részvénycserés egyesülését, és a hígulás kockázatára figyelmeztetett. Az egyesülésről hivatalos megerősítés nincs, a vélemény Black személyes álláspontja.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Gary Black szerint hígulási kockázat rejlik egy esetleges SpaceX–Tesla összeolvadásban",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-bulls-could-burned-gary-223005762.html",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Investing.com",
+     "summary": "A kanadai Strathcona közölte, hogy 2,7–2,9 milliárd kanadai dollárért (1,91–2,06 milliárd USD) megveszi a Greenfire Resources-t, két nehézolaj- és olajhomok-vállalatot egyesítve. A cél a termelés bővítése.",
+     "symbols": [],
+     "title": "A Strathcona Resources megvásárolja a Greenfire Resources-t, az ügylet értéke mintegy 2 milliárd dollár",
+     "url": "https://finance.yahoo.com/energy/articles/strathcona-acquire-greenfire-resources-2-061857554.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Mitsui Chemicals megvásárolná a chipgyártási anyagokat előállító JSR-t. Korábbi Reuters-értesülések 8,2 milliárd dollár körüli értéket említettek, és a Mitsui akkor közölte, hogy még nem döntött; a végleges megállapodást és az összeget nem sikerült megerősíteni.",
+     "symbols": [],
+     "title": "Értesülések szerint a Mitsui Chemicals mintegy 11 milliárd dollárért megvenné a JSR-t",
+     "url": "https://www.investing.com/news/stock-market-news/mitsui-chemicals-to-buy-chip-materials-maker-jsr-for-11-bln-5010413",
+     "verified": false
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Japán Központi Bank elnöke szerint az inflációt illetően vannak felfelé mutató kockázatok. A megjegyzés a kamatemelési várakozásokat erősítheti.",
+     "symbols": [],
+     "title": "Ueda (BOJ): „bizonyos felfelé mutató kockázatok” vannak az inflációban",
+     "url": "https://www.investing.com/news/economy-news/boj-chief-ueda-sees-some-upside-risks-to-inflation-5010354",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A munkaadói felmérések szerint októberben Nagy-Britanniában lassult az új munkavállalók felvétele, ugyanakkor a fizetések növekedése felgyorsult.",
+     "symbols": [],
+     "title": "Brit munkaerőpiac: gyengébb a felvétel, de gyorsul a bérek növekedése októberben",
+     "url": "https://www.investing.com/news/economic-indicators/uk-employers-report-weaker-hiring-but-stronger-pay-growth-in-october-5010365",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com (jelentés alapján)",
+     "summary": "Jelentés szerint London csökkenti a 2030-ra kitűzött elektromosautó-értékesítési célt 60%-ra. Hivatalos bejelentés még nem történt.",
+     "symbols": [],
+     "title": "Értesülések szerint az Egyesült Királyság 60%-ra mérsékli a 2030-as elektromosautó-célt",
+     "url": "https://www.investing.com/news/economy-news/uk-expected-to-reduce-2030-electric-vehicle-target-to-60--report-93CH-5010527",
+     "verified": false
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Források szerint dróntámadás miatt felfüggesztették a termelést az iraki Khor Mor gázmezőn.",
+     "symbols": [],
+     "title": "Dróntámadás után leállt a termelés az iraki Khor Mor gázmezőn",
+     "url": "https://www.investing.com/news/commodities-news/production-suspended-at-iraqs-khor-mor-gas-field-after-drone-attack-sources-say-5010313",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az ukrajnai zaporizzsjai atomerőmű külső áramellátása megszakadt, az üzem dízelgenerátorokra állt át.",
+     "symbols": [],
+     "title": "A zaporizzsjai atomerőmű elvesztette a külső áramellátást, dízelgenerátorokra váltott",
+     "url": "https://www.investing.com/news/economy-news/zaporizhzhia-nuclear-plant-loses-external-power-switches-to-diesel-generators-5010171",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Trump úgy véli, a kínai APEC-csúcson találkozik majd a kínai és az orosz elnökkel. A találkozót hivatalosan nem erősítették meg.",
+     "symbols": [],
+     "title": "Trump szerint találkozni fog Xi Csin-pinggel és Putyinnal a kínai APEC-csúcson",
+     "url": "https://www.investing.com/news/economy-news/trump-thinks-he-will-meet-xi-and-putin-at-china-apec-summit-5010387",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Reuters (névtelen források), Investing.com",
+     "summary": "Egy Reuters-exkluzív, névtelen forrásokra hivatkozva azt írja, hogy kínai bankok emelték a dolláros betétek kamatát, mert Peking szeretné fékezni a jüan felértékelődését.",
+     "symbols": [],
+     "title": "Értesülések szerint a kínai bankok emelik a dolláros betéti kamatokat, hogy mérsékeljék a jüan erősödését",
+     "url": "https://www.investing.com/news/economy-news/exclusivechinese-banks-boost-dollar-deposit-rates-sources-say-as-beijing-seeks-to-smooth-yuan-rally-5010496",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az ausztrál ANZ bank a teljes évre 31%-os pénzügyi nyereségnövekedésről számolt be.",
+     "symbols": [],
+     "title": "Az ANZ éves tiszta nyeresége 31%-kal nőtt",
+     "url": "https://www.investing.com/news/stock-market-news/australian-lender-anz-reports-31-rise-in-fullyear-cash-profit-5010331",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com (Bloomberg értesülése)",
+     "summary": "A Bloomberg értesülése szerint az EU és Nagy-Britannia közel jár a brexit utáni kibocsátáskereskedelmi rendszerek összekapcsolásához.",
+     "symbols": [],
+     "title": "Bloomberg: az EU és az Egyesült Királyság közel áll a szén-dioxid-piacok összekapcsolásáról szóló megállapodáshoz",
+     "url": "https://www.investing.com/news/economy-news/eu-uk-near-postbrexit-carbon-market-linkage-deal--bloomberg-5010176",
+     "verified": false
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "Az ázsiai részvénypiacok hétfőn erősen emelkedtek a Wall Street múlt heti AI-eladási hulláma után, Tajvanon 6%-os ugrással. Az Nvidia igazgatósága vizsgálatot indított vezérigazgatója ügyében, ami az AI-szektor hangulatát árnyékolja. Kínában az októberi fogyasztói infláció 0,7%-ra lassult, a termelői árak viszont 5,7%-kal nőttek. Az olaj Trump iráni megjegyzése után esett, az arany 4100 dollár fölé erősödött, a bitcoin 74 ezer dollár alá csúszott. Kedden érkezik az amerikai októberi CPI és a magyar infláció.",
+   "updatedAt": "2026-11-09T06:55:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -11260,19 +11574,19 @@
    "id": "2026-11-06-us-nfp"
   },
   {
-   "actual": "",
+   "actual": "CPI +0,7% éves (havi 0,0%), PPI +5,7% éves (havi +0,7%)",
    "country": "Kína",
    "date": "2026-11-09",
    "event": "Infláció (CPI) és termelői árak (PPI), október",
-   "forecast": "",
+   "forecast": "CPI +0,8%, PPI +5,3% éves",
    "importance": 2,
-   "note": "Az NBS közzététele 9:30 kínai idő szerint.",
+   "note": "Az NBS közzététele 9:30 kínai idő szerint. A CPI elmaradt a várttól, a PPI meghaladta (Reuters-konszenzus: 5,3%). Forrás: NBS/Xinhua, FXStreet, CNBC.",
    "previous": "",
-   "source": "NBS, FinanceCalendar",
+   "source": "NBS, Xinhua, FXStreet, CNBC",
    "symbols": [],
    "time": "02:30",
    "type": "Makroadat",
-   "url": "https://www.financecalendar.com/?p=2105",
+   "url": "https://english.news.cn/20261109/afda6ffee5f34853820eb2f9e4f8caaa/c.html",
    "id": "2026-11-09-cn-cpi"
   },
   {
@@ -11513,6 +11827,22 @@
    "type": "Makroadat",
    "url": "https://www.bea.gov/news/schedule",
    "id": "2026-11-25-us-gdp-pce"
+  },
+  {
+   "actual": "",
+   "country": "EU",
+   "date": "2026-12-01",
+   "event": "Infláció, november (gyorsbecslés, éves)",
+   "forecast": "",
+   "importance": 3,
+   "note": "Két naptárforrás (FinanceCalendar, ForexFundamentals) egyezően 2026. december 1-jét közli; az Eurostat naptárával érdemes ellenőrizni.",
+   "previous": "4,0%",
+   "source": "Eurostat, FinanceCalendar, ForexFundamentals",
+   "symbols": [],
+   "time": "11:00",
+   "type": "Makroadat",
+   "url": "https://www.financecalendar.com/?p=2229",
+   "id": "2026-12-01-eu-hicp-flash"
   },
   {
    "actual": "",
