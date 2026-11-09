@@ -1,7 +1,58 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-09T04:37:35Z",
+ "updatedAt": "2026-11-09T05:37:21Z",
  "items": [
+  {
+   "title": "Wall Street Keeps Selling Ethereum, but Whales Are Buying In",
+   "link": "https://beincrypto.com/ethereum-whales-buy-etf-outflows/?.tsrc=rss",
+   "published": "2026-11-09T05:16:29Z",
+   "publisher": "",
+   "summary": "Ethereum price fell 13.98% in a month as spot ETFs logged six weeks of outflows and a few whales bought the dip.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Vitalik Buterin Wants AI to Slow Down, Backs Anti-Data Center Movement",
+   "link": "https://beincrypto.com/vitalik-buterin-anti-data-center-movement/?.tsrc=rss",
+   "published": "2026-11-09T05:00:00Z",
+   "publisher": "",
+   "summary": "Vitalik Buterin defends the anti-data center movement, saying slower AI compute growth buys time to harden the world against cyber risks.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Micron Technology And 2 High Growth Stocks To Watch",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-2-high-growth-042757242.html",
+   "published": "2026-11-09T04:27:57Z",
+   "publisher": "",
+   "summary": "Rising concern about US government debt and higher Treasury yields has pushed many investors to rethink where they want growth exposure. Strong balance sheets and solid earnings momentum can feel more attractive when borrowing costs are in focus and market swings are sharper. This article highlights three financially healthy companies identified by analysts as having the potential for rapid profit",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Asia stocks roar back as Taiwan jumps 6%, Nvidia probe rattles AI trade",
    "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-roar-back-taiwan-042552045.html",
@@ -9,6 +60,31 @@
    "publisher": "",
    "summary": "Investing.com -- Asian stocks rallied on Monday, following a recovery on Wall Street, although concerns over an investigation involving Nvidia CEO Jensen Huang tempered gains as investors reassessed the outlook for the artificial intelligence trade.",
    "symbols": []
+  },
+  {
+   "title": "Small Cap Snapshot: Firefly, Krakatoa, Dalaroo, Beetaloo and more...",
+   "link": "https://finance.yahoo.com/video/small-cap-snapshot-firefly-krakatoa-040421718.html",
+   "published": "2026-11-09T04:04:21Z",
+   "publisher": "",
+   "summary": "Here’s a look at some of the small-cap companies making news this Monday. FireFly Metals has continued to build momentum at its Green Bay copper-gold project in Canada, extending the high-grade core zone with drilling that has intersected mineralisation outside the current resource and closer to surface. Standout results included 16.4 metres at 9.2% copper equivalent and 15.5 metres at 12.4% coppe",
+   "symbols": []
+  },
+  {
+   "title": "Vitalik Buterin Says ETH Fee Burn Will Not Drive Ethereum's Value",
+   "link": "https://beincrypto.com/vitalik-buterin-eth-fee-burn-store-of-value/?.tsrc=rss",
+   "published": "2026-11-09T03:55:58Z",
+   "publisher": "",
+   "summary": "Vitalik Buterin says the ETH fee burn never was as strong as it seemed and argues ETH should focus on being a store of value instead.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus",
@@ -27,11 +103,11 @@
    "symbols": []
   },
   {
-   "title": "AMD, AVGO, INTC, MU: Chip Stocks Inch Higher As Investors Look Past Midterms-Led Selloff, Nvidia Controversy",
-   "link": "https://stocktwits.com/news-articles/markets/equity/amd-avgo-intc-mu-chip-stocks-inch-higher-as-investors-look-past-midterms-led-selloff-nvidia-controversy/cNGAD0CR9eR?.tsrc=rss",
-   "published": "2026-11-09T03:34:24Z",
+   "title": "Bitcoin’s 7-Week Bottom Signal Just Broke. Here Is What Happened the Last 2 Cycles",
+   "link": "https://beincrypto.com/bitcoin-50-week-moving-average-break/?.tsrc=rss",
+   "published": "2026-11-09T03:39:24Z",
    "publisher": "",
-   "summary": "Last week, AI-linked stocks fell sharply after Democrats, seen to be critical of the rapid data center buildout, won Congress.",
+   "summary": "Bitcoin closed below its 50-week moving average for the first time in 7 weeks. Galaxy data shows how past breaks played out.",
    "symbols": [
     "BTC",
     "ETH",
@@ -44,19 +120,61 @@
    ]
   },
   {
+   "title": "AMD, AVGO, INTC, MU: Chip Stocks Inch Higher As Investors Look Past Midterms-Led Selloff, Nvidia Controversy",
+   "link": "https://stocktwits.com/news-articles/markets/equity/amd-avgo-intc-mu-chip-stocks-inch-higher-as-investors-look-past-midterms-led-selloff-nvidia-controversy/cNGAD0CR9eR?.tsrc=rss",
+   "published": "2026-11-09T03:34:24Z",
+   "publisher": "",
+   "summary": "Last week, AI-linked stocks fell sharply after Democrats, seen to be critical of the rapid data center buildout, won Congress.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "China's 5.7% Factory Inflation Could Complicate the Fed Path Before US CPI",
+   "link": "https://beincrypto.com/china-factory-inflation-fed-path-cpi/?.tsrc=rss",
+   "published": "2026-11-09T03:26:00Z",
+   "publisher": "",
+   "summary": "China factory inflation hit 5.7% in October on oil costs. Traders now watch US CPI and the Fed's December hike odds.",
+   "symbols": []
+  },
+  {
    "title": "Elon Musk sends a strong signal to SpaceX stock investors",
    "link": "https://www.thestreet.com/investing/stocks/elon-musk-sends-a-strong-signal-to-spacex-stock-investors?.tsrc=rss",
    "published": "2026-11-09T03:17:00Z",
    "publisher": "",
    "summary": "A single remark from Musk at an investor conference moved three telecom stocks in opposite directions.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
+   ]
+  },
+  {
+   "title": "US Money Supply Hits $23.34 Trillion: Why Is Bitcoin Not Following?",
+   "link": "https://beincrypto.com/us-money-supply-record-bitcoin-lags/?.tsrc=rss",
+   "published": "2026-11-09T03:00:00Z",
+   "publisher": "",
+   "summary": "US money supply hit $23.34 trillion in August, yet Bitcoin is slipping. See why the liquidity link is not holding.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
    ]
   },
   {
@@ -65,6 +183,14 @@
    "published": "2026-11-09T02:45:36Z",
    "publisher": "",
    "summary": "APA delivered quarterly results that exceeded Wall Street’s expectations, driven by higher oil production and improved operational efficiency across its core assets. Management pointed to stronger-than-anticipated performance in both the Permian Basin and Egypt, where earlier turn-in-lines and resilient well productivity contributed to the output. CEO John Christmann emphasized that “more efficien",
+   "symbols": []
+  },
+  {
+   "title": "Asian Stocks Rebound, Nikkei Up 3.4%, but Can They Lead Wall Street?",
+   "link": "https://beincrypto.com/asian-stocks-rebound-lead-wall-street/?.tsrc=rss",
+   "published": "2026-11-09T02:45:27Z",
+   "publisher": "",
+   "summary": "Asian stocks rebound as the Nikkei gains 3.4% and KOSPI 1.5%, but both echo Wall Street's bounce rather than lead it.",
    "symbols": []
   },
   {
@@ -121,6 +247,14 @@
    "published": "2026-11-09T02:14:15Z",
    "publisher": "",
    "summary": "Torex Gold Resources (TSE:TXG) reported a 37% quarter-over-quarter increase in production in the third quarter of 2026, as higher grades and improved gold recovery boosted margins and cash flow at its Morelos complex. Production rose to 132,000 ounces, while all-in sustaining costs fell 27% to $1,8",
+   "symbols": []
+  },
+  {
+   "title": "Brent Crude Fell 12.5% But Former Biden Advisor Warns Iran War Could Return",
+   "link": "https://beincrypto.com/brent-crude-iran-war-hochstein-warning/?.tsrc=rss",
+   "published": "2026-11-09T02:07:52Z",
+   "publisher": "",
+   "summary": "Brent crude fell over 12.5% this week, but Amos Hochstein says Iran war odds top 50/50 as Hormuz tanker attacks persist.",
    "symbols": []
   },
   {
@@ -340,6 +474,23 @@
    "publisher": "",
    "summary": "Gold held a late-week retreat after strong US jobs data reinforced expectations the Federal Reserve will seek to raise interest rates to combat inflation.",
    "symbols": []
+  },
+  {
+   "title": "Crypto Liquidations Surge as Bitcoin Falls Below $74K. How Bad Is It?",
+   "link": "https://beincrypto.com/bitcoin-price-crash-crypto-liquidations-market-risks/?.tsrc=rss",
+   "published": "2026-11-08T23:36:20Z",
+   "publisher": "",
+   "summary": "Bitcoin falls to $74K as crypto liquidations near $1 billion. Four warning signs suggest the market crash could deepen.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Forget the High-Beta Hype: 5 ‘Sleep Well at Night’ Stocks to Buy Now",
@@ -2737,138 +2888,6 @@
     "SPCX",
     "VOO",
     "XDW0"
-   ]
-  },
-  {
-   "title": "$1,000 in Bitcoin or XRP: Which Is Worth More by 2030?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/07/1000-in-bitcoin-or-xrp-which-is-worth-more-by-2030/?.tsrc=rss",
-   "published": "2026-11-07T16:31:54Z",
-   "publisher": "",
-   "summary": "Both coins have slumped this month, but one sits much farther from its peak while the other has a stronger ETF story. Six 2030 scenarios show how a $1,000 bet could split, and why the bigger upside may come with a catch.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bitcoin Doesn't Need a Bank, Yet MicroStrategy Wants to Become One",
-   "link": "https://beincrypto.com/microstrategy-bitcoin-bank-debate/?.tsrc=rss",
-   "published": "2026-11-07T16:30:40Z",
-   "publisher": "",
-   "summary": "Strategy wants to be the Bitcoin bank of the world, while Bitcoin's blockchain still fits on a 1TB drive and developers fight over its growth.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "3 Top Picks With At Least 2% Dividend Yield",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-top-picks-least-2-160951965.html",
-   "published": "2026-11-07T16:09:51Z",
-   "publisher": "",
-   "summary": "The recent US midterm election shock pulled attention and capital away from AI heavyweights and oil producers. That shift puts the spotlight back on steady, low carbon power sources like nuclear energy that can run regardless of politics or fuel headlines. For investors, this creates an opening to reassess long term clean power exposure. This article examines three nuclear focused stocks that may ",
-   "symbols": []
-  },
-  {
-   "title": "Should Expanded Glenburgh Drilling Require Action From Benz Mining (TSXV:BZ) Investors?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/expanded-glenburgh-drilling-require-action-160911974.html",
-   "published": "2026-11-07T16:09:11Z",
-   "publisher": "",
-   "summary": "Benz Mining advanced work at its Glenburgh Gold Project in Western Australia after reporting encouraging drilling results and securing A$150 million in August 2026 to fund what it describes as one of the largest gold exploration programs in the country. The decision to ramp up to 14 drill rigs and aim for a maiden mineral resource in the first half of 2027 signals a clear operational focus on defi",
-   "symbols": []
-  },
-  {
-   "title": "XRP Price Prediction: XRP May Revisit $1 as Negative Momentum Hits Extreme Levels",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-price-prediction-xrp-may-160419232.html",
-   "published": "2026-11-07T16:04:19Z",
-   "publisher": "",
-   "summary": "XRP faces a potential drop toward $1.04 and risks revisiting the $1.00 threshold after a sharp rejection at $1.32, driven by an extreme oversold 4-hour RSI signal.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Anthropic Could Postpone Its $1.5 Trillion IPO, Per One Investor, As Market Sours On AI Trade. Another Says It Could End Up Closer To $1 Trillion",
-   "link": "https://247wallst.com/investing/2026/11/07/anthropic-could-postpone-its-1-5-trillion-ipo-per-one-investor-as-market-sours-on-ai-trade-another-says-it-could-end-up-closer-to-1-trillion/?.tsrc=rss",
-   "published": "2026-11-07T15:58:25Z",
-   "publisher": "",
-   "summary": "A brutal Thursday selloff just handed Wall Street's biggest buyers the upper hand over the largest IPO ever attempted. Now the question for everyday investors is whether the price, the size, or the date gives way first.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Warren Buffett's Berkshire Compounded at More Than 19% a Year Over Six Decades, Nearly Double the S&P 500's 10% Return. Can Investors Still Apply That Playbook Today?",
-   "link": "https://www.fool.com/investing/2026/11/07/warren-buffetts-berkshire-compounded-at-more-than/?.tsrc=rss",
-   "published": "2026-11-07T15:56:00Z",
-   "publisher": "",
-   "summary": "If you'd invested $5,000 in Berkshire stock 60 years ago, you would be sitting on a massive fortune today.",
-   "symbols": []
-  },
-  {
-   "title": "Bank of America warns oil could force a Fed interest-rate rethink",
-   "link": "https://www.thestreet.com/fed/bank-of-america-oil-fed-rates?.tsrc=rss",
-   "published": "2026-11-07T15:37:00Z",
-   "publisher": "",
-   "summary": "Another costly twist could be coming for borrowers.",
-   "symbols": []
-  },
-  {
-   "title": "Decoding Healthcare ETFs: Different Sectors, Different Strategies",
-   "link": "https://www.fool.com/coverage/etfs/2026/11/07/decoding-healthcare-etfs-different-sectors-different-strategies/?.tsrc=rss",
-   "published": "2026-11-07T15:35:02Z",
-   "publisher": "",
-   "summary": "RSPH offers broader sector diversification with lower volatility, while XBI delivers higher short-term gains but with steeper drawdowns.",
-   "symbols": []
-  },
-  {
-   "title": "SCHD Just Hit a Record High Following Midterm Election Results. I'd Still Rather Buy This Dividend King for Passive Income.",
-   "link": "https://www.fool.com/investing/2026/11/07/schd-just-hit-a-record-high-following-midterm-elec/?.tsrc=rss",
-   "published": "2026-11-07T15:35:00Z",
-   "publisher": "",
-   "summary": "Investors are pouring into dividend-paying stocks and ETFs as Democrats gain control of Congress.",
-   "symbols": []
-  },
-  {
-   "title": "Fed Chair Kevin Warsh Just Issued a 6-Word Warning That Could Spell Disaster for AI Stocks",
-   "link": "https://247wallst.com/investing/2026/11/07/fed-chair-kevin-warsh-just-issued-a-6-word-warning-that-could-spell-disaster-for-ai-stocks/?.tsrc=rss",
-   "published": "2026-11-07T15:26:32Z",
-   "publisher": "",
-   "summary": "Two AI stocks lost nearly half their value in a month while Microsoft barely moved. The split has less to do with chips than with one question every data center builder now has to answer, and rising rates are forcing the issue.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
    ]
   }
  ]
