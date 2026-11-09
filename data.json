@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-09T16:57:09Z",
+ "builtAt": "2026-11-09T17:57:29Z",
  "digests": [
   {
    "calendar": [
@@ -834,6 +834,246 @@
      "title": "Karniol-Tambour elhagyja a Bridgewatert, hogy Kanada szuverén alapját vezesse",
      "url": "https://www.investing.com/news/stock-market-news/karnioltambour-to-leave-bridgewater-to-lead-canadas-sovereign-fund-5012714",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · GlobeNewswire",
+     "summary": "A New York-i Sargasso Capital Management hétfőn új jelentést jelentett be a Tesla és a SpaceX kapcsán. A közlemény (GlobeNewswire) a két cég viszonyát tárgyalja, a Yahoo összefoglalója szerint az egyesülésüket szorgalmazza. A téma a Tesla–SpaceX összeolvadásról szóló korábbi értesülésekhez kapcsolódik.",
+     "symbols": [
+      "SPCX",
+      "TSLA"
+     ],
+     "title": "A Sargasso Capital Management új jelentést tett közzé a Tesláról és a SpaceX-ről",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sargasso-capital-management-announces-report-172700078.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az amerikai főindexek hétfőn emelkedtek: a növekedési részvények erősödtek, a nyersolaj ára csökkent. A Yahoo Finance szerint a dip-vásárlók a technológiai kiárusítás után a részvényeket az április óta legjobb napjuk felé vitték.",
+     "symbols": [],
+     "title": "Wall Street: az indexek emelkednek, a növekedési szektorok húznak, miközben az olajár csökken",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-jump-growth-171855293.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance",
+     "summary": "Az európai tőzsdék hétfőn szinte mindenhol emelkedéssel zártak: a DAX +1,72%, a CAC 40 +1,16%, az FTSE 100 +1,10%, az IBEX 35 +1,93%, az olasz Italy 40 +2,66%, az AEX +0,84%. A Yahoo szerint a hozamok és az olajár enyhülése segítette a részvényeket.",
+     "symbols": [],
+     "title": "Európai zárás: a DAX 1,72%-kal, az FTSE 100 1,10%-kal, a CAC 40 1,16%-kal emelkedett",
+     "url": "https://www.investing.com/news/stock-market-news/germany-stocks-higher-at-close-of-trade-dax-up-172-5012907",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A 247WallSt szerint az XRP 1,07 dollárra gyengült, az 1 dolláros támaszt teszteli. Az ETF-beáramlások megálltak, a kongresszusi szabályozás (CLARITY) pedig elakadt, így nincs egyértelmű katalizátor.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Az XRP 1,07 dollárra esett, ez a legalacsonyabb szint augusztus óta",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/09/xrp-fell-to-1-07-its-lowest-since-august-will-the-1-support-hold-this-time/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Unchained",
+     "summary": "Az egyes PNC-ügyfeleknek küldött USDC-t 1:1 arányban dollárra váltják, és PNC-betétszámlán jelenik meg; a stablecoin-oldalt a Coinbase kezeli. A projekt kísérleti jellegű (Unchained).",
+     "symbols": [
+      "COIN"
+     ],
+     "title": "A PNC vállalati ügyfelei USDC-fizetést fogadhatnak el egy Coinbase-alapú kísérletben",
+     "url": "https://unchainedcrypto.com/pnc-bank-lets-corporate-clients-accept-usdc-payments-in-new-coinbase-powered-pilot/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Schwab Crypto ezzel öt digitális eszközt listáz, nagyjából 11 héttel azután, hogy bejelentette a három token felvételét (Yahoo Finance).",
+     "symbols": [
+      "SOL",
+      "AVAX",
+      "LINK"
+     ],
+     "title": "A Schwab megnyitotta a Solana, az Avalanche és a Chainlink kereskedését a kripto-ügyfeleinek",
+     "url": "https://unchainedcrypto.com/schwab-opens-solana-avalanche-and-chainlink-trading-to-its-retail-crypto-clients/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az Investing.com szerint az amerikai egészségügyi hatóság előírja a gyártóknak, köztük a Novo Nordisknak és az Eli Lillynek, hogy biztonsági figyelmeztetést tegyenek a GLP-1 készítmények címkéjére a látásvesztés kockázatáról.",
+     "symbols": [
+      "LLY",
+      "NVO"
+     ],
+     "title": "Az FDA látásvesztésre figyelmeztető jelölést ír elő a Novo Nordisk és az Eli Lilly GLP-1 gyógyszereihez",
+     "url": "https://finance.yahoo.com/markets/healthcare/articles/fda-requires-vision-loss-warning-170646867.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az AHA26 konferenciáról szóló beszámoló szerint a Lilly Foundayo (orforglipron) a fogyás mellett az alvási apnoéban is előnyt mutatott a III. fázisú vizsgálatban. A készítmény az USA-ban januárban kapott engedélyt fogyókúrás indikációra, az EU-ban azóta szintén.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Lilly: a Foundayo az alvási apnoé III. fázisú vizsgálatában is hasznosnak bizonyult",
+     "url": "https://www.clinicaltrialsarena.com/news/aha26-lillys-foundayo-benefits-beyond-weight-loss-in-phase-iii-sleep-apnoea-win/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A Motley Fool szerint a Bloom Energy részvénye hétfőn emelkedett, miután a választások után eladási hullám érte.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "A Bloom Energy részvénye visszapattant a választások utáni eséséből",
+     "url": "https://www.fool.com/investing/2026/11/09/why-bloom-energy-stock-popped-today/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Tom Lee cége, a Bitmine mintegy 20 millió dollárnyi Ethereumot vásárolt; a készlet 6,07 millió ETH, ami a teljes kínálat 4,97%-a, és 99%-ban teljesíti az 5%-os célt. Tom Lee Vitalik Buterin „az ETH pénz” kijelentését méltatta (Yahoo/Decrypt).",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "A Bitmine 20 millió dollárnyi ETH-t vett, állománya 6,07 millió ETH",
+     "url": "https://decrypt.co/382854/tom-lee-bitmine-adds-20m-ethereum-vitalik-eth-money?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance beszámolója szerint az Anthropic milliárdos értékben földgázturbinákat vásárolt egy olyan üzletben, amely később megbánással járhat.",
+     "symbols": [],
+     "title": "Az Anthropic 3,4 milliárd dollár értékben vásárolt földgázturbinákat",
+     "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-joins-ai-natural-gas-165654243.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com cikke szerint az Nvidia fellépését követően került át a chipekkel kapcsolatos vizsgálat az amerikai Igazságügyi Minisztériumhoz. A hír az Nvidia-vezér elleni belső vizsgálat napján jelent meg.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Az Nvidia beavatkozása megelőzte, hogy a chip-vizsgálatot az Igazságügyi Minisztériumhoz helyezték át",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-intervention-preceded-transfer-of-chip-probe-to-justice-department-5012839",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Mindkét hitelminősítő rontott az Akamai besorolásán az AI-infrastruktúra hitelből finanszírozott bővítése miatt. Ugyanezen a napon a cég 2,2 milliárd dolláros átváltható kötvénykibocsátást javasolt.",
+     "symbols": [
+      "AKAM"
+     ],
+     "title": "A Moody's és az S&P is leminősítette az Akamait az adósságalapú AI-infrastruktúra-építés miatt",
+     "url": "https://www.investing.com/news/stock-market-news/moodys-and-sp-downgrade-akamai-on-debtfueled-ai-infrastructure-buildout-5012804",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Névtelen források szerint az Európai Bizottság feltétel nélkül engedélyezheti a UniCredit Commerzbank-felvásárlását. A Börsen-Zeitung korábban november közepére (16-ára) jelezte a Bizottság döntését; hivatalos döntés még nincs.",
+     "symbols": [],
+     "title": "Reuters-értesülés: a UniCredit feltétel nélküli uniós jóváhagyást kaphat a Commerzbank-ügyletre",
+     "url": "https://www.investing.com/news/stock-market-news/exclusiveunicredit-to-win-unconditional-eu-nod-for-commerzbank-deal-sources-say-5012826",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com jelentése szerint az EU tervezetet készít a közösségi média addiktív funkcióinak és az AI-chatbotoknak a korlátozására. A tervezet nem végleges.",
+     "symbols": [],
+     "title": "Jelentés szerint az EU korlátozná a függőséget okozó közösségimédia-funkciókat és az AI-chatbotokat",
+     "url": "https://www.investing.com/news/stock-market-news/eu-drafts-curbs-targeting-addictive-social-media-features-and-ai-chatbots--report-5012845",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Honda új, 3 milliárd dolláros autógyárat épít Ohióban, ami 2000 munkahelyet teremt.",
+     "symbols": [],
+     "title": "A Honda 3 milliárd dolláros új autógyárat épít Ohióban, 2000 munkahellyel",
+     "url": "https://www.investing.com/news/stock-market-news/honda-to-build-new-3-billion-auto-plant-in-ohio-adding-2000-jobs-5012838",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Richmondi Fed-elnök Barkin a Reuters szerint azt mondta, hogy a Fednek „óvatosan” kell mozognia, miközben az inflációra reagál. A Fed a szeptemberben 3,75–4,00%-ra emelte a kamatot.",
+     "symbols": [],
+     "title": "Barkin (Fed): a Fed óvatosan lépjen az infláció kezelésében",
+     "url": "https://www.investing.com/news/economy-news/fed-should-move-policy-with-care-as-it-responds-to-inflationbarkin-says-5012908",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T17:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A New York-i Fed felmérése szerint az amerikaiak aggodalma nőtt a jövőbeli munkanélküliségi szintet illetően (Reuters).",
+     "symbols": [],
+     "title": "NY Fed-felmérés: az amerikaiak jobban tartanak a jövőbeli munkanélküliségtől",
+     "url": "https://www.investing.com/news/economy-news/ny-fed-survey-finds-americans-more-worried-over-future-jobless-levels-5012828",
+     "verified": true
     }
    ],
    "markets": [
@@ -860,7 +1100,7 @@
     }
    ],
    "summary": "Az ázsiai részvénypiacok hétfőn erősen emelkedtek a Wall Street múlt heti AI-eladási hulláma után, Tajvanon 6%-os ugrással. Az Nvidia igazgatósága vizsgálatot indított vezérigazgatója ügyében, ami az AI-szektor hangulatát árnyékolja. Kínában az októberi fogyasztói infláció 0,7%-ra lassult, a termelői árak viszont 5,7%-kal nőttek. Az olaj Trump iráni megjegyzése után esett, az arany 4100 dollár fölé erősödött, a bitcoin 74 ezer dollár alá csúszott. Kedden érkezik az amerikai októberi CPI és a magyar infláció.",
-   "updatedAt": "2026-11-09T16:45:00Z",
+   "updatedAt": "2026-11-09T17:45:00Z",
    "watchlist": []
   },
   {
