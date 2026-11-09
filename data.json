@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-09T15:56:19Z",
+ "builtAt": "2026-11-09T16:56:44Z",
  "digests": [
   {
    "calendar": [
@@ -793,6 +793,47 @@
      "title": "Az amerikai tőzsde: a Dow 500 pontot emelkedik az olajár csökkenésével, az Nvidia zuhan a Huang-vizsgálat miatt",
      "url": "https://finance.yahoo.com/m/6fc3228f-8806-33c0-9e3b-4402850ebacd/stock-market-today%3A-dow.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T16:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance beszámolója szerint a Lilly két telemedicinás céggel együttműködve online hozzáférést kínál jogosult amerikai felnőtteknek GLP-1 típusú elhízás elleni gyógyszereihez. A kompaundált (összeállított) változatok nem tartoznak bele.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Az Eli Lilly két telemedicinás céggel nyit digitális hozzáférést az elhízás elleni gyógyszereihez az USA-ban",
+     "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-opens-digital-151015302.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T16:45:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A CryptoProwl beszámolója szerint a Strategy újabb bitcoinokat vásárolt, így összes birtoklása 850 ezer BTC fölé emelkedett. Az előző, októberi közlések 848 ezer körüli állományról szóltak.",
+     "symbols": [
+      "MSTR",
+      "BTC"
+     ],
+     "title": "A Strategy bitcoin-állománya meghaladta a 850 ezer darabot",
+     "url": "https://www.cryptoprowl.com/releases/strategys-bitcoin-holdings-top-850000-tokens-7759",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T16:45:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters hírét átvevő Investing.com szerint a Bridgewater társ-befektetési igazgatója a kanadai szuverén alap élére távozik.",
+     "symbols": [],
+     "title": "Karniol-Tambour elhagyja a Bridgewatert, hogy Kanada szuverén alapját vezesse",
+     "url": "https://www.investing.com/news/stock-market-news/karnioltambour-to-leave-bridgewater-to-lead-canadas-sovereign-fund-5012714",
+     "verified": true
     }
    ],
    "markets": [
@@ -819,7 +860,7 @@
     }
    ],
    "summary": "Az ázsiai részvénypiacok hétfőn erősen emelkedtek a Wall Street múlt heti AI-eladási hulláma után, Tajvanon 6%-os ugrással. Az Nvidia igazgatósága vizsgálatot indított vezérigazgatója ügyében, ami az AI-szektor hangulatát árnyékolja. Kínában az októberi fogyasztói infláció 0,7%-ra lassult, a termelői árak viszont 5,7%-kal nőttek. Az olaj Trump iráni megjegyzése után esett, az arany 4100 dollár fölé erősödött, a bitcoin 74 ezer dollár alá csúszott. Kedden érkezik az amerikai októberi CPI és a magyar infláció.",
-   "updatedAt": "2026-11-09T14:40:00Z",
+   "updatedAt": "2026-11-09T16:45:00Z",
    "watchlist": []
   },
   {
