@@ -1,13 +1,29 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-09T07:57:43Z",
+ "updatedAt": "2026-11-09T09:11:05Z",
  "items": [
   {
-   "title": "If You'd Invested $5,000 in QQQ the Day It Launched, Here's What You'd Have Today",
-   "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/?.tsrc=rss",
-   "published": "2026-11-09T07:20:00Z",
+   "title": "FTSE 100 today: Stocks jump as miners lead; oil falls on Iran hopes",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-jump-085612574.html",
+   "published": "2026-11-09T08:56:12Z",
    "publisher": "",
-   "summary": "Even launching right before the tech bubble burst, the Invesco QQQ ETF has managed to deliver stellar returns.",
+   "summary": "Investing.com -- British stocks jumped on Monday as miners rose with metals prices and oil slipped on hopes of a U.S.-Iran deal.",
+   "symbols": []
+  },
+  {
+   "title": "EMAS Positions Pani Gold Mine for Further Growth in 2027 Following 69% Q3 Production Increase",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/emas-positions-pani-gold-mine-082800326.html",
+   "published": "2026-11-09T08:28:00Z",
+   "publisher": "",
+   "summary": "PT Merdeka Gold Resources Tbk (the \"Company\"; IDX: EMAS; HKEX: 6228) recorded a 69% quarter-on-quarter increase in gold production to 26,331 ounces in the third quarter of 2026, as the ramp-up of heap leach operations at the Pani Gold Mine in Pohuwato Regency, Gorontalo, continued to gain momentum. At the same time, development of the Carbon-in-Leach (\"CIL\") facility advanced into construction, su",
+   "symbols": []
+  },
+  {
+   "title": "SpaceX Stock Fell to Its Lowest Level Since August After the Midterms. Is It Time to Buy?",
+   "link": "https://www.fool.com/investing/2026/11/09/spacex-stock-fell-to-its-lowest-level-since-august/?.tsrc=rss",
+   "published": "2026-11-09T08:20:00Z",
+   "publisher": "",
+   "summary": "The election brought another risk for SpaceX investors to the fore.",
    "symbols": [
     "SPCX",
     "BE",
@@ -15,6 +31,47 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Should You Avoid McDonald's Stock, Even Near a 4-Year Low?",
+   "link": "https://www.fool.com/investing/2026/11/09/should-you-avoid-mcdonalds-stock-near-low/?.tsrc=rss",
+   "published": "2026-11-09T08:05:00Z",
+   "publisher": "",
+   "summary": "The company's U.S. sales have been challenging.",
+   "symbols": []
+  },
+  {
+   "title": "3 US Events to Watch as Inflation and AI Earnings Test Bitcoin",
+   "link": "https://beincrypto.com/bitcoin-price-us-cpi-ppi-ai-earnings/?.tsrc=rss",
+   "published": "2026-11-09T08:00:00Z",
+   "publisher": "",
+   "summary": "Bitcoin faces US CPI, Cisco and Applied Materials earnings, and PPI as past hot inflation prints pulled it lower.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "If You'd Invested $5,000 in QQQ the Day It Launched, Here's What You'd Have Today",
+   "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/?.tsrc=rss",
+   "published": "2026-11-09T07:20:00Z",
+   "publisher": "",
+   "summary": "Even launching right before the tech bubble burst, the Invesco QQQ ETF has managed to deliver stellar returns.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -28,11 +85,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -42,12 +99,12 @@
    "publisher": "",
    "summary": "Musk projected government revenue would fall below 10% of SpaceX’s sales this quarter and below 5% a year later.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -84,11 +141,11 @@
    "symbols": []
   },
   {
-   "title": "Almirall 9M 2026 Results",
-   "link": "https://finance.yahoo.com/healthcare/articles/almirall-9m-2026-results-063300911.html",
-   "published": "2026-11-09T06:33:00Z",
+   "title": "Applied Materials, Cisco, Berkshire Hathaway, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-cisco-berkshire-hathaway-070000795.html",
+   "published": "2026-11-09T07:00:00Z",
    "publisher": "",
-   "summary": "BARCELONA, Spain, November 09, 2026--Almirall, S.A. (ALM), a global pharmaceutical company dedicated to medical dermatology, today announced its results for the first nine months of 2026. Net Sales rose 8.3% YoY to €889.2 MM and EBITDA grew 22.7% to €221.7 MM, representing a margin of 24.9%. With steady performance in line with its long-term growth trajectory, Almirall reiterated its full-year 202",
+   "summary": "Zacks' Earnings Preview highlights AMAT, CSCO, BRK.B, NVDA, MU and GOOGL as key companies amid broad-based Q3 earnings growth and evolving estimate revisions.",
    "symbols": [
     "BTC",
     "ETH",
@@ -98,6 +155,23 @@
     "LLY",
     "MU",
     "MRVL"
+   ]
+  },
+  {
+   "title": "Almirall 9M 2026 Results",
+   "link": "https://finance.yahoo.com/healthcare/articles/almirall-9m-2026-results-063300911.html",
+   "published": "2026-11-09T06:33:00Z",
+   "publisher": "",
+   "summary": "BARCELONA, Spain, November 09, 2026--Almirall, S.A. (ALM), a global pharmaceutical company dedicated to medical dermatology, today announced its results for the first nine months of 2026. Net Sales rose 8.3% YoY to €889.2 MM and EBITDA grew 22.7% to €221.7 MM, representing a margin of 24.9%. With steady performance in line with its long-term growth trajectory, Almirall reiterated its full-year 202",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2807,54 +2881,6 @@
    "published": "2026-11-07T18:42:54Z",
    "publisher": "",
    "summary": "We just published a list of the Analysts Just Sounded the Alarm on These 10 Overhyped Stocks and Gildan Activewear (NYSE:GIL) ranked 6th on this list. Wall Street had a rough week, and the damage came fast. Thursday’s sell-off erased $2.3 trillion in market value, pushed the Nasdaq into a correction and sent the VIX, […]",
-   "symbols": []
-  },
-  {
-   "title": "Here’s Why Morgan Stanley Analyst Meta Marshall Trimmed Cisco (CSCO) to Equal-weight",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-morgan-stanley-analyst-meta-184215687.html",
-   "published": "2026-11-07T18:42:15Z",
-   "publisher": "",
-   "summary": "We just published a list of the Analysts Just Sounded the Alarm on These 10 Overhyped Stocks and Cisco Systems (NASDAQ:CSCO) ranked 7th on this list. Wall Street had a rough week, and the damage came fast. Thursday’s sell-off erased $2.3 trillion in market value, pushed the Nasdaq into a correction and sent the VIX, […]",
-   "symbols": []
-  },
-  {
-   "title": "Here’s Why Craig Hallum Downgraded Axon (AXON)",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-craig-hallum-downgraded-axon-184100986.html",
-   "published": "2026-11-07T18:41:00Z",
-   "publisher": "",
-   "summary": "We just published a list of the Analysts Just Sounded the Alarm on These 10 Overhyped Stocks and Axon Enterprise (NASDAQ:AXON) ranked 8th on this list. Wall Street had a rough week, and the damage came fast. Thursday’s sell-off erased $2.3 trillion in market value, pushed the Nasdaq into a correction and sent the VIX, […]",
-   "symbols": []
-  },
-  {
-   "title": "Here’s Why Lumentum (LITE) Was Downgraded",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-lumentum-lite-downgraded-184016295.html",
-   "published": "2026-11-07T18:40:16Z",
-   "publisher": "",
-   "summary": "We just published a list of the Analysts Just Sounded the Alarm on These 10 Overhyped Stocks and Lumentum Holdings (NASDAQ:LITE) ranked 9th on this list. Wall Street had a rough week, and the damage came fast. Thursday’s sell-off erased $2.3 trillion in market value, pushed the Nasdaq into a correction and sent the VIX, […]",
-   "symbols": []
-  },
-  {
-   "title": "Choosing a Tech ETF: Low Fees vs. Targeted Exposure",
-   "link": "https://www.fool.com/coverage/etfs/2026/11/07/choosing-a-tech-etf-low-fees-vs-targeted-exposure/?.tsrc=rss",
-   "published": "2026-11-07T18:35:02Z",
-   "publisher": "",
-   "summary": "FTEC's lower 0.08% expense ratio and broader 294-holding portfolio delivered stronger 12-month performance, while IYW offers a more concentrated bet on semiconductors, software, and hardware.",
-   "symbols": []
-  },
-  {
-   "title": "3 Dividend Stocks I'd Buy With $5,000 Before the End of November",
-   "link": "https://www.fool.com/investing/2026/11/07/3-dividend-stocks-buy-5000-november/?.tsrc=rss",
-   "published": "2026-11-07T18:35:00Z",
-   "publisher": "",
-   "summary": "Splitting $5,000 equally across these stocks would pay a blended dividend yield of about 3.5%.",
-   "symbols": []
-  },
-  {
-   "title": "Stocks soared on the Democratic sweep. Less than 24 hours later, the AI trade cracked.",
-   "link": "https://finance.yahoo.com/markets/article/stocks-soared-on-the-democratic-sweep-less-than-24-hours-later-the-ai-trade-cracked-183312401.html",
-   "published": "2026-11-07T18:33:12Z",
-   "publisher": "",
-   "summary": "The extraordinary reversal in stocks marked the latest whipsaw in a year of wild swings.",
    "symbols": []
   }
  ]
