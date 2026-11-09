@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-09T18:57:08Z",
+ "builtAt": "2026-11-09T19:56:18Z",
  "digests": [
   {
    "calendar": [
@@ -1074,6 +1074,60 @@
      "title": "NY Fed-felmérés: az amerikaiak jobban tartanak a jövőbeli munkanélküliségtől",
      "url": "https://www.investing.com/news/economy-news/ny-fed-survey-finds-americans-more-worried-over-future-jobless-levels-5012828",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T19:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az UBS hétfői ügyfélajánlója szerint a múlt heti techeladás a befektetők pozícióinak újrarendezését tükrözi, nem az AI-szektor lefelé fordulását. A véleményt az UBS fogalmazta meg.",
+     "symbols": [],
+     "title": "Az UBS szerint a technológiai részvények eladása pozíciók átrendeződése, nem az AI-lendület végének kezdete",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-says-tech-sell-off-191822793.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (a WSJ értesülésére hivatkozva)",
+     "summary": "A WSJ értesülése szerint a PepsiCo nagyjából ezer állást szüntet meg észak-amerikai működésében. A létszámot külön forrás nem erősítette meg, a vállalat közleményét nem találtuk.",
+     "symbols": [
+      "PEP"
+     ],
+     "title": "Értesülések szerint a PepsiCo mintegy 1000 munkahelyet szüntet meg Észak-Amerikában",
+     "url": "https://www.investing.com/news/stock-market-news/pepsico-to-cut-around-1000-jobs-in-north-america-wsj-reports-5013034",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-09T19:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 247WallSt",
+     "summary": "A 247WallSt szerint a Morgan Stanley felvásárolta a Vinyl Equityt, hogy részesedjen a magáncégek részvényeinek kereskedelméből; a részvény 4%-ot, a Goldman 5%-ot, a JPMorgan 2%-ot emelkedett. Más forrás az ügyletet nem erősítette meg.",
+     "symbols": [
+      "MS",
+      "GS",
+      "JPM"
+     ],
+     "title": "A Morgan Stanley 4%-ot emelkedett a Vinyl Equity-felvásárlás hírére",
+     "url": "https://247wallst.com/investing/2026/11/09/morgan-stanley-climbs-4-on-vinyl-equity-deal-to-capture-ipo-wealth-goldman-sachs-rises-5-jpmorgan-gains-2/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-09T19:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A francia jegybank Reuters-beszámoló szerint nem vár negyedéves visszaesést az év végére. Részletes számot a forrás elérhető tartalma nem közölt, külön megerősítést nem találtunk.",
+     "symbols": [],
+     "title": "A Banque de France szerint Franciaország elkerüli az év végi recessziót",
+     "url": "https://www.investing.com/news/economy-news/france-to-dodge-threat-of-yearend-recession-central-bank-says-5013031",
+     "verified": false
     }
    ],
    "markets": [
@@ -1100,7 +1154,7 @@
     }
    ],
    "summary": "Az ázsiai részvénypiacok hétfőn erősen emelkedtek a Wall Street múlt heti AI-eladási hulláma után, Tajvanon 6%-os ugrással. Az Nvidia igazgatósága vizsgálatot indított vezérigazgatója ügyében, ami az AI-szektor hangulatát árnyékolja. Kínában az októberi fogyasztói infláció 0,7%-ra lassult, a termelői árak viszont 5,7%-kal nőttek. Az olaj Trump iráni megjegyzése után esett, az arany 4100 dollár fölé erősödött, a bitcoin 74 ezer dollár alá csúszott. Kedden érkezik az amerikai októberi CPI és a magyar infláció.",
-   "updatedAt": "2026-11-09T17:45:00Z",
+   "updatedAt": "2026-11-09T19:45:00Z",
    "watchlist": []
   },
   {
