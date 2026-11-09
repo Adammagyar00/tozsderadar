@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-09T07:56:34Z",
+ "builtAt": "2026-11-09T08:57:09Z",
  "digests": [
   {
    "calendar": [
@@ -286,6 +286,103 @@
      "title": "Bloomberg: az EU és az Egyesült Királyság közel áll a szén-dioxid-piacok összekapcsolásáról szóló megállapodáshoz",
      "url": "https://www.investing.com/news/economy-news/eu-uk-near-postbrexit-carbon-market-linkage-deal--bloomberg-5010176",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-09T08:55:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "Musk szerint a SpaceX állami bevételei a negyedévben a forgalom 10%-a alá, egy év múlva 5% alá csökkennek. Elemzők a mozgást politikai vásárlási lehetőségként értékelik (Stocktwits). Musk korábban is 5% alatti állami részesedést ígért a negyedik negyedévre.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Musk a kaliforniai „extrém adókat” bírálja, és felajánlja, hogy lemond a SpaceX állami szerződéseiről",
+     "url": "https://stocktwits.com/news-articles/markets/equity/elon-musk-california",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T08:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az APA 699 millió dollár szabad cash flow-t termelt, 537 millió dollárt juttatott vissza a részvényeseknek, és nettó adósságcélját 2 milliárd dollárra csökkentette. A teljes éves szabad cash flow-előrejelzést mintegy 600 millió dollárral, kb. 2,9 milliárd dollárra emelte (a cég 8-K közleménye szerint).",
+     "symbols": [
+      "APA"
+     ],
+     "title": "Az APA harmadik negyedéves jelentése: 699 millió dolláros szabad cash flow, emelt kilátások",
+     "url": "https://finance.yahoo.com/energy/articles/apa-corp-apa-q3-2026-0703018",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T08:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Musk szerint a Cybertruck gyártása nyolc hónapon belül leáll, a kereslet pedig meghaladja a termelést, ezért sok előleget visszafizetnek (Reuters, Investing.com). Az ellenőrző keresés a leállítást külön nem erősítette meg.",
+     "symbols": [
+      "TSLA"
+     ],
+     "title": "A Tesla leállítja a Cybertruck gyártását nyolc hónap múlva, sok előleget visszatérít – Musk",
+     "url": "https://www.investing.com/news/company-news/tesla-to-halt-cybertruck-production-in-eight-months-musk-93CH-5010659",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T08:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Crédit Agricole 20%-os felárral és 1 milliárd eurós osztalékkal javasolja a Banco BPM-mel való egyesülést. A bank korábban 20% fölé növelte részesedését, és tanácsadókat bízott meg egy olasz egyesülés vizsgálatával (Reuters).",
+     "symbols": [
+      "ACA",
+      "BAMI"
+     ],
+     "title": "A Crédit Agricole egyesülést javasol a Banco BPM-mel: 20%-os felár és 1 milliárd eurós osztalék",
+     "url": "https://www.investing.com/news/stock-market-news/credit-agricole-proposes-banco-bpm-merger-20-premium-and-1-bln-dividend-5010541",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T08:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com jelentése szerint az argenx felvásárolja az Unnatural Products-ot 1,15 milliárd dollárért. A két cég 2025 júliusa óta együttműködik (akkor opciós kutatási megállapodás volt, akár 1,5 milliárd dolláros mérföldkő-kifizetésekkel); a mostani felvásárlást külön forrás nem erősítette meg.",
+     "symbols": [
+      "ARGX"
+     ],
+     "title": "Az Argenx 1,15 milliárd dollárért felvásárolja az Unnatural Products biotechcéget",
+     "url": "https://www.investing.com/news/stock-market-news/argenx-to-acquire-biotech-firm-unnatural-products-for-115-billion-5010644",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T08:55:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A német kivitel szeptemberben 2%-kal emelkedett havi alapon, a vártnál nagyobb mértékben, a kereskedelmi többlet viszont szűkült (Reuters, Investing.com). A Destatis közleményét az ellenőrző keresés még nem találta meg.",
+     "symbols": [],
+     "title": "Németország: a szeptemberi export 2%-kal nőtt, a vártnál jobban; szűkült a többlet",
+     "url": "https://www.investing.com/news/economy-news/german-exports-rise-more-than-expected-in-september-5010619",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-09T08:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Airbus júliusban jelentette be az 5 milliárd eurós, három évre szóló visszavásárlási programot; most az első, 800 millió eurós tranzs indult (Investing.com). A programot a részvényesi jóváhagyás folyamatos fennmaradása köti.",
+     "symbols": [
+      "AIR"
+     ],
+     "title": "Az Airbus elindította az 5 milliárd eurós részvényvisszavásárlást, az első tranzs 800 millió euró",
+     "url": "https://www.investing.com/news/stock-market-news/airbus-kicks-off-5-bln-buyback-with-first-800-mln-tranche-5010628",
+     "verified": true
     }
    ],
    "markets": [
@@ -312,7 +409,7 @@
     }
    ],
    "summary": "Az ázsiai részvénypiacok hétfőn erősen emelkedtek a Wall Street múlt heti AI-eladási hulláma után, Tajvanon 6%-os ugrással. Az Nvidia igazgatósága vizsgálatot indított vezérigazgatója ügyében, ami az AI-szektor hangulatát árnyékolja. Kínában az októberi fogyasztói infláció 0,7%-ra lassult, a termelői árak viszont 5,7%-kal nőttek. Az olaj Trump iráni megjegyzése után esett, az arany 4100 dollár fölé erősödött, a bitcoin 74 ezer dollár alá csúszott. Kedden érkezik az amerikai októberi CPI és a magyar infláció.",
-   "updatedAt": "2026-11-09T06:55:00Z",
+   "updatedAt": "2026-11-09T08:55:00Z",
    "watchlist": []
   },
   {
