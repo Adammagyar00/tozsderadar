@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T15:56:06Z",
+ "builtAt": "2026-11-10T16:56:16Z",
  "digests": [
   {
    "calendar": [
@@ -778,6 +778,21 @@
      "title": "Reuters: a Wells Fargo felminősítette az amerikai AI-infrastruktúra szektort a chip-eladási hullám után",
      "url": "https://www.investing.com/news/economy-news/wells-fargo-upgrades-us-ai-infrastructure-view-after-chip-selloff-5015534",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T16:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance (élő összefoglaló)",
+     "summary": "A Yahoo Finance élő összefoglalója szerint a forró októberi infláció erősítette a decemberi Fed-kamatemelési várakozásokat, ezért az indexek hétfő erős emelkedése után visszaestek. Az adatok napközbeniek, a zárásig változhatnak.",
+     "symbols": [
+      "VOO",
+      "QQQ"
+     ],
+     "title": "Az amerikai tőzsdék az átlagosnál erősebb CPI után gyengélkedtek: a Dow és az S&P 500 is kb. 0,5%-ot, a Nasdaq 0,6%-ot esett",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+     "verified": false
     }
    ],
    "markets": [
@@ -804,7 +819,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T15:45:00Z",
+   "updatedAt": "2026-11-10T16:45:00Z",
    "watchlist": []
   },
   {
