@@ -1,7 +1,64 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-10T01:03:41Z",
+ "updatedAt": "2026-11-10T02:04:04Z",
  "items": [
+  {
+   "title": "Presentation to Zurich Precious Metals Summit",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/presentation-zurich-precious-metals-summit-014500498.html",
+   "published": "2026-11-10T01:45:00Z",
+   "publisher": "",
+   "summary": "ADELAIDE, AU / ACCESS Newswire / November 9, 2026 / (ASX:BGD)(OTC:BGDFF)(FRA:BGD3) (Barton or Company) advises that the attached presentation is due to be presented today at the Zurich Precious Metals Summit.A copy of this presentation can be accessed on the ASX website, the investor section of Barton's website, or directly by clicking here.",
+   "symbols": []
+  },
+  {
+   "title": "Gold holds near $4,130 as oil retreat eases inflation concerns",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-130-014229117.html",
+   "published": "2026-11-10T01:42:29Z",
+   "publisher": "",
+   "summary": "At 19:48 ET (00:48 GMT), spot gold fell 0.4% to $4,126.72 an ounce, while U.S. gold futures gained 0.5% to $4,135.95. Silver slipped 0.4% to $53.2100 an ounce, while platinum declined 0.4% to $1,573.36. Spot palladium fell 0.4% to $1,036.49, while palladium futures lost 0.6% to $1,031.75. The U.S. dollar Index edged up 0.1% to 101.74.",
+   "symbols": []
+  },
+  {
+   "title": "Peabody Energy (BTU) Reacts To Oil Swings After Trump Iran Comments While Value Stays In Focus",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/peabody-energy-btu-reacts-oil-012111628.html",
+   "published": "2026-11-10T01:21:11Z",
+   "publisher": "",
+   "summary": "Peabody Energy (BTU) moved after crude oil price swings tied to comments from President Trump on Iran and ongoing risks near the Strait of Hormuz, underscoring how global supply worries can ripple through coal producers. That move comes after a much rougher stretch for Peabody Energy, with the share price down 32.23% over the past 30 days and 44.49% year to date. The 1-year total shareholder retur",
+   "symbols": []
+  },
+  {
+   "title": "3 Australian Undervalued Stocks To Watch In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-undervalued-stocks-watch-011953503.html",
+   "published": "2026-11-10T01:19:53Z",
+   "publisher": "",
+   "summary": "AI stocks have been on a rollercoaster lately as questions around data center spending and pricing power feed into sharp swings in sentiment. That kind of volatility can leave some Australian companies with solid cash generation trading well below what their future cash flows might justify. For investors who care about buying cash streams at a discount, this can be fertile hunting ground. This art",
+   "symbols": []
+  },
+  {
+   "title": "NOG Q3 2026 deep dive: production strength and portfolio optimization drive positive outlook",
+   "link": "https://finance.yahoo.com/energy/articles/nog-q3-2026-deep-dive-011736808.html",
+   "published": "2026-11-10T01:17:36Z",
+   "publisher": "",
+   "summary": "Non-operated oil producer Northern Oil and Gas (NYSE:NOG) missed Wall Street’s revenue expectations in Q3 2026, with sales falling 36.1% year on year to $345.9 million. Its non-GAAP profit of $1.32 per share was 24.5% above analysts’ consensus estimates.",
+   "symbols": []
+  },
+  {
+   "title": "MARA Q3 Earnings Call Highlights",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-mara-q3-earnings-call-highlights-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-11-10T01:14:44Z",
+   "publisher": "",
+   "summary": "MARA (NASDAQ:MARA) reported a sharp rise in third-quarter profit despite lower revenue, as gains in the value of its Bitcoin holdings boosted results. The company also outlined plans to expand its power portfolio and convert sites into artificial intelligence and high-performance computing infrastru",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "U.S. stock futures steady after tech-led rebound; CPI in focus",
    "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-tech-004342905.html",
@@ -20,11 +77,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -34,12 +91,12 @@
    "publisher": "",
    "summary": "Even the low end is five times this December's pace. How much of that is already in the stock?",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -61,11 +118,27 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Elon Musk’s SpaceX Needs at Least €200 Billion to Challenge US Telecom Giants, Says Deutsche Telekom CEO Tim Höttges: ‘Welcome to the Party’",
+   "link": "https://finance.yahoo.com/technology/articles/elon-musk-spacex-needs-least-003005808.html",
+   "published": "2026-11-10T00:30:05Z",
+   "publisher": "",
+   "summary": "Elon Musk’s Space Exploration Technologies Corp. would need at least €200 billion (about $220 billion) to challenge America’s established wireless carriers, Deutsche Telekom AG CEO Tim Höttges warned on Thursday, welcoming the potential rival with a pointed message. SpaceX Faces...",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
    ]
   },
   {
@@ -91,12 +164,12 @@
    "publisher": "",
    "summary": "Rocket Lab (NasdaqGS: RKLB) has been selected by NASA for lunar delivery work alongside SpaceX under new contracts. The Commercial Lunar Payload Services awards cover up to US$10b of missions shared across eight approved contractors. NASA intends to use these providers to transport instruments and technology to the lunar surface in support of future moon bases. NASA adding Rocket Lab to the US$10b",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2995,96 +3068,6 @@
    "published": "2026-11-09T15:10:00Z",
    "publisher": "",
    "summary": "Stocks advanced, with the Dow gaining more than 600 points, while Nvidia’s shares fell after the company launched an investigation into Chief Executive Officer Jensen Huang.",
-   "symbols": []
-  },
-  {
-   "title": "Strategy’s Bitcoin Holdings Top 850,000 Tokens",
-   "link": "https://www.cryptoprowl.com/releases/strategys-bitcoin-holdings-top-850000-tokens-7759?.tsrc=rss",
-   "published": "2026-11-09T15:10:00Z",
-   "publisher": "",
-   "summary": "Cryptocurrency treasury firm Strategy (NASDAQ: $MSTR) has bought more Bitcoin (CRYPTO: $BTC), pushing its holdings ...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Goldman Sachs (GS) Stock Looks Cheap Based On Excess Returns",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-gs-stock-looks-150935006.html",
-   "published": "2026-11-09T15:09:35Z",
-   "publisher": "",
-   "summary": "Goldman Sachs Group has delivered a powerful share price run over the past few years, which now raises a sharper question for you as an investor: Is the current valuation really backed by the returns Goldman Sachs earns on the capital it puts to work in its business? Goldman Sachs Group has risen 183.2% over the past 3 years, which puts real pressure on the numbers to show that the capital investe",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Risk-On: S&P 500 Surges Out of the Gate, Adds $1 Trillion in Market Value",
-   "link": "https://247wallst.com/investing/2026/11/09/risk-on-sp-500-surges-out-of-the-gate-adds-1-trillion-in-market-value/?.tsrc=rss",
-   "published": "2026-11-09T15:09:09Z",
-   "publisher": "",
-   "summary": "Dip buyers rushed back into tech before lunch, yet the market's fear gauge had just posted one of its biggest jumps in decades. With the Fed speaking at 2:00 p.m., can this rebound hold?",
-   "symbols": []
-  },
-  {
-   "title": "Coinbase Global Receives U.S. Trust Charter",
-   "link": "https://www.cryptoprowl.com/releases/coinbase-global-receives-us-trust-charter-7758?.tsrc=rss",
-   "published": "2026-11-09T15:09:00Z",
-   "publisher": "",
-   "summary": "Cryptocurrency exchange Coinbase Global (NASDAQ: $COIN) has received regulatory approval to operate as a fully char...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SpaceX Buying a Big 3 Wireless Player Makes Sense. Which Is the Best Fit?",
-   "link": "https://finance.yahoo.com/m/457d09f3-bf8f-3dce-ac31-26c9da33a899/spacex-buying-a-big-3.html",
-   "published": "2026-11-09T15:04:00Z",
-   "publisher": "",
-   "summary": "Barclays analyst Kannan Venkateshwar ran down the pros and cons of SpaceX buying a major wireless carrier.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "BC-Gold Futures",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-150022045.html",
-   "published": "2026-11-09T15:00:22Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — Prices as of 10:00:00 AM Monday, November 09.Contract Open High Low Last Change Today's Volume Friday's Volume Nov 26 4087.",
-   "symbols": []
-  },
-  {
-   "title": "BC-Crude Oil Futures",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-crude-oil-futures-150015126.html",
-   "published": "2026-11-09T15:00:15Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — Prices as of 10:00:00 AM Monday, November 09.Light Sweet Crude (NYMX)1,000 bbl.",
    "symbols": []
   }
  ]
