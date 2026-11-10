@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T19:56:08Z",
+ "builtAt": "2026-11-10T20:56:08Z",
  "digests": [
   {
    "calendar": [
@@ -972,6 +972,20 @@
      "title": "Az európai tőzsdék enyhe emelkedéssel zártak, a londoni FTSE 100 esett",
      "url": "https://www.aa.com.tr/en/economy/european-stocks-close-higher-except-uk-as-falling-oil-prices-ease-inflation-concerns/4119442",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T20:42:42Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Google beleegyezett további adatvédelmi garanciákba a csődeljárásban álló Spirit Airlines belső üzleti adatainak megvásárlásánál. A nagyjából 10 millió dolláros ügyletet a légiutas-kísérők szakszervezete és több amerikai törvényhozó a munkavállalói adatok védelme miatt bírálta; a Google az adatokat MI-modellek tanítására használná.",
+     "symbols": [
+      "GOOGL"
+     ],
+     "title": "A Google további adatvédelmi garanciákat vállalt a Spirit Airlines adatainak megvásárlásánál",
+     "url": "https://www.investing.com/news/stock-market-news/google-agrees-to-addition-privacy-protections-in-spirit-airlines-data-sale-5016321",
+     "verified": true
     }
    ],
    "markets": [
@@ -998,7 +1012,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T19:40:02Z",
+   "updatedAt": "2026-11-10T20:42:42Z",
    "watchlist": []
   },
   {
