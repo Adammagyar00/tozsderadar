@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T17:56:01Z",
+ "builtAt": "2026-11-10T18:56:26Z",
  "digests": [
   {
    "calendar": [
@@ -845,6 +845,61 @@
      "title": "A Brent augusztus óta először 90 dollár alá esett az iráni enyhülési remények miatt",
      "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T18:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Times of Israel",
+     "summary": "Mohszen Rezaei, Irán legfőbb biztonsági tisztviselője a Reuters szerint azt mondta, hogy jelenleg nem folynak tárgyalások Washingtonnal. Teherán választ vár hét feltételére (köztük a háborús károk megtérítésére és a kikötői blokád feloldására), és az amerikai választ \"megtévesztőnek\" nevezte. Ez árnyalja Trump korábbi enyhülést sugalló kijelentéseit, amelyek az olajár esését okozták.",
+     "symbols": [
+      "OIL"
+     ],
+     "title": "Irán legfőbb biztonsági tisztviselője szerint nincsenek tárgyalások az USA-val",
+     "url": "https://www.investing.com/news/commodities-news/irans-top-security-official-says-no-talks-underway-with-us-5016341",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T18:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · CNBC · Axios",
+     "summary": "Az Anthropic kedden bemutatta a Claude Sheets táblázatkezelőt, a Claude Whiteboards táblát és a Claude Data elemzőeszközt, amelyek az Office versenytársai lehetnek. A CNBC szerint a Microsoft árfolyama napközben hirtelen mintegy 3%-ot esett a hírre. A bejelentés a tőzsdei bevezetés előtt érkezett.",
+     "symbols": [
+      "MSFT",
+      "ANTHROPIC"
+     ],
+     "title": "A Microsoft részvénye esett, miután az Anthropic irodai eszközöket mutatott be a Claude-hoz",
+     "url": "https://www.investing.com/news/stock-market-news/microsoft-stock-falls--as-anthropic-takes-aim-at-excel-and-workplace-software-5016411",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T18:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "crypto.news · BeInCrypto",
+     "summary": "A legnagyobb dél-koreai kriptotőzsde, az Upbit november 10-én 15:00-kor (koreai idő) KRW-, BTC- és USDT-párokkal elindította a HYPE kereskedését, a Bithumb is bejelentette a listázást. A BeInCrypto szerint a token a gyenge piac ellenére jól tartotta magát, bár a héten több mint 12%-ot esett.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "A dél-koreai Upbit és Bithumb is listázta a Hyperliquid HYPE tokenjét",
+     "url": "https://crypto.news/upbit-to-list-hyperliquid-hype-across-three-trading-pairs-on-nov-10",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T18:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Bloom Energy részvénye kedd délelőtt mintegy 4,6%-kal esett, miután a vártnál magasabb amerikai CPI-adat növelte a Fed-kamatemelés esélyét, ami a magas értékeltségű növekedési részvényekre nyomást gyakorolt. Az esés mértékét más forrás nem erősítette meg.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "A Bloom Energy árfolyama esett a vártnál magasabb októberi infláció után",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-bloom-energy-stock-sliding-today-93CH-5016241",
+     "verified": false
     }
    ],
    "markets": [
@@ -871,7 +926,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T17:55:00Z",
+   "updatedAt": "2026-11-10T18:50:00Z",
    "watchlist": []
   },
   {
