@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T09:55:57Z",
+ "builtAt": "2026-11-10T10:59:17Z",
  "digests": [
   {
    "calendar": [
@@ -468,6 +468,60 @@
      "title": "A bitcoin 75 ezer dollár alatt ragadt az ETF-kiáramlások és a szabályozási bizonytalanság miatt",
      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-pinned-below-75k-regulatory-063403850.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T10:40:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Christopher Waller Fed-kormányzó londoni beszédében azt mondta, a december 8–9-i ülésen legalább 25 bázispontos emelést támogat, akkor is, ha az októberi infláció a vártnál alacsonyabb. Szerinte félpontos emelést is mérlegelni kell, ha a maginfláció havi szinten eléri a 0,3%-ot. A határidős piacok kb. 85%-os decemberi emelési esélyt árazott a Reuters szerint.",
+     "symbols": [],
+     "title": "Waller (Fed): decemberben legalább negyedpontos kamatemelést támogat",
+     "url": "https://www.investing.com/news/economy-news/feds-waller-plans-to-support-at-least-a-quarterpoint-rate-hike-in-december-5014429",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T10:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Take-Two a második negyedéves jelentésben megerősítette, hogy a GTA VI 2026. november 19-én jelenik meg PS5-re és Xbox Series X|S-re, a teljes éves nettó bookingre vonatkozó 8,0–8,2 milliárd dolláros kilátást pedig nem változtatta. A vezérigazgató szerint az előrendelések példátlan szinten vannak, a részvény emelkedett.",
+     "symbols": [
+      "TTWO"
+     ],
+     "title": "A Take-Two tartotta éves kilátásait, a GTA VI megjelenése november 19 marad",
+     "url": "https://www.investing.com/news/earnings/taketwo-shares-gain-on-results-guidance-gta-vi-release-date-reiterated-5013258",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T10:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Wix harmadik negyedéves bevétele 570,2 millió dollár (+13%) volt, a korrigált EPS 1,42 dollár, a várt 1,30–1,40 dollár fölött. A cég tartotta éves bevételi és bookingkilátását, de a 2026-os szabad cash flow-célt 16%-ra mérsékelte.",
+     "symbols": [
+      "WIX"
+     ],
+     "title": "A Wix a vártnál jobb Q3-eredményt közölt, de csökkentette a cash flow-célt",
+     "url": "https://www.investing.com/news/earnings/wixcom-ltd-earnings-beat-by-002-revenue-topped-estimates-5014528",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T10:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Talos Energy a harmadik negyedévben napi 91,5 ezer hordó olajegyenértéket termelt, és az éves célt 92,5–94,5 ezer hordó/napra emelte. A negyedik negyedévet hurrikán várhatóan kb. 7 ezer hordó/nappal csökkenti.",
+     "symbols": [
+      "TALO"
+     ],
+     "title": "A Talos Energy emelte 2026-os termelési előrejelzését",
+     "url": "https://finance.yahoo.com/energy/articles/raised-2026-production-guidance-require-100647644.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -494,7 +548,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T09:45:00Z",
+   "updatedAt": "2026-11-10T10:40:00Z",
    "watchlist": []
   },
   {
