@@ -1,7 +1,96 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-10T02:51:43Z",
+ "updatedAt": "2026-11-10T03:51:56Z",
  "items": [
+  {
+   "title": "Asian stocks rise after technology shares advance on Wall Street",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-technology-shares-034421581.html",
+   "published": "2026-11-10T03:44:21Z",
+   "publisher": "",
+   "summary": "HONG KONG (AP) — Asian stocks advanced Tuesday after U. stocks rallied, recovering most of their big losses from last week.",
+   "symbols": []
+  },
+  {
+   "title": "The Stock Market Just Had Its Best Day Since April. Here’s What History Says a 62-Year-Old Retiree With $1,300,000 in Cash Should Do Now",
+   "link": "https://247wallst.com/investing/2026/11/09/the-stock-market-just-had-its-best-day-since-april-heres-what-history-says-a-62-year-old-retiree-with-1300000-in-cash-should-do-now/?.tsrc=rss",
+   "published": "2026-11-10T03:32:36Z",
+   "publisher": "",
+   "summary": "Stocks just had their best day since April, and the S&P 500 fund got back 85% of last week's loss in one session. Since 1999, 14 corrections have had a bounce like it: 9 gave it all back within a month, and 8 of 13 were higher a year later. Here is what that record says for a 62-year-old with $1,300,000 sitting in cash after a rollover.",
+   "symbols": []
+  },
+  {
+   "title": "Coherent Corp. (COHR) is Surging This Much — Here’s Why",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/coherent-corp-cohr-surging-much-032916398.html",
+   "published": "2026-11-10T03:29:16Z",
+   "publisher": "",
+   "summary": "Coherent Corp. (NYSE:COHR) is one of the 10 Stocks With Easy 15-38% Gains. Coherent Corp. extended gains for a second day on Monday, climbing 16.79 percent to close at $225.19 apiece, as investors continued to hunt for bargains following last week’s sharp fall, with sentiment supported by wider market optimism. The stock climbed alongside Wall […]",
+   "symbols": []
+  },
+  {
+   "title": "MARA Stock Slips Overnight On Revenue Miss: CEO Says Market Is Becoming More Selective About How AI Infrastructure Is Financed",
+   "link": "https://stocktwits.com/news-articles/markets/equity/mara-stock-slips-overnight-on-revenue-miss-ceo-says-market-is-becoming-more-selective-about-how-ai-infrastructure-is-financed/cNGu2a0R97h?.tsrc=rss",
+   "published": "2026-11-10T03:22:12Z",
+   "publisher": "",
+   "summary": "MARA Holdings’ revenue fell 35% year-over-year to $164.2 million, missing estimates of $176.13 million.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Morgan Stanley issues strong opinion on S&P 500",
+   "link": "https://www.thestreet.com/investing/morgan-stanley-issues-strong-opinion-on-sp-500?.tsrc=rss",
+   "published": "2026-11-10T03:17:00Z",
+   "publisher": "",
+   "summary": "Here’s what Mike Wilson thinks happens to the S&P 500 next.",
+   "symbols": []
+  },
+  {
+   "title": "FLSmidth (CPSE:FLS) Stock Could Be 38% Undervalued Despite Its DKK 225 Million Order",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/flsmidth-cpse-fls-stock-could-031636164.html",
+   "published": "2026-11-10T03:16:36Z",
+   "publisher": "",
+   "summary": "FLSmidth has delivered a powerful run over the past few years, which puts a spotlight on whether the current share price lines up with the cash it is expected to generate. With that backdrop, the question for anyone looking at the stock today is how solid the underlying cash flow case really is. Over 5 years the stock has gained 145.6%, which raises the question of how much future cash generation ",
+   "symbols": []
+  },
+  {
+   "title": "Monolithic Power Systems and Photronics shares skyrocket, what you need to know",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-systems-photronics-shares-030936110.html",
+   "published": "2026-11-10T03:09:36Z",
+   "publisher": "",
+   "summary": "A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-day rout in 19 months.",
+   "symbols": []
+  },
+  {
+   "title": "Allegro MicroSystems, IPG Photonics, Lattice Semiconductor, Entegris, and Broadcom shares skyrocket, what you need to know",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/allegro-microsystems-ipg-photonics-lattice-030136618.html",
+   "published": "2026-11-10T03:01:36Z",
+   "publisher": "",
+   "summary": "A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-day rout in 19 months.",
+   "symbols": []
+  },
+  {
+   "title": "Qualcomm, Impinj, Power Integrations, and Kulicke and Soffa shares are soaring, what you need to know",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-impinj-power-integrations-kulicke-025336657.html",
+   "published": "2026-11-10T02:53:36Z",
+   "publisher": "",
+   "summary": "A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-day rout in 19 months.",
+   "symbols": []
+  },
+  {
+   "title": "Occidental Cuts Debt to $10 Billion as Q3 Cash Flow Hits $4.1 Billion",
+   "link": "https://finance.yahoo.com/energy/articles/occidental-cuts-debt-10-billion-025000403.html",
+   "published": "2026-11-10T02:50:00Z",
+   "publisher": "",
+   "summary": "Occidental reports strong third-quarter cash flow and significant debt reduction, supported by resilient oil and gas production despite weaker crude prices.",
+   "symbols": []
+  },
   {
    "title": "Micron, FormFactor, Amkor, Teradyne, and Nvidia shares skyrocket, what you need to know",
    "link": "https://finance.yahoo.com/markets/stocks/articles/micron-formfactor-amkor-teradyne-nvidia-024536276.html",
@@ -53,11 +142,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -78,11 +167,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -127,11 +216,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -198,12 +287,12 @@
    "publisher": "",
    "summary": "Big surprise moves in the market often serve as great lessons in how market structure actually works.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -922,6 +1011,22 @@
     "MU",
     "ONDO",
     "XRP"
+   ]
+  },
+  {
+   "title": "Analysts Are Turning Bearish on DraftKings Stock. Here's Why.",
+   "link": "https://www.barchart.com/story/news/8742534/analysts-are-turning-bearish-on-draftkings-stock-here-s-why?.tsrc=rss",
+   "published": "2026-11-09T21:16:18Z",
+   "publisher": "",
+   "summary": "DraftKings stock receives dovish research notes from JPMorgan, Stifel, and UBS. Here’s why analysts are turning their backs on DKNG shares.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
    ]
   },
   {
@@ -2923,162 +3028,6 @@
     "ONDO",
     "XRP"
    ]
-  },
-  {
-   "title": "Sable Offshore shares plunge 60% as crude sales disruption raises going-concern doubts",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101443/sable-offshore-shares-plunge-60-as-crude-sales-disruption-raises-going-concern-doubts-1101443.html?.tsrc=rss",
-   "published": "2026-11-09T15:55:00Z",
-   "publisher": "",
-   "summary": "Sable Offshore Corp. (NYSE:SOC), the US oil and gas producer, saw shares plunge 60% to $0.77 on Monday after warning that its financial resources might be insufficient to meet obligations over the next 12 months. The warning followed the suspension of crude oil purchases by its sole downstream...",
-   "symbols": []
-  },
-  {
-   "title": "Rocket Lab Jumps 9% Ahead of Earnings, AST SpaceMobile Surges 11% on Japan Satellite Venture With Rakuten; SpaceX Rises 6%",
-   "link": "https://247wallst.com/investing/2026/11/09/rocket-lab-jumps-9-ahead-of-earnings-ast-spacemobile-surges-11-on-japan-satellite-venture-with-rakuten-spacex-rises-6/?.tsrc=rss",
-   "published": "2026-11-09T15:53:35Z",
-   "publisher": "",
-   "summary": "A sector-wide space rally is shrugging off last week's selloff, but Rocket Lab faces a delayed rocket and an earnings report that could test the momentum. Why are smaller rivals outrunning the headline names?",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "GE Vernova Soars 7% as Constellation Raises Guidance, Easing Data-Center Moratorium Fears",
-   "link": "https://www.tikr.com/blog/ge-vernova-soars-7-as-constellation-raises-guidance-easing-data-center-moratorium-fears?ref=yahoofinance&tlnk=yf-261109-hf2229fp&.tsrc=rss",
-   "published": "2026-11-09T15:48:18Z",
-   "publisher": "",
-   "summary": "Key TakeawaysGE Vernova shares jumped 7% today, with Bloom Energy and Vertiv, after Constellation Energy beat estimates and raised its 2026 guidance. Constellation’s new deals show data-center buyers are still signing, so last week’s moratorium selloff looks overdone.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Inventus Raises $1.3 Million Through Exercise of Warrants; McEwen Inc. Increases Ownership to 13% and CEO Participates",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/inventus-raises-1-3-million-154700943.html",
-   "published": "2026-11-09T15:47:00Z",
-   "publisher": "",
-   "summary": "TORONTO, Nov. 09, 2026 (GLOBE NEWSWIRE) -- Inventus Mining Corp. (TSXV: IVS) (\"Inventus\" or the \"Company\") is pleased to announce that all 10,550,000 remaining incentive warrants have been exercised at $0.12 per share, generating gross proceeds of $1,266,000. The Company issued 10,550,000 common shares upon exercise of these warrants. The full exercise demonstrates strong support from warrant hold",
-   "symbols": []
-  },
-  {
-   "title": "Broadcom Faltered for a Year, Dropping Nearly 20%: This Wall Street Analyst Team Says 140% Gains Materialize Within 12 Months",
-   "link": "https://247wallst.com/investing/2026/11/09/broadcom-faltered-for-a-year-dropping-nearly-20-this-wall-street-analyst-team-says-140-gains-materialize-within-12-months/?.tsrc=rss",
-   "published": "2026-11-09T15:45:27Z",
-   "publisher": "",
-   "summary": "Broadcom posted record results while its stock slid, and the culprit is not revenue. Margin pressure and a $63 billion financing structure have spooked investors, yet one analyst still sees a path far above the crowd.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Bitcoin ETFs Bleed $1.28B as 2026 Flows Turn Negative",
-   "link": "https://www.cryptoprowl.com/releases/bitcoin-etfs-bleed-128b-as-2026-flows-turn-negative-7779?.tsrc=rss",
-   "published": "2026-11-09T15:42:00Z",
-   "publisher": "",
-   "summary": "US spot Bitcoin (CRYPTO: $BTC) exchange-traded funds (ETFs) recorded $1.28 billion in net outflows last week, their...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "How much is Anthropic actually worth?",
-   "link": "https://finance.yahoo.com/video/how-much-is-anthropic-actually-worth-153845808.html",
-   "published": "2026-11-09T15:38:45Z",
-   "publisher": "",
-   "summary": "As speculation surrounding a potential Anthropic (ANTH.PVT) IPO intensifies, questions are mounting over the AI startup's shifting valuation. The 8:30 hosts Julie Hyman, Pras Subramanian, and Jake Conley examine what's driving the fluctuations and whether Anthropic's growth prospects can justify its potential price tag.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "SpaceX, Blue Origin Winners As NASA Awards $10 Bil In Moon Base Contracts",
-   "link": "https://finance.yahoo.com/m/117f7fbe-b743-3537-811b-7e5c2df303de/spacex%2C-blue-origin-winners.html",
-   "published": "2026-11-09T15:37:54Z",
-   "publisher": "",
-   "summary": "NASA over the weekend awarded major contracts to SpaceX, Blue Origin, Lockheed Martin and more for its Moon Base efforts. Space stocks surged.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "XRP Price Nears $1 as Binance Hacker Moves 139M XRP: Are New Lows Next?",
-   "link": "https://99bitcoins.com/news/altcoins/xrp-price-nears-1-as-binance-hacker-moves-139m-xrp-are-new-lows-next/?.tsrc=rss",
-   "published": "2026-11-09T15:36:03Z",
-   "publisher": "",
-   "summary": "XRP news this week is all red. XRP fell to $1.0764 on Monday, its lowest price since August 19, and now trades about 9% above $1. It is down 22.5% in 30 days, more than twice Bitcoin’s 10.1% drop. Last week alone it lost 11%, from $1.2508 to $1.1132, its ...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Credo Stock Has a Powerful Growth Story, but Is It Already Priced In?",
-   "link": "https://247wallst.com/investing/2026/11/09/credo-stock-has-a-powerful-growth-story-but-is-it-already-priced-in/?.tsrc=rss",
-   "published": "2026-11-09T15:33:24Z",
-   "publisher": "",
-   "summary": "Credo just posted triple-digit revenue growth and its eighth straight earnings beat, yet the stock lost a third of its value in a month. Two big customers and one valuation gap might explain why the market and our model disagree.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "BC-Most Active Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021871.html",
-   "published": "2026-11-09T15:30:21Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change NVIDIA Corp.",
-   "symbols": []
   }
  ]
 }
