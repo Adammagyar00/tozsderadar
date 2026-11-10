@@ -1,6 +1,356 @@
 {
- "builtAt": "2026-11-10T05:01:54Z",
+ "builtAt": "2026-11-10T06:57:13Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 10.",
+     "event": "USA CPI (okt.) és magyar infláció (KSH)"
+    },
+    {
+     "date": "nov. 12.",
+     "event": "Cisco gyorsjelentés"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés, Nvidia gyorsjelentés"
+    },
+    {
+     "date": "dec. 9.",
+     "event": "FOMC kamatdöntés"
+    }
+   ],
+   "date": "2026-11-10",
+   "generatedAt": "2026-11-10T06:55:00Z",
+   "headline": "Wall Street hétfői rali után az amerikai CPI-adat és az Nvidia-botrány áll a figyelem középpontjában",
+   "items": [
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Trump szerint az FBI vizsgálja az Nvidia vezérigazgatóját a kínai kapcsolatokkal összefüggő ügyben. Az Nvidia részvénye hétfőn esett, miközben a piac többi része erősen emelkedett. Független forrás az FBI-vizsgálatról egyelőre nem szólt, a hír Trump kijelentésén alapul.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Trump szerint az FBI vizsgálja Jensen Huangot, az Nvidia vezérét, ahogy mélyül a kínai ügy",
+     "url": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint pert indítottak az Nvidia és vezérigazgatója ellen a feltételezett kínai kémmel kapcsolatos közzétételek miatt. A részletek a címből nem derülnek ki, a per kimenetele bizonytalan.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Pert indítottak az Nvidia és Huang ellen a feltételezett kínai kém ügyében tett közzétételek miatt",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy-5013619",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · The Information",
+     "summary": "A The Information értesülése szerint az Nvidia szigorúbb chipexport-korlátozásokkal szembesülhet a vezérigazgatót érintő botrány nyomán. Hivatalos megerősítés nincs, a hír egyetlen lap értesülésén alapul.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "The Information: az Nvidia szigorúbb chipexport-korlátozásokkal nézhet szembe a Huang-botrány miatt",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-faces-increased-chip-export-controls-amid-huang-scandal-the-information-93CH-5013845",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters értesülése szerint az Anthropic akár 69,3 milliárd dollárt szeretne bevonni az IPO-n. Később a Reuters arról számolt be, hogy a cég visszavonta az IPO-részleteket, miután az iratot elküldte a bankároknak. A végleges kibocsátási adatok egyelőre nem ismertek.",
+     "symbols": [
+      "ANTHROPIC"
+     ],
+     "title": "Reuters: az Anthropic akár 69,3 milliárd dollárt gyűjtene tőzsdei bevezetésén, majd visszavonta a részleteket",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-aims-to-raise-up-to-693-billion-in-blockbuster-ipo--reuters-432SI-5013860",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint Kína kereskedelmi többlete átlépte az 1000 milliárd dollárt, az októberi export éves alapon 35,2%-kal ugrott. Az Investing.com külön hírében az októberi kereskedelmi mérleg szűkülése és az import erős növekedése szerepel.",
+     "symbols": [],
+     "title": "Kína kereskedelmi többlete meghaladta az 1000 milliárd dollárt, októberben 35,2%-kal nőtt az export",
+     "url": "https://www.investing.com/news/economy-news/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-5013969",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint Kínaz októberi nyersolaj-behozatala március óta a legmagasabb szintre emelkedett. A hír a közel-keleti háború hátterében született.",
+     "symbols": [],
+     "title": "Kína októberi nyersolaj-importja március óta a legmagasabb szinten, a közel-keleti háború közepette",
+     "url": "https://www.investing.com/news/commodities-news/chinas-october-crude-oil-imports-rise-to-highest-level-since-march-amid-middle-east-war-5014020",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Hims & Hers lejjebb vitte az idei profitkilátását, mert az árrések szűkülnek. A részvény a tőzsdezárás utáni kereskedésben is a hírre reagált.",
+     "symbols": [
+      "HIMS"
+     ],
+     "title": "A Hims & Hers csökkentette 2026-os profitelőrejelzését a szűkülő árrések miatt",
+     "url": "https://www.investing.com/news/stock-market-news/hims--hers-narrows-2026-revenue-forecast-as-margins-contract-5013239",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Seattle Times nyomán",
+     "summary": "Az Investing.com beszámolója szerint a Boeing a kereskedelmi repülőgép-gyártó részleg munkaerejének mintegy 5%-át elbocsátja. A lépést a termelési gondok indokolják.",
+     "symbols": [
+      "BA"
+     ],
+     "title": "A Boeing a kereskedelmi repülőgépes részleg létszámának 5%-át leépíti a gyártási nehézségek miatt",
+     "url": "https://www.investing.com/news/stock-market-news/boeing-to-cut-5-of-planemaking-divisions-workforce-seattle-times-reports-5012939",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Richter feljebb vitte idei kilátásait az erős üzleti teljesítmény miatt. A részleteket nem sikerült független forrásból megerősíteni, a cég korábbi, augusztusi emelése ismert volt.",
+     "symbols": [
+      "RICHTER"
+     ],
+     "title": "A Gedeon Richter emelte a 2026-os előrejelzését az erős teljesítmény nyomán",
+     "url": "https://www.investing.com/news/stock-market-news/gedeon-richter-upgrades-2026-guidance-on-strong-delivery-93CH-5014121",
+     "verified": false
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · The Globe and Mail",
+     "summary": "A kanadai Globe and Mail értesülése szerint a GFL Environmental elutasította a magántőke-befektetők 22 milliárd dolláros felvásárlási ajánlatát. Bloombergnek júliusban már beszámolt arról, hogy a GFL magántőkés érdeklődés miatt mérlegelt egy privatizációt. Hivatalos megerősítés nincs.",
+     "symbols": [
+      "GFL"
+     ],
+     "title": "A Globe and Mail szerint a GFL Environmental visszautasította a magántőkealapok 22 milliárd dolláros ajánlatát",
+     "url": "https://www.investing.com/news/stock-market-news/gfl-environmental-rejects-22-billion-buyout-offer-from-pe-funds-globe-93CH-5013910",
+     "verified": false
+    },
+    {
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A MARA közleménye szerint a bitcoinbányász harmadik negyedéves nettó eredménye 632 millió dollár volt. A cég 13 597 bitcoint adott el, hogy csökkentse adósságát. Az eladásokat a vezérigazgató szerint a piac szelektívebbé válása is indokolja.",
+     "symbols": [
+      "MARA",
+      "BTC"
+     ],
+     "title": "A MARA 632 millió dolláros Q3 profitot ért el, és 13 597 bitcoint adott el az adósság törlesztésére",
+     "url": "https://www.cryptoprowl.com/releases/mara-books-632m-q3-profit-sells-13597-bitcoin-to-pay-down-debt-7784?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits · Barclays",
+     "summary": "A Barclays elemzése szerint egy lehetséges SpaceX-felvásárláshoz a T-Mobile illene a legjobban, a Verizon „vadkártya”, az AT&T pedig a leggyengébb stratégiai illeszkedés. Ez elemzői vélemény, nem megerősített tárgyalás. Az SPCX részvénye két napja emelkedik.",
+     "symbols": [
+      "SPCX",
+      "TMUS"
+     ],
+     "title": "A Barclays szerint a T-Mobile a „legtisztább” illeszkedés egy esetleges SpaceX-mobilszolgáltató-vásárláshoz",
+     "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-barclays-tmobile-cleanest-fit-for-potential-spacex-buyout/cNGudG2R97L?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A NASA hétvégén nyolc céget nevezett meg a CLPS 2 holdszállítási keretszerződéshez, köztük a SpaceX-et, a Blue Originét és a Lockheed Martint. A 10 milliárd dollár felső plafon, a cégek a jövőbeni megbízásokért versenyeznek. Az űrrészvények emelkedtek.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A NASA nyolc cég között osztja a legfeljebb 10 milliárd dolláros holdbázis-szerződéseket, köztük a SpaceX-szel",
+     "url": "https://finance.yahoo.com/m/117f7fbe-b743-3537-811b-7e5c2df303de/spacex%2C-blue-origin-winners.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az Occidental közlése szerint a negyedéves működési cash flow 4,1 milliárd dollár volt, a tőkeadósság 10 milliárd dollárra mérséklődött. A termelés az irányadó sáv közepe fölött alakult. A cég az olajár-ingadozás ellenére is erős eredményt hozott.",
+     "symbols": [
+      "OXY"
+     ],
+     "title": "Az Occidental adóssága 10 milliárd dollárra csökkent, a Q3 cash flow 4,1 milliárd dollár",
+     "url": "https://finance.yahoo.com/energy/articles/occidental-cuts-debt-10-billion-025000403.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · The Motley Fool",
+     "summary": "A Micron részvénye hétfőn visszapattant a múlt heti, a félidős választás okozta chipeladások után. A Motley Fool szerzője szerint a visszaesés megmutatta, mennyire múlik a részvény ára a megítélésen, és nő a helyi szintű ellenállás az adatközpontokkal szemben.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "A Micron részvénye emelkedett hétfőn, ahogy a chipcégek kilábalnak a választás utáni eladási hullámból",
+     "url": "https://www.fool.com/investing/2026/11/09/why-micron-technology-stock-gained-on-monday/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Bank of Russia szabályai szerint november 17-től lakossági befektetők is kereskedhetnek bitcoinnal, ethrel és USDT-vel tőzsdén, éves vásárlási korláttal és tesztekkel. A Moszkvai Tőzsde kriptopiaca december 1-jén indul pilot jelleggel.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "Az orosz jegybank november 17-től engedélyezi a kriptokereskedést, bitcoint és ethert is",
+     "url": "https://finance.yahoo.com/video/bank-russia-approves-crypto-trading-210000853.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A BeInCrypto szerint a piac 84%-os eséllyel árazza a Fed decemberi kamatemelését. A bitcoin-ETF-ekből egy hét alatt 1,28 milliárd dollár áramlott ki. A keddi amerikai CPI-adat a kamatkilátás szempontjából kulcsfontosságú.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A decemberi Fed-emelés esélye 84%-ra nőtt, miközben a bitcoin-ETF-ek 1,28 milliárd dollárt vesztettek",
+     "url": "https://beincrypto.com/fed-hike-odds-bitcoin-etf-outflows/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters előzetese szerint az amerikai fogyasztói árak októberben lassabb ütemben nőhettek. Az adat ma 14:30-kor (magyar idő) jelenik meg, és a Fed decemberi döntése szempontjából kiemelten fontos.",
+     "symbols": [],
+     "title": "Az októberi amerikai fogyasztói árak a várakozások szerint lassabban emelkedtek",
+     "url": "https://www.investing.com/news/economy-news/us-consumer-prices-expected-to-have-risen-at-slower-pace-in-october-5014085",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a japán jegybank októberi ülésének összefoglalójában egyes döntéshozók gyorsabb kamatemelést kértek. Az ülésen a kamat 1,25%-on maradt.",
+     "symbols": [],
+     "title": "Az októberi BOJ-összefoglaló szerint egyes tagok gyorsabb kamatemelést szorgalmaztak",
+     "url": "https://www.investing.com/news/economy-news/some-in-boj-called-for-faster-rate-hikes-october-summary-shows-5013794",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Katayama pénzügyminiszter szerint a Bank of Japan ETF-állományának eladása évente mintegy 6,3 milliárd dolláros bevételt hozhat az államnak.",
+     "symbols": [],
+     "title": "A japán pénzügyminiszter szerint a BOJ ETF-eladásai évente 6,3 milliárd dollárt hozhatnak",
+     "url": "https://www.investing.com/news/stock-market-news/bank-of-japan-etf-sales-to-bring-in-63-bln-annually-finmin-katayama-says-93CH-5014101",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az ázsiai részvénypiacok kedden emelkedtek a csökkenő olajár támogatásával. Az Investing.com szerint az ausztrál ASX 200 1,10%-kal zárt feljebb.",
+     "symbols": [],
+     "title": "Ázsiai részvények emelkedtek, a csökkenő olajár javította a hangulatot",
+     "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-sliding-oil-prices-buoy-sentiment-5013939",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a novemberi ausztrál fogyasztói hangulat négyéves mélypontra süllyedt, ahogy emelkednek a kamatok. Az RBA november 3-án kamatot emelt.",
+     "symbols": [],
+     "title": "Négyéves mélypontra esett az ausztrál fogyasztói bizalom a kamatemelések miatt",
+     "url": "https://www.investing.com/news/economy-news/australian-consumer-sentiment-hits-fouryear-low-in-november-as-rates-rise-5013825",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Trade Desk harmadik negyedéves bevétele csökkent, így a növekedés újraindítása nehezen megy. A részvény hétfő este a tőzsdezárás utáni mozgók között szerepelt.",
+     "symbols": [
+      "TTD"
+     ],
+     "title": "A Trade Desk nem tudja újraindítani a növekedést, a negyedéves bevétele csökkent",
+     "url": "https://www.investing.com/news/stock-market-news/the-trade-desk-struggles-to-reignite-growth-as-quarterly-revenue-slips-5013203",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a kaliforniai milliárdosokat sújtó adójavaslatot elutasították a szavazáson. Musk korábban bírálta a kaliforniai „extrém adókat”.",
+     "symbols": [],
+     "title": "Megbukott a kaliforniai milliárdosadó-javaslat a szavazáson",
+     "url": "https://www.investing.com/news/stock-market-news/billionaire-tax-measure-on-california-ballot-defeated-5014025",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
+   "updatedAt": "2026-11-10T06:55:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
