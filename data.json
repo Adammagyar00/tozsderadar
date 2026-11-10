@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T16:56:16Z",
+ "builtAt": "2026-11-10T17:56:01Z",
  "digests": [
   {
    "calendar": [
@@ -793,6 +793,58 @@
      "title": "Az amerikai tőzsdék az átlagosnál erősebb CPI után gyengélkedtek: a Dow és az S&P 500 is kb. 0,5%-ot, a Nasdaq 0,6%-ot esett",
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T17:55:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Deutsche Bank vezető közgazdásza, Matt Luzzetti az októberi, vártnál magasabb inflációs adat után januári kamatemelést is beépített előrejelzésébe. A bank most decemberben, januárban és márciusban is 25 bázispontos Fed-emelést vár; korábban csak decemberre és márciusra számolt emeléssel.",
+     "symbols": [],
+     "title": "A Deutsche Bank a forró inflációs adat után januári Fed-kamatemelést is vár",
+     "url": "https://www.investing.com/news/economy-news/deutsche-bank-expects-fed-rate-hike-in-january-2027-after-hot-inflation-data-5016313",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T17:55:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "Az XRP Ledger egyik tervezője november 9-én az X-en azt írta, hogy szinte minden digitális eszközét eladta, amivel valaha rendelkezett, és régóta nem vett XRP-t. Továbbra is jelentős Ripple-részvénycsomagot tart.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "David Schwartz, a Ripple korábbi technológiai vezetője szerint szinte minden kriptoeszközét eladta",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/10/ripples-david-schwartz-says-he-sold-nearly-all-of-his-crypto-what-did-he-keep/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T17:55:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Világgazdaság · Privátbankár",
+     "summary": "A budapesti tőzsde délutánra mínuszba fordult: a BUX kb. 1,0–1,1%-kal 144 500 pont környékére esett, az OTP 1,7–2,0%-kal, a Mol kb. 1,1%-kal gyengült, a Richter enyhén emelkedett. A Világgazdaság szerint a forint a délutáni órákban élesen fordult és gyengült.",
+     "symbols": [
+      "HUF"
+     ],
+     "title": "Kedd délután 1% körüli esésbe fordult a BUX, az OTP közel 2%-ot gyengült, a forint is gyengült",
+     "url": "https://www.vg.hu/penz-es-tokepiac/2026/11/otp-zuhant-az-otp-orvenybe-kerult-a-forint",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T17:55:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "source": "CNBC",
+     "summary": "A CNBC szerint a Brent hordónkénti ára augusztus óta először csökkent 90 dollár alá, a WTI 84,59 dollárra esett, miután Trump szerint új támadások nagyon valószínűtlenek, amíg a tárgyalások folynak. Egyes iráni források szerint ugyanakkor nincsenek tárgyalások.",
+     "symbols": [
+      "OIL"
+     ],
+     "title": "A Brent augusztus óta először 90 dollár alá esett az iráni enyhülési remények miatt",
+     "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
+     "verified": false
     }
    ],
    "markets": [
@@ -819,7 +871,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T16:45:00Z",
+   "updatedAt": "2026-11-10T17:55:00Z",
    "watchlist": []
   },
   {
@@ -13292,6 +13344,24 @@
    "type": "Makroadat",
    "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
    "id": "2026-11-10-us-cpi"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-10",
+   "event": "CoreWeave gyorsjelentés, 2026 3. negyedév",
+   "forecast": "",
+   "importance": 2,
+   "note": "Zárás után; a telefonkonferencia 17:00 ET-kor (23:00 magyar idő). Saját bevételi iránymutatás a negyedévre: 3,4–3,6 Mrd $.",
+   "previous": "",
+   "source": "CoreWeave befektetői kapcsolatok",
+   "symbols": [
+    "CRWV"
+   ],
+   "time": "23:00",
+   "type": "Gyorsjelentés",
+   "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+   "id": "2026-11-10-us-crwv-earnings"
   },
   {
    "actual": "2,0%",
