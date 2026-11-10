@@ -1,7 +1,39 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-10T03:51:56Z",
+ "updatedAt": "2026-11-10T04:54:03Z",
  "items": [
+  {
+   "title": "SPCX Stock Logs 2-Day Winning Streak: Barclays Calls T-Mobile 'Cleanest' Fit For Potential SpaceX Buyout",
+   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-barclays-tmobile-cleanest-fit-for-potential-spacex-buyout/cNGudG2R97L?.tsrc=rss",
+   "published": "2026-11-10T04:26:05Z",
+   "publisher": "",
+   "summary": "Barclays viewed Verizon as a wild card and AT&T as the weakest strategic fit.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Asia stocks rally as Korean chips surge and oil retreat lifts sentiment",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-rally-korean-chips-042232811.html",
+   "published": "2026-11-10T04:22:32Z",
+   "publisher": "",
+   "summary": "Investing.com -- Asian stocks extended a sharp global technology rebound on Tuesday, with South Korea and Japan leading regional gains as investors returned to beaten-down chipmakers following Wall Street’s biggest rally in about seven months.",
+   "symbols": []
+  },
+  {
+   "title": "The Nasdaq Fell Into Correction Territory Recently. Should You Buy the Dip?",
+   "link": "https://www.fool.com/investing/2026/11/09/the-nasdaq-fell-into-correction-territory-recently/?.tsrc=rss",
+   "published": "2026-11-10T03:50:00Z",
+   "publisher": "",
+   "summary": "The decline in the Nasdaq is being led by what took it up: AI investment.",
+   "symbols": []
+  },
   {
    "title": "Asian stocks rise after technology shares advance on Wall Street",
    "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-technology-shares-034421581.html",
@@ -17,6 +49,23 @@
    "publisher": "",
    "summary": "Stocks just had their best day since April, and the S&P 500 fund got back 85% of last week's loss in one session. Since 1999, 14 corrections have had a bounce like it: 9 gave it all back within a month, and 8 of 13 were higher a year later. Here is what that record says for a 62-year-old with $1,300,000 sitting in cash after a rollover.",
    "symbols": []
+  },
+  {
+   "title": "Peter Schiff Calls Dogecoin, Other Memecoins a 'Litmus Test' for Popularity, but Questions Future Demand: 'People Might Want to Wear It on Their Back'",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/peter-schiff-calls-dogecoin-other-033005397.html",
+   "published": "2026-11-10T03:30:05Z",
+   "publisher": "",
+   "summary": "Economist Peter Schiff said Ethereum, unlike Bitcoin, has “some value,” although that value is lower than its current price implies. Schiff Finds ETH Better than Bitcoin During a phone interview with Benzinga, Schiff noted that Ethereum “obviously has the use...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Coherent Corp. (COHR) is Surging This Much — Here’s Why",
@@ -36,11 +85,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -57,6 +106,14 @@
    "published": "2026-11-10T03:16:36Z",
    "publisher": "",
    "summary": "FLSmidth has delivered a powerful run over the past few years, which puts a spotlight on whether the current share price lines up with the cash it is expected to generate. With that backdrop, the question for anyone looking at the stock today is how solid the underlying cash flow case really is. Over 5 years the stock has gained 145.6%, which raises the question of how much future cash generation ",
+   "symbols": []
+  },
+  {
+   "title": "Lightning Minerals: Mt Turner gold drilling advances toward 2027 resource",
+   "link": "https://finance.yahoo.com/video/lightning-minerals-mt-turner-gold-031515579.html",
+   "published": "2026-11-10T03:15:15Z",
+   "publisher": "",
+   "summary": "Lightning Minerals Ltd managing director Troy Brice talked with Proactive about the completion of Phase 2 diamond drilling at the company’s Mt Turner Gold Project in North Queensland and the pathway toward a maiden gold Mineral Resource Estimate in 2027. Brice said the drilling team had completed the program and demobilised after working through challenging conditions, with samples now sent to lab",
    "symbols": []
   },
   {
@@ -957,6 +1014,22 @@
    ]
   },
   {
+   "title": "SpaceX, Blue Origin Winners As NASA Awards $10 Bil In Moon Base Contracts",
+   "link": "https://finance.yahoo.com/m/117f7fbe-b743-3537-811b-7e5c2df303de/spacex%2C-blue-origin-winners.html",
+   "published": "2026-11-09T21:27:11Z",
+   "publisher": "",
+   "summary": "NASA over the weekend awarded major contracts to SpaceX, Blue Origin, Lockheed Martin and more for its Moon Base efforts. Space stocks surged.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
    "title": "Defensive healthcare ETFs: broad funds, income options, and key caveats",
    "link": "https://finance.yahoo.com/healthcare/articles/defensive-healthcare-etfs-broad-funds-212517207.html",
    "published": "2026-11-09T21:25:17Z",
@@ -1020,12 +1093,12 @@
    "publisher": "",
    "summary": "DraftKings stock receives dovish research notes from JPMorgan, Stifel, and UBS. Here’s why analysts are turning their backs on DKNG shares.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2954,80 +3027,6 @@
    "publisher": "",
    "summary": "Investing.com -- Hedge funds ran for the exits last week, and then the market bounced anyway. Tech was by far the most heavily net-sold sector, both globally and in the US, at a pace that roughly matched the record in Goldman Sachs prime brokerage data going back to 2016.",
    "symbols": []
-  },
-  {
-   "title": "Seven OPEC+ Producers Keep December Output Unchanged While Crude Opens Lower",
-   "link": "https://finance.yahoo.com/energy/articles/seven-opec-producers-keep-december-161500934.html",
-   "published": "2026-11-09T16:15:00Z",
-   "publisher": "",
-   "summary": "Crude oil futures were lower on Monday morning. As of 9:47 a.m. ET, the December NYMEX West Texas Intermediate contract was at $87.43 a barrel, down $3.40 or 3.74% from Friday's settlement of $90.83, while the January ICE Brent contract was at $93.96, down $4.36 or 4.43% from its $98.32 settlement. Third-quarter results from large producers, refiners and liquefied natural gas exporters were releas",
-   "symbols": []
-  },
-  {
-   "title": "S&P 500 Earnings Growth Slows as Revenue Gains Hold Ground, Oppenheimer Says",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-earnings-growth-slows-161338959.html",
-   "published": "2026-11-09T16:13:38Z",
-   "publisher": "",
-   "summary": "S&P 500 earnings growth moderated on a weekly basis this reporting cycle despite revenue gains large",
-   "symbols": []
-  },
-  {
-   "title": "Chamath: SpaceX’s Revenue From Anthropic “Could 2 to 3x” as the Data Center Freeze Bites",
-   "link": "https://www.tikr.com/blog/chamath-spacexs-revenue-from-anthropic-could-2-to-3x-as-the-data-center-freeze-bites?ref=yahoofinance&tlnk=yf-261109-jv3fq2vr&.tsrc=rss",
-   "published": "2026-11-09T16:12:07Z",
-   "publisher": "",
-   "summary": "Key TakeawaysSpaceX stock bounced 6% on Friday after a selloff that followed the midterms, as investors worried about a freeze on new US data centers. On the All-In podcast, Chamath Palihapitiya argued that the freeze favors companies that already own compute capacity.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Indices Hunt for Support After Steep Weekly Losses as Volatility Gauge Stays Elevated",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/indices-hunt-support-steep-weekly-160800955.html",
-   "published": "2026-11-09T16:08:00Z",
-   "publisher": "",
-   "summary": "Stock Preachers News Commentary - Wall Street opens a new week nursing bruises from a rough stretch that sent every major index lower, with the Nasdaq Composite off 3.37% and the S&P 500 down 2.68% from the prior week's reference close. The CBOE Volatility Index settled at 23.5, still up 2.35 points on the week even after easing 2.14 points on the day, as traders weigh whether recent lows mark a f",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Nuke Stock Constellation Fueled By Earnings; NRG Hits Gas On Buybacks",
-   "link": "https://finance.yahoo.com/m/d694e5f4-9bac-324d-b799-13ec4a0c35e8/nuke-stock-constellation.html",
-   "published": "2026-11-09T15:58:35Z",
-   "publisher": "",
-   "summary": "NRG will spend $1 billion more on buybacks thanks to an asset sale.",
-   "symbols": []
-  },
-  {
-   "title": "Coherent Jumps 13% as Optical Stocks Extend AI Rebound; Lumentum Surges 11%, Applied Optoelectronics Rises 4%",
-   "link": "https://247wallst.com/investing/2026/11/09/coherent-jumps-13-as-optical-stocks-extend-ai-rebound-lumentum-surges-11-applied-optoelectronics-rises-4/?.tsrc=rss",
-   "published": "2026-11-09T15:58:29Z",
-   "publisher": "",
-   "summary": "Optical stocks are bouncing back from last week's AI selloff, but the gains are far from equal. Cash burn, a pending Marvell deal, and a stark analyst split explain why one name pulls ahead while another lags.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
   }
  ]
 }
