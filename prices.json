@@ -1,6 +1,6 @@
 {
  "source": "Finnhub",
- "updatedAt": "2026-11-09T23:15:47Z",
+ "updatedAt": "2026-11-10T00:03:15Z",
  "quotes": {
   "VUAA": {
    "price": 145.58,
@@ -13,9 +13,9 @@
    "source": "Yahoo Finance (VUAA.L)"
   },
   "DFND": {
-   "price": 9.0021,
+   "price": 9.0014,
    "change": 4.17,
-   "prevClose": 8.6419,
+   "prevClose": 8.6412,
    "t": 1794242102,
    "listing": "DFND.L",
    "currency": "GBP",
@@ -23,9 +23,9 @@
    "source": "Yahoo Finance (DFND.L)"
   },
   "EQQQ": {
-   "price": 679.6006,
+   "price": 679.5501,
    "change": 1.6,
-   "prevClose": 668.9142,
+   "prevClose": 668.8645,
    "t": 1794242128,
    "listing": "EQQQ.L",
    "currency": "GBp",
@@ -187,69 +187,69 @@
  },
  "market": {
   "EURHUF=X": {
-   "price": 361.768,
+   "price": 361.85,
    "prevClose": 362.89,
-   "t": 1794265889,
+   "t": 1794268983,
    "currency": "HUF"
   },
   "USDHUF=X": {
-   "price": 322.49,
+   "price": 322.638,
    "prevClose": 325.76,
-   "t": 1794265891,
+   "t": 1794268984,
    "currency": "HUF"
   },
   "CHFHUF=X": {
-   "price": 393.521,
+   "price": 393.532,
    "prevClose": 396.98,
-   "t": 1794265890,
+   "t": 1794268979,
    "currency": "HUF"
   },
   "GBPHUF=X": {
-   "price": 433.36,
+   "price": 433.61,
    "prevClose": 434.91,
-   "t": 1794265890,
+   "t": 1794268985,
    "currency": "HUF"
   },
   "EURUSD=X": {
-   "price": 1.1226,
+   "price": 1.1225,
    "prevClose": 1.1143,
-   "t": 1794265833,
+   "t": 1794268954,
    "currency": "USD"
   },
   "BZ=F": {
-   "price": 92.45,
+   "price": 92.36,
    "prevClose": 92.57,
-   "t": 1794265242,
+   "t": 1794267994,
    "currency": "USD"
   },
   "CL=F": {
-   "price": 86.5,
+   "price": 86.46,
    "prevClose": 86.85,
-   "t": 1794265292,
+   "t": 1794268338,
    "currency": "USD"
   },
   "GC=F": {
-   "price": 4145.8,
+   "price": 4148.6,
    "prevClose": 4114.5,
-   "t": 1794265288,
+   "t": 1794268315,
    "currency": "USD"
   },
   "SI=F": {
-   "price": 53.465,
+   "price": 53.45,
    "prevClose": 52.693,
-   "t": 1794265285,
+   "t": 1794268321,
    "currency": "USD"
   },
   "HG=F": {
-   "price": 6.385,
+   "price": 6.3795,
    "prevClose": 6.3445,
-   "t": 1794265283,
+   "t": 1794268335,
    "currency": "USD"
   },
   "NG=F": {
-   "price": 3.199,
+   "price": 3.203,
    "prevClose": 3.218,
-   "t": 1794265291,
+   "t": 1794268318,
    "currency": "USD"
   },
   "^TNX": {
@@ -266,7 +266,7 @@
   },
   "^IXIC": {
    "price": 25253.139,
-   "prevClose": 24579.424,
+   "prevClose": 24579.4,
    "t": 1794262559,
    "currency": "USD"
   },
