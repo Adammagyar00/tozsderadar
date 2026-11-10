@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T11:56:31Z",
+ "builtAt": "2026-11-10T12:57:48Z",
  "digests": [
   {
    "calendar": [
@@ -67,8 +67,8 @@
      "category": "Vállalatok és technológia",
      "impact": "semleges",
      "origin": "investing",
-     "source": "Investing.com · Reuters",
-     "summary": "A Reuters értesülése szerint az Anthropic akár 69,3 milliárd dollárt szeretne bevonni az IPO-n. Később a Reuters arról számolt be, hogy a cég visszavonta az IPO-részleteket, miután az iratot elküldte a bankároknak. A végleges kibocsátási adatok egyelőre nem ismertek.",
+     "source": "Investing.com · Reuters · Investing.com",
+     "summary": "A Reuters értesülése szerint az Anthropic akár 69,3 milliárd dollárt szeretne bevonni az IPO-n. Később a Reuters arról számolt be, hogy a cég visszavonta az IPO-részleteket, miután az iratot elküldte a bankároknak. A végleges kibocsátási adatok egyelőre nem ismertek. Egy későbbi Reuters-beszámoló szerint a legfrissebb tervezet alapján a kibocsátás legfeljebb 64,4 milliárd dollárt hozhat.",
      "symbols": [
       "ANTHROPIC"
      ],
@@ -591,6 +591,79 @@
      "title": "A MARA 750 millió dollárnyi bitcoin-fedezetű hitelt fizetett vissza, és 500 millió dolláros részvény-visszavásárlást hagytak jóvá",
      "url": "https://unchainedcrypto.com/bitcoin-miner-mara-clears-its-btc-backed-debt-and-approves-500-million-buyback-after-q3-profit/",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T12:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A cikk szerint az Anthropic az AI-részvények eséséről szóló kiárusítás után csökkentette az értékelési célját. Más források (Axios, Bloomberg) szerint is jelentősen alacsonyabb az értékelés, mint egy hónappal ezelőtt, a pontos szám forrásonként eltér. A roadshow beszámolók szerint kedden indul.",
+     "symbols": [
+      "ANTHROPIC"
+     ],
+     "title": "Egy Yahoo Finance-en megjelent cikk szerint az Anthropic 1000 milliárd dollárra mérsékelte az IPO-értékelést az AI-kiárusítás után",
+     "url": "https://uk.finance.yahoo.com/news/anthropic-cuts-valuation-1tn-ai-115100538.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T12:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Stocktwits (Yahoo Finance-en)",
+     "summary": "A Stocktwits beszámolója szerint a három cég összesen 26 milliárd dollárral szállna be az Anthropic tőzsdei bevezetése mellett. Az összeget külön forrás nem erősítette meg; korábban külön-külön szerepeltek Google-, AMD- és Nvidia-befektetésekről szóló hírek.",
+     "symbols": [
+      "ANTHROPIC",
+      "NVDA",
+      "GOOGL",
+      "AMD"
+     ],
+     "title": "A Google, az Nvidia és az AMD értesülések szerint 26 milliárd dollárt fektetne az Anthropicba az IPO mellett",
+     "url": "https://stocktwits.com/news-articles/markets/equity/google-nvidia-amd-to-invest-26-b-in-anthropic-alongside-ipo/cNGuR97u",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T12:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Janus International részvénye a vártnál gyengébb gyorsjelentés és visszafogott előrejelzés után mintegy 29%-ot esett.",
+     "symbols": [
+      "JBI"
+     ],
+     "title": "A Janus International árfolyama 29%-ot zuhant a gyenge eredmény és kilátás miatt",
+     "url": "https://www.investing.com/news/earnings/janus-international-shares-tumble-29-on-earnings-miss-and-weak-guidance-93CH-5015050",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T12:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az Amazon potenciális olaszországi pere a kínai árukat érintő vám- és adóügyi vizsgálatokhoz kapcsolódik; a milánói ügyészség korábban is vizsgálta a cég olaszországi működését.",
+     "symbols": [
+      "AMZN"
+     ],
+     "title": "Az Amazon ellen az olaszországi, kínai importot érintő ügyben per indulhat – Reuters",
+     "url": "https://www.investing.com/news/stock-market-news/amazon-faces-potential-trial-in-italy-over-chinese-imports--reuters-93CH-5014964",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T12:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint az öbölben megtámadott szupertanker rakományát az Emírségek értékesíti. Az öbölben a háború kezdete óta több hajót értek támadások, legutóbb hétfő este egy kuvaiti szupertankert találtak el drónnal Dubaj mellett.",
+     "symbols": [
+      "OIL"
+     ],
+     "title": "Az Egyesült Arab Emírségek eladja a Perzsa-öbölben megtámadott szupertankerről származó szaúdi olajat – Reuters",
+     "url": "https://www.investing.com/news/commodities-news/uae-selling-saudi-oil-from-supertanker-attacked-in-gulf-5014949",
+     "verified": true
     }
    ],
    "markets": [
@@ -617,7 +690,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T11:50:00Z",
+   "updatedAt": "2026-11-10T12:45:00Z",
    "watchlist": []
   },
   {
