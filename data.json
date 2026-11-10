@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T10:59:17Z",
+ "builtAt": "2026-11-10T11:56:31Z",
  "digests": [
   {
    "calendar": [
@@ -522,6 +522,75 @@
      "title": "A Talos Energy emelte 2026-os termelési előrejelzését",
      "url": "https://finance.yahoo.com/energy/articles/raised-2026-production-guidance-require-100647644.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters exkluzív híre szerint a Microsoft lobbizik a Trump-kormányzatnál a kínai adatközponti technológiára tervezett tilalom ellen. A tilalom az amerikai importot érintené; a részletek még nem véglegesek.",
+     "symbols": [
+      "MSFT"
+     ],
+     "title": "Reuters: a Microsoft azt kéri Trumptól, hogy akadályozza meg a kínai adatközponti technológiák várható tilalmát",
+     "url": "https://www.investing.com/news/stock-market-news/exclusivemicrosoft-presses-trump-to-scuttle-expected-ban-on-chinese-data-center-technology-5014745",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a brazil repülőgépgyártó a harmadik negyedéves eredmény után feljebb vitte az éves bevételi kilátását.",
+     "symbols": [
+      "ERJ"
+     ],
+     "title": "Az Embraer emelte 2026-os bevételi előrejelzését az erős harmadik negyedév után",
+     "url": "https://www.investing.com/news/stock-market-news/embraer-raises-2026-revenue-forecast-after-strong-third-quarter-5014558",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T11:50:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A svéd jegybank egyik vezetője szerint decemberben kamatemelés jöhet.",
+     "symbols": [],
+     "title": "Svéd jegybanki tisztviselő decemberi kamatemelést sejtetett",
+     "url": "https://www.investing.com/news/economy-news/sweden-central-bank-official-signals-possible-rate-hike-in-december-93CH-5014699",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters elemzése szerint a Cybertruck az EV-pickup szegmens újabb nehézségekkel küzdő modellje.",
+     "symbols": [
+      "TSLA"
+     ],
+     "title": "A Tesla Cybertruck az elektromos pickupok piacának legújabb vesztese",
+     "url": "https://www.investing.com/news/stock-market-news/teslacybertruck-is-ev-pickup-markets-latest-casualty-5014733",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T11:50:00Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Unchained · MARA 10-Q",
+     "summary": "A negyedéves jelentés után eladott 13 597 bitcoinból (kb. 1,1 milliárd dollár) a cég teljesen visszafizette a bitcoin-fedezetű hiteleket; a 10-Q szerint a testület 500 millió dolláros visszavásárlási programot engedélyezett.",
+     "symbols": [
+      "MARA",
+      "BTC"
+     ],
+     "title": "A MARA 750 millió dollárnyi bitcoin-fedezetű hitelt fizetett vissza, és 500 millió dolláros részvény-visszavásárlást hagytak jóvá",
+     "url": "https://unchainedcrypto.com/bitcoin-miner-mara-clears-its-btc-backed-debt-and-approves-500-million-buyback-after-q3-profit/",
+     "verified": true
     }
    ],
    "markets": [
@@ -548,7 +617,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T10:40:00Z",
+   "updatedAt": "2026-11-10T11:50:00Z",
    "watchlist": []
   },
   {
