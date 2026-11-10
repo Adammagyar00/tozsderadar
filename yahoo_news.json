@@ -1,13 +1,29 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-10T08:17:57Z",
+ "updatedAt": "2026-11-10T09:26:31Z",
  "items": [
   {
-   "title": "A $28 Billion Fund Bought These 3 Stocks",
-   "link": "https://www.tikr.com/blog/a-28-billion-fund-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261110-f3j83vgc&.tsrc=rss",
-   "published": "2026-11-10T07:46:44Z",
+   "title": "FTSE 100 climbs as sinking crude boosts broader market but drags on energy majors",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-climbs-sinking-crude-091048234.html",
+   "published": "2026-11-10T09:10:48Z",
    "publisher": "",
-   "summary": "Key TakeawaysAxiom Investors opened an AMD stake, added 48% to GE Vernova and built up Lumentum in the June quarter. All three have fallen at least 23%, while AMD and GE Vernova’s average analyst targets still sit far above their prices.",
+   "summary": "Investing.com - London’s blue-chip shares advanced on Tuesday, with the benchmark FTSE 100 climbing 0.8% as a sustained collapse in global crude oil prices provided a broad deflationary lift to the index, though steep losses in heavyweight energy producers kept a firm lid on the day’s rally.",
+   "symbols": []
+  },
+  {
+   "title": "Stock market today: Dow, S&P 500, Nasdaq trade mixed ahead of key inflation data",
+   "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+   "published": "2026-11-10T09:06:27Z",
+   "publisher": "",
+   "summary": "Investors awaited a key inflation report that could sway the Federal Reserve's interest rate decision next month.",
+   "symbols": []
+  },
+  {
+   "title": "BlackRock Bitcoin ETF Sees $213M Outflow as CPI Report Tests Crypto Markets",
+   "link": "https://99bitcoins.com/news/bitcoin-btc/blackrock-bitcoin-etf-outflows-cpi-report/?.tsrc=rss",
+   "published": "2026-11-10T08:55:54Z",
+   "publisher": "",
+   "summary": "Bitcoin price is struggling to regain momentum as gold extends its recovery above $4,100. But the growing demand for scarce assets could eventually put crypto back on the radar. Gold climbed 1.4% to $4,123 per ounce, extending gains from the previous week. Meanwhile, Bitcoin slipped to $73,700, its lowest level ...",
    "symbols": [
     "BTC",
     "ETH",
@@ -20,11 +36,52 @@
    ]
   },
   {
-   "title": "Meta’s Muse “Looks a Lot More Like Malware,” and Chase Just Blocked It",
-   "link": "https://www.tikr.com/blog/metas-muse-looks-a-lot-more-like-malware-and-chase-just-blocked-it?ref=yahoofinance&tlnk=yf-261110-hh43m27r&.tsrc=rss",
-   "published": "2026-11-10T07:44:13Z",
+   "title": "Allied Gold pours first gold at Ethiopia’s Kurmuk Mine",
+   "link": "https://www.mining-technology.com/news/allied-gold-pours-first-gold-kurmuk-mine/?.tsrc=rss",
+   "published": "2026-11-10T08:54:24Z",
    "publisher": "",
-   "summary": "Key TakeawaysJPMorgan Chase has blocked outside AI agents, Muse included, from retail accounts since Oct. 13.",
+   "summary": "Kurmuk targets commercial production by end-2026, aiming to reach full designed capacity in early 2027.",
+   "symbols": []
+  },
+  {
+   "title": "European shares inch toward record highs as sinking oil eases inflation anxiety",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/european-shares-inch-toward-record-084912749.html",
+   "published": "2026-11-10T08:49:12Z",
+   "publisher": "",
+   "summary": "Investing.com - European shares advanced on Tuesday, to inch toward a fresh record high, as a sustained collapse in global crude oil prices lifted margin pressures off continental balance sheets ahead of a highly anticipated U.S. inflation report.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Holders Split in Two as Retail Leaves and Smart Money Keeps Buying",
+   "link": "https://beincrypto.com/bitcoin-holders-split-smart-money-retail/?.tsrc=rss",
+   "published": "2026-11-10T08:41:55Z",
+   "publisher": "",
+   "summary": "Bitcoin holders split as retail wallets fell by 109,000 since mid-October while smart money added over 14,200 coins.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Great for Investors, Tough for Traders: Market Analysis",
+   "link": "https://finance.yahoo.com/video/great-investors-tough-traders-market-083854974.html",
+   "published": "2026-11-10T08:38:54Z",
+   "publisher": "",
+   "summary": "Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\"",
+   "symbols": []
+  },
+  {
+   "title": "SPCX Stock Climbs Overnight: Tesla Influencer Presses Texas Governor-Elect — Analyst Sees 10,000 AI Racks In Space By 2028",
+   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-tesla-influencer-texas-governor-elect-analyst-10000-ai-racks-space-2028/cNGua33R97o?.tsrc=rss",
+   "published": "2026-11-10T08:16:07Z",
+   "publisher": "",
+   "summary": "Analyst Jeff Pu forecasts 10,000 AI racks and 5GW of SpaceX space-computing capacity by 2028.",
    "symbols": [
     "SPCX",
     "BE",
@@ -32,6 +89,39 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "A $28 Billion Fund Bought These 3 Stocks",
+   "link": "https://www.tikr.com/blog/a-28-billion-fund-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261110-f3j83vgc&.tsrc=rss",
+   "published": "2026-11-10T07:46:44Z",
+   "publisher": "",
+   "summary": "Key TakeawaysAxiom Investors opened an AMD stake, added 48% to GE Vernova and built up Lumentum in the June quarter. All three have fallen at least 23%, while AMD and GE Vernova’s average analyst targets still sit far above their prices.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Meta’s Muse “Looks a Lot More Like Malware,” and Chase Just Blocked It",
+   "link": "https://www.tikr.com/blog/metas-muse-looks-a-lot-more-like-malware-and-chase-just-blocked-it?ref=yahoofinance&tlnk=yf-261110-hh43m27r&.tsrc=rss",
+   "published": "2026-11-10T07:44:13Z",
+   "publisher": "",
+   "summary": "Key TakeawaysJPMorgan Chase has blocked outside AI agents, Muse included, from retail accounts since Oct. 13.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -50,12 +140,12 @@
    "publisher": "",
    "summary": "JPMorgan Chase has ridden a powerful three year run, and the question now is whether the return the business earns on its capital can carry the current valuation. With the stock last closing at US$342.08 and fresh headlines on everything from Senate probes to AI partnerships, investors are asking what that price really implies about JPMorgan Chase and the way it deploys its equity base. JPMorgan C",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -69,11 +159,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -111,11 +201,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -178,11 +268,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -470,6 +560,22 @@
    "publisher": "",
    "summary": "Lightning Minerals Ltd managing director Troy Brice talked with Proactive about the completion of Phase 2 diamond drilling at the company’s Mt Turner Gold Project in North Queensland and the pathway toward a maiden gold Mineral Resource Estimate in 2027. Brice said the drilling team had completed the program and demobilised after working through challenging conditions, with samples now sent to lab",
    "symbols": []
+  },
+  {
+   "title": "Anthropic Plans IPO Live Stream With Amodei, JPMorgan CEO Dimon",
+   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-plans-ipo-live-stream-031454541.html",
+   "published": "2026-11-10T03:14:54Z",
+   "publisher": "",
+   "summary": "Anthropic PBC is planning a live-streamed event, at which co-founder and Chief Executive Officer Dario Amodei will discuss the Claude chatbot maker’s initial public offering with JPMorgan Chase & Co. CEO Jamie Dimon, according to a person familiar with the matter.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Monolithic Power Systems and Photronics shares skyrocket, what you need to know",
@@ -1163,6 +1269,22 @@
    "publisher": "",
    "summary": "Investing.com -- Occidental Petroleum Corporation (NYSE:OXY) delivered a decisive third-quarter earnings beat on Monday, lifted by operational outperformance in its core shale basins and substantial debt-reduction progress. The Houston-based producer posted adjusted earnings of $1.91 per share, topping analyst expectations of $1.34 by $0.57, while revenue reached $6.77 billion against a projected ",
    "symbols": []
+  },
+  {
+   "title": "Morgan Stanley Says SpaceX Can Double. Here’s Why",
+   "link": "https://blockspace.media/short/morgan-stanley-says-spacex-can-double-heres-why/?.tsrc=rss",
+   "published": "2026-11-09T22:16:15Z",
+   "publisher": "",
+   "summary": "SpaceX's price imploded after the U.S. midterms, but Morgan Stanley says you should be buying the dip.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Update: US Equity Indexes Recover Post-Election Losses as Growth Sectors Rally Hard While Crude Oil Sinks",
@@ -2888,153 +3010,6 @@
    "published": "2026-11-09T17:10:00Z",
    "publisher": "",
    "summary": "Common Stock to Begin Trading Under New Symbol “XGPU” on November 10, 2026LAKEWOOD, NJ, Nov. 09, 2026 (GLOBE NEWSWIRE) -- Reliance Global Group, Inc. (Nasdaq: EZRA) (the “Company”) today announced that its ticker symbol on The Nasdaq Capital Market will change from “EZRA” to “XGPU”, effective at the open of trading on Tuesday, November 10, 2026. The Company’s common stock will continue to be liste",
-   "symbols": []
-  },
-  {
-   "title": "Prediction: $500 a Month Invested in SpaceX Stock Will Be Worth This Much by Year-End 2030",
-   "link": "https://www.fool.com/investing/2026/11/09/prediction-usd500-a-month-invested-in-spacex-will-be-worth-this-much-by-2030/?.tsrc=rss",
-   "published": "2026-11-09T17:09:35Z",
-   "publisher": "",
-   "summary": "SpaceX is currently trading below its IPO price despite posting blowout earnings results.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Tom Lee’s Bitmine Adds $20M in Ethereum, Seizing on Vitalik’s 'ETH Is Money' Declaration",
-   "link": "https://decrypt.co/382854/tom-lee-bitmine-adds-20m-ethereum-vitalik-eth-money?.tsrc=rss",
-   "published": "2026-11-09T17:08:21Z",
-   "publisher": "",
-   "summary": "The firm’s stash reached 6.07 million ETH—4.97% of supply and 99% of the way to its “Alchemy of 5%” goal—as chairman Tom Lee called Vitalik Buterin’s “ETH is money” comments a “seismic shift.”",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Why the Midterm Election Results Don't Make SpaceX Any Worse of a Buy",
-   "link": "https://www.fool.com/investing/2026/11/09/why-the-midterm-election-results-don-t-make-spacex-any-worse-of-a-buy/?.tsrc=rss",
-   "published": "2026-11-09T17:08:02Z",
-   "publisher": "",
-   "summary": "SpaceX's stock stumbled after the midterm elections, but for long-term investors, the results shouldn't really matter.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "FDA requires vision-loss warning on Novo Nordisk and Eli Lilly GLP-1 drugs",
-   "link": "https://finance.yahoo.com/healthcare/articles/fda-requires-vision-loss-warning-170646867.html",
-   "published": "2026-11-09T17:06:46Z",
-   "publisher": "",
-   "summary": "Investing.com -- U.S. health regulators will require drugmakers including Novo Nordisk A/S (NYSE:NVO) and Eli Lilly and Company (NYSE:LLY) to add safety warnings to their blockbuster weight-loss and diabetes treatments regarding a rare eye condition that can cause permanent vision loss. The Food and Drug Administration said Monday that all glucagon-like peptide-1 (GLP-1) receptor agonists must upd",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Why Bloom Energy Stock Popped Today",
-   "link": "https://www.fool.com/investing/2026/11/09/why-bloom-energy-stock-popped-today/?.tsrc=rss",
-   "published": "2026-11-09T17:02:32Z",
-   "publisher": "",
-   "summary": "Bloom Energy stock sold off after Election 2028. Now it's bouncing back.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Bitcoin and Ethereum Just Hit Their Lowest Prices Since August After $1 Billion in Liquidations. Where Do Analysts Say They Bottom?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/09/bitcoin-and-ethereum-just-hit-their-lowest-prices-since-august-after-1-billion-in-liquidations-where-do-analysts-say-they-bottom/?.tsrc=rss",
-   "published": "2026-11-09T17:01:15Z",
-   "publisher": "",
-   "summary": "A liquidation cascade just wiped out billions in leveraged bets, and Ethereum has already cracked a level Bitcoin is still defending. Analysts are now arguing over which line decides whether the sell-off ends or the real damage begins.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Elon Musk Promises a SpaceX Share To Every American Child in 2027",
-   "link": "https://moneylion.com/trending/money/elon-musk-spacex-share-every-american-child-2027?.tsrc=rss",
-   "published": "2026-11-09T17:00:29Z",
-   "publisher": "",
-   "summary": "Elon Musk has pledged a SpaceX share for every child in America. Here's what we know so far about the potentially massive stock giveaway.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "How Tesla Stock Could Move Amid Roadster Reveal and Reported SpaceX Merger",
-   "link": "https://moneylion.com/trending/money/how-tesla-stock-move-roadster-reveal-reported-spacex-merger?.tsrc=rss",
-   "published": "2026-11-09T17:00:27Z",
-   "publisher": "",
-   "summary": "Speculation grows that Tesla and SpaceX could merge, potentially reshaping the investment case for Tesla’s roughly $1.4 trillion business.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Morgan Stanley's Mike Wilson Makes Bold S&P 500 Call for 2027",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanleys-mike-wilson-makes-170022293.html",
-   "published": "2026-11-09T17:00:22Z",
-   "publisher": "",
-   "summary": "A surprising shift in energy markets could reshape Wall Street's outlook.",
-   "symbols": []
-  },
-  {
-   "title": "This Type of Portfolio Can Help You Retire With 20% More Money Than Index Funds",
-   "link": "https://smartasset.com/retirement/dimensional-retirement-portfolios-research?.tsrc=rss",
-   "published": "2026-11-09T17:00:00Z",
-   "publisher": "",
-   "summary": "If you're saving for retirement, a broad market index portfolio is typically a good option. Investing in a target date fund or S&P 500 index fund, for instance, are low-cost ways to gain broad market exposure. However, newly published research … Continue reading → The post This Type of Portfolio Could Help You Retire With 20% More Money Than Index Funds appeared first on SmartAsset Blog.",
    "symbols": []
   }
  ]
