@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T14:56:25Z",
+ "builtAt": "2026-11-10T15:56:06Z",
  "digests": [
   {
    "calendar": [
@@ -694,6 +694,90 @@
      "title": "A BeInCrypto szerint a Bank of America levette az Nvidiát, a Micront és a Lam Researchöt az „US 1\" listájáról",
      "url": "https://beincrypto.com/bank-of-america-drops-nvidia-list/?.tsrc=rss",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T15:45:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A bitcoin 74 ezer dollár alá csúszott, miután az amerikai maginfláció a várakozás fölött alakult, ami növelte a decemberi Fed-kamatemelés esélyét. A Solana, az Ethereum és az XRP még nagyobbat esett.",
+     "symbols": [
+      "BTC-USD",
+      "ETH-USD",
+      "SOL-USD",
+      "XRP-USD"
+     ],
+     "title": "A bitcoin 74 ezer dollár alá esett a vártnál magasabb maginfláció után",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-below-74000-as-core-inflation-runs-above-forecasts/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T15:45:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A 10 éves amerikai állampapír hozama megugrott az októberi, vártnál magasabb fogyasztói árak után, és nőttek a decemberi kamatemelés esélyei. A Nasdaq a nap folyamán nagyjából 1%-ot esett.",
+     "symbols": [],
+     "title": "Az amerikai 10 éves hozam ugrott a forró infláció után, nőtt a kamatemelési esély",
+     "url": "https://finance.yahoo.com/news/10-year-treasury-yield-jumps-as-hot-inflation-lifts-rate-hike-odds-alphacheck-144120699.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T15:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Marco Rubio külügyminiszter szerint a gazdasági kampány miatt nincs szükség nagy harci műveletekre Irán ellen. Ez illeszkedik a Trump által jelzett visszafogottsághoz, amely az olajárat is lenyomta.",
+     "symbols": [],
+     "title": "Rubio: nincs szükség nagyszabású katonai műveletre Irán ellen az amerikai gazdasági nyomásgyakorlás mellett",
+     "url": "https://www.investing.com/news/commodities-news/rubio-says-no-need-for-major-combat-operations-on-iran-given-us-economic-campaign-5015946",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T15:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters beszámolója szerint a TSMC legfeljebb 1 milliárd dollárt fektet be az Anthropicban és az OpenAI-ban. Önálló megerősítést vagy a cég közleményét nem találtuk.",
+     "symbols": [
+      "TSM"
+     ],
+     "title": "Reuters: a TSMC legfeljebb 1 milliárd dollárt fektetne az Anthropicba és az OpenAI-ba",
+     "url": "https://www.investing.com/news/stock-market-news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai-5015908",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T15:45:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a Dropbox részvénye esett, miután 1,1 milliárd dollár értékű átváltható kötvényt árazott. Külön megerősítést nem találtunk.",
+     "symbols": [
+      "DBX"
+     ],
+     "title": "A Dropbox árfolyama esik az 1,1 milliárd dolláros átváltható kötvény árazása után",
+     "url": "https://www.investing.com/news/stock-market-news/dropbox-stock-falls-after-pricing-11b-convertible-notes-5015878",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T15:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a Wells Fargo az AI-infrastruktúra szektor megítélésén javított a chipértékesítési hullám után. Önálló megerősítést nem találtunk.",
+     "symbols": [
+      "NVDA",
+      "AMD"
+     ],
+     "title": "Reuters: a Wells Fargo felminősítette az amerikai AI-infrastruktúra szektort a chip-eladási hullám után",
+     "url": "https://www.investing.com/news/economy-news/wells-fargo-upgrades-us-ai-infrastructure-view-after-chip-selloff-5015534",
+     "verified": false
     }
    ],
    "markets": [
@@ -720,7 +804,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T14:45:00Z",
+   "updatedAt": "2026-11-10T15:45:00Z",
    "watchlist": []
   },
   {
