@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T18:56:26Z",
+ "builtAt": "2026-11-10T19:56:08Z",
  "digests": [
   {
    "calendar": [
@@ -900,6 +900,78 @@
      "title": "A Bloom Energy árfolyama esett a vártnál magasabb októberi infláció után",
      "url": "https://www.investing.com/news/stock-market-news/why-is-bloom-energy-stock-sliding-today-93CH-5016241",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-10T19:40:02Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "James Schneider, a Goldman Sachs elemzője szerint a Micron értékeltsége a fundamentumokhoz képest túl alacsony ahhoz, hogy figyelmen kívül hagyják, a kockázat–hozam arány egyre vonzóbb az erős várható szabad cash flow miatt. A bank Semleges besorolását és 1250 dolláros célárát megtartotta, ami mintegy 70%-os emelkedési potenciált jelez.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Goldman Sachs: a Micron értékeltsége vonzóvá vált, de a besorolás Semleges maradt",
+     "url": "https://finance.yahoo.com/markets/stocks/article/micron-stock-is-a-screaming-buy-at-current-valuation-levels-goldman-sachs",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T19:40:02Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "Az amerikai Energiainformációs Hivatal (EIA) keddi rövid távú előrejelzése szerint az USA nyersolaj-kitermelése 2026-ban napi 13,9 millió hordóval a negyedik egymást követő évben is rekordot dönt. Az áramfogyasztás az AI-adatközpontok miatt 2026-ban és 2027-ben is új csúcsra emelkedhet.",
+     "symbols": [],
+     "title": "EIA: 13,9 millió hordó/nap rekord amerikai olajtermelés 2026-ban, rekord áramfogyasztás 2026–27-ben",
+     "url": "https://finance.yahoo.com/energy/articles/us-oil-output-reach-record-183440109.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T19:40:02Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · New York Fed",
+     "summary": "A New York-i Fed jelentése szerint a hitelkártya-tartozások 22 milliárd dollárral, 1290 milliárd dollárra nőttek a harmadik negyedévben. A teljes háztartási adósság 334 milliárd dollárral, 19 100 milliárd dollárra emelkedett.",
+     "symbols": [],
+     "title": "Rekordra, 1290 milliárd dollárra nőtt az amerikai hitelkártya-adósság a harmadik negyedévben",
+     "url": "https://www.investing.com/news/economy-news/us-credit-card-debt-hits-record-129-trillion-in-third-quarter-5016",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T19:40:02Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Névtelen források szerint a Qualcomm megkezdte a korábban bejelentett, teljesítményalapú leépítéseket; Indiában már kaptak felmondást munkavállalók, Kaliforniában a következő napokban várható a hivatalos bejelentés. Az érintettek pontos száma nem ismert, a cég nem kommentálta a hírt.",
+     "symbols": [],
+     "title": "Reuters: a Qualcomm megkezdte az elbocsátásokat, Indiát és Kaliforniát is érinti",
+     "url": "https://www.investing.com/news/stock-market-news/exclusive-qualcomm-begins-job-cuts-india-and-california-among",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T19:40:02Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "CNBC · 24/7 Wall St.",
+     "summary": "A CNBC szerint az Nvidia részvénye kedden további mintegy 6%-ot esett, miután hétfőn 4% feletti veszteséggel zárt. A befektetők Jensen Huang vezérigazgató állítólagos kínai kémmel való kapcsolatának következményeit mérlegelik; a cég igazgatósága belső vizsgálatot indított.",
+     "symbols": [],
+     "title": "Az Nvidia második napja esik a vezérigazgatót érintő botrány miatt",
+     "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T19:40:02Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "Anadolu Agency",
+     "summary": "Az Anadolu hírügynökség szerint a Stoxx Europe 600 0,27%-kal, a német DAX 0,31%-kal, a francia CAC 40 0,55%-kal emelkedett kedden, míg a brit FTSE 100 0,29%-kal csökkent. A befektetők a vártnál magasabb amerikai inflációt és a tovább eső olajárat mérlegelték.",
+     "symbols": [],
+     "title": "Az európai tőzsdék enyhe emelkedéssel zártak, a londoni FTSE 100 esett",
+     "url": "https://www.aa.com.tr/en/economy/european-stocks-close-higher-except-uk-as-falling-oil-prices-ease-inflation-concerns/4119442",
+     "verified": false
     }
    ],
    "markets": [
@@ -926,7 +998,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T18:50:00Z",
+   "updatedAt": "2026-11-10T19:40:02Z",
    "watchlist": []
   },
   {
