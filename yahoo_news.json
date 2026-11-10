@@ -1,13 +1,112 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-10T07:06:40Z",
+ "updatedAt": "2026-11-10T08:17:57Z",
  "items": [
+  {
+   "title": "A $28 Billion Fund Bought These 3 Stocks",
+   "link": "https://www.tikr.com/blog/a-28-billion-fund-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261110-f3j83vgc&.tsrc=rss",
+   "published": "2026-11-10T07:46:44Z",
+   "publisher": "",
+   "summary": "Key TakeawaysAxiom Investors opened an AMD stake, added 48% to GE Vernova and built up Lumentum in the June quarter. All three have fallen at least 23%, while AMD and GE Vernova’s average analyst targets still sit far above their prices.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Meta’s Muse “Looks a Lot More Like Malware,” and Chase Just Blocked It",
+   "link": "https://www.tikr.com/blog/metas-muse-looks-a-lot-more-like-malware-and-chase-just-blocked-it?ref=yahoofinance&tlnk=yf-261110-hh43m27r&.tsrc=rss",
+   "published": "2026-11-10T07:44:13Z",
+   "publisher": "",
+   "summary": "Key TakeawaysJPMorgan Chase has blocked outside AI agents, Muse included, from retail accounts since Oct. 13.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Bighorn Metals Corp. Advances Phase I Exploration Program for Marietta Project",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/bighorn-metals-corp-advances-phase-071500154.html",
+   "published": "2026-11-10T07:15:00Z",
+   "publisher": "",
+   "summary": "VANCOUVER, BC - November 10, 2026 (NEWMEDIAWIRE) - Bighorn Metals Corp. (the \"Company\") (CSE: HRNY) is pleased to highlight the extensive historical mine workings and reported multi-metal occurrences at its Marietta Project (the \"Project\"), where the...",
+   "symbols": []
+  },
+  {
+   "title": "JPMorgan (JPM) Stock May Be 31% Undervalued On Senate Probe News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-jpm-stock-may-31-071018836.html",
+   "published": "2026-11-10T07:10:18Z",
+   "publisher": "",
+   "summary": "JPMorgan Chase has ridden a powerful three year run, and the question now is whether the return the business earns on its capital can carry the current valuation. With the stock last closing at US$342.08 and fresh headlines on everything from Senate probes to AI partnerships, investors are asking what that price really implies about JPMorgan Chase and the way it deploys its equity base. JPMorgan C",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "4BIO Capital leads $60M Series A financing of Oyster Therapeutics (formerly Kesmalea Therapeutics) to advance next-generation targeted protein degraders for Alzheimer’s and other neurodegenerative diseases",
+   "link": "https://finance.yahoo.com/healthcare/articles/4bio-capital-leads-60m-series-071000110.html",
+   "published": "2026-11-10T07:10:00Z",
+   "publisher": "",
+   "summary": "Proceeds to advance oral, brain-penetrant tau degrader into clinical development as a novel treatment for tau-driven diseases like Alzheimer’sSeries A led by 4BIO Capital with participation from new investors, including Eli Lilly and Company, alongside existing investorsFinancing supports continued development of proprietary SELFTAC® platform for generating small bifunctional targeted protein degr",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "London biotech Oyster harvests $60M for tau-targeting brain drugs",
    "link": "https://www.biopharmadive.com/news/oyster-venture-financing-tau-targeted-protein-degraders/874160/?.tsrc=rss",
    "published": "2026-11-10T07:00:00Z",
    "publisher": "",
    "summary": "Oyster says a tweak it's made to traditional protein degrading technology can help break down tau, which has long been a focus of Alzheimer’s drug research.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Value per Security",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/value-per-security-070000188.html",
+   "published": "2026-11-10T07:00:00Z",
+   "publisher": "",
+   "summary": "LONDON, November 10, 2026-- DB ETC PLC",
+   "symbols": []
+  },
+  {
+   "title": "Kesmalea Therapeutics Announces $60 Million Series A Financing to Advance Next-Generation Targeted Protein Degraders for Alzheimer’s and Other Neurodegenerative Diseases and Rebrands as Oyster Therapeutics",
+   "link": "https://finance.yahoo.com/healthcare/articles/kesmalea-therapeutics-announces-60-million-070000534.html",
+   "published": "2026-11-10T07:00:00Z",
+   "publisher": "",
+   "summary": "LONDON, November 10, 2026--Oyster Therapeutics (previously known as Kesmalea Therapeutics) announces the closing of a $60 million Series A-2 financing.",
    "symbols": [
     "BTC",
     "ETH",
@@ -29,12 +128,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "The Zacks Analyst Blog Highlights Nucor, UCB and Cheniere Energy",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nucor-062000448.html",
+   "published": "2026-11-10T06:20:00Z",
+   "publisher": "",
+   "summary": "NUE, UCBJY and LNG headline fresh stock picks as investors weigh AI regulation, inflation risks, oil prices and global economic developments.",
+   "symbols": []
   },
   {
    "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms",
@@ -46,11 +153,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -62,11 +169,11 @@
    "symbols": []
   },
   {
-   "title": "Zacks Industry Outlook Highlights Eli Lilly, Novartis and Bayer",
-   "link": "https://finance.yahoo.com/healthcare/articles/zacks-industry-outlook-highlights-eli-055000179.html",
-   "published": "2026-11-10T05:50:00Z",
+   "title": "Even After a Cut, B. Riley’s $250 Target Says Marvell’s Selloff Went Too Far",
+   "link": "https://www.tikr.com/blog/even-after-a-cut-b-rileys-250-target-says-marvells-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261110-xgr49jxm&.tsrc=rss",
+   "published": "2026-11-10T06:10:36Z",
    "publisher": "",
-   "summary": "LLY, NVS and BAYRY stand out as the pharma sector rebounds in 2026, supported by innovative drug pipelines, strong product demand and rising earnings estimates.",
+   "summary": "Key TakeawaysMarvell Technology is down 51% from its June high, and most of the drop since Oct. 28 tracks its all-stock deal for Lumentum and the Democratic sweep in Congress.",
    "symbols": [
     "BTC",
     "ETH",
@@ -79,18 +186,35 @@
    ]
   },
   {
+   "title": "Zacks Industry Outlook Highlights Eli Lilly, Novartis and Bayer",
+   "link": "https://finance.yahoo.com/healthcare/articles/zacks-industry-outlook-highlights-eli-055000179.html",
+   "published": "2026-11-10T05:50:00Z",
+   "publisher": "",
+   "summary": "LLY, NVS and BAYRY stand out as the pharma sector rebounds in 2026, supported by innovative drug pipelines, strong product demand and rising earnings estimates.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
    "title": "Zacks Investment Ideas feature highlights: SpaceX and Qualcomm",
    "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-053500964.html",
    "published": "2026-11-10T05:35:00Z",
    "publisher": "",
    "summary": "SPCX is rebounding on Musk's ambitious $500 billion revenue forecast, surging earnings estimates and expanding AI infrastructure, while its Qualcomm partnership targets wireless growth.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2912,122 +3036,6 @@
    "publisher": "",
    "summary": "If you're saving for retirement, a broad market index portfolio is typically a good option. Investing in a target date fund or S&P 500 index fund, for instance, are low-cost ways to gain broad market exposure. However, newly published research … Continue reading → The post This Type of Portfolio Could Help You Retire With 20% More Money Than Index Funds appeared first on SmartAsset Blog.",
    "symbols": []
-  },
-  {
-   "title": "Why Saylor's 'Underwater' bitcoin narrative is misleading",
-   "link": "https://finance.yahoo.com/video/why-saylors-underwater-bitcoin-narrative-170000340.html",
-   "published": "2026-11-09T17:00:00Z",
-   "publisher": "",
-   "summary": "Scott Melker discusses Michael Saylor and Strategy's (MSTR) latest 1,036 bitcoin (BTC-USD), challenging the narrative that the company's bitcoin holdings are underwater. Melker explains why he believes major news outlets are missing the bigger picture when it comes to Strategy's long-term bitcoin investment strategy. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your ",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Strategy buys more bitcoin, and Coinbase gets final federal trust charter",
-   "link": "https://finance.yahoo.com/video/strategy-buys-more-bitcoin-coinbase-170000376.html",
-   "published": "2026-11-09T17:00:00Z",
-   "publisher": "",
-   "summary": "Scott Melker discusses the latest crypto-related headlines. Such as Strategy buying more bitcoin (BTC-USD), Coinbase (COIN) getting its final federal trust charter, and Binance planning a European exit \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "European Stocks Close Higher in Monday Trading Amid Easing Bond Yields, Oil Prices",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-close-higher-monday-165807604.html",
-   "published": "2026-11-09T16:58:07Z",
-   "publisher": "",
-   "summary": "The European stock markets closed higher in Monday trading amid easing bond yields and oil prices, f",
-   "symbols": []
-  },
-  {
-   "title": "Wells Fargo Doesn’t Think Becton Dickinson (BDX) Is Done Skyrocketing",
-   "link": "https://finance.yahoo.com/healthcare/articles/wells-fargo-doesn-t-think-165803051.html",
-   "published": "2026-11-09T16:58:03Z",
-   "publisher": "",
-   "summary": "We just published a list of the Don’t Miss Out: 10 Stocks Getting Major Upgrades From Top Analysts and Becton Dickinson (NYSE:BDX) ranked 10th on this list. Wall Street ended a punishing week on Friday with a partial recovery. The Nasdaq Composite rose 1.09% to 24,579.42 and the S&P 500 gained 0.31% to 7,376.86, while […]",
-   "symbols": []
-  },
-  {
-   "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-joins-ai-natural-gas-165654243.html",
-   "published": "2026-11-09T16:56:54Z",
-   "publisher": "",
-   "summary": "Anthropic bought billions of dollars worth of natural gas turbines in a deal that could give it buyer's remorse.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Why Wall Street Is Still Bullish on Allied Gold (AAUC) After Its 45% Surge",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-wall-street-still-bullish-165610183.html",
-   "published": "2026-11-09T16:56:10Z",
-   "publisher": "",
-   "summary": "We just published a list of the Don’t Miss Out: 10 Stocks Getting Major Upgrades From Top Analysts and Allied Gold (NYSE:AAUC) ranked 6th on this list. The stock has gained 45% over the past 12 months but analysts still see enormous upside. Wall Street ended a punishing week on Friday with a partial recovery. […]",
-   "symbols": []
-  },
-  {
-   "title": "Backed by NEXT and Nasdaq, Transient Marks Progress at Times Square Closing Bell Ceremony",
-   "link": "https://finance.yahoo.com/technology/ai/articles/backed-next-nasdaq-transient-marks-165500092.html",
-   "published": "2026-11-09T16:55:00Z",
-   "publisher": "",
-   "summary": "Strategic institutional backing is helping accelerate bank-grade AI governance for regulated financial institutions at a pivotal moment in enterprise AI adoptionNEW YORK, NY / ACCESS Newswire / November 9, 2026 / , the AI governance platform for regulated market participants, today announced its participation in the Nasdaq closing bell viewing ceremony in Times Square. The milestone underscores th",
-   "symbols": []
-  },
-  {
-   "title": "Schwab Opens Solana, Avalanche and Chainlink Trading to Its Retail Crypto Clients",
-   "link": "https://unchainedcrypto.com/schwab-opens-solana-avalanche-and-chainlink-trading-to-its-retail-crypto-clients/?.tsrc=rss",
-   "published": "2026-11-09T16:55:00Z",
-   "publisher": "",
-   "summary": "Schwab Crypto now lists five digital assets, about 11 weeks after the brokerage said it would add the three tokens.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "AHA26: Lilly’s Foundayo benefits beyond weight loss in Phase III sleep apnoea win",
-   "link": "https://www.clinicaltrialsarena.com/news/aha26-lillys-foundayo-benefits-beyond-weight-loss-in-phase-iii-sleep-apnoea-win/?.tsrc=rss",
-   "published": "2026-11-09T16:49:40Z",
-   "publisher": "",
-   "summary": "Lilly’s Foundayo gained approval in the US in January 2026 for weight loss and has since been approved in the EU for the same patients.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
   }
  ]
 }
