@@ -1,7 +1,99 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-10T05:54:38Z",
+ "updatedAt": "2026-11-10T07:06:40Z",
  "items": [
+  {
+   "title": "London biotech Oyster harvests $60M for tau-targeting brain drugs",
+   "link": "https://www.biopharmadive.com/news/oyster-venture-financing-tau-targeted-protein-degraders/874160/?.tsrc=rss",
+   "published": "2026-11-10T07:00:00Z",
+   "publisher": "",
+   "summary": "Oyster says a tweak it's made to traditional protein degrading technology can help break down tau, which has long been a focus of Alzheimer’s drug research.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Bitcoin pinned below $75k as regulatory uncertainty, ETF outflows persist",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-pinned-below-75k-regulatory-063403850.html",
+   "published": "2026-11-10T06:34:03Z",
+   "publisher": "",
+   "summary": "Investing.com-- Bitcoin moved little on Tuesday amid continued uncertainty over the regulatory outlook under a Democrat-led U.S. Congress, which spurred sustained outflows from spot exchange-traded funds.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms",
+   "link": "https://stocktwits.com/news-articles/markets/equity/wulf-hut-cifr-stocks-get-price-target-cuts-from-jefferies-here-s-why-the-analyst-is-still-bullish-on-these-ai-infra-firms/cNGuIUkR97m?.tsrc=rss",
+   "published": "2026-11-10T06:15:43Z",
+   "publisher": "",
+   "summary": "Jefferies lowered the price target on TeraWulf, Hut 8 and Cipher Digital as part of a broader re-rating of AI Data Center companies.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Top 3 Canadian Penny Stocks To Watch In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-penny-stocks-061456505.html",
+   "published": "2026-11-10T06:14:56Z",
+   "publisher": "",
+   "summary": "China plans to spend about $940b on its energy transition in 2026, and that kind of large scale investment is reshaping supply chains, commodity flows, and capital spending plans worldwide. For Canadian investors, this creates ripple effects that can reward smaller, financially disciplined penny stocks. This article breaks down three such Canadian penny stocks from a health focused screener that h",
+   "symbols": []
+  },
+  {
+   "title": "Zacks Industry Outlook Highlights Eli Lilly, Novartis and Bayer",
+   "link": "https://finance.yahoo.com/healthcare/articles/zacks-industry-outlook-highlights-eli-055000179.html",
+   "published": "2026-11-10T05:50:00Z",
+   "publisher": "",
+   "summary": "LLY, NVS and BAYRY stand out as the pharma sector rebounds in 2026, supported by innovative drug pipelines, strong product demand and rising earnings estimates.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Zacks Investment Ideas feature highlights: SpaceX and Qualcomm",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-053500964.html",
+   "published": "2026-11-10T05:35:00Z",
+   "publisher": "",
+   "summary": "SPCX is rebounding on Musk's ambitious $500 billion revenue forecast, surging earnings estimates and expanding AI infrastructure, while its Qualcomm partnership targets wireless growth.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Asian airline stocks surge as oil prices slide on Iran peace hopes",
    "link": "https://finance.yahoo.com/markets/stocks/articles/asian-airline-stocks-surge-oil-053231788.html",
@@ -50,14 +142,22 @@
    "publisher": "",
    "summary": "China plans to pour an estimated US$940b into low carbon energy and grid upgrades in 2026, which keeps global demand for cleaner power, electrification and supporting technologies firmly in the spotlight. That kind of spending highlights businesses with potential to grow earnings and maintain balance sheets that can handle the ride. This article explores three such high potential stocks from our q",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
+  },
+  {
+   "title": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
+   "link": "https://finance.yahoo.com/energy/articles/oil-prices-plunge-below-92-052000701.html",
+   "published": "2026-11-10T05:20:00Z",
+   "publisher": "",
+   "summary": "Oil prices plunged as President Trump signaled a reduced likelihood of further strikes on Iran, while rising OPEC production added downward pressure despite continued Middle East attacks.",
+   "symbols": []
   },
   {
    "title": "GRNT Q3 2026 deep dive: production growth and portfolio strategy drive margin expansion",
@@ -90,12 +190,12 @@
    "publisher": "",
    "summary": "Jim Cramer says AI stocks need Anthropic's IPO to recover, but a retracted price range just rattled its Hyperliquid contract.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -149,11 +249,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -174,11 +274,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -769,12 +869,12 @@
    "publisher": "",
    "summary": "CorpGov hosted the sixth annual Palm Beach CorpGov Forum on Nov. 4-5, 2026, at the Palm Beach Lake Pavilion and The Cove Club, both located waterfront with sweeping views of Palm Beach Island, along with a reception at Cucina Palm Beach. The Forum featured a VC-focused opening keynote panel on Wednesday evening, “Founders Bootcamp: Boards, Banking […] The post Founders Bootcamp: Boards, Banking an",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2927,87 +3027,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "Stocks Climb as Buyers Step In Despite Nvidia Woes",
-   "link": "https://finance.yahoo.com/video/stocks-climb-buyers-step-despite-164729067.html",
-   "published": "2026-11-09T16:47:29Z",
-   "publisher": "",
-   "summary": "A renewed wave of dip buying drove stocks toward their best day since April in the wake of a technology selloff that roiled Wall Street, with the market also gaining as oil prices fell. Lori Calvasina, Head of US Equity Strategy at RBC Capital Markets, discusses bearish sentiment in the markets and compressed equity valuations.",
-   "symbols": []
-  },
-  {
-   "title": "Wall Street's Four Main Benchmarks Start the Week Higher as Inflation Data Nears",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/wall-streets-four-main-benchmarks-164600239.html",
-   "published": "2026-11-09T16:46:00Z",
-   "publisher": "",
-   "summary": "Equity Insider News Commentary - All four of the main U.S. stock benchmarks were trading higher in the first half hour of Monday's session. As of 9:57 a.m. ET, the S&P 500 was up 125.70 points, or 1.70%, at 7,502.56, the Nasdaq Composite was up 539.15 points, or 2.19%, at 25,118.58, the Dow Jones Industrial Average was up 727.61 points, or 1.42%, at 52,013.34, and the small cap Russell 2000 was up",
-   "symbols": []
-  },
-  {
-   "title": "Half of Social Security recipients say it’s their main source of income. 3 ways to stretch it during Trump's presidency",
-   "link": "https://finance.yahoo.com/healthcare/articles/half-social-security-recipients-main-164500873.html",
-   "published": "2026-11-09T16:45:00Z",
-   "publisher": "",
-   "summary": "When Social Security covers much of your spending, everyday costs add up. Here’s how to stay ahead.",
-   "symbols": []
-  },
-  {
-   "title": "SpaceX, Rocket Lab blast higher as NASA hands out $10 billion in moon base awards",
-   "link": "https://finance.yahoo.com/markets/article/spacex-rocket-lab-blast-higher-as-nasa-hands-out-10-billion-in-moon-base-awards-164320855.html",
-   "published": "2026-11-09T16:43:20Z",
-   "publisher": "",
-   "summary": "The space trade came roaring back as NASA handed out moon base contracts and Rocket Lab heads into its earnings.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Riot Platforms Gains Another 5% as Morgan Stanley Raises Its Target to $41",
-   "link": "https://www.tikr.com/blog/riot-platforms-gains-another-5-as-morgan-stanley-raises-its-target-to-41?ref=yahoofinance&tlnk=yf-261109-pj7gxf5p&.tsrc=rss",
-   "published": "2026-11-09T16:42:46Z",
-   "publisher": "",
-   "summary": "Key TakeawaysRiot Platforms rose 5% after Morgan Stanley raised its price target to $41 from $35. 50.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Top Midday Stories: Nvidia Faces China Spy Allegations; NRG to Sell 6 natural Gas Generation Assets to LS Power for $4 Billion",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-nvidia-faces-164201985.html",
-   "published": "2026-11-09T16:42:01Z",
-   "publisher": "",
-   "summary": "All three major US stock indexes were up over 1.5% on Monday, with the Nasdaq Composite trading abov",
-   "symbols": []
-  },
-  {
-   "title": "JPMorgan Just Removed Alphabet From Its Analyst Focus List",
-   "link": "https://247wallst.com/investing/2026/11/09/jpmorgan-just-removed-alphabet-from-its-analyst-focus-list/?.tsrc=rss",
-   "published": "2026-11-09T16:40:32Z",
-   "publisher": "",
-   "summary": "Google's search queries just hit a five-year growth high, yet revenue lagged far behind. JPMorgan spotted the gap, and it is steering its near-term conviction toward a rival while keeping a bullish long-term view.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
    ]
   }
  ]
