@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T13:56:53Z",
+ "builtAt": "2026-11-10T14:56:25Z",
  "digests": [
   {
    "calendar": [
@@ -664,6 +664,36 @@
      "title": "Az Egyesült Arab Emírségek eladja a Perzsa-öbölben megtámadott szupertankerről származó szaúdi olajat – Reuters",
      "url": "https://www.investing.com/news/commodities-news/uae-selling-saudi-oil-from-supertanker-attacked-in-gulf-5014949",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T14:45:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "BLS · Investing.com",
+     "summary": "A BLS szerint az októberi CPI havi 0,4%-kal emelkedett (szeptemberben 0,6%), a maginfláció 0,3% volt, harmadik hónapja. A konszenzus 0,3%, illetve 0,2% volt. A benzin 1,0%-kal drágult, a lakhatás 0,3%-kal. Az éves ráta nem jelent meg a tavalyi leállás miatti adathiány miatt. A határidős indexek az adat után esést mutattak.",
+     "symbols": [
+      "VOO",
+      "QQQ"
+     ],
+     "title": "Az amerikai fogyasztói árak októberben 0,4%-kal nőttek, a maginfláció 0,3% – mindkettő a vártnál magasabb",
+     "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T14:45:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A BeInCrypto cikke szerint a BofA a Jensen Huang körüli botrány első napjaiban kivette az Nvidiát, a Micront és a Lam Researchöt elit US 1 részvénylistájából. Külön megerősítést nem találtunk; a BofA korábbi jegyzései még az Nvidiát tartották kedvencnek.",
+     "symbols": [
+      "NVDA",
+      "MU"
+     ],
+     "title": "A BeInCrypto szerint a Bank of America levette az Nvidiát, a Micront és a Lam Researchöt az „US 1\" listájáról",
+     "url": "https://beincrypto.com/bank-of-america-drops-nvidia-list/?.tsrc=rss",
+     "verified": false
     }
    ],
    "markets": [
@@ -690,7 +720,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T12:45:00Z",
+   "updatedAt": "2026-11-10T14:45:00Z",
    "watchlist": []
   },
   {
@@ -13150,17 +13180,18 @@
    "id": "2026-11-09-cn-cpi"
   },
   {
-   "actual": "",
+   "actual": "havi +0,4% / mag +0,3%",
    "country": "US",
    "date": "2026-11-10",
    "event": "Fogyasztói árindex (CPI), október",
-   "forecast": "",
+   "forecast": "havi +0,3% / mag +0,2%",
    "importance": 3,
-   "previous": "",
-   "source": "fedratecalc.com",
+   "note": "Éves ráta nem jelent meg (adathiány a tavalyi leállás miatt). Várakozás: FXStreet/Fox Business; adat: BLS.",
+   "previous": "havi +0,6%",
+   "source": "BLS",
    "time": "14:30",
    "type": "Makroadat",
-   "url": "https://fedratecalc.com/cpi-release-date/",
+   "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
    "id": "2026-11-10-us-cpi"
   },
   {
