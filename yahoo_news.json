@@ -1,13 +1,54 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-10T04:54:03Z",
+ "updatedAt": "2026-11-10T05:54:38Z",
  "items": [
   {
-   "title": "SPCX Stock Logs 2-Day Winning Streak: Barclays Calls T-Mobile 'Cleanest' Fit For Potential SpaceX Buyout",
-   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-barclays-tmobile-cleanest-fit-for-potential-spacex-buyout/cNGudG2R97L?.tsrc=rss",
-   "published": "2026-11-10T04:26:05Z",
+   "title": "Asian airline stocks surge as oil prices slide on Iran peace hopes",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-airline-stocks-surge-oil-053231788.html",
+   "published": "2026-11-10T05:32:31Z",
    "publisher": "",
-   "summary": "Barclays viewed Verizon as a wild card and AT&T as the weakest strategic fit.",
+   "summary": "Investing.com -- Asian airline stocks rallied on Tuesday as a sharp decline in oil prices eased concerns over fuel costs, boosting sentiment towards carriers across the region after months of pressure from elevated energy prices.",
+   "symbols": []
+  },
+  {
+   "title": "Warren Buffett's Instructions for His Wife's Inheritance Are 90% Stocks and 10% Bonds. Here's How That Mix Has Done Since 2000.",
+   "link": "https://www.fool.com/investing/2026/11/10/warren-buffett-s-instructions-for-his-wife-s-inheritance-are-90-stocks-and-10-bonds-here-s-how-that-mix-has-done-since-2000/?.tsrc=rss",
+   "published": "2026-11-10T05:31:02Z",
+   "publisher": "",
+   "summary": "The bond piece cost around $92,000 on a $100,000 stake since 2000. Was it worth it when stocks crashed?",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Fed Hike Odds Hit 84% After Bitcoin ETFs Lose $1.28 Billion",
+   "link": "https://beincrypto.com/fed-hike-odds-bitcoin-etf-outflows/?.tsrc=rss",
+   "published": "2026-11-10T05:29:07Z",
+   "publisher": "",
+   "summary": "Fed hike odds reach 84% for December while Bitcoin ETFs shed $1.28 billion. See what a hawkish Fed could mean for BTC.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "3 Growth Stocks To Watch With Up To 58% Earnings Growth",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-watch-58-052025265.html",
+   "published": "2026-11-10T05:20:25Z",
+   "publisher": "",
+   "summary": "China plans to pour an estimated US$940b into low carbon energy and grid upgrades in 2026, which keeps global demand for cleaner power, electrification and supporting technologies firmly in the spotlight. That kind of spending highlights businesses with potential to grow earnings and maintain balance sheets that can handle the ride. This article explores three such high potential stocks from our q",
    "symbols": [
     "SPCX",
     "BE",
@@ -15,6 +56,62 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "GRNT Q3 2026 deep dive: production growth and portfolio strategy drive margin expansion",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/grnt-q3-2026-deep-dive-051736590.html",
+   "published": "2026-11-10T05:17:36Z",
+   "publisher": "",
+   "summary": "Oil and gas company Granite Ridge Resources (NYSE:GRNT) reported Q3 2026 results topping the market’s revenue expectations, with sales up 57.3% year on year to $177.2 million. Its non-GAAP profit of $0.17 per share was 38.8% above analysts’ consensus estimates.",
+   "symbols": []
+  },
+  {
+   "title": "Asia FX subdued, dollar holds losses ahead of U.S. inflation data",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-subdued-dollar-holds-045127127.html",
+   "published": "2026-11-10T04:51:27Z",
+   "publisher": "",
+   "summary": "Investing.com-- Asian currencies edged lower on Tuesday after strong gains in the previous session, while the dollar held on to overnight losses as investors awaited U.S. inflation data that could influence expectations for the Federal Reserve's interest rate path.",
+   "symbols": []
+  },
+  {
+   "title": "Goldman CEO Solomon Defends US Data Center Buildout After Democratic Midterm Wins",
+   "link": "https://beincrypto.com/goldman-solomon-us-data-center-buildout/?.tsrc=rss",
+   "published": "2026-11-10T04:33:00Z",
+   "publisher": "",
+   "summary": "Goldman Sachs CEO David Solomon warns that blocking the US data center buildout would push AI capacity overseas.",
+   "symbols": []
+  },
+  {
+   "title": "Jim Cramer Names the One Deal AI Stocks Can’t Recover Without",
+   "link": "https://beincrypto.com/jim-cramer-ai-stocks-anthropic-ipo/?.tsrc=rss",
+   "published": "2026-11-10T04:32:45Z",
+   "publisher": "",
+   "summary": "Jim Cramer says AI stocks need Anthropic's IPO to recover, but a retracted price range just rattled its Hyperliquid contract.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "SPCX Stock Logs 2-Day Winning Streak: Barclays Calls T-Mobile 'Cleanest' Fit For Potential SpaceX Buyout",
+   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-barclays-tmobile-cleanest-fit-for-potential-spacex-buyout/cNGudG2R97L?.tsrc=rss",
+   "published": "2026-11-10T04:26:05Z",
+   "publisher": "",
+   "summary": "Barclays viewed Verizon as a wild card and AT&T as the weakest strategic fit.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -43,12 +140,46 @@
    "symbols": []
   },
   {
+   "title": "MARA Sold 13,597 Bitcoin After Q3, and It Isn't Done Selling",
+   "link": "https://beincrypto.com/mara-sells-13597-bitcoin-after-q3/?.tsrc=rss",
+   "published": "2026-11-10T03:33:13Z",
+   "publisher": "",
+   "summary": "MARA sold 13,597 Bitcoin after Q3 to repay loans and plans more sales for AI infrastructure, convertible notes, and buybacks.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
    "title": "The Stock Market Just Had Its Best Day Since April. Here’s What History Says a 62-Year-Old Retiree With $1,300,000 in Cash Should Do Now",
    "link": "https://247wallst.com/investing/2026/11/09/the-stock-market-just-had-its-best-day-since-april-heres-what-history-says-a-62-year-old-retiree-with-1300000-in-cash-should-do-now/?.tsrc=rss",
    "published": "2026-11-10T03:32:36Z",
    "publisher": "",
    "summary": "Stocks just had their best day since April, and the S&P 500 fund got back 85% of last week's loss in one session. Since 1999, 14 corrections have had a bounce like it: 9 gave it all back within a month, and 8 of 13 were higher a year later. Here is what that record says for a 62-year-old with $1,300,000 sitting in cash after a rollover.",
    "symbols": []
+  },
+  {
+   "title": "Altcoin Speculation Peaked With Bitcoin Near $87,000, but Recent Buyers Now Sell at Losses",
+   "link": "https://beincrypto.com/altcoin-speculation-peaked-recent-buyers-losses/?.tsrc=rss",
+   "published": "2026-11-10T03:30:27Z",
+   "publisher": "",
+   "summary": "Altcoin speculation peaked near Bitcoin's $87,100 high, and short-term holders sell most tokens at a loss, Glassnode says.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
   },
   {
    "title": "Peter Schiff Calls Dogecoin, Other Memecoins a 'Litmus Test' for Popularity, but Questions Future Demand: 'People Might Want to Wear It on Their Back'",
@@ -60,11 +191,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -632,6 +763,22 @@
    ]
   },
   {
+   "title": "Founders Bootcamp: Boards, Banking and Risk Management, 6th Palm Beach CorpGov Forum",
+   "link": "https://finance.yahoo.com/small-business/articles/founders-bootcamp-boards-banking-risk-230651823.html",
+   "published": "2026-11-09T23:06:51Z",
+   "publisher": "",
+   "summary": "CorpGov hosted the sixth annual Palm Beach CorpGov Forum on Nov. 4-5, 2026, at the Palm Beach Lake Pavilion and The Cove Club, both located waterfront with sweeping views of Palm Beach Island, along with a reception at Cucina Palm Beach. The Forum featured a VC-focused opening keynote panel on Wednesday evening, “Founders Bootcamp: Boards, Banking […] The post Founders Bootcamp: Boards, Banking an",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
    "title": "Barrick Mining Corp (B) (Q3 2026) Earnings Call Highlights: Strong Earnings Growth, $3. ...",
    "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-mining-corp-b-q3-230453251.html",
    "published": "2026-11-09T23:04:53Z",
@@ -1020,12 +1167,12 @@
    "publisher": "",
    "summary": "NASA over the weekend awarded major contracts to SpaceX, Blue Origin, Lockheed Martin and more for its Moon Base efforts. Space stocks surged.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2862,171 +3009,6 @@
     "QQQ",
     "XDW0"
    ]
-  },
-  {
-   "title": "JPMorgan Just Added Meta Platforms to Its Analyst Focus List",
-   "link": "https://247wallst.com/investing/2026/11/09/jpmorgan-just-added-meta-platforms-to-its-analyst-focus-list/?.tsrc=rss",
-   "published": "2026-11-09T16:38:41Z",
-   "publisher": "",
-   "summary": "Meta's stock had slid for a month when JPMorgan quietly handed it a coveted spot, with no rating and no price target attached. What did the bank see in the ad numbers, and what risks still hide behind the AI spending spree?",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Taiwan Semiconductor Wants to Enter Into Advanced Memory Production",
-   "link": "https://247wallst.com/investing/2026/11/09/taiwan-semiconductor-wants-to-enter-into-advanced-memory-production/?.tsrc=rss",
-   "published": "2026-11-09T16:35:06Z",
-   "publisher": "",
-   "summary": "NVIDIA reportedly asked its biggest chip supplier to build something it has never made, and TSMC's public answer may not match what's happening behind closed doors. The stakes: the most profitable corner of the AI supply chain.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Eli Lilly May Have Just Found a New $23 Billion Market for Its GLP-1 Pill",
-   "link": "https://247wallst.com/investing/2026/11/09/eli-lilly-may-have-just-found-a-new-23-billion-market-for-its-glp-1-pill/?.tsrc=rss",
-   "published": "2026-11-09T16:32:54Z",
-   "publisher": "",
-   "summary": "Eli Lilly (NYSE:LLY) just gave its newest drug a second act. Foundayo, which CEO David Ricks calls “the only approved GLP-1 pill that can be taken any time of day, without food and water restrictions,” significantly improved obstructive sleep apnea severity in the Phase 3 ATTAIN-OSA trial, with a U.S. FDA submission planned by the […]",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Cathie Wood Just Bought $96 Million of This Beaten-Down Space Stock",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-bought-96-162609123.html",
-   "published": "2026-11-09T16:26:09Z",
-   "publisher": "",
-   "summary": "ARK Invest Snaps Up $96 Million in SpaceX as the Commercial Space Race Heats Up",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Strategy Makes Biggest Bitcoin Purchase Since September, While Bitmine, Strive Slow Down",
-   "link": "https://stocktwits.com/news-articles/markets/equity/strategy-makes-biggest-bitcoin-purchase-since-september-bitmine-strive-slow-down/cNGrL6UR972?.tsrc=rss",
-   "published": "2026-11-09T16:23:19Z",
-   "publisher": "",
-   "summary": "Strategy bought 1,036 Bitcoin over the past week, marking its second consecutive week of buying.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Anthropic IPO targets November debut as valuation expectations fall",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-targets-november-debut-162209958.html",
-   "published": "2026-11-09T16:22:09Z",
-   "publisher": "",
-   "summary": "Investing.com -- Anthropic may begin formally marketing its IPO as early as Tuesday, Nov 10, 2026, testing whether the largest AI listing yet can clear a market that was rattled last week.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Sharplink’s Q3 Profit Jumps to $751 Million on Unrealized Ethereum Gains",
-   "link": "https://www.cryptoprowl.com/releases/sharplinks-q3-profit-jumps-to-751-million-on-unrealized-ethereum-gains-7781?.tsrc=rss",
-   "published": "2026-11-09T16:20:00Z",
-   "publisher": "",
-   "summary": "Ethereum treasury company Sharplink (NASDAQ: $SBET), one of the largest publicly traded corporate holders of Ethere...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "B Stock Breaks Crucial Resistance For First Time Since September – CEO Says Barrick On Track To Meet FY26 Production Guidance",
-   "link": "https://stocktwits.com/news-articles/markets/equity/b-stock-breaks-crucial-resistance-for-first-time-since-september-ceo-says-barrick-on-track-to-meet-fy-26-production-guidance/cNGrLvCR97c?.tsrc=rss",
-   "published": "2026-11-09T16:18:26Z",
-   "publisher": "",
-   "summary": "Barrick reiterated its FY 2026 gold production forecast of 2.90 million to 3.25 million ounces.",
-   "symbols": []
-  },
-  {
-   "title": "Why Micron Stock Fell 17% Last Month",
-   "link": "https://www.fool.com/investing/2026/11/09/why-micron-stock-fell-17-last-month/?.tsrc=rss",
-   "published": "2026-11-09T16:16:06Z",
-   "publisher": "",
-   "summary": "Investors started panicking about the AI trade in October.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Why Palantir Stock Popped Today",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-stock-popped-today-161553360.html",
-   "published": "2026-11-09T16:15:53Z",
-   "publisher": "",
-   "summary": "Palantir Stock Rebounds as AI Fears Fade and Revenue Beats Estimates",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Hedge funds cut tech exposure at near-record pace as Nasdaq drops 6.4%",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-cut-tech-exposure-161540678.html",
-   "published": "2026-11-09T16:15:40Z",
-   "publisher": "",
-   "summary": "Investing.com -- Hedge funds ran for the exits last week, and then the market bounced anyway. Tech was by far the most heavily net-sold sector, both globally and in the US, at a pace that roughly matched the record in Goldman Sachs prime brokerage data going back to 2016.",
-   "symbols": []
   }
  ]
 }
