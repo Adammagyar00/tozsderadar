@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T08:56:37Z",
+ "builtAt": "2026-11-10T09:55:57Z",
  "digests": [
   {
    "calendar": [
@@ -418,6 +418,56 @@
      "title": "A Watches of Switzerland emelte kilátásának alsó sávját az erős amerikai és brit kereslet miatt",
      "url": "https://www.investing.com/news/stock-market-news/watches-of-switzerland-lifts-outlook-floor-as-us-uk-demand-stays-strong-5014314",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T09:45:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · OilPrice.com",
+     "summary": "Trump szerint új iráni csapás valószínűtlen, amíg a tárgyalások tartanak. A Brent hétfőn mintegy 5%-ot esett 93 dollár környékére, kedden tovább gyengült, 91 dollár körülire; az előző héten kb. 16%-ot zuhant. Elemzők szerint a mozgást a békeremények hajtják, kézzelfogható előrelépés nélkül.",
+     "symbols": [],
+     "title": "Az olaj ára 92 dollár alá zuhant, miután Trump visszafogottságot jelzett Iránnal szemben",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-plunge-below-92-052000701.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T09:45:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters; FXStreet",
+     "summary": "Az EKB főközgazdásza szerint az energiaár-sokk átterjed a gazdaság más területeire, és a politikának ezt kell féken tartania. Az FXStreet beszámolója szerint az infláció év végére 4% fölé emelkedhet. A decemberi döntésről az EKB a beérkező adatok alapján határoz.",
+     "symbols": [],
+     "title": "Lane (EKB): decemberben okos lehet a kamatemelés, ha az adatok nem változnak",
+     "url": "https://www.investing.com/news/economy-news/ecb-may-need-to-hike-in-dec-chief-economist-says-5014403",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T09:45:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A STOXX 600 kedd reggel kb. 0,9%-ot emelkedett 662,5 pontra, az augusztusi rekordtól 1%-on belül. Az olajárzuhanás a légitársaságokat lendítette, az energiacégeket húzta lefelé. A piac az amerikai CPI-re vár.",
+     "symbols": [],
+     "title": "Az európai tőzsdék a csúcsok közelében, ahogy az olajár esése enyhíti az inflációs aggodalmakat",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/european-shares-inch-toward-record-084912749.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T09:45:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Crypto.news, SoSoValue",
+     "summary": "A bitcoin kedden kb. 74 700 dollár körül forog, a közelmúlt mélypontja 73 700 dollár volt (augusztus óta a legalacsonyabb). A spot ETF-ek hétfőn mintegy 201 millió dollár nettó kiáramlást szenvedtek el, a heti kiáramlás kb. 1,28 milliárd dollár.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin 75 ezer dollár alatt ragadt az ETF-kiáramlások és a szabályozási bizonytalanság miatt",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-pinned-below-75k-regulatory-063403850.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -444,7 +494,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T08:45:00Z",
+   "updatedAt": "2026-11-10T09:45:00Z",
    "watchlist": []
   },
   {
