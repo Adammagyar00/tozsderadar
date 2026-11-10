@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T06:57:13Z",
+ "builtAt": "2026-11-10T07:56:45Z",
  "digests": [
   {
    "calendar": [
@@ -322,6 +322,30 @@
      "title": "Megbukott a kaliforniai milliárdosadó-javaslat a szavazáson",
      "url": "https://www.investing.com/news/stock-market-news/billionaire-tax-measure-on-california-ballot-defeated-5014025",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T07:50:00Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Privátbankár · Pénzcentrum (KSH-adat)",
+     "summary": "A KSH adatai szerint az októberi fogyasztói árak évesen 2,0%-kal, szeptemberhez képest 0,4%-kal nőttek. A Világgazdaság által megkérdezett elemzők 1,9%-ot vártak szeptemberi 1,6% után. Az élelmiszerek éves szinten 1,1%-kal olcsóbbak, a szolgáltatások 5,2%-kal, a járműüzemanyagok 11,3%-kal drágábbak.",
+     "symbols": [
+      "HUF"
+     ],
+     "title": "Októberben 2,0%-ra gyorsult a magyar infláció, kissé a várakozás felett",
+     "url": "https://www.penzcentrum.hu/gazdasag/20261110/olcsobb-lett-a-bevasarlas-de-ne-oruljunk-tul-koran-van-ami-brutalisan-megdragult-1208758",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-10T07:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "MarketScreener · Bloomberg",
+     "summary": "Értesülések szerint a Crédit Agricole javaslatot tett olasz leányvállalata és a Banco BPM egyesítésére, ami Olaszország harmadik legnagyobb bankcsoportját hozná létre. A hírre a Banco BPM 9,4%-ot, a UniCredit 4,5%-ot emelkedett hétfőn. A javaslat részletei és a bankok hivatalos álláspontja még nem teljesen tisztázott.",
+     "symbols": [],
+     "title": "Banco BPM +9,4%, UniCredit +4,5%: a Crédit Agricole olasz egységével való egyesülést javasolt a Banco BPM-nek",
+     "url": "https://www.marketscreener.com/news/banco-bpm-shares-jump-after-credit-agricole-s-italian-business-tie-up-proposal-ce785fd3dd88fe24",
+     "verified": false
     }
    ],
    "markets": [
@@ -348,7 +372,7 @@
     }
    ],
    "summary": "A Dow hétfőn több mint 1100 ponttal emelkedett, az olajár visszaesett az iráni enyhülési remények miatt, az ázsiai tőzsdék kedden is emelkedtek. Az Nvidia részvénye esett, miután Trump szerint az FBI vizsgálja a vezérigazgatót. Kína kereskedelmi többlete a Reuters szerint meghaladta az 1000 milliárd dollárt. Ma érkezik az amerikai októberi infláció és a magyar KSH-infláció, a piac a decemberi Fed-emelés esélyét 84% körül árazza.",
-   "updatedAt": "2026-11-10T06:55:00Z",
+   "updatedAt": "2026-11-10T07:50:00Z",
    "watchlist": []
   },
   {
@@ -12822,12 +12846,13 @@
    "id": "2026-11-10-us-cpi"
   },
   {
-   "actual": "",
+   "actual": "2,0%",
    "country": "HU",
    "date": "2026-11-10",
    "event": "Infláció, október (KSH, éves)",
-   "forecast": "",
+   "forecast": "1,9%",
    "importance": 3,
+   "note": "Várakozás: Világgazdaság elemzői felmérése; adat: Privátbankár, Pénzcentrum (havi +0,4%)",
    "previous": "1,6%",
    "source": "KSH",
    "time": "",
