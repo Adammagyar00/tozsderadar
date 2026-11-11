@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T17:56:45Z",
+ "builtAt": "2026-11-11T19:00:23Z",
  "digests": [
   {
    "calendar": [
@@ -1785,6 +1785,39 @@
      "title": "4%-ot emelkedett a Delek US, miután a Freedom Broker vételre javította",
      "url": "https://finance.yahoo.com/markets/stocks/articles/delek-us-rises-freedom-broker-151459648.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T18:40:32Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "CNBC · AP",
+     "summary": "Austan Goolsbee, a chicagói Fed elnöke „határeset-zavarónak” nevezte a vártnál magasabb októberi fogyasztói árindexet, de nem mondta meg, támogatja-e a decemberi kamatemelést. Az AP összefoglalója szerint az infláció szélesedése miatt több Fed-döntéshozó a gyorsabb kamatemelés lehetőségét is mérlegeli; a CME FedWatch alapján a piac teljes egészében decemberi emelést áraz.",
+     "symbols": [],
+     "title": "Goolsbee (Fed): „határeset-zavaró” az októberi inflációs adat, több Fed-vezető gyorsabb emelést mérlegel",
+     "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T18:40:32Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "Investing.com · Reuters (MarketScreener) · investingLive",
+     "summary": "Az európai részvénypiacok szerdán emelkedéssel zártak: a STOXX 600 mintegy 0,7%-kal, rekordszinten (kb. 663 pont) fejezte be a napot, a német DAX 1,1%-ot erősödött. Az emelkedést a Siemens Energy és a CoreWeave kedvező kilátásai, valamint az amerikai AI-kereslettel kapcsolatos megkönnyebbülés támogatta.",
+     "symbols": [],
+     "title": "Rekordon zárt a STOXX 600, a DAX 1,1%-ot emelkedett",
+     "url": "https://ng.investing.com/news/stock-market-news/european-shares-near-record-high-as-earnings-absorb-tech-volatility-2799330",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T18:40:32Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "source": "Yahoo Finance (The Daily Wolf, Scott Melker) · CoinDesk",
+     "summary": "Scott Melker Yahoo Finance-en sugárzott kriptoműsora szerint az OKX és a NYSE-anyavállalat ICE közös vállalata, az OKXICE november 23-án indíthatja tokenizált értékpapír-platformját egy javasolt SEC-mentesség alapján, értesülések szerint mintegy 70 eszközzel (köztük Coinbase, Circle, Robinhood). A CoinDesk szerint a platform ebben a hónapban indul; a pontos dátumot hivatalos közlemény nem erősítette meg.",
+     "symbols": [],
+     "title": "Értesülések szerint november 23-án indulhat az OKX és az ICE tokenizált értékpapír-kereskedési platformja",
+     "url": "https://finance.yahoo.com/video/okxice-targets-nov-23-launch-170000508.html",
+     "verified": false
     }
    ],
    "markets": [
@@ -1811,7 +1844,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T18:05:00Z",
+   "updatedAt": "2026-11-11T18:40:32Z",
    "watchlist": []
   },
   {
