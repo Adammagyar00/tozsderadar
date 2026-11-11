@@ -1,7 +1,89 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-11T04:59:11Z",
+ "updatedAt": "2026-11-11T05:59:15Z",
  "items": [
+  {
+   "title": "Bitcoin Chatter Flips Back to Bearish. Here’s What Price Did Last Time",
+   "link": "https://beincrypto.com/bitcoin-sentiment-turns-bearish-again/?.tsrc=rss",
+   "published": "2026-11-11T05:23:16Z",
+   "publisher": "",
+   "summary": "Bitcoin, Ethereum and XRP sentiment turned bearish again. The last time it did, a quick Bitcoin rally faded within days.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Tech Sell-Off: 3 Stocks Most Vulnerable and 3 Built to Hold Up",
+   "link": "https://www.fool.com/investing/2026/11/11/tech-sell-off-3-stocks-most-vulnerable-and-3-built/?.tsrc=rss",
+   "published": "2026-11-11T05:20:00Z",
+   "publisher": "",
+   "summary": "The line between the stocks in trouble and the ones holding up may come down to one question: Who is paying for the data centers?",
+   "symbols": []
+  },
+  {
+   "title": "What Equinox Gold (EQX) Said on Its Q3 Earnings Call",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-equinox-gold-eqx-said-on-its-q3-earnings-call-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-11-11T05:14:26Z",
+   "publisher": "",
+   "summary": "Equinox Gold (NYSEAMERICAN:EQX) expects to produce gold at the low end of its 2026 guidance range after reporting third-quarter output of 237,000 ounces, as ramp-up challenges at two Canadian mines and a pit instability at Mesquite weigh on the outlook. The quarter included two months of production",
+   "symbols": []
+  },
+  {
+   "title": "What Transdigm Group (TDG) Said on Its Q4 Earnings Call",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-transdigm-group-tdg-said-on-its-q4-earnings-call-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+   "published": "2026-11-11T05:14:24Z",
+   "publisher": "",
+   "summary": "Transdigm Group (NYSE:TDG) expects revenue to grow about 14% in fiscal 2027, as the aerospace parts supplier bets on continued commercial aircraft production increases, aftermarket demand and a strong defense backlog. The company’s revenue guidance midpoint of $12.05 billion follows a fiscal 2026 i",
+   "symbols": []
+  },
+  {
+   "title": "NextNav Inc (NN) (Q3 2026) Earnings Call Highlights: $290 Million Cash Pile, 5G PNT Field ...",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/nextnav-inc-nn-q3-2026-050720029.html",
+   "published": "2026-11-11T05:07:20Z",
+   "publisher": "",
+   "summary": "NextNav Inc (NN) enters Q4 2026 debt-free with strong liquidity and promising 5G positioning results, but its commercial future hinges on an FCC rulemaking stuck in interagency review.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Fold Holdings Inc (FLD) (Q3 2026) Earnings Call Highlights: Bitcoin Gift Card Momentum and ...",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/fold-holdings-inc-fld-q3-050706987.html",
+   "published": "2026-11-11T05:07:06Z",
+   "publisher": "",
+   "summary": "Fold Holdings Inc (FLD) posted a 44% revenue drop to $4.2 million but saw custody and trading revenue nearly quadruple, driven by its TikTok-partnered Bitcoin gift card and new deposit products.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Small cap Snapshot: Anteris expands trial, PilbaraGold expands mineralsiation and more...",
+   "link": "https://finance.yahoo.com/video/small-cap-snapshot-anteris-expands-045155361.html",
+   "published": "2026-11-11T04:51:55Z",
+   "publisher": "",
+   "summary": "Here’s a look at some of the small-cap companies in the news this Wednesday. Anteris Technologies has expanded its pivotal PARADIGM Trial across active sites in the United States, Canada and Europe, while also securing regulatory clearance in Germany and advancing activities in Australia. The company has also moved into a new Minnesota facility to support increased production of its transcatheter ",
+   "symbols": []
+  },
   {
    "title": "Eneos raises FY profit forecast by ~50% on stronger oil markets",
    "link": "https://finance.yahoo.com/energy/articles/eneos-raises-fy-profit-forecast-044636723.html",
@@ -28,11 +110,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -42,12 +124,12 @@
    "publisher": "",
    "summary": "SpaceX says Rocket Lab’s $8 billion Iridium takeover could give its spectrum rival more power to obstruct competitors.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -99,12 +181,12 @@
    "publisher": "",
    "summary": "A Deutsche Bank analyst says SpaceX’s least flashy business is about to become its biggest. The fine print is worth a look.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2875,114 +2957,6 @@
     "MU",
     "ONDO",
     "XRP"
-   ]
-  },
-  {
-   "title": "Hive posts $84.9 million fiscal Q2 2027 revenue with AI cloud sales up 70%",
-   "link": "https://www.thestreet.com/crypto/markets/hive-posts-84-9-million-fiscal-q2-2027-revenue-with-ai-cloud-sales-up-70?.tsrc=rss",
-   "published": "2026-11-10T16:21:05Z",
-   "publisher": "",
-   "summary": "Hive’s AI cloud business grows quickly while Bitcoin mining keeps revenue steady through a weaker market for the coin.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "GE Vernova, Vertiv, and Bloom Energy Just Lost 10% to 24% in a Week. Here's What Set Off the AI Power Sell-off.",
-   "link": "https://www.fool.com/investing/2026/11/10/ge-vernova-vertiv-and-bloom-energy-just-lost-10-to/?.tsrc=rss",
-   "published": "2026-11-10T16:20:00Z",
-   "publisher": "",
-   "summary": "GE Vernova, Vertiv, and Bloom Energy slid on inflation and AI financing worries, yet each posted strong third-quarter results. See how they compare.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "NX Energy SPV LLC Issues Statement Regarding NextNRG, Inc.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nx-energy-spv-llc-issues-161700021.html",
-   "published": "2026-11-10T16:17:00Z",
-   "publisher": "",
-   "summary": "NX Energy SPV LLC (the \"Investor\"), an investor in NextNRG, Inc. (\"NextNRG\" or the \"Company\"), today issued the following statement regarding recent developments involving the Company.",
-   "symbols": []
-  },
-  {
-   "title": "What eToro Group (ETOR) Said on Its Q3 Earnings Call",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-etoro-group-etor-said-on-its-q3-earnings-call-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-11-10T16:15:29Z",
-   "publisher": "",
-   "summary": "eToro Group (NASDAQ:ETOR) reported lower third-quarter 2026 net contribution and adjusted earnings as softer trading activity, particularly in crypto, weighed on results despite growth in funded accounts and capital markets revenue. Net contribution fell 13% from a year earlier to $186 million, whi",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Canaan Q3 Earnings Call Highlights",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-canaan-q3-earnings-call-highlights-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-11-10T16:15:25Z",
-   "publisher": "",
-   "summary": "Canaan (NASDAQ:CAN) reported third-quarter 2026 net income of $8 million, driven primarily by gains on digital assets, as the Bitcoin mining equipment maker outlined plans to shift more of its focus toward energy and artificial intelligence computing infrastructure. Revenue was $14.5 million, withi",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What Bitdeer Technologies Group (BTDR) Said on Its Q3 Earnings Call",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-bitdeer-technologies-group-btdr-said-on-its-q3-earnings-call-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-11-10T16:15:24Z",
-   "publisher": "",
-   "summary": "Bitdeer Technologies Group (NASDAQ:BTDR) reported record third-quarter revenue as Bitcoin production and co-mining expanded, while management outlined plans to finance a growing pipeline of artificial intelligence infrastructure projects. Revenue rose 89% year over year to $320.7 million, and adjus",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Vanguard Inks $4B of Private Debt for Altruist Deal",
-   "link": "https://www.wealthmanagement.com/financial-technology/vanguard-inks-4-billion-of-private-debt-for-altruist-deal?.tsrc=rss",
-   "published": "2026-11-10T16:11:25Z",
-   "publisher": "",
-   "summary": "Vanguard announced plans to acquire Altruist in August.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
    ]
   }
  ]
