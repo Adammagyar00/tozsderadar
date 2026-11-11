@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T09:57:49Z",
+ "builtAt": "2026-11-11T10:55:54Z",
  "digests": [
   {
    "calendar": [
@@ -1080,6 +1080,182 @@
      "title": "Mesterséges intelligenciával választja ki az ellenőrizendő cégeket a NAV",
      "url": "https://www.portfolio.hu/gazdasag/20261111/lepett-az-adohatosag-a-mesterseges-intelligencia-valasztja-ki-melyik-cegnel-tartanak-ellenorzest-magyarorszagon-875650",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Coinspeaker",
+     "summary": "A keddi, vártnál magasabb amerikai inflációs adattal indult eladási hullám szerdán is folytatódik, szinte minden nagy kriptoeszköz esik. A bitcoin kedden 73 000 dollár alá, egészen 72 727 dollárig süllyedt; a nagyobb tokenek közül a Zcash (ZEC) teljesít a leggyengébben. Egy másik kriptós oldal szerint a CPI után több mint 720 millió dollárnyi, túlnyomórészt long pozíciót likvidáltak.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Tovább tart a kriptopiaci eladási hullám: a bitcoin 73 000 dollár alá esett, a Zcash veszít a legtöbbet",
+     "url": "https://www.coinspeaker.com/why-is-crypto-crashing-today-bitcoin-falls-below-73k-as-zcash-zec-leads-crypto-losses/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Stocktwits beszámolója szerint a Tom Lee vezette Bitmine Immersion az ether árfolyamesése miatt milliárdos papíron lévő veszteséget könyvel, ennek ellenére folytatja az ETH-vásárlást. A cikk szerint a cég eddig 395,1 millió részvényt adott el összesen 13,2 milliárd dollárért, és 20,8 millió saját részvényt vásárolt vissza 17 dolláros áron.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "Tom Lee ether-tétje papíron milliárdokba kerül a Bitmine-nak, de a cég tovább vásárol",
+     "url": "https://stocktwits.com/news-articles/markets/equity/tom-lee-s-ethereum-bet-is-costing-bitmine-billions-on-paper-and-he-s-still-buying/cNGDkxfR9Be?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "Nyitás előtt emelkednek az amerikai határidős indexek, a befektetők figyelme a CoreWeave, a GoPro, a SpaceX (SPCX), az Nvidia és a Netlist részvényeire irányul. Az olajár kéthavi mélypontjáról emelkedett, mert a Hormuzi-szoros környéki hajótámadások ébren tartják a kínálati aggodalmakat.",
+     "symbols": [
+      "VOO",
+      "QQQ",
+      "SPCX"
+     ],
+     "title": "Emelkednek az S&P 500 és a Nasdaq határidős indexei nyitás előtt; a SpaceX is a figyelem középpontjában",
+     "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-crwv-gpro-spcx-nvda-nlst-stocks-in-focus/cNGDlb9R9B7?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A BlackRock bitcoin-ETF-je (IBIT) jelentős beáramlásokról számol be, mert a nagy tulajdonosok a saját tárcáikban őrzött coinjaikat biztonsági okokból az alapba helyezik át. Ügyfélbeszámolók szerint emberrablási és őrzési kockázatok miatt döntenek így; a cikk a BlackRock MI- és kanadai terjeszkedését is említi. Megjegyzendő, hogy az ilyen cserék nem jelentenek új pénzt a piacon.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A BlackRock bitcoin-ETF-jébe áramlanak a coinok: a nagy tulajdonosok biztonsági okokból adják át bitcoinjukat",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/blackrock-blk-draws-bitcoin-inflows-101056473.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Szerdán meredeken emelkedtek az európai nagykereskedelmi földgázárak, megtörve a legutóbbi csökkenő trendet, összhangban a globális energiapiacok széles körű visszapattanásával. Az ok a közel-keleti kereskedelmi hajózás elleni újabb támadások, amelyek felélesztették a fizikai ellátással kapcsolatos aggodalmakat.",
+     "symbols": [],
+     "title": "Visszapattant az európai gázár a hormuzi hajózási kockázatok miatt",
+     "url": "https://finance.yahoo.com/energy/articles/european-gas-rebounds-strait-hormuz-101044228.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Offshore Technology",
+     "summary": "A lengyel Orlen felbontotta a QatarEnergyvel kötött egyik LNG-szállítási szerződését, miután a katari fél vis maiort jelentett be. A felmondott, olajárhoz kötött szerződés évi egymillió tonnáról szól, egy másik, gázárhoz kötött megállapodás 2034-ig érvényben marad.",
+     "symbols": [],
+     "title": "Az Orlen felmondta egyik LNG-szerződését a QatarEnergyvel a vis maior után",
+     "url": "https://www.offshore-technology.com/news/orlen-terminates-qatarenergy-lng-deal/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A brit versenyhatóság (CMA) versenyjogi aggályokat jelzett az AkzoNobel és az Axalta tervezett, mintegy 25 milliárd dolláros festék- és bevonatgyártó egyesülésével kapcsolatban. A hatóság első fázisú döntésének határideje november 11. volt; az EU korábban feltételekkel jóváhagyta az ügyletet.",
+     "symbols": [],
+     "title": "A brit versenyhatóság versenyaggályokat lát az AkzoNobel–Axalta egyesülésben",
+     "url": "https://www.investing.com/news/stock-market-news/uk-watchdog-flags-competition-concerns-in-akzonobelaxalta-deal-93CH-5018152",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A német konténeres hajózási társaság, a Hapag-Lloyd az erős fuvardíjakra hivatkozva idén már harmadszor emelte az éves eredmény-előrejelzését.",
+     "symbols": [],
+     "title": "A Hapag-Lloyd idén harmadszor emelte előrejelzését az erős fuvardíjak miatt",
+     "url": "https://www.investing.com/news/stock-market-news/hapaglloyd-raises-outlook-for-third-time-on-strong-freight-rates-5018157",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A német szövetségi versenyhatóság (Bundeskartellamt) szerint a PayPal kereskedőkre vonatkozó díjszabályai korlátozhatják a versenyt. Az eljárás arra irányul, hogy a szabályok nem engedik a kereskedőknek a fizetési módok költségkülönbségeit felárral vagy kedvezménnyel érvényesíteni.",
+     "symbols": [],
+     "title": "Német versenyhatóság: a PayPal kereskedői díjszabályai korlátozhatják a versenyt",
+     "url": "https://www.investing.com/news/stock-market-news/german-antitrust-authority-says-paypal-practices-may-restrict-competition-5018170",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Mercedes-Benz vezérigazgatója szerint a kínai autópiac visszaesése rosszabb a vártnál. A cég október végén már a kínai gyengeségre hivatkozva csökkentette autós üzletága idei árrésvárakozását.",
+     "symbols": [],
+     "title": "A Mercedes vezérigazgatója szerint a vártnál rosszabb a kínai autópiac visszaesése",
+     "url": "https://www.investing.com/news/stock-market-news/mercedes-ceo-says-china-auto-market-decline-worse-than-expected-93CH-5018203",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Szerdán megkezdődött az Egyesült Államok, Oroszország és Ukrajna abu-dzabi béketárgyalásainak második napja. A béketárgyalásokról szóló hírek korábban rendre megmozgatták az európai védelmi és energiapiaci papírokat.",
+     "symbols": [],
+     "title": "Második napjába lépett az amerikai–orosz–ukrán béketárgyalás Abu-Dzabiban",
+     "url": "https://www.investing.com/news/commodities-news/us-russia-and-ukraine-start-second-day-of-abu-dhabi-peace-talks-5018210",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Telefônica Brasil (Vivo) eredménye és bevétele is meghaladta az elemzői várakozásokat a harmadik negyedévben. A cég SEC-hez benyújtott jelentése szerint a nettó nyereség kb. 2,46 milliárd reálra nőtt (+30,1%), a nettó árbevétel 16,02 milliárd reál lett (+7,2%).",
+     "symbols": [],
+     "title": "A Telefônica Brasil felülmúlta a harmadik negyedéves várakozásokat",
+     "url": "https://www.investing.com/news/earnings/telefonica-brasil-tops-q3-earnings-and-revenue-estimates-93CH-5018212",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio",
+     "summary": "A keddi gyengülés után szerdán is nyomás alatt van a forint, mert a dollár ismét erősödik. Szerda reggel az euró 364,3, a dollár 326,5 forint körül járt (Portfolio, Pénzcentrum, Tőzsdefórum).",
+     "symbols": [],
+     "title": "Visszatért a dollárerő, nyomás alatt a forint",
+     "url": "https://www.portfolio.hu/deviza/20261111/visszatert-a-dollarero-nyomas-alatt-a-forint-875622",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Bloomberg (névtelen források)",
+     "summary": "A Bloomberg névtelen, az ügyet ismerő forrásokra hivatkozó értesülése szerint a német autóipari beszállító Adler Pelzer befektetési alapoktól, köztük a D.E. Shaw-tól próbál 70 millió eurós tőkét szerezni, amelyet eredetileg a tulajdonosaitól vártak. A hírt független forrás egyelőre nem erősítette meg.",
+     "symbols": [],
+     "title": "Bloomberg: az Adler Pelzer befektetési alapoktól keres pénzt refinanszírozása lezárásához",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-11/adler-pelzer-in-talks-with-investment-funds-to-close-refinancing",
+     "verified": false
     }
    ],
    "markets": [
@@ -1106,7 +1282,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T09:40:14Z",
+   "updatedAt": "2026-11-11T10:50:00Z",
    "watchlist": []
   },
   {
