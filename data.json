@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T19:00:23Z",
+ "builtAt": "2026-11-11T19:56:09Z",
  "digests": [
   {
    "calendar": [
@@ -1818,6 +1818,58 @@
      "title": "Értesülések szerint november 23-án indulhat az OKX és az ICE tokenizált értékpapír-kereskedési platformja",
      "url": "https://finance.yahoo.com/video/okxice-targets-nov-23-launch-170000508.html",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T19:39:31Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Megan Greene, a Bank of England kamatdöntő bizottságának tagja a Financial Timesban megjelent írásában azt írja, hogy indokolt megelőzően szigorítani, nehogy a bérnövekedés tartósan magas szinten ragadjon, és a cégek továbbhárítsák a költségeket. Az előretekintő mutatók szerint a bérdinamika 3,5% körül vagy felette maradhat, ami meghaladja a 2%-os inflációval összeegyeztethető szintet.",
+     "symbols": [],
+     "title": "Greene (BoE): helyes proaktívan szigorítani a monetáris politikán",
+     "url": "https://www.investing.com/news/economy-news/boes-greene-says-it-is-right-to-proactively-tighten-monetary-policy-stance--ft-5019712",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T19:39:31Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Benzinga · 24/7 Wall St. · Yahoo Finance",
+     "summary": "A CoreWeave emelt kilátása szerdán újra fellendítette az AI-chipek piacát: a Marvell napközben 7–9%-kal, a Micron 10–13%-kal emelkedett, a philadelphiai félvezetőindex mintegy 7%-kal erősödött. Mindkét papír előtte erős esésben volt: a Micron öt nap alatt több mint 20%-ot, a Marvell egy hónap alatt mintegy 40%-ot veszített.",
+     "symbols": [
+      "MRVL",
+      "MU"
+     ],
+     "title": "8–9%-kal ugrott a Marvell, 10–13%-kal a Micron a CoreWeave-jelentés nyomán",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63152060/micron-stock-jumps-13-as-coreweave-outlook-eases-ai-spending-fears",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T19:39:31Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Allianz (közlemény) · Reuters",
+     "summary": "Az Allianz működési eredménye az első kilenc hónapban rekordot döntött: 14,1 milliárd euró lett a tavalyi 13,1 milliárd után. A biztosító a 2026-os működési eredménycél felső sávját mintegy 18,6 milliárd euróra emelte, ha nem jön közbe rendkívüli természeti katasztrófa vagy tőkepiaci esemény.",
+     "symbols": [
+      "ALV"
+     ],
+     "title": "Rekord kilenchavi eredmény után emelte 2026-os célját az Allianz",
+     "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261111-announcement.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T19:39:31Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Investing.com · Bloomberg (értesülés)",
+     "summary": "A Bloomberg névtelen forrásokra hivatkozó értesülése szerint a spanyol Iberdrola mérlegeli németországi naperőműveinek eladását, a Balti-tengeri 1,14 GW-os tengeri szélerőmű-portfólióban lévő részesedését viszont megtartaná. A cég hivatalosan nem erősítette meg az értesülést.",
+     "symbols": [
+      "IBE"
+     ],
+     "title": "Bloomberg: az Iberdrola eladná németországi napelemparkjait",
+     "url": "https://investing.com/news/stock-market-news/iberdrola-explores-sale-of-german-solar-assets--bloomberg-93CH-5019272",
+     "verified": false
     }
    ],
    "markets": [
@@ -1844,7 +1896,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T18:40:32Z",
+   "updatedAt": "2026-11-11T19:39:31Z",
    "watchlist": []
   },
   {
