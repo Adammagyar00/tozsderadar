@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T12:55:49Z",
+ "builtAt": "2026-11-11T13:55:36Z",
  "digests": [
   {
    "calendar": [
@@ -1572,6 +1572,67 @@
      "title": "Értesülés: a TSMC igazgatótanácsa akár 500 millió dollárnyi Anthropic-részvény vásárlását hagyta jóvá",
      "url": "https://techtrendsnewsupdate.substack.com/p/tech-trends-news-update-morning-brief-d54",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T13:40:38Z",
+     "category": "Jegybankok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Kínai Népi Bank szerdán közzétett harmadik negyedéves monetáris politikai jelentésében azt írta, hogy erősíti az anticiklikus beavatkozást és a belföldi kereslet bővítését az éves növekedési cél eléréséhez. A jegybank alacsonyan tartaná a finanszírozási költségeket, a jüant pedig alapvetően stabil szinten; új kamatcsökkentést vagy konkrét új eszközt nem jelentett be.",
+     "symbols": [],
+     "title": "A kínai jegybank fokozott gazdaságélénkítést ígér",
+     "url": "https://www.investing.com/news/economy-news/chinas-central-bank-vows-to-step-up-policy-support-for-the-economy-5018404",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T13:40:38Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters exkluzív anyaga szerint a Vitol egyik kereskedőjének JD Vance alelnökhöz fűződő kapcsolatai segítették, hogy a cég egy jelentős venezuelai olajszerződéshez jusson. A Vitol és a Trafigura az év elején elsőként kapott üzletet a venezuelai olaj értékesítésében.",
+     "symbols": [],
+     "title": "Reuters: egy Vitol-kereskedő JD Vance-hez fűződő kapcsolatai segítettek egy értékes venezuelai olajszerződés megszerzésében",
+     "url": "https://www.investing.com/news/commodities-news/exclusivehow-a-vitol-traders-ties-to-jd-vance-helped-land-a-prized-venezuela-oil-contract-5018354",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T13:40:38Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "Reuters · The New York Times · Al Jazeera",
+     "summary": "A New York Times értesülését a Reuters saját forrásokból megerősítette: az amerikai pénzügyminiszter iráni fenyegetések miatt washingtoni otthonából egy katonai bázisra költözött. Bessent vezeti az Irán elleni szankciós kampányt, amelynek célja a hajózás elleni támadások leállítása és a Hormuzi-szoros újranyitása; a minisztérium szerint a fenyegetések nem tántorítják el.",
+     "symbols": [],
+     "title": "Iráni fenyegetések miatt katonai bázisra költözött Scott Bessent pénzügyminiszter",
+     "url": "https://www.aljazeera.com/news/2026/11/11/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T13:40:38Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Financial Times (TipRanks, BusinessToday közlése alapján)",
+     "summary": "A Financial Times névtelen forrásokra hivatkozó értesülése szerint a bankárok az ársáv feletti részvényárat várnak, ami teljesen hígított alapon 1500 milliárd dollár feletti értékelést és – a 26 milliárdos magánkibocsátással együtt – 100 milliárd dollár feletti bevételt jelentene. A Bloomberg korábban arról írt, hogy a jegyzés indulásakor már teljes volt a túljegyzés; az árazás november 18-án várható. A cég hivatalosan nem erősítette meg.",
+     "symbols": [
+      "ANTHROPIC"
+     ],
+     "title": "FT: az Anthropic bankárai a 70–78 dolláros ársáv feletti árazást mérlegelik",
+     "url": "https://www.tipranks.com/news/anthropic-ipo-may-exceed-1-5-trillion-after-strong-investor-demand",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T13:40:38Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Benzinga",
+     "summary": "A Benzinga szerint a Bloom Energy részvénye szerdán a nyitás előtti kereskedésben 8,54%-kal, 201,25 dollárra emelkedett, mivel a CoreWeave erős jelentése széles körű visszapattanást indított az AI-infrastruktúra papírjaiban. Az emelkedés mértékét független forrás egyelőre nem erősítette meg.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Benzinga: 8,5%-kal emelkedett a Bloom Energy nyitás előtt a CoreWeave-jelentés nyomán",
+     "url": "https://benzinga.com/trading-ideas/movers/26/11/63134471/why-is-bloom-energy-stock-surging-wednesday",
+     "verified": false
     }
    ],
    "markets": [
@@ -1598,7 +1659,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T12:55:00Z",
+   "updatedAt": "2026-11-11T13:40:38Z",
    "watchlist": []
   },
   {
