@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T16:56:29Z",
+ "builtAt": "2026-11-11T17:56:45Z",
  "digests": [
   {
    "calendar": [
@@ -1612,27 +1612,27 @@
      "addedAt": "2026-11-11T13:40:38Z",
      "category": "Vállalatok és technológia",
      "impact": "pozitív",
-     "source": "Financial Times (TipRanks, BusinessToday közlése alapján)",
-     "summary": "A Financial Times névtelen forrásokra hivatkozó értesülése szerint a bankárok az ársáv feletti részvényárat várnak, ami teljesen hígított alapon 1500 milliárd dollár feletti értékelést és – a 26 milliárdos magánkibocsátással együtt – 100 milliárd dollár feletti bevételt jelentene. A Bloomberg korábban arról írt, hogy a jegyzés indulásakor már teljes volt a túljegyzés; az árazás november 18-án várható. A cég hivatalosan nem erősítette meg.",
+     "source": "Financial Times (TipRanks, BusinessToday közlése alapján) · Yahoo Finance",
+     "summary": "A Financial Times névtelen forrásokra hivatkozó értesülése szerint a bankárok az ársáv feletti részvényárat várnak, ami teljesen hígított alapon 1500 milliárd dollár feletti értékelést és – a 26 milliárdos magánkibocsátással együtt – 100 milliárd dollár feletti bevételt jelentene. A Bloomberg korábban arról írt, hogy a jegyzés indulásakor már teljes volt a túljegyzés; az árazás november 18-án várható. A Yahoo Finance szerdai műsora is arról számolt be, hogy az erősebb kereslet miatt a bankárok magasabb árat és értékelést mérlegelnek; a cég hivatalosan nem erősítette meg.",
      "symbols": [
       "ANTHROPIC"
      ],
      "title": "FT: az Anthropic bankárai a 70–78 dolláros ársáv feletti árazást mérlegelik",
      "url": "https://www.tipranks.com/news/anthropic-ipo-may-exceed-1-5-trillion-after-strong-investor-demand",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-11-11T16:52:00Z",
      "category": "Figyelőlista",
      "impact": "pozitív",
-     "source": "Benzinga · Investing.com · 24/7 Wall St.",
-     "summary": "Az Investing.com és a 24/7 Wall St. szerint a Bloom Energy részvénye szerdán napközben 14–17%-kal, 210–217 dollár körüli szintre emelkedett, miután a CoreWeave erős negyedéves jelentése felhúzta az AI-adatközpontok energiaellátásához kötődő papírokat. A beszámolók emlékeztetnek, hogy a cég az elmúlt hetekben több mint 1,6 GW új üzemanyagcella-szállítási szerződést kötött (köztük 900 MW-ot az NTT DATA-val). A pontos mértéket a források eltérően közlik; a részvény a ralli után is mintegy 24%-kal lejjebb van egy hónappal korábbi szintjénél.",
+     "source": "Benzinga · Investing.com · 24/7 Wall St. · TheStreet · Barron's (Yahoo Finance)",
+     "summary": "Az Investing.com és a 24/7 Wall St. szerint a Bloom Energy részvénye szerdán napközben 14–17%-kal, 210–217 dollár körüli szintre emelkedett, miután a CoreWeave erős negyedéves jelentése felhúzta az AI-adatközpontok energiaellátásához kötődő papírokat. A beszámolók emlékeztetnek, hogy a cég az elmúlt hetekben több mint 1,6 GW új üzemanyagcella-szállítási szerződést kötött (köztük 900 MW-ot az NTT DATA-val). A TheStreet napközbeni összesítője 14%-os emelkedést mért, a Barron's szerint a Bloom és más energiapapírok a nap nagy nyertesei; a pontos mértéket a források eltérően közlik; a részvény a ralli után is mintegy 24%-kal lejjebb van egy hónappal korábbi szintjénél.",
      "symbols": [
       "BE"
      ],
-     "title": "Értesülések szerint 15–17%-kal emelkedett napközben a Bloom Energy a CoreWeave-jelentés nyomán",
+     "title": "15–17%-kal emelkedett napközben a Bloom Energy a CoreWeave-jelentés nyomán",
      "url": "https://247wallst.com/investing/2026/11/11/bloom-energy-surges-15-as-coreweaves-results-lift-ai-power-stocks-fuelcell-energy-climbs-5-plug-power-dips/",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-11-11T14:40:01Z",
@@ -1714,6 +1714,77 @@
      "title": "1,4%-kal emelkedett a BUX, a Mol 3,5%-ot erősödött az olajár emelkedésével",
      "url": "https://www.portfolio.hu/uzlet/20261111/eros-napja-volt-a-magyar-tozsdenek-nagyot-ment-a-mol-875832",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T18:05:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg által megszerzett belső feljegyzés szerint Santosh Janardhan, a Meta infrastruktúráért felelős vezetője és mérnöki társvezetője 2027 elején átadja posztját. Utódja Dave Brown, az Amazon Web Services korábbi vezetője lesz, aki az év elején csatlakozott a Metához. Janardhan az átadás után tanácsadóként marad a cégnél.",
+     "symbols": [
+      "META"
+     ],
+     "title": "Bloomberg: 2027 elején távozik a Meta infrastruktúra-vezetője, Santosh Janardhan",
+     "url": "https://www.investing.com/news/stock-market-news/meta-infrastructure-chief-santosh-janardhan-to-step-down-in-early-2027--bloomberg-5019566",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T18:05:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Barron's",
+     "summary": "A Barron's szerint a SpaceX papírja szerdán csökkent a péntekre tervezett Starship-tesztrepülés előtt. A lap szerint a piaci félelmek ugyanakkor mérséklődnek a teljesen újrafelhasználható óriásrakéta próbája előtt.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Esik a SpaceX részvénye a pénteki Starship-teszt előtt",
+     "url": "https://finance.yahoo.com/m/27d3b558-9463-33c2-bd3d-0ce23e1e569b/spacex-stock-drops-ahead-of.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T18:05:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A TIKR összefoglalója szerint a Goldman Sachs megerősítette 1250 dolláros célárát a Micronra, ami 70%-kal a november 9-i záróár felett van. A Bank of America ugyanakkor kivette a Micront a legjobb amerikai befektetési ötleteit tartalmazó „US 1” listájáról.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Megosztottak az elemzők a Micronról: a Goldman „kiemelt vételnek” tartja, a BofA kivette top listájáról",
+     "url": "https://www.tikr.com/blog/goldman-calls-micron-a-screaming-buy-bank-of-america-just-dropped-it-from-its-top-picks-whos-right?ref=yahoofinance&tlnk=yf-261111-2mm55jpw&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T18:05:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto · CryptoProwl",
+     "summary": "A beszámolók szerint a Deutsche Bank hivatalosan elindította kriptoletéti szolgáltatását intézményi ügyfelei számára, bitcoinnal, etherrel és stablecoinokkal. A bank szeptemberben jelentette be, hogy 2026 végéig, a szabályozói jóváhagyástól függően indítja a szolgáltatást.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "Elindította intézményi kriptoletéti szolgáltatását a Deutsche Bank",
+     "url": "https://beincrypto.com/deutsche-bank-launches-crypto-custody-bitcoin-ethereum/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T18:05:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Delek US Holdings részvénye 4%-kal emelkedett szerda reggel, miután a Freedom Broker „tartás”-ról „vétel”-re javította a finomítócéget a kivételesen erős működési környezetre hivatkozva. Az elemző 86-ról 88 dollárra emelte a célárat, a szeptemberi csúcs óta mintegy 20%-os esést vonzó belépési pontnak tartja.",
+     "symbols": [
+      "DK"
+     ],
+     "title": "4%-ot emelkedett a Delek US, miután a Freedom Broker vételre javította",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/delek-us-rises-freedom-broker-151459648.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -1740,7 +1811,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T16:52:00Z",
+   "updatedAt": "2026-11-11T18:05:00Z",
    "watchlist": []
   },
   {
