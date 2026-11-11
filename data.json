@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T13:55:36Z",
+ "builtAt": "2026-11-11T14:55:31Z",
  "digests": [
   {
    "calendar": [
@@ -1633,6 +1633,33 @@
      "title": "Benzinga: 8,5%-kal emelkedett a Bloom Energy nyitás előtt a CoreWeave-jelentés nyomán",
      "url": "https://benzinga.com/trading-ideas/movers/26/11/63134471/why-is-bloom-energy-stock-surging-wednesday",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T14:40:01Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Yahoo Finance · CNBC · TheStreet",
+     "summary": "A Veterans Day ellenére nyitva tartó amerikai részvénypiacon szerdán emelkedéssel indult a kereskedés: a Yahoo Finance szerint az S&P 500 nagyjából 1%-kal, a Nasdaq Composite 1,5%-kal emelkedett, a Dow a nulla körül ingadozott. Az Nvidia a kétnapos, több mint 430 milliárd dolláros értékvesztés után 3–5%-kal emelkedett, a várakozás feletti eredményt és emelt kilátást közlő CoreWeave mintegy 13%-ot ugrott a nyitás után. A kötvénypiac az ünnep miatt zárva van.",
+     "symbols": [
+      "VOO",
+      "QQQ"
+     ],
+     "title": "Emelkedéssel nyitott a Wall Street: az Nvidia visszapattan, a CoreWeave 13%-kal ugrik",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T14:40:01Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Bloomberg (névtelen források)",
+     "summary": "A Bloomberg névtelen, az ügyet ismerő forrásokra hivatkozva azt írja, hogy Japán legnagyobb elektronikai kiskereskedője nagyjából 100 milliárd jen (630 millió dollár) értékű üzletcsomag eladását fontolgatja, köztük tokiói (Shibuya, Shinjuku) LABI-áruházakat. A cég nem erősítette meg az értesülést, döntés még nem született.",
+     "symbols": [
+      "9831.T"
+     ],
+     "title": "Bloomberg: a Yamada Holdings mintegy 630 millió dolláros üzletportfólió eladását mérlegeli",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-11/top-japan-electronics-chain-said-to-eye-630-million-store-sale",
+     "verified": false
     }
    ],
    "markets": [
@@ -1659,7 +1686,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T13:40:38Z",
+   "updatedAt": "2026-11-11T14:40:01Z",
    "watchlist": []
   },
   {
