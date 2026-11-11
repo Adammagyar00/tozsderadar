@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T15:56:16Z",
+ "builtAt": "2026-11-11T16:56:29Z",
  "digests": [
   {
    "calendar": [
@@ -1622,16 +1622,16 @@
      "verified": false
     },
     {
-     "addedAt": "2026-11-11T13:40:38Z",
+     "addedAt": "2026-11-11T16:52:00Z",
      "category": "Figyelőlista",
      "impact": "pozitív",
-     "source": "Benzinga",
-     "summary": "A Benzinga szerint a Bloom Energy részvénye szerdán a nyitás előtti kereskedésben 8,54%-kal, 201,25 dollárra emelkedett, mivel a CoreWeave erős jelentése széles körű visszapattanást indított az AI-infrastruktúra papírjaiban. Az emelkedés mértékét független forrás egyelőre nem erősítette meg.",
+     "source": "Benzinga · Investing.com · 24/7 Wall St.",
+     "summary": "Az Investing.com és a 24/7 Wall St. szerint a Bloom Energy részvénye szerdán napközben 14–17%-kal, 210–217 dollár körüli szintre emelkedett, miután a CoreWeave erős negyedéves jelentése felhúzta az AI-adatközpontok energiaellátásához kötődő papírokat. A beszámolók emlékeztetnek, hogy a cég az elmúlt hetekben több mint 1,6 GW új üzemanyagcella-szállítási szerződést kötött (köztük 900 MW-ot az NTT DATA-val). A pontos mértéket a források eltérően közlik; a részvény a ralli után is mintegy 24%-kal lejjebb van egy hónappal korábbi szintjénél.",
      "symbols": [
       "BE"
      ],
-     "title": "Benzinga: 8,5%-kal emelkedett a Bloom Energy nyitás előtt a CoreWeave-jelentés nyomán",
-     "url": "https://benzinga.com/trading-ideas/movers/26/11/63134471/why-is-bloom-energy-stock-surging-wednesday",
+     "title": "Értesülések szerint 15–17%-kal emelkedett napközben a Bloom Energy a CoreWeave-jelentés nyomán",
+     "url": "https://247wallst.com/investing/2026/11/11/bloom-energy-surges-15-as-coreweaves-results-lift-ai-power-stocks-fuelcell-energy-climbs-5-plug-power-dips/",
      "verified": false
     },
     {
@@ -1700,6 +1700,20 @@
      "title": "A technológiai papírok felpattanása emeli a tőzsdéket, erősödik a dollár",
      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-fluctuate-us-rate-024154790.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T16:52:00Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio · Világgazdaság",
+     "summary": "A budapesti tőzsde fő indexe, a BUX szerdán 1,4%-os emelkedéssel, 146 592 ponton zárt. A Mol volt a nap legerősebb blue chipje (mintegy 3,4–3,5%-os emelkedés) az iráni feszültségek miatt dráguló olaj nyomán, az OTP a negyedéves gyorsjelentése után körülbelül 1%-kal erősödött.",
+     "symbols": [
+      "OTP",
+      "MOL"
+     ],
+     "title": "1,4%-kal emelkedett a BUX, a Mol 3,5%-ot erősödött az olajár emelkedésével",
+     "url": "https://www.portfolio.hu/uzlet/20261111/eros-napja-volt-a-magyar-tozsdenek-nagyot-ment-a-mol-875832",
+     "verified": true
     }
    ],
    "markets": [
@@ -1726,7 +1740,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T15:52:00Z",
+   "updatedAt": "2026-11-11T16:52:00Z",
    "watchlist": []
   },
   {
