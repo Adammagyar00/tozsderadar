@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T08:55:52Z",
+ "builtAt": "2026-11-11T09:57:49Z",
  "digests": [
   {
    "calendar": [
@@ -980,6 +980,106 @@
      "title": "Szingapúr 500 tonnás aranytrezort nyitott jegybankoknak",
      "url": "https://beincrypto.com/singapore-gold-vault-central-banks-buying/?.tsrc=rss",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T09:40:14Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A vártnál magasabb októberi amerikai infláció és a Fed döntéshozóinak szigorítást sürgető nyilatkozatai után szerdán a globális kötvénypiacokon is folytatódott az eladási hullám, a hozamok emelkednek. A befektetők már egy 50 bázispontos Fed-kamatemelés lehetőségével is számolnak.",
+     "symbols": [],
+     "title": "Világszerte esnek a kötvények: a forró amerikai infláció és a Fed-hangok félpontos kamatemeléstől való félelmet szítanak",
+     "url": "https://www.investing.com/news/forex-news/global-bonds-fall-as-hot-us-cpi-and-fed-rhetoric-stoke-fears-of-50bps-hike-5018037",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T09:40:14Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Névtelen források szerint a Google anyavállalata első alkalommal bocsátana ki hongkongi és szingapúri dollárban denominált kötvényt, együttesen nagyjából 3 milliárd dollár értékben. A tervről hétfőn a Bloomberg is beszámolt; a részletek még változhatnak, az Alphabet nem kommentálta. A cég az AI-beruházások finanszírozására az elmúlt hónapokban több devizában is nagy kötvényeket adott el.",
+     "symbols": [
+      "GOOGL"
+     ],
+     "title": "Reuters: az Alphabet mintegy 3 milliárd dolláros hongkongi és szingapúri dolláros kötvénykibocsátást fontolgat",
+     "url": "https://www.investing.com/news/stock-market-news/alphabet-eyes-3-billion-hong-kong-singapore-bond-sale-sources-say-5018062",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T09:40:14Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az amszterdami tőzsdén jegyzett Czechoslovak Group (CSG) árfolyama szerdán 13–17%-ot esett, miután a harmadik negyedéves bevétele mintegy 12%-kal, kb. 1,5 milliárd euróra csökkent, mert nagyjából 300 millió eurónyi szárazföldi rendszer szállítása a negyedik negyedévre csúszott. A cég 3–4 százalékponttal csökkentette árrés-előrejelzését.",
+     "symbols": [
+      "CSG"
+     ],
+     "title": "Zuhan a cseh CSG védelmi csoport részvénye a gyenge kilenchavi jelentés és a profitfigyelmeztetés után",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-csg-stock-collapsing-today-93CH-5018085",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T09:40:14Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · GuruFocus",
+     "summary": "A bitcoinbányász Bitdeer harmadik negyedéves bevétele rekordot döntött (320,7 millió dollár), az AI-felhőszolgáltatás gyorsan nő. A nettó veszteség 125,5 millió dollár volt, a növekvő adósság az adatközpont-építés magas költségét mutatja.",
+     "symbols": [
+      "BTDR"
+     ],
+     "title": "Bitdeer: rekordbevétel és gyorsan növő AI-felhőüzlet, de 125,5 millió dolláros negyedéves veszteség",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitdeer-technologies-group-btdr-q3-090335286.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T09:40:14Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "RWE (közlemény) · Reuters",
+     "summary": "Az RWE korrigált EBITDA-ja az első kilenc hónapban 35%-kal, 4,6 milliárd euróra nőtt (Reuters szerint az elemzők 4,43 milliárdot vártak), a korrigált EPS 42%-kal 2,52 euróra emelkedett. A cég megerősítette 5,75–6,35 milliárd eurós éves EBITDA-célját, és annak felső széle felé számít.",
+     "symbols": [
+      "RWE"
+     ],
+     "title": "Az RWE kilenchavi eredménye felülmúlta a várakozásokat, az éves sáv felső szélét célozza",
+     "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T09:40:14Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio · Origo · holtankoljak.hu",
+     "summary": "A holtankoljak.hu adatai szerint szerdán a 95-ös benzin átlagára literenként 602, a gázolajé 711 forintra csökkent. A két üzemanyag közti különbség 109 forint.",
+     "symbols": [],
+     "title": "Tovább olcsóbbodott az üzemanyag: a benzin 4, a gázolaj 6 forinttal csökkent szerdán",
+     "url": "https://www.portfolio.hu/uzlet/20261111/megjott-a-bejelentes-igy-valtozik-a-benzin-es-a-dizel-ara-875630",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T09:40:14Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio",
+     "summary": "A Portfolio értesülése szerint egy törvényjavaslat alapján az állami Országos Közlekedésszervező (OKK) 2026. december 31-ig tőkeemeléssel 50%-os részesedést szerezhet a Budapesti Közlekedési Központban. Más forrás egyelőre nem erősítette meg.",
+     "symbols": [],
+     "title": "Félig állami kézbe kerülhet a BKK",
+     "url": "https://www.portfolio.hu/ingatlan/20261111/fele-reszben-allami-kezbe-kerulhet-a-bkk-875704",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T09:40:14Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio",
+     "summary": "A Portfolio szerint az adóhatóság MI-alapú elemzéssel szűri ki a szokatlanul magas házipénztár-egyenleget kimutató cégeket; azok, amelyeknél a nyilvántartott készpénz nem igazolható, az év végén és 2027 elején fokozott ellenőrzésre számíthatnak. A mai bejelentést más forrás egyelőre nem erősítette meg.",
+     "symbols": [],
+     "title": "Mesterséges intelligenciával választja ki az ellenőrizendő cégeket a NAV",
+     "url": "https://www.portfolio.hu/gazdasag/20261111/lepett-az-adohatosag-a-mesterseges-intelligencia-valasztja-ki-melyik-cegnel-tartanak-ellenorzest-magyarorszagon-875650",
+     "verified": false
     }
    ],
    "markets": [
@@ -1006,7 +1106,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T08:45:25Z",
+   "updatedAt": "2026-11-11T09:40:14Z",
    "watchlist": []
   },
   {
