@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T14:55:31Z",
+ "builtAt": "2026-11-11T15:56:16Z",
  "digests": [
   {
    "calendar": [
@@ -1660,6 +1660,46 @@
      "title": "Bloomberg: a Yamada Holdings mintegy 630 millió dolláros üzletportfólió eladását mérlegeli",
      "url": "https://www.bloomberg.com/news/articles/2026-11-11/top-japan-electronics-chain-said-to-eye-630-million-store-sale",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T15:52:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Eli Lilly (PR Newswire)",
+     "summary": "Az Eli Lilly közzétette a TOGETHER-PsA fázis 3b vizsgálat részletes 52 hetes eredményeit: a Taltz (ixekizumab) és a Zepbound (tirzepatid) együttes alkalmazása a Taltz önmagában adásához képest jobb és tartós hatékonyságot, valamint kedvezőbb betegek által jelzett és anyagcsere-eredményeket mutatott. A nyílt elrendezésű vizsgálatban aktív pszoriázisos ízületi gyulladásban szenvedő, elhízott vagy túlsúlyos felnőttek vettek részt.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Lilly: egy év után is tartósan jobb eredményt hozott a Taltz és a Zepbound együttes alkalmazása pszoriázisos ízületi gyulladásban és elhízásban",
+     "url": "https://finance.yahoo.com/healthcare/articles/phase-3b-data-lillys-taltz-144500875.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T15:52:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A Bitmine Immersion Technologies (NYSE: BMNR), amely ether-tartalékot épít, 6,23 milliárd dolláros nettó veszteségről számolt be az augusztusban zárult pénzügyi évére.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "A Bitmine 6,23 milliárd dolláros nettó veszteséget jelentett a pénzügyi évére",
+     "url": "https://www.cryptoprowl.com/releases/bitmine-reports-6-billion-net-loss-7832?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T15:52:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · AFP",
+     "summary": "Szerdán emelkedtek a részvénypiacok, mert az AI-kereskedés iránti újjáéledő optimizmus háttérbe szorította a vártnál magasabb amerikai inflációt és egy decemberi nagy Fed-kamatemelés lehetőségét. A dollár erősödött, mert a piac a vártnál nagyobb decemberi emelést is mérlegel.",
+     "symbols": [],
+     "title": "A technológiai papírok felpattanása emeli a tőzsdéket, erősödik a dollár",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-fluctuate-us-rate-024154790.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -1686,7 +1726,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T14:40:01Z",
+   "updatedAt": "2026-11-11T15:52:00Z",
    "watchlist": []
   },
   {
