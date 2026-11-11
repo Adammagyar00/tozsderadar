@@ -1,7 +1,147 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-11T09:29:21Z",
+ "updatedAt": "2026-11-11T10:33:35Z",
  "items": [
+  {
+   "title": "Orlen terminates QatarEnergy LNG deal after force majeure",
+   "link": "https://www.offshore-technology.com/news/orlen-terminates-qatarenergy-lng-deal/?.tsrc=rss",
+   "published": "2026-11-11T10:27:50Z",
+   "publisher": "",
+   "summary": "The oil-linked contract covers one million tonnes annually, while a separate gas-price-linked agreement remains in place until 2034.",
+   "symbols": []
+  },
+  {
+   "title": "BlackRock (BLK) Draws Bitcoin Inflows As Safety Fears Meet AI And Canada Push",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/blackrock-blk-draws-bitcoin-inflows-101056473.html",
+   "published": "2026-11-11T10:10:56Z",
+   "publisher": "",
+   "summary": "BlackRock (NYSE:BLK) reports substantial inflows into its Bitcoin ETF as holders move coins off private wallets for perceived safety. Investors citing kidnapping and custody risks are shifting Bitcoin into BlackRock’s fund structure, according to recent client feedback. Management is highlighting artificial intelligence as a generational investment theme while seeing rising interest in Canadian re",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "European gas rebounds on Strait of Hormuz shipping risks",
+   "link": "https://finance.yahoo.com/energy/articles/european-gas-rebounds-strait-hormuz-101044228.html",
+   "published": "2026-11-11T10:10:44Z",
+   "publisher": "",
+   "summary": "Investing.com - European wholesale natural gas prices surged on Wednesday, snapping a recent deflationary streak to track a broad rebound across global energy bourses, as renewed attacks on commercial shipping in the Middle East revived concerns over physical supply disruptions.",
+   "symbols": []
+  },
+  {
+   "title": "Kitsault Energy’s Vision for Canada's Future: An Integrated Energy and Commodity Export Corridor",
+   "link": "https://finance.yahoo.com/energy/articles/kitsault-energy-vision-canadas-future-100000309.html",
+   "published": "2026-11-11T10:00:00Z",
+   "publisher": "",
+   "summary": "VANCOUVER, British Columbia, November 11, 2026--For the past 14 years, Kitsault Energy (KE) has advocated for a dedicated energy corridor extending from Dawson Creek in northeastern British Columbia to Kitsault/Observatory Inlet in northwest British Columbia. The proposed corridor would transport crude oil, natural gas/LNG, natural gas liquids, and other commodities to international markets.",
+   "symbols": []
+  },
+  {
+   "title": "S&P 500, Nasdaq Futures Rise Premarket — CRWV, GPRO, SPCX, NVDA, NLST Stocks In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-crwv-gpro-spcx-nvda-nlst-stocks-in-focus/cNGDlb9R9B7?.tsrc=rss",
+   "published": "2026-11-11T09:59:35Z",
+   "publisher": "",
+   "summary": "Oil prices recovered from two-month lows, with both Brent crude futures and WTI futures rising as attacks on shipping in and around the Strait of Hormuz kept supply concerns alive.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Tom Lee’s Ethereum Bet Is Costing Bitmine Billions On Paper, And He’s Still Buying",
+   "link": "https://stocktwits.com/news-articles/markets/equity/tom-lee-s-ethereum-bet-is-costing-bitmine-billions-on-paper-and-he-s-still-buying/cNGDkxfR9Be?.tsrc=rss",
+   "published": "2026-11-11T09:55:04Z",
+   "publisher": "",
+   "summary": "Bitmine sold 395.1 million shares for $13.2 billion in total profits and repurchased 20.8 million shares at $17 each to support its purchases.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why Is Crypto Crashing Today? Bitcoin Falls Below $73K as Zcash (ZEC) Leads Crypto Losses",
+   "link": "https://www.coinspeaker.com/why-is-crypto-crashing-today-bitcoin-falls-below-73k-as-zcash-zec-leads-crypto-losses/?.tsrc=rss",
+   "published": "2026-11-11T09:48:24Z",
+   "publisher": "",
+   "summary": "Why is crypto crashing on Wednesday, November 11? The sell-off that began with Tuesday’s hotter-than-expected U.S. inflation report has carried into today, and almost every major coin is lower. Bitcoin (BTC) dropped below $73,000 on Tuesday, touching $72,727 on Binance, and now trades at about $73,800. Ether (ETH) briefly slipped ...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "CoreWeave outlook; OpenAI’s revenue reportedly spikes - what’s moving markets",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-outlook-openai-revenue-reportedly-093752988.html",
+   "published": "2026-11-11T09:37:52Z",
+   "publisher": "",
+   "summary": "Investing.com - Futures linked to the main U.S. stock indices rise, as investor sentiment around artificial intelligence brightens following upbeat guidance from neocloud player CoreWeave, although bets on Federal Reserve interest rate hikes rattle global bond markets. Anthropic’s bankers are reportedly eyeing an increase to the Claude maker’s initial public offering valuation, while OpenAI’s thir",
+   "symbols": []
+  },
+  {
+   "title": "Germany’s Biggest Bank Goes Crypto: Deutsche Bank Launches Bitcoin Custody",
+   "link": "https://beincrypto.com/deutsche-bank-launches-crypto-custody-bitcoin-ethereum/?.tsrc=rss",
+   "published": "2026-11-11T09:30:15Z",
+   "publisher": "",
+   "summary": "Deutsche Bank launched crypto custody for Bitcoin, Ethereum, and stablecoins. Here is who can use it and what comes next.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "What Makes Heavy Rare Earths A Critical Element For America?",
+   "link": "https://finance.yahoo.com/energy/articles/makes-heavy-rare-earths-critical-093005886.html",
+   "published": "2026-11-11T09:30:05Z",
+   "publisher": "",
+   "summary": "Heavy rare earths are critical to America’s defense and industrial future. But with supply dominated by China, this Texan company is stepping in.",
+   "symbols": []
+  },
+  {
+   "title": "Uh-Oh! 2 Critical Inflation Measures Are Heading the Wrong Way in November, and the Stock Market May Pay the Price.",
+   "link": "https://www.fool.com/investing/2026/11/11/uh-oh-2-critical-inflation-measures-heading-wrong-way-in-november-stock-market-pay-the-price/?.tsrc=rss",
+   "published": "2026-11-11T09:26:02Z",
+   "publisher": "",
+   "summary": "Trumpflation may tip Wall Street's artificial intelligence (AI)-driven bull market over the edge.",
+   "symbols": []
+  },
+  {
+   "title": "Goldman adds March rate hike to Fed forecast after another hot inflation read",
+   "link": "https://finance.yahoo.com/economy/policy/articles/goldman-adds-march-rate-hike-092351037.html",
+   "published": "2026-11-11T09:23:51Z",
+   "publisher": "",
+   "summary": "Investing.com -- Goldman Sachs added a third quarter-point Federal Reserve rate hike to its forecast for March 2027, after an October inflation report that surprised sharply to the upside for a third straight month.",
+   "symbols": []
+  },
   {
    "title": "Tech Sell-Off: Two AI Stocks That Are Screaming Buys Right Now",
    "link": "https://www.fool.com/investing/2026/11/11/tech-sell-off-two-ai-stocks-that-are-screaming-buys-right-now/?.tsrc=rss",
@@ -19,6 +159,14 @@
    "symbols": []
   },
   {
+   "title": "3 Oil And Gas Stocks Facing The Next Margin Test",
+   "link": "https://finance.yahoo.com/energy/articles/3-oil-gas-stocks-facing-091307870.html",
+   "published": "2026-11-11T09:13:07Z",
+   "publisher": "",
+   "summary": "Oil has swung from supply fear to talk of a glut, yet freight and war-risk costs are still biting, keeping the energy trade anything but calm. That mix of softer crude benchmarks, pricier shipping and thin inventories is reshaping where money is being made across the value chain. This piece walks through how those forces link back to integrated oil and gas producers and highlights three stocks tha",
+   "symbols": []
+  },
+  {
    "title": "Netlist Inc (NLST) (Q3 2026) Earnings Call Highlights: Revenue Surges 149% on AI Demand and ...",
    "link": "https://finance.yahoo.com/markets/stocks/articles/netlist-inc-nlst-q3-2026-090614908.html",
    "published": "2026-11-11T09:06:14Z",
@@ -28,11 +176,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -45,11 +193,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -70,11 +218,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -116,6 +264,22 @@
    "publisher": "",
    "summary": "Singapore has launched a 500-tonne gold vault for central banks as official buying rises and gold prices slide.",
    "symbols": []
+  },
+  {
+   "title": "SpaceX Wins NASA Moon Base Awards, but Government Is “Less Than 10%” of Its Revenue",
+   "link": "https://www.tikr.com/blog/spacex-wins-nasa-moon-base-awards-but-government-is-less-than-10-of-its-revenue?ref=yahoofinance&tlnk=yf-261111-2mvvv33w&.tsrc=rss",
+   "published": "2026-11-11T07:28:02Z",
+   "publisher": "",
+   "summary": "Key TakeawaysSpaceX shares rose about 6% on Monday after NASA named it one of eight companies that can compete for up to $10 billion of lunar delivery work over 10 years. Even if SpaceX won all of it, the contract would pay less per year than SpaceX brought in during an average week of the third quarter.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "3 Energy Stocks Facing Oil Price Risk as Hormuz Tensions Rise",
@@ -447,6 +611,22 @@
    "publisher": "",
    "summary": "CVI, DK and NOG crushed Q3 earnings expectations, with strong cash flows, improving profitability and shareholder returns making their stock pullbacks worth watching.",
    "symbols": []
+  },
+  {
+   "title": "Is SpaceX Winding Down Falcon 9 Really “A Gift to Rocket Lab”?",
+   "link": "https://www.tikr.com/blog/is-spacex-winding-down-falcon-9-really-a-gift-to-rocket-lab?ref=yahoofinance&tlnk=yf-261111-qq6hwpf9&.tsrc=rss",
+   "published": "2026-11-11T05:27:08Z",
+   "publisher": "",
+   "summary": "Key TakeawaysSpaceX has reportedly stopped booking Falcon 9 rideshare missions beyond late 2028, and an investor on Reddit calls that a gift to Rocket Lab. Rocket Lab is already cashing in: it signed eight Neutron missions for roughly $515 million in the third quarter, several at a higher $70 million base price.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
   },
   {
    "title": "Bitcoin Chatter Flips Back to Bearish. Here’s What Price Did Last Time",
@@ -2734,201 +2914,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "Alphabet Stocks Rise 0.34% as Google Lines Up $10 Billion Anthropic Stake Purchase",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-rise-0-34-180311251.html",
-   "published": "2026-11-10T18:03:11Z",
-   "publisher": "",
-   "summary": "Anthropic's amended IPO filing makes Google and Nvidia the largest buyers in a $26 billion private placement priced alongside the offering.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "IREN Sinks 10% as Analyst Target Cuts Pile Up After Microsoft Delay; Cipher Digital Falls 6%, TeraWulf Slides 2%",
-   "link": "https://247wallst.com/investing/2026/11/10/iren-sinks-10-as-analyst-target-cuts-pile-up-after-microsoft-delay-cipher-digital-falls-6-terawulf-slides-2/?.tsrc=rss",
-   "published": "2026-11-10T18:02:24Z",
-   "publisher": "",
-   "summary": "A delayed Microsoft buildout and a $6 billion funding hole have analysts slashing IREN targets, and a hot inflation print is making it worse. Why are two rival miners holding up better, and what separates their models?",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Earnings Gaps Meet the Moving Averages on a Softer Morning for Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-gaps-meet-moving-averages-180000622.html",
-   "published": "2026-11-10T18:00:00Z",
-   "publisher": "",
-   "summary": "Stock Preachers News Commentary - The Bureau of Labor Statistics reported Tuesday morning that the Consumer Price Index for All Urban Consumers increased 0.4 percent on a seasonally adjusted basis in October. As of 11:45 a.m. ET, the S&P 500 was down 0.71% at 7,496.22. Five companies that released results on Nov. 9 or Nov. 10 opened above their prior closes, each landing in a different spot relati",
-   "symbols": []
-  },
-  {
-   "title": "DHT Holdings (DHT) Q3 earnings: what to expect",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/dht-holdings-dht-q3-earnings-175736572.html",
-   "published": "2026-11-10T17:57:36Z",
-   "publisher": "",
-   "summary": "Crude oil tanker operator DHT Holdings (NYSE:DHT) will be reporting earnings this Monday after market hours. Here’s what investors should know.",
-   "symbols": []
-  },
-  {
-   "title": "Musk Calls Anthropic’s Opus 5.5 “a Masterpiece” but Says Grok 5 Beats It “in 2 or 3 Months”",
-   "link": "https://www.tikr.com/blog/musk-calls-anthropics-opus-5-5-a-masterpiece-but-says-grok-5-beats-it-in-2-or-3-months?ref=yahoofinance&tlnk=yf-261110-gcg98fr9&.tsrc=rss",
-   "published": "2026-11-10T17:55:32Z",
-   "publisher": "",
-   "summary": "Key TakeawaysElon Musk called Anthropic’s Opus 5. 5 “a masterpiece” on Tuesday and said Grok 5 should beat it, maybe within two or three months.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Is Goldman Sachs an Attractive Investment Option Heading into 2027?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-attractive-investment-option-175400446.html",
-   "published": "2026-11-10T17:54:00Z",
-   "publisher": "",
-   "summary": "AI-driven efficiency initiatives and robust capital position aid growth, but slowing earnings raise concerns heading into 2027.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Space stocks Rocket Lab, AST SpaceMobile on the move following earnings, operational updates",
-   "link": "https://finance.yahoo.com/markets/stocks/article/space-stocks-rocket-lab-ast-spacemobile-on-the-move-following-earnings-operational-updates-175324457.html",
-   "published": "2026-11-10T17:53:24Z",
-   "publisher": "",
-   "summary": "Space sector stocks Rocket Lab and AST SpaceMobile are on the move, with earnings and big operational news the drivers.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Is the S&P 500 Heading for a Correction?",
-   "link": "https://www.fool.com/investing/2026/11/10/is-the-s-and-p-500-heading-for-a-correction/?.tsrc=rss",
-   "published": "2026-11-10T17:53:02Z",
-   "publisher": "",
-   "summary": "The index could face a big test in December, as interest rates could be on the rise yet again.",
-   "symbols": []
-  },
-  {
-   "title": "Coinbase Falls 4%, Robinhood Slides 3% as Hot Inflation Data Drags Bitcoin Lower; Webull Declines 2%",
-   "link": "https://247wallst.com/investing/2026/11/10/coinbase-falls-4-robinhood-slides-3-as-hot-inflation-data-drags-bitcoin-lower-webull-declines-2/?.tsrc=rss",
-   "published": "2026-11-10T17:51:41Z",
-   "publisher": "",
-   "summary": "A hotter-than-expected CPI print has traders betting on a December Fed rate hike, and crypto-linked stocks are feeling it unevenly. Which one is bleeding most, and what separates Coinbase from its peers when rate fears spike?",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Can Alamos Gold Stock Jump 50%?",
-   "link": "https://www.trefis.com/stock/agi/articles/623940/can-alamos-gold-stock-jump-50/2026-11-10?.tsrc=rss",
-   "published": "2026-11-10T17:42:59Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Broadridge Declares Quarterly Dividend of $1.09 Per Share",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/broadridge-declares-quarterly-dividend-1-174100524.html",
-   "published": "2026-11-10T17:41:00Z",
-   "publisher": "",
-   "summary": "Broadridge Financial Solutions, Inc. (NYSE:BR) announced that its Board of Directors has declared a quarterly cash dividend of $1.09 per share. The dividend is payable on January 11, 2027 to stockholders of record at the close of business on December 10, 2026.",
-   "symbols": []
-  },
-  {
-   "title": "Stock Market Midday, Nov. 10: Stocks Slide on Hot Inflation Data",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/10/stock-market-midday-nov-10-stocks-slide-on-hot-inflation-data/?.tsrc=rss",
-   "published": "2026-11-10T17:40:20Z",
-   "publisher": "",
-   "summary": "Growth and tech shares are leading the intraday slide as traders weigh a hotter-than-expected inflation report today, Nov. 10, 2026.",
-   "symbols": []
-  },
-  {
-   "title": "Apple Just Hit $5 Trillion. Its “Biggest Competition” Is a SpaceX Phone, Says Gene Munster",
-   "link": "https://www.tikr.com/blog/apple-just-hit-5-trillion-its-biggest-competition-is-a-spacex-phone-says-gene-munster?ref=yahoofinance&tlnk=yf-261110-3p7pmqj7&.tsrc=rss",
-   "published": "2026-11-10T17:39:51Z",
-   "publisher": "",
-   "summary": "Key TakeawaysApple closed above $350 for the first time on Monday, which took its market value back above $5 trillion. Gene Munster says Apple’s biggest competition is a SpaceX phone that Elon Musk has called “utterly false,” and SpaceX is already building a nationwide 5G network with Qualcomm.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "AMD and Coherent: What the Biggest Gainers Since the Midterms Selloff Say About the AI Trade",
-   "link": "https://finance.yahoo.com/m/37a6550e-2e90-3167-ab42-b09bffc0e624/amd-and-coherent%3A-what-the.html",
-   "published": "2026-11-10T17:38:00Z",
-   "publisher": "",
-   "summary": "AMD and Coherent are the best-performing S&P 500 stocks since last Thursday’s AI trade selloff.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Why SpaceX Could Be the Best Buy-and-Hold Stock of the Decade",
-   "link": "https://www.fool.com/investing/2026/11/10/why-spacex-could-be-the-best-buy-and-hold-stock-of/?.tsrc=rss",
-   "published": "2026-11-10T17:36:00Z",
-   "publisher": "",
-   "summary": "SpaceX is building multiple engines that could power the company's long-term growth.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
    ]
   }
  ]
