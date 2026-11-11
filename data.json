@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T06:56:33Z",
+ "builtAt": "2026-11-11T07:56:32Z",
  "digests": [
   {
    "calendar": [
@@ -780,6 +780,86 @@
      "title": "Magyar Péter Berlinben tárgyalt Friedrich Merz kancellárral energiabiztonságról és gazdasági együttműködésről",
      "url": "https://www.portfolio.hu/gazdasag/20261110/strategiai-egyeztetes-zajlott-europa-legnagyobb-gazdasagi-hatalmaval-875588",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T07:40:19Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A bitcoin szerdán 74 000 dollár alá csúszott, főként azért, mert egyre többen számítanak arra, hogy a Fed a következő hónapokban tovább emeli a kamatot a makacs infláció miatt. A kriptopiacon a kockázatkerülés folytatódott.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin 74 000 dollár alá esett, a forró amerikai infláció kamatemelési fogadásokat erősít",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-below-74k-hot-070113807.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T07:40:19Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A tokiói tőzsde szerdán emelkedéssel zárt, a Nikkei 225 1,42%-ot erősödött. A legjobban a SUMCO teljesített 9,31%-os emelkedéssel; az emelkedő részvények száma (1966) meghaladta a csökkenőkét (1541).",
+     "symbols": [],
+     "title": "1,42%-kal emelkedve zárt a Nikkei 225, a SUMCO 9%-ot ugrott",
+     "url": "https://www.investing.com/news/stock-market-news/japan-stocks-higher-at-close-of-trade-nikkei-225-up-142-5017843",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T07:40:19Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A német vegyianyag-kereskedő Brenntag harmadik negyedéves működési EBITDA-ja mintegy 15%-kal, kb. 385 millió euróra nőtt. A cég megerősítette 1,35–1,45 milliárd eurós éves EBITDA-előrejelzését, és a sáv felső része felé számít; a szabad cash flow viszont 183 millió euróra csökkent.",
+     "symbols": [
+      "BNR"
+     ],
+     "title": "Brenntag: 15%-kal nőtt a működési EBITDA a harmadik negyedévben, gyorsul a költségcsökkentés",
+     "url": "https://www.investing.com/news/company-news/brenntag-q3-2026-slides-ebitda-up-15-as-cost-cuts-accelerate-93CH-5017852",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T07:40:19Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A finn közlekedési hatóság (Traficom) elismerte a holland ideiglenes típusjóváhagyást, így a Tesla felügyelt vezetéstámogató rendszere (Európában „Assisted Driving”, korábban FSD Supervised) használható a finn utakon. A Tesla azonnal kínálhatja az ügyfeleinek; az EU-szintű döntés még függőben van.",
+     "symbols": [
+      "TSLA"
+     ],
+     "title": "Finnország engedélyezte a Tesla vezetéstámogató rendszerét",
+     "url": "https://www.investing.com/news/stock-market-news/finland-approves-teslas-assisted-driving-system-5017838",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T07:40:19Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio · Economx · Világgazdaság",
+     "summary": "Az OTP csoport a harmadik negyedévben 355 milliárd forint adózott eredményt ért el, kb. 25 milliárddal többet a 329 milliárdos elemzői konszenzusnál. A meglepetést részben egyszeri tételek (39 milliárdos pozitív adóhatás) okozták, a működési eredmény a várakozásnak megfelelő volt, a kockázati költség (79,5 milliárd) viszont jóval magasabb a vártnál.",
+     "symbols": [
+      "OTP"
+     ],
+     "title": "Az OTP 355 milliárd forintos negyedéves profitja felülmúlta a várakozásokat",
+     "url": "https://www.portfolio.hu/befektetes/20261111/nagyot-villantott-az-otp-de-van-itt-nehany-erdekes-reszlet-875596",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T07:40:19Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio",
+     "summary": "A Portfolio értesülése szerint a jegybank célvizsgálatot indított az Alteónál, amely a 2025-ös éves jelentés és beszámolók szabályszerűségét, valamint a 2024-es rendkívüli tájékoztatási kötelezettségek teljesítését nézi. A cég közlése szerint együttműködik, és egyelőre nem lehet következtetést levonni az eljárás kimeneteléről.",
+     "symbols": [
+      "ALTEO"
+     ],
+     "title": "MNB-vizsgálat indult az Alteónál",
+     "url": "https://www.portfolio.hu/uzlet/20261111/mnb-vizsgalat-indult-az-alteonal-875624",
+     "verified": false
     }
    ],
    "markets": [
@@ -806,7 +886,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T06:51:10Z",
+   "updatedAt": "2026-11-11T07:40:19Z",
    "watchlist": []
   },
   {
