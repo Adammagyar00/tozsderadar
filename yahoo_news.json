@@ -1,21 +1,53 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-11T10:33:35Z",
+ "updatedAt": "2026-11-11T11:28:54Z",
  "items": [
   {
-   "title": "Orlen terminates QatarEnergy LNG deal after force majeure",
-   "link": "https://www.offshore-technology.com/news/orlen-terminates-qatarenergy-lng-deal/?.tsrc=rss",
-   "published": "2026-11-11T10:27:50Z",
+   "title": "If You Invest $500 a Month in VOO Starting Today, Here's What History Says You Could Have in 20 Years",
+   "link": "https://www.fool.com/investing/2026/11/11/if-you-invest-500-a-month-in-voo-starting-today-he/?.tsrc=rss",
+   "published": "2026-11-11T11:15:00Z",
    "publisher": "",
-   "summary": "The oil-linked contract covers one million tonnes annually, while a separate gas-price-linked agreement remains in place until 2034.",
+   "summary": "Investors could find themselves in the mid-six-figure range.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Commerzbank Says Treasury Futures Stay Near Lows, US Equity Futures Higher, Oil Prices Edge Up",
+   "link": "https://finance.yahoo.com/economy/policy/articles/commerzbank-says-treasury-futures-stay-111340313.html",
+   "published": "2026-11-11T11:13:40Z",
+   "publisher": "",
+   "summary": "Treasury futures remain close to Tuesday's lows following a sell-off, while US equity futures move h",
    "symbols": []
   },
   {
-   "title": "BlackRock (BLK) Draws Bitcoin Inflows As Safety Fears Meet AI And Canada Push",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/blackrock-blk-draws-bitcoin-inflows-101056473.html",
-   "published": "2026-11-11T10:10:56Z",
+   "title": "Dow Jones Futures Fall, Techs Jump On CoreWeave Earnings; Look For This Bullish Signal",
+   "link": "https://finance.yahoo.com/m/656fca57-9896-3dfb-96e8-e0af2bc227df/dow-jones-futures-fall%2C-techs.html",
+   "published": "2026-11-11T11:12:22Z",
    "publisher": "",
-   "summary": "BlackRock (NYSE:BLK) reports substantial inflows into its Bitcoin ETF as holders move coins off private wallets for perceived safety. Investors citing kidnapping and custody risks are shifting Bitcoin into BlackRock’s fund structure, according to recent client feedback. Management is highlighting artificial intelligence as a generational investment theme while seeing rising interest in Canadian re",
+   "summary": "Futures rose while AI stocks rallied overnight on CoreWeave earnings: The stock market fell on Nvidia and surging Treasury yields.",
+   "symbols": []
+  },
+  {
+   "title": "CoreWeave Earnings Trigger AI Revival on Wall Street; Asia, Europe Up",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-earnings-trigger-ai-revival-110527409.html",
+   "published": "2026-11-11T11:05:27Z",
+   "publisher": "",
+   "summary": "Wall Street futures pointed higher pre-bell Wednesday, as traders embraced tech shares after AI-data",
+   "symbols": []
+  },
+  {
+   "title": "US High Relative Profitability (DUHP) Adds Broadcom and Micron on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-high-relative-profitability-duhp-110435180.html",
+   "published": "2026-11-11T11:04:35Z",
+   "publisher": "",
+   "summary": "The fund bought $125.9 million more than it sold, lifting 75 positions and trimming 4.",
    "symbols": [
     "BTC",
     "ETH",
@@ -28,11 +60,553 @@
    ]
   },
   {
+   "title": "Financial Select Sector SPDR (XLF) Buys $26.7 Million More Berkshire on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/financial-select-sector-spdr-xlf-110424944.html",
+   "published": "2026-11-11T11:04:24Z",
+   "publisher": "",
+   "summary": "The fund added $202.9 million across all 76 of its positions on Monday, with Berkshire Hathaway and JPMorgan leading the buys.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-health-care-spdr-110402787.html",
+   "published": "2026-11-11T11:04:02Z",
+   "publisher": "",
+   "summary": "The fund sold $320.2 million of stock, cutting all 60 positions and adding nothing on Monday.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Invesco QQQ Trust (QQQ) Buys $206.7 Million More Apple on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-buys-110316461.html",
+   "published": "2026-11-11T11:03:16Z",
+   "publisher": "",
+   "summary": "The fund added $2.44 billion across all 101 holdings, led by a $206.7 million increase in Apple.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "iShares PHLX SOX Semiconductor (SOXX) Buys $394.7 Million More AMD on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110312093.html",
+   "published": "2026-11-11T11:03:12Z",
+   "publisher": "",
+   "summary": "The fund added $394.7 million of AMD and $315.3 million of Broadcom, with $3.66 billion in net buying across 29 increased positions.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Marvell (MRVL) Sees $222.6 Million in Net ETF Buying on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-sees-222-6-110213962.html",
+   "published": "2026-11-11T11:02:13Z",
+   "publisher": "",
+   "summary": "ETFs bought $222.6 million of Marvell (MRVL) shares on Monday, Nov. 9.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "ETFs Bought $231.4 Million of Lam Research (LRCX) on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-231-4-million-110207597.html",
+   "published": "2026-11-11T11:02:07Z",
+   "publisher": "",
+   "summary": "ETFs bought $231.4 million of Lam Research on Monday, with 45 funds buying and 23 selling.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "45 ETFs Add to KLA Corporation (KLAC) on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/45-etfs-add-kla-corporation-110201587.html",
+   "published": "2026-11-11T11:02:01Z",
+   "publisher": "",
+   "summary": "ETFs bought $263.1 million of KLA stock in Monday's session.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "36 ETFs Add to Monolithic Power (MPWR) on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/36-etfs-add-monolithic-power-110155248.html",
+   "published": "2026-11-11T11:01:55Z",
+   "publisher": "",
+   "summary": "ETFs bought $265.0 million of Monolithic Power Systems shares in Monday's session.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "ETFs Bought $293.8 Million of Qualcomm (QCOM) on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-293-8-million-110143068.html",
+   "published": "2026-11-11T11:01:43Z",
+   "publisher": "",
+   "summary": "ETFs bought $293.8 million of Qualcomm (QCOM) on Monday, Nov. 9, with 35 buyers against 17 sellers.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "ETFs Are Buying Analog Devices (ADI) on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-analog-devices-adi-110136636.html",
+   "published": "2026-11-11T11:01:36Z",
+   "publisher": "",
+   "summary": "ETFs bought $311.1 million of Analog Devices on Monday, with 40 funds buying and 21 selling.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "ETFs Bought $317.1 Million of Applied Materials (AMAT) on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-317-1-million-110133796.html",
+   "published": "2026-11-11T11:01:33Z",
+   "publisher": "",
+   "summary": "ETFs bought $317.1 million of Applied Materials on Monday, with 51 funds buying and 22 selling.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "ETFs Bought $360.9 Million of Intel (INTC) on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-360-9-million-110129710.html",
+   "published": "2026-11-11T11:01:29Z",
+   "publisher": "",
+   "summary": "ETFs bought $360.9 million of Intel stock, with 47 funds buying and 19 selling.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "42 ETFs Add to Texas Instruments (TXN) on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/42-etfs-add-texas-instruments-110124362.html",
+   "published": "2026-11-11T11:01:24Z",
+   "publisher": "",
+   "summary": "ETFs bought $365.9 million of Texas Instruments stock on Monday.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "ETFs Are Buying Amazon (AMZN) on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-amazon-amzn-monday-110118718.html",
+   "published": "2026-11-11T11:01:18Z",
+   "publisher": "",
+   "summary": "ETFs bought $412.9 million of Amazon stock on Monday, Nov. 9.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Micron (MU) Sees $554.6 Million in Net ETF Buying on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-sees-554-6-110112648.html",
+   "published": "2026-11-11T11:01:12Z",
+   "publisher": "",
+   "summary": "ETFs bought $554.6 million of Micron (MU) shares in Monday's session.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "ETFs Bought $602.5 Million of Microsoft (MSFT) on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-602-5-million-110106137.html",
+   "published": "2026-11-11T11:01:06Z",
+   "publisher": "",
+   "summary": "Fifty-four ETFs added Microsoft shares while 23 trimmed positions on Monday.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "53 ETFs Add to Broadcom (AVGO) Holdings on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/53-etfs-add-broadcom-avgo-110056345.html",
+   "published": "2026-11-11T11:00:56Z",
+   "publisher": "",
+   "summary": "ETFs bought $695.3 million of Broadcom stock on Monday, Nov. 9.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Advanced Micro Devices (AMD) Sees $709.2 Million in Net ETF Buying on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-sees-110050796.html",
+   "published": "2026-11-11T11:00:50Z",
+   "publisher": "",
+   "summary": "ETFs bought $709.2 million in AMD shares on Monday, Nov. 9.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "55 ETFs Add to Apple (AAPL) Holdings on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/55-etfs-add-apple-aapl-110045108.html",
+   "published": "2026-11-11T11:00:45Z",
+   "publisher": "",
+   "summary": "ETFs bought a net $716.3 million of Apple stock on Monday.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "57 ETFs Add to NVIDIA (NVDA) Holdings on Nov. 9",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/57-etfs-add-nvidia-nvda-110038439.html",
+   "published": "2026-11-11T11:00:38Z",
+   "publisher": "",
+   "summary": "ETFs bought $1.05 billion in NVIDIA stock on Monday, with 57 buyers against 25 sellers.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "ETF Activity: SPY Leads With $4.32 Billion Inflow on Monday",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-spy-leads-4-110011779.html",
+   "published": "2026-11-11T11:00:11Z",
+   "publisher": "",
+   "summary": "Broad-market and semiconductor funds drew the day's largest estimated inflows while small-cap value and health care funds slipped.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Energy prices matter way more for inflation than they used to: Fed report",
+   "link": "https://finance.yahoo.com/economy/article/energy-prices-matter-way-more-for-inflation-than-they-used-to-fed-report-110000366.html",
+   "published": "2026-11-11T11:00:00Z",
+   "publisher": "",
+   "summary": "Inflation in the post-pandemic economy sticks around for longer, new Fed research shows, and oil shocks more strongly pass into core inflation.",
+   "symbols": []
+  },
+  {
+   "title": "These Stocks Are Beating the S&P 500—and Have Steady Yields",
+   "link": "https://finance.yahoo.com/m/88474ea8-9b4c-3db8-9023-bf45e5a7ff67/these-stocks-are-beating-the.html",
+   "published": "2026-11-11T11:00:00Z",
+   "publisher": "",
+   "summary": "The market is tied closely to large-caps. Take a look in the middle for alternatives.",
+   "symbols": []
+  },
+  {
+   "title": "Your Index Funds Will Soon Be Forced to Buy This $1.4 Trillion Company. Its Own Safety Alarm Just Went Off",
+   "link": "https://247wallst.com/investing/2026/11/11/your-index-funds-will-soon-be-forced-to-buy-this-1-4-trillion-company-its-own-safety-alarm-just-went-off/?.tsrc=rss",
+   "published": "2026-11-11T10:53:12Z",
+   "publisher": "",
+   "summary": "A company valued at up to $1.4 trillion set its IPO price range on Tuesday, and the rules of the biggest index funds will add it within days or weeks of its first trade. For a 67-year-old with $1.2 million in an IRA split across an S&P 500 fund, a total-market fund and a Nasdaq-100 fund, here is how much he will own, when, and what $10,000 in the last five giant IPOs turned into.",
+   "symbols": []
+  },
+  {
+   "title": "The Stock Market Is Repeating a Pattern Not Seen in Decades, but History Says Investors Who Make This 1 Move Will Win Out",
+   "link": "https://www.fool.com/investing/2026/11/11/the-stock-market-is-repeating-a-pattern-not-seen-in-decades-but-history-says-investors-who-make-this-1-move-will-win-out/?.tsrc=rss",
+   "published": "2026-11-11T10:50:57Z",
+   "publisher": "",
+   "summary": "Stocks could be on the verge of another downturn, but history has promising news for long-term investors.",
+   "symbols": []
+  },
+  {
+   "title": "MARA Sinks 18% to a 52-Week Low, Then Rebounds 25%. Is the Selling Over?",
+   "link": "https://www.tikr.com/blog/mara-sinks-18-to-a-52-week-low-then-rebounds-25-is-the-selling-over?ref=yahoofinance&tlnk=yf-261111-3cgccfrc&.tsrc=rss",
+   "published": "2026-11-11T10:50:18Z",
+   "publisher": "",
+   "summary": "Key TakeawaysMARA Holdings (MARA) stock fell approximately 18% over five trading sessions through November 5, hitting a new 52-week low before rebounding roughly 25% to $7. 34 on November 10.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "SPDR S&P Regional Banking ETF vs. iShares U.S. Regional Banks ETF: Higher Interest Rates Are Exposing a Critical Difference for 2027",
+   "link": "https://www.fool.com/coverage/etfs/2026/11/11/spdr-s-and-p-regional-banking-etf-vs-ishares-u-s-regional-banks-etf-higher-interest-rates-are-exposing-a-critical-difference-for-2027/?.tsrc=rss",
+   "published": "2026-11-11T10:50:01Z",
+   "publisher": "",
+   "summary": "The next phase of the interest rate cycle could create very different winners and losers across America's regional banking industry.",
+   "symbols": []
+  },
+  {
+   "title": "Oil prices rise as investors monitor shipping disruption in the Strait of Hormuz",
+   "link": "https://www.euronews.com/2026/11/11/oil-markets-rise-as-investors-monitor-shipping-disruption-in-the-strait-of-hormuz?.tsrc=rss",
+   "published": "2026-11-11T10:48:53Z",
+   "publisher": "",
+   "summary": "Oil prices rebounded again on Wednesday morning as investors monitored updates on shipping attacks in the Strait of Hormuz.View on euronews",
+   "symbols": []
+  },
+  {
+   "title": "Is the Stock Market Going to Crash? Warren Buffett's Warning Is Hard to Ignore.",
+   "link": "https://www.fool.com/investing/2026/11/11/is-the-stock-market-going-to-crash-warren-buffett-s-warning-is-hard-to-ignore/?.tsrc=rss",
+   "published": "2026-11-11T10:45:02Z",
+   "publisher": "",
+   "summary": "Warren Buffett has invested through various economic cycles and understands how to navigate uncertainty and volatility.",
+   "symbols": []
+  },
+  {
+   "title": "Firefly Stock’s Rally Hits a Wall. Even an Earnings Beat Isn’t Enough.",
+   "link": "https://finance.yahoo.com/m/ce155a95-f921-3ce0-ac33-035a5a66e2ce/firefly-stock%E2%80%99s-rally-hits-a.html",
+   "published": "2026-11-11T10:42:00Z",
+   "publisher": "",
+   "summary": "The rocket builder posts a narrower adjusted loss than expected, following a major engine deal with AST SpaceMobile.",
+   "symbols": []
+  },
+  {
+   "title": "Lilly-backed Oyster Therapeutics raises $60m for neurological degraders",
+   "link": "https://www.pharmaceutical-technology.com/news/oyster-60m-neurological-degraders-pipeline/?.tsrc=rss",
+   "published": "2026-11-11T10:39:49Z",
+   "publisher": "",
+   "summary": "The proceeds will help advance the company’s lead programme that centres on an oral degrader directed at tau.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Asian Stock Markets Rise Amid CoreWeave Earnings-Trigged AI Optimism",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stock-markets-rise-amid-103716063.html",
+   "published": "2026-11-11T10:37:16Z",
+   "publisher": "",
+   "summary": "Asian stock markets moved higher Wednesday after US-based data-center builder CoreWeave (CRWV) overn",
+   "symbols": []
+  },
+  {
+   "title": "Crypto Traders Need to Do This Before Thinking About Making Money",
+   "link": "https://beincrypto.com/crypto-trading-beginners-survive-before-making-money/?.tsrc=rss",
+   "published": "2026-11-11T10:36:58Z",
+   "publisher": "",
+   "summary": "Crypto influencer Álvaro Smart Money explains why beginners must focus on survival and discipline before chasing profits.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why the S&P 500 Could Be Heading for a Repeat of 2018",
+   "link": "https://www.fool.com/investing/2026/11/11/why-the-s-and-p-500-could-be-heading-for-a-repeat-of-2018/?.tsrc=rss",
+   "published": "2026-11-11T10:31:02Z",
+   "publisher": "",
+   "summary": "Back in 2018, President Trump was in power, and the Republicans lost control of Congress after disappointing midterm results, just as they have recently.",
+   "symbols": []
+  },
+  {
+   "title": "Orlen terminates QatarEnergy LNG deal after force majeure",
+   "link": "https://www.offshore-technology.com/news/orlen-terminates-qatarenergy-lng-deal/?.tsrc=rss",
+   "published": "2026-11-11T10:27:50Z",
+   "publisher": "",
+   "summary": "The oil-linked contract covers one million tonnes annually, while a separate gas-price-linked agreement remains in place until 2034.",
+   "symbols": []
+  },
+  {
+   "title": "Markets Swept Up In AI Optimism but Inflation Fears Aren’t Going Away",
+   "link": "https://finance.yahoo.com/m/7b4af701-266a-32fc-83fc-635b0972b73e/markets-swept-up-in-ai.html",
+   "published": "2026-11-11T10:23:27Z",
+   "publisher": "",
+   "summary": "Good morning, and it’s a roaring start for technology shares as fears about AI demand evaporate.",
+   "symbols": []
+  },
+  {
+   "title": "Ariana Resources MD on VFEX listing and Dendere-backed funding push for Dokwe",
+   "link": "https://finance.yahoo.com/video/ariana-resources-md-vfex-listing-101438978.html",
+   "published": "2026-11-11T10:14:38Z",
+   "publisher": "",
+   "summary": "Ariana Resources PLC (AIM:AAU, ASX:AA2, FRA:4A6) managing director Dr Kerim Sener talked with Proactive's Stephen Gunnion about the company's approved secondary listing on Zimbabwe's Victoria Falls Stock Exchange (VFEX), a proposed US$3 million to US$5 million fundraising and plans to advance its flagship Dokwe Gold Project. Sener described the listing as a major strategic milestone, opening acces",
+   "symbols": []
+  },
+  {
+   "title": "Gold Prices Recover Above $4,040 as Investors Assess Federal Reserve Rate Hike Expectations",
+   "link": "https://investorshub.advfn.com/market-news/article/39738/gold-prices-recover-above-4040-as-investors-assess-federal-reserve-rate-hike-expectations?.tsrc=rss",
+   "published": "2026-11-11T10:13:49Z",
+   "publisher": "",
+   "summary": "Gold prices edged higher on Wednesday, recovering part of the previous session’s losses as investors assessed the possibility of further interest-rate increases by the Federal Reserve following stronger-than-expected US inflation data and comments from central bank officials. At 04:56 GMT, spot gold rose 0.",
+   "symbols": []
+  },
+  {
+   "title": "BlackRock (BLK) Draws Bitcoin Inflows As Safety Fears Meet AI And Canada Push",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/blackrock-blk-draws-bitcoin-inflows-101056473.html",
+   "published": "2026-11-11T10:10:56Z",
+   "publisher": "",
+   "summary": "BlackRock (NYSE:BLK) reports substantial inflows into its Bitcoin ETF as holders move coins off private wallets for perceived safety. Investors citing kidnapping and custody risks are shifting Bitcoin into BlackRock’s fund structure, according to recent client feedback. Management is highlighting artificial intelligence as a generational investment theme while seeing rising interest in Canadian re",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
    "title": "European gas rebounds on Strait of Hormuz shipping risks",
    "link": "https://finance.yahoo.com/energy/articles/european-gas-rebounds-strait-hormuz-101044228.html",
    "published": "2026-11-11T10:10:44Z",
    "publisher": "",
    "summary": "Investing.com - European wholesale natural gas prices surged on Wednesday, snapping a recent deflationary streak to track a broad rebound across global energy bourses, as renewed attacks on commercial shipping in the Middle East revived concerns over physical supply disruptions.",
+   "symbols": []
+  },
+  {
+   "title": "Oil Prices Rise More Than 1% as Iran Rejects Removal of Enriched Nuclear Material and Hormuz Risks Persist",
+   "link": "https://investorshub.advfn.com/market-news/article/39736/oil-prices-rise-more-than-1-as-iran-rejects-removal-of-enriched-nuclear-material-and-hormuz-risks-persist?.tsrc=rss",
+   "published": "2026-11-11T10:10:20Z",
+   "publisher": "",
+   "summary": "Oil prices advanced on Wednesday, recovering from two-month lows after an Iranian security official said Tehran would not permit enriched nuclear material to leave the country, adding uncertainty to prospects for negotiations aimed at ending the conflict involving Iran, the United States and Israel. At 09:34 GMT, Brent crude futures rose $1.",
    "symbols": []
   },
   {
@@ -69,11 +643,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -86,11 +660,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -111,11 +685,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2380,541 +2954,6 @@
    "publisher": "",
    "summary": "We just published a list of 10 Buy the Dip Stocks Insiders Are Loading Up On After the Recent Market Sell-Off, and TTM Technologies Inc. (NASDAQ:TTMI) ranked 7th on this list. Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 fell […]",
    "symbols": []
-  },
-  {
-   "title": "Chip stocks' slide nears $5 trillion as Nvidia hits most extreme selling level since 2019",
-   "link": "https://finance.yahoo.com/markets/article/chip-stocks-slide-nears-5-trillion-as-nvidia-hits-most-extreme-selling-level-since-2019-191532559.html",
-   "published": "2026-11-10T19:15:32Z",
-   "publisher": "",
-   "summary": "Nvidia and memory stocks are dragging chips lower again after a hot inflation report, even as most S&P 500 stocks hold up.",
-   "symbols": []
-  },
-  {
-   "title": "Beyond AI Fever: Navigating a Complex IPO Environment, 6th Palm Beach CorpGov Forum",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-ai-fever-navigating-complex-191345740.html",
-   "published": "2026-11-10T19:13:45Z",
-   "publisher": "",
-   "summary": "CorpGov hosted the sixth annual Palm Beach CorpGov Forum on Nov. 4-5, 2026, at the Palm Beach Lake Pavilion and The Cove Club, both located waterfront with sweeping views of Palm Beach Island, along with a reception at Cucina Palm Beach. The panel called “Beyond AI Fever: Navigating a Complex IPO Environment” took place on […] The post Beyond AI Fever: Navigating a Complex IPO Environment, 6th Pal",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 AI Stocks With Revenue Growth Over 41%",
-   "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-stocks-revenue-growth-191330590.html",
-   "published": "2026-11-10T19:13:30Z",
-   "publisher": "",
-   "summary": "Anthropic’s push for a valuation of roughly $1.4t, backed by heavy commitments from giants like Nvidia, Microsoft and Google, shows how much money is chasing the computing muscle behind AI models. The big opportunity now sits with the companies that sell that raw horsepower. This article breaks down three stocks from a focused AI infrastructure and cloud screen that aims to capture that theme. The",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "IREN Stocks Fall 3.41% as Rating Cut Follows Slip in $4 Billion ARR Target",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/iren-stocks-fall-3-41-191112639.html",
-   "published": "2026-11-10T19:11:12Z",
-   "publisher": "",
-   "summary": "A fresh downgrade lands days after the AI cloud provider pushed its contracted revenue run-rate goal into early 2027.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Dow Leader Amazon Approaches Latest Buy Point As Ferrari Races Higher On Formula 1 Strength",
-   "link": "https://finance.yahoo.com/m/140069ae-8a59-3b10-9880-bd0bd13cff6d/dow-leader-amazon-approaches.html",
-   "published": "2026-11-10T19:10:36Z",
-   "publisher": "",
-   "summary": "Dow Jones leader Amazon stock and Ferrari are within striking distance of new buy points amid a tough market environment.",
-   "symbols": []
-  },
-  {
-   "title": "Caterpillar (CAT) Is Amongst The Notable Names Insiders Are Loading Up On After the Recent Crash",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-amongst-notable-names-191027709.html",
-   "published": "2026-11-10T19:10:27Z",
-   "publisher": "",
-   "summary": "We just published a list of 10 Buy the Dip Stocks Insiders Are Loading Up On After the Recent Market Sell-Off, and Caterpillar Inc. (NYSE:CAT) ranked 8th on this list. Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 fell […]",
-   "symbols": []
-  },
-  {
-   "title": "Independent Board Member Increases Stake in SPX Technologies (SPXC) Following Stock’s Bearish Run",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/independent-board-member-increases-stake-190818364.html",
-   "published": "2026-11-10T19:08:18Z",
-   "publisher": "",
-   "summary": "We just published a list of 10 Buy the Dip Stocks Insiders Are Loading Up On After the Recent Market Sell-Off, and SPX Technologies Inc. (NYSE:SPXC) ranked 9th on this list. Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 […]",
-   "symbols": []
-  },
-  {
-   "title": "Reasons to Hold Veeva Systems Stock in Your Portfolio for Now",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/reasons-hold-veeva-systems-stock-190600468.html",
-   "published": "2026-11-10T19:06:00Z",
-   "publisher": "",
-   "summary": "VEEV's strong Q2 results, expanding Vault CRM adoption and diversified product portfolio support growth prospects, though market saturation poses risks.",
-   "symbols": []
-  },
-  {
-   "title": "The Stock Market Is Shaky Right Now. Here's Why I'm Not Worried.",
-   "link": "https://www.fool.com/investing/2026/11/10/the-stock-market-is-shaky-right-now-heres-why-im-n/?.tsrc=rss",
-   "published": "2026-11-10T19:05:00Z",
-   "publisher": "",
-   "summary": "Investors shouldn't worry about a potential market crash.",
-   "symbols": []
-  },
-  {
-   "title": "Alphatec Holdings (ATEC) Is Garnering Insider Attention at the Back of a Recent Sell-Off",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/alphatec-holdings-atec-garnering-insider-190231841.html",
-   "published": "2026-11-10T19:02:31Z",
-   "publisher": "",
-   "summary": "We just published a list of 10 Buy the Dip Stocks Insiders Are Loading Up On After the Recent Market Sell-Off, and Alphatec Holdings Inc. (NASDAQ:ATEC) ranked 10th on this list. Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 […]",
-   "symbols": []
-  },
-  {
-   "title": "Micron & 2 Profitable Stocks to Buy Now for Explosive Upside",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/micron-2-profitable-stocks-buy-190000487.html",
-   "published": "2026-11-10T19:00:00Z",
-   "publisher": "",
-   "summary": "Micron, NVIDIA and Sandisk stand out as profitable stocks, combining net profit margins above 63% with strong expected earnings growth.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "MARA Holdings Stocks Jump 10.77% on $500 Million Buyback and Debt Paydown",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/mara-holdings-stocks-jump-10-185951256.html",
-   "published": "2026-11-10T18:59:51Z",
-   "publisher": "",
-   "summary": "The bitcoin miner sold 13,597 BTC to retire $750 million of bitcoin-backed debt and unveiled a buyback while pushing into AI computing.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Update: Equities Fall Intraday, Yields Surge Following Inflation Report",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/equities-fall-intraday-yields-surge-185510206.html",
-   "published": "2026-11-10T18:55:10Z",
-   "publisher": "",
-   "summary": "(Updates with latest market prices and developments.) US stocks fell and bond yields surged intra",
-   "symbols": []
-  },
-  {
-   "title": "Rate Trading Rose in October and a Fed Governor Leans Toward Backing a December Hike",
-   "link": "https://finance.yahoo.com/economy/policy/articles/rate-trading-rose-october-fed-185500013.html",
-   "published": "2026-11-10T18:55:00Z",
-   "publisher": "",
-   "summary": "Market Updates News Commentary - U.S. stocks were lower and the 10-year Treasury yield was higher on Tuesday, the day the government released October consumer price data. As of 12:44 p.m. ET, the S&P 500 was down 0.94% at 7,478.79, the Nasdaq Composite was down 1.61% at 24,847.02, and the 10-year yield was 5.01%, compared with 4.86% at Monday's close. Since late October, exchange operators and tra",
-   "symbols": []
-  },
-  {
-   "title": "Hims & Hers Drops 18% as Q3 Loss and Profit Outlook Cut Disappoint; Novo Nordisk Slides 2%, Eli Lilly Holds Steady",
-   "link": "https://247wallst.com/investing/2026/11/10/hims-hers-drops-18-as-q3-loss-and-profit-outlook-cut-disappoint-novo-nordisk-slides-2-eli-lilly-holds-steady/?.tsrc=rss",
-   "published": "2026-11-10T18:52:32Z",
-   "publisher": "",
-   "summary": "Revenue jumped nearly 49%, yet Hims & Hers investors fled anyway. Behind the selloff sit shrinking margins, a subscriber slip, and a bet on branded GLP-1 drugs the company doesn't even make.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "$1,000 Invested in KLA 10 Years Ago Would Be Worth Over $21,000 Today",
-   "link": "https://247wallst.com/investing/2026/11/10/1000-invested-in-kla-10-years-ago-would-be-worth-over-21000-today/?.tsrc=rss",
-   "published": "2026-11-10T18:47:29Z",
-   "publisher": "",
-   "summary": "KLA turned a niche chip-inspection business into an AI choke point and rewarded patient holders handsomely. Now the stock has been cut nearly in half, and the next move depends on export rules, memory costs, and one record-setting forecast.",
-   "symbols": []
-  },
-  {
-   "title": "Nvidia in the hot seat, Anthropic to test the IPO market, hotter-than-expected US inflation",
-   "link": "https://finance.yahoo.com/video/nvidia-in-the-hot-seat-anthropic-to-test-the-ipo-market-hotter-than-expected-us-inflation-184626512.html",
-   "published": "2026-11-10T18:46:26Z",
-   "publisher": "",
-   "summary": "Host Kevin Kelly, Kelly Intelligence Founder, CEO, and CCO, and his panel of experts weigh in on the alleged plot to spy on Nvidia's Jensen Huang, why retail investors should wait for Anthropic's IPO instead of chasing private markets, and what the next moves should be for the Federal Reserve after the latest inflation print. Today's panel includes Drew Pettit, Roundhill Investments' Chief Investm",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Micron’s Valuation Is “Insane” (in a Good Way). Here’s the Upside Scenario",
-   "link": "https://www.tikr.com/blog/microns-valuation-is-insane-in-a-good-way-heres-the-upside-scenario?ref=yahoofinance&tlnk=yf-261110-wjvjpp3q&.tsrc=rss",
-   "published": "2026-11-10T18:45:29Z",
-   "publisher": "",
-   "summary": "Key TakeawaysMicron fell 17. 5% on Thursday, Nov.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Sector Update: Financial Stocks Advance Tuesday Afternoon",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-tuesday-184145611.html",
-   "published": "2026-11-10T18:41:45Z",
-   "publisher": "",
-   "summary": "Financial stocks were advancing in Tuesday afternoon trading, with the NYSE Financial Index up 0.2%",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Par Pacific Is Now Undervalued: Is It a Strong Entry Point?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/par-pacific-now-undervalued-strong-184100364.html",
-   "published": "2026-11-10T18:41:00Z",
-   "publisher": "",
-   "summary": "PARR trades at a steep industry discount, while flexible crude sourcing and favorable refining trends strengthen its outlook. Is now the time to buy?",
-   "symbols": []
-  },
-  {
-   "title": "Update: US Equity Indexes Drop as October's Inflation Print Boosts Fed Policy Tightening Odds",
-   "link": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-drop-october-183806175.html",
-   "published": "2026-11-10T18:38:06Z",
-   "publisher": "",
-   "summary": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
-   "symbols": []
-  },
-  {
-   "title": "The US Greenback Rises Against the Canadian Dollar as Higher US CPI Adds to Rate Hike Expectations",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-greenback-rises-against-canadian-183454439.html",
-   "published": "2026-11-10T18:34:54Z",
-   "publisher": "",
-   "summary": "The US dollar strengthened against Canada's loonie Tuesday afternoon on expectations the Federal Res",
-   "symbols": []
-  },
-  {
-   "title": "Oil Prices Just Fell to Their Lowest Since August as Trump Says the Iran War Is ‘Effectively Over’",
-   "link": "https://247wallst.com/investing/2026/11/10/oil-prices-just-fell-to-their-lowest-since-august-as-trump-says-the-iran-war-is-effectively-over/?.tsrc=rss",
-   "published": "2026-11-10T18:34:53Z",
-   "publisher": "",
-   "summary": "Futures sank on words alone, with no signed deal and Iran denying any talks exist. Why did one oil fund crater while Exxon and Chevron barely flinched, and what number could reverse the slide?",
-   "symbols": []
-  },
-  {
-   "title": "US oil output to reach record 13.9 million bpd in 2026",
-   "link": "https://finance.yahoo.com/energy/articles/us-oil-output-reach-record-183440109.html",
-   "published": "2026-11-10T18:34:40Z",
-   "publisher": "",
-   "summary": "Investing.com -- US crude production is projected to reach 13.9 million barrels per day in 2026, marking the fourth consecutive year of record output, the Energy Information Administration said Tuesday.",
-   "symbols": []
-  },
-  {
-   "title": "How Micron Stock Can Soar 148% and End Its Slump",
-   "link": "https://finance.yahoo.com/m/55b989f2-5d6a-398c-b346-62d37789e968/how-micron-stock-can-soar.html",
-   "published": "2026-11-10T18:31:00Z",
-   "publisher": "",
-   "summary": "Micron stock continues to retreat but one analyst thinks shares can surge higher from here.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Sector Update: Energy Stocks Mixed Tuesday Afternoon",
-   "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-tuesday-182754599.html",
-   "published": "2026-11-10T18:27:54Z",
-   "publisher": "",
-   "summary": "Energy stocks were mixed Tuesday afternoon, with the NYSE Energy Sector Index fractionally lower and",
-   "symbols": []
-  },
-  {
-   "title": "Trump Media Pledged 11,385 Bitcoin. Could a $1 Billion Note Demand Force It to Sell?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/10/trump-media-pledged-11385-bitcoin-could-a-1-billion-note-demand-force-it-to-sell/?.tsrc=rss",
-   "published": "2026-11-10T18:24:15Z",
-   "publisher": "",
-   "summary": "A $1 billion cash option hits Trump Media's lenders on November 30, and thousands of its Bitcoin sit locked as collateral. The filing stays silent on how it will pay, but one clue could reveal what happens next.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Is Altria's 5.8% Dividend Yield Too Good to Be True Heading Into 2027?",
-   "link": "https://www.fool.com/investing/2026/11/10/is-altria-58-dividend-yield-too-good-2027/?.tsrc=rss",
-   "published": "2026-11-10T18:23:00Z",
-   "publisher": "",
-   "summary": "Skepticism around Altria's dividend is understandable, but the payout is safer than certain metrics suggest.",
-   "symbols": []
-  },
-  {
-   "title": "Midterm Meltdowns: 3 Top Tech Stocks Down Big Since the Election Results",
-   "link": "https://www.fool.com/investing/2026/11/10/midterm-meltdowns-3-top-tech-stocks-down-big-since-the-election-results/?.tsrc=rss",
-   "published": "2026-11-10T18:22:01Z",
-   "publisher": "",
-   "summary": "The midterm elections took place last week, and some big names in tech have been falling sharply, potentially creating some exciting buying opportunities in the process.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Sector Update: Financial",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-182139875.html",
-   "published": "2026-11-10T18:21:39Z",
-   "publisher": "",
-   "summary": "Financial stocks were advancing in Tuesday afternoon trading, with the NYSE Financial Index up 0.2%",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Google, Nvidia and Microsoft “Literally Feeding Themselves Money” with $26 Billion Anthropic IPO Buy",
-   "link": "https://www.tikr.com/blog/google-nvidia-and-microsoft-literally-feeding-themselves-money-with-26-billion-anthropic-ipo-buy?ref=yahoofinance&tlnk=yf-261110-4fh7rrpp&.tsrc=rss",
-   "published": "2026-11-10T18:21:34Z",
-   "publisher": "",
-   "summary": "Key TakeawaysAlphabet’s Google, Nvidia, Microsoft, Broadcom, AMD, Micron and TSMC will buy $26 billion of Anthropic’s shares at its IPO price, on top of an offering of up to $64. 4 billion.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Anthropic IPO Could Value Claude Maker at $1.4 Trillion",
-   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-could-value-claude-182049858.html",
-   "published": "2026-11-10T18:20:49Z",
-   "publisher": "",
-   "summary": "Nvidia, Microsoft, Google and four other companies are buying $26 billion of stock in a private placement",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Elon Musk wants to build AI satellite factories on the moon—and now SpaceX will compete for NASA’s $10 billion in contracts to build a lunar base",
-   "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-wants-build-ai-181706288.html",
-   "published": "2026-11-10T18:17:06Z",
-   "publisher": "",
-   "summary": "NASA wants to put astronauts on the moon for the long haul, while SpaceX envisions industrializing it long-term.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Top strategist: Nvidia CEO Jensen Huang's affair highlights key risk for tech companies",
-   "link": "https://finance.yahoo.com/technology/article/top-strategist-nvidia-ceo-jensen-huangs-affair-highlights-key-risk-for-tech-companies-184212599.html",
-   "published": "2026-11-10T18:17:05Z",
-   "publisher": "",
-   "summary": "A new risk emerges for the S&P 500.",
-   "symbols": []
-  },
-  {
-   "title": "Centauri Minerals Provides Field Update from Greater Exploration Portfolio in Northern Argentina",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/centauri-minerals-provides-field-greater-181400711.html",
-   "published": "2026-11-10T18:14:00Z",
-   "publisher": "",
-   "summary": "VANCOUVER, British Columbia, Nov. 10, 2026 (GLOBE NEWSWIRE) -- Centauri Minerals Inc. (TSX-V: CENT) (OTCQX: CNTIF (“Centauri” or the “Company”) is pleased to provide a field update from recent exploration activities at its 100%-owned exploration portfolio projects in Northern Argentina. The current Phase 1 exploration drilling program at the Rio Grande gold-copper project (“Rio Grande”) is the top",
-   "symbols": []
-  },
-  {
-   "title": "Verizon Communications (VZ) Lands Thames Freeport 5G Role As Takeover Talk Returns",
-   "link": "https://finance.yahoo.com/technology/articles/verizon-communications-vz-lands-thames-181346745.html",
-   "published": "2026-11-10T18:13:46Z",
-   "publisher": "",
-   "summary": "Verizon Communications (NYSE:VZ) has been selected to deploy a major private 5G platform at Thames Freeport in Europe. The Thames Freeport project is described as one of Europe's largest private 5G networks for logistics and manufacturing operations. Analysts are discussing the possibility that SpaceX could pursue a takeover of a large US wireless operator, with Verizon mentioned among potential t",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday",
-   "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-us-181343803.html",
-   "published": "2026-11-10T18:13:43Z",
-   "publisher": "",
-   "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "XRP Fell 17% in a Week, More Than Any Other Major Coin. Is XRP Dead?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/10/xrp-fell-17-in-a-week-more-than-any-other-major-coin-is-xrp-dead/?.tsrc=rss",
-   "published": "2026-11-10T18:12:43Z",
-   "publisher": "",
-   "summary": "XRP is bleeding faster than Bitcoin, Ethereum, and Solana, and its price now sits near a level that has held for a year. Traders are heading for the exits, but one group of holders has refused to budge.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Space-Based Solar Power Race Heats Up: ETFs to Play a New Growth Theme",
-   "link": "https://finance.yahoo.com/energy/articles/space-based-solar-power-race-181100192.html",
-   "published": "2026-11-10T18:11:00Z",
-   "publisher": "",
-   "summary": "Looking beyond traditional AI and tech? Space-based solar power is emerging as a new growth theme, with space and solar ETFs offering ways to play it.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "AI Data Center Suppliers Report Growth as October Inflation Data Reaches Wall Street",
-   "link": "https://finance.yahoo.com/technology/ai/articles/ai-data-center-suppliers-report-181000410.html",
-   "published": "2026-11-10T18:10:00Z",
-   "publisher": "",
-   "summary": "Equity Insider News Commentary - U.S. stocks were lower in late morning trading on Tuesday, the day the Bureau of Labor Statistics published its October Consumer Price Index. As of 11:42 a.m. ET, the S&P 500 was down 57.20 points, or 0.76%, at 7,492.74, the Nasdaq Composite was down 269.19 points, or 1.07%, at 24,983.95, and the Dow Jones Industrial Average was down 357.50 points, or 0.68%, at 52,",
-   "symbols": []
-  },
-  {
-   "title": "Sargasso Capital Management Announces Project Kepler: The Case for Combining Tesla & SpaceX",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sargasso-capital-management-announces-project-180800626.html",
-   "published": "2026-11-10T18:08:00Z",
-   "publisher": "",
-   "summary": "NEW YORK, Nov. 10, 2026 (GLOBE NEWSWIRE) -- Sargasso Capital Management, a New York-based hedge fund, today announced “Project Kepler: The Case for Combining Tesla & SpaceX,” a report by founder Patrick Feeley advising the two companies to combine. Read it at projectkepler.co. Tesla and SpaceX have each formed a special committee to study a combination. The report is written for those committees a",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Is Chevron Stock A Real Bargain?",
-   "link": "https://www.trefis.com/stock/cvx/articles/623939/is-chevron-stock-a-real-bargain/2026-11-10?.tsrc=rss",
-   "published": "2026-11-10T18:05:03Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Hims & Hers Celebrated Its Eli Lilly Deal, Then Lost a Quarter of Its Value in a Week",
-   "link": "https://247wallst.com/investing/etf/2026/11/10/hims-hers-celebrated-its-eli-lilly-deal-then-lost-a-quarter-of-its-value-in-a-week/?.tsrc=rss",
-   "published": "2026-11-10T18:03:50Z",
-   "publisher": "",
-   "summary": "A pharma giant's blessing was supposed to rescue Hims & Hers, yet the stock cratered within days. Behind the earnings misses sits a deliberate gamble, and three signals before January will show whether it pays off.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
   }
  ]
 }
