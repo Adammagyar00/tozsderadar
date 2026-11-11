@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T10:55:54Z",
+ "builtAt": "2026-11-11T11:55:41Z",
  "digests": [
   {
    "calendar": [
@@ -1114,7 +1114,7 @@
      "category": "Figyelőlista",
      "impact": "pozitív",
      "origin": "yahoo",
-     "source": "Yahoo Finance · Stocktwits",
+     "source": "Yahoo Finance · Stocktwits · Investing.com · Reuters",
      "summary": "Nyitás előtt emelkednek az amerikai határidős indexek, a befektetők figyelme a CoreWeave, a GoPro, a SpaceX (SPCX), az Nvidia és a Netlist részvényeire irányul. Az olajár kéthavi mélypontjáról emelkedett, mert a Hormuzi-szoros környéki hajótámadások ébren tartják a kínálati aggodalmakat.",
      "symbols": [
       "VOO",
@@ -1256,6 +1256,171 @@
      "title": "Bloomberg: az Adler Pelzer befektetési alapoktól keres pénzt refinanszírozása lezárásához",
      "url": "https://www.bloomberg.com/news/articles/2026-11-11/adler-pelzer-in-talks-with-investment-funds-to-close-refinancing",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance ETF-forgalmi adatai szerint az ETF-ek november 9-én, hétfőn nettó 554,6 millió dollár értékben vásároltak Micron-részvényt.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Hétfőn 554,6 millió dollárnyi Micron-részvényt vásároltak nettó módon az ETF-ek",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-sees-554-6-110112648.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance ETF-forgalmi adatai szerint az ETF-ek november 9-én nettó 222,6 millió dollár értékben vettek Marvell-részvényt.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "Hétfőn 222,6 millió dollárnyi Marvell-részvényt vásároltak nettó módon az ETF-ek",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-sees-222-6-110213962.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az Invesco QQQ Trust november 9-én mind a 101 tételében növelte a pozícióját, összesen 2,44 milliárd dollár értékben; a legnagyobb, 206,7 millió dolláros vásárlás az Apple volt.",
+     "symbols": [
+      "QQQ"
+     ],
+     "title": "A QQQ hétfőn 2,44 milliárd dollárnyi részvényt vett, legtöbbet Apple-ből",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-buys-110316461.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az XLV november 9-én 320,2 millió dollár értékben adott el részvényeket: mind a 60 pozícióját csökkentette, köztük az Eli Lillyt és a Johnson & Johnsont, és semmit nem vett.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "A State Street egészségügyi ETF-je (XLV) Eli Lilly- és J&J-részvényeket adott el hétfőn",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-health-care-spdr-110402787.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Financial Select Sector SPDR (XLF) november 9-én mind a 76 pozícióját növelte, összesen 202,9 millió dollár értékben; a vásárlásokat a Berkshire Hathaway (26,7 millió dollár) és a JPMorgan vezette.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "A pénzügyi szektor ETF-je (XLF) hétfőn a Berkshire és a JPMorgan papírjaiból vett a legtöbbet",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/financial-select-sector-spdr-xlf-110424944.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Federal Reserve",
+     "summary": "A Fed november 9-i elemzése szerint a járvány után az olajár-sokkok erősebben begyűrűznek a maginflációba: a relatív olajár-infláció 10 pontos emelkedése most kb. 0,14 százalékponttal növeli a maginflációt, a korábbi 0,01 helyett. Az infláció tartósabbá is vált; a szerzők felső becslése szerint a maginfláció 2027-ben 2,8% közelébe kerülhet, de ez nem hivatalos előrejelzés.",
+     "symbols": [],
+     "title": "Fed-kutatás: az energiaárak sokkal erősebben hatnak a maginflációra, mint a járvány előtt",
+     "url": "https://finance.yahoo.com/economy/article/energy-prices-matter-way-more-for-inflation-than-they-used-to-fed-report-110000366.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · MT Newswires",
+     "summary": "A Commerzbank szerint az amerikai állampapír-határidős árak a keddi eladási hullám utáni mélypont közelében maradtak, miközben az amerikai részvényindexek határidős árai emelkednek, az olajár pedig enyhén felfelé mozdul.",
+     "symbols": [],
+     "title": "Commerzbank: az amerikai kötvény-határidős árak a mélypont közelében, a részvény-határidősök emelkednek",
+     "url": "https://finance.yahoo.com/economy/policy/articles/commerzbank-says-treasury-futures-stay-111340313.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Bank of America megtartotta vételi ajánlását, de 80 euróra vágta az Infineon célárát. Indoklása: kérdéses az AI-beruházások finanszírozása és megtérülése, és szigorodhat az adatközpontok engedélyezése; a 2027-es és 2028-as EPS-becslést kb. 1%-kal csökkentette a magasabb kamatterhek miatt.",
+     "symbols": [],
+     "title": "A BofA 88-ról 80 euróra csökkentette az Infineon célárát az AI-beruházások miatti aggodalmak miatt",
+     "url": "https://www.investing.com/news/stock-market-news/infineon-stock-target-lowered-at-bofa-on-growing-ai-concerns-5018283",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Alcon korrigált EPS-e 0,91 dollár lett (konszenzus: 0,88), de a cég 12–14%-ra csökkentette a mag-EPS növekedési sávját, és lassabb, kb. 3%-os szemészeti piaci növekedést vár. A Reuters szerint a részvény mintegy 6%-ot esett, ez fél éve a legrosszabb napja lehet.",
+     "symbols": [],
+     "title": "5–6%-ot esett az Alcon a vártnál jobb profit ellenére a szűkített kilátás miatt",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-alcon-stock-sliding-today-93CH-5018285",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az ASML ADR-je kb. 4%-kal emelkedett a tőzsdenyitás előtt, a cég bejelentette a 2026–2028-as sajátrészvény-visszavásárlási programja szerinti vásárlásokat. A BE Semiconductor kb. 5%-ot erősödött az AI-hoz kötődő megrendelések és az Applied Materials kb. 20%-os részesedése nyomán.",
+     "symbols": [],
+     "title": "Emelkedik az ASML és a BE Semiconductor: a CoreWeave jelentése felhúzta az európai chipcégeket",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-asml-nv-adr-stock-rallying-today-93CH-5018304",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Spirax Group október 31-ig tartó tízhavi forgalmi jelentése szerint az organikus árbevétel-növekedés és a működési árrés a várakozásoknak megfelelő lett, és meghaladta az első félévit. A cég megerősítette az egész éves, közepes egyszámjegyű organikus növekedési célt.",
+     "symbols": [],
+     "title": "4%-kal emelkedett a Spirax-Sarco a gyorsuló organikus növekedés nyomán",
+     "url": "https://www.investing.com/news/stock-market-news/spiraxsarco-shares-gain-4-on-improved-sales-growth-93CH-5018321",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Citi szerint a jen felértékelődési lendületet kaphat, ha a japán részvények tovább esnek. Ha a piacok helyreállnak és a dollár/jen 160 körül jár, a bank szerint a japán kormány ismét beavatkozhat a jen védelmében. A Citi alapforgatókönyve továbbra is a részvénypiac év végi emelkedése.",
+     "symbols": [],
+     "title": "Citi: a jen erősödhet, ha a japán részvények tovább korrigálnak",
+     "url": "https://www.investing.com/news/forex-news/citi-sees-yen-strengthening-risk-if-japanese-stocks-correct-further-93CH-5018320",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T11:50:00Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Index · Telex",
+     "summary": "Ruff Bálint miniszter a kormány nevében háromnapos rendkívüli parlamenti ülést kezdeményezett november 16–18-ra. Napirenden a 2027-es központi költségvetés és az azt megalapozó törvényjavaslat, valamint az amerikai–magyar polgári nukleáris együttműködési megállapodás.",
+     "symbols": [],
+     "title": "Rendkívüli ülést kér a kormány jövő hétre a 2027-es költségvetés megtárgyalására",
+     "url": "https://index.hu/belfold/2026/11/11/ruff-balint-kormany-tisza-parlament-orszaggyules-ules-koltsegvetes",
+     "verified": true
     }
    ],
    "markets": [
@@ -1282,7 +1447,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T10:50:00Z",
+   "updatedAt": "2026-11-11T11:50:00Z",
    "watchlist": []
   },
   {
