@@ -1,13 +1,46 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-11T03:55:03Z",
+ "updatedAt": "2026-11-11T04:59:11Z",
  "items": [
   {
-   "title": "Elon Musk Just Warned SpaceX Revenue ‘Will Drop’ If Compute Gets Cheap. Deutsche Bank Raised Its 2028 Forecast $18 Billion Two Days Later",
-   "link": "https://247wallst.com/investing/2026/11/10/elon-musk-just-warned-spacex-revenue-will-drop-if-compute-gets-cheap-deutsche-bank-raised-its-2028-forecast-18-billion-two-days-later/?.tsrc=rss",
-   "published": "2026-11-11T03:17:55Z",
+   "title": "Eneos raises FY profit forecast by ~50% on stronger oil markets",
+   "link": "https://finance.yahoo.com/energy/articles/eneos-raises-fy-profit-forecast-044636723.html",
+   "published": "2026-11-11T04:46:36Z",
    "publisher": "",
-   "summary": "Elon Musk wrote on Nov. 8 that SpaceX revenue \"will drop\" if compute becomes plentiful and cheap. Two days later Deutsche Bank raised its 2028 forecast for the company by $18 billion, betting the data-center backlash keeps compute scarce. Here is what both mean for a retiree who bought 1,000 SpaceX shares at $161 on IPO day, with Starship Flight 15 due Friday.",
+   "summary": "Investing.com-- Japan's Eneos Holdings (TYO:5020) raised its full-year profit forecast by nearly 50% on Wednesday, as stronger crude oil prices and favourable overseas petroleum product markets boosted earnings, offsetting impairment losses in its renewable energy business.",
+   "symbols": []
+  },
+  {
+   "title": "Asian shares mostly rise on AI chip demand despite Wall Street's retreat on inflation data",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-rise-ai-044620054.html",
+   "published": "2026-11-11T04:46:20Z",
+   "publisher": "",
+   "summary": "HONG KONG (AP) — Asian shares were mostly higher Wednesday, following a retreat on Wall Street as U. inflation rose higher than expected in October, while U.",
+   "symbols": []
+  },
+  {
+   "title": "Hyperscale Data Sells Last Bitcoin, Abandons $100M BTC Treasury Plan To Fund Michigan AI Data Center",
+   "link": "https://stocktwits.com/news-articles/markets/equity/hyperscale-data-sells-last-bitcoin-abandons-100-m-btc-treasury-plan-to-fund-michigan-ai-data-center/cNGDfnCR9JA?.tsrc=rss",
+   "published": "2026-11-11T04:45:18Z",
+   "publisher": "",
+   "summary": "Hyperscale Data projected third-quarter revenue at approximately $40 million, up approximately 64% from a year ago.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "RKLB Vs. SPCX: Which Space Stock Has More Upside As Rocket Lab’s Iridium Deal Deepens Spectrum Feud?",
+   "link": "https://stocktwits.com/news-articles/markets/equity/rklb-vs-spcx-more-upside-rocket-lab-iridium-deal-deepens-spectrum-feud/cNGDfj5R9Jq?.tsrc=rss",
+   "published": "2026-11-11T04:40:31Z",
+   "publisher": "",
+   "summary": "SpaceX says Rocket Lab’s $8 billion Iridium takeover could give its spectrum rival more power to obstruct competitors.",
    "symbols": [
     "SPCX",
     "BE",
@@ -19,11 +52,52 @@
    ]
   },
   {
-   "title": "JPMorgan Chase (JPM) Takes Lead Role In A Major AI IPO",
-   "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-chase-jpm-takes-lead-031258403.html",
-   "published": "2026-11-11T03:12:58Z",
+   "title": "US Gas Falls Below $4 for First Time Since July. Why Is Diesel Still Above $6?",
+   "link": "https://beincrypto.com/diesel-prices-lag-gas-below-4/?.tsrc=rss",
+   "published": "2026-11-11T04:30:49Z",
    "publisher": "",
-   "summary": "JPMorgan Chase (NYSE:JPM) is taking a lead role in Anthropic's upcoming IPO, handling domestic retail marketing and share allocations. CEO Jamie Dimon is set to join Anthropic co founder Dario Amodei in a live streamed discussion of the offering. The Anthropic IPO is widely viewed as a potential record setter for an AI listing, raising the profile of JPMorgan's investment banking franchise. The An",
+   "summary": "Gas prices fell below $4 for the first time since July, but diesel holds at $6.13 on thin stocks as traders price a December Fed hike.",
+   "symbols": []
+  },
+  {
+   "title": "Asian stocks mixed as CoreWeave lifts chipmakers; hot U.S. inflation weighs",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-mixed-coreweave-lifts-042658517.html",
+   "published": "2026-11-11T04:26:58Z",
+   "publisher": "",
+   "summary": "Investing.com -- Asian stocks were mixed on Wednesday as semiconductor shares rallied in Japan, South Korea and Taiwan, while Hong Kong and Chinese technology stocks came under pressure.",
+   "symbols": []
+  },
+  {
+   "title": "Jim Cramer Ties CPI Relief to $40 Oil, but Brent Trades Over $92",
+   "link": "https://beincrypto.com/jim-cramer-40-oil-cpi-relief/?.tsrc=rss",
+   "published": "2026-11-11T04:25:30Z",
+   "publisher": "",
+   "summary": "Jim Cramer ties CPI relief to $40 oil, but Brent trades near $91 and core inflation still ran hot in October.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "If the Tech Stock Sell-Off Turns Into a Bear Market, History Says This Investing Strategy Has Never Failed",
+   "link": "https://www.fool.com/investing/2026/11/10/if-the-tech-stock-sell-off-turns-into-a-bear-marke/?.tsrc=rss",
+   "published": "2026-11-11T04:20:00Z",
+   "publisher": "",
+   "summary": "The Nasdaq Composite is 11% off its recent high.",
+   "symbols": []
+  },
+  {
+   "title": "SpaceX's biggest business this quarter may not be rockets",
+   "link": "https://www.thestreet.com/investing/spacex-biggest-business-this-quarter-colossus-2-computing-contracts-not-rockets?.tsrc=rss",
+   "published": "2026-11-11T04:07:00Z",
+   "publisher": "",
+   "summary": "A Deutsche Bank analyst says SpaceX’s least flashy business is about to become its biggest. The fine print is worth a look.",
    "symbols": [
     "SPCX",
     "BE",
@@ -31,6 +105,46 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Red-Hot Inflation Data And Nvidia Losses: CRWV, TTWO, NLST, NBIS In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-after-red-hot-inflation-data-and-nvidia-losses-crwv-ttwo-nlst-nbis-in-focus/cNGDaIOR9J8?.tsrc=rss",
+   "published": "2026-11-11T03:51:15Z",
+   "publisher": "",
+   "summary": "October’s Consumer Price Index data came in red hot, rising 0.4% month-on-month, ahead of the consensus estimates.",
+   "symbols": []
+  },
+  {
+   "title": "Elon Musk Just Warned SpaceX Revenue ‘Will Drop’ If Compute Gets Cheap. Deutsche Bank Raised Its 2028 Forecast $18 Billion Two Days Later",
+   "link": "https://247wallst.com/investing/2026/11/10/elon-musk-just-warned-spacex-revenue-will-drop-if-compute-gets-cheap-deutsche-bank-raised-its-2028-forecast-18-billion-two-days-later/?.tsrc=rss",
+   "published": "2026-11-11T03:17:55Z",
+   "publisher": "",
+   "summary": "Elon Musk wrote on Nov. 8 that SpaceX revenue \"will drop\" if compute becomes plentiful and cheap. Two days later Deutsche Bank raised its 2028 forecast for the company by $18 billion, betting the data-center backlash keeps compute scarce. Here is what both mean for a retiree who bought 1,000 SpaceX shares at $161 on IPO day, with Starship Flight 15 due Friday.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "JPMorgan Chase (JPM) Takes Lead Role In A Major AI IPO",
+   "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-chase-jpm-takes-lead-031258403.html",
+   "published": "2026-11-11T03:12:58Z",
+   "publisher": "",
+   "summary": "JPMorgan Chase (NYSE:JPM) is taking a lead role in Anthropic's upcoming IPO, handling domestic retail marketing and share allocations. CEO Jamie Dimon is set to join Anthropic co founder Dario Amodei in a live streamed discussion of the offering. The Anthropic IPO is widely viewed as a potential record setter for an AI listing, raising the profile of JPMorgan's investment banking franchise. The An",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -489,12 +603,12 @@
    "publisher": "",
    "summary": "Shares for ANT will hit the market at $70 to $78 a share, with a $1.3 trillion valuation, which is lower than experts thought earlier this year.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -822,12 +936,12 @@
    "publisher": "",
    "summary": "After 15 years of artificial liquidity pumped in by global central banks, investors have been conditioned to believe tech valuations operate under special rules of physics where every decline is an automatic bargain.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -863,12 +977,12 @@
    "publisher": "",
    "summary": "SpaceX announces date for Starship Flight 15. The mission is key for Elon Musk's future plans as SpaceX plans to attempt a tower catch.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2870,165 +2984,6 @@
     "VOO",
     "XDW0"
    ]
-  },
-  {
-   "title": "SpaceX’s AI Business Now Outsells Starlink, as Starlink’s Revenue per User Falls to $69 From $83",
-   "link": "https://www.tikr.com/blog/spacexs-ai-business-now-outsells-starlink-as-starlinks-revenue-per-user-falls-to-69-from-83?ref=yahoofinance&tlnk=yf-261110-3gwpr5fp&.tsrc=rss",
-   "published": "2026-11-10T16:08:00Z",
-   "publisher": "",
-   "summary": "Key TakeawaysSpaceX’s Super Intelligence segment brought in $7. 56 billion of third-quarter revenue, more than the $5.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "MARA Holdings Jumps 11% on $500 Million Buyback, Riot Platforms Climbs 2% on Jefferies Upgrade Despite Bitcoin’s Drop; Core Scientific Edges Higher",
-   "link": "https://247wallst.com/investing/2026/11/10/mara-holdings-jumps-11-on-500-million-buyback-riot-platforms-climbs-2-on-jefferies-upgrade-despite-bitcoins-drop-core-scientific-edges-higher/?.tsrc=rss",
-   "published": "2026-11-10T16:04:19Z",
-   "publisher": "",
-   "summary": "Bitcoin is sliding and Fed hike odds are climbing, yet three miners are rallying anyway. One of them posted a huge earnings beat that hides a much weaker quarter underneath, and the real test comes before year end.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Eli Lilly vs Novo Nordisk: What's the Better GLP-1 Stock to Buy?",
-   "link": "https://www.fool.com/investing/2026/11/10/eli-lilly-vs-novo-nordisk-what-s-the-better-glp-1-stock-to-buy/?.tsrc=rss",
-   "published": "2026-11-10T16:04:02Z",
-   "publisher": "",
-   "summary": "These stocks have been going in different directions over the past year, but that trend may not necessarily continue.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Eli Lilly and Company (LLY) Grew Revenue 48% as GLP-1 Demand Accelerated: Can Growth Continue?",
-   "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-company-lly-grew-155943243.html",
-   "published": "2026-11-10T15:59:43Z",
-   "publisher": "",
-   "summary": "Liontrust Investment Partners recently released its “GF Global Dividend Fund” Q3 2026 investor letter. A copy of the letter can be downloaded here. The Fund returned -0.6% in the third quarter of 2026, underperforming the MSCI AC World Index, which gained 1.6%. However, the Fund remained ahead of the benchmark year to date, with a […]",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Semiconductor Stocks Will Split Into ‘Haves And Have-Nots,’ Raymond James Strategist Says",
-   "link": "https://stocktwits.com/news-articles/markets/equity/tsm-mu-stocks-look-much-more-compelling-than-the-chip-index/cNGuNKiR9JI?.tsrc=rss",
-   "published": "2026-11-10T15:59:01Z",
-   "publisher": "",
-   "summary": "Strategist Matt Orton told CNBC that Nvidia looks cheap but may not be “compelling” given its CEO investigation.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "AST SpaceMobile Sinks 8% on Q3 Miss as BofA Slashes Target to $45 Over Rocket Risk",
-   "link": "https://www.tikr.com/blog/ast-spacemobile-sinks-8-on-q3-miss-as-bofa-slashes-target-to-45-over-rocket-risk?ref=yahoofinance&tlnk=yf-261110-2gq7937j&.tsrc=rss",
-   "published": "2026-11-10T15:53:15Z",
-   "publisher": "",
-   "summary": "Key TakeawaysAST SpaceMobile fell 8% today on a third-quarter miss and BofA’s price target cut to $45 from $80. Revenue nearly tripled to $42.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Bitcoin Just Did Something Completely Unexpected. History Says This Will Happen Next.",
-   "link": "https://www.fool.com/investing/2026/11/10/bitcoin-just-did-something-completely-unexpected/?.tsrc=rss",
-   "published": "2026-11-10T15:50:00Z",
-   "publisher": "",
-   "summary": "Where does Bitcoin go after the midterm elections? History provides some clues.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "NYSE Taps Avalanche for 24/7 Tokenized Stock Trading Platform",
-   "link": "https://www.coinage.media/2026/nyse-taps-avalanche-for-24-7-tokenized-stock-trading-platform?.tsrc=rss",
-   "published": "2026-11-10T15:46:00Z",
-   "publisher": "",
-   "summary": "Ava Labs President Charley Cooper explains how Avalanche won NYSE",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Micron Cratered Losing 30% in 1 Month: 240% Gains Lie Ahead According to This Wall Street Pro",
-   "link": "https://247wallst.com/investing/2026/11/10/micron-cratered-losing-30-in-1-month-240-gains-lie-ahead-according-to-this-wall-street-pro/?.tsrc=rss",
-   "published": "2026-11-10T15:45:12Z",
-   "publisher": "",
-   "summary": "Micron posted record revenue and beat every estimate, yet its stock still shed nearly a third of its value in a month. One analyst says the panic is mispriced, and the market's forward earnings math is hard to ignore.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "A Nasdaq Bounce Didn’t Last Long",
-   "link": "https://finance.yahoo.com/m/f2951594-5a3e-3646-9317-8e58e0679243/a-nasdaq-bounce-didn%E2%80%99t-last.html",
-   "published": "2026-11-10T15:42:28Z",
-   "publisher": "",
-   "summary": "Not everyone on Wall Street is done discount-hunting in tech, but dip buyers are having trouble sustaining a morning bounce.",
-   "symbols": []
   }
  ]
 }
