@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T19:56:09Z",
+ "builtAt": "2026-11-11T20:56:09Z",
  "digests": [
   {
    "calendar": [
@@ -1870,6 +1870,54 @@
      "title": "Bloomberg: az Iberdrola eladná németországi napelemparkjait",
      "url": "https://investing.com/news/stock-market-news/iberdrola-explores-sale-of-german-solar-assets--bloomberg-93CH-5019272",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-11T20:39:49Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A BeInCrypto szerint a bitcoint tartalékként tartó cégek eladásai ritka, kapitulációra utaló szintet értek el. Mindez abban az időszakban történik, amikor az MSCI az indexből kikerülő cégek kihirdetésére készül, és a Strategy (MicroStrategy) is kikerülhet.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Ritka szintet ért el a bitcoin-tartalékcégek eladása az MSCI Strategy-t érintő indexdöntése előtt",
+     "url": "https://beincrypto.com/bitcoin-treasury-capitulation-msci-strategy/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T20:39:49Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Motley Fool",
+     "summary": "A Motley Fool szerint az Oracle részvénye szerdán emelkedett. Ennek oka, hogy a CoreWeave erős negyedéves jelentése mérsékelte a mesterséges intelligenciához kötött eladósodással kapcsolatos félelmeket.",
+     "symbols": [],
+     "title": "Emelkedik az Oracle: a CoreWeave erős negyedéve enyhítette az AI-adóssággal kapcsolatos aggodalmakat",
+     "url": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T20:39:49Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · Investing.com · Yahoo Finance",
+     "summary": "A Jefferies vételi ajánlással és 134 dolláros célárral kezdte követni a Corning részvényét, mert szerinte a cég a mesterséges intelligencia miatti optikaiszál-hiány középpontjában áll. Az árfolyam szerdán napközben 7–10%-kal emelkedett; a CNBC szerint egy ponton több mint 10%-kal.",
+     "symbols": [],
+     "title": "7–10%-ot ugrott a Corning, miután a Jefferies vételi ajánlással kezdte követni",
+     "url": "https://www.cnbc.com/2026/11/11/stocks-moving-the-most-today-live-updates.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T20:39:49Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Investing.com · MarketBeat · Azenta közlemény",
+     "summary": "Az Azenta korrigált EPS-e 0,28 dollár lett a negyedik pénzügyi negyedévben, szemben a körülbelül 0,12 dolláros várakozással, és bevétele is meghaladta a becsléseket. A 2027-es pénzügyi évre 648–660 millió dolláros bevételt vár. A részvény szerdán 52 hetes csúcsra emelkedett.",
+     "symbols": [],
+     "title": "52 hetes csúcsra ugrott az Azenta a vártnál jobb negyedév és a kedvező 2027-es kilátás után",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-azenta-tops-q4-2026-estimates-as-shares-jump-96-93CH-5019258",
+     "verified": true
     }
    ],
    "markets": [
@@ -1896,7 +1944,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T19:39:31Z",
+   "updatedAt": "2026-11-11T20:39:49Z",
    "watchlist": []
   },
   {
