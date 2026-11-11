@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-11T11:55:41Z",
+ "builtAt": "2026-11-11T12:55:49Z",
  "digests": [
   {
    "calendar": [
@@ -1421,6 +1421,157 @@
      "title": "Rendkívüli ülést kér a kormány jövő hétre a 2027-es költségvetés megtárgyalására",
      "url": "https://index.hu/belfold/2026/11/11/ruff-balint-kormany-tisza-parlament-orszaggyules-ules-koltsegvetes",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Szerdán a nyitás előtti kereskedésben emelkedik az Nvidia és több chipcég árfolyama, miután a CoreWeave megemelte éves bevételi előrejelzését, ami enyhítette az AI-infrastruktúra iránti kereslettel kapcsolatos aggodalmakat. A Micron is az emelkedők között van (Benzinga, TipRanks); az Nvidia az előző két napon összesen mintegy 9,5%-ot esett.",
+     "symbols": [
+      "MU",
+      "QQQ"
+     ],
+     "title": "A CoreWeave emelt kilátása után nyitás előtt visszapattannak az Nvidia és a chipcégek, köztük a Micron",
+     "url": "https://finance.yahoo.com/technology/articles/nvidia-chip-stocks-rebound-premarket-120006021.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · The Information",
+     "summary": "A The Information értesülése szerint az Anthropic több mint 10 milliárd dollár értékű új üzletet tett közzé a tőzsdei bevezetése előtt. A részletekről a hírfolyam nem közölt további adatot.",
+     "symbols": [
+      "ANTHROPIC"
+     ],
+     "title": "Az Anthropic több mint 10 milliárd dollárnyi új megállapodást hozott nyilvánosságra",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-discloses-over-10b-in-new-deals--information-432SI-5018517",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint egy Wall Street-i elemzőház ellátási (kínálati) gondokra hivatkozva rontotta az Nvidia ajánlását, ami ritkaságnak számít a részvénynél. A leminősítés a nyitás előtti visszapattanás közben érkezett.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Ritka Wall Street-i leminősítést kapott az Nvidia ellátási problémák miatt",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-stock-gets-a-rare-wall-street-downgrade-on-supply-issues-5018471",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Bank of America elemzői szerint a vártnál magasabb októberi amerikai inflációs adat után a Fed decemberben akár 50 bázispontos kamatemelést is végrehajthat. A bank korábban 25 pontos lépéseket várt.",
+     "symbols": [],
+     "title": "BofA: az októberi infláció megnyitja az utat egy decemberi félpontos Fed-emelés előtt",
+     "url": "https://www.investing.com/news/stock-market-news/bofa-says-the-october-cpi-report-opens-the-door-to-a-50bp-december-hike-5018493",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az easyJet részvényesei megszavazták, hogy az Apollo 5,7 milliárd fontért megvásárolja a légitársaságot, így az ügylet közelebb került a lezáráshoz. Az ajánlat részvényenként 7,15 font készpénz; a lezárást 2027 első negyedévének végére várják.",
+     "symbols": [
+      "EZJ",
+      "APO"
+     ],
+     "title": "Az easyJet részvényesei jóváhagyták az Apollo 5,7 milliárd fontos felvásárlását",
+     "url": "https://www.investing.com/news/stock-market-news/easyjet-shareholders-approve-57-billion-apollo-takeover-5018468",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A német kormány gazdasági tanácsadó testületének (Sachverständigenrat) elnöke szerint a testület jelentősen megemelte a német gazdaság növekedésére vonatkozó előrejelzését. Tavasszal még 0,5%-os idei és 0,8%-os jövő évi bővülést vártak; ez egybevág a Bundesbank elnökének szerdai, erősebb növekedésről szóló szavaival.",
+     "symbols": [],
+     "title": "A német gazdasági tanácsadó testület jelentősen felfelé módosította növekedési előrejelzését",
+     "url": "https://www.investing.com/news/economy-news/german-economic-council-significantly-revised-up-growth-forecast-says-chair-5018572",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Thomson Reuters legfeljebb 500 millió dollárnyi saját részvényt vásárol vissza egy új, a torontói tőzsde által jóváhagyott program keretében. A cég korábbi, 600 millió dolláros programját júliusban fejezte be.",
+     "symbols": [
+      "TRI"
+     ],
+     "title": "A Thomson Reuters 500 millió dolláros sajátrészvény-visszavásárlást jelentett be",
+     "url": "https://finance.yahoo.com/news/thomson-reuters-announces-500-million-120000637.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A kvarckőlap-gyártó Caesarstone harmadik negyedéves egy részvényre jutó eredménye jobb lett a vártnál, a bevétele viszont elmaradt az elemzői konszenzustól. A jelentést jogi egyezségi tárgyalások miatt halasztották mára.",
+     "symbols": [
+      "CSTE"
+     ],
+     "title": "A Caesarstone EPS-e felülmúlta a várakozást, bevétele elmaradt tőle",
+     "url": "https://www.investing.com/news/earnings/caesarstone-beats-eps-estimates-but-revenue-falls-short-93CH-5018574",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A svájci-amerikai speciális járműgyártó Aebi Schmidt harmadik negyedéves eredménye elmaradt a várakozásoktól, és gyenge előrejelzést adott. A részvény 6%-ot esett.",
+     "symbols": [
+      "AEBI"
+     ],
+     "title": "6%-ot esett az Aebi Schmidt a várakozásnál gyengébb eredmény és kilátás miatt",
+     "url": "https://www.investing.com/news/earnings/aebi-schmidt-shares-fall-6-on-earnings-miss-weak-guidance-93CH-5018571",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "CNBC · Reuters",
+     "summary": "A CNBC szerint elindult az Anthropic tőzsdei bevezetéséhez kapcsolódó ausztrál lakossági jegyzés, amely november 17-én zárul; a részvényekkel az amerikai Nasdaqon (ANT) lehet majd kereskedni, a kereskedés november 19-én indulhat. Az ausztrál lakossági ajánlat tervéről korábban a Reuters és a Bloomberg is beszámolt (vezető bróker a CommSec).",
+     "symbols": [
+      "ANTHROPIC"
+     ],
+     "title": "Megnyílt az Anthropic ausztrál lakossági részvényjegyzése",
+     "url": "https://cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-11T12:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Tech Trends News Update (Substack hírlevél)",
+     "summary": "Egy technológiai hírlevél értesülése szerint a TSMC igazgatótanácsa jóváhagyta, hogy a cég akár 500 millió dollárért Anthropic-részvényt vegyen az IPO-áron, valamint akár 500 millió dollárnyi OpenAI elsőbbségi részvényt. Más forrás ezt egyelőre nem erősítette meg.",
+     "symbols": [
+      "TSM",
+      "ANTHROPIC"
+     ],
+     "title": "Értesülés: a TSMC igazgatótanácsa akár 500 millió dollárnyi Anthropic-részvény vásárlását hagyta jóvá",
+     "url": "https://techtrendsnewsupdate.substack.com/p/tech-trends-news-update-morning-brief-d54",
+     "verified": false
     }
    ],
    "markets": [
@@ -1447,7 +1598,7 @@
     }
    ],
    "summary": "A vártnál magasabb októberi amerikai infláció után kedden esett a Wall Street, a Fed több döntéshozója (Logan, Schmid, Paulson, Bowman) további szigorítás mellett érvelt, a Goldman Sachs már márciusi emelést is vár. A CoreWeave zárás után a várakozás feletti bevételről és emelt kilátásról számolt be, ami szerdán az ázsiai chipcégeket is húzta, a határidős indexek emelkednek. Az Anthropic 70–78 dolláros ársávot jelölt ki, akár 1400 milliárd dolláros értékeléssel. Az olajár kéthavi mélypontjáról emelkedett, az arany 4035 dollár körül stabilizálódott; az amerikai kötvénypiac ma a Veterans Day miatt zárva.",
-   "updatedAt": "2026-11-11T11:50:00Z",
+   "updatedAt": "2026-11-11T12:55:00Z",
    "watchlist": []
   },
   {
