@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T15:56:03Z",
+ "builtAt": "2026-11-12T16:56:00Z",
  "digests": [
   {
    "calendar": [
@@ -1629,6 +1629,75 @@
      "title": "Több mint 9%-ot esett a Corteva a vártnál gyengébb bevétel miatt",
      "url": "https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-12T16:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance",
+     "summary": "Miközben az Nvidia árfolyama Jensen Huang lemondása után zuhant, a befektetők a riválisok felé fordultak: csütörtök délelőtt az AMD mintegy 3%-kal, a Broadcom pedig akár 6%-kal is emelkedett. A piac arra számít, hogy a bizonytalanság a versenytársaknak kedvezhet az AI-chipek piacán.",
+     "symbols": [
+      "AMD",
+      "AVGO",
+      "NVDA"
+     ],
+     "title": "Az AMD és a Broadcom a nyertese az Nvidia vezetési válságának",
+     "url": "https://www.investing.com/news/stock-market-news/amd-and-broadcom-emerge-as-winners-amid-nvidia-leadership-uncertainty-93CH-5022580",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T16:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Hancock Whitney (SEC 8-K) · Newsquawk",
+     "summary": "A két amerikai regionális bank csütörtökön jelentette be az egyesülést: a Trustmark részvényesei részvényenként 0,7463 Hancock Whitney-részvényt kapnak, az ügylet értéke a szerdai záróár alapján mintegy 3,2 milliárd dollár. Az egyesült bank mérlegfőösszege nagyjából 58 milliárd dollár lesz, hat délkeleti államban működik.",
+     "symbols": [
+      "HWC",
+      "TRMK"
+     ],
+     "title": "A Hancock Whitney 3,2 milliárd dolláros részvénycserés ügyletben felvásárolja a Trustmarkot",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000750577/000119312526457037/hwc-ex99_1.htm",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T16:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "CNBC (élő tudósítás)",
+     "summary": "A CNBC élő tudósítása szerint az Nvidia lemondott vezérigazgatója beleegyezett, hogy a távozását követően a Kongresszus előtt tanúskodjon. Más forrás egyelőre nem erősítette meg az értesülést, a meghallgatás időpontja nem ismert.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "CNBC: Jensen Huang vállalta, hogy tanúvallomást tesz a Kongresszus előtt",
+     "url": "https://cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-12T16:40:00Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A beszámoló szerint a BNY bankóriás a Figment blokklánc-infrastruktúra-szolgáltatóval együttműködve tesz elérhetővé kriptovaluta-stakinget intézményi letétkezelési ügyfelei számára. A bank korábban a Galaxyval is hasonló együttműködést jelentett be.",
+     "symbols": [
+      "BK"
+     ],
+     "title": "A BNY a Figmenttel kínál stakinget intézményi letétkezelési ügyfeleinek",
+     "url": "https://www.cryptoprowl.com/releases/bny-taps-figment-to-bring-staking-to-institutional-custody-clients-7880?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T16:40:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters jelentése szerint az amerikai postaszolgálat 11%-os üzemanyag-felárat vezetne be a csomagküldeményekre. A posta korábban már bejelentette, hogy 2027 januárjától hetente frissülő, a dízel- és kerozinárakhoz kötött felárat alkalmaz.",
+     "symbols": [],
+     "title": "11%-os üzemanyag-felárat tervez csomagszállításra az amerikai posta (USPS)",
+     "url": "https://www.investing.com/news/economy-news/usps-plans-11-fuel-surcharge-on-package-deliveries-5022585",
+     "verified": true
     }
    ],
    "markets": [
@@ -1655,7 +1724,7 @@
     }
    ],
    "summary": "Csütörtökön az Nvidia igazgatótanácsa bejelentette: Jensen Huang 33 év után azonnali hatállyal lemond, ideiglenes vezérigazgató Colette Kress pénzügyi igazgató; a részvény a nyitás előtt több mint 10%-ot esett, a Nasdaq-100 határidős indexe 1,2%-kal gyengült, több elemzőház (Bernstein, Oppenheimer, Baird, William Blair) leminősítette a papírt. Európában ezzel szemben rekordon a STOXX 600. A dollárindex éves csúcson, a 10 éves amerikai hozam 5% közelében a decemberi Fed-kamatemelési várakozások miatt. Trump szerint nincs szükség megállapodásra Iránnal, erre az olajár ledolgozta esését; az arany 4000 dollár alatt. Itthon a Richter történelmi csúcsra ugrott az Eli Lillyvel kötött partnerség után, a forint nyomás alatt van.",
-   "updatedAt": "2026-11-12T15:41:41Z",
+   "updatedAt": "2026-11-12T16:40:00Z",
    "watchlist": []
   },
   {
