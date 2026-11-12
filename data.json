@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T13:56:00Z",
+ "builtAt": "2026-11-12T14:55:53Z",
  "digests": [
   {
    "calendar": [
@@ -38,7 +38,7 @@
    ],
    "date": "2026-11-12",
    "generatedAt": "2026-11-12T06:55:18Z",
-   "headline": "Vezetési válság az Nvidiánál: az igazgatótanács Jensen Huang sorsáról dönt, a részvény zárás után 8%-ot esett",
+   "headline": "Lemondott Jensen Huang: Colette Kress az Nvidia ideiglenes vezérigazgatója, a részvény több mint 10%-ot esett",
    "items": [
     {
      "category": "Figyelőlista",
@@ -1429,23 +1429,92 @@
      "addedAt": "2026-11-12T13:40:57Z",
      "category": "Vállalatok és technológia",
      "impact": "negatív",
-     "source": "24/7 Wall St. · Investing.com · GuruFocus",
-     "summary": "Több pénzügyi hírportál (24/7 Wall St., Investing.com, GuruFocus) beszámolója szerint a Bernstein elemzője, Stacy Rasgon „outperform”-ról „market perform”-ra rontotta az Nvidia besorolását, a célárat pedig 400-ról 200 dollárra csökkentette. Az indoklás szerint az üzlet alapjai rendben vannak, de bizonytalan, ki veszi át a vezetést, és mi derülhet még ki. A beszámolók szerint a Baird is „semleges”-re rontott 200 dolláros célárral.",
+     "source": "24/7 Wall St. · Investing.com · GuruFocus · investingLive",
+     "summary": "A Bernstein elemzője, Stacy Rasgon „outperform”-ról „market perform”-ra rontotta az Nvidia besorolását, a célárat pedig 400-ról 200 dollárra csökkentette. Az indoklás szerint az üzlet alapjai rendben vannak, de bizonytalan, ki veszi át a vezetést, és mi derülhet még ki. A beszámolók szerint a Baird is „semleges”-re rontott 200 dolláros célárral.",
      "symbols": [],
-     "title": "Beszámolók szerint a Bernstein is leminősítette az Nvidiát, célárát 400-ról 200 dollárra felezte",
+     "title": "A Bernstein is leminősítette az Nvidiát, célárát 400-ról 200 dollárra felezte",
      "url": "https://247wallst.com/investing/2026/11/12/bernstein-just-gave-up-on-nvidia-cutting-its-target-in-half-to-200/",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-11-12T13:40:57Z",
      "category": "Globális piacok",
      "impact": "semleges",
-     "source": "Breaking The News · MLQ.ai (az amerikai munkaügyi minisztérium adatai alapján)",
-     "summary": "Beszámolók szerint a november 7-ével zárult héten szezonálisan kiigazítva 9 ezerrel, 200 ezerre emelkedett az első heti munkanélküli-segélykérelmek száma; az előző heti adatot 191 ezerre módosították felfelé. A szám továbbra is alacsony, vagyis kevés az elbocsátás a Fed decemberi ülése előtt.",
+     "source": "Investing.com · Reuters · Breaking The News",
+     "summary": "A november 7-ével zárult héten szezonálisan kiigazítva 9 ezerrel, 200 ezerre nőtt az első heti munkanélküli-segélykérelmek száma (a Reuters által megkérdezett elemzők 195 ezret vártak); az előző heti adat 191 ezerre módosult. A folyamatos segélykérelmek száma 20 ezerrel 1,697 millióra csökkent; a Reuters szerint a szint továbbra is erősödő munkaerőpiacra utal a Fed decemberi ülése előtt.",
      "symbols": [],
      "title": "Az USA-ban 200 ezerre nőtt az első heti munkanélküli-segélykérelmek száma",
-     "url": "https://breakingthenews.net/Article/US-initial-jobless-claims-up-by-9000-to-200000/67550731",
-     "verified": false
+     "url": "https://www.investing.com/news/economic-indicators/us-weekly-jobless-claims-increase-but-labor-market-firming-5021926",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T14:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "CBS News · CNN · Fox Business · Reuters",
+     "summary": "Az Nvidia igazgatótanácsa csütörtökön bejelentette, hogy Jensen Huang 33 év után azonnali hatállyal lemond vezérigazgatói és igazgatósági tisztségéről. Ideiglenes vezérigazgató Colette Kress pénzügyi igazgató lesz (pénzügyi feladatait megtartja), az igazgatótanács elnöke a Synopsys korábbi vezetője, Harvey Jones; a végleges utódot belső és külső jelöltek közül keresik. A részvény a nyitás előtti kereskedésben több mint 10%-ot esett, a Nasdaq-100 határidős indexe 1,2%-kal gyengült (Reuters).",
+     "symbols": [],
+     "title": "Lemondott Jensen Huang, az Nvidia vezérigazgatója; Colette Kress pénzügyi igazgató lett az ideiglenes vezető",
+     "url": "https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T14:52:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · CNBC · Axios",
+     "summary": "Donald Trump a Truth Socialön azt írta, hogy az USA-nak nincs szüksége megállapodásra Iránnal, és arra kérte JD Vance alelnököt, hogy a demokraták vezette városok korrupciójára koncentráljon – miután a WSJ arról írt, hogy Vance közvetlen tárgyalást fontolgat. A bejelentés után az olajár ledolgozta korábbi esését: a WTI 1%-nál többet emelkedett (CNBC).",
+     "symbols": [],
+     "title": "Trump: „Nincs szükségünk megállapodásra Iránnal” – Vance-nek a hazai korrupcióra kell koncentrálnia; fordult az olajár",
+     "url": "https://www.investing.com/news/economy-news/trump-says-vance-should-focus-on-domestic-corruption-we-dont-need-a-deal-with-iran-5021925",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T14:52:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Daily Sabah · Turkish Minute",
+     "summary": "A török jegybank az év utolsó inflációs jelentésében 28%-ról 29,5%-ra emelte a 2026 év végére várt inflációt, a 2027-es előrejelzést 15%-ról 21%-ra. Fatih Karahan elnök a drágább olajjal és a hormuzi szállítások bizonytalanságával indokolt, és szigorú monetáris politikát ígért.",
+     "symbols": [],
+     "title": "A török jegybank 29,5%-ra emelte 2026-os év végi inflációs előrejelzését",
+     "url": "https://www.investing.com/news/economy-news/turkey-central-bank-raises-2026-inflation-forecast-to-295-93CH-5021933",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T14:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Proactive Investors",
+     "summary": "A brit Serco 292 millió dollár készpénzért (237 millió az üzletág, 55 millió adóelőny) vásárolja meg a QinetiQ amerikai védelmi üzletágát, ezzel észak-amerikai bevétele mintegy 2,5 milliárd dollárra nő. A QinetiQ 175 millió fontos értékvesztést könyvel el, és 200 millió fontot visszaad a részvényeseknek.",
+     "symbols": [],
+     "title": "A Serco 292 millió dollárért megveszi a QinetiQ amerikai üzletágát",
+     "url": "https://www.investing.com/news/company-news/serco-acquires-qinetiqs-us-business-for-292-million-93CH-5021930",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T14:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Rolls-Royce (RNS) · City A.M.",
+     "summary": "A Rolls-Royce harmadik negyedéves tájékoztatójában bejelentette, hogy a 2026–2028-as 7–9 milliárd fontos program részeként azonnal elindít egy 1,5 milliárd fontos visszavásárlást. Megerősítette a 4,7–4,9 milliárd fontos mögöttes működési profit és a 3,8–4,0 milliárd fontos szabad cash flow célt; a részvény 2–3%-kal emelkedett.",
+     "symbols": [],
+     "title": "A Rolls-Royce előrehozza 1,5 milliárd fontos részvény-visszavásárlását, emelkedett a részvény",
+     "url": "https://www.cityam.com/rolls-royce-shares-jump-after-ftse-100-giant-accelerates-buyback/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T14:52:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "FXStreet · Reuters · CNBC",
+     "summary": "A dollárindex (DXY) 103 körül új éves csúcsra emelkedett, a 10 éves amerikai államkötvényhozam pedig újra megközelítette az 5%-ot, mert a piacok a forró inflációs adat után egyre inkább decemberi Fed-kamatemelést áraznak (FXStreet, Reuters). Ez nyomás alatt tartja a feltörekvő devizákat, köztük a forintot.",
+     "symbols": [],
+     "title": "Éves csúcson a dollárindex, ismét 5% közelében a 10 éves amerikai hozam",
+     "url": "https://fxstreet.com/news/10308-us-dollar-index-hits-a-fresh-year-to-date-high-as-fed-hike-bets-build-202611121252",
+     "verified": true
     }
    ],
    "markets": [
@@ -1471,8 +1540,8 @@
      "value": "5,50%"
     }
    ],
-   "summary": "Az amerikai tőzsdék szerdán a CoreWeave erős jelentésének köszönhetően emelkedtek (S&P 500 +1,3%, Nasdaq +1,6%), de este a Wall Street Journal értesülése, hogy az Nvidia igazgatótanácsa Jensen Huang leváltására készül, 8%-os esést okozott a zárás utáni kereskedésben és lenyomta a határidős indexeket. Az MSCI megerősítette, hogy november 30-tól kikerül indexeiből a bitcoin-tartalékos Strategy. A dollár erősödik, a jen a 160-as szint közelében jár, a japán termelői infláció 7,1%-ra gyorsult. Az olajár az iráni és ukrajnai béketárgyalások reményében esik, az arany 4000 dollár alatt maradt. Itthon a dollár hajnalban csúcsra szaladt a forinttal szemben, a minimálbér-tárgyalásokon közeledtek az álláspontok.",
-   "updatedAt": "2026-11-12T13:40:57Z",
+   "summary": "Csütörtökön az Nvidia igazgatótanácsa bejelentette: Jensen Huang 33 év után azonnali hatállyal lemond, ideiglenes vezérigazgató Colette Kress pénzügyi igazgató; a részvény a nyitás előtt több mint 10%-ot esett, a Nasdaq-100 határidős indexe 1,2%-kal gyengült, több elemzőház (Bernstein, Oppenheimer, Baird, William Blair) leminősítette a papírt. Európában ezzel szemben rekordon a STOXX 600. A dollárindex éves csúcson, a 10 éves amerikai hozam 5% közelében a decemberi Fed-kamatemelési várakozások miatt. Trump szerint nincs szükség megállapodásra Iránnal, erre az olajár ledolgozta esését; az arany 4000 dollár alatt. Itthon a Richter történelmi csúcsra ugrott az Eli Lillyvel kötött partnerség után, a forint nyomás alatt van.",
+   "updatedAt": "2026-11-12T14:52:00Z",
    "watchlist": []
   },
   {
