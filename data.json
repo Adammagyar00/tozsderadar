@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T19:01:49Z",
+ "builtAt": "2026-11-12T19:56:19Z",
  "digests": [
   {
    "calendar": [
@@ -1795,7 +1795,7 @@
      "addedAt": "2026-11-12T17:50:00Z",
      "category": "Figyelőlista",
      "impact": "semleges",
-     "source": "AP · Yahoo Finance",
+     "source": "AP · Yahoo Finance · Yahoo Finance (MT Newswires)",
      "summary": "Az S&P 500 a nyitáskor közel 1%-ot, a Nasdaq 1,6%-ot esett, majd mindkettő pluszba fordult: az AP szerint keleti parti idő szerint 11:30-kor az S&P 500 0,3%-kal, a Dow 195 ponttal (0,4%), a Nasdaq 0,3%-kal állt magasabban. Az Nvidia esése nagyjából a felére mérséklődött, az AMD és a Broadcom emelkedett. A Brent Trump Iránról szóló bejegyzése után 92-ről 94 dollár fölé ugrott, majd visszaesett; a 10 éves hozam 5,08%-ra nőtt.",
      "symbols": [
       "QQQ",
@@ -2024,6 +2024,20 @@
      "title": "Varga Mihály a renminbi-konferencián: a határokon átnyúló fizetések hatékonyabbá tétele a következő feladat",
      "url": "https://www.penzcentrum.hu/gazdasag/20261112/fontos-valtozasra-hivta-fel-a-figyelmet-varga-mihaly-uj-penzugyi-lehetosegek-nyilhatnak-a-magyar-cegek-elott-1208918",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-12T19:39:45Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · MT Newswires",
+     "summary": "Csütörtök délután az energiaipari részvények emelkedtek, a NYSE Energy Sector Index 1,7%-kal állt magasabban. A háttérben az olajár drágulása áll: a Reuters szerint a Brent és a WTI is több mint 1 dollárral drágult, miután Irán szerint négy tankert ért robbanás a Hormuzi-szorosban.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Délután emelkedtek az energiaipari részvények: 1,7%-kal nőtt a NYSE Energy index",
+     "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-thursday-185141928.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -2050,7 +2064,7 @@
     }
    ],
    "summary": "Csütörtökön az Nvidia igazgatótanácsa bejelentette: Jensen Huang 33 év után azonnali hatállyal lemond, ideiglenes vezérigazgató Colette Kress pénzügyi igazgató; a részvény a nyitás előtt több mint 10%-ot esett, a Nasdaq-100 határidős indexe 1,2%-kal gyengült, több elemzőház (Bernstein, Oppenheimer, Baird, William Blair) leminősítette a papírt. Európában ezzel szemben rekordon a STOXX 600. A dollárindex éves csúcson, a 10 éves amerikai hozam 5% közelében a decemberi Fed-kamatemelési várakozások miatt. Trump szerint nincs szükség megállapodásra Iránnal, erre az olajár ledolgozta esését; az arany 4000 dollár alatt. Itthon a Richter történelmi csúcsra ugrott az Eli Lillyvel kötött partnerség után, a forint nyomás alatt van.",
-   "updatedAt": "2026-11-12T18:40:32Z",
+   "updatedAt": "2026-11-12T19:39:45Z",
    "watchlist": []
   },
   {
