@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T16:56:00Z",
+ "builtAt": "2026-11-12T17:56:06Z",
  "digests": [
   {
    "calendar": [
@@ -1698,6 +1698,172 @@
      "title": "11%-os üzemanyag-felárat tervez csomagszállításra az amerikai posta (USPS)",
      "url": "https://www.investing.com/news/economy-news/usps-plans-11-fuel-surcharge-on-package-deliveries-5022585",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A Sandisk 3%-kal, 951 dollárra esett a délelőtti kereskedésben, a Micron 2%-kal gyengült, miközben a Nasdaq-100 emelkedett. A 24/7 Wall St. szerint a memóriagyártók az AI-ellátási lánc körüli bizonytalanság miatt maradtak le, miután Jensen Huang lemondott az Nvidia éléről.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Az Nvidia-vezetőváltás lenyomta a memóriachip-részvényeket: a Sandisk 3%-ot, a Micron 2%-ot esett",
+     "url": "https://247wallst.com/investing/2026/11/12/sandisk-micron-and-sk-hynix-slide-3-as-nvidia-shake-up-hits-memory-stocks/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · The Motley Fool",
+     "summary": "A SpaceX árfolyama csütörtökön mintegy 2,5%-kal, 143 dollár körülire emelkedett, szembemenve a technológiai papírok esésével. A mozgás oka, hogy Elon Musk az X-en azt írta: megtiszteltetés lenne felvenni az Nvidia éléről lemondott Jensen Huangot. Konkrét ajánlatot vagy tárgyalást nem erősítettek meg.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Emelkedett a SpaceX részvénye, miután Musk szerint megtiszteltetés lenne felvenni Jensen Huangot",
+     "url": "https://www.fool.com/investing/2026/11/12/why-spacex-stock-popped-after-nvidia-s-ceo-news/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "Egy SEC-bejelentés szerint a State Street a harmadik negyedévben 10,88 millióról 19,34 millió darabra növelte SpaceX-részvényeinek számát. A befektetők a november 13-ra tervezett Starship Flight 15-öt figyelik, amelyen a SpaceX először kísérelné meg a gyorsítófokozat és a felső fokozat toronnyal történő elkapását is.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A State Street majdnem megduplázta SpaceX-részesedését; pénteken jöhet a Starship 15. repülése",
+     "url": "https://stocktwits.com/news-articles/markets/equity/spacex-gets-state-street-boost-ahead-of-flight-15/cNGCRG0R9aM?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Austan Goolsbee, a chicagói Fed elnöke a Yahoo Finance 2026-os Invest konferenciáján arról beszélt, hogyan hat az AI-beruházási boom a teljes gazdaságra, és hogy ez túlfűtöttséghez vezethet. Goolsbee az elmúlt napokban arra is figyelmeztetett, hogy az adatközpont-építés „keresleti túlfűtöttségre” kezd hasonlítani, amire a jegybanknak időben, határozottan kell reagálnia.",
+     "symbols": [],
+     "title": "Goolsbee (chicagói Fed): az AI-boom túlfűtheti az amerikai gazdaságot",
+     "url": "https://finance.yahoo.com/video/ai-could-be-fueling-an-overheating-economy-feds-austan-goolsbee-164050832.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Három iparági forrás szerint a kormányzat a következő napokban, akár már csütörtökön meghosszabbítja a november 15-én lejáró mentességet, amely lehetővé teszi, hogy külföldi lobogójú hajók olajat és más árukat szállítsanak amerikai kikötők között; az általános felmentést hajóutankénti engedélyezés váltaná. Egy Fehér Ház-tisztviselő szerint még nincs döntés. A lépés célja az üzemanyagárak mérséklése, elemzők szerint a hatása csekély lenne.",
+     "symbols": [],
+     "title": "Reuters: a Fehér Ház meghosszabbítja a Jones Act alóli mentességet",
+     "url": "https://www.investing.com/news/commodities-news/white-house-set-to-extend-set-to-extend-jones-act-waiver-sources-say-5022759",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Julie Kozack IMF-szóvivő a csütörtöki sajtótájékoztatón azt mondta, a Valutaalap figyeli Jensen Huang Nvidia-lemondásának hatását a részvénypiacokra, a gazdaságra és a pénzügyi stabilitásra. Szerinte még nem világos, hogy ez az AI-befektetések, a hosszú távú jövedelmezőség vagy a termelékenységi várakozások szélesebb újraértékelését hozza-e; az IMF szerint az AI-részvények értékeltsége ki van téve egy ilyen fordulatnak.",
+     "symbols": [],
+     "title": "IMF: még túl korai megmondani, hogy elkezdődött-e az AI-részvények újraértékelése",
+     "url": "https://www.investing.com/news/economy-news/imf-monitoring-ai-developments-too-early-to-say-if-ai-reassessment-underway-5022760",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A tankerhajós cég a harmadik negyedévben 195,2 millió dollár GAAP nettó nyereséget ért el. A negyedik negyedéves spot napok mintegy 58%-át már lekötötték, a fuvardíjak minden idők csúcsára emelkedtek, így a cég szerint a negyedik negyedév és a teljes 2026-os év is a valaha volt legerősebb lehet.",
+     "symbols": [
+      "TNK"
+     ],
+     "title": "Teekay Tankers: minden idők csúcsán a tankerdíjak a negyedik negyedévben",
+     "url": "https://www.investing.com/news/company-news/teekay-tankers-q3-2026-slides-record-q4-rates-drive-historic-results-93CH-5022766",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "AP · Yahoo Finance",
+     "summary": "Az S&P 500 a nyitáskor közel 1%-ot, a Nasdaq 1,6%-ot esett, majd mindkettő pluszba fordult: az AP szerint keleti parti idő szerint 11:30-kor az S&P 500 0,3%-kal, a Dow 195 ponttal (0,4%), a Nasdaq 0,3%-kal állt magasabban. Az Nvidia esése nagyjából a felére mérséklődött, az AMD és a Broadcom emelkedett. A Brent Trump Iránról szóló bejegyzése után 92-ről 94 dollár fölé ugrott, majd visszaesett; a 10 éves hozam 5,08%-ra nőtt.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Ledolgozta korai esését a Wall Street az Nvidia-zuhanás és az olajár-kilengés ellenére",
+     "url": "https://www.local10.com/business/2026/11/12/wall-street-erases-its-early-loss-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk · The Defiant",
+     "summary": "A bitcoin a Coinbase adatai szerint 71 500 dollárig esett, ami augusztus óta a legalacsonyabb szint, az ether 2000 dollár alá csúszott. A CoinDesk a csökkenést az Nvidia-vezérigazgató lemondása utáni tech-eladásokhoz és a megugró kamatokhoz köti; az ether-ETF-ekből mintegy 145 millió dollár áramlott ki. A likvidált pozíciók becslések szerint 368 millió és több mint 745 millió dollár között vannak.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "72 000 dollár alá esett a bitcoin, az ether 2000 dollár alá; több száz millió dolláros likvidálás",
+     "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "USAGold · FXStreet",
+     "summary": "A USAGold napi jelentése szerint az arany mintegy 3%-kal, 3866 dollár körülire esett, miközben a dollár 19 havi csúcsra erősödött a decemberi Fed-kamatemelési várakozások miatt; az ezüst 50 dollár alá csúszott. Más források 2–2,5%-os esést és 3870–3893 dollár közötti árat jeleztek, így a pontos szint napközben változott.",
+     "symbols": [],
+     "title": "Jelentések szerint mintegy 3%-ot esett az arany, 3866 dollár közelébe",
+     "url": "https://www.usagold.com/daily-precious-metals-market-report-november-12-2026/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Reuters (névtelen források)",
+     "summary": "Két, az ügyet ismerő forrás szerint a CD&R és a GTCR magántőke-befektetők visszaléptek a Global Payments felvásárlásától. A források szerint később visszatérhetnek, vagy más vevő is jelentkezhet; a cégek hivatalosan nem erősítették meg az értesülést.",
+     "symbols": [
+      "GPN"
+     ],
+     "title": "Reuters: a CD&R és a GTCR feladta a Global Payments megszerzésére irányuló próbálkozást",
+     "url": "https://www.1049thewolf.com/2026/11/12/exclusive-cdr-gtcr-drop-pursuit-of-global-payments-sources-say/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Privátbankár · Tőzsdefórum",
+     "summary": "A BUX 146 252,73 ponton, 0,23%-os eséssel zárt csütörtökön. A Richter 13 590 forinton (+3,4%), a Magyar Telekom 2982 forinton (+2,1%) végzett, míg az OTP 1,3%-kal 41 960 forintra, a Mol 2,6%-kal 4822 forintra esett.",
+     "symbols": [],
+     "title": "Mínuszban zárt a BUX: a Richter 3,4%-kal, a Telekom 2,1%-kal emelkedett, az OTP és a Mol esett",
+     "url": "https://privatbankar.hu/cikkek/reszveny/elkepeszto-napja-volt-a-richternek-es-a-telekomnak-megis-minuszban-zart-a-budapesti-borze.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T17:50:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "Investing.com · MLQ.ai",
+     "summary": "A német index 26 816,06 ponton zárt, felülmúlva a szerdai 26 662,77 pontos rekordzárást. Az európai piacokat a gyorsjelentések – köztük a Siemens és a Merck emelt kilátásai – támogatták, miközben a chipgyártók estek Jensen Huang Nvidia-lemondása után.",
+     "symbols": [],
+     "title": "Új csúcson zárt a DAX: 0,57%-os emelkedés, 26 816 pont",
+     "url": "https://investing.com/news/stock-market-news/germany-stocks-mixed-at-close-of-trade-dax-up-057-5022820",
+     "verified": true
     }
    ],
    "markets": [
@@ -1724,7 +1890,7 @@
     }
    ],
    "summary": "Csütörtökön az Nvidia igazgatótanácsa bejelentette: Jensen Huang 33 év után azonnali hatállyal lemond, ideiglenes vezérigazgató Colette Kress pénzügyi igazgató; a részvény a nyitás előtt több mint 10%-ot esett, a Nasdaq-100 határidős indexe 1,2%-kal gyengült, több elemzőház (Bernstein, Oppenheimer, Baird, William Blair) leminősítette a papírt. Európában ezzel szemben rekordon a STOXX 600. A dollárindex éves csúcson, a 10 éves amerikai hozam 5% közelében a decemberi Fed-kamatemelési várakozások miatt. Trump szerint nincs szükség megállapodásra Iránnal, erre az olajár ledolgozta esését; az arany 4000 dollár alatt. Itthon a Richter történelmi csúcsra ugrott az Eli Lillyvel kötött partnerség után, a forint nyomás alatt van.",
-   "updatedAt": "2026-11-12T16:40:00Z",
+   "updatedAt": "2026-11-12T17:50:00Z",
    "watchlist": []
   },
   {
