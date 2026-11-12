@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T10:59:31Z",
+ "builtAt": "2026-11-12T11:56:19Z",
  "digests": [
   {
    "calendar": [
@@ -1022,7 +1022,7 @@
      "category": "Figyelőlista",
      "impact": "pozitív",
      "origin": "investing",
-     "source": "Investing.com · Reuters",
+     "source": "Investing.com · Reuters · Yahoo Finance",
      "summary": "A kínai gyógyszerhatóság csütörtökön jóváhagyta az orforglipront testsúlykezelésre; a Reuters szerint ez az első Kínában engedélyezett szájon át szedhető GLP-1 fogyókúrás szer, ami előnyt ad a Lillynek a Novo Nordiskkal szemben. A Lilly-részvény a tőzsdenyitás előtti kereskedésben 2,8%-kal emelkedett.",
      "symbols": [
       "LLY"
@@ -1138,6 +1138,209 @@
      "title": "Értesülés: Haji Isam indonéz milliárdos ajánlatot tehet az Eramet Weda Bay nikkelbányai részesedésére",
      "url": "http://www.thejakartapost.com/business/2026/11/12/haji-isam-reportedly-weighs-bid-for-eramets-stake-in-weda-bay-nickel",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · MT Newswires",
+     "summary": "Csütörtök reggel az S&P 500 és a Nasdaq határidős indexei is lejjebb kerültek, miután megjelentek az értesülések Jensen Huang második kapcsolatáról és lehetséges leváltásáról. Az Nvidia a nyitás előtti kereskedésben mintegy 6%-ot esett (Reuters); Európa ezzel szemben emelkedik, Ázsia gyengébben zárt.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Esnek az amerikai határidős indexek nyitás előtt, az Nvidia a tőzsdenyitás előtti kereskedésben is gyengül",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance elemzése szerint a mesterséges intelligencia miatti memóriachiphiány és az emelkedő memóriaárak a Micron és a Sandisk legnagyobb haszonélvezői közé emelték, bár a két cég a piac különböző szegmenseit szolgálja ki.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "AI-okozta memóriachiphiány: a Micron és a Sandisk a drágulás fő nyertesei",
+     "url": "https://finance.yahoo.com/technology/articles/micron-sandisk-surge-ai-triggers-111233029.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Kedden az Invesco QQQ 3,06 milliárd dollárnyi friss tőkét vonzott, és mind a 101 pozícióját növelte, eladás nélkül; a legnagyobb vásárlások az Apple és az Nvidia papírjaiban voltak. A nagy és széles piaci alapok kaptak pénzt, a közmű- és kiskapitalizációs alapokból kiáramlás volt.",
+     "symbols": [
+      "QQQ"
+     ],
+     "title": "3,06 milliárd dolláros beáramlással a QQQ vezette az ETF-ek pénzforgalmát november 10-én",
+     "url": "https://finance.yahoo.com/markets/options/articles/etf-activity-qqq-leads-3-110013527.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Kedden 18 ETF növelte, hat pedig csökkentette SpaceX-pozícióját, így a nettó beáramlás 99,3 millió dollár volt.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Az ETF-ek nettó 99,3 millió dollárnyi SpaceX-részvényt vettek november 10-én",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-99-3-million-110131987.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "November 10-én 52 ETF növelte Micron-pozícióját, a nettó vásárlás 106,3 millió dollár volt – ez a hét eleji nagy esés utáni napon történt.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Az ETF-ek nettó 106,3 millió dollárnyi Micron-részvényt vettek kedden",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/52-etfs-add-micron-mu-110122722.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance elemzése szerint az Anthropic tervezett tőzsdei bevezetése a SpaceX debütálását követheti abban, hogy az indexalapok jelentős vásárlásai hajthatják a kezdeti keresletet; a cikk ezt 19 milliárd dolláros lehetőségként becsüli.",
+     "symbols": [],
+     "title": "19 milliárd dolláros indexalapi keresletet hozhat az Anthropic tőzsdei bevezetése a SpaceX példája alapján",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/spacexs-ipo-reveals-19-billion-111455958.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance napi elemzése szerint az S&P 500 már visszadolgozta esésének nagy részét, de a technológiai szektor felett még régi támaszszintek húzódnak ellenállásként, így az Nvidia vezetési válsága sérülékeny ponton érte a chiprészvényeket.",
+     "symbols": [],
+     "title": "Napi grafikon: az Nvidia-botrány egy törékeny chiprally közepén csapott le",
+     "url": "https://finance.yahoo.com/markets/article/nvidias-boardroom-bombshell-hits-a-fragile-chip-rally-chart-of-the-day-110000355.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · GlobeNewswire",
+     "summary": "A kanadai rézbányász harmadik negyedéves bevétele rekord, 765,9 millió dollár lett (a vártnál több), a korrigált EPS 0,34 dollár (a várt 0,35 dollárnál kicsit kevesebb). A cég megerősítette éves réz- és aranytermelési célját, és kedvezőbbre módosította készpénzköltség-előrejelzését.",
+     "symbols": [],
+     "title": "Rekordnegyedévet zárt a Hudbay, javította költségvárakozását",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/hudbay-delivers-record-third-quarter-110000447.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az indiai fogyasztói árindex októberben évi 6,09%-kal nőtt a szeptemberi 5,54% után, a Reuters-felmérés 5,93%-ot várt. Az adat túllépi az indiai jegybank 6%-os toleranciasávjának felső határát; az élelmiszer-infláció 8,94%-ra gyorsult.",
+     "symbols": [],
+     "title": "Két éve nem látott szintre, 6,09%-ra gyorsult az indiai infláció októberben",
+     "url": "https://www.investing.com/news/economy-news/indias-october-retail-inflation-at-609-onyear-5020869",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters hat névtelen forrásra és belső dokumentumokra hivatkozva azt írja, hogy az amerikai gyógyszerhatóság félretette a Makary volt biztos által indított, 1–2 hónapos engedélyezést ígérő utalványprogramot. A 22 utalványt kapott gyógyszerből egy tucatot engedélyeztek, Makary májusi távozása óta nem adtak ki új utalványt, a maradék kilenc gyógyszer bírálatát ismét a szakmai stáb felügyeli.",
+     "symbols": [],
+     "title": "Reuters: az FDA jegelte a gyorsított gyógyszer-engedélyezési utalványprogramot",
+     "url": "https://www.investing.com/news/stock-market-news/exclusiveus-fda-shelves-commissioners-voucher-program-for-speedy-drug-reviews-sources-say-5020951",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A november 10–12. között megkérdezett mind a 71 közgazdász arra számít, hogy az EKB decemberben 2,75%-ra emeli a betéti rátát. Több mint egyharmaduk azonban 2027 elején egy további emelést is vár, mivel az infláció 4%-on, hároméves csúcson áll.",
+     "symbols": [],
+     "title": "Reuters-felmérés: decemberben jöhet az EKB utolsó kamatemelése, de nyitva marad egy újabb lehetősége",
+     "url": "https://www.investing.com/news/economy-news/ecb-set-for-last-rate-hike-in-december-but-inflation-risks-keep-door-open-for-one-more-reuters-poll-5021053",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A brit kihívóbank stratégiai felülvizsgálat keretében a teljes cég eladását vizsgálja a Morgan Stanley tanácsadásával. A bank közölte, hogy nem tárgyal senkivel és megkeresést sem kapott; ha nem lesz ügylet, marad az önálló stratégia. A részvény mintegy 3%-kal emelkedett.",
+     "symbols": [],
+     "title": "Hivatalos eladási folyamatot indított a Metro Bank, bár vevőjelölt még nem jelentkezett",
+     "url": "https://www.investing.com/news/stock-market-news/metro-bank-opens-sale-process-despite-no-buyer-approaches-5021048",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A német biztosító kilenchavi nettó nyeresége 12%-kal, 2,195 milliárd euróra nőtt, rekorddal mind a négy szegmensben. A 2026-os profitcélt 2,8 milliárd euró fölé emelte, 2027-re pedig először több mint 3 milliárd eurós nettó eredményt vár.",
+     "symbols": [],
+     "title": "A Talanx ismét emelte 2026-os célját, 2027-re 3 milliárd eurós profitot vár",
+     "url": "https://www.investing.com/news/stock-market-news/talanx-lifts-2026-forecast-again-targets-3-billion-in-2027-93CH-5020957",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A német konténerhajózási cégnél a harmadik negyedéves átlagos fuvardíj konténerenként 1808 dollár lett, 28%-kal több, mint egy éve. A kilenchavi EBIT 1,10 milliárd dollárra nőtt a 905 millióról, a cég megemelte 2026-os EBITDA- és EBIT-előrejelzését.",
+     "symbols": [],
+     "title": "A Hapag-Lloyd eredménye megugrott az erős fuvardíjak miatt, a cég emelte éves célját",
+     "url": "https://www.investing.com/news/company-news/hapaglloyd-q3-2026-slides-earnings-surge-on-freight-rate-strength-93CH-5021042",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Portfolio · Pénzcentrum · Tőzsdefórum",
+     "summary": "A Richter-részvény csütörtök délelőtt a Lillyvel kötött licenc- és részesedési megállapodás bejelentése után 13 580 forintos történelmi csúcsra emelkedett. A BUX közben vegyesen mozgott, a Mol gyengült.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Történelmi csúcsra ugrott a Richter az Eli Lillyvel kötött partnerség után",
+     "url": "https://penzcentrum.hu/megtakaritas/20261112/hatalmas-bejelentest-tett-a-richter-tortenelmi-csucsra-lott-ki-az-arfolyam-foldbe-allt-az-nvidia-1208913",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T11:41:51Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Bloomberg (Newsquawk közlése szerint)",
+     "summary": "A Bloomberg értesülése szerint a kínai memóriachipgyártó Yangtze Memory 33 milliárd jüant gyűjtene a sanghaji STAR piacon, akár már 2027 első negyedévében, és a tervek élnek. Korábban a Reuters arról írt, hogy a kibocsátást felfüggesztették; a cég hivatalosan nem erősítette meg az új időzítést.",
+     "symbols": [],
+     "title": "Bloomberg: a kínai YMTC akár 2027 első negyedévében a sanghaji STAR piacra léphet",
+     "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---12th-november-2026",
+     "verified": false
     }
    ],
    "markets": [
@@ -1164,7 +1367,7 @@
     }
    ],
    "summary": "Az amerikai tőzsdék szerdán a CoreWeave erős jelentésének köszönhetően emelkedtek (S&P 500 +1,3%, Nasdaq +1,6%), de este a Wall Street Journal értesülése, hogy az Nvidia igazgatótanácsa Jensen Huang leváltására készül, 8%-os esést okozott a zárás utáni kereskedésben és lenyomta a határidős indexeket. Az MSCI megerősítette, hogy november 30-tól kikerül indexeiből a bitcoin-tartalékos Strategy. A dollár erősödik, a jen a 160-as szint közelében jár, a japán termelői infláció 7,1%-ra gyorsult. Az olajár az iráni és ukrajnai béketárgyalások reményében esik, az arany 4000 dollár alatt maradt. Itthon a dollár hajnalban csúcsra szaladt a forinttal szemben, a minimálbér-tárgyalásokon közeledtek az álláspontok.",
-   "updatedAt": "2026-11-12T10:41:05Z",
+   "updatedAt": "2026-11-12T11:41:51Z",
    "watchlist": []
   },
   {
