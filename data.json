@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T09:55:58Z",
+ "builtAt": "2026-11-12T10:59:31Z",
  "digests": [
   {
    "calendar": [
@@ -44,7 +44,7 @@
      "category": "Figyelőlista",
      "impact": "negatív",
      "origin": "yahoo",
-     "source": "Yahoo Finance",
+     "source": "Yahoo Finance · Investing.com · Reuters",
      "summary": "Szerda este csökkentek az amerikai részvényindexek határidős árai, mert az Nvidia papírjai a zárás utáni kereskedésben estek az igazgatótanács vezetőváltásáról szóló értesülések nyomán. A befektetők az AI-fellendülés központi cégénél kialakult bizonytalanságra reagáltak.",
      "symbols": [
       "QQQ",
@@ -1016,6 +1016,128 @@
      "title": "WH Smith: nőtt az éves bevétel, de erősen szűkültek a marzsok",
      "url": "https://www.investing.com/news/company-news/wh-smith-fy26-slides-revenue-rises-but-margins-compress-sharply-93CH-5020714",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A kínai gyógyszerhatóság csütörtökön jóváhagyta az orforglipront testsúlykezelésre; a Reuters szerint ez az első Kínában engedélyezett szájon át szedhető GLP-1 fogyókúrás szer, ami előnyt ad a Lillynek a Novo Nordiskkal szemben. A Lilly-részvény a tőzsdenyitás előtti kereskedésben 2,8%-kal emelkedett.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Kína engedélyezte az Eli Lilly fogyókúrás tablettáját, emelkedik a részvény",
+     "url": "https://www.investing.com/news/stock-market-news/eli-lilly-stock-rises-after-china-approves-weightloss-pill-5020801",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Juliane Kokott főtanácsnok szerint az Európai Unió Törvényszéke tévesen semmisítette meg 2024-ben a Bizottság 2019-es, 1,49 milliárd eurós (kb. 1,7 milliárd dolláros) bírságát, és az ügyet új döntésre visszaküldené. A vélemény nem kötelező, de a bíróság gyakran követi.",
+     "symbols": [],
+     "title": "Kudarc a Google-nak: az EU-bíróság főtanácsnoka visszaállítaná az 1,49 milliárd eurós AdSense-bírságot",
+     "url": "https://www.investing.com/news/stock-market-news/setback-for-google-as-eu-court-adviser-backs-17-billion-antitrust-fine-5020732",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Nvidia legnagyobb szervergyártója és az Apple fő iPhone-összeszerelője 77,5 milliárd tajvani dollár nettó profitot ért el július–szeptemberben, az LSEG 69,6 milliárdos konszenzusa felett. A cég bizakodó a kilátásokat illetően, 2027-re az AI-rackszállítások „magas kétszámjegyű” növekedését várja, de az ellátási lánc feszességére is figyelmeztetett.",
+     "symbols": [],
+     "title": "A Foxconn harmadik negyedéves profitja 34%-kal nőtt, felülmúlva a várakozást; a cég az ellátási lánc szűkösségére figyelmeztet",
+     "url": "https://www.investing.com/news/stock-market-news/taiwans-foxconn-reports-34-rise-in-q3-profit-beats-forecasts-5020447",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A müncheni robotikai cég 500 millió dolláros tőkebevonást jelentett be, amelyet a SoftBank vezetett, az Nvidia és a Hitachi is részt vett benne. A pénzt amerikai terjeszkedésre és a gyártókapacitás bővítésére fordítják, és egy későbbi tőzsdei bevezetést is előkészíthet.",
+     "symbols": [],
+     "title": "A SoftBank és az Nvidia 8,5 milliárd dolláros értékeléssel fektet be a német Agile Robotsba",
+     "url": "https://www.investing.com/news/stock-market-news/softbank-nvidia-back-germanys-agile-robots-at-85-billion-valuation-5020769",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint a William Blair „outperform”-ról „market perform”-ra rontotta az Nvidia besorolását, mert Jensen Huang várható távozása és a fokozott figyelem rövid távon nyomás alatt tarthatja a részvényt. Ugyanez az elemzőház az AMD-t az adatközponti üzletág erőssége miatt felminősítette.",
+     "symbols": [],
+     "title": "A William Blair leminősítette az Nvidiát a vezérigazgató körüli bizonytalanság miatt, az AMD-t felminősítette",
+     "url": "https://www.investing.com/news/analyst-ratings/william-blair-downgrades-nvidia-stock-rating-amid-ceo-uncertainty-93CH-5020828",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az európai gáz határidős ára sorozatban harmadik napja emelkedik, mert a piac továbbra is a közeli időszak ellátása miatt aggódik. A drágulás a fűtési szezon elején érinti az európai energiaárakat.",
+     "symbols": [],
+     "title": "Harmadik napja drágul az európai földgáz a rövid távú ellátási aggodalmak miatt",
+     "url": "https://www.investing.com/news/commodities-news/european-gas-extends-rally-to-third-day-as-nearterm-supply-anxiety-persists-5020480",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Venezuela a COP31 klímacsúcson kijelentette, hogy szuverén joga növelni olajtermelését. Az ország a közelmúltban kötött amerikai energiaügyi megállapodás nyomán napi 1,5 millió hordó feletti termelést céloz.",
+     "symbols": [],
+     "title": "Venezuela a COP31-en: szuverén joga, hogy több olajat termeljen",
+     "url": "https://www.investing.com/news/commodities-news/venezuela-tells-cop31-it-has-a-sovereign-right-to-pump-more-oil-5020789",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A japán online használtcikk-piactér negyedéves profitja felülmúlta a várakozásokat, amit az Investing.com szerint a japán üzletág erős növekedése hajtott.",
+     "symbols": [],
+     "title": "A Mercari a vártnál nagyobb profitot ért el az erős hazai növekedésnek köszönhetően",
+     "url": "https://www.investing.com/news/earnings/mercari-posts-profit-beat-on-strong-domestic-growth-93CH-5020826",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "FXStreet · CoinCentral (SoSoValue-adatok)",
+     "summary": "A SoSoValue adataira hivatkozó beszámolók szerint az amerikai spot XRP-ETF-ekből hétfőn 10,4, kedden 7,6 millió dollár áramlott ki, a hétfői kiáramlás nagy része a Bitwise alapjából. Az XRP 1,04 dollár körül jár, mintegy 35%-kal az októberi csúcs alatt. Az adatokat csak kriptós hírportálok közölték.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Két nap alatt mintegy 18 millió dollár áramlott ki az amerikai spot XRP-ETF-ekből",
+     "url": "https://coincentral.com/xrp-price-slips-toward-1-as-spot-etfs-shed-18-million-in-two-days",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-12T10:41:05Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "source": "The Jakarta Post (a Bloomberg értesülése alapján)",
+     "summary": "A Bloomberg értesülése szerint Haji Isam megvásárolhatja az Eramet 38,7%-os részesedésének egy részét vagy egészét a PT Weda Bay Nickelben; a lehetséges vevők között az indonéz állami Danantara alap is szerepel. A tárgyalásokat hivatalosan nem erősítették meg.",
+     "symbols": [],
+     "title": "Értesülés: Haji Isam indonéz milliárdos ajánlatot tehet az Eramet Weda Bay nikkelbányai részesedésére",
+     "url": "http://www.thejakartapost.com/business/2026/11/12/haji-isam-reportedly-weighs-bid-for-eramets-stake-in-weda-bay-nickel",
+     "verified": false
     }
    ],
    "markets": [
@@ -1042,7 +1164,7 @@
     }
    ],
    "summary": "Az amerikai tőzsdék szerdán a CoreWeave erős jelentésének köszönhetően emelkedtek (S&P 500 +1,3%, Nasdaq +1,6%), de este a Wall Street Journal értesülése, hogy az Nvidia igazgatótanácsa Jensen Huang leváltására készül, 8%-os esést okozott a zárás utáni kereskedésben és lenyomta a határidős indexeket. Az MSCI megerősítette, hogy november 30-tól kikerül indexeiből a bitcoin-tartalékos Strategy. A dollár erősödik, a jen a 160-as szint közelében jár, a japán termelői infláció 7,1%-ra gyorsult. Az olajár az iráni és ukrajnai béketárgyalások reményében esik, az arany 4000 dollár alatt maradt. Itthon a dollár hajnalban csúcsra szaladt a forinttal szemben, a minimálbér-tárgyalásokon közeledtek az álláspontok.",
-   "updatedAt": "2026-11-12T09:40:14Z",
+   "updatedAt": "2026-11-12T10:41:05Z",
    "watchlist": []
   },
   {
