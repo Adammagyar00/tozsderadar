@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T06:56:05Z",
+ "builtAt": "2026-11-12T07:55:56Z",
  "digests": [
   {
    "calendar": [
@@ -765,6 +765,101 @@
      "title": "632 millió dolláros negyedéves profitot ért el a MARA a digitális eszközök nyereségén",
      "url": "https://finance.yahoo.com/markets/crypto/articles/mara-holdings-inc-mara-q3-010227107.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T07:40:28Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Glassnode szerint a bitcoin-határidős nyitott pozíciók (open interest) visszaépültek a szeptemberi csúcsra, miközben a bitcoin árfolyama mintegy 15%-ot esett. Az elemzőcég 14 milliárd dolláros likviditáskiáramlást jelzett; egy elemző ugyanakkor úgy véli, a bitcoin a 2023-as forgatókönyvet ismétli.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Glassnode: 14 milliárd dolláros likviditáskiáramlás a bitcoinpiacon, miközben egy elemző a 2023-as mintázat ismétlődését látja",
+     "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-is-repeating-its-2023-playbook-says-analyst-but-glassnode-spots-a-14-b-liquidity-drain/cNGzVXKR99Y?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T07:40:28Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · AP · MLQ",
+     "summary": "Csütörtökön a legtöbb ázsiai tőzsde esett, mert az Nvidia vezetési válsága a chipgyártókat sújtotta. A japán Nikkei 225 0,71%-os eséssel zárt, a dél-koreai Kospi 0,61%-kal 5342,73 pontra csökkent (az SK hynix 1,8%-ot, a Naver 6,4%-ot esett), a tajvani Taiex 2,5–3%-kal került lejjebb; a hongkongi Hang Seng délután 1,2% körüli mínuszban járt.",
+     "symbols": [],
+     "title": "Az Nvidia-válság lenyomta az ázsiai zárást: a Nikkei 0,71%-ot, a Kospi 0,61%-ot esett, a tajvani Taiex 2,5–3%-ot",
+     "url": "https://www.investing.com/news/stock-market-news/japan-stocks-lower-at-close-of-trade-nikkei-225-down-071-5020465",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T07:40:28Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a szingapúri Megaspeed – amelyet az amerikai és szingapúri hatóságok azzal a gyanúval vizsgálnak, hogy Nvidia-chipeket juttatott kínai ügyfelekhez – kapcsolatban áll egy vidéki ausztráliai bolttal, ami újabb kérdéseket vet fel az ügyben. Az Nvidia korábban azt közölte, hogy saját vizsgálata nem talált bizonyítékot a chipek Kínába irányítására.",
+     "symbols": [],
+     "title": "Reuters: a Megaspeed egy vidéki ausztrál bolthoz fűződő kapcsolatai újabb kérdéseket vetnek fel az Nvidia-botrányban",
+     "url": "https://www.investing.com/news/stock-market-news/megaspeeds-links-to-rural-australian-store-raise-fresh-questions-in-nvidia-scandal-5020467",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T07:40:28Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A lengyel e-kereskedelmi csoport, az Allegro felfelé módosította az egész évre vonatkozó profit-előrejelzését. A cég az InPost csomagautomata-szolgáltatóval kötött megállapodásra és a lengyelországi eladások gyorsuló növekedésére hivatkozott.",
+     "symbols": [],
+     "title": "Az Allegro az InPost-megállapodás és a gyorsuló lengyel eladások miatt megemelte éves profitvárakozását",
+     "url": "https://www.investing.com/news/earnings/allegro-raises-fy-profit-outlook-on-inpost-deal-faster-polish-sales-growth-5020466",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T07:40:28Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Endeavour Mining",
+     "summary": "A nyugat-afrikai aranybányász Endeavour közölte, hogy az év eleje óta rekordnagyságú, 1023 millió dolláros szabad cash flow-t termelt, és tartja a 2026-os célokat. A cég jóváhagyta az Assafou-projekt végleges beruházási döntését, és elindította a fejlesztést.",
+     "symbols": [],
+     "title": "Az Endeavour Mining erős harmadik negyedévről számolt be, rekord szabad cash flow-val",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/endeavour-reports-strong-q3-2026-070000883.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T07:40:28Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "Reuters · City A.M. · LBC",
+     "summary": "Az ONS első becslése szerint a brit GDP 0,7%-kal bővült július–szeptemberben az előző negyedévhez képest, a várakozásoknak megfelelően (a második negyedévben 0,5% volt a növekedés). Szeptemberben havi 0,2%-os növekedést mértek a várt stagnálás helyett; a bővülést főleg a szolgáltatások és az AI-hoz kötődő vállalati beruházások hajtották.",
+     "symbols": [],
+     "title": "Két éve nem látott ütemben, 0,7%-kal nőtt a brit gazdaság a harmadik negyedévben",
+     "url": "https://www.cityam.com/uk-economy-grows-0-7-per-cent-in-third-quarter/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T07:40:28Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Bloomberg (swissinfo.ch-n átvéve)",
+     "summary": "A Bloomberg értesülése szerint az Nvidia igazgatótanácsa egy külső céggel dolgozik Jensen Huang lehetséges utódainak felkutatásán, és fontolgatja egy ideiglenes vezérigazgató kinevezését, amíg a végleges vezetőt keresik. Az értesülést a cég hivatalosan nem erősítette meg; november 8-i közlésük szerint Huang a helyén marad.",
+     "symbols": [],
+     "title": "Bloomberg: az Nvidia igazgatótanácsa külső céggel keres utódot Jensen Huang helyére, ideiglenes vezérigazgató is szóba jöhet",
+     "url": "https://www.swissinfo.ch/eng/us-stock-futures-fall-as-nvidia-turmoil-deepens:-markets-wrap/92367440",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-12T07:40:28Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio",
+     "summary": "A Portfolio értesülése szerint a kormány egymás után törli a kiemelt beruházásokat, így egy sor budapesti ingatlanfejlesztés jövője bizonytalanná vált. A kormány tavasszal rendelte el a kiemelt beruházások teljes körű felülvizsgálatát; az első visszavonó rendelet szeptemberben jelent meg.",
+     "symbols": [],
+     "title": "A kormány sorra vonja vissza a kiemelt beruházási státuszokat, több budapesti fejlesztés bizonytalanná vált",
+     "url": "https://www.portfolio.hu/ingatlan/20261112/egymas-utan-torli-a-kormany-a-kiemelt-beruhazasokat-egy-sor-budapesti-fejlesztes-valt-bizonytalanna-875920",
+     "verified": false
     }
    ],
    "markets": [
@@ -791,7 +886,7 @@
     }
    ],
    "summary": "Az amerikai tőzsdék szerdán a CoreWeave erős jelentésének köszönhetően emelkedtek (S&P 500 +1,3%, Nasdaq +1,6%), de este a Wall Street Journal értesülése, hogy az Nvidia igazgatótanácsa Jensen Huang leváltására készül, 8%-os esést okozott a zárás utáni kereskedésben és lenyomta a határidős indexeket. Az MSCI megerősítette, hogy november 30-tól kikerül indexeiből a bitcoin-tartalékos Strategy. A dollár erősödik, a jen a 160-as szint közelében jár, a japán termelői infláció 7,1%-ra gyorsult. Az olajár az iráni és ukrajnai béketárgyalások reményében esik, az arany 4000 dollár alatt maradt. Itthon a dollár hajnalban csúcsra szaladt a forinttal szemben, a minimálbér-tárgyalásokon közeledtek az álláspontok.",
-   "updatedAt": "2026-11-12T06:55:18Z",
+   "updatedAt": "2026-11-12T07:40:28Z",
    "watchlist": []
   },
   {
@@ -16261,14 +16356,14 @@
    "id": "2026-11-10-hu-cpi"
   },
   {
-   "actual": "",
+   "actual": "+0,7% (negyedéves); szeptember havi +0,2%",
    "country": "Egyesült Királyság",
    "date": "2026-11-12",
    "event": "GDP első becslés, 3. negyedév (július–szeptember)",
-   "forecast": "",
+   "forecast": "+0,7% (negyedéves)",
    "importance": 3,
-   "note": "Egyben a szeptemberi havi GDP.",
-   "previous": "",
+   "note": "Egyben a szeptemberi havi GDP (várakozás: 0,0%). Várakozás: FXStreet / City A.M.; adat: Reuters, City A.M., LBC (ONS-adatok).",
+   "previous": "+0,5% (2. negyedév)",
    "source": "ONS",
    "symbols": [],
    "time": "08:00",
