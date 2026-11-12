@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T14:55:53Z",
+ "builtAt": "2026-11-12T15:56:03Z",
  "digests": [
   {
    "calendar": [
@@ -1509,12 +1509,126 @@
      "addedAt": "2026-11-12T14:52:00Z",
      "category": "Globális piacok",
      "impact": "negatív",
-     "source": "FXStreet · Reuters · CNBC",
+     "source": "FXStreet · Reuters · CNBC · Yahoo Finance · WSJ",
      "summary": "A dollárindex (DXY) 103 körül új éves csúcsra emelkedett, a 10 éves amerikai államkötvényhozam pedig újra megközelítette az 5%-ot, mert a piacok a forró inflációs adat után egyre inkább decemberi Fed-kamatemelést áraznak (FXStreet, Reuters). Ez nyomás alatt tartja a feltörekvő devizákat, köztük a forintot.",
      "symbols": [],
      "title": "Éves csúcson a dollárindex, ismét 5% közelében a 10 éves amerikai hozam",
      "url": "https://fxstreet.com/news/10308-us-dollar-index-hits-a-fresh-year-to-date-high-as-fed-hike-bets-build-202611121252",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga",
+     "summary": "A SpaceX részvénye október óta mintegy 13%-ot esett, ami a Benzinga szerint bonyolítja Elon Musk két cégének lehetséges összeolvadását. Az alacsonyabb SpaceX-árfolyam miatt a Tesla befektetői jóval nagyobb részt kaphatnának az egyesült vállalatból.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX árfolyamesése megnehezíti a Teslával tervezett összeolvadást",
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63190512/spacex-tesla-merger?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Coinspeaker",
+     "summary": "Csütörtökön a bitcoin 73 000 dollár alá csúszott, a Binance-en 72 735 dollárt is érintett – épp a keddi 72 727 dolláros mélypont felett, ami augusztus 20. óta a leggyengébb szint. A hetek óta tartó kriptoesésben az emelkedésre fogadó tőkeáttételes kereskedők pozícióit újra és újra likvidálták.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "73 000 dollár alá esett a bitcoin, a mélyponton vásárló tőkeáttételes kereskedőket ismét kiszórta a piac",
+     "url": "https://www.coinspeaker.com/crypto-market-crash-liquidations-bitcoin-bottom/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A Micron részvénye szerdán a július óta legnagyobb napi emelkedésével ismét 800 dollár fölé került, piaci értéke napközben rövid időre a JPMorganét is meghaladta, de a zárásra ismét mögé került. A cikk szerint egy héttel a heves eladási hullám után a fellendülés tartóssága még kérdéses.",
+     "symbols": [
+      "MU",
+      "JPM"
+     ],
+     "title": "A Micron ismét 800 dollár felett a július óta legjobb napja után",
+     "url": "https://247wallst.com/investing/2026/11/12/micron-is-back-above-800-after-its-best-day-since-july/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Keurig Dr Pepper 2 milliárd dollár értékű részvényt bocsát ki, hogy a bevételből csökkentse adósságát a cég tervezett kettéválása előtt (Reuters).",
+     "symbols": [],
+     "title": "A Keurig Dr Pepper 2 milliárd dolláros részvénykibocsátást tervez adósságcsökkentésre a szétválás előtt",
+     "url": "https://www.investing.com/news/stock-market-news/keurig-dr-pepper-plans-2-billion-stock-offering-to-cut-debt-ahead-of-split-5022166",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A brazil állami bank harmadik negyedéves nyeresége 67%-kal esett, főként a mezőgazdasági hitelek romló minősége miatt (a cég negyedéves prezentációja alapján).",
+     "symbols": [],
+     "title": "Banco do Brasil: 67%-kal zuhant a harmadik negyedéves profit a mezőgazdasági hitelválság miatt",
+     "url": "https://www.investing.com/news/company-news/banco-do-brasil-q3-2026-slides-profit-plunges-67-on-farm-loan-crisis-93CH-5022175",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CNBC · Yahoo Finance · Quartz",
+     "summary": "Jensen Huang lemondása után az Nvidia részvénye a nyitáskor 13–14%-kal is esett, a CNBC szerint a közel 10%-os mínusszal a cég piaci értéke 4000 milliárd dollár alá került. A kora délelőtti kereskedésben az S&P 500 0,4%-kal, a Nasdaq 0,6%-kal gyengült, a Dow Jones nagyjából stagnált (Yahoo Finance); közben a Broadcom és az AMD emelkedett.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Nyitás után esik az S&P 500 és a Nasdaq: az Nvidia akár 13–14%-ot is zuhant, piaci értéke 4000 milliárd dollár alá került",
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "NAR · Reuters",
+     "summary": "Az USA-ban októberben a használt lakások eladása havi 5,5%-kal, évesített 3,75 millióra esett, ami 2010 augusztusa óta a legalacsonyabb szint; az elemzők 3,85 milliót vártak. Éves alapon 8,8% a csökkenés, a medián ár 416 700 dollár (+0,4%). Lawrence Yun, a NAR vezető közgazdásza a 2000 óta szinte legmagasabb jelzáloghitel-kamatokat okolja.",
+     "symbols": [],
+     "title": "2010 óta nem volt ilyen gyenge az amerikai használtlakás-piac: 5,5%-kal estek az eladások októberben",
+     "url": "https://www.globenewswire.com/news-release/2026/11/12/3401799/0/en/existing-home-sales-decreased-5-5-in-october-according-to-nar-report.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · Tetra Tech (BusinessWire)",
+     "summary": "A mérnöki és tanácsadó Tetra Tech negyedik pénzügyi negyedéves korrigált EPS-e 0,49 dollár lett a FactSet szerinti 0,47 dolláros várakozással szemben, a cég 11%-kal emelte negyedéves osztalékát. A részvény a nyitás előtt közel 10%-ot emelkedett (CNBC, cégközlemény).",
+     "symbols": [],
+     "title": "Közel 10%-ot ugrott a Tetra Tech a vártnál jobb negyedéves eredmény után",
+     "url": "https://www.businesswire.com/news/home/20261111493808/en/Tetra-Tech-Reports-Strong-Fourth-Quarter-and-Fiscal-Year-2026-Results",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T15:41:41Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "CNBC · GuruFocus",
+     "summary": "A CNBC szerint a mezőgazdasági vegyipari Corteva harmadik negyedéves bevétele 1,59 milliárd dollár lett a FactSet szerinti 1,77 milliárdos várakozással szemben, a részvény a nyitás előtt több mint 9%-ot esett. A GuruFocus összesítése szerint a gyengeséget a brazíliai piac és az árnyomás okozta; a számokat a cég közleményében nem tudtuk ellenőrizni.",
+     "symbols": [],
+     "title": "Több mint 9%-ot esett a Corteva a vártnál gyengébb bevétel miatt",
+     "url": "https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html",
+     "verified": false
     }
    ],
    "markets": [
@@ -1541,7 +1655,7 @@
     }
    ],
    "summary": "Csütörtökön az Nvidia igazgatótanácsa bejelentette: Jensen Huang 33 év után azonnali hatállyal lemond, ideiglenes vezérigazgató Colette Kress pénzügyi igazgató; a részvény a nyitás előtt több mint 10%-ot esett, a Nasdaq-100 határidős indexe 1,2%-kal gyengült, több elemzőház (Bernstein, Oppenheimer, Baird, William Blair) leminősítette a papírt. Európában ezzel szemben rekordon a STOXX 600. A dollárindex éves csúcson, a 10 éves amerikai hozam 5% közelében a decemberi Fed-kamatemelési várakozások miatt. Trump szerint nincs szükség megállapodásra Iránnal, erre az olajár ledolgozta esését; az arany 4000 dollár alatt. Itthon a Richter történelmi csúcsra ugrott az Eli Lillyvel kötött partnerség után, a forint nyomás alatt van.",
-   "updatedAt": "2026-11-12T14:52:00Z",
+   "updatedAt": "2026-11-12T15:41:41Z",
    "watchlist": []
   },
   {
