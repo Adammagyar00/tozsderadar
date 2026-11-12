@@ -1,6 +1,6 @@
 {
  "source": "Finnhub",
- "updatedAt": "2026-11-12T03:47:24Z",
+ "updatedAt": "2026-11-12T04:52:00Z",
  "quotes": {
   "VUAA": {
    "price": 147.34,
@@ -13,9 +13,9 @@
    "source": "Yahoo Finance (VUAA.L)"
   },
   "DFND": {
-   "price": 9.0572,
+   "price": 9.0613,
    "change": 0.93,
-   "prevClose": 8.9737,
+   "prevClose": 8.9777,
    "t": 1794414458,
    "listing": "DFND.L",
    "currency": "GBP",
@@ -23,9 +23,9 @@
    "source": "Yahoo Finance (DFND.L)"
   },
   "EQQQ": {
-   "price": 693.5923,
+   "price": 693.9062,
    "change": 2.93,
-   "prevClose": 673.8511,
+   "prevClose": 674.1561,
    "t": 1794414916,
    "listing": "EQQQ.L",
    "currency": "GBp",
@@ -33,9 +33,9 @@
    "source": "Yahoo Finance (EQQQ.L)"
   },
   "XDW0": {
-   "price": 76.0837,
+   "price": 76.1249,
    "change": 2.11,
-   "prevClose": 74.5106,
+   "prevClose": 74.551,
    "t": 1794414950,
    "listing": "XDW0.DE",
    "currency": "EUR",
@@ -43,9 +43,9 @@
    "source": "Yahoo Finance (XDW0.DE)"
   },
   "DFEN": {
-   "price": 56.6529,
+   "price": 56.6836,
    "change": 0.41,
-   "prevClose": 56.4203,
+   "prevClose": 56.4508,
    "t": 1794414969,
    "listing": "DFEN.DE",
    "currency": "EUR",
@@ -187,69 +187,69 @@
  },
  "market": {
   "EURHUF=X": {
-   "price": 364.407,
+   "price": 364.372,
    "prevClose": 364.42,
-   "t": 1794455225,
+   "t": 1794459104,
    "currency": "HUF"
   },
   "USDHUF=X": {
-   "price": 329.165,
+   "price": 328.967,
    "prevClose": 328.82,
-   "t": 1794455233,
+   "t": 1794459108,
    "currency": "HUF"
   },
   "CHFHUF=X": {
-   "price": 395.066,
+   "price": 395.19,
    "prevClose": 394.84,
-   "t": 1794455224,
+   "t": 1794459092,
    "currency": "HUF"
   },
   "GBPHUF=X": {
-   "price": 436.3,
+   "price": 436.49,
    "prevClose": 436.45,
-   "t": 1794455224,
+   "t": 1794459092,
    "currency": "HUF"
   },
   "EURUSD=X": {
-   "price": 1.1078,
+   "price": 1.1084,
    "prevClose": 1.109,
-   "t": 1794455191,
+   "t": 1794459092,
    "currency": "USD"
   },
   "BZ=F": {
-   "price": 91.77,
+   "price": 91.29,
    "prevClose": 92.76,
-   "t": 1794454483,
+   "t": 1794458480,
    "currency": "USD"
   },
   "CL=F": {
-   "price": 85.67,
+   "price": 85.34,
    "prevClose": 86.53,
-   "t": 1794454632,
+   "t": 1794458488,
    "currency": "USD"
   },
   "GC=F": {
-   "price": 3986.6,
+   "price": 3979.1,
    "prevClose": 4000.5,
-   "t": 1794454631,
+   "t": 1794458504,
    "currency": "USD"
   },
   "SI=F": {
-   "price": 51.48,
+   "price": 51.38,
    "prevClose": 52.002,
-   "t": 1794454632,
+   "t": 1794458502,
    "currency": "USD"
   },
   "HG=F": {
-   "price": 6.249,
+   "price": 6.24,
    "prevClose": 6.29,
-   "t": 1794454631,
+   "t": 1794458476,
    "currency": "USD"
   },
   "NG=F": {
-   "price": 3.285,
+   "price": 3.266,
    "prevClose": 3.215,
-   "t": 1794454594,
+   "t": 1794458512,
    "currency": "USD"
   },
   "^TNX": {
@@ -271,26 +271,26 @@
    "currency": "USD"
   },
   "^DJI": {
-   "price": 52486.49,
-   "prevClose": 52231.89,
-   "t": 1794433438,
+   "price": 52486.5,
+   "prevClose": 52231.9,
+   "t": 1794430800,
    "currency": "USD"
   },
   "^RUT": {
-   "price": 2846.2625,
-   "prevClose": 2821.3755,
+   "price": 2846.262,
+   "prevClose": 2821.38,
    "t": 1794432605,
    "currency": "USD"
   },
   "^GDAXI": {
    "price": 26662.77,
-   "prevClose": 26347.45,
+   "prevClose": 26347.4,
    "t": 1794416400,
    "currency": "EUR"
   },
   "^FTSE": {
    "price": 10835.47,
-   "prevClose": 10751.59,
+   "prevClose": 10751.6,
    "t": 1794414930,
    "currency": "GBP"
   },
@@ -313,20 +313,20 @@
    "currency": "HUF"
   },
   "^N225": {
-   "price": 61513.31,
+   "price": 61154.08,
    "prevClose": 61248.59,
-   "t": 1794454340,
+   "t": 1794458215,
    "currency": "JPY"
   },
   "^HSI": {
-   "price": 24108.14,
-   "prevClose": 24315.92,
-   "t": 1794454340,
+   "price": 24092.89,
+   "prevClose": 24557.0,
+   "t": 1794456300,
    "currency": "HKD"
   },
   "000001.SS": {
    "price": 3688.054,
-   "prevClose": 3680.6428,
+   "prevClose": 3663.72,
    "t": 1794454224,
    "currency": "CNY"
   },
