@@ -1,6 +1,799 @@
 {
- "builtAt": "2026-11-12T05:01:50Z",
+ "builtAt": "2026-11-12T06:56:05Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 12.",
+     "event": "Brit GDP (3. n.év); Cisco, Applied Materials, Nebius, Cerebras gyorsjelentés"
+    },
+    {
+     "date": "nov. 13.",
+     "event": "USA PPI; eurózóna GDP (módosított)"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés; Nvidia gyorsjelentés; USA kiskereskedelem; ZEW"
+    },
+    {
+     "date": "nov. 18.",
+     "event": "Fed-jegyzőkönyv; brit CPI"
+    },
+    {
+     "date": "nov. 19.",
+     "event": "Anthropic tőzsdei bevezetés; Walmart gyorsjelentés"
+    },
+    {
+     "date": "nov. 25.",
+     "event": "USA GDP (2. becslés) és PCE"
+    },
+    {
+     "date": "dec. 1.",
+     "event": "Marvell gyorsjelentés; eurózóna infláció; magyar GDP"
+    },
+    {
+     "date": "dec. 9.",
+     "event": "Fed kamatdöntés"
+    }
+   ],
+   "date": "2026-11-12",
+   "generatedAt": "2026-11-12T06:55:18Z",
+   "headline": "Vezetési válság az Nvidiánál: az igazgatótanács Jensen Huang sorsáról dönt, a részvény zárás után 8%-ot esett",
+   "items": [
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Szerda este csökkentek az amerikai részvényindexek határidős árai, mert az Nvidia papírjai a zárás utáni kereskedésben estek az igazgatótanács vezetőváltásáról szóló értesülések nyomán. A befektetők az AI-fellendülés központi cégénél kialakult bizonytalanságra reagáltak.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Estek az amerikai határidős indexek, miután az Nvidia a vezérigazgató leváltásáról szóló hírre zuhant",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-fall-nvidia-011540333.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance",
+     "summary": "Szerdán a Dow Jones 0,49%-kal 52 486 pontra, az S&P 500 1,31%-kal 7619 pontra, a Nasdaq Composite 1,6%-kal 25 466 pontra emelkedett. A CoreWeave erős gyorsjelentése enyhítette az AI-kiadásokkal kapcsolatos aggodalmakat, a CoreWeave részvénye közel 25%-ot ugrott, a technológiai szektor vezette az emelkedést.",
+     "symbols": [
+      "VOO",
+      "QQQ"
+     ],
+     "title": "Emelkedéssel zárt a Wall Street: az S&P 500 1,3%-ot, a Nasdaq 1,6%-ot erősödött a CoreWeave nyomán",
+     "url": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-048-5019892",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance · BeInCrypto",
+     "summary": "Az MSCI novemberi indexfelülvizsgálatában megerősítette, hogy a legnagyobb bitcoin-tartalékkal rendelkező Strategy november 30-i zárással kikerül az MSCI USA indexből (így az MSCI World és ACWI indexekből is); a Metaplanet szintén kikerül. A JPMorgan becslése szerint ez mintegy 2,8 milliárd dollárnyi kényszereladást okozhat; a Strategy részvénye a zárás után esett.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Az MSCI megerősítette: kikerül a Strategy az amerikai indexéből, a részvény esett",
+     "url": "https://www.investing.com/news/stock-market-news/strategy-shares-fall-after-msci-confirms-deletion-from-us-largecap-benchmark-5020038",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A SpaceX egy 100 gigawattos napelemgyártó sor berendezéseit rendelte meg energia- és műholdgyártási céljaihoz, emellett 24 milliárd dolláros AI-adatközpontot és gázerőművet tervez texasi Starbase telephelyén. Musk az X-en azt írta, hogy 100 GW űrbeli napenergia nagyjából 800 GW földinek felel meg a Starmind-projekt szempontjából.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A SpaceX berendezéseket rendelt egy 100 GW-os napelemgyártó sorhoz",
+     "url": "https://finance.yahoo.com/energy/articles/spacex-spcx-ordered-equipment-100-231946867.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Miután a Verizon, az AT&T és a T-Mobile elzárkózott Elon Musk telefonszolgáltatásától, az amerikai távközlési hatóság (FCC) vizsgálja a SpaceX saját hálózatépítési tervét. A SpaceX milliárdokat költhet arra, hogy versenytársa legyen a nagy mobilszolgáltatóknak.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Az FCC vizsgálja a SpaceX saját mobilhálózati tervét a nagy szolgáltatókkal szemben",
+     "url": "https://finance.yahoo.com/technology/articles/verizon-t-t-mobile-shut-223000207.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga",
+     "summary": "Kalifornia legnagyobb állami nyugdíjalapja egy rádióspektrumra tett fogadással alig több mint egy év alatt majdnem megduplázta befektetését; a spektrum most egy nagy SpaceX-ügylet része.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A CalPERS közel megduplázta 500 millió dolláros befektetését a SpaceX-üzlet révén",
+     "url": "https://www.benzinga.com/markets/private-markets/26/11/63165904/calpers-doubles-500-million-bet-thanks-to-elon-musks-spacex-deal?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Micron részvénye október 29. és november 5. között 29,7%-ot esett. A Bernstein elemzői szerint a papír árfolyama közel kétszeresére emelkedhet; ez az elemzőház véleménye.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Bernstein: a Micron árfolyama majdnem megduplázódhat egy heti 30%-os esés után",
+     "url": "https://www.tikr.com/blog/micron-stock-fell-30-in-a-week-bernstein-says-it-could-nearly-double?ref=yahoofinance&tlnk=yf-261111-vf93wfjf&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "Jason Gerberry, a BofA elemzője 1557 dollárra emelte a Lilly célárát, kiemelve a cég fogyókúrás üzletágán kívüli fogadásait. A módosítás a vállalat december 7-i innovációs napja előtt érkezett; ez az elemzőház értékelése.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "A Bank of America 1557 dollárra emelte Eli Lilly-célárát a december 7-i innovációs nap előtt",
+     "url": "https://www.thestreet.com/investing/stocks/bank-of-america-raises-eli-lilly-stock-target-ahead-of-innovation-day-december-7?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A közelmúltban vásárlók bekerülési áruk alatt mozgatnak milliárdokat a kriptotőzsdékre, a Binance-re erős beáramlás érkezik a nemrég mozgatott coinokból. Ez eladási nyomásra utalhat.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin rövid távú tartói 3,6 milliárd dollárnyi BTC-t küldtek veszteséggel a tőzsdékre",
+     "url": "https://decrypt.co/383077/bitcoin-short-term-holders-send-3-illion-btc-exchanges-loss?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "A stablecoinok kínálata 30 nap alatt 14,2 milliárd dollárral csökkent, ami 2022 júniusa óta a leggyorsabb zsugorodás. Ehhez gyenge ETF-kereslet társul, ami kevesebb friss tőkét jelent a kriptopiacon.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Csökkenő stablecoin-kínálat és ETF-kiáramlás: „üresen jár” a bitcoin",
+     "url": "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · The Motley Fool",
+     "summary": "A kriptodevizák visszanyerték a keddi veszteségek egy részét, az intézményi fejlemények és a mérséklődő eladási nyomás bátorító jelnek számít. A bitcoin 74 000 dollár fölé kapaszkodott vissza.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Szerdán ismét 74 000 dollár fölé emelkedett a bitcoin",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/crypto-market-today-nov-11-2-bitcoin-climbs-back-above-usd74-000-as-wall-street-s-crypto-outlook-begins-to-shift/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A Rothschild Investment LLC nyilvánosságra hozta, hogy bitcoinban, etherben és XRP-ben is van kitettsége.",
+     "symbols": [
+      "BTC",
+      "ETH",
+      "XRP"
+     ],
+     "title": "A Rothschild Investment bitcoin-, ether- és XRP-pozíciókat jelentett",
+     "url": "https://www.thestreet.com/crypto/markets/rothschild-investment-discloses-bitcoin-xrp-exposure?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet · crypto.news",
+     "summary": "A Ripple volt technológiai igazgatója szerint kockázatkerülés miatt szinte minden digitális eszközétől megvált; XRP-állományát nagyjából 26 millióról 3 millió darabra csökkentette, de XRP-je és jelentős Ripple-részvénycsomagja megmaradt. Az XRP közben augusztus óta nem látott szintre esett.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "David Schwartz, az XRP Ledger társalkotója eladta kriptovagyona nagy részét, de XRP-t és Ripple-részvényt megtartott",
+     "url": "https://www.thestreet.com/crypto/markets/ripple-veteran-reveals-why-he-sold-millions-in-crypto-and-what-remains?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk · Farside",
+     "summary": "Az amerikai spot bitcoin-ETF-ekből szerdán mintegy 300 millió dollár áramlott ki, ebből az IBIT-ből kb. 270 millió. Ez az ötödik egymást követő kiáramlásos nap; a bitcoin csütörtök reggel 73–74 ezer dollár körül járt.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Ötödik napja áramlik ki pénz az amerikai spot bitcoin-ETF-ekből",
+     "url": "https://farside.co.uk/btc/",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk · FXStreet · crypto.news",
+     "summary": "Az ETH a magas amerikai inflációs adat után 2000 dollárig esett, majd szerda este 2050 dollár körül állt. Az ether-ETF-ekből hat hete folyamatosan áramlik ki pénz, egy az Ethereum Alapítványhoz köthető tárca pedig újabb 1000 ETH-t adott el.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "Az ether 2000 dollárig esett az inflációs adat után, folytatódnak az ETF-kiáramlások",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/ethereum-price-forecast-eth-sees-mild-gains-following-ai-stock-rebound-202611112007",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "24/7 Wall St. · TokenPost",
+     "summary": "A HYPE-ot november 10-én bevezette az Upbit és a Bithumb, az árfolyam mégis mintegy 16%-ot esett egy hét alatt, és a 10. helyre csúszott a kriptók piaci érték szerinti rangsorában.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "A koreai tőzsdei bevezetés sem segített: egy hét alatt 16%-ot esett a HYPE",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/11/hyperliquid-fell-16-in-a-week-and-dropped-to-no-10-on-the-crypto-rankings-could-hype-reach-100-before-2027/",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Altcoinbuzz · PR Newswire",
+     "summary": "Értesülések szerint a Fidelity FCAT egysége hitelesítőként csatlakozott az Ondo tokenizált részvényeinek láncok közötti átviteléhez; a pontos dátum nem világos. Az Ondo egy november 5-i közlés szerint több mint 4 milliárd dollárnyi tokenizált eszközt kezel.",
+     "symbols": [
+      "ONDO"
+     ],
+     "title": "Értesülés: a Fidelity egysége hitelesíti az Ondo tokenizált részvényeinek láncok közötti átvitelét",
+     "url": "https://altcoinbuzz.io/ondo-4-billion-tokenized-assets-fidelity-verification",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Finanzen.net · Yahoo Finance · Euronews",
+     "summary": "A cseh CSG árrés-figyelmeztetése után a Rheinmetall mintegy 6,9%-kal 794 euróra esett, a Renk és a Hensoldt is gyengült. Az Abu-Dzabiban tartott amerikai–ukrán–orosz tárgyalások áttörés nélkül zárultak, csak fogolycseréről született elvi megállapodás.",
+     "symbols": [
+      "DFEN"
+     ],
+     "title": "Estek az európai védelmi részvények: a Rheinmetall 7%-kal a DAX leggyengébbje volt",
+     "url": "https://www.finanzen.net/plus/aktien-unternehmen/ruestung-unter-druck-csg-crasht-rheinmetall-faellt-droht-der-ruestung-der-corona-kater-16056572/",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A UBS szerint az S&P 500 vállalatainak nyereségnövekedése valószínűleg évről évre lassul 2027-ben és 2028-ban. Ez az elemzőház előrejelzése.",
+     "symbols": [
+      "VOO"
+     ],
+     "title": "UBS: 2027-ben és 2028-ban lassul az S&P 500 cégeinek profitnövekedése",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-apos-earnings-growth-193557535.html",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · Pénzcentrum · mfor",
+     "summary": "A forint csütörtök reggel 364,8 körül állt az euróval szemben, kicsit erősebben, mint szerdán, a dollár/forint viszont 329 körüli csúcsra ugrott. A dollárt a vártnál magasabb amerikai infláció és a decemberi Fed-kamatemelés erősödő várakozása hajtja.",
+     "symbols": [],
+     "title": "Csúcsra szaladt hajnalban a dollár, nyomás alatt a forint",
+     "url": "https://www.portfolio.hu/deviza/20261112/hajnalban-uj-csucsra-szaladt-a-dollar-nyomas-alatt-a-forint-875910",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Világgazdaság · Pénzcentrum · Privátbankár",
+     "summary": "A versenyszféra és a kormány konzultációs fórumán (VKF) a felek közeledtek, de 2027-re még nincs bérmegállapodás: a munkaadók eddig bruttó 4%-ot, a MASZSZ 14%-ot javasolt, a kormány konkrét ajánlatot tett. A következő egyeztetés november 16–20. között várható, megállapodást november végére várnak.",
+     "symbols": [],
+     "title": "Minimálbér 2027: közeledtek az álláspontok, de még nincs megállapodás",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/11/beremeles-minimalber-berminimum-2027-vkf-egyeztetes",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · Economx · Telex · 4iG BÉT-közlemény",
+     "summary": "A 4iG Távközlési Holding éléről távozott Tábori Tamás, a posztot november 10-i hatállyal Bányai Tamás, a One Magyarország vezérigazgatója vette át. A 4iG megvette a Remred 55%-át, így egyedüli tulajdonos lett, és 7,2 milliárd forintos tőkeemelést hajt végre a cégben. A részvény szerdán nyitáskor mintegy 14%-ot esett.",
+     "symbols": [],
+     "title": "4iG: vezetőváltás a távközlési holdingnál, teljes tulajdon a Remredben; esett a részvény",
+     "url": "https://www.portfolio.hu/befektetes/20261111/fordulat-a-4ig-tavkozlesi-holding-elen-egyszerre-ket-csucspoziciot-tolt-majd-be-a-one-vezerigazgatoja-875830",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "HVG",
+     "summary": "A HVG értesülése szerint a magyar gáztározók töltöttsége magasabb a tavalyinál, mert a kitárolás egy hónappal később kezdődött. Európában a szint általában alacsony.",
+     "symbols": [],
+     "title": "A tavalyinál teltebbek a hazai gáztározók",
+     "url": "https://hvg.hu/gazdasag/20261111_gaztarozok-toltottseg-kitarolas",
+     "verified": false
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az ázsiai részvénypiacok csütörtökön mérsékelt emelkedésben voltak, a befektetők a technológiai papírok ellenálló képességét mérlegelték az Nvidia vezérigazgatójáról szóló hírekkel szemben.",
+     "symbols": [],
+     "title": "Kitartanak az ázsiai tőzsdék, bár az Nvidia vezetési válsága beárnyékolja az AI-kereskedést",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-hold-nvidia-leadership-043951157.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "A dollár csütörtök reggel 159,94 jenig erősödött, ami több mint két hónapja a legerősebb szint; a dollárt a Fed-kamatemelési várakozások hajtják. Mimura Acusi, Japán vezető devizadiplomatája szerint a közelmúlt árfolyammozgásai túl gyorsak voltak, és még korai elfelejteni a nyári intervenciókat.",
+     "symbols": [],
+     "title": "A jen a 160-as szint közelében: a japán devizadiplomata ismét a túlzott ingadozásra figyelmeztetett",
+     "url": "https://www.investing.com/news/economy-news/japans-top-currency-diplomat-renews-volatility-warning-as-yen-nears-key-160-level-5020140",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az indonéz rúpia történelmi mélypontra gyengült, mert a befektetők az ország MSCI-besorolásának rontásától tartanak. Közben Gibran Rakabuming Raka alelnök benyújtotta lemondását a parlament felsőházának.",
+     "symbols": [],
+     "title": "Rekordmélypontra esett az indonéz rúpia az MSCI-leminősítéstől tartva; Gibran alelnök benyújtotta lemondását",
+     "url": "https://www.investing.com/news/forex-news/indonesian-rupiah-hits-record-low-amid-msci-downgrade-concerns-5020336",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Egy értesülés szerint az EU és az Egyesült Királyság fontolgatja, hogy elhalasztja a kölcsönösen kereskedett elektromos autókra január 1-jétől kivetendő 10%-os vámot.",
+     "symbols": [],
+     "title": "Értesülés: az EU és Nagy-Britannia a január 1-jén életbe lépő 10%-os villanyautó-vám elhalasztását mérlegeli",
+     "url": "https://www.investing.com/news/economy-news/eu-moves-to-delay-10-tariff-on-evs-traded-with-britain--report-5020385",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "A Descartes adatai szerint az amerikai konténerimport volumene októberben rekordot döntött, amit a Kínából érkező import meredek növekedése hajtott.",
+     "symbols": [],
+     "title": "Októberben minden idők legnagyobb konténerimportját mérték az USA-ban, megugrott a kínai behozatal",
+     "url": "https://www.investing.com/news/economic-indicators/us-container-imports-set-alltime-volume-record-in-october-as-chinese-imports-spike-descartes-says-5019778",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "Spanyolországban milliók vettek részt 14 év óta az első általános sztrájkban, a lakhatási helyzet miatti elégedetlenség több helyen összecsapásokba torkollott.",
+     "symbols": [],
+     "title": "14 év után először általános sztrájk Spanyolországban a lakhatási válság miatt",
+     "url": "https://www.investing.com/news/economy-news/millions-of-spaniards-stage-first-general-strike-in-14-years-as-anger-over-housing-leads-to-clashes-5020109",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "Az Oaktree társalapítója szerint kérdéses, változhat-e a nagy felhőszolgáltatók hitelképessége, ahogy egyre többet hiteleznek fel; az AI-hoz kapcsolódó kötvénykibocsátás közel 600 milliárd dollár. Véleménye szerint az AI tőkeigénye az állami finanszírozási költségeket is emelheti.",
+     "symbols": [],
+     "title": "Howard Marks: az AI-kitettség „törésvonal” a portfóliókban, közel 600 milliárd dollárnyi AI-adósság",
+     "url": "https://stocktwits.com/news-articles/markets/equity/howard-marks-calls-ai-exposure-a-fault-line-running-through-portfolios-highlights-nearly-600-b-in-ai-related-debt-issuance/cNGDvg9R9BD?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "Az elektromos járművek világpiaci értékesítése októberben visszatért a növekedési pályára.",
+     "symbols": [],
+     "title": "Októberben ismét nőtt a villanyautók globális eladása",
+     "url": "https://www.investing.com/news/economic-indicators/global-electric-vehicle-sales-return-to-growth-in-october-5020093",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "Japánban a termelői árak októberben 7,1%-kal nőttek éves alapon, gyorsabban a várt 6,5%-nál és a szeptemberi 6,8%-nál. A gyenge jen miatt drágulnak az importált nyersanyagok, ami erősíti a Bank of Japan decemberi kamatemelésére vonatkozó várakozásokat.",
+     "symbols": [],
+     "title": "Gyorsult a japán nagykereskedelmi infláció: 7,1% októberben, életben tartva a BoJ-kamatemelés várakozását",
+     "url": "https://www.investing.com/news/economy-news/japan-wholesale-inflation-accelerates-keeps-alive-boj-ratehike-view-5020108",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Bank of Japan galambként ismert döntéshozója, Asada visszautasította a korai kamatemelés gondolatát. Megszólalása a gyorsuló termelői infláció és a gyengülő jen idején csillapíthatja a decemberi emelésre vonatkozó fogadásokat.",
+     "symbols": [],
+     "title": "Asada (BoJ) a túl korai kamatemelés ellen érvelt",
+     "url": "https://www.investing.com/news/economy-news/dovish-boj-policymaker-asada-pushes-back-against-early-rate-hike-5020198",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "A Fed elnöke közzétette felesége kisállatgondozási vállalatokba történt befektetési tranzakcióit. A jegybankvezetők pénzügyi ügyleteit szigorú etikai szabályok kötik.",
+     "symbols": [],
+     "title": "A Fed elnöke nyilvánosságra hozta felesége állateledel-ipari befektetési ügyleteit",
+     "url": "https://www.investing.com/news/economic-indicators/fed-chair-discloses-wifes-transactions-in-petcare-investments-5020136",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Macquarie szerint egy esetleges amerikai kormányzati leállás és az olajárak további csökkenése azok közé a tényezők közé tartozik, amelyek miatt a Fed decemberben mégsem emelne kamatot. Ez az elemzőház véleménye.",
+     "symbols": [],
+     "title": "Macquarie: egy kormányzati leállás és az olajár további esése megakadályozhatja a decemberi Fed-emelést",
+     "url": "https://finance.yahoo.com/economy/policy/articles/government-shutdown-continued-oil-price-182153985.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Yahoo Finance",
+     "summary": "A Wall Street Journal értesülése szerint az Nvidia igazgatótanácsa Jensen Huang leváltására készül; a Reuters egy forrásra hivatkozva azt írta, hogy a testület szerda késő este ülésezett a vezérigazgató sorsáról. A hírre a részvény a tőzsdezárás utáni kereskedésben mintegy 8%-ot esett, az Nvidia a hét eleje óta nagyjából 600 milliárd dollárnyi piaci értéket veszített. Döntést még nem jelentettek be.",
+     "symbols": [],
+     "title": "Az Nvidia igazgatótanácsa Jensen Huang vezérigazgató jövőjéről tanácskozik, a részvény zárás után 8%-ot esett",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A New York Times értesülése szerint az Nvidia vezérigazgatójának kapcsolata volt egy olyan vezetővel, aki neki jelentett. Az újabb állítások nyomán a részvény tovább esett a zárás utáni kereskedésben; a botrány egy korábbi, kínai kémkedési gyanúval összefüggő ügyhöz kapcsolódik.",
+     "symbols": [],
+     "title": "NYT: Jensen Huang kapcsolatban állt egy neki közvetlenül beosztott vezetővel",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-huang-had-relationship-with-executive-who-reported-to-him-nyt-reports-5019992",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Stifel · Yorkville/Ives",
+     "summary": "Az Oppenheimer a vezérigazgató távozásáról szóló értesülések miatt „outperform”-ról „perform”-ra rontotta az Nvidia besorolását. A Stifel a vezetési bizonytalanságra hivatkozva 315 dollárról 205 dollárra csökkentette célárát, Dan Ives szerint pedig az Nvidia Jensen Huang nélkül 25%-kal kevesebbet érne. Ezek az elemzőházak véleményei.",
+     "symbols": [],
+     "title": "Elemzői reakciók: az Oppenheimer leminősítette az Nvidiát, a Stifel 315-ről 205 dollárra vágta a célárat",
+     "url": "https://www.investing.com/news/analyst-ratings/oppenheimer-downgrades-nvidia-stock-rating-on-ceo-departure-reports-93CH-5020390",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Yahoo Finance · Stocktwits",
+     "summary": "A Reuters szerint, ha Huang távozna, a cég egyik vezető mérnöke és pénzügyi igazgatója, Colette Kress tűnik a legesélyesebb utódnak. Értesülések szerint egyes igazgatók Krasset ideiglenes vezérigazgatónak látnák, miközben egy külső cég keres lehetséges utódot.",
+     "symbols": [],
+     "title": "Ki lehet az Nvidia következő vezérigazgatója? A vezető mérnök és a pénzügyi igazgató az esélyes",
+     "url": "https://www.investing.com/news/stock-market-news/whos-next-ceo-at-nvidia-top-engineer-and-cfo-favored-as-candidates-5020356",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters három névtelen forrásra hivatkozó exkluzív értesülése szerint kínai mesterségesintelligencia-cégek külföldi adatközpontokban próbálnak Nvidia-alapú számítási kapacitást bérelni. Attól tartanak, hogy a Huang körüli botrány miatt Washington szigorítja a fejlett chipekhez való távoli hozzáférés szabályait.",
+     "symbols": [],
+     "title": "Reuters: kínai AI-cégek sietve próbálnak Nvidia-kapacitást biztosítani a kémbotrány miatti amerikai szigorítástól tartva",
+     "url": "https://www.investing.com/news/economy-news/exclusivechinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs-5020406",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · The Information",
+     "summary": "A The Information értesülése szerint az amerikai kormány véglegesíti azt a szabályt, amely megakadályozná, hogy kínai cégek harmadik országokban lévő adatközpontokon keresztül férjenek hozzá fejlett AI-chipekhez. A hírre az Alibaba és a Tencent részvényei estek.",
+     "symbols": [],
+     "title": "The Information: az USA véglegesíti a kínai távoli AI-chiphozzáférést tiltó szabályt; esik az Alibaba és a Tencent",
+     "url": "https://www.investing.com/news/stock-market-news/us-finalizing-rule-to-block-chinas-remote-ai-chip-access-the-information-5020288",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Vezető demokrata szenátorok arra szólították fel a kormányzatot, hogy őrizze meg az Nvidia exportjával kapcsolatos dokumentumokat. A lépés a Kínával kapcsolatos nemzetbiztonsági aggodalmakhoz és a vezérigazgató körüli ügyhöz kapcsolódik.",
+     "symbols": [],
+     "title": "Demokrata szenátorok az Nvidia exportnyilvántartásainak megőrzését kérik a kínai biztonsági aggályok miatt",
+     "url": "https://www.investing.com/news/stock-market-news/senior-us-democratic-senators-urge-administration-to-preserve-nvidia-export-records-amid-china-security-concerns-5020284",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "A Pfizer legfeljebb 1,5 milliárd dolláros finanszírozást biztosított a Blackstone-tól az elhízás elleni gyógyszerfejlesztéseihez.",
+     "symbols": [],
+     "title": "A Pfizer legfeljebb 1,5 milliárd dollárt kap a Blackstone-tól elhízás elleni gyógyszerei fejlesztésére",
+     "url": "https://www.investing.com/news/stock-market-news/pfizer-secures-up-to-15-billion-from-blackstone-for-obesity-drug-development-5019917",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg értesülése szerint a CoreWeave 4 milliárd dolláros, befektetési kategóriás hitelt készül felvenni. A cég részvénye szerdán közel 25%-ot ugrott az erős gyorsjelentés után.",
+     "symbols": [],
+     "title": "Bloomberg: a CoreWeave 4 milliárd dolláros, befektetési besorolású hitelt tervez",
+     "url": "https://www.investing.com/news/stock-market-news/coreweave-plans-4-billion-highgrade-loan-bloomberg-reports-5020048",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A TSMC októberi bevétele éves alapon 59,7%-kal nőtt, a részvény 3,37%-ot emelkedett. A cég befektetési egysége 500 millió dollárral vesz részt az Anthropic tőzsdei bevezetéséhez kapcsolódó magánkibocsátásban.",
+     "symbols": [],
+     "title": "Rekordot döntött a TSMC októberi bevétele: 586,9 milliárd tajvani dollár, 59,7%-kal több egy évvel korábbinál",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-climb-3-37-165536443.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "Lee Jae-myung dél-koreai elnök szerint a Samsung chipcsomagolási kapacitásbővítése 30 milliárd dollárnyi további beruházást ösztönözhet.",
+     "symbols": [],
+     "title": "Dél-Korea elnöke: a Samsung chipcsomagolási bővítése további 30 milliárd dollárnyi beruházást hozhat",
+     "url": "https://www.investing.com/news/stock-market-news/south-koreas-lee-says-samsung-chip-packaging-expansion-to-spur-30-billion-additional-investment-5020166",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A United Airlines biztonsági okokra hivatkozva letiltja a mesterségesintelligencia-ügynököket a jegyfoglalási platformjáról. A hírre az utazási foglalóoldalakat üzemeltető Expedia és Booking részvényei emelkedtek.",
+     "symbols": [],
+     "title": "A United Airlines letiltja az AI-ügynököket platformjáról; emelkedett az Expedia és a Booking",
+     "url": "https://www.investing.com/news/stock-market-news/expedia-and-booking-shares-rise-after-united-airlines-blocks-ai-booking-5019714",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Oklo részvényei emelkedtek, miután az amerikai energiaügyi minisztérium (DOE) jóváhagyta reaktora teljes üzemű működését.",
+     "symbols": [],
+     "title": "Emelkedett az Oklo, miután az amerikai energiaügyi minisztérium teljes üzemre engedélyezte reaktorát",
+     "url": "https://www.investing.com/news/stock-market-news/oklo-stock-rises-after-doe-clears-reactor-for-full-operations-5018898",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A dél-koreai Naver harmadik negyedéves nyeresége 21%-kal csökkent a mesterséges intelligenciára és a marketingre fordított kiadások növekedése miatt.",
+     "symbols": [],
+     "title": "21%-kal esett a Naver negyedéves profitja az AI- és marketingkiadások miatt",
+     "url": "https://www.investing.com/news/earnings/naver-corp-q3-profit-falls-21-on-ai-marketing-spending-5020259",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "Egy sajtóértesülés szerint az iHeartMedia fontolgatja podcastüzletága eladását, a hírre a részvény megugrott.",
+     "symbols": [],
+     "title": "Értesülés: az iHeartMedia podcastüzletága eladását vizsgálja, a részvény ugrott",
+     "url": "https://www.investing.com/news/stock-market-news/iheartmedia-shares-jump-on-report-of-podcast-unit-sale-exploration-5019705",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "Csütörtök reggel a Brent hordónkénti ára mintegy 1,2%-kal 91,6 dollár körülire, a WTI 85,5 dollár körülire csökkent. A piacot az amerikai–iráni diplomácia és az ukrajnai béketárgyalások körüli remények nyomják, de a hormuzi szoros körüli bizonytalanság fékezi az esést.",
+     "symbols": [],
+     "title": "Több mint 1 dollárt esett az olajár az iráni és ukrajnai béketárgyalások reményében",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets-5020171",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az arany unciánkénti ára csütörtökön is 4000 dollár alatt maradt, miután szerdán második egymást követő napon esett. A tartós inflációs nyomás és a Fed-döntéshozók szigorú megszólalásai erősítik a decemberi kamatemelés várakozását.",
+     "symbols": [],
+     "title": "4000 dollár alatt maradt az arany a nagyobb Fed-emelésekre vonatkozó fogadások miatt",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/gold-clings-below-4-000-014114232.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Szaúd-Arábia olajkitermelése február óta a legmagasabb szintre nőtt. A növekvő OPEC+ kínálat az olajárakra nehezedő nyomás egyik tényezője.",
+     "symbols": [],
+     "title": "Szaúd-Arábia február óta a legmagasabb szintre emelte olajtermelését",
+     "url": "https://www.investing.com/news/commodities-news/saudi-arabia-raises-oil-output-to-highest-level-since-february-93CH-5018855",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "A Reuters forrásai szerint Irán támadást intézett az ománi Didamar-szigeten működő hajózási navigációs rendszerek ellen. Közben a Közel-Keleten továbbra is égnek tankhajók, bár a térségben enyhülést remélnek.",
+     "symbols": [],
+     "title": "Források: Irán megtámadta az ománi Didamar-szigeten lévő hajózási navigációs rendszereket",
+     "url": "https://www.investing.com/news/commodities-news/iran-attacks-shipping-navigation-systems-on-omans-didamarisland-sources-say-5019671",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az amerikai alelnök vezeti az Iránnal folytatott tárgyalásokat, és egy iráni tisztviselővel való közvetlen találkozót is mérlegel. A diplomáciai remények az olajárakra is hatnak.",
+     "symbols": [],
+     "title": "JD Vance alelnök veszi át az Irán-tárgyalások irányítását, közvetlen találkozót is fontolgat",
+     "url": "https://www.investing.com/news/economy-news/jd-vance-takes-lead-on-iran-talks-considers-direct-meeting-with-iranian-official-5019765",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Irán biztonsági főtisztviselője elutasította, hogy nukleáris anyagokat vigyenek ki az országból. Az álláspont nehezítheti az amerikai–iráni megállapodást.",
+     "symbols": [],
+     "title": "Az iráni biztonsági vezető elutasította a nukleáris anyagok országból való kiszállítását",
+     "url": "https://www.investing.com/news/economy-news/iran-security-chief-rejects-transfer-of-nuclear-materials-out-of-the-country-5018735",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az ukrán elnök szerint a béketárgyalások sikere attól függ, hogyan kezeli az Egyesült Államok Oroszországot. A tárgyalások körüli remények közben nyomják az olajárakat.",
+     "symbols": [],
+     "title": "Zelenszkij: a béketárgyalások előrehaladása az USA Oroszországgal szembeni hozzáállásán múlik",
+     "url": "https://www.investing.com/news/commodities-news/ukraines-zelenskiy-says-progress-in-peace-talks-hinges-on-us-approach-to-russia-5019823",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Reuters",
+     "summary": "A Reuters forrásokra hivatkozó exkluzív értesülése szerint az ExxonMobil hét venezuelai területet mér fel lehetséges energetikai beruházásokhoz.",
+     "symbols": [],
+     "title": "Források: az Exxon hét venezuelai területet vizsgál lehetséges energiaprojektekhez",
+     "url": "https://www.investing.com/news/commodities-news/exclusiveexxon-assessing-7-areas-in-venezuela-for-possible-energy-projects-sources-say-5019968",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "Egy sajtóértesülés szerint a japán Nomura vizsgálja kriptovalutás leányvállalata, a Laser Digital eladását.",
+     "symbols": [],
+     "title": "Értesülés: a Nomura eladná Laser Digital nevű kriptoüzletágát",
+     "url": "https://www.investing.com/news/stock-market-news/nomura-explores-sale-of-crypto-unit-laser-digital-report-says-5019755",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Polymarket előrejelzési piac a cég átszervezésének részeként munkatársakat bocsát el és szerződéseket mond fel, a növekvő verseny közepette.",
+     "symbols": [],
+     "title": "Leépítést hajt végre a Polymarket",
+     "url": "https://www.investing.com/news/stock-market-news/polymarket-cuts-staff-as-part-of-company-restructuring-5019722",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A tokenizált részvénykereskedés kiterjed körülbelül 200 brit és uniós tőzsdei részvényre, köztük mind a 40 DAX-vállalatra.",
+     "symbols": [],
+     "title": "A Kraken által támogatott tokenizált kereskedés mintegy 200 brit és EU-s részvényre bővül",
+     "url": "https://finance.yahoo.com/video/kraken-backed-tokenized-trading-expands-173000750.html",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "Egy új texasi törvényjavaslat szerint minden város és megye dönthetne arról, hogy közpénzből bitcoint vagy más digitális eszközt vásárol.",
+     "symbols": [],
+     "title": "Texas lehetővé tenné, hogy városai közpénzből kriptót vegyenek",
+     "url": "https://www.thestreet.com/crypto/markets/texas-may-let-cities-buy-crypto-with-taxpayer-money?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A bitcoinbányász MARA Holdings a digitális eszközeinek árfolyamnyereségén 632,1 millió dolláros negyedéves profitot ért el, 37%-kal csökkentette adósságát, és 500 millió dolláros sajátrészvény-visszavásárlást hagyott jóvá, miközben bevétele 35%-kal esett.",
+     "symbols": [],
+     "title": "632 millió dolláros negyedéves profitot ért el a MARA a digitális eszközök nyereségén",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/mara-holdings-inc-mara-q3-010227107.html",
+     "verified": true
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "Az amerikai tőzsdék szerdán a CoreWeave erős jelentésének köszönhetően emelkedtek (S&P 500 +1,3%, Nasdaq +1,6%), de este a Wall Street Journal értesülése, hogy az Nvidia igazgatótanácsa Jensen Huang leváltására készül, 8%-os esést okozott a zárás utáni kereskedésben és lenyomta a határidős indexeket. Az MSCI megerősítette, hogy november 30-tól kikerül indexeiből a bitcoin-tartalékos Strategy. A dollár erősödik, a jen a 160-as szint közelében jár, a japán termelői infláció 7,1%-ra gyorsult. Az olajár az iráni és ukrajnai béketárgyalások reményében esik, az arany 4000 dollár alatt maradt. Itthon a dollár hajnalban csúcsra szaladt a forinttal szemben, a minimálbér-tárgyalásokon közeledtek az álláspontok.",
+   "updatedAt": "2026-11-12T06:55:18Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -15487,6 +16280,60 @@
    "actual": "",
    "country": "USA",
    "date": "2026-11-12",
+   "event": "Nebius Group Q3 2026 gyorsjelentés",
+   "forecast": "EPS -0,61 $ / bevétel 0,92 Mrd $",
+   "importance": 2,
+   "note": "Nyitás előtt jelent, konferenciahívás 14:00-kor. Előrejelzés: Zacks.",
+   "previous": "",
+   "source": "Nebius Group (sajtóközlemény, 2026-10-30)",
+   "symbols": [
+    "NBIS"
+   ],
+   "time": "14:00",
+   "type": "Gyorsjelentés",
+   "url": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call",
+   "id": "2026-11-12-nbis-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-12",
+   "event": "Cerebras Systems Q3 2026 gyorsjelentés",
+   "forecast": "EPS -0,14 $ / bevétel 0,215 Mrd $",
+   "importance": 2,
+   "note": "Zárás után (kb. 22:00). Cég-guidance: core bevétel 214–216 M $. Előrejelzés: Benzinga.",
+   "previous": "",
+   "source": "Cerebras IR",
+   "symbols": [
+    "CBRS"
+   ],
+   "time": "22:00",
+   "type": "Gyorsjelentés",
+   "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-date-third-quarter-2026-financial",
+   "id": "2026-11-12-cbrs-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-12",
+   "event": "Applied Materials Q4 FY2026 gyorsjelentés",
+   "forecast": "EPS 4,06 $ / bevétel 10,3 Mrd $",
+   "importance": 2,
+   "note": "Zárás után, hívás 22:30-kor. Cég-guidance: EPS 4,02 ± 0,20 $, bevétel 10,25 ± 0,5 Mrd $. Előrejelzés: Investing.com.",
+   "previous": "",
+   "source": "Applied Materials IR",
+   "symbols": [
+    "AMAT"
+   ],
+   "time": "22:30",
+   "type": "Gyorsjelentés",
+   "url": "https://ir.appliedmaterials.com/events",
+   "id": "2026-11-12-amat-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-12",
    "event": "Cisco gyorsjelentés, 2027-es pénzügyi év 1. negyedév",
    "forecast": "EPS 1,29 $ / bevétel 18,11 Mrd $",
    "importance": 2,
@@ -15585,6 +16432,24 @@
    "actual": "",
    "country": "USA",
    "date": "2026-11-17",
+   "event": "Home Depot Q3 2026 gyorsjelentés",
+   "forecast": "EPS 3,83 $ / bevétel 42,8 Mrd $",
+   "importance": 2,
+   "note": "Nyitás előtt jelent, konferenciahívás 15:00-kor. Előrejelzés: MarketBeat.",
+   "previous": "",
+   "source": "Home Depot IR",
+   "symbols": [
+    "HD"
+   ],
+   "time": "15:00",
+   "type": "Gyorsjelentés",
+   "url": "https://ir.homedepot.com/news-releases/2026/11-03-2026-130236805",
+   "id": "2026-11-17-hd-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-17",
    "event": "Nvidia gyorsjelentés, 3. negyedév (2027-es pénzügyi év)",
    "forecast": "EPS 2,47 $ / bevétel 108,8 Mrd $",
    "importance": 3,
@@ -15632,6 +16497,24 @@
   },
   {
    "actual": "",
+   "country": "USA",
+   "date": "2026-11-18",
+   "event": "Lowe's Q3 2026 gyorsjelentés",
+   "forecast": "EPS 2,87 $ / bevétel 22,4 Mrd $",
+   "importance": 2,
+   "note": "Nyitás előtt jelent, hívás 15:00-kor. Előrejelzés: MarketBeat.",
+   "previous": "",
+   "source": "Lowe's (cégközlemény)",
+   "symbols": [
+    "LOW"
+   ],
+   "time": "15:00",
+   "type": "Gyorsjelentés",
+   "url": "https://www.stocktitan.net/news/LOW/lowe-s-companies-inc-to-host-third-quarter-2026-earnings-conference-alhl7i7m7t1s.html",
+   "id": "2026-11-18-low-earnings"
+  },
+  {
+   "actual": "",
    "country": "US",
    "date": "2026-11-18",
    "event": "Fed: az októberi FOMC-ülés jegyzőkönyve",
@@ -15643,6 +16526,58 @@
    "type": "Jegybank",
    "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
    "id": "2026-11-18-us-fomc-minutes"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-18",
+   "event": "Palo Alto Networks Q1 FY2027 gyorsjelentés",
+   "forecast": "EPS 0,97 $ / bevétel 3,31 Mrd $",
+   "importance": 2,
+   "note": "Zárás után, webcast 22:30-kor. Előrejelzés: MarketBeat.",
+   "previous": "",
+   "source": "Palo Alto Networks (PR Newswire)",
+   "symbols": [
+    "PANW"
+   ],
+   "time": "22:30",
+   "type": "Gyorsjelentés",
+   "url": "https://www.tradingview.com/news/prnewswire:b11a8d21cf3bb:0-palo-alto-networks-to-announce-fiscal-first-quarter-2027-financial-results-on-wednesday-november-18-2026/",
+   "id": "2026-11-18-panw-earnings"
+  },
+  {
+   "actual": "",
+   "country": "Eurózóna",
+   "date": "2026-11-18",
+   "event": "EKB Pénzügyi Stabilitási Jelentés (FSR)",
+   "forecast": "",
+   "importance": 1,
+   "note": "Félévente jelenik meg, az előző 2026-05-27-én.",
+   "previous": "",
+   "source": "EKB",
+   "symbols": [],
+   "time": "",
+   "type": "Jegybank",
+   "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/index.ff.html",
+   "id": "2026-11-18-eu-ecb-fsr"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-18",
+   "event": "TJX Q3 FY2027 gyorsjelentés",
+   "forecast": "EPS 1,33 $",
+   "importance": 2,
+   "note": "15:30 előtt jelent, hívás 17:00-kor. Előrejelzés: Barchart (bevételi konszenzus nincs).",
+   "previous": "",
+   "source": "TJX IR",
+   "symbols": [
+    "TJX"
+   ],
+   "time": "",
+   "type": "Gyorsjelentés",
+   "url": "https://investor.tjx.com/news-releases/news-release-details/tjx-companies-inc-report-q3-fy27-results-november-18-2026",
+   "id": "2026-11-18-tjx-earnings"
   },
   {
    "actual": "",
@@ -15682,6 +16617,54 @@
   },
   {
    "actual": "",
+   "country": "Japán",
+   "date": "2026-11-20",
+   "event": "Japán országos fogyasztói árindex (október)",
+   "forecast": "",
+   "importance": 2,
+   "note": "08:30 JST.",
+   "previous": "",
+   "source": "financecalendar.com / Investing.com",
+   "symbols": [],
+   "time": "00:30",
+   "type": "Makroadat",
+   "url": "https://www.financecalendar.com/japan-cpi/",
+   "id": "2026-11-20-jp-cpi"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-20",
+   "event": "Michigani fogyasztói hangulatindex (november, végleges)",
+   "forecast": "",
+   "importance": 2,
+   "note": "Az októberi végleges érték 48,0 volt.",
+   "previous": "51,0 (nov. előzetes)",
+   "source": "University of Michigan Surveys of Consumers",
+   "symbols": [],
+   "time": "16:00",
+   "type": "Makroadat",
+   "url": "https://www.sca.isr.umich.edu/",
+   "id": "2026-11-20-us-umich"
+  },
+  {
+   "actual": "",
+   "country": "Eurózóna",
+   "date": "2026-11-23",
+   "event": "Eurózóna HCOB beszerzésimenedzser-index (BMI, november, előzetes)",
+   "forecast": "",
+   "importance": 2,
+   "note": "Az S&P Global naptára szerint.",
+   "previous": "",
+   "source": "S&P Global PMI release calendar",
+   "symbols": [],
+   "time": "10:00",
+   "type": "Makroadat",
+   "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+   "id": "2026-11-23-eu-pmi-flash"
+  },
+  {
+   "actual": "",
    "country": "Németország",
    "date": "2026-11-24",
    "event": "ifo üzleti klíma index, november",
@@ -15695,6 +16678,58 @@
    "type": "Makroadat",
    "url": "https://www.ifo.de/en/survey/ifo-business-climate-index-germany",
    "id": "2026-11-24-de-ifo"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-24",
+   "event": "Dell Technologies Q3 FY2027 gyorsjelentés",
+   "forecast": "",
+   "importance": 2,
+   "note": "Zárás után, hívás 22:30-kor. Cég-guidance: EPS kb. 6,50 $, bevétel kb. 49 Mrd $.",
+   "previous": "",
+   "source": "Dell IR",
+   "symbols": [
+    "DELL"
+   ],
+   "time": "22:30",
+   "type": "Gyorsjelentés",
+   "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1661/dell-technologies-to-hold-conference-call-nov-24-to-discuss-third-quarter-fiscal-2027-financial-results",
+   "id": "2026-11-24-dell-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-24",
+   "event": "HP Inc. Q4 FY2026 gyorsjelentés",
+   "forecast": "EPS 0,75 $ / bevétel 14,8 Mrd $",
+   "importance": 1,
+   "note": "Webcast 23:00-kor. Cég-guidance: EPS 0,69–0,79 $. Előrejelzés: Earnings Whispers.",
+   "previous": "",
+   "source": "HP Inc. (GlobeNewswire/Nasdaq)",
+   "symbols": [
+    "HPQ"
+   ],
+   "time": "23:00",
+   "type": "Gyorsjelentés",
+   "url": "https://www.nasdaq.com/press-release/hp-inc-announce-fourth-quarter-fiscal-2026-earnings-november-24-2026-and-attend",
+   "id": "2026-11-24-hpq-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-25",
+   "event": "Tartós cikkek rendelései (október, előzetes)",
+   "forecast": "",
+   "importance": 1,
+   "note": "8:30 ET.",
+   "previous": "",
+   "source": "US Census Bureau",
+   "symbols": [],
+   "time": "14:30",
+   "type": "Makroadat",
+   "url": "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf",
+   "id": "2026-11-25-us-durable-goods"
   },
   {
    "actual": "",
@@ -15732,6 +16767,54 @@
   },
   {
    "actual": "",
+   "country": "Kína",
+   "date": "2026-11-30",
+   "event": "Kína hivatalos (NBS) feldolgozóipari BMI (november)",
+   "forecast": "",
+   "importance": 2,
+   "note": "09:30 pekingi idő szerint.",
+   "previous": "49,3",
+   "source": "NBS / financecalendar.com",
+   "symbols": [],
+   "time": "02:30",
+   "type": "Makroadat",
+   "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261103_1965735.html",
+   "id": "2026-11-30-cn-pmi"
+  },
+  {
+   "actual": "",
+   "country": "HU",
+   "date": "2026-11-30",
+   "event": "Ipari termelői árak (október)",
+   "forecast": "",
+   "importance": 1,
+   "note": "A KSH közzétételi naptára szerint.",
+   "previous": "",
+   "source": "KSH",
+   "symbols": [],
+   "time": "08:30",
+   "type": "Makroadat",
+   "url": "https://www.ksh.hu/arak",
+   "id": "2026-11-30-hu-ppi"
+  },
+  {
+   "actual": "",
+   "country": "Németország",
+   "date": "2026-11-30",
+   "event": "Német fogyasztói árindex (november, előzetes)",
+   "forecast": "",
+   "importance": 2,
+   "note": "A Destatis naptára szerint.",
+   "previous": "2,8%",
+   "source": "Destatis",
+   "symbols": [],
+   "time": "14:00",
+   "type": "Makroadat",
+   "url": "https://www.destatis.de/SiteGlobals/Forms/Suche/Termine/DE/Terminsuche_Formular.html?nn=250572&templateQueryString=verbraucherpreisindex",
+   "id": "2026-11-30-de-cpi-flash"
+  },
+  {
+   "actual": "",
    "country": "EU",
    "date": "2026-12-01",
    "event": "Infláció, november (gyorsbecslés, éves)",
@@ -15745,6 +16828,22 @@
    "type": "Makroadat",
    "url": "https://www.financecalendar.com/?p=2229",
    "id": "2026-12-01-eu-hicp-flash"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-01",
+   "event": "JOLTS – betöltetlen álláshelyek (október)",
+   "forecast": "",
+   "importance": 2,
+   "note": "10:00 ET.",
+   "previous": "",
+   "source": "BLS",
+   "symbols": [],
+   "time": "16:00",
+   "type": "Makroadat",
+   "url": "https://www.bls.gov/jlt/home.htm",
+   "id": "2026-12-01-us-jolts"
   },
   {
    "actual": "",
@@ -15782,6 +16881,24 @@
   },
   {
    "actual": "",
+   "country": "USA",
+   "date": "2026-12-01",
+   "event": "CrowdStrike Q3 FY2027 gyorsjelentés",
+   "forecast": "",
+   "importance": 2,
+   "note": "Zárás után, hívás 23:00-kor.",
+   "previous": "",
+   "source": "CrowdStrike IR",
+   "symbols": [
+    "CRWD"
+   ],
+   "time": "23:00",
+   "type": "Gyorsjelentés",
+   "url": "https://ir.crowdstrike.com/events/event-details/crowdstrike-fiscal-third-quarter-2027-results-conference-call",
+   "id": "2026-12-01-crwd-earnings"
+  },
+  {
+   "actual": "",
    "country": "Magyarország",
    "date": "2026-12-01",
    "event": "GDP, 3. negyedév (második becslés, részletes bontás, KSH)",
@@ -15800,6 +16917,76 @@
   },
   {
    "actual": "",
+   "country": "USA",
+   "date": "2026-12-02",
+   "event": "Zscaler Q1 FY2027 gyorsjelentés",
+   "forecast": "",
+   "importance": 1,
+   "note": "Zárás után, hívás 22:30-kor. Cég-guidance: bevétel 935–939 M $, EPS 1,15–1,16 $.",
+   "previous": "",
+   "source": "Zscaler IR",
+   "symbols": [
+    "ZS"
+   ],
+   "time": "22:30",
+   "type": "Gyorsjelentés",
+   "url": "https://ir.zscaler.com/news-releases/news-release-details/zscaler-host-first-quarter-fiscal-year-2027-earnings-conference",
+   "id": "2026-12-02-zs-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-02",
+   "event": "Salesforce Q3 FY2027 gyorsjelentés",
+   "forecast": "EPS 3,47 $ / bevétel 11,57 Mrd $",
+   "importance": 2,
+   "note": "Zárás után, hívás 23:00-kor. Cég-guidance: EPS 3,42–3,44 $. Előrejelzés: Chartmill.",
+   "previous": "",
+   "source": "Salesforce IR",
+   "symbols": [
+    "CRM"
+   ],
+   "time": "23:00",
+   "type": "Gyorsjelentés",
+   "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
+   "id": "2026-12-02-crm-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-02",
+   "event": "Snowflake Q3 FY2027 gyorsjelentés",
+   "forecast": "",
+   "importance": 1,
+   "note": "Zárás után, hívás 23:00-kor. Termékbevétel-guidance: 1,588–1,593 Mrd $.",
+   "previous": "",
+   "source": "Snowflake",
+   "symbols": [
+    "SNOW"
+   ],
+   "time": "23:00",
+   "type": "Gyorsjelentés",
+   "url": "https://www.snowflake.com/en/news/press-releases/fy27-q3-earnings-date-announcement/",
+   "id": "2026-12-02-snow-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-03",
+   "event": "ISM szolgáltatóipari BMI (november)",
+   "forecast": "",
+   "importance": 2,
+   "note": "10:00 ET.",
+   "previous": "54,5",
+   "source": "ISM",
+   "symbols": [],
+   "time": "16:00",
+   "type": "Makroadat",
+   "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/october/",
+   "id": "2026-12-03-us-ism-services"
+  },
+  {
+   "actual": "",
    "country": "US",
    "date": "2026-12-04",
    "event": "Munkaerőpiaci jelentés, november (nem mezőgazdasági foglalkoztatás)",
@@ -15811,6 +16998,58 @@
    "type": "Makroadat",
    "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
    "id": "2026-12-04-us-nfp"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-07",
+   "event": "Eli Lilly Innovation Day 2026 (befektetői nap)",
+   "forecast": "",
+   "importance": 2,
+   "note": "15:00–19:00, kutatás-fejlesztési és pipeline-fókusszal.",
+   "previous": "",
+   "source": "Eli Lilly IR",
+   "symbols": [
+    "LLY"
+   ],
+   "time": "15:00",
+   "type": "Egyéb",
+   "url": "https://investor.lilly.com/webcasts-and-presentations",
+   "id": "2026-12-07-us-lly-innovation-day"
+  },
+  {
+   "actual": "",
+   "country": "HU",
+   "date": "2026-12-08",
+   "event": "Fogyasztói árak / infláció (november, KSH)",
+   "forecast": "",
+   "importance": 3,
+   "note": "A KSH naptára szerint.",
+   "previous": "2,0%",
+   "source": "KSH",
+   "symbols": [],
+   "time": "08:30",
+   "type": "Makroadat",
+   "url": "https://www.ksh.hu/arak",
+   "id": "2026-12-08-hu-cpi"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-09",
+   "event": "JPMorgan pénzügyi igazgató (Barnum) – Goldman Sachs Financial Services Conference",
+   "forecast": "",
+   "importance": 1,
+   "note": "Befektetői konferencia-előadás.",
+   "previous": "",
+   "source": "JPMorganChase IR",
+   "symbols": [
+    "JPM"
+   ],
+   "time": "16:00",
+   "type": "Egyéb",
+   "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-to-present-at-the-goldman-sachs-us-financial-services-conference",
+   "id": "2026-12-09-us-jpm-gs-conf"
   },
   {
    "actual": "",
@@ -15826,6 +17065,24 @@
    "type": "Jegybank",
    "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
    "id": "2026-12-09-us-fomc"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-09",
+   "event": "Broadcom Q4 FY2026 gyorsjelentés",
+   "forecast": "EPS 3,90 $ / bevétel 35,6 Mrd $",
+   "importance": 3,
+   "note": "Zárás után, hívás 23:00-kor. Cég-guidance: bevétel kb. 34,8 Mrd $. Előrejelzés: Chartmill.",
+   "previous": "",
+   "source": "Broadcom (MarketScreener)",
+   "symbols": [
+    "AVGO"
+   ],
+   "time": "23:00",
+   "type": "Gyorsjelentés",
+   "url": "https://www.marketscreener.com/news/broadcom-inc-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results-on-wednesday-decemb-ce785fd3dd8ff426",
+   "id": "2026-12-09-avgo-earnings"
   },
   {
    "actual": "",
@@ -15857,6 +17114,38 @@
   },
   {
    "actual": "",
+   "country": "Egyesült Királyság",
+   "date": "2026-12-11",
+   "event": "Brit havi GDP (október)",
+   "forecast": "",
+   "importance": 2,
+   "note": "07:00 UK idő szerint.",
+   "previous": "",
+   "source": "ONS",
+   "symbols": [],
+   "time": "08:00",
+   "type": "Makroadat",
+   "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukoctober2026",
+   "id": "2026-12-11-gb-gdp-monthly"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-11",
+   "event": "Szövetségi finanszírozás határideje (lejár az átmeneti költségvetés, leállás veszélye)",
+   "forecast": "",
+   "importance": 2,
+   "note": "Lejárat éjfélkor ET (dec. 12. 06:00 magyar idő).",
+   "previous": "",
+   "source": "IEDC / governmentshutdowntracker.com",
+   "symbols": [],
+   "time": "",
+   "type": "Politika",
+   "url": "https://www.iedconline.org/news/2026/09/09/this-week-in-iedc-news/congress-passes-short-term-funding-bill-extending-federal-funding-through-december-11/",
+   "id": "2026-12-11-us-funding-deadline"
+  },
+  {
+   "actual": "",
    "country": "HU",
    "date": "2026-12-15",
    "event": "MNB kamatdöntés",
@@ -15868,6 +17157,22 @@
    "type": "Jegybank",
    "url": "https://allampapirkalkulator.hu/fogalmak/kamatdontes",
    "id": "2026-12-15-hu-mnb"
+  },
+  {
+   "actual": "",
+   "country": "HU",
+   "date": "2026-12-17",
+   "event": "MNB Inflációs jelentés (december)",
+   "forecast": "",
+   "importance": 2,
+   "note": "Az MNB kiadványi naptára szerint.",
+   "previous": "",
+   "source": "MNB",
+   "symbols": [],
+   "time": "10:00",
+   "type": "Jegybank",
+   "url": "https://www.mnb.hu/kiadvanyok/tajekoztato-a-magyar-nemzeti-bank-kiadvanyi-rendjerol/kiadvanyi-publikacios-naptar",
+   "id": "2026-12-17-hu-mnb-inflation-report"
   },
   {
    "actual": "",
