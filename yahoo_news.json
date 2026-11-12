@@ -1,7 +1,97 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-12T02:52:42Z",
+ "updatedAt": "2026-11-12T03:56:15Z",
  "items": [
+  {
+   "title": "Warren Buffett Says His Favorite Holding Period Is Forever. A Secretary Who Paid $180 for 3 Shares in 1935 and Never Sold Died Worth $7 Million. Here’s What Her Rule Does for $600,000 in One Stock Today",
+   "link": "https://247wallst.com/investing/2026/11/11/warren-buffett-says-his-favorite-holding-period-is-forever-a-secretary-who-paid-180-for-3-shares-in-1935-and-never-sold-died-worth-7-million-heres-what-her-rule-does-for-600000-in-one-stock-to/?.tsrc=rss",
+   "published": "2026-11-12T03:23:00Z",
+   "publisher": "",
+   "summary": "Warren Buffett's favorite holding period is forever. Grace Groner, a secretary at Abbott, paid $180 for three shares in 1935, reinvested every dividend, never sold, and left Lake Forest College $7 million when she died at 100 in 2010. Here is what the splits did, what the dividends did, what the S&P 500 would have paid, the fall she sat through at 93, and what her rule does for a retired couple ho",
+   "symbols": []
+  },
+  {
+   "title": "Top 3 Australian Undervalued Stocks To Watch In November 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-australian-undervalued-stocks-031649941.html",
+   "published": "2026-11-12T03:16:49Z",
+   "publisher": "",
+   "summary": "Global power grid construction recently surged, highlighting how much capital is flowing into real world infrastructure and long term projects. When heavy investment meets uncertainty around rates and inflation, investors often look for Australian companies whose cash flows already support higher valuations than the market is pricing in. This article profiles 3 stocks that currently appear mispric",
+   "symbols": []
+  },
+  {
+   "title": "Why MSCI Removed MSTR From Its Indexes – And What It Means For Bitcoin Stocks",
+   "link": "https://stocktwits.com/news-articles/markets/equity/why-msci-removed-mstr-from-its-indexes-and-what-it-means-for-bitcoin-stocks/cNGzKhOR99h?.tsrc=rss",
+   "published": "2026-11-12T03:15:17Z",
+   "publisher": "",
+   "summary": "One annual screening for companies on the watchlist has already failed. If they fail the next one, they may be removed, and crypto treasury firms not included in the indexes cannot be added while failing either of their last two screens.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Dow, S&P 500, Nasdaq Futures Mixed As Tech Rebounds Despite Nvidia CEO Crisis: AMD, CSCO, AMAT In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-mixed-as-tech-rebounds-despite-nvidia-ceo-crisis-amd-csco-amat-in-focus/cNGzKh7R99W?.tsrc=rss",
+   "published": "2026-11-12T03:15:12Z",
+   "publisher": "",
+   "summary": "Media reports suggest that Nvidia’s board is looking to replace CEO Jensen Huang after additional news indicated that he had an affair with a company executive.",
+   "symbols": []
+  },
+  {
+   "title": "Brava Energia SA (BVENY) (Q3 2026) Earnings Call Highlights: Record Production, 71% Offshore ...",
+   "link": "https://finance.yahoo.com/energy/articles/brava-energia-sa-bveny-q3-030658261.html",
+   "published": "2026-11-12T03:06:58Z",
+   "publisher": "",
+   "summary": "Brava Energia SA (BVENY) posts its strongest quarter of 2026 with 82,400 BOE/d output, $308 million adjusted EBITDA and lifting costs down 18%, while flagging freight and export tariff risks.",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin Dominance Tests 61% Breakout, and That's Bad News for Altcoins",
+   "link": "https://beincrypto.com/bitcoin-dominance-breakout-altcoin-season-analysis/?.tsrc=rss",
+   "published": "2026-11-12T03:00:00Z",
+   "publisher": "",
+   "summary": "Bitcoin dominance tests a 61% breakout as the weekly Supertrend flips bullish. Here is what it means for altcoins.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Susquehanna Financial names its AI-era winners: 9 IT stocks to watch",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/susquehanna-financial-names-ai-era-025606869.html",
+   "published": "2026-11-12T02:56:06Z",
+   "publisher": "",
+   "summary": "Investing.com -- Susquehanna Financial Group sees opportunity in U.S.-listed IT services amid a rotation away from semiconductor stocks.",
+   "symbols": []
+  },
+  {
+   "title": "If SpaceX and Tesla Merge, Here's What a $10,000 Investment in the Combined Company Could Be Worth by 2030",
+   "link": "https://www.fool.com/investing/2026/11/11/if-spacex-and-tesla-merge-heres-what-a-10000-inves/?.tsrc=rss",
+   "published": "2026-11-12T02:50:00Z",
+   "publisher": "",
+   "summary": "The merger math may be complicated, but one thing is pretty clear when looking at these two stocks aiming to combine.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
    "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g?.tsrc=rss",
@@ -12,11 +102,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -42,12 +132,12 @@
    "publisher": "",
    "summary": "Novo Nordisk lived up to expectations for its Wegovy pill in the third quarter, but it still has more work ahead.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -69,11 +159,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -83,12 +173,12 @@
    "publisher": "",
    "summary": "Even if SpaceX launches for less, Beck wants to reserve half of Neutron’s capacity over time for Rocket Lab’s own missions.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -118,11 +208,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -245,6 +335,14 @@
    "published": "2026-11-12T01:06:12Z",
    "publisher": "",
    "summary": "Elemental Royalty Corp (ELE) posts record year-to-date revenue and adjusted EBITDA while integrating the Orion portfolio, cutting G&A, and targeting net debt below 1x by the end of next year.",
+   "symbols": []
+  },
+  {
+   "title": "Nvidia Stock Tumbles. Jensen Huang Could Be Out Soon.",
+   "link": "https://finance.yahoo.com/m/3d72c4df-c159-3f9f-bf8f-967cb1e59a7f/nvidia-stock-tumbles.-jensen.html",
+   "published": "2026-11-12T01:06:00Z",
+   "publisher": "",
+   "summary": "The stock was down about 8% in after-hours trading.",
    "symbols": []
   },
   {
@@ -1003,6 +1101,22 @@
     "MU",
     "ONDO",
     "XRP"
+   ]
+  },
+  {
+   "title": "3 Ways to Play Stock Market Defense and Avoid Getting Trapped in a Face-Ripping Selloff",
+   "link": "https://www.barchart.com/story/news/8788228/3-ways-to-play-stock-market-defense-and-avoid-getting-trapped-in-a-face-ripping-selloff?.tsrc=rss",
+   "published": "2026-11-11T21:32:14Z",
+   "publisher": "",
+   "summary": "My goal is not to make money in a long stock bull market. It is to make money. And not lose big along the way. Ever.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
    ]
   },
   {
@@ -3246,120 +3360,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "The Dates That Matter Most For Casey's Stock",
-   "link": "https://www.trefis.com/stock/casy/articles/624401/the-dates-that-matter-most-for-caseys-stock/2026-11-11?.tsrc=rss",
-   "published": "2026-11-11T15:46:27Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Walmart Poised for Continued Growth Amid Market Share Gains, BofA Says",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-poised-continued-growth-amid-154605164.html",
-   "published": "2026-11-11T15:46:05Z",
-   "publisher": "",
-   "summary": "Walmart (WMT) is poised to continue gaining market share across its grocery and general merchandise",
-   "symbols": []
-  },
-  {
-   "title": "Will Higher Unit Costs Weigh on Newmont's Margins in Q4?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/higher-unit-costs-weigh-newmonts-153900926.html",
-   "published": "2026-11-11T15:39:00Z",
-   "publisher": "",
-   "summary": "Newmont's Q3 gold CAS rose 22% to $1,449 per ounce, while co-product AISC climbed 25%.",
-   "symbols": []
-  },
-  {
-   "title": "ABBV Stock Rises More Than 4% in a Month: Time to Buy, Hold or Sell?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/abbv-stock-rises-more-4-153900677.html",
-   "published": "2026-11-11T15:39:00Z",
-   "publisher": "",
-   "summary": "AbbVie's strong immunology and neuroscience growth offset Humira erosion and persistent aesthetics and oncology challenges.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "What Will Decide Vertex Stock Over The Next Six Months?",
-   "link": "https://www.trefis.com/stock/vrtx/articles/624402/what-will-decide-vertex-stock-over-the-next-six-months/2026-11-11?.tsrc=rss",
-   "published": "2026-11-11T15:38:33Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "APA Raises 2026 Free Cash Flow Forecast to $2.9B After Q3 Results",
-   "link": "https://finance.yahoo.com/energy/articles/apa-raises-2026-free-cash-153800098.html",
-   "published": "2026-11-11T15:38:00Z",
-   "publisher": "",
-   "summary": "APA raises its 2026 free cash flow outlook to $2.9 billion as stronger U.S. oil production, higher prices and cost controls boost shareholder returns and debt reduction.",
-   "symbols": []
-  },
-  {
-   "title": "JPMorgan Partners With OpenAI: What It Means for JPM's AI Strategy",
-   "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-partners-openai-means-jpms-153800714.html",
-   "published": "2026-11-11T15:38:00Z",
-   "publisher": "",
-   "summary": "JPMorgan's OpenAI partnership aims to boost coding efficiency and cybersecurity, but rising technology costs and implementation risks could weigh on AI gains.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 Consumer Stocks to Buy in November and Hold for the Next 20 Years",
-   "link": "https://www.fool.com/investing/2026/11/11/3-consumer-stocks-to-buy-in-november-and-hold-for/?.tsrc=rss",
-   "published": "2026-11-11T15:35:00Z",
-   "publisher": "",
-   "summary": "Planning 20 years out for anything is difficult, but Monster, Freshpet, and Costco have business traits that make them built to last.",
-   "symbols": []
-  },
-  {
-   "title": "NLST Q3 Earnings Call Maps Out Licensing and AI Memory Plans",
-   "link": "https://finance.yahoo.com/technology/ai/articles/nlst-q3-earnings-call-maps-153500476.html",
-   "published": "2026-11-11T15:35:00Z",
-   "publisher": "",
-   "summary": "Netlist expects $292 million in annual licensing revenue from Samsung and Micron as it pursues AI memory growth, higher fourth-quarter income and patent deals.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "OKXICE to Launch Tokenized Stock Trading with Coinbase, Circle, Strategy",
-   "link": "https://www.cryptoprowl.com/releases/okxice-to-launch-tokenized-stock-trading-with-coinbase-circle-strategy-7846?.tsrc=rss",
-   "published": "2026-11-11T15:34:00Z",
-   "publisher": "",
-   "summary": "OKX and Intercontinental Exchange (NYSE: $ICE), the parent company of the New York Stock Exchange (NYSE), will laun...",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
    ]
   }
  ]
