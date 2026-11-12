@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T17:56:06Z",
+ "builtAt": "2026-11-12T19:01:49Z",
  "digests": [
   {
    "calendar": [
@@ -1834,14 +1834,14 @@
      "addedAt": "2026-11-12T17:50:00Z",
      "category": "Vállalatok és technológia",
      "impact": "negatív",
-     "source": "Reuters (névtelen források)",
-     "summary": "Két, az ügyet ismerő forrás szerint a CD&R és a GTCR magántőke-befektetők visszaléptek a Global Payments felvásárlásától. A források szerint később visszatérhetnek, vagy más vevő is jelentkezhet; a cégek hivatalosan nem erősítették meg az értesülést.",
+     "source": "Reuters · Investing.com · StreetInsider",
+     "summary": "A Reuters két forrásra hivatkozó értesülése szerint a CD&R és a GTCR magántőke-befektetők visszaléptek a Global Payments felvásárlásától, mert a tárgyalások korai szakaszban voltak, és ekkora kivásárlás megszervezése túl bonyolultnak bizonyult. A hírre a részvény az Investing.com szerint 9%-ot esett, és volatilitási szünet miatt felfüggesztették a kereskedését; a források szerint a felek később visszatérhetnek, vagy más vevő is jelentkezhet.",
      "symbols": [
       "GPN"
      ],
-     "title": "Reuters: a CD&R és a GTCR feladta a Global Payments megszerzésére irányuló próbálkozást",
+     "title": "Reuters: a CD&R és a GTCR feladta a Global Payments megszerzését, a részvény 9%-ot esett",
      "url": "https://www.1049thewolf.com/2026/11/12/exclusive-cdr-gtcr-drop-pursuit-of-global-payments-sources-say/",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-11-12T17:50:00Z",
@@ -1864,6 +1864,166 @@
      "title": "Új csúcson zárt a DAX: 0,57%-os emelkedés, 26 816 pont",
      "url": "https://investing.com/news/stock-market-news/germany-stocks-mixed-at-close-of-trade-dax-up-057-5022820",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az iráni haditengerészet közlése szerint négy olajszállító tankert ért robbanás a Hormuzi-szorosban, miután a hajók figyelmen kívül hagyták a figyelmeztetéseket. Az iráni állítást független forrás egyelőre nem erősítette meg; a térségben októberben a háború kezdete óta a legtöbb, 37 hajót ért támadás. A Brent hordónkénti ára csütörtök délután 93–94 dollár körül járt.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Irán: négy tankert ért robbanás a Hormuzi-szorosban",
+     "url": "https://www.investing.com/news/commodities-news/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says-5022725",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Semafor · Bloomberg",
+     "summary": "A Semafor két kormányzati tisztviselőre hivatkozva azt írta, hogy az amerikai igazságügyi minisztérium három külön vizsgálatot folytat az Nvidiával, a Megaspeeddel és a Super Microval kapcsolatban: az Nvidiát trösztellenes okból, a másik kettőt egy feltételezett kínai kém, Alice Huang ügye miatt vizsgálják. A Super Micro részvénye 10–12%-ot esett; a cég nem vádlott, és közölte, hogy együttműködik a hatóságokkal.",
+     "symbols": [
+      "SMCI",
+      "NVDA"
+     ],
+     "title": "Semafor: az igazságügyi minisztérium vizsgálatai az Nvidiára is kiterjednek, zuhant a Super Micro",
+     "url": "https://www.investing.com/news/stock-market-news/super-micro-shares-tumble-as-doj-probes-widen-to-nvidia-semafor-reports-5022744",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · CNBC",
+     "summary": "Donald Trump a Truth Socialön „legendának” nevezte Tim Cookot, és azt írta, hogy egyetlen ember léphet Jensen Huang helyére az Nvidia élén. Cook szeptemberben adta át az Apple vezérigazgatói posztját, azóta igazgatótanácsi elnök; sem ő, sem az Nvidia nem jelezte, hogy jelöltként szóba jönne.",
+     "symbols": [
+      "NVDA",
+      "AAPL"
+     ],
+     "title": "Trump szerint Tim Cooknak, az Apple volt vezérigazgatójának kellene átvennie az Nvidia irányítását",
+     "url": "https://www.investing.com/news/stock-market-news/trump-says-ex-apple-ceo-cook-should-replace-huang-at-nvidia-5022650",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A SpaceX több mint 74 milliárd dolláros beruházással építene szuperszámítógép-központot a texasi Starbase-ben és az arizonai Cochise megyében. A Starbase-i gázerőmű és számítási központ első fázisait 24 milliárd dollárra becsülik; az arizonai, teljes kiépítésben akár 6 GW-ot fogyasztó kampuszról mindkét helyszínen december 9-én tartanak meghallgatást.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Több mint 74 milliárd dollárt fektet szuperszámítógép-központokba a SpaceX Texasban és Arizonában",
+     "url": "https://finance.yahoo.com/technology/articles/spacex-plans-invest-over-74-163819963.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Binance alapítója, Changpeng Zhao szerint a tőzsde nem adta el SpaceX-részesedését a több milliárd dolláros hackertámadás után, és tagadta, hogy ezzel Elon Muskot fenyegette volna. A Binance társvezérigazgatója korábban azt mondta, hogy az éves bevétel fedezi a veszteséget, így a részvényeket egyelőre nem kell eladni.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "CZ: a Binance nem adott el SpaceX-részvényt a hackertámadás nyomán",
+     "url": "https://finance.yahoo.com/markets/crypto/article/binance-founder-cz-says-crypto-exchange-didnt-sell-any-spacex-stock-amid-hack-174829693.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Bloom Energy részvénye csütörtök délelőtt mintegy 5%-ot esett, 198,70 dollár körülire, miután szerdán a CoreWeave erős gyorsjelentése nyomán több mint 13%-ot emelkedett.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Esik a Bloom Energy a szerdai, több mint 13%-os ugrás után",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-bloom-energy-stock-sliding-today-93CH-5022551",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A TheStreet szerint a Goldman Sachs modellje szerint az Anthropic szabad cash flow-ja 2027-ben mintegy 65,7 milliárd dolláros hiányt mutat, és csak 2030-ra fordul többletbe, miközben a bevétel addig 685 milliárd dollárra nőhet. A Goldman az Anthropic tőzsdei bevezetésének egyik vezető bankja; az árazás november 18-án, a kereskedés november 19-én indulhat a Nasdaqon.",
+     "symbols": [],
+     "title": "Goldman Sachs: 66 milliárd dolláros cash flow-hiány várhat az Anthropicra 2027-ben",
+     "url": "https://www.thestreet.com/investing/stocks/goldman-sachs-anthropic-2027-cash-forecast?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters exkluzív interjújában Jonathan Heath, a Banxico alelnöke azt mondta, hogy a mexikói jegybank kamatcsökkentései rossz üzenetet közvetítenek. Heath az elmúlt időszakban több kamatcsökkentő döntéssel szemben is a kamat tartására szavazott.",
+     "symbols": [],
+     "title": "Heath, a mexikói jegybank alelnöke: a kamatcsökkentések rossz üzenetet küldenek",
+     "url": "https://www.investing.com/news/economy-news/exclusivebank-of-mexico-rate-cuts-sends-wrong-message-says-deputy-governor-heath-5022866",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St. · Investing.com",
+     "summary": "A 24/7 Wall St. szerint az Applied Digital 8%-ot, a Cipher Digital 4%-ot, a TeraWulf 3%-ot esett, miután egy AI-felhőszolgáltató gyenge költési kilátásai és Jensen Huang távozása megrázta az adatközpont-üzemeltetőket. A legnagyobb nyomás az erősen eladósodott cégeken van.",
+     "symbols": [
+      "APLD",
+      "CIFR",
+      "WULF"
+     ],
+     "title": "8%-ot esett az Applied Digital: a Nebius kilátásai és az Nvidia-vezetőváltás megtépázta az AI-adatközpontos részvényeket",
+     "url": "https://247wallst.com/investing/2026/11/12/applied-digital-sinks-8-as-nebius-outlook-and-nvidia-ceo-exit-hit-ai-data-center-stocks-cipher-digital-falls-4-terawulf-slides-3/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Jeffrey Gundlach, a DoubleLine alapítója a Yahoo Finance szerint továbbra is kimarad az AI-részvények rallijából, és az ágazat „robbanási zónájától” távol tartja befektetéseit.",
+     "symbols": [],
+     "title": "Gundlach (DoubleLine) továbbra is kerüli az AI-részvényeket",
+     "url": "https://finance.yahoo.com/markets/article/why-bond-king-jeffrey-gundlach-is-steering-clear-of-the-ai-blast-radius-171758414.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Pénzcentrum · Világgazdaság",
+     "summary": "Csütörtök este hat óra körül az euró 365,65, a dollár 330,72, a svájci frank 396,15 forinton állt a Pénzcentrum szerint; a Világgazdaság szerint a dollár este elérte a 331 forintot, ami több mint fél éve nem látott szint. A dollárt a decemberi Fed-kamatemelés várakozása erősíti.",
+     "symbols": [],
+     "title": "Este tovább gyengült a forint: 331 forint fölé ment a dollár, fél éve nem volt ilyen drága",
+     "url": "https://www.penzcentrum.hu/gazdasag/20261112/megint-gyengult-a-forint-366-forint-kozelebe-emelkedett-az-euro-arfolyama-1208962",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T18:40:32Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Pénzcentrum",
+     "summary": "Az MNB budai központjában tartott Budapest Renminbi Kezdeményezés konferencián Varga Mihály jegybankelnök a Pénzcentrum beszámolója szerint arról beszélt, hogy a gazdasági széttöredezettség csökkentése és a határokon átnyúló fizetési rendszerek hatékonyabbá tétele lesz a következő időszak fontos feladata, és új finanszírozási lehetőségek nyílhatnak a magyar cégek előtt. Az elhangzottakat csak egy beszámoló közölte.",
+     "symbols": [],
+     "title": "Varga Mihály a renminbi-konferencián: a határokon átnyúló fizetések hatékonyabbá tétele a következő feladat",
+     "url": "https://www.penzcentrum.hu/gazdasag/20261112/fontos-valtozasra-hivta-fel-a-figyelmet-varga-mihaly-uj-penzugyi-lehetosegek-nyilhatnak-a-magyar-cegek-elott-1208918",
+     "verified": false
     }
    ],
    "markets": [
@@ -1890,7 +2050,7 @@
     }
    ],
    "summary": "Csütörtökön az Nvidia igazgatótanácsa bejelentette: Jensen Huang 33 év után azonnali hatállyal lemond, ideiglenes vezérigazgató Colette Kress pénzügyi igazgató; a részvény a nyitás előtt több mint 10%-ot esett, a Nasdaq-100 határidős indexe 1,2%-kal gyengült, több elemzőház (Bernstein, Oppenheimer, Baird, William Blair) leminősítette a papírt. Európában ezzel szemben rekordon a STOXX 600. A dollárindex éves csúcson, a 10 éves amerikai hozam 5% közelében a decemberi Fed-kamatemelési várakozások miatt. Trump szerint nincs szükség megállapodásra Iránnal, erre az olajár ledolgozta esését; az arany 4000 dollár alatt. Itthon a Richter történelmi csúcsra ugrott az Eli Lillyvel kötött partnerség után, a forint nyomás alatt van.",
-   "updatedAt": "2026-11-12T17:50:00Z",
+   "updatedAt": "2026-11-12T18:40:32Z",
    "watchlist": []
   },
   {
