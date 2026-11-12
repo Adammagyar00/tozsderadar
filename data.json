@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T19:56:19Z",
+ "builtAt": "2026-11-12T20:55:39Z",
  "digests": [
   {
    "calendar": [
@@ -2038,6 +2038,84 @@
      "title": "Délután emelkedtek az energiaipari részvények: 1,7%-kal nőtt a NYSE Energy index",
      "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-thursday-185141928.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T20:39:42Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters két, az ügyet ismerő forrásra hivatkozva azt írta, hogy a lemondott Jensen Huang egy második, meg nem nevezett Nvidia-alkalmazottal is intim kapcsolatban állt. Sem Huang, sem az Nvidia igazgatótanácsa nem reagált a megkeresésre. A hír tovább mélyíti a vezetési válságot, amely miatt Huang csütörtökön távozott.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Reuters: Jensen Huang egy második Nvidia-munkatárssal is kapcsolatban állt",
+     "url": "https://www.investing.com/news/stock-market-news/exclusiveformer-nvidia-ceo-huang-had-a-relationship-with-a-second-employee-sources-say-5023034",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T20:39:42Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Fed közzétette 2027-es ülésrendjét, ahogy azt Kevin Warsh elnök korábban előre jelezte. Az októberi ülés a monetáris politikai stratégiáról szól majd, kamatszavazás és döntési közlemény nélkül. A dátumok a szokásos módon az előző ülésen véglegesek.",
+     "symbols": [],
+     "title": "Kiadta a Fed a 2027-es FOMC-ülésnaptárt: az októberi ülésen nem lesz kamatdöntés",
+     "url": "https://www.investing.com/news/economy-news/fed-sets-new-meeting-schedule-for-2027-as-foretold-by-warsh-5023024",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T20:39:42Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az amerikai szövetségi költségvetés hiánya októberben 404 milliárd dollár volt, ami rekord az októberi hónapokban. A CBO korábbi becslése szerint a hiány részben azért nőtt, mert a novemberre eső kifizetések egy részét hétvége miatt októberben teljesítették.",
+     "symbols": [],
+     "title": "Rekordméretű októberi költségvetési hiánnyal, 404 milliárd dollárral indult az USA 2027-es pénzügyi éve",
+     "url": "https://www.investing.com/news/economy-news/us-starts-2027-fiscal-year-with-record-october-budget-deficit-of-404-billion-5023006",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T20:39:42Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Downdetector adatai szerint felhasználók tízezrei jeleztek hibát az Outlook és a Microsoft 365 szolgáltatásainál. A Microsoft közölte, hogy vizsgálja az Exchange Online-postafiókok elérési problémáit, amelyek először az amerikai kontinensen jelentkeztek.",
+     "symbols": [
+      "MSFT"
+     ],
+     "title": "Leállás a Microsoft 365-nél: amerikai felhasználók ezrei nem érik el az Outlookot",
+     "url": "https://www.investing.com/news/stock-market-news/microsoft-365-outlook-down-for-thousands-of-us-users-downdetector-shows-5023037",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T20:39:42Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az IMF félidős felülvizsgálat után a kvóta 200%-áról 150%-ára, nagyjából 24 milliárdról 18 milliárd dollárra csökkentette Mexikó rugalmas hitelkeretét, a mexikói kormány kérésére. Az IMF szerint Mexikó továbbra is megfelel a feltételeknek, és mérséklődtek a külső kockázatok.",
+     "symbols": [],
+     "title": "Mintegy 18 milliárd dollárra csökkentette az IMF Mexikó rugalmas hitelkeretét",
+     "url": "https://www.investing.com/news/economy-news/imf-reduces-mexicos-flexible-credit-line-to-about-18-billion-5023053",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-12T20:39:42Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A harmadik negyedéves 13F-jelentések szerint a Barclays 48%-kal, mintegy 187 millió dollárra növelte IBIT-pozícióját, a Citigroup pedig szintén bővítette IBIT-részesedését, és nyitott egy kb. 119 millió dolláros pozíciót a Fidelity bitcoin-ETF-jében. Az adatok szeptember 30-i állapotot mutatnak, a bitcoin későbbi esése előttit.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Barclays és a Citi is növelte részesedését a BlackRock bitcoin-ETF-jében",
+     "url": "https://www.thestreet.com/crypto/investing/barclays-citi-increase-stakes-in-iconic-blackrock-fund?.tsrc=rss",
+     "verified": true
     }
    ],
    "markets": [
@@ -2064,7 +2142,7 @@
     }
    ],
    "summary": "Csütörtökön az Nvidia igazgatótanácsa bejelentette: Jensen Huang 33 év után azonnali hatállyal lemond, ideiglenes vezérigazgató Colette Kress pénzügyi igazgató; a részvény a nyitás előtt több mint 10%-ot esett, a Nasdaq-100 határidős indexe 1,2%-kal gyengült, több elemzőház (Bernstein, Oppenheimer, Baird, William Blair) leminősítette a papírt. Európában ezzel szemben rekordon a STOXX 600. A dollárindex éves csúcson, a 10 éves amerikai hozam 5% közelében a decemberi Fed-kamatemelési várakozások miatt. Trump szerint nincs szükség megállapodásra Iránnal, erre az olajár ledolgozta esését; az arany 4000 dollár alatt. Itthon a Richter történelmi csúcsra ugrott az Eli Lillyvel kötött partnerség után, a forint nyomás alatt van.",
-   "updatedAt": "2026-11-12T19:39:45Z",
+   "updatedAt": "2026-11-12T20:39:42Z",
    "watchlist": []
   },
   {
