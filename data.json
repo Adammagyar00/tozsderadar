@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T16:18:20Z",
+ "builtAt": "2026-11-13T16:56:17Z",
  "digests": [
   {
    "calendar": [
@@ -1493,6 +1493,45 @@
      "title": "Index: az MNB visszautasította Róna Péter állításait a 266 milliárdos alapítványi ügyben",
      "url": "https://index.hu/gazdasag/2026/11/13/rona-peter-varga-mihaly-mnb-ugy-matolcsy-gyorgy-jegybank",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-13T16:47:59Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "NASASpaceFlight · Reuters (Yahoo Tech)",
+     "summary": "A Reuters és a NASASpaceFlight szerint az amerikai légügyi hatóság (FAA) péntek délelőttig nem adta ki a Starship 15. repüléséhez szükséges licencmódosítást, amely az űrhajó lakott terület feletti visszatérését és a toronyhoz való befogását is engedélyezné. Az FAA a korábbi Starship-repüléseknél jellemzően egy nappal az indítás előtt adta meg az engedélyt. A SpaceX halasztást nem jelentett be, az indítás magyar idő szerint 23:45-re van kitűzve.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Péntek délelőtt még nem volt meg az FAA-engedély a Starship esti 15. repüléséhez",
+     "url": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-awaits-faa/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T16:47:59Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint a Bloom Energy részvénye pénteken délelőtt (amerikai idő) 5,6%-kal 190,69 dollárra esett, miután előző nap a CoreWeave gyorsjelentése nyomán az AI-adatközponti költésekhez fűzött remények miatt több mint 13%-ot emelkedett. A cikk egy november 11-i bennfentes eladást mutató bejelentésre is utal. Más forrásban egyelőre nem találtunk megerősítést.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Mintegy 5,6%-kal esik a Bloom Energy az előző napi több mint 13%-os emelkedés után",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-bloom-energy-stock-sliding-today-93CH-5026026",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-13T16:47:59Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Crypto Times",
+     "summary": "A Crypto Times beszámolója szerint a Hyperliquid harmadik negyedéves jelentésében a bevétel 21,7%-kal, 190,9 millió dollárra nőtt, főleg az USDC-tartalékok kamatbevétele és a nagyobb kereskedési aktivitás miatt, a napi aktív kereskedők átlagos száma pedig rekordszintű, 65 161 volt. A HYPE token a hírre több mint 5%-kal emelkedett. A számokat más forrásban egyelőre nem találtuk meg.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "Crypto Times: 5% fölött emelkedett a HYPE a Hyperliquid harmadik negyedéves jelentése után",
+     "url": "https://www.cryptotimes.io/2026/11/13/hype-token-jumps-as-hyperliquid-reports-190-9m-in-q3-revenue/",
+     "verified": false
     }
    ],
    "markets": [
@@ -1519,7 +1558,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T16:13:10Z",
+   "updatedAt": "2026-11-13T16:47:59Z",
    "watchlist": []
   },
   {
