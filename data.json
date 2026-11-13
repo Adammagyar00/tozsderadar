@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T15:32:35Z",
+ "builtAt": "2026-11-13T16:18:20Z",
  "digests": [
   {
    "calendar": [
@@ -1430,6 +1430,69 @@
      "title": "Kezd erőre kapni a forint péntek délután, 365,5 körül az euró",
      "url": "https://www.portfolio.hu/deviza/20261113/kezd-erore-kapni-a-forint-876206",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T16:13:10Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Morgan Stanley szerint a ma esti Starship-tesztrepülés a SpaceX egyik legjelentősebb árfolyam-katalizátora lehet. A küldetés célja a Super Heavy gyorsítófokozat és a Starship felső fokozat visszanyerése és befogása, ami kulcsfontosságú a rakéta újrafelhasználhatósága szempontjából.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Morgan Stanley: a Starship 15. repülése a SpaceX 25 éves történetének egyik legfontosabb katalizátora lehet",
+     "url": "https://stocktwits.com/news-articles/markets/equity/spacex-flight-15-morgan-stanley-significant-catalysts-in-history-tesla-merger/cNbR4QoR9fN?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T16:13:10Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Deutsche Bank elemzői óvatosak maradtak a Cognizant informatikai szolgáltatóval kapcsolatban, mert szerintük a cég növekedésére épülő befektetési elképzelés eddig nem valósult meg.",
+     "symbols": [],
+     "title": "A Deutsche Bank óvatos a Cognizanttel szemben: szerinte nem igazolódott a növekedési várakozás",
+     "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-cautious-on-cognizant-says-growth-thesis-hasnt-played-out-5026064",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T16:13:10Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "IEA · Bloomberg (BNN) · The National",
+     "summary": "A Nemzetközi Energiaügynökség (IEA) novemberi jelentése szerint a negyedik negyedévben túlkínálat alakul ki az olajpiacon, mert az öbölbeli export gyorsabban állt helyre, mint a kereslet; 2027-ben nagyobb készletfelhalmozást vár. A megfigyelt készletek októberben 52 millió hordóval nőttek, a kereslet idén napi 2,7 millió hordóval csökkenhet. Az IEA szerint a dízelellátás szűkössége továbbra is a fő gond; a Brent a jelentés után 95–96 dollár körül mozgott.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "IEA: az iráni háború kezdete óta először kerül túlkínálatba a világ olajpiaca",
+     "url": "https://www.bnnbloomberg.ca/markets/oil/2026/11/13/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover-iea-says/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T16:13:10Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk (SoSoValue-adatok)",
+     "summary": "A CoinDesk a SoSoValue adataira hivatkozva azt írja, hogy az amerikai spot bitcoin-ETF-ek éves szinten már 1,56 milliárd dolláros nettó kiáramlásnál tartanak, csak ezen a héten csütörtökig 643,6 millió dollár áramlott ki. Az esés közben a kényszerlikvidációk a lap szerint meghaladták az 1,6 milliárd dollárt. Az adatokat egyelőre egy megbízható forrás közölte.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "CoinDesk: idén már nettó tőkekiáramlásnál tartanak az amerikai bitcoin-ETF-ek",
+     "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-13T16:13:10Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Index",
+     "summary": "Az Index beszámolója szerint a Magyar Nemzeti Bank visszautasította Róna Péter közgazdász állításait a Pallas Athéné alapítványokhoz került 266 milliárd forint ügyében. A jegybank szerint Róna Péter rosszul emlékszik, és saját magának is ellentmond. A közleményt más forrásban egyelőre nem találtuk.",
+     "symbols": [],
+     "title": "Index: az MNB visszautasította Róna Péter állításait a 266 milliárdos alapítványi ügyben",
+     "url": "https://index.hu/gazdasag/2026/11/13/rona-peter-varga-mihaly-mnb-ugy-matolcsy-gyorgy-jegybank",
+     "verified": false
     }
    ],
    "markets": [
@@ -1456,7 +1519,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T15:19:21Z",
+   "updatedAt": "2026-11-13T16:13:10Z",
    "watchlist": []
   },
   {
