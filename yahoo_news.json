@@ -1,13 +1,21 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-12T23:43:52Z",
+ "updatedAt": "2026-11-13T01:06:31Z",
  "items": [
   {
-   "title": "What If You Had Invested $10,000 in Bitcoin 5 Years Ago?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/12/what-if-you-had-invested-10000-in-bitcoin-5-years-ago/?.tsrc=rss",
-   "published": "2026-11-12T23:29:56Z",
+   "title": "Oil prices hold gains as Trump sidelines Vance from Iran diplomacy",
+   "link": "https://finance.yahoo.com/energy/articles/oil-prices-hold-gains-trump-004137464.html",
+   "published": "2026-11-13T00:41:37Z",
    "publisher": "",
-   "summary": "One investor bought Bitcoin near its 2021 peak, then watched most of the money vanish after the FTX collapse. Five years later, how does that patient bet stack up against gold and the S&P 500?",
+   "summary": "Investing.com -- Oil prices held onto gains on Friday after U.S. President Donald Trump said Washington no longer needed a deal with Iran, weakening hopes for a diplomatic breakthrough to end the conflict and ease disruptions to Middle East energy supplies.",
+   "symbols": []
+  },
+  {
+   "title": "XRP Announces Major Reset on November 25 – Will Price React?",
+   "link": "https://beincrypto.com/xrp-ledger-major-reset-november-25/?.tsrc=rss",
+   "published": "2026-11-13T00:37:19Z",
+   "publisher": "",
+   "summary": "XRP Ledger plans a major testnet reset on November 25. All historical data will be erased. Will the price be affected?",
    "symbols": [
     "BTC",
     "ETH",
@@ -20,6 +28,71 @@
    ]
   },
   {
+   "title": "PDI Gold And 2 Australian Founder Led Growth Stocks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/pdi-gold-2-australian-founder-002222410.html",
+   "published": "2026-11-13T00:22:22Z",
+   "publisher": "",
+   "summary": "Japan’s wholesale inflation recently accelerated as energy and chip costs reacted to Middle East conflict and AI demand. Rising input prices can reward Australian businesses that are growing quickly and where insiders have meaningful shareholdings, because committed owners have more at stake as conditions shift. This article highlights three fast growing Australian stocks with high insider ownersh",
+   "symbols": []
+  },
+  {
+   "title": "S&P 500, Dow, Nasdaq Futures Recover After Markets End Lower On Jensen Huang’s Exit, Oil Price Pressure — CRWV, CBRS, NVDA, TSLA In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-recover-after-markets-end-lower-on-jensen-huang-s-exit-oil-price-pressure-crwv-cbrs-nvda-tsla-in-focus/cNbbkHFR9OI?.tsrc=rss",
+   "published": "2026-11-13T00:19:00Z",
+   "publisher": "",
+   "summary": "Nvidia’s CEO Jensen Huang ousted; CFO Colette Kress named interim chief executive officer.",
+   "symbols": []
+  },
+  {
+   "title": "BP (LSE:BP.) Stock Could Trade At A Discount As Its 116% Run Continues",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/bp-lse-bp-stock-could-001744959.html",
+   "published": "2026-11-13T00:17:44Z",
+   "publisher": "",
+   "summary": "BP has delivered a 115.9% share price gain over the past five years, and with fresh headlines around profits, asset sales and oil markets, the live question is whether that performance is properly backed by the cash the business can generate. With the stock last closing at £5.67, investors are increasingly asking how much of BP’s cash flow story is already reflected in that price. A 115.9% return ",
+   "symbols": []
+  },
+  {
+   "title": "A 68-Year-Old Retiree Bought 1,000 Tesla Shares at $108 in January 2023. Now Musk Could Merge Tesla Into SpaceX by December, and a 15% Premium Would Turn Her Stake Into About 3,270 SpaceX Shares",
+   "link": "https://247wallst.com/investing/2026/11/12/a-68-year-old-retiree-bought-1000-tesla-shares-at-108-in-january-2023-now-musk-could-merge-tesla-into-spacex-by-december-and-a-15-premium-would-turn-her-stake-into-about-3270-spacex-shares/?.tsrc=rss",
+   "published": "2026-11-13T00:17:00Z",
+   "publisher": "",
+   "summary": "SpaceX and Tesla could announce a merger as soon as December, Bloomberg reported. At Thursday's closes, a 15% premium would turn 1,000 Tesla shares into about 3,266 SpaceX shares.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk",
+   "link": "https://finance.yahoo.com/energy/articles/oil-prices-squeezed-between-peace-000000715.html",
+   "published": "2026-11-13T00:00:00Z",
+   "publisher": "",
+   "summary": "Oil has fallen about 20% from its $118 peak, but Trump says the U.S. doesn’t need an Iran deal and Hormuz attacks continue, keeping Brent near $94.",
+   "symbols": []
+  },
+  {
+   "title": "What If You Had Invested $10,000 in Bitcoin 5 Years Ago?",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/12/what-if-you-had-invested-10000-in-bitcoin-5-years-ago/?.tsrc=rss",
+   "published": "2026-11-12T23:29:56Z",
+   "publisher": "",
+   "summary": "One investor bought Bitcoin near its 2021 peak, then watched most of the money vanish after the FTX collapse. Five years later, how does that patient bet stack up against gold and the S&P 500?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
    "title": "Unocoin Says One of Its BitGo Addresses Sent Out Transactions It Can’t Trace",
    "link": "https://unchainedcrypto.com/unocoin-says-one-of-its-bitgo-addresses-sent-out-transactions-it-cant-trace/?.tsrc=rss",
    "published": "2026-11-12T23:27:25Z",
@@ -29,11 +102,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -62,12 +135,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "Seplat Energy And 2 British Energy Stocks To Watch",
+   "link": "https://finance.yahoo.com/energy/articles/seplat-energy-2-british-energy-232020296.html",
+   "published": "2026-11-12T23:20:20Z",
+   "publisher": "",
+   "summary": "The Strait of Hormuz shock earlier this year showed how quickly energy supply routes can be disrupted and how sharply oil markets can react. For UK investors, that kind of stress test highlights why large, globally active oil and gas groups can draw fresh attention as potential shock absorbers in a portfolio. This article walks through three of the strongest UK related stocks screened from this gl",
+   "symbols": []
   },
   {
    "title": "Here’s Why Stifel’s Jonathan Siegmann Still Backs SpaceX (SPCX) After Democratic Midterm Wins",
@@ -76,12 +157,12 @@
    "publisher": "",
    "summary": "We just published a list of the 10 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade and SpaceX (NASDAQ:SPCX) ranked 7th on this list. Wells Fargo is no longer telling investors to stay away from the AI infrastructure trade. In a new note, analysts led by Ohsung Kwon raised the firm’s view on […]",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -95,11 +176,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -112,11 +193,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -126,14 +207,22 @@
    "publisher": "",
    "summary": "Investor orders have flooded in at roughly six times the available share count for Anthropic PBC’s initial public offering, Bloomberg reported.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
+  },
+  {
+   "title": "The Blue Wave Crashed on Texas Pacific Land. That Could Be an Opportunity.",
+   "link": "https://finance.yahoo.com/m/78ef781b-4e2d-32ef-9d2e-ef6b56dea60c/the-blue-wave-crashed-on.html",
+   "published": "2026-11-12T23:14:00Z",
+   "publisher": "",
+   "summary": "Data centers may be on the outs with voters, but the owner of vast amounts of land has gotten hit harder than it deserves.",
+   "symbols": []
   },
   {
    "title": "Bank of America’s Matthew O’Neill Is Positive on Block (XYZ) for Early 2027. One Question Remains",
@@ -193,6 +282,46 @@
    ]
   },
   {
+   "title": "Tiny Stocks Can Produce Big Returns",
+   "link": "https://finance.yahoo.com/m/5d717aea-a1b1-34ff-b88f-e4d2cda080a2/tiny-stocks-can-produce-big.html",
+   "published": "2026-11-12T23:10:00Z",
+   "publisher": "",
+   "summary": "Microcaps look cheap relative to their larger counterparts.",
+   "symbols": []
+  },
+  {
+   "title": "Abaxx Technologies Inc (ABXXF) (Q3 2026) Earnings Call Highlights: Record Trading Volumes and ...",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/abaxx-technologies-inc-abxxf-q3-230719337.html",
+   "published": "2026-11-12T23:07:19Z",
+   "publisher": "",
+   "summary": "Abaxx Technologies Inc (ABXXF) posted record exchange volumes and fee revenue in Q3 2026 while managing a $20.4 million net loss and a $68.4 million cash runway.",
+   "symbols": []
+  },
+  {
+   "title": "Bank of America Sees Up to 95% Upside in 2 Stocks",
+   "link": "https://finance.yahoo.com/healthcare/articles/bank-america-sees-95-upside-230641865.html",
+   "published": "2026-11-12T23:06:41Z",
+   "publisher": "",
+   "summary": "Two very different growth stories are attracting institutional optimism.",
+   "symbols": []
+  },
+  {
+   "title": "JPMorgan Downgrades Self-Driving Technology Supplier as Volkswagen Faces Delays",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-downgrades-self-driving-technology-230637264.html",
+   "published": "2026-11-12T23:06:37Z",
+   "publisher": "",
+   "summary": "Major customer setbacks are complicating an ambitious growth strategy.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
    "title": "AI Prediction: ChatGPT Predicts When XRP Could Get Back to Its $3.65 All-Time High",
    "link": "https://247wallst.com/investing/cryptocurrency/2026/11/12/ai-prediction-chatgpt-predicts-when-xrp-could-get-back-to-its-3-65-all-time-high/?.tsrc=rss",
    "published": "2026-11-12T23:04:11Z",
@@ -202,12 +331,28 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "Venezuela Ends 19-Year Power Monopoly, With Oil Fields First in Line",
+   "link": "https://finance.yahoo.com/energy/articles/venezuela-ends-19-power-monopoly-230000272.html",
+   "published": "2026-11-12T23:00:00Z",
+   "publisher": "",
+   "summary": "Venezuela's National Assembly voted to open its power sector to private investors, with oil producers first in line and the state keeping its hydro dams.",
+   "symbols": []
+  },
+  {
+   "title": "Now Comes the Hard Part for the Stock Market",
+   "link": "https://finance.yahoo.com/m/29a9f4ff-d04d-3c7e-9047-57cab19ef788/now-comes-the-hard-part-for.html",
+   "published": "2026-11-12T22:53:00Z",
+   "publisher": "",
+   "summary": "The S&P 500 has held up through Nvidia’s steep decline. But Huang’s departure raises new questions about the AI trade and the broader market outlook.",
+   "symbols": []
   },
   {
    "title": "Does Vanguard or iShares Have the Better Emerging Markets ETF?",
@@ -227,11 +372,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -727,6 +872,23 @@
     "SPCX",
     "VOO",
     "XDW0"
+   ]
+  },
+  {
+   "title": "Nvidia, AMD, CoreWeave, Nebius, Tesla, and More Stocks That Explain Today’s Market",
+   "link": "https://finance.yahoo.com/m/923c0fbe-6605-3913-952c-4b295e62fcac/nvidia%2C-amd%2C-coreweave%2C.html",
+   "published": "2026-11-12T21:35:00Z",
+   "publisher": "",
+   "summary": "Nvidia stock drops after CEO Jensen Huang resigns.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
    ]
   },
   {
@@ -2909,234 +3071,6 @@
    "published": "2026-11-12T15:51:00Z",
    "publisher": "",
    "summary": "Bit Digital (NASDAQ: $BTBT) reported third-quarter revenue below Wall Street expectations on Wednesday, despite ret...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "History Says This Is the Smartest ETF to Buy During the Next Bear Market",
-   "link": "https://www.fool.com/investing/2026/11/12/history-says-this-is-smartest-etf-to-buy-during/?.tsrc=rss",
-   "published": "2026-11-12T15:50:00Z",
-   "publisher": "",
-   "summary": "The Vanguard S&P 500 ETF offers a way to invest in the next bear market without betting on any single sector.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "BNY Taps Figment to Bring Staking to Institutional Custody Clients",
-   "link": "https://www.cryptoprowl.com/releases/bny-taps-figment-to-bring-staking-to-institutional-custody-clients-7880?.tsrc=rss",
-   "published": "2026-11-12T15:43:00Z",
-   "publisher": "",
-   "summary": "Banking giant BNY (NYSE: $BNY) is partnering with blockchain infrastructure provider Figment to offer cryptocurrenc...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Blackstone Is Paying Up to $1.5 Billion for Pfizer’s Answer to Wegovy",
-   "link": "https://247wallst.com/investing/2026/11/12/blackstone-is-paying-up-to-1-5-billion-for-pfizers-answer-to-wegovy/?.tsrc=rss",
-   "published": "2026-11-12T15:42:15Z",
-   "publisher": "",
-   "summary": "Pfizer just convinced Wall Street's biggest private investor to shoulder its obesity bet, yet the payoff for shareholders may not come from the drug at all. The real story sits in who keeps the upside and what arrives first.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SpaceX's New Deal with Qualcomm Aims to Take on Mobile Carriers. History Says It's Going to Be an Uphill Battle.",
-   "link": "https://www.fool.com/investing/2026/11/12/spacex-s-new-deal-with-qualcomm-aims-to-take-on-mobile-carriers-history-says-it-s-going-to-be-an-uphill-battle/?.tsrc=rss",
-   "published": "2026-11-12T15:41:02Z",
-   "publisher": "",
-   "summary": "Starlink Mobile will face some hurdles, but it has a few things working in its favor, too.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "These Energy Stocks Can’t Escape Nvidia’s Wake",
-   "link": "https://finance.yahoo.com/m/a70f55f4-6d1c-314a-8d66-97d577291703/these-energy-stocks-can%E2%80%99t.html",
-   "published": "2026-11-12T15:40:00Z",
-   "publisher": "",
-   "summary": "Any hiccup in the AI buildout will also slow the growth of power demand needed to energize data centers.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "NVIDIA’s Leadership Crisis Is Dragging the S&P 500 Lower. Here’s What Else Is Moving",
-   "link": "https://247wallst.com/investing/2026/11/12/nvidias-leadership-crisis-is-dragging-the-sp-500-lower-heres-what-else-is-moving/?.tsrc=rss",
-   "published": "2026-11-12T15:38:49Z",
-   "publisher": "",
-   "summary": "One company's boardroom shake-up is rattling an entire index, but the harshest losses are landing somewhere unexpected. Behind the headline, a bond market signal near a key threshold may matter even more for your portfolio.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Nvidia shares tumble as Jensen Huang steps down as CEO",
-   "link": "https://www.euronews.com/2026/11/12/nvidia-shares-fall-on-reports-board-may-oust-ceo-jensen-huang?.tsrc=rss",
-   "published": "2026-11-12T15:38:06Z",
-   "publisher": "",
-   "summary": "US stocks fell at the open, led by tech shares, as investors weighed what Jensen Huang’s resignation as CEO could mean for Nvidia and the wider AI industry.View on euronews",
-   "symbols": []
-  },
-  {
-   "title": "Direct-to-Device (D2D) Market Size, Share and Trend Analysis - Global Forecast to 2036 | Revenue to Reach USD 14.95 Billion at 30.1% CAGR as LEO, Direct-to-Cell, and IoT Adoption Surges",
-   "link": "https://finance.yahoo.com/technology/articles/direct-device-d2d-market-size-153700770.html",
-   "published": "2026-11-12T15:37:00Z",
-   "publisher": "",
-   "summary": "LEO and direct-to-cell lead D2D adoption, while IoT asset tracking, remote monitoring and 3GPP NTN integration unlock key opportunitiesDublin, Nov. 12, 2026 (GLOBE NEWSWIRE) -- \"Direct-to-Device (D2D) Market Size, Share, and Trend Analysis - Global Forecast to 2036\" has been added to ResearchAndMarkets.com's offering. The global direct-to-device (D2D) market is projected to grow from USD 1.08 bill",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Bitcoin key support levels to watch after break below $72,000",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-key-support-levels-watch-153605791.html",
-   "published": "2026-11-12T15:36:05Z",
-   "publisher": "",
-   "summary": "Investing.com -- Bitcoin (BTC/USD) has already dropped below $72K. It traded at $71,445 (-3.44% on the day) as of Nov 12, 10:02 AM EST. The drop cleared the daily 200 SMA at $73,150, a level that held as support from mid-August through early November.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "SpaceX's Expanding Ambitions: ETFs to Play Its Next Growth Phase",
-   "link": "https://finance.yahoo.com/technology/articles/spacexs-expanding-ambitions-etfs-play-153600821.html",
-   "published": "2026-11-12T15:36:00Z",
-   "publisher": "",
-   "summary": "SPCX's AI mega-deals, NASA lunar contracts and Starlink expansion could fuel growth, benefiting space-focused ETFs with significant exposure to the company.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 ETFs I'm Buying Without Hesitation If a Bear Market Begins in 2027",
-   "link": "https://www.fool.com/investing/2026/11/12/etf-buy-hesitation-bear-market-schd-vug-near/?.tsrc=rss",
-   "published": "2026-11-12T15:33:00Z",
-   "publisher": "",
-   "summary": "If bears are prowling next year, these ETFs can help investors thrive.",
-   "symbols": []
-  },
-  {
-   "title": "Jensen Huang's exit puts Nvidia's $530 billion web of AI deals under the microscope",
-   "link": "https://finance.yahoo.com/markets/article/jensen-huangs-exit-puts-nvidias-530-billion-web-of-ai-deals-under-the-microscope-153142269.html",
-   "published": "2026-11-12T15:31:42Z",
-   "publisher": "",
-   "summary": "Jensen Huang's resignation puts a spotlight on the deals Nvidia used to fund the AI boom.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "BC-Most Active Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019739.html",
-   "published": "2026-11-12T15:30:19Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change P 625,422,382 0.",
-   "symbols": []
-  },
-  {
-   "title": "JPMorgan Chase & Co. (JPM) Up 2.4% Since Last Earnings Report: Can It Continue?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-2-153003153.html",
-   "published": "2026-11-12T15:30:03Z",
-   "publisher": "",
-   "summary": "JPMorgan Chase & Co. (JPM) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "S&P/TSX Composite Index Falls Mid-Morning Thursday As Base Metal Shares Tumble",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-falls-152946777.html",
-   "published": "2026-11-12T15:29:46Z",
-   "publisher": "",
-   "summary": "The S&P/TSX Composite Index dropped mid-morning Thursday as shares in the base metals sector slumped",
-   "symbols": []
-  },
-  {
-   "title": "Ethereum Developers Accelerate Work On Quantum Defenses",
-   "link": "https://www.cryptoprowl.com/releases/ethereum-developers-accelerate-work-on-quantum-defenses-7872?.tsrc=rss",
-   "published": "2026-11-12T15:29:00Z",
-   "publisher": "",
-   "summary": "Ethereum (CRYPTO: $ETH) developers say they are accelerating work on defenses against quantum computers following a...",
    "symbols": [
     "BTC",
     "ETH",
