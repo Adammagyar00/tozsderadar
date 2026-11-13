@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T16:56:17Z",
+ "builtAt": "2026-11-13T17:55:49Z",
  "digests": [
   {
    "calendar": [
@@ -1461,7 +1461,7 @@
      "addedAt": "2026-11-13T16:13:10Z",
      "category": "Nyersanyagok és geopolitika",
      "impact": "negatív",
-     "source": "IEA · Bloomberg (BNN) · The National",
+     "source": "IEA · Bloomberg (BNN) · The National · Yahoo Finance",
      "summary": "A Nemzetközi Energiaügynökség (IEA) novemberi jelentése szerint a negyedik negyedévben túlkínálat alakul ki az olajpiacon, mert az öbölbeli export gyorsabban állt helyre, mint a kereslet; 2027-ben nagyobb készletfelhalmozást vár. A megfigyelt készletek októberben 52 millió hordóval nőttek, a kereslet idén napi 2,7 millió hordóval csökkenhet. Az IEA szerint a dízelellátás szűkössége továbbra is a fő gond; a Brent a jelentés után 95–96 dollár körül mozgott.",
      "symbols": [
       "XDW0"
@@ -1532,6 +1532,121 @@
      "title": "Crypto Times: 5% fölött emelkedett a HYPE a Hyperliquid harmadik negyedéves jelentése után",
      "url": "https://www.cryptotimes.io/2026/11/13/hype-token-jumps-as-hyperliquid-reports-190-9m-in-q3-revenue/",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az Nvidia vezetőváltása próbára teszi a Marvell 115 milliárd dolláros, részvénycserés ajánlatát a Lumentumra, valamint az Nvidia 2 milliárd dolláros befektetését is. A Marvell-részvény 6,6%-ot esett, a Lumentum árfolyama és az ajánlat értéke közötti rés 18%-ra nőtt.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "6,6%-ot esett a Marvell, 18%-ra nőtt a Lumentum-ügylet árfolyamrése",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stocks-fall-6-6-164033741.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A TIKR összefoglalója szerint a 43,4 milliárd dollárt kezelő Element Capital legfrissebb 13F jelentése alapján a harmadik negyedévben az összes SpaceX- és Digital Realty-részvényét eladta.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Az Element Capital a 3. negyedévben teljes SpaceX-részesedését eladta",
+     "url": "https://www.tikr.com/blog/element-capital-sells-spacex-digital-realty?ref=yahoofinance&tlnk=yf-261113-xcmmgr57&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A bitcoin pénteken mintegy 68 000 dollárra esett, augusztus óta a legalacsonyabb szintre, és vele estek a kriptóhoz kötött amerikai részvények is. Leginkább a bitcoinbányászok szenvedtek: a Hut 8 6%-ot esett, a Riot Platforms és más bányászok is gyengültek.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bányászcégek vezetik a kriptóhoz kötött részvények esését",
+     "url": "https://beincrypto.com/bitcoin-miners-lead-wall-street-crypto-sell-off/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az Investing.com beszámolója szerint a szárazföldi kínai és hongkongi intézményi befektetőket értesülések szerint kizárták az Anthropic 1400 milliárd dolláros tőzsdei bevezetéséből, miközben Washington egyre szigorúbban figyeli a stratégiai technológiákat.",
+     "symbols": [],
+     "title": "Értesülések szerint kimaradnak a kínai befektetők az Anthropic tőzsdei bevezetéséből",
+     "url": "https://finance.yahoo.com/news/anthropic-ipo-shuts-chinese-investors-162205977.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Unchained",
+     "summary": "Rapha Zagury vezérigazgató szerint a harmadik negyedéves nettó nyereség a cég 43 514 bitcoinjának átértékeléséből származott. A 10-Q jelentés szerint az első kilenc hónapban 186,5 millió dolláros veszteség keletkezett, és az Elektronnal kapcsolatban nincs kötelező érvényű megállapodás.",
+     "symbols": [],
+     "title": "Twenty One Capital: az 1,09 milliárd dolláros negyedéves profit a bitcoinból, nem az üzletből jött",
+     "url": "https://unchainedcrypto.com/twenty-one-capital-ceo-says-1-09-billion-quarterly-profit-came-from-bitcoin-not-business/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance",
+     "summary": "Susan Collins, a bostoni Fed elnöke szerint az infláció túl magas, és egyre szélesebb körben terjed, ezért hamarosan további szigorításra lehet szükség, akár a jelenleg vártnál nagyobb mértékben is. Szerinte a munkaerőpiac szilárd, a pénzügyi piacok stabilan működnek.",
+     "symbols": [],
+     "title": "Collins (bostoni Fed): hamarosan további kamatemelésekre lehet szükség",
+     "url": "https://www.investing.com/news/economy-news/feds-collins-says-more-rate-hikes-may-be-needed-soon-5026128",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Lorie Logan, a dallasi Fed elnöke szerint az amerikai állampapírpiac nagyon jól működik, a Fednek azonban meg kell erősítenie piactámogató eszközeit. Világosabb elválasztást sürget a likviditási eszközök és a monetáris politika között.",
+     "symbols": [],
+     "title": "Logan (dallasi Fed): nagyon jól működik az állampapírpiac, de erősíteni kell a támogató eszközöket",
+     "url": "https://www.investing.com/news/economy-news/logan-says-treasury-market-functioning-very-well-fed-needs-to-strengthen-support-tools-5026153",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters jelentése szerint az Uber közölte, hogy egy adatszivárgás során amerikai sofőrök vezetői engedélyeinek adatait tulajdonították el. További részletek egyelőre nem ismertek.",
+     "symbols": [],
+     "title": "Uber: amerikai sofőrök jogosítványadatait lopták el egy adatszivárgásban",
+     "url": "https://www.investing.com/news/stock-market-news/uber-says-us-drivers-license-data-stolen-in-data-breach-5026168",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T17:40:24Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "CNBC · Yahoo Finance",
+     "summary": "A CNBC szerint az Nvidia-részvény pénteken újabb mintegy 4%-ot esett Jensen Huang lemondásának hatására, és piaci értéke napközben 4 billió dollár alá süllyedt. Az árfolyam a reggeli, nyitás előtti emelkedés után fordult esésbe; a cég jövő kedden közli gyorsjelentését.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Újabb 4%-os esés: 4 billió dollár alá csökkent az Nvidia piaci értéke",
+     "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -1558,7 +1673,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T16:47:59Z",
+   "updatedAt": "2026-11-13T17:40:24Z",
    "watchlist": []
   },
   {
