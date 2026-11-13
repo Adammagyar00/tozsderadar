@@ -1,7 +1,24 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-13T02:07:03Z",
+ "updatedAt": "2026-11-13T02:50:33Z",
  "items": [
+  {
+   "title": "Nearly $600 Million in Crypto Longs Liquidated as Bitcoin and Ethereum Fall to August Lows",
+   "link": "https://beincrypto.com/crypto-liquidations-bitcoin-ethereum-3-month-low/?.tsrc=rss",
+   "published": "2026-11-13T01:54:29Z",
+   "publisher": "",
+   "summary": "Crypto liquidations reached $680.81 million as Bitcoin and Ethereum fell to 3-month lows ahead of Friday's PPI data.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Jaguar Mining Reports Third Quarter 2026 Results with 67% Growth in Adjusted Net Income and 46% Higher Adjusted EBITDA",
    "link": "https://finance.yahoo.com/markets/commodities/articles/jaguar-mining-reports-third-quarter-014000392.html",
@@ -3054,14 +3071,6 @@
    "published": "2026-11-12T16:00:01Z",
    "publisher": "",
    "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Treasure Global Announces 1-for-24 Reverse Stock Split to Support Nasdaq Bid Price Compliance",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/treasure-global-announces-1-24-160000650.html",
-   "published": "2026-11-12T16:00:00Z",
-   "publisher": "",
-   "summary": "KUALA LUMPUR, Malaysia, Nov. 12, 2026 (GLOBE NEWSWIRE) -- Treasure Global Inc. (NASDAQ: TGL) (“Treasure Global” or the “Company”), a Southeast Asia–anchored technology company focused on AI-powered enterprise solutions and digital transformation, today announced that it will effect a 1-for-24 reverse stock split (“Reverse Stock Split”) of its common stock, par value USD 0.00001 per share (“Common ",
    "symbols": []
   }
  ]
