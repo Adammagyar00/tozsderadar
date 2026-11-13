@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T11:55:34Z",
+ "builtAt": "2026-11-13T13:14:00Z",
  "digests": [
   {
    "calendar": [
@@ -1046,6 +1046,143 @@
      "title": "Index: a nagyvállalatok többsége nem fizetett globális minimumadó-kiegészítést, kétséges a kormány bevételi terve",
      "url": "https://index.hu/gazdasag/2026/11/13/globalis-minimumado-koltsegvetes-nagyvallalatok-bevetel-kormany/",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Euronews",
+     "summary": "A MOL szerint 2027 végére megszüntethető az orosz kőolaj importja, Bacsa György vezérigazgató azonban arra figyelmeztet, hogy a magasabb energiaköltségek politikai instabilitást okozhatnak Magyarországon és Szlovákiában. Uniós forrásokat kér az alternatív vezetékes útvonalak bővítésére, miközben Brüsszel továbbra is az orosz energiáról való leválást sürgeti.",
+     "symbols": [],
+     "title": "MOL-vezér: 2027 végére leválhatnak az orosz olajról, de uniós támogatást kérnek, és társadalmi feszültségektől tartanak",
+     "url": "https://www.euronews.com/2026/11/13/hungarys-mol-seeks-eu-funding-as-ceo-warns-russian-oil-phase-out-could-trigger-social-unre?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A kínai gyógyszerhatóság (NMPA) engedélyezte a Lilly szájon át szedhető GLP-1 fogyasztószerét (Foundayo), így a Lilly az első, amelynek ilyen tablettáját Kínában jóváhagyták testsúlykezelésre. A döntés versenyt nyit a Novo Nordiskkal, a Pfizerrel és az Innoventtel a hatalmas kínai piacon; a J.P. Morgan becslése szerint a kínai GLP-1-es fogyasztószer-piac évi 4,5 milliárd dollárig nőhet.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Emelkedik az Eli Lilly: Kína jóváhagyta az orforglipron fogyasztótablettát",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-rise-china-115704045.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Benzinga",
+     "summary": "A TSMC megerősítette, hogy dolgozói adatok szivárogtak ki egy külső felhőszolgáltatón keresztül; a hackerek mintegy 46 ezer jelenlegi és korábbi munkavállaló adataiért 3 bitcoint kérnek. A cég szerint saját rendszereit nem törték fel, a gyártást és az ügyféladatokat nem érintette az incidens. Az eset a beszállítói kiberkockázatokra irányítja a figyelmet.",
+     "symbols": [],
+     "title": "Adatszivárgás a TSMC-nél: a hackerek bitcoint kérnek mintegy 46 ezer dolgozói adatért",
+     "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-faces-major-security-scare-115950867.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az MSCI novemberi felülvizsgálata november 30-i hatállyal törli a Strategyt (a legnagyobb vállalati bitcointulajdonost) az MSCI USA indexből. A részvény 6,83%-kal esett, miközben a bitcoin gyengül, és az Nvidia vezetőváltása is megrázta a kockázatos eszközöket.",
+     "symbols": [],
+     "title": "6,8%-ot esett a Strategy, miután az MSCI megerősítette kizárását az amerikai indexéből",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-stocks-drop-6-83-115409289.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Lumentum részvénye jóval a Marvell-ajánlat értéke (részvényenként 4,5 Marvell-részvény) alatt forog, a rés 19,7%-ra nőtt, a tranzakció lezárása pedig csak 2028-ra várható. A Marvell árfolyama az AI-chipcégekkel együtt ingadozik, az Nvidia-vezetőváltás a teljes egészében részvényben fizetett ajánlat dolláros értékét is nyomja; a Marvell december 1-jén tesz közzé gyorsjelentést.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "19,7%-ra nőtt a Lumentum árfolyamrése a Marvell-ajánlathoz képest; a Marvell enyhén emelkedik",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-stocks-edge-higher-marvell-115130695.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits (Bloomberg alapján)",
+     "summary": "A Bloomberg szerint a Goldman Sachs 8700 pontra várja az S&P 500 indexet a következő 12 hónapban, ami mintegy 14%-os emelkedést jelent, annak ellenére, hogy 2027-ben a vállalati profitnövekedés jelentősen lassulhat. A bank a tech-eladási hullám után a nagy AI-felhőszolgáltatókat viszonylag defenzív befektetésnek tartja.",
+     "symbols": [],
+     "title": "Bloomberg: a Goldman Sachs 8700 pontos S&P 500-at vár 12 hónapon belül, a hiperskálázókat viszonylag defenzívnek látja",
+     "url": "https://stocktwits.com/news-articles/markets/equity/goldman-sachs-reportedly-sees-ai-hyperscalers-as-relatively-defensive-after-tech-selloff-forecasts-14-s-and-p-500-upside/cNbRbfmR9fI?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az európai tőzsdék péntek délben oldalazva kereskedtek, miután az Nvidia vezérigazgatója váratlanul távozott, és az olajpiaci kilátások is óvatosságra intettek.",
+     "symbols": [],
+     "title": "Oldalaznak az európai tőzsdék délben: az Nvidia és az olajkilátások fékezik a piacot",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/nvidia-crude-outlooks-cap-european-114449244.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint a globális részvényalapokba áramló tőke hét hetes csúcsra nőtt, elsősorban az európai részvényalapok iránti erős kereslet miatt.",
+     "symbols": [],
+     "title": "Reuters: az európai alapok iránti kereslet hét hetes csúcsra emelte a globális részvényalapok beáramlásait",
+     "url": "https://www.investing.com/news/economy-news/demand-for-european-funds-boosts-global-equity-fund-inflows-to-sevenweek-high-5024944",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A német hatóságok biztonsági résekre figyelmeztettek a dán Danfoss hűtésvezérlő rendszereiben. A korábbi elemzések szerint az interneten elérhető, frissítetlen vezérlőket támadók távolról is manipulálhatják, ezért ajánlott leválasztani őket a nyilvános hálózatról.",
+     "symbols": [],
+     "title": "Németország biztonsági hiányosságokra figyelmeztet a Danfoss hűtőrendszereiben",
+     "url": "https://www.investing.com/news/stock-market-news/germany-warns-of-security-flaws-in-danfoss-cooling-systems-93CH-5025100",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Rosenblatt elemzői a Super Micro Computer részvényének esése és a Megaspeed nevű céggel kapcsolatos vádak ellenére is kiálltak a vállalat mellett.",
+     "symbols": [],
+     "title": "A Rosenblatt kiáll a Super Micro mellett az eladási hullám és a Megaspeed-vádak közepette",
+     "url": "https://www.investing.com/news/stock-market-news/rosenblatt-defends-super-micro-amid-selloff-megaspeed-allegations-93CH-5025025",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T12:42:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "TheStreet",
+     "summary": "A TheStreet értesülése szerint a JPMorgan Chase egy WARN-bejelentésben 91 munkahely megszüntetéséről tájékoztatott Jersey City-i egységeinél; ez az idei hatodik ilyen bejelentése New Jersey államban, miközben a bank nyeresége és összlétszáma nő. Más forrásban egyelőre nem találtunk megerősítést.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "TheStreet: újabb 91 fős leépítést jelentett be a JPMorgan Jersey Cityben",
+     "url": "https://www.thestreet.com/employment/jpmorgan-chase-6th-layoff-round-workforce-grows-by-over-4800",
+     "verified": false
     }
    ],
    "markets": [
@@ -1072,7 +1209,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T11:40:34Z",
+   "updatedAt": "2026-11-13T12:42:00Z",
    "watchlist": []
   },
   {
