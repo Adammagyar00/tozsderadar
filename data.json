@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T08:55:58Z",
+ "builtAt": "2026-11-13T09:55:43Z",
  "digests": [
   {
    "calendar": [
@@ -699,6 +699,91 @@
      "title": "A magyar cégeknél is zavart okoz az elhúzódó Microsoft 365-leállás",
      "url": "https://www.portfolio.hu/uzlet/20261113/az-uzleti-szektor-is-megerzi-a-microsoft-kieseset-876194",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T09:39:55Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Pénteken több hetes csúcsra emelkedtek az euróövezeti állampapír-hozamok: a 10 éves német Bund hozama 3,357%-kal kéthetes csúcsra ért, az amerikai 10 éves hozam közel háromhetes csúcsra, 5,125%-ra ugrott. A magas amerikai inflációs adat és a Fed-döntéshozók sorozatos kamatemelési üzenetei véget vetettek az egy hónapos kötvényrallinak; a piac már mintegy 15% esélyt áraz egy decemberi 50 bázispontos Fed-emelésre.",
+     "symbols": [],
+     "title": "Több hetes csúcsra emelkedtek az euróövezeti hozamok, a héja Fed megtörte a globális kötvényrallit",
+     "url": "https://www.investing.com/news/forex-news/euro-yields-hit-multiweek-highs-as-hawkish-fed-shatters-global-bond-rally-5024281",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T09:39:55Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Nemzetközi Atomenergia-ügynökség bizalmas negyedéves jelentése szerint egyre nagyobb az aggodalom az iszfaháni föld alatti urándúsító üzem miatt, amelyet Irán bejelentett, de az ellenőröket nem engedte be. A NAÜ nem tudja a létesítmény pontos helyét, biztosítéki státuszát, és azt sem, tartalmaz-e nukleáris anyagot; a jelentés a nagy dúsítású uránkészlet állapotának közlésére is felszólítja Iránt.",
+     "symbols": [],
+     "title": "NAÜ: egyre aggasztóbb Irán ellenőrizetlen urándúsító létesítménye",
+     "url": "https://www.investing.com/news/economy-news/iaea-increasingly-concerned-over-irans-uninspected-uranium-enrichment-facility-5024552",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T09:39:55Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters több mint 150 kínai beszerzési értesítő, beruházási terv és szerződés átvizsgálása alapján több mint 3 milliárd dollárnyi kínai számítási projektet azonosított, amelyek az exportkorlátozás alá eső Nvidia H100, H200 és H800 chipekre épülnek. Az elemzés szerint Jensen Huang távozása gyengítheti az Nvidia lobbierejét, miközben a törvényhozók szigorúbb korlátozásokat sürgetnek; az Nvidia nem reagált azonnal.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Reuters: Huang távozása és az amerikai vizsgálatok 3 milliárd dollárnyi, Nvidia-chipekre épülő kínai AI-projektet veszélyeztetnek",
+     "url": "https://www.investing.com/news/stock-market-news/exclusivehuang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia-5024462",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T09:39:55Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Cerebras Systems részvénye a pénteki nyitás előtti kereskedésben mintegy 19%-kal, 116,54 dollárra emelkedett, miután a cég a vártnál jobb harmadik negyedéves bevételről számolt be, emelte éves előrejelzését, és a Microsofttal kötött felhőmegállapodást is bejelentett. A negyedik negyedévre 310–330 millió dolláros bevételt vár, a 2026-os bevételi előrejelzést 940–960 millió dollárra emelte.",
+     "symbols": [
+      "CBRS"
+     ],
+     "title": "Mintegy 19%-kal szárnyal a Cerebras a nyitás előtti kereskedésben",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-cerebras-systems-stock-surging-today-93CH-5024586",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T09:39:55Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Richemont (közlemény) · Investing.com · FashionNetwork",
+     "summary": "A Cartier-tulajdonos Richemont első féléves nettó nyeresége 39%-kal 2,5 milliárd euróra, árbevétele 16%-kal mintegy 12,3 milliárd euróra nőtt. A részvény mégis 7–8%-ot esett, mert a tartósan magas aranyárak miatt az alapbruttó marzs 70 bázisponttal szűkült, a második negyedéves növekedés pedig 20%-ról 13%-ra lassult; a cég előrejelzést nem adott.",
+     "symbols": [],
+     "title": "A jó félév ellenére 7–8%-ot esett a Richemont: az aranyárak rontották a marzsot",
+     "url": "https://uk.fashionnetwork.com/news/Richemont-s-half-year-net-profit-soars-to-2-5-billion-euros,1884805.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T09:39:55Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "ams OSRAM (közlemény) · Investing.com",
+     "summary": "Az ams OSRAM harmadik negyedéves bevétele 829 millió euró lett, kissé a várt 821 millió felett, a korrigált EBITDA-marzs 16,3%. A negyedik negyedévre adott 750–850 millió eurós bevételi és 16%-os marzs-előrejelzés azonban elmaradt a várakozásoktól, a részvény 6,6%-kal 15,67 frankra esett.",
+     "symbols": [],
+     "title": "Mintegy 6,6%-kal esett az ams OSRAM a gyenge negyedik negyedéves előrejelzés miatt",
+     "url": "https://www.financialcontent.com/article/bizwire-2026-11-13-ams-osram-delivers-continued-core-growth-despite-mixed-end-market-demand-led-by-strong-opto-semiconductors",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T09:39:55Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Kormányzati Kommunikáció",
+     "summary": "A Kormányzati Kommunikáció csütörtök esti közlése szerint az első kilenc projekt után további 16 beruházás esetében szünteti meg a kormány a különleges eljárási és beépítési kedvezményeket jelentő kiemelt státuszt.",
+     "symbols": [],
+     "title": "Újabb 16 beruházástól vonta vissza a kiemelt státuszt a kormány",
+     "url": "https://www.portfolio.hu/ingatlan/20261113/ujabb-16-beruhazastol-vonta-vissza-a-kiemelt-statuszt-a-kormany-876196",
+     "verified": true
     }
    ],
    "markets": [
@@ -725,7 +810,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T08:39:54Z",
+   "updatedAt": "2026-11-13T09:39:55Z",
    "watchlist": []
   },
   {
