@@ -1,7 +1,31 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-13T02:50:33Z",
+ "updatedAt": "2026-11-13T03:54:45Z",
  "items": [
+  {
+   "title": "Dow, S&P 500, Nasdaq Futures Edge Higher As Markets Attempt To Recover From Nvidia Rout: SLS, MSFT, CADL, MSTR In Focus",
+   "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-as-markets-attempt-to-recover-from-nvidia-rout-sls-msft-cadl-mstr-in-focus/cNbb8QDR9OW?.tsrc=rss",
+   "published": "2026-11-13T03:07:45Z",
+   "publisher": "",
+   "summary": "Nvidia’s CEO scandal continued to rock markets on Thursday, with Jensen Huang resigning from his position following multiple reports of infidelity.",
+   "symbols": []
+  },
+  {
+   "title": "Treasury Bonds Now Pay More Than Stocks Earn by a Gap Last Seen in 2009. Warren Buffett Warned in 1999 What That Does to Stock Prices",
+   "link": "https://247wallst.com/investing/2026/11/12/treasury-bonds-now-pay-more-than-stocks-earn-by-a-gap-last-seen-in-2009-warren-buffett-warned-in-1999-what-that-does-to-stock-prices/?.tsrc=rss",
+   "published": "2026-11-13T02:47:00Z",
+   "publisher": "",
+   "summary": "A 10-year Treasury at 4.98% now pays more than the S&P 500 earns at 26 times earnings, a 1.13-point gap last seen in 2009. On $100,000 that is $4,980 of interest against $3,850 of company profit. Warren Buffett called interest rates gravity in 1999; here is what the gap did the three times it was this wide, what closes it, and what a retired couple with $1.5 million in an index fund should do with",
+   "symbols": []
+  },
+  {
+   "title": "CITGO Posts Record $2.2 Billion Q3 Profit as Refining Margins Surge",
+   "link": "https://finance.yahoo.com/energy/articles/citgo-posts-record-2-2-023957378.html",
+   "published": "2026-11-13T02:39:57Z",
+   "publisher": "",
+   "summary": "CITGO reports record quarterly profits and refinery production as strong fuel margins drive higher 2026 earnings expectations.",
+   "symbols": []
+  },
   {
    "title": "Nearly $600 Million in Crypto Longs Liquidated as Bitcoin and Ethereum Fall to August Lows",
    "link": "https://beincrypto.com/crypto-liquidations-bitcoin-ethereum-3-month-low/?.tsrc=rss",
@@ -12,11 +36,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3031,47 +3055,6 @@
     "QQQ",
     "XDW0"
    ]
-  },
-  {
-   "title": "Why Micron Stock Dropped on Thursday",
-   "link": "https://www.fool.com/investing/2026/11/12/why-micron-stock-dropped-on-thursday/?.tsrc=rss",
-   "published": "2026-11-12T16:04:02Z",
-   "publisher": "",
-   "summary": "Nvidia just lost its CEO -- so why is Micron stock down?",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Bloom Energy Has Found an Unexpected Customer: AI",
-   "link": "https://247wallst.com/investing/2026/11/12/bloom-energy-has-found-an-unexpected-customer-ai/?.tsrc=rss",
-   "published": "2026-11-12T16:03:26Z",
-   "publisher": "",
-   "summary": "Bloom Energy built fuel cells for hospitals and retailers, then AI hyperscalers walked in and changed everything. A record quarter still sparked a brutal selloff, leaving investors to weigh gigawatt orders against cash burn and a wild ride ahead.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "How Low Can Alphabet Stock Go?",
-   "link": "https://www.trefis.com/stock/googl/articles/624528/how-low-can-alphabet-stock-go/2026-11-12?.tsrc=rss",
-   "published": "2026-11-12T16:00:01Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
   }
  ]
 }
