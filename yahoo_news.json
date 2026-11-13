@@ -1,7 +1,64 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-13T04:58:57Z",
+ "updatedAt": "2026-11-13T05:59:52Z",
  "items": [
+  {
+   "title": "HOOD Stock Drops Overnight Amid Bitcoin Weakness: Robinhood Reports 28.9M Funded Customers In October",
+   "link": "https://stocktwits.com/news-articles/markets/equity/hood-stock-drops-overnight-amid-bitcoin-weakness-robinhood-reports-28-9-m-funded-customers-in-october/cNbbr2nR9ON?.tsrc=rss",
+   "published": "2026-11-13T05:28:01Z",
+   "publisher": "",
+   "summary": "Robinhood said its funded customers at the end of October were 28.9 million, up about 130,000 from September and up around 1.8 million year-over-year.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "3 Oil And Gas Stocks With Cash Flow Leverage As Crude Prices Swing",
+   "link": "https://finance.yahoo.com/energy/articles/3-oil-gas-stocks-cash-051548385.html",
+   "published": "2026-11-13T05:15:48Z",
+   "publisher": "",
+   "summary": "Markets feel jumpy as traders weigh a possible 50 bps Fed hike, a strong US dollar and a weaker yen while oil prices react to fresh geopolitical risk. That mix is shaking up pricing across sectors and creating pockets of mispricing that can reward patience and punish complacency. This article walks through 3 large-cap energy producers exposed to these cross-currents and what their current setup mi",
+   "symbols": []
+  },
+  {
+   "title": "Caledonia Mining (CMCL) Stock Looks Below Fair Value Despite Bilboes Risk",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/caledonia-mining-cmcl-stock-looks-051426796.html",
+   "published": "2026-11-13T05:14:26Z",
+   "publisher": "",
+   "summary": "Caledonia Mining has fallen sharply over the past year even after a strong three year run, which puts fresh attention on whether the current share price lines up with what its earnings can support. With the stock back around recent lows and new project funding in place, the immediate question is how much of the story is already reflected in the valuation. Over the past three years the share price ",
+   "symbols": []
+  },
+  {
+   "title": "RedCloud Announces Effective Date of Reverse Share Split",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/redcloud-announces-effective-date-reverse-050500469.html",
+   "published": "2026-11-13T05:05:00Z",
+   "publisher": "",
+   "summary": "LONDON, Nov. 13, 2026 (GLOBE NEWSWIRE) -- RedCloudHoldings plc (Nasdaq: RCT) (“RedCloud” or the “Company”), which is building the AI prediction infrastructure for global FMCG trade, today announced that the previously approved 100-to-1reverse share split (the “Reverse Share Split”) of the Company’s ordinary shares, nominal value £0.002 per share (the “Ordinary Shares”), is expected to become effec",
+   "symbols": []
+  },
+  {
+   "title": "PEDEVCO Corp (PED) (Q3 2026) Earnings Call Highlights: Revenue Surges 411% Despite ...",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/pedevco-corp-ped-q3-2026-050452392.html",
+   "published": "2026-11-13T05:04:52Z",
+   "publisher": "",
+   "summary": "PEDEVCO Corp (PED) posted $35.5 million in quarterly revenue and nearly doubled its Powder River Basin acreage, even as a $16.6 million derivative loss and a 14% production dip weighed on results.",
+   "symbols": []
+  },
+  {
+   "title": "Better U.S. Bank ETF: State Street's KBE vs. First Trust's FTXO",
+   "link": "https://www.fool.com/coverage/etfs/2026/11/12/better-u-s-bank-etf-state-street-s-kbe-vs-first-trust-s-ftxo/?.tsrc=rss",
+   "published": "2026-11-13T05:03:41Z",
+   "publisher": "",
+   "summary": "KBE carries a lower fee and higher yield, yet FTXO's concentrated 50-stock portfolio tells a different story about risk and reward.",
+   "symbols": []
+  },
   {
    "title": "Despite NVDA Rout, Investors Have Poured In $37.5B In US Stock ETFs In 5 Days – Here’s Where The Money Went",
    "link": "https://stocktwits.com/news-articles/markets/equity/us-equity-etf-inflows-37-billion-nvidia-stock-selloff/cNbbpApR9Ok?.tsrc=rss",
@@ -9,12 +66,12 @@
    "publisher": "",
    "summary": "According to The Kobeissi Letter, the 10 major U.S. equity ETFs have attracted over $37.5 billion over five trading days ending Tuesday.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -28,11 +85,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -45,11 +102,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -70,11 +127,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2970,90 +3027,6 @@
    "published": "2026-11-12T16:20:33Z",
    "publisher": "",
    "summary": "Key TakeawaysEli Lilly now sells Zepbound and Foundayo directly on Hims & Hers at its own self-pay prices, joining Novo Nordisk on the platform. Volume rose 53% in the third quarter while realized prices fell 15%, yet gross margin still improved to 83.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Marex Group Limited (MRX) Beats Revenue Expectations and Converts Top-Line Growth into Bottom-Line Expansion",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/marex-group-limited-mrx-beats-162006592.html",
-   "published": "2026-11-12T16:20:06Z",
-   "publisher": "",
-   "summary": "Artisan Partners, an investment management company, released its third-quarter 2026 investor letter for the “Artisan U.S. Small-Cap Growth Strategy”. The letter can be downloaded here. Global equities reached new highs despite elevated oil prices and rising interest rates, driven by resilient U.S. economic data and a revised GDP growth forecast. However, the bond market faced […]",
-   "symbols": []
-  },
-  {
-   "title": "Prediction: This Will Be Micron's Stock Price by the End of 2027",
-   "link": "https://www.fool.com/investing/2026/11/12/prediction-this-will-be-microns-stock-price-by-the/?.tsrc=rss",
-   "published": "2026-11-12T16:20:00Z",
-   "publisher": "",
-   "summary": "Recent developments may have changed the company's outlook.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What Endeavour Mining (EDV) Said on Its Q3 Earnings Call",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-endeavour-mining-edv-said-on-its-q3-earnings-call-2026-11-12/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-   "published": "2026-11-12T16:15:16Z",
-   "publisher": "",
-   "summary": "Endeavour Mining (LON:EDV) expects to produce gold in the lower half of its full-year guidance range after suspending underground mining at its Mana operation, even as higher gold prices helped drive record cash flow in the first nine months of 2026. Chief Executive Officer Ian Cockerill said the c",
-   "symbols": []
-  },
-  {
-   "title": "Eli Lilly secures first approval for weight-loss pill in China",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101698/eli-lilly-secures-first-approval-for-weight-loss-pill-in-china-1101698.html?.tsrc=rss",
-   "published": "2026-11-12T16:15:00Z",
-   "publisher": "",
-   "summary": "Eli Lilly and Co (NYSE:LLY), the American pharmaceutical group, has become the first drugmaker to secure Chinese approval for an oral glucagon-like peptide-1 (GLP-1) weight-loss treatment. The decision gives it an early lead over Novo Nordisk (NYSE:NVO) in the world’s second-largest...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Stock Market Today: Indexes Turn Positive; Nvidia Off Lows Amid CEO Change As Apple Hits Highs (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/b961f164-91b1-38c0-a2e1-5ab20b01108e/stock-market-today%3A-indexes.html",
-   "published": "2026-11-12T16:14:56Z",
-   "publisher": "",
-   "summary": "The Dow wavers Thursday on Trump's Iran comments as Nvidia stock plunges on the resignation of CEO Jensen Huang.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Blackstone backs Pfizer’s obesity ambitions with $1.5bn fund",
-   "link": "https://www.pharmaceutical-technology.com/news/blackstone-backs-pfizers-obesity-ambitions-with-1-5bn-fund/?.tsrc=rss",
-   "published": "2026-11-12T16:13:55Z",
-   "publisher": "",
-   "summary": "Pfizer has an extensive clinical programme for berobenatide, acquired via its $10bn takeover of Metsera.",
    "symbols": [
     "BTC",
     "ETH",
