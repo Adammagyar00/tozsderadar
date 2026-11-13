@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T06:56:03Z",
+ "builtAt": "2026-11-13T07:55:53Z",
  "digests": [
   {
    "calendar": [
@@ -539,6 +539,67 @@
      "title": "Kobeissi: öt nap alatt 37,5 milliárd dollár áramlott az amerikai részvény-ETF-ekbe az Nvidia-esés ellenére",
      "url": "https://stocktwits.com/news-articles/markets/equity/us-equity-etf-inflows-37-billion-nvidia-stock-selloff/cNbbpApR9Ok",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T07:40:11Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A bitcoin árfolyama egy nap alatt csaknem 7%-ot esett, és augusztus óta először csúszott 69 000 dollár alá, a cikk írásakor 68 530 dollár körül járt. Kriptós oldalak szerint az esés nyomán 1,4 milliárd dollárnyi, főleg vételi (long) pozíciót likvidáltak.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Tovább esett a bitcoin: augusztus óta először 69 000 dollár alatt",
+     "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-price-below-69000-crypto-market-selloff-mstr-coin/cNbbMQDR9Os?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T07:40:11Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A tokiói tőzsde pénteken pluszban zárt, a Nikkei 225 index 0,54%-kal emelkedett. Más jelentések szerint a régiós chipes emelkedés napközben kifulladt: a dél-koreai Kospi a reggeli 2%-os emelkedés után mínuszban zárt, a hongkongi Hang Seng is esett.",
+     "symbols": [],
+     "title": "Emelkedéssel zárt a japán tőzsde, a Nikkei 225 0,54%-ot erősödött",
+     "url": "https://www.investing.com/news/stock-market-news/japan-stocks-higher-at-close-of-trade-nikkei-225-up-054-5024260",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T07:40:11Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A japán Mizuho pénzügyi csoport első féléves nyeresége 47%-kal nőtt, és a bank megemelte egész éves előrejelzését.",
+     "symbols": [],
+     "title": "47%-kal nőtt a Mizuho féléves nyeresége, emelte éves előrejelzését",
+     "url": "https://www.investing.com/news/earnings/mizuho-h1-profit-jumps-47-hikes-annual-outlook-5024279",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T07:40:11Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A japán Yamaha megvásárolja az élő rendezvények vizuális technológiáját fejlesztő Disguise Technologiest, hogy erősítse pozícióját ezen a piacon.",
+     "symbols": [],
+     "title": "A Yamaha felvásárolja a Disguise Technologiest, erősítené jelenlétét az élő rendezvények piacán",
+     "url": "https://www.investing.com/news/company-news/yamaha-to-acquire-disguise-technologies-for-live-events-push-93CH-5024275",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T07:40:11Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio.hu · Pénzcentrum · Mosthír",
+     "summary": "A forint péntek reggel kissé erősödött a csütörtök esti szinthez képest: az euró 365,5, a dollár 330,5 forint körül járt. A Portfolio szerint a dollár–forint árfolyam csütörtökön április eleje óta nem látott szintre emelkedett a dollár globális erősödése nyomán.",
+     "symbols": [],
+     "title": "A forint péntek reggel stabil: 365,5 körül az euró, 330 felett a dollár",
+     "url": "https://www.portfolio.hu/deviza/20261113/jelentos-dollarerosodes-utan-fordulunk-ra-a-pentekre-876206",
+     "verified": true
     }
    ],
    "markets": [
@@ -565,7 +626,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T06:52:11Z",
+   "updatedAt": "2026-11-13T07:40:11Z",
    "watchlist": []
   },
   {
