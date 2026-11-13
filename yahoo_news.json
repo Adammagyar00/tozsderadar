@@ -1,13 +1,38 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-13T09:31:24Z",
+ "updatedAt": "2026-11-13T10:33:25Z",
  "items": [
   {
-   "title": "AI Roundup: Nvidia CEO’s Exit Dominates Headlines — CoreWeave, Cisco Results Boost AI Sentiment",
-   "link": "https://stocktwits.com/news-articles/markets/equity/ai-roundup-nvidia-ceo-s-exit-dominates-headlines-core-weave-cisco-results-boost-ai-sentiment/cNbbU35R9Oz?.tsrc=rss",
-   "published": "2026-11-13T09:14:57Z",
+   "title": "Michael Burry vindicated as Nebius stock drops over 17% — and he's warning of a coming chip glut",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-vindicated-nebius-stock-101500036.html",
+   "published": "2026-11-13T10:15:00Z",
    "publisher": "",
-   "summary": "Jensen Huang resigned as Nvidia CEO on Thursday, and the company appointed CFO Colette Kress as an interim replacement in an unprecedented shakeup.",
+   "summary": "A growing chorus of investors is saying the AI party is over and a correction is coming.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "European gas logs 12% weekly surge as U.S.-Iran diplomatic hopes collapse",
+   "link": "https://finance.yahoo.com/energy/articles/european-gas-logs-12-weekly-101401692.html",
+   "published": "2026-11-13T10:14:01Z",
+   "publisher": "",
+   "summary": "Investing.com - European wholesale natural gas prices surged to over one-week highs on Friday, locking in a 12% weekly gain as the collapse of U.S.-Iran diplomatic backchannels and fresh military strikes in the Persian Gulf triggered a scramble for winter supply security.",
+   "symbols": []
+  },
+  {
+   "title": "Why JPMorgan Chase (JPM) Is Back In The Spotlight",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-jpmorgan-chase-jpm-back-101009777.html",
+   "published": "2026-11-13T10:10:09Z",
+   "publisher": "",
+   "summary": "JPMorgan Chase (JPM) has been active in the bond market, issuing several long dated notes with fixed coupons and callable features that shape its funding profile and interest cost over the coming decades. Against this backdrop of long dated issuance and balance sheet work, JPMorgan Chase shares trade at US$342.82, with a 30 day share price return of 3.44% but a 90 day share price return that has s",
    "symbols": [
     "SPCX",
     "BE",
@@ -15,6 +40,78 @@
     "DFEN",
     "VOO",
     "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Grid Dynamics (GDYN) Stock Sees Fair Value Lift After Higher Analyst Targets",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/grid-dynamics-gdyn-stock-sees-100829194.html",
+   "published": "2026-11-13T10:08:29Z",
+   "publisher": "",
+   "summary": "The fair value estimate for Grid Dynamics Holdings has moved from US$9.40 to US$13.00, which lines up with a cluster of higher Street price targets in the US$11 to US$16 range. Recent research from firms such as JPMorgan points to a more constructive view on the stock, with updates that reflect how analysts are weighing valuation, growth potential, and execution risks after the latest results. As ",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Goldman Sachs just downgraded these 3 European sectors",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-just-downgraded-3-100639137.html",
+   "published": "2026-11-13T10:06:39Z",
+   "publisher": "",
+   "summary": "Investing.com -- Goldman Sachs downgraded European Energy, Insurance and Banks in its 2027 outlook, arguing that lower oil and gas prices and falling bond yields should shift leadership toward growth areas of the market.",
+   "symbols": []
+  },
+  {
+   "title": "3 Dividend Stocks Built for a Market Priced Like It's 1999",
+   "link": "https://www.fool.com/investing/2026/11/13/3-dividend-stocks-built-for-a-market-priced-like-i/?.tsrc=rss",
+   "published": "2026-11-13T10:04:00Z",
+   "publisher": "",
+   "summary": "With stocks arguably priced like it's 1999, these three dividend payers could help you weather what comes next.",
+   "symbols": []
+  },
+  {
+   "title": "US Stock Futures Edge Lower as Nvidia Leadership Changes Offset Cisco and Applied Materials Forecasts: Dow Jones, S&P, Nasdaq, Wall Street",
+   "link": "https://investorshub.advfn.com/market-news/article/39930/us-stock-futures-edge-lower-as-nvidia-leadership-changes-offset-cisco-and-applied-materials-forecasts-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
+   "published": "2026-11-13T09:54:55Z",
+   "publisher": "",
+   "summary": "US stock index futures traded slightly lower on Friday as investors assessed developments surrounding Nvidia (NASDAQ:NVDA), alongside financial updates from Cisco Systems (NASDAQ:CSCO) and Applied Materials (NASDAQ:AMAT), disruptions affecting Microsoft (NASDAQ:MSFT) services and movements in commodity markets. At 03:01 ET (08:01 GMT), Nasdaq 100 futures were down 74 points, or 0.",
+   "symbols": []
+  },
+  {
+   "title": "Huang ouster fallout; Cisco, Applied Materials outlooks - what’s moving markets",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/huang-ouster-fallout-cisco-applied-093548568.html",
+   "published": "2026-11-13T09:35:48Z",
+   "publisher": "",
+   "summary": "Investing.com - Futures connected to the major U.S. stock indices edge lower, with the contract linked to the tech-heavy Nasdaq leading the declines, as tremors from outgoing Nvidia CEO Jensen Huang’s resignation rattle through global markets. Even as investors fret over the future of Nvidia, Cisco Systems and Applied Materials provide upbeat outlooks that underscore the strength of artificial int",
+   "symbols": []
+  },
+  {
+   "title": "Fed Chair Kevin Warsh's Central Bank Reforms Come With a Significant Unintended Consequence",
+   "link": "https://www.fool.com/investing/2026/11/13/fed-chair-kevin-warsh-central-bank-reforms-come-with-a-significant-unintended-consequence/?.tsrc=rss",
+   "published": "2026-11-13T09:26:01Z",
+   "publisher": "",
+   "summary": "The new head of the Fed may have fundamentally changed the bond market.",
+   "symbols": []
+  },
+  {
+   "title": "AI Roundup: Nvidia CEO’s Exit Dominates Headlines — CoreWeave, Cisco Results Boost AI Sentiment",
+   "link": "https://stocktwits.com/news-articles/markets/equity/ai-roundup-nvidia-ceo-s-exit-dominates-headlines-core-weave-cisco-results-boost-ai-sentiment/cNbbU35R9Oz?.tsrc=rss",
+   "published": "2026-11-13T09:14:57Z",
+   "publisher": "",
+   "summary": "Jensen Huang resigned as Nvidia CEO on Thursday, and the company appointed CFO Colette Kress as an interim replacement in an unprecedented shakeup.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -58,12 +155,12 @@
    "publisher": "",
    "summary": "Bloom Energy offers speed, while Constellation Energy brings nuclear scale. But which stock belongs in your portfolio as AI's power demands grow?",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -77,11 +174,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -2862,122 +2959,6 @@
    "published": "2026-11-12T17:35:02Z",
    "publisher": "",
    "summary": "Lilly's experimental GLP-1 is effective in treating osteoarthritic knee pain.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Update: US Equity Indexes Shrug Off Turmoil at Nvidia as CEO Jensen Huang Resigns",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-shrug-off-173400993.html",
-   "published": "2026-11-12T17:34:00Z",
-   "publisher": "",
-   "summary": "(Updates with index/price moves and company/geopolitical news from the first paragraph.) US equit",
-   "symbols": []
-  },
-  {
-   "title": "The Smart Money AI Trade Could Look Very Different in 2027",
-   "link": "https://247wallst.com/investing/2026/11/12/the-smart-money-ai-trade-could-look-very-different-in-2027/?.tsrc=rss",
-   "published": "2026-11-12T17:33:28Z",
-   "publisher": "",
-   "summary": "Micron's revenue more than tripled, yet a violent chipmaker selloff just erased a quarter of its value in a week. Wall Street still sees the stock doubling, and the math behind that bet rests on a surprisingly low multiple.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Could Riot Platforms Actually Climb 102%? Or Is B. Riley Totally Wrong?",
-   "link": "https://www.tikr.com/blog/could-riot-platforms-actually-climb-102-or-is-b-riley-totally-wrong?ref=yahoofinance&tlnk=yf-261112-6f4qw26r&.tsrc=rss",
-   "published": "2026-11-12T17:33:01Z",
-   "publisher": "",
-   "summary": "Key TakeawaysB. Riley raised its Riot Platforms price target to $37 from $25 on Nov.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Here’s What Fuels DHT Holdings’ (DHT) Gains",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/fuels-dht-holdings-dht-gains-173251394.html",
-   "published": "2026-11-12T17:32:51Z",
-   "publisher": "",
-   "summary": "Voya Investment Management, an investment management company, released its third-quarter 2026 investor letter for its “Voya MI Dynamic Small Cap Fund.” The letter can be downloaded here. U.S. equities posted modest gains in the third quarter, led particularly by large-cap technology and energy companies. The S&P 500 rose 2.30%, while the Nasdaq gained 2.47%, supported by […]",
-   "symbols": []
-  },
-  {
-   "title": "Is Intel Stock Paying You Enough For The Swings?",
-   "link": "https://www.trefis.com/stock/intc/articles/624584/is-intel-stock-paying-you-enough-for-the-swings/2026-11-12?.tsrc=rss",
-   "published": "2026-11-12T17:32:19Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Box (BOX) Rallies on Improved Revenue Outlook and Solid Results",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/box-box-rallies-solid-revenue-173141662.html",
-   "published": "2026-11-12T17:29:56Z",
-   "publisher": "",
-   "summary": "Voya Investment Management, an investment management company, released its third-quarter 2026 investor letter for its “Voya MI Dynamic Small Cap Fund.” The letter can be downloaded here. U.S. equities posted modest gains in the third quarter, led particularly by large-cap technology and energy companies. The S&P 500 rose 2.30%, while the Nasdaq gained 2.47%, supported by […]",
-   "symbols": []
-  },
-  {
-   "title": "The Role of AI in Shareholder Activism, 6th Palm Beach CorpGov Forum",
-   "link": "https://finance.yahoo.com/technology/ai/articles/role-ai-shareholder-activism-6th-172727594.html",
-   "published": "2026-11-12T17:27:27Z",
-   "publisher": "",
-   "summary": "CorpGov hosted the sixth annual Palm Beach CorpGov Forum on Nov. 4-5, 2026, at the Palm Beach Lake Pavilion and The Cove Club, both located waterfront with sweeping views of Palm Beach Island, along with a reception at Cucina Palm Beach. The panel called “The Role of AI in Shareholder Activism” took place on Thursday […] The post The Role of AI in Shareholder Activism, 6th Palm Beach CorpGov Forum",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Alumis (ALMS) Faces Pressure After Clinical Results",
-   "link": "https://finance.yahoo.com/healthcare/articles/alumis-alms-faces-pressure-clinical-172700438.html",
-   "published": "2026-11-12T17:27:00Z",
-   "publisher": "",
-   "summary": "Voya Investment Management, an investment management company, released its third-quarter 2026 investor letter for its “Voya MI Dynamic Small Cap Fund.” The letter can be downloaded here. U.S. equities posted modest gains in the third quarter, led particularly by large-cap technology and energy companies. The S&P 500 rose 2.30%, while the Nasdaq gained 2.47%, supported by […]",
-   "symbols": []
-  },
-  {
-   "title": "Stock Market Today: Nasdaq Higher Amid Nvidia CEO Change; Software Name Jumps (Live Coverage)",
-   "link": "https://finance.yahoo.com/m/b961f164-91b1-38c0-a2e1-5ab20b01108e/stock-market-today%3A-nasdaq.html",
-   "published": "2026-11-12T17:26:20Z",
-   "publisher": "",
-   "summary": "The Dow wavers Thursday on Trump's Iran comments as Nvidia stock plunges on the resignation of CEO Jensen Huang.",
    "symbols": [
     "BTC",
     "ETH",
