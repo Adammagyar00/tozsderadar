@@ -1,6 +1,6 @@
 {
  "source": "Finnhub",
- "updatedAt": "2026-11-13T22:15:01Z",
+ "updatedAt": "2026-11-13T23:00:28Z",
  "quotes": {
   "VUAA": {
    "price": 145.88,
@@ -189,31 +189,31 @@
   "EURHUF=X": {
    "price": 364.48,
    "prevClose": 364.94,
-   "t": 1794607892,
+   "t": 1794608793,
    "currency": "HUF"
   },
   "USDHUF=X": {
    "price": 330.8,
    "prevClose": 329.99,
-   "t": 1794608087,
+   "t": 1794609216,
    "currency": "HUF"
   },
   "CHFHUF=X": {
    "price": 394.27,
    "prevClose": 395.4,
-   "t": 1794607892,
+   "t": 1794608793,
    "currency": "HUF"
   },
   "GBPHUF=X": {
    "price": 437.05,
    "prevClose": 436.41,
-   "t": 1794607892,
+   "t": 1794608793,
    "currency": "HUF"
   },
   "EURUSD=X": {
    "price": 1.1028,
    "prevClose": 1.1059,
-   "t": 1794608072,
+   "t": 1794608973,
    "currency": "USD"
   },
   "BZ=F": {
@@ -267,7 +267,7 @@
   "^IXIC": {
    "price": 25136.273,
    "prevClose": 25366.094,
-   "t": 1794608091,
+   "t": 1794608159,
    "currency": "USD"
   },
   "^DJI": {
