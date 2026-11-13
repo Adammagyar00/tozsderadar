@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T17:55:49Z",
+ "builtAt": "2026-11-13T18:55:39Z",
  "digests": [
   {
    "calendar": [
@@ -1647,6 +1647,124 @@
      "title": "Újabb 4%-os esés: 4 billió dollár alá csökkent az Nvidia piaci értéke",
      "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · The Motley Fool",
+     "summary": "A Motley Fool szerint a Micron-részvény pénteken jelentősen csökkent, mert Jensen Huang Nvidia-vezérigazgatói lemondása után eluralkodott a rossz hangulat a teljes AI-szektorban. Más jelentések szerint délelőtt mintegy 5,4%-os volt a mínusz, az SK Hynix is nagyjából 5%-ot, a SanDisk 8%-ot esett.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Mintegy 5%-kal esett a Micron a Huang-lemondás utáni AI-szektorbeli rossz hangulatban",
+     "url": "https://www.fool.com/investing/2026/11/13/why-micron-stock-was-sliding-today/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto (The Information alapján)",
+     "summary": "A The Information értesülése szerint a SpaceX-hez tartozó AI-csoport nagyjából 60 munkahelyet szüntetett meg a Grok Imagine videógeneráló csapatánál, és a kódolási, illetve ágensalapú termékekre csoportosít át. A cikk szerint a 7,6 milliárd dolláros AI-üzlet bevételének jelentős része abból származik, hogy számítási kapacitást ad bérbe más cégeknek, köztük az Anthropicnak.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "The Information: mintegy 60 állást szüntetett meg a SpaceX AI-részlege a Grok Imagine videós csapatánál",
+     "url": "https://beincrypto.com/spacex-cuts-grok-video-team-ai-money/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Coinspeaker",
+     "summary": "A CryptoQuant adatai szerint november 10-én 2077 BTC került bányászoktól tőzsdei tárcákba, ami a 30 napos napi átlag (127 BTC) mintegy 16-szorosa; az összeg nagyjából 97%-a az Antpooltól jött. Ez átutalás, nem feltétlenül eladás, de a cikk szerint a kereslet közben gyengül, ami további eladási nyomás kockázatát jelzi.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "CryptoQuant: a bányászok 2077 bitcoint mozgattak tőzsdékre, gyengül a kereslet",
+     "url": "https://www.coinspeaker.com/bitcoin-demand-dries-up-as-miners-prepare-to-dump-2077-btc/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · The Motley Fool",
+     "summary": "A Motley Fool déli összefoglalója szerint a Wall Streeten pénteken újra eladói nyomás alakult ki: az emelkedő állampapírhozamok és az AI-ágazat körüli bizonytalanság miatt a befektetők a technológiai papírokból defenzív szektorok felé fordultak. A tízéves amerikai hozam 5% fölé emelkedett.",
+     "symbols": [],
+     "title": "Délben zuhant a Nasdaq: mélyült az Nvidia körüli zűrzavar, 5% fölé ment a tízéves hozam",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-midday-nov-13-nasdaq-plunges-as-nvidia-turmoil-deepens-and-treasury-yields-hit-5/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters (FT alapján)",
+     "summary": "A Financial Times – a Reuters által is átvett – értesülése szerint az Nvidia igazgatótanácsa Jensen Huang utódjának keresése során megkereste Rene Haast, az Arm vezérigazgatóját. Haas több jelölt egyike, nem biztos, hogy ajánlatot kap vagy elfogadja; az Arm nem kommentálta, az Nvidia nem reagált azonnal. Haas korábban hét évig dolgozott az Nvidiánál.",
+     "symbols": [
+      "NVDA",
+      "ARM"
+     ],
+     "title": "FT: az Nvidia igazgatótanácsa megkereste az Arm vezérét, Rene Haast a vezérigazgatói posztra",
+     "url": "https://www.investing.com/news/stock-market-news/arms-haas-approached-by-nvidia-board-as-part-of-ceo-search-ft-reports-5026245",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint pénteken ismét estek az AI-infrastruktúrát bérbe adó úgynevezett neocloud-cégek és más AI-részvények, mert az Nvidia vezetése körüli bizonytalanság megrázta az ágazatot.",
+     "symbols": [],
+     "title": "Reuters: tovább estek a neocloud- és AI-papírok az Nvidia körüli zűrzavarban",
+     "url": "https://www.investing.com/news/stock-market-news/neoclouds-ai-stocks-slide-again-as-nvidia-turmoil-rattles-sector-5026205",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az amerikai tőzsdefelügyelet (SEC) javaslata szerint a részletes javadalmazási adatokat öt helyett csak két vezetőről (jellemzően a vezérigazgatóról és a pénzügyi igazgatóról) kellene közölni, a juttatások jelentési küszöbe pedig 10 ezerről 150 ezer dollárra emelkedne. Paul Atkins SEC-elnök szerint így csak azt kell közzétenni, amire a befektetőknek valóban szükségük van; a javaslat még nem végleges.",
+     "symbols": [],
+     "title": "A SEC enyhítené a vezetői fizetések nyilvánosságra hozatalának szabályait",
+     "url": "https://www.investing.com/news/economy-news/us-sec-proposes-scaling-back-rules-onexecutive-pay-disclosure-5026256",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg értesülése szerint az AstraZeneca mintegy 600 munkahelyet szüntetett meg amerikai légzőszervi és immunológiai értékesítési csapataiban. A leépítés a hároméves költségcsökkentési program része, amely 2029-re évi 1,5 milliárd dolláros megtakarítást céloz; a cég korábban azt mondta, a megtakarítást főként a fejlesztési portfólióba forgatja vissza.",
+     "symbols": [
+      "AZN"
+     ],
+     "title": "Bloomberg: 600 amerikai értékesítési állást szüntet meg az AstraZeneca",
+     "url": "https://www.investing.com/news/stock-market-news/astrazeneca-cuts-600-us-jobs-amid-15b-costsaving-overhaul--bloomberg-5026257",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T18:40:44Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "mfor.hu · Globalhír",
+     "summary": "Az MNB előzetes adataira hivatkozó hazai hírportálok szerint a folyó fizetési mérleg szeptemberben 295 millió eurós többlettel zárt az augusztusi 159 millió eurós hiány után. Az MNB saját közleményét nem találtuk, ezért a számokat egyelőre csak a sajtóbeszámolók támasztják alá.",
+     "symbols": [],
+     "title": "Többletbe fordult a folyó fizetési mérleg szeptemberben",
+     "url": "https://mfor.hu/cikkek/makro/tobbletbe-fordult-a-magyar-folyo-fizetesi-merleg-szeptemberben.html",
+     "verified": false
     }
    ],
    "markets": [
@@ -1673,7 +1791,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T17:40:24Z",
+   "updatedAt": "2026-11-13T18:40:44Z",
    "watchlist": []
   },
   {
