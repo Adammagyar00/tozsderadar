@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T09:55:43Z",
+ "builtAt": "2026-11-13T10:55:42Z",
  "digests": [
   {
    "calendar": [
@@ -784,6 +784,108 @@
      "title": "Újabb 16 beruházástól vonta vissza a kiemelt státuszt a kormány",
      "url": "https://www.portfolio.hu/ingatlan/20261113/ujabb-16-beruhazastol-vonta-vissza-a-kiemelt-statuszt-a-kormany-876196",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T10:40:13Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · ADVFN",
+     "summary": "Pénteken kis mínuszban kereskedtek az amerikai határidős indexek. A befektetők az Nvidia körüli fejleményeket mérlegelik a Cisco és az Applied Materials gyorsjelentései és előrejelzései mellett, és figyelik a Microsoft szolgáltatásait érintő zavarokat és a nyersanyagárak mozgását is.",
+     "symbols": [
+      "VOO",
+      "QQQ"
+     ],
+     "title": "Enyhén lejjebb az amerikai határidős indexek: az Nvidia-vezetőváltás ellensúlyozza a Cisco és az Applied Materials előrejelzéseit",
+     "url": "https://investorshub.advfn.com/market-news/article/39930/us-stock-futures-edge-lower-as-nvidia-leadership-changes-offset-cisco-and-applied-materials-forecasts-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T10:40:13Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A Goldman Sachs 2027-es kilátásaiban leminősítette az európai energia-, biztosítási és banki szektort. A bank szerint az alacsonyabb olaj- és gázárak, valamint a csökkenő kötvényhozamok a növekedési szektorok felé tolhatják el a piaci vezetést.",
+     "symbols": [],
+     "title": "A Goldman Sachs leminősített három európai szektort: energia, biztosítók és bankok",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-just-downgraded-3-100639137.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T10:40:13Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Pénteken több mint egyhetes csúcsra emelkedett az európai nagykereskedelmi gázár: a holland TTF irányadó szerződés 4,2%-kal 96,18 euróra drágult megawattóránként, így mintegy 12%-os heti emelkedés felé tart. Az amerikai–iráni diplomáciai csatornák összeomlása és a Perzsa-öbölbeli újabb katonai csapások miatt a piac a téli ellátás biztonsága miatt aggódik.",
+     "symbols": [],
+     "title": "12%-os heti emelkedéssel zárhat az európai gáz, összeomlottak az amerikai–iráni diplomáciai remények",
+     "url": "https://finance.yahoo.com/energy/articles/european-gas-logs-12-weekly-101401692.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T10:40:13Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Goldman Sachs szerint az LME-réz ára 2027 decemberére tonnánként 15 600 dollárra emelkedhet, ami mintegy 13%-kal haladja meg a jelenlegi árat. A bank a villamosítás, az energiabiztonság, a készletfelhalmozás, valamint az adatközpontok és az AI-infrastruktúra keresletére hivatkozik, miközben a bányászati kínálat korlátozott.",
+     "symbols": [],
+     "title": "Goldman Sachs: 2027 decemberére tonnánként 15 600 dollárig drágulhat a réz",
+     "url": "https://www.investing.com/news/commodities-news/goldman-sees-copper-climbing-to-15600-per-ton-by-december-2027-93CH-5024621",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T10:40:13Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint az Interactive Brokers európai ügyfelei is részt vehetnek az Anthropic tőzsdei bevezetésén. A részletes feltételekről (jogosultság, allokáció) a hír nem közölt adatot.",
+     "symbols": [],
+     "title": "Az Interactive Brokers európai ügyfeleinek is hozzáférést kínál az Anthropic tőzsdei bevezetéséhez",
+     "url": "https://www.investing.com/news/stock-market-news/interactive-brokers-offers-european-clients-access-to-anthropic-ipo-432SI-5024646",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T10:40:13Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Bae Kyung-hoon dél-koreai tudományos és infokommunikációs miniszter pénteken közölte, hogy az Nvidia megerősítette: a korábban bejelentett 260 ezer fejlett grafikus processzor (GPU) szállítását teljesíti. A felek a közös projekteket, köztük az AI-számítási infrastruktúrát és a fizikai AI-kutatást is folytatják.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Dél-Korea: az Nvidia Huang lemondása után is tartja a GPU-szállítási vállalásait",
+     "url": "https://www.investing.com/news/stock-market-news/south-korea-says-nvidia-will-keep-gpu-pledges-after-huangs-resignation-5024668",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T10:40:13Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · CNBC",
+     "summary": "Az Nvidia részvénye pénteken a nyitás előtti kereskedésben emelkedett (az Investing.com címe szerint több mint 2%-kal, a CNBC korábbi adata szerint 1,8%-kal), miután csütörtökön Jensen Huang lemondása után 4,3%-os eséssel zárt. A befektetők továbbra is mérlegelik a vezetőváltás hatásait.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Emelkedik az Nvidia a nyitás előtti kereskedésben a Huang lemondása utáni esés után",
+     "url": "https://www.investing.com/news/economy-news/nvidia-inches-higher-premarket-after-stock-slides-following-huang-resignation-5024641",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T10:40:13Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio (KSH-adatok alapján)",
+     "summary": "A Portfolio a KSH pénteki adataira hivatkozva arról ír, hogy szeptemberben az építőipari termelés volumene 9,9%-kal maradt el az egy évvel korábbitól, az augusztusi erős emelkedés után. A KSH közleményét külön nem sikerült ellenőrizni.",
+     "symbols": [],
+     "title": "Visszaesett az építőipar szeptemberben: 9,9%-kal kisebb volt a termelés, mint egy éve",
+     "url": "https://www.portfolio.hu/gazdasag/20261113/mar-jott-is-a-kijozanito-pofon-az-epitoiparban-876214",
+     "verified": false
     }
    ],
    "markets": [
@@ -810,7 +912,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T09:39:55Z",
+   "updatedAt": "2026-11-13T10:40:13Z",
    "watchlist": []
   },
   {
@@ -18520,14 +18622,14 @@
    "id": "2026-11-12-csco-earnings"
   },
   {
-   "actual": "",
+   "actual": "+0,4% (negyedéves; az első becsléssel azonos)",
    "country": "EU",
    "date": "2026-11-13",
    "event": "Eurózóna GDP, 3. negyedév (módosított becslés)",
    "forecast": "",
    "importance": 2,
-   "note": "",
-   "previous": "",
+   "note": "Második becslés; az október 30-i gyorsbecslés is +0,4% volt. Adat: investinglive, Demócrata (Eurostat-adatok).",
+   "previous": "+0,6% (2. negyedév)",
    "source": "Eurostat",
    "symbols": [],
    "time": "11:00",
