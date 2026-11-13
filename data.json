@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T07:55:53Z",
+ "builtAt": "2026-11-13T08:55:58Z",
  "digests": [
   {
    "calendar": [
@@ -600,6 +600,105 @@
      "title": "A forint péntek reggel stabil: 365,5 körül az euró, 330 felett a dollár",
      "url": "https://www.portfolio.hu/deviza/20261113/jelentos-dollarerosodes-utan-fordulunk-ra-a-pentekre-876206",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T08:39:54Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Yahoo Finance · Euronews",
+     "summary": "A STOXX 600 pénteken mintegy 0,2%-kal gyengült, miután előző nap rekordon zárt; a Reuters szerint a Huang lemondása miatti AI-bizonytalanság nyomta a chippapírokat, a Richemont pedig 7%-ot esett. A londoni FTSE 100 is enyhén csökkent az iráni és ukrajnai bizonytalanság miatt. Az index ennek ellenére június óta a legjobb hetére készül, a Goldman Sachs 700 pontra emelte 12 hónapos célját.",
+     "symbols": [],
+     "title": "Lejjebb nyitottak az európai tőzsdék a rekordok után, a Huang-távozás AI-kétségeket ébreszt",
+     "url": "https://www.investing.com/news/stock-market-news/european-shares-ease-from-record-peaks-but-eye-best-week-since-june-5024188",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T08:39:54Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Simply Wall St",
+     "summary": "Az elemzés szerint a Micron körülbelül 1,0 milliárd dollárral vesz részt az Anthropic zártkörű tőkeemelésében, és kulcsfontosságú HBM-memóriabeszállítója az AI-labor infrastruktúrájának. Linnie M. Haynesworth, a cég régi igazgatósági tagja visszavonul. A pontos összeget a cégek hivatalosan nem erősítették meg.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Simply Wall St: a Micron mintegy 1 milliárd dollárt fektet az Anthropic zártkörű tőkebevonásába",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ai-memory-demand-micron-stock-081121346.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T08:39:54Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Stocktwits összefoglalója szerint a Intuitive Machines (LUNR), a Firefly (FLY), a Rocket Lab (RKLB) és az AST SpaceMobile (ASTS) is felülteljesítette a SpaceX-et a héten. Az AST SpaceMobile japán vegyesvállalatot jelentett be.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Jó hetet zártak az űrcégek, de a SpaceX vetélytársai még jobban emelkedtek",
+     "url": "https://stocktwits.com/news-articles/markets/equity/space-stocks-stellar-week-spacex-rivals-higher-lunr-fly-rklb-asts-rally/cNbbHxER9Ov",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T08:39:54Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Destatis",
+     "summary": "A Destatis szerint a nagykereskedelmi árak 2023 februárja óta a legnagyobb ütemben, éves szinten 8,8%-kal nőttek. A fő hajtóerő a kőolajtermékek 47,6%-os drágulása volt a közel-keleti háború nyomán. Az adat erősíti az EKB-ra nehezedő inflációs nyomást.",
+     "symbols": [],
+     "title": "8,8%-kal drágult éves alapon a német nagykereskedelem októberben",
+     "url": "https://www.investing.com/news/economic-indicators/german-wholesale-prices-climb-88-in-october-93CH-5024387",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T08:39:54Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · INSEE",
+     "summary": "Az INSEE végleges adata szerint a francia fogyasztói árak havi 0,4%-kal nőttek októberben, az előzetes becslésnek megfelelően. Az éves infláció az előzetes adat szerint 3,4% volt, főleg az energia és a szolgáltatások drágulása miatt.",
+     "symbols": [],
+     "title": "Megerősítették: 0,4%-kal emelkedtek a francia fogyasztói árak októberben",
+     "url": "https://www.investing.com/news/economic-indicators/french-consumer-prices-rose-04-in-october-2026-93CH-5024371",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T08:39:54Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Japan Times",
+     "summary": "Japán legnagyobb bankja, a MUFG az első félévben 26%-kal több, 1,63 billió jen nettó profitot ért el, és 2,8 billió jenre emelte éves célját, valamint legfeljebb 200 milliárd jenes saját részvény-visszavásárlást indít. A Sumitomo Mitsui (SMFG) 1,9 billió jenre emelte éves előrejelzését és 220 milliárd jennel bővítette visszavásárlási programját; vezérigazgatója az AI- és adatközpont-építés lassulásának kockázatára figyelmeztetett.",
+     "symbols": [],
+     "title": "Emelte éves profitcélját és 200 milliárd jenes visszavásárlást jelentett be a MUFG; az SMFG is javított",
+     "url": "https://www.investing.com/news/earnings/mufg-raises-annual-profit-target-announces-200-billion-yen-buyback-5024403",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T08:39:54Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Rothschild Redburn vételiről semlegesre rontotta a Broadcom besorolását, és 595-ről 398 dollárra vágta célárát. Az elemzőház szerint kérdéses a 2028-ra várt AI-bevételek minősége és tartóssága, amely nagyrészt az Anthropic és az OpenAI számítási kapacitás-megállapodásain alapul.",
+     "symbols": [],
+     "title": "A Rothschild Redburn „semlegesre” rontotta a Broadcom ajánlását az AI-finanszírozási aggályok miatt",
+     "url": "https://www.investing.com/news/analyst-ratings/rothschild-downgrades-broadcom-stock-rating-on-ai-financing-concerns-93CH-5024402",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T08:39:54Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · CNBC",
+     "summary": "A csütörtök este kezdődött globális Microsoft-kimaradás pénteken is érintette az Outlook, a Teams és más 365-szolgáltatások felhasználóit, a Portfolio szerint a hazai üzleti szektorban is. A Microsoft szerint szerverek váratlan kiesése okozta a hibát, rosszindulatú támadásra nem utal semmi.",
+     "symbols": [],
+     "title": "A magyar cégeknél is zavart okoz az elhúzódó Microsoft 365-leállás",
+     "url": "https://www.portfolio.hu/uzlet/20261113/az-uzleti-szektor-is-megerzi-a-microsoft-kieseset-876194",
+     "verified": true
     }
    ],
    "markets": [
@@ -626,7 +725,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T07:40:11Z",
+   "updatedAt": "2026-11-13T08:39:54Z",
    "watchlist": []
   },
   {
