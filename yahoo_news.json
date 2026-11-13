@@ -1,13 +1,96 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-13T17:52:05Z",
+ "updatedAt": "2026-11-13T18:53:03Z",
  "items": [
   {
-   "title": "Amodei: Anthropic ‘not super fussed’ with timing of IPO",
-   "link": "https://finance.yahoo.com/video/amodei-anthropic-not-super-fussed-with-timing-of-ipo-175042695.html",
-   "published": "2026-11-13T17:50:42Z",
+   "title": "Sector Update: Financial Stocks Higher Friday Afternoon",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-friday-184112484.html",
+   "published": "2026-11-13T18:41:12Z",
    "publisher": "",
-   "summary": "Anthropic (ANTH.PVT) CEO Dario Amodei sits down with JPMorgan Chase (JPM) CEO Jamie Dimon to discuss the timing of the company’s IPO and its guiding “underpromise and overdeliver” philosophy.",
+   "summary": "Financial stocks were advancing in Friday afternoon trading, with the NYSE Financial Index up 0.4% a",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why Sandisk Stock Is Falling Today",
+   "link": "https://www.fool.com/investing/2026/11/13/why-sandisk-stock-is-falling-today/?.tsrc=rss",
+   "published": "2026-11-13T18:40:02Z",
+   "publisher": "",
+   "summary": "Sandisk is falling for a second day as the fallout from Nvidia's CEO exit hits AI hardware stocks, even though its latest quarter was huge.",
+   "symbols": []
+  },
+  {
+   "title": "US Dollar Edges Higher Against The Loonie; Treasury Yields Top 5%",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-edges-higher-against-183801855.html",
+   "published": "2026-11-13T18:38:01Z",
+   "publisher": "",
+   "summary": "The US dollar climbed slightly against Canada's currency Friday afternoon as Treasury yields rose an",
+   "symbols": []
+  },
+  {
+   "title": "Fed Chair Warsh Wants Answers on AI Inflation—and Bitcoin May Feel the Impact",
+   "link": "https://decrypt.co/383259/fed-chair-warsh-wants-answers-ai-inflation-bitcoin?.tsrc=rss",
+   "published": "2026-11-13T18:36:02Z",
+   "publisher": "",
+   "summary": "The Federal Reserve is examining whether AI will lower prices or keep inflation elevated, a question that could shape interest rates and the outlook for crypto.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why Bitcoin Is Falling Today",
+   "link": "https://www.fool.com/investing/2026/11/13/why-bitcoin-is-falling-today/?.tsrc=rss",
+   "published": "2026-11-13T18:35:02Z",
+   "publisher": "",
+   "summary": "Bitcoin dropped below $70,000 overnight, to its lowest level since August, after a hotter-than-expected inflation report pushed up rate hike expectations and a wave of leveraged positions was liquidated.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Richemont Looks to the Future After Posting Double-Digit Growth in First-Half Sales, Profits",
+   "link": "https://wwd.com/business-news/business-features/richemont-looks-future-double-digit-rises-first-half-sales-1239415568/?.tsrc=rss",
+   "published": "2026-11-13T18:30:26Z",
+   "publisher": "",
+   "summary": "Founder and chairman Johann Rupert said he's happy with the succession plan at Richemont, but has no plans to retire because he's still having fun.",
+   "symbols": []
+  },
+  {
+   "title": "Korea Electric Power Stocks Fall 9.79% After Third-Quarter Net Profit Drops 78%",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/korea-electric-power-stocks-fall-182909756.html",
+   "published": "2026-11-13T18:29:09Z",
+   "publisher": "",
+   "summary": "Rising coal costs and weaker power sales cut operating profit 70.9%, renewing pressure on the state utility's finances.",
+   "symbols": []
+  },
+  {
+   "title": "Sector Update: Tech Stocks Fall Friday Afternoon",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-friday-182755340.html",
+   "published": "2026-11-13T18:27:55Z",
+   "publisher": "",
+   "summary": "Tech stocks fell Friday afternoon, with the State Street Technology Select Sector SPDR ETF (XLK) dec",
    "symbols": [
     "SPCX",
     "BE",
@@ -17,6 +100,245 @@
     "QQQ",
     "XDW0"
    ]
+  },
+  {
+   "title": "Should You Wait Before Buying Reddit Stock?",
+   "link": "https://www.trefis.com/stock/rddt/articles/625021/should-you-wait-before-buying-reddit-stock/2026-11-13?.tsrc=rss",
+   "published": "2026-11-13T18:21:10Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "JPMorgan Stock Slid After Reports That Senate Democrats Plan a New Investigation Into Jamie Dimon's Bank Over Its Jeffrey Epstein Relationship. Here's Why That Political Risk Could Weigh on JPM Shares.",
+   "link": "https://www.fool.com/investing/2026/11/13/jpmorgan-stock-slid-report-senate-democrats-investigation-jamie-dimon-jeffrey-epstein-relationship-why-political-risk-jpm-shares/?.tsrc=rss",
+   "published": "2026-11-13T18:20:02Z",
+   "publisher": "",
+   "summary": "JPMorgan Chase and CEO Jamie Dimon have been scrutinized over their relationship with disgraced sex offender Jeffrey Epstein, who died in 2019.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Tesla-SpaceX Merger Talks Progress. Gary Black Sees “Little Windfall” for Tesla Holders",
+   "link": "https://www.tikr.com/blog/tesla-spacex-merger-talks-progress-gary-black-sees-little-windfall-for-tesla-holders?ref=yahoofinance&tlnk=yf-261113-3chf5xh5&.tsrc=rss",
+   "published": "2026-11-13T18:16:11Z",
+   "publisher": "",
+   "summary": "Key TakeawaysTesla and SpaceX could announce a merger as soon as December. Dan Ives puts the odds at 90% and says Tesla needs to be “north of 500.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Anthropic CEO Dario Amodei aims to 'underpromise and overdeliver' as IPO valuation drops below $2T hopes",
+   "link": "https://finance.yahoo.com/markets/article/anthropic-ceo-dario-amodei-aims-to-underpromise-and-overdeliver-as-ipo-valuation-drops-below-2t-hopes-181234804.html",
+   "published": "2026-11-13T18:12:34Z",
+   "publisher": "",
+   "summary": "Anthropic CEO Dario Amodei spoke with JPMorgan Chase CEO Jamie Dimon Friday as the artificial intelligence startup prepares for one of the largest initial public offerings in history.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Exchange-Traded Funds Lower as US Equities Drop After Midday",
+   "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-us-181215784.html",
+   "published": "2026-11-13T18:12:15Z",
+   "publisher": "",
+   "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Stock Market Today: Nasdaq In Red As Nvidia Wipes Out $650 Billion; Applied Materials Sinks (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/59c1380c-6194-35f8-be3b-4a6a3148bfa4/stock-market-today%3A-nasdaq-in.html",
+   "published": "2026-11-13T18:10:19Z",
+   "publisher": "",
+   "summary": "The Dow Jones index fell Friday despite cooler-than-expected inflation data. AI giant Nvidia continued to fall.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Bitcoin falls as Strategy faces MSCI index shake-up",
+   "link": "https://finance.yahoo.com/video/bitcoin-falls-as-strategy-faces-msci-index-shake-up-180934380.html",
+   "published": "2026-11-13T18:09:34Z",
+   "publisher": "",
+   "summary": "Scott Melker discusses the latest bitcoin (BTC-USD) sell-off and the implications for Michael Saylor's Strategy (MSTR) as MSCI revises its index eligibility guidelines. Melker examines how the changes could affect Strategy's index inclusion",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "3 Airline Stocks To Watch As Lower Jet Fuel Costs Lift Margins",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-airline-stocks-watch-lower-180845222.html",
+   "published": "2026-11-13T18:08:45Z",
+   "publisher": "",
+   "summary": "Oil markets have quietly shifted from scarcity worries to surplus signals, and that change in the jet-fuel equation suddenly matters a lot more for airlines and air cargo carriers. Lower fuel costs can influence how investors view cost-heavy transport businesses, and missing the early rerating phase can feel painful in hindsight. This article walks through three stocks from our screener that appea",
+   "symbols": []
+  },
+  {
+   "title": "What Does Ralph Lauren Stock's Winning Streak Really Prove?",
+   "link": "https://www.trefis.com/stock/rl/articles/624892/what-does-ralph-lauren-stocks-winning-streak-really-prove/2026-11-13?.tsrc=rss",
+   "published": "2026-11-13T18:01:18Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "What Bitcoin Did Every Time It Fell to Its 200-Week Average",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/13/what-bitcoin-did-every-time-it-fell-to-its-200-week-average/?.tsrc=rss",
+   "published": "2026-11-13T17:59:43Z",
+   "publisher": "",
+   "summary": "Bitcoin is testing a support line that has cracked before, and the aftermath looked very different each time. With ETF outflows mounting and rate hike odds climbing, this dip may not follow the old script.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Micron Stocks Fall 3.96% as Nvidia CEO Exit Drags Memory Shares Lower",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-3-96-175931806.html",
+   "published": "2026-11-13T17:59:31Z",
+   "publisher": "",
+   "summary": "The memory giant slid with the chip sector even though its latest guide called for about $61.5 billion in quarterly revenue.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "How Low Can First Solar Stock Go?",
+   "link": "https://www.trefis.com/stock/fslr/articles/624933/how-low-can-first-solar-stock-go/2026-11-13?.tsrc=rss",
+   "published": "2026-11-13T17:54:41Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
+  },
+  {
+   "title": "Marvell Is Still Up 81% This Year. Can MRVL Stock Hit $300 by 2029?",
+   "link": "https://247wallst.com/investing/2026/11/13/marvell-is-still-up-81-this-year-can-mrvl-stock-hit-300-by-2029/?.tsrc=rss",
+   "published": "2026-11-13T17:54:26Z",
+   "publisher": "",
+   "summary": "Marvell has shrugged off a brutal chip selloff better than most, and one executive's remark about 2029 has bulls dreaming big. But a rival's confident boast about its moat gives the bears real ammunition.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Micron Is Down 20% in a Month. What Will It Take to Get MU Stock Back to $1,000?",
+   "link": "https://247wallst.com/investing/2026/11/13/micron-is-down-20-in-a-month-what-will-it-take-to-get-mu-stock-back-to-1000/?.tsrc=rss",
+   "published": "2026-11-13T17:52:28Z",
+   "publisher": "",
+   "summary": "Micron posted record results and still watched its shares tumble, while SanDisk and Western Digital fell even harder. Two forces, one in memory pricing and one in market mood, will decide whether the rebound ever comes.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Amodei: Anthropic ‘not super fussed’ with timing of IPO",
+   "link": "https://finance.yahoo.com/video/amodei-anthropic-not-super-fussed-with-timing-of-ipo-175042695.html",
+   "published": "2026-11-13T17:50:42Z",
+   "publisher": "",
+   "summary": "Anthropic (ANTH.PVT) CEO Dario Amodei sits down with JPMorgan Chase (JPM) CEO Jamie Dimon to discuss the timing of the company’s IPO and its guiding “underpromise and overdeliver” philosophy.",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Veteran economist warns investors that Bitcoin’s worst may not be over",
+   "link": "https://www.thestreet.com/crypto/markets/veteran-economist-warns-bitcoins-worst-may-not-be-over?.tsrc=rss",
+   "published": "2026-11-13T17:48:48Z",
+   "publisher": "",
+   "summary": "Peter Schiff says Bitcoin’s slide below its 2021 level shows the long-term trend is down.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Can Dell Stock Fall 40%?",
+   "link": "https://www.trefis.com/stock/dell/articles/624937/can-dell-stock-fall-40/2026-11-13?.tsrc=rss",
+   "published": "2026-11-13T17:47:56Z",
+   "publisher": "",
+   "summary": "For questions about this article or underlying research, email help@trefis.com.",
+   "symbols": []
   },
   {
    "title": "Chevron Bets $7B on Venezuela While Exxon Mobil Plays It Safe: One Has a Distinct Edge Now",
@@ -33,12 +355,12 @@
    "publisher": "",
    "summary": "Institutional buyers in mainland China and Hong Kong are largely blocked from Anthropic’s landmark public offering due to U.S. defense-trade regulations, Bloomberg reported.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -49,12 +371,12 @@
    "publisher": "",
    "summary": "Anthropic scaled back its IPO valuation target. Should that worry investors?",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -91,6 +413,22 @@
    "symbols": []
   },
   {
+   "title": "Elon Musk Isn’t Worried About Anthropic Walking Away From SpaceX’s $120 Billion AI Deal: ‘The Opposite Is Going To Happen’",
+   "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-isn-t-worried-173007582.html",
+   "published": "2026-11-13T17:30:07Z",
+   "publisher": "",
+   "summary": "Elon Musk dismissed concerns about a potential artificial intelligence computing glut as Anthropic PBC faces scrutiny over nearly $895 billion in infrastructure spending commitments, signaling confidence that demand will remain strong despite fears of slowing growth. Anthropic’s Massive Spending Commitments...",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
    "title": "Update: Sliding Chipmakers Push US Equity Indexes Lower While Producer Prices Growth Below Forecast",
    "link": "https://finance.yahoo.com/markets/stocks/articles/sliding-chipmakers-push-us-equity-172710666.html",
    "published": "2026-11-13T17:27:10Z",
@@ -116,11 +454,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -130,12 +468,12 @@
    "publisher": "",
    "summary": "SpaceX wants to catch a falling rocket twice in one mission, a feat no orbital launch system has pulled off. The real test is not the landing itself but what happens to the hardware afterward, and that decides whether the bet pays off.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -146,12 +484,12 @@
    "publisher": "",
    "summary": "Key TakeawaysBloom Energy rose 13% in the past week, with Vertiv and Oracle, after CoreWeave and Constellation Energy raised their 2026 guidance. Bloom had no news of its own, and with its orders and rising estimates intact, the bounce looks like it has further to go.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -165,11 +503,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -182,12 +520,20 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
+  },
+  {
+   "title": "QURE Stock Rallies 17.5% in a Month: What Should Investors Do Now?",
+   "link": "https://finance.yahoo.com/healthcare/articles/qure-stock-rallies-17-5-171600347.html",
+   "published": "2026-11-13T17:16:00Z",
+   "publisher": "",
+   "summary": "uniQure shares rally 17.5% as FDA grants Priority Review to its Huntington's disease gene therapy, but it remains to be seen if clinical and regulatory progress can sustain momentum.",
+   "symbols": []
   },
   {
    "title": "3 Midstream Energy Stocks To Own In November 2026",
@@ -207,11 +553,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -232,11 +578,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -254,12 +600,12 @@
    "publisher": "",
    "summary": "SpaceX faces a key launch test with Starship's latest mission coming up Friday night. The test comes as SpaceX stock traded in a state of flux this week.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -273,11 +619,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -298,11 +644,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -378,12 +724,12 @@
    "publisher": "",
    "summary": "Tusk Venture Partners Managing Partner & Co-Founder Bradley Tusk joins Yahoo Finance Executive Editor Brian Sozzi to discuss potential AI bubble risk amid Nvidia (NVDA) crisis and the one question he'd ask leaders before investing.",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -2949,349 +3295,6 @@
    "published": "2026-11-13T11:03:45Z",
    "publisher": "",
    "summary": "The fund added $369.2 million across all 76 of its positions, led by a $49.1 million increase in Berkshire Hathaway Class B.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "State Street Health Care SPDR (XLV) Buys $66.8 Million More Eli Lilly on Nov. 11",
-   "link": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110327637.html",
-   "published": "2026-11-13T11:03:27Z",
-   "publisher": "",
-   "summary": "The fund added $396.8 million across all 60 of its positions, led by a $66.8 million increase in Eli Lilly.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Invesco QQQ (QQQ) Sells Apple and NVIDIA on Nov. 11",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-sells-apple-110314867.html",
-   "published": "2026-11-13T11:03:14Z",
-   "publisher": "",
-   "summary": "The fund sold $758.2 million of stock, cutting all 101 positions and buying nothing.",
-   "symbols": [
-    "BE",
-    "BTC",
-    "DFEN",
-    "ETH",
-    "HYPE",
-    "JPM",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0",
-    "XRP"
-   ]
-  },
-  {
-   "title": "What iShares PHLX SOX Semiconductor (SOXX) Bought: AMD Leads on Nov. 11",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110308818.html",
-   "published": "2026-11-13T11:03:08Z",
-   "publisher": "",
-   "summary": "The fund added $1.05 billion in net purchases on Wednesday, Nov. 11, increasing 29 positions and selling none.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of Synopsys (SNPS) on Nov. 11",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-synopsys-snps-110248003.html",
-   "published": "2026-11-13T11:02:48Z",
-   "publisher": "",
-   "summary": "ETFs sold $10.1 million of Synopsys stock on Wednesday, Nov. 11.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of AppLovin (APP) on Nov. 11",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-applovin-app-110235473.html",
-   "published": "2026-11-13T11:02:35Z",
-   "publisher": "",
-   "summary": "AppLovin (APP) saw $16.7 million in net ETF selling on Wednesday.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "ETFs Are Net Sellers of ASML (ASML) on Nov. 11",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-asml-asml-110228958.html",
-   "published": "2026-11-13T11:02:28Z",
-   "publisher": "",
-   "summary": "ASML drew $17.9 million in net ETF selling on Nov. 11 despite 8 buyers versus 4 sellers.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver as Nvidia tumult deepens",
-   "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-110151154.html",
-   "published": "2026-11-13T11:01:51Z",
-   "publisher": "",
-   "summary": "A bumpy week didn't prevent the major averages from pacing for weekly gains.",
-   "symbols": []
-  },
-  {
-   "title": "ETFs Bought $117.8 Million of JPMorgan (JPM) on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-117-8-million-110135948.html",
-   "published": "2026-11-13T11:01:35Z",
-   "publisher": "",
-   "summary": "43 ETFs bought JPMorgan shares versus 9 that sold, for a net inflow of $117.8 million.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Futures Edge Lower As NVDA Fallout Unsettles Tech Stocks — SLS, AMAT, CSCO, CADL Stocks In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/futures-edge-lower-as-nvda-fallout-unsettles-tech-stocks-sls-amat-csco-cadl-stocks-in-focus/cNbRGG3R9fP?.tsrc=rss",
-   "published": "2026-11-13T11:01:21Z",
-   "publisher": "",
-   "summary": "Investors head into Friday amid uncertainty around tech stocks, mixed earnings reactions and concerns over Middle East tensions, with October’s PPI inflation data also in focus.",
-   "symbols": []
-  },
-  {
-   "title": "ETFs Bought $137.7 Million of Micron (MU) on Wednesday",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-137-7-million-110118765.html",
-   "published": "2026-11-13T11:01:18Z",
-   "publisher": "",
-   "summary": "ETFs added $137.7 million of Micron shares on Wednesday, with 59 funds buying and 14 selling.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "ETFs Are Buying Eli Lilly (LLY) on Nov. 11",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-eli-lilly-lly-110112211.html",
-   "published": "2026-11-13T11:01:12Z",
-   "publisher": "",
-   "summary": "ETFs bought $154.5 million of Eli Lilly (LLY) on Wednesday, Nov. 11.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Is Vitalik Capitulating on ‘Ultrasound Money’?",
-   "link": "https://unchainedcrypto.com/is-vitalik-capitulating-on-ultrasound-money/?.tsrc=rss",
-   "published": "2026-11-13T11:00:49Z",
-   "publisher": "",
-   "summary": "Kain Warwick, founder of Infinex and Synthetix, says no one around Ethereum has the credibility to pitch ETH the asset to Wall Street, while Sprinter CEO Greg Markou says Vitalik Buterin should stay out of it.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "ETF Activity: SPY Leads With $4.25 Billion Inflow on Nov. 11",
-   "link": "https://finance.yahoo.com/markets/options/articles/etf-activity-spy-leads-4-110011821.html",
-   "published": "2026-11-13T11:00:11Z",
-   "publisher": "",
-   "summary": "Large-cap funds pulled in fresh money while QQQ and IVV saw estimated outflows.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Amaroq keeps Panmure Liberum ‘buy’ as profit forecast rises",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101747/amaroq-keeps-panmure-liberum-buy-as-profit-forecast-rises-1101747.html?.tsrc=rss",
-   "published": "2026-11-13T11:00:00Z",
-   "publisher": "",
-   "summary": "Amaroq Minerals Ltd (AIM:AMRQ, TSX-V:AMRQ) received continued backing from Panmure Liberum, which maintained its ‘buy’ rating and 165p target while raising its 2026 underlying EBITDA forecast by 2.7%. Management reiterated 2026 gold production guidance of 25,000 to 35,000 ounces and its cost...",
-   "symbols": []
-  },
-  {
-   "title": "Bonterra Energy Announces Third Quarter 2026 Results with Record Production; Provides Operations Update and 2027 Budget Guidance",
-   "link": "https://finance.yahoo.com/energy/articles/bonterra-energy-announces-third-quarter-110000297.html",
-   "published": "2026-11-13T11:00:00Z",
-   "publisher": "",
-   "summary": "CALGARY, Alberta, Nov. 13, 2026 (GLOBE NEWSWIRE) -- Bonterra Energy Corp. (TSX: BNE; OTCID: BNEFF) (“Bonterra” or the “Company”), a Calgary based oil and gas producer, is pleased to announce its financial and operating results for the three and nine months ended September 30, 2026, highlighted by record quarterly production of 17,222 barrels of oil equivalent (“BOE”) per day, together with its 202",
-   "symbols": []
-  },
-  {
-   "title": "Aris Mining releases PFS for Toroparu Gold Project in Guyana",
-   "link": "https://www.mining-technology.com/news/aris-mining-pfs-toroparu-gold-project/?.tsrc=rss",
-   "published": "2026-11-13T10:53:45Z",
-   "publisher": "",
-   "summary": "The proposed large-scale open pit mine is anticipated to produce 5.6 million ounces of gold in a 29-year period.",
-   "symbols": []
-  },
-  {
-   "title": "KuCoin Crypto Loans Review: Can You Borrow Bitcoin Without Selling?",
-   "link": "https://beincrypto.com/kucoin-crypto-loans-review/?.tsrc=rss",
-   "published": "2026-11-13T10:48:54Z",
-   "publisher": "",
-   "summary": "KuCoin Loans review: flexible crypto borrowing, 41 collateral assets, Hold to Earn rewards, interest rates, and liquidation risks.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Nvidia Outlook Toils Asian Stock Markets",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/nvidia-outlook-toils-asian-stock-104249038.html",
-   "published": "2026-11-13T10:42:49Z",
-   "publisher": "",
-   "summary": "Asian stock markets churned Friday following the resignation of Jensen Huang as the chief executive",
-   "symbols": []
-  },
-  {
-   "title": "Heliostar Presents Q3 2026 Financial and Operating Results with Record Mine Operating Earnings and Cash Balance",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/heliostar-presents-q3-2026-financial-103000159.html",
-   "published": "2026-11-13T10:30:00Z",
-   "publisher": "",
-   "summary": "Q3 2026 Highlights:Produced 14,481 gold ounces and 83,067 silver ouncesQuarter-over-quarter decrease in costs with cash cost of $1,588 per ounce of gold sold and a consolidated all-in sustaining cost (\"AISC\") of $1,948 per ounce of gold soldAverage gold sale price of $4,243 per ounceRecord revenues of $66.3 million driving record mine operating earnings of $36.5 million; net income of $10.2 millio",
-   "symbols": []
-  },
-  {
-   "title": "Trump wants Tim Cook to replace Jensen Huang at Nvidia as $550B vanishes in a week. Don’t bet your savings on 1 legend",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/trump-wants-tim-cook-replace-103000073.html",
-   "published": "2026-11-13T10:30:00Z",
-   "publisher": "",
-   "summary": "Putting too much faith in one figurehead can punch holes in your retirement plans.",
-   "symbols": []
-  },
-  {
-   "title": "Oil Heads for Weekly Fall as Iran Fears Linger",
-   "link": "https://finance.yahoo.com/m/5e8aa009-9dea-3d80-b0c6-fe4ade3de6d4/oil-heads-for-weekly-fall-as.html",
-   "published": "2026-11-13T10:15:27Z",
-   "publisher": "",
-   "summary": "Oil prices treaded water in a tight range early Friday after a volatile week, balancing fresh warning signs of a global supply glut against persistent shipping risks in the Middle East.",
-   "symbols": []
-  },
-  {
-   "title": "Michael Burry vindicated as Nebius stock drops over 17% — and he's warning of a coming chip glut",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-vindicated-nebius-stock-101500036.html",
-   "published": "2026-11-13T10:15:00Z",
-   "publisher": "",
-   "summary": "A growing chorus of investors is saying the AI party is over and a correction is coming.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "India Seeks Private Investors for $910 Million Oil Reserve",
-   "link": "https://finance.yahoo.com/energy/articles/india-seeks-private-investors-910-101500400.html",
-   "published": "2026-11-13T10:15:00Z",
-   "publisher": "",
-   "summary": "India is seeking private investors to develop a $910 million strategic oil reserve in Odisha as it strengthens energy security following disruptions to Middle Eastern crude supplies.",
-   "symbols": []
-  },
-  {
-   "title": "European gas logs 12% weekly surge as U.S.-Iran diplomatic hopes collapse",
-   "link": "https://finance.yahoo.com/energy/articles/european-gas-logs-12-weekly-101401692.html",
-   "published": "2026-11-13T10:14:01Z",
-   "publisher": "",
-   "summary": "Investing.com - European wholesale natural gas prices surged to over one-week highs on Friday, locking in a 12% weekly gain as the collapse of U.S.-Iran diplomatic backchannels and fresh military strikes in the Persian Gulf triggered a scramble for winter supply security.",
-   "symbols": []
-  },
-  {
-   "title": "Why JPMorgan Chase (JPM) Is Back In The Spotlight",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-jpmorgan-chase-jpm-back-101009777.html",
-   "published": "2026-11-13T10:10:09Z",
-   "publisher": "",
-   "summary": "JPMorgan Chase (JPM) has been active in the bond market, issuing several long dated notes with fixed coupons and callable features that shape its funding profile and interest cost over the coming decades. Against this backdrop of long dated issuance and balance sheet work, JPMorgan Chase shares trade at US$342.82, with a 30 day share price return of 3.44% but a 90 day share price return that has s",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Grid Dynamics (GDYN) Stock Sees Fair Value Lift After Higher Analyst Targets",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/grid-dynamics-gdyn-stock-sees-100829194.html",
-   "published": "2026-11-13T10:08:29Z",
-   "publisher": "",
-   "summary": "The fair value estimate for Grid Dynamics Holdings has moved from US$9.40 to US$13.00, which lines up with a cluster of higher Street price targets in the US$11 to US$16 range. Recent research from firms such as JPMorgan points to a more constructive view on the stock, with updates that reflect how analysts are weighing valuation, growth potential, and execution risks after the latest results. As ",
    "symbols": [
     "BE",
     "DFEN",
