@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T10:55:42Z",
+ "builtAt": "2026-11-13T11:55:34Z",
  "digests": [
   {
    "calendar": [
@@ -886,6 +886,166 @@
      "title": "Visszaesett az építőipar szeptemberben: 9,9%-kal kisebb volt a termelés, mint egy éve",
      "url": "https://www.portfolio.hu/gazdasag/20261113/mar-jott-is-a-kijozanito-pofon-az-epitoiparban-876214",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Société Générale pénteki elemzése szerint a kamatemelkedés széles körű: a 2 és a 10 éves amerikai állampapírhozam is a piac által figyelt kulcsszintek fölé emelkedett. A dollárindex 19 havi csúcs közelében tartja magát, a háttérben a Fed-döntéshozók szigorításra utaló üzenetei állnak.",
+     "symbols": [],
+     "title": "Tovább emelkednek az amerikai állampapírhozamok, 19 havi csúcs közelében a dollárindex",
+     "url": "https://finance.yahoo.com/markets/currencies/articles/us-treasury-yields-rise-above-110939408.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A tőzsdén kereskedett alapok november 11-én nettó 154,5 millió dollár értékben vettek Eli Lilly-részvényt. Ebből a State Street egészségügyi szektor-ETF-je (XLV) önmagában 66,8 millió dollárral növelte Lilly-pozícióját.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Az ETF-ek 154,5 millió dollárnyi Eli Lilly-részvényt vásároltak szerdán",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-eli-lilly-lly-110112211.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "November 11-én az ETF-ek nettó 137,7 millió dollár értékben vásároltak Micron-részvényt; 59 alap vett és 14 adott el.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Az ETF-ek 137,7 millió dollárnyi Micron-részvényt vettek szerdán",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-137-7-million-110118765.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "November 11-én 43 ETF vett és 9 adott el JPMorgan-részvényt, a nettó beáramlás 117,8 millió dollár volt.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "Az ETF-ek 117,8 millió dollárnyi JPMorgan-részvényt vásároltak szerdán",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-117-8-million-110135948.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Capital Group Growth ETF (CGGR) november 11-én nettó 48 millió dollárral többet vett, mint amennyit eladott. A legnagyobb vásárlás a SpaceX volt (43,6 millió dollár), a legnagyobb eladás az Nvidia (58,1 millió dollár).",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Capital Group növekedési ETF-je szerdán leginkább SpaceX-részvényt vett, az Nvidiát csökkentette",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/capital-group-growth-etf-cggr-110419112.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az Invesco QQQ november 11-én mind a 101 pozícióját csökkentette, összesen 758,2 millió dollár értékben adott el részvényeket, és nem vásárolt; a legnagyobb eladások az Apple és az Nvidia voltak. Ez a befektetői kiáramlást tükrözi az alapból.",
+     "symbols": [
+      "QQQ"
+     ],
+     "title": "Tőkekiáramlás az Invesco QQQ-ból: az alap 758,2 millió dollárnyi részvényt adott el szerdán",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-sells-apple-110314867.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A SpaceX a pénteki, 15. Starship-repülésen először kísérli meg, hogy az űrhajót a texasi indítóhelyén fogja be ahelyett, hogy az óceánba csapódna; a Super Heavy gyorsítófokozatot is visszanyernék. Az indítás magyar idő szerint péntek 23:45-re (helyi idő 16:45) van kitűzve, a repülés Starlink-műholdakat is visz. A sikeres visszanyerés kulcslépés lenne a teljesen újrafelhasználható rakéta felé.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Ma este a Starship 15. repülése: a SpaceX először próbálja meg a szárazföldön visszanyerni az űrhajót",
+     "url": "https://www.investing.com/news/stock-market-news/spacex-to-attempt-first-starship-spacecraft-recovery-on-land-in-15th-flight-5024836",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Washington Post",
+     "summary": "Kevin Warsh hétfőn háromórás nyilvános fórumot tart San Franciscóban az AI gazdasági hatásairól; ez az egyetlen nyilvános esemény az általa felállított öt munkacsoport programjában. A Reuters szerint az AI-beruházási hullám egyre inkább felhajtja az árakat, ami több Fed-döntéshozót aggaszt; a Washington Post szerint több mint tucatnyi kollégája már az infláció egyik okának tartja az AI-t, míg Warsh szerint az AI hosszabb távon az árakat is fékezheti.",
+     "symbols": [],
+     "title": "Warsh Fed-elnök nyilvános fórumon vizsgálja az AI gazdasági hatásait, miközben több Fed-vezető szerint az AI inflációt gerjeszt",
+     "url": "https://www.investing.com/news/economy-news/feds-warsh-to-take-stock-of-ai-revolution-as-us-public-grows-wary-5024808",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Egy a Reuters által látott belső dokumentum szerint az Amazon „World Product Graph” néven szinte minden eladott termék adatait összegyűjtené, akkor is, ha maga nem árulja; a márkák folyamatosan adnának adatot, emellett más webáruházak oldalait is feltérképeznék. A dokumentum szerint a Coca-Cola és a Bayer már csatlakozott. Az Amazon szerint a dokumentum elavult ötletelési feljegyzés, és nem tükrözi a jelenlegi terveket.",
+     "symbols": [
+      "AMZN"
+     ],
+     "title": "Reuters: az Amazon a világ összes termékének adatait gyűjtené, hogy felvegye a harcot az AI-vásárlóügynökökkel",
+     "url": "https://www.investing.com/news/stock-market-news/exclusiveamazons-plan-to-own-the-worlds-product-data-and-fight-ai-shopping-agents-5024784",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters heti előzetese szerint jövő héten két esemény teszi próbára a piacot húzó AI-témát: az Nvidia negyedéves jelentése és az Anthropic tőzsdei bevezetése. Az Nvidia piaci értéke az október eleji kb. 5800 milliárd dollárról csütörtökre kb. 4000 milliárdra esett; az elemzők 109 milliárd dolláros bevételt és 90%-os profitnövekedést várnak. Az Anthropic akár 64,4 milliárd dollárt vonhat be, legfeljebb 1400 milliárd dolláros értékelésen.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Reuters: az Nvidia gyorsjelentése és az Anthropic tőzsdei bevezetése jövő héten próbára teszi a megtépázott AI-kereskedést",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-results-anthropic-ipo-pose-tests-for-tumultuous-ai-trade-5024815",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "CoinMarketCap Academy",
+     "summary": "A CoinMarketCap Academy beszámolója szerint a Hyperliquid tőzsdén az Nvidia-részvényre szóló örökös határidős ügyletek forgalma november 11-én kb. 960 millió, 12-én délig kb. 1,7 milliárd dollár volt, ami rekord, és meghaladta az ether-kontraktusokét. Az adatot független forrás egyelőre nem erősítette meg.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "Értesülések szerint a Hyperliquiden az Nvidia-perpetualok forgalma meghaladta az Etherét Huang távozása után",
+     "url": "https://coinmarketcap.com/academy/article/nvidia-perps-outtrade-ethereum-hyperliquid",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-13T11:40:34Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Index",
+     "summary": "Az Index szerint a Magyarországon működő nagyvállalatok 2024-re mindössze 52,4 milliárd forint globális minimumadó-kiegészítést vallottak be a korábban várt 96,4 milliárd helyett. A kormány 2027-re 240 milliárd forint többletbevételt vár a társasági adó és az innovációs járulék emeléséből, ami a lap szerint túlzó lehet.",
+     "symbols": [],
+     "title": "Index: a nagyvállalatok többsége nem fizetett globális minimumadó-kiegészítést, kétséges a kormány bevételi terve",
+     "url": "https://index.hu/gazdasag/2026/11/13/globalis-minimumado-koltsegvetes-nagyvallalatok-bevetel-kormany/",
+     "verified": false
     }
    ],
    "markets": [
@@ -912,7 +1072,7 @@
     }
    ],
    "summary": "A Wall Street csütörtökön csak kis veszteséggel zárt Jensen Huang távozása után: az Nvidia a 14%-os nyitó zuhanás után végül 4,3%-ot esett, a vetélytárs chipgyártók emelkedtek, pénteken pedig a határidős indexek és az ázsiai chippapírok is felfelé mozdultak. A Fed-döntéshozók (Williams, Daly, Hammack) újabb kamatemelésekre utaló üzenetei 19 havi csúcs közelébe vitték a dollárt, a jen ismét 160 fölé gyengült, az arany 13 havi mélypont közelében jár, a bitcoin pedig augusztus óta először 70 000 dollár alá esett. Az olaj a Hormuzi-szoros és Irán körüli feszültségek mellett is második heti veszteség felé tart. A zárás után a Cisco, az Applied Materials és a Cerebras is felülmúlta a várakozásokat; a Bloomberg szerint az Anthropic bevezetése hatszorosan túljegyzett, a SpaceX–Tesla fúziós tárgyalások pedig előrehaladtak. Ma délután az amerikai termelői árindex (PPI) lehet a fő piaci esemény.",
-   "updatedAt": "2026-11-13T10:40:13Z",
+   "updatedAt": "2026-11-13T11:40:34Z",
    "watchlist": []
   },
   {
