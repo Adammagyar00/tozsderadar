@@ -1,0 +1,43 @@
+name: Android widget építése
+
+# Megépíti a TőzsdeRadar Android-widget appot (APK), és feltölti a "android-widget" kiadáshoz,
+# ahonnan a telefonra letölthető: .../releases/download/android-widget/TozsdeRadar-widget.apk
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["android/**", ".github/workflows/android-widget.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-widget
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v5
+        with:
+          gradle-version: "8.10.2"
+      - name: APK építése
+        working-directory: android
+        run: gradle --no-daemon assembleRelease
+      - name: Kiadás frissítése
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk TozsdeRadar-widget.apk
+          if ! gh release view android-widget >/dev/null 2>&1; then
+            gh release create android-widget --title "TőzsdeRadar Android widget" --notes "A TőzsdeRadar kezdőképernyő-widgetjei (Portfolio, Watchlist News). Telepítés: töltsd le az APK-t a telefonon, és nyisd meg." --latest=false
+          fi
+          gh release upload android-widget TozsdeRadar-widget.apk --clobber
+          echo "::notice::APK: https://github.com/${{ github.repository }}/releases/download/android-widget/TozsdeRadar-widget.apk (build ${{ github.run_number }})"

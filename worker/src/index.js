@@ -211,6 +211,11 @@ export default {
       if (!env.TELEGRAM_BOT_TOKEN || request.headers.get("X-Telegram-Bot-Api-Secret-Token") !== await tgSecret(env.TELEGRAM_BOT_TOKEN)) return new Response("tiltott", { status: 403 });
       return store(env).fetch("https://store/tg", { method: "POST", body: await request.text() });
     }
+    if (url.pathname === "/widget") {
+      // Az Android-widget adatai; a szinkronkód a kulcs, ugyanúgy, mint a /sync-nél
+      const res = await store(env).fetch("https://store/widget" + url.search);
+      return new Response(res.body, { status: res.status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
+    }
     if (["/news", "/fng", "/sync", "/tginfo", "/tgtest"].includes(url.pathname)) {
       const origin = request.headers.get("Origin") || "";
       if (!allowed(origin)) return new Response("Nem engedélyezett oldal", { status: 403 });
@@ -629,6 +634,10 @@ export class Store {
         if (!SYNC_ID_RE.test(body.id || "")) return reply({ error: "hibás kód" }, 400);
         return reply({ keys: await this.merge(body.id, body.keys || {}) });
       }
+      if (url.pathname === "/widget") {
+        if (!SYNC_ID_RE.test(id || "")) return reply({ error: "hibás kód" }, 400);
+        return reply(await this.widget(id));
+      }
       if (url.pathname === "/tginfo") {
         if (!SYNC_ID_RE.test(id || "")) return reply({ error: "hibás kód" }, 400);
         return reply({ enabled: !!this.env.TELEGRAM_BOT_TOKEN, bot: await this.bot(), linked: !!(await this.state.storage.get("chat:" + id)) });
@@ -650,6 +659,54 @@ export class Store {
     } catch (e) {
       return reply({ error: String(e && e.message || e) }, 500);
     }
+  }
+
+  // Android-widget: a portfolio értéke és napi változása, valamint a figyelőlistád friss hírei.
+  // 3 percig tároljuk, hogy a sok widget-frissítés ne terhelje az árforrásokat.
+  async widget(id) {
+    this.wcache = this.wcache || new Map();
+    const hit = this.wcache.get(id);
+    if (hit && Date.now() - hit.at < 180000) return hit.v;
+    const k = await this.keys(id);
+    const srv = (k.srv && k.srv.v) || {};
+    const pf = (srv.pf || []).filter((h) => h && h.symbol && h.qty > 0).map((h) => ({ ...h }));
+    const [pv, fx, data] = await Promise.all([
+      pf.length ? valuePf(pf, this.env, false) : Promise.resolve({ rows: [], missing: [] }),
+      freshQuotes(["USDHUF=X", "EURUSD=X"]),
+      fetch(SITE + "data.json?t=" + Date.now()).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    ]);
+    const rows = pv.rows;
+    const total = rows.reduce((a, r) => a + r.now, 0);
+    const wb = rows.filter((r) => r.base != null);
+    const base = wb.reduce((a, r) => a + r.base, 0), day = wb.reduce((a, r) => a + r.now, 0) - base;
+    const cur = (k.pfcur && k.pfcur.v) || "USD";
+    const usdhuf = fx["USDHUF=X"] ? fx["USDHUF=X"].price : null, eurusd = fx["EURUSD=X"] ? fx["EURUSD=X"].price : null;
+    const rate = cur === "HUF" && usdhuf ? usdhuf : cur === "EUR" && eurusd ? 1 / eurusd : 1;
+    const shown = rate === 1 && cur !== "USD" ? "USD" : cur;
+    // hírek: a figyelőlista, a portfolio és a kedvencek jelöléseit érintő tételek, a legfrissebb elöl
+    const syms = new Set((srv.syms || []).map((x) => String(x).toUpperCase()));
+    for (const w of data.watchlist || []) syms.add(String(w.symbol).toUpperCase());
+    const news = [];
+    for (const d of (data.digests || []).slice(0, 3)) for (const it of d.items || []) {
+      const hit2 = (it.symbols || []).map((x) => String(x).toUpperCase()).filter((x) => syms.has(x));
+      if (!it.title || !hit2.length) continue;
+      news.push({ title: String(it.title), impact: it.impact || "semleges", syms: hit2.slice(0, 3), source: it.source || "", url: typeof it.url === "string" && /^https?:\/\//.test(it.url) ? it.url : null, date: d.date || "", verified: it.verified !== false });
+    }
+    const v = {
+      updated: Date.now(),
+      currency: shown,
+      portfolio: {
+        count: pf.length,
+        total: total * rate, totalUsd: total, totalHuf: usdhuf ? total * usdhuf : null,
+        day: day * rate, dayPct: base ? day / base * 100 : null,
+        movers: rows.filter((r) => r.ch != null).sort((a, b) => Math.abs(b.ch) - Math.abs(a.ch)).slice(0, 5).map((r) => ({ sym: r.sym, ch: r.ch, value: r.now * rate })),
+        missing: pv.missing,
+      },
+      news: news.slice(0, 12),
+      site: SITE,
+    };
+    this.wcache.set(id, { at: Date.now(), v });
+    return v;
   }
 
   async bot() {
