@@ -1,7 +1,41 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-14T02:01:46Z",
+ "updatedAt": "2026-11-14T02:51:39Z",
  "items": [
+  {
+   "title": "Nakamoto Gets Extra Year on 60 Million USDT Kraken Loan; Derivatives Count Toward Collateral",
+   "link": "https://unchainedcrypto.com/nakamoto-gets-extra-year-on-60-million-usdt-kraken-loan-derivatives-count-toward-collateral/?.tsrc=rss",
+   "published": "2026-11-14T02:22:42Z",
+   "publisher": "",
+   "summary": "The bitcoin treasury company now has no principal due in 2026, and by Unchained's math the bitcoin it had pledged as of Sept. 30 covers the 165 million USDT loan down to about $54,455 per bitcoin.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "HIVE Digital Technologies (TSX:HIVE) Stock Sees Fair Value Cut As Analysts Lower Targets",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hive-digital-technologies-tsx-hive-021227341.html",
+   "published": "2026-11-14T02:12:27Z",
+   "publisher": "",
+   "summary": "The consensus fair value estimate for HIVE Digital Technologies has been cut from CA$8.48 to CA$6.00, signaling a reset in how analysts are framing potential upside. Recent research links this step down in price targets to higher modeled discount rates, financing and construction concerns, and questions around the timing of the AI cloud ramp, even as signed GPU contracts and Bitcoin mining funded ",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?",
    "link": "https://www.fool.com/coverage/better-buy/2026/11/13/micron-technology-qualcomm-which-tech-stock-better-buy-for-2027/?.tsrc=rss",
@@ -12,11 +46,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -45,11 +79,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -82,6 +116,14 @@
    "published": "2026-11-14T01:01:00Z",
    "publisher": "",
    "summary": "The rig count in the Permian Basin was up two this week, the latest count Friday by Baker Hughes shows, with 275 rigs active in the region. A year ago, 253 rigs were active in the region. Nationally, the oil and gas rig count is down three from last week at 601 rigs. A year ago, 549 rigs were active. The count shows that 463 rigs sought oil, unchanged from the previous week, and 127 explored ...",
+   "symbols": []
+  },
+  {
+   "title": "Review & Preview: Moving On",
+   "link": "https://finance.yahoo.com/m/aaf2f5e5-33ee-38f6-879e-ff5ff7d5599d/review-%26-preview%3A-moving-on.html",
+   "published": "2026-11-14T00:55:00Z",
+   "publisher": "",
+   "summary": "Indexes ended the week higher despite Nvidia’s dramatic slide.",
    "symbols": []
   },
   {
@@ -3112,46 +3154,6 @@
    "publisher": "",
    "summary": "History sends a clear message about where stocks may be headed.",
    "symbols": []
-  },
-  {
-   "title": "SpaceX and Tesla merger talks advance as December announcement considered",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101770/spacex-and-tesla-merger-talks-advance-as-december-announcement-considered-1101770.html?.tsrc=rss",
-   "published": "2026-11-13T15:21:00Z",
-   "publisher": "",
-   "summary": "SpaceX Corp (NASDAQ:SPCX) and Tesla Inc (NASDAQ:TSLA) are progressing with merger negotiations, with an announcement possible as early as December, although discussions could extend into 2027. Bloomberg News reported on Thursday, citing people familiar with the talks, that the companies'...",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "What Would Cheaper Fuel Mean For Exxon Mobil Stock?",
-   "link": "https://www.trefis.com/stock/xom/articles/625018/what-would-cheaper-fuel-mean-for-exxon-mobil-stock/2026-11-13?.tsrc=rss",
-   "published": "2026-11-13T15:20:16Z",
-   "publisher": "",
-   "summary": "For questions about this article or underlying research, email help@trefis.com.",
-   "symbols": []
-  },
-  {
-   "title": "Peter Schiff Warns Banks Hold “$2 Trillion in Mortgage Losses” as the 10-Year Nears 5%",
-   "link": "https://www.tikr.com/blog/peter-schiff-warns-banks-hold-2-trillion-in-mortgage-losses-as-the-10-year-nears-5?ref=yahoofinance&tlnk=yf-261113-3h742hf4&.tsrc=rss",
-   "published": "2026-11-13T15:20:03Z",
-   "publisher": "",
-   "summary": "Key TakeawaysPeter Schiff says banks hold $2 trillion of unrealized mortgage losses as the 10-year yield nears 5%. Bank of America’s paper losses topped $109 billion, and its capital is the pressure point.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
   }
  ]
 }
