@@ -5,7 +5,6 @@ import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -45,11 +44,11 @@ public class PortfolioWidget extends AppWidgetProvider {
         return PendingIntent.getBroadcast(c, req, i, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
     }
 
+    /** A widgetre koppintva a TőzsdeRadar app nyílik meg a megfelelő oldalon. */
     static PendingIntent openIntent(Context c, String target, int req) {
-        Intent i;
-        if (Data.syncId(c) == null) i = new Intent(c, MainActivity.class);
-        else i = new Intent(Intent.ACTION_VIEW, Uri.parse(Data.SITE + target));
-        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        Intent i = new Intent(c, MainActivity.class)
+                .putExtra(MainActivity.EXTRA_HASH, Data.syncId(c) == null ? "#beallitasok" : target)
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         return PendingIntent.getActivity(c, req, i, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
     }
 

@@ -2,7 +2,6 @@ package hu.tozsderadar.widget;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
@@ -68,8 +67,7 @@ public class NewsService extends RemoteViewsService {
             if (date.length() == 10) meta.append(" · ").append(date.substring(5).replace('-', '.')).append(".");
             v.setTextViewText(R.id.meta, meta);
             v.setTextViewText(R.id.title, o.optString("title"));
-            String url = o.isNull("url") ? site + "#watchlist-news" : o.optString("url");
-            v.setOnClickFillInIntent(R.id.item, new Intent().setData(Uri.parse(url)));
+            v.setOnClickFillInIntent(R.id.item, new Intent().putExtra(MainActivity.EXTRA_HASH, "#watchlist-news"));
             return v;
         }
     }

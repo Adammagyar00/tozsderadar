@@ -36,6 +36,11 @@ final class Data {
         return prefs(c).getString("id", null);
     }
 
+    static void setSyncId(Context c, String id) {
+        prefs(c).edit().putString("id", id).remove("data").remove("err").apply();
+        refreshAsync(c, null);
+    }
+
     /** Elfogadja a puszta kódot és a teljes szinkronlinket (…#sync=kód) is. */
     static String parseId(String s) {
         if (s == null) return null;

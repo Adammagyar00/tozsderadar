@@ -3256,26 +3256,45 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     // Alkalmazásként
     app.replaceChildren(el("h3", null, "Telepítés alkalmazásként"));
     const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
-    if (standalone) app.append(el("p", "ok", "✓ A TőzsdeRadar alkalmazásként fut ezen az eszközön."));
+    if (window.TRApp) app.replaceChildren();
+    else if (standalone) app.append(el("p", "ok", "✓ A TőzsdeRadar alkalmazásként fut ezen az eszközön."));
     else {
       app.append(el("p", null, "Telepítve ikonként kerül a kezdőképernyőre, és saját ablakban, böngészősáv nélkül nyílik meg, mint egy alkalmazás."));
       if (installEvt) app.append(el("div", "set-row")), app.lastChild.append(btn("Telepítés", async () => { try { installEvt.prompt(); await installEvt.userChoice; } catch (e) { /* elutasítva */ } installEvt = null; updateSettings(); }));
       else if (/iPhone|iPad|iPod/.test(navigator.userAgent)) app.append(el("p", null, "iPhone-on: nyisd meg Safariban, koppints a Megosztás gombra (négyzet felfelé nyíllal), majd „Főképernyőhöz adás”."));
       else app.append(el("p", null, "Androidon Chrome-ban: menü (⋮) → „Alkalmazás telepítése” vagy „Hozzáadás a kezdőképernyőhöz”. Számítógépen a címsor jobb oldalán lévő telepítés ikonnal."));
     }
-    // Android kezdőképernyő-widget (külön kis app): Portfolio és Watchlist News
-    app.append(el("h3", null, "Android widget"));
-    app.append(el("p", null, "Két widget a telefon kezdőképernyőjére: a portfoliód értéke és napi változása, valamint a figyelőlistád friss hírei. Félóránként és a ↻ gombra frissülnek."));
-    const apk = link("https://github.com/Adammagyar00/tozsderadar/releases/download/android-widget/TozsdeRadar-widget.apk", "1. Widget-app letöltése (APK)");
-    apk.className = "btn";
-    const wr = el("div", "set-row"); wr.append(apk); app.append(wr);
-    app.append(el("p", null, "Megnyitás után a telefon rákérdez az ismeretlen forrásból való telepítésre; ezt egyszer engedélyezni kell a böngészőnek."));
-    if (!syncId) app.append(el("p", null, "2. Ezután kapcsold be fent a szinkront: a widget a szinkronkódod alapján látja a portfoliódat."));
-    else {
-      const give = link("tozsderadar://widget?id=" + syncId, "2. Kód átadása a widgetnek");
-      give.className = "btn"; give.removeAttribute("target"); give.removeAttribute("rel");
-      const wr2 = el("div", "set-row"); wr2.append(give); app.append(wr2);
-      app.append(el("p", null, "Ha a gomb nem nyitja meg az appot, másold be az app beállításába a fenti szinkronlinket. 3. Hosszan nyomd a kezdőképernyőt → Widgetek → TőzsdeRadar."));
+    // Android-app (TőzsdeRadar + kezdőképernyő-widgetek: Portfolio és Watchlist News)
+    app.append(el("h3", null, "Android-app és widgetek"));
+    const inApp = !!window.TRApp;
+    if (inApp) {
+      try { if (syncId) window.TRApp.setSyncId(syncId); } catch (e) { /* régi app */ }
+      app.append(el("p", "ok", "✓ A TőzsdeRadar Android-appban vagy."));
+      app.append(el("p", null, "Két widget a kezdőképernyőre: a portfoliód értéke és napi változása, valamint a figyelőlistád friss hírei. Félóránként és a ↻ gombra frissülnek; koppintásra ez az app nyílik meg."));
+      if (!syncId) app.append(el("p", null, "A widgetekhez kapcsold be fent a szinkront (vagy csatlakozz a meglévőhöz a szinkronlinkkel): a widget a szinkronkód alapján látja a portfoliódat."));
+      else {
+        let st = ""; try { st = window.TRApp.widgetStatus(); } catch (e) { st = ""; }
+        if (st) app.append(el("p", "hint", "Widget-adatok: " + st));
+        const wr = el("div", "set-row");
+        let canPin = false; try { canPin = window.TRApp.canPin(); } catch (e) { canPin = false; }
+        if (canPin) wr.append(btn("Portfolio widget kirakása", () => window.TRApp.pinWidget("portfolio")), btn("Watchlist News widget kirakása", () => window.TRApp.pinWidget("news")));
+        wr.append(btn("Widgetek frissítése", () => { try { window.TRApp.refreshWidgets(); } catch (e) { /* régi app */ } setTimeout(updateSettings, 4000); }, true));
+        app.append(wr);
+        if (!canPin) app.append(el("p", null, "Kirakás: hosszan nyomd a kezdőképernyőt → Widgetek → TőzsdeRadar."));
+      }
+    } else {
+      app.append(el("p", null, "A TőzsdeRadar Androidon saját appként is fut, kezdőképernyő-widgetekkel: a portfoliód értéke és napi változása, valamint a figyelőlistád friss hírei. A widgetre koppintva az app nyílik meg."));
+      const apk = link("https://github.com/Adammagyar00/tozsderadar/releases/download/android-widget/TozsdeRadar-widget.apk", "1. App letöltése (APK)");
+      apk.className = "btn";
+      const wr = el("div", "set-row"); wr.append(apk); app.append(wr);
+      app.append(el("p", null, "Megnyitás után a telefon rákérdez az ismeretlen forrásból való telepítésre; ezt egyszer engedélyezni kell a böngészőnek."));
+      if (!syncId) app.append(el("p", null, "2. Ezután kapcsold be fent a szinkront, hogy az app ugyanazt a portfoliót és beállításokat lássa."));
+      else {
+        const give = link("tozsderadar://widget?id=" + syncId, "2. Megnyitás az appban (szinkronnal)");
+        give.className = "btn"; give.removeAttribute("target"); give.removeAttribute("rel");
+        const wr2 = el("div", "set-row"); wr2.append(give); app.append(wr2);
+        app.append(el("p", null, "Ez megnyitja az appot, és összeköti ezzel a szinkronnal (portfolio, kedvencek, riasztások). Ha a gomb nem működik, nyisd meg az appot, és ott csatlakozz a szinkronlinkkel."));
+      }
     }
   }
 

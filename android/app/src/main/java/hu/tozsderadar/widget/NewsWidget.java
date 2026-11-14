@@ -35,8 +35,8 @@ public class NewsWidget extends AppWidgetProvider {
         svc.setData(Uri.parse(svc.toUri(Intent.URI_INTENT_SCHEME)));
         v.setRemoteAdapter(R.id.list, svc);
         v.setEmptyView(R.id.list, R.id.empty);
-        // egy hírre koppintva a cikk nyílik meg (a sablont a lista elemei töltik ki)
-        Intent open = new Intent(c, OpenActivity.class);
+        // egy hírre koppintva a TőzsdeRadar app nyílik meg a Watchlist News oldalon
+        Intent open = new Intent(c, MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         v.setPendingIntentTemplate(R.id.list, PendingIntent.getActivity(c, 10, open, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_MUTABLE));
         v.setOnClickPendingIntent(R.id.head, PortfolioWidget.openIntent(c, "#watchlist-news", 11));
         v.setOnClickPendingIntent(R.id.empty, PortfolioWidget.openIntent(c, "#watchlist-news", 12));
