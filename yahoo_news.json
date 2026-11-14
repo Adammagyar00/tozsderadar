@@ -1,7 +1,31 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-14T08:01:34Z",
+ "updatedAt": "2026-11-14T08:51:43Z",
  "items": [
+  {
+   "title": "Canada's Carney touts Philippine trade deal on Asia tour",
+   "link": "https://finance.yahoo.com/economy/policy/articles/canadas-carney-touts-philippine-trade-081252115.html",
+   "published": "2026-11-14T08:12:52Z",
+   "publisher": "",
+   "summary": "Canadian Prime Minister Mark Carney said Saturday that Ottawa had successfully concluded negotiations for a sweeping free-trade pact with the Philippines, as it seeks ways to reduce its reliance on the United States.The pacts were \"part of a strategy of developing a dense web of reliable partners to create more opportunities ... and reducing our relative reliance on the United States,\" Carney said",
+   "symbols": []
+  },
+  {
+   "title": "What Could Bloom Energy (BE) Gain From Its 1 Gigawatt California Carbon Plan?",
+   "link": "https://finance.yahoo.com/energy/articles/could-bloom-energy-gain-1-080900102.html",
+   "published": "2026-11-14T08:09:00Z",
+   "publisher": "",
+   "summary": "Bloom Energy (NYSE:BE) and California Resources Corporation signed a memorandum of understanding to pursue gigawatt-scale fuel cell projects in California. The partners plan to assess more than 1 gigawatt of solid-oxide fuel cell capacity paired with carbon capture and storage for utility and industrial users. The collaboration targets low-emission power generation projects within California, link",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
   {
    "title": "Twenty One Capital CEO Says ‘A Balance Sheet Is Not A Business’ After $1 Billion Bitcoin-Driven Gain",
    "link": "https://stocktwits.com/news-articles/markets/equity/twenty-one-capital-ceo-balance-sheet-business-after-1-billion-bitcoin-profit/cNbPR6IR9Qh?.tsrc=rss",
@@ -12,11 +36,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3185,30 +3209,6 @@
     "LLY",
     "MU",
     "MRVL"
-   ]
-  },
-  {
-   "title": "Goldman Sachs sees S&P 500 surging 14% to 8,700 in 2027",
-   "link": "https://finance.yahoo.com/video/goldman-sachs-sees-sp-500-surging-14-to-8700-in-2027-154612391.html",
-   "published": "2026-11-13T15:46:12Z",
-   "publisher": "",
-   "summary": "The 8:30 hosts, Julie Hyman, Pras Subramanian, and Jake Conley, discuss Goldman Sachs' (GS) bullish 2027 outlook for the S&P 500 (^GSPC). The investment bank forecasts a 14% rally that would push the benchmark index to 8,700, as the panel discusses what's driving the optimistic projection",
-   "symbols": []
-  },
-  {
-   "title": "SpaceX Drops More Than 13% Over 30 Days: This Wall Street Pro Projects 260% Gains Within 12 Months",
-   "link": "https://247wallst.com/investing/2026/11/13/spacex-drops-more-than-13-over-30-days-this-wall-street-pro-projects-260-gains-within-12-months/?.tsrc=rss",
-   "published": "2026-11-13T15:45:43Z",
-   "publisher": "",
-   "summary": "Washington politics and a chip selloff dragged SpaceX far below its peak while rival space stocks barely flinched. One bank still sees a Street-high target built on compute that does not exist yet. Is the fear justified or overdone?",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
    ]
   }
  ]
