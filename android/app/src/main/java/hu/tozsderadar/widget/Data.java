@@ -115,6 +115,7 @@ final class Data {
         AppWidgetManager m = AppWidgetManager.getInstance(c);
         int[] p = m.getAppWidgetIds(new ComponentName(c, PortfolioWidget.class));
         for (int id : p) PortfolioWidget.draw(c, m, id);
+        if (p.length > 0) m.notifyAppWidgetViewDataChanged(p, R.id.list);
         int[] n = m.getAppWidgetIds(new ComponentName(c, NewsWidget.class));
         for (int id : n) NewsWidget.draw(c, m, id);
         if (n.length > 0) m.notifyAppWidgetViewDataChanged(n, R.id.list);

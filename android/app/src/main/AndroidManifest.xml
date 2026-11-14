@@ -42,6 +42,11 @@
         </receiver>
 
         <service
+            android:name=".PortfolioService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <service
             android:name=".NewsService"
             android:exported="false"
             android:permission="android.permission.BIND_REMOTEVIEWS" />

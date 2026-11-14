@@ -65,13 +65,11 @@
         android:textSize="12sp"
         android:maxLines="1" />
 
-    <TextView
-        android:id="@+id/movers"
+    <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textColor="@color/fg"
-        android:textSize="13sp"
-        android:lineSpacingExtra="2dp"
-        android:fontFamily="monospace" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="6dp"
+        android:divider="@color/line"
+        android:dividerHeight="1dp" />
 </LinearLayout>

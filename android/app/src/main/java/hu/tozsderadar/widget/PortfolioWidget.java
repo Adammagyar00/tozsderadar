@@ -6,9 +6,6 @@ import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.SpannableStringBuilder;
-import android.text.Spanned;
-import android.text.style.ForegroundColorSpan;
 import android.widget.RemoteViews;
 
 import org.json.JSONArray;
@@ -56,6 +53,11 @@ public class PortfolioWidget extends AppWidgetProvider {
         RemoteViews v = new RemoteViews(c.getPackageName(), R.layout.widget_portfolio);
         v.setOnClickPendingIntent(R.id.root, openIntent(c, "#portfolio", 1));
         v.setOnClickPendingIntent(R.id.refresh, refreshIntent(c, PortfolioWidget.class, 2));
+        Intent svc = new Intent(c, PortfolioService.class).putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, id);
+        svc.setData(android.net.Uri.parse(svc.toUri(Intent.URI_INTENT_SCHEME)));
+        v.setRemoteAdapter(R.id.list, svc);
+        Intent open = new Intent(c, MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        v.setPendingIntentTemplate(R.id.list, PendingIntent.getActivity(c, 3, open, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_MUTABLE));
         JSONObject d = Data.cached(c);
         String err = Data.prefs(c).getString("err", null);
         if (Data.syncId(c) == null) {
@@ -63,7 +65,6 @@ public class PortfolioWidget extends AppWidgetProvider {
             v.setTextViewText(R.id.day, "Koppints a beállításhoz");
             v.setTextColor(R.id.day, MUTED);
             v.setTextViewText(R.id.sub, "");
-            v.setTextViewText(R.id.movers, "");
             v.setTextViewText(R.id.updated, "");
         } else if (d == null) {
             v.setTextViewText(R.id.total, "–");
@@ -87,35 +88,10 @@ public class PortfolioWidget extends AppWidgetProvider {
                 JSONArray miss = p.optJSONArray("missing");
                 if (miss != null && miss.length() > 0) sub += (sub.isEmpty() ? "" : " · ") + miss.length() + " tétel ár nélkül";
                 v.setTextViewText(R.id.sub, sub);
-                v.setTextViewText(R.id.movers, movers(p.optJSONArray("movers"), rows(m, id)));
             }
             v.setTextViewText(R.id.updated, (err != null ? "⚠ " : "") + Data.time(d.optLong("updated")));
         }
         m.updateAppWidget(id, v);
     }
 
-    /** Hány sor fér el a widget aktuális magasságában. */
-    static int rows(AppWidgetManager m, int id) {
-        Bundle o = m.getAppWidgetOptions(id);
-        int h = o == null ? 0 : o.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT, 0);
-        if (h <= 0) return 3;
-        return Math.max(0, Math.min(5, (h - 120) / 20));
-    }
-
-    static CharSequence movers(JSONArray a, int max) {
-        SpannableStringBuilder b = new SpannableStringBuilder();
-        if (a == null) return b;
-        for (int i = 0; i < Math.min(a.length(), max); i++) {
-            JSONObject r = a.optJSONObject(i);
-            if (r == null) continue;
-            if (b.length() > 0) b.append("\n");
-            String sym = r.optString("sym");
-            b.append(String.format(Data.HU, "%-6s", sym.length() > 6 ? sym.substring(0, 6) : sym)).append(" ");
-            int s = b.length();
-            double ch = r.optDouble("ch", 0);
-            b.append(Data.pct(ch));
-            b.setSpan(new ForegroundColorSpan(ch > 0 ? UP : ch < 0 ? DOWN : MUTED), s, b.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        }
-        return b;
-    }
 }

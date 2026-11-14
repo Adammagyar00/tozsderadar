@@ -710,7 +710,8 @@ export class Store {
         count: pf.length,
         total: total * rate, totalUsd: total, totalHuf: usdhuf ? total * usdhuf : null,
         day: day * rate, dayPct: base ? day / base * 100 : null,
-        movers: rows.filter((r) => r.ch != null).sort((a, b) => Math.abs(b.ch) - Math.abs(a.ch)).slice(0, 5).map((r) => ({ sym: r.sym, ch: r.ch, value: r.now * rate })),
+        // az összes tétel, a legjobban teljesítőtől a leggyengébbig (ár nélküli változás a végén)
+        movers: rows.slice().sort((a, b) => (b.ch == null ? -1e9 : b.ch) - (a.ch == null ? -1e9 : a.ch)).map((r) => ({ sym: r.sym, ch: r.ch, value: r.now * rate })),
         items: rows.map((r) => ({ sym: r.sym, value: r.now * rate, src: r.src })),
         missing: pv.missing,
       },
