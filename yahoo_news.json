@@ -1,13 +1,13 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-14T02:51:39Z",
+ "updatedAt": "2026-11-14T03:52:18Z",
  "items": [
   {
-   "title": "Nakamoto Gets Extra Year on 60 Million USDT Kraken Loan; Derivatives Count Toward Collateral",
-   "link": "https://unchainedcrypto.com/nakamoto-gets-extra-year-on-60-million-usdt-kraken-loan-derivatives-count-toward-collateral/?.tsrc=rss",
-   "published": "2026-11-14T02:22:42Z",
+   "title": "Crypto Market’s Nearly 6% Slide Costs Bulls $1 Billion in a Day",
+   "link": "https://beincrypto.com/bitcoin-below-68000-crypto-liquidations-bulls/?.tsrc=rss",
+   "published": "2026-11-14T03:35:48Z",
    "publisher": "",
-   "summary": "The bitcoin treasury company now has no principal due in 2026, and by Unchained's math the bitcoin it had pledged as of Sept. 30 covers the 165 million USDT loan down to about $54,455 per bitcoin.",
+   "summary": "Crypto liquidations hit $1.23 billion as the crypto market fell nearly 6% and Bitcoin slipped below $68,000.",
    "symbols": [
     "BTC",
     "ETH",
@@ -20,11 +20,27 @@
    ]
   },
   {
-   "title": "HIVE Digital Technologies (TSX:HIVE) Stock Sees Fair Value Cut As Analysts Lower Targets",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/hive-digital-technologies-tsx-hive-021227341.html",
-   "published": "2026-11-14T02:12:27Z",
+   "title": "What Does Freeport McMoRan (FCX) Gain From Its British Columbia Copper Push?",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/does-freeport-mcmoran-fcx-gain-031514020.html",
+   "published": "2026-11-14T03:15:14Z",
    "publisher": "",
-   "summary": "The consensus fair value estimate for HIVE Digital Technologies has been cut from CA$8.48 to CA$6.00, signaling a reset in how analysts are framing potential upside. Recent research links this step down in price targets to higher modeled discount rates, financing and construction concerns, and questions around the timing of the AI cloud ramp, even as signed GPU contracts and Bitcoin mining funded ",
+   "summary": "Freeport-McMoRan (NYSE:FCX) agreed to acquire a 51% interest in the Aurora West copper gold project in British Columbia from TDG Gold. The agreement grants Freeport-McMoRan an option to further increase its stake in Aurora West through additional exploration expenditures. Freeport-McMoRan is funding further work at the JOY Copper Gold District with Amarc Resources to increase its joint venture int",
+   "symbols": []
+  },
+  {
+   "title": "What Gold Royalty Holders Got Wrong Before The Slide",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/gold-royalty-holders-got-wrong-031413900.html",
+   "published": "2026-11-14T03:14:13Z",
+   "publisher": "",
+   "summary": "Gold Royalty just reported record revenue, cash flow, and a sharp swing into profit, yet long-term holders still saw their capital shrink rather than grow. For Gold Royalty shareholders, the loss from the start of the year was 28.9%, including dividends. If you had been weighing a fresh position back on 1 January 2026, how could such strong reported progress line up with such a weak outcome for yo",
+   "symbols": []
+  },
+  {
+   "title": "Hut 8 (HUT) Stock Looks Fully Priced On Beacon Point Lease News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hut-8-hut-stock-looks-031119663.html",
+   "published": "2026-11-14T03:11:19Z",
+   "publisher": "",
+   "summary": "Hut 8 has had a volatile year, with sizeable share price swings now forcing a closer look at what investors are really paying for its sales. With the business pivoting further into AI-focused data center leases and Bitcoin monetization, the key puzzle is how that revenue profile lines up with the current valuation. Over the past 12 months, Hut 8 has returned 55.8%, which raises the question of how",
    "symbols": [
     "BTC",
     "ETH",
@@ -34,6 +50,74 @@
     "LLY",
     "MU",
     "MRVL"
+   ]
+  },
+  {
+   "title": "Hyperliquid Whales Flip Bullish On Bitcoin After Two Weeks of Shorts: Report",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/hyperliquid-whales-flip-bullish-on-bitcoin-after-two-weeks-of-shorts-report/cNb2vZuR9Q4?.tsrc=rss",
+   "published": "2026-11-14T03:11:11Z",
+   "publisher": "",
+   "summary": "A third-quarter report from the Hyperliquid Research Collective showed average daily traders on Hyperliquid were up 20% from the previous quarter.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Arca’s Jeff Dorman Calls Vitalik Buterin’s ETH Store-of-Value Pitch ‘Really Misguided’",
+   "link": "https://unchainedcrypto.com/arcas-jeff-dorman-calls-vitalik-buterins-eth-store-of-value-pitch-really-misguided/?.tsrc=rss",
+   "published": "2026-11-14T02:52:00Z",
+   "publisher": "",
+   "summary": "Arca's investment chief said his math accounts for about $50 billion of ETH's value, and the rest is \"just social value or hopium.\"",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Nakamoto Gets Extra Year on 60 Million USDT Kraken Loan; Derivatives Count Toward Collateral",
+   "link": "https://unchainedcrypto.com/nakamoto-gets-extra-year-on-60-million-usdt-kraken-loan-derivatives-count-toward-collateral/?.tsrc=rss",
+   "published": "2026-11-14T02:22:42Z",
+   "publisher": "",
+   "summary": "The bitcoin treasury company now has no principal due in 2026, and by Unchained's math the bitcoin it had pledged as of Sept. 30 covers the 165 million USDT loan down to about $54,455 per bitcoin.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
+   ]
+  },
+  {
+   "title": "HIVE Digital Technologies (TSX:HIVE) Stock Sees Fair Value Cut As Analysts Lower Targets",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hive-digital-technologies-tsx-hive-021227341.html",
+   "published": "2026-11-14T02:12:27Z",
+   "publisher": "",
+   "summary": "The consensus fair value estimate for HIVE Digital Technologies has been cut from CA$8.48 to CA$6.00, signaling a reset in how analysts are framing potential upside. Recent research links this step down in price targets to higher modeled discount rates, financing and construction concerns, and questions around the timing of the AI cloud ramp, even as signed GPU contracts and Bitcoin mining funded ",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3097,63 +3181,6 @@
     "VOO",
     "XDW0"
    ]
-  },
-  {
-   "title": "Covered Call ETFs Pay Huge Yields. Here’s What Retirees Need to Know First.",
-   "link": "https://247wallst.com/investing/2026/11/13/covered-call-etfs-pay-huge-yields-heres-what-retirees-need-to-know-first/?.tsrc=rss",
-   "published": "2026-11-13T15:30:52Z",
-   "publisher": "",
-   "summary": "Four option-income funds promise fat monthly checks, but each one quietly takes something from you in return. Before you build a retirement paycheck around them, see what you surrender, and why a tax label can hide how much the fund actually earned.",
-   "symbols": []
-  },
-  {
-   "title": "BC-Most Active Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html",
-   "published": "2026-11-13T15:30:18Z",
-   "publisher": "",
-   "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change SHF Holdings Inc.",
-   "symbols": []
-  },
-  {
-   "title": "Fastenal (FAST) Up 10.3% Since Last Earnings Report: Can It Continue?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/fastenal-fast-10-3-since-153003609.html",
-   "published": "2026-11-13T15:30:03Z",
-   "publisher": "",
-   "summary": "Fastenal (FAST) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-   "symbols": []
-  },
-  {
-   "title": "Not One Analyst Rates Broadcom a Sell. What Are They Missing?",
-   "link": "https://247wallst.com/investing/2026/11/13/not-one-analyst-rates-broadcom-a-sell-what-are-they-missing/?.tsrc=rss",
-   "published": "2026-11-13T15:26:32Z",
-   "publisher": "",
-   "summary": "Wall Street analysts are unanimous on Broadcom, yet the loudest skeptics sit on CNBC, and the stock has dropped after beating earnings before. Financing risks, supply limits, and a split in institutional money complicate the bullish picture.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "LLY",
-    "MRVL",
-    "MU",
-    "ONDO",
-    "XRP"
-   ]
-  },
-  {
-   "title": "Cartier-owner Richemont stock slips as luxury jewelry sales slow",
-   "link": "https://finance.yahoo.com/markets/stocks/article/cartier-owner-richemont-stock-slips-as-luxury-jewelry-sales-slow-152622400.html",
-   "published": "2026-11-13T15:26:22Z",
-   "publisher": "",
-   "summary": "Luxury brands are struggling. Richemont's jewelry business is feeling a bit of the pinch this year.",
-   "symbols": []
-  },
-  {
-   "title": "Democrats Sweep Congress: What History Says Comes Next for Stocks",
-   "link": "https://www.fool.com/investing/2026/11/13/democrats-sweep-congress-what-history-says-comes-next-for-stocks/?.tsrc=rss",
-   "published": "2026-11-13T15:21:02Z",
-   "publisher": "",
-   "summary": "History sends a clear message about where stocks may be headed.",
-   "symbols": []
   }
  ]
 }
