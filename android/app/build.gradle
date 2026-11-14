@@ -10,8 +10,9 @@ android {
         applicationId "hu.tozsderadar.widget"
         minSdk 26
         targetSdk 35
-        versionCode (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInteger()
-        versionName "1." + (System.getenv("GITHUB_RUN_NUMBER") ?: "0")
+        def run = System.getenv("GITHUB_RUN_NUMBER") ?: "1"
+        versionCode Integer.parseInt(run)
+        versionName "1." + run
     }
 
     // Rögzített debug kulcs a repóban: így minden új build a régi fölé települ (Play Store nélküli telepítés)
