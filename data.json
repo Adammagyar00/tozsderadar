@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-14T09:56:43Z",
+ "builtAt": "2026-11-14T12:55:45Z",
  "digests": [
   {
    "calendar": [
@@ -538,6 +538,97 @@
      "title": "Twenty One Capital: a negyedéves 1,09 milliárd dolláros nyereség a bitcoinból jött, nem az üzletből",
      "url": "https://stocktwits.com/news-articles/markets/equity/twenty-one-capital-ceo-balance-sheet-business-after-1-billion-bitcoin-profit/cNbPR6IR9Qh?.tsrc=rss",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-14T12:35:24Z",
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Business Recorder · CNBC",
+     "summary": "A Binance szombati közlése szerint a héten 87 hálózaton nyitotta újra a kifizetéseket, és a jövő hét végéig az összes fennmaradó hálózatot és eszközt újraindítaná. Az október 29-i, 6,3 milliárd dolláros támadás kárát a tőzsde saját maga viseli; az FBI Észak-Koreát teszi felelőssé, amit Phenjan tagad.",
+     "symbols": [],
+     "title": "A Binance a jövő hét végéig minden hálózaton újraindítaná a kifizetéseket a 6,3 milliárd dolláros hackertámadás után",
+     "url": "https://www.investing.com/news/company-news/binance-aims-to-restore-all-withdrawals-next-week-after-63-billion-hack-5027266",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-14T12:35:24Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · BBC · IBTimes",
+     "summary": "Volodimir Zelenszkij szerint amerikai tárgyalók először vetették fel, hogy Ukrajna kivonná erőit a Donbaszból, cserébe NATO-tagságot kapna. Hivatalos javaslat nincs; Zelenszkij azt mondta, biztonsági garanciákat, a hadsereg korlátozásának tilalmát és újjáépítési forrásokat tartalmazó ajánlatot népszavazásra bocsátana, de a megszállt területeket nem ismerné el oroszként.",
+     "symbols": [],
+     "title": "Zelenszkij: az USA felvetette Ukrajna NATO-tagságát a Donbasz feladásáért cserébe",
+     "url": "https://www.investing.com/news/economy-news/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-zelenskyy-says-5027284",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-14T12:35:24Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A CVS Health az Aetna Lilly- és Novo-féle GLP-1 készítményeket kezdő betegeinek adatai alapján azt számolta, hogy havi 350 dollár alatti ár mellett a finanszírozók nullszaldósak lehetnek. Három év alatt fejenként 9400 dollár orvosi megtakarítás állt szemben 13 300 dollár többlet gyógyszerköltséggel; a CVS orvosigazgatója szerint a gyártók ezen az áron is nyereségesek lehetnek.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "CVS: a GLP-1 fogyasztószerek havi 350 dollár alatti árnál megtérülnek a munkáltatóknak",
+     "url": "https://www.investing.com/news/stock-market-news/cvs-says-glp1s-save-money-when-priced-below-350-per-month-5027293",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-14T12:35:24Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Goldman Sachs 3, 6 és 12 hónapos távon 670, 680 és 700 pontot vár a STOXX 600-tól, ami 5,6%-os árfolyam- és 8,9%-os teljes hozamot jelent. A bank 2026-ra 18%-os, 2027-re 7%-os EPS-növekedést lát, az energiaszektort alulsúlyozásra rontotta, és a DAX-ot preferálja.",
+     "symbols": [],
+     "title": "Goldman Sachs: 700 pontig emelkedhet a STOXX 600 egy éven belül, lassul az európai profitnövekedés",
+     "url": "https://www.investing.com/news/stock-market-news/what-does-goldman-expect-for-european-stocks-in-2027-5027285",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-14T12:35:24Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "Adam Jonas, a Morgan Stanley elemzője megerősítette túlsúlyozási ajánlását és 300 dolláros célárát a SpaceX-re, ami a pénteki 139,11 dolláros záróárnál 116%-kal magasabb. A bank növekedéshez igazítva olcsónak tartja a részvényt, és a Starship sikeres elkapását kulcsfontosságú katalizátornak nevezi.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Morgan Stanley: túlzó volt a SpaceX-papír esése, marad a 300 dolláros célár",
+     "url": "https://www.tikr.com/blog/with-a-300-target-morgan-stanley-bets-spacexs-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261114-2gx2vw44&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-14T12:35:24Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Bloomberg ETF-elemzője a „280. idegösszeomlásnak” nevezte az Nvidia-botrány nyomán kialakult piaci esést, amely szerinte algoritmus- és hírvezérelt. A részvény-ETF-ek befektetői vásároltak az esésben, a bitcoin-ETF-ekből viszont kiáramlás volt; szerinte a bitcoin a 60 ezer dolláros tartományban alapozhat.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Eric Balchunas (Bloomberg): rövid életű lehet az Nvidia okozta eladási hullám, a bitcoin a 60 ezres sávban találhat bázist",
+     "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/eric-balchunas-calls-nvidia-driven-market-sell-off-the-280th-nervous-breakdown-sees-bitcoin-base-in-the-60-k/cNbPE5cR9QS?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-14T12:35:24Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Bitcoin.com · KuCoin News · Bloomingbit",
+     "summary": "Kriptohírportálok jelentései szerint a bitcoin szombaton 67 000 dollár alá esett, így a Strategy 850 364 BTC-s, átlagosan 75 456 dolláron vásárolt állománya mintegy 6,85–7,2 milliárd dolláros nem realizált veszteségen áll. A veszteség csak papíron jelentkezik, eladásra nem kényszeríti a céget.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "67 ezer dollár alá csúszott a bitcoin, közel 7 milliárd dolláros papírveszteségen a Strategy",
+     "url": "https://news.bitcoin.com/featured/saylor-strategy-7-billion-underwater-bitcoin/",
+     "verified": false
     }
    ],
    "markets": [
@@ -564,7 +655,7 @@
     }
    ],
    "summary": "Az amerikai tőzsdék pénteken az Nvidia körüli botrány és az emelkedő hozamok miatt gyengültek (S&P 500 −0,4%, Nasdaq −0,9%), de az S&P 500 hetet 2,5%-os emelkedéssel zárta, október óta először. A Reuters szerint Jensen Huang félrevezette a cég vezető jogászát Alice Huanggal való kapcsolatáról, a Fed pénzügyi stabilitási jelentése pedig az AI-t nevezte a rendszer legnagyobb kockázatának. A Fed-kamatemelési várakozások (a BofA már januári emelést is vár, Jefferson alelnök az inflációt tekinti iránytűnek) a dollárt két hónapja legjobb hetéhez segítették, a jen 160 körül jár, a bitcoin pedig 1,2 milliárd dolláros likvidálás közepette 68 000 dollár alá esett. Az olaj második heti veszteségét könyvelte el, az USA-ban egy légiforgalmi kommunikációs hiba miatt órákra leállt a repülés, a SpaceX Starship 15. repülésén a hajó pályára állt, de a gyorsító elkapása elmaradt.",
-   "updatedAt": "2026-11-14T09:34:45Z",
+   "updatedAt": "2026-11-14T12:35:24Z",
    "watchlist": []
   },
   {
