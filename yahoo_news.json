@@ -1,7 +1,58 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-14T04:53:59Z",
+ "updatedAt": "2026-11-14T06:58:01Z",
  "items": [
+  {
+   "title": "Strive CEO Says Bitcoin Could ‘Go To A Penny’ And The Company Would Still Survive Because It Has No Debt",
+   "link": "https://stocktwits.com/news-articles/markets/equity/strive-ceo-says-bitcoin-could-go-to-a-penny-and-the-company-would-still-survive-because-it-has-no-debt/cNbPG3NR9QQ?.tsrc=rss",
+   "published": "2026-11-14T06:40:19Z",
+   "publisher": "",
+   "summary": "Strive keeps around 85% to 90% of its balance sheet in Bitcoin and 10% to 15% in cash, which can cover its obligations during a downturn, the CEO said.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Bitcoin slides below $68,000 as Anthropic IPO frenzy drains market liquidity",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slides-below-68-000-061956476.html",
+   "published": "2026-11-14T06:19:56Z",
+   "publisher": "",
+   "summary": "Investing.com -- Bitcoin fell below $68,000 on Saturday, extending its decline to more than 20% since early October as investors reduced exposure to risky assets amid technology-sector turmoil and concerns that Anthropic’s upcoming blockbuster IPO could divert capital from cryptocurrency markets.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Metaplanet Cuts 2026 Revenue Target 59%: Is the Bitcoin Playbook Running Dry?",
+   "link": "https://beincrypto.com/metaplanet-cuts-2026-revenue-forecast-mnav/?.tsrc=rss",
+   "published": "2026-11-14T06:15:28Z",
+   "publisher": "",
+   "summary": "Metaplanet cut its 2026 revenue forecast to ¥6.5 billion after a share price below its Bitcoin value curbed share sales.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "JPMorgan Chase (JPM) Sees 40% Jump In Asia Pacific Alternative Asset Allocations",
    "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-sees-40-042637965.html",
@@ -9,12 +60,12 @@
    "publisher": "",
    "summary": "JPMorgan Chase (NYSE:JPM) reports a sharp rise in ultra-wealthy client demand for alternative investments tied to infrastructure themes. The bank highlights a tilt toward assets linked to AI data centers, power grid upgrades, electrification and energy security projects. Within its Asia-Pacific wealth franchise, allocations to alternative assets are reported to be 40% higher, focused on these long",
    "symbols": [
-    "SPCX",
     "BE",
-    "JPM",
     "DFEN",
-    "VOO",
+    "JPM",
     "QQQ",
+    "SPCX",
+    "VOO",
     "XDW0"
    ]
   },
@@ -28,11 +79,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -45,11 +96,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3149,38 +3200,6 @@
    "published": "2026-11-13T15:43:30Z",
    "publisher": "",
    "summary": "K2 Space co-founder and CEO Karan Kunjur joins Deirdre Bosa at Yahoo Finance's 2026 Invest conference about the importance of space to the future of the data center buildout and how space can solve the problems and address the pushback.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Forget the \"Magnificent Seven.\" Berkshire Hathaway Could Be the Better Long-Term Bet.",
-   "link": "https://www.fool.com/investing/2026/11/13/forget-the-magnificent-seven-berkshire-hathaway-could-be-the-better-long-term-bet/?.tsrc=rss",
-   "published": "2026-11-13T15:43:02Z",
-   "publisher": "",
-   "summary": "The stock has averaged a 20% annual return over the past 60 years.",
-   "symbols": []
-  },
-  {
-   "title": "Why the Fed's Austan Goolsbee has a lot to say about inflation",
-   "link": "https://finance.yahoo.com/video/why-the-feds-austan-goolsbee-has-a-lot-to-say-about-inflation-154242746.html",
-   "published": "2026-11-13T15:42:42Z",
-   "publisher": "",
-   "summary": "President of the Federal Reserve Bank of Chicago, Austan Goolsbee, joins Brian Sozzi at Yahoo Finance's 2026 Invest conference to discuss the US economy, his biggest inflation concerns, and more.",
-   "symbols": []
-  },
-  {
-   "title": "Anthropic to IPO amid Nvidia fiasco",
-   "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-amid-nvidia-fiasco-154016102.html",
-   "published": "2026-11-13T15:40:16Z",
-   "publisher": "",
-   "summary": "Anthropic's IPO is just a week away, and is suddenly trying to dodge Nvidia fallout .",
    "symbols": [
     "BE",
     "DFEN",
