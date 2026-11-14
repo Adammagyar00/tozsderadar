@@ -290,6 +290,21 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .pf-table .asset .nm { color: var(--muted); font-size: 13px; max-width: 14ch; overflow: hidden; text-overflow: ellipsis; }
 .pf-table .up { color: var(--up); } .pf-table .down { color: var(--down); } .pf-table .na { color: var(--muted); }
 .pf-table .ctl { display: flex; gap: 4px; justify-content: flex-end; }
+.pf-tools { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; margin-top: 18px; }
+.pf-tools .chips { margin-top: 0; }
+.pf-sortbox { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); }
+.pf-sort { font: inherit; font-size: 14px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); }
+.pf-dir { border-color: var(--line); color: var(--fg); }
+.pf-fsum { font-family: var(--font-data); font-size: 13px; margin-top: 8px; font-variant-numeric: tabular-nums; }
+.pf-fsum:empty { display: none; }
+.pf-fsum .up { color: var(--up); } .pf-fsum .down { color: var(--down); }
+.pf-table th.sortable { cursor: pointer; user-select: none; }
+.pf-table th.sortable:hover, .pf-table th[aria-sort="ascending"], .pf-table th[aria-sort="descending"] { color: var(--accent); }
+.pf-table th.sortable::after { content: attr(data-arrow); }
+.pf-table tr.pf-grp td { background: var(--accent-soft); font-family: var(--font-body); font-size: 13px; text-align: left; padding: 7px 14px; border-bottom: 0; }
+.pf-table tr.pf-grp b { font-family: var(--font-data); letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); }
+.pf-table tr.pf-grp span { color: var(--muted); font-family: var(--font-data); }
+.pf-table tr.pf-grp .up { color: var(--up); } .pf-table tr.pf-grp .down { color: var(--down); }
 .pf-ic { background: none; border: 1px solid transparent; border-radius: 6px; color: var(--muted); cursor: pointer; font: inherit; font-size: 14px; line-height: 1; padding: 5px 7px; min-width: 28px; }
 .pf-ic:hover { color: var(--accent); border-color: var(--line); }
 .pf-ic.del:hover, .pf-ic.armed { color: var(--down); border-color: var(--down); }
@@ -1287,6 +1302,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
   // az árakat helyben írjuk át, hogy a gombok kattintás közben ne cserélődjenek
   let pfSig = "";
   const pfRefs = {};
+  // A táblázat szűrése (típus) és rendezése; böngészőnként megmarad
+  const PFVIEW_KEY = "tozsderadar-pfview-v1";
+  const PF_SORTS = [["type", "Típus szerint"], ["value", "Érték"], ["chg", "Mai változás"], ["pl", "Hozam"], ["name", "Név"]];
+  let pfView = (() => { try { const v = JSON.parse(lsGet(PFVIEW_KEY) || "null"); if (v && PF_SORTS.some(([k]) => k === v.sort)) return { filter: ["all", "crypto", "stock", "etf"].includes(v.filter) ? v.filter : "all", sort: v.sort, desc: v.desc !== false }; } catch (e) { /* alapérték */ } return { filter: "all", sort: "type", desc: true }; })();
+  const savePfView = () => lsPut(PFVIEW_KEY, JSON.stringify(pfView));
   function updatePortfolio() {
     const body = $("pfBody");
     if (!body) return;
@@ -1332,12 +1352,50 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       chart.append(ch, pfRefs.chartSum, pfRefs.chartBox, pfRefs.chartNote);
       body.append(chart);
       setTimeout(drawPfChart, 0);
+      // Szűrés típus szerint és rendezés
+      const tools = el("div", "pf-tools");
+      const fchips = el("div", "chips");
+      for (const [k, t] of [["all", "Mind"], ["crypto", "Crypto"], ["stock", "Stock"], ["etf", "ETF"]]) {
+        const n = k === "all" ? portfolio.length : portfolio.filter((h) => h.type === k).length;
+        if (k !== "all" && !n) continue;
+        const b = el("button", "chip", t); b.type = "button"; b.append(el("span", "n", String(n)));
+        b.setAttribute("aria-pressed", String(pfView.filter === k));
+        b.addEventListener("click", () => { pfView.filter = k; savePfView(); for (const x of fchips.children) x.setAttribute("aria-pressed", String(x === b)); pfRefs.order = ""; updatePortfolio(); });
+        fchips.append(b);
+      }
+      const sortBox = el("label", "pf-sortbox"); sortBox.append(el("span", null, "Rendezés:"));
+      const sel = el("select", "pf-sort"); sel.setAttribute("aria-label", "Rendezés");
+      for (const [k, t] of PF_SORTS) { const o = el("option", null, t); o.value = k; o.selected = pfView.sort === k; sel.append(o); }
+      const dirB = el("button", "pf-ic pf-dir", pfView.desc ? "↓" : "↑"); dirB.type = "button";
+      dirB.title = "Irány megfordítása"; dirB.setAttribute("aria-label", "Rendezés irányának megfordítása");
+      const setSort = (k, desc) => { pfView.sort = k; pfView.desc = desc; savePfView(); sel.value = k; dirB.textContent = desc ? "↓" : "↑"; pfRefs.order = ""; markHead(); updatePortfolio(); };
+      sel.addEventListener("change", () => setSort(sel.value, sel.value === "name" ? false : true));
+      dirB.addEventListener("click", () => setSort(pfView.sort, !pfView.desc));
+      sortBox.append(sel, dirB);
+      tools.append(fchips, sortBox);
+      pfRefs.filterSum = el("div", "pf-fsum");
+      body.append(tools, pfRefs.filterSum);
       const scroll = el("div", "pf-scroll");
       const table = el("table", "pf-table");
       const thead = el("thead"); const hr = el("tr");
-      for (const t of ["Eszköz", "Mennyiség", "Ár", "Változás", "Érték", "Arány", "Vételár", "Hozam", ""]) hr.append(el("th", null, t));
+      const HEAD_SORT = { "Eszköz": "name", "Változás": "chg", "Érték": "value", "Arány": "value", "Hozam": "pl" };
+      const ths = [];
+      for (const t of ["Eszköz", "Mennyiség", "Ár", "Változás", "Érték", "Arány", "Vételár", "Hozam", ""]) {
+        const th = el("th", null, t); hr.append(th);
+        const k = HEAD_SORT[t];
+        if (k) { th.classList.add("sortable"); th.tabIndex = 0; th.dataset.k = k; ths.push(th); const go = () => setSort(k, pfView.sort === k ? !pfView.desc : k !== "name"); th.addEventListener("click", go); th.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } }); }
+      }
+      const markHead = () => { for (const th of ths) { const on = th.dataset.k === pfView.sort; th.setAttribute("aria-sort", on ? (pfView.desc ? "descending" : "ascending") : "none"); th.dataset.arrow = on ? (pfView.desc ? " ↓" : " ↑") : ""; } };
+      markHead();
       thead.append(hr);
       const tbody = el("tbody");
+      pfRefs.tbody = tbody; pfRefs.order = "";
+      pfRefs.grp = {};
+      for (const t of ["crypto", "stock", "etf"]) {
+        const g = el("tr", "pf-grp"); const td = el("td"); td.colSpan = 9;
+        const lab = el("b", null, PF_TYPES[t][0]), sub = el("span", null, "");
+        td.append(lab, sub); g.append(td); pfRefs.grp[t] = { tr: g, sub };
+      }
       for (const h of portfolio) {
         const tr = el("tr");
         const asset = el("td"); const a = el("div", "asset");
@@ -1357,6 +1415,7 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
         }
         ctl.append(cw); tr.append(ctl);
         pfRefs["row-" + pfId(h)] = cells;
+        pfRefs["tr-" + pfId(h)] = tr;
         tbody.append(tr);
       }
       table.append(thead, tbody);
@@ -1384,6 +1443,45 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     const withPl = rows.filter((r) => r.pl != null);
     const plAbs = withPl.reduce((a, r) => a + r.pl, 0);
     const plCost = withPl.reduce((a, r) => a + r.cost, 0);
+
+    // Sorrend és szűrés: a sorokat csak akkor rendezzük át, ha a sorrend tényleg változott
+    if (pfRefs.tbody) {
+      const key = (r) => pfView.sort === "value" ? r.value : pfView.sort === "chg" ? (r.q && r.q.ch != null ? r.q.ch : null) : pfView.sort === "pl" ? (r.cost ? r.pl / r.cost : null) : null;
+      const dir = pfView.desc ? -1 : 1;
+      const cmp = (a, b) => {
+        if (pfView.sort === "name") return dir * a.h.symbol.localeCompare(b.h.symbol, "hu");
+        if (pfView.sort === "type") { const o = { crypto: 0, stock: 1, etf: 2 }; return (o[a.h.type] - o[b.h.type]) || ((b.value || 0) - (a.value || 0)); }
+        const x = key(a), y = key(b);
+        if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;
+        return dir * (x - y);
+      };
+      const vis = rows.filter((r) => pfView.filter === "all" || r.h.type === pfView.filter).sort(cmp);
+      const grouped = pfView.sort === "type" && pfView.filter === "all";
+      const order = (grouped ? "g" : "") + vis.map((r) => pfId(r.h)).join(",");
+      if (order !== pfRefs.order) {
+        pfRefs.order = order;
+        const nodes = [];
+        let last = null;
+        for (const r of vis) {
+          if (grouped && r.h.type !== last) { last = r.h.type; nodes.push(pfRefs.grp[last].tr); }
+          nodes.push(pfRefs["tr-" + pfId(r.h)]);
+        }
+        pfRefs.tbody.replaceChildren(...nodes);
+      }
+      // típusonkénti részösszeg a csoportfejlécben, és a szűrt rész összesítője
+      for (const t of ["crypto", "stock", "etf"]) {
+        const rs = rows.filter((r) => r.h.type === t), pv = rs.filter((r) => r.value != null), wd = rs.filter((r) => r.day != null);
+        const v = pv.reduce((a, r) => a + r.value, 0), d = wd.reduce((a, r) => a + r.day, 0), b = wd.reduce((a, r) => a + r.value - r.day, 0);
+        const g = pfRefs.grp[t];
+        g.sub.replaceChildren(document.createTextNode(" · " + rs.length + " tétel · " + (pv.length ? fmtMoney(v) : "–") + " · ma "), el("span", signCls(d), wd.length ? fmtMoney(d, true) + (b ? " (" + fmtPctN(d / b * 100) + ")" : "") : "–"));
+      }
+      const fs = pfRefs.filterSum; fs.replaceChildren();
+      if (pfView.filter !== "all") {
+        const pv = vis.filter((r) => r.value != null), wd = vis.filter((r) => r.day != null);
+        const v = pv.reduce((a, r) => a + r.value, 0), d = wd.reduce((a, r) => a + r.day, 0), b = wd.reduce((a, r) => a + r.value - r.day, 0);
+        fs.append(document.createTextNode(PF_TYPES[pfView.filter][0] + ": " + vis.length + " tétel · " + (pv.length ? fmtMoney(v) : "–") + (total && pv.length ? " (" + (v / total * 100).toFixed(1).replace(".", ",") + "% a portfolióból)" : "") + " · ma "), el("span", signCls(d), wd.length ? fmtMoney(d, true) + (b ? " (" + fmtPctN(d / b * 100) + ")" : "") : "–"));
+      }
+    }
 
     const put = (ref, v, s, cls) => { ref.v.textContent = v; ref.v.className = "v " + (cls || ""); ref.s.textContent = s; };
     put(pfRefs["sum-total"], priced.length ? fmtMoney(total) : "–", priced.length < rows.length ? `${rows.length - priced.length} tételnek nincs ára` : "minden tétel árazva");
