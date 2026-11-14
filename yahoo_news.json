@@ -1,7 +1,24 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-14T06:58:01Z",
+ "updatedAt": "2026-11-14T08:01:34Z",
  "items": [
+  {
+   "title": "Twenty One Capital CEO Says ‘A Balance Sheet Is Not A Business’ After $1 Billion Bitcoin-Driven Gain",
+   "link": "https://stocktwits.com/news-articles/markets/equity/twenty-one-capital-ceo-balance-sheet-business-after-1-billion-bitcoin-profit/cNbPR6IR9Qh?.tsrc=rss",
+   "published": "2026-11-14T07:49:06Z",
+   "publisher": "",
+   "summary": "Twenty One Capital ended the quarter with over 40,000 Bitcoin and $102.8 million in cash.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Strive CEO Says Bitcoin Could ‘Go To A Penny’ And The Company Would Still Survive Because It Has No Debt",
    "link": "https://stocktwits.com/news-articles/markets/equity/strive-ceo-says-bitcoin-could-go-to-a-penny-and-the-company-would-still-survive-because-it-has-no-debt/cNbPG3NR9QQ?.tsrc=rss",
@@ -12,11 +29,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -29,11 +46,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -46,11 +63,11 @@
     "BTC",
     "ETH",
     "HYPE",
-    "ONDO",
-    "XRP",
     "LLY",
+    "MRVL",
     "MU",
-    "MRVL"
+    "ONDO",
+    "XRP"
    ]
   },
   {
@@ -3184,22 +3201,6 @@
    "published": "2026-11-13T15:45:43Z",
    "publisher": "",
    "summary": "Washington politics and a chip selloff dragged SpaceX far below its peak while rival space stocks barely flinched. One bank still sees a Street-high target built on compute that does not exist yet. Is the fear justified or overdone?",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "People underappreciate how much they already use space: Karan Kunjur, K2 Space Co-Founder & CEO",
-   "link": "https://finance.yahoo.com/video/people-underappreciate-how-much-they-already-use-space-karan-kunjur-k2-space-co-founder--ceo-154330137.html",
-   "published": "2026-11-13T15:43:30Z",
-   "publisher": "",
-   "summary": "K2 Space co-founder and CEO Karan Kunjur joins Deirdre Bosa at Yahoo Finance's 2026 Invest conference about the importance of space to the future of the data center buildout and how space can solve the problems and address the pushback.",
    "symbols": [
     "BE",
     "DFEN",
