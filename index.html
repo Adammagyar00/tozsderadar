@@ -3271,8 +3271,14 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       try { if (syncId) window.TRApp.setSyncId(syncId); } catch (e) { /* régi app */ }
       app.append(el("p", "ok", "✓ A TőzsdeRadar Android-appban vagy."));
       app.append(el("p", null, "Két widget a kezdőképernyőre: a portfoliód értéke és napi változása, valamint a figyelőlistád friss hírei. Félóránként és a ↻ gombra frissülnek; koppintásra ez az app nyílik meg."));
-      if (!syncId) app.append(el("p", null, "A widgetekhez kapcsold be fent a szinkront (vagy csatlakozz a meglévőhöz a szinkronlinkkel): a widget a szinkronkód alapján látja a portfoliódat."));
-      else {
+      if (!syncId) {
+        app.append(el("p", null, "Kösd össze az appot a meglévő szinkronoddal: a böngészőben (⚙ Beállítások → Szinkron) másold ki a szinkronlinket, és illeszd be ide. Így az appban is ugyanaz a portfolio, kedvencek és riasztások lesznek, és a widgetek is ezt mutatják."));
+        const inp = el("input", "set-link"); inp.type = "text"; inp.placeholder = "…#sync=abc123…"; inp.autocomplete = "off";
+        const msg = el("p", "hint", "");
+        const join = () => { const m = String(inp.value || "").match(/([a-z0-9]{20,40})/); if (!m) { msg.textContent = "Ez nem érvényes szinkronlink vagy -kód."; return; } location.hash = "#sync=" + m[1]; };
+        const wr0 = el("div", "set-row"); wr0.append(inp, btn("Csatlakozás", join)); app.append(wr0, msg);
+        app.append(el("p", null, "Vagy kezdj új szinkront fent a „Szinkron bekapcsolása” gombbal."));
+      } else {
         let st = ""; try { st = window.TRApp.widgetStatus(); } catch (e) { st = ""; }
         if (st) app.append(el("p", "hint", "Widget-adatok: " + st));
         const wr = el("div", "set-row");
@@ -3290,10 +3296,11 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       app.append(el("p", null, "Megnyitás után a telefon rákérdez az ismeretlen forrásból való telepítésre; ezt egyszer engedélyezni kell a böngészőnek."));
       if (!syncId) app.append(el("p", null, "2. Ezután kapcsold be fent a szinkront, hogy az app ugyanazt a portfoliót és beállításokat lássa."));
       else {
-        const give = link("tozsderadar://widget?id=" + syncId, "2. Megnyitás az appban (szinkronnal)");
+        // Chrome Androidon az intent:// linket nyitja meg megbízhatóan (a sima tozsderadar:// linket gyakran nem)
+        const give = link("intent://widget?id=" + syncId + "#Intent;scheme=tozsderadar;package=hu.tozsderadar.widget;end", "2. Megnyitás az appban (szinkronnal)");
         give.className = "btn"; give.removeAttribute("target"); give.removeAttribute("rel");
         const wr2 = el("div", "set-row"); wr2.append(give); app.append(wr2);
-        app.append(el("p", null, "Ez megnyitja az appot, és összeköti ezzel a szinkronnal (portfolio, kedvencek, riasztások). Ha a gomb nem működik, nyisd meg az appot, és ott csatlakozz a szinkronlinkkel."));
+        app.append(el("p", null, "Ez megnyitja az appot, és összeköti ezzel a szinkronnal (portfolio, kedvencek, riasztások). Ha a gomb nem működik: másold ki fent a szinkronlinket, nyisd meg az appot, és ott a ⚙ Beállítások → „Android-app és widgetek” mezőbe illeszd be."));
       }
     }
   }
