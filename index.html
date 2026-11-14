@@ -3297,7 +3297,8 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (!syncId) app.append(el("p", null, "2. Ezután kapcsold be fent a szinkront, hogy az app ugyanazt a portfoliót és beállításokat lássa."));
       else {
         // Chrome Androidon az intent:// linket nyitja meg megbízhatóan (a sima tozsderadar:// linket gyakran nem)
-        const give = link("intent://widget?id=" + syncId + "#Intent;scheme=tozsderadar;package=hu.tozsderadar.widget;end", "2. Megnyitás az appban (szinkronnal)");
+        // Ha az app nincs telepítve, a Play Áruház helyett az APK letöltése indul
+        const give = link("intent://widget?id=" + syncId + "#Intent;scheme=tozsderadar;S.browser_fallback_url=" + encodeURIComponent("https://github.com/Adammagyar00/tozsderadar/releases/download/android-widget/TozsdeRadar-widget.apk") + ";end", "2. Megnyitás az appban (szinkronnal)");
         give.className = "btn"; give.removeAttribute("target"); give.removeAttribute("rel");
         const wr2 = el("div", "set-row"); wr2.append(give); app.append(wr2);
         app.append(el("p", null, "Ez megnyitja az appot, és összeköti ezzel a szinkronnal (portfolio, kedvencek, riasztások). Ha a gomb nem működik: másold ki fent a szinkronlinket, nyisd meg az appot, és ott a ⚙ Beállítások → „Android-app és widgetek” mezőbe illeszd be."));
