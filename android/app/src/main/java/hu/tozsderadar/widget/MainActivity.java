@@ -174,6 +174,13 @@ public class MainActivity extends Activity {
             return "frissítve " + Data.time(d.optLong("updated")) + (err != null ? " · " + err : "");
         }
 
+        /** A widget utolsó adatai (JSON), az oldal Beállításaiban látszik tételenként. */
+        @JavascriptInterface
+        public String widgetData() {
+            org.json.JSONObject d = Data.cached(MainActivity.this);
+            return d == null ? "" : d.toString();
+        }
+
         @JavascriptInterface
         public void refreshWidgets() {
             Data.refreshAsync(MainActivity.this, null);

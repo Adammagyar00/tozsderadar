@@ -453,7 +453,7 @@ async function cgId(h) {
     return c.length ? c[0].id : null;
   } catch { return null; }
 }
-async function valuePf(pf, env, week) {
+async function valuePf(pf, env, week, px) {
   const out = new Map();
   const crypto = pf.filter((h) => h.type === "crypto");
   const ids = new Map();
@@ -524,7 +524,18 @@ async function valuePf(pf, env, week) {
   await Promise.all(pf.filter((h) => !out.has(h) && h.type !== "crypto" && SYMBOL_RE.test(String(h.symbol).toUpperCase())).map(async (h) => {
     try { const f = await quote(String(h.symbol).toUpperCase(), env); if (f) out.set(h, { now: f.price * h.qty, base: week ? null : f.prevClose ? f.prevClose * h.qty : null }); } catch { /* kimarad */ }
   }));
-  const rows = pf.filter((h) => out.has(h)).map((h) => { const o = out.get(h); return { sym: h.symbol, now: o.now, base: o.base, ch: o.base ? (o.now / o.base - 1) * 100 : null }; });
+  // Ellenőrzés az oldal/app saját áraival (srv.px, legfeljebb 3 napos): ha a szerver ára több mint 15%-kal
+  // eltér, vagy nincs ára, az oldalét használjuk — így a widget és a Telegram ugyanazt mutatja, mint az app
+  const pp = px && px.p && Date.now() - (px.t || 0) < 3 * 86400000 ? px.p : {};
+  for (const h of pf) {
+    const a = pp[h.type + ":" + h.symbol];
+    if (!a || !(a[0] > 0)) continue;
+    const o = out.get(h), page = a[0] * h.qty;
+    if (o && Math.abs(o.now / page - 1) <= 0.15) continue;
+    const ch = a[1];
+    out.set(h, { now: page, base: !week && ch != null ? page / (1 + ch / 100) : null, src: "app" });
+  }
+  const rows = pf.filter((h) => out.has(h)).map((h) => { const o = out.get(h); return { sym: h.symbol, now: o.now, base: o.base, ch: o.base ? (o.now / o.base - 1) * 100 : null, src: o.src || "szerver" }; });
   return { rows, missing: pf.filter((h) => !out.has(h)).map((h) => h.symbol) };
 }
 
@@ -671,7 +682,7 @@ export class Store {
     const srv = (k.srv && k.srv.v) || {};
     const pf = (srv.pf || []).filter((h) => h && h.symbol && h.qty > 0).map((h) => ({ ...h }));
     const [pv, fx, data] = await Promise.all([
-      pf.length ? valuePf(pf, this.env, false) : Promise.resolve({ rows: [], missing: [] }),
+      pf.length ? valuePf(pf, this.env, false, srv.px) : Promise.resolve({ rows: [], missing: [] }),
       freshQuotes(["USDHUF=X", "EURUSD=X"]),
       fetch(SITE + "data.json?t=" + Date.now()).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
     ]);
@@ -700,6 +711,7 @@ export class Store {
         total: total * rate, totalUsd: total, totalHuf: usdhuf ? total * usdhuf : null,
         day: day * rate, dayPct: base ? day / base * 100 : null,
         movers: rows.filter((r) => r.ch != null).sort((a, b) => Math.abs(b.ch) - Math.abs(a.ch)).slice(0, 5).map((r) => ({ sym: r.sym, ch: r.ch, value: r.now * rate })),
+        items: rows.map((r) => ({ sym: r.sym, value: r.now * rate, src: r.src })),
         missing: pv.missing,
       },
       news: news.slice(0, 12),
@@ -943,7 +955,7 @@ export class Store {
     const favs = (srv.favs || []).filter(Boolean).slice(0, 25);
     const fx = await freshQuotes(["USDHUF=X"]);
     const q = await weekQuotes(favs);
-    const pv = await valuePf(pf, this.env, true);
+    const pv = await valuePf(pf, this.env, true, srv.px);
     const lines = ["📊 <b>TőzsdeRadar heti összefoglaló</b> · " + budapest().date.replace(/-/g, ".")];
     const rows = pv.rows;
     if (rows.length) {
@@ -976,7 +988,7 @@ export class Store {
     const pf = (srv.pf || []).filter((h) => h && h.symbol && h.qty > 0).map((h) => ({ ...h }));
     const favs = (srv.favs || []).filter(Boolean).slice(0, 25);
     const q = await freshQuotes(["USDHUF=X", ...favs]);
-    const pv = await valuePf(pf, this.env, false);
+    const pv = await valuePf(pf, this.env, false, srv.px);
     const lines = ["🌙 <b>TőzsdeRadar esti összefoglaló</b> · " + budapest().date.replace(/-/g, ".")];
     const rows = pv.rows;
     if (rows.length) {

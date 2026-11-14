@@ -3055,12 +3055,27 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
     return null;
   };
   const pfY = (h) => h.type === "crypto" ? h.symbol + "-USD" : ucitsOf(h.symbol) || (NO_STREAM.has(h.symbol) ? null : h.symbol.replace(/\./g, "-"));
+  // A portfolio tételeinek utolsó ismert ára (USD) és napi változása: a szerver (widget, Telegram)
+  // ezzel ellenőrzi a saját árait. Legfeljebb 10 percenként frissül, hogy ne kelljen minden percben szinkronizálni.
+  let pxSnap = null;
+  const pxOf = () => {
+    const now = Date.now();
+    if (pxSnap && now - pxSnap.t < 600000 && Object.keys(pxSnap.p).length === portfolio.length) return pxSnap;
+    const p = {};
+    for (const h of portfolio) {
+      const q = pfQuote(h);
+      if (q && typeof q.p === "number" && q.p > 0) p[h.type + ":" + h.symbol] = [Number(q.p.toPrecision(6)), q.ch == null ? null : Math.round(q.ch * 100) / 100];
+    }
+    if (Object.keys(p).length) pxSnap = { t: now, p };
+    return pxSnap;
+  };
   function syncValues() {
     const v = {
       portfolio, favs: favs || [], chart: lwcPrefs, pfcur: pfCur, settings, mywl: myWl,
       alerts: alerts.map((a) => ({ ...Object.fromEntries(AL_CFG.filter((k) => a[k] !== undefined).map((k) => [k, a[k]])), y: alertY(a) })),
       srv: {
         pf: portfolio.map((h) => ({ symbol: h.symbol, qty: h.qty, type: h.type, y: pfY(h), cg: h.cg || null })), favs: (favs || []).map((f) => f.symbol),
+        px: pxOf(),
         // a hírek és a naptár jelölései (BTC, NVDA, VUAA…): portfolio, kedvencek, figyelőlista
         syms: [...new Set([...portfolio.map((h) => h.symbol), ...(favs || []).map((f) => { const u = f.symbol.toUpperCase(); return (UCITS[u] || {}).sym || u.replace(/-USD$/, "").split(".")[0]; }), ...(watchlist || []).map((w) => String(w.symbol).toUpperCase())])],
         ...Object.fromEntries(TG_OPTS.map(([k]) => [k, settings[k] !== false])),
@@ -3281,6 +3296,20 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       } else {
         let st = ""; try { st = window.TRApp.widgetStatus(); } catch (e) { st = ""; }
         if (st) app.append(el("p", "hint", "Widget-adatok: " + st));
+        // tételenként, mennyinek számolja a widget (az app vagy a szerver ára alapján)
+        try {
+          const wd = window.TRApp.widgetData && JSON.parse(window.TRApp.widgetData() || "null");
+          const items = wd && wd.portfolio && wd.portfolio.items;
+          if (items && items.length) {
+            const cur = wd.currency === "HUF" ? "HUF" : wd.currency === "EUR" ? "EUR" : "USD";
+            const f = (v) => cur === "HUF" ? Math.round(v).toLocaleString("hu-HU") + " Ft" : v.toLocaleString("hu-HU", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + (cur === "EUR" ? " €" : " $");
+            const det = el("details"); det.append(el("summary", "hint", "Widget-összeg: " + f(wd.portfolio.total) + " · tételenként"));
+            const ul = el("ul"); ul.style.margin = "6px 0 0"; ul.style.paddingLeft = "18px"; ul.style.fontSize = "13px";
+            for (const it of items) ul.append(el("li", null, it.sym + ": " + f(it.value) + (it.src === "app" ? " (az app ára)" : "")));
+            if (wd.portfolio.missing && wd.portfolio.missing.length) ul.append(el("li", null, "Ár nélkül: " + wd.portfolio.missing.join(", ")));
+            det.append(ul); app.append(det);
+          }
+        } catch (e) { /* régi app */ }
         const wr = el("div", "set-row");
         let canPin = false; try { canPin = window.TRApp.canPin(); } catch (e) { canPin = false; }
         if (canPin) wr.append(btn("Portfolio widget kirakása", () => window.TRApp.pinWidget("portfolio")), btn("Watchlist News widget kirakása", () => window.TRApp.pinWidget("news")));
