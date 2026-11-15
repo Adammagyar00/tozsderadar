@@ -1,6 +1,167 @@
 {
- "builtAt": "2026-11-15T05:01:25Z",
+ "builtAt": "2026-11-15T06:55:47Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 16.",
+     "event": "Japán GDP (Q3); USA: Empire State index"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés; német ZEW; USA kiskereskedelem; Nvidia és Home Depot gyorsjelentés"
+    },
+    {
+     "date": "nov. 18.",
+     "event": "UK CPI; FOMC-jegyzőkönyv; Target, Lowe's, TJX, Palo Alto"
+    },
+    {
+     "date": "nov. 19.",
+     "event": "Anthropic tőzsdei bevezetése; Walmart, Alibaba gyorsjelentés"
+    },
+    {
+     "date": "nov. 20.",
+     "event": "Moody's: Magyarország felülvizsgálata; japán CPI"
+    },
+    {
+     "date": "nov. 25.",
+     "event": "USA GDP (2. becslés) és PCE"
+    },
+    {
+     "date": "dec. 1.",
+     "event": "Marvell gyorsjelentés; eurózóna infláció"
+    },
+    {
+     "date": "dec. 9.",
+     "event": "Fed kamatdöntés"
+    },
+    {
+     "date": "dec. 15.",
+     "event": "MNB kamatdöntés; USA PPI; német ZEW"
+    },
+    {
+     "date": "dec. 17.",
+     "event": "EKB és BoE kamatdöntés"
+    }
+   ],
+   "date": "2026-11-15",
+   "generatedAt": "2026-11-15T06:49:00Z",
+   "headline": "65 ezer dollár alá esett a bitcoin, az XRP 1 dollár alatt, a SpaceX először kapta el a Starship pályáról visszatérő felső fokozatát",
+   "items": [
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Barron's · Investing.com · CNBC",
+     "summary": "A SpaceX szombaton a Starbase tornyának „pálcika” karjaival elkapta a 15. repülésen pályára állt Ship 42 felső fokozatot, nagyjából 22,5 órával az indítás után; ez az első eset, hogy felső fokozatot a toronnyal fogtak el orbitális repülés után. A kettős elkapás nem sikerült, mert a Super Heavy gyorsító elveszett. Kettős visszanyerést egy küldetésen, illetve visszanyert felső fokozat újrafelhasználását a cég még nem mutatta be.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Történelmi első: a SpaceX a toronnyal kapta el a Starship pályáról visszatérő felső fokozatát",
+     "url": "https://finance.yahoo.com/m/1b5dbe17-8e4b-3ad2-b820-5d8283805c08/spacex-catches-starship%E2%80%99s.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CryptoProwl",
+     "summary": "A bitcoin szombaton 65 000 dollár alá esett, a jelentés idején 64 595 dolláron állt, ami 5,57%-os csökkenés egy nappal korábbhoz képest. A CoinGecko-alapú adatok szerint a heti esés 13% fölötti; a háttérben az amerikai spot bitcoin-ETF-ekből tartó kiáramlás és a derivatív piacok kényszerlikvidálásai állnak.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "65 000 dollár alá esett a bitcoin, folytatódik az egyhetes esés",
+     "url": "https://www.cryptoprowl.com/releases/bitcoin-drops-below-65000-extending-weeklong-slide-7908?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St. · Investing.com",
+     "summary": "Az XRP egyetlen nap alatt áttörte az egy hónapja tartó támaszszintet, és 1 dollár alá esett; a 24/7 Wall St. szerint a Ripple részéről nincs olyan hír, amely ezt megmagyarázná, a mozgást piaci szintű tényezők hajtják. Az Investing.com szerint a token mintegy 10%-ot esett a szombati kriptopiaci eladási hullámban.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Ismét 1 dollár alá zuhant az XRP",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/14/why-is-xrp-crashing-below-1/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Investing.com szerint az ether mintegy 10%-ot veszített értékéből a hétvégi kriptopiaci esés során. A TokenPost szerint vasárnap hajnalban a Binance-en rövid időre 1 800 dollár alá, 1 790 dollárra csúszott az árfolyam.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "10%-ot esett az ether a kriptopiaci eladási hullámban",
+     "url": "https://www.investing.com/news/cryptocurrency-news/ethereum-falls-10-in-rout-5027613",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Jensen Huang Nvidia-vezérigazgatói visszahelyezését kérő petíciót szombat délutánig több mint 115 000-en írták alá, köztük Elon Musk és más technológiai vezetők. Az aláírók személyét és kapcsolódását nem ellenőrizték, a szervezők szerint dolgoznak a hamis aláírások kiszűrésén. Az Nvidia igazgatósága eddig nem jelzett irányváltást.",
+     "symbols": [],
+     "title": "Musk és más techvezetők is aláírták a Jensen Huang visszahelyezését követelő petíciót",
+     "url": "https://finance.yahoo.com/technology/articles/elon-musk-other-tech-execs-214122588.html",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Sean Duffy közlekedési miniszter szerint a pénteki, több mint négyórás országos repülési leállás akkor kezdődött, amikor az L3Harris egy távoli FAA-létesítményben rézvezetéket cserélt üvegszálra, és egy router másodpercenként tömeges kapcsolódási kísérletekkel árasztotta el a rendszert. Azt még nem állapították meg, hogy telepítési hiba vagy hibás eszköz okozta-e; kibertámadásra nincs jel. Az L3Harris közölte, hogy segíti a vizsgálatot.",
+     "symbols": [],
+     "title": "Egy L3Harris által telepített routert okolnak az amerikai légiforgalmi leállásért",
+     "url": "https://www.investing.com/news/stock-market-news/us-aviation-shutdown-blamed-on-l3-harris-installed-router-5027495",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "TokenPost · ChainCatcher",
+     "summary": "A TokenPost adatai szerint 24 óra alatt mintegy 60,3 millió dollárnyi HYPE-pozíciót likvidáltak a Hyperliquiden, ami legalább egy éve a legnagyobb napi összeg; szinte mind long pozíció volt, és kb. 33 millió dollár két órán belül zárult. Az értesülést nagy hírügynökség vagy kriptós szaklap egyelőre nem erősítette meg.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "Egy év óta nem látott HYPE-likvidáció a Hyperliquiden",
+     "url": "https://www.tokenpost.com/news/investing/57655",
+     "verified": false
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért)",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan; következő döntés: november 17.",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "Hétvégén is folytatódott a kriptopiaci eladási hullám: a bitcoin szombaton 65 000 dollár alá esett, az ether mintegy 10%-ot veszített és rövid időre 1 800 dollár alá csúszott, az XRP pedig ismét 1 dollár alatt jár. A SpaceX történelmi mérföldkövet ért el: a Starbase tornya elkapta a pályáról visszatérő Starship felső fokozatot, bár a gyorsító elveszett. Az amerikai közlekedési miniszter szerint a pénteki országos repülési leállást egy L3Harris által telepített router okozhatta, az Nvidiánál pedig már több mint 115 ezren kérik Jensen Huang visszahelyezését. A jövő hét fő eseményei: az MNB keddi kamatdöntése, az Nvidia keddi gyorsjelentése, a Fed-jegyzőkönyv, az Anthropic tőzsdei bevezetése, valamint pénteken a Moody's magyar felülvizsgálata.",
+   "updatedAt": "2026-11-15T06:49:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -20929,6 +21090,22 @@
   },
   {
    "actual": "",
+   "country": "HU",
+   "date": "2026-11-20",
+   "event": "Moody's: Magyarország szuverén adósbesorolásának felülvizsgálata",
+   "forecast": "",
+   "importance": 2,
+   "note": "A hitelminősítők jellemzően a piacok zárása után, késő este teszik közzé a döntést.",
+   "previous": "Baa2, negatív kilátás",
+   "source": "Moody's 2026-os ütemterv (VG.hu, ING)",
+   "symbols": [],
+   "time": "",
+   "type": "Egyéb",
+   "url": "https://www.vg.hu/velemeny/2026/05/hitelminositoi-felulvizsgalatok-erkeznek",
+   "id": "2026-11-20-hu-moodys"
+  },
+  {
+   "actual": "",
    "country": "Eurózóna",
    "date": "2026-11-23",
    "event": "Eurózóna HCOB beszerzésimenedzser-index (BMI, november, előzetes)",
@@ -21458,6 +21635,38 @@
    "type": "Politika",
    "url": "https://www.iedconline.org/news/2026/09/09/this-week-in-iedc-news/congress-passes-short-term-funding-bill-extending-federal-funding-through-december-11/",
    "id": "2026-12-11-us-funding-deadline"
+  },
+  {
+   "actual": "",
+   "country": "Németország",
+   "date": "2026-12-15",
+   "event": "ZEW gazdasági várakozási index, december",
+   "forecast": "",
+   "importance": 2,
+   "note": "",
+   "previous": "",
+   "source": "ZEW – 2026/2027-es közzétételi időpontok",
+   "symbols": [],
+   "time": "11:05",
+   "type": "Makroadat",
+   "url": "https://www.zew.de/fileadmin/FTP/div/ZEW-Konjunkturerwartungen_Termine2026_2027.pdf",
+   "id": "2026-12-15-de-zew"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-15",
+   "event": "Termelői árindex (PPI), november",
+   "forecast": "",
+   "importance": 2,
+   "note": "08:30 ET",
+   "previous": "",
+   "source": "BLS – 2026. decemberi közzétételi naptár",
+   "symbols": [],
+   "time": "14:30",
+   "type": "Makroadat",
+   "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
+   "id": "2026-12-15-us-ppi"
   },
   {
    "actual": "",
