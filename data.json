@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-15T18:55:51Z",
+ "builtAt": "2026-11-15T20:56:04Z",
  "digests": [
   {
    "calendar": [
@@ -253,6 +253,19 @@
      "title": "Irán szerint elsüllyedt egy 2 millió hordó olajat szállító szupertanker a Hormuzi-szorosban",
      "url": "https://www.rte.ie/news/middle-east/2026/1115/1599293-iran-tanker-hormuz/",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-15T20:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Financial Times (Bloomberg-átvétel)",
+     "summary": "A Financial Times több, az ügyet ismerő forrásra hivatkozva arról ír, hogy Jensen Huang a szilícium-völgyi szövetségeseivel tárgyal egy lehetséges visszatérésről, akik nyomást gyakorolnának az Nvidia igazgatóságára, és a Fehér Ház támogatását is kérnék. Az Nvidia és Huang nem erősítette meg az értesülést; az igazgatóság a jelentések szerint még nem indított formális folyamatot, Huang esetleges visszatérésének pedig a Wachtell Lipton által vezetett belső vizsgálaton is át kellene mennie. Az Nvidia kedden teszi közzé gyorsjelentését.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Értesülések szerint Jensen Huang szövetségeseivel egyeztet az Nvidia-vezérigazgatói visszatéréséről",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-15/huang-discusses-comeback-as-nvidia-chief-with-allies-ft-says",
+     "verified": false
     }
    ],
    "markets": [
@@ -279,7 +292,7 @@
     }
    ],
    "summary": "Hétvégén is folytatódott a kriptopiaci eladási hullám: a bitcoin szombaton 65 000 dollár alá esett, az ether mintegy 10%-ot veszített és rövid időre 1 800 dollár alá csúszott, az XRP pedig ismét 1 dollár alatt jár. A SpaceX történelmi mérföldkövet ért el: a Starbase tornya elkapta a pályáról visszatérő Starship felső fokozatot, bár a gyorsító elveszett. Az amerikai közlekedési miniszter szerint a pénteki országos repülési leállást egy L3Harris által telepített router okozhatta, az Nvidiánál pedig már több mint 115 ezren kérik Jensen Huang visszahelyezését. A jövő hét fő eseményei: az MNB keddi kamatdöntése, az Nvidia keddi gyorsjelentése, a Fed-jegyzőkönyv, az Anthropic tőzsdei bevezetése, valamint pénteken a Moody's magyar felülvizsgálata.",
-   "updatedAt": "2026-11-15T18:40:00Z",
+   "updatedAt": "2026-11-15T20:40:00Z",
    "watchlist": []
   },
   {
