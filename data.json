@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-15T06:55:47Z",
+ "builtAt": "2026-11-15T09:55:45Z",
  "digests": [
   {
    "calendar": [
@@ -133,6 +133,46 @@
      "title": "Egy év óta nem látott HYPE-likvidáció a Hyperliquiden",
      "url": "https://www.tokenpost.com/news/investing/57655",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-15T09:34:30Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "crypto.news · TokenPost · CoinGlass-adatok",
+     "summary": "Vasárnap kora reggel a bitcoin 62 100 dollár körülire esett (a Coinbase adatai szerint rövid időre 61 946 dollárig), ami július közepe óta a legalacsonyabb szint; azóta 64 ezer dollár fölé korrigált. A CoinGlass adatai szerint a kriptopiacon mintegy 2 milliárd dollárnyi tőkeáttételes pozíciót likvidáltak, túlnyomórészt long pozíciókat, ebből körülbelül 774 millió dollár a bitcoinra esett. Az elemzők az amerikai spot bitcoin-ETF-ek hét kereskedési napja tartó, összesen mintegy 1,91 milliárd dolláros nettó kiáramlását, valamint azt említik, hogy a piac már teljesen beárazta a Fed decemberi 25 bázispontos kamatemelését.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "62 ezer dollárig zuhant a bitcoin, mintegy 2 milliárd dollárnyi pozíciót likvidáltak",
+     "url": "https://crypto.news/bitcoin-price-falls-62000-etf-outflows-liquidations/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-15T09:34:30Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Hindalco tulajdonában lévő Novelis alumíniumgyártó megállapodott két, teljes tulajdonában lévő kínai leányvállalata eladásáról a Shenzhen Hongzhi Industrial Investment részére, mintegy 265 millió dollárért. A két egység nettó árbevétele a 2026 márciusában zárult pénzügyi évben körülbelül 376 millió dollár volt, a Hindalco konszolidált árbevételének nagyjából 1%-a. A tranzakció a hatósági jóváhagyásoktól függően 12 hónapon belül zárulhat.",
+     "symbols": [],
+     "title": "A Novelis 265 millió dollárért eladja két kínai leányvállalatát",
+     "url": "https://www.investing.com/news/company-news/novelis-to-sell-two-china-subsidiaries-for-265-million-5027690",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-15T09:34:30Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "Jordi Visser makrobefektető szerint a Fed decemberi kamatdöntése lehet a bitcoin következő meghatározó eseménye. Visser azt is megkérdőjelezte, hogy a Wall Street reakciója, köztük az Nvidiát érő elemzői leminősítések, összhangban van-e a cégnél az elmúlt héten történtekkel.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Jordi Visser szerint a Fed decemberi döntése lehet a bitcoin következő katalizátora",
+     "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/jordi-visser-december-fed-decision-bitcoin-wall-street-nvidia-downgrades/cNbEJIIR9QA?.tsrc=rss",
+     "verified": true
     }
    ],
    "markets": [
@@ -159,7 +199,7 @@
     }
    ],
    "summary": "Hétvégén is folytatódott a kriptopiaci eladási hullám: a bitcoin szombaton 65 000 dollár alá esett, az ether mintegy 10%-ot veszített és rövid időre 1 800 dollár alá csúszott, az XRP pedig ismét 1 dollár alatt jár. A SpaceX történelmi mérföldkövet ért el: a Starbase tornya elkapta a pályáról visszatérő Starship felső fokozatot, bár a gyorsító elveszett. Az amerikai közlekedési miniszter szerint a pénteki országos repülési leállást egy L3Harris által telepített router okozhatta, az Nvidiánál pedig már több mint 115 ezren kérik Jensen Huang visszahelyezését. A jövő hét fő eseményei: az MNB keddi kamatdöntése, az Nvidia keddi gyorsjelentése, a Fed-jegyzőkönyv, az Anthropic tőzsdei bevezetése, valamint pénteken a Moody's magyar felülvizsgálata.",
-   "updatedAt": "2026-11-15T06:49:00Z",
+   "updatedAt": "2026-11-15T09:34:30Z",
    "watchlist": []
   },
   {
