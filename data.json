@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-15T15:56:17Z",
+ "builtAt": "2026-11-15T18:55:51Z",
  "digests": [
   {
    "calendar": [
@@ -197,6 +197,62 @@
      "title": "Rijád felé indított húszi rakétákat fogott el Szaúd-Arábia, drónokat lőttek le az olajban gazdag Keleti tartomány felett",
      "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-15T18:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A szingapúri Megaspeed felhőszolgáltató vasárnapi közleménye szerint Alice Huang, a cég korábbi ügyvezetője 2025. augusztus 30-án hivatalosan távozott, és jelenleg nincs szerepe a vállalatnál. A cég belső vizsgálatot indított az üzletét és ellátási láncát érintő sajtóértesülések miatt, és jogszerű működést hangsúlyoz. Az ügy az Nvidia-botrányhoz kapcsolódik, amely Jensen Huang vezérigazgatói lemondásához vezetett.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "A Megaspeed szerint Alice Huang még 2025 augusztusában távozott, belső vizsgálatot indított a cég",
+     "url": "https://www.investing.com/news/stock-market-news/megaspeed-says-alice-huang-left-company-in-august-2025-5027761",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-15T18:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A BeInCrypto beszámolója szerint egy Hyperliquiden kereskedő nagybefektető tíz nyertes ügylet után 10,5 millió dolláros veszteséget szenvedett egyetlen ether long pozíción. Ezt követően 26,97 millió dolláros, tízszeres tőkeáttételű Solana long pozíciót nyitott.",
+     "symbols": [
+      "HYPE",
+      "ETH"
+     ],
+     "title": "10,5 millió dollárt bukott egy ETH-longon egy Hyperliquid-bálna, most tőkeáttételes Solana-longot nyitott",
+     "url": "https://beincrypto.com/hyperliquid-whale-eth-loss-solana-long/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-15T18:40:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Simply Wall St.",
+     "summary": "A Simply Wall St Yahoo Finance-en megjelent cikke szerint a SoFi Technologies november közepén a Polygon blokkláncra is kiterjesztette a SoFi Bank által kibocsátott, 1:1 arányban dollárral fedezett SoFiUSD stablecoint. Az Ethereum és a Solana után ez a harmadik nagy hálózat, ahol a token elérhető.",
+     "symbols": [
+      "SOFI"
+     ],
+     "title": "A Polygon hálózatra is kiterjesztette SoFiUSD stablecoinját a SoFi",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/does-sofi-technologies-sofi-polygon-130607240.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-15T18:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "Iráni Forradalmi Gárda közlése (RTÉ, Arab News)",
+     "summary": "Az iráni Forradalmi Gárda vasárnapi közlése szerint két, általa nem engedélyezett útvonalon haladó olajszállító tanker aknára futott a Hormuzi-szoros déli részén, és közülük egy több mint 2 millió hordó nyersolajat szállító szupertanker kigyulladt és elsüllyedt. Az állítást független forrás eddig nem erősítette meg: a brit UKMTO csak egy indiai jelentésről tud egy tanker elleni támadásról, és nem tudni, ugyanarról az esetről van-e szó. A hajók nevét és származását Teherán nem közölte.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Irán szerint elsüllyedt egy 2 millió hordó olajat szállító szupertanker a Hormuzi-szorosban",
+     "url": "https://www.rte.ie/news/middle-east/2026/1115/1599293-iran-tanker-hormuz/",
+     "verified": false
     }
    ],
    "markets": [
@@ -223,7 +279,7 @@
     }
    ],
    "summary": "Hétvégén is folytatódott a kriptopiaci eladási hullám: a bitcoin szombaton 65 000 dollár alá esett, az ether mintegy 10%-ot veszített és rövid időre 1 800 dollár alá csúszott, az XRP pedig ismét 1 dollár alatt jár. A SpaceX történelmi mérföldkövet ért el: a Starbase tornya elkapta a pályáról visszatérő Starship felső fokozatot, bár a gyorsító elveszett. Az amerikai közlekedési miniszter szerint a pénteki országos repülési leállást egy L3Harris által telepített router okozhatta, az Nvidiánál pedig már több mint 115 ezren kérik Jensen Huang visszahelyezését. A jövő hét fő eseményei: az MNB keddi kamatdöntése, az Nvidia keddi gyorsjelentése, a Fed-jegyzőkönyv, az Anthropic tőzsdei bevezetése, valamint pénteken a Moody's magyar felülvizsgálata.",
-   "updatedAt": "2026-11-15T15:40:00Z",
+   "updatedAt": "2026-11-15T18:40:00Z",
    "watchlist": []
   },
   {
