@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T13:56:53Z",
+ "builtAt": "2026-11-16T14:56:34Z",
  "digests": [
   {
    "calendar": [
@@ -617,6 +617,54 @@
      "title": "Nagy forgalommal veszik a Richter részvényeit",
      "url": "https://www.portfolio.hu/uzlet/20261116/nagy-forgalommal-veszik-a-richter-reszvenyeit-876724",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T14:40:16Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CNBC · Reuters · Yahoo Finance",
+     "summary": "A nyitás után a Nasdaq Composite 1,4%-kal, az S&P 500 0,8%-kal, a Dow Jones 0,2%-kal esett. A Reuters szerint az Intel, az AMD, a Broadcom és a Micron 3,5–5%-ot veszített; a befektetők az Nvidia keddi gyorsjelentésére és az Anthropic szerdai árazású tőzsdei bevezetésére várnak.",
+     "symbols": [
+      "QQQ",
+      "VOO",
+      "MU"
+     ],
+     "title": "Eséssel nyitott a Wall Street: a Nasdaq 1,4%-kal, az S&P 500 0,8%-kal gyengült, a chippapírok vezetik a csökkenést",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T14:40:16Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "New York-i Fed · CNBC",
+     "summary": "A New York-i Fed felmérése szerint az általános üzleti feltételek indexe 18 ponttal, 7,8-ra esett novemberben, miközben a Dow Jones konszenzusa 16,7 volt. Az új rendelések és a szállítások nőttek, a foglalkoztatás több mint négy éve nem látott ütemben bővült; az input- és eladási árak emelkedése lassult, de magas maradt.",
+     "symbols": [],
+     "title": "A vártnál jóval gyengébb lett a New York-i Empire State feldolgozóipari index: 7,8 pont",
+     "url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/empire2026/2026_11_empire-state-manufacturing-survey.pdf",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T14:40:16Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Investing.com · RTTNews · Benzinga",
+     "summary": "Az Aramark korrigált EPS-e 71 cent lett a várt 75 cent helyett, bevétele kb. 5,29 milliárd dollár volt, a 2027-es pénzügyi évre adott 2,68–2,79 dolláros EPS-sáv pedig a 2,81 dolláros konszenzus alatt van. A cég 1 milliárd dolláros saját részvény-visszavásárlást indít és 17%-kal emeli az osztalékot, a részvény mégis 4–5%-ot esett a nyitás előtt.",
+     "symbols": [],
+     "title": "Esik az Aramark: elmaradt a negyedéves eredmény, gyenge a 2027-es előrejelzés",
+     "url": "https://www.rttnews.com/3715001/aramark-q4-results-climb-sees-growth-in-fy27-lifts-dividend-plans-1-bln-buyback-but-stock-down.aspx",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T14:40:16Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Index · Világgazdaság",
+     "summary": "Az Országgyűlés háromnapos rendkívüli ülésen, mintegy 30 órás időkeretben tárgyalja a jövő évi költségvetést. A kormány az idei, 7,5%-ra becsült hiányt jövőre a GDP 4,9%-ára csökkentené; a Költségvetési Tanács nem emelt alapvető kifogást.",
+     "symbols": [],
+     "title": "Rendkívüli ülésen megkezdődött a 2027-es költségvetés parlamenti vitája",
+     "url": "https://index.hu/belfold/2026/11/16/orszaggyules-parlament-koltsegvetes-rendkivuli-ules-magyar-peter/",
+     "verified": true
     }
    ],
    "markets": [
@@ -643,7 +691,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T13:40:40Z",
+   "updatedAt": "2026-11-16T14:40:16Z",
    "watchlist": []
   },
   {
@@ -21566,13 +21614,13 @@
    "id": "2026-11-16-jp-gdp"
   },
   {
-   "actual": "",
+   "actual": "7,8",
    "country": "USA",
    "date": "2026-11-16",
    "event": "New York-i Fed Empire State feldolgozóipari index (november)",
-   "forecast": "",
+   "forecast": "16,7",
    "importance": 2,
-   "note": "Az Investing.com hétfőre jelezte; a New York-i Fed a hónap közepén közli (nov. 15. vasárnap).",
+   "note": "Az Investing.com hétfőre jelezte; a New York-i Fed a hónap közepén közli. Konszenzus: Dow Jones (CNBC), más naptárak 17,6-ot jeleztek. Az index 18 ponttal esett; a foglalkoztatás több mint négyéves csúcsra gyorsult. Forrás: New York-i Fed.",
    "previous": "25,5",
    "source": "Investing.com · New York-i Fed",
    "symbols": [],
