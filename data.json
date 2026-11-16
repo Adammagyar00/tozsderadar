@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T14:56:34Z",
+ "builtAt": "2026-11-16T15:55:47Z",
  "digests": [
   {
    "calendar": [
@@ -611,12 +611,12 @@
      "addedAt": "2026-11-16T13:40:40Z",
      "category": "Magyarország",
      "impact": "pozitív",
-     "source": "Portfolio",
+     "source": "Portfolio · Világgazdaság",
      "summary": "A Portfolio déli összefoglalója szerint a BUX 0,3%-kal állt pluszban, a Richter 1,8%-kal emelkedett, és forgalomban megelőzte a szokásos listavezető OTP-t; a Mol 0,4%-kal gyengült. A mozgás okáról a beszámoló nem szólt.",
      "symbols": [],
      "title": "Nagy forgalommal veszik a Richter részvényeit",
      "url": "https://www.portfolio.hu/uzlet/20261116/nagy-forgalommal-veszik-a-richter-reszvenyeit-876724",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-11-16T14:40:16Z",
@@ -665,6 +665,87 @@
      "title": "Rendkívüli ülésen megkezdődött a 2027-es költségvetés parlamenti vitája",
      "url": "https://index.hu/belfold/2026/11/16/orszaggyules-parlament-koltsegvetes-rendkivuli-ules-magyar-peter/",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T15:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · MarketScreener · Contract Pharma",
+     "summary": "A Johnson & Johnson 2,2 milliárd dollárt fizet előre az Ollin Biosciences-ért, a mérföldkő-kifizetésekkel együtt a vételár elérheti a 3,3 milliárd dollárt. A fő eszköz az OLN324 kísérleti antitest diabéteszes makulaödéma és nedves időskori makuladegeneráció kezelésére. A J&J részvénye emelkedett a hírre.",
+     "symbols": [],
+     "title": "A J&J akár 3,3 milliárd dollárért megveszi az Ollin Biosciences szembetegség-fejlesztő céget",
+     "url": "https://www.cnbc.com/2026/11/16/jj-strikes-deal-for-eye-disease-biotech-ollin-biosciences.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T15:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Investing.com · AP · Yahoo Finance",
+     "summary": "A Tyson Foods negyedéves bevétele kb. 14,59 milliárd dollár lett (a konszenzus kb. 14,1 milliárd volt), az igazított EPS 0,61 dollár. A marhahús-üzletág 171 millió dolláros igazított működési veszteséget hozott. 2027-re 3,5–5,5%-os árbevétel-csökkenést vár a cég, az osztalékot 2%-kal emelte.",
+     "symbols": [],
+     "title": "Tyson Foods: a vártnál jobb bevétel, de csökkenő árbevételt vár 2027-re",
+     "url": "https://uk.investing.com/news/earnings/tyson-foods-beats-analyst-expectations-amid-multiprotein-model-strength-4984770",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T15:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Bloomberg · Fox Business · Yahoo Finance",
+     "summary": "Sean Duffy szerint az L3Harris egy távoli FAA-telephelyen végzett munkája során egy router megbéníthatta a légiforgalmi kommunikációt; a vizsgálatban az FBI is részt vesz. Az L3Harris közölte, hogy segíti a vizsgálatot. A részvény hétfőn a nyitás után 2–3%-kal gyengült.",
+     "symbols": [],
+     "title": "Esik az L3Harris, miután Duffy közlekedési miniszter a pénteki FAA-leállással hozta összefüggésbe",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/duffy-probing-possible-l3harris-incompetence-in-faa-meltdown",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T15:52:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Bloomberg · Yahoo Finance",
+     "summary": "Az MSCI feltörekvő piaci indexe 2,6%-kal esett hétfőn, mert a techpapírok eladási hulláma Ázsiára is átterjedt az Nvidia keddi jelentése előtt. A feltörekvő devizák is gyengültek, a dollár ötödik napja erősödik. Tajvan és Dél-Korea vezette az esést.",
+     "symbols": [],
+     "title": "Több mint egy hete nem esett ennyit a feltörekvő piacok tőzsdéje: 2,6%-os mínusz",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/emerging-market-stocks-currencies-ai-concerns",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T15:52:00Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio · Világgazdaság · Pénzcentrum",
+     "summary": "A Magyar Telekom napközben 3000 forint fölé, a Richter 13 800 forint fölé emelkedett, mindkettő új történelmi csúcsot ért el a Budapesti Értéktőzsdén. A Világgazdaság szerint a forint közben gyengült, és a Mol meg az OTP visszahúzta a BUX-ot.",
+     "symbols": [],
+     "title": "Történelmi csúcson a Magyar Telekom és a Richter, a forint gyengült",
+     "url": "https://www.vg.hu/penz-es-tokepiac/2026/11/richter-magyar-telekom-tortenelmi-csucs-gyenge-forint",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T15:52:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Cointelegraph · crypto.news · Crypto Briefing",
+     "summary": "Intézményi ügyfelek a nap 24 órájában mozgathatnak tokenizált dollárbetéteket a DBS Token Services és a JPMorgan Kinexys blokkláncos hálózata között. Az első ügyfél az Ant International. Díjakat és limiteket nem közöltek.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "A DBS és a JPMorgan Kinexys elindította a tokenizált dollárbetétek 0–24 órás átutalását Szingapúr és az USA között",
+     "url": "https://cointelegraph.com/news/dbs-jpmorgans-kinexys-launch-tokenized-transfers",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T15:52:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk · Yahoo Finance · The Crypto Times",
+     "summary": "Az OKX alapítója, Star Xu azzal vádolta Changpeng Zhaót, hogy félrevezette az ügyfeleket az októberi esésről; Zhao tagadta, hogy a Binance eladott volna, és azt mondta, ő maga vásárolt. A Binance társvezérigazgatója, Yi He egy képernyőképen kb. 97,3 millió dolláros kereskedési veszteséget mutatott be október 17. és november 16. között, amelyet átmenetinek nevezett.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A bitcoin esése kiélezte a vitát az OKX és a Binance alapítói között; Yi He 97 millió dolláros veszteséget mutatott be",
+     "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
+     "verified": true
     }
    ],
    "markets": [
@@ -691,7 +772,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T14:40:16Z",
+   "updatedAt": "2026-11-16T15:52:00Z",
    "watchlist": []
   },
   {
