@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T08:56:09Z",
+ "builtAt": "2026-11-16T09:55:51Z",
  "digests": [
   {
    "calendar": [
@@ -396,6 +396,44 @@
      "title": "Ukrán csapás érte a Krími hidat, korlátozták a forgalmat; 600 drón indult Moszkva felé",
      "url": "https://cyprus-mail.com/2026/11/16/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T09:55:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "Iráni Forradalmi Gárda közlése (Anadolu, Middle East Eye, CNBC)",
+     "summary": "Az iráni Forradalmi Gárda közlése szerint két olajszállító tanker aknára futott és kigyulladt a szoros déli részén, az iráni hadsereg haditengerészete pedig azt közölte, hogy hétfő hajnalban egy további tanker futott aknára a szorostól keletre. Az állításokat független forrás (hajózási felügyelet, üzemeltetők) egyelőre nem erősítette meg, a nyilvánosságra hozott felvételeken hajó nem látható. A Brent a hírekre 95–96 dollár körül mozog, a szoroson zajló szállítások a jelentések szerint nagyrészt helyreálltak.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Irán szerint tankerek futottak aknára a Hormuzi-szorosnál",
+     "url": "https://aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T09:55:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "KuCoin napi piaci jelentés · The Crypto Basic · crypto.news · Coinglass/OKX árfolyamadat",
+     "summary": "A bitcoin a hétvégén röviden 62 ezer dollár közelébe, július óta a legalacsonyabb szintre esett, hétfőre 65 ezer dollár körülire pattant vissza. A hangulat továbbra is nagyon gyenge: a Fear & Greed index 10-en áll, az amerikai spot bitcoin-ETF-ekből a múlt héten nettó mintegy 1,07 milliárd dollár áramlott ki (crypto.news). Az ether 1800 dollár körül jár a hétvégi 1711 dolláros mélypont után.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A bitcoin 65 ezer dollár közelébe kapaszkodott vissza a hétvégi, 62 ezer dolláros mélypont után",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T09:55:00Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio · Privátbankár",
+     "summary": "A BUX nyitáskor mintegy 0,5%-kal, 146 822 pontra emelkedett hétfő reggel. A forint közben gyengébb, az euró 365 forint körül, a dollár 331 forint felett jár a keddi MNB-kamatdöntés előtt.",
+     "symbols": [],
+     "title": "Emelkedéssel indult a hét a budapesti tőzsdén",
+     "url": "https://www.portfolio.hu/uzlet/20261116/jol-indul-a-het-a-magyar-tozsden-876634",
+     "verified": true
     }
    ],
    "markets": [
@@ -422,7 +460,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T08:40:03Z",
+   "updatedAt": "2026-11-16T09:55:00Z",
    "watchlist": []
   },
   {
