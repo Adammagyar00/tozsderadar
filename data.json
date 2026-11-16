@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T17:56:03Z",
+ "builtAt": "2026-11-16T18:55:57Z",
  "digests": [
   {
    "calendar": [
@@ -546,7 +546,7 @@
      "addedAt": "2026-11-16T13:40:40Z",
      "category": "Figyelőlista",
      "impact": "semleges",
-     "source": "Reuters (Investing.com) · Calytrix Bio közlemény (PR Newswire)",
+     "source": "Reuters (Investing.com) · Calytrix Bio közlemény (PR Newswire) · Yahoo Finance",
      "summary": "Az Eli Lilly megállapodott a magántulajdonú Calytrix Bio felvásárlásáról: a részvényesek előleggel és klinikai, illetve szabályozói mérföldkövekhez kötött kifizetésekkel együtt akár 1,5 milliárd dollár készpénzt kaphatnak. A Calytrix ritka vérképzőszervi betegségekre (esszenciális thrombocythaemia, myelofibrosis) fejleszt antitest-alapú terápiát. A Lilly ezzel is a fogyasztó- és cukorbetegség-gyógyszereken túli portfólióját bővíti.",
      "symbols": [
       "LLY"
@@ -852,12 +852,109 @@
      "addedAt": "2026-11-16T17:52:00Z",
      "category": "Jegybankok",
      "impact": "semleges",
-     "source": "investingLive",
+     "source": "investingLive · CNBC · AP",
      "summary": "Az investingLive beszámolója szerint Kevin Warsh Fed-elnök a San Franciscó-i Fed termelékenységi és foglalkoztatási konferenciáján tartott nyitóbeszédében nem beszélt az inflációról, a kamatpályáról vagy a mérlegről, csak röviden jelezte, hogy az MI széles körű elterjedése később a monetáris politika szempontjából is fontos lesz. A piac továbbra is decemberi kamatemelést áraz; a beszéd tartalmát egyelőre más forrás nem erősítette meg.",
      "symbols": [],
      "title": "Warsh beszéde a mesterséges intelligenciáról szólt, monetáris politikai jelzést nem adott",
      "url": "https://investinglive.com/central-banks/fed-s-warsh-doesn-t-talk-about-monetary-policy-in-a-speech-on-ai/",
-     "verified": false
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T18:41:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Bloomberg · Reuters",
+     "summary": "A kereskedelmi minisztérium exportellenőrzési hivatala (BIS) hétfőn ideiglenes szabályt adott ki: engedélyhez köti a fejlett MI-chipek szállítását olyan külföldi adatközpontokba, amelyek kínai és más korlátozott országbeli cégeknek jelentős számítási kapacitást adnának, valamint a fejlett chipek exportját Brazíliába, Indonéziába, Malajziába, Szingapúrba és Thaiföldre. A hírre tovább estek a chipgyártók; kora délután (New York-i idő) a Nasdaq Composite több mint 2%-kal, az S&P 500 mintegy 1,5%-kal, a Dow közel 1%-kal állt mínuszban.",
+     "symbols": [
+      "QQQ",
+      "VOO",
+      "NVDA"
+     ],
+     "title": "Az amerikai kereskedelmi minisztérium korlátozza a fejlett MI-chipek távoli elérését, a chippapírok lefelé húzzák az indexeket",
+     "url": "https://finance.yahoo.com/technology/ai/articles/chipmakers-push-us-equity-indexes-180432243.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T18:41:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · GuruFocus",
+     "summary": "Mivel a Marvell részvényekben fizet a Lumentumért (részvényenként 4,5 Marvell-papír), a Marvell árfolyamesése a felvásárlás értékét is lerontja: a hétfői árfolyamon egy Lumentum-részvény mintegy 657 dollárt ér, szemben a november 2-i bejelentéskori kb. 1132 dollárral. A 115 milliárd dolláros ügylet bejelentése óta a Lumentum árfolyama jelentősen esett; hétfőn 8,3%-kal gyengült, a Marvell közel 7%-kal.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "8%-kal zuhant a Lumentum: a Marvell esése miatt 660 dollár alá csökkent a felvásárlási ajánlat értéke",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-stocks-sink-8-32-175235155.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T18:41:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · GuruFocus",
+     "summary": "A Barclays egyik forgatókönyve szerint a SpaceX vásárolná meg a Teslát egy kizárólag részvénycserés ügyletben, így a pénteki árfolyamokon közel 3500 milliárd dollár értékű csoport jönne létre. Egyesülésről hivatalos bejelentés nincs, ez elemzői forgatókönyv.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "2,8%-kal esett a Tesla, miközben a SpaceX-egyesülésről már az a kérdés, ki veszi meg kit",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-fall-2-8-175356341.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T18:41:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Proactive Investors",
+     "summary": "A Bank of America szerint a SpaceX jelentősen közelebb került a teljesen újrahasznosítható orbitális rakétához, miután a Starship 15. repülésén először sikerült az indítótoronnyal elkapni a pályáról visszatérő felső fokozatot. A szombati (november 14-i) repülésen a Ship 42 mintegy 22,5 órát töltött pályán és 26 Starlink V3 műholdat állított pályára; a Super Heavy gyorsítófokozat elkapását viszont megszakították.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Bank of America: nagy lépés az újrahasznosíthatóság felé a Starship felső fokozatának sikeres elkapása",
+     "url": "https://www.proactiveinvestors.com/companies/news/1101862/spacex-advances-starship-reusability-with-successful-upper-stage-catch-says-bank-of-america-1101862.html?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T18:41:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A friss SEC-bejelentések szerint az egyetem alapítványa megtartotta 144 millió dollár értékű bitcoin-kitettségét, aranyba fektetett pozícióját pedig közel hússzorosára emelte.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Egy 390 éves Ivy League-egyetem 144 millió dollár értékű bitcoint tart, és közel hússzorosára növelte aranykitettségét",
+     "url": "https://www.thestreet.com/crypto/markets/this-390-year-old-university-is-quietly-betting-big-on-bitcoin-and-gold?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T18:41:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · GuruFocus",
+     "summary": "A bitcoin 64 ezer dollár felé csúszása a Robinhood árfolyamát is lenyomta. A cég kriptokereskedési bevétele már az előző negyedévben 55%-kal csökkent.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "5,4%-kal esett a Robinhood a kriptopiaci zuhanás miatt",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-stocks-fall-5-4-175615099.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T18:41:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Reuters · Bloomberg · RTTNews",
+     "summary": "A STOXX 600 0,28%-kal, 662,31 pontra csökkent, ezzel megszakadt az indexet rekordszintre vivő ötnapos emelkedési sorozat. A német DAX 0,57%-kal, a francia CAC 40 és a londoni FTSE 100 mintegy 0,2%-kal esett. A délelőtti emelkedést a technológiai és chippapírok, valamint a bányacégek esése és a gyengülő Wall Street fordította meg.",
+     "symbols": [],
+     "title": "Esésbe fordultak és csökkenéssel zártak az európai tőzsdék, megszakadt a STOXX 600 ötnapos emelkedése",
+     "url": "https://bloomberg.com/news/articles/2026-11-16/european-stocks-fluctuate-as-ai-concerns-keep-investors-on-edge",
+     "verified": true
     }
    ],
    "markets": [
@@ -884,7 +981,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T17:52:00Z",
+   "updatedAt": "2026-11-16T18:41:00Z",
    "watchlist": []
   },
   {
@@ -21823,13 +21920,13 @@
    "id": "2026-11-16-us-empire"
   },
   {
-   "actual": "",
+   "actual": "Az MI gazdasági hatásairól szólt, kamatpolitikai jelzést nem adott",
    "country": "USA",
    "date": "2026-11-16",
    "event": "Kevin Warsh Fed-elnök nyitóbeszéde (San Franciscó-i Fed, termelékenységi és foglalkoztatási konferencia)",
    "forecast": "",
    "importance": 2,
-   "note": "12:00 ET. A Fed eseménynaptára szerint élő közvetítéssel; a piac 90–92%-os eséllyel áraz decemberi 25 bp-es emelést (CME FedWatch).",
+   "note": "12:00 ET. A Fed eseménynaptára szerint élő közvetítéssel; a piac 90–92%-os eséllyel áraz decemberi 25 bp-es emelést (CME FedWatch). Warsh a beszédben nem nyilatkozott a kamatpálya további lépéseiről; forrás: CNBC, AP.",
    "previous": "",
    "source": "Federal Reserve eseménynaptár · CNBC",
    "symbols": [],
