@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T12:58:15Z",
+ "builtAt": "2026-11-16T13:56:53Z",
  "digests": [
   {
    "calendar": [
@@ -543,6 +543,80 @@
      "title": "Pénzügyminisztérium: 2030 a feltételek teljesítésének céldátuma, nem az euró bevezetéséé",
      "url": "https://www.penzcentrum.hu/gazdasag/20261116/megszolalt-a-penzugyminiszterium-ekkor-indulhat-el-az-eurozonahoz-valo-csatlakozas-1209110",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T13:40:40Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "Reuters (Investing.com) · Calytrix Bio közlemény (PR Newswire)",
+     "summary": "Az Eli Lilly megállapodott a magántulajdonú Calytrix Bio felvásárlásáról: a részvényesek előleggel és klinikai, illetve szabályozói mérföldkövekhez kötött kifizetésekkel együtt akár 1,5 milliárd dollár készpénzt kaphatnak. A Calytrix ritka vérképzőszervi betegségekre (esszenciális thrombocythaemia, myelofibrosis) fejleszt antitest-alapú terápiát. A Lilly ezzel is a fogyasztó- és cukorbetegség-gyógyszereken túli portfólióját bővíti.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Az Eli Lilly akár 1,5 milliárd dollárért megveszi a Calytrix Bio-t",
+     "url": "https://www.investing.com/news/stock-market-news/lilly-to-buy-calytrix-bio-for-up-to-15-billion-5029412",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T13:40:40Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Newsquawk · ZeroHedge",
+     "summary": "A Newsquawk értesülése szerint a Micron felfüggesztette a munkát tajvani, tajcsungi üzemében, miután egy baleset egy ember életét követelte; a hír szerint a chipgyártást ez nem érinti. A Micron-részvény a tőzsdenyitás előtti kereskedésben mintegy 4,8%-kal esett (ZeroHedge). Hivatalos céges közlést nem találtunk.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Halálos baleset után leállították a munkát a Micron tajcsungi gyárában",
+     "url": "https://www.newsquawk.com/headlines/micron-mu-has-reportedly-halted-work-at-its-taichung-factory-after-an-accident-killed-one-person",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T13:40:40Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "CNBC",
+     "summary": "A CNBC hétfői elemzői összesítője szerint a Barclays 1400-ról 1550 dollárra emelte az Eli Lilly célárát, és megerősítette felülsúlyozási ajánlását. Második forrást a lépésre nem találtunk.",
+     "symbols": [
+      "LLY"
+     ],
+     "title": "Barclays: 1550 dollárra emelte az Eli Lilly célárát",
+     "url": "https://www.cnbc.com/2026/11/16/big-monday-wall-street-calls-like-nvidia-spacex.html",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T13:40:40Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "CNBC",
+     "summary": "A CNBC hétfői elemzői összesítője szerint a Citi 240-ről 280 dollárra emelte a SpaceX célárát, és fenntartotta vételi ajánlását. Második forrást a lépésre nem találtunk.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Citi: 280 dollárra emelte a SpaceX célárát",
+     "url": "https://www.cnbc.com/2026/11/16/big-monday-wall-street-calls-like-nvidia-spacex.html",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T13:40:40Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Investing.com · TELUS és Québecor közlemény · The Globe and Mail",
+     "summary": "A kanadai TELUS részvénye 29%-kal emelkedett, miután a cég megerősítette, hogy kéretlen, nem kötelező érvényű felvásárlási ajánlatot kapott a Québecortól. A november 9-én módosított ajánlat részvényenként 6,35 kanadai dollár készpénzt és 0,17 Québecor B-részvényt kínál, ami a Québecor szerint mintegy 19,45 dollár, kb. 60%-os prémium. A TELUS független bizottsága jelentős szabályozói és végrehajtási kockázatokat lát, és szerinte az ellenérték nem tükrözi a cég értékét.",
+     "symbols": [],
+     "title": "29%-ot ugrott a TELUS: a Québecor 31 milliárd dolláros felvásárlási ajánlatot tett",
+     "url": "https://www.investing.com/news/stock-market-news/telus-shares-jump-29-as-board-reviews-unsolicited-quebecor-takeover-proposal-5029600",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T13:40:40Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio",
+     "summary": "A Portfolio déli összefoglalója szerint a BUX 0,3%-kal állt pluszban, a Richter 1,8%-kal emelkedett, és forgalomban megelőzte a szokásos listavezető OTP-t; a Mol 0,4%-kal gyengült. A mozgás okáról a beszámoló nem szólt.",
+     "symbols": [],
+     "title": "Nagy forgalommal veszik a Richter részvényeit",
+     "url": "https://www.portfolio.hu/uzlet/20261116/nagy-forgalommal-veszik-a-richter-reszvenyeit-876724",
+     "verified": false
     }
    ],
    "markets": [
@@ -569,7 +643,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T12:50:00Z",
+   "updatedAt": "2026-11-16T13:40:40Z",
    "watchlist": []
   },
   {
