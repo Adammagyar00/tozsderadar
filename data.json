@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T09:55:51Z",
+ "builtAt": "2026-11-16T10:55:57Z",
  "digests": [
   {
    "calendar": [
@@ -434,6 +434,43 @@
      "title": "Emelkedéssel indult a hét a budapesti tőzsdén",
      "url": "https://www.portfolio.hu/uzlet/20261116/jol-indul-a-het-a-magyar-tozsden-876634",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T10:39:55Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Baidu közlemény (PR Newswire) · TipRanks",
+     "summary": "A Baidu harmadik negyedéves bevétele 30,8 milliárd jüan lett, 1%-kal kevesebb, mint egy éve. Az AI Cloud Infra üzletág bevétele 94%-kal 8,2 milliárd jüanra nőtt, az online hirdetési bevétel viszont 22%-kal esett, a szabad cash-flow pedig negatív lett a nagy AI-beruházások miatt.",
+     "symbols": [],
+     "title": "Baidu: csökkenő bevétel, de 94%-kal nőtt a mesterségesintelligencia-felhő",
+     "url": "https://www.prnewswire.com/news-releases/baidu-announces-third-quarter-2026-results-302940183.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T10:39:55Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "Yahoo Finance · Reuters",
+     "summary": "A Morgan Stanley az európai és a japán részvényeket is felülsúlyozásra (overweight) emelte, a globális részvényekre pedig maximális felülsúlyozást javasol. Az európai tőzsdék rekord közelében járnak: a légiipari és védelmi szektor 1,3%-kal emelkedett, a luxus- és fogyasztási papírok is erősödtek, a chippapírok (Aixtron, Technoprobe) viszont gyengültek.",
+     "symbols": [
+      "DFEN"
+     ],
+     "title": "Morgan Stanley felülsúlyozásra emelte az európai részvényeket, a védelmi papírok vezetik az emelkedést",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/european-shares-hover-near-record-082850163.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T10:39:55Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "FXStreet · CoinCentral",
+     "summary": "Az amerikai spot bitcoin-ETF-ekből a november 9–13-i héten nettó 1,065 milliárd dollár áramlott ki, ez a harmadik egymást követő negatív hét. A Crypto Fear & Greed index 10-re, „extrém félelem” szintre esett; a hangulatot a Fed-kamatemelési várakozások is rontják.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Harmadik hete folyik ki a pénz az amerikai bitcoin-ETF-ekből, a félelemindex 10-re esett",
+     "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-etf-outflows-hit-107-billion-as-btc-struggles-to-recover-from-oversold-levels-202611160520",
+     "verified": false
     }
    ],
    "markets": [
@@ -460,7 +497,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T09:55:00Z",
+   "updatedAt": "2026-11-16T10:39:55Z",
    "watchlist": []
   },
   {
