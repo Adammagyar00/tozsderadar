@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T18:55:57Z",
+ "builtAt": "2026-11-16T19:55:47Z",
  "digests": [
   {
    "calendar": [
@@ -955,6 +955,42 @@
      "title": "Esésbe fordultak és csökkenéssel zártak az európai tőzsdék, megszakadt a STOXX 600 ötnapos emelkedése",
      "url": "https://bloomberg.com/news/articles/2026-11-16/european-stocks-fluctuate-as-ai-concerns-keep-investors-on-edge",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T19:52:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Bloomberg · Yahoo Finance",
+     "summary": "A kora délutáni amerikai kereskedésben a Dow mintegy 1,4%-kal, az S&P 500 1,6–1,9%-kal, a Nasdaq több mint 2%-kal (a Nasdaq-100 a Bloomberg szerint 2,3%-kal) állt lejjebb. Az eladásokat a techpapírok és az Nvidia vezetik a keddi Nvidia-gyorsjelentés és a csütörtöki Anthropic-tőzsdei bevezetés előtt. Ezek napközbeni, nem záró adatok.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Délutánra tovább mélyült az esés a Wall Streeten: a Nasdaq több mint 2%-kal, az S&P 500 közel 2%-kal van mínuszban",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T19:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Bloomberg · SEC (8-K)",
+     "summary": "A Blackstone Digital Infrastructure Trust (BXDC) 75%-os részesedést szerez két, az Amazon Web Services-szel közös vegyesvállalatban, az AWS 25%-ot tart meg és bérlőként visszabérli a létesítményeket. A Bloomberg által megírt ügyletet a Blackstone-alap SEC-nek benyújtott közleménye is megerősíti; ez az alap első befektetése, a zárás év végéig várható.",
+     "symbols": [],
+     "title": "A Blackstone adatközponti alapja mintegy 5 milliárd dollárért többségi részesedést vesz az Amazon két adatközponti vegyesvállalatában",
+     "url": "https://uk.finance.yahoo.com/news/blackstone-reit-buy-amazon-data-115357460.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T19:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "The Information (Newsquawk, mlq.ai közvetítésével)",
+     "summary": "A The Information névtelen forrásokra hivatkozó értesülése szerint az OpenAI egyik vezetője felvetette a kétéves Goodfire megvásárlását több mint 5 milliárd dollárért, alternatívaként partnerséget. Megállapodásról nincs hír, a cégek nem erősítették meg; a Goodfire egyik tulajdonosa az Anthropic. Az OpenAI ugyanakkor hétfőn bejelentette, hogy a Goodfire is részt vesz a modelljei biztonsági értékelésében.",
+     "symbols": [],
+     "title": "The Information: az OpenAI felvetette, hogy több mint 5 milliárd dollárért megveszi az MI-értelmezhetőséggel foglalkozó Goodfire-t",
+     "url": "https://www.newsquawk.com/headlines/openai-has-reportedly-mulled-a-usd-5bln-acquisition-of-goodfire-the-information-reports-citing-sources--",
+     "verified": false
     }
    ],
    "markets": [
@@ -981,7 +1017,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T18:41:00Z",
+   "updatedAt": "2026-11-16T19:52:00Z",
    "watchlist": []
   },
   {
