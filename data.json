@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T06:56:58Z",
+ "builtAt": "2026-11-16T07:56:03Z",
  "digests": [
   {
    "calendar": [
@@ -333,13 +333,35 @@
     {
      "category": "Figyelőlista",
      "impact": "negatív",
-     "source": "U.Today · The Crypto Basic",
-     "summary": "A U.Today a TradingView adataira hivatkozva azt írja, hogy az XRP november 15-én éjjel 0,89 dollárig, kétéves mélypontra esett, majd 0,96 dollár körülire pattant vissza. A Whale Alert két, egyenként 120 millió XRP-s átutalást jelzett, a láncadatok szerint ezek nem kerültek tőzsdére. Az adatokat nagy hírügynökség nem erősítette meg.",
+     "source": "U.Today · The Crypto Basic · CoinDesk",
+     "summary": "A U.Today a TradingView adataira hivatkozva azt írja, hogy az XRP november 15-én éjjel 0,89 dollárig, kétéves mélypontra esett, majd 0,96 dollár körülire pattant vissza. A Whale Alert két, egyenként 120 millió XRP-s átutalást jelzett, a láncadatok szerint ezek nem kerültek tőzsdére. A CoinDesk szerint az XRP 89 centig, 2024 novembere óta nem látott szintre esett; a bálnaátutalásokat nagy hírügynökség nem erősítette meg.",
      "symbols": [
       "XRP"
      ],
      "title": "Kétéves mélypontra, 0,89 dollárra esett az XRP, 240 millió XRP mozdult meg",
      "url": "https://u.today/someone-moves-240-million-xrp-the-exact-moment-price-hits-its-089-floor",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T07:41:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "CNBC · Reuters (MarketScreener)",
+     "summary": "Kevin Warsh Fed-elnök ma 18:00-kor (magyar idő) nyitóbeszédet tart a San Franciscó-i Fed termelékenységről és foglalkoztatásról szóló konferenciáján. A CME FedWatch szerint a piac 90–92%-os eséllyel vár decemberben 25 bázispontos emelést (a Reuters szerint 10% esélyt ad 50 bázispontra is). Az arany a beszéd előtt az erős dollár miatt gyengült.",
+     "symbols": [],
+     "title": "Ma Warsh Fed-elnök beszél; a piac 90% feletti eséllyel áraz decemberi kamatemelést",
+     "url": "https://www.cnbc.com/2026/11/16/gold-holds-steady-as-investors-await-warsh-remarks-for-rate-signals.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T07:41:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Telex · Pénzcentrum",
+     "summary": "A Telex névtelen forrásokra hivatkozó értesülése szerint egyre több a nézeteltérés a Budapest Airport 80%-os tulajdonosa, a magyar állam (Corvinus Zrt.) és a menedzsmentjogokkal rendelkező 20%-os tulajdonos, a francia Vinci Airports között. Az állam értesülések szerint azt kifogásolja, hogy a Vinci rövid távú profitszempontokat követ; vita van a parkolók és a vasúti fejlesztés körül. Hivatalos megszólalás egyelőre nincs.",
+     "symbols": [],
+     "title": "Telex: megromlott a viszony az állam és a Vinci között a budapesti repülőtéren",
+     "url": "https://telex.hu/gazdasag/2026/11/16/budapest-airport-repter-vitezy-david-tisza-kormany",
      "verified": false
     }
    ],
@@ -367,7 +389,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T06:50:25Z",
+   "updatedAt": "2026-11-16T07:41:00Z",
    "watchlist": []
   },
   {
@@ -21304,6 +21326,22 @@
    "type": "Makroadat",
    "url": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview",
    "id": "2026-11-16-us-empire"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-16",
+   "event": "Kevin Warsh Fed-elnök nyitóbeszéde (San Franciscó-i Fed, termelékenységi és foglalkoztatási konferencia)",
+   "forecast": "",
+   "importance": 2,
+   "note": "12:00 ET. A Fed eseménynaptára szerint élő közvetítéssel; a piac 90–92%-os eséllyel áraz decemberi 25 bp-es emelést (CME FedWatch).",
+   "previous": "",
+   "source": "Federal Reserve eseménynaptár · CNBC",
+   "symbols": [],
+   "time": "18:00",
+   "type": "Jegybank",
+   "url": "https://www.cnbc.com/2026/11/16/gold-holds-steady-as-investors-await-warsh-remarks-for-rate-signals.html",
+   "id": "2026-11-16-us-warsh-speech"
   },
   {
    "actual": "",
