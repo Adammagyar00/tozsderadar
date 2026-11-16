@@ -1,6 +1,375 @@
 {
- "builtAt": "2026-11-16T05:01:52Z",
+ "builtAt": "2026-11-16T06:56:58Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 16.",
+     "event": "Japán GDP (Q3): −0,1% évesítve; USA: Empire State index"
+    },
+    {
+     "date": "nov. 17.",
+     "event": "MNB kamatdöntés; német ZEW; USA kiskereskedelem; Nvidia és Home Depot gyorsjelentés"
+    },
+    {
+     "date": "nov. 18.",
+     "event": "UK CPI; FOMC-jegyzőkönyv; Target, Lowe's, TJX, Palo Alto"
+    },
+    {
+     "date": "nov. 19.",
+     "event": "Hszi–Trump–Putyin csúcs (Sencsen); Anthropic tőzsdei bevezetése; Walmart, Alibaba gyorsjelentés"
+    },
+    {
+     "date": "nov. 20.",
+     "event": "Moody's: Magyarország felülvizsgálata; japán CPI"
+    },
+    {
+     "date": "nov. 25.",
+     "event": "USA GDP (2. becslés) és PCE"
+    },
+    {
+     "date": "dec. 1.",
+     "event": "Marvell gyorsjelentés; eurózóna infláció"
+    },
+    {
+     "date": "dec. 9.",
+     "event": "Fed kamatdöntés"
+    },
+    {
+     "date": "dec. 15.",
+     "event": "MNB kamatdöntés; USA PPI; német ZEW"
+    },
+    {
+     "date": "dec. 17.",
+     "event": "EKB és BoE kamatdöntés"
+    }
+   ],
+   "date": "2026-11-16",
+   "generatedAt": "2026-11-16T06:50:25Z",
+   "headline": "Váratlanul zsugorodott a japán gazdaság, gyengék a kínai adatok és esnek az ázsiai chippapírok az Nvidia-jelentés és az Anthropic tőzsdei bevezetése előtti héten",
+   "items": [
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investor's Business Daily",
+     "summary": "A Dow Jones és a Nasdaq határidős indexei emelkedéssel indították a hetet, a technológiai papírok vezetnek. A befektetők figyelme a keddi Nvidia-gyorsjelentésen és a héten esedékes Anthropic tőzsdei bevezetésen van; értesülések szerint Jensen Huang fontolgatja, hogy visszatér az Nvidia élére.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Emelkednek a határidős indexek, a techpapírok vezetnek, miközben Jensen Huang a visszatérését fontolgatja",
+     "url": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-techs-rise.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Hétfőn a korai ázsiai kereskedésben esett az olaj ára, mert erősödnek a javuló globális kínálatra vonatkozó várakozások, bár a közel-keleti harcok folytatódnak. A januári Brent-határidős 0,9%-kal 95 dollárra csökkent; a Hormuzi-szoroson át szállított mennyiség jelentések szerint közel visszaállt a háború előtti szintre. Ezzel folytatódik az előző heti 16%-os esés.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Csökken az olajár: a piac a helyreálló kínálatra figyel a közel-keleti feszültség ellenére",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-dip-markets-look-001533575.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A UBS befektetési részlege (Chief Investment Office) szerint a Brent hordónkénti ára év végére elérheti a 110 dollárt. Az intézmény azzal érvel, hogy a korlátozott kínálati tartalékok sebezhetővé teszik a piacot a közelmúltbeli árkilengések ellenére. Ez a UBS előrejelzése, nem tény.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "UBS: év végéig 110 dollárig drágulhat a Brent, mert szűkösek a kínálati tartalékok",
+     "url": "https://finance.yahoo.com/energy/articles/ubs-sees-brent-hitting-110-223600200.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A bitcoin 62 006 dollárig esett, miközben az amerikai alapokból hét nap alatt 1,91 milliárd dollár áramlott ki. A Binance társalapítója, Changpeng Zhao (CZ) hat lehetséges okot nevezett meg az esésre; ezek az ő magyarázatai, nem megerősített tények.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Mi áll a bitcoin esése mögött? CZ hat lehetséges okot sorolt fel",
+     "url": "https://beincrypto.com/bitcoin-drop-cz-six-reasons/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "Az ether ára július eleje óta nem látott szintre esett, miközben a Binance tőzsdén tartott ETH-tartalék ötéves mélypontra, nagyjából 2,9 millió ETH-ra csökkent. A cikk szerint a nagy befektetők (bálnák) eközben tovább vásároltak.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "2021 óta nem volt ilyen kevés ether a Binance-en",
+     "url": "https://beincrypto.com/ethereum-price-4-month-low-binance-reserves/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto · TheStreet",
+     "summary": "A Goldman Sachs közgazdászai szerint 2027-ben az olcsóbb energia élénkítheti a globális növekedést, és mérséklődhet az infláció. A bank ugyanakkor arra számít, hogy a Fed márciusig tovább emeli a kamatot. Ez a Goldman Sachs előrejelzése.",
+     "symbols": [],
+     "title": "Goldman Sachs 2027-es kilátásai: az olcsóbb energia gyorsíthatja a növekedést, de a Fed márciusig emelhet",
+     "url": "https://beincrypto.com/goldman-sachs-2027-economic-outlook/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Bloomberg",
+     "summary": "Egyre népszerűbb a Kalshi új terméke, amellyel tőkeáttétellel lehet részvényárfolyamokra fogadni, többek között az Nvidiára és a SpaceX-re. A cikk szerint a keresletet az AI-kilátásokkal kapcsolatos kérdések és a fedezési igény hajtja a félidős választások után.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A kereskedők a Kalshi tőkeáttételes „perp” részvénytermékeihez fordulnak az Nvidia és a SpaceX esetében",
+     "url": "https://finance.yahoo.com/markets/options/articles/traders-turn-kalshi-stock-perps-150000698.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · The Telegraph",
+     "summary": "A The Telegraph szerint az európai légitársaságokra a téli keresletcsökkenés mellett nagyjából 12 milliárd fontos üzemanyagköltség nehezedik. A téli időszakban a járatok iránti kereslet szokás szerint visszaesik, ami sok társaságot veszteségbe sodor.",
+     "symbols": [],
+     "title": "12 milliárd fontos üzemanyagszámla fenyegeti az európai légitársaságokat",
+     "url": "https://www.telegraph.co.uk/business/2026/11/15/the-12bn-fuel-bill-threatening-to-down-europes-airlines/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A Hightower Advisors befektetési igazgatója, Stephanie Link a TheStreet szerint Nvidia-részvényeit Micronra váltotta, és ismertette, miért tartja jobb választásnak a memóriagyártót. Ez az alapkezelő saját döntése és véleménye.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Stephanie Link (Hightower) az Nvidiát Micronra cserélte a Huang-ügy közepette",
+     "url": "https://www.thestreet.com/investing/stocks/popular-fund-manager-switches-nvidia-shares-for-micron-amid-huang-drama?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Japán GDP-je évesítve 0,1%-kal csökkent július–szeptemberben, mert gyengült a fogyasztás és lassult az export. Az investingLive szerint a piac +0,3%-os növekedést várt, negyedéves alapon a GDP stagnált (0,0%). Elemzők szerint az adat nem feltétlenül akasztja meg a Bank of Japan szigorítását.",
+     "symbols": [],
+     "title": "Váratlanul zsugorodott a japán gazdaság a harmadik negyedévben",
+     "url": "https://www.investing.com/news/economy-news/japans-economy-unexpectedly-shrinks-in-julyseptember-as-consumption-falters-5028233",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Yahoo Finance",
+     "summary": "Scott Bessent amerikai pénzügyminiszter vasárnap „drámai” vezetőváltást sürgetett az Nvidiánál, és azt mondta, hogy az igazgatótanácsnak a cégen kívül kell új vezérigazgatót keresnie. A megszólalás azután jött, hogy a Financial Times szerint Jensen Huang a visszatérését fontolgatja.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Bessent: az Nvidiának a cégen kívül kell új vezérigazgatót keresnie",
+     "url": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Jeff Schmid, a kansas city-i Fed elnöke szerint a jegybanknak még van tennivalója az infláció letörésében. Schmid az elmúlt hetekben a szigorítást pártoló döntéshozók közé tartozott.",
+     "symbols": [],
+     "title": "Schmid (kansas city-i Fed): a jegybanknak még van dolga az inflációval",
+     "url": "https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-central-bank-has-work-to-do-on-inflation-5028049",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az amerikai légiforgalmi zavarok vasárnap a harmadik napba léptek a pénteki országos leállás után. Az FAA (szövetségi légügyi hatóság) arra számít, hogy hétfőn visszaáll a normál működés.",
+     "symbols": [],
+     "title": "Harmadik napja tartanak a fennakadások az amerikai légiforgalomban, az FAA hétfőre ígéri a normál működést",
+     "url": "https://www.investing.com/news/economy-news/us-flight-disruptions-enter-third-day-faa-eyes-monday-return-to-normal-5028030",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A United Launch Alliance Vulcan Centaur rakétája szombaton nagyjából 10 perccel az indítás után meghibásodott, és nem juttatta pályára az Amazon Leo internetes műholdakat. Az Amazon megerősítette a 40 műhold elvesztését; a hiba oka egyelőre nem ismert.",
+     "symbols": [
+      "AMZN"
+     ],
+     "title": "Kudarcot vallott a ULA Vulcan rakétája, megsemmisült 40 Amazon-műhold",
+     "url": "https://www.investing.com/news/stock-market-news/us-rocket-fails-after-launch-payload-of-amazon-internet-satellites-destroyed-5028094",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Financial Times értesülése szerint a Diamondback Energy közel jár ahhoz, hogy mintegy 5 milliárd dollárért megvásárolja a Double Eagle fúrási portfólióját. A felek hivatalosan még nem jelentették be az ügyletet.",
+     "symbols": [
+      "FANG"
+     ],
+     "title": "FT: a Diamondback közel 5 milliárd dolláros megállapodáshoz, hogy megvegye a Double Eagle fúrási portfólióját",
+     "url": "https://www.investing.com/news/stock-market-news/diamondback-nears-5-billion-deal-to-buy-drilling-portfolio-from-double-eagle-ft-says-5028067",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Részvényesek beperelték az Intelt, miután a cég részvényei 29%-ot estek. A Reuters jelentése szerint a felperesek a zuhanással összefüggésben indítottak eljárást.",
+     "symbols": [
+      "INTC"
+     ],
+     "title": "Részvényesi pert indítottak az Intel ellen a 29%-os árfolyamzuhanás után",
+     "url": "https://www.investing.com/news/stock-market-news/intel-sued-by-shareholders-following-29-stock-plunge-5028171",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az IELTS nyelvvizsga egyik tulajdonosa, az ausztrál IDP Education visszautasította a Blackstone harmadik, mintegy 564,5 millió dolláros értékelésnek megfelelő felvásárlási ajánlatát. A Blackstone november 10-én tett részvényenként 3 ausztrál dolláros, nem kötelező érvényű ajánlatot.",
+     "symbols": [],
+     "title": "Harmadszor is elutasította a Blackstone felvásárlási ajánlatát az ausztrál IDP Education",
+     "url": "https://www.investing.com/news/stock-market-news/australias-idp-rebuffs-blackstones-third-buyout-attempt-at-5645-million-valuation-5028181",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A dél-koreai memóriachipgyártó SK Hynix öt év alatt mintegy 1 milliárd dollárt fordít beszállítói támogatására. A program a fejlesztéstől a tömeggyártásig segítené a partnercégeket.",
+     "symbols": [],
+     "title": "Az SK Hynix öt év alatt 1 milliárd dollárral támogatja chipipari beszállítóit",
+     "url": "https://www.investing.com/news/stock-market-news/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers-5028220",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Rightmove ingatlanportál szerint novemberben a szokásos szezonális mértéknél nagyobb mértékben csökkentek a brit lakások meghirdetett árai. Az adat a brit lakáspiac lassulására utal.",
+     "symbols": [],
+     "title": "Rightmove: a szokásosnál jobban estek a brit lakások kínálati árai novemberben",
+     "url": "https://www.investing.com/news/economy-news/uk-property-asking-prices-fall-more-than-usual-in-november-rightmove-says-5028221",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "FXStreet · CNBC · investingLive",
+     "summary": "Hétfőn a régió nagy része esett: a dél-koreai Kospi a jelentések szerint 3–4%-ot veszített, az SK Hynix több mint 6%-kal gyengült az Nvidia-jelentés előtti óvatosság és az exportkorlátozási aggodalmak miatt. A Nikkei a váratlanul gyenge japán GDP-adat után 1,5–2% körüli mínuszban járt, a hongkongi Hang Seng viszont emelkedett.",
+     "symbols": [],
+     "title": "Esnek az ázsiai tőzsdék: a Kospi 3% fölött zuhan, a chipgyártók gyengülnek az Nvidia-jelentés előtt",
+     "url": "https://www.fxstreet.com/news/asian-stocks-stay-mixed-as-kospi-drops-ahead-of-looming-nvidia-results-202611160634",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "CNBC · Reuters (MarketScreener)",
+     "summary": "Kínában októberben az ipari termelés 4,8%-kal nőtt éves alapon (várt: 5,3%, szeptember: 5,5%), a kiskereskedelmi forgalom csak 0,4%-kal (várt: 0,8%). Az állóeszköz-beruházások január–októberben 8,1%-kal csökkentek, az ingatlanberuházások több mint 21%-kal; a munkanélküliségi ráta 5,1%-ra mérséklődött.",
+     "symbols": [],
+     "title": "Elmaradtak a várakozásoktól a kínai októberi adatok: lassult az ipar és a kiskereskedelem",
+     "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "source": "The Japan Times · CNBC · CBS News",
+     "summary": "A kínai külügyminisztérium bejelentette, hogy Hszi Csin-ping november 19-én Sencsenben, az APEC-csúcs keretében háromoldalú találkozót tart Donald Trumppal és Vlagyimir Putyinnal. A napirenden várhatóan a nukleáris fegyverzet, a közel-keleti háború és a kereskedelem szerepel; amerikai tisztviselők szerint Trump az ukrajnai háborút várhatóan nem hozza szóba.",
+     "symbols": [],
+     "title": "Kína megerősítette: csütörtökön Sencsenben tart első háromoldalú csúcsot Hszi, Trump és Putyin",
+     "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "Kitco · Trading Economics · KuCoin",
+     "summary": "Az arany hétfő reggel mintegy 1%-kal esett, és 3850 dollár körül, 3900 dollár alatt járt unciánként, miután a múlt héten nagyjából 4,5%-ot veszített. Az esést a decemberi Fed-kamatemelés magas piaci valószínűsége nyomja.",
+     "symbols": [],
+     "title": "Tovább gyengül az arany, 3900 dollár alá esett",
+     "url": "https://tradingeconomics.com/commodity/gold",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Mfor · Economx",
+     "summary": "Az MNB Monetáris Tanácsa kedden dönt, az elemzői konszenzus szerint az 5,50%-os alapkamat nem változik, a figyelem a decemberi jelzésekre irányul. Pénteken piaczárás után a Moody's is értékelheti Magyarországot, ahol negatív kilátás van érvényben. A döntés előtti héten a forint gyengült az euróval szemben.",
+     "symbols": [],
+     "title": "Kedden kamatdöntés, pénteken jöhet a Moody's: változatlan alapkamatot várnak az elemzők",
+     "url": "https://www.portfolio.hu/gazdasag/20261116/bizonyitvanyt-osztanak-magyarorszagnak-es-jon-az-mnb-dontese-is-876258",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "U.Today · The Crypto Basic",
+     "summary": "A U.Today a TradingView adataira hivatkozva azt írja, hogy az XRP november 15-én éjjel 0,89 dollárig, kétéves mélypontra esett, majd 0,96 dollár körülire pattant vissza. A Whale Alert két, egyenként 120 millió XRP-s átutalást jelzett, a láncadatok szerint ezek nem kerültek tőzsdére. Az adatokat nagy hírügynökség nem erősítette meg.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Kétéves mélypontra, 0,89 dollárra esett az XRP, 240 millió XRP mozdult meg",
+     "url": "https://u.today/someone-moves-240-million-xrp-the-exact-moment-price-hits-its-089-floor",
+     "verified": false
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan (10–2; két tag emelést kért); következő döntés: december 9.",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan; következő döntés: december 17.",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "Október 20-án változatlan; következő döntés: november 17.",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
+   "updatedAt": "2026-11-16T06:50:25Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -20905,13 +21274,13 @@
    "id": "2026-11-13-us-ppi"
   },
   {
-   "actual": "",
+   "actual": "−0,1% (évesítve); negyedéves 0,0%",
    "country": "Japán",
    "date": "2026-11-16",
    "event": "GDP, 3. negyedév (július–szeptember, első előzetes becslés)",
    "forecast": "",
    "importance": 3,
-   "note": "08:50 tokiói idő. A második előzetes becslés december 8-án jelenik meg. A kibocsátó szerint az időpont változhat.",
+   "note": "08:50 tokiói idő. A második előzetes becslés december 8-án jelenik meg. Az adat a vártnál gyengébb lett (investingLive: várt +0,3% évesítve); forrás: Reuters, investingLive.",
    "previous": "",
    "source": "Japán kormányhivatal (Cabinet Office, ESRI) – hivatalos közzétételi naptár",
    "symbols": [],
@@ -21009,9 +21378,9 @@
    "country": "HU",
    "date": "2026-11-17",
    "event": "MNB kamatdöntés",
-   "forecast": "",
+   "forecast": "5,50% (változatlan)",
    "importance": 3,
-   "note": "A közlemény az ülés napján délután jelenik meg",
+   "note": "A közlemény az ülés napján délután jelenik meg. Elemzői konszenzus (Mfor, Economx, Portfolio): változatlan alapkamat.",
    "previous": "5,50%",
    "source": "MNB (2026-os ülésnaptár)",
    "time": "",
@@ -21188,6 +21557,22 @@
    "type": "Gyorsjelentés",
    "url": "https://days.to/walmart-earnings",
    "id": "2026-11-19-wmt-earnings"
+  },
+  {
+   "actual": "",
+   "country": "Kína",
+   "date": "2026-11-19",
+   "event": "Hszi Csin-ping, Donald Trump és Vlagyimir Putyin első háromoldalú csúcstalálkozója (Sencsen, az APEC-csúcs keretében)",
+   "forecast": "",
+   "importance": 2,
+   "note": "A kínai külügyminisztérium megerősítette; várható témák: nukleáris fegyverzet, közel-keleti háború, kereskedelem.",
+   "previous": "",
+   "source": "Kínai külügyminisztérium (The Japan Times, CNBC)",
+   "symbols": [],
+   "time": "",
+   "type": "Politika",
+   "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+   "id": "2026-11-19-cn-xi-trump-putin"
   },
   {
    "actual": "",
