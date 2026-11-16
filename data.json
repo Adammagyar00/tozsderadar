@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T16:56:28Z",
+ "builtAt": "2026-11-16T17:56:03Z",
  "digests": [
   {
    "calendar": [
@@ -68,9 +68,7 @@
      "origin": "yahoo",
      "source": "Yahoo Finance · Investing.com",
      "summary": "Hétfőn a korai ázsiai kereskedésben esett az olaj ára, mert erősödnek a javuló globális kínálatra vonatkozó várakozások, bár a közel-keleti harcok folytatódnak. A januári Brent-határidős 0,9%-kal 95 dollárra csökkent; a Hormuzi-szoroson át szállított mennyiség jelentések szerint közel visszaállt a háború előtti szintre. Ezzel folytatódik az előző heti 16%-os esés.",
-     "symbols": [
-      "XDW0"
-     ],
+     "symbols": [],
      "title": "Csökken az olajár: a piac a helyreálló kínálatra figyel a közel-keleti feszültség ellenére",
      "url": "https://finance.yahoo.com/energy/articles/oil-prices-dip-markets-look-001533575.html",
      "verified": true
@@ -811,6 +809,55 @@
      "title": "5,1% fölött az amerikai 10 éves hozam Warsh beszéde előtt",
      "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---fed-chair-warsh-to-speak-today---16-november-2026-16112026",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T17:52:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Benzinga · GuruFocus · Investing.com",
+     "summary": "A Bloom Energy árfolyama hétfőn mintegy 8%-kal, 177,51 dollárra esett, miközben a QQQ több mint 2%-ot gyengült. A fűtőelemgyártó növekedése a mesterségesintelligencia-adatközpontok építésétől függ, ezért a részvény az Nvidia-jelentés előtti bizonytalanság miatt esett; a beszámolók szerint cégspecifikus rossz hír nem volt.",
+     "symbols": [
+      "BE",
+      "QQQ"
+     ],
+     "title": "Közel 8%-kal esett a Bloom Energy a techpapírok eladási hullámában",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63297209/bloom-energy-shares-drop-whats-going-on-with-the-ai-power-stock-monday",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T17:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Bloomberg · BusinessDay · Moneyweb",
+     "summary": "Az MTN és a Telkom hétfőn a johannesburgi tőzsdén közölte, hogy korai tárgyalásokat folytatnak arról, hogy az MTN ajánlatot tesz a Telkom összes részvényére; az ügylet nem biztos, hogy létrejön. A Telkom árfolyama napközben akár 18%-kal, 72,94 randra emelkedett, ami 2019 októbere óta a legmagasabb szint. Az ajánlat főként készpénzes lehet; a Telkom legnagyobb tulajdonosa az állam (kb. 40,5%).",
+     "symbols": [],
+     "title": "Az MTN tárgyal a dél-afrikai Telkom felvásárlásáról, a Telkom akár 18%-ot ugrott",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/mtn-holds-talks-to-buy-south-africa-s-telkom-in-cash-share-deal",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T17:52:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "The National · CNBC",
+     "summary": "Az iráni Forradalmi Gárda szerint hat drónt indított egy bahreini amerikai légvédelmi radar ellen; Bahrein szerint mindet elfogták. Egy héten belül ez a második iráni támadás Bahrein ellen. Az ÖET főtitkára a regionális békeerőfeszítések nyílt kihívásának nevezte, Szaúd-Arábia is elítélte a támadást; a szaúdi tőzsdeindex 0,7%-kal esett.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Irán dróntámadást indított Bahrein ellen, az Öböl-menti Együttműködési Tanács elítélte",
+     "url": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-attacks-bahrain-in-blatant-challenge-to-peace-push/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T17:52:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "source": "investingLive",
+     "summary": "Az investingLive beszámolója szerint Kevin Warsh Fed-elnök a San Franciscó-i Fed termelékenységi és foglalkoztatási konferenciáján tartott nyitóbeszédében nem beszélt az inflációról, a kamatpályáról vagy a mérlegről, csak röviden jelezte, hogy az MI széles körű elterjedése később a monetáris politika szempontjából is fontos lesz. A piac továbbra is decemberi kamatemelést áraz; a beszéd tartalmát egyelőre más forrás nem erősítette meg.",
+     "symbols": [],
+     "title": "Warsh beszéde a mesterséges intelligenciáról szólt, monetáris politikai jelzést nem adott",
+     "url": "https://investinglive.com/central-banks/fed-s-warsh-doesn-t-talk-about-monetary-policy-in-a-speech-on-ai/",
+     "verified": false
     }
    ],
    "markets": [
@@ -837,7 +884,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T16:40:35Z",
+   "updatedAt": "2026-11-16T17:52:00Z",
    "watchlist": []
   },
   {
