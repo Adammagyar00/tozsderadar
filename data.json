@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T10:55:57Z",
+ "builtAt": "2026-11-16T11:56:05Z",
  "digests": [
   {
    "calendar": [
@@ -471,6 +471,54 @@
      "title": "Harmadik hete folyik ki a pénz az amerikai bitcoin-ETF-ekből, a félelemindex 10-re esett",
      "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-etf-outflows-hit-107-billion-as-btc-struggles-to-recover-from-oversold-levels-202611160520",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T11:40:01Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Reuters (Investing.com) · CNBC · Dow Jones (MarketScreener)",
+     "summary": "A Reuters szerint európai idő szerint kora délután a Nasdaq 100 határidős kb. 1%-kal, az S&P 500 határidős 0,36%-kal volt lejjebb, a Dow stagnált. Premarketben a Dell és a HP 5,1%-ot, a Super Micro 3,8%-ot esett, az Intel, az AMD, a Broadcom és a Micron 3,5–5% közötti mínuszban volt, a CoreWeave és a Nebius 5% fölött esett. A háttérben a keddi Nvidia-jelentés és a csütörtöki Anthropic-tőzsdei bevezetés körüli óvatosság áll; a piac teljesen beárazta a decemberi Fed-kamatemelést.",
+     "symbols": [
+      "QQQ",
+      "VOO",
+      "MU"
+     ],
+     "title": "Fordult a hangulat: esnek a Nasdaq- és S&P 500-határidősök, a chip- és szerverpapírok a nyomás alatt",
+     "url": "https://www.investing.com/news/economy-news/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom-5028900",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T11:40:01Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "Reuters (FXStreet) · EKB",
+     "summary": "Boris Vujčić, az EKB alelnöke hétfőn azt mondta, hogy a közelmúltbeli energiaár-mozgások megemelhetik az euróövezeti inflációt. Szerint a mesterséges intelligencia és az államadósság kiemelkedő pénzügyi stabilitási kockázatok; a gyengülő bizalom és a magasabb hitelköltségek ugyanakkor a növekedés lassításával részben fékezhetik az inflációt. Az EKB honlapján megjelent beszéde szerint az euróövezeti infláció októberben 4%-ra nőtt.",
+     "symbols": [],
+     "title": "Vujčić (EKB): a friss energiaár-alakulás feljebb tolhatja az inflációt",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T11:40:01Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Summit Therapeutics közlemény · Investing.com · Benzinga",
+     "summary": "Az FDA elutasító levelet (CRL) küldött a Summit Therapeutics ivonescimab nevű szerének forgalombahozatali kérelmére EGFR-mutált, nem kissejtes tüdőrák kezelésére, mert a progressziómentes túlélési előny statisztikailag szignifikáns teljestúlélés-javulás nélkül nem elég. A cég vasárnap közölte a döntést; a részvény hétfőn premarketben 17–20%-kal esett. A Jefferies szerint az elutasítás volt a befektetők alapforgatókönyve.",
+     "symbols": [],
+     "title": "Közel 20%-ot zuhan a Summit Therapeutics, miután az FDA elutasította a tüdőrákgyógyszerét",
+     "url": "https://za.investing.com/news/stock-market-news/summit-therapeutics-stock-plunges-after-fda-rejects-lung-cancer-drug-4577276",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T11:40:01Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · Benzinga",
+     "summary": "A Take-Two Interactive árfolyama hétfőn premarketben több mint 3%-kal emelkedett a nagyon várt Grand Theft Auto VI videojáték csütörtöki megjelenése előtt. A CNBC és a Benzinga is a nap legnagyobb premarket mozgói között említette a céget.",
+     "symbols": [],
+     "title": "3% fölött emelkedik a Take-Two a csütörtöki GTA VI-megjelenés előtt",
+     "url": "https://www.cnbc.com/2026/11/16/stocks-moving-the-most-today-live-updates.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -497,7 +545,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T10:39:55Z",
+   "updatedAt": "2026-11-16T11:40:01Z",
    "watchlist": []
   },
   {
