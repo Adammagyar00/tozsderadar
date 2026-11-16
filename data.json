@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T15:55:47Z",
+ "builtAt": "2026-11-16T16:56:28Z",
  "digests": [
   {
    "calendar": [
@@ -524,14 +524,14 @@
      "addedAt": "2026-11-16T12:50:00Z",
      "category": "Figyelőlista",
      "impact": "negatív",
-     "source": "TipRanks · GuruFocus",
+     "source": "TipRanks · GuruFocus · Investing.com",
      "summary": "A TipRanks és a GuruFocus jelentése szerint a Micron mintegy 4,7%-kal, a SanDisk 5,3%-kal, az SK Hynix 5,1%-kal esett a hétfői amerikai nyitás előtti kereskedésben. Az okok között a cikkek a félvezetőpiaci eladási hullámot, az Nvidia vezetési válsága miatti bizonytalanságot a keddi gyorsjelentés előtt, a kínai memóriagyártók terjeszkedését és egy új DRAM-árrögzítési pert említik. A számokat jelentős hírügynökség nem erősítette meg.",
      "symbols": [
       "MU"
      ],
      "title": "Tovább esnek a memóriachip-gyártók: a Micron, a SanDisk és az SK Hynix 4–5%-kal gyengül a nyitás előtt",
      "url": "https://www.tipranks.com/news/micron-sandisk-and-sk-hynix-stocks-are-falling-in-premarket-again-whats-behind-the-drop",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-11-16T12:50:00Z",
@@ -746,6 +746,71 @@
      "title": "A bitcoin esése kiélezte a vitát az OKX és a Binance alapítói között; Yi He 97 millió dolláros veszteséget mutatott be",
      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T16:40:35Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Investing.com · IBTimes",
+     "summary": "Az Investing.com szerint a kereskedők lezárják az Nvidia riválisaira tett múlt heti fogadásaikat a keddi Nvidia-gyorsjelentés előtt: a Marvell 7,3%-kal, a Micron 7,1%-kal, az Intel 5,9%-kal, a Broadcom 4,8%-kal, az AMD több mint 5%-kal esett, maga az Nvidia csak 1,9%-kal. A nyomást a szigorodó exportellenőrzés miatti aggodalom is növeli, miután Bessent pénzügyminiszter 10 napot adott az Nvidia igazgatótanácsának, hogy válaszoljon az exportszabályokkal kapcsolatos kérdésekre.",
+     "symbols": [
+      "MRVL",
+      "MU",
+      "QQQ"
+     ],
+     "title": "Tovább mélyül a chipesés: a Marvell 7,3%-kal, a Micron 7,1%-kal zuhan az Nvidia-jelentés előtt",
+     "url": "https://ca.investing.com/news/stock-market-news/us-chip-stocks-slide-as-traders-unwind-nvidia-rival-bets-before-earnings-4961539",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T16:40:35Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Bloomberg · ABC News",
+     "summary": "Donald Trump hétfőn azt mondta, „nem bánná”, ha Jensen Huangot visszahelyeznék az Nvidia vezérigazgatói posztjára; szerinte Huang „nagy leckét kapott”, és sokan szeretnék a visszatérését. Az elnök azt is mondta, nem tudja, hogy a botrányban érintett nő valóban kém-e. A testület döntéséről nincs hír.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Trump nem bánná, ha Jensen Huang visszatérne az Nvidia élére",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/trump-backs-calls-for-huang-to-be-reinstated-as-nvidia-ceo",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T16:40:35Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Al Jazeera · CBS News",
+     "summary": "Az Nvidia-botrány középpontjában álló szingapúri Megaspeed közölte, hogy Alice Huang 2025. augusztus 30-án távozott vezetői posztjáról, és azóta nincs pozíciója a cégnél. A társaság tagadja a jogsértést, és külső jogi tanácsadóval belső vizsgálatot indított.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Megaspeed: Alice Huang már 2025-ben távozott, a cég tagadja a jogsértést",
+     "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-16T16:40:35Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Fox News",
+     "summary": "A Fox News értesülése szerint a kormányzat azt tervezi, hogy az Nvidiát, az Amazont, a Microsoftot, az OpenAI-t és az Anthropicot, valamint más cégeket „nemzeti MI-bajnokká” nyilvánít, hogy segítse őket a Kínával folytatott versenyben. Hivatalos bejelentés egyelőre nincs.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Fox News: a Trump-kormány „nemzeti MI-bajnokká” nyilváníthatja az Nvidiát és más techcégeket",
+     "url": "https://www.foxnews.com/live-news/ai-news-nvidia-spy-scandal-jensen-huang-11-16-26",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T16:40:35Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "Saxo Bank · Seoul Economic Daily",
+     "summary": "Az amerikai 10 éves államkötvény hozama hétfő reggel 5,14% körül járt, miután pénteken 5,13%-on zárt (napközben 5,17%-ig emelkedett) – közölte a Saxo Bank. A piac a decemberi 25 bázispontos Fed-kamatemelést szinte teljesen beárazta; a hozamemelkedést a vártnál magasabb inflációs adatok és a jegybankárok szigorú megszólalásai hajtják.",
+     "symbols": [],
+     "title": "5,1% fölött az amerikai 10 éves hozam Warsh beszéde előtt",
+     "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---fed-chair-warsh-to-speak-today---16-november-2026-16112026",
+     "verified": true
     }
    ],
    "markets": [
@@ -772,7 +837,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T15:52:00Z",
+   "updatedAt": "2026-11-16T16:40:35Z",
    "watchlist": []
   },
   {
