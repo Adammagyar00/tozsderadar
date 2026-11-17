@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-16T20:55:47Z",
+ "builtAt": "2026-11-17T05:01:43Z",
  "digests": [
   {
    "calendar": [
@@ -991,6 +991,28 @@
      "title": "The Information: az OpenAI felvetette, hogy több mint 5 milliárd dollárért megveszi az MI-értelmezhetőséggel foglalkozó Goodfire-t",
      "url": "https://www.newsquawk.com/headlines/openai-has-reportedly-mulled-a-usd-5bln-acquisition-of-goodfire-the-information-reports-citing-sources--",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T21:05:33Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "CNBC (névtelen forrás) · Investing.com",
+     "summary": "A CNBC egy névtelen, az ügyet ismerő forrásra hivatkozva azt írta, hogy az Nvidia igazgatótanácsa nem fontolgatja Jensen Huang visszahívását a vezérigazgatói posztra; a testület a Huang magatartását vizsgáló, a Wachtell Lipton ügyvédi iroda által vezetett vizsgálatra koncentrál. A testület képviselője szerint folyamatban van egy fejvadászcég kiválasztása az új vezérigazgató megtalálására; ideiglenesen Colette Kress pénzügyi igazgató vezeti a céget. A cég hivatalosan nem erősítette meg az értesülést.",
+     "symbols": [],
+     "title": "CNBC: az Nvidia igazgatótanácsa nem tárgyal Jensen Huang visszatéréséről",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-16T21:05:33Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Privátbankár · Tőzsdefórum · Portfolio",
+     "summary": "A BUX 751,86 ponttal, 0,51%-kal, 146 907,54 ponton zárt hétfőn, a napon belüli ingadozás és az amerikai tőzsdék esése ellenére; a Richter és a Magyar Telekom (3010 forint) új történelmi csúcson zárt. Estére a forint mindkét fő devizával szemben kissé gyengült: a dollár 331,46 forintra emelkedett, az euró 364,36 forint körül járt.",
+     "symbols": [],
+     "title": "Emelkedéssel zárt a BUX, a forint enyhén gyengült estére",
+     "url": "https://privatbankar.hu/cikkek/reszveny/egyedul-a-richter-kapott-jo-hirt-a-borus-novemberi-hetfon.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -1017,7 +1039,7 @@
     }
    ],
    "summary": "Japán GDP-je a harmadik negyedévben évesítve 0,1%-kal csökkent, Kínában pedig az októberi ipari termelés és kiskereskedelem is elmaradt a várakozásoktól, az ázsiai tőzsdék többsége esett, a Kospi 3% fölött. Az olaj tovább gyengül a helyreálló hormuzi szállítások miatt, a Brent 95 dollár körül jár, az arany 3900 dollár alá esett. Az Nvidia körüli vita folytatódik: Bessent pénzügyminiszter külső vezérigazgatót sürget, miközben Jensen Huang a visszatérését fontolgatja. Kína megerősítette, hogy csütörtökön Sencsenben Hszi, Trump és Putyin első háromoldalú csúcsát tartják. Itthon kedden az MNB kamatdöntése jön (változatlan kamatot várnak), pénteken a Moody's felülvizsgálata.",
-   "updatedAt": "2026-11-16T19:52:00Z",
+   "updatedAt": "2026-11-16T21:05:33Z",
    "watchlist": []
   },
   {
