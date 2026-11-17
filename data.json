@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T16:56:37Z",
+ "builtAt": "2026-11-17T18:50:21Z",
  "digests": [
   {
    "calendar": [
@@ -1091,6 +1091,139 @@
      "title": "Emelkedik a Marvell, miután a Citadel jelentősen növelte részesedését",
      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63339459/marvell-stock-rises-as-citadel-discloses-729-stake-boost-slashes-spacex-amazon",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T17:39:37Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "JPMorgan Chase (8-K) · Investing.com",
+     "summary": "A JPMorgan Chase kedden bejelentette, hogy Jeremy Barnum pénzügyi igazgató a 2027 első negyedéves jelentés után átadja posztját Bregje de Bestnek, a vállalati és befektetési bank jelenlegi pénzügyi vezetőjének. Barnum alelnök (vice chairman) lesz, a januári és áprilisi gyorsjelentést, valamint a februári befektetői napot még ő vezeti.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "Pénzügyi igazgatót vált a JPMorgan: Jeremy Barnum helyére Bregje de Best érkezik",
+     "url": "https://www.investing.com/news/stock-market-news/jpmorgan-names-bregje-de-best-cfo-as-jeremy-barnum-moves-to-vice-chairman-5032838",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T17:39:37Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Index · Külügyminisztérium · TASS",
+     "summary": "A Külügyminisztérium szerint az amerikai OFAC 2027. március 19-ig meghosszabbította a MOL engedélyét a Barátság vezetéken érkező orosz olaj vásárlására, és az MVM-nek a TurkStreamen érkező orosz gázzal kapcsolatos pénzügyi tranzakcióira vonatkozó iránymutatást is. Az eredeti, egyéves mentesség novemberben járt volna le.",
+     "symbols": [],
+     "title": "Márciusig meghosszabbította az USA a magyar mentességet az orosz olaj- és gázszankciók alól",
+     "url": "https://index.hu/gazdasag/2026/11/17/kulugyminiszterium-egyesult-allamok-szankcio-orosz-koolaj-vasarlas-mentesseg",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T17:39:37Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Privátbankár (MTI) · Tőzsdefórum",
+     "summary": "A BUX 1820 ponttal, 1,24%-kal 145 087 pontra esett kedden az MTI szerint; a vezető részvények a Mol kivételével mind csökkentek. Az OTP közel 2,5%-kal 41 ezer forint alá, a Magyar Telekom közel 2%-kal esett, a Richter enyhe mínuszban zárt. A részvénypiaci forgalom 20,4 milliárd forint volt.",
+     "symbols": [],
+     "title": "1,24%-os eséssel zárt a BUX, az OTP közel 2,5%-ot gyengült",
+     "url": "https://privatbankar.hu/cikkek/reszveny/folytatodott-az-otp-melyrepulese-a-tozsden-mar-41-ezer-forint-alatt-az-arfolyam.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T17:39:37Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk · The Block",
+     "summary": "A CoinDesk elemzése szerint a stablecoin-állomány 2022 óta a leggyorsabb ütemben csökken, ami tetézi a spot bitcoin-ETF-ekből való kiáramlás okozta nyomást. A The Block a Glassnode adatai alapján november 11-én 30 nap alatt 14,2 milliárd dolláros csökkenésről írt. A bitcoin 64 ezer dollár körül mozog.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "CoinDesk: 2022 óta nem látott ütemben áramlik ki a tőke a kriptopiacról a stablecoinokon keresztül",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T17:39:37Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "24/7 Wall St.",
+     "summary": "A 24/7 Wall St. szerint a Micron és a SanDisk mintegy 4%-kal gyengült, miután a GF Securities csökkentette NAND-árelőrejelzését és 2027-es túlkínálatra figyelmeztetett. Az elemzői indoklást más forrás nem erősítette meg; a chippapírokra ma az amerikai exportszigorítás is nyomást gyakorol.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "24/7 Wall St.: 4%-kal esett a Micron és a SanDisk egy NAND-túlkínálatra figyelmeztető elemzés után",
+     "url": "https://247wallst.com/investing/2026/11/17/sandisk-and-micron-fall-4-as-gf-securities-cuts-nand-price-forecast-and-warns-of-a-glut-sk-hynix-dips/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T17:39:37Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "The Motley Fool · Quiver Quant",
+     "summary": "A Motley Fool szerint a Bloom Energy árfolyama kedden mintegy 5%-kal esett; a lap a lehetséges szabályozási korlátozásokkal és a gyenge pénzáramlással kapcsolatos aggodalmakat nevezi meg okként. Más elemzők szerint inkább profitrealizálás és az MI-infrastruktúra papírok általános gyengesége áll a háttérben.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Mintegy 5%-kal esik a Bloom Energy a rekordbevétel és a 900 MW-os NTT DATA-megállapodás ellenére",
+     "url": "https://www.fool.com/investing/2026/11/17/why-bloom-energy-stock-fell-despite-record-earnings-and-a-900-mw-deal/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T18:55:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Reuters (MarketScreener) · Irish Times",
+     "summary": "A STOXX 600 index 1,75%-os eséssel 650,72 ponton zárt kedden, ez a március 20. óta legnagyobb napi csökkenés. Az európai technológiai papírok 3,9%-kal estek az Nvidia-jelentés előtti kockázatcsökkentés és az amerikai chipkorlátozások miatt, az ASML 5,3%-ot gyengült. A Deutsche Bank 6%-kal zuhant a kiszivárgott ügyféliratokról szóló sajtóhírek után, a londoni FTSE 100 1,8%-kal esett.",
+     "symbols": [],
+     "title": "Nyolc hónapja nem látott eséssel zártak az európai tőzsdék: a STOXX 600 1,75%-ot esett",
+     "url": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T18:55:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Telex · Index · HVG",
+     "summary": "Magyar Péter miniszterelnök bejelentette, hogy november 17-én és 18-án szünetel a vasúti forgalom Magyarország és Ukrajna között, miután kedd reggel orosz drón csapódott be Munkácson, a vasútállomás közelében. A korlátozás a Budapest–Záhony–Csap–Munkács–Lviv–Kijev vonalat érinti; áldozatokról nem érkezett hír. Ilyen felfüggesztésre korábban nem volt példa.",
+     "symbols": [],
+     "title": "Két napra leáll a magyar–ukrán vasúti közlekedés a munkácsi orosz dróntámadás miatt",
+     "url": "https://telex.hu/belfold/2026/11/17/magyar-peter-mara-es-holnapra-leallitjuk-a-vasuti-kozlekedest-magyarorszag-es-ukrajna-kozott",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T18:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Reuters (névtelen források)",
+     "summary": "A Reuters három, az ügyet ismerő forrásra hivatkozva azt írta, hogy a UBS kevés mozgásteret lát, mivel a svájci parlament akár decemberben elfogadhatja a külföldi leányvállalatok tőkefedezetét szigorító szabályokat. A bank értesülések szerint továbbra is engedményeket kér, lehetőségeit a februári gyorsjelentésnél ismertetné. A UBS becslése szerint már a 90%-os követelmény is mintegy 16 milliárd dollár többlet elsődleges alapvető tőkét igényelne.",
+     "symbols": [],
+     "title": "Reuters-értesülés: a UBS feladni készül a harcot a szigorúbb svájci tőkeszabályok ellen",
+     "url": "https://uk.finance.yahoo.com/news/exclusive-ubs-set-accept-defeat-131059810.html",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T18:55:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Investing.com · Invezz",
+     "summary": "Az Invezz szerint a SpaceX árfolyama 2%-nál többet emelkedett, délelőtt 140,26 dollár körül járt az előző két nap esése után. Az Investing.com a mozgást a Goldman Sachs és az Apollo vezette, 40,2 milliárd dolláros, eszközfedezetű finanszírozással magyarázza, amelyből az Nvidia Rubin chipjeit vásárolnák; a finanszírozásról már november elején is érkeztek hírek.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Emelkedett a SpaceX részvénye kedd délelőtt a 40 milliárd dolláros GPU-finanszírozás nyomán",
+     "url": "https://uk.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-rallying-today-93CH-4988297",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T18:55:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "ChainCatcher · KuCoin News · The Defiant",
+     "summary": "Az Ondo Finance a kriptós sajtó szerint elindította a SPYSHIELDon nevű terméket, amely 12 tokenizált, pufferelt S&P 500 ETF-et fog össze: a hozam egy plafonig követi az indexet, a veszteségeket pedig a teljes futamidő végéig tartóknál tompítja. A termék az Egyesült Államokon kívüli minősített befektetőknek érhető el Ethereumon, BNB Chainen és Solanán; az Ondo portfóliótermékeiben lekötött érték 75 millió dollár fölött van.",
+     "symbols": [
+      "ONDO"
+     ],
+     "title": "Az Ondo elindította első S&P 500-alapú, veszteségpufferes tokenizált portfólióját",
+     "url": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-launches-s-p-500-portfolio-token-with-loss-buffers",
+     "verified": false
     }
    ],
    "markets": [
@@ -1117,7 +1250,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T16:40:00Z",
+   "updatedAt": "2026-11-17T18:55:00Z",
    "watchlist": []
   },
   {
