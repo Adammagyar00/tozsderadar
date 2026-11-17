@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T13:56:00Z",
+ "builtAt": "2026-11-17T14:55:53Z",
  "digests": [
   {
    "calendar": [
@@ -954,6 +954,53 @@
      "title": "Gyengült a forint a dollárral szemben, 332 fölé ment a dollár",
      "url": "https://www.penzcentrum.hu/megtakaritas/20261117/utest-kapott-a-forint-a-szaguldo-dollartol-mikozben-aggaszto-hirek-erkeztek-a-magyar-koltsegvetesrol-1209190",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T14:40:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "The Globe and Mail (Reuters) · FXStreet",
+     "summary": "Az amerikai kiskereskedelmi forgalom 0,2%-kal, mintegy 748,2 milliárd dollárra nőtt októberben, ami megfelel a várakozásnak; szeptemberben 0,8% volt a növekedés. A GDP-számításhoz használt szűkebb (kontroll)csoport 0,6%-kal bővült a várt 0,4% helyett, miközben az autókereskedők forgalma 1,6%-kal csökkent. Az erős alapadat tovább támasztja a decemberi Fed-kamatemelési várakozásokat.",
+     "symbols": [],
+     "title": "A vártnak megfelelően 0,2%-kal nőtt az amerikai kiskereskedelmi forgalom októberben",
+     "url": "https://www.theglobeandmail.com/business/article-us-retail-sales-october-2026/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T14:40:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "source": "Portfolio · VG · Economx",
+     "summary": "Az MNB elnöke a kamatdöntés utáni sajtótájékoztatón elmondta, hogy a Tanács két javaslatot tárgyalt: a kamat tartását és a kamat csökkentését, vagyis a döntés nem volt egyhangú. Varga szerint a következő hónapokban ismét erősödhet az inflációs nyomás, és a decemberi inflációs jelentés meghatározó lehet a további lépésekhez; a jegybank továbbra is adatvezérelt marad.",
+     "symbols": [],
+     "title": "Varga Mihály: kamatcsökkentési javaslat is volt a Monetáris Tanácsban, újra erősödhet az inflációs nyomás",
+     "url": "https://www.portfolio.hu/gazdasag/20261117/valaki-mar-kamatot-vagott-volna-ma-az-mnb-ben-megszolalt-varga-mihaly-a-huszezresek-cserejerol-is-877062",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T14:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Yahoo Finance · CNBC",
+     "summary": "Kedden a nyitás után is esett az amerikai tőzsde, a Nasdaq-100 mintegy 1%-kal, az Nvidia árfolyama a CNBC szerint 4,1%-kal gyengült az esti gyorsjelentés előtt. A nyomást az amerikai MI-chipexport újabb szigorítása, az emelkedő hozamok és a közelgő Anthropic-tőzsdei bevezetés okozza.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Eséssel nyitott a Wall Street: a Nasdaq-100 mintegy 1%-kal, az Nvidia 4%-kal gyengült a jelentés előtt",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-100-145810375.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T14:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Benzinga · Seeking Alpha",
+     "summary": "A katonai drónokat gyártó Red Cat harmadik negyedéves bevétele 11,77 millió dollár lett, messze elmaradva a mintegy 40 millió dolláros várakozástól, és a cég visszavonta 2026-os bevételi célját, mert a szerződések lassabban haladnak. A részvény kedden mintegy 25%-kal esett.",
+     "symbols": [],
+     "title": "Mintegy 25%-ot zuhant a drónokat gyártó Red Cat: elmaradt a bevétel, visszavonta az éves célt",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63335376/why-is-red-cat-stock-falling-tuesday",
+     "verified": true
     }
    ],
    "markets": [
@@ -980,7 +1027,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T13:50:00Z",
+   "updatedAt": "2026-11-17T14:40:00Z",
    "watchlist": []
   },
   {
@@ -22992,14 +23039,14 @@
    "id": "2026-11-17-de-zew"
   },
   {
-   "actual": "",
+   "actual": "+0,2% (havi)",
    "country": "USA",
    "date": "2026-11-17",
    "event": "Kiskereskedelmi forgalom, október",
-   "forecast": "",
+   "forecast": "+0,2% (havi)",
    "importance": 2,
-   "note": "Dátum a Census Bureau hivatalos kiadási naptára szerint",
-   "previous": "",
+   "note": "Dátum a Census Bureau hivatalos kiadási naptára szerint. Eredmény: 748,2 Mrd $, éves alapon +6,8%; kontrollcsoport +0,6% (várt +0,4%). Forrás: Reuters (The Globe and Mail), FXStreet.",
+   "previous": "+0,8% (havi)",
    "source": "US Census Bureau",
    "symbols": [],
    "time": "14:30",
