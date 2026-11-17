@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T14:55:53Z",
+ "builtAt": "2026-11-17T15:55:53Z",
  "digests": [
   {
    "calendar": [
@@ -1001,6 +1001,57 @@
      "title": "Mintegy 25%-ot zuhant a drónokat gyártó Red Cat: elmaradt a bevétel, visszavonta az éves célt",
      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63335376/why-is-red-cat-stock-falling-tuesday",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T15:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Investing.com · Reuters · Benzinga · Stocktwits",
+     "summary": "A Reuters értesülése szerint a Trump-kormányzat a nagy techcégek (Amazon, Google, Meta, Microsoft, Cisco, CoreWeave) lobbizása ellenére is továbblép a kínai optikai transzceiverek új modelljeinek behozatalát korlátozó szabályokkal, az FCC nemzetbiztonsági aggályai miatt. A hírre a Coherent mintegy 8%-kal, a Lumentum 4–5%-kal emelkedett a nyitás előtt; a Stocktwits szerint a Marvell is a nyertesek között volt. A kínai beszállítók a globális optikai transzceiverpiac nagyjából kétharmadát adják.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "Ugrottak az optikai papírok (Coherent, Lumentum): a Reuters szerint az USA korlátozza a kínai adatközponti eszközök importját",
+     "url": "https://www.investing.com/news/stock-market-news/coherent-lumentum-jump-as-us-presses-ahead-with-china-equipment-curbs-5032701",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T15:50:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · Economx",
+     "summary": "A Portfolio szerint az MNB kedd délutáni döntése után a forint gyengült, az euró jegyzése átmenetileg 366 forint fölé emelkedett, majd 364–365 forint körül mozgott, a dollár 331 forint körül járt. A gyengülés oka, hogy a döntés nem volt egyhangú, és a jegybank üzenete szerint bizonyos feltételek mellett akár decemberben is lehet tér kamatcsökkentésre (Economx).",
+     "symbols": [],
+     "title": "Gyengült a forint a kamatdöntés után, 366 fölé is felment az euró",
+     "url": "https://www.portfolio.hu/deviza/20261117/megutottek-a-forintot-az-mnb-uzenete-utan-876908",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T15:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Klarna közlemény (TipRanks) · Investing.com",
+     "summary": "A svéd fizetési cég harmadik negyedéves bevétele 1,009 milliárd dollár lett, meghaladva a 983 millió dolláros várakozást, a forgalmazott áruérték 10%-kal 36,1 milliárd dollárra nőtt. A nettó veszteség 65 millió dollárra mérséklődött, de a részvényenkénti 0,19 dolláros veszteség rosszabb a várt kb. 0,15 dollárnál. Az éves előrejelzést megtartotta, a negyedik negyedévre pozitív nettó eredményt vár.",
+     "symbols": [
+      "KLAR"
+     ],
+     "title": "A Klarna bevétele 12%-kal 1,01 milliárd dollárra nőtt, de a vártnál nagyobb veszteséget jelentett",
+     "url": "https://www.tipranks.com/news/company-announcements/klarna-reports-third-quarter-2026-results",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T15:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Newsquawk (Bloomberg-értesülés alapján)",
+     "summary": "A Newsquawk által idézett Bloomberg-értesülés szerint, névtelen forrásokra hivatkozva, a HSBC mintegy 300 millió dolláros kitettséget adott el jelentős diszkonttal az Oracle-hez kötött új-mexikói adatközponti projekt 18 milliárd dolláros finanszírozási csomagjából. Korábbi FT-jelentések szerint a hitel szindikálása elakadt, a bankok 89–91 centre értékelték le. A HSBC részesedés-eladását független forrás eddig nem erősítette meg.",
+     "symbols": [
+      "ORCL",
+      "HSBC"
+     ],
+     "title": "Bloomberg: a HSBC mélyen áron alul adta el részesedését egy Oracle-hez kötött adatközpont 18 milliárd dolláros hiteléből",
+     "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---17th-november-2026",
+     "verified": false
     }
    ],
    "markets": [
@@ -1027,7 +1078,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T14:40:00Z",
+   "updatedAt": "2026-11-17T15:50:00Z",
    "watchlist": []
   },
   {
