@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T10:56:16Z",
+ "builtAt": "2026-11-17T11:55:54Z",
  "digests": [
   {
    "calendar": [
@@ -860,6 +860,43 @@
      "title": "Portfolio: 1982 óta nem volt ilyen alacsony az amerikai stratégiai olajtartalék",
      "url": "https://www.portfolio.hu/gazdasag/20261117/olyan-dolog-tortent-az-egyesult-allamokban-amire-tobb-mint-40-eve-nem-volt-pelda-876974",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · Home Depot közlemény",
+     "summary": "A Home Depot harmadik negyedéves árbevétele 43,4 milliárd dollár lett (+4,9%), a korrigált EPS 3,86 dollár, szemben a várt 3,84 dollárral és 42,8 milliárd dolláros bevétellel. Az összehasonlítható eladások 2,2%-kal nőttek (StreetAccount-várakozás: 1,8%). A cég frissítette éves előrejelzését, és bejelentette, hogy a jövő héttől Richard McPhail pénzügyi igazgató veszi át a vezérigazgatói posztot.",
+     "symbols": [
+      "HD"
+     ],
+     "title": "Felülmúlta a várakozásokat a Home Depot, Richard McPhail lesz az új vezérigazgató",
+     "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T11:50:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · Privátbankár",
+     "summary": "Az Autonomous Research 57 921 forintról 55 703 forintra, a Citi 50 700 forintról 47 835 forintra mérsékelte az OTP célárát, ajánlásukon (felülsúlyozás, illetve vétel) nem változtattak. Az OTP árfolyama kedd délelőtt 1–1,4%-kal esett a Budapesti Értéktőzsdén.",
+     "symbols": [],
+     "title": "Az Autonomous és a Citi is csökkentette az OTP célárát",
+     "url": "https://www.portfolio.hu/uzlet/20261117/tobb-celarcsokkentes-is-erkezett-az-otp-re-876964",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T11:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Benzinga · TipRanks · Investing.com",
+     "summary": "Az opciós piac a ma esti gyorsjelentés utánra nagyjából 8%-os elmozdulást áraz az Nvidia-részvényben (Benzinga Pro: 8,3%, TipRanks: 8,8%, a Cboe szerint kb. 8%), ami jóval meghaladja az előző négy jelentés utáni átlagos 4,8%-ot. Ez lesz az első jelentés Jensen Huang távozása óta, Colette Kress ideiglenes vezérigazgatóval.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Mintegy 8%-os árfolyammozgást áraz az opciós piac az Nvidia-jelentés után",
+     "url": "https://www.benzinga.com/markets/options/26/11/63277522/nvidia-earnings-without-jensen-huang-could-trigger-341-billion-stock-swing-as-options-traders-brace-for-volatility",
+     "verified": true
     }
    ],
    "markets": [
@@ -886,7 +923,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T10:50:00Z",
+   "updatedAt": "2026-11-17T11:50:00Z",
    "watchlist": []
   },
   {
@@ -22914,15 +22951,17 @@
    "id": "2026-11-17-us-retail-sales"
   },
   {
-   "actual": "",
+   "actual": "EPS 3,86 $ / bevétel 43,4 Mrd $",
    "country": "USA",
    "date": "2026-11-17",
    "event": "Home Depot Q3 2026 gyorsjelentés",
    "forecast": "EPS 3,83 $ / bevétel 42,8 Mrd $",
    "importance": 2,
-   "note": "Nyitás előtt jelent, konferenciahívás 15:00-kor. Előrejelzés: MarketBeat.",
+   "note": "Nyitás előtt jelent, konferenciahívás 15:00-kor. Előrejelzés: MarketBeat. Eredmény: Home Depot közlemény, CNBC (korrigált EPS; GAAP EPS 3,72 $; összehasonlítható eladások +2,2%).",
    "previous": "",
    "source": "Home Depot IR",
+   "surprise": "beat",
+   "surpriseNote": "EPS +0,8% a vártnál, bevétel +1,4%",
    "symbols": [
     "HD"
    ],
