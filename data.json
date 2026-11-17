@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T07:56:13Z",
+ "builtAt": "2026-11-17T08:55:50Z",
  "digests": [
   {
    "calendar": [
@@ -303,10 +303,10 @@
      "category": "Vállalatok és technológia",
      "impact": "negatív",
      "origin": "investing",
-     "source": "Investing.com · Financial Times",
-     "summary": "A Financial Times névtelen forrásokra hivatkozó értesülése szerint a CVC jelezte az Advent Internationalnek, hogy egy átvilágítás után nem kívánja befejezni az olasz Irca megvásárlását. Az Advent elvárja az ügylet teljesítését, jogi vita is kialakulhat.",
+     "source": "Investing.com · Financial Times · Reuters",
+     "summary": "A CVC kedden közölte, hogy kiszáll a csaknem 3 milliárd eurós (3,3 milliárd dolláros) ügyletből, amellyel az Advent Internationaltől vásárolta volna meg az olasz Irca élelmiszer-alapanyag-gyártót; az FT szerint egy pénzügyi átvilágítás tette szerinte vállalhatatlanná az ügyletet. Az Advent elutasítja a visszalépést és jogai védelmét helyezte kilátásba, így jogvita várható.",
      "symbols": [],
-     "title": "FT: a CVC kiszállna a 3,3 milliárd dolláros Irca-felvásárlásból",
+     "title": "A CVC bejelentette: visszalép a 3,3 milliárd dolláros Irca-felvásárlástól, az Advent vitatja",
      "url": "https://www.investing.com/news/stock-market-news/cvc-plans-to-back-out-of-33-bln-irca-deal-with-advent-international-ft-93CH-5031334",
      "verified": true
     },
@@ -578,6 +578,88 @@
      "title": "Folytatódik a 2027-es költségvetés parlamenti vitája",
      "url": "https://www.portfolio.hu/gazdasag/20261117/tisza-kormany-folytatodik-a-koltsegvetes-vitaja-876918",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T08:40:08Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Reuters (Investing.com) · Bloomberg",
+     "summary": "A STOXX 600 mintegy 0,6%-kal 658 pont körülre esett a nyitás után, a techpapírok és a chipgyártók (ASML, STMicro) vezették az esést. A Deutsche Bank részvénye kb. 5%-ot esett, miután több lap (Spiegel, FT, New York Times) 15 millió kiszivárgott belső dokumentumra épülő cikkeket közölt a bank orosz oligarchákkal, Donald Trumppal és Jeffrey Epsteinnel kapcsolatos korábbi ügyleteiről. A bank szerint az ügyek akár két évtizedesek, és jelentős pénzügyi hatást nem vár.",
+     "symbols": [],
+     "title": "Eséssel nyitottak az európai tőzsdék: 5%-ot zuhant a Deutsche Bank kiszivárgott iratok miatt",
+     "url": "https://www.investing.com/news/stock-market-news/european-shares-ease-as-tech-stocks-deutsche-bank-slide-5031958",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T08:40:08Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Bloomberg · Washington Post · Investing.com · Benzinga",
+     "summary": "A Trump-kormány hétfőn engedélyhez kötötte a fejlett MI-chipek szállítását több ország (pl. Szingapúr, Malajzia, Thaiföld, Indonézia, Brazília) adatközpontjaiba, hogy kínai cégek ne bérelhessenek külföldön számítási kapacitást. A Benzinga szerint a legnagyobb amerikai techpapírok együtt mintegy 960 milliárd dollár piaci értéket veszítettek; az AMD, a Micron és a Broadcom is esett, Ázsiában a Baidu és az Alibaba gyengült, a kínai chipgyártók (SMIC, Hua Hong) viszont szárnyaltak.",
+     "symbols": [
+      "MU",
+      "QQQ"
+     ],
+     "title": "Az USA szigorította az MI-chipek exportját, esnek a chippapírok – a Micron is",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/chip-stocks-slide-as-us-sets-new-curbs-on-china-s-compute-access",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T08:40:08Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Reuters · CNBC",
+     "summary": "A Reuters három forrása és a CNBC értesülése szerint az Nvidia igazgatótanácsa nem tárgyal Jensen Huang vezérigazgatói visszatéréséről, miközben egyre nő a nyomás (petíció, Elon Musk támogatása). Az ideiglenes vezérigazgató Colette Kress, a testület fejvadász céget választ az utód kereséséhez. Az Nvidia részvénye hétfőn több mint 4%-ot esett, ma este jön a gyorsjelentés.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Az Nvidia igazgatótanácsa nem tervezi Jensen Huang visszahívását",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T08:40:08Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Bloomberg · Il Sole 24 Ore · Investing.com",
+     "summary": "Az Iceye részvényenként 41 euró készpénzes ajánlatot tett az Avióra, ami mintegy 20%-os prémium a hétfői záróárhoz képest. Az Avio árfolyama több mint 13%-kal ugrott, az igazgatóság mérlegeli az ajánlatot. A sikerhez a részvények kétharmadának támogatása kell.",
+     "symbols": [],
+     "title": "A finn Iceye 2,05 milliárd eurós ajánlatot tett az olasz Avio rakétagyártóra",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/avio-gets-2-billion-takeover-bid-from-finland-s-iceye",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T08:40:08Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "ONS · Investing.com · AOL (PA)",
+     "summary": "Az ONS szerint a július–szeptemberi időszakban 4,7%-ról 4,6%-ra csökkent a munkanélküliségi ráta, a legtöbb elemző változatlant várt; a hivatal szerint ebben a felmérés mintájának változása is szerepet játszott. Ugyanakkor a betöltetlen állások száma 690 ezerre csökkent, a bérlistás foglalkoztatottak száma októberben 34 ezerrel esett, a rendszeres bérnövekedés 3,5%-ra lassult.",
+     "symbols": [],
+     "title": "Váratlanul 4,6%-ra csökkent a brit munkanélküliség",
+     "url": "https://www.investing.com/news/economic-indicators/uk-unemployment-falls-to-46-beats-forecast-payrolls-vacancies-drop-5031844",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T08:40:08Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Investing.com · Reuters · Yahoo Finance",
+     "summary": "A dohánycsoport korrigált működési eredménye 3,7%-kal nőtt a szeptember 30-án zárult üzleti évben, a jelentett működési eredmény viszont mintegy tizedével csökkent. A 2027-es üzleti évre 1,5 milliárd fontos visszavásárlást jelentett be, és 2030 végéig további 2100–2500 munkahely megszüntetésével számol.",
+     "symbols": [],
+     "title": "Az Imperial Brands 4%-kal emeli az osztalékot, 1,5 milliárd fontos sajátrészvény-vásárlást indít",
+     "url": "https://www.investing.com/news/earnings/imperial-brands-raises-dividend-buyback-to-15-billion-as-adjusted-profit-grows-5031858",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T08:40:08Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · Pénzcentrum",
+     "summary": "A Portfolio szerint a BUX nyitáskor mintegy 0,6%-kal, kb. 146 035 pontra esett, a nyugat-európai indexekkel együtt. A Richter kivétel volt, miután a lap szerint a HSBC 13 400-ról 14 000 forintra emelte a célárat, tartás ajánlás mellett. A Pénzcentrum szerint a Citi csökkentette az OTP célárát.",
+     "symbols": [],
+     "title": "Eséssel nyitott a BÉT, a Richter a HSBC céláremelése után emelkedett",
+     "url": "https://www.portfolio.hu/uzlet/20261117/esessel-kezdi-a-napot-a-magyar-tozsde-876950",
+     "verified": false
     }
    ],
    "markets": [
@@ -604,7 +686,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T07:40:18Z",
+   "updatedAt": "2026-11-17T08:40:08Z",
    "watchlist": []
   },
   {
