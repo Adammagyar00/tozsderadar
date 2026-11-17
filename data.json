@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T06:55:54Z",
+ "builtAt": "2026-11-17T07:56:13Z",
  "digests": [
   {
    "calendar": [
@@ -532,6 +532,52 @@
      "title": "Ma jelent az Nvidia: 109 milliárd dolláros bevételt és 2,47 dolláros EPS-t vár a piac",
      "url": "https://www.fxstreet.com/news/nvidia-earnings-preview-the-first-big-test-after-jensen-huangs-exit-202611160603",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T07:40:18Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Newsquawk · Bloomberg (swissinfo)",
+     "summary": "Az európai részvénypiacok a jelzések szerint gyengén nyitnak kedden: az Euro Stoxx 50 határidős kontraktusai 0,7–0,8%-kal estek, miután a készpiac hétfőn 0,6%-os veszteséggel zárt. A hangulatot a Wall Street-i techeladások, a fejlett MI-chipek Kínába irányuló exportjának amerikai szigorítása és az esti Nvidia-jelentés előtti óvatosság rontja; az olajár közben csökken.",
+     "symbols": [],
+     "title": "Esésre utal az európai határidős piac: 0,7–0,8%-kal gyengülnek az Euro Stoxx 50 határidős kontraktusai",
+     "url": "https://www.swissinfo.ch/eng/stock-losses-deepen-ahead-of-nvidia,-oil-declines:-markets-wrap/92391739",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T07:40:18Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "AP · Investing.com · TradingKey",
+     "summary": "A Kospi 2,6%-kal 4968,48 pontra esett, február óta először zárt 5000 pont alatt; a Samsung Electronics 3,1%-kal, az SK Hynix 1,8%-kal gyengült. A tokiói Nikkei 225 1,23%-os eséssel zárt, a tajvani Taiex 2,3%-ot, az ausztrál S&P/ASX 200 1,8%-ot esett, az MI-papírok eladása folytatódott az Nvidia-jelentés előtt.",
+     "symbols": [],
+     "title": "Hat hónapos mélypontra, 5000 pont alá esett a dél-koreai Kospi",
+     "url": "https://investing.com/news/stock-market-news/japan-stocks-lower-at-close-of-trade-nikkei-225-down-123-5031816",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T07:40:18Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "OKX · CryptoTimes · Coingabbar",
+     "summary": "A bitcoin kedd reggel 64 700–65 000 dollár körül mozgott, 24 óra alatt nagyjából 0,7%-kal gyengébben (OKX), miután a hétvégén 62 ezer dollár közelébe esett. Egy kriptohíroldal szerint a Fear & Greed index 12-n áll, ami extrém félelmet jelez; a piac a decemberi Fed-kamatemelésre készül.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "65 ezer dollár körül stagnál a bitcoin, extrém félelem a kriptopiacon",
+     "url": "https://www.cryptotimes.io/2026/11/17/bitcoin-price-today-market-holds-steady-near-64800-on-unusually-quiet-monday/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T07:40:18Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Pénzcentrum",
+     "summary": "Az Országgyűlés kedden 12 órás időkeretben folytatja a 2027-es költségvetési törvényjavaslat általános vitáját, amely szerdán zárul; módosító javaslatokat november 19-én 16 óráig lehet benyújtani. Kármán András pénzügyminiszter szerint a cél az államháztartás rendezése.",
+     "symbols": [],
+     "title": "Folytatódik a 2027-es költségvetés parlamenti vitája",
+     "url": "https://www.portfolio.hu/gazdasag/20261117/tisza-kormany-folytatodik-a-koltsegvetes-vitaja-876918",
+     "verified": true
     }
    ],
    "markets": [
@@ -558,7 +604,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T06:50:00Z",
+   "updatedAt": "2026-11-17T07:40:18Z",
    "watchlist": []
   },
   {
