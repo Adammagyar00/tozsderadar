@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T09:56:04Z",
+ "builtAt": "2026-11-17T10:56:16Z",
  "digests": [
   {
    "calendar": [
@@ -137,7 +137,7 @@
      "category": "Figyelőlista",
      "impact": "pozitív",
      "origin": "yahoo",
-     "source": "Yahoo Finance",
+     "source": "Yahoo Finance · Investing.com",
      "summary": "A hétfő zárás után közzétett negyedéves 13F-bejelentések szerint az Nvidia 130,5 millió darabra növelte SpaceX-részvényeit, miközben az Intelben lévő pakettjét mintegy negyedével csökkentette. Ugyanekkor jelent meg a Berkshire Hathaway harmadik negyedéves vételeit és eladásait mutató jelentés is.",
      "symbols": [
       "SPCX"
@@ -660,6 +660,206 @@
      "title": "Eséssel nyitott a BÉT, a Richter a HSBC céláremelése után emelkedett",
      "url": "https://www.portfolio.hu/uzlet/20261117/esessel-kezdi-a-napot-a-magyar-tozsde-876950",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Kedden esett a londoni FTSE 100, mert a bányarészvények gyengültek, és az új amerikai korlátozások a fejlett MI-chipek Kínába szállítására rontották a hangulatot. Ezt nem tudta ellensúlyozni, hogy a brit munkanélküliség váratlanul 4,6%-ra csökkent.",
+     "symbols": [],
+     "title": "FTSE 100: esik a londoni tőzsde, a bányászok és az amerikai chipkorlátozások húzzák le",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-fall-085609114.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Lufthansa első Starlinkkel felszerelt hosszú távú gépe december 3-án repül Münchenből Tokióba. A csoport 2029-ig mintegy 850 repülőgépét látja el a SpaceX műholdas internetével.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Musk „gamechangernek” nevezte a Starlinket: a Lufthansa mintegy 850 gépét szereli fel",
+     "url": "https://www.tikr.com/blog/musk-calls-starlink-a-gamechanger-as-lufthansa-plans-to-equip-around-850-aircraft?ref=yahoofinance&tlnk=yf-261117-4x3qj45p&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · BeInCrypto",
+     "summary": "A Ripple által támogatott Evernorth eddig 505 millió dollárnyi leírást számolt el XRP-állományán. Az XRP 1 dollár alatt jár, az Evernorth (XRPN) részvénye pedig nasdaqos bevezetése óta több mint a felét elvesztette.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Ismét leírást könyvelt el XRP-állományán a Ripple által támogatott Evernorth",
+     "url": "https://beincrypto.com/evernorth-xrp-write-downs-halved-stock/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · The Motley Fool",
+     "summary": "A SpaceX-papírok short pozíciói a becsült közkézhányad nagyjából 3%-át teszik ki. Decemberben (december 8-án) újabb nagy részvénycsomag szabadul fel a bennfentesek eladási tilalma alól; a cikk szerint az árfolyamhatás nem csak a bennfentesek eladásain múlik.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A becsült közkézhányad mintegy 3%-a a SpaceX short pozíciója a decemberi lock-up lejárta előtt",
+     "url": "https://www.fool.com/investing/2026/11/17/spacex-short-interest-equals-around-3-of-the-float/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Simply Wall St",
+     "summary": "A Figure Technology Solutions új, fedezett rulírozó hitelkeretet kötött a JPMorgan Chase-szel és más bankokkal. A keret induló összege 465 millió dollár, ami legfeljebb 750 millió dollárra bővíthető, és 2029-ig fut; a pénz működő tőkét és általános vállalati célokat szolgál.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "A JPMorgan vezette bankcsoporttól legfeljebb 750 millió dolláros hitelkeretet kapott a Figure",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/figure-technology-solutions-figr-lands-091806067.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Kedden enyhén emelkedtek az európai nagykereskedelmi földgázárak, elszakadva az olajpiaci eséstől. A kereskedők a helyi téli ellátási helyzetet mérlegelik a közel-keleti olajexport helyreállása és a tankerek elleni támadások mellett.",
+     "symbols": [],
+     "title": "Drágul az európai földgáz, miközben az olaj esik",
+     "url": "https://finance.yahoo.com/energy/articles/european-gas-futures-climb-recovering-101229440.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "Blue Macellari, a T. Rowe Price stratégája szerint nem egyetlen tényező okozza a bitcoin esését, de az Anthropic tőzsdei bevezetése körüli láz elszívja a befektetői pénzt. Szerinte az intézményi befektetők nem fordulnak el a bitcointól a közeljövőben.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "T. Rowe Price: az Anthropic-tőzsdei bevezetés versenyez a bitcoinnal a befektetői pénzekért",
+     "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/anthropic-ipo-investor-cash-bitcoin-competition-institutions-bullish-on-btc/cNbaYLyR9W9?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A német 10 éves Bund hozama 3,381%-on áll, közel egyhavi csúcsához, a 2 éves 3,130%-on. Az amerikai 10 éves hozam 5,125% körül mozog. A Morgan Stanley 2027-es kilátásai szerint az EKB márciusig 3%-ra emelheti a kamatot.",
+     "symbols": [],
+     "title": "Egyhavi csúcs közelében az euróövezeti hozamok az amerikai kötvényhozamok húzóhatására",
+     "url": "https://www.investing.com/news/forex-news/euro-yields-hold-near-1month-peaks-on-relentless-us-treasury-pull-5031817",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Istat végleges adata szerint az olasz fogyasztói árak éves alapon 5,5%-kal nőttek októberben (szeptemberben 4,2%), ez a 2023 augusztusa óta mért legmagasabb érték, és meghaladja az előzetes 5,4%-ot. Az energiaárak 31,9%-kal emelkedtek, a maginfláció 2,0%-ra gyorsult.",
+     "symbols": [],
+     "title": "5,5%-ra gyorsult az olasz infláció októberben az energiaárak miatt",
+     "url": "https://www.investing.com/news/economic-indicators/italy-inflation-climbs-to-55-in-october-on-energy-costs-beats-forecast-93CH-5032103",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az Oddo BHF „underperform”-ra rontotta a Stellantis ajánlását, és 4,5 euróról 3 euróra vágta a célárat, ami a legalacsonyabb a piacon. A részvény 2,5%-ot esett, új történelmi mélypontra, piaci értéke 10 milliárd euró alá csökkent. Az elemző a nyersanyag- és alkatrészköltségek emelkedésére hivatkozik.",
+     "symbols": [],
+     "title": "Történelmi mélypontra esett a Stellantis az Oddo BHF leminősítése után",
+     "url": "https://www.investing.com/news/stock-market-news/stellantis-stock-hits-fresh-alltime-lows-after-oddo-bhf-downgrade-93CH-5032104",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Maeil Business Newspaper",
+     "summary": "A Maeil Business Newspaper névtelen iparági forrásokra hivatkozva azt írja, hogy a két cég négy-öt éves DRAM-szerződést köthet, amely jövő év első felében indulna. A megállapodás minimális mennyiséget rögzítene, a piaci árakhoz igazított árazással.",
+     "symbols": [],
+     "title": "Értesülés: a Samsung és az Apple közel áll egy hosszú távú DRAM-szállítási megállapodáshoz",
+     "url": "https://www.investing.com/news/stock-market-news/samsung-and-apple-near-longterm-dram-supply-agreement-93CH-5032106",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A kínai JD.com harmadik negyedéves korrigált EPS-e 5,88 jüan volt, a várakozásnak megfelelően. A bevétel 3,5%-kal 309,6 milliárd jüanra nőtt, ami kissé elmaradt a vártól; a korrigált nettó eredmény 44%-kal nőtt, főként a 26%-kal csökkentett marketingkiadások miatt.",
+     "symbols": [],
+     "title": "A JD.com hozta a várt profitot költségcsökkentéssel",
+     "url": "https://www.investing.com/news/earnings/jdcom-meets-q3-estimates-with-modest-revenue-growth-5032130",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Európai Bizottság őszi előrejelzése szerint az euróövezet gazdasága 2026-ban és 2027-ben is 1,2%-kal nő, 2028-ban 1,3%-kal. Az infláció 2026-ban 3,2%, 2027-ben 3,1% lehet, és csak 2028-ra lassul 2,1%-ra. A leggyengébb kilátásai Franciaországnak vannak (2026: 0,4%, 2027: 0,6%).",
+     "symbols": [],
+     "title": "Európai Bizottság: 2027-ben is 3% feletti infláció és mérsékelt növekedés az euróövezetben",
+     "url": "https://www.investing.com/news/economic-indicators/euro-zone-economy-seen-growing-moderately-france-outlook-weakest-commission-5032134",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az izraeli hadiipari Elbit Systems harmadik negyedéves EPS-e 3,70 dollár lett a várt 3,65 dollárral szemben. A 2,25 milliárd dolláros bevétel megfelelt a konszenzusnak.",
+     "symbols": [],
+     "title": "Az Elbit Systems EPS-e 5 centtel meghaladta a várakozást",
+     "url": "https://www.investing.com/news/earnings/elbit-systems-earnings-beat-by-005-revenue-was-in-line-with-estimates-5032132",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "ZEW · FXStreet · investingLive",
+     "summary": "A ZEW gazdasági várakozási indexe 35,6 pontra emelkedett novemberben a 28,1-es októberi értékről, jóval a 29 körüli várakozás felett. A jelenlegi helyzet értékelése javult, de mélyen negatív maradt (-33,2). A ZEW szerint a német gazdaság lassú ütemben, de a kilábalás útján van.",
+     "symbols": [],
+     "title": "Vártnál jobban javult a német ZEW-index novemberben",
+     "url": "https://www.fxstreet.com/news/germany-zew-survey-economic-sentiment-improves-significantly-to-356-in-november-202611171001",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T10:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "source": "Portfolio",
+     "summary": "A Portfolio szerint az amerikai stratégiai kőolajtartalék 276,4 millió hordóra csökkent, ami 1982 októbere óta a legalacsonyabb szint. A pontos számot más forrásban nem találtuk; az októberi adatok (kb. 282,6 millió hordó) szintén négy évtizedes mélypontot mutattak.",
+     "symbols": [],
+     "title": "Portfolio: 1982 óta nem volt ilyen alacsony az amerikai stratégiai olajtartalék",
+     "url": "https://www.portfolio.hu/gazdasag/20261117/olyan-dolog-tortent-az-egyesult-allamokban-amire-tobb-mint-40-eve-nem-volt-pelda-876974",
+     "verified": false
     }
    ],
    "markets": [
@@ -686,7 +886,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T08:40:08Z",
+   "updatedAt": "2026-11-17T10:50:00Z",
    "watchlist": []
   },
   {
@@ -22682,14 +22882,14 @@
    "id": "2026-11-16-us-warsh-speech"
   },
   {
-   "actual": "",
+   "actual": "35,6",
    "country": "Németország",
    "date": "2026-11-17",
    "event": "ZEW gazdasági várakozási index, november",
-   "forecast": "",
+   "forecast": "29,0",
    "importance": 2,
-   "note": "ZEW hivatalos 2026/27-es kiadási naptára",
-   "previous": "",
+   "note": "ZEW hivatalos 2026/27-es kiadási naptára. Konszenzus: Newsquawk (investingLive: 28,8). A jelenlegi helyzet indexe -33,2 (előző -35,9). Az adat a vártnál jobb lett; forrás: FXStreet, investingLive, Newsquawk.",
+   "previous": "28,1",
    "source": "ZEW",
    "symbols": [],
    "time": "11:05",
