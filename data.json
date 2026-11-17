@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T12:56:18Z",
+ "builtAt": "2026-11-17T13:56:00Z",
  "digests": [
   {
    "calendar": [
@@ -50,7 +50,7 @@
    ],
    "date": "2026-11-17",
    "generatedAt": "2026-11-17T06:50:00Z",
-   "headline": "Az Nvidia-jelentés napján 19 havi csúcson a dollár, esnek az ázsiai tőzsdék; itthon kamatdöntés és Richter-felvásárlás",
+   "headline": "Az Nvidia-jelentés napján 19 havi csúcson a dollár, esnek a tőzsdék; itthon 5,50%-on maradt az alapkamat, Richter-felvásárlás",
    "items": [
     {
      "category": "Figyelőlista",
@@ -908,6 +908,52 @@
      "title": "Európai Bizottság: 1,8%-os magyar növekedés idén, de 7,3%-ra ugrik a hiány",
      "url": "https://telex.hu/gazdasag/2026/11/17/eu-europai-bizottsag-gazdasagi-elorejelzes-2026-osz",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T13:50:00Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "source": "444 · Portfolio · Economx",
+     "summary": "A Magyar Nemzeti Bank Monetáris Tanácsa kedden nem változtatott az 5,50%-os alapkamaton, a kamatfolyosó is maradt (O/N betét 4,5%, O/N hitel 6,5%). A nyári kamatcsökkentések után ez már a harmadik tartás egymás után; a döntés megfelelt az elemzői várakozásoknak. A jegybank óvatosságát a globális kockázatok, a magas energiaárak és a külföldi jegybankok kamatemelései indokolják.",
+     "symbols": [],
+     "title": "Az MNB változatlanul 5,50%-on hagyta az alapkamatot",
+     "url": "https://444.hu/2026/11/17/valtozatlanul-hagyta-a-jegybank-az-alapkamatot",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T13:50:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "Bloomberg · Reuters (Investing.com)",
+     "summary": "A St. Louis-i Fed elnöke, Alberto Musalem szerint az inflációt csak több kamatemeléssel lehet kordában tartani tavaszig. Úgy látja, a jelenlegi 3,75–4,00%-os célsáv akár egy százalékponttal is elmarad a szükségestől. A piac a decemberi Fed-ülésre már szinte biztos 25 bázispontos emelést áraz.",
+     "symbols": [],
+     "title": "Musalem (Fed): tavaszig valószínűleg több kamatemelés is kell",
+     "url": "https://investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T13:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · Disney (SEC 8-K) · Variety",
+     "summary": "A Disney negyedik pénzügyi negyedéves bevétele 16%-kal, 25,9 milliárd dollárra nőtt, a korrigált EPS 1,77 dollár lett a várt 1,68 helyett. A cég 2029-ig évi 3 milliárd dolláros megtakarítást tervez, részben leépítésekkel, és 2027-re kétszámjegyű EPS-növekedést vár. A részvény tőzsdenyitás előtti mozgásáról a források eltérően számoltak be.",
+     "symbols": [
+      "DIS"
+     ],
+     "title": "A Disney felülmúlta a várakozásokat, 3 milliárd dolláros költségcsökkentést tervez",
+     "url": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T13:50:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Pénzcentrum",
+     "summary": "A Pénzcentrum szerint az erősödő dollár nyomás alá helyezte a forintot: a déli órákra 332 forint fölé emelkedett a dollár jegyzése, az euró pedig 365 forint közelébe került. A befektetők a lap szerint szigorúbb amerikai kamatpályára készülnek, és a magyar költségvetésről is kedvezőtlen hírek érkeztek.",
+     "symbols": [],
+     "title": "Gyengült a forint a dollárral szemben, 332 fölé ment a dollár",
+     "url": "https://www.penzcentrum.hu/megtakaritas/20261117/utest-kapott-a-forint-a-szaguldo-dollartol-mikozben-aggaszto-hirek-erkeztek-a-magyar-koltsegvetesrol-1209190",
+     "verified": false
     }
    ],
    "markets": [
@@ -934,7 +980,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T12:50:00Z",
+   "updatedAt": "2026-11-17T13:50:00Z",
    "watchlist": []
   },
   {
@@ -23000,13 +23046,13 @@
    "id": "2026-11-17-nvda-earnings"
   },
   {
-   "actual": "",
+   "actual": "5,50% (változatlan)",
    "country": "HU",
    "date": "2026-11-17",
    "event": "MNB kamatdöntés",
    "forecast": "5,50% (változatlan)",
    "importance": 3,
-   "note": "A közlemény az ülés napján délután jelenik meg. Elemzői konszenzus (Mfor, Economx, Portfolio): változatlan alapkamat.",
+   "note": "A közlemény az ülés napján délután jelenik meg. Elemzői konszenzus (Mfor, Economx, Portfolio): változatlan alapkamat. Eredmény: az alapkamat 5,50% maradt, O/N betét 4,5%, O/N hitel 6,5% (444, Portfolio, Economx).",
    "previous": "5,50%",
    "source": "MNB (2026-os ülésnaptár)",
    "time": "",
