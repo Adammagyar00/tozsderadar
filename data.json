@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T15:55:53Z",
+ "builtAt": "2026-11-17T16:56:37Z",
  "digests": [
   {
    "calendar": [
@@ -1052,6 +1052,45 @@
      "title": "Bloomberg: a HSBC mélyen áron alul adta el részesedését egy Oracle-hez kötött adatközpont 18 milliárd dolláros hiteléből",
      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---17th-november-2026",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T16:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · Bloomberg (TipRanks)",
+     "summary": "A CNBC több forrásra hivatkozva azt jelentette, hogy az Anthropic valószínűleg a 70–78 dolláros sáv fölött árazza részvényeit; a Bloomberg értesülése szerint a befektetőknek a sáv tetejét vagy annál magasabb árat jeleznek. A jegyzési könyv kedd délután zárul, az árazás szerdán, a kereskedés csütörtökön indul a Nasdaqon ANT jelzéssel. Végleges ár még nincs.",
+     "symbols": [],
+     "title": "Értesülések: a sávja fölött árazhatja tőzsdei bevezetését az Anthropic",
+     "url": "https://www.tipranks.com/news/anthropic-could-price-its-ipo-above-78-as-investor-demand-surges",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T16:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Yahoo Finance · TipRanks",
+     "summary": "A Yahoo Finance élő beszámolója szerint kedd délelőtt a Nasdaq Composite mintegy 1,8%-kal, a Dow Jones 1,3%-kal, az S&P 500 1,1%-kal esett, így folytatódott a hét eleji eladási hullám. A TipRanks szerint a piac idegesen várja az Nvidia zárás utáni gyorsjelentését; a nyomást az MI-chipexport szigorítása és az Nvidia vezetőváltása okozza.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Délelőtt tovább nőttek a veszteségek a Wall Streeten az Nvidia-jelentés előtt",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T16:40:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Benzinga",
+     "summary": "A Benzinga szerint a Marvell részvénye kedden mintegy 4%-kal, 151,50 dollárra emelkedett, miután a Citadel 13F-jelentése a harmadik negyedévben 729%-os részesedésnövelést mutatott; a lap szerint a Citadel közben csökkentette SpaceX- és Amazon-pozícióját. Az árfolyammozgás okát más forrás egyelőre nem erősítette meg.",
+     "symbols": [
+      "MRVL",
+      "SPCX"
+     ],
+     "title": "Emelkedik a Marvell, miután a Citadel jelentősen növelte részesedését",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63339459/marvell-stock-rises-as-citadel-discloses-729-stake-boost-slashes-spacex-amazon",
+     "verified": false
     }
    ],
    "markets": [
@@ -1078,7 +1117,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T15:50:00Z",
+   "updatedAt": "2026-11-17T16:40:00Z",
    "watchlist": []
   },
   {
