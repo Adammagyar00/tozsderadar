@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-17T19:55:38Z",
+ "builtAt": "2026-11-17T20:55:59Z",
  "digests": [
   {
    "calendar": [
@@ -1308,6 +1308,53 @@
      "title": "Reuters-értesülés: akár 30%-kal, 2,1 milliárd dollárra bővítheti tőzsdei bevezetését a Dangote finomító",
      "url": "https://www.cnbcafrica.com/2026/dangote-refinery-to-expand-ipo-by-up-to-30-to-2-1-billion-sources-say",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T20:40:11Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Portfolio · TipRanks · Investing.com",
+     "summary": "A Salesforce kedden több mint 9%-kal esett, ez volt az S&P 500 leggyengébb papírja, és 2024 májusa óta a legrosszabb napja lehet. A ServiceNow mintegy 7%-ot gyengült. Az elemzések az Anthropic tőzsdei bevezetése előtti átrendeződést, az MI-alapú üzleti modellek körüli aggodalmakat és a napokban történt technológiai leállásokat említik okként.",
+     "symbols": [
+      "CRM",
+      "NOW"
+     ],
+     "title": "Több mint 9%-ot zuhant a Salesforce, szélesedik a szoftverpapírok eladási hulláma",
+     "url": "https://www.portfolio.hu/befektetes/20261117/brutalis-zuhanas-a-wall-streeten-egy-egesz-iparag-uzleti-modelljet-fenyegeti-az-ai-877200",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T20:40:11Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "source": "CNBC · NBC News · ABC News",
+     "summary": "Ukrajna két egymást követő éjszaka támadta a Kercsi-szoros hídját; a geolokalizált felvételek szerint a közúti rész egy szakasza a tengerbe zuhant. A krími orosz vezetés leállította a forgalmat, az orosz közlekedési minisztérium szerint a vasúti forgalom egy vágányon újraindult. Közben Ukrajna először tárgyalt együtt amerikai és európai képviselőkkel a békéről, de Moszkva még nem fogadta el az európai részvételt.",
+     "symbols": [],
+     "title": "Ukrán csapás: leszakadt a Krími híd közúti szakaszának egy része, leállt a forgalom",
+     "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-17T20:40:11Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "source": "Bloomberg",
+     "summary": "A Bloomberg beszámolója szerint John Williams, a New York-i Fed elnöke úgy nyilatkozott, hogy a helyzet nem indokol drasztikus lépést, bár újabb kamatemelés valószínű. Ez mérsékeltebb hang, mint Musalem (St. Louis-i Fed) aznapi, több kamatemelést sürgető kijelentése. A pontos idézetet második független forrás még nem erősítette meg.",
+     "symbols": [],
+     "title": "Bloomberg: Williams (New York-i Fed) szerint valószínű újabb kamatemelés, de nincs szükség drasztikus lépésre",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-williams-says-no-need-for-dramatic-rate-move",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-17T20:40:11Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio",
+     "summary": "A Portfolio beszámolója szerint Varga Mihály jegybankelnök úgy értékelte, hogy a piac jól fogadta a 2027-es költségvetést és a kormány euró melletti elköteleződését. A nyilatkozat az MNB keddi kamatdöntése utáni kommunikáció része; a részleteket más forrás egyelőre nem erősítette meg.",
+     "symbols": [],
+     "title": "Varga Mihály: jól fogadta a piac a költségvetést és az euró melletti elköteleződést",
+     "url": "https://www.portfolio.hu/gazdasag/20261117/varga-mihaly-jol-fogadta-a-piac-a-koltsegvetest-es-az-euro-melletti-elkotelezodest-877062",
+     "verified": false
     }
    ],
    "markets": [
@@ -1334,7 +1381,7 @@
     }
    ],
    "summary": "Hétfőn a Wall Street meredeken esett: a Nasdaq 2,5%-kal, az S&P 500 1,9%-kal gyengült, a chippapírok vezették az eladást az Nvidia ma esti gyorsjelentése előtt. A dollár 19 havi csúcsra erősödött, mert a piac biztosra veszi a decemberi Fed-kamatemelést; az arany 14 havi mélypont közelében jár, az olaj a várt kínálati többlet miatt tovább csökken. Kedd reggel az ázsiai tőzsdék is estek, a Nikkei 1,3%-kal, a Kospi 2%-kal. Itthon a Richter 604 millió ausztrál dollárért vásárolná meg a Mayne Pharmát, a forint reggel enyhén erősödött, délután az MNB kamatdöntése jön, változatlan kamatot várnak.",
-   "updatedAt": "2026-11-17T19:39:59Z",
+   "updatedAt": "2026-11-17T20:40:11Z",
    "watchlist": []
   },
   {
