@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-18T12:55:55Z",
+ "builtAt": "2026-11-18T13:47:26Z",
  "digests": [
   {
    "calendar": [
@@ -735,12 +735,12 @@
      "addedAt": "2026-11-18T12:50:00Z",
      "category": "Vállalatok és technológia",
      "impact": "pozitív",
-     "source": "Stocktitan (TJX-közlemény)",
-     "summary": "A Stocktitan által közölt céges közlemény szerint a T.J. Maxx-anyavállalat egy részvényre jutó hígított eredménye 1,39 dollár lett (egy évvel korábban 1,28), ami felülmúlja a nagyjából 1,33–1,34 dolláros elemzői konszenzust. A nettó árbevétel 6%-kal 16,0 milliárd dollárra nőtt, az összehasonlítható eladások 4%-kal bővültek, a vállalat 2–3%-os tervét meghaladva. Az adatokat egyelőre más forrás nem erősítette meg.",
+     "source": "TJX-közlemény · Reuters",
+     "summary": "A Stocktitan által közölt céges közlemény szerint a T.J. Maxx-anyavállalat egy részvényre jutó hígított eredménye 1,39 dollár lett (egy évvel korábban 1,28), ami felülmúlja a nagyjából 1,33–1,34 dolláros elemzői konszenzust. A nettó árbevétel 6%-kal 16,0 milliárd dollárra nőtt, az összehasonlítható eladások 4%-kal bővültek, a vállalat 2–3%-os tervét meghaladva. A Reuters szerint a 15,95 milliárd dolláros árbevétel meghaladta a 15,84 milliárdos elemzői átlagot; a cég éves összehasonlítható eladási várakozását 4%-ra pontosította.",
      "symbols": [],
      "title": "A TJX a vártnál jobb harmadik negyedévről számolt be: 4%-kal nőttek az összehasonlítható eladások",
-     "url": "https://www.stocktitan.net/news/TJX/the-tjx-companies-inc-reports-q3-fy27-results-comp-sales-growth-of-4-ll7wzcnf3cl9.html",
-     "verified": false
+     "url": "https://investor.tjx.com/news-releases/news-release-details/tjx-companies-inc-reports-q3-fy27-results-comp-sales-growth-4",
+     "verified": true
     },
     {
      "addedAt": "2026-11-18T12:50:00Z",
@@ -762,6 +762,50 @@
      "symbols": [],
      "title": "Csökken a BUX szerdán, az OTP és a Mol is esik",
      "url": "https://tozsdeforum.hu/bet/premium/tozsde-napkozben-november-18-a-bux-zuhan-a-reszvenyek-is-esnek/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-18T13:50:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "CNBC · Newsquawk",
+     "summary": "Christopher Waller Fed-kormányzó a CNBC-nek azt mondta, nagyon aggasztja, hogy az infláció rossz irányba halad és szélesedik, ezért a Fednek agresszívabban kell fellépnie; szerinte a decemberi ülésen valószínűleg 50 bázispontos emelés szükséges. Hozzátette: egy negyedpontos emelés is elég lehet, ha a Fed jelzi, hogy januárban újabb lépés jön. John Williams (New York-i Fed) ugyanakkor úgy látja, a helyzet nem indokol drámai lépést.",
+     "symbols": [],
+     "title": "Waller: decemberben akár fél százalékpontos kamatemelés is kellhet",
+     "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T13:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC, Bloomberg, WSJ értesülései (névtelen források) · Seoul Economic Daily",
+     "summary": "Névtelen forrásokra hivatkozó beszámolók szerint (CNBC, Bloomberg) az Anthropic végső kibocsátási ára valószínűleg a 70–78 dolláros sáv tetején vagy fölötte lesz; a WSJ értesülése szerint 80 dollár feletti ár is szóba került, ami nagyjából 1,5–1,6 billió dolláros értékelést jelentene. A kedden benyújtott módosított tájékoztató még a 70–78 dolláros sávot tartalmazza; az árazás szerda este, a kereskedés csütörtökön indulhat a Nasdaqon (ANT).",
+     "symbols": [],
+     "title": "Értesülések szerint a sáv fölött árazhatja tőzsdei bevezetését az Anthropic",
+     "url": "https://en.sedaily.com/world/2026/11/18/anthropic-ipo-price-set-to-top-range-as-big-money-piles-in",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-18T13:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Pony AI közleménye (SEC 6-K) · Stocktwits",
+     "summary": "A kínai robotaxi-fejlesztő Pony AI harmadik negyedéves árbevétele a SEC-hez benyújtott közlemény szerint 75,2%-kal 44,6 millió dollárra nőtt, a robotaxi-szolgáltatások bevétele 165,4%-kal bővült. A Stocktwits szerint a részvény mintegy 9%-kal emelkedett a nyitás előtti kereskedésben.",
+     "symbols": [],
+     "title": "75%-kal nőtt a Pony AI árbevétele, emelkedik a részvény a nyitás előtt",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001969302/000110465926129308/tm2629888d1_ex99-1.htm",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T13:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Stocktwits (Sensor Tower-becslés)",
+     "summary": "A Stocktwits szerint a Take-Two részvénye 2,6%-kal emelkedett a nyitás előtti kereskedésben, miután az előző két napban több mint 11%-ot esett. A Sensor Tower becslése szerint a csütörtökön megjelenő GTA 6 konzolos előrendelései megközelítik az 1,5 milliárd dollárt; ez külső becslés, a Take-Two hivatalos adatot nem közölt.",
+     "symbols": [],
+     "title": "Emelkedik a Take-Two a nyitás előtt, a GTA 6 előrendelései a Sensor Tower szerint 1,5 milliárd dollár körül járnak",
+     "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-gains-premarket-after-2-day-rout-sensor-towers-says-gta-6-pre-orders-top-1-5-b-a-day-before-release/cNbXDAGR9Ld",
      "verified": false
     }
    ],
@@ -789,7 +833,7 @@
     }
    ],
    "summary": "Kedden ismét estek a Wall Street fő indexei, a Salesforce 9%-ot zuhant, de az Nvidia zárás után 115,8 milliárd dolláros, a vártnál jobb negyedéves bevételt és mintegy 130 milliárd dolláros előrejelzést közölt, amire a chippapírok és az amerikai határidős indexek is megugrottak. A WSJ szerint ugyanakkor a SEC vizsgálja az Nvidiát. Az ázsiai tőzsdék vegyesen kereskednek, a Kospi emelkedik, a japán export rekordot döntött. Az arany 3800 dollár felé esett a Fed további kamatemelési jelzései miatt, a forint tovább gyengült. Az USA „önvédelmi” csapást mért egy iráni rakétaindító állásra; ma este jön a Fed-jegyzőkönyv és az Anthropic tőzsdei bevezetésének árazása.",
-   "updatedAt": "2026-11-18T12:50:00Z",
+   "updatedAt": "2026-11-18T13:50:00Z",
    "watchlist": []
   },
   {
@@ -24359,15 +24403,17 @@
    "id": "2026-11-18-tgt-earnings"
   },
   {
-   "actual": "",
+   "actual": "EPS 1,39 $ (korrigált 1,34 $) / bevétel 15,95 Mrd $",
    "country": "USA",
    "date": "2026-11-18",
    "event": "TJX Q3 FY2027 gyorsjelentés",
-   "forecast": "EPS 1,33 $",
+   "forecast": "EPS 1,33 $ / bevétel 15,84 Mrd $",
    "importance": 2,
-   "note": "15:30 előtt jelent, hívás 17:00-kor. Előrejelzés: Barchart (bevételi konszenzus nincs).",
+   "note": "15:30 előtt jelent, hívás 17:00-kor. Előrejelzés: Barchart (EPS), Reuters/LSEG (bevétel). Tényadat: TJX-közlemény, Reuters.",
    "previous": "",
    "source": "TJX IR",
+   "surprise": "beat",
+   "surpriseNote": "Korrigált EPS +0,8% a vártnál, bevétel +0,7%; összehasonlítható eladások +4% (terv: 2–3%).",
    "symbols": [
     "TJX"
    ],
