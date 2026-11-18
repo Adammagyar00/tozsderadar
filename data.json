@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-18T07:55:38Z",
+ "builtAt": "2026-11-18T08:55:35Z",
  "digests": [
   {
    "calendar": [
@@ -579,6 +579,53 @@
      "title": "KSH: 737 400 forint volt a bruttó átlagkereset szeptemberben, lassul a reálbér-növekedés",
      "url": "https://www.portfolio.hu/gazdasag/20261118/erik-a-rossz-hir-a-magyar-fizeteseknel-877248",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T08:40:17Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "Reuters · Investing.com",
+     "summary": "A STOXX 600 szerdán nagyjából változatlanul kereskedik, miután kedden 1,75%-ot esett, ez márciusi óta a legnagyobb napi esése volt. Az Nvidia vártnál jobb előrejelzése után az ASML, a Soitec és az ASM International több mint 2%-kal emelkedett, a bányászrészvények viszont mintegy 3%-kal, közel 9 havi mélypontra estek a réz árának gyengülése miatt.",
+     "symbols": [],
+     "title": "Stagnálnak az európai tőzsdék: az Nvidia-számok felhúzták a techpapírokat, a bányászok esnek",
+     "url": "https://www.investing.com/news/stock-market-news/european-shares-muted-as-tech-offsets-mining-weakness-5035128",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T08:40:17Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Bloomberg · TechCrunch",
+     "summary": "Colette Kress, az Nvidia ideiglenes vezérigazgatója az eredményhívásban azt mondta, a cég már nem szállít licencelt Hopper adatközponti termékeket (köztük H200-at) Kínába, pedig Washington ezt engedélyezte. A harmadik negyedévben 2,4 milliárd dollárnyi ilyen terméket adtak el Kínának; az előrejelzés már nem számol ezekkel az eladásokkal. Kress szerint a Vera Rubin-chipek iránti kereslet miatt a korlátozások nem érintik az összbevételt.",
+     "symbols": [],
+     "title": "Az Nvidia leállította a licencelt Hopper-chipek szállítását Kínába",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/interim-nvidia-ceo-says-it-s-no-longer-sending-ai-chips-to-china",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T08:40:17Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · hir.ma",
+     "summary": "A pénzügyminiszter szerda reggel a Kossuth Rádióban azt mondta, a tervezett hiánycsökkentés kétharmadát a kiadások mérséklése, egyharmadát adóemelések adják; a kormány a 2026-ra várt 7,5%-os GDP-arányos hiányt 2027-re 4,9%-ra csökkentené. A vagyonadóban a bevezetés előtt még egy-két ponton lesz változás, de az adóalanyok köre és az adókulcs nem változik.",
+     "symbols": [],
+     "title": "Kármán András: a hiánycsökkentés kétharmada kiadáscsökkentésből jön, a vagyonadón még módosítanak",
+     "url": "https://www.portfolio.hu/gazdasag/20261118/karman-andras-a-vagyonadorol-a-bevezetese-elott-lesz-meg-1-2-valtoztatas-877270",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T08:40:17Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk · TokenPost",
+     "summary": "A bitcoin szerda reggel 65 ezer dollár közelében mozog, az ether mintegy 1%-kal 1814 dollár körülire esett a CoinDesk adatai szerint. A bitcoin-bázisügylet hozama 2026-ra évi 3–5%-ra olvadt, miközben a legnagyobb részvényalapú perpetual szerződések átlagosan évi 11% körüli finanszírozási hozamot fizettek; a valós eszközökhöz kötött perpek a nyitott pozíciók mintegy 18%-át adják.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "65 ezer dollár körül ragadt a bitcoin, a bázisügyletek kereskedői a részvény-perpekre váltanak",
+     "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
+     "verified": true
     }
    ],
    "markets": [
@@ -605,7 +652,7 @@
     }
    ],
    "summary": "Kedden ismét estek a Wall Street fő indexei, a Salesforce 9%-ot zuhant, de az Nvidia zárás után 115,8 milliárd dolláros, a vártnál jobb negyedéves bevételt és mintegy 130 milliárd dolláros előrejelzést közölt, amire a chippapírok és az amerikai határidős indexek is megugrottak. A WSJ szerint ugyanakkor a SEC vizsgálja az Nvidiát. Az ázsiai tőzsdék vegyesen kereskednek, a Kospi emelkedik, a japán export rekordot döntött. Az arany 3800 dollár felé esett a Fed további kamatemelési jelzései miatt, a forint tovább gyengült. Az USA „önvédelmi” csapást mért egy iráni rakétaindító állásra; ma este jön a Fed-jegyzőkönyv és az Anthropic tőzsdei bevezetésének árazása.",
-   "updatedAt": "2026-11-18T07:40:13Z",
+   "updatedAt": "2026-11-18T08:40:17Z",
    "watchlist": []
   },
   {
