@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-18T10:55:49Z",
+ "builtAt": "2026-11-18T11:55:31Z",
  "digests": [
   {
    "calendar": [
@@ -673,6 +673,63 @@
      "title": "A 6,3 milliárd dolláros feltörés után öt új ázsiai piacra lépne a Binance",
      "url": "https://www.investing.com/news/forex-news/after-63-billion-crypto-heist-binance-plans-foray-into-5-asian-markets-5034971",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T11:55:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "EKB (közlemény) · SUERF",
+     "summary": "Az Európai Központi Bank szerdán közzétett Pénzügyi Stabilitási Jelentése szerint az euróövezet kockázatai emelkedettek maradtak, amit főként a mesterséges intelligenciához kötött cégek magas értékeltsége, a nagy gazdaságok fiskális egyensúlyhiánya és a geoökonómiai feszültségek alakítanak. A jelentés szerint az MI-cégekkel szembeni nagy profitvárakozások miatt a piacok ki vannak téve hirtelen kiigazításnak, a bankszektort ugyanakkor az erős jövedelmezőség, tőke- és likviditási helyzet ellenállóvá teszi.",
+     "symbols": [],
+     "title": "EKB: továbbra is emelkedettek a pénzügyi stabilitási kockázatok, az MI-értékeltségek hirtelen korrekciót okozhatnak",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T11:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Lowe's (cégközlemény) · AP (WTOP)",
+     "summary": "A Lowe's harmadik negyedéves bevétele 9,3%-kal, mintegy 22,76 milliárd dollárra nőtt, a korrigált EPS 3,10 dollár lett, mindkettő meghaladta az elemzői várakozást. Az összehasonlítható eladások 1,8%-kal nőttek, az eredményt vámvisszatérítés is javította. A cég éves árbevételi célját kb. 92,5 milliárd dollárra emelte, a működési árrés-várakozását viszont 11,1%-ra mérsékelte.",
+     "symbols": [],
+     "title": "A vártnál jobb negyedévet zárt a Lowe's, emelte éves árbevételi előrejelzését",
+     "url": "https://www.stocktitan.net/news/LOW/lowe-s-reports-third-quarter-2026-sales-and-earnings-1dcu9fqyhwws.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T11:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Target (cégközlemény) · Zacks",
+     "summary": "A Target harmadik negyedéves nettó árbevétele 7,1%-kal, 27,1 milliárd dollárra nőtt, az összehasonlítható eladások 5,6%-kal emelkedtek, az egy részvényre jutó eredmény 2,65 dollár lett (a Zacks-konszenzus 2,05 dollár volt). Az eredményben 301 millió dolláros vámvisszatérítés is szerepel, ami részvényenként 0,50 dollárt tett hozzá.",
+     "symbols": [],
+     "title": "Várakozás felett teljesített a Target: 5,6%-kal nőttek az összehasonlítható eladások",
+     "url": "https://www.prnewswire.com/news-releases/target-corporation-reports-third-quarter-earnings-302942872.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T11:55:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Alstom árfolyama mintegy 8%-ot esett szerdán, miután a francia vasúti járműgyártó első félévi nettó vesztesége 954 millió euró lett (korrigálva 822 millió euró), főként a németországi Coradia Max regionális vonatszerződések késései miatt. A nettó adósság 1,10 milliárd euróra nőtt a márciusi 404 millióról.",
+     "symbols": [],
+     "title": "Több mint 21 éves mélypontra esett az Alstom a német vonatkésések miatti veszteség után",
+     "url": "https://www.investing.com/news/earnings/alstom-shares-fall-8-as-german-train-delays-drive-h1-loss-5035188",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T11:55:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Investing.com",
+     "summary": "Az Investing.com beszámolója szerint a Micron részvénye 3,5%-ot emelkedett a nyitás előtti kereskedésben, mert az Nvidia jelentése szerint ellátási kötelezettségvállalásai 279-ről 390 milliárd dollárra nőttek, főként több évre szóló memóriabeszerzések miatt. Az árfolyammozgást más forrás nem erősítette meg.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Az Investing.com szerint 3,5%-kal emelkedett a Micron a nyitás előtti kereskedésben az Nvidia-számok után",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-rallying-today-93CH-5035208",
+     "verified": false
     }
    ],
    "markets": [
@@ -699,7 +756,7 @@
     }
    ],
    "summary": "Kedden ismét estek a Wall Street fő indexei, a Salesforce 9%-ot zuhant, de az Nvidia zárás után 115,8 milliárd dolláros, a vártnál jobb negyedéves bevételt és mintegy 130 milliárd dolláros előrejelzést közölt, amire a chippapírok és az amerikai határidős indexek is megugrottak. A WSJ szerint ugyanakkor a SEC vizsgálja az Nvidiát. Az ázsiai tőzsdék vegyesen kereskednek, a Kospi emelkedik, a japán export rekordot döntött. Az arany 3800 dollár felé esett a Fed további kamatemelési jelzései miatt, a forint tovább gyengült. Az USA „önvédelmi” csapást mért egy iráni rakétaindító állásra; ma este jön a Fed-jegyzőkönyv és az Anthropic tőzsdei bevezetésének árazása.",
-   "updatedAt": "2026-11-18T10:50:00Z",
+   "updatedAt": "2026-11-18T11:55:00Z",
    "watchlist": []
   },
   {
@@ -24181,7 +24238,23 @@
    "id": "2026-11-18-gb-cpi"
   },
   {
-   "actual": "",
+   "actual": "Megjelent: a kockázatok emelkedettek (MI-értékeltségek, fiskális egyensúlyhiány, geoökonómiai feszültségek)",
+   "country": "Eurózóna",
+   "date": "2026-11-18",
+   "event": "EKB Pénzügyi Stabilitási Jelentés (FSR)",
+   "forecast": "",
+   "importance": 1,
+   "note": "Félévente jelenik meg, az előző 2026-05-27-én.",
+   "previous": "",
+   "source": "EKB",
+   "symbols": [],
+   "time": "10:00",
+   "type": "Jegybank",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+   "id": "2026-11-18-eu-ecb-fsr"
+  },
+  {
+   "actual": "EPS 3,10 $ / bevétel 22,76 Mrd $",
    "country": "USA",
    "date": "2026-11-18",
    "event": "Lowe's Q3 2026 gyorsjelentés",
@@ -24190,6 +24263,8 @@
    "note": "Nyitás előtt jelent, hívás 15:00-kor. Előrejelzés: MarketBeat.",
    "previous": "",
    "source": "Lowe's (cégközlemény)",
+   "surprise": "beat",
+   "surpriseNote": "EPS +8,0% a vártnál, bevétel +1,6% (a vámvisszatérítés is javította)",
    "symbols": [
     "LOW"
    ],
@@ -24231,31 +24306,17 @@
    "id": "2026-11-18-panw-earnings"
   },
   {
-   "actual": "",
-   "country": "Eurózóna",
-   "date": "2026-11-18",
-   "event": "EKB Pénzügyi Stabilitási Jelentés (FSR)",
-   "forecast": "",
-   "importance": 1,
-   "note": "Félévente jelenik meg, az előző 2026-05-27-én.",
-   "previous": "",
-   "source": "EKB",
-   "symbols": [],
-   "time": "",
-   "type": "Jegybank",
-   "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/index.ff.html",
-   "id": "2026-11-18-eu-ecb-fsr"
-  },
-  {
-   "actual": "",
+   "actual": "EPS 2,65 $ / nettó árbevétel 27,1 Mrd $",
    "country": "USA",
    "date": "2026-11-18",
    "event": "Target Q3 2026 gyorsjelentés (tőzsdenyitás előtt)",
-   "forecast": "",
+   "forecast": "EPS 2,05 $ / bevétel 26,38 Mrd $",
    "importance": 2,
-   "note": "Dátum: Nasdaq earnings calendar és Earnings Whispers (nov. 18., nyitás előtt).",
+   "note": "Dátum: Nasdaq earnings calendar és Earnings Whispers (nov. 18., nyitás előtt). Előrejelzés: Zacks-konszenzus.",
    "previous": "",
    "source": "Nasdaq · Earnings Whispers",
+   "surprise": "beat",
+   "surpriseNote": "EPS +29% a vártnál (ebből 0,50 $ vámvisszatérítés), bevétel +2,7%",
    "symbols": [
     "TGT"
    ],
