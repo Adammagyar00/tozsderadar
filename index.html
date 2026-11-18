@@ -3886,11 +3886,32 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       if (view() === "mk") { updateAlerts(); mkUpdateLive(); }
       if (view() === "hm") hmUpdate();
     }, 1000);
+    // A kiadás két helyről jöhet: közvetlenül a Workerről (a feltöltő azonnal oda küldi) vagy a GitHubos
+    // data.json-ból (tartalék). Percenként csak a kis meta-adatot kérjük le, és a frissebbet töltjük be.
+    const WORKER_FALLBACK = "https://tozsderadar-live.magyaradam928.workers.dev";
+    let curBuilt = 0, ghTick = 0;
     const loadRemote = async () => {
       try {
-        const r = await fetch(window.__GN_REMOTE__ + "?t=" + Date.now(), { cache: "no-store" });
-        if (!r.ok) throw new Error(String(r.status));
-        const j = await r.json();
+        const cands = [];
+        const wb = workerBase || WORKER_FALLBACK;
+        try {
+          const m = await (await fetch(wb + "/datameta?t=" + Date.now(), { cache: "no-store" })).json();
+          if ((Date.parse(m.builtAt || "") || 0) > curBuilt) {
+            const r = await fetch(wb + "/data?t=" + Date.now(), { cache: "no-store" });
+            if (r.ok) cands.push(await r.json());
+          }
+        } catch (e) { /* a Worker most nem érhető el */ }
+        if (first || ++ghTick % 5 === 0 || !cands.length) {
+          try {
+            const r = await fetch(window.__GN_REMOTE__ + "?t=" + Date.now(), { cache: "no-store" });
+            if (r.ok) cands.push(await r.json());
+          } catch (e) { /* GitHub most nem érhető el */ }
+        }
+        const bt = (x) => Date.parse((x && x.builtAt) || "") || 0;
+        const j = cands.filter((x) => x && Array.isArray(x.digests)).sort((a, b) => bt(b) - bt(a))[0];
+        if (!j) { if (first) throw new Error("nincs adat"); return; }
+        if (!first && bt(j) <= curBuilt) return;
+        curBuilt = Math.max(curBuilt, bt(j));
         digests = (j.digests || []).slice().sort((a, b) => b.date.localeCompare(a.date));
         serverWl = j.watchlist || [];
         watchlist = effWl();

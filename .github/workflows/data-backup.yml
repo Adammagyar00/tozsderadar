@@ -1,0 +1,51 @@
+name: Napi kiadás mentése a repóba
+
+# A feltöltő a kész data.json-t közvetlenül a Workerre küldi (az oldal onnan olvassa azonnal).
+# Ez a feladat félóránként tartalékként a repóba is lementi, ha a Workeren frissebb van.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,37 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - name: Letöltés a Workerről
+        run: |
+          BASE="https://tozsderadar-live.magyaradam928.workers.dev"
+          curl -fsS --retry 3 "$BASE/data" -o /tmp/pub.json || { echo "::notice::A Workeren még nincs közzétett adat."; exit 0; }
+          python3 - <<'PY'
+          import json, sys, datetime
+          def bt(x):
+              try: return datetime.datetime.fromisoformat(str(x.get("builtAt","")).replace("Z","+00:00")).timestamp()
+              except Exception: return 0
+          pub = json.load(open("/tmp/pub.json"))
+          try: cur = json.load(open("data.json"))
+          except Exception: cur = {}
+          if not isinstance(pub.get("digests"), list) or bt(pub) <= bt(cur):
+              print("nincs újabb"); sys.exit(0)
+          json.dump(pub, open("data.json", "w"), ensure_ascii=False, indent=1)
+          print("frissebb:", pub.get("builtAt"))
+          PY
+      - name: Mentés
+        run: |
+          git diff --quiet -- data.json && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -q -m "Adatmentés a Workerről $(TZ=Europe/Budapest date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push origin main && exit 0
+            sleep $((i * 4))
+          done
+          exit 1

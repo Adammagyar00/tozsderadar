@@ -211,6 +211,12 @@ export default {
       if (!env.TELEGRAM_BOT_TOKEN || request.headers.get("X-Telegram-Bot-Api-Secret-Token") !== await tgSecret(env.TELEGRAM_BOT_TOKEN)) return new Response("tiltott", { status: 403 });
       return store(env).fetch("https://store/tg", { method: "POST", body: await request.text() });
     }
+    // A napi kiadás (data.json) közvetlen közzététele: a feltöltő ide küldi, az oldal innen olvassa
+    if (url.pathname === "/data" || url.pathname === "/datameta" || url.pathname === "/publish") {
+      if (request.method === "OPTIONS") return new Response(null, { headers: { "access-control-allow-origin": "*", "access-control-allow-methods": "GET, POST", "access-control-allow-headers": "content-type, x-publish-key", "access-control-max-age": "86400" } });
+      const res = await store(env).fetch("https://store" + url.pathname, { method: request.method, headers: request.method === "POST" ? { "x-publish-key": request.headers.get("x-publish-key") || "" } : {}, body: request.method === "POST" ? request.body : undefined });
+      return new Response(res.body, { status: res.status, headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": "*", "cache-control": "no-store" } });
+    }
     if (url.pathname === "/widget") {
       // Az Android-widget adatai; a szinkronkód a kulcs, ugyanúgy, mint a /sync-nél
       const res = await store(env).fetch("https://store/widget" + url.search);
@@ -381,6 +387,8 @@ const SYNC_KEY_RE = /^[a-zA-Z0-9:._^=\-]{1,60}$/;
 const MAX_KEYS = 400;
 const MAX_VALUE = 200000;
 const SITE = "https://adammagyar00.github.io/tozsderadar/";
+// A feltöltő titkos kulcsának SHA-256 lenyomata (maga a kulcs csak a feltöltő ütemezett feladatában van)
+const PUBLISH_KEY_SHA256 = "13d81add493a33ad3ffc155d80338a936217328cf7b564062a244b7429098ceb";
 
 const store = (env) => env.STORE.get(env.STORE.idFromName("main"));
 
@@ -645,6 +653,12 @@ export class Store {
         if (!SYNC_ID_RE.test(body.id || "")) return reply({ error: "hibás kód" }, 400);
         return reply({ keys: await this.merge(body.id, body.keys || {}) });
       }
+      if (url.pathname === "/publish" && request.method === "POST") return reply(await this.publish(request), 200);
+      if (url.pathname === "/datameta") return reply((await this.state.storage.get("pub:meta")) || {});
+      if (url.pathname === "/data") {
+        const t = await this.pubText();
+        return t ? new Response(t, { headers: { "content-type": "application/json; charset=utf-8" } }) : reply({ error: "nincs adat" }, 404);
+      }
       if (url.pathname === "/widget") {
         if (!SYNC_ID_RE.test(id || "")) return reply({ error: "hibás kód" }, 400);
         return reply(await this.widget(id));
@@ -672,6 +686,62 @@ export class Store {
     }
   }
 
+  // ---- Közzétett napi kiadás: gzip-pel tömörítve, 120 KB-os darabokban a Durable Object tárolójában ----
+  async publish(request) {
+    const key = request.headers.get("x-publish-key") || "";
+    const h = [...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(key)))].map((b) => b.toString(16).padStart(2, "0")).join("");
+    if (h !== PUBLISH_KEY_SHA256) return { ok: false, error: "tiltott" };
+    const text = await request.text();
+    let j;
+    try { j = JSON.parse(text); } catch { return { ok: false, error: "nem JSON" }; }
+    if (!j || !Array.isArray(j.digests) || !j.builtAt) return { ok: false, error: "hiányos adat" };
+    const old = (await this.state.storage.get("pub:meta")) || {};
+    if (old.builtAt && Date.parse(old.builtAt) >= Date.parse(j.builtAt)) return { ok: true, unchanged: true, builtAt: old.builtAt };
+    const gz = new Uint8Array(await new Response(new Blob([text]).stream().pipeThrough(new CompressionStream("gzip"))).arrayBuffer());
+    const CH = 120000, puts = {};
+    const n = Math.ceil(gz.length / CH);
+    for (let i = 0; i < n; i++) puts["pub:" + i] = gz.slice(i * CH, (i + 1) * CH).buffer;
+    const meta = { builtAt: j.builtAt, n, size: text.length, gz: gz.length, at: new Date().toISOString(), digests: j.digests.length };
+    puts["pub:meta"] = meta;
+    await this.state.storage.put(puts);
+    this.pubCache = { builtAt: j.builtAt, text, data: j };
+    return { ok: true, ...meta };
+  }
+
+  async pubText() {
+    const meta = await this.state.storage.get("pub:meta");
+    if (!meta || !meta.n) return null;
+    if (this.pubCache && this.pubCache.builtAt === meta.builtAt) return this.pubCache.text;
+    const keys = Array.from({ length: meta.n }, (_, i) => "pub:" + i);
+    const m = await this.state.storage.get(keys);
+    const parts = keys.map((k) => new Uint8Array(m.get(k)));
+    const all = new Uint8Array(parts.reduce((a, p) => a + p.length, 0));
+    let o = 0; for (const p of parts) { all.set(p, o); o += p.length; }
+    const text = await new Response(new Blob([all]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
+    this.pubCache = { builtAt: meta.builtAt, text, data: null };
+    return text;
+  }
+
+  // A napi kiadás: a közzétett (frissebb) példány, ha van, különben a GitHubos data.json
+  async siteData() {
+    try {
+      const t = await this.pubText();
+      if (t) {
+        if (!this.pubCache.data) this.pubCache.data = JSON.parse(t);
+        const pub = this.pubCache.data;
+        if (!this.ghCache || Date.now() - this.ghCache.at > 300000) {
+          const r = await fetch(SITE + "data.json?t=" + Date.now()).catch(() => null);
+          const g = r && r.ok ? await r.json().catch(() => null) : null;
+          this.ghCache = { at: Date.now(), data: g };
+        }
+        const gh = this.ghCache.data;
+        return gh && gh.builtAt && Date.parse(gh.builtAt) > Date.parse(pub.builtAt) ? gh : pub;
+      }
+    } catch { /* GitHub */ }
+    const r = await fetch(SITE + "data.json?t=" + Date.now());
+    return r.ok ? r.json() : {};
+  }
+
   // Android-widget: a portfolio értéke és napi változása, valamint a figyelőlistád friss hírei.
   // 3 percig tároljuk, hogy a sok widget-frissítés ne terhelje az árforrásokat.
   async widget(id) {
@@ -684,7 +754,7 @@ export class Store {
     const [pv, fx, data] = await Promise.all([
       pf.length ? valuePf(pf, this.env, false, srv.px) : Promise.resolve({ rows: [], missing: [] }),
       freshQuotes(["USDHUF=X", "EURUSD=X"]),
-      fetch(SITE + "data.json?t=" + Date.now()).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+      this.siteData().catch(() => ({})),
     ]);
     const rows = pv.rows;
     const total = rows.reduce((a, r) => a + r.now, 0);
@@ -839,7 +909,7 @@ export class Store {
     // A napi kiadás (data.json): 5 percenként hírek, reggel események, 10 percenként a frissítés ellenőrzése
     if (b.minute % 5 !== 0) return;
     let data = null;
-    try { const r = await fetch(SITE + "data.json?t=" + Date.now()); data = r.ok ? await r.json() : null; } catch { data = null; }
+    try { data = await this.siteData(); if (!data || !data.digests) data = null; } catch { data = null; }
     if (!data) return;
     for (const u of users) {
       if (u.srv.news !== false) await this.newsAlerts(u, data);
@@ -902,7 +972,7 @@ export class Store {
   // Hétfő reggeli heti előzetes: a hét várható eseményei napokra bontva (a naptárból), és mire lehet számítani
   async recap(id, chat) {
     let j = {};
-    try { const r = await fetch(SITE + "data.json?t=" + Date.now()); j = r.ok ? await r.json() : {}; } catch { j = {}; }
+    try { j = await this.siteData(); } catch { j = {}; }
     const k = await this.keys(id);
     const srv = (k.srv && k.srv.v) || {};
     const mine = new Set((srv.syms || []).map((x) => String(x).toUpperCase()));
@@ -970,8 +1040,7 @@ export class Store {
     const fv = favs.map((t) => q[t] ? { t, ch: (q[t].price / q[t].base - 1) * 100 } : null).filter(Boolean).sort((a, b) => b.ch - a.ch);
     if (fv.length >= 2) lines.push("", "<b>Kedvenceid a héten</b>", "Legjobb: " + fv.slice(0, 3).map((x) => esc(x.t) + " " + pct(x.ch)).join(", "), "Leggyengébb: " + fv.slice(-3).reverse().map((x) => esc(x.t) + " " + pct(x.ch)).join(", "));
     try {
-      const r = await fetch(SITE + "data.json?t=" + Date.now());
-      const j = r.ok ? await r.json() : {};
+      const j = await this.siteData();
       const from = budapest(new Date(Date.now() + 86400000)).date, to = budapest(new Date(Date.now() + 7 * 86400000)).date;
       const syms = new Set(pf.map((h) => String(h.symbol).toUpperCase()).concat((srv.syms || []).map((x) => String(x).toUpperCase())));
       const ev = (j.calendar || []).filter((e) => e.date >= from && e.date <= to && ((e.importance || 1) >= 3 || (e.symbols || []).some((x) => syms.has(String(x).toUpperCase()))))
@@ -1009,8 +1078,7 @@ export class Store {
     }
     // Holnapi események a napi kiadás naptárából
     try {
-      const r = await fetch(SITE + "data.json?t=" + Date.now());
-      const j = r.ok ? await r.json() : {};
+      const j = await this.siteData();
       const tm = budapest(new Date(Date.now() + 86400000)).date;
       const syms = new Set(pf.map((h) => String(h.symbol).toUpperCase()));
       const ev = (j.calendar || []).filter((e) => e.date === tm && ((e.importance || 1) >= 2 || (e.symbols || []).some((s) => syms.has(String(s).toUpperCase()))))
