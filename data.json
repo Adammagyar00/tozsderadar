@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-18T06:56:11Z",
+ "builtAt": "2026-11-18T07:55:38Z",
  "digests": [
   {
    "calendar": [
@@ -490,12 +490,12 @@
     {
      "category": "Magyarország",
      "impact": "negatív",
-     "source": "Nyugati Fény · Pénzcentrum",
+     "source": "Nyugati Fény · Pénzcentrum · Portfolio · Economx",
      "summary": "A Nyugati Fény szerint szerda reggel 7 órakor 366,90 forinton jegyezték az eurót, a kedd esti 366,50 után, a dollár 334 forint fölött járt. A forint a keddi kamatdöntés óta gyengül.",
      "symbols": [],
      "title": "Tovább gyengült a forint szerda reggelre",
      "url": "https://nyugatifeny.hu/2026/11/18/nem-all-meg-a-lejton-a-forint-ujabb-gyengulessel-indult-a-szerda",
-     "verified": false
+     "verified": true
     },
     {
      "category": "Figyelőlista",
@@ -557,6 +557,28 @@
      "title": "52 hetes mélypontra esett a Rheinmetall, gyengültek az európai védelmi papírok",
      "url": "https://www.cnbc.com/quotes/RHM-DE",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T07:40:13Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Reuters · Investing.com · PA",
+     "summary": "Az ONS adatai szerint a brit fogyasztói árak éves alapon 3,6%-kal nőttek októberben a szeptemberi 3,5% után, ami megfelelt a Reuters által megkérdezett elemzők várakozásának. Az emelkedést főleg az üzemanyagárak hajtották: a dízel literenkénti átlagára rekordot döntött. A maginfláció 2,8%, a szolgáltatási infláció 3,7% volt; a piacok továbbra is komoly esélyt látnak egy újabb decemberi Bank of England-kamatemelésre.",
+     "symbols": [],
+     "title": "Egyéves csúcsra, 3,6%-ra gyorsult a brit infláció októberben",
+     "url": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T07:40:13Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "KSH · Portfolio · Világgazdaság · Mfor",
+     "summary": "A KSH szerdai adatai szerint a teljes munkaidőben dolgozók bruttó átlagkeresete 737 400, a nettó 517 700 forint volt szeptemberben; a bruttó 7,3%-kal, a nettó 9,0%-kal nőtt egy év alatt. A nettó reálkereset 7,3%-os emelkedése az idei legalacsonyabb ütem. A Portfolio szerint a kormány jövőre csak 5,6%-os bérnövekedést vár, miközben az infláció 3% közelébe gyorsulhat.",
+     "symbols": [],
+     "title": "KSH: 737 400 forint volt a bruttó átlagkereset szeptemberben, lassul a reálbér-növekedés",
+     "url": "https://www.portfolio.hu/gazdasag/20261118/erik-a-rossz-hir-a-magyar-fizeteseknel-877248",
+     "verified": true
     }
    ],
    "markets": [
@@ -583,7 +605,7 @@
     }
    ],
    "summary": "Kedden ismét estek a Wall Street fő indexei, a Salesforce 9%-ot zuhant, de az Nvidia zárás után 115,8 milliárd dolláros, a vártnál jobb negyedéves bevételt és mintegy 130 milliárd dolláros előrejelzést közölt, amire a chippapírok és az amerikai határidős indexek is megugrottak. A WSJ szerint ugyanakkor a SEC vizsgálja az Nvidiát. Az ázsiai tőzsdék vegyesen kereskednek, a Kospi emelkedik, a japán export rekordot döntött. Az arany 3800 dollár felé esett a Fed további kamatemelési jelzései miatt, a forint tovább gyengült. Az USA „önvédelmi” csapást mért egy iráni rakétaindító állásra; ma este jön a Fed-jegyzőkönyv és az Anthropic tőzsdei bevezetésének árazása.",
-   "updatedAt": "2026-11-18T06:51:14Z",
+   "updatedAt": "2026-11-18T07:40:13Z",
    "watchlist": []
   },
   {
@@ -24049,14 +24071,14 @@
    "id": "2026-11-17-hu-mnb"
   },
   {
-   "actual": "",
+   "actual": "3,6% (éves)",
    "country": "Egyesült Királyság",
    "date": "2026-11-18",
    "event": "Infláció (CPI), október",
-   "forecast": "",
+   "forecast": "3,6% (éves)",
    "importance": 3,
-   "note": "ONS hivatalos kiadási naptár (07:00 GMT)",
-   "previous": "",
+   "note": "ONS hivatalos kiadási naptár (07:00 GMT). Konszenzus: Reuters-felmérés. Eredmény: egyéves csúcs; maginfláció 2,8%, szolgáltatások 3,7% (várt 3,8%). Forrás: Reuters (Investing.com), PA, Brit Brief.",
+   "previous": "3,5% (éves)",
    "source": "ONS",
    "symbols": [],
    "time": "08:00",
