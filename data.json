@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-18T09:56:10Z",
+ "builtAt": "2026-11-18T10:55:49Z",
  "digests": [
   {
    "calendar": [
@@ -637,6 +637,42 @@
      "title": "A jó számok ellenére több elemző is csökkentette az Nvidia célárát a vezérigazgató-váltás miatti bizonytalanság miatt",
      "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-cuts-nvidia-stock-price-target-on-ceo-uncertainty-93CH-5034966",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T10:50:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Brent 1,2%-kal 91,99 dollárra, a WTI 2%-kal 84,34 dollárra esett szerda délelőtt, miután az API adatai szerint 5,28 millió hordóval nőttek az amerikai olajkészletek. Mindkét fajta mintegy 20%-os novemberi esés felé tart; a csökkenést az amerikai–iráni harcok és a Hormuzi-szorosban ért hajótámadások mérséklik.",
+     "symbols": [],
+     "title": "Esik az olajár, mert nőttek az amerikai készletek; a hormuzi feszültség fékezi a csökkenést",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks-5034544",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T10:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Deutsche Bank részvénye szerdán mintegy 1,4%-kal esett, miután kedden 6%-ot veszített. Több száz újságíró által feldolgozott, kiszivárgott belső dokumentumok alapján az FT szerint a bank 582 millió dollárnyi, Jeffrey Epsteinhez köthető gyanús kifizetést bonyolított. A bank szerint az események sok évvel ezelőttiek, és annak idején kivizsgálta őket.",
+     "symbols": [],
+     "title": "Tovább esik a Deutsche Bank árfolyama a kiszivárgott belső dokumentumok és az Epstein-ügyhöz kötött kifizetésekről szóló hírek után",
+     "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-shares-extend-losses-after-epsteinlinked-payment-reports-5035252",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-18T10:50:00Z",
+     "category": "Kripto",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Binance jövőre öt ázsiai piacra lépne be, közülük háromban előrehaladott a folyamat – mondta a cég ázsiai vezetője, SB Seker. A múlt havi, rekordméretű, 6,3 milliárd dolláros lopás után a tőzsde a veszteség 95%-át pótolta, és a hét végéig minden hálózatot újranyitna; a cég szerint nincs szükség új tőkebevonásra.",
+     "symbols": [],
+     "title": "A 6,3 milliárd dolláros feltörés után öt új ázsiai piacra lépne a Binance",
+     "url": "https://www.investing.com/news/forex-news/after-63-billion-crypto-heist-binance-plans-foray-into-5-asian-markets-5034971",
+     "verified": true
     }
    ],
    "markets": [
@@ -663,7 +699,7 @@
     }
    ],
    "summary": "Kedden ismét estek a Wall Street fő indexei, a Salesforce 9%-ot zuhant, de az Nvidia zárás után 115,8 milliárd dolláros, a vártnál jobb negyedéves bevételt és mintegy 130 milliárd dolláros előrejelzést közölt, amire a chippapírok és az amerikai határidős indexek is megugrottak. A WSJ szerint ugyanakkor a SEC vizsgálja az Nvidiát. Az ázsiai tőzsdék vegyesen kereskednek, a Kospi emelkedik, a japán export rekordot döntött. Az arany 3800 dollár felé esett a Fed további kamatemelési jelzései miatt, a forint tovább gyengült. Az USA „önvédelmi” csapást mért egy iráni rakétaindító állásra; ma este jön a Fed-jegyzőkönyv és az Anthropic tőzsdei bevezetésének árazása.",
-   "updatedAt": "2026-11-18T09:40:19Z",
+   "updatedAt": "2026-11-18T10:50:00Z",
    "watchlist": []
   },
   {
