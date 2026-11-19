@@ -1,6 +1,6 @@
 {
  "source": "Finnhub",
- "updatedAt": "2026-11-19T00:45:16Z",
+ "updatedAt": "2026-11-19T08:00:14Z",
  "quotes": {
   "VUAA": {
    "price": 141.56,
@@ -13,9 +13,9 @@
    "source": "Yahoo Finance (VUAA.L)"
   },
   "DFND": {
-   "price": 8.5817,
+   "price": 8.5863,
    "change": -0.9,
-   "prevClose": 8.6593,
+   "prevClose": 8.6639,
    "t": 1795018412,
    "listing": "DFND.L",
    "currency": "GBP",
@@ -23,9 +23,9 @@
    "source": "Yahoo Finance (DFND.L)"
   },
   "EQQQ": {
-   "price": 659.6615,
+   "price": 660.0127,
    "change": 1.09,
-   "prevClose": 652.5221,
+   "prevClose": 652.8695,
    "t": 1795019704,
    "listing": "EQQQ.L",
    "currency": "GBp",
@@ -33,9 +33,9 @@
    "source": "Yahoo Finance (EQQQ.L)"
   },
   "XDW0": {
-   "price": 74.4021,
+   "price": 74.4496,
    "change": -2.68,
-   "prevClose": 76.4548,
+   "prevClose": 76.5036,
    "t": 1795019766,
    "listing": "XDW0.DE",
    "currency": "EUR",
@@ -43,9 +43,9 @@
    "source": "Yahoo Finance (XDW0.DE)"
   },
   "DFEN": {
-   "price": 52.6292,
+   "price": 52.6628,
    "change": -1.24,
-   "prevClose": 53.2878,
+   "prevClose": 53.3218,
    "t": 1795019757,
    "listing": "DFEN.DE",
    "currency": "EUR",
@@ -187,69 +187,69 @@
  },
  "market": {
   "EURHUF=X": {
-   "price": 368.22,
+   "price": 368.543,
    "prevClose": 368.47,
-   "t": 1795049018,
+   "t": 1795075204,
    "currency": "HUF"
   },
   "USDHUF=X": {
-   "price": 335.83,
+   "price": 335.627,
    "prevClose": 335.77,
-   "t": 1795049105,
+   "t": 1795075205,
    "currency": "HUF"
   },
   "CHFHUF=X": {
-   "price": 398.136,
+   "price": 398.077,
    "prevClose": 398.34,
-   "t": 1795049101,
+   "t": 1795075205,
    "currency": "HUF"
   },
   "GBPHUF=X": {
-   "price": 441.45,
+   "price": 441.47,
    "prevClose": 440.98,
-   "t": 1795049078,
+   "t": 1795075205,
    "currency": "HUF"
   },
   "EURUSD=X": {
-   "price": 1.0978,
+   "price": 1.0985,
    "prevClose": 1.0978,
-   "t": 1795049087,
+   "t": 1795075186,
    "currency": "USD"
   },
   "BZ=F": {
-   "price": 88.62,
+   "price": 89.25,
    "prevClose": 89.17,
-   "t": 1795048470,
+   "t": 1795074588,
    "currency": "USD"
   },
   "CL=F": {
-   "price": 81.89,
+   "price": 82.18,
    "prevClose": 82.31,
-   "t": 1795048496,
+   "t": 1795074604,
    "currency": "USD"
   },
   "GC=F": {
-   "price": 3746.7,
+   "price": 3733.3,
    "prevClose": 3741.9,
-   "t": 1795048504,
+   "t": 1795074599,
    "currency": "USD"
   },
   "SI=F": {
-   "price": 45.51,
+   "price": 45.24,
    "prevClose": 45.059,
-   "t": 1795048508,
+   "t": 1795074584,
    "currency": "USD"
   },
   "HG=F": {
-   "price": 5.698,
+   "price": 5.674,
    "prevClose": 5.6685,
-   "t": 1795048502,
+   "t": 1795074592,
    "currency": "USD"
   },
   "NG=F": {
-   "price": 3.39,
+   "price": 3.343,
    "prevClose": 3.372,
-   "t": 1795048471,
+   "t": 1795074602,
    "currency": "USD"
   },
   "^TNX": {
@@ -272,25 +272,25 @@
   },
   "^DJI": {
    "price": 50198.17,
-   "prevClose": 50759.42,
+   "prevClose": 50759.4,
    "t": 1795039047,
    "currency": "USD"
   },
   "^RUT": {
-   "price": 2714.3057,
-   "prevClose": 2701.8706,
+   "price": 2714.306,
+   "prevClose": 2701.87,
    "t": 1795037413,
    "currency": "USD"
   },
   "^GDAXI": {
    "price": 25736.24,
-   "prevClose": 26045.37,
+   "prevClose": 26045.4,
    "t": 1795021200,
    "currency": "EUR"
   },
   "^FTSE": {
    "price": 10551.17,
-   "prevClose": 10689.87,
+   "prevClose": 10689.9,
    "t": 1795019730,
    "currency": "GBP"
   },
@@ -313,21 +313,21 @@
    "currency": "HUF"
   },
   "^N225": {
-   "price": 59227.56,
+   "price": 59444.21,
    "prevClose": 59024.28,
-   "t": 1795048210,
+   "t": 1795070703,
    "currency": "JPY"
   },
   "^HSI": {
-   "price": 23294.75,
-   "prevClose": 23753.8,
-   "t": 1794989308,
+   "price": 22818.77,
+   "prevClose": 23508.2,
+   "t": 1795074310,
    "currency": "HKD"
   },
   "000001.SS": {
-   "price": 3587.832,
-   "prevClose": 3602.57,
-   "t": 1794985229,
+   "price": 3577.617,
+   "prevClose": 3584.58,
+   "t": 1795071634,
    "currency": "CNY"
   },
   "OTP.BD": {
