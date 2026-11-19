@@ -211,6 +211,12 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
 .wl { display: grid; }
 .wl-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 2px 10px; padding: 8px 0; border-bottom: 1px dashed var(--line); align-items: baseline; }
 .wl-row:last-child { border-bottom: 0; }
+.wl-grp { display: flex; align-items: center; gap: 8px; width: 100%; margin-top: 10px; padding: 6px 2px 4px; background: none; border: 0; border-bottom: 1px solid var(--line); font: inherit; font-family: var(--font-data); font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); cursor: pointer; text-align: left; }
+.wl-grp:first-child { margin-top: 0; }
+.wl-grp .n { color: var(--muted); font-weight: 400; }
+.wl-grp .car { display: inline-block; transition: transform .15s; }
+.wl-grp.closed .car { transform: rotate(-90deg); }
+.wl-grp:hover { color: var(--fg); }
 .wl-name { display: flex; gap: 8px; align-items: baseline; min-width: 0; }
 .tag-c { font-family: var(--font-data); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #8a5a00; background: #fbefd5; padding: 1px 5px; border-radius: 4px; }
 :root[data-theme="dark"] .tag-c { color: #f2c46d; background: #3a2c10; }
@@ -730,9 +736,26 @@ table.ec { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 6
       asOf.append(el("span", "live-dot"), "élő · " + parts.join(" · "));
     }
     else if (d && d.watchlist && d.watchlist.length) asOf.textContent = "árak: " + (d.watchlistAsOf || d.date);
-    const isCrypto = (w) => String(w.type || "").toLowerCase().startsWith("kripto");
-    const sorted = [...watchlist].sort((a, b) => (isCrypto(b) - isCrypto(a)) || ((a.order || 0) - (b.order || 0)));
+    // Kategóriák szerint: Crypto, Stock, ETF — a fejlécre kattintva becsukható (böngészőnként megmarad)
+    const kindOf = (w) => String(w.type || "").toLowerCase().startsWith("kripto") ? "crypto" : /^etf/i.test(String(w.type || "")) ? "etf" : "stock";
+    const KORD = { crypto: 0, stock: 1, etf: 2 };
+    const sorted = [...watchlist].sort((a, b) => (KORD[kindOf(a)] - KORD[kindOf(b)]) || ((a.order || 0) - (b.order || 0)));
+    let wlClosed = {};
+    try { wlClosed = JSON.parse(lsGet("tozsderadar-wlgroups-v1") || "{}") || {}; } catch (e) { wlClosed = {}; }
+    let lastKind = null;
     for (const w of sorted) {
+      const kind = kindOf(w);
+      if (kind !== lastKind) {
+        lastKind = kind;
+        const n = sorted.filter((x) => kindOf(x) === kind).length;
+        const h = el("button", "wl-grp" + (wlClosed[kind] ? " closed" : ""));
+        h.type = "button";
+        h.setAttribute("aria-expanded", String(!wlClosed[kind]));
+        h.append(el("span", "car", "▾"), el("span", "lab", { crypto: "Crypto", stock: "Stock", etf: "ETF" }[kind]), el("span", "n", String(n)));
+        h.addEventListener("click", () => { wlClosed[kind] = !wlClosed[kind]; lsPut("tozsderadar-wlgroups-v1", JSON.stringify(wlClosed)); renderWatchlist(); });
+        box.append(h);
+      }
+      if (wlClosed[kind]) continue;
       const yq = w.y && YQ[w.y] && typeof YQ[w.y].p === "number" ? YQ[w.y] : null;
       const yPctV = yq ? yPct(yq) : null;
       const q = LIVE[String(w.symbol).toUpperCase()] || (yq ? { price: curFmt(yq.p, yq.cur), change: typeof yPctV === "number" ? (yPctV >= 0 ? "+" : "") + yPctV.toFixed(2).replace(".", ",") + "%" : "", p: yq.p, note: "Élő ár (" + w.y + ")", source: "Yahoo Finance" } : null) || quotes.get(String(w.symbol).toUpperCase());
