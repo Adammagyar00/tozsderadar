@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-20T08:56:21Z",
+ "builtAt": "2026-11-20T17:55:59Z",
  "digests": [
   {
    "calendar": [
@@ -714,6 +714,389 @@
      "title": "Kína 18. hónapja változatlanul hagyta irányadó hitelkamatait",
      "url": "https://english.news.cn/20261120/42b87ac0942a4f39b97de49db49cb9a0/c.html",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T09:39:40Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "CNBC · Seeking Alpha",
+     "summary": "A CNBC szerint az Anthropic részvénye pénteken a nyitás előtti kereskedésben 6% körüli mínuszban járt, a Seeking Alpha szerint átmenetileg 90 dollárig, 7,4%-kal is esett. Az árfolyam így is a 83 dolláros kibocsátási ár fölött maradt; az esés az Nvidiát és az AMD-t is sújtó MI-eladási hullám része.",
+     "symbols": [],
+     "title": "Mintegy 6%-ot esett az Anthropic a tőzsdenyitás előtti kereskedésben, második napján",
+     "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T09:39:40Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "source": "Reuters (Investing.com) · EKB",
+     "summary": "Christine Lagarde az Európai Bankkongresszuson Frankfurtban bejelentette, hogy az EKB a szétforduló világban is használhatóvá és hozzáférhetőbbé teszi swapvonalait; a Reuters szerint már több mint 30 jegybank jelezte érdeklődését. Elsődleges cél a monetáris transzmisszió védelme válság idején, emellett a lépés az euró nemzetközi szerepét is támogatja.",
+     "symbols": [],
+     "title": "Lagarde: könnyebben hozzáférhetővé teszi devizaswap-vonalait az EKB, hogy erősítse az euró globális szerepét",
+     "url": "https://www.investing.com/news/economy-news/ecb-to-make-euro-swaps-more-accessible-in-global-push-lagarde-says-5041011",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T09:39:40Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · Pénzcentrum",
+     "summary": "A Portfolio szerint a BUX péntek délelőtt a globális MI-eladási hullám nyomán esett, az OTP több mint 2%-kal, 40 ezer forint alá gyengült, és a Magyar Telekom is több mint 1%-ot veszített, a Mol és a Richter is mínuszban járt. A Pénzcentrum szerint az OTP október vége óta először esett 40 ezer forint alá.",
+     "symbols": [],
+     "title": "Esik a budapesti tőzsde: 40 ezer forint alá került az OTP, mind a négy blue chip mínuszban",
+     "url": "https://www.portfolio.hu/befektetes/20261120/egyre-nagyobb-az-eses-a-tozsdeken-40-ezer-alatt-az-otp-877892",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T09:39:40Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Economx · Pénzcentrum",
+     "summary": "Az OTP megállapodott az üzbég Gazdasági és Pénzügyminisztériummal az Ipoteka Bank további 17,5%-os részvénycsomagjának megvásárlásáról, így a zárás után részesedése 72,9%-ról 90,4%-ra nő. A 2022-es eredeti szerződés módosítása egyszeri, 55 millió dolláros negatív hatással lesz az OTP 2026-os negyedik negyedéves eredményére.",
+     "symbols": [],
+     "title": "90,4%-ra növeli részesedését az üzbég Ipoteka Bankban az OTP",
+     "url": "https://www.portfolio.hu/befektetes/20261120/ujabb-nagybevasarlas-az-otp-nel-tovabb-noveli-reszesedeset-az-uzbeg-bankban-877928",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T10:40:16Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "Reuters (Investing.com)",
+     "summary": "A Reuters szerint a STOXX 600 index 1,3%-kal 630,22 pontra esett péntek délelőtt (9:26 GMT), hathetes mélypontra, és több mint 5%-os heti veszteség felé tart, ami a március 6-ával zárult hét óta a legrosszabb. A technológiai szektor 3,7%-ot esett, május óta nem volt ilyen alacsonyan; az ASML, az ASM International és az STMicroelectronics egyaránt több mint 5%-kal került lejjebb, a Vallourec 12,8%-ot, a Ubisoft 11,6%-ot zuhant. A defenzív Nestlé, Unilever és BAT több mint 1%-kal emelkedett.",
+     "symbols": [],
+     "title": "Március óta legrosszabb hetén az európai tőzsde, hathetes mélyponton a STOXX 600; 5% feletti eséssel az ASML és a chippapírok",
+     "url": "https://www.investing.com/news/stock-market-news/european-shares-head-for-steepest-weekly-drop-since-march-5040936",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T10:40:16Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "CNBC",
+     "summary": "A SoftBank Group részvényei pénteken 14,48%-kal estek Tokióban, ami 2024 augusztusa óta a legrosszabb napjuk; napközben 16%-ot meghaladó volt a mínusz. A CNBC szerint a befektetők a cég OpenAI-kitettsége miatt aggódnak: a SoftBank összesen 64,6 milliárd dollárt fektetett az Anthropic riválisába. Új vállalati bejelentés nem állt az esés mögött.",
+     "symbols": [
+      "9984.T"
+     ],
+     "title": "Több mint két éve nem látott, 14,5%-os eséssel zárt a SoftBank az Anthropic tőzsdei debütálása után",
+     "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T11:40:22Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "source": "Reuters (Cyprus Mail) · Haaretz · Axios",
+     "summary": "Trump a kínai csúcstalálkozóról hazatérve azt mondta, nem siet a döntéssel az Irán elleni újabb nagyszabású csapásokról, és az év eleje után beszél majd róla. A hírekre az olajár 92 dollár alá esett. Értesülések szerint Netanjahu újabb csapásokat sürget, Rubio külügyminiszter viszont a gazdasági nyomás fenntartását támogatja.",
+     "symbols": [],
+     "title": "Trump jövő évre halasztja az újabb iráni csapásokról szóló döntést, esett az olaj ára",
+     "url": "https://www.haaretz.com/us-news/2026-11-20/ty-article/trump-pushes-iran-strike-decision-to-next-year-weve-got-time/000001a1-f623-d175-abf5-fe3795240000",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T12:40:10Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Investing.com · Benzinga",
+     "summary": "Az Intuit első pénzügyi negyedéves bevétele 12%-kal, 4,4 milliárd dollárra nőtt, a korrigált EPS 2,91 dollár lett, mindkettő a cég saját előrejelzésének felső széle fölött. A második negyedévre adott 4,93–4,95 milliárd dolláros bevételi előrejelzés és a Credit Karma miatt 23,08–23,37 milliárd dollárra csökkentett éves bevételi cél azonban elmaradt a várakozásoktól, a részvény nyitás előtt kb. 10,5%-kal 277 dollár közelébe esett. A Mailchimpet mintegy 3,68 milliárd dollárért adja el a Bending Spoonsnak, a bevételt részvény-visszavásárlásra fordítaná.",
+     "symbols": [
+      "INTU"
+     ],
+     "title": "Több mint 10%-ot esett nyitás előtt az Intuit a gyenge előrejelzés miatt, 3,68 milliárd dollárért eladja a Mailchimpet",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-intuit-stock-tumbling-today-93CH-5041016",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T12:40:10Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Zacks (Yahoo Finance) · Investing.com · Benzinga",
+     "summary": "A Ross Stores harmadik negyedéves EPS-e 1,91 dollár lett az 1,85 dolláros Zacks-konszenzussal szemben, bevétele 6,26 milliárd dollár (várt: 6,23 milliárd). A negyedik negyedévre adott 2,16–2,25 dolláros EPS-előrejelzés középértéke azonban elmarad az elemzői várakozástól, a részvény pénteken nyitás előtt kb. 3,5%-kal esett. A Cantor Fitzgerald 276-ról 264 dollárra csökkentette célárát, Overweight ajánlását megtartotta.",
+     "symbols": [
+      "ROST"
+     ],
+     "title": "Esik a Ross Stores a vártnál gyengébb negyedik negyedéves előrejelzés miatt",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ross-stores-rost-tops-q3-211002817.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T12:40:10Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Coin Gabbar · crypto.news · CryptoTicker",
+     "summary": "Az Ethereum árfolyama pénteken 1735–1755 dollár körül járt, nagyjából 3%-kal alacsonyabban, mint egy nappal korábban, és több kriptoportál szerint július óta nem volt ilyen alacsony. A piacot az ETF-ekből való kiáramlás és a kamatemelési várakozások nyomják; a Fear & Greed index 11 ponton, „extrém félelem” tartományban áll. Egyes elemzők az 1500 dolláros szintet említik következő támaszként.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "1750 dollár körülre esett az ether, július óta nem járt ilyen alacsonyan",
+     "url": "https://www.coingabbar.com/en/why-is-ethereum-falling-etf-outflows-fed-odds-glamsterdam",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T13:40:34Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "source": "CNBC · Reuters (Investing.com) · Eunews",
+     "summary": "Christine Lagarde, az EKB elnöke a Frankfurti Európai Bankkongresszuson azt javasolta, hogy a nagy európai chipgyár- és adatközpont-projekteknél közpénzek – akár az uniós költségvetés – viseljék az első veszteségeket, hogy magánbefektetőket vonzzanak. A Reuters szerint a pénzügyi szektor legnagyobb közvetlen kihívásának az egyre fejlettebb MI-ágensekkel felerősített kiberfenyegetéseket nevezte. Ez volt utolsó beszéde a kongresszuson, mielőtt februárban távozik az EKB éléről.",
+     "symbols": [],
+     "title": "Lagarde: az EU-s közpénzek vállalják az első veszteségeket a chipgyárakon és adatközpontokon, a legnagyobb kockázat az MI-vel felerősített kibertámadás",
+     "url": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T13:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Yahoo Finance · Coinpedia",
+     "summary": "A SpaceX (SPCX) részvénye pénteken a nyitás előtti kereskedésben mintegy 6%-ot esett, 130 dollár körülre, a júniusi 135 dolláros kibocsátási ár alá (csütörtöki záró: 138,43 dollár). A Yahoo Finance szerint a befektetők a hitelezők Nvidia-chipfinanszírozással kapcsolatos aggályait és a Teslával való esetleges egyesülés körüli találgatásokat mérlegelik. A nyitás előtti árak vékony forgalomban alakulnak, a rendes kereskedésben eltérhetnek.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Az IPO-ár alá, 130 dollár körülre esett a SpaceX a nyitás előtti kereskedésben",
+     "url": "https://coinpedia.org/crypto-live-news/spacex-stock-premarket-spcx-falls-below-ipo-price-for-first-time/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T13:40:34Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "TradingKey · Invezz · Yahoo Finance",
+     "summary": "A memóriachip-gyártók pénteken a nyitás előtti kereskedésben is estek: a Micron 4–5%-ot, a SanDisk 5–6%-ot veszített (a források eltérő időpontban mért adatai szerint), az AMD 6% fölött, az Intel 5% fölött esett. Az Invezz szerint a befektetők azt kérdőjelezik meg, hogy az MI-beruházási hullám fenn tudja-e tartani a rekord memóriachip-profitokat; az Nvidia nagyjából 3,8%-os mínusszal hatnapos esését hosszabbítja.",
+     "symbols": [
+      "MU",
+      "NVDA",
+      "AMD"
+     ],
+     "title": "Nyitás előtt is ütik a chippapírokat: 4–5%-kal esik a Micron, 5–6%-kal a SanDisk, az Nvidia hatodik napja gyengül",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315308-us-pre-market-anthropic-tradingkey",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T14:40:08Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Decrypt (Yahoo Finance) · Coinpaper · KuCoin",
+     "summary": "A SoSoValue adatai szerint az amerikai spot bitcoin-ETF-ekből csütörtökön nettó 582,2 millió dollár áramlott ki, ez október 30. óta a legnagyobb napi kiáramlás; ebből 541,1 millió dollár a BlackRock IBIT-alapját érintette, ami a jelentések szerint az alap indulása óta a legnagyobb napi kivonás. A héten eddig több mint 1,1 milliárd, novemberben közel 3,5 milliárd dollár hagyta el az alapokat. A bitcoin pénteken mintegy 61 270 dolláros, négyhónapos mélypontra esett.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "582 millió dollár áramlott ki egy nap alatt a bitcoin-ETF-ekből, a BlackRock IBIT-alapjából indulása óta a legtöbb",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-shed-582m-day-115051316.html",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-20T14:40:08Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "TokenPost · PANews · Business Upturn",
+     "summary": "A TokenPost és a PANews által közölt adatok szerint pénteken a nyitáskor a Nasdaq Composite 0,66%-kal, az S&P 500 0,16%-kal csökkent, a Dow Jones 0,10%-kal emelkedett. A Business Upturn kicsit későbbi adatai szerint a Nasdaq már 1,44%-kal, az S&P 500 0,5%-kal volt mínuszban. A nyomást továbbra is az MI- és chippapírok eladása okozza.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Vegyes nyitás a Wall Streeten: a Nasdaq tovább esik, a Dow enyhén emelkedik",
+     "url": "https://www.tokenpost.com/news/investing/62116",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-20T15:40:49Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "Kitco · TipRanks (The Fly) · investingLive",
+     "summary": "A Michigani Egyetem novemberi végleges fogyasztói hangulatindexe 51,5 pont lett az előzetes 51,0 és az októberi 48,0 után, ami három hónapos csúcs és megfelel a konszenzusnak. Az egyéves inflációs várakozás 3,7%-ra, a hosszú távú 3,3%-ra csökkent. A Kitco szerint az arany az adat után 3568 dollár körül kereskedett.",
+     "symbols": [],
+     "title": "51,5 pontra javult a michigani fogyasztói hangulatindex, három hónapos csúcsra; csökkentek az inflációs várakozások",
+     "url": "https://www.kitco.com/news/article/2026-11-20/gold-price-trades-near-3568oz-after-final-consumer-sentiment-rises-515",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T15:40:49Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "VG · Portfolio · Privátbankár",
+     "summary": "Délutánra mélyült az esés a budapesti tőzsdén: a BUX 3,2–3,3%-kal, 138 ezer pont környékére esett. Az OTP 4,5–4,7%-kal 38 700 forint körülre zuhant, október 9. óta nem járt ilyen alacsonyan; a Mol közel 3%-ot, a Richter mintegy 2%-ot veszített. A hangulatot az MI-részvények globális eladási hulláma rontja.",
+     "symbols": [],
+     "title": "Több mint 3%-ot esik a BUX, 39 ezer forint alá zuhant az OTP",
+     "url": "https://www.vg.hu/penz-es-tokepiac/2026/11/otp-bux-tozsde-zuhanas-mi-reszvenypiac",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T15:40:49Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "The Block · crypto.news · Crypto Briefing",
+     "summary": "Michael Selig, a CFTC elnöke szerint az amerikai lakossági ügyfeleket kiszolgálni kívánó láncon belüli derivatívaplatformoknak két útjuk van: regisztrálnak a felügyeletnél, vagy már regisztrált cégekkel társulnak; a Hyperliquidet név szerint említette, különleges mentességet viszont kizárt. Nincs jele annak, hogy a Hyperliquid kérelmet nyújtott volna be vagy partnert talált volna.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "CFTC-elnök: regisztráció vagy engedélyes partner – így léphet az amerikai piacra a Hyperliquid",
+     "url": "https://crypto.news/cftc-hyperliquid-us-market-regulatory-pathways/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T16:40:16Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A BMO Capital Markets „outperform”-ra javította a Bloom Energy ajánlását, a célárat viszont 260-ról 230 dollárra csökkentette. A részvény ennek ellenére péntek délelőtt mintegy 10%-kal, 151 dollár körülre esett, mert a Wall Street tovább adja az MI-infrastruktúrához kötődő papírokat; a FuelCell Energy 7%-ot, a Plug Power 3%-ot veszített.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Mintegy 10%-ot esik a Bloom Energy a BMO felminősítése ellenére, a FuelCell és a Plug Power is gyengül",
+     "url": "https://247wallst.com/investing/2026/11/20/bloom-energy-tumbles-10-despite-bmo-upgrade-with-230-target-fuelcell-energy-slides-7-plug-power-drops-3/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T16:40:16Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "Az arany határidős ára péntek délelőtt 3,8%-os eséssel 3546 dollár körül járt, így a bányászrészvények is egyéves mélypontjuk közelébe kerültek. A bányászok haszonkulcsa az arany árától függ, ezért az elemzők szerint addig az aranyat követik, amíg az nem stabilizálódik.",
+     "symbols": [],
+     "title": "Éves mélypont közelében az aranybányászok, 3600 dollár alá csúszott az arany",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-near-yearly-lows-155220307.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T16:40:16Z",
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Scott Bessent pénzügyminiszter a CNBC-nek azt mondta, a Fed ne lépjen a néhány kormányzó által támogatott nagyobb, 50 bázispontos kamatemelés felé, mert az infláció mögött energiaellátási sokk áll, és az olajár is csökkent. Szerinte a jegybanknak „előre kell néznie, nem hátra”.",
+     "symbols": [],
+     "title": "Bessent arra kéri a Fedet, hogy ne emeljen nagyot a kamaton, az energiasokkra hivatkozik",
+     "url": "https://www.investing.com/news/economy-news/bessent-advocates-lower-fed-rate-hike-cites-energy-shock-5042202",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T16:40:16Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Boeing vezetése nem mondta meg, követi-e újabb leépítés a decemberi elbocsátási kört; a kereskedelmi repülőgép-üzletág mintegy 5%-os létszámcsökkentését november elején jelentették be. A cég a 737-es havi gyártását 42-ről 47 gépre akarja emelni, ezt eredetileg a nyárra tervezte.",
+     "symbols": [],
+     "title": "A Boeing nem zárja ki a további elbocsátásokat, akadozik a gyártás felfuttatása",
+     "url": "https://www.investing.com/news/stock-market-news/boeing-leaves-open-possibility-of-more-layoffs-amid-stalled-production-plans-5042187",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T16:40:16Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Bloomberg",
+     "summary": "A Bloomberg névtelen forrásokra hivatkozó értesülése szerint a KKR megállapodott a portugál csomagolóanyag-gyártó Logoplaste felvásárlásáról, több mint 1,7 milliárd eurós értékelés mellett. A KKR szeptember óta kizárólagos tárgyalásokat folytatott; a felek hivatalosan nem erősítették meg az ügyletet.",
+     "symbols": [],
+     "title": "Bloomberg: megegyezett a KKR a portugál Logoplaste megvételéről",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/kkr-is-said-to-seal-pact-to-purchase-portugal-s-logoplaste",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-20T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Motley Fool · Seeking Alpha",
+     "summary": "A Motley Fool délelőtti adatai szerint 11:31-kor (New York-i idő) a Nasdaq Composite 2,8%-kal 23 210 pontra, az S&P 500 1,54%-kal 7065 pontra esett, a 7000 pontos szint közelébe, miközben a Dow nagyjából stagnált. A Seeking Alpha szerint a philadelphiai félvezetőindex (SOX) 11:05-kor 7%-kal állt lejjebb, az eladási hullámot az AMD és a Micron vezette.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Délre közel 3%-ot zuhant a Nasdaq, 7%-ot esett a félvezetőindex",
+     "url": "https://seekingalpha.com/news/4675206-micron-leads-semiconductor-and-ai-stocks-down-as-sox-plunges-7",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Seeking Alpha · Motley Fool · GuruFocus",
+     "summary": "A Micron árfolyama pénteken napközben 11–12%-ot esett, ezzel a félvezető-eladási hullám élére állt. Elemzők a TrendForce kutatócég előrejelzéséhez kötik az esést, amely szerint a NAND flash memóriák ára 20%-kal csökkenhet; a források azonban eltérnek abban, mi volt a fő kiváltó ok.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "11–12%-ot zuhant a Micron, a NAND-árak csökkenésére figyelmeztető előrejelzés is nyomja",
+     "url": "https://www.gurufocus.com/news/9212901/micron-technology-mu-shares-plunge-11-amid-semiconductor-sector-selloff",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Investing.com · Tradingpedia",
+     "summary": "Az Investing.com szerint a Marvell árfolyama a délelőtti kereskedésben 8,3%-kal 126,98 dollárra esett, ezzel folytatva hetek óta tartó csökkenését. A befektetők a november 2-án bejelentett, 115 milliárd dolláros, teljes egészében részvénycserés Lumentum-felvásárlás hígító hatása miatt aggódnak (Lumentum-részvényenként 4,5 Marvell-részvény).",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "Több mint 8%-ot esett a Marvell, a befektetőket nyugtalanítja a Lumentum-felvásárlás",
+     "url": "https://www.tradingpedia.com/2026/11/20/marvell-slides-toward-134-amid-115b-lumentum-deal/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Reuters (Investing.com) · Yahoo Finance · Bitcoin Magazine",
+     "summary": "A Reuters szerint a bitcoin pénteken július óta először esett 60 000 dollár alá, legutóbb 3,45%-os csökkenéssel 59 381 dolláron állt, mivel az MI-részvények értékeltségével kapcsolatos aggodalmak a többi kockázatos eszközt is lehúzzák. Novemberben eddig mintegy 23%-ot esett, ezzel 2022 júniusa óta a legrosszabb hónapja felé tart.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Július óta először 60 ezer dollár alá esett a bitcoin",
+     "url": "https://www.investing.com/news/stock-market-news/bitcoin-falls-below-60000-level-5042271",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T17:50:00Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "Reuters (Investing.com) · Bloomberg",
+     "summary": "Joachim Nagel, a Bundesbank elnöke szerint az EKB-nak decemberben valószínűleg szigorítania kell, mert az euróövezeti infláció a 2%-os cél nagyjából kétszerese, az inflációs várakozások ugyanakkor szilárdan horgonyzottak. Alvaro Santos Pereira, a Kormányzótanács tagja szerint az energiaárak által hajtott inflációs nyomás jelentős és tovább nő; a fő kérdés az, hogy átterjed-e a gazdaság más részeire.",
+     "symbols": [],
+     "title": "Nagel: az EKB-nak valószínűleg lépnie kell decemberben; Pereira szerint erős és erősödik az inflációs nyomás",
+     "url": "https://www.investing.com/news/economy-news/ecbs-nagel-will-likely-need-to-act-in-december-but-price-expectations-remain-anchored-5042238",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T17:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "MasTec közlemény · Seeking Alpha · Benzinga",
+     "summary": "A MasTec végleges megállapodást kötött a Murphy Corporation megvételéről mintegy 1,25 milliárd dollár készpénzért, banki hitelből finanszírozva; a Murphy adatközpontoknak, a repülési és védelmi iparnak és egészségügyi létesítményeknek dolgozik. A Benzinga szerint a MasTec árfolyama pénteken több mint 10%-kal esett.",
+     "symbols": [
+      "MTZ"
+     ],
+     "title": "1,25 milliárd dollárért felvásárolja a Murphy gépészeti kivitelezőt a MasTec, a részvény 10%-ot esik",
+     "url": "https://investors.mastec.com/news-releases/news-release-details/mastec-enters-definitive-agreement-acquire-murphy-corporation",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T17:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Yahoo Finance · GuruFocus",
+     "summary": "A TD Cowen vételre minősítette fel a UnitedHealth részvényeit, és 402-ről 455 dollárra emelte célárát; a papír pénteken mintegy 4,7%-ot emelkedett. Előző nap 5,55%-ot esett egy, a Medicare Advantage-biztosítókat érintő auditszabály-javaslat miatt.",
+     "symbols": [
+      "UNH"
+     ],
+     "title": "Közel 5%-ot emelkedik a UnitedHealth a TD Cowen felminősítése után",
+     "url": "https://finance.yahoo.com/markets/stocks/article/unitedhealth-stock-pops-on-buy-rating-best-idea-pick-at-td-cowen-153003745.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-20T17:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "Newsquawk (Financial Times-ra hivatkozva)",
+     "summary": "A Newsquawk által idézett Financial Times-értesülés szerint Jamie Dimon, a JPMorgan vezérigazgatója olyan módokat keres, amelyekkel ellensúlyozhatja a brit kormány múlt havi bankadó-emelését, hogy a politikusok lássák az általa igazságtalannak tartott terhek következményeit. Hogy ez a gyakorlatban mit jelent, egyelőre nem derült ki.",
+     "symbols": [
+      "JPM"
+     ],
+     "title": "FT: Dimon „példát akar statuálni”, ellensúlyozná a JPMorgan a brit bankadó-emelést",
+     "url": "https://www.newsquawk.com/headlines/jpmorgan-jpm-ceo-dimon-said-he-plans-to-set-an-example-by-finding-ways-to-offset-a-bank-tax-increase-introduced-by-the-uk-government-last-month-so-politicians-understand-the-trade-offs-of-these-unfair-penalties-reports-ft",
+     "verified": false
     }
    ],
    "markets": [
@@ -740,7 +1123,7 @@
     }
    ],
    "summary": "Az Anthropic első kereskedési napján 17%-kal az IPO-ár fölött, 97,17 dolláron zárt, a Wall Street azonban meredeken fordult: az S&P 500 2,02%-ot, a Dow 2,19%-ot esett és 50 000 pont alá zárt, a Nasdaq 2,25%-ot veszített, az AMD egy shortoló jelentés után közel 8%-ot zuhant. Pénteken Ázsiában a Nikkei és a Kospi mintegy 4,5–5%-ot esett, élükön a chippapírokkal. A decemberi Fed-kamatemelés várakozása tovább nyomja a kockázatos eszközöket: a bitcoin 62 ezer dollár körül, négy hónapos mélypont közelében jár, az arany 3650 dollár alá esett. Goolsbee szerint az MI-fellendülés túlfűtheti az amerikai gazdaságot. Japánban a maginfláció 2,2%-ra lassult, a Brent 92 dollár fölött zárt az iráni feszültség miatt.",
-   "updatedAt": "2026-11-20T08:40:14Z",
+   "updatedAt": "2026-11-20T17:50:00Z",
    "watchlist": []
   },
   {
@@ -26910,13 +27293,13 @@
    "id": "2026-11-20-jp-cpi"
   },
   {
-   "actual": "",
+   "actual": "51,5",
    "country": "USA",
    "date": "2026-11-20",
    "event": "Michigani fogyasztói hangulatindex (november, végleges)",
-   "forecast": "",
+   "forecast": "51,5 (konszenzus)",
    "importance": 2,
-   "note": "Az októberi végleges érték 48,0 volt.",
+   "note": "Az októberi végleges érték 48,0 volt. A végleges novemberi érték három hónapos csúcs, megfelel a konszenzusnak; az egyéves inflációs várakozás 3,7%-ra, a hosszú távú 3,3%-ra csökkent. Források: Kitco, TipRanks (The Fly), investingLive.",
    "previous": "51,0 (nov. előzetes)",
    "source": "University of Michigan Surveys of Consumers",
    "symbols": [],
