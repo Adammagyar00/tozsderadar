@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-21T15:56:03Z",
+ "builtAt": "2026-11-21T20:56:26Z",
  "digests": [
   {
    "calendar": [
@@ -521,6 +521,73 @@
      "title": "Lövedék talált el egy tankert Hormuznál, Szaúd-Arábia három húszi rakétát lőtt le Rijád felett",
      "url": "https://www.investing.com/news/economy-news/iran-war-sees-tanker-hit-near-hormuz-as-saudi-arabia-intercepts-houthi-missiles-5043277",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-21T20:34:32Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Yahoo Finance · Barron's · CoinDesk",
+     "summary": "A Reuters szerint a bitcoin szombaton több mint 2%-kal, 60 ezer dollár fölé erősödött a hét végi mélypontok után. A CoinDesk beszámolója szerint a kétéves mélypontról mintegy 9%-os volt a visszapattanás, a kereskedők a hétfői amerikai tőzsdenyitást figyelik. A Barron's szerint a kriptopiaci javulás jó jel lehet a hétfői részvénypiacnak.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Kétéves mélypontjáról visszapattanva ismét 60 ezer dollár fölé emelkedett a bitcoin",
+     "url": "https://www.investing.com/news/forex-news/bitcoin-rises-over-2-to-more-than-60000-5043497",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-21T20:34:32Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A Marvell árfolyama egy hét alatt 22%-ot esett, miután az Nvidia vezetési válsága és a kaliforniai főügyészi idézés lehúzta az MI-chipgyártókat. A cég saját rossz hírt nem közölt, de a Lumentum részvénycserés felvásárlása miatt a Marvell minden esése a Lumentum-részvényesek által kapott értéket is csökkenti. A Marvell december 1-jén tesz közzé gyorsjelentést.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "Egy hét alatt 22%-ot esett a Marvell az Nvidia körüli zűrzavar nyomán",
+     "url": "https://www.tikr.com/blog/marvell-just-dropped-22-in-a-week-as-nvidias-turmoil-hit-ai-chips-sell-or-load-up-before-dec-1?ref=yahoofinance&tlnk=yf-261121-h6wc4q3f&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-21T20:34:32Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A TIKR elemzése szerint az SK hynix egy hét alatt 21%-ot veszített, a Micronnal és a Sandiskkel együtt esve a memóriachip-részvények eladási hullámában. A cikk az SK hynix amerikai jegyzésének felárát \"különleges esetként\" elemzi.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "21%-ot esett egy hét alatt az SK hynix a Micronnal és a Sandiskkel együtt",
+     "url": "https://www.tikr.com/blog/sk-hynix-sinks-21-in-a-week-with-micron-and-sandisk-its-u-s-premium-is-an-extra-special-case?ref=yahoofinance&tlnk=yf-261121-947vrx38&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-21T20:34:32Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk · The Currency Analytics",
+     "summary": "A CoinDesk szombati beszámolója szerint az XRP egy nap alatt mintegy 9–10%-ot esett, nagyjából 87 centre, ami 2024 novembere óta a legalacsonyabb szint, a tőkeáttételes long pozíciók leépülése közepette. Az amerikai XRP-ETF-ek kezelt vagyona a beszámolók szerint 1 milliárd dollár alá, mintegy 996 millió dollárra csökkent. Az adatot más független, nagy forrás egyelőre nem erősítette meg.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "CoinDesk: 10%-ot esett az XRP, 1 milliárd dollár alá csúszott az XRP-ETF-ek vagyona",
+     "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-21T20:34:32Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com",
+     "summary": "A UBS stratégái szerint az arany 2027 első negyedévéig ellenszélbe kerülhet, mert az erősebb amerikai munkaerőpiaci adatok és a vártnál magasabb infláció megerősítette a további Fed-kamatemelésekre vonatkozó várakozásokat.",
+     "symbols": [],
+     "title": "UBS: további gyengülés várhat az aranyra, amíg vissza nem térnek a Fed-kamatvágási várakozások",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/ubs-flags-further-gold-weakness-182039348.html",
+     "verified": true
     }
    ],
    "markets": [
@@ -547,7 +614,7 @@
     }
    ],
    "summary": "Pénteken a Nasdaq 5,28%-ot, az S&P 500 3,7%-ot zuhant, utóbbi heti 8,6%-os eséssel korrekcióba került; az Nvidia 14%-ot esett, miután a Reuters szerint az SEC a könyvelését vizsgálja. A Fed részéről Cook és Paulson is további kamatemelések mellett érvelt, ami tovább nyomja a kockázatos eszközöket: a bitcoin szombatra 56 ezer dollár alá, az ether 1600 dollár alá esett, az arany 52 hetes mélypontra süllyedt. A Reuters szerint a CrowdStrike a Zscaler megvételéről tárgyal. Itthon a Moody's negatívról stabilra javította a Baa2 besorolás kilátását, jövő pénteken az S&P következik.",
-   "updatedAt": "2026-11-21T15:40:00Z",
+   "updatedAt": "2026-11-21T20:34:32Z",
    "watchlist": []
   },
   {
