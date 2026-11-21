@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-21T06:56:09Z",
+ "builtAt": "2026-11-21T15:56:03Z",
  "digests": [
   {
    "calendar": [
@@ -168,7 +168,7 @@
     {
      "category": "Figyelőlista",
      "impact": "negatív",
-     "source": "Investing.com · CryptoTimes · CoinCodex",
+     "source": "Investing.com · CryptoTimes · CoinCodex · CoinDesk",
      "summary": "Az Investing.com szerint a bitcoin közel 10%-os eséssel 55,8 ezer dollár körülre esett, 2024 óta nem járt ilyen alacsonyan; novemberben mintegy 25%-ot veszített, ami 2022 júniusa óta a legrosszabb hónapja lehet. Az ether 1560 dollár körül jár. 24 óra alatt mintegy 2,4 milliárd dollárnyi kriptoderivatív-pozíciót likvidáltak; a Wintermute szerint a tartós fordulathoz 68 ezer dollár visszaszerzése kellene.",
      "symbols": [
       "BTC",
@@ -449,6 +449,78 @@
      "title": "Tízszeresére nő a háztartások áram-rendszerhasználati díja januártól, de 90%-os kompenzáció jár mellé",
      "url": "https://portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-21T12:34:22Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Pedro Sánchez spanyol miniszterelnök szombaton az Onda Cerónak bejelentette, hogy a bankadót 2027-re is meghosszabbítják, a becsült 1,4 milliárd eurós bevételt szociális bérlakás-építésre, bérlői adókedvezményekre és felújításokra fordítanák. A kormány kedden, öt nappal a november 29-i előrehozott választás előtt hagyhatja jóvá; a sávos, 1–7%-os adó a legnagyobb hitelezőket, köztük a Santandert, a BBVA-t és a CaixaBankot érinti.",
+     "symbols": [
+      "SAN",
+      "BBVA",
+      "CABK"
+     ],
+     "title": "2027-re is meghosszabbítja a spanyol kormány a bankadót, a bevétel lakhatásra megy",
+     "url": "https://www.investing.com/news/stock-market-news/spain-to-extend-banking-tax-through-2027-to-fund-housing-policies-5043370",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-21T12:34:22Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az olasz Webuild az elfogadási időszak végére a Trevi részvényeinek mintegy 91%-át szerezte meg, a tranzakció értéke körülbelül 339 millió euró. Az ajánlati árat októberben részvényenként 5,165 euróra emelte; az olasz versenyhatóság jóváhagyta az ügyletet, a Cassa Depositi e Prestiti támogatta.",
+     "symbols": [
+      "WBD.MI",
+      "TFIN.MI"
+     ],
+     "title": "Lezárta a Webuild a Trevi 339 millió eurós felvásárlását",
+     "url": "https://www.investing.com/news/company-news/italys-webuild-completes-339-million-takeover-of-construction-group-trevi-5043350",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-21T12:34:22Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Reuters · The Information · The Star",
+     "summary": "A Reuters által idézett The Information szerint a SoftBank vezére Wall Street-i bankoknál érdeklődött egy körülbelül 1000 milliárd dolláros SK Hynix-kivásárlás finanszírozásáról. A SoftBank szóvivője szerint a lehetőség már nincs aktív megfontolás alatt; egy külföldi felvásárláshoz a koreai kormány előzetes jóváhagyása kellene.",
+     "symbols": [
+      "9984.T",
+      "000660.KS"
+     ],
+     "title": "The Information: Szon Maszajosi egy 1000 milliárd dolláros SK Hynix-felvásárlás finanszírozását puhatolta",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/21/softbanks-son-explored-1-trillion-buyout-of-sk-hynix-the-information-reports",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-21T15:40:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Intesa Sanpaolo készpénzes és részvénycserés vételi ajánlatot tett a Monte dei Paschi di Siena (MPS) megszerzésére, összesen 34,5 milliárd euró értékben: MPS-részvényenként 1,25 euró készpénzt és 1,664 új Intesa-részvényt kínál. Az MPS igazgatótanácsa pénzügyileg méltányosnak nevezte az ajánlatot, de szerinte az nem tükrözi teljes mértékben a Mediobanca-felvásárlásból adódó jövőbeli értéket. Az elfogadási időszak november 24-től 2027. január 22-ig tart.",
+     "symbols": [
+      "ISP",
+      "BMPS"
+     ],
+     "title": "Elindította 34,5 milliárd eurós ajánlatát a Monte dei Paschira az Intesa Sanpaolo, az MPS méltányosnak tartja az árat",
+     "url": "https://www.investing.com/news/stock-market-news/intesa-sanpaolo-launches-345bn-cashandshare-offer-for-monte-dei-paschi-5043303",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-21T15:40:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · Gulf News",
+     "summary": "A brit tengerészeti központ (UKMTO) szerint egy, a Hormuzi-szorosból kifelé tartó tankert ismeretlen lövedék talált el az ománi Khaszab közelében; a hajón tűz ütött ki, sérült nincs. Az iráni Forradalmi Gárda szerint a hajó tengeri aknára futott. A szaúdi vezetésű koalíció közölte, hogy három, Rijád felé kilőtt húszi ballisztikus rakétát semmisített meg, miután pénteken húszi állásokat támadott Szanaában és Hodeidában.",
+     "symbols": [],
+     "title": "Lövedék talált el egy tankert Hormuznál, Szaúd-Arábia három húszi rakétát lőtt le Rijád felett",
+     "url": "https://www.investing.com/news/economy-news/iran-war-sees-tanker-hit-near-hormuz-as-saudi-arabia-intercepts-houthi-missiles-5043277",
+     "verified": true
     }
    ],
    "markets": [
@@ -475,7 +547,7 @@
     }
    ],
    "summary": "Pénteken a Nasdaq 5,28%-ot, az S&P 500 3,7%-ot zuhant, utóbbi heti 8,6%-os eséssel korrekcióba került; az Nvidia 14%-ot esett, miután a Reuters szerint az SEC a könyvelését vizsgálja. A Fed részéről Cook és Paulson is további kamatemelések mellett érvelt, ami tovább nyomja a kockázatos eszközöket: a bitcoin szombatra 56 ezer dollár alá, az ether 1600 dollár alá esett, az arany 52 hetes mélypontra süllyedt. A Reuters szerint a CrowdStrike a Zscaler megvételéről tárgyal. Itthon a Moody's negatívról stabilra javította a Baa2 besorolás kilátását, jövő pénteken az S&P következik.",
-   "updatedAt": "2026-11-21T06:52:35Z",
+   "updatedAt": "2026-11-21T15:40:00Z",
    "watchlist": []
   },
   {
