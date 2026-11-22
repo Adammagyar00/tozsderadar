@@ -1,6 +1,306 @@
 {
- "builtAt": "2026-11-21T20:56:26Z",
+ "builtAt": "2026-11-22T06:56:24Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 23.",
+     "event": "Eurózóna BMI (előzetes)"
+    },
+    {
+     "date": "nov. 24.",
+     "event": "Ifo-index"
+    },
+    {
+     "date": "nov. 25.",
+     "event": "USA GDP (2. becslés) és PCE"
+    },
+    {
+     "date": "nov. 26.",
+     "event": "Hálaadás – zárva a New York-i tőzsdék"
+    },
+    {
+     "date": "nov. 27.",
+     "event": "S&P: Magyarország besorolása"
+    },
+    {
+     "date": "nov. 29.",
+     "event": "Spanyol választás; OPEC+ ülés"
+    },
+    {
+     "date": "dec. 1.",
+     "event": "Marvell gyorsjelentés; ISM feldolgozóipar"
+    },
+    {
+     "date": "dec. 9.",
+     "event": "Fed kamatdöntés"
+    }
+   ],
+   "date": "2026-11-22",
+   "generatedAt": "2026-11-22T06:51:01Z",
+   "headline": "Medvepiac küszöbén a Nasdaq-100, a JPMorgan már három Fed-kamatemelést vár, Brüsszel jóváhagyta a magyar helyreállítási pénzek nagy részét",
+   "items": [
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A JPMorgan elemzői a makacs infláció miatt módosították előrejelzésüket: a korábban várt decemberi 25 bázispontos emelés mellett 2027 januárjában és márciusában is emelést várnak. A bank szerint ezzel a 2027-es kamatcsökkentési remények is háttérbe szorulnak. A Fed következő döntése december 9-én lesz.",
+     "symbols": [],
+     "title": "A JPMorgan már három Fed-kamatemelést vár: decemberben, januárban és márciusban",
+     "url": "https://www.thestreet.com/fed/j-p-morgan-prices-in-stunning-shift-in-fed-rate-hike-call?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A pénteki esés után a technológiai óriásokat tömörítő Nasdaq-100 index mindössze 49 pontra került a csúcstól számított 20%-os eséstől, vagyis a medvepiac hivatalos küszöbétől. Egyetlen nap alatt több mint egy évtized legnagyobb heti veszteségei közé került az index, az esést főként a chipcégek okozták.",
+     "symbols": [
+      "QQQ"
+     ],
+     "title": "Már csak 49 pontra van a medvepiactól a Nasdaq-100",
+     "url": "https://247wallst.com/investing/2026/11/21/the-nasdaq-100-is-now-just-49-points-from-a-bear-market/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "Az S&P 500 hét kereskedési napja esik, ami 2020 februárja óta a leghosszabb ilyen sorozat; nagyjából hat hét alatt közel egy évnyi emelkedés tűnt el. A pénteki zárással az index a 20 nagy Wall Street-i cég tavaly decemberben megadott 2026-os év végi célárfolyamai mindegyike alá került. Az egyenlő súlyozású alapok jobban tartják magukat, mint a nagy indexalapok.",
+     "symbols": [
+      "VOO"
+     ],
+     "title": "2020 februárja óta a leghosszabb veszteségsorozatban az S&P 500, minden Wall Street-i év végi cél alá esett",
+     "url": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-having-the-longest-losing-streak-since-february-2020/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "Az Oppenheimer megtartotta Outperform ajánlását és 425 dolláros célárát a Marvellre, szerintük túlzó volt az eladási hullám; a célár 248%-kal a november 20-i záróár fölött van. A Stifel ezzel szemben november 20-án 370-ről 280 dollárra csökkentette célárát, de Buy ajánlását megtartotta. A Marvell december 1-jén teszi közzé gyorsjelentését.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "Az Oppenheimer kitart a Marvell 425 dolláros célára mellett, a Stifel 280 dollárra vágta a célárat",
+     "url": "https://www.tikr.com/blog/oppenheimers-425-target-says-marvells-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261121-v35g3j72&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A JPMorgan becslése szerint egy bitcoin kibányászásának költsége mintegy 86 ezer dollár, így az árfolyamnak körülbelül 44%-ot kellene emelkednie ennek eléréséhez. A bank szerint a bányászok emiatt tartalékaik eladására kényszerülhetnek, ami további nyomást jelenthet az árfolyamra.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "JPMorgan: tartalékaik eladására kényszerülhetnek a bányászok, 26 ezer dollárral a termelési költség alatt a bitcoin",
+     "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/jp-morgan-says-bitcoin-miners-may-be-selling-reserves-after-btc-falls-26-k-below-mining-cost-estimate-report/cNbnlZrR91A?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A péntek-szombati kriptoesés közben a Kraken kanadai dolláros bitcoin-piacán rövid időre olyan árakon is köttettek ügyletek, amelyek amerikai dollárban számolva 20 ezer dollár alatti bitcoinárnak feleltek meg. A kiugró árak a kis forgalmú devizapárok vékony likviditását mutatják zuhanó piacon.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Krakenen egyesek 20 ezer dollár alatt jutottak bitcoinhoz a kanadai dolláros piacon",
+     "url": "https://www.thestreet.com/crypto/markets/some-bought-bitcoin-on-kraken-for-under-20000?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "A 92 éves amerikai hamburgerlánc közölte, hogy az összehasonlítható üzletek forgalma ebben a negyedévben több mint 19%-kal nőtt, és ezt a bitcoinos fizetés bevezetésének tulajdonítja. A cég korábbi negyedévekben is a bitcoinhoz kötötte forgalombővülését.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "A Steak 'n Shake szerint a bitcoinos fizetés 19%-kal növelte összehasonlítható forgalmát",
+     "url": "https://www.thestreet.com/crypto/retail/92-year-old-burger-chain-says-bitcoin-fuels-19-sales-jump?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investor's Business Daily",
+     "summary": "A Tesla szombaton elkezdte eljuttatni a Full Self-Driving (teljes önvezetés) szoftver 15-ös verzióját az első felhasználókhoz. Elon Musk vezérigazgató szerint a széles körű kiadás jövő hónapban várható, és „valami különlegesnek” nevezte az új verziót.",
+     "symbols": [],
+     "title": "Megkezdődött a Tesla FSD V15 kiadása, a széles körű bevezetés jövő hónapban jön",
+     "url": "https://finance.yahoo.com/m/b31af40e-5144-3249-9033-82521507fe84/tesla-fsd-v15-rolling-out%2C.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "Az amerikai benzinkutakon olyan gyorsan esnek az árak, mint 2008-ban, és rekord közelében lehet a hálaadási árcsökkenés. A cikk szerint a 2008-as párhuzam közelebbről sántít, mert a háttérben továbbra is a hormuzi szállítási útvonal kockázata áll.",
+     "symbols": [],
+     "title": "2008-as ütemben csökken a benzin ára az USA-ban hálaadás előtt",
+     "url": "https://247wallst.com/investing/2026/11/21/gas-prices-are-dropping-at-a-2008-pace-right-before-thanksgiving/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · 24/7 Wall St.",
+     "summary": "A befektetők két hónapja nem látott ütemben vásároltak amerikai részvényalapokat, majd két súlyos esésű kereskedési nap következett. A cikk szerint a következő alapáramlási jelentés mutatja meg, kitartanak-e az esésben vásárlók.",
+     "symbols": [],
+     "title": "45,7 milliárd dollár áramlott az amerikai részvényalapokba közvetlenül a zuhanás előtt",
+     "url": "https://247wallst.com/investing/2026/11/21/investors-put-45-7-billion-into-u-s-stock-funds-right-before-the-stock-market-tanked/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Decrypt",
+     "summary": "Az amerikai tőzsdefelügyelet (SEC) szerint nyolc coloradói bejegyzésű, valószínűleg külföldről irányított cég legitim tanácsadónak és kriptoplatformnak adta ki magát, és összesen 37 millió dollárt csalt ki. A cégek a vád szerint SEC-dokumentumokat is hamisítottak.",
+     "symbols": [],
+     "title": "SEC: hamis kriptotőzsdékkel 37 millió dollárt csaltak ki befektetőktől",
+     "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A kínai mesterséges intelligenciához kötődő részvények együttes piaci értéke június vége óta 1700 milliárd dollárral csökkent, így elolvadt az első félév nagy emelkedése; a ChiNext index idén 31%-ot esett. A befektetőket a fejlett Nvidia-chipekhez való hozzáférést korlátozó új amerikai szabálytervezet és az MI-befektetések megtérülése is aggasztja.",
+     "symbols": [],
+     "title": "1700 milliárd dollárt vesztettek értékükből a kínai MI-részvények június vége óta",
+     "url": "https://www.investing.com/news/stock-market-news/chinas-ai-stocks-lose-17-trillion-as-tech-selloff-deepens-5043672",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Goldman Sachs „overweight”-re javította a H-részvényeket, és 23%-os emelkedést vár az MSCI China indexben jövőre, a szárazföldi A-részvényeket viszont semlegesre rontotta (CSI300-cél: 4500 pont). A bank 2027-re 15%-os vállalati eredménynövekedést vár Kínában a 2026-os 8% után.",
+     "symbols": [],
+     "title": "Felülsúlyozásra emelte a hongkongi kínai H-részvényeket a Goldman Sachs",
+     "url": "https://www.investing.com/news/economy-news/goldman-upgrades-china-hshares-on-faster-earnings-growth-outlook-5043437",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "António Costa, az uniós vezetők elnöke szombaton 1580 milliárd eurós 2028–2034-es költségvetési javaslatot tett, 40 milliárd euróval kevesebbet a korábbi tervezetnél. Bevételként 3%-os adót javasol az online reklám és a digitális szolgáltatások forgalmára, ami főként az amerikai techóriásokat (Google, Microsoft, Meta, Apple, Amazon) sújtaná. Az Európai Parlament elfogadhatatlannak nevezte, Franciaország a gazdák védelmét hiányolja; a vezetők november 26–27-én tárgyalnak róla.",
+     "symbols": [],
+     "title": "40 milliárd eurós vágás és 3%-os digitális adó az új uniós költségvetési javaslatban",
+     "url": "https://www.investing.com/news/economy-news/eu-budget-chief-proposes-40-bln-cut-and-digital-tax-plan-5043471",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az IG Metall szakszervezet 19 észak-németországi cég, köztük a Mercedes-Benz, a Meyer Werft hajógyár és a Siemens Gamesa több mint 23 ezer dolgozóját szólította 24 órás sztrájkra hétfőre. A szakszervezet 5%-os béremelést követel, a munkáltatók 20 hónapos befagyasztást, majd 2028 júliusától 1,3%-os emelést kínálnak.",
+     "symbols": [],
+     "title": "Kiszélesedik a német ipari sztrájk: 23 ezer dolgozót hív 24 órás munkabeszüntetésre hétfőn az IG Metall",
+     "url": "https://www.investing.com/news/stock-market-news/german-industrial-strikes-widen-as-ig-metall-calls-23000-workers-to-walk-out-5043690",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A UBS elemzése szerint a Néppárt (PP) és a Vox koalíciója a legvalószínűbb kimenetel, de újabb széttöredezett parlament is kialakulhat. A bank szerint egy üzletbarát kormány mérsékelten támogathatja a spanyol részvényeket, a választás azonban várhatóan nem lesz nagy piaci katalizátor és nem okoz eurózónás instabilitást.",
+     "symbols": [],
+     "title": "UBS: a jobboldali koalíció a legvalószínűbb a november 29-i spanyol előrehozott választáson",
+     "url": "https://www.investing.com/news/stock-market-news/here-is-what-to-expect-from-spains-snap-election-5043631",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio · Infostart",
+     "summary": "Az Európai Bizottság részben jóváhagyta Magyarország 10 milliárd eurós helyreállítási (RRF) kifizetési kérelmét: a 127 mérföldkőből 126-ot elfogadott. A fennmaradó mintegy 9,1 milliárd euróról (kb. 3400 milliárd forint) az EU Tanácsa decemberben dönthet, az utalásnak az év végéig meg kell történnie; ha a Bizottság fenntartja kifogását, az összeg arányosan csökkenhet.",
+     "symbols": [],
+     "title": "Jóváhagyta a magyar helyreállítási kifizetési kérelem nagy részét Brüsszel, mintegy 3400 milliárd forint jöhet",
+     "url": "https://www.portfolio.hu/unios-forrasok/20261120/brusszel-megnyomta-a-start-gombot-kozel-3500-milliard-forintos-utalast-kaphat-magyarorszag-877940",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "CBS News (névtelen források)",
+     "summary": "A CBS News névtelen forrásokra hivatkozva arról számolt be, hogy Washington és Izrael rövid távú, új offenzívát mérlegel Irán ellen, amelyet értesülések szerint Trump parancsa után két-négy napon belül meg lehetne indítani. Trump közben azt mondta, nem siet a döntéssel, a Fehér Ház és Netanjahu hivatala nem kommentálta a hírt. Egy újabb csapás az olajár hormuzi kockázati prémiumát növelheti.",
+     "symbols": [],
+     "title": "CBS: az USA és Izrael újabb támadást fontolgat Irán ellen",
+     "url": "https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/",
+     "verified": false
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "crypto.news · The Crypto Times",
+     "summary": "A november 16–20-i héten az amerikai azonnali bitcoin- és ether-ETF-ekből összesen 1,47 milliárd dollár áramlott ki, ebből a bitcoinalapok mintegy 1,25 milliárdot, az ether-alapok 221,7 millió dollárt veszítettek. A BlackRock IBIT alapja november 19-én 541,1 millió dolláros, indulása óta legnagyobb napi kiáramlást szenvedte el.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "1,47 milliárd dollár áramlott ki egy hét alatt a bitcoin- és ether-ETF-ekből, rekordkiáramlás az IBIT-ből",
+     "url": "https://crypto.news/bitcoin-ether-etf-outflows-nov-16-20-2026/",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Bitcoin.com News",
+     "summary": "A Bitcoin.com beszámolója szerint a Hyperliquid legnagyobb HYPE-long pozíciója nagyjából 52,94 dolláros likvidálási szint közelébe került, a tulajdonos péntek óta 7 millió dollárnyi USDC-t tett be fedezetként, hogy nyitva tarthassa. Ha a pozíciót likvidálnák, az további eladási nyomást jelenthetne a tokenre; más forrás egyelőre nem erősítette meg a részleteket.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "Értesülések szerint a likvidálás közelébe került a legnagyobb HYPE-long pozíció",
+     "url": "https://news.bitcoin.com/defi/biggest-hype-whale-adds-7m-dodge-liquidation-80m-long/",
+     "verified": false
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan; következő döntés: december 9.",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan; következő döntés: december 17.",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "November 17-én változatlan; következő döntés: december 15.",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A hétvégén a pénteki zuhanás utóhatásai uralták a piacot: a Nasdaq-100 már csak 49 pontra van a medvepiactól, az S&P 500 2020 februárja óta a leghosszabb veszteségsorozatban van, és minden nagy Wall Street-i év végi cél alá esett. A JPMorgan a makacs infláció miatt decemberre, januárra és márciusra is Fed-kamatemelést vár. A kínai MI-részvények június óta 1700 milliárd dollárt vesztettek, miközben a Goldman Sachs felülsúlyozásra emelte a hongkongi H-részvényeket. Az EU-ban Costa 40 milliárd euróval kisebb, digitális adót is tartalmazó költségvetést javasolt, itthon pedig a Bizottság jóváhagyta a helyreállítási kifizetési kérelem nagy részét, mintegy 3400 milliárd forint érkezhet év végéig.",
+   "updatedAt": "2026-11-22T06:51:01Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -28210,6 +28510,22 @@
   },
   {
    "actual": "",
+   "country": "Spanyolország",
+   "date": "2026-11-29",
+   "event": "Előrehozott parlamenti választás",
+   "forecast": "",
+   "importance": 2,
+   "note": "A felmérések szerint a Néppárt (PP) és a Vox együtt többséget szerezhet; új közvélemény-kutatás november 23-ig jelenhet meg.",
+   "previous": "",
+   "source": "Reuters (The Star) · Khaleej Times",
+   "symbols": [],
+   "time": "",
+   "type": "Politika",
+   "url": "https://www.thestar.com.my/news/world/2026/11/16/spain039s-right-retains-firm-poll-lead-despite-socialist-gains",
+   "id": "2026-11-29-es-election"
+  },
+  {
+   "actual": "",
    "country": "Kína",
    "date": "2026-11-30",
    "event": "Kína hivatalos (NBS) feldolgozóipari BMI (november)",
@@ -28427,6 +28743,22 @@
    "type": "Makroadat",
    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/october/",
    "id": "2026-12-03-us-ism-services"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-12-03",
+   "event": "Tesla éves közgyűlés (Giga Texas, Austin)",
+   "forecast": "",
+   "importance": 1,
+   "note": "Napirend: Musk, Denholm és Straubel újraválasztása, tanácsadó szavazás a 2025-ös vezetői javadalmazásról, a PwC könyvvizsgálói megerősítése; részvényesi javaslat nincs. Kezdés 15:00 CT.",
+   "previous": "",
+   "source": "Tesla DEF 14A (SEC) · Not a Tesla App",
+   "symbols": [],
+   "time": "22:00",
+   "type": "Egyéb",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000110465926116700/tm267596-1_def14a.htm",
+   "id": "2026-12-03-tsla-agm"
   },
   {
    "actual": "",
