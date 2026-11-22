@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-22T06:56:24Z",
+ "builtAt": "2026-11-22T15:56:24Z",
  "digests": [
   {
    "calendar": [
@@ -272,6 +272,165 @@
      "title": "Értesülések szerint a likvidálás közelébe került a legnagyobb HYPE-long pozíció",
      "url": "https://news.bitcoin.com/defi/biggest-hype-whale-adds-7m-dodge-liquidation-80m-long/",
      "verified": false
+    },
+    {
+     "addedAt": "2026-11-22T09:34:04Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "CoinDesk · crypto.news · OKX",
+     "summary": "A CoinDesk szerint a bitcoin a pénteki eladási hullámban mintegy 55 130 dollárig esett, ami 2024 szeptembere óta a legalacsonyabb szint, majd szombaton körülbelül 9%-ot emelkedve visszaszerezte a 60 ezer dolláros szintet, ahogy enyhültek a kényszerlikvidálások. Vasárnap délelőtt az OKX adatai szerint 59 ezer dollár körül forgott, heti alapon a crypto.news szerint még mindig mintegy 12,5%-os mínuszban. A tartós fordulathoz a CoinDesk által idézett elemzők szerint a techrészvények stabilizálódása és az intézményi tőkebeáramlás visszatérése kell.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Kétéves mélypontról 60 ezer dollár fölé pattant vissza a bitcoin a hétvégén",
+     "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Investing.com · Al Jazeera",
+     "summary": "Vasárnap az iráni hadsereg szóvivője kijelentette, hogy a Hormuzi-szorost Teherán ellenőrzi, nem külföldi erők; az USA tengeri blokádot tart fenn és kíséri a kereskedelmi hajókat, Irán szerint viszont a hajóknak az iráni hatóságokkal kell egyeztetniük az áthaladásról. A Forradalmi Gárda szerint rakétákkal és drónokkal két Patriot-radart talált el Bahreinben (a kárt független forrás nem igazolta), a szaúdi vezetésű koalíció pedig egy húszi ballisztikus rakétát fogott el. A török külügyminiszter szerint a szoros újranyitásáról szóló tárgyalások a holtpont ellenére folytatódnak.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Irán a Hormuzi-szoros feletti ellenőrzést hangoztatja, eszkalálódnak a csapások Bahreinre és Szaúd-Arábiára",
+     "url": "https://www.investing.com/news/economy-news/iran-asserts-control-over-hormuz-as-strikes-on-bahrain-and-saudi-arabia-escalate-5043802",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Investing.com",
+     "summary": "A dél-koreai pénzügyminiszter, a jegybank elnöke és a pénzügyi felügyeletek vezetői vasárnap megállapodtak, hogy azonnal megkezdik egy piacstabilizációs alap előkészítését, három hónapra lazítják a tőzsdei cégek napi saját részvény-visszavásárlási korlátait, és három hónapig fokozottan ellenőrzik a tiltott short ügyleteket. A Kospi pénteken 5,2%-ot esett, 10 havi mélypontra, és már 5000 pont alatt van a júniusi 9100 feletti csúcs után. A Bank of Korea csütörtökön ülésezik, a közgazdászok 25 bázispontos emelést várnak.",
+     "symbols": [],
+     "title": "Piacstabilizációs alapot készít elő Dél-Korea a Kospi 5,2%-os zuhanása után",
+     "url": "https://www.investing.com/news/stock-market-news/south-korea-prepares-stock-market-stabilization-fund-after-kospi-plunges-52-5043890",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Investing.com",
+     "summary": "Vasárnap egy orosz dróntámadás részben egy ötemeletes lakóház összeomlását okozta Kijev közelében, legalább 14 ember rekedhetett a romok alatt. A Balti-tengeren szombaton drónok találták el az amerikai szankciók alatt álló, az orosz védelmi minisztériumnak dolgozó Oboronlogisztyika Sparta II nevű teherhajóját, amely finn felségvizekre sodródott; a finn hadsereg szerint valószínűleg Ukrajna állt a támadás mögött. Az észt haditengerészet parancsnoka szerint újabb támadások sem zárhatók ki a Finn-öbölben.",
+     "symbols": [
+      "DFEN"
+     ],
+     "title": "Orosz dróntámadás Kijev mellett, drónok által eltalált orosz teherhajó ég a finn vizeken",
+     "url": "https://www.investing.com/news/economy-news/russian-drone-strike-traps-14-in-kyiv-region-as-cargo-ship-burns-off-finland-5043852",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Stocktwits",
+     "summary": "A Stocktwits összefoglalója szerint a Goldman Sachs arra figyelmeztet, hogy a részvénypiaci eladások még nem értek véget, miközben a készpénz iránti igény az aranyat, az ezüstöt és a bitcoint is egyszerre lefelé húzza. A CME FedWatch eszköze szerint a piac 88,6%-os esélyt áraz a decemberi Fed-kamatemelésre, ami szűkíti a likviditást.",
+     "symbols": [
+      "BTC"
+     ],
+     "title": "Goldman Sachs: nincs vége a részvénypiaci eladási hullámnak, a likviditásigény egyszerre nyomja az aranyat, ezüstöt és a bitcoint",
+     "url": "https://stocktwits.com/news-articles/markets/equity/why-gold-silver-and-bitcoin-are-crashing-together-the-great-cash-grab/cNbnYXsR91w?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "A TIKR számítása szerint a Marvell tisztán részvényben fizetett, részvényenként 4,5 Marvell-papírt kínáló ajánlata a Lumentumért az október 28-i, a tárgyalások kiszivárgása előtti árfolyamon 1132 dollárt ért, a pénteki árakon viszont már csak nagyjából 550 dollárt. A Lumentum vezérigazgatója szerint „a fizika törvényei az optikai szál mellett szólnak”.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "A felére olvadt a Marvell Lumentumra tett részvényalapú ajánlatának értéke",
+     "url": "https://www.tikr.com/blog/lumentums-ceo-says-the-laws-of-physics-are-working-in-favor-of-fiber-marvell-holders-are-buying-it-cheap?ref=yahoofinance&tlnk=yf-261122-6v9p23cj&.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Yahoo Finance napi grafikonja szerint a befektetők menekülnek az Nvidia-részvényből, miközben a mesterséges intelligenciát üzemeltető cégek nem tudnak elég chipet szerezni, és a régebbi GPU-k ára is emelkedik. Az Nvidia a november 17-i gyorsjelentésén maga is arról beszélt, hogy több chipgeneráción át nőnek a GPU-bérleti díjak.",
+     "symbols": [],
+     "title": "Emelkedik az Nvidia régebbi chipjeinek bérleti ára, miközben a részvény tovább esik",
+     "url": "https://finance.yahoo.com/markets/article/gpu-prices-are-rising-for-nvidias-older-chips-even-as-the-stock-keeps-going-down-chart-of-the-day-123721121.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az S&P 500 11,6%-kal van az október 6-i csúcsa alatt, 2025 márciusa óta először korrekcióban; a Nasdaq Composite éves szinten már 2,7%-os mínuszban van, a VIX 35,89-en zárt, a 2025 áprilisi vámpánik óta a legmagasabban. Az Edward Jones szerint a hangulat „nagyon törékeny”, a Nationwide szerint a hangulatmutatók történelmileg vételi lehetőséget jeleztek, az Ingalls & Snyder szerint viszont valódi korrekcióról van szó, amelynek még van tere. A Fed december 8–9-én ülésezik, és széles körben negyedpontos emelést várnak.",
+     "symbols": [
+      "VOO",
+      "QQQ"
+     ],
+     "title": "Reuters-elemzés: korrekció vagy mélyebb leszámolás? A befektetők a mélypont jeleit keresik",
+     "url": "https://www.investing.com/news/stock-market-news/analysiscorrection-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-5043939",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Az Oxford Economics 4,2%-os (reálértéken 2,2%-os) növekedést vár a novemberi–decemberi ünnepi kiskereskedelmi forgalomban, a National Retail Federation szerint viszont a hálaadástól Cyber Mondayig 182,7 millió ember vásárol, kevesebb a tavalyi 186,9 milliónál. Az AAA szerint az amerikai benzinár országos átlaga pénteken 3,69 dollár/gallon volt, egy hónappal korábban még 4,28. A rövidített héten a GDP-adat, az infláció és a Dell gyorsjelentése is érkezik.",
+     "symbols": [
+      "VOO"
+     ],
+     "title": "A Black Friday a fogyasztásra tereli a figyelmet az MI-pánik sújtotta piacon",
+     "url": "https://www.investing.com/news/stock-market-news/black-friday-brings-consumer-spending-into-focus-for-airocked-market-5044012",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Vasárnapra a vége felé jártak az antalyai COP31 klímatárgyalások, de a kimenetel bizonytalan: a felek az energiaátállás ütemén, a szén-dioxid-leválasztás szerepén és a fejlődő országok pénzügyi támogatásán vitatkoznak. Murat Kurum, a COP31 elnöke szerint elkészült egy konszenzusos szövegtervezet, amelyben senki sem kapott meg mindent, amit szeretett volna.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Bizonytalan a COP31 klímamegállapodása a vitás antalyai tárgyalások után",
+     "url": "https://www.investing.com/news/commodities-news/cop31-climate-deal-in-the-balance-after-fractious-talks-5043876",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Investing.com",
+     "summary": "Az Investing.com szerint a szaúdi Tadawul All Share index 1,95%-kal lejjebb zárt a vasárnapi kereskedés végén.",
+     "symbols": [],
+     "title": "1,95%-os eséssel zárt a szaúdi tőzsde vasárnap",
+     "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-195-5043961",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-22T15:36:41Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Index · Economx (CIB Bank elemzése)",
+     "summary": "Az Index és az Economx vasárnapi összefoglalója szerint a forint a héten mintegy 2,3%-ot gyengült az euróval szemben: a hét eleji 364–365-ös szintről péntekre 373–374 forint környékére emelkedett az euró, a dollár pedig 340 forint fölé került. A CIB Bank elemzése szerint a globális kockázatkerülés, a talán túlzott amerikai kamatemelési várakozások és az erősödő dollár nyomta a feltörekvő devizákat, a forintot ráadásul a hazai kamatcsökkentési várakozások is gyengítették. Pénteken este a Moody's stabilra javította a magyar besorolás kilátását.",
+     "symbols": [],
+     "title": "Rég látott rossz hete volt a forintnak: 2,3%-ot gyengült az euróval szemben",
+     "url": "https://index.hu/gazdasag/2026/11/22/penzugyminiszterium-karman-andras-kormany-forint-forintarfolyam/",
+     "verified": true
     }
    ],
    "markets": [
@@ -298,7 +457,7 @@
     }
    ],
    "summary": "A hétvégén a pénteki zuhanás utóhatásai uralták a piacot: a Nasdaq-100 már csak 49 pontra van a medvepiactól, az S&P 500 2020 februárja óta a leghosszabb veszteségsorozatban van, és minden nagy Wall Street-i év végi cél alá esett. A JPMorgan a makacs infláció miatt decemberre, januárra és márciusra is Fed-kamatemelést vár. A kínai MI-részvények június óta 1700 milliárd dollárt vesztettek, miközben a Goldman Sachs felülsúlyozásra emelte a hongkongi H-részvényeket. Az EU-ban Costa 40 milliárd euróval kisebb, digitális adót is tartalmazó költségvetést javasolt, itthon pedig a Bizottság jóváhagyta a helyreállítási kifizetési kérelem nagy részét, mintegy 3400 milliárd forint érkezhet év végéig.",
-   "updatedAt": "2026-11-22T06:51:01Z",
+   "updatedAt": "2026-11-22T15:36:41Z",
    "watchlist": []
   },
   {
