@@ -1,11 +1,411 @@
 {
  "source": "Investing.com RSS",
- "updatedAt": "2026-11-23T09:43:21Z",
+ "updatedAt": "2026-11-23T21:59:41Z",
  "items": [
   {
-   "title": "Why is ZE PAK stock surging 30% today?",
-   "link": "https://www.investing.com/news/stock-market-news/why-is-ze-pak-stock-surging-30-today-93CH-5044760",
-   "published": "2026-11-23T09:21:02Z",
+   "title": "JD Vance’s ties to prized Venezuelan oil contract under investigation by US Senate panel",
+   "link": "https://www.investing.com/news/commodities-news/exclusivejd-vances-ties-to-prized-venezuelan-oil-contract-under-investigation-by-us-senate-panel-5046313",
+   "published": "2026-11-23T21:54:40Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Switzerland’s Clariant, CD&R in talks to buy chemicals firm Ashland",
+   "link": "https://www.investing.com/news/stock-market-news/switzerlands-clariant-cdr-in-talks-to-buy-chemicals-firm-ashland-5046550",
+   "published": "2026-11-23T21:54:25Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Northwest Bancshares to freeze director and executive retirement plans at year-end",
+   "link": "https://www.investing.com/news/sec-filings/northwest-bancshares-to-freeze-director-and-executive-retirement-plans-at-yearend-93CH-5046548",
+   "published": "2026-11-23T21:53:17Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Simon Property Group sells $1 billion in senior notes",
+   "link": "https://www.investing.com/news/company-news/simon-property-group-sells-1-billion-in-senior-notes-93CH-5046547",
+   "published": "2026-11-23T21:52:28Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "LibertyStream files S-1 with SEC for proposed Nasdaq IPO",
+   "link": "https://www.investing.com/news/stock-market-news/libertystream-files-s1-with-sec-for-proposed-nasdaq-ipo-432SI-5046514",
+   "published": "2026-11-23T21:52:03Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Graf Global extends business combination deadline by one month",
+   "link": "https://www.investing.com/news/sec-filings/graf-global-extends-business-combination-deadline-by-one-month-93CH-5046536",
+   "published": "2026-11-23T21:50:00Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Semtech falls 8% despite earnings beat",
+   "link": "https://www.investing.com/news/earnings/semtech-falls-8-despite-earnings-beat-5046535",
+   "published": "2026-11-23T21:49:18Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Coca-Cola names David Elkins as next CFO",
+   "link": "https://www.investing.com/news/stock-market-news/cocacola-names-david-elkins-as-next-cfo-5046532",
+   "published": "2026-11-23T21:48:53Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+   "link": "https://www.investing.com/news/stock-market-news/us-to-blacklist-megaspeed-chip-firm-linked-to-nvidia-scandal-source-says-5046337",
+   "published": "2026-11-23T21:48:37Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Kymera Therapeutics launches $1.5 billion stock offering",
+   "link": "https://www.investing.com/news/company-news/kymera-therapeutics-launches-15-billion-stock-offering-93CH-5046531",
+   "published": "2026-11-23T21:48:31Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "GMEX Robotics announces 1-for-19 reverse stock split",
+   "link": "https://www.investing.com/news/company-news/gmex-robotics-announces-1for19-reverse-stock-split-93CH-5046530",
+   "published": "2026-11-23T21:48:30Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "US agency to vote to ease ownership limits on local TV, radio stations",
+   "link": "https://www.investing.com/news/stock-market-news/us-agency-to-vote-to-ease-ownership-limits-on-local-tv-radio-stations-5046494",
+   "published": "2026-11-23T21:36:19Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "U.S. stocks higher at close of trade; Dow Jones Industrial Average up 3.01%",
+   "link": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-301-5046476",
+   "published": "2026-11-23T21:30:58Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Mexico stocks higher at close of trade; S&P/BMV IPC up 0.99%",
+   "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-099-5046474",
+   "published": "2026-11-23T21:30:31Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Russia stocks higher at close of trade; MOEX Russia Index up 1.22%",
+   "link": "https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-122-5046445",
+   "published": "2026-11-23T21:25:30Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Colombia stocks higher at close of trade; COLCAP up 2.00%",
+   "link": "https://www.investing.com/news/stock-market-news/colombia-stocks-higher-at-close-of-trade-colcap-up-200-5046443",
+   "published": "2026-11-23T21:25:06Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "TSX notches best day since November 2023 as base metals, tech lift sentiment",
+   "link": "https://www.investing.com/news/stock-market-news/tsx-futures-rise-as-wall-street-bounces-following-ai-selloff-5045504",
+   "published": "2026-11-23T21:23:19Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Fed has ’work to do’ to lower inflation, Williams says",
+   "link": "https://www.investing.com/news/economy-news/fed-has-work-to-do-to-lower-inflation-williams-says-5046374",
+   "published": "2026-11-23T21:06:26Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Trump orders US Army to pause lead azide detonation in Iowa",
+   "link": "https://www.investing.com/news/commodities-news/trump-orders-us-army-to-pause-leadazide-detonation-in-iowa-5046270",
+   "published": "2026-11-23T20:37:14Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Explainer-What to know about US Army plans to blow up a stockpile of lead azide in Iowa",
+   "link": "https://www.investing.com/news/commodities-news/explainerwhat-to-know-about-us-army-plans-to-blow-up-a-stockpile-of-lead-azide-in-iowa-5046301",
+   "published": "2026-11-23T20:06:47Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "US files action to recover over $1 billion in cryptocurrency stolen in Binance hack",
+   "link": "https://www.investing.com/news/economy-news/us-files-action-to-recover-over-1-billion-in-cryptocurrency-stolen-in-binance-hack-5046276",
+   "published": "2026-11-23T19:37:12Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Brazil targets primary surplus of up to 2% of GDP by end of Lula’s next term",
+   "link": "https://www.investing.com/news/economy-news/brazil-targets-primary-surplus-of-up-to-2-of-gdp-by-end-of-lulas-next-term-5046231",
+   "published": "2026-11-23T19:36:57Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Bond market flattening and Wednesday’s PCE test for rate-hike pricing",
+   "link": "https://www.investing.com/news/economy-news/bond-market-flattening-and-wednesdays-pce-test-for-ratehike-pricing-93CH-5046275",
+   "published": "2026-11-23T19:33:37Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Dollar index technical outlook: rally extended but overbought signals flash caution",
+   "link": "https://www.investing.com/news/forex-news/dollar-index-technical-outlook-rally-extended-but-overbought-signals-flash-caution-93CH-5046271",
+   "published": "2026-11-23T19:26:13Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "India’s rupee carry trade: RBI support holds but risks are building",
+   "link": "https://www.investing.com/news/forex-news/indias-rupee-carry-trade-rbi-support-holds-but-risks-are-building-93CH-5046267",
+   "published": "2026-11-23T19:21:57Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Brazil cuts 2027 GDP forecast, raises inflation outlook but remains more upbeat than market",
+   "link": "https://www.investing.com/news/economy-news/brazil-cuts-2027-gdp-forecast-raises-inflation-outlook-but-remains-more-upbeat-than-market-5046207",
+   "published": "2026-11-23T18:12:26Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Brazil cuts 2027 growth forecast to 1.8%, raises inflation outlook",
+   "link": "https://www.investing.com/news/economy-news/brazil-cuts-2027-growth-forecast-to-18-raises-inflation-outlook-5046203",
+   "published": "2026-11-23T18:07:30Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Goldman Sachs sees US dollar rally continuing before a pullback in 2027",
+   "link": "https://www.investing.com/news/economy-news/goldman-sachs-sees-us-dollar-rally-continuing-before-a-pullback-in-2027-5046199",
+   "published": "2026-11-23T18:03:36Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Bank of Israel leaves rates unchanged amid political uncertainty",
+   "link": "https://www.investing.com/news/economy-news/bank-of-israel-leaves-rates-unchanged-amid-political-uncertainty-5046198",
+   "published": "2026-11-23T18:00:38Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Barclays’ USD/SEK tactical long: still attractive after a 10-day run?",
+   "link": "https://www.investing.com/news/forex-news/barclays-usdsek-tactical-long-still-attractive-after-a-10day-run-93CH-5046175",
+   "published": "2026-11-23T17:32:13Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Brazilian real stays weak despite global risk rebound, fiscal worries weigh",
+   "link": "https://www.investing.com/news/forex-news/brazilian-real-stays-weak-despite-global-risk-rebound-fiscal-worries-weigh-93CH-5046167",
+   "published": "2026-11-23T17:27:02Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Exclusive-Canada and Qatar to sign investment pact on Tuesday, source says",
+   "link": "https://www.investing.com/news/economic-indicators/exclusivecanada-and-qatar-to-sign-investment-pact-on-tuesday-source-says-5046077",
+   "published": "2026-11-23T16:30:32Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Natural gas prices fall as mild HDD readings weigh on heating demand outlook",
+   "link": "https://www.investing.com/news/commodities-news/natural-gas-prices-fall-as-mild-hdd-readings-weigh-on-heating-demand-outlook-93CH-5046018",
+   "published": "2026-11-23T15:51:44Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Oil falls on fading geopolitical premium as stocks, gold and copper rebound",
+   "link": "https://www.investing.com/news/commodities-news/oil-falls-on-fading-geopolitical-premium-as-stocks-gold-and-copper-rebound-93CH-5046013",
+   "published": "2026-11-23T15:47:14Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "US business activity growth eases further in November, survey shows",
+   "link": "https://www.investing.com/news/economic-indicators/us-business-activity-growth-eases-further-in-november-survey-shows-5045933",
+   "published": "2026-11-23T15:36:44Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Manufacturing PMI meets expectations, signals steady growth",
+   "link": "https://www.investing.com/news/economic-indicators/manufacturing-pmi-meets-expectations-signals-steady-growth-93CH-5045916",
+   "published": "2026-11-23T14:48:08Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Services PMI Slips Below Forecast, Signals Slower Growth",
+   "link": "https://www.investing.com/news/economic-indicators/services-pmi-slips-below-forecast-signals-slower-growth-93CH-5045912",
+   "published": "2026-11-23T14:46:08Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Armitage and Superform build a stock-strategy franchise on SuperformOS",
+   "link": "https://www.investing.com/news/cryptocurrency-news/armitage-and-superform-build-a-stockstrategy-franchise-on-superformos-5045879",
+   "published": "2026-11-23T14:32:51Z",
+   "publisher": "Chainwire",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "XRP Climbs 11% In a Green Day",
+   "link": "https://www.investing.com/news/cryptocurrency-news/xrp-climbs-11-in-a-green-day-5045861",
+   "published": "2026-11-23T14:28:05Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Zodia Markets Appoints Jan Brzezek as Chief Executive Officer",
+   "link": "https://www.investing.com/news/cryptocurrency-news/zodia-markets-appoints-jan-brzezek-as-chief-executive-officer-5045794",
+   "published": "2026-11-23T14:02:36Z",
+   "publisher": "Chainwire",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Canada October factory sales most likely up 2.3% - Statscan flash estimate",
+   "link": "https://www.investing.com/news/economic-indicators/canada-october-factory-sales-most-likely-up-23--statscan-flash-estimate-5045783",
+   "published": "2026-11-23T14:01:03Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Bitrue AI Finds XRP Echoes November 2022, Before Its Rally the Next Year",
+   "link": "https://www.investing.com/news/cryptocurrency-news/bitrue-ai-finds-xrp-echoes-november-2022-before-its-rally-the-next-year-5045671",
+   "published": "2026-11-23T13:32:19Z",
+   "publisher": "Chainwire",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Deutsche Bank sees oil surplus returning, Brent at $70 or below",
+   "link": "https://www.investing.com/news/commodities-news/deutsche-bank-sees-oil-surplus-returning-brent-at-70-or-below-93CH-5045588",
+   "published": "2026-11-23T13:20:17Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "USD/JPY to return to the 140s in 2027: Deutsche Bank",
+   "link": "https://www.investing.com/news/forex-news/usdjpy-to-return-to-the-140s-in-2027-deutsche-bank-93CH-5045587",
+   "published": "2026-11-23T13:19:52Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Deutsche Bank raises dollar forecasts on AI boom strength",
+   "link": "https://www.investing.com/news/forex-news/deutsche-bank-raises-dollar-forecasts-on-ai-boom-strength-93CH-5045584",
+   "published": "2026-11-23T13:18:46Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Strategy buys bitcoin, expands repurchase program",
+   "link": "https://www.investing.com/news/cryptocurrency-news/strategy-buys-bitcoin-expands-repurchase-program-432SI-5045501",
+   "published": "2026-11-23T13:05:09Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "This is when you should start buying gold again: BCA",
+   "link": "https://www.investing.com/news/commodities-news/this-is-when-you-should-start-buying-gold-again-bca-5045467",
+   "published": "2026-11-23T12:58:35Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Canadian dollar steadies near 19-month low as oil weakness and rate gap weigh",
+   "link": "https://www.investing.com/news/forex-news/canadian-dollar-steadies-near-19month-low-as-oil-weakness-and-rate-gap-weigh-5045295",
+   "published": "2026-11-23T12:22:11Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "UBS downgrades New Zealand dollar on weak domestic outlook",
+   "link": "https://www.investing.com/news/forex-news/ubs-downgrades-new-zealand-dollar-on-weak-domestic-outlook-93CH-5045178",
+   "published": "2026-11-23T12:04:02Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "UK private-sector growth slows in Nov but beats forecast as factories pick up",
+   "link": "https://www.investing.com/news/economic-indicators/uk-privatesector-growth-slows-in-nov-but-beats-forecast-as-factories-pick-up-5044778",
+   "published": "2026-11-23T09:44:09Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Eurozone growth holds steady in November despite French downturn",
+   "link": "https://www.investing.com/news/economic-indicators/eurozone-growth-holds-steady-in-november-despite-french-downturn-93CH-5044771",
+   "published": "2026-11-23T09:33:48Z",
    "publisher": "Investing.com",
    "summary": "",
    "symbols": []
@@ -43,22 +443,6 @@
    "symbols": []
   },
   {
-   "title": "Why is Capita stock crashing today?",
-   "link": "https://www.investing.com/news/stock-market-news/why-is-capita-stock-crashing-today-93CH-5044743",
-   "published": "2026-11-23T09:12:35Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Why is Carclo stock surging today?",
-   "link": "https://www.investing.com/news/stock-market-news/why-is-carclo-stock-surging-today-93CH-5044741",
-   "published": "2026-11-23T09:11:30Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
    "title": "December rate hike may not be enough but not in a rush to move again: ECB’s Simkus",
    "link": "https://www.investing.com/news/economy-news/december-rate-hike-may-not-be-enough-but-not-in-a-rush-to-move-again-ecbs-simkus-5044712",
    "published": "2026-11-23T09:06:22Z",
@@ -70,14 +454,6 @@
    "title": "Global bond yields grip multi-week lows amid pandemic-scale tech rout",
    "link": "https://www.investing.com/news/forex-news/global-bond-yields-grip-multiweek-lows-amid-pandemicscale-tech-rout-5044403",
    "published": "2026-11-23T09:05:53Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Why is Newron Pharmaceuticals stock rallying today?",
-   "link": "https://www.investing.com/news/stock-market-news/why-is-newron-pharmaceuticals-stock-rallying-today-93CH-5044711",
-   "published": "2026-11-23T09:02:23Z",
    "publisher": "Investing.com",
    "summary": "",
    "symbols": []
@@ -103,14 +479,6 @@
    "link": "https://www.investing.com/news/stock-market-news/bayer-shares-seen-up-7-after-missouri-judge-approves-roundup-settlement-5044470",
    "published": "2026-11-23T08:54:32Z",
    "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Why is Abivax stock surging today?",
-   "link": "https://www.investing.com/news/stock-market-news/why-is-abivax-stock-surging-today-93CH-5044703",
-   "published": "2026-11-23T08:54:27Z",
-   "publisher": "Investing.com",
    "summary": "",
    "symbols": []
   },
@@ -790,254 +1158,6 @@
    "title": "UK and Netherlands leaders discuss security and Ukraine support",
    "link": "https://www.investing.com/news/economy-news/uk-and-netherlands-leaders-discuss-security-and-ukraine-support-5043603",
    "published": "2026-11-21T22:32:53Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-   "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-5043590",
-   "published": "2026-11-21T21:20:04Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Presurance Holdings director Smith acquires $7,650 in stock",
-   "link": "https://www.investing.com/news/insider-trading-news/presurance-holdings-director-smith-acquires-7650-in-stock-93CH-5043589",
-   "published": "2026-11-21T21:17:05Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Tecogen CFO Roger Deschenes buys $17,997 in company stock",
-   "link": "https://www.investing.com/news/insider-trading-news/tecogen-cfo-roger-deschenes-buys-17997-in-company-stock-93CH-5043588",
-   "published": "2026-11-21T21:16:16Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Tecogen director Earl Lewis buys $19,556 in company stock",
-   "link": "https://www.investing.com/news/insider-trading-news/tecogen-director-earl-lewis-buys-19556-in-company-stock-93CH-5043587",
-   "published": "2026-11-21T21:15:55Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Trump orders contractors to report Congress inquiries",
-   "link": "https://www.investing.com/news/economy-news/trump-orders-contractors-to-report-congress-inquiries-5043559",
-   "published": "2026-11-21T19:00:57Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Who really wins from AI?",
-   "link": "https://www.investing.com/news/stock-market-news/who-really-wins-from-ai-5043557",
-   "published": "2026-11-21T18:51:31Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "CV Sciences director Charlie Cheever III acquires $20,307 in common stock",
-   "link": "https://www.investing.com/news/insider-trading-news/cv-sciences-director-charlie-cheever-iii-acquires-20307-in-common-stock-93CH-5043555",
-   "published": "2026-11-21T18:46:03Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Amdocs director and officer Shimie Hortig sells $558,955 in shares",
-   "link": "https://www.investing.com/news/insider-trading-news/amdocs-director-and-officer-shimie-hortig-sells-558955-in-shares-93CH-5043551",
-   "published": "2026-11-21T18:31:10Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "CION Investment Corp president buys $48,110 in stock",
-   "link": "https://www.investing.com/news/insider-trading-news/cion-investment-corp-president-buys-48110-in-stock-93CH-5043543",
-   "published": "2026-11-21T18:16:12Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Scotts Miracle-Gro director sells $199,727 in shares",
-   "link": "https://www.investing.com/news/insider-trading-news/scotts-miraclegro-director-sells-199727-in-shares-93CH-5043542",
-   "published": "2026-11-21T18:16:03Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Msa Safety chief accounting officer sells $231,823 in stock",
-   "link": "https://www.investing.com/news/insider-trading-news/msa-safety-chief-accounting-officer-sells-231823-in-stock-93CH-5043528",
-   "published": "2026-11-21T17:01:05Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Nexstar Media evp Gary Weitman sells $205,727 in stock",
-   "link": "https://www.investing.com/news/insider-trading-news/nexstar-media-evp-gary-weitman-sells-205727-in-stock-93CH-5043522",
-   "published": "2026-11-21T16:45:59Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Bitcoin rises over 2% to more than $60,000",
-   "link": "https://www.investing.com/news/forex-news/bitcoin-rises-over-2-to-more-than-60000-5043497",
-   "published": "2026-11-21T15:30:20Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "US denies Iranian account that missile damaged F-16 over Gulf",
-   "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "published": "2026-11-21T15:24:03Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Bitcoin hits $55,326, lowest since Sept 2024, before rebounding above $60,000",
-   "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-crashes-below-56000-as-liquidity-squeeze-deepens-crypto-selloff-5043199",
-   "published": "2026-11-21T14:51:15Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "COP31 climate summit risks failure as talks go deep into overtime",
-   "link": "https://www.investing.com/news/commodities-news/cop31-climate-summit-risks-failure-as-talks-go-deep-into-overtime-5043482",
-   "published": "2026-11-21T14:42:26Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "EU budget chief proposes €40 bln cut and digital tax plan",
-   "link": "https://www.investing.com/news/economy-news/eu-budget-chief-proposes-40-bln-cut-and-digital-tax-plan-5043471",
-   "published": "2026-11-21T14:01:00Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Goldman upgrades China H-shares on faster earnings growth outlook",
-   "link": "https://www.investing.com/news/economy-news/goldman-upgrades-china-hshares-on-faster-earnings-growth-outlook-5043437",
-   "published": "2026-11-21T12:54:24Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Goldman is out with its 2027 forecast for Brent oil prices",
-   "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "published": "2026-11-21T12:20:18Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "France rejects EU budget proposal over farm funding concerns",
-   "link": "https://www.investing.com/news/economy-news/france-rejects-eu-budget-proposal-over-farm-funding-concerns-5043402",
-   "published": "2026-11-21T11:38:45Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "EU proposes digital tax to fund budget amid member state divisions",
-   "link": "https://www.investing.com/news/economy-news/eu-proposes-digital-tax-to-fund-budget-amid-member-state-divisions-5043390",
-   "published": "2026-11-21T11:29:34Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "How Fulgent Genetics delivered 64% gains from undervalued entry",
-   "link": "https://www.investing.com/news/investment-ideas/how-fulgent-genetics-delivered-64-gains-from-undervalued-entry-93CH-5043385",
-   "published": "2026-11-21T11:10:07Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "InvestingPro spotted Ciena’s overvaluation before 53% decline",
-   "link": "https://www.investing.com/news/investment-ideas/investingpro-spotted-cienas-overvaluation-before-53-decline-93CH-5043381",
-   "published": "2026-11-21T11:02:11Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Spain to extend banking tax through 2027 to fund housing policies",
-   "link": "https://www.investing.com/news/stock-market-news/spain-to-extend-banking-tax-through-2027-to-fund-housing-policies-5043370",
-   "published": "2026-11-21T10:58:44Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Extreme Networks evp cfo Kevin Rhodes sells $599,610 in company stock",
-   "link": "https://www.investing.com/news/insider-trading-news/extreme-networks-evp-cfo-kevin-rhodes-sells-599610-in-company-stock-93CH-5043367",
-   "published": "2026-11-21T10:46:01Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Zapata Quantum director Clark Golestani buys $34,650 in shares",
-   "link": "https://www.investing.com/news/insider-trading-news/zapata-quantum-director-clark-golestani-buys-34650-in-shares-93CH-5043366",
-   "published": "2026-11-21T10:45:57Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Legend Biotech CEO Ingrid Zhang purchases $163,200 in shares",
-   "link": "https://www.investing.com/news/insider-trading-news/legend-biotech-ceo-ingrid-zhang-purchases-163200-in-shares-93CH-5043358",
-   "published": "2026-11-21T10:31:17Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Italy’s Webuild completes €339 million takeover of construction group Trevi",
-   "link": "https://www.investing.com/news/company-news/italys-webuild-completes-339-million-takeover-of-construction-group-trevi-5043350",
-   "published": "2026-11-21T10:20:08Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Glacier Bancorp chairman Craig Langel purchases $53,452 in stock",
-   "link": "https://www.investing.com/news/insider-trading-news/glacier-bancorp-chairman-craig-langel-purchases-53452-in-stock-93CH-5043348",
-   "published": "2026-11-21T10:15:59Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Alternative Ballistics Provides Corporate Update Highlighting Commercialization Momentum and Expanding Distribution Network",
-   "link": "https://www.investing.com/news/press-releases/alternative-ballistics-provides-corporate-update-highlighting-commercialization-momentum-and-expanding-distribution-network-5043340",
-   "published": "2026-11-21T10:00:37Z",
-   "publisher": "FinanceWire",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "UBS assesses impact of nationwide ground stop on US airlines’ 4Q outlook",
-   "link": "https://www.investing.com/news/stock-market-news/ubs-assesses-impact-of-nationwide-ground-stop-on-us-airlines-4q-outlook-5043328",
-   "published": "2026-11-21T09:46:58Z",
    "publisher": "Investing.com",
    "summary": "",
    "symbols": []
