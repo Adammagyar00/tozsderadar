@@ -1,7 +1,351 @@
 {
  "source": "Investing.com RSS",
- "updatedAt": "2026-11-24T05:56:17Z",
+ "updatedAt": "2026-11-24T17:32:00Z",
  "items": [
+  {
+   "title": "China’s Wang Yi urges UK to back free trade, stable policy",
+   "link": "https://www.investing.com/news/economy-news/chinas-wang-yi-urges-uk-to-back-free-trade-stable-policy-93CH-5048787",
+   "published": "2026-11-24T17:14:46Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Nasdaq, S&P 500 ease as Nvidia-driven AI rally fizzles",
+   "link": "https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567",
+   "published": "2026-11-24T17:13:07Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Ford in talks with the Pentagon to supply military vehicles",
+   "link": "https://www.investing.com/news/stock-market-news/pentagon-in-talks-with-general-motors-and-ford-on-military-drones-wsj-reports-5047560",
+   "published": "2026-11-24T17:12:52Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Iraqi PM orders federal government to manage oilfields under control of Kurds, Kurds reject move",
+   "link": "https://www.investing.com/news/commodities-news/iraqi-pm-orders-ministry-to-manage-oilfields-in-areas-under-kurdish-control-kurds-reject-move-5048624",
+   "published": "2026-11-24T17:12:41Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Wendy’s hit with US class action over menu pricing",
+   "link": "https://www.investing.com/news/stock-market-news/wendys-hit-with-us-class-action-overmenu-pricing-5048785",
+   "published": "2026-11-24T17:12:26Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "MongoDB options signal 14% move ahead of Dec. 1 earnings",
+   "link": "https://www.investing.com/news/stock-market-news/mongodb-options-signal-14-move-ahead-of-dec-1-earnings-93CH-5048783",
+   "published": "2026-11-24T17:11:09Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Marvell options signal 8.3% move ahead of Dec. 1 earnings",
+   "link": "https://www.investing.com/news/stock-market-news/marvell-options-signal-83-move-ahead-of-dec-1-earnings-93CH-5048781",
+   "published": "2026-11-24T17:09:55Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "U.K. stocks lower at close of trade; Investing.com United Kingdom 100 down 0.20%",
+   "link": "https://www.investing.com/news/stock-market-news/uk-stocks-lower-at-close-of-trade-investingcom-united-kingdom-100-down-020-5048779",
+   "published": "2026-11-24T17:09:07Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "GitLab options signal 13% stock move ahead of Dec. 1 earnings",
+   "link": "https://www.investing.com/news/stock-market-news/gitlab-options-signal-13-stock-move-ahead-of-dec-1-earnings-93CH-5048778",
+   "published": "2026-11-24T17:09:03Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Spain stocks lower at close of trade; IBEX 35 down 0.86%",
+   "link": "https://www.investing.com/news/stock-market-news/spain-stocks-lower-at-close-of-trade-ibex-35-down-086-5048777",
+   "published": "2026-11-24T17:08:40Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Venezuela unveils long-awaited economic framework, puts debt at $237.5 billion",
+   "link": "https://www.investing.com/news/economy-news/venezuela-unveils-longawaited-economic-framework-puts-debt-at-2375-billion-5048560",
+   "published": "2026-11-24T17:01:24Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
+   "link": "https://www.investing.com/news/economy-news/anthropic-breaks-below-83-ipo-price-as-debut-rally-unravels-5047654",
+   "published": "2026-11-24T17:00:41Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Amtrak sets ridership record as rising gas prices encourage Americans to travel by rail",
+   "link": "https://www.investing.com/news/economy-news/amtrak-sets-ridership-record-as-rising-gas-prices-encourage-americans-to-travel-by-rail-5048675",
+   "published": "2026-11-24T16:48:52Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "US farm secretary pledges to fight court order halting her religious emails",
+   "link": "https://www.investing.com/news/commodities-news/us-farm-secretary-pledges-to-fight-court-order-halting-her-religious-emails-5048674",
+   "published": "2026-11-24T16:42:38Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "US consumer confidence surges to highest level in nearly two years",
+   "link": "https://www.investing.com/news/economic-indicators/us-consumer-confidence-surges-to-highest-level-in-nearly-two-years-5048641",
+   "published": "2026-11-24T16:42:22Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Bybit Introduces TradFi Earn, Unifying Access to Global ETFs and RWA",
+   "link": "https://www.investing.com/news/cryptocurrency-news/bybit-introduces-tradfi-earn-unifying-access-to-global-etfs-and-rwa-5048738",
+   "published": "2026-11-24T16:37:47Z",
+   "publisher": "Chainwire",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say",
+   "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
+   "published": "2026-11-24T16:36:22Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "LME lowers aluminum lending trigger to curb nearby squeeze",
+   "link": "https://www.investing.com/news/commodities-news/lme-lowers-aluminum-lending-trigger-to-curb-nearby-squeeze-93CH-5048658",
+   "published": "2026-11-24T15:30:54Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "ECB rate hike likely in December with future path unclear, Sleijpen says",
+   "link": "https://www.investing.com/news/economy-news/ecb-rate-hike-likely-in-december-with-future-path-unclear-sleijpen-says-5048640",
+   "published": "2026-11-24T15:24:12Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "ECB policy direction clear for December but uncertain after, Sleijpen says",
+   "link": "https://www.investing.com/news/economy-news/ecb-policy-direction-clear-for-december-but-uncertain-after-sleijpen-says-5048623",
+   "published": "2026-11-24T15:12:58Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Brazil’s tax revenue extends record run in October, buoyed by higher oil prices",
+   "link": "https://www.investing.com/news/economic-indicators/brazils-tax-revenue-extends-record-run-in-october-buoyed-by-higher-oil-prices-5048608",
+   "published": "2026-11-24T15:07:13Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Wall St opens lower as Nvidia-fueled AI rally fades",
+   "link": "https://www.investing.com/news/economy-news/wall-st-opens-lower-as-nvidiafueled-ai-rally-fades-5048544",
+   "published": "2026-11-24T15:06:30Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "U.S. Consumer Confidence Surges, Exceeding Expectations",
+   "link": "https://www.investing.com/news/economic-indicators/us-consumer-confidence-surges-exceeding-expectations-93CH-5048593",
+   "published": "2026-11-24T15:02:07Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Bitcoin retreats to $60k amid rate, regulatory jitters",
+   "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-hovers-around-60k-amid-little-relief-from-rate-regulatory-jitters-5047126",
+   "published": "2026-11-24T14:56:38Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Should investors buy gold now as stock market volatility stays high?",
+   "link": "https://www.investing.com/news/commodities-news/should-investors-buy-gold-now-as-stock-market-volatility-stays-high-93CH-5048569",
+   "published": "2026-11-24T14:54:50Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Fitch sets ’neutral’ global sovereign rating outlook, warns of debt, war and AI risks",
+   "link": "https://www.investing.com/news/economy-news/fitch-sets-neutral-global-sovereign-rating-outlook-warns-of-debt-war-and-ai-risks-5048480",
+   "published": "2026-11-24T14:37:11Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Brazil’s Lula backs second round of fiscal measures to curb spending, source says",
+   "link": "https://www.investing.com/news/economy-news/brazils-lula-backs-second-round-of-fiscal-measures-to-curb-spending-source-says-5048482",
+   "published": "2026-11-24T14:30:26Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "US single-family home prices flat in September, FHFA says",
+   "link": "https://www.investing.com/news/economic-indicators/us-singlefamily-home-prices-flat-in-september-fhfa-says-5048426",
+   "published": "2026-11-24T14:06:44Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Housing Market Stabilizes as S&P/Case-Shiller Index Holds Steady",
+   "link": "https://www.investing.com/news/economic-indicators/housing-market-stabilizes-as-spcaseshiller-index-holds-steady-93CH-5048378",
+   "published": "2026-11-24T14:00:10Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Global yields fall as safe-haven bid meets looming U.S. PCE test",
+   "link": "https://www.investing.com/news/forex-news/global-yields-fall-as-safehaven-bid-meets-looming-us-pce-test-5047210",
+   "published": "2026-11-24T13:00:01Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Chicago wheat futures slip on stronger dollar",
+   "link": "https://www.investing.com/news/commodities-news/chicago-wheat-futures-slip-on-stronger-dollar-93CH-5048085",
+   "published": "2026-11-24T12:53:21Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "UK retailers report best month for sales since late 2022: CBI",
+   "link": "https://www.investing.com/news/economic-indicators/uk-retailers-report-best-month-for-sales-since-late-2022-cbi-5047636",
+   "published": "2026-11-24T11:24:28Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "German Ifo business sentiment rises for the seventh consecutive month",
+   "link": "https://www.investing.com/news/economic-indicators/german-ifo-business-sentiment-rises-in-november-5047412",
+   "published": "2026-11-24T10:30:17Z",
+   "publisher": "Reuters",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Dollar grips 20-month peak as Nvidia’s AI revival rekindles Fed rate wagers",
+   "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-holds-near-20mth-high-on-ai-rally-5046950",
+   "published": "2026-11-24T10:26:07Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Bybit Hosts WSOT 2026’s Final Livestream on AI Trading Battle",
+   "link": "https://www.investing.com/news/cryptocurrency-news/bybit-hosts-wsot-2026s-final-livestream-on-ai-trading-battle-5047498",
+   "published": "2026-11-24T10:19:21Z",
+   "publisher": "Chainwire",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Citi sees euro undervalued, eyes 1.11+ for renewed dollar bets",
+   "link": "https://www.investing.com/news/forex-news/citi-sees-euro-undervalued-eyes-111-for-renewed-dollar-bets-93CH-5047471",
+   "published": "2026-11-24T10:00:32Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "German business morale improves in November survey",
+   "link": "https://www.investing.com/news/economic-indicators/german-business-morale-improves-in-november-survey-93CH-5047447",
+   "published": "2026-11-24T09:48:09Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "European gas bucks energy sell-off as lingering cold snap offsets crude slump",
+   "link": "https://www.investing.com/news/forex-news/european-gas-bucks-energy-selloff-as-lingering-cold-snap-offsets-crude-slump-5047347",
+   "published": "2026-11-24T09:48:07Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Japan’s private sector growth slows to six-month low in November",
+   "link": "https://www.investing.com/news/economic-indicators/japans-private-sector-growth-slows-to-sixmonth-low-in-november-93CH-5047444",
+   "published": "2026-11-24T09:46:21Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Prolonged AI rout threatens USD safe-haven status, strategist warns",
+   "link": "https://www.investing.com/news/forex-news/prolonged-ai-rout-threatens-usd-safehaven-status-strategist-warns-93CH-5047441",
+   "published": "2026-11-24T09:45:36Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "UBS sees USD/JPY at 158 through 2027 on rate differentials",
+   "link": "https://www.investing.com/news/forex-news/ubs-sees-usdjpy-at-158-through-2027-on-rate-differentials-93CH-5047434",
+   "published": "2026-11-24T09:44:12Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Sterling today: Pound edges higher after dollar-led slide as rally risks overshoot",
+   "link": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-higher-after-dollarled-slide-as-rally-risks-overshoot-5047426",
+   "published": "2026-11-24T09:32:14Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
+  {
+   "title": "Poland retail sales rise 3.5% in October, beating forecasts",
+   "link": "https://www.investing.com/news/economic-indicators/poland-retail-sales-rise-35-in-october-beating-forecasts-93CH-5047356",
+   "published": "2026-11-24T08:46:48Z",
+   "publisher": "Investing.com",
+   "summary": "",
+   "symbols": []
+  },
   {
    "title": "U.S. stock futures tick higher after Nvidia-led Wall Street rally",
    "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nvidialed-wall-street-rally-5046750",
@@ -382,14 +726,6 @@
    "title": "Explainer-What to know about US Army plans to blow up a stockpile of lead azide in Iowa",
    "link": "https://www.investing.com/news/commodities-news/explainerwhat-to-know-about-us-army-plans-to-blow-up-a-stockpile-of-lead-azide-in-iowa-5046301",
    "published": "2026-11-23T20:06:47Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "US files action to recover over $1 billion in cryptocurrency stolen in Binance hack",
-   "link": "https://www.investing.com/news/economy-news/us-files-action-to-recover-over-1-billion-in-cryptocurrency-stolen-in-binance-hack-5046276",
-   "published": "2026-11-23T19:37:12Z",
    "publisher": "Reuters",
    "summary": "",
    "symbols": []
@@ -1039,206 +1375,6 @@
    "link": "https://www.investing.com/news/stock-market-news/us-seeks-answers-on-nvidias-sale-of-chips-to-china-bessent-says-5044083",
    "published": "2026-11-22T17:54:25Z",
    "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Iowa detonation of lead will proceed under emergency powers, Army says, bypassing court order",
-   "link": "https://www.investing.com/news/commodities-news/iowa-detonation-of-lead-will-proceed-under-emergency-powers-army-says-bypassing-court-order-5044061",
-   "published": "2026-11-22T16:42:20Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Asian countries take steps to aid stock markets after AI rout",
-   "link": "https://www.investing.com/news/stock-market-news/asian-countries-take-steps-to-aid-stock-markets-after-ai-rout-5044034",
-   "published": "2026-11-22T15:12:43Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Organon earnings on deck as Sun Pharma deal looms",
-   "link": "https://www.investing.com/news/earnings/organon-earnings-on-deck-as-sun-pharma-deal-looms-93CH-5044025",
-   "published": "2026-11-22T14:35:59Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "ChipMOS earnings up next: Can packaging specialist sustain growth?",
-   "link": "https://www.investing.com/news/earnings/chipmos-earnings-up-next-can-packaging-specialist-sustain-growth-93CH-5044024",
-   "published": "2026-11-22T14:35:04Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "’Black Friday’ brings consumer spending into focus for AI-rocked market",
-   "link": "https://www.investing.com/news/stock-market-news/black-friday-brings-consumer-spending-into-focus-for-airocked-market-5044012",
-   "published": "2026-11-22T14:00:24Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Marriott president, Greater China, Mao Yibing sells $2.57M shares",
-   "link": "https://www.investing.com/news/insider-trading-news/marriott-president-greater-china-mao-yibing-sells-257m-shares-93CH-5044004",
-   "published": "2026-11-22T13:46:15Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Teradyne CEO Gregory Smith sells $942,880 in common stock",
-   "link": "https://www.investing.com/news/insider-trading-news/teradyne-ceo-gregory-smith-sells-942880-in-common-stock-93CH-5043979",
-   "published": "2026-11-22T13:01:01Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Marsh & McLennan director Anderson sells $101,049 in shares",
-   "link": "https://www.investing.com/news/insider-trading-news/marsh--mclennan-director-anderson-sells-101049-in-shares-93CH-5043970",
-   "published": "2026-11-22T12:46:14Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "United States Antimony dir, evp Bardswich buys $12,375 in stock",
-   "link": "https://www.investing.com/news/insider-trading-news/united-states-antimony-dir-evp-bardswich-buys-12375-in-stock-93CH-5043969",
-   "published": "2026-11-22T12:45:59Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 1.95%",
-   "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-195-5043961",
-   "published": "2026-11-22T12:45:03Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Analysis-Correction or deeper reckoning? Investors seek signs US stock selling will abate",
-   "link": "https://www.investing.com/news/stock-market-news/analysiscorrection-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-5043939",
-   "published": "2026-11-22T12:06:21Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2%",
-   "link": "https://www.investing.com/news/stock-market-news/south-korea-prepares-stock-market-stabilization-fund-after-kospi-plunges-52-5043890",
-   "published": "2026-11-22T10:54:22Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "COP31 climate deal in the balance after fractious talks",
-   "link": "https://www.investing.com/news/commodities-news/cop31-climate-deal-in-the-balance-after-fractious-talks-5043876",
-   "published": "2026-11-22T10:18:18Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Street Calls of the Week",
-   "link": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-93CH-5042451",
-   "published": "2026-11-22T10:00:02Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Russian drone strike traps 14 in Kyiv region as cargo ship burns off Finland",
-   "link": "https://www.investing.com/news/economy-news/russian-drone-strike-traps-14-in-kyiv-region-as-cargo-ship-burns-off-finland-5043852",
-   "published": "2026-11-22T09:43:25Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Should you buy copper’s dip? Here’s why UBS favors long position",
-   "link": "https://www.investing.com/news/stock-market-news/should-you-buy-coppers-dip-heres-why-ubs-favors-long-position-5043836",
-   "published": "2026-11-22T09:09:20Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Swiss inflation accelerates as SNB signals concern over broader price pressures",
-   "link": "https://www.investing.com/news/stock-market-news/swiss-inflation-accelerates-as-snb-signals-concern-over-broader-price-pressures-5043822",
-   "published": "2026-11-22T08:51:37Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "SNB closely watching for second-round inflation effects, vice chairman tells paper",
-   "link": "https://www.investing.com/news/economy-news/snb-closely-watching-for-secondround-inflation-effects-vicechairman-tells-paper-5043809",
-   "published": "2026-11-22T08:30:25Z",
-   "publisher": "Reuters",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Iran asserts control over Hormuz as strikes on Bahrain, Saudi Arabia escalate",
-   "link": "https://www.investing.com/news/economy-news/iran-asserts-control-over-hormuz-as-strikes-on-bahrain-and-saudi-arabia-escalate-5043802",
-   "published": "2026-11-22T08:10:19Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "5 big analyst AI moves: Nvidia downgrade, Anthropic seen as ’generational company’",
-   "link": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-nvidia-downgrade-anthropic-seen-as-generational-company-5043652",
-   "published": "2026-11-22T07:44:45Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Bitcoin struggles below $60,000 as mining profits plunge, security risks grow",
-   "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-struggles-below-60000-as-mining-profits-plunge-security-risks-grow-5043790",
-   "published": "2026-11-22T07:29:58Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Will economics continue to outweigh geopolitics?",
-   "link": "https://www.investing.com/news/stock-market-news/will-economics-continue-to-outweigh-geopolitics-5043785",
-   "published": "2026-11-22T06:57:01Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Australia rejects U.S. budget office concerns over AUKUS submarine deal",
-   "link": "https://www.investing.com/news/economy-news/australia-rejects-us-budget-office-concerns-over-aukus-submarine-deal-5043777",
-   "published": "2026-11-22T06:43:55Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "China urges U.S. to withdraw telecom restrictions on phone number access",
-   "link": "https://www.investing.com/news/economy-news/china-urges-us-to-withdraw-telecom-restrictions-on-phone-number-access-5043773",
-   "published": "2026-11-22T06:17:23Z",
-   "publisher": "Investing.com",
-   "summary": "",
-   "symbols": []
-  },
-  {
-   "title": "Is the AI boom losing its grip on emerging markets? Jefferies flags risks",
-   "link": "https://www.investing.com/news/stock-market-news/is-the-ai-boom-losing-its-grip-on-emerging-markets-jefferies-flags-risks-5043771",
-   "published": "2026-11-22T06:04:20Z",
-   "publisher": "Investing.com",
    "summary": "",
    "symbols": []
   }
