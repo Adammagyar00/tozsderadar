@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-23T11:56:04Z",
+ "builtAt": "2026-11-23T20:55:46Z",
  "digests": [
   {
    "calendar": [
@@ -38,7 +38,7 @@
    ],
    "date": "2026-11-23",
    "generatedAt": "2026-11-23T06:49:22Z",
-   "headline": "Visszapattanó amerikai határidős indexek a Covid óta legrosszabb hét után, de Ázsiában tovább tart az MI-részvények esése",
+   "headline": "Visszatér Jensen Huang az Nvidia élére: 25–30%-ot ugrott a részvény, nagy emelkedéssel nyitott a Wall Street a Covid óta legrosszabb hét után",
    "items": [
     {
      "category": "Figyelőlista",
@@ -547,6 +547,375 @@
      "title": "A kormány szerkezeti átalakulással és a korábbi állami szerződések felülvizsgálatával magyarázza a beruházások zuhanását",
      "url": "https://www.portfolio.hu/gazdasag/20261123/megszolalt-a-tisza-kormany-az-ijesztoen-rossz-adatokrol-878400",
      "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T12:40:25Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "CrowdStrike közlemény · CNBC · Bloomberg · Investing.com · Reuters",
+     "summary": "A CrowdStrike hivatalosan bejelentette, hogy teljes egészében részvénycserével felvásárolja a Zscalert: Zscaler-részvényenként 1,135 CrowdStrike-részvény jár, ami mintegy 260,41 dolláros árat és 34%-os prémiumot jelent. A bejelentéssel együtt közölt harmadik negyedéves jelentésben a bevétel 28%-kal 1,58 milliárd dollárra nőtt, a korrigált EPS 0,34 dollár lett, és a cég megemelte éves előrejelzését. A nyitás előtti kereskedésben a Zscaler több mint 13%-kal emelkedett, a CrowdStrike 5–8%-kal esett.",
+     "symbols": [],
+     "title": "A CrowdStrike 43,9 milliárd dollárért, részvénycserével megveszi a Zscalert, közben várakozás feletti negyedéves eredményt jelentett",
+     "url": "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T12:40:25Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "Investing.com · Reuters",
+     "summary": "A Brent hétfő reggel 1,4%-kal 91,32 dollárra, a WTI 1%-kal 82,59 dollárra csökkent hordónként; a Brent novemberben eddig mintegy 20%-ot esett. A huthik egy szaúdi finomító elleni támadást vállaltak, egy iráni támadás pedig tüzet okozott egy bahreini ipari létesítményben, de a Perzsa-öbölből érkező export helyreállása és a túlkínálat (az IEA szerint a negyedik negyedévben napi kb. 2 millió hordó) lefelé nyomja az árakat. A UBS szerint a látható készletek még a háború előtti szint alatt vannak, ezért árfelépülést vár.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Tovább esik az olaj: a stabil öbölbeli export ellensúlyozza az iráni eszkalációt",
+     "url": "https://investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T12:40:25Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "ABC News (a New York Times nyomán)",
+     "summary": "Az ABC News névtelen forrásokra hivatkozó, a New York Times korábbi cikkére épülő értesülése szerint Alice Huang 2025 tavaszától idén őszig kapcsolatot tartott a kínai Állambiztonsági Minisztérium egyik tisztviselőjével, részben abban az időszakban, amikor szingapúri cége, a Megaspeed Nvidia-chipeket vásárolt. Nem világos, hogy átadott-e belső információkat; Peking tagadja, hogy kém lenne. Az állítást hivatalos forrás nem erősítette meg.",
+     "symbols": [],
+     "title": "Értesülések szerint az Nvidia-botrány középpontjában álló Alice Huang kapcsolatban állt a kínai állambiztonsági minisztériummal",
+     "url": "https://abcnews.com/US/woman-center-nvidia-scandal-touch-chinas-top-spy/story?id=138369034",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T12:40:25Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Investing.com",
+     "summary": "Az Investing.com nyitás előtti összefoglalója szerint a Capricor Therapeutics árfolyama 69,5%-kal 2,32 dollárra esett, mert az FDA elutasító levelet (CRL) adott ki a deramiocel nevű, Duchenne-izomdisztrófia kezelésére szánt sejtterápiára, a hatásossági adatokat elégtelennek tartva és a HOPE-3 vizsgálat adatintegritását kifogásolva. A friss döntést más forrásban egyelőre nem találtuk meg.",
+     "symbols": [],
+     "title": "Az Investing.com szerint közel 70%-ot zuhan a Capricor, miután az FDA elutasította Duchenne-terápiáját",
+     "url": "https://www.investing.com/news/stock-market-news/premarket-movers-chip-stocks-lead-ai-rebound-crowdstrike-falls-5045110",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T13:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Bloomberg (CNBC, Seeking Alpha beszámolója alapján)",
+     "summary": "A Bloomberg névtelen forrásokra hivatkozó értesülése szerint a General Motors igazgatótanácsa szoftveres és önvezető technológiai tapasztalattal rendelkező utódot keres Mary Barra helyére, és Sterling Anderson termékigazgató az esélyes. A döntés nem végleges; a jelölt a kérdést nem kommentálta. A GM részvénye a CNBC szerint több mint 2%-kal emelkedett a nyitás előtt.",
+     "symbols": [],
+     "title": "Értesülések szerint Sterling Anderson lehet a GM következő vezérigazgatója, emelkedik a részvény",
+     "url": "https://seekingalpha.com/news/4675362-gms-ceo-succession-plan-could-include-tech-savvy-executive---bloomberg",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T14:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Nvidia (SEC 8-K közlemény) · Reuters · CoinDesk · Benzinga",
+     "summary": "Az Nvidia igazgatótanácsa egyhangúlag, azonnali hatállyal visszahelyezte Jensen Huangot elnök-vezérigazgatói és igazgatósági tagi posztjára, miután az amerikai kormány magas szintű képviselőivel egyeztetve arra jutott, hogy visszatérése nem jelent nemzetbiztonsági kockázatot. Ez éles fordulat a néhány nappal korábbi döntéshez képest, amikor a testület kizárta a visszatérését. Colette Kress ideiglenes vezérigazgató marad pénzügyi igazgató, a külföldi titkosszolgálati befolyásolási kísérletről szóló értesülések független vizsgálata pedig folytatódik, és új nemzetbiztonsági és exportellenőrzési bizottság is alakul. A részvény a nyitás előtti kereskedésben 25–30%-kal emelkedett.",
+     "symbols": [],
+     "title": "Az Nvidia igazgatótanácsa visszahelyezte Jensen Huangot a vezérigazgatói posztra, 25–30%-ot ugrott a részvény",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T14:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "CNBC · Yahoo Finance · 24/7 Wall St.",
+     "summary": "Az amerikai tőzsdék erőteljes emelkedéssel nyitottak a múlt heti rekordméretű esés után: a CNBC szerint a Nasdaq Composite mintegy 7%-kal, az S&P 500 nagyjából 5%-kal, a Dow Jones 2,8%-kal emelkedett. A ralit az Nvidia vezeti, miután a cég visszahelyezte Jensen Huangot a vezérigazgatói posztra, és vele együtt a chipgyártók is meredeken drágulnak. A számok napközbeniek, a záróértékek még nem ismertek.",
+     "symbols": [
+      "QQQ",
+      "VOO",
+      "MU",
+      "MRVL"
+     ],
+     "title": "Nagy emelkedéssel nyitott a Wall Street, a Nasdaq 6–7%-kal ugrott az Nvidia nyomán",
+     "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T14:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Investing.com",
+     "summary": "Az Anthropic (ANT) részvénye a tőzsdenyitás előtt mintegy 4,5%-kal, 92,87 dollárra emelkedett, visszanyerve pénteki 8,5%-os esésének egy részét. A Needham vételi ajánlással és 150 dolláros célárral kezdte a követést, emellett a Defiance ETFs kétszeres tőkeáttételű long és inverz alapokat indított a részvényre. Ez csak a papír harmadik kereskedési napja a 83 dolláros tőzsdei bevezetés után.",
+     "symbols": [],
+     "title": "Emelkedik az Anthropic részvénye: a Needham vételi ajánlással, 150 dolláros célárral indította a követést",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-anthropic-stock-rallying-today-93CH-5045157",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T14:50:00Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Privátbankár · Világgazdaság",
+     "summary": "A reggeli 1,3%-os felpattanás után délutánra elfogyott a budapesti tőzsde emelkedése: a BUX 14:30-kor 0,09%-os mínuszban, 137 521 ponton állt, az OTP pedig 38 540 forinton csak 0,18%-os pluszban volt a reggeli 2%-ot meghaladó emelkedés után. A forint euróval szembeni reggeli 0,7%-os erősödése 0,4%-ra szelídült, az euró 372,5 forint körül járt.",
+     "symbols": [],
+     "title": "Elolvadt a BUX reggeli emelkedése, a forint is feladta előnye egy részét",
+     "url": "https://privatbankar.hu/cikkek/reszveny/olvadt-valamelyest-a-tozsdei-elony.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T15:39:54Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Bloomberg · Economx · Portfolio",
+     "summary": "Kurali Zoltán jegybanki alelnök a Bloomberg szerint azt mondta, hogy a mostani eladási hullám után az MNB kamatcsökkentési mozgástere korlátozottabb, a forint ingadozását pedig túlzottnak nevezte. A forint hétfő délután erőre kapott: a pénteki közel 373 után az euró 369 alá esett. Az erősödéshez a globális tőzsdei emelkedés is hozzájárult.",
+     "symbols": [],
+     "title": "Kurali (MNB): szűkebb a kamatcsökkentési mozgástér, 369 alá erősödött a forint",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/forint-jumps-after-hungary-softens-interest-rate-guidance",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T15:39:54Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Benzinga · Investing.com · Yahoo Finance (Stocktwits)",
+     "summary": "A Benzinga adatai szerint a Micron 14,6%-kal, 681,20 dollárra, a Marvell 14,5%-kal, 139,94 dollárra emelkedett hétfőn, miután Jensen Huang visszatért az Nvidia élére. Az Investing.com szerint a Marvellnél továbbra is nyomás a Lumentum-felvásárlás miatti hígulás kockázata. A napon belüli számok forrásonként és időpontonként eltérnek.",
+     "symbols": [
+      "MU",
+      "MRVL"
+     ],
+     "title": "14% fölötti emelkedés a Micronnál és a Marvellnél napközben a chipszektor visszapattanásában",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63533706/nvidia-micron-arm-holdings-kymera-therapeutics-and-other-big-stocks-moving-higher-on-monday",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T15:39:54Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Bitcoin Magazine · CryptoTicker · crypto.news",
+     "summary": "Több kriptós hírportál szerint a bitcoin hétfőn rövid időre 64 000 dollár fölé emelkedett, 24 óra alatt nagyjából 5–6%-kal, az ether 7% feletti emelkedéssel 1800 dollár fölé került. A visszapattanást a technológiai részvények Nvidia-vezérigazgató visszatérése nyomán indult rallijához kötik; a bitcoin hétvégi mélypontja 55 100 dollár körül volt, az ETF-ekből továbbra is áramlik ki pénz.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "Átmenetileg 64 000 dollár fölé ugrott a bitcoin, az ether több mint 7%-ot emelkedett",
+     "url": "https://bitcoinmagazine.com/markets/bitcoin-price-surges-64000-nvidia",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T15:39:54Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Benzinga · Blockonomi",
+     "summary": "A Benzinga szerint a Kymera Therapeutics részvénye 24,8%-kal, 144 dollárra emelkedett, miután a KT-621 jelű, naponta egyszer szedhető atópiás dermatitisz elleni szer BROADEN2 vizsgálata teljesítette elsődleges és másodlagos végpontjait. A Blockonomi szerint a közepes dózis a 16. hétre 72%-kal csökkentette az EASI-pontszámot, szemben a placebo 27%-ával. A céges közleményt nem találtuk.",
+     "symbols": [],
+     "title": "25%-kal ugrott a Kymera, sikeres volt az ekcéma elleni tablettája a 2b fázisú vizsgálatban",
+     "url": "https://blockonomi.com/kymera-kymr-stock-hits-record-high-as-a-once-daily-eczema-pill-beats-placebo",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T16:39:50Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CNBC · AP (Yahoo Finance) · The Next Web",
+     "summary": "Oregon és Virginia hétfőn külön fogyasztóvédelmi pert indított a SpaceX, az X és a SpaceX Super Intelligence ellen a Grok csetbot által generált szexualizált deepfake-képek miatt. Az államok főügyészei szerint a cég elhanyagolta a biztonsági korlátokat és félrevezette a felhasználókat a Grok biztonságáról; polgári bírságot és szigorúbb védelmi intézkedéseket követelnek. A SpaceX az első hírek idején nem reagált.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Oregon és Virginia beperelte a SpaceX-et a Grok szexuális deepfake-képei miatt",
+     "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T16:39:50Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Investing.com · Seeking Alpha · GuruFocus",
+     "summary": "Az Oracle péntek zárás után közölte, hogy az OpenAI-szerződés teljesítéséhez szükséges összes finanszírozást biztosította, többek között a novemberi mintegy 20 milliárd dolláros (fele részvény, fele hitel) tőkebevonással. A részvény hétfőn nagyjából 14–15%-kal emelkedett a nyitás után, miután az előző héten közel 20%-ot esett. A JPMorgan elemzője megerősítette vételi ajánlását 200 dolláros célárral.",
+     "symbols": [],
+     "title": "Közel 15%-ot ugrott az Oracle: teljesen finanszírozottnak nevezte az OpenAI-szerződést",
+     "url": "https://seekingalpha.com/news/4675505-oracle-rebounds-after-it-reiterates-it-has-enough-funding-for-openai-work",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T16:39:50Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Yahoo Finance · Benzinga · NBC News",
+     "summary": "Az Arm vezérigazgatója, Rene Haas szerződését 2033-ig meghosszabbították, december 1-jétől pedig a fő tulajdonos SoftBank Group alelnöke is lesz. A bejelentés azután jött, hogy sajtóértesülések szerint az Nvidia megkereste őt Jensen Huang lehetséges utódjaként. Az Arm részvénye napközben 13–16% körüli emelkedésben volt, a chipszektor általános visszapattanásával együtt.",
+     "symbols": [],
+     "title": "Nagyot emelkedik az Arm: Rene Haas vezérigazgató 2033-ig marad, a SoftBank alelnöke lesz",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/arm-ceo-rene-haas-extends-131050121.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T16:39:50Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Privátbankár · VG",
+     "summary": "Az O3 Partners 8,50 eurós áron mintegy 5,7 millió eurót vont be, ez a cég eddigi legnagyobb tőkebevonása; a jegyzési ajánlatok 6,4 millió eurót tettek ki, a pénz közel kétharmada lakossági befektetőktől jött. A régió első tőzsdén jegyzett kockázati- és magántőke-csoportjának részvényei november 27-én kerülnek át az Xtend piacról a BÉT Standard piacára.",
+     "symbols": [],
+     "title": "Rekordösszegű tőkebevonással lép a BÉT Standard piacára Oszkó Péter cége, az O3 Partners",
+     "url": "https://www.portfolio.hu/befektetes/20261123/rekordosszegu-tokebevonassal-lep-szintet-oszko-peter-cege-a-magyar-tozsden-878502",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T17:40:28Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "MLQ.ai · Investing.com",
+     "summary": "A páneurópai STOXX 600 1,87%-kal, 637,32 pontra emelkedett, ezzel véget ért öt napig tartó esése. A DAX mintegy 2,3%-kal, a CAC 40 körülbelül 1,5%-kal, a londoni FTSE 100 1,3%-kal zárt magasabban, miután az Nvidia visszahelyezte Jensen Huangot a vezérigazgatói posztra.",
+     "symbols": [],
+     "title": "Közel 2%-os emelkedéssel zártak az európai tőzsdék, a chipgyártók vezették a visszapattanást",
+     "url": "https://mlq.ai/news/european-stocks-close-up-nearly-2-as-chipmakers-lead-a-rebound-from-the-ai-rout/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T17:40:28Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC · Investing.com",
+     "summary": "A Melius Research tartásról vételre, a Bernstein piaci teljesítményről felülteljesítőre emelte az Nvidia ajánlását; a Bernstein célára 200 dollár. A Citi megerősítette vételi ajánlását, és 225-ről 240 dollárra emelte célárát. Az LSEG adatai szerint 65 elemzőből 48 vételt javasol.",
+     "symbols": [],
+     "title": "A Melius és a Bernstein is felminősítette az Nvidiát Huang visszatérése után",
+     "url": "https://www.cnbc.com/2026/11/23/nvidia-has-reinstated-ceo-jensen-huang-analysts-upgraded-the-stock.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T17:40:28Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "CNBC · Seeking Alpha · 24/7 Wall St.",
+     "summary": "A Bloom Energy árfolyama hétfőn napközben 19–22%-kal emelkedett, miután Jensen Huang visszatért az Nvidia élére, és újraéledt az MI-adatközpontok energiaellátására épülő kereskedés. A FuelCell Energy is mintegy 20%-kal emelkedett. A Bloom a visszapattanás ellenére is jelentős veszteségben van az elmúlt egy hónapra.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Mintegy 20%-kal ugrott a Bloom Energy az MI-energiapapírok visszapattanásában",
+     "url": "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T17:40:28Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Investing.com · Bloomberg (értesülés)",
+     "summary": "A Tesla részvénye hétfőn mintegy 13%-kal, 391–393 dollár körülire emelkedett a Bloombergre hivatkozó értesülések nyomán, amelyek szerint a Tesla és a SpaceX előrehaladott egyesülési tárgyalásokat folytat, és akár jövő hónapban jöhet bejelentés. A felek nem erősítették meg a tárgyalásokat; Musk korábban azt mondta, az ügylet nem biztos, és a részvényesek jóváhagyása kell hozzá.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "13%-kal emelkedik a Tesla a SpaceX-szel folytatott egyesülési tárgyalásokról szóló értesülések nyomán",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-surging-today-93CH-5046047",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T17:40:28Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "CNBC · MarketScreener",
+     "summary": "A kétéves amerikai hozam több mint 10 bázisponttal 4,72% körülire, a tízéves 4 bázisponttal 4,95% körülire, a harmincéves 15 bázisponttal 5,32% körülire emelkedett, részben visszafordítva a múlt hét végi mozgást. A befektetők John Williams, a New York-i Fed elnökének délutáni felszólalására várnak.",
+     "symbols": [],
+     "title": "Megugrottak az amerikai állampapír-hozamok a részvénypiaci visszapattanással",
+     "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T17:40:28Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Telex · Index",
+     "summary": "A Budai Központi Kerületi Bíróság 2027. február 23-ig meghosszabbította a volt jegybankelnök letartóztatását, és elutasította a felajánlott 30 millió forintos óvadékot. Az ügyészség különösen jelentős vagyoni hátrányt okozó gazdasági csalással gyanúsítja; a döntés nem jogerős.",
+     "symbols": [],
+     "title": "Három hónappal meghosszabbították Matolcsy György letartóztatását",
+     "url": "https://telex.hu/gazdasag/2026/11/23/meghosszabbitottak-matolcsy-gyorgy-letartoztatasat",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T17:40:28Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Bloomberg (értesülés) · The National",
+     "summary": "A Bloomberg értesülése szerint a dubaji vezetés előzetes tárgyalásokat folytatott a Dubai Islamic Bank és az Emirates Islamic összevonásáról, végleges döntés nincs. A DIB részvénye 11%-kal magasabban zárt, a bank igazgatótanácsa szerdán egy stratégiai felvásárlásról tárgyal.",
+     "symbols": [],
+     "title": "11%-kal ugrott a Dubai Islamic Bank: értesülések szerint egyesülhet az Emirates Islamickel",
+     "url": "https://www.thenationalnews.com/business/banking/2026/11/23/dubai-islamic-bank-shares-surge-11-on-potential-acquisition-deal/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T17:40:28Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "CNBC",
+     "summary": "A CNBC szerint a Boeing részvénye több mint 4%-kal emelkedett, miután Donald Trump a CNBC műsorában azt mondta, arra számít, hogy Kína további 250 Boeing-gépet vásárol. Hivatalos kínai vagy Boeing-megerősítés nem jelent meg.",
+     "symbols": [],
+     "title": "4%-kal emelkedett a Boeing, miután Trump további 250 gép kínai megrendelését várja",
+     "url": "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html#boeing",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T18:40:12Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "Reuters · Bloomberg · NBC News",
+     "summary": "Donald Trump a CNBC-nek adott hétfői interjújában elmondta, hogy közvetlenül és közvetve is beszélt az Nvidia igazgatótanácsával, képviseltette magát a testület ülésén, és vasárnap este Jensen Huanggal is beszélt. A Bloomberg névtelen forrásai szerint a döntést a cég felső vezetésével való egyeztetés nélkül hozták meg. Trump szerint a testület nemzetbiztonsági garanciákat kért, amelyeket a kormány megadott.",
+     "symbols": [
+      "NVDA"
+     ],
+     "title": "Trump: közvetlenül és közvetve is egyeztetett az Nvidia igazgatótanácsával Huang visszahelyezéséről",
+     "url": "https://whbl.com/2026/11/23/trump-tells-cnbc-he-was-represented-at-nvidia-board-spoke-to-huang/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T18:40:12Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "TechCrunch · Bloomberg · GeekWire",
+     "summary": "Az Amazon hétfőn bejelentette, hogy megszerzi a Decart MI-optimalizálási technológiáját, és átveszi a startup alapítóit és kutatócsapatát, ami a Trainium-chipjei értékesítését segítheti. Az árat a cég nem hozta nyilvánosságra; a Bloomberg egy forrása szerint az ügylet nagyjából 7,5 milliárd dolláros. A Decart MI-modelljei nem részei a megállapodásnak.",
+     "symbols": [
+      "AMZN"
+     ],
+     "title": "Az Amazon megveszi a Decart MI-optimalizálási technológiáját, a Bloomberg szerint mintegy 7,5 milliárd dollárért",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T18:40:12Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Index · Pénzcentrum",
+     "summary": "Az Országgyűlés kedden szavaz az árrésstop kivezetéséről. Kapitány István gazdasági és energetikai miniszter szerint a szabadabb verseny és a csökkenő beszerzési költségek árcsökkenést hozhatnak, a kormány pedig továbbra is figyeli az árakat.",
+     "symbols": [],
+     "title": "Kedden szavaz a parlament az árrésstop eltörléséről, Kapitány István árcsökkenést vár",
+     "url": "https://index.hu/gazdasag/2026/11/23/kapitany-istvan-arresstop-kivezetes-arak-csokkenes",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T19:50:00Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Tőzsdefórum · Privátbankár",
+     "summary": "A Budapesti Értéktőzsde fő indexe, a BUX 1,97%-os emelkedéssel, 140 363 ponton zárta a hétfői kereskedést, miután napközben elolvadt a reggeli előny egy része. A Privátbankár adatai szerint az OTP 4,16%-kal 40 070 forintra emelkedett, a Mol is pluszban zárt, a Richter és a Magyar Telekom viszont enyhén gyengült.",
+     "symbols": [],
+     "title": "Közel 2%-os emelkedéssel zárt a BUX, az OTP 4% fölött erősödött",
+     "url": "https://tozsdeforum.hu/bet/premium/tozsdezaras-november-23-az-otp-es-a-mol-pluszban-zart-a-richter-pirosban-maradt/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-23T19:50:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "CoinDesk",
+     "summary": "A CoinDesk értékelése szerint az Nvidia-vezette MI-rali mellett a bitcoin visszapattanása már veszít a lendületéből, a tartós amerikai eladói nyomás miatt. A lap szerint az amerikai bitcoin-ETF-ekből novemberben közel 3 milliárd dollár áramlott ki, így egy beáramlási fordulat jelezne valódi vásárlói érdeklődést; az ether-finanszírozási ráták minden nagy tőzsdén negatívak.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "A CoinDesk szerint lemarad a bitcoin az MI-részvények visszapattanásától, a bitcoin-ETF-ekből novemberben közel 3 Mrd dollár áramlott ki",
+     "url": "https://coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-23T20:50:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Seeking Alpha · Benzinga",
+     "summary": "A Seeking Alpha és a Benzinga szerint a CoreWeave részvénye napközben 24–30%-kal emelkedett hétfőn, a Jensen Huang Nvidia-vezérigazgatói visszatérése nyomán kibontakozó széles technológiai rali részeként. A papír pénteken 39,51 dolláron, a 40 dolláros tőzsdei bevezetési ár alatt zárt. A pontos napi elmozdulás a forrásonként eltérő időpontok miatt bizonytalan.",
+     "symbols": [
+      "CRWV"
+     ],
+     "title": "20%-ot meghaladó emelkedés a CoreWeave-nél az Nvidia körüli fordulat nyomán",
+     "url": "https://seekingalpha.com/news/4675699-coreweave-jumps-24-percent-amid-broad-technology-rally",
+     "verified": false
     }
    ],
    "markets": [
@@ -572,8 +941,8 @@
      "value": "5,50%"
     }
    ],
-   "summary": "A múlt héten mindhárom nagy amerikai index rekordméretű heti pontesést szenvedett el, a Nasdaq 10%-ot esett, ami 2020 márciusa óta a legnagyobb heti zuhanás. Hétfő reggel az amerikai határidős indexek emelkednek, Ázsiában viszont tovább esnek a technológiai papírok, a dél-koreai KOSPI mintegy 5%-ot zuhant, miközben Kína, Tajvan és Dél-Korea piactámogató intézkedéseket vezetett be. Bessent pénzügyminiszter válaszokat sürget az Nvidiától a Kínának eladott chipek ügyében. A dollár kissé visszahúzódott 19 havi csúcsáról, a Brent 93 dollár körül mozog, a piac továbbra is decemberi Fed-kamatemelést áraz.",
-   "updatedAt": "2026-11-23T11:40:49Z",
+   "summary": "Az Nvidia igazgatótanácsa hétfőn egyhangúlag visszahelyezte Jensen Huangot a vezérigazgatói posztra, a részvény a nyitás előtt 25–30%-kal ugrott, és vele együtt az egész chipszektor. A múlt heti, 2020 márciusa óta legnagyobb heti esés után az amerikai indexek nagy emelkedéssel nyitottak, a Nasdaq 6–7%-kal, az S&P 500 4–5%-kal került feljebb napközben. Ázsiában Kína, Tajvan és Dél-Korea piactámogató intézkedéseket vezetett be, a CrowdStrike 43,9 milliárd dollárért megveszi a Zscalert. A dollár kissé visszahúzódott 19 havi csúcsáról, az olaj esik, a piac továbbra is decemberi Fed-kamatemelést áraz.",
+   "updatedAt": "2026-11-23T20:50:00Z",
    "watchlist": []
   },
   {
@@ -29086,6 +29455,62 @@
   },
   {
    "actual": "",
+   "country": "USA",
+   "date": "2026-11-23",
+   "event": "Agilent Technologies Q4 FY2026 gyorsjelentés",
+   "forecast": "EPS 1,73 $ / bevétel 1,99 Mrd $",
+   "importance": 1,
+   "note": "Zárás után, hívás 22:30-kor. Konszenzus: Zacks (bevétel), Benzinga (EPS); cég-guidance: EPS 1,71–1,74 $, bevétel 1,98–2,0 Mrd $.",
+   "previous": "",
+   "source": "Agilent IR",
+   "symbols": [
+    "A"
+   ],
+   "time": "22:00",
+   "type": "Gyorsjelentés",
+   "url": "https://www.investor.agilent.com/news-and-events/news/news-details/2026/Agilent-to-Announce-Fourth-Quarter-Fiscal-Year-2026-Financial-Results-on-Nov--23/default.aspx",
+   "id": "2026-11-23-us-a-earnings"
+  },
+  {
+   "actual": "",
+   "country": "USA",
+   "date": "2026-11-23",
+   "event": "Hewlett Packard Enterprise Q4 FY2026 gyorsjelentés",
+   "forecast": "EPS 1,28 $ / bevétel kb. 14,4–14,5 Mrd $",
+   "importance": 2,
+   "note": "Zárás után. Konszenzus a Benzinga és a BigGo Finance előzetese szerint; cég-guidance: bevétel 13,9–14,8 Mrd $.",
+   "previous": "",
+   "source": "HPE IR",
+   "symbols": [
+    "HPE"
+   ],
+   "time": "22:00",
+   "type": "Gyorsjelentés",
+   "url": "https://investors.hpe.com/",
+   "id": "2026-11-23-us-hpe-earnings"
+  },
+  {
+   "actual": "EPS 0,34 $ / bevétel 1,58 Mrd $",
+   "country": "USA",
+   "date": "2026-11-23",
+   "event": "CrowdStrike Q3 FY2027 gyorsjelentés",
+   "forecast": "EPS 0,31 $ / bevétel 1,53 Mrd $",
+   "importance": 2,
+   "note": "Az eredetileg december 1-re várt jelentést a cég november 23-án, a Zscaler felvásárlásának bejelentésével együtt, tőzsdenyitás előtt tette közzé. Konszenzus: GuruFocus / ScanX összesítése.",
+   "previous": "",
+   "source": "CrowdStrike IR",
+   "surprise": "beat",
+   "surpriseNote": "EPS kb. +9,7% a vártnál, bevétel kb. +3,3%; az éves előrejelzést megemelték.",
+   "symbols": [
+    "CRWD"
+   ],
+   "time": "",
+   "type": "Gyorsjelentés",
+   "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial",
+   "id": "2026-12-01-crwd-earnings"
+  },
+  {
+   "actual": "",
    "country": "Németország",
    "date": "2026-11-24",
    "event": "ifo üzleti klíma index, november",
@@ -29382,24 +29807,6 @@
    "type": "Gyorsjelentés",
    "url": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
    "id": "2026-12-01-mrvl-earnings"
-  },
-  {
-   "actual": "",
-   "country": "USA",
-   "date": "2026-12-01",
-   "event": "CrowdStrike Q3 FY2027 gyorsjelentés",
-   "forecast": "",
-   "importance": 2,
-   "note": "Zárás után, hívás 23:00-kor.",
-   "previous": "",
-   "source": "CrowdStrike IR",
-   "symbols": [
-    "CRWD"
-   ],
-   "time": "23:00",
-   "type": "Gyorsjelentés",
-   "url": "https://ir.crowdstrike.com/events/event-details/crowdstrike-fiscal-third-quarter-2027-results-conference-call",
-   "id": "2026-12-01-crwd-earnings"
   },
   {
    "actual": "",
