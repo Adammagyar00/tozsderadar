@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-25T13:56:18Z",
+ "builtAt": "2026-11-25T20:55:38Z",
  "digests": [
   {
    "calendar": [
@@ -493,10 +493,10 @@
      "addedAt": "2026-11-25T09:40:34Z",
      "category": "Globális piacok",
      "impact": "negatív",
-     "source": "AP · Bloomberg · Washington Post",
-     "summary": "Az AP-nak nyilatkozó források és a Bloomberg szerint az amerikai kormány a túlzott ipari kapacitásokról szóló, Section 301 szerinti vizsgálat lezárásaként új vámokat készít elő 16 kereskedelmi partner – köztük Kína, az EU, Japán, Dél-Korea, Mexikó és Tajvan – ellen. A lépés a Legfelsőbb Bíróság által megsemmisített 2025-ös vámok pótlását szolgálná; a pontos vámtételek a beszámolók szerint még nem véglegesek, és a bevezetés előtt meghallgatások is lesznek.",
+     "source": "AP · Bloomberg · Reuters · NBC · CBS",
+     "summary": "Az amerikai kormány szerdán a Section 301 szerinti vizsgálat lezárásaként új vámokat javasolt Kína, az EU és 12 további kereskedelmi partner – köztük Japán, Dél-Korea, Tajvan, India és Svájc – ellen; a Reuters szerint a legmagasabb, 20%-os tétel Kínát sújtaná. Mexikó és Norvégia egyelőre kimarad. A vámok nyilvános véleményezési időszak után, legkorábban januárban léphetnek életbe, az EU-ra a 2025-ös megállapodás 15%-os plafonja a beszámolók szerint érvényes marad.",
      "symbols": [],
-     "title": "AP és Bloomberg: újabb vámokra készül az USA Kína, az EU és további 14 gazdaság ellen",
+     "title": "Hivatalosan is javasolta az USA: akár 20%-os új vámok Kínára, az EU-ra és 12 további gazdaságra",
      "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/25/us-ready-to-slap-tariffs-on-china-eu-and-others-over-subsidized-production-ap-sources-say/",
      "verified": true
     },
@@ -794,12 +794,12 @@
      "addedAt": "2026-11-25T13:40:08Z",
      "category": "Globális piacok",
      "impact": "negatív",
-     "source": "Seeking Alpha · Unusual Whales · Bloomingbit",
-     "summary": "A jelentések szerint októberben az amerikai PCE-árindex 3,8%-kal nőtt egy év alatt (havi alapon 0,3%), ami megfelel a várakozásnak. A Fed által kiemelten figyelt maginfláció 3,3%-ra gyorsult a 3,1%-ról, 0,1 százalékponttal a vártnál magasabbra. Ez az utolsó nagy inflációs adat a Fed december 9-i döntése előtt; a piac a CME FedWatch szerint már szinte teljesen beárazta a decemberi kamatemelést. A BEA hivatalos közleményét nem sikerült közvetlenül ellenőrizni.",
+     "source": "Seeking Alpha · Reuters (Investing.com) · BEA",
+     "summary": "Az amerikai PCE-árindex októberben 3,8%-kal nőtt egy év alatt (havi alapon 0,3%), ami megfelel a várakozásnak. A Fed által kiemelten figyelt maginfláció 3,3%-ra gyorsult a szeptemberi 3,1%-ról, 0,1 százalékponttal a vártnál magasabbra. A Reuters szerint a személyi jövedelmek 0,7%-kal nőttek, a reálfogyasztás nagyjából stagnált. Ez az utolsó nagy inflációs adat a Fed december 9-i döntése előtt.",
      "symbols": [],
      "title": "Gyorsult az amerikai maginfláció: 3,3%-ra nőtt a PCE-alapú mutató októberben, a vártnál jobban",
      "url": "https://seekingalpha.com/news/4676533-core-pce-price-index-rises-33-yy-slightly-hotter-than-expected",
-     "verified": false
+     "verified": true
     },
     {
      "addedAt": "2026-11-25T13:40:08Z",
@@ -812,6 +812,439 @@
      ],
      "title": "Távozik a Nutanix vezérigazgatója, gyenge éves kilátás mellett zuhan a részvény",
      "url": "https://www.investing.com/news/earnings/nutanix-stock-drops-9-on-weak-fy-guidance-and-ceo-exit-5049045",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Yahoo Finance · CNBC · Reuters",
+     "summary": "A CNBC szerint a Nasdaq Composite több mint 3%-kal esett közvetlenül a szerdai nyitás után, miközben a chip- és MI-részvények eladása folytatódott. A nyomást a vártnál magasabb maginfláció és az új amerikai vámjavaslatok erősítették; a Nvidia mintegy 6%-ot, az Anthropic több mint 5%-ot esett, utóbbi ismét a 83 dolláros kibocsátási ár alá került.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Meredek eséssel nyitott a Wall Street: több mint 3%-ot esett a Nasdaq a forró infláció és az új vámok miatt",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "BEA · Fox Business · Reuters",
+     "summary": "A BEA második becslése szerint az amerikai gazdaság évesítve 4,3%-kal nőtt a harmadik negyedévben, az első becslés 3,4%-a helyett; a Reuters szerinti konszenzus 3,5% volt. A gyorsulást főként az erősebb beruházások és a kormányzati kiadások fordulata hajtotta, a bruttó hazai jövedelem (GDI) 4,4%-kal nőtt.",
+     "symbols": [],
+     "title": "4,3%-ra javították az amerikai GDP harmadik negyedéves növekedését",
+     "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "US Census Bureau · FXStreet",
+     "summary": "Az amerikai Census Bureau előzetes adata szerint a tartós cikkek rendelései 0,2%-kal, 346,7 milliárd dollárra nőttek októberben, elmaradva a 0,4%-os várakozástól (FXStreet). A szállítóeszközök nélkül számított rendelések 0,5%-kal, a repülőgépek nélküli nem védelmi beruházási javak rendelései 1,2%-kal emelkedtek.",
+     "symbols": [],
+     "title": "A vártnál kisebb mértékben, 0,2%-kal nőttek a tartós cikkek rendelései októberben",
+     "url": "https://www.fxstreet.com/news/united-states-durable-goods-orders-rise-02-in-october-vs-04-expected-202611251351",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "Reuters (Investing.com) · FXStreet",
+     "summary": "A munkaügyi minisztérium szerint a november 21-ével zárult héten 189 ezer új kérelmet nyújtottak be, 13 ezerrel kevesebbet az előző hetinél és a vártnál (200 ezer) is kevesebbet. A folyamatos kérelmek száma 95 ezerrel 1,697 millióra csökkent. Az adatot a hálaadás miatt egy nappal korábban, szerdán tették közzé.",
+     "symbols": [],
+     "title": "Négyhavi mélypontra, 189 ezerre csökkentek az amerikai munkanélküli-segélykérelmek",
+     "url": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-fall-more-than-expected-5050841",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Seeking Alpha · Benzinga · GuruFocus",
+     "summary": "Az Ambarella harmadik negyedéves bevétele 115,2 millió dollár lett, elmaradva a mintegy 119,4 milliós várakozástól, a negyedik negyedévre pedig csak 70–75 millió dolláros bevételt vár, jóval a 112 millió körüli konszenzus alatt. A cég a memóriaárak emelkedésével és a szűkös kínálattal indokolt; a részvény a nyitás előtt 35–40%-kal esett.",
+     "symbols": [
+      "AMBA"
+     ],
+     "title": "35–40%-ot zuhant az Ambarella a vártnál jóval gyengébb negyedéves kilátás miatt",
+     "url": "https://seekingalpha.com/news/4676404-ambarella-collapses-40-percent-as-q4-guidance-falls-shockingly-short-of-estimates",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Benzinga · Quartz · Proactive Investors",
+     "summary": "Az Urban Outfitters harmadik negyedéves bevétele 8,9%-kal, 1,665 milliárd dollárra nőtt, az EPS 1,54 dollár lett. Az összehasonlítható kiskereskedelmi eladások 4,4%-os növekedése azonban elmaradt a mintegy 5,3%-os várakozástól, főként az Anthropologie gyengesége miatt, és a negyedik negyedéves kilátás is visszafogott; a Morgan Stanley leminősítette a papírt.",
+     "symbols": [
+      "URBN"
+     ],
+     "title": "Rekordbevétel ellenére 10–12%-ot esett az Urban Outfitters a gyenge összehasonlítható eladások miatt",
+     "url": "https://www.proactiveinvestors.com/companies/news/1102443/urban-outfitters-stock-falls-as-comparable-sales-growth-slows-in-q3-1102443.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Investing.com · Autodesk",
+     "summary": "Az Autodesk harmadik negyedéves bevétele 17%-kal, 2,16 milliárd dollárra nőtt, és a cég megemelte az éves bevételi és számlázási cél középértékét (bevétel: 8,36–8,375 milliárd dollár). A befektetők az Investing.com szerint nagyobb emelésre számítottak, így a részvény a zárás utáni és a nyitás előtti kereskedésben 4–5%-kal esett.",
+     "symbols": [
+      "ADSK"
+     ],
+     "title": "Az Autodesk felülmúlta a várakozásokat és emelte éves előrejelzését, a részvény mégis esik",
+     "url": "https://www.investing.com/news/company-news/autodesk-q3-fy27-slides-beats-estimates-raises-guidance-but-shares-slip-93CH-5049355",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Index · Forbes.hu",
+     "summary": "A jegybankelnök szerint az árrésstop megszüntetése növeli a versenyt, és középtávon alacsonyabb árakhoz vezethet; az októberi inflációs adatokban az érintett élelmiszer-csoportok többségénél árcsökkenés látszott. Az Országgyűlés kedden 135 igen szavazattal fogadta el a kivezetést, amely a kihirdetést követő nyolcadik napon lép hatályba.",
+     "symbols": [],
+     "title": "Varga Mihály: az MNB támogatja az árrésstop kivezetését",
+     "url": "https://www.portfolio.hu/gazdasag/20261125/varga-mihaly-az-mnb-tamogatja-az-arrestop-kivezeteset-879084",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T14:40:32Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "24/7 Wall St.",
+     "summary": "A 24/7 Wall St. szerint a Micron szerda délelőtt mintegy 7%-kal esett, miután kedden már 11%-ot veszített; a lap a csökkenést egy gyengébb DRAM-árkilátással és az új vámfenyegetéssel hozza összefüggésbe, a SanDisk is 7%-kal került lejjebb. A beszámoló szerint a Micron egy hónap alatt 33%-ot esett.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "Tovább esik a Micron: értesülések szerint gyengébb DRAM-árkilátás és az új vámok nyomják a memóriapapírokat",
+     "url": "https://247wallst.com/investing/2026/11/25/micron-falls-7-as-a-weaker-dram-outlook-and-new-tariffs-hit-memory-stocks-sandisk-drops-7-are-micron-and-memory-stocks-now-a-value-play/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T15:40:42Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Bloomberg · Business Recorder",
+     "summary": "A Bloomberg szerint a Nasdaq 100 szerdán 4,7%-ot esett, így októberi rekordjától számított vesztesége elérte a 20%-ot, ami 2025 áprilisa óta az első medvepiacot jelenti az indexnél. Az MI-hez kötődő papírok eladását a vártnál magasabb infláció, a decemberi Fed-kamatemelés várható volta és az új amerikai vámjavaslatok gyorsították; a Bloomberg becslése szerint a lejtmenet során több mint 8500 milliárd dollárnyi piaci érték tűnt el.",
+     "symbols": [
+      "QQQ"
+     ],
+     "title": "Medvepiacba zuhant a Nasdaq 100: 20%-kal az októberi csúcs alatt az MI-eladási hullámban",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-25/nasdaq-100-set-for-bear-market-as-ai-trade-unravels-at-the-seams",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T15:40:42Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "source": "Bloomberg · China Daily · Reuters",
+     "summary": "Guo Csia-kun, a kínai külügyminisztérium szóvivője szerdán „hamis állításnak” nevezte a túlkapacitásra hivatkozó amerikai vámjavaslatot, és tárgyalásos rendezést sürgetett. A Reuters szerint Peking nem helyezett kilátásba ellenlépéseket; egy amerikai tisztviselő az Axiosnak azt mondta, hogy a Kínát sújtó tétel 40%-ra is emelkedhet, ha a tárgyalások megakadnak. A január 10-én lejáró kereskedelmi fegyverszünet egyelőre érvényben marad.",
+     "symbols": [],
+     "title": "Kína elutasítja az új amerikai vámok indoklását, de nem fenyeget megtorlással",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-25/china-dismisses-us-tariff-prospect-as-political-maneuvering",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T15:40:42Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "source": "Brussels Signal · Democrata",
+     "summary": "Beszámolók szerint az Európai Bizottság szóvivője, Olof Gill elutasította, hogy Európa a globális túlkapacitás forrása lenne, és azt várja, hogy az amerikai Section 301-vizsgálatból fakadó intézkedések a meglévő vámokkal együtt is tiszteletben tartsák az uniós árukra vonatkozó 15%-os felső határt. Az EU arányos válaszlépést helyezett kilátásba arra az esetre, ha Washington megszegné a megállapodást. A nyilatkozatot eddig főként kisebb kiadók idézik.",
+     "symbols": [],
+     "title": "Brüsszel: az új amerikai vámoknak is a 15%-os plafon alatt kell maradniuk",
+     "url": "https://brusselssignal.eu/2026/11/us-readies-new-tariffs-on-eu-and-china-over-overcapacity/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T15:40:42Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Kalkine · Tickeron",
+     "summary": "Beszámolók szerint a Bloom Energy részvénye szerda délelőtt mintegy 11%-kal, 138–139 dollár körülre esett a keddi 156 dolláros zárásról, az MI-hez kötődő energetikai és infrastruktúra-papírok széles körű eladásának részeként. Egyes források szerint a Baird is csökkentette célárát, ezt azonban független forrás nem erősítette meg; a Morgan Stanley fenntartotta túlsúlyozási ajánlását.",
+     "symbols": [
+      "BE"
+     ],
+     "title": "Több mint 11%-ot esett a Bloom Energy az MI-infrastruktúra-papírok eladásában",
+     "url": "https://kalkine.com/news/energy/why-is-bloom-energy-nysebe-stock-down-6-pre-market-after-giving-back-most-of-mondays-surge",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T16:39:58Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "AP (ABC News) · StockAnalysis · Bloomingbit",
+     "summary": "Második napja esik a Nvidia: szerda délelőtt több mint 8%-os mínuszban állt, a két nap alatt elolvadt a Huang visszatérése utáni hétfői 31,5%-os ugrás több mint fele. A jelentések szerint a Micron 11%, a Marvell közel 9% körüli eséssel kereskedett, a Philadelphia félvezetőindex mintegy 7%-ot esett. A háttérben a vártnál magasabb PCE-infláció, az új amerikai vámtervek és az MI-beruházások megtérülésével kapcsolatos kétségek állnak.",
+     "symbols": [
+      "MRVL",
+      "MU",
+      "QQQ"
+     ],
+     "title": "Tovább mélyül a chiprészvények zuhanása: 8%-ot esett a Nvidia, közel 9%-ot a Marvell, 11%-ot a Micron",
+     "url": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T16:39:58Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · Privátbankár · Pénzcentrum",
+     "summary": "A Portfolio zárási jelentése szerint a BUX 2,0%-kal lejjebb fejezte be a szerdai kereskedést: az OTP 3,5%-ot, a Mol 1,8%-ot esett, a Magyar Telekom és a Richter viszont emelkedni tudott. A nyomást a nemzetközi technológiai eladási hullám és az új amerikai vámintézkedések okozták; az OTP szeptember közepi csúcsa óta közel 23%-ot vesztett.",
+     "symbols": [],
+     "title": "2%-os eséssel zárt a BUX, 3,5%-ot vesztett az OTP",
+     "url": "https://www.portfolio.hu/uzlet/20261125/csunya-lett-a-zaras-a-magyar-tozsden-nagyot-esett-az-otp-879136",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T17:52:00Z",
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "source": "MLQ.ai (Yahoo Finance-adatok alapján)",
+     "summary": "A STOXX 600 beszámolók szerint 1,06%-kal, 626,03 pontra esett szerdán, a DAX 1,26%-kal 24 702 pontra, az Euro STOXX 50 1,82%-kal gyengült. A reggeli emelkedés délutánra eladásba fordult, ahogy mélyült az amerikai MI- és chiprészvények zuhanása; az autógyártók megőrizték az uniós hibridautó-kvóta miatti nyereségüket.",
+     "symbols": [],
+     "title": "Több mint 1%-os eséssel zártak az európai tőzsdék, a chippapírok húzták le a piacot",
+     "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T17:52:00Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Benzinga",
+     "summary": "A Benzinga Pro adatai szerint a SpaceX részvénye szerdán napközben 8,18%-kal, 115,52 dollárra esett, folytatva a keddi gyengülést. Az eladásokat a Tesla-egyesüléssel kapcsolatos hígulási aggodalmak és az MI-papírok széles eladási hulláma kíséri; a részvény jóval a júniusi 135 dolláros IPO-ár alatt jár. Egyesülésről hivatalos bejelentés nincs.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Szerdán is mélyült a SpaceX esése: 8% feletti mínusz, 115 dollár körül a részvény",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63627528/spacex-shares-drop-wednesday-whats-going-on",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T17:52:00Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Motley Fool · GuruFocus · MarketBeat",
+     "summary": "A kedd esti, zárás utáni ingadozás után a HP részvénye szerdán a rendes kereskedésben beszámolók szerint 7–13%-kal emelkedett (a Motley Fool délelőtti összesítője szerint mintegy 11%-kal), az S&P 500 egyik legjobbja volt. Az elemzők megosztottak: a Morgan Stanley alulsúlyozást és 21 dolláros célárat tart fenn, a Citi 29 dollárra emelte célárát.",
+     "symbols": [
+      "HPQ"
+     ],
+     "title": "Fordulat a HP-nál: 10% körüli emelkedéssel kereskedik a részvény a gyorsjelentés után",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-midday-nov-25-nasdaq-plunges-4-as-ai-sell-off-deepens-and-inflation-remains-stubborn/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T18:40:09Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "source": "Reuters (S&P Global Market Intelligence) · Yahoo Finance · Disruption Banking",
+     "summary": "Az S&P Global Market Intelligence adataira hivatkozó Reuters-jelentés szerint szerdán rekordszintre emelkedett az Oracle, az Alphabet, a SpaceX és a CoreWeave ötéves hitelbiztosítási (CDS) felára. A CoreWeave-nél 1314 bázispontot ért el a felár, a SoftBanké 501 bázispontra, 2022 októbere óta a legmagasabbra nőtt. A befektetők az MI-infrastruktúra hitelből finanszírozott építése miatt aggódnak.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Rekordszintre ugrott az Oracle, a CoreWeave, az Alphabet és a SpaceX CDS-felára",
+     "url": "https://www.disruptionbanking.com/2026/11/25/why-are-ai-credit-default-swaps-hitting-record-spreads/",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T18:40:09Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "24/7 Wall St. · FourWeekMBA",
+     "summary": "A 24/7 Wall St. szerint az Anthropic részvénye szerdán mintegy 8%-ot esett, napközben 73,85 dollárig is lement, ami körülbelül 11%-kal marad el a 83 dolláros kibocsátási ártól. Ugyanebben az eladási hullámban a CoreWeave nagyjából 10%-ot, az IREN 11%-ot veszített. A beszámoló szerint Cathie Wood alapja vásárolt az esésben.",
+     "symbols": [],
+     "title": "Tovább esik az Anthropic: 8%-os mínusszal még mélyebbre került a kibocsátási ár alá",
+     "url": "https://247wallst.com/investing/2026/11/25/anthropic-sinks-8-falls-further-below-ipo-price-despite-cathie-wood-buying-the-dip-iren-tumbles-11-coreweave-retreats-10/",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T18:40:09Z",
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio · Index · Infostart",
+     "summary": "Magyar Péter miniszterelnök szerda este Brüsszelbe indult a következő hétéves uniós költségvetésről szóló kétnapos tárgyalásokra, amelyek szerinte kritikus szakaszba értek. Közlése szerint Magyarország számára több mint 30 milliárd euró a tét, a döntés decemberben várható. Vitás pont a mezőgazdasági támogatás és Ukrajna finanszírozása: Magyar szerint Magyarország segít, de nem fogadja el, hogy ez kötelező hozzájárulásként a költségvetéshez kapcsolódjon.",
+     "symbols": [],
+     "title": "Magyar Péter Brüsszelben: több mint 30 milliárd euró a tét az uniós költségvetési tárgyalásokon",
+     "url": "https://infostart.hu/belfold/2026/11/25/magyar-peter-az-utolso-elotti-kor-kovetkezik-hatalmas-osszeg-sorsa-dolhet-el",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T18:40:09Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "semleges",
+     "source": "PiQ Markets · Portfolio",
+     "summary": "Értesülések szerint Irak után szerdán Kazahsztán is elutasította az OPEC+ által rá vonatkozóan becsült kitermelési kapacitást; a Reuters forrása szerint a szövetség a héten tárgyal a vitatkozó tagokkal. A Portfolio beszámolója szerint Oroszország is megkérdőjelezi az adatokat. A kapacitásfelmérés a 2027-es kvóták alapja lehet; az OPEC+ miniszterei november 29-én üléseznek.",
+     "symbols": [
+      "XDW0"
+     ],
+     "title": "Kazahsztán is vitatja az OPEC+ kapacitásfelmérését; a Portfolio szerint Oroszország is megkérdőjelezi az adatokat",
+     "url": "https://piqmarkets.com/story/kazakhstan-joins-iraq-in-disputing-opec-capacity-ratings",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T19:39:50Z",
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "source": "Atlanta Fed · investingLive",
+     "summary": "A Fed szerdán közzétett Beige Book-jelentése szerint 12 körzetből nyolcban enyhe vagy mérsékelt volt a növekedés, négyben nem változott az aktivitás (októberben még kilenc körzet nőtt). A fogyasztás nagyjából stagnált, a foglalkoztatás kissé nőtt, a bérnövekedés gyorsult, az árak mérsékelten emelkedtek. A jelentés a december 8–9-i FOMC-ülés előtti utolsó ilyen összefoglaló.",
+     "symbols": [],
+     "title": "Fed Beige Book: 12 körzetből nyolcban nőtt a gazdaság, gyorsult a bérnövekedés",
+     "url": "https://www.atlantafed.org/what-we-study/regional-economy/beige-book/2026/11/25/beige-book-finds-modest-growth-amid-ongoing-cost-pressures",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T19:39:50Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "CNN · Yahoo Finance",
+     "summary": "A Nasdaq Composite a nyitás után 4,6%-kal is lejjebb járt, majd délutánra mérsékelte veszteségét, és 1% körüli mínuszban kereskedett. A Dow Jones a pozitív tartományba fordult, az S&P 500 kisebb eséssel forgott. A nyomást továbbra is az MI-infrastruktúra költségei miatti aggodalom és a vártnál magasabb infláció jelenti; csütörtökön a hálaadás miatt zárva lesz az amerikai tőzsde.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Lefaragta veszteségei nagy részét a Wall Street: a nyitás utáni 4,6%-os mélypontról 1% körülire mérséklődött a Nasdaq esése",
+     "url": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T19:39:50Z",
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "source": "Investing.com · CNBC",
+     "summary": "Az Oracle részvénye 2023 májusa óta a legalacsonyabb záróár felé tart, miközben a befektetők tovább adják el az MI-papírokat; a CNBC szerint több mint 4%-kal esett. A CoreWeave mintegy 10%-ot veszített, a cég hitelkockázati (CDS) felára rekordszintre emelkedett. Intraday adatok, a záróárak eltérhetnek.",
+     "symbols": [
+      "ORCL",
+      "CRWV"
+     ],
+     "title": "Hároméves mélypont felé tart az Oracle, 10%-ot zuhant a CoreWeave",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-oracle-stock-sliding-today-93CH-5051093",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T19:39:50Z",
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "source": "Yahoo Finance · CNN",
+     "summary": "A reggeli esés után fordult az Anthropic árfolyama: a részvény több mint 4%-kal emelkedett, és ismét a 83 dolláros kibocsátási ár fölött kereskedett, szembemenve a tech-szektor eladási hullámával. Kedden a papír először zárt a kibocsátási ár alatt.",
+     "symbols": [
+      "ANT"
+     ],
+     "title": "Visszapattant az Anthropic: több mint 4%-os emelkedéssel a kibocsátási ár fölé került a részvény",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-shares-rebound-more-4-135721467.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T19:39:50Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "The Block",
+     "summary": "A The Block értesülése szerint a Franklin Crypto Index ETF (EZPZ) december 1-jétől a bitcoin, az ether és más tokenek mellé a Hyperliquid HYPE tokenjét is felveszi a portfóliójába, egy szerdán a SEC-hez benyújtott tájékoztató-kiegészítés alapján. Független megerősítést nem találtunk. A HYPE közben a CoinPaper szerint 7,6%-kal 58 dollár körülire esett.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "The Block: decembertől a HYPE is bekerül a Franklin Templeton kriptoindex-ETF-jébe",
+     "url": "https://theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T19:39:50Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio",
+     "summary": "A Portfolio beszámolója szerint a kormány 40 milliárdról 50 milliárd forintra emeli jövőre a kutatásfinanszírozási program költségvetését, új alprogramokkal; a pluszforrás csúcstechnológiai és 6G-projektekre is jut. Más forrásban egyelőre nem találtunk megerősítést.",
+     "symbols": [],
+     "title": "50 milliárd forintra nő jövőre a kutatásfinanszírozási program kerete, 6G-projektek is pénzt kapnak",
+     "url": "https://www.portfolio.hu/gazdasag/20261125/csucstechnologiara-es-6g-re-dol-a-penz-jelentos-pluszforrast-kapnak-a-hazai-projektek-879044",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T20:39:22Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investor's Business Daily",
+     "summary": "Az Investor's Business Daily élő tudósítása szerint a Dow Jones szerda délutánra megfordult és mintegy 275 pontos emelkedéssel kereskedett, miközben az S&P 500 és a Nasdaq csak enyhe mínuszban volt. Az Anthropic részvénye emelkedésbe fordult, a Dell pedig az erős gyorsjelentés után ledolgozta veszteségeit.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Pluszba fordult a Dow: 275 pontos emelkedés, miután a napközbeni mélypontról visszakapaszkodott a piac",
+     "url": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T20:39:22Z",
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Blockspace Media (SemiAnalysis-elemzésre hivatkozva)",
+     "summary": "A SemiAnalysis intézményi elemzésére hivatkozó beszámolók szerint a SpaceX a kisebb Blackwell-klaszterek spot bérleti díját GPU-óránként kb. 15 dollárról 10–12 dollárra (20–35%-kal) vitte le, és új bérlőt keres egy mintegy 50 ezer H200-as klaszterre, amelynek bérletét az Anthropic nem hosszabbította meg. A SpaceX és az Anthropic nem erősítette meg az információkat.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Értesülések szerint akár 35%-kal csökkentette Blackwell GPU-bérleti díjait a SpaceX",
+     "url": "https://blockspace.media/podcast/spacex-slashes-gpu-pricing-plus-irens-selloff-and-coreweaves-distressed-bonds/?.tsrc=rss",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-25T20:39:22Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters · CNN",
+     "summary": "JD Vance alelnök szerint a kormányzat több tisztviselője is biztosította arról, hogy a Nvidia visszahelyezett vezérigazgatója ellen nem indult vizsgálat. A Reuters forrásai szerint az igazságügyi minisztérium nem nyitott hivatalos eljárást Huang ellen, mielőtt Trump a visszahelyezését szorgalmazta. Huang jövő héten a Kongresszus előtt tanúskodik.",
+     "symbols": [],
+     "title": "Vance: Jensen Huang ellen nem folyt vizsgálat, nincs szüksége kegyelemre",
+     "url": "https://www.investing.com/news/stock-market-news/vp-vance-defends-huangs-reinstatement-cites-no-probe-5051380",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T20:39:22Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A Reuters szerint az olasz kormány visszavonja azt a költségvetési intézkedést, amely a főként bankoknál lévő, mintegy 20 milliárd eurós felújítási adójóváírásokat 10 évre terítette volna szét. Az Intesa Sanpaolo vezérigazgatója és a Bank of Italy is figyelmeztetett a bankok eredményére gyakorolt hatásra; a kormány más forrásokból tartaná a hiánycélokat.",
+     "symbols": [],
+     "title": "Gesztus a bankoknak: Olaszország elejtené a lakásfelújítási adójóváírások korlátozását",
+     "url": "https://www.investing.com/news/stock-market-news/in-olive-branch-to-banks-italy-plans-to-drop-curbs-on-home-renovation-tax-credits-5051276",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T20:39:22Z",
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · CBS News",
+     "summary": "A CBS News összefoglalója szerint a gazdaság vegyes jelzéseket küld: a növekedés felgyorsult, a részvénypiac viszont hullámzik. A cikk közgazdászok magyarázatát gyűjti össze az MI-papírok eladási hulláma, az infláció és a piaci ingadozás hátteréről.",
+     "symbols": [],
+     "title": "Miért pánikolnak a befektetők, miközben szárnyal az amerikai gazdaság?",
+     "url": "https://www.cbsnews.com/news/us-economy-stocks-ai-inflation/?.tsrc=rss",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T20:39:22Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az ingatlanpiaci és építőanyag-részvények szerdán széles körben emelkedtek céges hírek nélkül: az Opendoor 11,8%-ot, az Owens Corning 6,4%-ot, a Knife River 7,1%-ot, az Eagle Materials 5,7%-ot erősödött a lakásépítők és az ágazat emelkedésével együtt.",
+     "symbols": [],
+     "title": "Erősödnek az ingatlan- és építőanyag-papírok: 12%-ot ugrott az Opendoor, 6–7%-ot az Owens Corning és a Knife River",
+     "url": "https://finance.yahoo.com/real-estate/articles/opendoor-open-stock-11-8-200019940.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-25T20:39:22Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · hvg.hu",
+     "summary": "A Portfolio szerint a visszatérő piaci félelem szerdán erősen gyengítette a forintot: az euró napközben 374,2-ig emelkedett, este 372,7 körül járt, a dollár 341 forint fölé került. A lap szerint a forint kockázatérzékenysége és a nagy spekulatív pozícióállomány miatt mozog nagyot külső sokkoknál.",
+     "symbols": [],
+     "title": "374 felett is járt az euró, este csak részben korrigált a forint",
+     "url": "https://www.portfolio.hu/deviza/20261125/visszatert-a-felelem-a-piacokra-mar-374-felett-is-jart-az-euro-878896",
      "verified": true
     }
    ],
@@ -839,7 +1272,7 @@
     }
    ],
    "summary": "A hétfői történelmi emelkedés után kedden ismét eladók vették át az irányítást a chip- és MI-részvényekben: a Nasdaq közel 1,5%-ot esett, a Nvidia 5,9%-ot, az AMD közel 9%-ot, miközben a Dow Jones értékpapírok felé forduló befektetők révén először zárt 50 000 pont felett. Zárás után a Dell rekordnegyedévvel és emelt éves céllal rukkolt elő, a HP óvatos kilátásai viszont csalódást keltettek. Az EKB-nál egyre valószínűbb a decemberi kamatemelés, Ausztráliában és Japánban gyorsult az infláció. Itthon Brüsszel a túlzottdeficit-eljárás szigorítását javasolja, ma pedig az amerikai PCE-inflációs és GDP-adat kerül a középpontba.",
-   "updatedAt": "2026-11-25T13:40:08Z",
+   "updatedAt": "2026-11-25T20:39:22Z",
    "watchlist": []
   },
   {
@@ -31840,13 +32273,13 @@
    "id": "2026-11-24-hpq-earnings"
   },
   {
-   "actual": "",
+   "actual": "+0,2% (havi); szállítóeszközök nélkül +0,5%",
    "country": "USA",
    "date": "2026-11-25",
    "event": "Tartós cikkek rendelései (október, előzetes)",
-   "forecast": "",
+   "forecast": "+0,4%",
    "importance": 1,
-   "note": "8:30 ET.",
+   "note": "8:30 ET. Várakozás: FXStreet (más források 0,6–0,7%-ot közöltek). Eredmény: Census Bureau előzetes jelentés, FXStreet, Investing Live.",
    "previous": "",
    "source": "US Census Bureau",
    "symbols": [],
@@ -31856,13 +32289,13 @@
    "id": "2026-11-25-us-durable-goods"
   },
   {
-   "actual": "PCE: 3,8% év/év (havi +0,3%); mag-PCE: 3,3% év/év (havi +0,3%)",
+   "actual": "GDP: 4,3% (évesített, 2. becslés); PCE: 3,8% év/év (havi +0,3%); mag-PCE: 3,3% év/év (havi +0,3%)",
    "country": "US",
    "date": "2026-11-25",
    "event": "GDP 3. negyedév (második becslés) és személyi jövedelem/PCE, október",
-   "forecast": "PCE 3,8% év/év; mag-PCE 3,2% év/év",
+   "forecast": "GDP 3,5%; PCE 3,8% év/év; mag-PCE 3,2% év/év",
    "importance": 3,
-   "note": "PCE-adat: Seeking Alpha, Unusual Whales, Bloomingbit egyező közlése; várakozás: FactSet. A GDP második becslésének értékét még nem sikerült két forrásból megerősíteni.",
+   "note": "GDP: BEA közlemény, Fox Business; várakozás: Reuters-konszenzus. PCE: BEA, Reuters (Investing.com), Seeking Alpha; várakozás: FactSet.",
    "previous": "GDP: 3,4% (évesített, első becslés)",
    "source": "BEA",
    "symbols": [],
@@ -31892,13 +32325,13 @@
    "id": "2026-11-25-us-de-earnings"
   },
   {
-   "actual": "",
+   "actual": "12 körzetből 8-ban enyhe–mérsékelt növekedés, 4-ben stagnálás; gyorsuló bérnövekedés, mérsékelt áremelkedés",
    "country": "US",
    "date": "2026-11-25",
    "event": "Fed Beige Book (regionális gazdasági jelentés)",
    "forecast": "",
    "importance": 2,
-   "note": "A decemberi (dec. 8–9.) FOMC-ülés előtti utolsó Beige Book; decemberben nem jelenik meg újabb.",
+   "note": "A decemberi (dec. 8–9.) FOMC-ülés előtti utolsó Beige Book; decemberben nem jelenik meg újabb. Eredmény: Atlanta Fed (a jelentést készítő tagbank), investingLive.",
    "previous": "",
    "source": "Federal Reserve eseménynaptár · Chicago Fed adatközlési naptár",
    "symbols": [],
