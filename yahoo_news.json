@@ -1,7 +1,758 @@
 {
  "source": "Yahoo Finance RSS",
- "updatedAt": "2026-11-25T10:24:32Z",
+ "updatedAt": "2026-11-25T20:08:21Z",
  "items": [
+  {
+   "title": "How retail investors are flipping the 'balance of power' in markets",
+   "link": "https://finance.yahoo.com/markets/article/how-retail-investors-are-flipping-the-balance-of-power-in-markets-200317274.html",
+   "published": "2026-11-25T20:03:17Z",
+   "publisher": "",
+   "summary": "Retail investors are having a larger impact than ever on markets, according to stock market veteran Barbara Doran, CEO of BD8 Capital Partners.",
+   "symbols": []
+  },
+  {
+   "title": "3 Glorious AI Stocks to Buy Hand Over Fist If the Stock Market Crashes",
+   "link": "https://www.fool.com/investing/2026/11/25/3-glorious-ai-stocks-to-buy-hand-over-fist-if-the-stock-market-crashes/?.tsrc=rss",
+   "published": "2026-11-25T20:02:01Z",
+   "publisher": "",
+   "summary": "A crash would put these dominant businesses on sale, and one already looks cheap.",
+   "symbols": []
+  },
+  {
+   "title": "Opendoor (OPEN) Stock Is Up 11.8% Today: Real Estate Stocks Rally",
+   "link": "https://finance.yahoo.com/real-estate/articles/opendoor-open-stock-11-8-200019940.html",
+   "published": "2026-11-25T20:00:19Z",
+   "publisher": "",
+   "summary": "Opendoor shares rose 11.8% on Wednesday, Nov. 25, as real estate stocks rallied, with no company-specific news.",
+   "symbols": []
+  },
+  {
+   "title": "Hotel101 Global (HBNB) Stock Is Up 13.7% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hotel101-global-hbnb-stock-13-200019494.html",
+   "published": "2026-11-25T20:00:19Z",
+   "publisher": "",
+   "summary": "On Wednesday, Nov. 25, the shares rose 13.7% without company-specific news",
+   "symbols": []
+  },
+  {
+   "title": "Why Centuri (CTRI) Stock Is Up Today: Joining S&P SmallCap 600",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-centuri-ctri-stock-today-200016988.html",
+   "published": "2026-11-25T20:00:16Z",
+   "publisher": "",
+   "summary": "Centuri Holdings shares rose 6.6% on Wednesday, Nov. 25, a day after the company said it will join the S&P SmallCap 600.",
+   "symbols": []
+  },
+  {
+   "title": "SpaceX Slashes GPU Pricing? Plus, IREN’s Selloff and CoreWeave’s Distressed Bonds",
+   "link": "https://blockspace.media/podcast/spacex-slashes-gpu-pricing-plus-irens-selloff-and-coreweaves-distressed-bonds/?.tsrc=rss",
+   "published": "2026-11-25T19:57:56Z",
+   "publisher": "",
+   "summary": "Today, we open up with unconfirmed reports that SpaceX is dropping its GPU rental prices, IREN's stock price selloff, and CoreWeave's bond rout.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Stock Market Today: Dow Reverses For 275-Point Gain; This Ad Firm Breaks Out (Live Coverage)",
+   "link": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html",
+   "published": "2026-11-25T19:57:02Z",
+   "publisher": "",
+   "summary": "IPO stock Anthropic is turning higher. Dell reverses losses after strong results.",
+   "symbols": []
+  },
+  {
+   "title": "Disney Stock Offers A Sizable Dividend. Ramp It Up With A Covered-Call Trade.",
+   "link": "https://finance.yahoo.com/m/22f44b26-f8a3-3ba4-8c88-1c18b8115fc7/disney-stock-offers-a-sizable.html",
+   "published": "2026-11-25T19:53:23Z",
+   "publisher": "",
+   "summary": "Disney stock has been showing strength lately. This trade can improve the media conglomerate's already healthy dividend yield.",
+   "symbols": []
+  },
+  {
+   "title": "Why are investors freaking out even as the U.S. economy surges?",
+   "link": "https://www.cbsnews.com/news/us-economy-stocks-ai-inflation/?.tsrc=rss",
+   "published": "2026-11-25T19:45:38Z",
+   "publisher": "",
+   "summary": "The economy is sending mixed signals, with growth jumping while stocks gyrate. Here's what economists say is going on.",
+   "symbols": []
+  },
+  {
+   "title": "LiveWire (LVWR) Stock Is Soaring 21.4% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/livewire-lvwr-stock-soaring-21-194518072.html",
+   "published": "2026-11-25T19:45:18Z",
+   "publisher": "",
+   "summary": "On Wednesday, Nov. 25, the shares rose 21.4% without company-specific news",
+   "symbols": []
+  },
+  {
+   "title": "Owens Corning (OC) Stock Is Up 6.4% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/owens-corning-oc-stock-6-194518230.html",
+   "published": "2026-11-25T19:45:18Z",
+   "publisher": "",
+   "summary": "On Wednesday, Nov. 25, the shares rose 6.4% without company-specific news as homebuilders gained",
+   "symbols": []
+  },
+  {
+   "title": "Eagle Materials (EXP) Stock Is Up 5.7% Today Along With Building Materials Peers",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/eagle-materials-exp-stock-5-194516127.html",
+   "published": "2026-11-25T19:45:16Z",
+   "publisher": "",
+   "summary": "Eagle Materials rose 5.7% on Wednesday, Nov. 25, without company-specific news, as construction materials peers and the materials sector also gained.",
+   "symbols": []
+  },
+  {
+   "title": "Why ADS-TEC Energy (ADSE) Stock Is Up 6.8% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-ads-tec-energy-adse-194516791.html",
+   "published": "2026-11-25T19:45:16Z",
+   "publisher": "",
+   "summary": "On Wednesday, Nov. 25, the shares rose 6.8% without company-specific news",
+   "symbols": [
+    "BE",
+    "DFEN",
+    "JPM",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Knife River (KNF) Stock Is Up 7.1% Today Alongside Materials Peers",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/knife-river-knf-stock-7-194515474.html",
+   "published": "2026-11-25T19:45:15Z",
+   "publisher": "",
+   "summary": "On Wednesday, Nov. 25, the shares rose 7.1% without company-specific news, alongside construction-materials peers.",
+   "symbols": []
+  },
+  {
+   "title": "Why Lucid Stock Is Moving in Reverse Today",
+   "link": "https://www.fool.com/investing/2026/11/25/why-lucid-stock-is-moving-in-reverse-today/?.tsrc=rss",
+   "published": "2026-11-25T19:38:59Z",
+   "publisher": "",
+   "summary": "Thought shares couldn't tumble any further? One firm says think again.",
+   "symbols": []
+  },
+  {
+   "title": "Village Super Market (VLGEA) Stock Is Down 4.5% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/village-super-market-vlgea-stock-193019588.html",
+   "published": "2026-11-25T19:30:19Z",
+   "publisher": "",
+   "summary": "On Wednesday, Nov. 25, the shares fell 4.5% without company-specific news",
+   "symbols": []
+  },
+  {
+   "title": "Compass (COMP) Stock Is Up 9.3% Today as Real Estate Stocks Rally",
+   "link": "https://finance.yahoo.com/real-estate/articles/compass-comp-stock-9-3-193017952.html",
+   "published": "2026-11-25T19:30:17Z",
+   "publisher": "",
+   "summary": "Compass shares rose 9.3% on Wednesday, Nov. 25, without company-specific news, as real estate stocks and homebuilders rallied and Treasury yields fell.",
+   "symbols": []
+  },
+  {
+   "title": "Joby (JOBY) Stock Is Up 10.8% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/joby-joby-stock-10-8-193016737.html",
+   "published": "2026-11-25T19:30:16Z",
+   "publisher": "",
+   "summary": "Joby Aviation's shares rose 10.8% on Wednesday, Nov. 25, without company-specific news, as the broader market was mixed.",
+   "symbols": []
+  },
+  {
+   "title": "Rayonier Advanced Materials (RYAM) Stock Is Up 8.5% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/rayonier-advanced-materials-ryam-stock-193013894.html",
+   "published": "2026-11-25T19:30:13Z",
+   "publisher": "",
+   "summary": "Rayonier Advanced Materials shares rose 8.5% on Wednesday, Nov. 25, without company-specific news, as materials and chemical stocks gained.",
+   "symbols": []
+  },
+  {
+   "title": "Pyrolysis Oil Market to Hit USD 4.33 Billion by 2032 as Chemical Manufacturing Investments Drive Demand Across Asia-Pacific - Mordor Intelligence",
+   "link": "https://finance.yahoo.com/energy/articles/pyrolysis-oil-market-hit-usd-193000437.html",
+   "published": "2026-11-25T19:30:00Z",
+   "publisher": "",
+   "summary": "Pyrolysis oil market growth is driven by rising demand for renewable and circular fuel substitutes, stricter plastic-waste regulations and bans worldwide, increasing chemical-recycling investments, lower refinery CAPEX through FCC and hydro-processing co-feeding, and carbon-credit monetization opportunities for low-carbon pyrolysis oil.Hyderabad, India, Nov. 25, 2026 (GLOBE NEWSWIRE) -- According ",
+   "symbols": []
+  },
+  {
+   "title": "Stocks Pare Losses as Anthropic Shares Swing Higher",
+   "link": "https://www.wsj.com/finance/stocks/nasdaq-futures-slide-as-ai-growth-fears-return-to-center-stage-ff9a6d6b?.tsrc=rss",
+   "published": "2026-11-25T19:30:00Z",
+   "publisher": "",
+   "summary": "Stocks were paring their losses heading into the Thanksgiving holiday.",
+   "symbols": []
+  },
+  {
+   "title": "Kraken’s new credit cards offer up to 4% bitcoin rewards",
+   "link": "https://finance.yahoo.com/video/kraken-credit-cards-offer-4-192100513.html",
+   "published": "2026-11-25T19:21:00Z",
+   "publisher": "",
+   "summary": "Scott Melker discusses how Kraken's (KRAK.PVT (KRAK.PVT) plans to launch credit cards in early 2027 that reward users with bitcoin (BTC-USD) on everyday purchases. The cards will offer between 1% and 4% in bitcoin rewards, depending on customers' account balances \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Meta Says Muse “Raises Conversions for Advertisers.” It Already Places 51% of AI Agent Orders",
+   "link": "https://www.tikr.com/blog/meta-says-muse-raises-conversions-for-advertisers-it-already-places-51-of-ai-agent-orders?ref=yahoofinance&tlnk=yf-261125-5g9v4pwg&.tsrc=rss",
+   "published": "2026-11-25T19:20:33Z",
+   "publisher": "",
+   "summary": "Key TakeawaysMeta was behind 51% of the AI agents placing orders over the past week, ahead of SpaceX’s Grok at 24%, and Muse can now shop Walmart’s Black Friday deals. A senior Meta executive says Muse raises conversions on the ads Meta already sells, so ads inside the agent can wait.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
+   "link": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/?.tsrc=rss",
+   "published": "2026-11-25T19:20:02Z",
+   "publisher": "",
+   "summary": "AMD is pricey, while Micron is dirt cheap.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why Alphabet Stock Is Down Today",
+   "link": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-is-down-today/?.tsrc=rss",
+   "published": "2026-11-25T19:15:01Z",
+   "publisher": "",
+   "summary": "It's never cost more to insure Alphabet's debt.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Why Did Nvidia Stock Jump So Much?",
+   "link": "https://www.trefis.com/stock/nvda/articles/628615/why-did-nvidia-stock-jump-so-much/2026-11-25?.tsrc=rss",
+   "published": "2026-11-25T19:07:03Z",
+   "publisher": "",
+   "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Tech stock sell-off persists as AI fears outweigh Huang’s Nvidia return",
+   "link": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return?.tsrc=rss",
+   "published": "2026-11-25T19:06:38Z",
+   "publisher": "",
+   "summary": "The once popular AI trade continued to unwind Wednesday, sending industry darlings including Nvidia falling again while investors looked for safety in other corners of the market.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Why SpaceX Stock Is Down Today",
+   "link": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-is-down-today/?.tsrc=rss",
+   "published": "2026-11-25T19:05:02Z",
+   "publisher": "",
+   "summary": "SpaceX's debt is getting expensive to insure.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "AST SpaceMobile Surges 9%, Erasing Early Losses as Space Stocks Diverge; SpaceX Eases, Rocket Lab Holds Steady",
+   "link": "https://247wallst.com/investing/2026/11/25/ast-spacemobile-surges-9-erasing-early-losses-as-space-stocks-diverge-spacex-eases-rocket-lab-holds-steady/?.tsrc=rss",
+   "published": "2026-11-25T19:02:30Z",
+   "publisher": "",
+   "summary": "While SpaceX slips and Rocket Lab barely moves, one space stock is staging a sharp comeback in a falling market. The bounce has a likely trigger, but one unresolved deadline could decide whether it lasts.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Ripple veteran weighs whether Wall Street can secretly buy billions in XRP",
+   "link": "https://www.thestreet.com/crypto/markets/ripple-veteran-weighs-whether-wall-street-can-secretly-buy-billions-in-xrp?.tsrc=rss",
+   "published": "2026-11-25T18:59:24Z",
+   "publisher": "",
+   "summary": "An XRP Ledger architect questions whether big players can secretly pile up XRP, and explains what hidden trading means for everyday investors.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Sector Update: Financial Stocks Rise in Afternoon Trading",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-185859010.html",
+   "published": "2026-11-25T18:58:59Z",
+   "publisher": "",
+   "summary": "Financial stocks were higher in Wednesday afternoon trading, with the NYSE Financial Index adding 0.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer Might Surprise You.",
+   "link": "https://www.fool.com/investing/2026/11/25/is-the-anthropic-ipo-to-blame-for-bitcoins-recent-downturn-the-answer-might-surprise-you/?.tsrc=rss",
+   "published": "2026-11-25T18:57:01Z",
+   "publisher": "",
+   "summary": "There's a finite amount of liquidity in the financial markets, and Bitcoin is often somewhat of a warehouse for it.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Billionaire David Tepper Just Loaded Up on SpaceX Stock. Should You Follow His Lead?",
+   "link": "https://www.fool.com/investing/2026/11/25/billionaire-david-tepper-just-loaded-up-on-spacex-stock-should-you-follow-his-lead/?.tsrc=rss",
+   "published": "2026-11-25T18:53:02Z",
+   "publisher": "",
+   "summary": "SpaceX looks like a bargain buy right now.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Why Nvidia Stock Is Falling Again",
+   "link": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-is-falling-again/?.tsrc=rss",
+   "published": "2026-11-25T18:53:02Z",
+   "publisher": "",
+   "summary": "The cost of insuring debt across the AI trade just hit record highs.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Why Alphabet Stock Fell Today (Hint: It's AI-Related)",
+   "link": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-fell-today/?.tsrc=rss",
+   "published": "2026-11-25T18:52:11Z",
+   "publisher": "",
+   "summary": "The AI enterprise sector came under pressure as investors worried about the rising costs of building frontier AI models in a highly competitive market.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Why a Single Data-Center Delay Keeps Dogging This Tech Stock",
+   "link": "https://finance.yahoo.com/m/006ce470-da71-35f6-9eb3-5be467c4a48d/why-a-single-data-center.html",
+   "published": "2026-11-25T18:51:00Z",
+   "publisher": "",
+   "summary": "Shares of circuit-board maker TTM fell sharply on worries about ongoing delays in a key data-center project.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "What's Going On With Celcuity Stock?",
+   "link": "https://www.trefis.com/stock/celc/articles/628969/what-s-going-on-with-celcuity-stock/2026-11-25?.tsrc=rss",
+   "published": "2026-11-25T18:49:41Z",
+   "publisher": "",
+   "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Jim Cramer’s 5 Long-Term Stock Picks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-5-long-term-184914882.html",
+   "published": "2026-11-25T18:49:14Z",
+   "publisher": "",
+   "summary": "A caller asked CNBC Mad Money’s Jim Cramer in November whether to buy a stock near $140 or wait. Cramer thought the difference between paying $130 and $150 would look small on a chart 10 or 15 years later. Warren Buffett made a similar point in his 1996 shareholder letter. He looked for businesses he […]",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Plug Power (PLUG) Stock Is Up 12.2% Today Without Company News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/plug-power-plug-stock-12-184517404.html",
+   "published": "2026-11-25T18:45:17Z",
+   "publisher": "",
+   "summary": "Plug Power shares rose 12.2% on Wednesday, Nov. 25, without company-specific news, even as the S&P 500 fell.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Sector Update: Healthcare Stocks Mixed Wednesday Afternoon",
+   "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-mixed-wednesday-183851394.html",
+   "published": "2026-11-25T18:38:51Z",
+   "publisher": "",
+   "summary": "Healthcare stocks were mixed Wednesday afternoon, with the NYSE Healthcare Index rising 0.3% and the",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "SpaceX stock pares losses following FCC approval for data centers in space",
+   "link": "https://finance.yahoo.com/technology/article/spacex-stock-pares-losses-following-fcc-approval-for-data-centers-in-space-183757039.html",
+   "published": "2026-11-25T18:37:57Z",
+   "publisher": "",
+   "summary": "The FCC authorized SpaceX to deploy up to 1 million data center satellites.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
+   "link": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic%2C-nvidia%2C-micron%2C-hp.html",
+   "published": "2026-11-25T18:37:00Z",
+   "publisher": "",
+   "summary": "Nvidia trades lower while Anthropic stock rebounds.",
+   "symbols": [
+    "BE",
+    "BTC",
+    "DFEN",
+    "ETH",
+    "HYPE",
+    "JPM",
+    "LLY",
+    "MRVL",
+    "MU",
+    "ONDO",
+    "QQQ",
+    "SPCX",
+    "VOO",
+    "XDW0",
+    "XRP"
+   ]
+  },
+  {
+   "title": "Musk Says Grok Bot Can Find the “Best Black Friday Deals.” Grok Already Places 24% of AI Agent Orders",
+   "link": "https://www.tikr.com/blog/musk-says-grok-bot-can-find-the-best-black-friday-deals-grok-already-places-24-of-ai-agent-orders?ref=yahoofinance&tlnk=yf-261125-2c88523j&.tsrc=rss",
+   "published": "2026-11-25T18:24:30Z",
+   "publisher": "",
+   "summary": "Key TakeawaysElon Musk is pitching Grok as a Black Friday shopper, and one study put Grok at 24% of AI agent orders last week, behind Meta’s Muse at 51%. That gives SpaceX’s AI business a shopping channel beyond renting compute to rivals.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Prediction: SpaceX Stock Will Be Worth This Much in 3 Years",
+   "link": "https://www.fool.com/investing/2026/11/25/prediction-spacex-stock-will-be-worth-this-much-in-3-years/?.tsrc=rss",
+   "published": "2026-11-25T18:20:03Z",
+   "publisher": "",
+   "summary": "It's down from its first-day closing price, but it has lots of room to grow.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "SpaceX gets approval to deploy 1 million satellites for data centers in space",
+   "link": "https://www.independent.co.uk/tech/spacex-data-center-satellites-fcc-starmind-approval-b3091649.html?.tsrc=rss",
+   "published": "2026-11-25T18:18:37Z",
+   "publisher": "",
+   "summary": "The FCC said it was approving SpaceX’s Starmind constellation to help meet rapidly growing demand for AI computing",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Stanley Druckenmiller, David Tepper and 5 Other Famous Investors Own SpaceX. Here’s Who Bought and Sold Recently",
+   "link": "https://www.tikr.com/blog/stanley-druckenmiller-david-tepper-and-5-other-famous-investors-own-spacex-heres-who-bought-and-sold-recently?ref=yahoofinance&tlnk=yf-261125-q6p7ffq8&.tsrc=rss",
+   "published": "2026-11-25T18:15:54Z",
+   "publisher": "",
+   "summary": "Key TakeawaysSeven famous investors held SpaceX at Sept. 30, and five of them bought more in the third quarter, led by David Tepper’s Appaloosa and Cathie Wood’s ARK Invest.",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Franklin Templeton Adds Hyperliquid's HYPE to Its Crypto Index ETF",
+   "link": "https://www.cryptoprowl.com/releases/franklin-templeton-adds-hyperliquids-hype-to-its-crypto-index-etf-8076?.tsrc=rss",
+   "published": "2026-11-25T18:15:00Z",
+   "publisher": "",
+   "summary": "Franklin Templeton's crypto index ETF will add Hyperliquid's HYPE (CRYPTO: $HYPE) token to its holdings on ...",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Lyft Stock Poised to Bounce Off Key Trendline",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/lyft-stock-poised-bounce-off-181455443.html",
+   "published": "2026-11-25T18:14:55Z",
+   "publisher": "",
+   "summary": "The 126-day moving average could support a rally for LYFT",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Exchange-Traded Funds Lower as US Equities Fall After Midday",
+   "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-us-181148276.html",
+   "published": "2026-11-25T18:11:48Z",
+   "publisher": "",
+   "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I",
+   "symbols": [
+    "SPCX",
+    "BE",
+    "JPM",
+    "DFEN",
+    "VOO",
+    "QQQ",
+    "XDW0"
+   ]
+  },
+  {
+   "title": "Buy This Pharma Stock for Shelter From the AI Storm",
+   "link": "https://finance.yahoo.com/m/d89537c9-bf7b-3753-9c05-b211c5d9aacb/buy-this-pharma-stock-for.html",
+   "published": "2026-11-25T18:09:00Z",
+   "publisher": "",
+   "summary": "AbbVie trades near its all-time high, but there are reasons to expect continued strong returns.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Berkshire Hathaway Is Up 15% in 2026 and Easily Beating the S&P 500. Is Berkshire Stock Better Than an Index Fund Now?",
+   "link": "https://247wallst.com/investing/2026/11/25/berkshire-hathaway-is-up-15-in-2026-and-easily-beating-the-sp-500-is-berkshire-stock-better-than-an-index-fund-now/?.tsrc=rss",
+   "published": "2026-11-25T18:02:15Z",
+   "publisher": "",
+   "summary": "While AI jitters batter tech-heavy index funds, Berkshire Hathaway keeps pulling ahead under new CEO Greg Abel. Does the conglomerate's defensive streak deserve a spot beside your ETFs, or does a tech rebound leave it behind?",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Michael Saylor reveals a Bitcoin plan that could shock investors",
+   "link": "https://www.thestreet.com/crypto/markets/michael-saylor-reveals-a-bitcoin-plan-that-could-shock-investors?.tsrc=rss",
+   "published": "2026-11-25T18:00:00Z",
+   "publisher": "",
+   "summary": "The Strategy chairman wants to buy all the Bitcoin and push the price to $10 million a coin.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Fintech CEO sells Sunset Islands mansion for $35M to mystery buyer",
+   "link": "https://finance.yahoo.com/real-estate/articles/fintech-ceo-sells-sunset-islands-180000299.html",
+   "published": "2026-11-25T18:00:00Z",
+   "publisher": "",
+   "summary": "Ripple CEO Brad Garlinghouse with Sunset Islands home at 1401 West 22nd Street Miami Beach (Getty, Compass, Garlinghouse/TechCrunch - via Wikimedia Commons)A mystery buyer snapped up a Sunset Islands waterfront mansion in Miami Beach for $34.5 million, paying more than double its last sale price from just two years ago. The 6,370-square-foot home at 1401 West 22nd Street was sold off market by the",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
+  {
+   "title": "Marvell Technology Stocks Fall 8.47% as Data Center Exposure Bites",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-stocks-fall-8-175958573.html",
+   "published": "2026-11-25T17:59:58Z",
+   "publisher": "",
+   "summary": "With 79% of revenue from data centers, Marvell is falling with the AI trade ahead of its next earnings report.",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "XRP",
+    "LLY",
+    "MU",
+    "MRVL"
+   ]
+  },
   {
    "title": "Jack Bogle Told Investors to Own the Market ‘Warts and All.’ Then Nvidia Soared 31% and Moved a 68-Year-Old’s $1 Million S&P 500 Index Fund by $16,000 in a Day",
    "link": "https://247wallst.com/investing/2026/11/25/jack-bogle-told-investors-to-own-the-market-warts-and-all-then-nvidia-soared-31-and-moved-a-68-year-olds-1-million-sp-500-index-fund-by-16000-in-a-day/?.tsrc=rss",
@@ -2649,766 +3400,6 @@
    "publisher": "",
    "summary": "Investing.com -- Gold prices edged lower on Tuesday as investors locked in gains following the previous session’s sharp rebound, while expectations of further Federal Reserve tightening kept pressure on non-yielding bullion ahead of key U.S. inflation data.",
    "symbols": []
-  },
-  {
-   "title": "TSLA And SPCX Rally As Musk Cheers Huang’s Return — Analyst Flags Nvidia’s Push To Send SpaceX More Chips",
-   "link": "https://stocktwits.com/news-articles/markets/equity/tsla-spcx-musk-cheers-huang-return-analyst-nvidia-spacex-more-chips/cNbrs1IR9jt?.tsrc=rss",
-   "published": "2026-11-24T02:12:56Z",
-   "publisher": "",
-   "summary": "ARK’s Brett Winton believes Huang ultimately favored directing additional chip supply toward SpaceX rather than financing a broader group of smaller AI infrastructure developers still struggling to bring their projects online.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "QQQ Paid a $300,000 Holder $1,524 in Dividends Over the Past Year While VYM Paid $7,164",
-   "link": "https://247wallst.com/investing/etf/2026/11/23/qqq-paid-a-300000-holder-1524-in-dividends-over-the-past-year-while-vym-paid-7164/?.tsrc=rss",
-   "published": "2026-11-24T02:03:39Z",
-   "publisher": "",
-   "summary": "A retiree who counts on a portfolio to cover groceries and utilities faces a quiet choice between two popular ETFs. One sends cash on its own, while the other forces you to sell shares, even in a month when prices are tumbling.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "QQQ Is Almost Half In 10 Stocks. This Nasdaq ETF Caps Every One at 1%",
-   "link": "https://247wallst.com/investing/etf/2026/11/23/qqq-is-almost-half-in-10-stocks-this-nasdaq-etf-caps-every-one-at-1/?.tsrc=rss",
-   "published": "2026-11-24T02:01:04Z",
-   "publisher": "",
-   "summary": "A handful of trillion-dollar giants now steer the Nasdaq-100's fate, and one rival fund refuses to let any of them run. Its approach carries a higher fee and a real risk if the winners keep winning, yet it has quietly outpaced the original this year.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Dow, Nasdaq and Bitcoin Jump on Huang's Return, but Why Did Bitcoin Reverse?",
-   "link": "https://beincrypto.com/bitcoin-reversal-huang-return-nasdaq/?.tsrc=rss",
-   "published": "2026-11-24T02:00:00Z",
-   "publisher": "",
-   "summary": "Nasdaq held a 6.5% gain on Huang's return, but a Bitcoin reversal faded the spike. Here is what likely drove it.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Bloom Energy Stock What Changed in AI Data Center Demand",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-changed-ai-011325575.html",
-   "published": "2026-11-24T01:13:25Z",
-   "publisher": "",
-   "summary": "Bloom Energy has reported strong demand for its fuel cell systems tied to AI data centers, raised its 2026 revenue forecast, and secured attention through links to Oracle’s Project Jupiter contract and renewed AI infrastructure spending. The real story is the growing need for on-site power as data centers strain local grids, which directly aligns with Bloom Energy’s core business of providing fuel",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "The Nasdaq Just Had Its Best Day Since April 2025. Anthropic Stock Fell Anyway.",
-   "link": "https://www.fool.com/investing/2026/11/23/the-nasdaq-just-had-its-best-day-since-april-2025-anthropic-stock-fell-anyway/?.tsrc=rss",
-   "published": "2026-11-24T00:42:02Z",
-   "publisher": "",
-   "summary": "Anthropic stock slipped on the Nasdaq Composite's best day since April 2025.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Tom Lee Explains Why He’s Bullish on Ethereum, Shares the “Hard Money” Case",
-   "link": "https://beincrypto.com/tom-lee-hard-money-bitcoin-ethereum-bitmine/?.tsrc=rss",
-   "published": "2026-11-24T00:33:45Z",
-   "publisher": "",
-   "summary": "BitMine bought 7,819 ETH as Tom Lee argued that Ethereum and Bitcoin are both hard money based on supply growth.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "The Midterms Put Data Center Permitting Back in Play. Here Are 2 Industrial Stocks That Win if Power Moves Behind the Meter.",
-   "link": "https://www.fool.com/investing/2026/11/23/the-midterms-put-data-center-permitting-back-in-play-here-are-2-industrial-stocks-that-win-if-power-moves-behind-the-meter-be-cat/?.tsrc=rss",
-   "published": "2026-11-24T00:31:02Z",
-   "publisher": "",
-   "summary": "Bloom Energy and Caterpillar have sold off sharply along with the AI sector, but shifting electricity trends could support long-term business success.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Elon Musk Warns AI Firms Could Face a Cash Crisis in 2027",
-   "link": "https://beincrypto.com/musk-ai-cash-crunch-spacex-exposed/?.tsrc=rss",
-   "published": "2026-11-24T00:09:53Z",
-   "publisher": "",
-   "summary": "Elon Musk warns AI firms face a 2027 cash crunch, a day after SpaceX lined up $44 billion in debt for Nvidia chips.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Home and garden retailer scales back crypto, loses $2.8M",
-   "link": "https://www.thestreet.com/crypto/markets/home-and-garden-retailer-scales-back-crypto-loses-2-8m?.tsrc=rss",
-   "published": "2026-11-24T00:09:19Z",
-   "publisher": "",
-   "summary": "iPower sold its Ether and AI-linked yield holding during the September quarter. Bitcoin remains, and crypto gains did not stop a wider company loss.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Cathie Wood Swapped Nvidia for SpaceX Over the Risk of “Losing Jensen.” Now Jensen’s Back",
-   "link": "https://247wallst.com/investing/2026/11/23/cathie-wood-swapped-nvidia-for-spacex-over-the-risk-of-losing-jensen-now-jensens-back/?.tsrc=rss",
-   "published": "2026-11-24T00:07:46Z",
-   "publisher": "",
-   "summary": "ARK dumped Nvidia because one man might walk away to join Elon Musk. Then the board did the unthinkable, and the trade started to look very different. What did Wood's bet miss, and what risks still hang over Nvidia holders?",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Own HP Stock? Memory Costs Are The Risk",
-   "link": "https://www.trefis.com/stock/hpq/articles/627662/own-hp-stock-memory-costs-are-the-risk/2026-11-23?.tsrc=rss",
-   "published": "2026-11-23T23:58:29Z",
-   "publisher": "",
-   "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Grayscale Calls Crypto Oversold as 21Shares Sticks to 2027 Bitcoin Forecast",
-   "link": "https://www.cryptoprowl.com/releases/grayscale-calls-crypto-oversold-as-21shares-sticks-to-2027-bitcoin-forecast-8037?.tsrc=rss",
-   "published": "2026-11-23T23:53:00Z",
-   "publisher": "",
-   "summary": "Two major crypto asset managers are urging investors to look past the latest selloff. Grayscale said Monday that Bi...",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Starlink’s 40x Upgrade Targets 150Mbps to Phones. AST SpaceMobile Has a Big Problem",
-   "link": "https://www.tikr.com/blog/starlinks-40x-upgrade-targets-150mbps-to-phones-ast-spacemobile-has-a-big-problem?ref=yahoofinance&tlnk=yf-261123-m4mrj3j8&.tsrc=rss",
-   "published": "2026-11-23T23:35:21Z",
-   "publisher": "",
-   "summary": "Key TakeawaysElon Musk said on Nov. 18 that SpaceX’s next direct-to-cell satellites start launching next year with 40x today’s bandwidth, and SpaceX aims for peak speeds of 150Mbps per user.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "S&P 500, Nasdaq End Best Session Since April Last Year On Optimism Led By Jensen Huang’s Reinstatement — NVDA, NASA, TTWO, AMZN In Focus",
-   "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-best-session-since-april-on-optimism-led-by-jensen-huang-s-reinstatement-nvda-nasa-ttwo-amzn-in-focus/cNbpKSnR9jY?.tsrc=rss",
-   "published": "2026-11-23T23:33:25Z",
-   "publisher": "",
-   "summary": "Nvidia’s board reinstated Jensen Huang as Nvidia’s CEO following pressure from President Donald Trump.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Retirees: Is Now the Time to Ditch S&P 500 Funds?",
-   "link": "https://www.fool.com/investing/2026/11/23/retirees-is-now-the-time-to-ditch-s-and-p-500-funds/?.tsrc=rss",
-   "published": "2026-11-23T23:33:02Z",
-   "publisher": "",
-   "summary": "The recent Nvidia scandal underscores just how vulnerable the broad index can be to tech stocks.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Forget JPMorgan: Upstart Has More to Lose From a 10% Card Rate Cap",
-   "link": "https://www.tikr.com/blog/forget-jpmorgan-upstart-has-more-to-lose-from-a-10-card-rate-cap?ref=yahoofinance&tlnk=yf-261123-2gmrm77f&.tsrc=rss",
-   "published": "2026-11-23T23:31:38Z",
-   "publisher": "",
-   "summary": "Key TakeawaysPresident Trump said on Nov. 21 that he would work with the incoming Democratic Congress to cap credit card interest rates at 10%, which would hit card issuers like JPMorgan and Capital One.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Forget AT&T and Verizon: Crown Castle Has More to Lose From Starlink’s 40x Upgrade",
-   "link": "https://www.tikr.com/blog/forget-att-and-verizon-crown-castle-has-more-to-lose-from-starlinks-40x-upgrade?ref=yahoofinance&tlnk=yf-261123-rrg4f5hj&.tsrc=rss",
-   "published": "2026-11-23T23:28:41Z",
-   "publisher": "",
-   "summary": "Key TakeawaysElon Musk said SpaceX’s next direct-to-cell satellites will have 40x the bandwidth of today’s, and that AT&T and Verizon may lose some revenue. Crown Castle has more at stake than either carrier, since AT&T and Verizon pay 51% of its tower rent.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "SpaceX Is “Following the Exact Same Pattern That Meta Followed” After Its IPO, per Steve Jurvetson. Time to Buy?",
-   "link": "https://www.tikr.com/blog/spacex-is-following-the-exact-same-pattern-that-meta-followed-after-its-ipo-per-steve-jurvetson-time-to-buy?ref=yahoofinance&tlnk=yf-261123-gjp9pmgx&.tsrc=rss",
-   "published": "2026-11-23T23:27:25Z",
-   "publisher": "",
-   "summary": "Key TakeawaysSteve Jurvetson compared SpaceX to Meta, which fell below its IPO price after peaking and then came back. Meta’s slump ended in July 2013, when a quarterly report showed mobile ads had grown to 41% of its ad revenue.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Marvell (MRVL) Stock Looks Reasonable Following Its 161% Three Year Run",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-looks-reasonable-232050664.html",
-   "published": "2026-11-23T23:20:50Z",
-   "publisher": "",
-   "summary": "Marvell Technology has delivered a powerful multiyear run in its share price, and the question now is whether the current market value can be explained by the earnings the chip designer is actually producing. Recent swings in sentiment around artificial intelligence hardware and data center infrastructure put even more focus on what investors are paying for each dollar of profit at Marvell. Over t",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Cathie Wood scraps plans for two new crypto ETFs",
-   "link": "https://www.thestreet.com/crypto/markets/cathie-wood-scraps-plans-for-two-new-crypto-etfs?.tsrc=rss",
-   "published": "2026-11-23T23:03:00Z",
-   "publisher": "",
-   "summary": "The latest move from ARK Invest comes as crypto markets search for direction.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Crypto traders saw Anthropic's 34% debut pop coming",
-   "link": "https://www.thestreet.com/crypto/markets/crypto-traders-saw-anthropics-34-debut-pop-coming-?.tsrc=rss",
-   "published": "2026-11-23T22:47:15Z",
-   "publisher": "",
-   "summary": "Weeks before bankers priced Anthropic’s IPO, a 24/7 crypto market was already trading the shares much higher. The debut showed how close it got.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "What Will 7,500 XRP Be Worth by the End of 2027?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/23/what-will-7500-xrp-be-worth-by-the-end-of-2027/?.tsrc=rss",
-   "published": "2026-11-23T22:28:23Z",
-   "publisher": "",
-   "summary": "Standard Chartered still dreams of a sevenfold rally, but a Fed hiking cycle, bleeding ETFs, and a stalled ledger vote stand in the way. Which price range can XRP holders realistically bank on before 2027 ends?",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "GMEX Robotics Corporation Announces Share Consolidation",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/gmex-robotics-corporation-announces-share-214500483.html",
-   "published": "2026-11-23T21:45:00Z",
-   "publisher": "",
-   "summary": "SYDNEY, Australia, Nov. 23, 2026 (GLOBE NEWSWIRE) -- GMEX Robotics Corporation (Nasdaq: GMEX) (the “Company”), today announced that it will effect a share consolidation of all of its issued and unissued existing Class A ordinary shares, Class B ordinary shares and Class C ordinary shares, of US$0.000001 par value each, at a ratio of 1-for-19, into one Class A, Class B and class C ordinary share of",
-   "symbols": []
-  },
-  {
-   "title": "Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains",
-   "link": "https://www.tikr.com/blog/plot-twist-cathie-wood-sold-nvidia-over-losing-jensen-nvidia-just-rehired-him-but-her-other-worry-remains?ref=yahoofinance&tlnk=yf-261123-x8fr8xv5&.tsrc=rss",
-   "published": "2026-11-23T21:44:44Z",
-   "publisher": "",
-   "summary": "Key TakeawaysNvidia shares jumped 31% today after its board reinstated Jensen Huang as CEO. Huang’s return removes the reason Cathie Wood gave for ARK’s swap out of Nvidia and into SpaceX.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Wall Street Roars Back From Brutal Selloff. Nvidia's 31% Surge Sends Nasdaq Soaring 6.5%.",
-   "link": "https://www.ibtimes.com/us-stocks-rebound-nvidia-jensen-huang-return-3810105?.tsrc=rss",
-   "published": "2026-11-23T21:43:48Z",
-   "publisher": "",
-   "summary": "The Nasdaq jumped 6.5%, while the S&P 500 and Dow also posted sharp gains as investors renewed bets on artificial intelligence companies.",
-   "symbols": []
-  },
-  {
-   "title": "Why Lumentum Holdings Stock Trounced the Market Today",
-   "link": "https://www.fool.com/investing/2026/11/23/why-lumentum-holdings-stock-trounced-the-market-today/?.tsrc=rss",
-   "published": "2026-11-23T21:42:45Z",
-   "publisher": "",
-   "summary": "Encouraging news about a crucial business partner gave the company a nice lift.",
-   "symbols": []
-  },
-  {
-   "title": "Nvidia closes up more than 30% after Jensen Huang returns as CEO",
-   "link": "https://www.euronews.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-11-days-after-he-resigned?.tsrc=rss",
-   "published": "2026-11-23T21:40:38Z",
-   "publisher": "",
-   "summary": "Nvidia shares soared from their Friday close after the company's board unanimously voted to reinstate Jensen Huang as CEO. US President Donald Trump welcomed his return.View on euronews",
-   "symbols": []
-  },
-  {
-   "title": "The Last Time the Fed Kept Raising Rates, the S&P 500 Fell 25%. History Says Long-Term Investors Still Came Out Ahead.",
-   "link": "https://www.fool.com/investing/2026/11/23/last-time-fed-kept-raising-rates-sp-500-fell-25-history-says-long-term-investors-still-came-out-ahead/?.tsrc=rss",
-   "published": "2026-11-23T21:38:10Z",
-   "publisher": "",
-   "summary": "Investors are reminded again to pay less attention to the central bank's actions.",
-   "symbols": []
-  },
-  {
-   "title": "Is XRP or Bitcoin the Better Buy After Both Fell About 20% in November?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/11/23/is-xrp-or-bitcoin-the-better-buy-after-both-fell-about-20-in-november/?.tsrc=rss",
-   "published": "2026-11-23T21:38:06Z",
-   "publisher": "",
-   "summary": "Bitcoin and XRP bled almost the same percentage last month, yet their paths back to old highs look wildly different. Supply math, ETF flows, and brutal history reveal which rebound has the stronger odds.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Coherent Is the Real Winner of Huang’s Return. Nvidia Paid $2 Billion for Its Stock",
-   "link": "https://www.tikr.com/blog/coherent-is-the-real-winner-of-huangs-return-nvidia-paid-2-billion-for-its-stock?ref=yahoofinance&tlnk=yf-261123-h5c2xv48&.tsrc=rss",
-   "published": "2026-11-23T21:34:17Z",
-   "publisher": "",
-   "summary": "Key TakeawaysCoherent shares jumped 15% after Nvidia’s board reinstated Jensen Huang as CEO, a week after Coherent fell 9% on Nvidia’s leadership turmoil. Nvidia paid $2 billion for Coherent stock in March and is the lead customer for the co-packaged optics Coherent expects to start selling in the December 2026 quarter.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Musk Posts “It Is Done” as Nvidia Rehires Huang. That’s Good News for Nvidia’s SpaceX Business",
-   "link": "https://www.tikr.com/blog/musk-posts-it-is-done-as-nvidia-rehires-huang-thats-good-news-for-nvidias-spacex-business?ref=yahoofinance&tlnk=yf-261123-qpm6hhmw&.tsrc=rss",
-   "published": "2026-11-23T21:33:46Z",
-   "publisher": "",
-   "summary": "Key TakeawaysNVIDIA’s board reinstated Jensen Huang as CEO today, and the stock jumped 31%. Cathie Wood says SpaceX committed to use only NVIDIA for its orbital data centers.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "How major US stock indexes fared Monday 11/23/2026",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-213053319.html",
-   "published": "2026-11-23T21:30:53Z",
-   "publisher": "",
-   "summary": "Nvidia led a thunderous rally on Wall Street following the surprise return of Jensen Huang as its CEO.7% Monday and recovered just over half its brutal loss from last week.",
-   "symbols": []
-  },
-  {
-   "title": "TSX Closer: The Index Closes Higher, Ends Seven-Session Losing Streak as Base Metals, Technology Stocks Surge",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-closes-higher-213002554.html",
-   "published": "2026-11-23T21:30:02Z",
-   "publisher": "",
-   "summary": "The S&P/TSX Composite Index rebounded sharply on Monday, snapping a seven-session losing streak that",
-   "symbols": []
-  },
-  {
-   "title": "Lilly highlights strength of breast cancer portfolio with new data across validated drivers of hormone receptor-positive disease at the 2026 San Antonio Breast Cancer Symposium",
-   "link": "https://finance.yahoo.com/healthcare/articles/lilly-highlights-strength-breast-cancer-213000694.html",
-   "published": "2026-11-23T21:30:00Z",
-   "publisher": "",
-   "summary": "Eli Lilly and Company (NYSE: LLY) today announced that new data from across its breast cancer portfolio, spanning early to advanced hormone receptor-positive (HR+) breast cancer, will be featured at the San Antonio Breast Cancer Symposium (SABCS), taking place December 8–11 in San Antonio, Texas. Lilly's presence marks the progress in a portfolio built around the biology of HR+ breast cancer, targ",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "J.P. Morgan Asset Management to Transfer JPMorgan Active Bond ETF (JBND) to NYSE Arca from NYSE",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/j-p-morgan-asset-management-213000067.html",
-   "published": "2026-11-23T21:30:00Z",
-   "publisher": "",
-   "summary": "J.P. Morgan Asset Management today announced the upcoming listing transfer for JPMorgan Active Bond ETF (NYSE: JBND) to the NYSE Arca from New York Stock Exchange (NYSE).",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Grayscale picks 11 winners of AI's power crunch",
-   "link": "https://www.thestreet.com/crypto/markets/grayscale-picks-11-winners-of-ais-power-crunch?.tsrc=rss",
-   "published": "2026-11-23T21:28:00Z",
-   "publisher": "",
-   "summary": "Here’s why the digital asset manager thinks Bitcoin miners already own the AI boom’s scarcest resource.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Elon Musk on his support for Jensen Huang: 'Fair-weather friends are worthless'",
-   "link": "https://finance.yahoo.com/markets/article/musk-on-support-for-jensen-huangs-return-to-nvidia-fair-weather-friends-are-worthless-212613771.html",
-   "published": "2026-11-23T21:26:13Z",
-   "publisher": "",
-   "summary": "Elon Musk once again came out in support of his friend Jensen Huang after the board unanimously decided to reinstate him as CEO.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Jensen Huang's reinstatement changes how politics, business interact forever",
-   "link": "https://finance.yahoo.com/video/jensen-huangs-reinstatement-changes-how-politics-business-interact-forever-212537409.html",
-   "published": "2026-11-23T21:25:37Z",
-   "publisher": "",
-   "summary": "The White House played a role in pressing Nvidia's (NVDA) board to reinstate Jensen Huang as CEO, president, and chairman, all of which came just hours after President Trump called into a board meeting early Monday morning. Deirdre Bosa raises questions about how involved the White House should be with Big Tech assets and the public markets.",
-   "symbols": []
-  },
-  {
-   "title": "Divided Wall Street: Wells Fargo Upgrades US Large Caps To ‘Most Favorable,’ But JPMorgan Is Taking A Measured Approach",
-   "link": "https://stocktwits.com/news-articles/markets/equity/divided-wall-street-wells-fargo-upgrades-us-large-caps-to-most-favorable-but-jp-morgan-is-taking-a-measured-approach/cNbpWcHR9jF?.tsrc=rss",
-   "published": "2026-11-23T21:24:44Z",
-   "publisher": "",
-   "summary": "Wells Fargo upgraded U.S. large-cap stocks to its top rating, while JPMorgan remains cautious about whether a rebound can hold.",
-   "symbols": [
-    "BE",
-    "DFEN",
-    "JPM",
-    "QQQ",
-    "SPCX",
-    "VOO",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Why TSMC Stock Soared Today",
-   "link": "https://www.fool.com/investing/2026/11/23/why-tsmc-stock-soared-today/?.tsrc=rss",
-   "published": "2026-11-23T21:20:49Z",
-   "publisher": "",
-   "summary": "AI stocks jumped on news of Jensen Huang's return.",
-   "symbols": []
-  },
-  {
-   "title": "US Equity Markets Rise After Nvidia Reinstates Jensen Huang as CEO",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-rise-nvidia-212021213.html",
-   "published": "2026-11-23T21:20:21Z",
-   "publisher": "",
-   "summary": "US equity indexes ended higher Monday after AI-related stocks rebounded sharply following Nvidia's (",
-   "symbols": []
-  },
-  {
-   "title": "AI Energy Stocks, From Fuel Cells To Uranium, Rebound As Nvidia Soars",
-   "link": "https://finance.yahoo.com/m/e2fe0876-9cdd-3a2d-96b4-7860f584a20d/ai-energy-stocks%2C-from-fuel.html",
-   "published": "2026-11-23T21:19:56Z",
-   "publisher": "",
-   "summary": "Beaten-down Bloom Energy led the relief rally among AI energy stocks on Monday. But there were plenty of big winners.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Wall Street stocks soar as Jensen Huang returns to Nvidia",
-   "link": "https://uk.finance.yahoo.com/news/wall-street-stocks-soar-jensen-211807890.html",
-   "published": "2026-11-23T21:18:07Z",
-   "publisher": "",
-   "summary": "US tech stocks staged a dramatic recovery on Monday after Nvidia’s shock decision to reinstate Jensen Huang.",
-   "symbols": []
-  },
-  {
-   "title": "CoreWeave Stock Forecast: 2 ETFs to Capture CRWV’s 172% Upside Potential as Cathie Wood Buys $24.7M",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-forecast-2-etfs-211621217.html",
-   "published": "2026-11-23T21:16:21Z",
-   "publisher": "",
-   "summary": "CoreWeave (CRWV) is one of the most closely watched names in the AI infrastructure sector, with analysts projecting about 172% upside over the next 12 months. The stock drew attention after Cathie Wood-led ARK Invest bought 549,659 shares worth about $24.7 million on Friday, November 20, amid the tech sell-off. For investors seeking exposure to CoreWeave without buying the stock directly, the Roun",
-   "symbols": []
-  },
-  {
-   "title": "Pre-Feasibility Study for Richmond Hill Delivers Strong Economics with US$2 Billion After-Tax NPV(5%) and 71% IRR",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/pre-feasibility-study-richmond-hill-211500684.html",
-   "published": "2026-11-23T21:15:00Z",
-   "publisher": "",
-   "summary": "Lead, South Dakota--(Newsfile Corp. - November 23, 2026) - Dakota Gold Corp. (NYSE American: DC) (\"Dakota Gold\" or the \"Company\") is pleased to report the results of its S-K 1300 Pre-Feasibility Study (\"Report\" or \"PFS\") for the Richmond Hill Oxide Heap Leach Gold Project (\"Richmond Hill\" or \"Project\") in South Dakota. The PFS was prepared in conjunction with a maiden mineral reserve and an update",
-   "symbols": []
-  },
-  {
-   "title": "BlackRock (BLK) Anchors $44 Billion GPU Financing",
-   "link": "https://finance.yahoo.com/technology/ai/articles/blackrock-blk-anchors-44-billion-211407503.html",
-   "published": "2026-11-23T21:14:07Z",
-   "publisher": "",
-   "summary": "BlackRock (NYSE: BLK) served as an anchor investor in SpaceX's record $44b GPU financing, alongside Apollo and Goldman Sachs. The GPU funding is tied to SpaceX's buildout of advanced computing capacity for AI and space-related applications. BlackRock's role centers on providing cornerstone capital to support one of the largest private technology infrastructure financings to date. BlackRock's ancho",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Why Exelixis Stock Can Keep Compounding Your Money",
-   "link": "https://www.trefis.com/stock/exel/articles/627580/why-exelixis-stock-can-keep-compounding-your-money/2026-11-23?.tsrc=rss",
-   "published": "2026-11-23T21:14:01Z",
-   "publisher": "",
-   "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
-   "symbols": []
-  },
-  {
-   "title": "China Gold International Resources And 2 Other Canadian Defensive Stocks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/china-gold-international-resources-2-210931779.html",
-   "published": "2026-11-23T21:09:31Z",
-   "publisher": "",
-   "summary": "After one of the roughest weeks for global equities in decades, with an AI driven selloff dragging major indices lower, many investors are suddenly asking how much risk their portfolio is really carrying. That is where sturdy Canadian low risk leaders come in, with stronger balance sheets and calmer trading profiles. This article walks through three such stocks that can help anchor your long term ",
-   "symbols": []
-  },
-  {
-   "title": "Should You Buy Cipher Digital Stock Now Or Wait For February?",
-   "link": "https://www.trefis.com/stock/cifr/articles/627678/should-you-buy-cipher-digital-stock-now-or-wait-for-february/2026-11-23?.tsrc=rss",
-   "published": "2026-11-23T21:02:26Z",
-   "publisher": "",
-   "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Sector Update: Financial Stocks Higher Late Afternoon",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-205942322.html",
-   "published": "2026-11-23T20:59:42Z",
-   "publisher": "",
-   "summary": "Financial stocks were advancing in late Monday trading, with the NYSE Financial Index rising 2.2% an",
-   "symbols": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "XRP",
-    "LLY",
-    "MU",
-    "MRVL"
-   ]
-  },
-  {
-   "title": "Fidelity steps in where JPMorgan retreated",
-   "link": "https://www.thestreet.com/crypto/markets/fidelity-steps-in-where-jpmorgan-retreated?.tsrc=rss",
-   "published": "2026-11-23T20:56:55Z",
-   "publisher": "",
-   "summary": "Fidelity Investments enters a territory that JPMorgan has withdrawn from.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "Trump, tech CEOs cheer Huang's return, but lawmakers question board",
-   "link": "https://www.cbsnews.com/news/trump-elon-musk-business-leaders-cheer-jensen-huang-ceo-nvidia/?.tsrc=rss",
-   "published": "2026-11-23T20:55:56Z",
-   "publisher": "",
-   "summary": "President Trump and prominent tech figures applauded Huang's reinstatement as CEO, though some lawmakers criticized the move as \"reckless.\"",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
-  },
-  {
-   "title": "3 AI Stocks Billionaire Stanley Druckenmiller Has Been Quietly Buying",
-   "link": "https://www.fool.com/investing/2026/11/23/3-ai-stocks-billionaire-stanley-druckenmiller-has-been-quietly-buying/?.tsrc=rss",
-   "published": "2026-11-23T20:50:02Z",
-   "publisher": "",
-   "summary": "Druckenmiller started new positions in SpaceX, Palantir, and AppLovin in Q3.",
-   "symbols": [
-    "SPCX",
-    "BE",
-    "JPM",
-    "DFEN",
-    "VOO",
-    "QQQ",
-    "XDW0"
-   ]
   }
  ]
 }
