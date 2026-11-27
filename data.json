@@ -1,6 +1,537 @@
 {
- "builtAt": "2026-11-26T20:56:10Z",
+ "builtAt": "2026-11-27T08:55:34Z",
  "digests": [
+  {
+   "calendar": [
+    {
+     "date": "nov. 29.",
+     "event": "OPEC+ miniszteri ülés"
+    },
+    {
+     "date": "dec. 1.",
+     "event": "Marvell gyorsjelentés; euróövezeti inflációs gyorsbecslés"
+    },
+    {
+     "date": "dec. 4.",
+     "event": "USA munkaerőpiaci jelentés"
+    },
+    {
+     "date": "dec. 9.",
+     "event": "Fed kamatdöntés"
+    },
+    {
+     "date": "dec. 15.",
+     "event": "MNB kamatdöntés"
+    },
+    {
+     "date": "dec. 17.",
+     "event": "EKB kamatdöntés; Micron gyorsjelentés"
+    }
+   ],
+   "date": "2026-11-27",
+   "generatedAt": "2026-11-27T06:49:15Z",
+   "headline": "Technológiai visszapattanás Ázsiában és a határidős piacokon, miközben a piac biztosra veszi a decemberi Fed-emelést",
+   "items": [
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · CNBC",
+     "summary": "Elon Musk csütörtökön bejelentette, hogy minden évben további egy SpaceX-részvényt ad minden amerikai gyereknek. Szerdán még arról volt szó, hogy a cég egy, Musk pedig egy saját részvényt ad minden gyerek Trump-számlájára, ami nagyjából 18 milliárd dolláros felajánlás; egyes elemzések a részvényhígulás kérdését is felvetik. A CNBC szerint a bejelentés után a SpaceX-részvény több mint 7%-kal emelkedett a Blue Ocean ATS alternatív platformon zajló éjszakai kereskedésben.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Musk: minden évben újabb SpaceX-részvényt adományoz az amerikai gyerekeknek",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/musk-says-donate-another-spacex-000147660.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Mexikó szerint a SpaceX rakétáinak ártalmas törmelékei rendszeresen partra sodródnak az országban, és a légtér zavarása miatt is aggódik. A mexikói környezetvédelmi hatóság a novemberi Starship-indítás után már a texasi határ közeli tengerparton gyűjtötte a darabokat.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Mexikó beleszólást kér a SpaceX repülési útvonalaiba a partjaira sodródó rakétatörmelékek miatt",
+     "url": "https://finance.yahoo.com/economy/policy/articles/mexico-wants-where-spacex-flies-003000153.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Barchart",
+     "summary": "A Nvidia 13F-jelentése szerint a SpaceX lett a legnagyobb amerikai részvénypozíciója, portfóliója 41%-ával, miközben Intel-részesedését csökkentette; Cathie Wood ARK alapjai is vásároltak SpaceX-et, és a héten 87,8 millió dollárnyi Anthropic-részvényt is. A december 8-i lock-up-lejárat a Barchart szerint próbára teheti az árfolyamot.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "A Nvidia és Cathie Wood is vett SpaceX-et, december 8-án jár le a tőzsdei bevezetés utáni eladási tilalom",
+     "url": "https://www.barchart.com/story/news/9022928/nvidia-cut-its-intel-stake-and-bought-more-spacex-cathie-wood-is-buying-too-why-spcx-stock-faces-a-big-test-on-december-8",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TIKR",
+     "summary": "Stanley Druckenmiller szerint legalább 70% az esélye, hogy a következő évtizedben űrben működő adatközpontok lesznek. Családi irodája, a Duquesne a harmadik negyedévben nagyjából 30,5 millió dolláros új pozíciót nyitott a SpaceX-ben.",
+     "symbols": [
+      "SPCX"
+     ],
+     "title": "Druckenmiller legalább 70% esélyt lát űrbeli adatközpontokra tíz éven belül, a Duquesne SpaceX-et vett",
+     "url": "https://finance.yahoo.com/technology/ai/articles/stanley-druckenmiller-sees-70-chance-213004535.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Micron szerdán 4,53%-kal esett, miután a TrendForce csökkentette 2027-es előrejelzéseit. A kínai felhőszolgáltatók visszafogják 2027-es rendeléseiket, ami a NAND-chipek árait csökkenő ciklusba tolja, a DRAM-piac viszont szűkös marad.",
+     "symbols": [
+      "MU"
+     ],
+     "title": "4,5%-ot esett a Micron, miután a TrendForce lefaragta 2027-es memóriapiaci előrejelzését",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-4-53-172600974.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "A Marvell opciói a gyorsjelentés napjára mintegy 16%-os elmozdulást áraznak. A Wall Street 52,2%-os negyedéves bevételnövekedést vár, a befektetők a cég MI-stratégiáját figyelik.",
+     "symbols": [
+      "MRVL"
+     ],
+     "title": "Az opciós piac 16%-os árfolyammozgást áraz a Marvell gyorsjelentésére",
+     "url": "https://finance.yahoo.com/markets/options/articles/marvell-options-price-16-earnings-174309753.html",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · TheStreet",
+     "summary": "Az amerikai XRP-ETF-ekbe szerdán végre nettó tőkebeáramlás érkezett. Ez fordulatot jelent a korábbi gyenge kereslet után.",
+     "symbols": [
+      "XRP"
+     ],
+     "title": "Visszatértek a vevők: nettó beáramlást hoztak az XRP-ETF-ek",
+     "url": "https://www.thestreet.com/crypto/markets/buyers-finally-return-to-xrp",
+     "verified": true
+    },
+    {
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Yahoo Finance",
+     "summary": "Az ázsiai tőzsdék pénteken emelkedtek a technológiai papírok erősödése és az enyhülő amerikai kereskedelmi aggodalmak nyomán. Csütörtök este az amerikai határidős indexek is meredeken emelkedtek, a Nasdaq-határidős 1,7%-ot erősödött a megtépázott MI-papírok visszapattanására tett fogadások miatt.",
+     "symbols": [
+      "QQQ",
+      "VOO"
+     ],
+     "title": "Ázsiában is folytatódik a technológiai visszapattanás, a Nasdaq-határidős 1,7%-kal emelkedett",
+     "url": "https://www.investing.com/news/stock-market-news/asian-stocks-rise-as-tech-rebound-easing-us-trade-concerns-lift-sentiment-5052839",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A globális kötvénypiaci emelkedés megtorpant, miután az októberi PCE-adat szerint a maginfláció 3,3%-ra gyorsult. A CME FedWatch alapján a piac 94–99% közötti esélyt áraz egy decemberi 25 bázispontos Fed-kamatemelésre.",
+     "symbols": [],
+     "title": "Kifulladt a kötvényrally: a ragadós PCE-infláció után biztosra veszik a decemberi Fed-emelést",
+     "url": "https://www.investing.com/news/forex-news/global-bond-rally-eases-as-sticky-pce-locks-in-december-fed-hike-5052104",
+     "verified": true
+    },
+    {
+     "category": "Jegybankok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Tokióban a friss élelmiszerek nélküli fogyasztói árindex novemberben 2,9%-kal nőtt éves alapon, az októberi 2,6% után, de kissé elmaradt a várt 3,0%-tól. Az emelkedést részben a közüzemi támogatások megszűnése okozta; a Reuters felmérésében az elemzők többsége decemberi japán kamatemelést vár.",
+     "symbols": [],
+     "title": "16 havi csúcsra, 2,9%-ra gyorsult a tokiói maginfláció, erősödik a decemberi BoJ-emelés esélye",
+     "url": "https://www.investing.com/news/economic-indicators/core-inflation-in-japans-capital-accelerates-in-november-5052767",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A kínai statisztikai hivatal szerint az ipari vállalatok nyeresége októberben 20,1%-kal nőtt éves alapon, ami májusa óta a leggyorsabb ütem; január–októberben 16,0% a bővülés. A növekedést az MI-keresletre épülő elektronikai és csúcstechnológiai ágazat húzta, a fogyasztói szektorok gyengék maradtak.",
+     "symbols": [],
+     "title": "20,1%-kal nőttek a kínai ipari vállalatok profitjai októberben",
+     "url": "https://www.investing.com/news/economic-indicators/chinas-industrial-firms-post-faster-profit-growth-as-recovery-remains-uneven-5052818",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Donald Trump amerikai elnök vizsgálatot sürget a félidős választások előtt nyilvánosságra hozott GDP-adatok ügyében. A lépés újabb nyomást helyez az amerikai statisztikai hivatalokra.",
+     "symbols": [],
+     "title": "Vizsgálatot követel Trump a félidős választások előtt közzétett GDP-adatok miatt",
+     "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A brazil tőzsde fő indexe csütörtökön 4,30%-os emelkedéssel zárt. A latin-amerikai piacokon vegyes volt a kép, a mexikói index 1,33%-ot esett.",
+     "symbols": [],
+     "title": "4,3%-kal emelkedett a brazil Bovespa index",
+     "url": "https://www.investing.com/news/stock-market-news/brazil-stocks-higher-at-close-of-trade-bovespa-up-430-5052714",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Az új-zélandi választás hivatalos eredménye szerint egyik tömb sem szerzett egyértelmű többséget. A koalíciós tárgyalások az eredményre vártak.",
+     "symbols": [],
+     "title": "Függő parlamentet mutat az új-zélandi választás eredménye",
+     "url": "https://www.investing.com/news/stock-market-news/new-zealand-election-result-shows-hung-parliament-93CH-5052831",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Franciaországban az ipari termelői árak októberben 9,6%-kal haladták meg az egy évvel korábbit. Az adat az erős költségoldali inflációs nyomásra utal.",
+     "symbols": [],
+     "title": "Éves alapon 9,6%-kal nőttek a francia ipari termelői árak októberben",
+     "url": "https://www.investing.com/news/economic-indicators/french-industrial-producer-prices-rise-96-yearonyear-in-october-93CH-5052175",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "semleges",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "A dollár 22 hónapos csúcs közelében mozog, mivel az MI-vel kapcsolatos aggodalmak tovább élnek. A Reuters szerint a részvénypiacok egy viharos hónap után stabilizálódnak, a dollár pedig harmadik egymást követő havi emelkedése felé tart.",
+     "symbols": [],
+     "title": "22 havi csúcs közelében a dollár, harmadik havi emelkedése felé tart",
+     "url": "https://www.investing.com/news/economy-news/dollar-lingers-near-22month-peak-as-ai-worries-simmer-5052803",
+     "verified": true
+    },
+    {
+     "category": "Globális piacok",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Szingapúr újragondolásra szólította fel az USA-t az újonnan javasolt vámok ügyében. A kormány szerint nagyon csalódott a döntés miatt.",
+     "symbols": [],
+     "title": "Szingapúr nagyon csalódott az új amerikai vámok miatt",
+     "url": "https://www.investing.com/news/economic-indicators/singapore-very-disappointed-over-new-tariffs-urges-us-to-reconsider-5052469",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Investing.com · Reuters",
+     "summary": "Az olajár pénteken vegyesen mozgott, de a hónap első heti emelkedése felé tart, mert a szaúdi energetikai létesítmények és a Hormuzi-szoros körüli hajók elleni újabb támadások veszélyeztetik a kínálat helyreállását. A Standard Chartered szerint a Brent közel 96 dollárra pattant vissza, és újabb sokk kellene a további eséshez.",
+     "symbols": [],
+     "title": "Első novemberi heti emelkedése felé tart az olaj, a Brent a havi csúcs közelében",
+     "url": "https://finance.yahoo.com/energy/articles/oil-set-first-weekly-gain-024015834.html",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Kijev közlése szerint orosz támadás ért két gabonát szállító hajót Odessza kikötőinek közelében. A fekete-tengeri gabonafolyosó elleni támadások a gabonapiacra is kockázatot jelentenek.",
+     "symbols": [],
+     "title": "Ukrajna szerint Oroszország két gabonaszállító hajót talált el az odesszai kikötőknél",
+     "url": "https://www.investing.com/news/commodities-news/ukraine-says-russia-hits-two-grain-ships-near-odesa-ports-5052479",
+     "verified": true
+    },
+    {
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A réz ára 11 hónapos mélypontjáról emelkedett, ami felhúzta a londoni bányavállalatok árfolyamát. A nyersanyag-részvények az európai piaci visszapattanás egyik húzóerejét adták.",
+     "symbols": [],
+     "title": "11 havi mélypontról pattant vissza a réz, emelkedtek a brit bányapapírok",
+     "url": "https://www.investing.com/news/stock-market-news/uk-miners-rise-as-copper-rebounds-from-11month-low-5052372",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Bloomberg",
+     "summary": "A Bloomberg értesülése szerint az új amerikai MI-chipexport-korlátozások milliárdos ázsiai adatközponti ügyleteket állítottak le. A szigorítás a régió MI-infrastruktúra-beruházásait lassítja.",
+     "symbols": [],
+     "title": "Bloomberg: dollármilliárdos ázsiai adatközponti üzleteket akasztanak meg az amerikai MI-chipkorlátozások",
+     "url": "https://www.investing.com/news/stock-market-news/us-ai-chip-curbs-stall-billions-in-asia-data-center-deals-bloomberg-reports-5052819",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "Szingapúr miniszterelnök-helyettese szerint az ország még nem tudja megerősíteni, hogy a Nvidia leállította a fejlett chipek szállítását. Az FT korábban arról írt, hogy a Nvidia négy délkelet-ázsiai országba szüneteltette a szerverszállításokat.",
+     "symbols": [],
+     "title": "Szingapúr még nem erősítette meg, hogy a Nvidia leállította a fejlett chipek szállítását",
+     "url": "https://www.investing.com/news/stock-market-news/singapore-yet-to-confirm-if-nvidia-has-halted-advanced-chip-shipments-deputy-pm-5052834",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "pozitív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Japan Tobacco részvényei pénteken Tokióban jelentősen emelkedtek, miután a Bloomberg arról írt, hogy a cég az Imperial Brands megvásárlását vizsgálja. Az Altria csütörtökön jelezte, hogy készpénzes ajánlatot fontolgat az Imperialra; a Japan Tobacco a spekulációkat nem kommentálja.",
+     "symbols": [],
+     "title": "Meglódult a Japan Tobacco árfolyama az Imperial Brands felvásárlásáról szóló értesülésre",
+     "url": "https://www.investing.com/news/stock-market-news/japan-tobacco-shares-surge-on-report-of-imperial-brands-takeover-5052817",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance",
+     "summary": "Az Alphabet ötéves CDS-felára rekordszintre emelkedett, miután a harmadik negyedéves 51,4 milliárd dolláros beruházási kiadás negatívba fordította a szabad pénzáramot. A részvény 2,13%-kal esett.",
+     "symbols": [],
+     "title": "Rekordon az Alphabet csődkockázati felára, 2,1%-ot esett a részvény",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com",
+     "summary": "A Barclays rontotta európai targoncagyártók ajánlását, miután a kínai import a harmadik negyedévben 51%-kal nőtt. A bank szerint a kínai verseny nyomás alá helyezi a szektort.",
+     "symbols": [],
+     "title": "Barclays: leminősítette az európai targoncagyártókat a kínai import 51%-os ugrása miatt",
+     "url": "https://www.investing.com/news/stock-market-news/barclays-downgrades-european-forklift-makers-as-chinese-imports-jump-51-in-q3-5052419",
+     "verified": true
+    },
+    {
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Mining Technology",
+     "summary": "A svéd Sandvik megveszi a brazíliai Itabiritóban működő Del Rey Mineralst. A cég a Sandvik kőzetfeldolgozási üzletágához csatlakozik.",
+     "symbols": [],
+     "title": "Felvásárolja a brazil Del Rey Mineralst a Sandvik",
+     "url": "https://www.mining-technology.com/news/sandvik-to-acquire-del-rey-minerals/",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "pozitív",
+     "origin": "yahoo",
+     "source": "Yahoo Finance · Unchained",
+     "summary": "A Fidelity előzetes SEC-beadványt nyújtott be egy spot Chainlink-ETF-re, a Grayscale és a Bitwise után. A dokumentum Nasdaq-jelölést és három letétkezelőt nevez meg, a díjat nem tartalmazza, és kizárja a stakinget.",
+     "symbols": [],
+     "title": "A Fidelity is spot Chainlink-ETF-et kérelmezett",
+     "url": "https://unchainedcrypto.com/fidelity-files-for-a-spot-chainlink-etf-following-grayscale-and-bitwise/",
+     "verified": true
+    },
+    {
+     "category": "Kripto",
+     "impact": "negatív",
+     "origin": "investing",
+     "source": "Investing.com · Reuters",
+     "summary": "Kutatók szerint az észak-koreai pénzmosók kisebb, kevéssé ismert kriptoszolgáltatásokhoz fordultak a Binance elleni támadásból származó vagyon mozgatására. Az FBI a TraderTraitor csoportot tette felelőssé a rekordméretű lopásért.",
+     "symbols": [],
+     "title": "Kevéssé ismert kriptoszolgáltatásokon mossák tisztára a Binance-től zsákmányolt pénzt az észak-koreai hackerek",
+     "url": "https://www.investing.com/news/economy-news/north-korean-launderers-turn-to-littleknown-crypto-services-to-move-binance-haul-say-researchers-5052603",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Economx · Portfolio",
+     "summary": "Az Economx szerint a forint péntek reggelre a főbb devizákkal szemben is erősödött a csütörtök esti szinthez képest. Reggel 7-kor az euró 370,56, a dollár 337,56, a svájci frank 404,64 forinton állt.",
+     "symbols": [],
+     "title": "Tovább erősödött a forint péntek reggel, 370,6 körül az euró",
+     "url": "https://www.economx.hu/tozsde/2026/11/27/forint-euro-dollar-devizapiac-svajci-frank/",
+     "verified": true
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio",
+     "summary": "A Portfolio értesülése szerint a KSH a 2024-es és 2025-ös fogyasztási adatok COICOP szerinti bontását is felülvizsgálja, a ruházati termékeket is beleértve. A hivatal ezt a lap megkeresésére közölte.",
+     "symbols": [],
+     "title": "Újabb revíziót jelzett a KSH a fogyasztási adatoknál",
+     "url": "https://www.portfolio.hu/gazdasag/20261126/ugy-tunik-kitort-a-divatlaz-magyarorszagon-vagy-megsem-879008",
+     "verified": false
+    },
+    {
+     "category": "Magyarország",
+     "impact": "semleges",
+     "source": "Portfolio",
+     "summary": "A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium 23 intézmény és állami cég – köztük a Nemzeti Színház és a Petőfi Kulturális Ügynökség – gazdálkodását vizsgálja. Az ellenőrzés a 2022. január 1. és 2026. szeptember 1. közötti időszakra terjed ki.",
+     "symbols": [],
+     "title": "23 állami intézmény gazdálkodását világítja át a kormány",
+     "url": "https://www.portfolio.hu/gazdasag/20261126/atfogo-ellenorzest-inditott-a-kormany-huszonharom-intezmenyt-vilagitanak-at-879418",
+     "verified": false
+    },
+    {
+     "addedAt": "2026-11-27T07:40:04Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "Portfolio · SCMP · Euronews",
+     "summary": "Az uniós vezetők több mint 12 órás tárgyalás után sem jutottak megállapodásra a 2028–2034-es hétéves költségvetésről, a következő kísérlet a december 17-én kezdődő csúcs lesz. Magyar Péter miniszterelnök szerint a kormány nem enged a vitában: Magyarország nem fogad el olyan költségvetést, amely csökkenti a kohéziós és agrárforrásait vagy növeli a befizetéseit.",
+     "symbols": [],
+     "title": "Eredmény nélkül ért véget az EU-csúcs, Magyar Péter szerint szinte nulla az esély a költségvetési megállapodásra",
+     "url": "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-magyar-peter-elkoszont-a-kudarcos-eu-csucsrol-itthon-zajlik-a-parlamenti-ules-879574",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T07:40:04Z",
+     "category": "Vállalatok és technológia",
+     "impact": "semleges",
+     "source": "CNBC · Bloomberg",
+     "summary": "A Bloomberg névtelen forrásokra hivatkozó értesülése szerint a német szoftvercég a globális létszám legalább 9%-át érintő leépítést mérlegel, főként a termékfejlesztési, mérnöki és értékesítési területeken. A végleges szám még nem dőlt el, és a munkavállalói egyeztetések után változhat. Az SAP nem erősítette meg a tervet, csak annyit közölt, hogy folyamatosan felülvizsgálja a szervezetét.",
+     "symbols": [],
+     "title": "Bloomberg: legalább 10 ezer állás megszüntetését fontolgatja az SAP az MI-átalakítás keretében",
+     "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T07:40:04Z",
+     "category": "Figyelőlista",
+     "impact": "semleges",
+     "source": "FXStreet · CryptoTicker · CoinGecko",
+     "summary": "A Deribit adatai szerint pénteken 08:00 UTC-kor nagyjából 7 milliárd dollárnyi bitcoin- és mintegy 600 millió dollárnyi ether-opció jár le. A put/call arány az októberi 0,55-ről 0,89-re emelkedett, ami a védekező, eső árfolyamra szóló fogadások térnyerését jelzi. A bitcoin a lejárat előtt 60–62 ezer dollár körül, a hét eleji 57 ezer dollár közeli mélypont felett mozgott.",
+     "symbols": [
+      "BTC",
+      "ETH"
+     ],
+     "title": "Mintegy 7 milliárd dollárnyi bitcoin-opció jár le ma a Deribiten, nőtt a védekező pozíciók aránya",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october-202611261233",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T07:40:04Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "Cointelegraph · Crypto Times · crypto.news",
+     "summary": "Az Ethereum fejlesztői a csütörtöki egyeztetésen december 15-ét (19:12 UTC) jelölték ki a Glamsterdam aktiválására a Hoodi tesztneten, amely az utolsó teszthálózat a főhálózat előtt. Az eredetileg októberre tervezett bevezetést a gázárazási változtatások okozta okosszerződés-hibák miatt halasztották el. Főhálózati dátum még nincs, az Ethereum Foundation egyik kutatója szerint legkorábban január közepe jöhet szóba.",
+     "symbols": [
+      "ETH"
+     ],
+     "title": "December 15-re tűzték ki az Ethereum Glamsterdam-frissítését a Hoodi tesztneten",
+     "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T08:55:00Z",
+     "category": "Globális piacok",
+     "impact": "pozitív",
+     "source": "Reuters (Zawya) · Irish Times",
+     "summary": "A STOXX 600 index péntek reggel 0,9%-kal, 642,65 pontra emelkedett a Reuters szerint, a technológiai szektor 2,3%-kal, a bányapapírok mintegy 3,5%-kal erősödtek. A félvezetős papírok (ASML, ASM International, Infineon) vezették az emelkedést. Az index heti emelkedés felé tart a 2025 márciusa óta legmeredekebb heti esése után.",
+     "symbols": [],
+     "title": "Tovább emelkednek az európai tőzsdék, a STOXX 600 heti emelkedés felé tart",
+     "url": "https://www.zawya.com/en/capital-markets/europes-stoxx-600-rises-as-tech-shares-rebound-after-ai-driven-rout-2454488",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T08:55:00Z",
+     "category": "Nyersanyagok és geopolitika",
+     "impact": "pozitív",
+     "source": "CNBC (Reuters)",
+     "summary": "Az azonnali arany péntek reggel mintegy 1,6%-kal, 3622,91 dollárra drágult unciánként, miután szerdán a 2025 szeptembere óta legalacsonyabb szintjére esett a vártnál magasabb amerikai infláció nyomán. Az ezüst 4,6%-kal, 43,40 dollárra, a platina 2,6%-kal emelkedett. Az arany mintegy 2,7%-os heti emelkedés felé tart.",
+     "symbols": [],
+     "title": "Egyéves mélypontjáról pattant vissza az arany, az ezüst 4,6%-ot emelkedett",
+     "url": "https://www.cnbc.com/2026/11/27/gold-metals-silver-markets-federal-reserve.html",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T08:55:00Z",
+     "category": "Magyarország",
+     "impact": "pozitív",
+     "source": "Portfolio · Privátbankár · Világgazdaság",
+     "summary": "A budapesti tőzsde fő indexe, a BUX 1,9%-os emelkedéssel, 138 504 ponton nyitott pénteken a Portfolio szerint. Az OTP 2,9%-kal erősödött a kereskedés elején, a Mol és a Richter is jelentős pluszban volt. A BUX idén eddig mintegy 22,5%-ot emelkedett.",
+     "symbols": [],
+     "title": "Közel 2%-os emelkedéssel nyitott a BUX, az OTP vezeti a rallit",
+     "url": "https://www.portfolio.hu/uzlet/20261127/kilott-a-magyar-tozsde-tepik-az-otp-t-879620",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T08:55:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "KSH · Portfolio · Világgazdaság",
+     "summary": "A KSH szerint 2026 októberében 1,6 millió vendég 3,8 millió vendégéjszakát töltött el a turisztikai szálláshelyeken; a vendégek száma 2,7%-kal csökkent, a vendégéjszakáké nem változott egy év alatt. A külföldi vendégek száma 5,7%-kal esett, a belföldieké 0,3%-kal nőtt. Január–októberben 16,6 millió vendéget regisztráltak, 1,3%-kal kevesebbet, mint egy éve.",
+     "symbols": [],
+     "title": "KSH: októberben 2,7%-kal kevesebb vendég szállt meg, a külföldiek száma 5,7%-kal esett",
+     "url": "https://www.portfolio.hu/gazdasag/20261127/bajban-a-magyar-turizmus-879588",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T08:55:00Z",
+     "category": "Magyarország",
+     "impact": "negatív",
+     "source": "KSH · Portfolio · Economx",
+     "summary": "A KSH előzetes adatai szerint októberben 5802 gyermek született, 3,5%-kal kevesebb, mint egy éve, és 10 029-en hunytak el; a természetes fogyás 4227 fő volt. A házasságkötések száma 17%-kal, 3459-re esett. A teljes termékenységi arányszám becslés szerint 1,29 volt az egy évvel korábbi 1,31 után.",
+     "symbols": [],
+     "title": "KSH: tovább csökkent a születések száma, 1,29-re esett a termékenységi arányszám",
+     "url": "https://www.portfolio.hu/gazdasag/20261127/nincs-vege-a-magyar-szuletesszam-zuhanasanak-879580",
+     "verified": true
+    },
+    {
+     "addedAt": "2026-11-27T08:55:00Z",
+     "category": "Figyelőlista",
+     "impact": "pozitív",
+     "source": "crypto.news · Benzinga",
+     "summary": "A crypto.news szerint a Hyperliquid tokenje pénteken mintegy 6,8%-kal, 65,70 dollár körülire emelkedett napon belüli mélypontjáról, a befektetők a Franklin Templeton kripto-index ETF-jébe (EZPZ) való felvételre készülnek. Az SEC-hez november 25-én benyújtott tájékoztató szerint az alap december 1. körül kezdi tartani a HYPE-ot. Az árfolyammozgás okát más forrás nem erősítette meg, egyes elemzések szerint nincs mögötte friss hír.",
+     "symbols": [
+      "HYPE"
+     ],
+     "title": "Emelkedik a HYPE a Franklin Templeton kripto-index ETF-jébe való december 1-jei felvétel előtt",
+     "url": "https://crypto.news/why-is-hyperliquid-price-going-up-today-can-hype-reclaim-75/",
+     "verified": false
+    }
+   ],
+   "markets": [
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "Fed célsáv",
+     "note": "Október 28-án változatlan; következő döntés: december 9.",
+     "value": "3,75–4,00%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "EKB betéti ráta",
+     "note": "Október 29-én változatlan; következő döntés: december 17.",
+     "value": "2,50%"
+    },
+    {
+     "change": "",
+     "group": "Kamat",
+     "name": "MNB alapkamat",
+     "note": "November 17-én változatlan; következő döntés: december 15.",
+     "value": "5,50%"
+    }
+   ],
+   "summary": "A hálaadási szünnap után az amerikai határidős indexek meredeken emelkedtek, a Nasdaq-határidős 1,7%-ot erősödött, pénteken pedig az ázsiai tőzsdék is a technológiai papírok visszapattanására építettek. Kínában az ipari profitok októberben 20,1%-kal nőttek, Tokióban 16 havi csúcsra, 2,9%-ra gyorsult a maginfláció, ami a decemberi japán kamatemelést valószínűsíti. A ragadós amerikai PCE-infláció után a piac 94–99%-os esélyt áraz decemberi Fed-emelésre, a dollár 22 havi csúcs közelében jár. Az olaj a Közel-Keleten folytatódó támadások miatt heti emelkedés felé tart, a Japan Tobacco pedig az Imperial Brands felvásárlásáról szóló értesülésre ugrott.",
+   "updatedAt": "2026-11-27T08:55:00Z",
+   "watchlist": []
+  },
   {
    "calendar": [
     {
@@ -33319,14 +33850,14 @@
    "id": "2026-11-26-us-thanksgiving"
   },
   {
-   "actual": "",
+   "actual": "Mag-CPI: 2,9% év/év (friss élelmiszer és energia nélkül: 2,5%)",
    "country": "Japán",
    "date": "2026-11-27",
    "event": "Tokiói fogyasztói árindex (november, előzetes)",
-   "forecast": "",
+   "forecast": "Mag-CPI: 3,0% év/év",
    "importance": 2,
-   "note": "A japán statisztikai hivatal hivatalos közzétételi naptára szerint; 08:30 tokiói idő.",
-   "previous": "",
+   "note": "Forrás: Reuters (Investing.com, Yahoo Finance), investingLive; 16 havi csúcs.",
+   "previous": "Mag-CPI: 2,6% év/év",
    "source": "Statistics Bureau of Japan",
    "symbols": [],
    "time": "00:30",
